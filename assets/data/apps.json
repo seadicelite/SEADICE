@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "appId": "focus_dice",
+      "title": "Focus Dice",
+      "icon": "assets/icons/focus_dice.png",
+      "links": {
+        "web": "https://seadice.app/focus_dice",
+        "google": "https://play.google.com/xxx",
+        "ios": "https://seadice.app/focus_dice"
+      }
+    }
+  ]
+}

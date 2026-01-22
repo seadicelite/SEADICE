@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -9,36 +10,57 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _scale;
-  late Animation<Offset> _offset;
+  int _index = 0;
+  Timer? _timer;
+
+  late AnimationController _fadeController;
+  late Animation<double> _fadeAnimation;
+
+  final List<_HeroTextItem> _texts = const [
+    _HeroTextItem(
+      title: 'AI, Naturally',
+      subtitle: 'Small, useful, fun apps for everyday moments.',
+    ),
+    _HeroTextItem(
+      title: 'Intuitive',
+      subtitle: 'Games, utilities, and learning tools — all in one place.',
+    ),
+    _HeroTextItem(
+      title: 'Built around you',
+      subtitle: 'Explore what fits your style and your day.',
+    ),
+  ];
 
   @override
   void initState() {
     super.initState();
 
-    // 15秒で往復（ゆっくり）
-    _controller = AnimationController(
+    _fadeController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 15),
-    )..repeat(reverse: true);
+      duration: const Duration(milliseconds: 600),
+    );
 
-    // ゆっくりズーム
-    _scale = Tween<double>(
-      begin: 1.0,
-      end: 1.05,
-    ).animate(CurvedAnimation(parent: _controller, curve: Curves.linear));
+    _fadeAnimation = CurvedAnimation(
+      parent: _fadeController,
+      curve: Curves.easeInOut,
+    );
 
-    // わずかに斜め移動（動画っぽさ）
-    _offset = Tween<Offset>(
-      begin: const Offset(-0.02, 0.02),
-      end: const Offset(0.02, -0.02),
-    ).animate(CurvedAnimation(parent: _controller, curve: Curves.linear));
+    _fadeController.forward();
+
+    _timer = Timer.periodic(const Duration(seconds: 4), (_) async {
+      await _fadeController.reverse();
+      if (!mounted) return;
+      setState(() {
+        _index = (_index + 1) % _texts.length;
+      });
+      _fadeController.forward();
+    });
   }
 
   @override
   void dispose() {
-    _controller.dispose();
+    _timer?.cancel();
+    _fadeController.dispose();
     super.dispose();
   }
 
@@ -47,9 +69,9 @@ class _HomePageState extends State<HomePage>
     return Scaffold(
       backgroundColor: const Color(0xFF0F0F0F),
 
-      // ===============================
-      // AppBar（ロゴ＋テキスト）
-      // ===============================
+      /// ===============================
+      /// AppBar
+      /// ===============================
       appBar: AppBar(
         backgroundColor: const Color(0xFF0F0F0F),
         elevation: 0,
@@ -66,26 +88,15 @@ class _HomePageState extends State<HomePage>
         ),
       ),
 
-      // ===============================
-      // Hero
-      // ===============================
+      /// ===============================
+      /// Body
+      /// ===============================
       body: Stack(
         children: [
-          /// 背景（1枚画像＋超スローアニメ）
-          Positioned.fill(
-            child: AnimatedBuilder(
-              animation: _controller,
-              builder: (context, child) {
-                return FractionalTranslation(
-                  translation: _offset.value,
-                  child: Transform.scale(scale: _scale.value, child: child),
-                );
-              },
-              child: Image.asset('assets/hero/hero_1.jpg', fit: BoxFit.cover),
-            ),
-          ),
+          /// ゆっくり動く背景画像
+          const _MovingBackground(),
 
-          /// 黒グラデーション（文字の可読性）
+          /// Dark overlay（可読性）
           Positioned.fill(
             child: Container(
               decoration: const BoxDecoration(
@@ -93,8 +104,8 @@ class _HomePageState extends State<HomePage>
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,
                   colors: [
-                    Color(0xDD0F0F0F),
-                    Color(0x800F0F0F),
+                    Color(0xEE0F0F0F),
+                    Color(0x880F0F0F),
                     Color(0x200F0F0F),
                   ],
                 ),
@@ -102,59 +113,16 @@ class _HomePageState extends State<HomePage>
             ),
           ),
 
-          /// ===============================
-          /// テキスト & CTA
-          /// ===============================
-          Center(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Text(
-                    'Welcome to SEADICE',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 36,
-                      fontWeight: FontWeight.w600,
-                      letterSpacing: 0.6,
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  const Text(
-                    'Try one. Find your favorite.',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Color(0xFFB0B0B0), fontSize: 16),
-                  ),
-                  const SizedBox(height: 36),
-
-                  /// CTA
-                  ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFF10A37F),
-                      foregroundColor: Colors.white,
-                      elevation: 0,
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 36,
-                        vertical: 14,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(28),
-                      ),
-                    ),
-                    onPressed: () {
-                      // RootPage側で Apps タブに切り替える想定
-                    },
-                    child: const Text(
-                      'Browse Apps',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ),
-                ],
+          /// 左下テキスト（フェード切替）
+          Positioned(
+            left: 24,
+            right: 24,
+            bottom: 56,
+            child: FadeTransition(
+              opacity: _fadeAnimation,
+              child: _HeroText(
+                title: _texts[_index].title,
+                subtitle: _texts[_index].subtitle,
               ),
             ),
           ),
@@ -162,4 +130,88 @@ class _HomePageState extends State<HomePage>
       ),
     );
   }
+}
+
+/// ===============================
+/// 背景をゆっくり動かす
+/// ===============================
+class _MovingBackground extends StatefulWidget {
+  const _MovingBackground();
+
+  @override
+  State<_MovingBackground> createState() => _MovingBackgroundState();
+}
+
+class _MovingBackgroundState extends State<_MovingBackground> {
+  bool _move = false;
+
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(Duration.zero, () {
+      if (mounted) {
+        setState(() => _move = true);
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedPositioned(
+      duration: const Duration(seconds: 25),
+      curve: Curves.linear,
+      top: 0,
+      bottom: 0,
+      left: _move ? -40 : 0,
+      right: _move ? 0 : -40,
+      child: Image.asset('assets/hero/hero_1.jpg', fit: BoxFit.cover),
+    );
+  }
+}
+
+/// ===============================
+/// Heroテキスト
+/// ===============================
+class _HeroText extends StatelessWidget {
+  final String title;
+  final String subtitle;
+
+  const _HeroText({required this.title, required this.subtitle});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: const TextStyle(
+            color: Colors.white,
+            fontSize: 28,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0.4,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          subtitle,
+          style: const TextStyle(
+            color: Color(0xFFB0B0B0),
+            fontSize: 14,
+            height: 1.4,
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// ===============================
+/// Heroテキストデータ
+/// ===============================
+class _HeroTextItem {
+  final String title;
+  final String subtitle;
+
+  const _HeroTextItem({required this.title, required this.subtitle});
 }

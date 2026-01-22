@@ -3,7 +3,7 @@ import 'home_page.dart'; // Hero（Welcome）
 import 'apps_page.dart'; // アプリ一覧（今作ってるGrid）
 import 'info_page.dart'; // About / Legal
 
-void main() {
+void main() async {
   runApp(const SeadiceApp());
 }
 

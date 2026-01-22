@@ -37,6 +37,7 @@ dependencies:
   get: ^4.7.3
   go_router: ^17.0.1
   url_launcher: ^6.3.2
+  firebase_core: ^4.4.0
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +64,8 @@ flutter:
   assets:
     - assets/hero/
     - assets/logo/
+    - assets/data/
+    - assets/icons/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

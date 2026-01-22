@@ -2,35 +2,36 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// ===============================
 /// Model
 /// ===============================
 class AppItem {
   final String appId;
-  final String name;
-  final String category;
-  final String oneLine;
-  final String icon;
-  final Map<String, dynamic> links;
+  final String title;
+  final String cardImage;
+  final String web;
+  final String google;
+  final String ios;
 
   AppItem({
     required this.appId,
-    required this.name,
-    required this.category,
-    required this.oneLine,
-    required this.icon,
-    required this.links,
+    required this.title,
+    required this.cardImage,
+    required this.web,
+    required this.google,
+    required this.ios,
   });
 
   factory AppItem.fromJson(Map<String, dynamic> json) {
     return AppItem(
       appId: json['appId'],
-      name: json['name'],
-      category: json['category'],
-      oneLine: json['oneLine'],
-      icon: json['icon'] ?? '',
-      links: json['links'] ?? {},
+      title: json['title'],
+      cardImage: json['icon'], // ← 将来 cardImage に分離してOK
+      web: json['links']['web'] ?? '',
+      google: json['links']['google'] ?? '',
+      ios: json['links']['ios'] ?? '',
     );
   }
 }
@@ -47,7 +48,6 @@ class AppsPage extends StatefulWidget {
 
 class _AppsPageState extends State<AppsPage> {
   late Future<List<AppItem>> _appsFuture;
-  String _filter = 'all'; // all / game / utility / learning
 
   @override
   void initState() {
@@ -70,204 +70,159 @@ class _AppsPageState extends State<AppsPage> {
         backgroundColor: const Color(0xFF0F0F0F),
         elevation: 0,
       ),
-      body: Column(
-        children: [
-          /// フィルタ（任意・軽い）
-          _CategoryFilter(
-            current: _filter,
-            onChanged: (v) => setState(() => _filter = v),
-          ),
+      body: FutureBuilder<List<AppItem>>(
+        future: _appsFuture,
+        builder: (context, snapshot) {
+          if (!snapshot.hasData) {
+            return const Center(child: CircularProgressIndicator());
+          }
 
-          /// 一覧
-          Expanded(
-            child: FutureBuilder<List<AppItem>>(
-              future: _appsFuture,
-              builder: (context, snapshot) {
-                if (!snapshot.hasData) {
-                  return const Center(child: CircularProgressIndicator());
-                }
+          final apps = snapshot.data!;
 
-                final apps = snapshot.data!
-                    .where((a) => _filter == 'all' || a.category == _filter)
-                    .toList();
+          return LayoutBuilder(
+            builder: (context, constraints) {
+              final w = constraints.maxWidth;
+              final columns = w < 600
+                  ? 1
+                  : w < 900
+                  ? 2
+                  : w < 1200
+                  ? 3
+                  : 4;
 
-                return LayoutBuilder(
-                  builder: (context, constraints) {
-                    final w = constraints.maxWidth;
-                    final columns = w < 600
-                        ? 1
-                        : w < 900
-                        ? 2
-                        : w < 1200
-                        ? 3
-                        : 4;
-
-                    return GridView.builder(
-                      padding: const EdgeInsets.all(16),
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: columns,
-                        mainAxisSpacing: 16,
-                        crossAxisSpacing: 16,
-                        childAspectRatio: 0.72, // ストア感
-                      ),
-                      itemCount: apps.length,
-                      itemBuilder: (context, index) {
-                        return _StoreStyleAppCard(app: apps[index]);
-                      },
-                    );
-                  },
-                );
-              },
-            ),
-          ),
-        ],
+              return GridView.builder(
+                padding: const EdgeInsets.all(16),
+                itemCount: apps.length,
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: columns,
+                  mainAxisSpacing: 16,
+                  crossAxisSpacing: 16,
+                  childAspectRatio: 1.0, // ★ 正方形
+                ),
+                itemBuilder: (context, index) {
+                  return _AppCard(app: apps[index], width: w);
+                },
+              );
+            },
+          );
+        },
       ),
     );
   }
 }
 
 /// ===============================
-/// Category Filter (Chip)
+/// App Card（Square + Overlay）
 /// ===============================
-class _CategoryFilter extends StatelessWidget {
-  final String current;
-  final ValueChanged<String> onChanged;
-  const _CategoryFilter({required this.current, required this.onChanged});
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      padding: const EdgeInsets.fromLTRB(12, 8, 12, 8),
-      child: Row(
-        children: [
-          _chip('all', 'All'),
-          _chip('game', 'Game'),
-          _chip('utility', 'Utility'),
-          _chip('learning', 'Learning'),
-        ],
-      ),
-    );
-  }
-
-  Widget _chip(String value, String label) {
-    final selected = current == value;
-    return Padding(
-      padding: const EdgeInsets.only(right: 8),
-      child: ChoiceChip(
-        label: Text(label),
-        selected: selected,
-        onSelected: (_) => onChanged(value),
-        selectedColor: const Color(0xFF10A37F),
-        backgroundColor: const Color(0xFF1E1E1E),
-        labelStyle: TextStyle(
-          color: selected ? Colors.white : const Color(0xFFB0B0B0),
-        ),
-        side: const BorderSide(color: Color(0xFF2A2A2A)),
-      ),
-    );
-  }
-}
-
-/// ===============================
-/// Store Style Card (Hover対応)
-/// ===============================
-class _StoreStyleAppCard extends StatefulWidget {
+class _AppCard extends StatefulWidget {
   final AppItem app;
-  const _StoreStyleAppCard({required this.app});
+  final double width;
+  const _AppCard({required this.app, required this.width});
 
   @override
-  State<_StoreStyleAppCard> createState() => _StoreStyleAppCardState();
+  State<_AppCard> createState() => _AppCardState();
 }
 
-class _StoreStyleAppCardState extends State<_StoreStyleAppCard> {
+class _AppCardState extends State<_AppCard> {
   bool _hover = false;
 
   @override
   Widget build(BuildContext context) {
-    return MouseRegion(
-      cursor: SystemMouseCursors.click,
-      onEnter: (_) => setState(() => _hover = true),
-      onExit: (_) => setState(() => _hover = false),
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 160),
-        curve: Curves.easeOut,
-        transform: _hover ? (Matrix4.identity()..translate(0.0, -4.0)) : null,
-        decoration: BoxDecoration(
-          color: const Color(0xFF1E1E1E),
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(
-            color: _hover ? const Color(0xFF3A3A3A) : const Color(0xFF2A2A2A),
-          ),
-        ),
-        child: InkWell(
-          borderRadius: BorderRadius.circular(16),
-          onTap: () => context.go('/apps/${widget.app.appId}'),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              /// アイコン（正方形）
-              ClipRRect(
-                borderRadius: const BorderRadius.vertical(
-                  top: Radius.circular(16),
-                ),
-                child: AspectRatio(
-                  aspectRatio: 1,
-                  child: widget.app.icon.isEmpty
-                      ? Container(
-                          color: const Color(0xFF2A2A2A),
-                          child: const Icon(
-                            Icons.apps,
-                            size: 48,
-                            color: Colors.white,
-                          ),
-                        )
-                      : Image.asset(widget.app.icon, fit: BoxFit.cover),
-                ),
-              ),
+    final isPc = widget.width >= 900;
+    final titleSize = widget.width < 600
+        ? 25.0
+        : widget.width < 900
+        ? 22.0
+        : 20.0;
 
-              /// テキスト
-              Padding(
-                padding: const EdgeInsets.all(12),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      widget.app.name,
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
-                      ),
+    return MouseRegion(
+      onEnter: (_) => isPc ? setState(() => _hover = true) : null,
+      onExit: (_) => isPc ? setState(() => _hover = false) : null,
+      child: GestureDetector(
+        onTap: () => context.go('/apps/${widget.app.appId}'),
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 200),
+          transform: _hover
+              ? (Matrix4.identity()..translate(0.0, -6.0))
+              : Matrix4.identity(),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(16),
+            boxShadow: _hover
+                ? [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.45),
+                      blurRadius: 18,
+                      offset: const Offset(0, 10),
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      widget.app.oneLine,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(
-                        color: Color(0xFFB0B0B0),
-                        fontSize: 12,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Wrap(
-                      spacing: 6,
-                      children: [
-                        if (widget.app.links['web']?.isNotEmpty == true)
-                          const _Badge('Web'),
-                        if (widget.app.links['google']?.isNotEmpty == true)
-                          const _Badge('Android'),
-                        if (widget.app.links['ios']?.isNotEmpty == true)
-                          const _Badge('iOS'),
-                      ],
-                    ),
-                  ],
+                  ]
+                : [],
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(16),
+            child: Stack(
+              children: [
+                /// 背景画像
+                Positioned.fill(
+                  child: Image.asset(widget.app.cardImage, fit: BoxFit.cover),
                 ),
-              ),
-            ],
+
+                /// グラデーション（下）
+                Positioned.fill(
+                  child: AnimatedContainer(
+                    duration: const Duration(milliseconds: 200),
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.bottomCenter,
+                        end: Alignment.topCenter,
+                        colors: [
+                          _hover
+                              ? const Color(0xEE0F0F0F)
+                              : const Color(0xCC0F0F0F),
+                          const Color(0x660F0F0F),
+                          const Color(0x00000000),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+
+                /// タイトル + ボタン（画像の上）
+                Positioned(
+                  left: 12,
+                  right: 12,
+                  bottom: 12,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        widget.app.title,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: titleSize,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Row(
+                        children: [
+                          _StoreButton(
+                            icon: Icons.language,
+                            url: widget.app.web,
+                          ),
+                          _StoreButton(
+                            icon: Icons.android,
+                            url: widget.app.google,
+                          ),
+                          _StoreButton(icon: Icons.apple, url: widget.app.ios),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -276,26 +231,54 @@ class _StoreStyleAppCardState extends State<_StoreStyleAppCard> {
 }
 
 /// ===============================
-/// Platform Badge
-/// ===============================
-class _Badge extends StatelessWidget {
-  final String label;
-  const _Badge(this.label);
+/// Store Button（Hover + Disabled）
+// ===============================
+class _StoreButton extends StatefulWidget {
+  final IconData icon;
+  final String url;
+  const _StoreButton({required this.icon, required this.url});
+
+  @override
+  State<_StoreButton> createState() => _StoreButtonState();
+}
+
+class _StoreButtonState extends State<_StoreButton> {
+  bool _hover = false;
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(6),
-        border: Border.all(color: const Color(0xFF2A2A2A)),
-      ),
-      child: Text(
-        label,
-        style: const TextStyle(
-          color: Color(0xFF10A37F),
-          fontSize: 11,
-          fontWeight: FontWeight.w500,
+    final enabled = widget.url.isNotEmpty;
+
+    final color = !enabled
+        ? const Color(0xFF555555)
+        : _hover
+        ? Colors.white
+        : const Color(0xFF10A37F);
+
+    return MouseRegion(
+      onEnter: (_) => enabled ? setState(() => _hover = true) : null,
+      onExit: (_) => enabled ? setState(() => _hover = false) : null,
+      child: GestureDetector(
+        onTap: enabled
+            ? () async {
+                final uri = Uri.parse(widget.url);
+                if (await canLaunchUrl(uri)) {
+                  await launchUrl(uri, mode: LaunchMode.externalApplication);
+                }
+              }
+            : null,
+        child: Container(
+          margin: const EdgeInsets.only(right: 8),
+          padding: const EdgeInsets.all(8),
+          decoration: BoxDecoration(
+            border: Border.all(
+              color: enabled
+                  ? const Color(0xFF2A2A2A)
+                  : const Color(0xFF1A1A1A),
+            ),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Icon(widget.icon, size: 18, color: color),
         ),
       ),
     );
