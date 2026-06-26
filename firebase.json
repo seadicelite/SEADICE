@@ -1,4 +1,16 @@
 {
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "functions": {
+    "source": "functions",
+    "codebase": "default",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log"
+    ]
+  },
   "hosting": {
     "public": "p",
     "ignore": [
@@ -8,8 +20,207 @@
     ],
     "rewrites": [
       {
+        "source": "/lifeisrpg/**",
+        "destination": "/lifeisrpg/index.html"
+      },
+      {
+        "source": "/kao_type_diag/**",
+        "destination": "/kao_type_diag/index.html"
+      },
+      {
+        "source": "/toite/**",
+        "destination": "/toite/index.html"
+      },
+      {
+        "source": "/focus-dice/**",
+        "destination": "/focus-dice/index.html"
+      },
+      {
+        "source": "/rakuraku/**",
+        "destination": "/rakuraku/index.html"
+      },
+      {
+        "source": "/boueki-hub/kentei/**",
+        "destination": "/boueki-hub/kentei/index.html"
+      },
+      {
+        "source": "/boueki-hub/jitsumu-word/**",
+        "destination": "/boueki-hub/jitsumu-word/index.html"
+      },
+      {
+        "source": "/boueki-hub/srs/**",
+        "destination": "/boueki-hub/srs/index.html"
+      },
+      {
+        "source": "/boueki-hub/english-word/**",
+        "destination": "/boueki-hub/english-word/index.html"
+      },
+      {
+        "source": "/boueki-hub/**",
+        "destination": "/boueki-hub/index.html"
+      },
+      {
+        "source": "/boueki/**",
+        "destination": "/boueki/index.html"
+      },
+      {
+        "source": "/drone/anki/**",
+        "destination": "/drone/anki/index.html"
+      },
+      {
+        "source": "/jinsei_pyramid/**",
+        "destination": "/jinsei_pyramid/index.html"
+      },
+      {
+        "source": "/apps/drone-cbt/**",
+        "destination": "/apps/drone-cbt/index.html"
+      },
+      {
+        "source": "/apps/lifeisrpg/**",
+        "destination": "/apps/lifeisrpg/index.html"
+      },
+      {
+        "source": "/apps/toite/**",
+        "destination": "/apps/toite/index.html"
+      },
+      {
+        "source": "/apps/rakuraku/**",
+        "destination": "/apps/rakuraku/index.html"
+      },
+      {
+        "source": "/apps/kao-type/**",
+        "destination": "/apps/kao-type/index.html"
+      },
+      {
+        "source": "/apps/boueki/**",
+        "destination": "/apps/boueki/index.html"
+      },
+      {
+        "source": "/apps/jinsei-pyramid/**",
+        "destination": "/apps/jinsei-pyramid/index.html"
+      },
+      {
+        "source": "/blog/app-market-research-2026/**",
+        "destination": "/blog/app-market-research-2026/index.html"
+      },
+      {
+        "source": "/blog/admob-setup/**",
+        "destination": "/blog/admob-setup/index.html"
+      },
+      {
+        "source": "/blog/firebase-toite-setup/**",
+        "destination": "/blog/firebase-toite-setup/index.html"
+      },
+      {
+        "source": "/blog/ios-release-with-admob/**",
+        "destination": "/blog/ios-release-with-admob/index.html"
+      },
+      {
+        "source": "/privacy/toite/**",
+        "destination": "/privacy/toite/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/index.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/flutter_service_worker.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/flutter_bootstrap.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/flutter.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/main.dart.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/version.json",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(png|jpg|jpeg|gif|webp|svg|ico)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=86400"
+          }
+        ]
+      },
+      {
+        "source": "/sitemap.xml",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=86400"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/xml; charset=utf-8"
+          }
+        ]
+      },
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "Permissions-Policy",
+            "value": "camera=(), microphone=(), geolocation=()"
+          }
+        ]
       }
     ]
   }
