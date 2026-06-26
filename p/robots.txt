@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# AI クローラー向け
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://seadice.win/sitemap.xml

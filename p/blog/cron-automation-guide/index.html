@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>cronで自動化するときに絶対ハマるポイントと実践例 | SEADICE STUDIO</title>
+<meta name="description" content="MacでcronによるX自動投稿・YouTube自動投稿・ブログ自動生成を実現する方法を解説。パス・環境変数・スリープ問題など絶対ハマるポイントも詳しく紹介。">
+<link rel="canonical" href="https://seadice.win/blog/cron-automation-guide/">
+<meta property="og:title" content="cronで自動化するときに絶対ハマるポイントと実践例 | SEADICE STUDIO">
+<meta property="og:description" content="MacでcronによるX自動投稿・YouTube自動投稿・ブログ自動生成を実現する方法を解説。パス・環境変数・スリープ問題など絶対ハマるポイントも詳しく紹介。">
+<meta property="og:image" content="https://seadice.win/icons/blog_dev.webp">
+<meta property="og:url" content="https://seadice.win/blog/cron-automation-guide/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"cronで自動化するときに絶対ハマるポイントと実践例","datePublished":"2026-06-25","author":{"@type":"Organization","name":"SEADICE STUDIO"},"publisher":{"@type":"Organization","name":"SEADICE STUDIO","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.body img{max-width:100%;border-radius:10px;margin:16px 0}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / cronで自動化するときに絶対ハマるポイントと実践例</p>
+  <img src="/icons/blog_dev.webp" alt="開発" width="680" height="340" style="width:100%;height:240px;object-fit:cover;border-radius:16px;margin-bottom:24px">
+  <span class="tag">開発</span>
+  <h1>cronで自動化するときに絶対ハマるポイントと実践例</h1>
+  <p class="meta"><time datetime="2026-06-25">2026-06-25</time> · SEADICE STUDIO</p>
+  <div class="body">
+<p>個人事業をやっていると、毎日同じことを手動でやり続けるのは非常に非効率だ。X（Twitter）への投稿、YouTubeへの動画アップロード、ブログの更新——これらを全部手動でやっていたら、開発や営業に使う時間がなくなってしまう。</p>
+<p>そこで活躍するのが<strong>cron</strong>だ。Macでもサーバーでも使える標準の定期実行ツールで、設定さえすれば毎日決まった時間にスクリプトを自動実行してくれる。この記事では、SEADICEでの実践例をもとにcronの使い方を詳しく解説する。</p>
+<h2>cronとは何か</h2>
+<p>cronはUnix系OS（Mac・Linux）に標準搭載されているジョブスケジューラーだ。「毎日8時にこのスクリプトを実行する」「毎週月曜の朝にこの処理をする」といった定期実行を、サーバーもクラウドサービスも不要で実現できる。</p>
+<p>Macを起動している間は常にcronデーモンが動いているため、設定した時間になると自動的にスクリプトが実行される。</p>
+<h2>crontabの書き方</h2>
+<p>cronの設定は<code>crontab</code>というファイルで管理する。ターミナルで以下を実行すると編集できる。</p>
+<pre><code>crontab -e</code></pre>
+<p>設定の書き方はこうだ。</p>
+<pre><code>分 時 日 月 曜日 コマンド</code></pre>
+<p>具体例：</p>
+<pre><code># 毎日8時にtweet.pyを実行
+0 8 * * * /usr/bin/python3 /Users/username/x-auto/tweet.py
+
+# 毎日12時と18時にも実行
+0 12 * * * /usr/bin/python3 /Users/username/x-auto/tweet.py
+0 18 * * * /usr/bin/python3 /Users/username/x-auto/tweet.py
+
+# 毎朝7時にYouTube動画をアップロード
+0 7 * * * cd /Users/username/youtube-auto && /usr/bin/python3 upload.py
+
+# 毎晩23時にブログ記事を自動生成
+0 23 * * * /usr/bin/python3 /Users/username/blog-auto/generate.py</code></pre>
+<p><code>*</code>はワイルドカードで「毎回」を意味する。曜日は0が日曜、1が月曜……6が土曜だ。</p>
+<h2>SEADICEでの実際のcron設定</h2>
+<p>現在SEADICEで動いているcronはこうなっている。</p>
+<pre><code># YouTube自動投稿（毎朝7時）
+0 7 * * * cd /Users/hidenori/Developer/youtube-auto && /usr/bin/python3 upload.py
+
+# X自動投稿（8時・12時・18時）
+0 8 * * * cd /Users/hidenori/Developer/x-auto && /usr/bin/python3 tweet.py
+0 12 * * * cd /Users/hidenori/Developer/x-auto && /usr/bin/python3 tweet.py
+0 18 * * * cd /Users/hidenori/Developer/x-auto && /usr/bin/python3 tweet.py
+
+# ブログ自動生成（毎晩23時）
+0 23 * * * /usr/bin/python3 /Users/hidenori/Developer/SEADICE/blog-admin/generate.py >> /Users/hidenori/Developer/SEADICE/blog-admin/generate.log 2>&1</code></pre>
+<p>これだけで毎日のSNS発信とブログ更新が全自動で回る。</p>
+<h2>cronでハマりやすいポイント</h2>
+<h3>1. Pythonのパスはフルパスで指定する</h3>
+<p>cronは通常のターミナルとは異なる環境で実行されるため、<code>python3</code>だけでは認識されないことがある。必ず<code>which python3</code>で確認したフルパスを使う。</p>
+<pre><code>which python3
+# → /usr/bin/python3</code></pre>
+<h3>2. カレントディレクトリが違う</h3>
+<p>cronで実行されるスクリプトは、カレントディレクトリが予期しない場所になっていることがある。スクリプト内でファイルを参照する場合は、絶対パスを使うか、<code>cd</code>でディレクトリを移動してから実行する。</p>
+<pre><code># cdしてから実行する方法
+0 8 * * * cd /Users/hidenori/Developer/x-auto && /usr/bin/python3 tweet.py</code></pre>
+<h3>3. 環境変数が引き継がれない</h3>
+<p><code>.env</code>ファイルや<code>~/.zshrc</code>で設定した環境変数はcronには引き継がれない。スクリプト内で明示的に読み込む必要がある。</p>
+<p>Pythonの場合はこう書く。</p>
+<pre><code>from pathlib import Path
+
+env_path = Path(__file__).parent / '.env'
+if env_path.exists():
+    for line in env_path.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith('#') and '=' in line:
+            k, v = line.split('=', 1)
+            os.environ[k.strip()] = v.strip()</code></pre>
+<h3>4. ログを必ず残す</h3>
+<p>cronが正常に動いているか確認するために、ログファイルに出力を残す。</p>
+<pre><code>0 23 * * * /usr/bin/python3 /path/to/script.py >> /path/to/script.log 2>&1</code></pre>
+<p><code>&gt;&gt; log.log</code>で標準出力をログに追記、<code>2&gt;&amp;1</code>でエラー出力も同じファイルに書く。</p>
+<h3>5. Macのスリープ問題</h3>
+<p>Macがスリープ中はcronが実行されない。夜中にスリープするMacでcronを動かしたい場合は、<strong>システム設定 → バッテリー → スケジュール</strong>から自動起動の時間を設定するか、<code>pmset</code>コマンドを使う。</p>
+<pre><code># 毎日22時55分に自動起動（cronの5分前）
+sudo pmset repeat wakeorpoweron MTWRFSU 22:55:00</code></pre>
+<h2>ログの確認方法</h2>
+<p>cronが正常に動いているか確認するには、ログファイルを見るのが一番確実だ。</p>
+<pre><code># ログをリアルタイムで確認
+tail -f /Users/hidenori/Developer/SEADICE/blog-admin/generate.log
+
+# 最新20行を確認
+tail -20 /Users/hidenori/Developer/SEADICE/blog-admin/generate.log</code></pre>
+<h2>Macでcronが動かない場合の対処</h2>
+<p>macOS Catalina以降、cronがフルディスクアクセス権限を要求することがある。</p>
+<p><strong>システム設定 → プライバシーとセキュリティ → フルディスクアクセス</strong>に<code>cron</code>を追加すると解決することが多い。</p>
+<h2>まとめ</h2>
+<p>cronは設定さえすれば完全に自動で動き続ける、個人事業主にとって最高のツールだ。</p>
+<ul>
+<li><strong>書き方</strong>: <code>分 時 日 月 曜日 コマンド</code></li>
+<li><strong>注意点</strong>: フルパス・絶対パス・環境変数の手動読み込み</li>
+<li><strong>確認方法</strong>: ログファイルを残す</li>
+<li><strong>Mac固有の問題</strong>: スリープ対策とフルディスクアクセス権限</li>
+</ul>
+<p>SEADICEではX投稿・YouTube投稿・ブログ生成の3つをcronで自動化している。これにより、発信にかかる時間をほぼゼロにしながら毎日の更新を維持できている。</p>
+<p>自動化の初期投資（設定の時間）は数時間だが、その後は何もしなくても動き続ける。個人事業で時間を作りたいなら、まずcronから始めることをおすすめする。</p>
+  </div>
+  <a href="/blog/" class="back">
+    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+    ブログ一覧へ
+  </a>
+</article>
+<footer>&copy; 2025 SEADICE STUDIO</footer>
+</body>
+</html>

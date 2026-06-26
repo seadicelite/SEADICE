@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "question": "輸出者が本船へ積み込むまでの費用とリスクを負担する条件は？",
+    "answer": "FOB",
+    "explanation": "FOB（Free On Board）は本船渡し条件。",
+    "options": ["FOB", "CIF", "EXW"]
+  },
+  {
+    "id": 2,
+    "question": "運賃と保険料を輸出者が負担する取引条件は？",
+    "answer": "CIF",
+    "explanation": "CIFはCost, Insurance and Freightの略。",
+    "options": ["CIF", "FOB", "DDP"]
+  },
+  {
+    "id": 3,
+    "question": "貨物の受取証・運送契約の証拠を示す書類は？",
+    "answer": "B/L（船荷証券）",
+    "explanation": "B/Lは貨物引渡請求権の根拠ともなる重要書類。",
+    "options": ["B/L（船荷証券）", "Invoice", "AWB"]
+  }
+]

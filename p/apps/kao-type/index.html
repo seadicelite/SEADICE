@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>顔タイプ診断 — AI が顔を分析してスタイルを提案 | SEADICE</title>
+  <meta name="description" content="写真1枚アップロードするだけで Claude AI が顔のパーツ・骨格・印象を分析。あなたの顔タイプに合ったファッション・メイクスタイルをパーソナルに提案する無料 Web アプリ。">
+  <meta name="keywords" content="顔タイプ診断,AI診断,骨格診断,顔分析,Claude AI,パーソナルカラー,似合う服,無料">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#05050C">
+  <link rel="canonical" href="https://seadice.win/apps/kao-type/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="顔タイプ診断 — AI が顔を分析してスタイルを提案">
+  <meta property="og:description" content="写真1枚で Claude AI が顔タイプを分析。あなたに似合うファッション・メイクをパーソナルに提案する無料 Web アプリ。">
+  <meta property="og:url" content="https://seadice.win/apps/kao-type/">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="顔タイプ診断 — AI が顔を分析してスタイルを提案">
+  <meta name="twitter:description" content="写真1枚で Claude AI が顔タイプを分析。あなたに似合うスタイルをパーソナルに提案する無料 Web アプリ。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"アプリ一覧","item":"https://seadice.win/#apps"},{"@type":"ListItem","position":3,"name":"顔タイプ診断","item":"https://seadice.win/apps/kao-type/"}]},{"@type":"SoftwareApplication","name":"顔タイプ診断","description":"写真1枚アップロードするだけで Claude AI が顔のパーツ・骨格・印象を分析。あなたの顔タイプに合ったスタイルをパーソナルに提案する無料 Web アプリ。","applicationCategory":"LifestyleApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"url":"https://seadice.win/apps/kao-type/","publisher":{"@type":"Person","name":"SEADICE","url":"https://seadice.win/"}}]}</script>
+  <style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#f472b6;--accent2:#a78bfa;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.6}header{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border)}nav{height:56px;padding:0 24px;max-width:760px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;color:#00FFD1;text-decoration:none}.nav-back{color:var(--muted);text-decoration:none;font-size:13px;transition:color .2s}.nav-back:hover{color:var(--text)}main{max-width:760px;margin:0 auto;padding:0 24px}.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:96px 0 64px}.app-icon-wrap{width:80px;height:80px;border-radius:20px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:800;color:#fff;margin-bottom:24px}.hero-label{font-size:11px;letter-spacing:.25em;color:var(--accent);margin-bottom:14px;text-transform:uppercase}h1{font-size:clamp(32px,7vw,52px);font-weight:800;line-height:1.15;margin-bottom:18px;letter-spacing:-.02em}.hero-desc{font-size:16px;color:var(--muted);margin-bottom:36px;max-width:560px;line-height:1.8}.ai-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(244,114,182,.1);border:1px solid rgba(244,114,182,.35);color:#f9a8d4;border-radius:20px;padding:5px 14px;font-size:12px;font-weight:600;letter-spacing:.05em;margin-bottom:28px}.btn-group{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 28px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none;transition:opacity .2s,transform .2s}.btn:hover{opacity:.85;transform:translateY(-1px)}.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff}section{padding:64px 0}h2{font-size:clamp(20px,3vw,26px);font-weight:800;margin-bottom:28px;letter-spacing:-.02em}.features{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}.feature{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px}.feature-label{font-size:10px;letter-spacing:.15em;color:var(--accent);margin-bottom:8px;text-transform:uppercase}.feature-title{font-size:14px;font-weight:700;margin-bottom:8px}.feature-desc{font-size:13px;color:var(--muted);line-height:1.65}.faq{display:flex;flex-direction:column;gap:10px}.faq-item{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px}.faq-q{font-size:14px;font-weight:700;margin-bottom:8px}.faq-a{font-size:13px;color:var(--muted);line-height:1.65}.feedback-wrap{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px 24px;max-width:560px}.feedback-wrap p{color:var(--muted);font-size:13px;margin-bottom:16px}.feedback-wrap textarea{width:100%;background:#0a0a18;border:1px solid var(--border);border-radius:10px;color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;font-size:14px;line-height:1.7;padding:14px;resize:none;outline:none;transition:border-color .2s}.feedback-wrap textarea:focus{border-color:var(--accent)}.feedback-wrap textarea::placeholder{color:var(--muted)}.feedback-footer{display:flex;align-items:center;justify-content:space-between;margin-top:12px}.char-count{font-size:12px;color:var(--muted)}.send-btn{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:none;border-radius:8px;padding:10px 24px;font-size:13px;font-weight:700;cursor:pointer;transition:opacity .2s}.send-btn:hover{opacity:.85}.send-btn:disabled{opacity:.4;cursor:not-allowed}.feedback-msg{font-size:13px;margin-top:10px;min-height:18px}footer{border-top:1px solid var(--border);padding:32px 24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<header><nav aria-label="ページナビゲーション"><a class="nav-logo" href="/">SEADICE</a><a class="nav-back" href="/#apps">← アプリ一覧</a></nav></header>
+<main>
+  <div class="hero">
+    <img src="/icons/face.webp" alt="顔タイプ診断" width="80" height="80" style="width:80px;height:80px;border-radius:20px;object-fit:cover;display:block;margin-bottom:24px">
+    <div class="ai-badge">AI Powered by Claude Vision</div>
+    <p class="hero-label">AI 診断 / ライフスタイル</p>
+    <h1>写真1枚で、<br>あなたの顔を AI が解析。</h1>
+    <p class="hero-desc">顔のパーツ・骨格・全体の印象を Claude Vision AI が丁寧に分析。あなたの顔タイプに最もマッチするファッション・メイクスタイルをパーソナルに提案します。登録不要・無料。</p>
+    <div class="btn-group"><a class="btn btn-primary" href="/kao_type_diag/">診断してみる</a></div>
+  </div>
+  <section aria-labelledby="features-heading">
+    <h2 id="features-heading">特徴</h2>
+    <div class="features">
+      <div class="feature"><p class="feature-label">AI</p><p class="feature-title">写真1枚で即診断</p><p class="feature-desc">写真をアップロードするだけ。Claude Vision AI が顔の特徴を多角的に解析し、結果をすぐに表示します。</p></div>
+      <div class="feature"><p class="feature-label">分析</p><p class="feature-title">パーツ・骨格・印象を分解</p><p class="feature-desc">目・鼻・口・輪郭などのパーツ特徴と骨格・全体の印象を項目ごとに丁寧に分析します。</p></div>
+      <div class="feature"><p class="feature-label">提案</p><p class="feature-title">あなただけのスタイル提案</p><p class="feature-desc">分析結果をもとに、似合うファッション・カラー・メイクスタイルをパーソナルに提案します。</p></div>
+      <div class="feature"><p class="feature-label">無料</p><p class="feature-title">登録不要・完全無料</p><p class="feature-desc">アカウント登録不要。ブラウザからすぐに使えます。スマートフォン・PC どちらでも対応。</p></div>
+    </div>
+  </section>
+  <section id="faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">よくある質問</h2>
+    <div class="faq">
+      <div class="faq-item"><p class="faq-q">無料で使えますか？</p><p class="faq-a">はい、完全無料でご利用いただけます。</p></div>
+      <div class="faq-item"><p class="faq-q">写真はどこに保存されますか？</p><p class="faq-a">アップロードした写真は診断のためにのみ使用され、サーバーに保存されることはありません。</p></div>
+      <div class="faq-item"><p class="faq-q">スマホでも使えますか？</p><p class="faq-a">はい。スマートフォン・タブレット・PC すべてに対応した Web アプリです。</p></div>
+    </div>
+  </section>
+  <section id="feedback" aria-labelledby="fb-heading">
+    <h2 id="fb-heading">ご要望・ご意見</h2>
+    <div class="feedback-wrap">
+      <p>診断精度の向上やほしい機能など、なんでも気軽にどうぞ。</p>
+      <textarea id="fb-text" rows="4" maxlength="200" placeholder="一言どうぞ..." aria-label="フィードバック入力"></textarea>
+      <div class="feedback-footer"><span class="char-count"><span id="fb-count">0</span> / 200</span><button class="send-btn" id="fb-btn" onclick="sendFeedback()">送る</button></div>
+      <p class="feedback-msg" id="fb-msg" aria-live="polite"></p>
+    </div>
+  </section>
+</main>
+<footer><p><a href="/">SEADICE</a> &nbsp;|&nbsp; <a href="/privacy/kao-type/">プライバシーポリシー</a></p></footer>
+<script type="module">
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
+  import { getFirestore, collection, addDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js';
+  const db=getFirestore(initializeApp({apiKey:"AIzaSyDlskgg5EZdoEcj9wP-UxXxXmf-s4JJpcI",authDomain:"seadiceweb.firebaseapp.com",projectId:"seadiceweb",storageBucket:"seadiceweb.firebasestorage.app",messagingSenderId:"335351979562",appId:"1:335351979562:web:1d66f4d5d4e32e0e5eed53"}));
+  const textarea=document.getElementById('fb-text'),countEl=document.getElementById('fb-count'),msgEl=document.getElementById('fb-msg'),btn=document.getElementById('fb-btn');
+  textarea.addEventListener('input',()=>{countEl.textContent=textarea.value.length;});
+  window.sendFeedback=async()=>{const text=textarea.value.trim();if(!text)return;const last=localStorage.getItem('fb_last');if(last&&Date.now()-parseInt(last)<60000){msgEl.style.color='#ef4444';msgEl.textContent='しばらく時間をおいてから送ってください。';return;}btn.disabled=true;try{await addDoc(collection(db,'feedback'),{message:text,source:'kao-type',createdAt:serverTimestamp()});localStorage.setItem('fb_last',Date.now().toString());textarea.value='';countEl.textContent='0';msgEl.style.color='#f472b6';msgEl.textContent='送信しました。ありがとうございます。';setTimeout(()=>{msgEl.textContent='';},4000);}catch(e){msgEl.style.color='#ef4444';msgEl.textContent='送信に失敗しました。';}finally{btn.disabled=false;}};
+</script>
+</body>
+</html>

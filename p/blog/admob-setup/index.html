@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Flutter × AdMob 完全ガイド — ID管理・広告の種類・単価と使いどころ | SEADICE</title>
+<meta name="description" content="FlutterアプリにAdMob広告を実装する際の疑問を全部まとめた。IDはアプリごと・種類ごとに異なる仕組み、6種類の広告の単価比較、設置場所ごとに作る必要があるかまで解説。">
+<link rel="canonical" href="https://seadice.win/blog/admob-setup/">
+<meta property="og:title" content="Flutter × AdMob 完全ガイド — ID管理・広告の種類・単価と使いどころ | SEADICE">
+<meta property="og:description" content="FlutterアプリにAdMob広告を実装する際の疑問を全部まとめた。IDはアプリごと・種類ごとに異なる仕組み、6種類の広告の単価比較、設置場所ごとに作る必要があるかまで解説。">
+<meta property="og:url" content="https://seadice.win/blog/admob-setup/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Flutter × AdMob 完全ガイド — ID管理・広告の種類・単価と使いどころ | SEADICE">
+<meta name="twitter:description" content="IDはアプリごと・種類ごとに異なる仕組み、6種類の広告の単価比較、設置場所ごとに作る必要があるかまで解説。">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Flutter × AdMob 完全ガイド — ID管理・広告の種類・単価と使いどころ","datePublished":"2026-06-25","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.06);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.warn{background:rgba(251,191,36,.06);border:1px solid rgba(251,191,36,.25);border-radius:10px;padding:16px 20px;margin:20px 0}.warn p{margin:0;font-size:14px;color:#94a3b8}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / Flutter × AdMob 広告ユニットIDはアプリごとに変える</p>
+  <span class="tag">開発</span>
+  <h1>Flutter × AdMob 完全ガイド<br>ID管理・広告の種類・単価と使いどころ</h1>
+  <p class="meta"><time datetime="2026-06-25">2026-06-25</time> · SEADICE</p>
+  <div class="body">
+
+<p>FlutterでAdMob広告を実装していると、次々と疑問が湧いてくる。「テスト用IDはリリースのたびに変えるの？」「広告の種類ごとに別々のID？」「設置場所が複数あったら都度作成が必要？」「そもそも6種類ある広告のどれを使えばいいの？」</p>
+
+<p>この記事ではTOITEのリリース作業で実際に調べたことをすべてまとめた。</p>
+
+<h2>テスト用IDとは何か</h2>
+
+<p>AdMobには、開発中に使うためのテスト用広告ユニットIDが用意されている。</p>
+
+<pre><code>// iOS テスト用（Googleが公式に提供）
+バナー:             ca-app-pub-3940256099942544/2934735716
+インタースティシャル: ca-app-pub-3940256099942544/4411468910
+リワード:           ca-app-pub-3940256099942544/1712485313</code></pre>
+
+<p>このIDは<strong>どのアプリからでも使える共通のテスト用ID</strong>だ。実際の広告が表示されるが収益は発生しない。開発中は必ずこのIDを使うことがGoogleのポリシーで定められている（本番IDで開発中にクリックすると無効なクリックと判定されてアカウント停止になる可能性がある）。</p>
+
+<h2>本番リリース時に変える必要があるもの</h2>
+
+<p>問題はリリース時だ。変えなければいけないものは3種類ある。</p>
+
+<h3>1. GADApplicationIdentifier（アプリID）</h3>
+
+<p>iOSの<code>Info.plist</code>に記述するAdMobのアプリID。アプリ1本につき1つ発行される。</p>
+
+<pre><code>&lt;!-- ios/Runner/Info.plist --&gt;
+&lt;key&gt;GADApplicationIdentifier&lt;/key&gt;
+&lt;string&gt;ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX&lt;/string&gt;</code></pre>
+
+<p>テスト用アプリIDは<code>ca-app-pub-3940256099942544~1458002511</code>。本番リリース時はAdMobコンソールで登録した自分のアプリのIDに差し替える。</p>
+
+<h3>2. 広告ユニットID（バナー・インタースティシャル・リワードそれぞれ）</h3>
+
+<p>広告の種類ごとに個別のIDが発行される。使っている広告の種類分だけ変える。</p>
+
+<pre><code>// 本番IDに差し替える箇所（例: ad_service.dart）
+static String get banner => Platform.isAndroid
+    ? 'ca-app-pub-XXXX/XXXXXXXXXX'  // Androidの本番バナーID
+    : 'ca-app-pub-XXXX/XXXXXXXXXX'; // iOSの本番バナーID</code></pre>
+
+<p>AndroidとiOSで別々のIDが発行されるため、プラットフォームごとに分けて記述する必要がある。</p>
+
+<h2>なぜアプリごとに異なるのか</h2>
+
+<p>AdMobの収益はアプリ単位で管理される。どのアプリでどれだけ広告が表示・クリックされたかを追跡するために、アプリとユニットが紐づく仕組みになっている。</p>
+
+<p>つまり構造はこうだ：</p>
+
+<pre><code>AdMobアカウント
+└── アプリA（App ID: ca-app-pub-XXXX~AAAA）
+    ├── バナー広告ユニット（ca-app-pub-XXXX/0001）
+    ├── インタースティシャル（ca-app-pub-XXXX/0002）
+    └── リワード（ca-app-pub-XXXX/0003）
+└── アプリB（App ID: ca-app-pub-XXXX~BBBB）
+    ├── バナー広告ユニット（ca-app-pub-XXXX/0004）
+    └── リワード（ca-app-pub-XXXX/0005）</code></pre>
+
+<p>1つのAdMobアカウントで複数のアプリを管理できるが、IDはアプリごとに別々に発行される。アプリBのIDをアプリAに使い回すことはできない。</p>
+
+<h2>AdMobコンソールでの設定手順</h2>
+
+<ol>
+  <li><strong>admob.google.com にアクセス</strong></li>
+  <li><strong>アプリを追加</strong> → iOS / Android を選択 → アプリ名を入力</li>
+  <li><strong>アプリIDをメモ</strong>（<code>ca-app-pub-XXXX~XXXX</code>形式）→ <code>Info.plist</code>に記述</li>
+  <li><strong>広告ユニットを作成</strong> → バナー・インタースティシャル・リワードをそれぞれ作成</li>
+  <li><strong>各ユニットIDをコード内に反映</strong></li>
+</ol>
+
+<div class="warn">
+<p><strong>注意：</strong> App Store審査中も本番IDを使う。テスト用IDのまま提出するとポリシー違反ではないが、審査後に差し替えると再ビルド・再申請が必要になる。最初から本番IDで提出するのが効率的。</p>
+</div>
+
+<h2>Androidの場合はAndroidManifest.xmlも変える</h2>
+
+<p>Androidは<code>AndroidManifest.xml</code>にもアプリIDを記述する。</p>
+
+<pre><code>&lt;!-- android/app/src/main/AndroidManifest.xml --&gt;
+&lt;meta-data
+    android:name="com.google.android.gms.ads.APPLICATION_ID"
+    android:value="ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX"/&gt;</code></pre>
+
+<p>iOSの<code>Info.plist</code>とAndroidの<code>AndroidManifest.xml</code>、それぞれ別々に差し替える必要がある。</p>
+
+<h2>まとめ</h2>
+
+<p>リリース前にAdMob関連で変えるべきものをチェックリストにするとこうなる。</p>
+
+<ul>
+  <li>iOS: <code>Info.plist</code>の<code>GADApplicationIdentifier</code></li>
+  <li>Android: <code>AndroidManifest.xml</code>の<code>APPLICATION_ID</code></li>
+  <li>コード内の各広告ユニットID（バナー・インタースティシャル・リワードそれぞれ、iOS/Android別）</li>
+</ul>
+
+<p>新しいアプリを作るたびにこの作業が必要になる。テスト用IDのままリリースしてしまうと収益が発生しないので、デプロイ前のチェックリストに必ず入れておくといい。</p>
+
+<h2>同じアプリ内で複数箇所に広告を置くとき、IDは都度作成が必要か</h2>
+
+<p>答えはNOだ。<strong>同じ種類の広告なら1つのIDを複数箇所で使い回せる。</strong></p>
+
+<p>AdMobのIDは「設置場所」ではなく「広告の種類」に紐づいている。バナーを3つの画面に貼っても同じバナーIDを使えばいい。</p>
+
+<pre><code>// 同じIDを複数のWidgetで使い回してOK
+final banner1 = BannerAd(adUnitId: AdService().bannerAdUnitId, ...);
+final banner2 = BannerAd(adUnitId: AdService().bannerAdUnitId, ...);</code></pre>
+
+<p>ただし、画面ごとの収益内訳を細かく分析したい場合は場所別にIDを作ることもできる。通常は種類ごとに1つで十分だ。</p>
+
+<h2>AdMobの広告6種類を比較する</h2>
+
+<p>AdMobコンソールには6種類の広告フォーマットがある。それぞれの特徴を整理した。</p>
+
+<div style="overflow-x:auto;margin:20px 0">
+<table style="width:100%;border-collapse:collapse;font-size:14px">
+<thead>
+<tr style="border-bottom:1px solid var(--border)">
+  <th style="text-align:left;padding:10px 12px;color:var(--muted);font-weight:600">種類</th>
+  <th style="text-align:left;padding:10px 12px;color:var(--muted);font-weight:600">単価目安</th>
+  <th style="text-align:left;padding:10px 12px;color:var(--muted);font-weight:600">UXへの影響</th>
+  <th style="text-align:left;padding:10px 12px;color:var(--muted);font-weight:600">向いているアプリ</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid var(--border)">
+  <td style="padding:10px 12px;color:#cbd5e1"><strong style="color:var(--text)">バナー</strong></td>
+  <td style="padding:10px 12px;color:#64748b">低（$0.1〜0.5 CPM）</td>
+  <td style="padding:10px 12px;color:#64748b">低・常時表示</td>
+  <td style="padding:10px 12px;color:#64748b">とりあえず全アプリ</td>
+</tr>
+<tr style="border-bottom:1px solid var(--border)">
+  <td style="padding:10px 12px;color:#cbd5e1"><strong style="color:var(--text)">インタースティシャル</strong></td>
+  <td style="padding:10px 12px;color:#64748b">中（$1〜3 CPM）</td>
+  <td style="padding:10px 12px;color:#64748b">高・全画面で強制</td>
+  <td style="padding:10px 12px;color:#64748b">画面遷移が多いアプリ</td>
+</tr>
+<tr style="border-bottom:1px solid var(--border)">
+  <td style="padding:10px 12px;color:#cbd5e1"><strong style="color:var(--text)">リワード</strong></td>
+  <td style="padding:10px 12px;color:#64748b">高（$3〜10 CPM）</td>
+  <td style="padding:10px 12px;color:#64748b">低・ユーザーが選択</td>
+  <td style="padding:10px 12px;color:#64748b">回数制限があるアプリ</td>
+</tr>
+<tr style="border-bottom:1px solid var(--border)">
+  <td style="padding:10px 12px;color:#cbd5e1"><strong style="color:var(--text)">リワードインタースティシャル</strong></td>
+  <td style="padding:10px 12px;color:#64748b">高（$3〜8 CPM）</td>
+  <td style="padding:10px 12px;color:#64748b">中・全画面だが報酬あり</td>
+  <td style="padding:10px 12px;color:#64748b">リワードの自動表示版（ベータ）</td>
+</tr>
+<tr style="border-bottom:1px solid var(--border)">
+  <td style="padding:10px 12px;color:#cbd5e1"><strong style="color:var(--text)">ネイティブアドバンス</strong></td>
+  <td style="padding:10px 12px;color:#64748b">中（$1〜4 CPM）</td>
+  <td style="padding:10px 12px;color:#64748b">低・UIに溶け込む</td>
+  <td style="padding:10px 12px;color:#64748b">リスト・フィード型アプリ</td>
+</tr>
+<tr>
+  <td style="padding:10px 12px;color:#cbd5e1"><strong style="color:var(--text)">アプリ起動</strong></td>
+  <td style="padding:10px 12px;color:#64748b">中（$1〜3 CPM）</td>
+  <td style="padding:10px 12px;color:#64748b">中・起動時に毎回表示</td>
+  <td style="padding:10px 12px;color:#64748b">頻繁に起動するツール系</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>単価が高いのはリワード系</h3>
+
+<p>ユーザーが自分から「見る」を選択するリワード広告は、視聴完了率が高くエンゲージメントが強いため単価が最も高い。バナーの10〜20倍になることもある。</p>
+
+<h3>ただし表示回数はバナーが圧倒的に多い</h3>
+
+<p>単価が高くてもリワードは「ユーザーが能動的に選ぶ」場面でしか表示されない。バナーは画面を開くたびに表示されるため、MAUが大きくなると収益の柱になる。</p>
+
+<h3>TOITEで採用した3種類の理由</h3>
+
+<p>実際にTOITEに実装したのはバナー・インタースティシャル・リワードの3種類だ。</p>
+
+<ul>
+  <li><strong>バナー</strong>: ナビゲーションバー上に常時表示。収益は少ないが積み上がる</li>
+  <li><strong>インタースティシャル</strong>: 1日5回の上限に達したときのダイアログで「+2回獲得」として表示</li>
+  <li><strong>リワード</strong>: 設定画面の「動画を見て+5回」ボタン。ユーザーが選ぶので不満になりにくい</li>
+</ul>
+
+<p>ネイティブはリスト画面がなく活かしにくい。アプリ起動広告は教育系アプリには重すぎる。この判断で今は十分だと思っている。</p>
+
+<h2>まとめ</h2>
+
+<p>リリース前にAdMob関連で変えるべきものをチェックリストにするとこうなる。</p>
+
+<ul>
+  <li>iOS: <code>Info.plist</code>の<code>GADApplicationIdentifier</code></li>
+  <li>Android: <code>AndroidManifest.xml</code>の<code>APPLICATION_ID</code></li>
+  <li>コード内の各広告ユニットID（バナー・インタースティシャル・リワードそれぞれ、iOS/Android別）</li>
+</ul>
+
+<p>新しいアプリを作るたびにこの作業が必要になる。テスト用IDのままリリースしてしまうと収益が発生しないので、デプロイ前のチェックリストに必ず入れておくといい。</p>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2025 SEADICE</p></footer>
+</body>
+</html>

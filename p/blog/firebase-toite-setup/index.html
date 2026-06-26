@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FlutterアプリのFirebaseを再構築した話 — プロジェクト削除からリリースまで | SEADICE</title>
+<meta name="description" content="Firebaseプロジェクトが削除されていた状態から、新規プロジェクト作成・flutterfire configure・Realtime Database＆Storageのセキュリティルール設定まで一連の作業をまとめた。">
+<link rel="canonical" href="https://seadice.win/blog/firebase-toite-setup/">
+<meta property="og:title" content="FlutterアプリのFirebaseを再構築した話 — プロジェクト削除からリリースまで | SEADICE">
+<meta property="og:description" content="Firebaseプロジェクトが削除されていた状態から、新規プロジェクト作成・flutterfire configure・Realtime Database＆Storageのセキュリティルール設定まで一連の作業をまとめた。">
+<meta property="og:url" content="https://seadice.win/blog/firebase-toite-setup/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="FlutterアプリのFirebaseを再構築した話 — プロジェクト削除からリリースまで | SEADICE">
+<meta name="twitter:description" content="Firebaseプロジェクトが削除されていた状態から新規構築。flutterfire configure・DB＆Storageルール設定まで一連の作業をまとめた。">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"FlutterアプリのFirebaseを再構築した話 — プロジェクト削除からリリースまで","datePublished":"2026-06-26","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.warn{background:rgba(251,191,36,.06);border:1px solid rgba(251,191,36,.25);border-radius:10px;padding:16px 20px;margin:20px 0}.warn p{margin:0;font-size:14px;color:#94a3b8}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / FlutterアプリのFirebaseを再構築した話</p>
+  <span class="tag">開発</span>
+  <h1>FlutterアプリのFirebaseを再構築した話<br>— プロジェクト削除からリリースまで</h1>
+  <p class="meta"><time datetime="2026-06-26">2026-06-26</time> · SEADICE</p>
+  <div class="body">
+
+<p>TOITEのApp Store審査に向けて作業を進めていたところ、Firebaseプロジェクトが削除されていることが発覚した。アプリの「保存」機能がFirebase Realtime DatabaseとStorageに依存しているため、このままではリリースできない。</p>
+
+<p>この記事では、Firebaseプロジェクトをゼロから再構築してリリースビルドに組み込むまでの手順をまとめる。</p>
+
+<h2>目標</h2>
+<ul>
+  <li>新しいFirebaseプロジェクトを作成する</li>
+  <li><code>flutterfire configure</code> で <code>firebase_options.dart</code> を再生成する</li>
+  <li>Realtime Database と Storage を有効化し、本番用セキュリティルールを設定する</li>
+  <li>ビルドしてTransporterでアップロードできる状態にする</li>
+</ul>
+
+<h2>1. Firebaseプロジェクトの新規作成</h2>
+
+<p>まず Firebase コンソール（console.firebase.google.com）で新しいプロジェクトを作成する。プロジェクト名は今回 <code>toite-ai</code> にした。</p>
+
+<p>作成後、iOS アプリを追加してバンドルIDを登録する。</p>
+
+<h2>2. flutterfire configure で再設定</h2>
+
+<p><code>flutterfire</code> コマンドが入っていない場合はまずインストールする。</p>
+
+<pre><code>dart pub global activate flutterfire_cli
+export PATH="$PATH":"$HOME/.pub-cache/bin"</code></pre>
+
+<p>プロジェクトルートで実行する。</p>
+
+<pre><code>cd /path/to/your/flutter/app
+flutterfire configure</code></pre>
+
+<p>対話形式で進む。</p>
+<ul>
+  <li>既存の <code>firebase.json</code> を使うか → <strong>n</strong>（新プロジェクトに切り替えるため）</li>
+  <li>プロジェクトを選択 → 作成した新しいプロジェクトを選ぶ</li>
+  <li>対象プラットフォーム → iOS のみ選択</li>
+</ul>
+
+<p>完了すると <code>lib/firebase_options.dart</code> と <code>ios/Runner/GoogleService-Info.plist</code> が自動更新される。</p>
+
+<div class="warn">
+<p><strong>注意：</strong> 既存の <code>firebase.json</code> を使うと古いプロジェクトIDのままになる。新プロジェクトに切り替える場合は必ず <strong>n</strong> を選択すること。</p>
+</div>
+
+<h2>3. Realtime Database を有効化する</h2>
+
+<p>Firebase コンソール → Realtime Database → 「データベースを作成」</p>
+<ul>
+  <li>ロケーション: <code>asia-southeast1</code>（シンガポール、日本から最も近い）</li>
+  <li>モード: テストモードで開始（後でルールを上書きする）</li>
+</ul>
+
+<p>作成後、「ルール」タブで以下に書き換えて公開する。</p>
+
+<pre><code>{
+  "rules": {
+    "problems": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}</code></pre>
+
+<p>テストモードのデフォルトルールは30日で期限切れになるため、必ず上書きする。</p>
+
+<h2>4. Storage を有効化する</h2>
+
+<p>Firebase コンソール → Storage → 「始める」→ 同じく <code>asia-southeast1</code> を選択。</p>
+
+<p>セキュリティルールは <code>storage.rules</code> ファイルで管理する。</p>
+
+<pre><code>rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /problems/{allPaths=**} {
+      allow write: if request.resource.size < 10 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*');
+      allow read: if true;
+      allow delete: if true;
+    }
+  }
+}</code></pre>
+
+<p>CLIでデプロイする。</p>
+
+<pre><code>firebase deploy --only storage --project toite-ai</code></pre>
+
+<h2>5. ビルドして確認</h2>
+
+<pre><code>flutter build ipa --release</code></pre>
+
+<p>エラーなくビルドが通れば Firebase の再接続は完了だ。Transporter でアップロードして App Store Connect でビルドが反映されているか確認する。</p>
+
+<h2>まとめ</h2>
+
+<p>Firebaseプロジェクトが削除されていても、<code>flutterfire configure</code> で新プロジェクトに切り替えるだけで復旧できる。ポイントは2つ。</p>
+
+<ul>
+  <li>既存の <code>firebase.json</code> を使わず新規設定を選ぶ</li>
+  <li>テストモードのルールは必ず本番用に上書きする（30日で期限切れになるため）</li>
+</ul>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2025 SEADICE</p></footer>
+</body>
+</html>

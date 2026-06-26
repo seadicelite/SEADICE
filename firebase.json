@@ -120,6 +120,10 @@
         "destination": "/privacy/toite/index.html"
       },
       {
+        "source": "/tools/",
+        "destination": "/tools/index.html"
+      },
+      {
         "source": "/tools/fukugyo-tax/**",
         "destination": "/tools/fukugyo-tax/index.html"
       },

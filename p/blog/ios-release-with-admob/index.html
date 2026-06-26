@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>広告つきFlutterアプリをiOSにリリースするまでにやること全部 | SEADICE</title>
+<meta name="description" content="AdMob広告を実装したFlutterアプリをApp Storeにリリースするまでの全手順。AdMob登録・ATT対応・プライバシー申告・App Store Connect設定・Transporterアップロードまで。">
+<link rel="canonical" href="https://seadice.win/blog/ios-release-with-admob/">
+<meta property="og:title" content="広告つきFlutterアプリをiOSにリリースするまでにやること全部 | SEADICE">
+<meta property="og:description" content="AdMob広告を実装したFlutterアプリをApp Storeにリリースするまでの全手順。AdMob登録・ATT対応・プライバシー申告・App Store Connect設定まで。">
+<meta property="og:url" content="https://seadice.win/blog/ios-release-with-admob/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="広告つきFlutterアプリをiOSにリリースするまでにやること全部 | SEADICE">
+<meta name="twitter:description" content="AdMob広告を実装したFlutterアプリをApp Storeにリリースするまでの全手順。AdMob登録・ATT対応・プライバシー申告まで。">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"広告つきFlutterアプリをiOSにリリースするまでにやること全部","datePublished":"2026-06-26","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.warn{background:rgba(251,191,36,.06);border:1px solid rgba(251,191,36,.25);border-radius:10px;padding:16px 20px;margin:20px 0}.warn p{margin:0;font-size:14px;color:#94a3b8}.checklist{list-style:none;padding:0}.checklist li{padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;color:#cbd5e1;display:flex;gap:10px}.checklist li::before{content:"□";color:var(--accent);flex-shrink:0}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 広告つきFlutterアプリをiOSにリリースするまでにやること全部</p>
+  <span class="tag">開発</span>
+  <h1>広告つきFlutterアプリを<br>iOSにリリースするまでにやること全部</h1>
+  <p class="meta"><time datetime="2026-06-26">2026-06-26</time> · SEADICE</p>
+  <div class="body">
+
+<p>AdMob広告を実装したFlutterアプリをApp Storeに初めてリリースしようとすると、思っていたより手順が多い。コードを書き終えただけでは申請できず、AdMob・Apple・App Store Connectをまたいだ設定が必要になる。</p>
+
+<p>TOITEのリリース作業で実際にやった手順を全部まとめた。</p>
+
+<h2>全体の流れ</h2>
+
+<ol>
+  <li>AdMobでアプリと広告ユニットを登録する</li>
+  <li>本番の広告IDをコードに反映する</li>
+  <li>ATT（App Tracking Transparency）を実装する</li>
+  <li>プライバシーポリシーを公開する</li>
+  <li>flutter build ipa でビルドする</li>
+  <li>App Store Connect でアプリを登録する</li>
+  <li>Transporter でアップロードする</li>
+  <li>App Store Connect でプライバシー申告・審査情報を入力する</li>
+</ol>
+
+<h2>1. AdMobでアプリと広告ユニットを登録する</h2>
+
+<p>admob.google.com でアプリを追加する。iOS と Android は別のアプリとして登録する必要がある。今回は iOS のみ。</p>
+
+<p>登録後、使う広告の種類ごとに広告ユニットを作成する。TOITEで使った3種類：</p>
+
+<ul>
+  <li><strong>バナー</strong>: ナビゲーションバー上に常時表示</li>
+  <li><strong>インタースティシャル</strong>: 利用回数切れ時に全画面表示</li>
+  <li><strong>リワード</strong>: ユーザーが「見る」を選択して回数を追加獲得</li>
+</ul>
+
+<p>発行されるIDは2種類。アプリID（<code>~</code>で区切られる）と広告ユニットID（<code>/</code>で区切られる）。</p>
+
+<div class="warn">
+<p><strong>注意：</strong> 同じ種類の広告を複数箇所に配置する場合、IDは1つを使い回せる。設置場所ごとに作成する必要はない。</p>
+</div>
+
+<h2>2. 本番の広告IDをコードに反映する</h2>
+
+<p>開発中はGoogleが提供するテスト用IDを使う。本番リリース時に差し替える箇所は3つ。</p>
+
+<p><strong>Info.plist（アプリID）：</strong></p>
+<pre><code>&lt;key&gt;GADApplicationIdentifier&lt;/key&gt;
+&lt;string&gt;ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX&lt;/string&gt;</code></pre>
+
+<p><strong>コード内の広告ユニットID：</strong></p>
+<pre><code>static String get banner => Platform.isAndroid
+    ? 'ca-app-pub-XXXX/XXXXXXXXXX'  // Android
+    : 'ca-app-pub-XXXX/XXXXXXXXXX'; // iOS</code></pre>
+
+<p>リワード広告の報酬数はAdMobコンソールで設定した値（<code>reward.amount</code>）がコードに渡される。UIの表示文言と一致させておくこと。</p>
+
+<h2>3. ATT（App Tracking Transparency）を実装する</h2>
+
+<p>AdMobはIDFA（広告識別子）を使ってトラッキングを行う。iOS 14.5以降、ユーザーの許可なくIDFAにアクセスすることは禁止されている。</p>
+
+<p><code>app_tracking_transparency</code> パッケージを追加する。</p>
+
+<pre><code># pubspec.yaml
+dependencies:
+  app_tracking_transparency: ^2.0.7</code></pre>
+
+<p>アプリ起動時に許可ダイアログを表示する。AdMob初期化より前に呼ぶ。</p>
+
+<pre><code>void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await AppTrackingTransparency.requestTrackingAuthorization();
+  await MobileAds.instance.initialize();
+  runApp(const MyApp());
+}</code></pre>
+
+<p><code>Info.plist</code> に使用目的の文言も必要だ。</p>
+
+<pre><code>&lt;key&gt;NSUserTrackingUsageDescription&lt;/key&gt;
+&lt;string&gt;より関連性の高い広告を表示するためにトラッキングを使用します。&lt;/string&gt;</code></pre>
+
+<h2>4. プライバシーポリシーを公開する</h2>
+
+<p>App Store審査にはプライバシーポリシーのURLが必須。公開済みのURLが必要なので、審査前にデプロイしておく。</p>
+
+<p>記載すべき内容：</p>
+<ul>
+  <li>収集するデータの種類（カメラ・広告識別子など）</li>
+  <li>第三者への提供先（AdMob・Firebase・Anthropicなど）</li>
+  <li>データの削除方法</li>
+  <li>お問い合わせ先</li>
+</ul>
+
+<h2>5. flutter build ipa でビルドする</h2>
+
+<pre><code>flutter build ipa --release</code></pre>
+
+<p>成功すると <code>build/ios/ipa/</code> に .ipa ファイルが生成される。</p>
+
+<h2>6. App Store Connect でアプリを登録する</h2>
+
+<p>appstoreconnect.apple.com → 「マイApp」→「+」→「新規App」</p>
+
+<ul>
+  <li>プラットフォーム: iOS</li>
+  <li>バンドルID: Xcodeのプロジェクトと一致するものを選択</li>
+  <li>SKU: 任意の文字列（変更不可）</li>
+</ul>
+
+<h2>7. Transporter でアップロードする</h2>
+
+<p>App Store の Transporter アプリに .ipa をドラッグ＆ドロップする。App Store Connect にアプリが登録されていないとエラーになるので、手順6を先に完了させること。</p>
+
+<h2>8. プライバシー申告と審査情報を入力する</h2>
+
+<p>App Store Connect → アプリ → 「アプリのプライバシー」から申告する。AdMobを使う場合に申告が必要なデータタイプ：</p>
+
+<ul>
+  <li><strong>写真またはビデオ</strong>（カメラ・ライブラリを使う場合）</li>
+  <li><strong>使用状況データ</strong></li>
+  <li><strong>診断データ</strong></li>
+  <li><strong>デバイスIDまたはその他のID</strong> → <strong>「トラッキング」にチェック必須</strong></li>
+</ul>
+
+<div class="warn">
+<p><strong>ハマりポイント：</strong> <code>NSUserTrackingUsageDescription</code> が <code>Info.plist</code> に含まれている場合、「デバイスID」をトラッキング目的として申告しないと審査提出ボタンが押せない。プライバシー申告とATT実装は必ずセットで対応すること。</p>
+</div>
+
+<p>その他に必要な入力：</p>
+<ul>
+  <li>スクリーンショット（iPhone 6.9インチ必須）</li>
+  <li>アプリ説明文・キーワード・サブタイトル</li>
+  <li>サポートURL・プライバシーポリシーURL</li>
+  <li>年齢制限（広告ありの場合は該当項目にチェック）</li>
+</ul>
+
+<h2>リリース前チェックリスト</h2>
+
+<ul class="checklist">
+  <li>AdMobにアプリを登録し、本番IDを取得した</li>
+  <li>Info.plist の GADApplicationIdentifier を本番IDに差し替えた</li>
+  <li>コード内の広告ユニットIDを全種類本番IDに差し替えた</li>
+  <li>ATT許可ダイアログを実装した（app_tracking_transparency）</li>
+  <li>プライバシーポリシーを公開した</li>
+  <li>flutter build ipa --release が通った</li>
+  <li>App Store Connect にアプリを登録した</li>
+  <li>Transporter でアップロードした</li>
+  <li>プライバシー申告でデバイスIDをトラッキング目的に設定した</li>
+  <li>スクリーンショット・説明文・URLを入力した</li>
+</ul>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2025 SEADICE</p></footer>
+</body>
+</html>

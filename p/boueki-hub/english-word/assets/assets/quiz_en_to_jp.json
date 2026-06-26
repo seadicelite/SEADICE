@@ -1,0 +1,2409 @@
+[
+  {
+    "id": 11101,
+    "question": "“Acceptance” の意味は？",
+    "options": ["受諾／引受", "一覧払輸入手形決済相場", "商工会議所", "不可抗力（天災など）"],
+    "answer_index": 0
+  },
+  {
+    "id": 11102,
+    "question": "“Acceptance Rate” の意味は？",
+    "options": ["一覧払輸入手形決済相場", "残高／均衡", "代理店手数料", "見込み利益"],
+    "answer_index": 0
+  },
+  {
+    "id": 11103,
+    "question": "“Account” の意味は？",
+    "options": ["勘定／口座", "代理店契約", "輸入申告書", "船荷証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11104,
+    "question": "“Act of God” の意味は？",
+    "options": ["不可抗力（天災など）", "保険金額", "裁定", "代理人／代理店"],
+    "answer_index": 0
+  },
+  {
+    "id": 11105,
+    "question": "“Additional Order” の意味は？",
+    "options": ["追加注文", "名宛人", "保税地域", "調整／清算"],
+    "answer_index": 0
+  },
+  {
+    "id": 11106,
+    "question": "“Addressee” の意味は？",
+    "options": ["名宛人", "年次報告", "残高／均衡", "請求書／手形"],
+    "answer_index": 0
+  },
+  {
+    "id": 11107,
+    "question": "“Adjustment” の意味は？",
+    "options": ["調整／清算", "一覧払い", "入札／値を付ける", "保税倉庫"],
+    "answer_index": 0
+  },
+  {
+    "id": 11108,
+    "question": "“Ad Valorem” の意味は？",
+    "options": ["従価（価格に応じて）", "保険金額", "年次報告", "代理店契約"],
+    "answer_index": 0
+  },
+  {
+    "id": 11109,
+    "question": "“Advance Payment” の意味は？",
+    "options": ["前払い", "保険金額", "不可抗力（天災など）", "輸入申告書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11110,
+    "question": "“Advising Bank” の意味は？",
+    "options": ["信用状を通知する銀行", "保税地域", "保険金額", "代理店手数料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11111,
+    "question": "“Agent” の意味は？",
+    "options": ["代理人／代理店", "請求書／手形", "保税地域", "航空小包"],
+    "answer_index": 0
+  },
+  {
+    "id": 11112,
+    "question": "“Agency Agreement” の意味は？",
+    "options": ["代理店契約(書)", "一覧払い", "不可抗力（天災など）", "入札／値を付ける"],
+    "answer_index": 0
+  },
+  {
+    "id": 11113,
+    "question": "“Agent Commission” の意味は？",
+    "options": ["代理店手数料", "裁定", "名宛人", "一覧払い"],
+    "answer_index": 0
+  },
+  {
+    "id": 11114,
+    "question": "“Agreement” の意味は？",
+    "options": ["契約／合意", "保税地域", "輸入申告書", "船荷証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11115,
+    "question": "“Airmail” の意味は？",
+    "options": ["航空便", "代理店手数料", "残高／均衡", "請求書／手形"],
+    "answer_index": 0
+  },
+  {
+    "id": 11116,
+    "question": "“Airparcel” の意味は？",
+    "options": ["航空小包", "名宛人", "船の停泊位置／バース", "保税倉庫"],
+    "answer_index": 0
+  },
+  {
+    "id": 11117,
+    "question": "“Air Waybill (AWB)” の意味は？",
+    "options": ["航空運送状", "代理人／代理店", "見込み利益", "通関手帳"],
+    "answer_index": 0
+  },
+  {
+    "id": 11118,
+    "question": "“All Risks (A/R)” の意味は？",
+    "options": ["一切の危険担保（全危険担保）", "航空便", "輸入申告書", "代理店契約"],
+    "answer_index": 0
+  },
+  {
+    "id": 11119,
+    "question": "“Amendment” の意味は？",
+    "options": ["修正／条件変更", "保税地域", "請求書／手形", "船荷証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11120,
+    "question": "“Amount Insured” の意味は？",
+    "options": ["保険金額", "不可抗力（天災など）", "代理店契約", "裁定"],
+    "answer_index": 0
+  },
+  {
+    "id": 11121,
+    "question": "“Annual Report” の意味は？",
+    "options": ["年次報告", "代理店手数料", "通関手帳", "一覧払輸入手形決済相場"],
+    "answer_index": 0
+  },
+  {
+    "id": 11122,
+    "question": "“Anticipated Profit” の意味は？",
+    "options": ["見込み利益", "代理店契約", "不可抗力（天災など）", "保税倉庫"],
+    "answer_index": 0
+  },
+  {
+    "id": 11123,
+    "question": "“Applicant” の意味は？",
+    "options": ["申請者／依頼人", "裁定", "保険金額", "輸入申告書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11124,
+    "question": "“Application” の意味は？",
+    "options": ["依頼書／申込み", "一覧払い", "資産", "請求書／手形"],
+    "answer_index": 0
+  },
+  {
+    "id": 11125,
+    "question": "“Appointment” の意味は？",
+    "options": ["任命／約束", "航空便", "代理店手数料", "銀行信用照会先"],
+    "answer_index": 0
+  },
+  {
+    "id": 11126,
+    "question": "“Arbitration” の意味は？",
+    "options": ["仲裁", "保税地域", "残高／均衡", "船荷証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11127,
+    "question": "“Arbitration Clause” の意味は？",
+    "options": ["仲裁条項", "一覧払い", "銀行小切手", "代理店契約(書)"],
+    "answer_index": 0
+  },
+  {
+    "id": 11128,
+    "question": "“Arrangement” の意味は？",
+    "options": ["取り決め／協定", "見込み利益", "名宛人", "航空小包"],
+    "answer_index": 0
+  },
+  {
+    "id": 11129,
+    "question": "“Arrival Notice” の意味は？",
+    "options": ["着船通知書", "代理人／代理店", "裁定", "通関手帳"],
+    "answer_index": 0
+  },
+  {
+    "id": 11130,
+    "question": "“Article” の意味は？",
+    "options": ["条項／品物", "資産", "請求書／手形", "保税倉庫"],
+    "answer_index": 0
+  },
+  {
+    "id": 11131,
+    "question": "“Assets” の意味は？",
+    "options": ["資産", "不可抗力（天災など）", "銀行信用照会先", "航空小包"],
+    "answer_index": 0
+  },
+  {
+    "id": 11132,
+    "question": "“Assignment” の意味は？",
+    "options": ["譲渡／割当", "裁定", "一覧払い", "代理店手数料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11133,
+    "question": "“Assured” の意味は？",
+    "options": ["被保険者", "保税地域", "輸入申告書", "請求書／手形"],
+    "answer_index": 0
+  },
+  {
+    "id": 11134,
+    "question": "“ATA Carnet” の意味は？",
+    "options": ["通関手帳", "銀行小切手", "名宛人", "代理店契約"],
+    "answer_index": 0
+  },
+  {
+    "id": 11135,
+    "question": "“At sight (A/S)” の意味は？",
+    "options": ["一覧払い", "見込み利益", "航空便", "残高／均衡"],
+    "answer_index": 0
+  },
+  {
+    "id": 11136,
+    "question": "“Award” の意味は？",
+    "options": ["裁定", "不可抗力（天災など）", "保険金額", "条項／品物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11137,
+    "question": "“Balance” の意味は？",
+    "options": ["残高／均衡", "代理店手数料", "見込み利益", "銀行信用照会先"],
+    "answer_index": 0
+  },
+  {
+    "id": 11138,
+    "question": "“Balance Sheet” の意味は？",
+    "options": ["貸借対照表", "航空運送状", "代理店契約(書)", "裁定"],
+    "answer_index": 0
+  },
+  {
+    "id": 11139,
+    "question": "“Bank Reference” の意味は？",
+    "options": ["銀行信用照会先", "保税倉庫", "請求書／手形", "不可抗力（天災など）"],
+    "answer_index": 0
+  },
+  {
+    "id": 11140,
+    "question": "“Bank Check” の意味は？",
+    "options": ["銀行小切手", "年次報告", "一覧払い", "航空小包"],
+    "answer_index": 0
+  },
+  
+  {
+    "id": 11141,
+    "question": "“Beneficiary” の意味は？",
+    "options": ["受益者／信用状受益者", "代理店", "不測の損害", "仲裁条項"],
+    "answer_index": 0
+  },
+  {
+    "id": 11142,
+    "question": "“Beneficiary's Draft” の意味は？",
+    "options": ["受益者為替手形", "請求書", "船荷証券", "追加注文"],
+    "answer_index": 0
+  },
+  {
+    "id": 11143,
+    "question": "“Berth” の意味は？",
+    "options": ["船の停泊位置／バース", "銀行小切手", "裁定", "前払い"],
+    "answer_index": 0
+  },
+  {
+    "id": 11144,
+    "question": "“Bid” の意味は？",
+    "options": ["入札／値を付ける", "代理人", "保険金額", "見込み利益"],
+    "answer_index": 0
+  },
+  {
+    "id": 11145,
+    "question": "“Bill” の意味は？",
+    "options": ["請求書／手形", "通関手帳", "年次報告", "名宛人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11146,
+    "question": "“Bill of Entry” の意味は？",
+    "options": ["輸入申告書", "保税倉庫", "調整／清算", "一覧払い"],
+    "answer_index": 0
+  },
+  {
+    "id": 11147,
+    "question": "“Bill of Exchange” の意味は？",
+    "options": ["為替手形", "航空運送状", "残高／均衡", "裁定"],
+    "answer_index": 0
+  },
+  {
+    "id": 11148,
+    "question": "“Bill of Lading (B/L)” の意味は？",
+    "options": ["船荷証券", "代理店契約", "保険金額", "調整／清算"],
+    "answer_index": 0
+  },
+  {
+    "id": 11149,
+    "question": "“Bonded Area” の意味は？",
+    "options": ["保税地域", "代理店手数料", "追加注文", "見込み利益"],
+    "answer_index": 0
+  },
+  {
+    "id": 11150,
+    "question": "“Bonded Warehouse” の意味は？",
+    "options": ["保税倉庫", "裁定", "銀行信用照会先", "追加注文"],
+    "answer_index": 0
+  },
+
+  {
+    "id": 11151,
+    "question": "“Booking” の意味は？",
+    "options": ["予約（船積み予約）", "委託品／発送品", "契約書", "請求／クレーム"],
+    "answer_index": 0
+  },
+  {
+    "id": 11152,
+    "question": "“Booking Note” の意味は？",
+    "options": ["船積予約書", "負担金／拠出", "貨物保険", "遵守"],
+    "answer_index": 0
+  },
+  {
+    "id": 11153,
+    "question": "“Brand” の意味は？",
+    "options": ["商標／銘柄", "貨物明細書", "委託料", "混載／コンソリ"],
+    "answer_index": 0
+  },
+  {
+    "id": 11154,
+    "question": "“Broker” の意味は？",
+    "options": ["仲買人／ブローカー", "原産地証明書", "運送／輸送", "貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11155,
+    "question": "“Bulk Cargo” の意味は？",
+    "options": ["ばら積み貨物", "請求／クレーム", "通関", "貨物保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11156,
+    "question": "“Buyer” の意味は？",
+    "options": ["買主／購入者", "容量／能力", "書類渡しと引換現金払い", "契約価格"],
+    "answer_index": 0
+  },
+  {
+    "id": 11157,
+    "question": "“Cancellation” の意味は？",
+    "options": ["解除／キャンセル", "混載／コンソリ", "貨物保険", "委託品／発送品"],
+    "answer_index": 0
+  },
+  {
+    "id": 11158,
+    "question": "“Capacity” の意味は？",
+    "options": ["容量／能力", "貨物明細書", "遵守", "無故障船荷証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11159,
+    "question": "“Cargo” の意味は？",
+    "options": ["貨物", "委託料", "反対申込み", "荷受人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11160,
+    "question": "“Cargo Insurance” の意味は？",
+    "options": ["貨物保険", "拠出／負担金", "手数料／委託料", "契約書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11161,
+    "question": "“Cargo Manifest” の意味は？",
+    "options": ["貨物明細書", "商業送り状", "検査証明書", "委託品／発送品"],
+    "answer_index": 0
+  },
+  {
+    "id": 11162,
+    "question": "“Carriage” の意味は？",
+    "options": ["運送／輸送", "原産地証明書", "貨物保険", "遵守"],
+    "answer_index": 0
+  },
+  {
+    "id": 11163,
+    "question": "“Carrier” の意味は？",
+    "options": ["運送人", "荷送人", "委託料", "請求／クレーム"],
+    "answer_index": 0
+  },
+  {
+    "id": 11164,
+    "question": "“Cartage” の意味は？",
+    "options": ["陸上運送費／荷車運賃", "委託品／発送品", "原産地証明書", "商標／銘柄"],
+    "answer_index": 0
+  },
+  {
+    "id": 11165,
+    "question": "“Cash Against Documents (C.A.D)” の意味は？",
+    "options": ["書類渡しと引換現金払い", "貨物保険", "契約書", "遵守"],
+    "answer_index": 0
+  },
+  {
+    "id": 11166,
+    "question": "“Cash on Delivery (C.O.D)” の意味は？",
+    "options": ["代金引換", "反対申込み", "手数料／委託料", "貨物明細書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11167,
+    "question": "“Certificate” の意味は？",
+    "options": ["証明書", "委託品／発送品", "貨物", "商業送り状"],
+    "answer_index": 0
+  },
+  {
+    "id": 11168,
+    "question": "“Certificate of Analysis” の意味は？",
+    "options": ["分析証明書", "荷受人", "手数料／委託料", "商標／銘柄"],
+    "answer_index": 0
+  },
+  {
+    "id": 11169,
+    "question": "“Certificate of Inspection” の意味は？",
+    "options": ["検査証明書", "貨物保険", "委託料", "遵守"],
+    "answer_index": 0
+  },
+  {
+    "id": 11170,
+    "question": "“Certificate of Origin” の意味は？",
+    "options": ["原産地証明書", "契約書", "貨物", "反対申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11171,
+    "question": "“Charge” の意味は？",
+    "options": ["料金／手数料", "容量／能力", "委託品", "貨物保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11172,
+    "question": "“Charter Party” の意味は？",
+    "options": ["用船契約", "貨物明細書", "請求／クレーム", "反対申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11173,
+    "question": "“Claim” の意味は？",
+    "options": ["請求／クレーム", "荷受人", "商業送り状", "委託品"],
+    "answer_index": 0
+  },
+  {
+    "id": 11174,
+    "question": "“Clean B/L” の意味は？",
+    "options": ["無故障船荷証券", "混載／コンソリ", "容量／能力", "遵守"],
+    "answer_index": 0
+  },
+  {
+    "id": 11175,
+    "question": "“Commercial Invoice” の意味は？",
+    "options": ["商業送り状", "請求書", "委託料", "貨物保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11176,
+    "question": "“Commission” の意味は？",
+    "options": ["手数料／委託料", "委託品", "貨物明細書", "原産地証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11177,
+    "question": "“Commodity” の意味は？",
+    "options": ["商品／産物", "契約書", "貨物", "遵守"],
+    "answer_index": 0
+  },
+  {
+    "id": 11178,
+    "question": "“Communication” の意味は？",
+    "options": ["通信／連絡", "証明書", "委託料", "荷送人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11179,
+    "question": "“Compensation” の意味は？",
+    "options": ["補償／賠償", "原産地証明書", "貨物保険", "請求／クレーム"],
+    "answer_index": 0
+  },
+  {
+    "id": 11180,
+    "question": "“Compliance” の意味は？",
+    "options": ["遵守", "委託品／発送品", "貨物", "用船契約"],
+    "answer_index": 0
+  },
+  {
+    "id": 11181,
+    "question": "“Consignee” の意味は？",
+    "options": ["荷受人", "委託料", "貨物明細書", "商標／銘柄"],
+    "answer_index": 0
+  },
+  {
+    "id": 11182,
+    "question": "“Consignment” の意味は？",
+    "options": ["委託品／発送品", "手数料", "用船契約", "貨物保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11183,
+    "question": "“Consignor” の意味は？",
+    "options": ["荷送人", "契約書", "委託料", "混載／コンソリ"],
+    "answer_index": 0
+  },
+  {
+    "id": 11184,
+    "question": "“Consolidation” の意味は？",
+    "options": ["混載／コンソリ", "貨物明細書", "請求書", "遵守"],
+    "answer_index": 0
+  },
+  {
+    "id": 11185,
+    "question": "“Container” の意味は？",
+    "options": ["コンテナ", "手数料", "反対申込み", "容量"],
+    "answer_index": 0
+  },
+  {
+    "id": 11186,
+    "question": "“Container Freight Station (CFS)” の意味は？",
+    "options": ["コンテナ詰め作業場", "商業送り状", "委託料", "容量／能力"],
+    "answer_index": 0
+  },
+  {
+    "id": 11187,
+    "question": "“Container Yard (CY)” の意味は？",
+    "options": ["コンテナヤード", "契約価格", "貨物保険", "遵守"],
+    "answer_index": 0
+  },
+  {
+    "id": 11188,
+    "question": "“Contract” の意味は？",
+    "options": ["契約", "貨物", "委託品", "反対申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11189,
+    "question": "“Contract Price” の意味は？",
+    "options": ["契約価格", "用船契約", "委託料", "容量／能力"],
+    "answer_index": 0
+  },
+  {
+    "id": 11190,
+    "question": "“Contribution” の意味は？",
+    "options": ["負担金／拠出", "コンテナ", "貨物保険", "証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11191,
+    "question": "“Correspondence” の意味は？",
+    "options": ["往復書簡／通信", "無故障船荷証券", "契約書", "委託料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11192,
+    "question": "“Cost and Freight (C&F)” の意味は？",
+    "options": ["運賃込み条件", "容量／能力", "貨物保険", "委託料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11193,
+    "question": "“Cost, Insurance and Freight (CIF)” の意味は？",
+    "options": ["運賃・保険料込み条件", "請求書", "用船契約", "商標／銘柄"],
+    "answer_index": 0
+  },
+  {
+    "id": 11194,
+    "question": "“Counter Offer” の意味は？",
+    "options": ["反対申込み", "委託品", "コンテナ", "貨物保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11195,
+    "question": "“Credit” の意味は？",
+    "options": ["信用／与信", "請求／クレーム", "容量／能力", "用船契約"],
+    "answer_index": 0
+  },
+  {
+    "id": 11196,
+    "question": "“Credit Limit” の意味は？",
+    "options": ["与信限度額", "貨物明細書", "代理店契約", "容量／能力"],
+    "answer_index": 0
+  },
+  {
+    "id": 11197,
+    "question": "“Currency” の意味は？",
+    "options": ["通貨", "委託品", "遵守", "手数料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11198,
+    "question": "“Customs” の意味は？",
+    "options": ["税関", "貨物", "委託料", "商標／銘柄"],
+    "answer_index": 0
+  },
+  {
+    "id": 11199,
+    "question": "“Customs Clearance” の意味は？",
+    "options": ["通関", "請求書", "用船契約", "反対申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11200,
+    "question": "“Customs Duty” の意味は？",
+    "options": ["関税", "委託品／発送品", "容量／能力", "手数料／委託料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11201,
+    "question": "“Damage” の意味は？",
+    "options": ["損害／損傷", "輸出許可", "控え／副本", "完全合意"],
+    "answer_index": 0
+  },
+  {
+    "id": 11202,
+    "question": "“DDP (Delivered Duty Paid)” の意味は？",
+    "options": ["関税込持込渡し条件", "輸出申告書", "裏書", "手形名宛人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11203,
+    "question": "“DDU (Delivered Duty Unpaid)” の意味は？",
+    "options": ["関税抜持込渡し条件", "控え／副本", "需要／請求", "船積み遅延"],
+    "answer_index": 0
+  },
+  {
+    "id": 11204,
+    "question": "“Declaration” の意味は？",
+    "options": ["申告／宣言", "輸出承認証", "滞船料", "契約"],
+    "answer_index": 0
+  },
+  {
+    "id": 11205,
+    "question": "“Default” の意味は？",
+    "options": ["不履行／債務不履行", "輸出許可", "裏書人", "需要／請求"],
+    "answer_index": 0
+  },
+  {
+    "id": 11206,
+    "question": "“Defective Goods” の意味は？",
+    "options": ["欠陥品", "見積り", "反対申込み", "為替リスク"],
+    "answer_index": 0
+  },
+  {
+    "id": 11207,
+    "question": "“Deferred Payment” の意味は？",
+    "options": ["後払い", "輸出申告書", "支払渡書類", "滞船料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11208,
+    "question": "“Deficiency” の意味は？",
+    "options": ["不足", "委託品", "為替予約", "需要／請求"],
+    "answer_index": 0
+  },
+  {
+    "id": 11209,
+    "question": "“Definite Insurance” の意味は？",
+    "options": ["確定保険", "荷渡指図書", "損害／損傷", "説明"],
+    "answer_index": 0
+  },
+  {
+    "id": 11210,
+    "question": "“Definite Policy” の意味は？",
+    "options": ["確定保険証券", "輸出承認証", "控え／副本", "滞船料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11211,
+    "question": "“Delayed Shipment” の意味は？",
+    "options": ["船積み遅延", "裏書人", "荷為替手形", "支払期日"],
+    "answer_index": 0
+  },
+  {
+    "id": 11212,
+    "question": "“Delivery” の意味は？",
+    "options": ["引渡し／納入", "説明", "委託品", "総代理店"],
+    "answer_index": 0
+  },
+  {
+    "id": 11213,
+    "question": "“Delivery Order (D/O)” の意味は？",
+    "options": ["荷渡指図書", "完全合意", "出発予定時刻", "輸出申告書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11214,
+    "question": "“Demand” の意味は？",
+    "options": ["需要／請求", "反対申込み", "輸出承認証", "荷為替手形"],
+    "answer_index": 0
+  },
+  {
+    "id": 11215,
+    "question": "“Demand Draft” の意味は？",
+    "options": ["送金小切手", "委託品", "説明", "滞船料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11216,
+    "question": "“Demurrage” の意味は？",
+    "options": ["滞船料", "裏書人", "輸出承認証", "控え／副本"],
+    "answer_index": 0
+  },
+  {
+    "id": 11217,
+    "question": "“DEQ (Delivered Ex Quay)” の意味は？",
+    "options": ["埠頭渡し条件", "反対申込み", "説明", "完全合意"],
+    "answer_index": 0
+  },
+  {
+    "id": 11218,
+    "question": "“DES (Delivered Ex Ship)” の意味は？",
+    "options": ["本船渡し条件", "輸出許可", "総代理店", "為替相場"],
+    "answer_index": 0
+  },
+  {
+    "id": 11219,
+    "question": "“Description” の意味は？",
+    "options": ["説明", "損害／損傷", "控え／副本", "輸出承認証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11220,
+    "question": "“Destination” の意味は？",
+    "options": ["仕向地", "引受渡書類", "反対申込み", "為替予約"],
+    "answer_index": 0
+  },
+  {
+    "id": 11221,
+    "question": "“Detail” の意味は？",
+    "options": ["詳細", "滞船料", "完全合意", "委託品"],
+    "answer_index": 0
+  },
+  {
+    "id": 11222,
+    "question": "“Discharge” の意味は？",
+    "options": ["荷卸し／解除", "輸出許可", "説明", "輸出承認証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11223,
+    "question": "“Discrepancy” の意味は？",
+    "options": ["不一致／相違", "反対申込み", "説明", "見積り"],
+    "answer_index": 0
+  },
+  {
+    "id": 11224,
+    "question": "“Dispute” の意味は？",
+    "options": ["紛争／争議", "控え／副本", "輸出申告書", "手形振出人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11225,
+    "question": "“Distributor” の意味は？",
+    "options": ["販売店", "滞船料", "委託品", "輸出許可"],
+    "answer_index": 0
+  },
+  {
+    "id": 11226,
+    "question": "“Distributorship Agreement” の意味は？",
+    "options": ["販売店契約", "総代理店契約", "裏書人契約", "輸出承認証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11227,
+    "question": "“Documentary Bill of Exchange” の意味は？",
+    "options": ["荷為替手形", "為替予約", "滞船料", "反対申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11228,
+    "question": "“Documents against Acceptance (D/A)” の意味は？",
+    "options": ["引受渡書類", "支払渡書類", "控え／副本", "説明"],
+    "answer_index": 0
+  },
+  {
+    "id": 11229,
+    "question": "“Documents against Payment (D/P)” の意味は？",
+    "options": ["支払渡書類", "引受渡書類", "輸出承認証", "為替リスク"],
+    "answer_index": 0
+  },
+  {
+    "id": 11230,
+    "question": "“Draft” の意味は？",
+    "options": ["手形／小切手", "委託品", "説明", "輸出許可"],
+    "answer_index": 0
+  },
+  {
+    "id": 11231,
+    "question": "“Drawee” の意味は？",
+    "options": ["手形名宛人", "滞船料", "控え／副本", "反対申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11232,
+    "question": "“Drawer” の意味は？",
+    "options": ["手形振出人", "輸出承認証", "需要／請求", "説明"],
+    "answer_index": 0
+  },
+  {
+    "id": 11233,
+    "question": "“Due Date” の意味は？",
+    "options": ["支払期日", "輸出許可", "滞船料", "荷為替手形"],
+    "answer_index": 0
+  },
+  {
+    "id": 11234,
+    "question": "“Duplicate” の意味は？",
+    "options": ["控え／副本", "完全合意", "見積り", "為替予約"],
+    "answer_index": 0
+  },
+  {
+    "id": 11235,
+    "question": "“Duration” の意味は？",
+    "options": ["期間", "裏書人", "滞船料", "委託品"],
+    "answer_index": 0
+  },
+  {
+    "id": 11236,
+    "question": "“Effective Date” の意味は？",
+    "options": ["発効日", "輸出承認証", "説明", "反対申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11237,
+    "question": "“Endorsement” の意味は？",
+    "options": ["裏書", "控え／副本", "滞船料", "委託品"],
+    "answer_index": 0
+  },
+  {
+    "id": 11238,
+    "question": "“Endorser” の意味は？",
+    "options": ["裏書人", "輸出申告書", "完全合意", "説明"],
+    "answer_index": 0
+  },
+  {
+    "id": 11239,
+    "question": "“Entire Agreement” の意味は？",
+    "options": ["完全合意", "滞船料", "輸出承認証", "控え／副本"],
+    "answer_index": 0
+  },
+  {
+    "id": 11240,
+    "question": "“Estimate” の意味は？",
+    "options": ["見積り", "需要／請求", "説明", "委託品"],
+    "answer_index": 0
+  },
+  {
+    "id": 11241,
+    "question": "“ETA (Estimated Time of Arrival)” の意味は？",
+    "options": ["到着予定時刻", "滞船料", "輸出承認証", "説明"],
+    "answer_index": 0
+  },
+  {
+    "id": 11242,
+    "question": "“ETD (Estimated Time of Departure)” の意味は？",
+    "options": ["出発予定時刻", "控え／副本", "反対申込み", "見積り"],
+    "answer_index": 0
+  },
+  {
+    "id": 11243,
+    "question": "“Exchange Contract” の意味は？",
+    "options": ["為替予約", "滞船料", "完全合意", "輸出承認証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11244,
+    "question": "“Exchange Quotation” の意味は？",
+    "options": ["為替相場表", "控え／副本", "反対申込み", "説明"],
+    "answer_index": 0
+  },
+  {
+    "id": 11245,
+    "question": "“Exchange Rate” の意味は？",
+    "options": ["為替相場", "滞船料", "完全合意", "説明"],
+    "answer_index": 0
+  },
+  {
+    "id": 11246,
+    "question": "“Exchange Risk” の意味は？",
+    "options": ["為替リスク", "輸出承認証", "控え／副本", "委託品"],
+    "answer_index": 0
+  },
+  {
+    "id": 11247,
+    "question": "“Exclusive Agent” の意味は？",
+    "options": ["総代理店", "滞船料", "説明", "裏書人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11248,
+    "question": "“Export Declaration (E/D)” の意味は？",
+    "options": ["輸出申告(書)", "控え／副本", "見積り", "説明"],
+    "answer_index": 0
+  },
+  {
+    "id": 11249,
+    "question": "“Export License” の意味は？",
+    "options": ["輸出承認証", "輸出許可", "為替予約", "控え／副本"],
+    "answer_index": 0
+  },
+  {
+    "id": 11250,
+    "question": "“Export Permit” の意味は？",
+    "options": ["輸出許可", "滞船料", "反対申込み", "完全合意"],
+    "answer_index": 0
+  },
+  {
+    "id": 11251,
+    "question": "“Expiry” の意味は？",
+    "options": ["有効期限／満了日", "輸出承認", "適商品質条件", "陸揚品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11252,
+    "question": "“EXW (Ex Works)” の意味は？",
+    "options": ["工場渡し条件", "船側渡し条件", "運送人渡し条件", "共同海損"],
+    "answer_index": 0
+  },
+  {
+    "id": 11253,
+    "question": "“FAQ (Fair Average Quality)” の意味は？",
+    "options": ["平均中等品質条件", "総重量", "保険金額", "輸入承認"],
+    "answer_index": 0
+  },
+  {
+    "id": 11254,
+    "question": "“FAS (Free Alongside Ship)” の意味は？",
+    "options": ["船側渡し条件", "工場渡し条件", "一般取引条件", "輸入申告"],
+    "answer_index": 0
+  },
+  {
+    "id": 11255,
+    "question": "“FCA (Free Carrier)” の意味は？",
+    "options": ["運送人渡し条件", "本船渡し条件", "共同海損", "保険利益"],
+    "answer_index": 0
+  },
+  {
+    "id": 11256,
+    "question": "“Financial Statements” の意味は？",
+    "options": ["財務諸表", "陸揚品質条件", "輸入割当", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11257,
+    "question": "“Firm Offer” の意味は？",
+    "options": ["確定申込み", "照会／問い合わせ", "保険証券", "輸入割当"],
+    "answer_index": 0
+  },
+  {
+    "id": 11258,
+    "question": "“FOB (Free on Board)” の意味は？",
+    "options": ["本船渡し条件", "船側渡し条件", "工場渡し条件", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11259,
+    "question": "“Force Majeure” の意味は？",
+    "options": ["不可抗力", "輸入申告", "輸入承認", "保険金額"],
+    "answer_index": 0
+  },
+  {
+    "id": 11260,
+    "question": "“Forward Exchange” の意味は？",
+    "options": ["先物為替", "先物相場", "適商品質条件", "共同海損"],
+    "answer_index": 0
+  },
+  {
+    "id": 11261,
+    "question": "“Forward Rate” の意味は？",
+    "options": ["先物相場", "輸入割当", "送状", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11262,
+    "question": "“Forwarder” の意味は？",
+    "options": ["海貨業者／乙仲", "輸入許可", "保険利益", "一般貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11263,
+    "question": "“Foul B/L” の意味は？",
+    "options": ["不良船荷証券", "船側渡し条件", "輸入割当", "共同海損"],
+    "answer_index": 0
+  },
+  {
+    "id": 11264,
+    "question": "“FPA (Free from Particular Average)” の意味は？",
+    "options": ["分損不担保条件", "輸入申告", "送状", "国際商業会議所"],
+    "answer_index": 0
+  },
+  {
+    "id": 11265,
+    "question": "“Freight” の意味は？",
+    "options": ["運賃／貨物", "送り状", "検査証明書", "輸入割当"],
+    "answer_index": 0
+  },
+  {
+    "id": 11266,
+    "question": "“Freight Collect” の意味は？",
+    "options": ["運賃着払い", "運賃前払い", "本船渡し条件", "輸入許可"],
+    "answer_index": 0
+  },
+  {
+    "id": 11267,
+    "question": "“Freight Conference” の意味は？",
+    "options": ["運賃同盟", "輸入承認", "陸揚品質条件", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11268,
+    "question": "“Freight Prepaid” の意味は？",
+    "options": ["運賃前払い", "輸入割当", "保険金額", "輸入承認"],
+    "answer_index": 0
+  },
+  {
+    "id": 11269,
+    "question": "“Freight Rate” の意味は？",
+    "options": ["運賃率", "総重量", "一般貨物", "保険料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11270,
+    "question": "“Full Container Load (FCL)” の意味は？",
+    "options": ["コンテナ一杯積み", "工場渡し", "共同海損", "陸揚品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11271,
+    "question": "“GATT” の意味は？",
+    "options": ["関税及び貿易に関する一般協定", "輸入割当", "先物為替", "保険利益"],
+    "answer_index": 0
+  },
+  {
+    "id": 11272,
+    "question": "“General Average” の意味は？",
+    "options": ["共同海損", "適商品質条件", "輸入承認", "先物相場"],
+    "answer_index": 0
+  },
+  {
+    "id": 11273,
+    "question": "“General Cargo” の意味は？",
+    "options": ["一般貨物", "検査証明書", "送り状", "輸入申告"],
+    "answer_index": 0
+  },
+  {
+    "id": 11274,
+    "question": "“General Terms and Conditions” の意味は？",
+    "options": ["一般取引条件", "工場渡し条件", "本船渡し条件", "輸入割当"],
+    "answer_index": 0
+  },
+  {
+    "id": 11275,
+    "question": "“Generalized System of Preferences (GSP)” の意味は？",
+    "options": ["一般特恵関税制度", "輸入割当", "検査証明書", "送り状"],
+    "answer_index": 0
+  },
+  {
+    "id": 11276,
+    "question": "“GMQ (Good Merchantable Quality)” の意味は？",
+    "options": ["適商品質条件", "共同海損", "輸入申告", "工場渡し"],
+    "answer_index": 0
+  },
+  {
+    "id": 11277,
+    "question": "“Goods” の意味は？",
+    "options": ["商品", "送り状", "保険利益", "輸入承認"],
+    "answer_index": 0
+  },
+  {
+    "id": 11278,
+    "question": "“Governing Law” の意味は？",
+    "options": ["準拠法", "輸入割当", "総重量", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11279,
+    "question": "“Gross Domestic Product (GDP)” の意味は？",
+    "options": ["国内総生産", "一般貨物", "検査証明書", "輸入割当"],
+    "answer_index": 0
+  },
+  {
+    "id": 11280,
+    "question": "“Gross Weight (G/W)” の意味は？",
+    "options": ["総重量", "輸入許可", "保険金額", "工場渡し"],
+    "answer_index": 0
+  },
+  {
+    "id": 11281,
+    "question": "“Handling Charge” の意味は？",
+    "options": ["取扱手数料", "輸入割当", "適商品質条件", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11282,
+    "question": "“IATA” の意味は？",
+    "options": ["国際航空運送協会", "国際商業会議所", "輸入申告", "共同海損"],
+    "answer_index": 0
+  },
+  {
+    "id": 11283,
+    "question": "“ICC” の意味は？",
+    "options": ["国際商業会議所", "国際航空運送協会", "輸入承認", "適商品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11284,
+    "question": "“Import Declaration” の意味は？",
+    "options": ["輸入申告", "輸入割当", "一般貨物", "工場渡し"],
+    "answer_index": 0
+  },
+  {
+    "id": 11285,
+    "question": "“Import License” の意味は？",
+    "options": ["輸入承認", "輸入申告", "貨物", "共同海損"],
+    "answer_index": 0
+  },
+  {
+    "id": 11286,
+    "question": "“Import Permit” の意味は？",
+    "options": ["輸入許可", "輸入承認", "陸揚品質条件", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11287,
+    "question": "“Import Quota” の意味は？",
+    "options": ["輸入割当", "輸入承認", "工場渡し", "適商品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11288,
+    "question": "“Inquiry” の意味は？",
+    "options": ["照会／問い合わせ", "輸入割当", "共同海損", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11289,
+    "question": "“Inspection Certificate” の意味は？",
+    "options": ["検査証明書", "輸入申告", "適商品質条件", "送状"],
+    "answer_index": 0
+  },
+  {
+    "id": 11290,
+    "question": "“Institute Cargo Clauses” の意味は？",
+    "options": ["協会貨物約款", "陸揚品質条件", "工場渡し条件", "輸入割当"],
+    "answer_index": 0
+  },
+  {
+    "id": 11291,
+    "question": "“Insurable Interest” の意味は？",
+    "options": ["被保険利益", "適商品質条件", "輸入承認", "共同海損"],
+    "answer_index": 0
+  },
+  {
+    "id": 11292,
+    "question": "“Insurance Policy” の意味は？",
+    "options": ["保険証券", "保険金額", "輸入割当", "輸入許可"],
+    "answer_index": 0
+  },
+  {
+    "id": 11293,
+    "question": "“Insurance Premium” の意味は？",
+    "options": ["保険料", "保険証券", "適商品質条件", "工場渡し条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11294,
+    "question": "“Insured Amount” の意味は？",
+    "options": ["保険金額", "総重量", "検査証明書", "輸入割当"],
+    "answer_index": 0
+  },
+  {
+    "id": 11295,
+    "question": "“Inventory” の意味は？",
+    "options": ["在庫", "輸入承認", "一般貨物", "陸揚品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11296,
+    "question": "“Invoice” の意味は？",
+    "options": ["送り状", "輸入割当", "共同海損", "適商品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11297,
+    "question": "“Irrevocable L/C” の意味は？",
+    "options": ["取消不能信用状", "輸入承認", "検査証明書", "適商品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11298,
+    "question": "“Issuing Bank” の意味は？",
+    "options": ["信用状発行銀行", "輸入割当", "工場渡し", "適商品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11299,
+    "question": "“Item” の意味は？",
+    "options": ["項目／品目", "輸入承認", "輸入割当", "検査証明書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11300,
+    "question": "“Landed Quality Terms” の意味は？",
+    "options": ["陸揚品質条件", "適商品質条件", "共同海損", "輸入割当"],
+    "answer_index": 0
+  },
+  {
+    "id": 11301,
+    "question": "“Landed Terms” の意味は？",
+    "options": ["陸揚条件", "支払銀行", "小包郵便", "満期／支払期日"],
+    "answer_index": 0
+  },
+  {
+    "id": 11302,
+    "question": "“Landed Weight Terms” の意味は？",
+    "options": ["陸揚重量条件", "海上保険", "寸法／容積", "最終船積期限"],
+    "answer_index": 0
+  },
+  {
+    "id": 11303,
+    "question": "“Latest Date for Shipment” の意味は？",
+    "options": ["最終船積期限", "先約優先条件付き申込み", "通知銀行", "定期船"],
+    "answer_index": 0
+  },
+  {
+    "id": 11304,
+    "question": "“Less than Container Load (LCL)” の意味は？",
+    "options": ["混載貨物", "複合一貫輸送", "原本", "梱包明細書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11305,
+    "question": "“Letter of Credit (L/C)” の意味は？",
+    "options": ["信用状", "申込み", "支払銀行", "部分損害"],
+    "answer_index": 0
+  },
+  {
+    "id": 11306,
+    "question": "“Letter of Guarantee (L/G)” の意味は？",
+    "options": ["保証状", "最終船積期限", "保証状（補償状）", "通知銀行"],
+    "answer_index": 0
+  },
+  {
+    "id": 11307,
+    "question": "“Letter of Indemnity (L/I)” の意味は？",
+    "options": ["保証状（補償状）", "郵送料", "満期／支払期日", "梱包明細書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11308,
+    "question": "“Liner” の意味は？",
+    "options": ["定期船", "荷送人", "保証状", "部分損害"],
+    "answer_index": 0
+  },
+  {
+    "id": 11309,
+    "question": "“List Price” の意味は？",
+    "options": ["定価", "申込み／オファー", "当事者", "委託者／本人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11310,
+    "question": "“Loss” の意味は？",
+    "options": ["損失", "寸法／容積", "通知銀行", "複合一貫輸送"],
+    "answer_index": 0
+  },
+  {
+    "id": 11311,
+    "question": "“Manifest” の意味は？",
+    "options": ["船荷目録", "郵便受領証", "委託者／本人", "市場価格"],
+    "answer_index": 0
+  },
+  {
+    "id": 11312,
+    "question": "“Marine Insurance” の意味は？",
+    "options": ["海上保険", "通知銀行", "申込み", "部分損害"],
+    "answer_index": 0
+  },
+  {
+    "id": 11313,
+    "question": "“Market Price” の意味は？",
+    "options": ["市場価格", "正味重量", "申込み／オファー", "保証状"],
+    "answer_index": 0
+  },
+  {
+    "id": 11314,
+    "question": "“Material” の意味は？",
+    "options": ["原料／資材", "委託者／本人", "製造物責任", "満期／支払期日"],
+    "answer_index": 0
+  },
+  {
+    "id": 11315,
+    "question": "“Mate's Receipt (M/R)” の意味は？",
+    "options": ["本船受取証", "定価", "保証状", "郵便受領証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11316,
+    "question": "“Maturity” の意味は？",
+    "options": ["満期／支払期日", "陸揚条件", "通知銀行", "先約優先条件付き申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11317,
+    "question": "“Measurement” の意味は？",
+    "options": ["寸法／容積", "複合一貫輸送", "委託者／本人", "損失"],
+    "answer_index": 0
+  },
+  {
+    "id": 11318,
+    "question": "“Merchandise” の意味は？",
+    "options": ["商品", "通知銀行", "本船受取証", "保証状（補償状）"],
+    "answer_index": 0
+  },
+  {
+    "id": 11319,
+    "question": "“More or Less Terms” の意味は？",
+    "options": ["増減数量条件", "最終船積期限", "先約優先条件付き申込み", "陸揚重量条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11320,
+    "question": "“Multimodal Transport” の意味は？",
+    "options": ["複合一貫輸送", "製造物責任", "委託者／本人", "市場価格"],
+    "answer_index": 0
+  },
+  {
+    "id": 11321,
+    "question": "“Negotiating Bank” の意味は？",
+    "options": ["買取銀行", "通知銀行", "海上運賃", "申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11322,
+    "question": "“Negotiation” の意味は？",
+    "options": ["買い取り／交渉", "申込み／オファー", "最終船積期限", "委託者／本人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11323,
+    "question": "“Net Weight (N/W)” の意味は？",
+    "options": ["正味重量", "市場価格", "損失", "先約優先条件付き申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11324,
+    "question": "“Non-Delivery” の意味は？",
+    "options": ["不着", "保証状", "製造物責任", "申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11325,
+    "question": "“Notifying Bank” の意味は？",
+    "options": ["通知銀行", "郵便受領証", "委託者／本人", "当事者"],
+    "answer_index": 0
+  },
+  {
+    "id": 11326,
+    "question": "“Notify Party” の意味は？",
+    "options": ["到着通知先", "本船受取証", "市場価格", "満期／支払期日"],
+    "answer_index": 0
+  },
+  {
+    "id": 11327,
+    "question": "“NVOCC” の意味は？",
+    "options": ["利用運送事業者", "委託者／本人", "船荷目録", "原料／資材"],
+    "answer_index": 0
+  },
+  {
+    "id": 11328,
+    "question": "“Ocean Freight” の意味は？",
+    "options": ["海上運賃", "最終船積期限", "市場価格", "郵送料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11329,
+    "question": "“Offer” の意味は？",
+    "options": ["申込み／オファー", "保証状", "複合一貫輸送", "原本"],
+    "answer_index": 0
+  },
+  {
+    "id": 11330,
+    "question": "“Offer subject to Prior Sale” の意味は？",
+    "options": ["先約優先条件付き申込み", "保証状", "委託者／本人", "通知銀行"],
+    "answer_index": 0
+  },
+  {
+    "id": 11331,
+    "question": "“Offer subject to Seller's Final Confirmation” の意味は？",
+    "options": ["売主最終承認条件付き申込み", "本船受取証", "不着", "市場価格"],
+    "answer_index": 0
+  },
+  {
+    "id": 11332,
+    "question": "“Open L/C” の意味は？",
+    "options": ["買取銀行無指定信用状", "海上運賃", "陸揚重量条件", "製造物責任"],
+    "answer_index": 0
+  },
+  {
+    "id": 11333,
+    "question": "“Open Cover” の意味は？",
+    "options": ["包括予定保険", "最終船積期限", "郵貨物", "保証状"],
+    "answer_index": 0
+  },
+  {
+    "id": 11334,
+    "question": "“Open Policy” の意味は？",
+    "options": ["包括予定保険証券", "到着通知先", "本船受取証", "寸法／容積"],
+    "answer_index": 0
+  },
+  {
+    "id": 11335,
+    "question": "“Order” の意味は？",
+    "options": ["注文", "申告", "満期", "部分損害"],
+    "answer_index": 0
+  },
+  {
+    "id": 11336,
+    "question": "“Order B/L” の意味は？",
+    "options": ["指図式船荷証券", "原本", "通知銀行", "先約優先条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11337,
+    "question": "“Ordinary Transfer” の意味は？",
+    "options": ["普通送金", "海上運賃", "本船受取証", "郵便受領証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11338,
+    "question": "“Original” の意味は？",
+    "options": ["原本", "損失", "不着", "通知銀行"],
+    "answer_index": 0
+  },
+  {
+    "id": 11339,
+    "question": "“Packing List” の意味は？",
+    "options": ["梱包明細書", "定価", "原料／資材", "満期／支払期日"],
+    "answer_index": 0
+  },
+  {
+    "id": 11340,
+    "question": "“Parcel Post” の意味は？",
+    "options": ["小包郵便", "最終船積期限", "部分損害", "委託者／本人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11341,
+    "question": "“Partial Shipment” の意味は？",
+    "options": ["分割船積み", "満期", "定価", "複合輸送"],
+    "answer_index": 0
+  },
+  {
+    "id": 11342,
+    "question": "“Particular Average” の意味は？",
+    "options": ["単独海損", "不着", "市場価格", "寸法／容積"],
+    "answer_index": 0
+  },
+  {
+    "id": 11343,
+    "question": "“Partial Loss” の意味は？",
+    "options": ["部分損害", "通知銀行", "本船受取証", "委託者／本人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11344,
+    "question": "“Party” の意味は？",
+    "options": ["当事者", "損失", "通知銀行", "注文"],
+    "answer_index": 0
+  },
+  {
+    "id": 11345,
+    "question": "“Paying Bank” の意味は？",
+    "options": ["支払銀行", "製造物責任", "複合輸送", "郵送料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11346,
+    "question": "“Payment” の意味は？",
+    "options": ["支払い", "不着", "損失", "申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11347,
+    "question": "“Postage” の意味は？",
+    "options": ["郵送料", "委託者／本人", "複合輸送", "先約優先条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11348,
+    "question": "“Post Receipt” の意味は？",
+    "options": ["郵便受領証", "保証状", "輸入割当", "正味重量"],
+    "answer_index": 0
+  },
+  {
+    "id": 11349,
+    "question": "“Principal” の意味は？",
+    "options": ["委託者／本人", "市場価格", "郵送料", "訂正申込み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11350,
+    "question": "“Product Liability (PL)” の意味は？",
+    "options": ["製造物責任", "市場価格", "保証状", "本船受取証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11351,
+    "question": "“Profit” の意味は？",
+    "options": ["利益", "数量", "見積送り状", "割増料金"],
+    "answer_index": 0
+  },
+  {
+    "id": 11352,
+    "question": "“Proforma Invoice” の意味は？",
+    "options": ["見積送り状", "予定保険", "数量割引", "検査報告書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11353,
+    "question": "“Promissory Note” の意味は？",
+    "options": ["約束手形", "見本売買", "第三者", "積込船荷証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11354,
+    "question": "“Proposal” の意味は？",
+    "options": ["提案／勧誘", "全損", "譲渡可能信用状", "本船重量条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11355,
+    "question": "“Provisional Insurance” の意味は？",
+    "options": ["予定保険", "積込船荷証券", "数量", "本船品質条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11356,
+    "question": "“Purchase Order” の意味は？",
+    "options": ["発注書", "海運同盟", "単価", "荷印"],
+    "answer_index": 0
+  },
+  {
+    "id": 11357,
+    "question": "“Quality” の意味は？",
+    "options": ["品質", "船積指図書", "積送不足", "予定保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11358,
+    "question": "“Quality Sample” の意味は？",
+    "options": ["品質見本", "数量割引", "譲渡可能信用状", "受領書／領収証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11359,
+    "question": "“Quantity” の意味は？",
+    "options": ["数量", "本船品質条件", "第三者", "積替え"],
+    "answer_index": 0
+  },
+  {
+    "id": 11360,
+    "question": "“Quantity Discount” の意味は？",
+    "options": ["数量割引", "船積通知", "定価", "輸入担保荷物保管証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11361,
+    "question": "“Reasonable Price” の意味は？",
+    "options": ["妥当な価格", "提案／勧誘", "積送不足", "受領書／領収証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11362,
+    "question": "“Receipt” の意味は？",
+    "options": ["受領書／領収証", "数量", "提案／勧誘", "見本売買"],
+    "answer_index": 0
+  },
+  {
+    "id": 11363,
+    "question": "“Received B/L” の意味は？",
+    "options": ["受取船荷証券", "積替え", "約束手形", "予定保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11364,
+    "question": "“Reference” の意味は？",
+    "options": ["照会／参照", "全損", "船積通知", "第三者"],
+    "answer_index": 0
+  },
+  {
+    "id": 11365,
+    "question": "“Replacement” の意味は？",
+    "options": ["代替／交換", "荷印", "譲渡可能信用状", "積送不足"],
+    "answer_index": 0
+  },
+  {
+    "id": 11366,
+    "question": "“Restricted L/C” の意味は？",
+    "options": ["制限付き信用状", "定価", "品質見本", "予定保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11367,
+    "question": "“Revolving L/C” の意味は？",
+    "options": ["回転信用状", "受領書／領収証", "船積指図書", "本船重量条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11368,
+    "question": "“Sale by Grade or Type” の意味は？",
+    "options": ["規格売買", "発注書", "品質", "単価"],
+    "answer_index": 0
+  },
+  {
+    "id": 11369,
+    "question": "“Sale by Sample” の意味は？",
+    "options": ["見本売買", "予定保険", "第三者", "積替え"],
+    "answer_index": 0
+  },
+  {
+    "id": 11370,
+    "question": "“Sale by Specification” の意味は？",
+    "options": ["仕様売買", "妥当な価格", "船積指図書", "積送不足"],
+    "answer_index": 0
+  },
+  {
+    "id": 11371,
+    "question": "“Sale by Standard” の意味は？",
+    "options": ["標準売買", "検査報告書", "数量割引", "荷印"],
+    "answer_index": 0
+  },
+  {
+    "id": 11372,
+    "question": "“Sale by Trademark or Brand” の意味は？",
+    "options": ["商標売買", "約束手形", "積込船荷証券", "譲渡可能信用状"],
+    "answer_index": 0
+  },
+  {
+    "id": 11373,
+    "question": "“Shed Delivery” の意味は？",
+    "options": ["総揚げ", "品質見本", "数量割引", "輸入担保荷物保管証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11374,
+    "question": "“Shipped B/L” の意味は？",
+    "options": ["積込船荷証券", "第三者", "提案／勧誘", "受領書／領収証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11375,
+    "question": "“Shipped Quality Terms” の意味は？",
+    "options": ["本船品質条件", "見本売買", "全損", "数量"],
+    "answer_index": 0
+  },
+  {
+    "id": 11376,
+    "question": "“Shipped Weight Terms” の意味は？",
+    "options": ["本船重量条件", "割増料金", "積送不足", "輸入担保荷物保管証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11377,
+    "question": "“Shipping Advice” の意味は？",
+    "options": ["船積通知", "予定保険", "妥当な価格", "委託者／本人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11378,
+    "question": "“Shipping Conference” の意味は？",
+    "options": ["海運同盟", "商標売買", "積替え", "原料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11379,
+    "question": "“Shipping Mark” の意味は？",
+    "options": ["荷印", "輸入担保荷物保管証", "仕様書", "数量割引"],
+    "answer_index": 0
+  },
+  {
+    "id": 11380,
+    "question": "“Shipping Order (S/O)” の意味は？",
+    "options": ["船積指図書", "単価", "妥当な価格", "積替え"],
+    "answer_index": 0
+  },
+  {
+    "id": 11381,
+    "question": "“Shipside Delivery” の意味は？",
+    "options": ["自家取り（上屋渡し）", "本船重量条件", "数量", "輸入担保荷物保管証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11382,
+    "question": "“Short Shipment” の意味は？",
+    "options": ["積送不足", "単価", "受領書／領収証", "全損"],
+    "answer_index": 0
+  },
+  {
+    "id": 11383,
+    "question": "“Specification(s)” の意味は？",
+    "options": ["仕様書", "譲渡可能信用状", "見積送り状", "規格売買"],
+    "answer_index": 0
+  },
+  {
+    "id": 11384,
+    "question": "“Straight B/L” の意味は？",
+    "options": ["記名式船荷証券", "積込船荷証券", "数量", "品質見本"],
+    "answer_index": 0
+  },
+  {
+    "id": 11385,
+    "question": "“Supplier” の意味は？",
+    "options": ["供給者／仕入先", "妥当な価格", "積替え", "輸入担保荷物保管証"],
+    "answer_index": 0
+  },
+  {
+    "id": 11386,
+    "question": "“Surcharge” の意味は？",
+    "options": ["割増料金", "全損", "譲渡可能信用状", "規格売買"],
+    "answer_index": 0
+  },
+  {
+    "id": 11387,
+    "question": "“Survey Report” の意味は？",
+    "options": ["検査報告書", "積送不足", "品質見本", "譲渡可能信用状"],
+    "answer_index": 0
+  },
+  {
+    "id": 11388,
+    "question": "“Third Party” の意味は？",
+    "options": ["第三者", "積替え", "本船品質条件", "仕様売買"],
+    "answer_index": 0
+  },
+  {
+    "id": 11389,
+    "question": "“Time Bill (Usance Bill)” の意味は？",
+    "options": ["期限付き為替手形", "見本売買", "保証状", "割増料金"],
+    "answer_index": 0
+  },
+  {
+    "id": 11390,
+    "question": "“Time Bill Buying Rate” の意味は？",
+    "options": ["期限付き手形買相場", "自家取り", "規格売買", "積替え"],
+    "answer_index": 0
+  },
+  {
+    "id": 11391,
+    "question": "“Total Loss” の意味は？",
+    "options": ["全損", "積送不足", "品質見本", "供給者／仕入先"],
+    "answer_index": 0
+  },
+  {
+    "id": 11392,
+    "question": "“Trade Terms” の意味は？",
+    "options": ["貿易条件", "荷印", "受領書／領収証", "積込船荷証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11393,
+    "question": "“Tramper” の意味は？",
+    "options": ["不定期船", "譲渡可能信用状", "本船重量条件", "提案／勧誘"],
+    "answer_index": 0
+  },
+  {
+    "id": 11394,
+    "question": "“Transferable L/C” の意味は？",
+    "options": ["譲渡可能信用状", "全損", "供給者／仕入先", "積替え"],
+    "answer_index": 0
+  },
+  {
+    "id": 11395,
+    "question": "“Transshipment” の意味は？",
+    "options": ["積替え", "最後の船積期限", "荷印", "規格売買"],
+    "answer_index": 0
+  },
+  {
+    "id": 11396,
+    "question": "“Trust Receipt (T/R)” の意味は？",
+    "options": ["輸入担保荷物保管証", "本船品質条件", "見積送り状", "総揚げ"],
+    "answer_index": 0
+  },
+  {
+    "id": 11397,
+    "question": "“T/T (Telegraphic Transfer)” の意味は？",
+    "options": ["電信送金", "検査報告書", "供給者／仕入先", "規格売買"],
+    "answer_index": 0
+  },
+  {
+    "id": 11398,
+    "question": "“TTB (Telegraphic Transfer Buying Rate)” の意味は？",
+    "options": ["電信買相場", "積送不足", "品質見本", "船積指図書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11399,
+    "question": "“TTS (Telegraphic Transfer Selling Rate)” の意味は？",
+    "options": ["電信売相場", "受領書／領収証", "発注書", "本船重量条件"],
+    "answer_index": 0
+  },
+  {
+    "id": 11400,
+    "question": "“Unit Price” の意味は？",
+    "options": ["単価", "商標売買", "予定保険", "妥当な価格"],
+    "answer_index": 0
+  },
+  {
+    "id": 11401,
+    "question": "Validity の意味は？",
+    "options": ["有効性／有効期間", "倉庫", "保証", "輸入税"],
+    "answer_index": 0
+  },
+  {
+    "id": 11402,
+    "question": "Vanning の意味は？",
+    "options": ["バン詰め（コンテナ詰め）", "倉庫証券", "船積み", "運送人"],
+    "answer_index": 0
+  },
+  {
+    "id": 11403,
+    "question": "WA (With Average) の意味は？",
+    "options": ["分損担保条件", "封印番号", "航空貨物", "保管料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11404,
+    "question": "Warehouse の意味は？",
+    "options": ["倉庫", "運賃請求書", "輸出者", "倉庫証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11405,
+    "question": "Warranty の意味は？",
+    "options": ["保証", "輸出税", "船積み", "貨物損傷"],
+    "answer_index": 0
+  },
+  {
+    "id": 11406,
+    "question": "Weight の意味は？",
+    "options": ["重量", "船積み", "税関検査", "輸出者申告書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11407,
+    "question": "Wholesale Price の意味は？",
+    "options": ["卸売価格", "封印番号", "航空路", "運賃"],
+    "answer_index": 0
+  },
+  {
+    "id": 11408,
+    "question": "World Trade Organization (WTO) の意味は？",
+    "options": ["世界貿易機関", "梱包材", "輸入者", "配車担当／発送係"],
+    "answer_index": 0
+  },
+  {
+    "id": 11409,
+    "question": "Air Freight の意味は？",
+    "options": ["航空運賃", "倉庫", "貨物保険", "税関放出"],
+    "answer_index": 0
+  },
+  {
+    "id": 11410,
+    "question": "Air Cargo の意味は？",
+    "options": ["航空貨物", "積込明細書", "輸入税", "貨物受領書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11411,
+    "question": "Arrival の意味は？",
+    "options": ["到着", "航空路", "倉庫証券", "封印番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11412,
+    "question": "Departure の意味は？",
+    "options": ["出発", "配車担当／発送係", "運賃請求書", "輸出税"],
+    "answer_index": 0
+  },
+  {
+    "id": 11413,
+    "question": "Warehouse Receipt の意味は？",
+    "options": ["倉庫証券", "船舶スケジュール", "輸入者申告書", "輸送路"],
+    "answer_index": 0
+  },
+  {
+    "id": 11414,
+    "question": "Dispatcher の意味は？",
+    "options": ["配車担当／発送係", "倉庫", "積出港", "貨物損傷"],
+    "answer_index": 0
+  },
+  {
+    "id": 11415,
+    "question": "Carrier の意味は？",
+    "options": ["運送人", "封印番号", "輸出者申告書", "輸入税"],
+    "answer_index": 0
+  },
+  {
+    "id": 11416,
+    "question": "Stevedore の意味は？",
+    "options": ["荷役作業員", "商業価値", "航空貨物", "税関検査"],
+    "answer_index": 0
+  },
+  {
+    "id": 11417,
+    "question": "Customs の意味は？",
+    "options": ["税関", "倉庫証券", "貨物損傷", "航空路"],
+    "answer_index": 0
+  },
+  {
+    "id": 11418,
+    "question": "Permit の意味は？",
+    "options": ["許可証", "保管料", "輸入者申告書", "運賃請求書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11419,
+    "question": "Importer の意味は？",
+    "options": ["輸入者", "航空路", "貨物保険", "税関検査"],
+    "answer_index": 0
+  },
+  {
+    "id": 11420,
+    "question": "Exporter の意味は？",
+    "options": ["輸出者", "封印番号", "倉庫証券", "航空運賃"],
+    "answer_index": 0
+  },
+  {
+    "id": 11421,
+    "question": "Exporter Declaration の意味は？",
+    "options": ["輸出者申告書", "航空貨物", "積込明細書", "輸入税"],
+    "answer_index": 0
+  },
+  {
+    "id": 11422,
+    "question": "Importer Declaration の意味は？",
+    "options": ["輸入者申告書", "倉庫", "梱包材", "税関放出"],
+    "answer_index": 0
+  },
+  {
+    "id": 11423,
+    "question": "Customs Inspection の意味は？",
+    "options": ["税関検査", "運賃請求書", "封印番号", "航空路"],
+    "answer_index": 0
+  },
+  {
+    "id": 11424,
+    "question": "Freight Forwarding の意味は？",
+    "options": ["貨物取扱", "倉庫証券", "輸出税", "商業価値"],
+    "answer_index": 0
+  },
+  {
+    "id": 11425,
+    "question": "Shipment の意味は？",
+    "options": ["船積み", "積出港", "倉庫", "税関放出"],
+    "answer_index": 0
+  },
+  {
+    "id": 11426,
+    "question": "Cargo Receipt の意味は？",
+    "options": ["貨物受領書", "封印番号", "運賃", "倉庫証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11427,
+    "question": "Cargo Insurance の意味は？",
+    "options": ["貨物保険", "航空貨物", "輸入者申告書", "運賃請求書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11428,
+    "question": "Loading Port の意味は？",
+    "options": ["積出港", "倉庫", "梱包材", "税関放出"],
+    "answer_index": 0
+  },
+  {
+    "id": 11429,
+    "question": "Destination Port の意味は？",
+    "options": ["仕向地港", "航空運賃", "税関検査", "倉庫証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11430,
+    "question": "Import Tax の意味は？",
+    "options": ["輸入税", "倉庫", "封印番号", "梱包材"],
+    "answer_index": 0
+  },
+  {
+    "id": 11431,
+    "question": "Export Tax の意味は？",
+    "options": ["輸出税", "航空路", "配車担当", "倉庫証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11432,
+    "question": "Sailing Schedule の意味は？",
+    "options": ["船舶スケジュール", "輸入税", "倉庫", "貨物保険"],
+    "answer_index": 0
+  },
+  {
+    "id": 11433,
+    "question": "Air Way の意味は？",
+    "options": ["航空路", "税関検査", "倉庫証券", "輸出者申告書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11434,
+    "question": "Booking Number の意味は？",
+    "options": ["予約番号", "船積み", "倉庫", "封印番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11435,
+    "question": "Commercial Value の意味は？",
+    "options": ["商業価値", "航空貨物", "輸入税", "貨物損傷"],
+    "answer_index": 0
+  },
+  {
+    "id": 11436,
+    "question": "Customs Valuation の意味は？",
+    "options": ["税関評価", "運賃請求書", "配車担当", "倉庫証券"],
+    "answer_index": 0
+  },
+  {
+    "id": 11437,
+    "question": "Cargo Manifest の意味は？",
+    "options": ["貨物目録", "輸出者申告書", "封印番号", "航空路"],
+    "answer_index": 0
+  },
+  {
+    "id": 11438,
+    "question": "Packing Material の意味は？",
+    "options": ["梱包材", "倉庫", "税関検査", "航空貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11439,
+    "question": "Seal Number の意味は？",
+    "options": ["封印番号", "倉庫証券", "運賃", "輸入税"],
+    "answer_index": 0
+  },
+  {
+    "id": 11440,
+    "question": "Loading List の意味は？",
+    "options": ["積込明細書", "航空路", "倉庫", "配車担当"],
+    "answer_index": 0
+  },
+  {
+    "id": 11441,
+    "question": "Cargo Damage の意味は？",
+    "options": ["貨物損傷", "封印番号", "倉庫証券", "輸出税"],
+    "answer_index": 0
+  },
+  {
+    "id": 11442,
+    "question": "Insurance Claim の意味は？",
+    "options": ["保険請求", "配車担当", "倉庫", "航空貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11443,
+    "question": "Overweight Charge の意味は？",
+    "options": ["重量超過料金", "封印番号", "倉庫証券", "船積み"],
+    "answer_index": 0
+  },
+  {
+    "id": 11444,
+    "question": "Customs Release の意味は？",
+    "options": ["税関放出", "倉庫", "航空運賃", "梱包材"],
+    "answer_index": 0
+  },
+  {
+    "id": 11445,
+    "question": "Handling Fee の意味は？",
+    "options": ["取扱手数料", "輸出税", "倉庫証券", "積出港"],
+    "answer_index": 0
+  },
+  {
+    "id": 11446,
+    "question": "Freight Invoice の意味は？",
+    "options": ["運賃請求書", "航空貨物", "倉庫", "封印番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11447,
+    "question": "Trade Contract の意味は？",
+    "options": ["貿易契約", "積込明細書", "輸入税", "倉庫"],
+    "answer_index": 0
+  },
+  {
+    "id": 11448,
+    "question": "Risk Management の意味は？",
+    "options": ["リスク管理", "倉庫証券", "封印番号", "航空路"],
+    "answer_index": 0
+  },
+  {
+    "id": 11449,
+    "question": "Storage Fee の意味は？",
+    "options": ["保管料", "航空貨物", "運賃請求書", "輸出税"],
+    "answer_index": 0
+  },
+  {
+    "id": 11450,
+    "question": "Container Yard (CY) の意味は？",
+    "options": ["コンテナヤード", "倉庫", "梱包材", "輸入税"],
+    "answer_index": 0
+  },
+  
+  {
+    "id": 11451,
+    "question": "Container Freight Station (CFS) の意味は？",
+    "options": ["コンテナフレイトステーション", "港湾局", "船会社", "危険貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11452,
+    "question": "Transport Document の意味は？",
+    "options": ["輸送書類", "港湾料金", "納期", "見込み客"],
+    "answer_index": 0
+  },
+  {
+    "id": 11453,
+    "question": "Handover の意味は？",
+    "options": ["引き渡し", "航空貨物ターミナル", "輸入申告", "港湾使用料"],
+    "answer_index": 0
+  },
+  {
+    "id": 11454,
+    "question": "Buyer の意味は？",
+    "options": ["買い手", "貿易障壁", "保税倉庫", "検査費用"],
+    "answer_index": 0
+  },
+  {
+    "id": 11455,
+    "question": "Seller の意味は？",
+    "options": ["売り手", "輸出申告", "船積日", "輸入許可番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11456,
+    "question": "Freight Charge の意味は？",
+    "options": ["運賃", "船会社", "物流センター", "見積書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11457,
+    "question": "Shipment Number の意味は？",
+    "options": ["船積番号", "リードタイム", "輸送書類", "買い手"],
+    "answer_index": 0
+  },
+  {
+    "id": 11458,
+    "question": "Cargo Tracking の意味は？",
+    "options": ["貨物追跡", "港湾料金", "輸入許可番号", "検査費用"],
+    "answer_index": 0
+  },
+  {
+    "id": 11459,
+    "question": "Freight Agent の意味は？",
+    "options": ["運送代理人", "申告書", "見込み客", "航空貨物ターミナル"],
+    "answer_index": 0
+  },
+  {
+    "id": 11460,
+    "question": "Loading Fee の意味は？",
+    "options": ["積込料", "港湾局", "保税倉庫", "納期"],
+    "answer_index": 0
+  },
+  {
+    "id": 11461,
+    "question": "Unloading Fee の意味は？",
+    "options": ["荷卸し料", "船会社", "サプライチェーン", "輸出許可番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11462,
+    "question": "Marine Cargo の意味は？",
+    "options": ["海上貨物", "貿易インボイス", "港湾使用料", "検査費用"],
+    "answer_index": 0
+  },
+  {
+    "id": 11463,
+    "question": "Air Cargo Terminal の意味は？",
+    "options": ["航空貨物ターミナル", "売買契約", "納期", "コンテナ番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11464,
+    "question": "Port Authority の意味は？",
+    "options": ["港湾局", "鉄道運送会社", "危険貨物", "申告書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11465,
+    "question": "Cargo Release の意味は？",
+    "options": ["貨物引渡し", "輸入申告", "船積日", "輸出許可番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11466,
+    "question": "Export Declaration の意味は？",
+    "options": ["輸出申告", "港湾料金", "見込み客", "航空貨物ターミナル"],
+    "answer_index": 0
+  },
+  {
+    "id": 11467,
+    "question": "Import Declaration の意味は？",
+    "options": ["輸入申告", "トラック運送会社", "検査費用", "保税倉庫"],
+    "answer_index": 0
+  },
+  {
+    "id": 11468,
+    "question": "Bonded Warehouse の意味は？",
+    "options": ["保税倉庫", "鉄道運送会社", "港湾局", "危険貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11469,
+    "question": "Tariff の意味は？",
+    "options": ["関税率", "見積書", "輸出許可番号", "納期"],
+    "answer_index": 0
+  },
+  {
+    "id": 11470,
+    "question": "Trade Barrier の意味は？",
+    "options": ["貿易障壁", "サプライチェーン", "輸入許可番号", "検査費用"],
+    "answer_index": 0
+  },
+  {
+    "id": 11471,
+    "question": "Logistics の意味は？",
+    "options": ["物流", "港湾使用料", "見込み客", "コンテナ番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11472,
+    "question": "Supply Chain の意味は？",
+    "options": ["サプライチェーン", "売買契約", "危険貨物", "航空貨物ターミナル"],
+    "answer_index": 0
+  },
+  {
+    "id": 11473,
+    "question": "Distribution Center の意味は？",
+    "options": ["物流センター", "検査費用", "港湾局", "輸出許可番号"],
+    "answer_index": 0
+  },
+  {
+    "id": 11474,
+    "question": "Container Ship の意味は？",
+    "options": ["コンテナ船", "申告書", "港湾料金", "納期"],
+    "answer_index": 0
+  },
+  {
+    "id": 11475,
+    "question": "Cargo Handling の意味は？",
+    "options": ["貨物取扱", "危険貨物", "見込み客", "鉄道運送会社"],
+    "answer_index": 0
+  },
+  {
+    "id": 11476,
+    "question": "Lead Time の意味は？",
+    "options": ["リードタイム", "輸送書類", "コンテナ番号", "港湾局"],
+    "answer_index": 0
+  },
+  {
+    "id": 11477,
+    "question": "Trade Invoice の意味は？",
+    "options": ["貿易インボイス", "港湾料金", "物流", "危険貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11478,
+    "question": "Quotation の意味は？",
+    "options": ["見積書", "航空貨物ターミナル", "保税倉庫", "納期"],
+    "answer_index": 0
+  },
+  {
+    "id": 11479,
+    "question": "Shipment Date の意味は？",
+    "options": ["船積日", "港湾局", "輸入申告", "検査費用"],
+    "answer_index": 0
+  },
+  {
+    "id": 11480,
+    "question": "Arrival Date の意味は？",
+    "options": ["到着日", "申告書", "船会社", "見込み客"],
+    "answer_index": 0
+  },
+  {
+    "id": 11481,
+    "question": "Export Permit Number の意味は？",
+    "options": ["輸出許可番号", "納期", "貨物取扱", "保税倉庫"],
+    "answer_index": 0
+  },
+  {
+    "id": 11482,
+    "question": "Import Permit Number の意味は？",
+    "options": ["輸入許可番号", "見積書", "港湾使用料", "検査費用"],
+    "answer_index": 0
+  },
+  {
+    "id": 11483,
+    "question": "Container Number の意味は？",
+    "options": ["コンテナ番号", "航空貨物ターミナル", "鉄道運送会社", "危険貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11484,
+    "question": "Customs Form の意味は？",
+    "options": ["税関書類", "港湾局", "納期", "見込み客"],
+    "answer_index": 0
+  },
+  {
+    "id": 11485,
+    "question": "Declaration Form の意味は？",
+    "options": ["申告書", "輸入申告", "危険貨物", "保税倉庫"],
+    "answer_index": 0
+  },
+  {
+    "id": 11486,
+    "question": "Truck Carrier の意味は？",
+    "options": ["トラック運送会社", "見積書", "航空貨物ターミナル", "港湾料金"],
+    "answer_index": 0
+  },
+  {
+    "id": 11487,
+    "question": "Rail Carrier の意味は？",
+    "options": ["鉄道運送会社", "港湾局", "輸出許可番号", "貨物取扱"],
+    "answer_index": 0
+  },
+  {
+    "id": 11488,
+    "question": "Shipping Line の意味は？",
+    "options": ["船会社", "申告書", "リードタイム", "納期"],
+    "answer_index": 0
+  },
+  {
+    "id": 11489,
+    "question": "Port Charge の意味は？",
+    "options": ["港湾使用料", "航空貨物ターミナル", "検査費用", "危険貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11490,
+    "question": "Harbor Fee の意味は？",
+    "options": ["港湾料金", "貿易障壁", "サプライチェーン", "船積日"],
+    "answer_index": 0
+  },
+  {
+    "id": 11491,
+    "question": "Freight Negotiation の意味は？",
+    "options": ["運賃交渉", "物流センター", "輸入許可番号", "申告書"],
+    "answer_index": 0
+  },
+  {
+    "id": 11492,
+    "question": "Delivery Deadline の意味は？",
+    "options": ["納期", "港湾使用料", "鉄道運送会社", "見込み客"],
+    "answer_index": 0
+  },
+  {
+    "id": 11493,
+    "question": "Shipment Notice の意味は？",
+    "options": ["出荷通知", "見積書", "危険貨物", "港湾料金"],
+    "answer_index": 0
+  },
+  {
+    "id": 11494,
+    "question": "Sales Contract の意味は？",
+    "options": ["売買契約", "航空貨物ターミナル", "税関書類", "納期"],
+    "answer_index": 0
+  },
+  {
+    "id": 11495,
+    "question": "Escrow の意味は？",
+    "options": ["エスクロー（第三者預託）", "保税倉庫", "港湾局", "輸送書類"],
+    "answer_index": 0
+  },
+  {
+    "id": 11496,
+    "question": "Inspection Fee の意味は？",
+    "options": ["検査費用", "港湾料金", "トラック運送会社", "危険貨物"],
+    "answer_index": 0
+  },
+  {
+    "id": 11497,
+    "question": "Hazardous Cargo の意味は？",
+    "options": ["危険貨物", "保税倉庫", "輸送書類", "見込み客"],
+    "answer_index": 0
+  },
+  {
+    "id": 11498,
+    "question": "Commercial Offer の意味は？",
+    "options": ["商業オファー", "納期", "港湾使用料", "鉄道運送会社"],
+    "answer_index": 0
+  },
+  {
+    "id": 11499,
+    "question": "Sales Lead の意味は？",
+    "options": ["見込み客", "売買契約", "申告書", "航空貨物ターミナル"],
+    "answer_index": 0
+  },
+  {
+    "id": 11500,
+    "question": "Business Inquiry の意味は？",
+    "options": ["商談問い合わせ", "危険貨物", "保税倉庫", "輸入申告"],
+    "answer_index": 0
+  }
+]
+
+
+
+

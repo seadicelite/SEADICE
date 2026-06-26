@@ -1,0 +1,16 @@
+[
+  {
+    "title": "APIを使わずできるだけ自動化する",
+    "slug": "automate-without-api",
+    "category": "開発",
+    "date": "2026-06-25",
+    "meta_desc": "個人事業・新規事業向けに、APIキーや月額費用なしでX自動投稿・YouTube自動投稿・ブログ生成・デプロイを自動化する方法を紹介します。"
+  },
+  {
+    "title": "cronで自動化するときに絶対ハマるポイントと実践例",
+    "slug": "cron-automation-guide",
+    "category": "開発",
+    "date": "2026-06-25",
+    "meta_desc": "MacでcronによるX自動投稿・YouTube自動投稿・ブログ自動生成を実現する方法を解説。パス・環境変数・スリープ問題など絶対ハマるポイントも詳しく紹介。"
+  }
+]

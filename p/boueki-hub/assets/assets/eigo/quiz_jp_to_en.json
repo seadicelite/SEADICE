@@ -1,0 +1,2416 @@
+
+[
+  {
+    "id": 11101,
+    "question": "「受諾／引受」の英語は？",
+    "options": ["Acceptance", "Agreement", "Approval", "Consent"],
+    "answer_index": 0
+  },
+  {
+    "id": 11102,
+    "question": "「一覧払輸入手形決済相場」の英語は？",
+    "options": ["Acceptance Rate", "Settlement Rate", "Draft Rate", "Import Exchange Rate"],
+    "answer_index": 0
+  },
+  {
+    "id": 11103,
+    "question": "「勘定／口座」の英語は？",
+    "options": ["Account", "Balance", "Statement", "Record"],
+    "answer_index": 0
+  },
+  {
+    "id": 11104,
+    "question": "「不可抗力（天災など）」の英語は？",
+    "options": ["Act of God", "Force Majeure", "Natural Accident", "Unexpected Event"],
+    "answer_index": 0
+  },
+  {
+    "id": 11105,
+    "question": "「追加注文」の英語は？",
+    "options": ["Additional Order", "Extra Shipment", "Added Request", "Supplement Order"],
+    "answer_index": 0
+  },
+  {
+    "id": 11106,
+    "question": "「名宛人」の英語は？",
+    "options": ["Addressee", "Recipient", "Receiver", "Applicant"],
+    "answer_index": 0
+  },
+  {
+    "id": 11107,
+    "question": "「調整／清算」の英語は？",
+    "options": ["Adjustment", "Correction", "Modify", "Balance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11108,
+    "question": "「従価（価格に応じて）」の英語は？",
+    "options": ["Ad Valorem", "By Value", "Price Based", "Value Rate"],
+    "answer_index": 0
+  },
+  {
+    "id": 11109,
+    "question": "「前払い」の英語は？",
+    "options": ["Advance Payment", "Initial Payment", "Pre Charge", "Early Charge"],
+    "answer_index": 0
+  },
+  {
+    "id": 11110,
+    "question": "「信用状を通知する銀行」の英語は？",
+    "options": ["Advising Bank", "Issuing Bank", "Notice Bank", "Informing Bank"],
+    "answer_index": 0
+  },
+  {
+    "id": 11111,
+    "question": "「代理人／代理店」の英語は？",
+    "options": ["Agent", "Broker", "Dealer", "Representative"],
+    "answer_index": 0
+  },
+  {
+    "id": 11112,
+    "question": "「代理店契約(書)」の英語は？",
+    "options": ["Agency Agreement", "Agent Contract", "Representation Form", "Dealer Contract"],
+    "answer_index": 0
+  },
+  {
+    "id": 11113,
+    "question": "「代理店手数料」の英語は？",
+    "options": ["Agent Commission", "Agency Fee", "Commission Charge", "Representative Fee"],
+    "answer_index": 0
+  },
+  {
+    "id": 11114,
+    "question": "「契約／合意」の英語は？",
+    "options": ["Agreement", "Contract", "Consent", "Settlement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11115,
+    "question": "「航空便」の英語は？",
+    "options": ["Airmail", "Air Post", "Air Delivery", "Air Send"],
+    "answer_index": 0
+  },
+  {
+    "id": 11116,
+    "question": "「航空小包」の英語は？",
+    "options": ["Airparcel", "Air Package", "Air Box", "Airmail Parcel"],
+    "answer_index": 0
+  },
+  {
+    "id": 11117,
+    "question": "「航空運送状」の英語は？",
+    "options": ["Air Waybill (AWB)", "Air Delivery Bill", "Flight Waybill", "Air Cargo Sheet"],
+    "answer_index": 0
+  },
+  {
+    "id": 11118,
+    "question": "「一切の危険担保（全危険担保）」の英語は？",
+    "options": ["All Risks (A/R)", "Full Cover", "Complete Insurance", "Total Risk"],
+    "answer_index": 0
+  },
+  {
+    "id": 11119,
+    "question": "「修正／条件変更」の英語は？",
+    "options": ["Amendment", "Correction", "Modification", "Change Notice"],
+    "answer_index": 0
+  },
+  {
+    "id": 11120,
+    "question": "「保険金額」の英語は？",
+    "options": ["Amount Insured", "Covered Amount", "Insurance Money", "Policy Amount"],
+    "answer_index": 0
+  },
+  {
+    "id": 11121,
+    "question": "「年次報告」の英語は？",
+    "options": ["Annual Report", "Yearly Report", "Annual Summary", "Year Report"],
+    "answer_index": 0
+  },
+  {
+    "id": 11122,
+    "question": "「見込み利益」の英語は？",
+    "options": ["Anticipated Profit", "Expected Profit", "Forecast Profit", "Estimated Return"],
+    "answer_index": 0
+  },
+  {
+    "id": 11123,
+    "question": "「申請者／依頼人」の英語は？",
+    "options": ["Applicant", "Client", "Requester", "Sender"],
+    "answer_index": 0
+  },
+  {
+    "id": 11124,
+    "question": "「依頼書／申込み」の英語は？",
+    "options": ["Application", "Entry Form", "Request Form", "Apply Sheet"],
+    "answer_index": 0
+  },
+  {
+    "id": 11125,
+    "question": "「任命／約束」の英語は？",
+    "options": ["Appointment", "Promise", "Designation", "Assign"],
+    "answer_index": 0
+  },
+  {
+    "id": 11126,
+    "question": "「仲裁」の英語は？",
+    "options": ["Arbitration", "Mediation", "Settlement", "Dispute Resolution"],
+    "answer_index": 0
+  },
+  {
+    "id": 11127,
+    "question": "「仲裁条項」の英語は？",
+    "options": ["Arbitration Clause", "Dispute Clause", "Legal Clause", "Resolution Clause"],
+    "answer_index": 0
+  },
+  {
+    "id": 11128,
+    "question": "「取り決め／協定」の英語は？",
+    "options": ["Arrangement", "Agreement", "Plan", "Contract"],
+    "answer_index": 0
+  },
+  {
+    "id": 11129,
+    "question": "「着船通知書」の英語は？",
+    "options": ["Arrival Notice", "Ship Notice", "Arrival Sheet", "Landing Notice"],
+    "answer_index": 0
+  },
+  {
+    "id": 11130,
+    "question": "「条項／品物」の英語は？",
+    "options": ["Article", "Clause", "Item", "Provision"],
+    "answer_index": 0
+  },
+  {
+    "id": 11131,
+    "question": "「資産」の英語は？",
+    "options": ["Assets", "Capital", "Property", "Funds"],
+    "answer_index": 0
+  },
+  {
+    "id": 11132,
+    "question": "「譲渡／割当」の英語は？",
+    "options": ["Assignment", "Distribution", "Allocation", "Transfer"],
+    "answer_index": 0
+  },
+  {
+    "id": 11133,
+    "question": "「被保険者」の英語は？",
+    "options": ["Assured", "Insured Person", "Policy Holder", "Covered Member"],
+    "answer_index": 0
+  },
+  {
+    "id": 11134,
+    "question": "「通関手帳」の英語は？",
+    "options": ["ATA Carnet", "Customs Book", "Export Card", "Trade Passport"],
+    "answer_index": 0
+  },
+  {
+    "id": 11135,
+    "question": "「一覧払い」の英語は？",
+    "options": ["At sight (A/S)", "Immediate Payment", "On Demand", "Cash Sight"],
+    "answer_index": 0
+  },
+  {
+    "id": 11136,
+    "question": "「裁定」の英語は？",
+    "options": ["Award", "Decision", "Judgment", "Ruling"],
+    "answer_index": 0
+  },
+  {
+    "id": 11137,
+    "question": "「残高／均衡」の英語は？",
+    "options": ["Balance", "Equal", "Level", "Account"],
+    "answer_index": 0
+  },
+  {
+    "id": 11138,
+    "question": "「貸借対照表」の英語は？",
+    "options": ["Balance Sheet", "Financial Sheet", "Bank Sheet", "Statement Report"],
+    "answer_index": 0
+  },
+  {
+    "id": 11139,
+    "question": "「銀行信用照会先」の英語は？",
+    "options": ["Bank Reference", "Credit Inquiry", "Bank Contact", "Financial Reference"],
+    "answer_index": 0
+  },
+  {
+    "id": 11140,
+    "question": "「銀行小切手」の英語は？",
+    "options": ["Bank Check", "Bank Draft", "Finance Check", "Cashier Check"],
+    "answer_index": 0
+  },
+  {
+    "id": 11141,
+    "question": "「受益者／信用状受益者」の英語は？",
+    "options": ["Beneficiary", "Client", "Payee", "Holder"],
+    "answer_index": 0
+  },
+  {
+    "id": 11142,
+    "question": "「受益者為替手形」の英語は？",
+    "options": ["Beneficiary's Draft", "Holder Bill", "Payee Draft", "Credit Bill"],
+    "answer_index": 0
+  },
+  {
+    "id": 11143,
+    "question": "「船の停泊位置／バース」の英語は？",
+    "options": ["Berth", "Dock", "Pier", "Harbor"],
+    "answer_index": 0
+  },
+  {
+    "id": 11144,
+    "question": "「入札／値を付ける」の英語は？",
+    "options": ["Bid", "Offer", "Deal", "Request"],
+    "answer_index": 0
+  },
+  {
+    "id": 11145,
+    "question": "「請求書／手形」の英語は？",
+    "options": ["Bill", "Invoice", "Charge", "Statement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11146,
+    "question": "「輸入申告書」の英語は？",
+    "options": ["Bill of Entry", "Import Sheet", "Customs Entry", "Import Declaration"],
+    "answer_index": 0
+  },
+  {
+    "id": 11147,
+    "question": "「為替手形」の英語は？",
+    "options": ["Bill of Exchange", "Draft", "Payment Bill", "Exchange Paper"],
+    "answer_index": 0
+  },
+  {
+    "id": 11148,
+    "question": "「船荷証券」の英語は？",
+    "options": ["Bill of Lading (B/L)", "Cargo Bill", "Loading Certificate", "Shipping Bill"],
+    "answer_index": 0
+  },
+  {
+    "id": 11149,
+    "question": "「保税地域」の英語は？",
+    "options": ["Bonded Area", "Bond Area", "Free Zone", "Customs Region"],
+    "answer_index": 0
+  },
+  {
+    "id": 11150,
+    "question": "「保税倉庫」の英語は？",
+    "options": ["Bonded Warehouse", "Customs Warehouse", "Free Warehouse", "Storage Bond"],
+    "answer_index": 0
+  }
+,
+
+
+  {
+    "id": 11151,
+    "question": "「予約（船積み予約）」の英語は？",
+    "options": ["Booking", "Reservation", "Cargo Order", "Shipment Entry"],
+    "answer_index": 0
+  },
+  {
+    "id": 11152,
+    "question": "「船積予約書」の英語は？",
+    "options": ["Booking Note", "Shipment Note", "Cargo Reservation", "Loading Note"],
+    "answer_index": 0
+  },
+  {
+    "id": 11153,
+    "question": "「商標／銘柄」の英語は？",
+    "options": ["Brand", "Mark", "Label", "Trademark"],
+    "answer_index": 0
+  },
+  {
+    "id": 11154,
+    "question": "「仲買人／ブローカー」の英語は？",
+    "options": ["Broker", "Agent", "Dealer", "Mediator"],
+    "answer_index": 0
+  },
+  {
+    "id": 11155,
+    "question": "「ばら積み貨物」の英語は？",
+    "options": ["Bulk Cargo", "Loose Cargo", "Mass Freight", "General Cargo"],
+    "answer_index": 0
+  },
+  {
+    "id": 11156,
+    "question": "「買主／購入者」の英語は？",
+    "options": ["Buyer", "Purchaser", "Client", "Consumer"],
+    "answer_index": 0
+  },
+  {
+    "id": 11157,
+    "question": "「解除／キャンセル」の英語は？",
+    "options": ["Cancellation", "Abolition", "Termination", "Stop Order"],
+    "answer_index": 0
+  },
+  {
+    "id": 11158,
+    "question": "「容量／能力」の英語は？",
+    "options": ["Capacity", "Volume", "Ability", "Capability"],
+    "answer_index": 0
+  },
+  {
+    "id": 11159,
+    "question": "「貨物」の英語は？",
+    "options": ["Cargo", "Freight", "Load", "Shipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11160,
+    "question": "「貨物保険」の英語は？",
+    "options": ["Cargo Insurance", "Freight Insurance", "Goods Protection", "Shipping Insurance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11161,
+    "question": "「貨物明細書」の英語は？",
+    "options": ["Cargo Manifest", "Cargo Detail Sheet", "Freight List", "Load Manifest"],
+    "answer_index": 0
+  },
+  {
+    "id": 11162,
+    "question": "「運送／輸送」の英語は？",
+    "options": ["Carriage", "Transport", "Delivery", "Shipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11163,
+    "question": "「運送人」の英語は？",
+    "options": ["Carrier", "Transporter", "Forwarder", "Shipper"],
+    "answer_index": 0
+  },
+  {
+    "id": 11164,
+    "question": "「陸上運送費／荷車運賃」の英語は？",
+    "options": ["Cartage", "Land Freight", "Ground Charge", "Truck Fee"],
+    "answer_index": 0
+  },
+  {
+    "id": 11165,
+    "question": "「書類渡しと引換現金払い」の英語は？",
+    "options": ["Cash Against Documents (C.A.D)", "Payment Exchange", "Document for Cash", "Cash on Papers"],
+    "answer_index": 0
+  },
+  {
+    "id": 11166,
+    "question": "「代金引換」の英語は？",
+    "options": ["Cash on Delivery (C.O.D)", "Pay When Delivered", "Direct Cash Delivery", "Delivery Cash Payment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11167,
+    "question": "「証明書」の英語は？",
+    "options": ["Certificate", "Document", "Proof Paper", "Verification"],
+    "answer_index": 0
+  },
+  {
+    "id": 11168,
+    "question": "「分析証明書」の英語は？",
+    "options": ["Certificate of Analysis", "Analysis Sheet", "Chemical Report", "Lab Certificate"],
+    "answer_index": 0
+  },
+  {
+    "id": 11169,
+    "question": "「検査証明書」の英語は？",
+    "options": ["Certificate of Inspection", "Inspection Sheet", "Checking Certificate", "Approval Report"],
+    "answer_index": 0
+  },
+  {
+    "id": 11170,
+    "question": "「原産地証明書」の英語は？",
+    "options": ["Certificate of Origin", "Origin Certificate", "Country Certificate", "Source Document"],
+    "answer_index": 0
+  },
+  {
+    "id": 11171,
+    "question": "「料金／手数料」の英語は？",
+    "options": ["Charge", "Fee", "Commission", "Cost"],
+    "answer_index": 0
+  },
+  {
+    "id": 11172,
+    "question": "「用船契約」の英語は？",
+    "options": ["Charter Party", "Ship Contract", "Vessel Lease", "Charter Agreement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11173,
+    "question": "「請求／クレーム」の英語は？",
+    "options": ["Claim", "Request", "Appeal", "Demand"],
+    "answer_index": 0
+  },
+  {
+    "id": 11174,
+    "question": "「無故障船荷証券」の英語は？",
+    "options": ["Clean B/L", "Perfect B/L", "No Damage Bill", "Safe Lading Bill"],
+    "answer_index": 0
+  },
+  {
+    "id": 11175,
+    "question": "「商業送り状」の英語は？",
+    "options": ["Commercial Invoice", "Business Invoice", "Trade Bill", "Commerce Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11176,
+    "question": "「手数料／委託料」の英語は？",
+    "options": ["Commission", "Fee", "Agent Charge", "Service Cost"],
+    "answer_index": 0
+  },
+  {
+    "id": 11177,
+    "question": "「商品／産物」の英語は？",
+    "options": ["Commodity", "Goods", "Merchandise", "Product"],
+    "answer_index": 0
+  },
+  {
+    "id": 11178,
+    "question": "「通信／連絡」の英語は？",
+    "options": ["Communication", "Contact", "Exchange", "Message"],
+    "answer_index": 0
+  },
+  {
+    "id": 11179,
+    "question": "「補償／賠償」の英語は？",
+    "options": ["Compensation", "Refund", "Damage Payment", "Reparation"],
+    "answer_index": 0
+  },
+  {
+    "id": 11180,
+    "question": "「遵守」の英語は？",
+    "options": ["Compliance", "Obedience", "Regulation", "Conformance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11181,
+    "question": "「荷受人」の英語は？",
+    "options": ["Consignee", "Receiver", "Recipient", "Buyer"],
+    "answer_index": 0
+  },
+  {
+    "id": 11182,
+    "question": "「委託品／発送品」の英語は？",
+    "options": ["Consignment", "Shipment Item", "Forwarded Goods", "Delivery Lot"],
+    "answer_index": 0
+  },
+  {
+    "id": 11183,
+    "question": "「荷送人」の英語は？",
+    "options": ["Consignor", "Sender", "Shipper", "Exporter"],
+    "answer_index": 0
+  },
+  {
+    "id": 11184,
+    "question": "「混載／コンソリ」の英語は？",
+    "options": ["Consolidation", "Combination Load", "Mixed Cargo", "Grouped Shipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11185,
+    "question": "「コンテナ」の英語は？",
+    "options": ["Container", "Box", "Cargo Unit", "Freight Case"],
+    "answer_index": 0
+  },
+  {
+    "id": 11186,
+    "question": "「コンテナ詰め作業場」の英語は？",
+    "options": ["Container Freight Station (CFS)", "Container Load Station", "Freight Packing Area", "Cargo Station"],
+    "answer_index": 0
+  },
+  {
+    "id": 11187,
+    "question": "「コンテナヤード」の英語は？",
+    "options": ["Container Yard (CY)", "Cargo Yard", "Freight Yard", "Port Yard"],
+    "answer_index": 0
+  },
+  {
+    "id": 11188,
+    "question": "「契約」の英語は？",
+    "options": ["Contract", "Agreement", "Deal", "Pact"],
+    "answer_index": 0
+  },
+  {
+    "id": 11189,
+    "question": "「契約価格」の英語は？",
+    "options": ["Contract Price", "Agreement Price", "Deal Rate", "Official Price"],
+    "answer_index": 0
+  },
+  {
+    "id": 11190,
+    "question": "「負担金／拠出」の英語は？",
+    "options": ["Contribution", "Support Fund", "Donation", "Share Payment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11191,
+    "question": "「往復書簡／通信」の英語は？",
+    "options": ["Correspondence", "Exchange Letter", "Mailing", "Communication"],
+    "answer_index": 0
+  },
+  {
+    "id": 11192,
+    "question": "「運賃込み条件」の英語は？",
+    "options": ["Cost and Freight (C&F)", "Freight Included", "Cost Plus Freight", "Freight On Cost"],
+    "answer_index": 0
+  },
+  {
+    "id": 11193,
+    "question": "「運賃・保険料込み条件」の英語は？",
+    "options": ["Cost, Insurance and Freight (CIF)", "CIF Terms", "Freight with Insurance", "Cost Freight Insurance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11194,
+    "question": "「反対申込み」の英語は？",
+    "options": ["Counter Offer", "Reverse Offer", "Opposite Proposal", "Counter Proposal"],
+    "answer_index": 0
+  },
+  {
+    "id": 11195,
+    "question": "「信用／与信」の英語は？",
+    "options": ["Credit", "Trust", "Finance", "Creditability"],
+    "answer_index": 0
+  },
+  {
+    "id": 11196,
+    "question": "「与信限度額」の英語は？",
+    "options": ["Credit Limit", "Credit Line", "Loan Limit", "Finance Limit"],
+    "answer_index": 0
+  },
+  {
+    "id": 11197,
+    "question": "「通貨」の英語は？",
+    "options": ["Currency", "Money", "Cash", "Legal Tender"],
+    "answer_index": 0
+  },
+  {
+    "id": 11198,
+    "question": "「税関」の英語は？",
+    "options": ["Customs", "Tax Office", "Border Control", "Duty Station"],
+    "answer_index": 0
+  },
+  {
+    "id": 11199,
+    "question": "「通関」の英語は？",
+    "options": ["Customs Clearance", "Customs Process", "Border Passing", "Duty Clearance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11200,
+    "question": "「関税」の英語は？",
+    "options": ["Customs Duty", "Tax Duty", "Import Fee", "Trade Tariff"],
+    "answer_index": 0
+  }
+,
+  {
+    "id": 11201,
+    "question": "「損害／損傷」の英語は？",
+    "options": ["Damage", "Defect", "Loss", "Breakdown"],
+    "answer_index": 0
+  },
+  {
+    "id": 11202,
+    "question": "「関税込持込渡し条件」の英語は？",
+    "options": ["DDP", "DDU", "CIF", "FOB"],
+    "answer_index": 0
+  },
+  {
+    "id": 11203,
+    "question": "「関税抜持込渡し条件」の英語は？",
+    "options": ["DDU", "DDP", "FCA", "CFR"],
+    "answer_index": 0
+  },
+  {
+    "id": 11204,
+    "question": "「申告／宣言」の英語は？",
+    "options": ["Declaration", "Announce", "Statement", "Notification"],
+    "answer_index": 0
+  },
+  {
+    "id": 11205,
+    "question": "「不履行／債務不履行」の英語は？",
+    "options": ["Default", "Delay", "Breach", "Failure"],
+    "answer_index": 0
+  },
+  {
+    "id": 11206,
+    "question": "「欠陥品」の英語は？",
+    "options": ["Defective Goods", "Faulty Cargo", "Rejected Goods", "Broken Items"],
+    "answer_index": 0
+  },
+  {
+    "id": 11207,
+    "question": "「後払い」の英語は？",
+    "options": ["Deferred Payment", "Post Payment", "Credit Payment", "Future Settlement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11208,
+    "question": "「不足」の英語は？",
+    "options": ["Deficiency", "Lack", "Shortage", "Defect"],
+    "answer_index": 0
+  },
+  {
+    "id": 11209,
+    "question": "「確定保険」の英語は？",
+    "options": ["Definite Insurance", "Fixed Insurance", "Final Insurance", "Certain Policy"],
+    "answer_index": 0
+  },
+  {
+    "id": 11210,
+    "question": "「確定保険証券」の英語は？",
+    "options": ["Definite Policy", "Fixed Policy", "Formal Policy", "Insurance Document"],
+    "answer_index": 0
+  },
+  {
+    "id": 11211,
+    "question": "「船積み遅延」の英語は？",
+    "options": ["Delayed Shipment", "Late Loading", "Cargo Delay", "Delay Freight"],
+    "answer_index": 0
+  },
+  {
+    "id": 11212,
+    "question": "「引渡し／納入」の英語は？",
+    "options": ["Delivery", "Handing", "Supply", "Distribution"],
+    "answer_index": 0
+  },
+  {
+    "id": 11213,
+    "question": "「荷渡指図書」の英語は？",
+    "options": ["Delivery Order", "Shipping Order", "Cargo Note", "Instruction Letter"],
+    "answer_index": 0
+  },
+  {
+    "id": 11214,
+    "question": "「需要／請求」の英語は？",
+    "options": ["Demand", "Claim", "Need", "Request"],
+    "answer_index": 0
+  },
+  {
+    "id": 11215,
+    "question": "「送金小切手」の英語は？",
+    "options": ["Demand Draft", "Remittance Check", "Transfer Draft", "Payment Note"],
+    "answer_index": 0
+  },
+  {
+    "id": 11216,
+    "question": "「滞船料」の英語は？",
+    "options": ["Demurrage", "Detention Fee", "Port Charge", "Harbor Fee"],
+    "answer_index": 0
+  },
+  {
+    "id": 11217,
+    "question": "「埠頭渡し条件」の英語は？",
+    "options": ["DEQ", "DES", "FOB", "FAS"],
+    "answer_index": 0
+  },
+  {
+    "id": 11218,
+    "question": "「本船渡し条件」の英語は？",
+    "options": ["DES", "DEQ", "FOB", "CIF"],
+    "answer_index": 0
+  },
+  {
+    "id": 11219,
+    "question": "「説明」の英語は？",
+    "options": ["Description", "Explanation", "Detail", "Statement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11220,
+    "question": "「仕向地」の英語は？",
+    "options": ["Destination", "Port of Arrival", "Goal Point", "Arrival Base"],
+    "answer_index": 0
+  },
+  {
+    "id": 11221,
+    "question": "「詳細」の英語は？",
+    "options": ["Detail", "Particulars", "Description", "Information"],
+    "answer_index": 0
+  },
+  {
+    "id": 11222,
+    "question": "「荷卸し／解除」の英語は？",
+    "options": ["Discharge", "Unload", "Release", "Drop"],
+    "answer_index": 0
+  },
+  {
+    "id": 11223,
+    "question": "「不一致／相違」の英語は？",
+    "options": ["Discrepancy", "Difference", "Mismatch", "Irregularity"],
+    "answer_index": 0
+  },
+  {
+    "id": 11224,
+    "question": "「紛争／争議」の英語は？",
+    "options": ["Dispute", "Conflict", "Trouble", "Opposition"],
+    "answer_index": 0
+  },
+  {
+    "id": 11225,
+    "question": "「販売店」の英語は？」",
+    "options": ["Distributor", "Retailer", "Shop", "Agency"],
+    "answer_index": 0
+  },
+  {
+    "id": 11226,
+    "question": "「販売店契約」の英語は？",
+    "options": ["Distributorship Agreement", "Distribution Contract", "Dealership Agreement", "Sales Contract"],
+    "answer_index": 0
+  },
+  {
+    "id": 11227,
+    "question": "「荷為替手形」の英語は？",
+    "options": ["Documentary Bill of Exchange", "Cargo Draft", "Shipping Bill", "Trade Draft"],
+    "answer_index": 0
+  },
+  {
+    "id": 11228,
+    "question": "「引受渡書類」の英語は？",
+    "options": ["Documents against Acceptance (D/A)", "Documents for Approval", "Accepted Documents", "Payment Documents"],
+    "answer_index": 0
+  },
+  {
+    "id": 11229,
+    "question": "「支払渡書類」の英語は？",
+    "options": ["Documents against Payment (D/P)", "Cash Documents", "Payment with Papers", "Pay-on-Docs"],
+    "answer_index": 0
+  },
+  {
+    "id": 11230,
+    "question": "「手形／小切手」の英語は？",
+    "options": ["Draft", "Check", "Bill", "Order Note"],
+    "answer_index": 0
+  },
+  {
+    "id": 11231,
+    "question": "「手形名宛人」の英語は？",
+    "options": ["Drawee", "Drawer", "Payer", "Holder"],
+    "answer_index": 0
+  },
+  {
+    "id": 11232,
+    "question": "「手形振出人」の英語は？",
+    "options": ["Drawer", "Drawee", "Issuer", "Maker"],
+    "answer_index": 0
+  },
+  {
+    "id": 11233,
+    "question": "「支払期日」の英語は？",
+    "options": ["Due Date", "Payment Day", "Clearance Date", "Final Date"],
+    "answer_index": 0
+  },
+  {
+    "id": 11234,
+    "question": "「控え／副本」の英語は？",
+    "options": ["Duplicate", "Copy", "Back-up", "Reprint"],
+    "answer_index": 0
+  },
+  {
+    "id": 11235,
+    "question": "「期間」の英語は？",
+    "options": ["Duration", "Term", "Period", "Span"],
+    "answer_index": 0
+  },
+  {
+    "id": 11236,
+    "question": "「発効日」の英語は？",
+    "options": ["Effective Date", "Start Date", "Activation Date", "Valid Date"],
+    "answer_index": 0
+  },
+  {
+    "id": 11237,
+    "question": "「裏書」の英語は？",
+    "options": ["Endorsement", "Signature", "Approval", "Notation"],
+    "answer_index": 0
+  },
+  {
+    "id": 11238,
+    "question": "「裏書人」の英語は？",
+    "options": ["Endorser", "Signer", "Approver", "Holder"],
+    "answer_index": 0
+  },
+  {
+    "id": 11239,
+    "question": "「完全合意」の英語は？",
+    "options": ["Entire Agreement", "Full Contract", "Complete Terms", "Whole Agreement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11240,
+    "question": "「見積り」の英語は？",
+    "options": ["Estimate", "Quotation", "Assessment", "Cost Sheet"],
+    "answer_index": 0
+  },
+  {
+    "id": 11241,
+    "question": "「到着予定時刻」の英語は？",
+    "options": ["ETA", "ETD", "ATA", "Time of Arrival"],
+    "answer_index": 0
+  },
+  {
+    "id": 11242,
+    "question": "「出発予定時刻」の英語は？",
+    "options": ["ETD", "ETA", "Departure Time", "LTD"],
+    "answer_index": 0
+  },
+  {
+    "id": 11243,
+    "question": "「為替予約」の英語は？",
+    "options": ["Exchange Contract", "Rate Contract", "FX Reservation", "Currency Booking"],
+    "answer_index": 0
+  },
+  {
+    "id": 11244,
+    "question": "「為替相場表」の英語は？",
+    "options": ["Exchange Quotation", "Rate Table", "FX Sheet", "Currency List"],
+    "answer_index": 0
+  },
+  {
+    "id": 11245,
+    "question": "「為替相場」の英語は？",
+    "options": ["Exchange Rate", "Currency Price", "Rate Level", "Forex Value"],
+    "answer_index": 0
+  },
+  {
+    "id": 11246,
+    "question": "「為替リスク」の英語は？",
+    "options": ["Exchange Risk", "Currency Risk", "FX Hazard", "Rate Risk"],
+    "answer_index": 0
+  },
+  {
+    "id": 11247,
+    "question": "「総代理店」の英語は？",
+    "options": ["Exclusive Agent", "Main Agent", "General Agent", "Sole Dealer"],
+    "answer_index": 0
+  },
+  {
+    "id": 11248,
+    "question": "「輸出申告(書)」の英語は？",
+    "options": ["Export Declaration", "Export Form", "Export License", "Export Permit"],
+    "answer_index": 0
+  },
+  {
+    "id": 11249,
+    "question": "「輸出承認証」の英語は？",
+    "options": ["Export License", "Export Certificate", "Permit of Export", "Approval of Shipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11250,
+    "question": "「輸出許可」の英語は？",
+    "options": ["Export Permit", "Export License", "Export Approval", "Export Pass"],
+    "answer_index": 0
+  }
+,
+
+  {
+    "id": 11251,
+    "question": "「有効期限／満了日」の英語は？",
+    "options": ["Expiry", "Expiration Date", "Due Date", "Valid Limit"],
+    "answer_index": 0
+  },
+  {
+    "id": 11252,
+    "question": "「工場渡し条件」の英語は？",
+    "options": ["EXW", "FCA", "FOB", "CIF"],
+    "answer_index": 0
+  },
+  {
+    "id": 11253,
+    "question": "「平均中等品質条件」の英語は？",
+    "options": ["FAQ", "GMQ", "GAQ", "FMQ"],
+    "answer_index": 0
+  },
+  {
+    "id": 11254,
+    "question": "「船側渡し条件」の英語は？",
+    "options": ["FAS", "FOB", "FCA", "CFR"],
+    "answer_index": 0
+  },
+  {
+    "id": 11255,
+    "question": "「運送人渡し条件」の英語は？",
+    "options": ["FCA", "FOB", "EXW", "CIF"],
+    "answer_index": 0
+  },
+  {
+    "id": 11256,
+    "question": "「財務諸表」の英語は？",
+    "options": ["Financial Statements", "Financial Report", "Balance Sheet", "Income Statement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11257,
+    "question": "「確定申込み」の英語は？",
+    "options": ["Firm Offer", "Fixed Offer", "Final Offer", "Solid Offer"],
+    "answer_index": 0
+  },
+  {
+    "id": 11258,
+    "question": "「本船渡し条件」の英語は？",
+    "options": ["FOB", "FAS", "CIF", "CFR"],
+    "answer_index": 0
+  },
+  {
+    "id": 11259,
+    "question": "「不可抗力」の英語は？",
+    "options": ["Force Majeure", "Act of God", "Uncontrollable Event", "Emergency Force"],
+    "answer_index": 0
+  },
+  {
+    "id": 11260,
+    "question": "「先物為替」の英語は？",
+    "options": ["Forward Exchange", "Future FX", "Rate Forward", "Currency Forward"],
+    "answer_index": 0
+  },
+  {
+    "id": 11261,
+    "question": "「先物相場」の英語は？",
+    "options": ["Forward Rate", "Future Rate", "FX Rate", "Advance Rate"],
+    "answer_index": 0
+  },
+  {
+    "id": 11262,
+    "question": "「海貨業者／乙仲」の英語は？",
+    "options": ["Forwarder", "Freighter", "Shipping Agent", "Broker"],
+    "answer_index": 0
+  },
+  {
+    "id": 11263,
+    "question": "「不良船荷証券」の英語は？",
+    "options": ["Foul B/L", "Bad B/L", "Irregular B/L", "Faulty B/L"],
+    "answer_index": 0
+  },
+  {
+    "id": 11264,
+    "question": "「分損不担保条件」の英語は？",
+    "options": ["FPA", "WA", "GA", "FAR"],
+    "answer_index": 0
+  },
+  {
+    "id": 11265,
+    "question": "「運賃／貨物」の英語は？",
+    "options": ["Freight", "Cargo", "Carriage", "Shipping"],
+    "answer_index": 0
+  },
+  {
+    "id": 11266,
+    "question": "「運賃着払い」の英語は？",
+    "options": ["Freight Collect", "Freight Due", "Freight Later", "Freight Postpay"],
+    "answer_index": 0
+  },
+  {
+    "id": 11267,
+    "question": "「運賃同盟」の英語は？",
+    "options": ["Freight Conference", "Freight Agreement", "Transport Council", "Shipping Conference"],
+    "answer_index": 0
+  },
+  {
+    "id": 11268,
+    "question": "「運賃前払い」の英語は？",
+    "options": ["Freight Prepaid", "Freight Advance", "Freight Upfront", "Prepaid Cargo"],
+    "answer_index": 0
+  },
+  {
+    "id": 11269,
+    "question": "「運賃率」の英語は？",
+    "options": ["Freight Rate", "Cargo Rate", "Shipping Price", "Transport Rate"],
+    "answer_index": 0
+  },
+  {
+    "id": 11270,
+    "question": "「コンテナ一杯積み」の英語は？",
+    "options": ["Full Container Load (FCL)", "LCL", "CY Load", "CTN Full"],
+    "answer_index": 0
+  },
+  {
+    "id": 11271,
+    "question": "「関税及び貿易に関する一般協定」の英語は？",
+    "options": ["GATT", "WTO", "FTA", "GSP"],
+    "answer_index": 0
+  },
+  {
+    "id": 11272,
+    "question": "「共同海損」の英語は？",
+    "options": ["General Average", "General Cargo", "Marine Loss", "Shared Loss"],
+    "answer_index": 0
+  },
+  {
+    "id": 11273,
+    "question": "「一般貨物」の英語は？",
+    "options": ["General Cargo", "Common Cargo", "Bulk Cargo", "Mixed Cargo"],
+    "answer_index": 0
+  },
+  {
+    "id": 11274,
+    "question": "「一般取引条件」の英語は？",
+    "options": ["General Terms and Conditions", "Trade Conditions", "Standard Terms", "Common Agreement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11275,
+    "question": "「一般特恵関税制度」の英語は？",
+    "options": ["Generalized System of Preferences (GSP)", "Preferential Tariff System", "Special Tariff Scheme", "GATT Preference"],
+    "answer_index": 0
+  },
+  {
+    "id": 11276,
+    "question": "「適商品質条件」の英語は？",
+    "options": ["GMQ", "FAQ", "GAQ", "FMQ"],
+    "answer_index": 0
+  },
+  {
+    "id": 11277,
+    "question": "「商品」の英語は？",
+    "options": ["Goods", "Products", "Items", "Commodities"],
+    "answer_index": 0
+  },
+  {
+    "id": 11278,
+    "question": "「準拠法」の英語は？",
+    "options": ["Governing Law", "Legal Rule", "Applicable Law", "Controlling Law"],
+    "answer_index": 0
+  },
+  {
+    "id": 11279,
+    "question": "「国内総生産」の英語は？",
+    "options": ["Gross Domestic Product (GDP)", "Gross National Product (GNP)", "Net Domestic Product", "Domestic Output"],
+    "answer_index": 0
+  },
+  {
+    "id": 11280,
+    "question": "「総重量」の英語は？",
+    "options": ["Gross Weight (G/W)", "Net Weight", "Total Weight", "Full Weight"],
+    "answer_index": 0
+  },
+  {
+    "id": 11281,
+    "question": "「取扱手数料」の英語は？",
+    "options": ["Handling Charge", "Handling Fee", "Operation Fee", "Service Charge"],
+    "answer_index": 0
+  },
+  {
+    "id": 11282,
+    "question": "「国際航空運送協会」の英語は？",
+    "options": ["IATA", "ICAO", "IMO", "ICC"],
+    "answer_index": 0
+  },
+  {
+    "id": 11283,
+    "question": "「国際商業会議所」の英語は？",
+    "options": ["ICC", "IATA", "IMO", "WCO"],
+    "answer_index": 0
+  },
+  {
+    "id": 11284,
+    "question": "「輸入申告」の英語は？",
+    "options": ["Import Declaration", "Import License", "Import Permit", "Import Report"],
+    "answer_index": 0
+  },
+  {
+    "id": 11285,
+    "question": "「輸入承認」の英語は？",
+    "options": ["Import License", "Import Approval", "Import Permit", "Import Clearance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11286,
+    "question": "「輸入許可」の英語は？",
+    "options": ["Import Permit", "Import License", "Import Approval", "Entry Permit"],
+    "answer_index": 0
+  },
+  {
+    "id": 11287,
+    "question": "「輸入割当」の英語は？",
+    "options": ["Import Quota", "Import Limit", "Quota System", "Entry Quota"],
+    "answer_index": 0
+  },
+  {
+    "id": 11288,
+    "question": "「照会／問い合わせ」の英語は？",
+    "options": ["Inquiry", "Question", "Request", "Ask"],
+    "answer_index": 0
+  },
+  {
+    "id": 11289,
+    "question": "「検査証明書」の英語は？",
+    "options": ["Inspection Certificate", "Inspection Report", "Quality Certificate", "Test Certificate"],
+    "answer_index": 0
+  },
+  {
+    "id": 11290,
+    "question": "「協会貨物約款」の英語は？",
+    "options": ["Institute Cargo Clauses", "Insurance Cargo Clauses", "Marine Cargo Conditions", "ICC Cargo Terms"],
+    "answer_index": 0
+  },
+  {
+    "id": 11291,
+    "question": "「被保険利益」の英語は？",
+    "options": ["Insurable Interest", "Insurance Benefit", "Coverage Value", "Protected Interest"],
+    "answer_index": 0
+  },
+  {
+    "id": 11292,
+    "question": "「保険証券」の英語は？",
+    "options": ["Insurance Policy", "Insurance Certificate", "Policy Document", "Insurance Paper"],
+    "answer_index": 0
+  },
+  {
+    "id": 11293,
+    "question": "「保険料」の英語は？",
+    "options": ["Insurance Premium", "Insurance Fee", "Premium Rate", "Policy Cost"],
+    "answer_index": 0
+  },
+  {
+    "id": 11294,
+    "question": "「保険金額」の英語は？",
+    "options": ["Insured Amount", "Insurance Value", "Coverage Amount", "Policy Amount"],
+    "answer_index": 0
+  },
+  {
+    "id": 11295,
+    "question": "「在庫」の英語は？",
+    "options": ["Inventory", "Stock", "Goods", "Product List"],
+    "answer_index": 0
+  },
+  {
+    "id": 11296,
+    "question": "「送り状」の英語は？",
+    "options": ["Invoice", "Bill", "Packing List", "Statement"],
+    "answer_index": 0
+  },
+  {
+    "id": 11297,
+    "question": "「取消不能信用状」の英語は？",
+    "options": ["Irrevocable L/C", "Confirmed L/C", "Blocked L/C", "Secure L/C"],
+    "answer_index": 0
+  },
+  {
+    "id": 11298,
+    "question": "「信用状発行銀行」の英語は？",
+    "options": ["Issuing Bank", "Advising Bank", "Negotiating Bank", "Paying Bank"],
+    "answer_index": 0
+  },
+  {
+    "id": 11299,
+    "question": "「項目／品目」の英語は？",
+    "options": ["Item", "List", "Thing", "Article"],
+    "answer_index": 0
+  },
+  {
+    "id": 11300,
+    "question": "「陸揚品質条件」の英語は？",
+    "options": ["Landed Quality Terms", "Shipped Quality Terms", "Weight Terms", "Arrival Quality Terms"],
+    "answer_index": 0
+  },
+  
+  {
+    "id": 11301,
+    "question": "「陸揚条件」の英語は？",
+    "options": ["Landed Terms", "Landing Conditions", "Unloading Terms", "Port Terms"],
+    "answer_index": 0
+  },
+  {
+    "id": 11302,
+    "question": "「陸揚重量条件」の英語は？",
+    "options": ["Landed Weight Terms", "Weight Landing Terms", "Unload Weight Terms", "Port Weight Terms"],
+    "answer_index": 0
+  },
+  {
+    "id": 11303,
+    "question": "「最終船積期限」の英語は？",
+    "options": ["Latest Date for Shipment", "Final Shipping Date", "End of Shipment", "Last Cargo Date"],
+    "answer_index": 0
+  },
+  {
+    "id": 11304,
+    "question": "「混載貨物」の英語は？",
+    "options": ["Less than Container Load (LCL)", "FCL", "CY Cargo", "Mixed Load"],
+    "answer_index": 0
+  },
+  {
+    "id": 11305,
+    "question": "「信用状」の英語は？",
+    "options": ["Letter of Credit (L/C)", "Bill of Credit", "Credit Letter", "L/C Document"],
+    "answer_index": 0
+  },
+  {
+    "id": 11306,
+    "question": "「保証状」の英語は？",
+    "options": ["Letter of Guarantee (L/G)", "Guarantee Note", "Security Letter", "Guarantee Form"],
+    "answer_index": 0
+  },
+  {
+    "id": 11307,
+    "question": "「保証状（補償状）」の英語は？",
+    "options": ["Letter of Indemnity (L/I)", "Indemnity Form", "Safety Guarantee", "Compensation Letter"],
+    "answer_index": 0
+  },
+  {
+    "id": 11308,
+    "question": "「定期船」の英語は？",
+    "options": ["Liner", "Regular Ship", "Scheduled Vessel", "Routine Carrier"],
+    "answer_index": 0
+  },
+  {
+    "id": 11309,
+    "question": "「定価」の英語は？",
+    "options": ["List Price", "Fixed Price", "Standard Price", "Retail Price"],
+    "answer_index": 0
+  },
+  {
+    "id": 11310,
+    "question": "「損失」の英語は？",
+    "options": ["Loss", "Damage", "Defect", "Shortage"],
+    "answer_index": 0
+  },
+  {
+    "id": 11311,
+    "question": "「船荷目録」の英語は？",
+    "options": ["Manifest", "Cargo List", "Shipping Note", "Loading Manifest"],
+    "answer_index": 0
+  },
+  {
+    "id": 11312,
+    "question": "「海上保険」の英語は？",
+    "options": ["Marine Insurance", "Ocean Insurance", "Sea Insurance", "Ship Insurance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11313,
+    "question": "「市場価格」の英語は？",
+    "options": ["Market Price", "Trade Price", "Commercial Value", "Retail Price"],
+    "answer_index": 0
+  },
+  {
+    "id": 11314,
+    "question": "「原料／資材」の英語は？",
+    "options": ["Material", "Resource", "Ingredient", "Supply"],
+    "answer_index": 0
+  },
+  {
+    "id": 11315,
+    "question": "「本船受取証」の英語は？",
+    "options": ["Mate's Receipt (M/R)", "Ship Receipt", "Vessel Receipt", "Loading Report"],
+    "answer_index": 0
+  },
+  {
+    "id": 11316,
+    "question": "「満期／支払期日」の英語は？",
+    "options": ["Maturity", "Due Date", "Expiration", "Term End"],
+    "answer_index": 0
+  },
+  {
+    "id": 11317,
+    "question": "「寸法／容積」の英語は？",
+    "options": ["Measurement", "Dimension", "Volume", "Size"],
+    "answer_index": 0
+  },
+  {
+    "id": 11318,
+    "question": "「商品」の英語は？",
+    "options": ["Merchandise", "Goods", "Product", "Commodity"],
+    "answer_index": 0
+  },
+  {
+    "id": 11319,
+    "question": "「増減数量条件」の英語は？",
+    "options": ["More or Less Terms", "Quantity Flex Terms", "Adjust Quantity Terms", "± Terms"],
+    "answer_index": 0
+  },
+  {
+    "id": 11320,
+    "question": "「複合一貫輸送」の英語は？",
+    "options": ["Multimodal Transport", "Multiple Transport", "Integrated Transport", "Combined Transport"],
+    "answer_index": 0
+  },
+  {
+    "id": 11321,
+    "question": "「買取銀行」の英語は？",
+    "options": ["Negotiating Bank", "Issuing Bank", "Advising Bank", "Paying Bank"],
+    "answer_index": 0
+  },
+  {
+    "id": 11322,
+    "question": "「買い取り／交渉」の英語は？",
+    "options": ["Negotiation", "Discussion", "Purchase", "Bargain"],
+    "answer_index": 0
+  },
+  {
+    "id": 11323,
+    "question": "「正味重量」の英語は？",
+    "options": ["Net Weight (N/W)", "Gross Weight", "Real Weight", "Exact Weight"],
+    "answer_index": 0
+  },
+  {
+    "id": 11324,
+    "question": "「不着」の英語は？",
+    "options": ["Non-Delivery", "No Arrival", "Missing Cargo", "Unreceived"],
+    "answer_index": 0
+  },
+  {
+    "id": 11325,
+    "question": "「通知銀行」の英語は？",
+    "options": ["Notifying Bank", "Notification Bank", "Advising Bank", "Reporting Bank"],
+    "answer_index": 0
+  },
+  {
+    "id": 11326,
+    "question": "「到着通知先」の英語は？",
+    "options": ["Notify Party", "Arrival Contact", "Notice Receiver", "Consignee"],
+    "answer_index": 0
+  },
+  {
+    "id": 11327,
+    "question": "「利用運送事業者」の英語は？",
+    "options": ["NVOCC", "Carrier", "Forwarder", "Shipping Agent"],
+    "answer_index": 0
+  },
+  {
+    "id": 11328,
+    "question": "「海上運賃」の英語は？",
+    "options": ["Ocean Freight", "Marine Freight", "Sea Freight", "Ship Freight"],
+    "answer_index": 0
+  },
+  {
+    "id": 11329,
+    "question": "「申込み／オファー」の英語は？",
+    "options": ["Offer", "Bid", "Request", "Proposal"],
+    "answer_index": 0
+  },
+  {
+    "id": 11330,
+    "question": "「先約優先条件付き申込み」の英語は？",
+    "options": ["Offer subject to Prior Sale", "Offer with Priority", "Offer Pending Sale", "Offer under Condition"],
+    "answer_index": 0
+  },
+  {
+    "id": 11331,
+    "question": "「売主最終承認条件付き申込み」の英語は？",
+    "options": ["Offer subject to Seller's Final Confirmation", "Confirmed Seller Offer", "Seller Approval Offer", "Conditional Seller Offer"],
+    "answer_index": 0
+  },
+  {
+    "id": 11332,
+    "question": "「買取銀行無指定信用状」の英語は？",
+    "options": ["Open L/C", "General L/C", "Flexible L/C", "Free L/C"],
+    "answer_index": 0
+  },
+  {
+    "id": 11333,
+    "question": "「包括予定保険」の英語は？",
+    "options": ["Open Cover", "General Cover", "Bulk Insurance", "Inclusive Policy"],
+    "answer_index": 0
+  },
+  {
+    "id": 11334,
+    "question": "「包括予定保険証券」の英語は？",
+    "options": ["Open Policy", "General Policy", "Cover Note", "Bulk Policy"],
+    "answer_index": 0
+  },
+  {
+    "id": 11335,
+    "question": "「注文」の英語は？",
+    "options": ["Order", "Request", "Booking", "Purchase"],
+    "answer_index": 0
+  },
+  {
+    "id": 11336,
+    "question": "「指図式船荷証券」の英語は？",
+    "options": ["Order B/L", "Instruction B/L", "Directed B/L", "Command B/L"],
+    "answer_index": 0
+  },
+  {
+    "id": 11337,
+    "question": "「普通送金」の英語は？",
+    "options": ["Ordinary Transfer", "Standard Remittance", "Normal Transfer", "Basic Transfer"],
+    "answer_index": 0
+  },
+  {
+    "id": 11338,
+    "question": "「原本」の英語は？",
+    "options": ["Original", "Master Copy", "Primary Document", "Base Document"],
+    "answer_index": 0
+  },
+  {
+    "id": 11339,
+    "question": "「梱包明細書」の英語は？",
+    "options": ["Packing List", "Package Sheet", "Cargo Detail", "Packing Document"],
+    "answer_index": 0
+  },
+  {
+    "id": 11340,
+    "question": "「小包郵便」の英語は？",
+    "options": ["Parcel Post", "Package Mail", "Small Cargo Mail", "Post Package"],
+    "answer_index": 0
+  },
+  {
+    "id": 11341,
+    "question": "「分割船積み」の英語は？",
+    "options": ["Partial Shipment", "Split Shipping", "Divided Cargo", "Half Shipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11342,
+    "question": "「単独海損」の英語は？",
+    "options": ["Particular Average", "General Average", "Partial Loss", "Specific Loss"],
+    "answer_index": 0
+  },
+  {
+    "id": 11343,
+    "question": "「部分損害」の英語は？",
+    "options": ["Partial Loss", "Damage Part", "Segment Loss", "Half Loss"],
+    "answer_index": 0
+  },
+  {
+    "id": 11344,
+    "question": "「当事者」の英語は？",
+    "options": ["Party", "Person", "Stakeholder", "Member"],
+    "answer_index": 0
+  },
+  {
+    "id": 11345,
+    "question": "「支払銀行」の英語は？",
+    "options": ["Paying Bank", "Issuing Bank", "Negotiating Bank", "Advising Bank"],
+    "answer_index": 0
+  },
+  {
+    "id": 11346,
+    "question": "「支払い」の英語は？",
+    "options": ["Payment", "Pay", "Remittance", "Charge"],
+    "answer_index": 0
+  },
+  {
+    "id": 11347,
+    "question": "「郵送料」の英語は？",
+    "options": ["Postage", "Mail Fee", "Shipping Fee", "Postal Charge"],
+    "answer_index": 0
+  },
+  {
+    "id": 11348,
+    "question": "「郵便受領証」の英語は？",
+    "options": ["Post Receipt", "Mail Receipt", "Postal Note", "Shipping Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11349,
+    "question": "「委託者／本人」の英語は？",
+    "options": ["Principal", "Client", "Agent", "Owner"],
+    "answer_index": 0
+  },
+  {
+    "id": 11350,
+    "question": "「製造物責任」の英語は？",
+    "options": ["Product Liability (PL)", "Manufacturing Liability", "Goods Damage Law", "Product Responsibility"],
+    "answer_index": 0
+  }
+,
+  {
+    "id": 11351,
+    "question": "「利益」の意味に当たる英語はどれか？",
+    "options": ["Profit", "Quantity", "Proforma Invoice", "Surcharge"],
+    "answer_index": 0
+  },
+  {
+    "id": 11352,
+    "question": "「見積送り状」を表す英語はどれか？",
+    "options": ["Proforma Invoice", "Provisional Insurance", "Quantity Discount", "Inspection Certificate"],
+    "answer_index": 0
+  },
+  {
+    "id": 11353,
+    "question": "「約束手形」を表す英語はどれか？",
+    "options": ["Promissory Note", "Sale by Sample", "Third Party", "Shipped B/L"],
+    "answer_index": 0
+  },
+  {
+    "id": 11354,
+    "question": "「提案／勧誘」の意味に当たる英語はどれか？",
+    "options": ["Proposal", "Total Loss", "Transferable L/C", "Shipped Weight Terms"],
+    "answer_index": 0
+  },
+  {
+    "id": 11355,
+    "question": "「予定保険」を表す英語はどれか？",
+    "options": ["Provisional Insurance", "Shipped B/L", "Quantity", "Shipped Quality Terms"],
+    "answer_index": 0
+  },
+  {
+    "id": 11356,
+    "question": "「発注書」を表す英語はどれか？",
+    "options": ["Purchase Order", "Shipping Conference", "Unit Price", "Shipping Mark"],
+    "answer_index": 0
+  },
+  {
+    "id": 11357,
+    "question": "「品質」を意味する英語はどれか？",
+    "options": ["Quality", "Shipping Instructions", "Short Shipment", "Provisional Insurance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11358,
+    "question": "「品質見本」を表す英語はどれか？",
+    "options": ["Quality Sample", "Quantity Discount", "Transferable L/C", "Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11359,
+    "question": "「数量」を意味する英語はどれか？",
+    "options": ["Quantity", "Shipped Quality Terms", "Third Party", "Transshipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11360,
+    "question": "「数量割引」を表す英語はどれか？",
+    "options": ["Quantity Discount", "Shipping Advice", "List Price", "Import Bonded Warehouse Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11361,
+    "question": "「妥当な価格」を意味する英語はどれか？",
+    "options": ["Reasonable Price", "Proposal", "Short Shipment", "Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11362,
+    "question": "「受領書／領収証」を表す英語はどれか？",
+    "options": ["Receipt", "Quantity", "Proposal", "Sale by Sample"],
+    "answer_index": 0
+  },
+  {
+    "id": 11363,
+    "question": "「受取船荷証券」を表す英語はどれか？",
+    "options": ["Received B/L", "Transshipment", "Promissory Note", "Provisional Insurance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11364,
+    "question": "「照会／参照」を意味する英語はどれか？",
+    "options": ["Reference", "Total Loss", "Shipping Advice", "Third Party"],
+    "answer_index": 0
+  },
+  {
+    "id": 11365,
+    "question": "「代替／交換」を表す英語はどれか？",
+    "options": ["Replacement", "Shipping Mark", "Transferable L/C", "Short Shipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11366,
+    "question": "「制限付き信用状」を表す英語はどれか？",
+    "options": ["Restricted L/C", "List Price", "Quality Sample", "Provisional Insurance"],
+    "answer_index": 0
+  },
+  {
+    "id": 11367,
+    "question": "「回転信用状」を表す英語はどれか？",
+    "options": ["Revolving L/C", "Receipt", "Shipping Instructions", "Shipped Weight Terms"],
+    "answer_index": 0
+  },
+  {
+    "id": 11368,
+    "question": "「規格売買」を表す英語はどれか？",
+    "options": ["Sale by Grade or Type", "Purchase Order", "Quality", "Unit Price"],
+    "answer_index": 0
+  },
+  {
+    "id": 11369,
+    "question": "「見本売買」を表す英語はどれか？",
+    "options": ["Sale by Sample", "Provisional Insurance", "Third Party", "Transshipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11370,
+    "question": "「仕様売買」を表す英語はどれか？",
+    "options": ["Sale by Specification", "Reasonable Price", "Shipping Instructions", "Short Shipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11371,
+    "question": "「標準売買」を表す英語はどれか？",
+    "options": ["Sale by Standard", "Inspection Certificate", "Quantity Discount", "Shipping Mark"],
+    "answer_index": 0
+  },
+  {
+    "id": 11372,
+    "question": "「商標売買」を表す英語はどれか？",
+    "options": ["Sale by Trademark or Brand", "Promissory Note", "Shipped B/L", "Transferable L/C"],
+    "answer_index": 0
+  },
+  {
+    "id": 11373,
+    "question": "「総揚げ」を表す英語はどれか？",
+    "options": ["Shed Delivery", "Quality Sample", "Quantity Discount", "Import Bonded Warehouse Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11374,
+    "question": "「積込船荷証券」を表す英語はどれか？",
+    "options": ["Shipped B/L", "Third Party", "Proposal", "Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11375,
+    "question": "「本船品質条件」を表す英語はどれか？",
+    "options": ["Shipped Quality Terms", "Sale by Sample", "Total Loss", "Quantity"],
+    "answer_index": 0
+  },
+ {
+    "id": 11376,
+    "question": "「本船重量条件」を表す英語はどれか？",
+    "options": ["Shipped Weight Terms", "Surcharge", "Short Shipment", "Trust Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11377,
+    "question": "「船積通知」を表す英語はどれか？",
+    "options": ["Shipping Advice", "Provisional Insurance", "Reasonable Price", "Principal"],
+    "answer_index": 0
+  },
+  {
+    "id": 11378,
+    "question": "「海運同盟」を表す英語はどれか？",
+    "options": ["Shipping Conference", "Sale by Trademark or Brand", "Transshipment", "Raw Material"],
+    "answer_index": 0
+  },
+  {
+    "id": 11379,
+    "question": "「荷印」を表す英語はどれか？",
+    "options": ["Shipping Mark", "Trust Receipt", "Specification", "Quantity Discount"],
+    "answer_index": 0
+  },
+  {
+    "id": 11380,
+    "question": "「船積指図書」を表す英語はどれか？",
+    "options": ["Shipping Order (S/O)", "Unit Price", "Reasonable Price", "Transshipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11381,
+    "question": "「自家取り（上屋渡し）」を表す英語はどれか？",
+    "options": ["Shipside Delivery", "Shipped Weight Terms", "Quantity", "Trust Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11382,
+    "question": "「積送不足」を表す英語はどれか？",
+    "options": ["Short Shipment", "Unit Price", "Receipt", "Total Loss"],
+    "answer_index": 0
+  },
+  {
+    "id": 11383,
+    "question": "「仕様書」を表す英語はどれか？",
+    "options": ["Specification(s)", "Transferable L/C", "Proforma Invoice", "Sale by Grade or Type"],
+    "answer_index": 0
+  },
+  {
+    "id": 11384,
+    "question": "「記名式船荷証券」を表す英語はどれか？",
+    "options": ["Straight B/L", "Shipped B/L", "Quantity", "Quality Sample"],
+    "answer_index": 0
+  },
+  {
+    "id": 11385,
+    "question": "「供給者／仕入先」を表す英語はどれか？",
+    "options": ["Supplier", "Reasonable Price", "Transshipment", "Trust Receipt"],
+    "answer_index": 0
+  },
+  {
+    "id": 11386,
+    "question": "「割増料金」を表す英語はどれか？",
+    "options": ["Surcharge", "Total Loss", "Transferable L/C", "Sale by Grade or Type"],
+    "answer_index": 0
+  },
+  {
+    "id": 11387,
+    "question": "「検査報告書」を表す英語はどれか？",
+    "options": ["Survey Report", "Short Shipment", "Quality Sample", "Transferable L/C"],
+    "answer_index": 0
+  },
+  {
+    "id": 11388,
+    "question": "「第三者」を表す英語はどれか？",
+    "options": ["Third Party", "Transshipment", "Shipped Quality Terms", "Sale by Specification"],
+    "answer_index": 0
+  },
+  {
+    "id": 11389,
+    "question": "「期限付き為替手形」を表す英語はどれか？",
+    "options": ["Time Bill (Usance Bill)", "Sale by Sample", "Letter of Guarantee", "Surcharge"],
+    "answer_index": 0
+  },
+  {
+    "id": 11390,
+    "question": "「期限付き手形買相場」を表す英語はどれか？",
+    "options": ["Time Bill Buying Rate", "Shipside Delivery", "Sale by Grade or Type", "Transshipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11391,
+    "question": "「全損」を表す英語はどれか？",
+    "options": ["Total Loss", "Short Shipment", "Quality Sample", "Supplier"],
+    "answer_index": 0
+  },
+  {
+    "id": 11392,
+    "question": "「貿易条件」を表す英語はどれか？",
+    "options": ["Trade Terms", "Shipping Mark", "Receipt", "Shipped B/L"],
+    "answer_index": 0
+  },
+  {
+    "id": 11393,
+    "question": "「不定期船」を表す英語はどれか？",
+    "options": ["Tramper", "Transferable L/C", "Shipped Weight Terms", "Proposal"],
+    "answer_index": 0
+  },
+  {
+    "id": 11394,
+    "question": "「譲渡可能信用状」を表す英語はどれか？",
+    "options": ["Transferable L/C", "Total Loss", "Supplier", "Transshipment"],
+    "answer_index": 0
+  },
+  {
+    "id": 11395,
+    "question": "「積替え」を表す英語はどれか？",
+    "options": ["Transshipment", "Latest Shipment Date", "Shipping Mark", "Sale by Grade or Type"],
+    "answer_index": 0
+  },
+  {
+    "id": 11396,
+    "question": "「輸入担保荷物保管証」を表す英語はどれか？",
+    "options": ["Trust Receipt (T/R)", "Shipped Quality Terms", "Proforma Invoice", "Shed Delivery"],
+    "answer_index": 0
+  },
+  {
+    "id": 11397,
+    "question": "「電信送金」を表す英語はどれか？",
+    "options": ["T/T (Telegraphic Transfer)", "Survey Report", "Supplier", "Sale by Grade or Type"],
+    "answer_index": 0
+  },
+  {
+    "id": 11398,
+    "question": "「電信買相場」を表す英語はどれか？",
+    "options": ["TTB (Telegraphic Transfer Buying Rate)", "Short Shipment", "Quality Sample", "Shipping Order (S/O)"],
+    "answer_index": 0
+  },
+  {
+    "id": 11399,
+    "question": "「電信売相場」を表す英語はどれか？",
+    "options": ["TTS (Telegraphic Transfer Selling Rate)", "Receipt", "Purchase Order", "Shipped Weight Terms"],
+    "answer_index": 0
+  },
+  {
+    "id": 11400,
+    "question": "「単価」を表す英語はどれか？",
+    "options": ["Unit Price", "Sale by Trademark or Brand", "Provisional Insurance", "Reasonable Price"],
+    "answer_index": 0
+  }
+,
+{
+  "id": 21401,
+  "question": "「有効性／有効期間」の英語は？",
+  "options": ["Validity", "Vanning", "Warranty", "Warehouse"],
+  "answer_index": 0
+},
+{
+  "id": 21402,
+  "question": "「バン詰め（コンテナ詰め）」の英語は？",
+  "options": ["Vanning", "Warehouse", "Freight Charge", "Lead Time"],
+  "answer_index": 0
+},
+{
+  "id": 21403,
+  "question": "「分損担保条件」の英語は？",
+  "options": ["WA (With Average)", "Validity", "Inspection Fee", "Shipment Number"],
+  "answer_index": 0
+},
+{
+  "id": 21404,
+  "question": "「倉庫」の英語は？",
+  "options": ["Warehouse", "Loading Fee", "Cargo Damage", "Trade Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21405,
+  "question": "「保証」の英語は？",
+  "options": ["Warranty", "Tariff", "Importer", "Cargo Receipt"],
+  "answer_index": 0
+},
+{
+  "id": 21406,
+  "question": "「重量」の英語は？",
+  "options": ["Weight", "Cargo Tracking", "Air Freight", "Delivery Deadline"],
+  "answer_index": 0
+},
+{
+  "id": 21407,
+  "question": "「卸売価格」の英語は？",
+  "options": ["Wholesale Price", "Warehouse Receipt", "Inspection Fee", "Cargo"],
+  "answer_index": 0
+},
+{
+  "id": 21408,
+  "question": "「世界貿易機関」の英語は？",
+  "options": ["World Trade Organization (WTO)", "Freight Negotiation", "Rail Carrier", "Buyer"],
+  "answer_index": 0
+},
+{
+  "id": 21409,
+  "question": "「航空運賃」の英語は？",
+  "options": ["Air Freight", "Loading Port", "Distribution Center", "Bonded Warehouse"],
+  "answer_index": 0
+},
+{
+  "id": 21410,
+  "question": "「航空貨物」の英語は？",
+  "options": ["Air Cargo", "Seal Number", "Cargo Manifest", "Handover"],
+  "answer_index": 0
+},
+{
+  "id": 21411,
+  "question": "「到着」の英語は？",
+  "options": ["Arrival", "Exporter", "Freight Agent", "Trade Barrier"],
+  "answer_index": 0
+},
+{
+  "id": 21412,
+  "question": "「出発」の英語は？",
+  "options": ["Departure", "Shipment Notice", "Inspection Fee", "Cargo Handling"],
+  "answer_index": 0
+},
+{
+  "id": 21413,
+  "question": "「倉庫証券」の英語は？",
+  "options": ["Warehouse Receipt", "Quotation", "Export Tax", "Tariff"],
+  "answer_index": 0
+},
+{
+  "id": 21414,
+  "question": "「配車担当／発送係」の英語は？",
+  "options": ["Dispatcher", "Forwarder", "Seller", "Logistics"],
+  "answer_index": 0
+},
+{
+  "id": 21415,
+  "question": "「運送人」の英語は？",
+  "options": ["Carrier", "Freight Agent", "Container Number", "Shipment Date"],
+  "answer_index": 0
+},
+{
+  "id": 21416,
+  "question": "「荷役作業員」の英語は？",
+  "options": ["Stevedore", "Importer", "Distribution Center", "Air Cargo Terminal"],
+  "answer_index": 0
+},
+{
+  "id": 21417,
+  "question": "「税関」の英語は？",
+  "options": ["Customs", "Cargo", "Freight Charge", "Truck Carrier"],
+  "answer_index": 0
+},
+{
+  "id": 21418,
+  "question": "「許可証」の英語は？",
+  "options": ["Permit", "Arrival Date", "Buyer", "Handover"],
+  "answer_index": 0
+},
+{
+  "id": 21419,
+  "question": "「輸入者」の英語は？",
+  "options": ["Importer", "Export Permit Number", "Cargo Tracking", "Trade Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21420,
+  "question": "「輸出者」の英語は？",
+  "options": ["Exporter", "Freight Negotiation", "Port Authority", "Marine Cargo"],
+  "answer_index": 0
+},
+
+{
+  "id": 21421,
+  "question": "「輸出者申告書」の英語は？",
+  "options": ["Exporter Declaration", "Cargo Release", "Insurance Claim", "Shipment Number"],
+  "answer_index": 0
+},
+{
+  "id": 21422,
+  "question": "「輸入者申告書」の英語は？",
+  "options": ["Importer Declaration", "Freight Charge", "Inspection Fee", "Distribution Center"],
+  "answer_index": 0
+},
+{
+  "id": 21423,
+  "question": "「税関検査」の英語は？",
+  "options": ["Customs Inspection", "Port Charge", "Cargo Damage", "Shipment Notice"],
+  "answer_index": 0
+},
+{
+  "id": 21424,
+  "question": "「貨物取扱」の英語は？",
+  "options": ["Freight Forwarding", "Shipping Line", "Seal Number", "Air Way"],
+  "answer_index": 0
+},
+{
+  "id": 21425,
+  "question": "「船積み」の英語は？",
+  "options": ["Shipment", "Trade Barrier", "Inspection Fee", "Commercial Value"],
+  "answer_index": 0
+},
+{
+  "id": 21426,
+  "question": "「貨物受領書」の英語は？",
+  "options": ["Cargo Receipt", "Warehouse", "Importer", "Freight Charge"],
+  "answer_index": 0
+},
+{
+  "id": 21427,
+  "question": "「貨物保険」の英語は？",
+  "options": ["Cargo Insurance", "Customs Valuation", "Rail Carrier", "Trade Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21428,
+  "question": "「積出港」の英語は？",
+  "options": ["Loading Port", "Handling Fee", "Lead Time", "Quotation"],
+  "answer_index": 0
+},
+{
+  "id": 21429,
+  "question": "「仕向地港」の英語は？",
+  "options": ["Destination Port", "Shipment Number", "Seal Number", "Air Cargo"],
+  "answer_index": 0
+},
+{
+  "id": 21430,
+  "question": "「輸入税」の英語は？",
+  "options": ["Import Tax", "Cargo Release", "Inspection Fee", "Tariff"],
+  "answer_index": 0
+},
+{
+  "id": 21431,
+  "question": "「輸出税」の英語は？",
+  "options": ["Export Tax", "Delivery Deadline", "Cargo Handling", "Cargo Manifest"],
+  "answer_index": 0
+},
+{
+  "id": 21432,
+  "question": "「船舶スケジュール」の英語は？",
+  "options": ["Sailing Schedule", "Warehouse Receipt", "Shipment Date", "Cargo Damage"],
+  "answer_index": 0
+},
+{
+  "id": 21433,
+  "question": "「航空路」の英語は？",
+  "options": ["Air Way", "Tariff", "Freight Negotiation", "Import Permit Number"],
+  "answer_index": 0
+},
+{
+  "id": 21434,
+  "question": "「予約番号」の英語は？",
+  "options": ["Booking Number", "Exporter", "Lead Time", "Cargo Tracking"],
+  "answer_index": 0
+},
+{
+  "id": 21435,
+  "question": "「商業価値」の英語は？",
+  "options": ["Commercial Value", "Trade Invoice", "Shipment", "Rail Carrier"],
+  "answer_index": 0
+},
+{
+  "id": 21436,
+  "question": "「税関評価」の英語は？",
+  "options": ["Customs Valuation", "Importer Declaration", "Cargo Release", "Freight Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21437,
+  "question": "「貨物目録」の英語は？",
+  "options": ["Cargo Manifest", "Shipping Line", "Air Way", "Warehouse"],
+  "answer_index": 0
+},
+{
+  "id": 21438,
+  "question": "「梱包材」の英語は？",
+  "options": ["Packing Material", "Cargo Insurance", "Shipment Notice", "Marine Cargo"],
+  "answer_index": 0
+},
+{
+  "id": 21439,
+  "question": "「封印番号」の英語は？",
+  "options": ["Seal Number", "Warehouse Receipt", "Cargo Receipt", "Freight Forwarding"],
+  "answer_index": 0
+},
+{
+  "id": 21440,
+  "question": "「積込明細書」の英語は？",
+  "options": ["Loading List", "Arrival Date", "Freight Charge", "Tariff"],
+  "answer_index": 0
+},
+{
+  "id": 21441,
+  "question": "「貨物損傷」の英語は？",
+  "options": ["Cargo Damage", "Import Permit Number", "Container Ship", "Trade Barrier"],
+  "answer_index": 0
+},
+{
+  "id": 21442,
+  "question": "「保険請求」の英語は？",
+  "options": ["Insurance Claim", "Shipment Number", "Cargo Tracking", "Freight Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21443,
+  "question": "「重量超過料金」の英語は？",
+  "options": ["Overweight Charge", "Lead Time", "Handover", "Warehouse"],
+  "answer_index": 0
+},
+{
+  "id": 21444,
+  "question": "「税関放出」の英語は？",
+  "options": ["Customs Release", "Shipment Date", "Cargo Handling", "Commercial Offer"],
+  "answer_index": 0
+},
+{
+  "id": 21445,
+  "question": "「取扱手数料」の英語は？",
+  "options": ["Handling Fee", "Distribution Center", "Freight Charge", "Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21446,
+  "question": "「運賃請求書」の英語は？",
+  "options": ["Freight Invoice", "Shipment Notice", "Tariff", "Inspection Fee"],
+  "answer_index": 0
+},
+{
+  "id": 21447,
+  "question": "「貿易契約」の英語は？",
+  "options": ["Trade Contract", "Cargo Release", "Distribution Center", "Lead Time"],
+  "answer_index": 0
+},
+{
+  "id": 21448,
+  "question": "「リスク管理」の英語は？",
+  "options": ["Risk Management", "Warehouse", "Cargo Damage", "Delivery Deadline"],
+  "answer_index": 0
+},
+{
+  "id": 21449,
+  "question": "「保管料」の英語は？",
+  "options": ["Storage Fee", "Rail Carrier", "Shipment", "Freight Charge"],
+  "answer_index": 0
+},
+{
+  "id": 21450,
+  "question": "「コンテナヤード」の英語は？",
+  "options": ["Container Yard (CY)", "Freight Agent", "Loading Port", "Shipment Date"],
+  "answer_index": 0
+},
+{
+  "id": 21451,
+  "question": "「コンテナフレイトステーション」の英語は？",
+  "options": ["Container Freight Station (CFS)", "Commercial Offer", "Importer", "Cargo Release"],
+  "answer_index": 0
+},
+{
+  "id": 21452,
+  "question": "「輸送書類」の英語は？",
+  "options": ["Transport Document", "Shipment Notice", "Freight Agent", "Handover"],
+  "answer_index": 0
+},
+{
+  "id": 21453,
+  "question": "「引き渡し」の英語は？",
+  "options": ["Handover", "Storage Fee", "Inspection Fee", "Freight Charge"],
+  "answer_index": 0
+},
+{
+  "id": 21454,
+  "question": "「買い手」の英語は？",
+  "options": ["Buyer", "Cargo Manifest", "Shipment Number", "Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21455,
+  "question": "「売り手」の英語は？",
+  "options": ["Seller", "Trading Line", "Air Cargo Terminal", "Lead Time"],
+  "answer_index": 0
+},
+{
+  "id": 21456,
+  "question": "「運賃」の英語は？",
+  "options": ["Freight Charge", "Customs Form", "Importer", "Cargo Tracking"],
+  "answer_index": 0
+},
+{
+  "id": 21457,
+  "question": "「船積番号」の英語は？",
+  "options": ["Shipment Number", "Export Permit Number", "Sales Lead", "Harbor Fee"],
+  "answer_index": 0
+},
+{
+  "id": 21458,
+  "question": "「貨物追跡」の英語は？",
+  "options": ["Cargo Tracking", "Inspection Fee", "Commercial Offer", "Rail Carrier"],
+  "answer_index": 0
+},
+{
+  "id": 21459,
+  "question": "「運送代理人」の英語は？",
+  "options": ["Freight Agent", "Shipment Date", "Distribution Center", "Cargo Handling"],
+  "answer_index": 0
+},
+{
+  "id": 21460,
+  "question": "「積込料」の英語は？",
+  "options": ["Loading Fee", "Export Declaration", "Business Inquiry", "Cargo Manifest"],
+  "answer_index": 0
+},
+{
+  "id": 21461,
+  "question": "「荷卸し料」の英語は？",
+  "options": ["Unloading Fee", "Trade Barrier", "Import Tax", "Warehouse Receipt"],
+  "answer_index": 0
+},
+{
+  "id": 21462,
+  "question": "「海上貨物」の英語は？",
+  "options": ["Marine Cargo", "Cargo Damage", "Shipment Notice", "Buyer"],
+  "answer_index": 0
+},
+{
+  "id": 21463,
+  "question": "「航空貨物ターミナル」の英語は？",
+  "options": ["Air Cargo Terminal", "Cargo Manifest", "Export Tax", "Freight Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21464,
+  "question": "「港湾局」の英語は？",
+  "options": ["Port Authority", "Inspection Fee", "Lead Time", "Cargo Tracking"],
+  "answer_index": 0
+},
+{
+  "id": 21465,
+  "question": "「貨物引渡し」の英語は？",
+  "options": ["Cargo Release", "Distribution Center", "Freight Charge", "Shipment Number"],
+  "answer_index": 0
+},
+{
+  "id": 21466,
+  "question": "「輸出申告」の英語は？",
+  "options": ["Export Declaration", "Cargo Damage", "Importer", "Business Inquiry"],
+  "answer_index": 0
+},
+{
+  "id": 21467,
+  "question": "「輸入申告」の英語は？",
+  "options": ["Import Declaration", "Seal Number", "Arrival Date", "Warehouse"],
+  "answer_index": 0
+},
+{
+  "id": 21468,
+  "question": "「保税倉庫」の英語は？",
+  "options": ["Bonded Warehouse", "Trade Invoice", "Cargo Receipt", "Forwarder"],
+  "answer_index": 0
+},
+{
+  "id": 21469,
+  "question": "「関税率」の英語は？",
+  "options": ["Tariff", "Cargo Handling", "Inspection Fee", "Air Freight"],
+  "answer_index": 0
+},
+{
+  "id": 21470,
+  "question": "「貿易障壁」の英語は？",
+  "options": ["Trade Barrier", "Importer", "Freight Negotiation", "Handover"],
+  "answer_index": 0
+},
+
+{
+  "id": 21471,
+  "question": "「物流」の英語は？",
+  "options": ["Logistics", "Unloading Fee", "Cargo Release", "Inspection Fee"],
+  "answer_index": 0
+},
+{
+  "id": 21472,
+  "question": "「サプライチェーン」の英語は？",
+  "options": ["Supply Chain", "Warehouse", "Business Inquiry", "Trade Barrier"],
+  "answer_index": 0
+},
+{
+  "id": 21473,
+  "question": "「物流センター」の英語は？",
+  "options": ["Distribution Center", "Freight Agent", "Loading Port", "Air Cargo Terminal"],
+  "answer_index": 0
+},
+{
+  "id": 21474,
+  "question": "「コンテナ船」の英語は？",
+  "options": ["Container Ship", "Inspection Fee", "Cargo Receipt", "Warehouse Receipt"],
+  "answer_index": 0
+},
+{
+  "id": 21475,
+  "question": "「貨物取扱」の英語は？",
+  "options": ["Cargo Handling", "Freight Invoice", "Cargo Tracking", "Port Charge"],
+  "answer_index": 0
+},
+{
+  "id": 21476,
+  "question": "「リードタイム」の英語は？",
+  "options": ["Lead Time", "Cargo Damage", "Unloading Fee", "Import Tax"],
+  "answer_index": 0
+},
+{
+  "id": 21477,
+  "question": "「貿易インボイス」の英語は？",
+  "options": ["Trade Invoice", "Export Declaration", "Cargo Receipt", "Shipment Notice"],
+  "answer_index": 0
+},
+{
+  "id": 21478,
+  "question": "「見積書」の英語は？",
+  "options": ["Quotation", "Loading Port", "Inspection Fee", "Warehouse"],
+  "answer_index": 0
+},
+{
+  "id": 21479,
+  "question": "「船積日」の英語は？",
+  "options": ["Shipment Date", "Tariff", "Port Authority", "Freight Charge"],
+  "answer_index": 0
+},
+{
+  "id": 21480,
+  "question": "「到着日」の英語は？",
+  "options": ["Arrival Date", "Distribution Center", "Shipment Number", "Forwarder"],
+  "answer_index": 0
+},
+{
+  "id": 21481,
+  "question": "「輸出許可番号」の英語は？",
+  "options": ["Export Permit Number", "Cargo Handling", "Trade Barrier", "Marine Cargo"],
+  "answer_index": 0
+},
+{
+  "id": 21482,
+  "question": "「輸入許可番号」の英語は？",
+  "options": ["Import Permit Number", "Warehouse Receipt", "Cargo Tracking", "Freight Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21483,
+  "question": "「コンテナ番号」の英語は？",
+  "options": ["Container Number", "Import Tax", "Trade Invoice", "Air Cargo Terminal"],
+  "answer_index": 0
+},
+{
+  "id": 21484,
+  "question": "「税関書類」の英語は？",
+  "options": ["Customs Form", "Shipment Notice", "Seal Number", "Cargo Damage"],
+  "answer_index": 0
+},
+{
+  "id": 21485,
+  "question": "「申告書」の英語は？",
+  "options": ["Declaration Form", "Commercial Offer", "Cargo Damage", "Handover"],
+  "answer_index": 0
+},
+{
+  "id": 21486,
+  "question": "「トラック運送会社」の英語は？",
+  "options": ["Truck Carrier", "Cargo Release", "Shipment Number", "Warehouse"],
+  "answer_index": 0
+},
+{
+  "id": 21487,
+  "question": "「鉄道運送会社」の英語は？",
+  "options": ["Rail Carrier", "Import Permit Number", "Freight Negotiation", "Trade Barrier"],
+  "answer_index": 0
+},
+{
+  "id": 21488,
+  "question": "「船会社」の英語は？",
+  "options": ["Shipping Line", "Export Declaration", "Container Ship", "Loading List"],
+  "answer_index": 0
+},
+{
+  "id": 21489,
+  "question": "「港湾使用料」の英語は？",
+  "options": ["Port Charge", "Importer Declaration", "Cargo Receipt", "Freight Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21490,
+  "question": "「港湾料金」の英語は？",
+  "options": ["Harbor Fee", "Tariff", "Marine Cargo", "Storage Fee"],
+  "answer_index": 0
+},
+{
+  "id": 21491,
+  "question": "「運賃交渉」の英語は？",
+  "options": ["Freight Negotiation", "Trade Contract", "Cargo Manifest", "Unloading Fee"],
+  "answer_index": 0
+},
+{
+  "id": 21492,
+  "question": "「納期」の英語は？",
+  "options": ["Delivery Deadline", "Importer", "Freight Agent", "Arrival"],
+  "answer_index": 0
+},
+{
+  "id": 21493,
+  "question": "「出荷通知」の英語は？",
+  "options": ["Shipment Notice", "Forwarder", "Container Yard (CY)", "Cargo Tracking"],
+  "answer_index": 0
+},
+{
+  "id": 21494,
+  "question": "「売買契約」の英語は？",
+  "options": ["Sales Contract", "Cargo Release", "Freight Invoice", "Warehouse Receipt"],
+  "answer_index": 0
+},
+{
+  "id": 21495,
+  "question": "「エスクロー」の英語は？",
+  "options": ["Escrow", "Cargo Handling", "Seal Number", "Trade Invoice"],
+  "answer_index": 0
+},
+{
+  "id": 21496,
+  "question": "「検査費用」の英語は？",
+  "options": ["Inspection Fee", "Distribution Center", "Commercial Value", "Cargo Damage"],
+  "answer_index": 0
+},
+{
+  "id": 21497,
+  "question": "「危険貨物」の英語は？",
+  "options": ["Hazardous Cargo", "Freight Charge", "Arrival Date", "Importer Declaration"],
+  "answer_index": 0
+},
+{
+  "id": 21498,
+  "question": "「商業オファー」の英語は？",
+  "options": ["Commercial Offer", "Tariff", "Warehouse", "Shipment"],
+  "answer_index": 0
+},
+{
+  "id": 21499,
+  "question": "「見込み客」の英語は？",
+  "options": ["Sales Lead", "Marine Cargo", "Inspection Fee", "Cargo Receipt"],
+  "answer_index": 0
+},
+{
+  "id": 21500,
+  "question": "「商談問い合わせ」の英語は？",
+  "options": ["Business Inquiry", "Buyer", "Shipment Number", "Cargo Manifest"],
+  "answer_index": 0
+}
+]
+
+

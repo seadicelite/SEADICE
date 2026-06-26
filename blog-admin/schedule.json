@@ -1,0 +1,17 @@
+[
+  {"no": 1, "title": "APIを使わずできるだけ自動化する", "category": "開発", "done": true},
+  {"no": 2, "title": "FlutterでiOSアプリをゼロから作る手順まとめ", "category": "Flutter", "done": false},
+  {"no": 3, "title": "Firebase Hostingで無料サイトを公開する方法", "category": "開発", "done": false},
+  {"no": 4, "title": "cronで自動化するときに絶対ハマるポイント", "category": "開発", "done": false},
+  {"no": 5, "title": "PythonとtweepyでXに自動投稿する方法", "category": "開発", "done": false},
+  {"no": 6, "title": "Flutter Webのキャッシュ設定を間違えるとデプロイしても反映されない話", "category": "Flutter", "done": false},
+  {"no": 7, "title": "Claude Codeを使った個人開発の進め方", "category": "AI", "done": false},
+  {"no": 8, "title": "AIに投稿文を生成させるときのプロンプトの工夫", "category": "AI", "done": false},
+  {"no": 9, "title": "ブログ記事をAIで書くときにやってはいけないこと", "category": "AI", "done": false},
+  {"no": 10, "title": "個人開発者がSEOで最初にやるべき3つのこと", "category": "SEO", "done": false},
+  {"no": 11, "title": "ポートフォリオサイトに必要なSEO設定まとめ", "category": "SEO", "done": false},
+  {"no": 12, "title": "X・YouTube・ブログを同時に運用するための仕組み", "category": "ビジネス", "done": false},
+  {"no": 13, "title": "個人事業で時間を買うための自動化思考", "category": "ビジネス", "done": false},
+  {"no": 14, "title": "新規事業を一人で回すためにやっていること", "category": "ビジネス", "done": false},
+  {"no": 15, "title": "完成度60%でリリースして改善し続ける理由", "category": "ビジネス", "done": false}
+]

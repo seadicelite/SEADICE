@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>APIを使わずできるだけ自動化する | SEADICE STUDIO</title>
+<meta name="description" content="個人事業・新規事業向けに、APIキーや月額費用なしでX自動投稿・YouTube自動投稿・ブログ生成・デプロイを自動化する方法を紹介します。">
+<link rel="canonical" href="https://seadice.win/blog/automate-without-api/">
+<meta property="og:title" content="APIを使わずできるだけ自動化する | SEADICE STUDIO">
+<meta property="og:description" content="個人事業・新規事業向けに、APIキーや月額費用なしでX自動投稿・YouTube自動投稿・ブログ生成・デプロイを自動化する方法を紹介します。">
+<meta property="og:image" content="https://seadice.win/icons/blog_dev.webp">
+<meta property="og:url" content="https://seadice.win/blog/automate-without-api/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"APIを使わずできるだけ自動化する","datePublished":"2026-06-25","author":{"@type":"Organization","name":"SEADICE STUDIO"},"publisher":{"@type":"Organization","name":"SEADICE STUDIO","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.body img{max-width:100%;border-radius:10px;margin:16px 0}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / APIを使わずできるだけ自動化する</p>
+  <img src="/icons/blog_dev.webp" alt="開発" width="680" height="340" style="width:100%;height:240px;object-fit:cover;border-radius:16px;margin-bottom:24px">
+  <span class="tag">開発</span>
+  <h1>APIを使わずできるだけ自動化する</h1>
+  <p class="meta"><time datetime="2026-06-25">2026-06-25</time> · SEADICE STUDIO</p>
+  <div class="body">
+<p>個人事業をやっていると、やることが本当に多い。開発、営業、発信、経理——全部一人でこなさなければならない。その中で「自動化」は生存戦略だと思っている。</p>
+<p>ただ、自動化というとAPIキーを取得して、クラウドサービスを契約して、月額費用が……という話になりがちだ。個人事業主にとってランニングコストは致命的になることもある。</p>
+<p>この記事では、<strong>APIキーなし・月額費用なし</strong>で実現できる自動化の仕組みを、SEADICE STUDIOで実際にやっていることをベースに紹介する。</p>
+<h2>なぜ「APIを使わない」自動化なのか</h2>
+<p>APIを使う自動化は強力だが、コストがかかる。X（Twitter）の自動投稿APIは無料プランでは制限が厳しく、YouTubeのData APIも1日のクォータがある。</p>
+<p>個人事業の初期フェーズでは、まず<strong>お金をかけずに仕組みを作ること</strong>が大事だ。仕組みが回り始めてから、必要に応じて有料サービスを検討すればいい。</p>
+<h2>X（Twitter）自動投稿をcronで実現する</h2>
+<p>XへのAPI投稿はOAuth1.0aを使えば無料で可能だ。必要なのはX Developerアカウント（無料）だけ。</p>
+<p>Pythonスクリプト（<code>tweet.py</code>）を書いて、cronで定期実行するだけで毎日決まった時間に投稿できる。</p>
+<pre><code># crontabの設定例（8時・12時・18時に投稿）
+0 8 * * * cd /Users/username/x-auto && python3 tweet.py
+0 12 * * * cd /Users/username/x-auto && python3 tweet.py
+0 18 * * * cd /Users/username/x-auto && python3 tweet.py</code></pre>
+<p>投稿内容はClaudeなどのAIで生成するが、<strong>APIキーを使うのはここだけ</strong>。しかもHaikuモデルなら1回の投稿生成コストは0.1円以下だ。</p>
+<h3>ポイント：投稿内容は「ゆるく」する</h3>
+<p>意識高い系の投稿を量産しても逆効果。キャラクターを設定して、どうでもいい日常をつぶやくくらいがちょうどいい。フォロワーとの距離感を縮めるのが目的だ。</p>
+<h2>YouTube自動投稿もcronで</h2>
+<p>YouTubeへの動画アップロードも、Google APIを使えば自動化できる。<code>youtube-upload</code>などのPythonライブラリを使うと、コマンド一発でアップロードが完了する。</p>
+<pre><code># 毎朝7時に動画をアップロード
+0 7 * * * cd /Users/username/youtube-auto && python3 upload.py</code></pre>
+<p>動画ファイルとタイトル・説明文をあらかじめ用意しておけば、あとは自動で公開される。</p>
+<h3>cronの使い方のコツ</h3>
+<p>cronはMacでもLinuxでも標準で使える。<code>crontab -e</code>でエディタが開く。</p>
+<pre><code># 書き方: 分 時 日 月 曜日 コマンド
+0 8 * * * /usr/bin/python3 /path/to/script.py</code></pre>
+<p>Pythonのパスは<code>which python3</code>で確認しておくこと。cronは環境変数が通常と異なるので、スクリプト内でフルパスを使うのが安全だ。</p>
+<h2>ブログ記事の生成はClaude Codeに任せる</h2>
+<p>ブログを書くのは時間がかかる。タイトルと書きたいことのメモだけ用意して、あとはClaude Codeに任せるという方法を取っている。</p>
+<p>Claude Codeはサブスクリプション内で使えるので、<strong>APIキーの追加費用なし</strong>で記事の下書きを生成できる。生成した記事はそのままFirebaseにデプロイする。</p>
+<p>この仕組みのメリットは：</p>
+<ul>
+<li>タイトルとメモだけ考えればいい</li>
+<li>構成・見出し・本文はAIが生成</li>
+<li>デプロイまで自動化</li>
+</ul>
+<p>人間がやるのは「何を書くか」を決めるだけ。それが本来やるべき仕事だ。</p>
+<h2>Firebase Hostingで無料デプロイ</h2>
+<p>サイトのホスティングはFirebase Hostingを使っている。無料プランで十分な帯域とカスタムドメインが使える。</p>
+<p>デプロイはコマンド一発：</p>
+<pre><code>firebase deploy --only hosting</code></pre>
+<p>Pythonスクリプトの中から<code>subprocess</code>で呼び出せば、記事生成からデプロイまでを1コマンドで完結させることもできる。</p>
+<h2>まとめ</h2>
+<p>個人事業の自動化で大切なのは、<strong>コストをかけずに仕組みを作ること</strong>だ。</p>
+<ul>
+<li>X自動投稿 → cronで1日3回</li>
+<li>YouTube自動投稿 → cronで毎朝</li>
+<li>ブログ生成 → Claude Codeに依頼</li>
+<li>デプロイ → Firebase CLI</li>
+</ul>
+<p>この4つを組み合わせるだけで、発信にかかる時間を大幅に削減できる。浮いた時間を開発や営業に使えば、事業のスピードが上がる。</p>
+<p>最初から完璧な自動化を目指す必要はない。一つずつ仕組み化して、少しずつ自分の手を離していくのが現実的なやり方だと思っている。</p>
+  </div>
+  <a href="/blog/" class="back">
+    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+    ブログ一覧へ
+  </a>
+</article>
+<footer>&copy; 2025 SEADICE STUDIO</footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "FOB条件では、輸出者は本船に積み込むまでの費用とリスクを負担する。",
+    "answer": "true",
+    "explanation": "FOB（Free On Board）：輸出者が本船積み込みまで負担する条件。",
+    "options": []
+  },
+  {
+    "id": 2,
+    "question": "CIF条件では、運賃は輸入者が負担し、保険料は輸出者が負担する。",
+    "answer": "false",
+    "explanation": "CIFでは運賃・保険料ともに輸出者負担。輸入者負担ではない。",
+    "options": []
+  },
+  {
+    "id": 3,
+    "question": "B/L（船荷証券）は貨物の受取証としての役割を持つ。",
+    "answer": "true",
+    "explanation": "B/Lは受取証・運送契約の証拠・有価証券として機能する。",
+    "options": []
+  },
+  {
+    "id": 4,
+    "question": "アメンドメントとは、信用状内容の訂正・変更のことである。",
+    "answer": "true",
+    "explanation": "L/Cの訂正や変更は全てAmendmentと呼ばれる。",
+    "options": []
+  },
+  {
+    "id": 5,
+    "question": "D/P決済では、輸入者は書類を受け取った後に代金を支払う。",
+    "answer": "false",
+    "explanation": "D/P（Documents against Payment）：支払って初めて書類を受け取る方式。",
+    "options": []
+  },
+  {
+    "id": 6,
+    "question": "為替手形を輸入者が承諾する方式をアクセプタンス方式と呼ぶ。",
+    "answer": "true",
+    "explanation": "輸入者の手形承諾（アクセプタンス）に基づき後日支払われる方式。",
+    "options": []
+  },
+  {
+    "id": 7,
+    "question": "アンチダンピング関税は、不当廉売品に対して課される追加関税である。",
+    "answer": "true",
+    "explanation": "Dumping（不当廉売）を防止するための保護関税。",
+    "options": []
+  },
+  {
+    "id": 8,
+    "question": "Invoiceは保険契約の証明書類である。",
+    "answer": "false",
+    "explanation": "Invoiceは商業送り状。保険証券はInsurance Policy。",
+    "options": []
+  },
+  {
+    "id": 9,
+    "question": "信用状取引は、銀行が支払いを保証するため安全性が高い。",
+    "answer": "true",
+    "explanation": "L/C決済は銀行信用が介在するため貿易で一般的。",
+    "options": []
+  },
+  {
+    "id": 10,
+    "question": "FCAは輸出者が本船に積み込むまでのリスクを負担する条件である。",
+    "answer": "false",
+    "explanation": "FCA（Free Carrier）は“運送人引渡し条件”で本船積み込み義務はない。",
+    "options": []
+  }
+]

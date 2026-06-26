@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ホーム（ポートフォリオ） -->
+  <url>
+    <loc>https://seadice.win/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://seadice.win/"/>
+  </url>
+
+  <!-- 楽々暗記 Web版 -->
+  <url>
+    <loc>https://seadice.win/rakuraku/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- TOITE Web版 -->
+  <url>
+    <loc>https://seadice.win/toite/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 顔タイプ診断 Web版 -->
+  <url>
+    <loc>https://seadice.win/kao_type_diag/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ピラミッドタスク管理 Web版 -->
+  <url>
+    <loc>https://seadice.win/jinsei_pyramid/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Life's RPG Web版 -->
+  <url>
+    <loc>https://seadice.win/lifeisrpg/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Focus Dice Web版 -->
+  <url>
+    <loc>https://seadice.win/focus-dice/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 貿易Hub Web版 -->
+  <url>
+    <loc>https://seadice.win/boueki-hub/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- プライバシーポリシー -->
+  <url>
+    <loc>https://seadice.win/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
