@@ -144,6 +144,22 @@
         "destination": "/privacy/jikka-seiri-app3/index.html"
       },
       {
+        "source": "/tools/kateisaien/**",
+        "destination": "/tools/kateisaien/index.html"
+      },
+      {
+        "source": "/privacy/kateisaien-app1/**",
+        "destination": "/privacy/kateisaien-app1/index.html"
+      },
+      {
+        "source": "/privacy/kateisaien-app2/**",
+        "destination": "/privacy/kateisaien-app2/index.html"
+      },
+      {
+        "source": "/privacy/kateisaien-app3/**",
+        "destination": "/privacy/kateisaien-app3/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
