@@ -136,6 +136,10 @@
         "destination": "/blog/ios-release-with-admob/index.html"
       },
       {
+        "source": "/blog/mobile-ad-networks-2026/**",
+        "destination": "/blog/mobile-ad-networks-2026/index.html"
+      },
+      {
         "source": "/blog/monetization-admob-iap/**",
         "destination": "/blog/monetization-admob-iap/index.html"
       },

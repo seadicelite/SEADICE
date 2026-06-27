@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>個人開発者向けモバイル広告ネットワーク比較2026：AdMob・Pangle・AppLovin MAX | SEADICE Blog</title>
+<meta name="description" content="AdMob、Meta Audience Network、Unity Ads、Pangle（TikTok）、AppLovin MAXを個人開発者視点で比較。どのネットワークをどのフェーズで使うべきか解説。">
+<link rel="canonical" href="https://seadice.win/blog/mobile-ad-networks-2026/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:title" content="個人開発者向けモバイル広告ネットワーク比較2026：AdMob・Pangle・AppLovin MAX">
+<meta property="og:description" content="AdMob、Pangle（TikTok）、AppLovin MAXなど主要広告ネットワークを個人開発者視点で比較。フェーズ別の使い方も解説。">
+<meta property="og:url" content="https://seadice.win/blog/mobile-ad-networks-2026/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"モバイル広告ネットワーク比較2026","item":"https://seadice.win/blog/mobile-ad-networks-2026/"}]},{"@type":"BlogPosting","headline":"個人開発者向けモバイル広告ネットワーク比較2026","url":"https://seadice.win/blog/mobile-ad-networks-2026/","datePublished":"2026-06-27","author":{"@type":"Person","name":"SEADICE"}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.8}header{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border)}nav{height:56px;padding:0 24px;max-width:760px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}.nav-back{color:var(--muted);text-decoration:none;font-size:13px}article{max-width:720px;margin:0 auto;padding:96px 24px 80px}.tag{display:inline-block;font-size:11px;letter-spacing:.15em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:3px 10px;margin-bottom:16px;text-transform:uppercase}h1{font-size:clamp(22px,4vw,32px);font-weight:800;line-height:1.3;margin-bottom:12px;letter-spacing:-.02em}.meta{font-size:13px;color:var(--muted);margin-bottom:48px}h2{font-size:20px;font-weight:700;margin:48px 0 16px;color:var(--accent)}h3{font-size:16px;font-weight:700;margin:32px 0 10px;color:var(--accent2)}p{margin-bottom:16px;color:#cbd5e1}ul,ol{padding-left:20px;margin-bottom:16px;color:#cbd5e1}li{margin-bottom:8px}strong{color:var(--text)}.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin:24px 0}.card.accent{border-left:3px solid var(--accent)}.card.blue{border-left:3px solid var(--accent2)}.card.warn{border-left:3px solid #f59e0b}.card.green{border-left:3px solid #22c55e}.card-title{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--accent);margin-bottom:12px;text-transform:uppercase}.table-wrap{overflow-x:auto;margin:24px 0}table{width:100%;border-collapse:collapse;font-size:14px}th{background:#0a0a18;color:var(--accent);padding:10px 14px;text-align:left;font-weight:600;border-bottom:1px solid var(--border)}td{padding:10px 14px;border-bottom:1px solid #111122;color:#cbd5e1;vertical-align:top}tr:last-child td{border-bottom:none}.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;font-weight:600}.badge-green{background:rgba(34,197,94,.15);color:#22c55e}.badge-yellow{background:rgba(245,158,11,.15);color:#f59e0b}.badge-red{background:rgba(239,68,68,.15);color:#ef4444}.network-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;margin:20px 0}.network-name{font-size:18px;font-weight:800;margin-bottom:4px}.network-sub{font-size:13px;color:var(--muted);margin-bottom:16px}.network-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}@media(max-width:480px){.network-grid{grid-template-columns:repeat(2,1fr)}}.metric{background:#0a0a18;border-radius:8px;padding:12px;text-align:center}.metric-label{font-size:11px;color:var(--muted);margin-bottom:4px}.metric-value{font-size:15px;font-weight:700}.phase{display:flex;gap:16px;margin-bottom:20px;align-items:flex-start}.phase-num{flex-shrink:0;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#000}.phase-admob{background:var(--accent)}.phase-med{background:var(--accent2)}.phase-body h3{margin:0 0 6px;font-size:15px;color:var(--text)}footer{border-top:1px solid var(--border);padding:28px 24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none}</style>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+    <a href="/blog/" class="nav-back">← ブログ</a>
+  </nav>
+</header>
+<article>
+  <span class="tag">収益化</span>
+  <h1>個人開発者向けモバイル広告ネットワーク比較2026</h1>
+  <p class="meta">2026-06-27 &nbsp;·&nbsp; SEADICE</p>
+
+  <p>アプリを広告で収益化するとき、多くの人が最初に使うのはAdMobだ。ただ実際には AdMob 以外にも複数の広告ネットワークがあり、使い方次第で収益を伸ばせる。この記事では個人開発者が知っておくべき主要ネットワークを整理する。</p>
+
+  <h2>主要ネットワーク一覧</h2>
+
+  <div class="table-wrap">
+    <table>
+      <tr>
+        <th>ネットワーク</th>
+        <th>運営</th>
+        <th>日本での強さ</th>
+        <th>個人開発向け</th>
+      </tr>
+      <tr>
+        <td><strong>AdMob</strong></td>
+        <td>Google</td>
+        <td><span class="badge badge-green">強い</span></td>
+        <td><span class="badge badge-green">最適</span></td>
+      </tr>
+      <tr>
+        <td><strong>Pangle</strong></td>
+        <td>ByteDance（TikTok）</td>
+        <td><span class="badge badge-yellow">伸びてる</span></td>
+        <td><span class="badge badge-yellow">メディエーター経由で</span></td>
+      </tr>
+      <tr>
+        <td><strong>Meta Audience Network</strong></td>
+        <td>Meta（Facebook）</td>
+        <td><span class="badge badge-yellow">中程度</span></td>
+        <td><span class="badge badge-yellow">メディエーター経由で</span></td>
+      </tr>
+      <tr>
+        <td><strong>Unity Ads</strong></td>
+        <td>Unity</td>
+        <td><span class="badge badge-yellow">ゲーム系に強い</span></td>
+        <td><span class="badge badge-yellow">ゲームアプリなら検討</span></td>
+      </tr>
+      <tr>
+        <td><strong>AppLovin MAX</strong></td>
+        <td>AppLovin</td>
+        <td><span class="badge badge-green">強い</span></td>
+        <td><span class="badge badge-yellow">成長してから</span></td>
+      </tr>
+      <tr>
+        <td><strong>ironSource</strong></td>
+        <td>AppLovin傘下</td>
+        <td><span class="badge badge-yellow">中程度</span></td>
+        <td><span class="badge badge-red">不要</span></td>
+      </tr>
+    </table>
+  </div>
+
+  <h2>各ネットワークの詳細</h2>
+
+  <div class="network-card">
+    <p class="network-name">AdMob</p>
+    <p class="network-sub">Google &nbsp;/&nbsp; Flutter公式SDK &nbsp;/&nbsp; 個人開発のスタート地点</p>
+    <p>モバイル広告の事実上の標準。Google の広告インフラを使うので、日本の広告主カバレッジが最も広い。Flutter の公式パッケージ <code>google_mobile_ads</code> があり、ドキュメントも豊富で実装が一番楽。個人開発者が最初に使うべきネットワーク。</p>
+    <ul>
+      <li>バナー・インタースティシャル・リワード・ネイティブすべてサポート</li>
+      <li>最低支払い額：70ドル（銀行振込の場合）</li>
+      <li>テストIDが公式で提供されており開発しやすい</li>
+      <li>フィルレート（広告が埋まる率）が最も高い</li>
+    </ul>
+    <div class="network-grid">
+      <div class="metric"><p class="metric-label">実装難度</p><p class="metric-value" style="color:var(--accent)">低</p></div>
+      <div class="metric"><p class="metric-label">日本フィルレート</p><p class="metric-value" style="color:var(--accent)">高</p></div>
+      <div class="metric"><p class="metric-label">単価（eCPM）</p><p class="metric-value" style="color:var(--accent2)">中〜高</p></div>
+    </div>
+  </div>
+
+  <div class="network-card">
+    <p class="network-name">Pangle</p>
+    <p class="network-sub">ByteDance（TikTok親会社）&nbsp;/&nbsp; アジア圏で急成長中</p>
+    <p>TikTokを運営するByteDanceの広告ネットワーク。TikTok・Douyin（中国版TikTok）の広告主が出稿するため、若年層向けアプリやエンタメ系との相性がいい。2024〜2025年頃から日本でも存在感が出てきており、特にリワード広告の単価がAdMobを上回るケースが報告されている。</p>
+    <ul>
+      <li>TikTok広告主からの需要が強い</li>
+      <li>リワード広告の単価が高めな傾向</li>
+      <li>日本でのフィルレートはAdMobより低い（広告主が少ない）</li>
+      <li>単体での使用より、AppLovin MAXのメディエーターに追加する使い方が主流</li>
+    </ul>
+    <div class="network-grid">
+      <div class="metric"><p class="metric-label">実装難度</p><p class="metric-value" style="color:var(--accent2)">中</p></div>
+      <div class="metric"><p class="metric-label">日本フィルレート</p><p class="metric-value" style="color:var(--accent2)">中</p></div>
+      <div class="metric"><p class="metric-label">単価（eCPM）</p><p class="metric-value" style="color:var(--accent)">中〜高</p></div>
+    </div>
+  </div>
+
+  <div class="network-card">
+    <p class="network-name">Meta Audience Network</p>
+    <p class="network-sub">Meta（Facebook・Instagram）&nbsp;/&nbsp; 広告主層が独自</p>
+    <p>Facebook・Instagram に出稿する広告主の広告をアプリに配信する。Google とは異なる広告主プールを持つため、AdMob と組み合わせることで全体のフィルレートと単価が上がりやすい。ただし Facebookアカウントとの連携が必要で、審査もある。</p>
+    <ul>
+      <li>Googleとは異なる広告主層（ECサイト・ゲーム・金融など）</li>
+      <li>ネイティブ広告の品質が高い</li>
+      <li>Facebookアカウントと連携が必要</li>
+      <li>審査に落ちることがあるので余裕を持って申請</li>
+    </ul>
+    <div class="network-grid">
+      <div class="metric"><p class="metric-label">実装難度</p><p class="metric-value" style="color:var(--accent2)">中</p></div>
+      <div class="metric"><p class="metric-label">日本フィルレート</p><p class="metric-value" style="color:var(--accent2)">中</p></div>
+      <div class="metric"><p class="metric-label">単価（eCPM）</p><p class="metric-value" style="color:var(--accent2)">中〜高</p></div>
+    </div>
+  </div>
+
+  <div class="network-card">
+    <p class="network-name">Unity Ads</p>
+    <p class="network-sub">Unity Technologies &nbsp;/&nbsp; ゲームアプリ特化</p>
+    <p>ゲームエンジン Unity が運営する広告ネットワーク。ゲームアプリへの広告出稿が多いため、ゲームアプリ同士のクロスプロモーションやリワード広告が強い。非ゲームアプリでの効果は薄い。Flutter製のゲームアプリを作るなら検討する価値がある。</p>
+    <ul>
+      <li>ゲームアプリには最適、非ゲームには不向き</li>
+      <li>リワード動画の在庫が豊富</li>
+      <li>Flutter向けの公式SDKが存在する</li>
+    </ul>
+    <div class="network-grid">
+      <div class="metric"><p class="metric-label">実装難度</p><p class="metric-value" style="color:var(--accent2)">中</p></div>
+      <div class="metric"><p class="metric-label">ゲームアプリ向け</p><p class="metric-value" style="color:var(--accent)">高</p></div>
+      <div class="metric"><p class="metric-label">非ゲーム向け</p><p class="metric-value" style="color:#ef4444">低</p></div>
+    </div>
+  </div>
+
+  <div class="network-card">
+    <p class="network-name">AppLovin MAX</p>
+    <p class="network-sub">AppLovin &nbsp;/&nbsp; メディエーター（複数ネットワークをまとめる）</p>
+    <p>AppLovin MAX は単体の広告ネットワークではなく、<strong>メディエーター</strong>と呼ばれる仕組み。AdMob・Pangle・Meta・Unity Ads などを統合して、広告枠ごとに最高値をつけたネットワークの広告を自動で表示する（ヘッダービディング）。複数ネットワークを競わせることで、単一ネットワーク運用より収益が10〜30%上がることが多い。</p>
+    <ul>
+      <li>複数ネットワークを一括管理できる</li>
+      <li>オークション形式で常に最高単価の広告が表示される</li>
+      <li>導入すると各ネットワークのSDKをそれぞれ追加する必要がある（アプリサイズ増加）</li>
+      <li>初期設定が複雑。月間アクティブユーザーが数千以上になってから検討するのが現実的</li>
+    </ul>
+    <div class="network-grid">
+      <div class="metric"><p class="metric-label">実装難度</p><p class="metric-value" style="color:#ef4444">高</p></div>
+      <div class="metric"><p class="metric-label">収益改善効果</p><p class="metric-value" style="color:var(--accent)">高</p></div>
+      <div class="metric"><p class="metric-label">導入タイミング</p><p class="metric-value" style="color:var(--accent2)">成長後</p></div>
+    </div>
+  </div>
+
+  <h2>個人開発者のフェーズ別戦略</h2>
+
+  <p>どのネットワークを使うかは、アプリのフェーズによって変える。初期からメディエーターを入れても設定の複雑さに対してリターンが小さい。</p>
+
+  <div class="phase">
+    <div class="phase-num phase-admob">1</div>
+    <div class="phase-body">
+      <h3>リリース直後：AdMob のみ</h3>
+      <p>まず審査を通してユーザーを集めることに集中する。AdMob だけで実装はシンプルに保つ。バナー・インタースティシャル・リワードの3種類を入れておけば十分。</p>
+    </div>
+  </div>
+  <div class="phase">
+    <div class="phase-num phase-admob">2</div>
+    <div class="phase-body">
+      <h3>月間数百〜数千 DAU：Pangle または Meta を追加</h3>
+      <p>AdMob のフィルレートが落ちてくる時間帯や広告枠に、Pangle か Meta を補完として追加する。AppLovin MAX に統合するかは規模次第。</p>
+    </div>
+  </div>
+  <div class="phase">
+    <div class="phase-num phase-med">3</div>
+    <div class="phase-body">
+      <h3>月間数万 DAU 以上：AppLovin MAX でメディエーション</h3>
+      <p>複数ネットワークを競わせる価値が出てくるフェーズ。AppLovin MAX に AdMob・Pangle・Meta を統合してヘッダービディングを有効にする。</p>
+    </div>
+  </div>
+
+  <h2>結論：今やること</h2>
+
+  <div class="card accent">
+    <p class="card-title">個人開発者のスタート地点</p>
+    <ul style="margin:0">
+      <li><strong>最初は AdMob 一択</strong>。Flutter公式SDKで実装が簡単、日本フィルレートが最も高い</li>
+      <li><strong>広告種類は3種類すべて入れる</strong>：バナー・インタースティシャル・リワード</li>
+      <li><strong>Pangle は将来の選択肢</strong>。アプリが育ったらメディエーター経由で追加を検討</li>
+      <li><strong>AppLovin MAX は後回し</strong>。DAU が数千を超えてから</li>
+    </ul>
+  </div>
+
+  <p>最初からすべてを入れようとすると実装が複雑になり、本来の開発スピードが落ちる。まず AdMob でリリースして、ユーザーが集まったネットワークだけ強化するのが個人開発者には合っている。</p>
+
+</article>
+<footer>
+  <p><a href="https://seadice.win/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>
