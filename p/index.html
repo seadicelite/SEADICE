@@ -155,6 +155,21 @@
     .skill { font-size: 11px; padding: 4px 10px; border-radius: 6px; background: var(--bg); border: 1px solid var(--border); color: var(--muted); }
     @media (max-width: 640px) { .about-inner { flex-direction: column; } .about-grid { grid-template-columns: 1fr; } }
 
+    .webapps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+    .webapp-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 16px; transition: border-color 0.2s, transform 0.2s; }
+    .webapp-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+    .webapp-card-header { display: flex; align-items: center; gap: 14px; }
+    .webapp-icon { width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, rgba(0,255,209,0.15), rgba(56,189,248,0.15)); border: 1px solid rgba(0,255,209,0.2); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .webapp-icon svg { width: 26px; height: 26px; }
+    .webapp-name { font-size: 17px; font-weight: 800; }
+    .webapp-cat { font-size: 11px; color: var(--accent); letter-spacing: 0.1em; margin-top: 2px; }
+    .webapp-desc { font-size: 13px; color: var(--muted); line-height: 1.7; flex: 1; }
+    .webapp-features { display: flex; flex-direction: column; gap: 6px; }
+    .webapp-feature { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+    .webapp-feature::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+    .webapp-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #000; font-size: 13px; font-weight: 700; padding: 12px 20px; border-radius: 10px; text-decoration: none; transition: opacity 0.2s; }
+    .webapp-btn:hover { opacity: 0.85; }
+
     .blog-list { display: flex; flex-direction: column; gap: 12px; }
     .blog-card {
       background: var(--card); border: 1px solid var(--border); border-radius: 14px;
@@ -199,6 +214,7 @@
     <a class="nav-logo" href="/">SEADICE</a>
     <div class="nav-links">
       <a href="#apps">アプリ</a>
+      <a href="#webapps">Webアプリ</a>
       <a href="#blog">ブログ</a>
       <a href="#tools">ツール</a>
       <a href="#about">について</a>
@@ -346,18 +362,37 @@
     </div>
   </section>
 
+  <section id="webapps" aria-labelledby="webapps-heading">
+    <p class="section-label">Web Apps</p>
+    <h2 class="section-title" id="webapps-heading">すぐに使えるWebアプリ</h2>
+    <div class="webapps-grid">
+      <div class="webapp-card">
+        <div class="webapp-card-header">
+          <div class="webapp-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--accent)">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+            </svg>
+          </div>
+          <div>
+            <p class="webapp-name">iOSリリース用画像リサイザー</p>
+            <p class="webapp-cat">画像 · iOS</p>
+          </div>
+        </div>
+        <p class="webapp-desc">App Store申請用スクリーンショットを3サイズに一括変換。ブラウザだけで完結し、サーバーには送信しません。</p>
+        <div class="webapp-features">
+          <span class="webapp-feature">1242×2688 / 2064×2752 / 422×514 に対応</span>
+          <span class="webapp-feature">複数画像を一括でリサイズ</span>
+          <span class="webapp-feature">PNG形式で自動ダウンロード</span>
+        </div>
+        <a class="webapp-btn" href="/tools/image-resize/">今すぐ使う →</a>
+      </div>
+    </div>
+  </section>
+
   <section id="tools" aria-labelledby="tools-heading">
     <p class="section-label">Tools</p>
     <h2 class="section-title" id="tools-heading">無料Webツール</h2>
     <div class="blog-list">
-    <a class="blog-card" href="/tools/image-resize/">
-      <div class="blog-card-body">
-        <span class="blog-tag">画像・iOS</span>
-        <p class="blog-title">iOSリリース用画像リサイザー</p>
-        <p class="blog-meta">App Store申請用3サイズに一括変換・まとめてダウンロード</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
     <a class="blog-card" href="/tools/kateisaien/">
       <div class="blog-card-body">
         <span class="blog-tag">家庭菜園・園芸</span>
