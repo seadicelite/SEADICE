@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>毎朝4時にアプリ3本とWebサイトを自動生成する仕組みを作った | SEADICE</title>
+<meta name="description" content="Claude AIのクラウドエージェントを使って、毎朝4時にニッチ市場を調査・Webサイト生成・Flutterアプリ3本を自動で作成するパイプラインを構築した話。Firebase自動デプロイまで完全自動化。">
+<link rel="canonical" href="https://seadice.win/blog/daily-automation-pipeline/">
+<meta property="og:title" content="毎朝4時にアプリ3本とWebサイトを自動生成する仕組みを作った | SEADICE">
+<meta property="og:description" content="Claude AIのクラウドエージェントを使って、毎朝4時にニッチ市場を調査・Webサイト生成・Flutterアプリ3本を自動で作成するパイプラインを構築した話。">
+<meta property="og:url" content="https://seadice.win/blog/daily-automation-pipeline/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="毎朝4時にアプリ3本とWebサイトを自動生成する仕組みを作った | SEADICE">
+<meta name="twitter:description" content="Claude AIのクラウドエージェントで毎朝4時に自動でアプリ3本+Webサイト1つを生成するパイプライン構築の話。">
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"毎朝4時にアプリ3本とWebサイトを自動生成する仕組みを作った","item":"https://seadice.win/blog/daily-automation-pipeline/"}]},{"@type":"BlogPosting","headline":"毎朝4時にアプリ3本とWebサイトを自動生成する仕組みを作った","datePublished":"2026-06-26","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);border:1px solid var(--border);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px;line-height:1.6}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.info{background:rgba(0,255,209,.04);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.info p{margin:0;font-size:14px;color:#94a3b8;line-height:1.7}.warn{background:rgba(251,191,36,.05);border:1px solid rgba(251,191,36,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.warn p{margin:0;font-size:14px;color:#94a3b8;line-height:1.7}.step-grid{display:grid;gap:12px;margin:20px 0}.step{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;display:flex;gap:16px;align-items:flex-start}.step-num{font-size:11px;font-weight:800;color:var(--accent);letter-spacing:.1em;white-space:nowrap;padding-top:2px}.step-body p{margin:0;font-size:14px;color:#94a3b8;line-height:1.6}.step-body strong{color:var(--text)}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 毎朝4時にアプリ3本とWebサイトを自動生成する仕組みを作った</p>
+  <span class="tag">自動化</span>
+  <h1>毎朝4時にアプリ3本と<br>Webサイトを自動生成する<br>仕組みを作った</h1>
+  <p class="meta"><time datetime="2026-06-26">2026-06-26</time> · SEADICE</p>
+  <div class="body">
+
+<p>「毎日違うジャンルのアプリを量産したい」という発想から、今日一日かけてフルオートのパイプラインを構築した。寝てる間に勝手にニッチ市場を調査して、Webサイトを作って、Flutterアプリのコードまで書いてくれる仕組みだ。</p>
+
+<p>実際に今日動かしてみて「副業の確定申告ガイド」というWebサイトが <code>seadice.win/tools/fukugyo-tax/</code> に自動生成された。ここではその仕組みを全部公開する。</p>
+
+<h2>なぜ作ったか</h2>
+
+<p>アプリを1本リリースするたびに、毎回同じ作業をしていることに気づいた。ジャンルを考える、競合を調べる、Webページを作る、プライバシーポリシーを用意する、コードのベースを書く。これが全部手作業だった。</p>
+
+<p>考えたのは、<strong>「毎日違うニッチジャンルのアプリを3本量産できれば、どれかは当たる」</strong> という仮説だ。1本に全力をかけるより、毎日3本出し続けるほうが確率が上がる。ただし手作業では物理的に無理なので、自動化するしかない。</p>
+
+<p>調べたら、Claude AIにはクラウド上でスケジュール実行できるエージェント機能があった。しかも今のサブスクリプションの範囲内で使える。これを使わない手はない。</p>
+
+<h2>パイプラインの全体像</h2>
+
+<p>毎朝4時（JST）にクラウドエージェントが起動して、以下を順番に実行する。</p>
+
+<div class="step-grid">
+  <div class="step">
+    <span class="step-num">STEP 01</span>
+    <div class="step-body"><p><strong>ニッチ市場のリサーチ</strong><br>日本のApp Storeで競合が少なく需要がある分野を調査。すでに作ったツールと重複しないよう既存の <code>p/tools/</code> フォルダを確認してから選定する。</p></div>
+  </div>
+  <div class="step">
+    <span class="step-num">STEP 02</span>
+    <div class="step-body"><p><strong>ランディングページの生成</strong><br>選んだジャンル向けのWebページを <code>seadice.win/tools/{slug}/</code> に生成。3つのアプリカードを載せた完全SEO対応のHTMLを作成する。</p></div>
+  </div>
+  <div class="step">
+    <span class="step-num">STEP 03</span>
+    <div class="step-body"><p><strong>プライバシーポリシーを3本分生成</strong><br>App Store申請に必須のプライバシーポリシーページを各アプリ用に自動作成。<code>seadice.win/privacy/{slug}-app1/</code> などで公開される。</p></div>
+  </div>
+  <div class="step">
+    <span class="step-num">STEP 04</span>
+    <div class="step-body"><p><strong>ポートフォリオサイトを更新</strong><br><code>seadice.win/tools/</code> のインデックスページと <code>seadice.win</code> のトップページのToolsセクションに新しいカードを追加する。</p></div>
+  </div>
+  <div class="step">
+    <span class="step-num">STEP 05</span>
+    <div class="step-body"><p><strong>Flutterアプリのコードを3本生成</strong><br>別リポジトリ（apps-pipeline）に各アプリのFlutterプロジェクトを生成。AdMob・サブスク対応済みのコードベースから始められる。</p></div>
+  </div>
+  <div class="step">
+    <span class="step-num">STEP 06</span>
+    <div class="step-body"><p><strong>GitHubにプッシュ → 自動デプロイ</strong><br>GitHub ActionsとFirebase Hostingの連携により、コミットするだけで <code>seadice.win</code> に自動デプロイされる。</p></div>
+  </div>
+</div>
+
+<h2>技術スタック</h2>
+
+<h3>クラウドエージェント（Claude Routines）</h3>
+
+<p>Claude AIのAPIに含まれるスケジュール実行機能を使っている。エージェントにプロンプトを渡しておくと、指定した時間にクラウド上で自動起動する。PCの電源が切れていても、タブを閉じていても関係ない。</p>
+
+<p>Cronの設定は <code>0 19 * * *</code>（UTC19:00 = JST 4:00）。毎日1回、寝てる間に全部やってくれる。</p>
+
+<p>エージェントには以下の権限を与えている：</p>
+<ul>
+  <li>GitHubリポジトリの読み書き（<code>gh</code> CLI経由）</li>
+  <li>Webリサーチ（競合調査・市場調査）</li>
+  <li>ファイルの作成・編集</li>
+  <li>git commit / push</li>
+</ul>
+
+<h3>GitHub Actions + Firebase Hosting</h3>
+
+<p>エージェントがGitHubにプッシュすると、GitHub Actionsが起動してFirebaseに自動デプロイする。設定ファイルは <code>.github/workflows/firebase-hosting-merge.yml</code> の1ファイルだけ。</p>
+
+<div class="info">
+<p>GitHubは今回の用途（プライベートリポジトリ、Actions分）は無料枠で収まる。Firebase Hostingも無料枠（1GB/月）で十分。つまり<strong>追加コストゼロ</strong>で動く。</p>
+</div>
+
+<h3>Webページの設計思想</h3>
+
+<p>自動生成するHTMLは徹底的に軽量化した：</p>
+<ul>
+  <li>JavaScriptゼロ（静的HTMLのみ）</li>
+  <li>外部フォントなし（システムフォント使用）</li>
+  <li>CSSはインラインで記述</li>
+  <li>画像はWebP形式</li>
+  <li>JSON-LDでStructured Data対応</li>
+</ul>
+
+<p>理由はPageSpeed Insightsのスコアを100点に近づけるため。検索流入を狙うなら読み込み速度はSEOに直結する。</p>
+
+<h2>実際に動かした結果</h2>
+
+<p>今日の午後に初めて手動でエージェントを起動したところ、「副業の確定申告」というジャンルが選ばれて <code>seadice.win/tools/fukugyo-tax/</code> が生成された。</p>
+
+<p>最初の実行でいくつかハマった点があった。</p>
+
+<h3>GitHubのApp認証でハマった</h3>
+
+<p>エージェントがGitHubにプッシュしようとしたとき、認証エラーが出た。クラウドエージェントからGitHubに書き込むには、GitHubのOAuth AppをClaudeのクラウド環境にインストールする必要があった。これを設定してからは問題なく動いた。</p>
+
+<h3>firebase.jsonの上書き事故</h3>
+
+<p>GitHub Actionsをセットアップするときに <code>firebase init hosting:github</code> を実行したら、既存の <code>firebase.json</code> が上書きされてしまい、一時的に本番サイトが「Firebase Hosting Setup Complete」という白いページになった。<strong><code>firebase init</code> 系のコマンドは既存プロジェクトでは慎重に使う必要がある。</strong></p>
+
+<p>手動で <code>firebase deploy --only hosting</code> を実行して復旧した。</p>
+
+<h3>デプロイが反映されない</h3>
+
+<p>ブラウザのキャッシュが原因で古いページが表示されることがあった。<code>firebase.json</code> のキャッシュヘッダー設定で、エントリーポイントになるファイル（index.html、flutter_bootstrap.jsなど）は <code>no-cache</code> にすることで解決した。</p>
+
+<h2>自動化できないこと</h2>
+
+<p>正直に言うと、全部が自動なわけではない。App Storeへの申請だけは今も手作業が残っている。</p>
+
+<ul>
+  <li><strong>flutter build ipa</strong>（ビルドはローカルのMacが必要）</li>
+  <li><strong>Transporterでアップロード</strong></li>
+  <li><strong>App Store Connectで審査情報を入力・申請</strong></li>
+</ul>
+
+<p>これで1本あたり約30分。3本なら90分。毎日やるには重いが、週1〜2回まとめてやる前提なら現実的なペースだ。</p>
+
+<div class="warn">
+<p>Appleの審査は自動化できない。ただし一度審査を通過したアプリは、アップデートの審査が短くなる傾向がある。最初の1本をしっかり通しておくことが重要。</p>
+</div>
+
+<h2>マネタイズの設計</h2>
+
+<p>自動生成されるアプリはすべて同じ収益モデルで設計している：</p>
+
+<ul>
+  <li><strong>無料</strong>: 基本機能 + AdMobバナー広告</li>
+  <li><strong>広告視聴</strong>: インタースティシャル広告を見て追加機能を解放</li>
+  <li><strong>サブスクリプション</strong>: 月額課金で広告なし・全機能解放</li>
+</ul>
+
+<p>ニッチなターゲットを狙う理由は、競合が少ない分、検索で上位に出やすいから。「副業 確定申告 計算」みたいなロングテールキーワードで検索したユーザーが、そのジャンル専用のアプリを見つけてダウンロードするという流れを狙っている。</p>
+
+<h2>今後の展開</h2>
+
+<p>毎日3本 × 365日 = 年間1095本のアプリコードが蓄積される計算になる。全部をリリースはしないが、月に数本をリリースするだけでポートフォリオが積み上がっていく。</p>
+
+<p>Webサイトはリリース前から公開されているので、SEOが先行して育つ。アプリがリリースされたときにはすでに検索に引っかかっている状態を作れるのが、このパイプラインの狙いだ。</p>
+
+<p>実際にどれくらいのダウンロード数になるかは、数ヶ月後にまた記事にする予定。</p>
+
+  </div>
+  <a href="/blog/" class="back">← ブログ一覧に戻る</a>
+</article>
+<footer><p><a href="/">SEADICE</a> | &copy; 2026 SEADICE</p></footer>
+</body>
+</html>

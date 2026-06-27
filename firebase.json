@@ -100,6 +100,26 @@
         "destination": "/apps/jinsei-pyramid/index.html"
       },
       {
+        "source": "/tools/kateisaien/**",
+        "destination": "/tools/kateisaien/index.html"
+      },
+      {
+        "source": "/apps/kateisaien-app1/**",
+        "destination": "/apps/kateisaien-app1/index.html"
+      },
+      {
+        "source": "/apps/kateisaien-app2/**",
+        "destination": "/apps/kateisaien-app2/index.html"
+      },
+      {
+        "source": "/apps/kateisaien-app3/**",
+        "destination": "/apps/kateisaien-app3/index.html"
+      },
+      {
+        "source": "/blog/daily-automation-pipeline/**",
+        "destination": "/blog/daily-automation-pipeline/index.html"
+      },
+      {
         "source": "/blog/app-market-research-2026/**",
         "destination": "/blog/app-market-research-2026/index.html"
       },
@@ -116,16 +136,16 @@
         "destination": "/blog/ios-release-with-admob/index.html"
       },
       {
+        "source": "/blog/cron-automation-guide/**",
+        "destination": "/blog/cron-automation-guide/index.html"
+      },
+      {
+        "source": "/blog/automate-without-api/**",
+        "destination": "/blog/automate-without-api/index.html"
+      },
+      {
         "source": "/privacy/toite/**",
         "destination": "/privacy/toite/index.html"
-      },
-      {
-        "source": "/tools/",
-        "destination": "/tools/index.html"
-      },
-      {
-        "source": "/tools/fukugyo-tax/**",
-        "destination": "/tools/fukugyo-tax/index.html"
       },
       {
         "source": "/tools/jikka-seiri/**",
@@ -144,10 +164,6 @@
         "destination": "/privacy/jikka-seiri-app3/index.html"
       },
       {
-        "source": "/tools/kateisaien/**",
-        "destination": "/tools/kateisaien/index.html"
-      },
-      {
         "source": "/privacy/kateisaien-app1/**",
         "destination": "/privacy/kateisaien-app1/index.html"
       },
@@ -158,6 +174,14 @@
       {
         "source": "/privacy/kateisaien-app3/**",
         "destination": "/privacy/kateisaien-app3/index.html"
+      },
+      {
+        "source": "/tools/",
+        "destination": "/tools/index.html"
+      },
+      {
+        "source": "/tools/fukugyo-tax/**",
+        "destination": "/tools/fukugyo-tax/index.html"
       },
       {
         "source": "**",
