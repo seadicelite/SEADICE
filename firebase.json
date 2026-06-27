@@ -136,6 +136,10 @@
         "destination": "/blog/ios-release-with-admob/index.html"
       },
       {
+        "source": "/blog/monetization-admob-iap/**",
+        "destination": "/blog/monetization-admob-iap/index.html"
+      },
+      {
         "source": "/blog/cron-automation-guide/**",
         "destination": "/blog/cron-automation-guide/index.html"
       },

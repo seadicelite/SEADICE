@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Flutterアプリの収益化戦略：AdMob3種類と内部課金の実装メモ | SEADICE Blog</title>
+<meta name="description" content="自動生成Flutterアプリの収益化方針まとめ。バナー・インタースティシャル・リワード広告の実装方法と、将来の内部課金（サブスクリプション）実装に必要なことを記録。">
+<link rel="canonical" href="https://seadice.win/blog/monetization-admob-iap/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:title" content="Flutterアプリの収益化戦略：AdMob3種類と内部課金の実装メモ">
+<meta property="og:description" content="バナー・インタースティシャル・リワード広告の実装方法と、将来の内部課金実装に必要なことを記録。">
+<meta property="og:url" content="https://seadice.win/blog/monetization-admob-iap/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"収益化戦略メモ","item":"https://seadice.win/blog/monetization-admob-iap/"}]},{"@type":"BlogPosting","headline":"Flutterアプリの収益化戦略：AdMob3種類と内部課金の実装メモ","url":"https://seadice.win/blog/monetization-admob-iap/","datePublished":"2026-06-27","author":{"@type":"Person","name":"SEADICE"}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.8}header{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border)}nav{height:56px;padding:0 24px;max-width:760px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}.nav-back{color:var(--muted);text-decoration:none;font-size:13px}article{max-width:720px;margin:0 auto;padding:96px 24px 80px}.tag{display:inline-block;font-size:11px;letter-spacing:.15em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:3px 10px;margin-bottom:16px;text-transform:uppercase}h1{font-size:clamp(22px,4vw,32px);font-weight:800;line-height:1.3;margin-bottom:12px;letter-spacing:-.02em}.meta{font-size:13px;color:var(--muted);margin-bottom:48px}h2{font-size:20px;font-weight:700;margin:48px 0 16px;color:var(--accent)}h3{font-size:16px;font-weight:700;margin:32px 0 12px;color:var(--accent2)}p{margin-bottom:16px;color:#cbd5e1}ul,ol{padding-left:20px;margin-bottom:16px;color:#cbd5e1}li{margin-bottom:8px}code{font-family:'SF Mono',Consolas,monospace;font-size:13px;background:#0f0f1e;border:1px solid var(--border);border-radius:4px;padding:2px 6px;color:var(--accent)}pre{background:#0a0a18;border:1px solid var(--border);border-radius:10px;padding:20px;overflow-x:auto;margin:20px 0}pre code{background:none;border:none;padding:0;font-size:13px;color:#e2e8f0;line-height:1.7}.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin:24px 0}.card.accent{border-left:3px solid var(--accent)}.card.warn{border-left:3px solid #f59e0b}.card-title{font-size:13px;font-weight:700;color:var(--accent);margin-bottom:12px;letter-spacing:.05em}.table-wrap{overflow-x:auto;margin:20px 0}table{width:100%;border-collapse:collapse;font-size:14px}th{background:#0a0a18;color:var(--accent);padding:10px 14px;text-align:left;font-weight:600;border-bottom:1px solid var(--border)}td{padding:10px 14px;border-bottom:1px solid #111122;color:#cbd5e1}tr:last-child td{border-bottom:none}.step{display:flex;gap:16px;margin-bottom:24px}.step-num{flex-shrink:0;width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#000;margin-top:2px}.step-body h3{margin:0 0 8px;font-size:15px;color:var(--text)}footer{border-top:1px solid var(--border);padding:28px 24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none}</style>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+    <a href="/blog/" class="nav-back">← ブログ</a>
+  </nav>
+</header>
+<article>
+  <span class="tag">収益化</span>
+  <h1>Flutterアプリの収益化戦略：AdMob 3種類と内部課金の実装メモ</h1>
+  <p class="meta">2026-06-27 &nbsp;·&nbsp; SEADICE</p>
+
+  <p>自動生成パイプラインで毎日アプリを量産するにあたって、収益化をどうするかを整理した。結論としては<strong>当面は広告（AdMob）のみ</strong>、内部課金は後から追加する方針にした。その理由と、将来の内部課金実装に必要なことをここにまとめておく。</p>
+
+  <h2>収益化の選択肢と今回の判断</h2>
+
+  <p>Flutterアプリの収益化は大きく3パターンある。</p>
+
+  <div class="table-wrap">
+    <table>
+      <tr><th>方式</th><th>実装難度</th><th>審査リスク</th><th>特徴</th></tr>
+      <tr><td>AdMob広告</td><td>低</td><td>低</td><td>ダウンロード数に比例。実装がシンプル</td></tr>
+      <tr><td>有料アプリ</td><td>なし</td><td>低</td><td>App Store側で価格設定のみ。DL数は激減</td></tr>
+      <tr><td>内部課金（IAP）</td><td>高</td><td>高</td><td>収益単価高。Apple審査が厳しい</td></tr>
+    </table>
+  </div>
+
+  <p>自動生成パイプラインでは毎日アプリを量産する。審査に落ちるリスクを最小化しつつ、とにかく本数を出してロングテールで収益を積み上げる戦略をとる。そのためAdMobを中心に据えた。</p>
+
+  <h2>AdMob 3種類の広告：テストID一覧</h2>
+
+  <p>すべてのアプリに以下3種類の広告を実装する。</p>
+
+  <div class="card accent">
+    <p class="card-title">AdMob テスト用ID（開発・テスト時のみ使用）</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>種類</th><th>テストID</th></tr>
+        <tr><td>App ID</td><td><code>ca-app-pub-3940256099942544~1458002511</code></td></tr>
+        <tr><td>バナー</td><td><code>ca-app-pub-3940256099942544/2934735716</code></td></tr>
+        <tr><td>インタースティシャル</td><td><code>ca-app-pub-3940256099942544/4411468910</code></td></tr>
+        <tr><td>リワード</td><td><code>ca-app-pub-3940256099942544/1712485313</code></td></tr>
+      </table>
+    </div>
+    <p style="font-size:13px;color:var(--muted);margin:12px 0 0">本番リリース前にAdMobコンソールで実際のユニットIDに差し替えること。</p>
+  </div>
+
+  <h3>バナー広告</h3>
+  <p>画面下部に常時表示。実装が最もシンプルで、どんなアプリにも馴染む。収益単価は低いが、起動中ずっと表示されるので積み上がりやすい。</p>
+  <pre><code>// バナー広告の実装例
+BannerAd(
+  adUnitId: 'ca-app-pub-3940256099942544/2934735716',
+  size: AdSize.banner,
+  request: const AdRequest(),
+  listener: BannerAdListener(
+    onAdLoaded: (ad) => setState(() => _bannerAd = ad as BannerAd),
+    onAdFailedToLoad: (ad, error) => ad.dispose(),
+  ),
+)..load();
+
+// ウィジェットとして表示
+SizedBox(
+  height: 50,
+  child: AdWidget(ad: _bannerAd!),
+)</code></pre>
+
+  <h3>インタースティシャル広告</h3>
+  <p>全画面広告。ユーザーがタスクを完了したとき・画面遷移時・クイズの答え合わせ後などに表示する。表示頻度を上げすぎるとUXが下がるので、1セッションに1〜2回が目安。</p>
+  <pre><code>// インタースティシャル広告のロード
+InterstitialAd.load(
+  adUnitId: 'ca-app-pub-3940256099942544/4411468910',
+  request: const AdRequest(),
+  adLoadCallback: InterstitialAdLoadCallback(
+    onAdLoaded: (ad) => _interstitialAd = ad,
+    onAdFailedToLoad: (error) => print('load failed: $error'),
+  ),
+);
+
+// 表示
+_interstitialAd?.show();
+_interstitialAd = null; // 表示後は破棄</code></pre>
+
+  <h3>リワード広告</h3>
+  <p>ユーザーが動画を最後まで見ると特典を受け取れる広告。「広告を見る」ボタンを設置して、追加コンテンツや機能のアンロックと引き換えにする。単価が最も高く、ユーザーの能動的な行動なのでUXへの影響も少ない。</p>
+  <pre><code>// リワード広告のロード
+RewardedAd.load(
+  adUnitId: 'ca-app-pub-3940256099942544/1712485313',
+  request: const AdRequest(),
+  rewardedAdLoadCallback: RewardedAdLoadCallback(
+    onAdLoaded: (ad) => _rewardedAd = ad,
+    onAdFailedToLoad: (error) => print('load failed: $error'),
+  ),
+);
+
+// 表示（報酬コールバックつき）
+_rewardedAd?.show(
+  onUserEarnedReward: (ad, reward) {
+    // ここでコンテンツをアンロック
+    setState(() => _isPremiumContent = true);
+  },
+);</code></pre>
+
+  <div class="card warn">
+    <p class="card-title">必須：Info.plist への GADApplicationIdentifier 追加</p>
+    <p>これを忘れると起動直後にクラッシュする。<code>ios/Runner/Info.plist</code> の <code>&lt;/dict&gt;</code> 直前に追加：</p>
+    <pre style="margin:12px 0 0"><code>&lt;key&gt;GADApplicationIdentifier&lt;/key&gt;
+&lt;string&gt;ca-app-pub-3940256099942544~1458002511&lt;/string&gt;</code></pre>
+  </div>
+
+  <h2>pubspec.yaml の設定</h2>
+  <pre><code>dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^5.1.0
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0</code></pre>
+  <p><code>in_app_purchase</code> は今回は入れない。広告のみで運用する。</p>
+
+  <h2>将来：内部課金（IAP）を追加するときに必要なこと</h2>
+
+  <p>今はやらないが、ユーザーが付いてきたら追加する。忘れないうちにやることを記録しておく。</p>
+
+  <h3>① App Store Connect で商品登録</h3>
+  <div class="step">
+    <div class="step-num">1</div>
+    <div class="step-body">
+      <h3>サブスクリプショングループを作成</h3>
+      <p>App Store Connect → アプリ → サブスクリプション → 新規グループ。グループ名は「プレミアム」など。</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="step-num">2</div>
+    <div class="step-body">
+      <h3>商品IDを決める</h3>
+      <p>命名規則の例：<code>com.seadice.kateisaien1.premium_monthly</code>。このIDはコードでも使うので一度決めたら変更不可。</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="step-num">3</div>
+    <div class="step-body">
+      <h3>価格・説明文を設定</h3>
+      <p>月額180円など。App Store審査用の説明文（英語必須）も入力する。</p>
+    </div>
+  </div>
+
+  <h3>② pubspec.yaml に追加</h3>
+  <pre><code>dependencies:
+  in_app_purchase: ^3.2.0</code></pre>
+
+  <h3>③ Flutter側の実装フロー</h3>
+  <ol>
+    <li>アプリ起動時に <code>InAppPurchase.instance.queryProductDetails()</code> で商品情報を取得</li>
+    <li>購入ボタンを押したら <code>InAppPurchase.instance.buyNonConsumable()</code> でAppleの購入フローを呼び出す</li>
+    <li><code>purchaseStream</code> をリッスンして購入完了を検知</li>
+    <li>購入完了したら <code>SharedPreferences</code> に <code>isPremium = true</code> を保存</li>
+    <li>アプリ起動時に <code>isPremium</code> を読み込んで広告非表示・機能解放</li>
+  </ol>
+
+  <h3>④ Apple審査で必須の実装</h3>
+  <div class="card">
+    <ul style="margin:0">
+      <li><strong>購入の復元ボタン</strong>：「購入を復元」ボタンを必ず設置（Apple規約で必須）</li>
+      <li><strong>利用規約リンク</strong>：購入画面に利用規約・プライバシーポリシーへのリンク</li>
+      <li><strong>サブスクリプションの説明</strong>：「毎月自動更新・いつでも解約可能」の明記</li>
+      <li><strong>サンドボックステスト</strong>：App Store Connect でサンドボックスアカウントを作成してテスト</li>
+    </ul>
+  </div>
+
+  <h3>⑤ レシート検証（任意だが推奨）</h3>
+  <p>クライアント側だけで検証するとリスクがあるため、本格運用するならサーバー側でAppleのレシート検証APIを叩く実装が必要になる。ただし個人開発の初期フェーズなら省略して構わない。</p>
+
+  <h2>今の判断：広告のみで進める理由</h2>
+
+  <ul>
+    <li>内部課金はApple審査が厳しく、落とされるリスクが高い</li>
+    <li>サンドボックステストの準備が面倒（テストアカウント作成、テストフロー確認など）</li>
+    <li>購入の復元ボタン・利用規約表示など実装必須事項が多い</li>
+    <li>自動生成で量産する今のフェーズでは、シンプルな広告で本数を出すほうが優先度が高い</li>
+    <li>ユーザーが付いたアプリに後から追加する方が ROI が高い</li>
+  </ul>
+
+  <p>リワード広告は単価が高く、ユーザーが自分で「広告を見る」を選ぶので強制感がない。内部課金と広告の中間のような位置づけで、まずここを育てる。</p>
+
+</article>
+<footer>
+  <p><a href="https://seadice.win/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>
