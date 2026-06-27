@@ -196,6 +196,34 @@
         "destination": "/tools/fukugyo-tax/index.html"
       },
       {
+        "source": "/tools/pet-health/**",
+        "destination": "/tools/pet-health/index.html"
+      },
+      {
+        "source": "/apps/pet-health-app1/**",
+        "destination": "/apps/pet-health-app1/index.html"
+      },
+      {
+        "source": "/apps/pet-health-app2/**",
+        "destination": "/apps/pet-health-app2/index.html"
+      },
+      {
+        "source": "/apps/pet-health-app3/**",
+        "destination": "/apps/pet-health-app3/index.html"
+      },
+      {
+        "source": "/privacy/pet-health-app1/**",
+        "destination": "/privacy/pet-health-app1/index.html"
+      },
+      {
+        "source": "/privacy/pet-health-app2/**",
+        "destination": "/privacy/pet-health-app2/index.html"
+      },
+      {
+        "source": "/privacy/pet-health-app3/**",
+        "destination": "/privacy/pet-health-app3/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
