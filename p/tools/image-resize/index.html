@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iOSリリース用画像リサイザー | SEADICE Tools</title>
+<meta name="description" content="App Store申請用スクリーンショットを一括リサイズ。1242x2688・2064x2752・422x514の3サイズに自動変換してまとめてダウンロード。">
+<link rel="canonical" href="https://seadice.win/tools/image-resize/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:title" content="iOSリリース用画像リサイザー | SEADICE Tools">
+<meta property="og:description" content="App Store申請用スクリーンショットを一括リサイズ。3サイズに自動変換してまとめてダウンロード。">
+<meta property="og:url" content="https://seadice.win/tools/image-resize/">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"iOSリリース用画像リサイザー","item":"https://seadice.win/tools/image-resize/"}]},{"@type":"WebApplication","name":"iOSリリース用画像リサイザー","url":"https://seadice.win/tools/image-resize/","applicationCategory":"UtilitiesApplication","operatingSystem":"Web"}]}</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.6;min-height:100vh}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 24px}
+.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}
+.nav-back{color:var(--muted);text-decoration:none;font-size:13px}
+main{max-width:680px;margin:0 auto;padding:88px 20px 80px}
+.label{font-size:11px;letter-spacing:.25em;color:var(--accent);text-transform:uppercase;margin-bottom:10px}
+h1{font-size:clamp(22px,5vw,32px);font-weight:800;margin-bottom:8px;letter-spacing:-.02em}
+.desc{font-size:14px;color:var(--muted);margin-bottom:40px;line-height:1.7}
+.sizes{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:32px}
+.size-chip{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:8px 14px;font-size:12px;font-family:'SF Mono',Consolas,monospace;color:var(--accent2)}
+.size-chip span{display:block;font-size:10px;color:var(--muted);margin-top:2px}
+.dropzone{border:2px dashed var(--border);border-radius:16px;padding:48px 24px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;position:relative;margin-bottom:24px}
+.dropzone:hover,.dropzone.drag{border-color:var(--accent);background:rgba(0,255,209,.03)}
+.dropzone input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.drop-icon{width:48px;height:48px;margin:0 auto 16px;opacity:.4}
+.drop-icon svg{width:100%;height:100%}
+.drop-title{font-size:16px;font-weight:700;margin-bottom:6px}
+.drop-sub{font-size:13px;color:var(--muted)}
+.file-list{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:24px;display:none}
+.file-list-title{font-size:12px;color:var(--muted);margin-bottom:10px}
+.file-item{font-size:13px;color:var(--text);padding:6px 0;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px}
+.file-item:last-child{border-bottom:none}
+.file-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex-shrink:0}
+.btn{width:100%;padding:16px;border-radius:12px;border:none;font-size:15px;font-weight:700;cursor:pointer;transition:opacity .2s,transform .1s;letter-spacing:.02em}
+.btn:active{transform:scale(.98)}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#000}
+.btn-primary:disabled{opacity:.4;cursor:not-allowed;transform:none}
+.progress{display:none;margin-top:24px}
+.progress-bar-wrap{background:var(--card);border:1px solid var(--border);border-radius:8px;height:8px;overflow:hidden;margin-bottom:10px}
+.progress-bar{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0;transition:width .3s;border-radius:8px}
+.progress-text{font-size:13px;color:var(--muted);text-align:center}
+.result{display:none;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px;margin-top:24px;text-align:center}
+.result-icon{font-size:32px;margin-bottom:8px}
+.result-title{font-size:16px;font-weight:700;margin-bottom:6px;color:var(--accent)}
+.result-sub{font-size:13px;color:var(--muted)}
+.reset-btn{margin-top:16px;background:none;border:1px solid var(--border);color:var(--muted);border-radius:8px;padding:8px 20px;font-size:13px;cursor:pointer;transition:border-color .2s,color .2s}
+.reset-btn:hover{border-color:var(--accent);color:var(--text)}
+</style>
+</head>
+<body>
+<nav>
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-back">← ツール一覧</a>
+</nav>
+<main>
+  <p class="label">iOS Release Tool</p>
+  <h1>iOSリリース用<br>画像リサイザー</h1>
+  <p class="desc">画像を選択すると、App Store申請用の3サイズに自動リサイズしてまとめてダウンロードします。変換はすべてブラウザ内で完結し、サーバーには送信しません。</p>
+
+  <div class="sizes">
+    <div class="size-chip">1242 × 2688<span>iPhone 6.5"</span></div>
+    <div class="size-chip">2064 × 2752<span>iPad Pro 12.9"</span></div>
+    <div class="size-chip">422 × 514<span>カスタム</span></div>
+  </div>
+
+  <div class="dropzone" id="dropzone">
+    <input type="file" id="fileInput" accept="image/*" multiple>
+    <div class="drop-icon">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="6" y="10" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/>
+        <circle cx="17" cy="20" r="3.5" stroke="currentColor" stroke-width="2"/>
+        <path d="M6 32l9-8 7 6 6-5 8 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24 4v10M20 8l4-4 4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <p class="drop-title">画像をドロップ または クリックして選択</p>
+    <p class="drop-sub">PNG / JPEG / WebP &nbsp;·&nbsp; 複数枚同時OK</p>
+  </div>
+
+  <div class="file-list" id="fileList">
+    <p class="file-list-title">選択中のファイル</p>
+    <div id="fileItems"></div>
+  </div>
+
+  <button class="btn btn-primary" id="startBtn" disabled>リサイズして一括ダウンロード</button>
+
+  <div class="progress" id="progress">
+    <div class="progress-bar-wrap"><div class="progress-bar" id="progressBar"></div></div>
+    <p class="progress-text" id="progressText">処理中...</p>
+  </div>
+
+  <div class="result" id="result">
+    <p class="result-icon">✓</p>
+    <p class="result-title">ダウンロード完了</p>
+    <p class="result-sub" id="resultSub"></p>
+    <button class="reset-btn" id="resetBtn">別の画像を処理する</button>
+  </div>
+</main>
+
+<script>
+const SIZES = [
+  { w: 1242, h: 2688, label: '1242x2688' },
+  { w: 2064, h: 2752, label: '2064x2752' },
+  { w: 422,  h: 514,  label: '422x514'   }
+];
+
+let files = [];
+
+const dropzone   = document.getElementById('dropzone');
+const fileInput  = document.getElementById('fileInput');
+const fileList   = document.getElementById('fileList');
+const fileItems  = document.getElementById('fileItems');
+const startBtn   = document.getElementById('startBtn');
+const progress   = document.getElementById('progress');
+const progressBar= document.getElementById('progressBar');
+const progressText=document.getElementById('progressText');
+const result     = document.getElementById('result');
+const resultSub  = document.getElementById('resultSub');
+const resetBtn   = document.getElementById('resetBtn');
+
+dropzone.addEventListener('dragover', e => { e.preventDefault(); dropzone.classList.add('drag'); });
+dropzone.addEventListener('dragleave', () => dropzone.classList.remove('drag'));
+dropzone.addEventListener('drop', e => {
+  e.preventDefault();
+  dropzone.classList.remove('drag');
+  setFiles([...e.dataTransfer.files].filter(f => f.type.startsWith('image/')));
+});
+fileInput.addEventListener('change', () => setFiles([...fileInput.files]));
+
+function setFiles(list) {
+  if (!list.length) return;
+  files = list;
+  fileItems.innerHTML = files.map(f =>
+    `<div class="file-item"><span class="file-dot"></span>${f.name}</div>`
+  ).join('');
+  fileList.style.display = 'block';
+  startBtn.disabled = false;
+  result.style.display = 'none';
+  progress.style.display = 'none';
+}
+
+startBtn.addEventListener('click', async () => {
+  if (!files.length) return;
+  startBtn.disabled = true;
+  progress.style.display = 'block';
+  result.style.display = 'none';
+
+  const total = files.length * SIZES.length;
+  let done = 0;
+  const downloads = [];
+
+  for (const file of files) {
+    const img = await loadImage(file);
+    const baseName = file.name.replace(/\.[^.]+$/, '');
+    for (const size of SIZES) {
+      const dataUrl = resizeToCanvas(img, size.w, size.h);
+      downloads.push({ dataUrl, name: `${baseName}_${size.label}.png` });
+      done++;
+      const pct = Math.round((done / total) * 100);
+      progressBar.style.width = pct + '%';
+      progressText.textContent = `処理中... ${done} / ${total}`;
+      await tick();
+    }
+  }
+
+  progressText.textContent = 'ダウンロード中...';
+  for (let i = 0; i < downloads.length; i++) {
+    await delay(i * 120);
+    triggerDownload(downloads[i].dataUrl, downloads[i].name);
+  }
+
+  progress.style.display = 'none';
+  resultSub.textContent = `${files.length}枚 × 3サイズ = ${total}ファイルをダウンロードしました`;
+  result.style.display = 'block';
+});
+
+resetBtn.addEventListener('click', () => {
+  files = [];
+  fileInput.value = '';
+  fileItems.innerHTML = '';
+  fileList.style.display = 'none';
+  startBtn.disabled = true;
+  result.style.display = 'none';
+  progress.style.display = 'none';
+  progressBar.style.width = '0';
+});
+
+function loadImage(file) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = () => { URL.revokeObjectURL(url); resolve(img); };
+    img.onerror = reject;
+    img.src = url;
+  });
+}
+
+function resizeToCanvas(img, w, h) {
+  const canvas = document.createElement('canvas');
+  canvas.width = w;
+  canvas.height = h;
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(img, 0, 0, w, h);
+  return canvas.toDataURL('image/png');
+}
+
+function triggerDownload(dataUrl, name) {
+  const a = document.createElement('a');
+  a.href = dataUrl;
+  a.download = name;
+  a.click();
+}
+
+function tick() { return new Promise(r => setTimeout(r, 0)); }
+function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+</script>
+</body>
+</html>

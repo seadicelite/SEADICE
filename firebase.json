@@ -156,6 +156,10 @@
         "destination": "/privacy/toite/index.html"
       },
       {
+        "source": "/tools/image-resize/**",
+        "destination": "/tools/image-resize/index.html"
+      },
+      {
         "source": "/tools/jikka-seiri/**",
         "destination": "/tools/jikka-seiri/index.html"
       },
