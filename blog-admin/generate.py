@@ -291,6 +291,13 @@ def main():
     update_top_page(articles)
     mark_done(item['no'])
 
+    print('コミット中...')
+    subprocess.run(['git', 'add', '-A'], cwd=str(SEADICE_DIR))
+    subprocess.run(
+        ['git', 'commit', '-m', f'Auto: add blog {slug}'],
+        cwd=str(SEADICE_DIR), capture_output=True, text=True
+    )
+
     print('デプロイ中...')
     result = subprocess.run(
         ['firebase', 'deploy', '--only', 'hosting'],

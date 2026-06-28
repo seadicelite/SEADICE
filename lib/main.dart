@@ -165,6 +165,18 @@ final _defaultApps = [
     status: 'WEB',
     imageAsset: 'assets/apps/pyramid.png',
   ),
+  AppItem(
+    id: 20,
+    title: 'TikDog',
+    tag: 'Entertainment',
+    desc: '犬動画をTikTokスタイルで無限にスワイプ。かわいい・おもしろい犬動画だけを集めたバーティカル動画アプリ。',
+    color: const Color(0xFFFF6B35),
+    icon: 'DOG',
+    appStore: 'https://apps.apple.com/jp/app/tikdog/id6748308505',
+    webUrl: 'https://seadice.win/tikdog/',
+    status: 'LIVE',
+    imageAsset: 'assets/apps/tikdog.png',
+  ),
   // ── Native Apps (status: LIVE) ───────────────────────────────────
   AppItem(
     id: 18,
@@ -2661,6 +2673,18 @@ class _PrivacySection extends StatelessWidget {
 // App Privacy Pages
 // ──────────────────────────────────────────────
 final _appPrivacyData = <String, (String, Color, List<(String, String)>)>{
+  'tikdog': (
+    'TikDog',
+    const Color(0xFFFF6B35),
+    const [
+      ('はじめに', 'このプライバシーポリシーは、SEADICE（以下「当方」）が提供するiOSアプリ「TikDog」における個人情報の取り扱いについて説明します。'),
+      ('収集する情報', '本アプリは、氏名・メールアドレス・電話番号などの個人を特定できる情報を一切収集しません。動画の再生・いいね・報告などの操作データは匿名でFirebaseに保存されます。'),
+      ('広告について', '本アプリはGoogle AdMob（Google LLC）による広告を表示します。AdMobは広告配信のために端末識別情報等を収集する場合があります。\n\n初回起動時にApp Tracking Transparency（ATT）の許可確認が表示されます。許可しない場合でも本アプリの全機能をご利用いただけますが、表示される広告がパーソナライズされない場合があります。\n\nGoogleのプライバシーポリシー：policies.google.com/privacy'),
+      ('第三者への提供', '収集した情報は、以下のサービスに送信されます：\n・Google Firebase（動画データ管理）\n・Google AdMob（広告配信）\n\nこれら以外の第三者に情報を販売・提供することはありません。'),
+      ('コンテンツについて', '本アプリに表示される動画はYouTubeのコンテンツです。各動画の著作権は元の動画投稿者に帰属します。不適切なコンテンツは報告機能から通報してください。'),
+      ('お問い合わせ', 'プライバシーポリシーに関するご質問は、下記までご連絡ください。\n\nseadice.home@gmail.com'),
+    ],
+  ),
   'toite': (
     'TOITE',
     const Color(0xFF4F6EF7),

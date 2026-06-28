@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SEOとWebツール戦略を学んだ日 — 2026-06-28の記録 | SEADICE</title>
+<meta name="description" content="ツール型SEO・FAQ構造化データ・記事3本セット戦略など、今日一日で実践して学んだことのまとめ。個人開発者の自分向け記録。">
+<link rel="canonical" href="https://seadice.win/blog/seo-diary-20260628/">
+<meta property="og:title" content="SEOとWebツール戦略を学んだ日 — 2026-06-28の記録 | SEADICE">
+<meta property="og:description" content="ツール型SEO・FAQ構造化データ・記事3本セット戦略など、今日一日で実践して学んだことのまとめ。">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:url" content="https://seadice.win/blog/seo-diary-20260628/">
+<meta property="og:type" content="article">
+<meta property="og:image:alt" content="SEO学習記録 2026-06-28 | SEADICE">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "BlogPosting", "headline": "SEOとWebツール戦略を学んだ日 — 2026-06-28の記録", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": { "@type": "Organization", "name": "SEADICE" }, "publisher": { "@type": "Organization", "name": "SEADICE", "url": "https://seadice.win" }, "url": "https://seadice.win/blog/seo-diary-20260628/" },
+    { "@type": "BreadcrumbList", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" }, { "@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://seadice.win/blog/" }, { "@type": "ListItem", "position": 3, "name": "SEO学習記録 2026-06-28", "item": "https://seadice.win/blog/seo-diary-20260628/" } ] }
+  ]
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b;--warn:#f59e0b;--danger:#f87171}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.8}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}
+article{max-width:740px;margin:0 auto;padding:96px 24px 80px}
+.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}
+.breadcrumb a{color:var(--muted);text-decoration:none}
+.tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px}
+.tag-personal{color:var(--warn);border-color:var(--warn)}
+h1{font-size:clamp(22px,5vw,34px);font-weight:800;line-height:1.25;margin-bottom:16px}
+.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.diary-note{background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.3);border-radius:10px;padding:16px 20px;margin-bottom:40px;font-size:13px;color:#fbbf24}
+.body h2{font-size:22px;font-weight:800;margin:48px 0 14px;color:var(--accent);padding-bottom:8px;border-bottom:1px solid var(--border)}
+.body h3{font-size:17px;font-weight:700;margin:32px 0 10px;color:var(--accent2)}
+.body h4{font-size:15px;font-weight:700;margin:24px 0 8px;color:var(--text)}
+.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.85}
+.body ul,.body ol{padding-left:24px;margin:12px 0}
+.body li{margin:8px 0;font-size:15px;color:#cbd5e1;line-height:1.7}
+.body strong{color:var(--text);font-weight:700}
+.body em{color:var(--muted);font-style:italic}
+.body code{background:rgba(0,255,209,0.08);border:1px solid rgba(0,255,209,0.2);border-radius:4px;padding:2px 6px;font-size:13px;color:var(--accent);font-family:'SF Mono','Courier New',monospace}
+.body pre{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin:20px 0;overflow-x:auto}
+.body pre code{background:none;border:none;padding:0;font-size:13px;color:#94a3b8;line-height:1.6}
+.body blockquote{border-left:3px solid var(--accent);padding:12px 20px;margin:20px 0;background:rgba(0,255,209,0.04);border-radius:0 8px 8px 0}
+.body blockquote p{color:var(--muted);font-size:14px;margin:0;font-style:italic}
+.body table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}
+.body th{background:var(--card);padding:10px 14px;text-align:left;border:1px solid var(--border);color:var(--accent)}
+.body td{padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;vertical-align:top}
+.body tr:nth-child(even) td{background:rgba(12,12,26,0.5)}
+.body hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+.insight-card{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:10px;padding:20px 24px;margin:24px 0}
+.insight-card .label{font-size:10px;letter-spacing:.12em;color:var(--accent);text-transform:uppercase;margin-bottom:8px}
+.insight-card p{font-size:14px;color:#cbd5e1;margin:0;line-height:1.75}
+.checklist{list-style:none;padding:0;margin:16px 0}
+.checklist li{padding:8px 0;font-size:14px;color:#cbd5e1;border-bottom:1px solid rgba(26,26,46,0.5);display:flex;gap:10px}
+.checklist li::before{content:"✓";color:var(--accent);font-weight:700;flex-shrink:0}
+.result-box{background:rgba(0,255,209,0.05);border:1px solid rgba(0,255,209,0.2);border-radius:12px;padding:20px;margin:24px 0}
+.result-box .number{font-size:32px;font-weight:800;color:var(--accent);line-height:1}
+.result-box .label{font-size:12px;color:var(--muted);margin-top:4px}
+.result-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:16px;margin:20px 0}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px}
+.back:hover{color:var(--text)}
+footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}
+footer a{color:var(--muted);text-decoration:none}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / SEO学習記録 2026-06-28</p>
+  <div class="tag-row">
+    <span class="tag">SEO</span>
+    <span class="tag">Web開発</span>
+    <span class="tag tag-personal">自分用メモ</span>
+  </div>
+  <h1>SEOとWebツール戦略を実践した日 — 2026-06-28の記録</h1>
+  <p class="meta"><time datetime="2026-06-28">2026-06-28</time> · SEADICE &nbsp;·&nbsp; 自分向け学習記録</p>
+
+  <div class="diary-note">
+    これは自分向けの学習記録。後で見返せるように実践から得た気づきをまとめておく。
+  </div>
+
+  <div class="body">
+
+<h2>今日やったこと（サマリー）</h2>
+
+<div class="result-row">
+  <div class="result-box">
+    <div class="number">2</div>
+    <div class="label">Webツール作成</div>
+  </div>
+  <div class="result-box">
+    <div class="number">6</div>
+    <div class="label">ブログ記事作成</div>
+  </div>
+  <div class="result-box">
+    <div class="number">1</div>
+    <div class="label">トップページSEO刷新</div>
+  </div>
+</div>
+
+<p>今日は「<strong>ツールを作って、関連記事3本で囲む</strong>」というSEO戦略を実際にやってみた。</p>
+
+<ul>
+  <li>営業日カウンター（<code>/apps/eigyobi/</code>）を作成 → 関連記事3本</li>
+  <li>コンパニオンプランツ相性診断（<code>/apps/companion/</code>）を作成 → 関連記事3本</li>
+  <li>トップページのコンセプト・テキストを全面見直し</li>
+</ul>
+
+<hr>
+
+<h2>学んだこと1：「ツール型検索意図」を狙う</h2>
+
+<h3>背景にある問題意識</h3>
+
+<p>「普通の記事を書いても埋もれる」というのは今日最初に考えたこと。AIで検索できる時代になると、情報を書いても差別化できない。GoogleもAI Overviewで答えを出してしまう。</p>
+
+<p>そこで気づいたのが<strong>「ツール型検索意図」</strong>というジャンルの存在だ。</p>
+
+<div class="insight-card">
+  <div class="label">気づき</div>
+  <p>「3営業日後 いつ」「トマト 一緒に植えてはいけない野菜」のような検索は、ユーザーが<strong>答えを計算・診断してほしい</strong>のであって、記事を読みたいわけじゃない。このニーズに対して「記事しかない」ジャンルが存在する。そこにツールを置くと検索意図と完全一致する。</p>
+</div>
+
+<h3>ツール型検索意図の特徴</h3>
+
+<ul>
+  <li>検索者はアクションを起こしたい（計算したい・診断したい・変換したい）</li>
+  <li>テキストで説明されても面倒 → インタラクティブなツールの方が満足度が高い</li>
+  <li>滞在時間が長くなる（ツールを操作するため）</li>
+  <li>ブックマーク・再訪率が高い</li>
+  <li>競合が「記事しかない」ジャンルを見つければブルーオーシャン</li>
+</ul>
+
+<h3>今日選んだジャンル</h3>
+
+<table>
+  <tr><th>ツール</th><th>検索意図</th><th>競合状況</th></tr>
+  <tr><td>営業日カウンター</td><td>「3営業日後 いつ」「N営業日後 計算」</td><td>電卓サイトがあるが、祝日対応・タブ切替などUXが弱い</td></tr>
+  <tr><td>コンパニオンプランツ相性診断</td><td>「トマト 一緒に植えていい野菜」「コンパニオンプランツ 相性」</td><td>記事はあるがインタラクティブなツールが少ない</td></tr>
+</table>
+
+<hr>
+
+<h2>学んだこと2：ツール + 記事3本の相互内部リンク構造</h2>
+
+<h3>なぜ記事3本なのか</h3>
+
+<p>ツールを作るだけでは「このドメインにこのテーマがある」とGoogleに伝える信号が弱い。<strong>関連する記事を複数作ることでテーマ権威性（Topical Authority）を積み上げる</strong>。</p>
+
+<blockquote>
+  <p>テーマ権威性 = 「このサイトはこのテーマに詳しい」とGoogleが判断すること。特定テーマについて複数のコンテンツを持つサイトは、単発の記事より上位表示されやすい。</p>
+</blockquote>
+
+<h3>内部リンクの構造</h3>
+
+<p>今日実装した構造はこう：</p>
+
+<pre><code>ツールページ（/apps/eigyobi/）
+  └── 関連記事へのリンク × 3
+      ├── /blog/eigyobi-kazoekata/    ← 3営業日の数え方
+      ├── /blog/eigyobi-obon-nenmatsu/ ← お盆・年末の営業日
+      └── /blog/eigyobi-shiharai/     ← 支払い期限と営業日
+
+各記事
+  └── ツールへのCTAボタン（2箇所）
+      「営業日計算ツールを使う →」</code></pre>
+
+<p>ツール → 記事（読み込み）、記事 → ツール（回遊・使用）というサイクルを作る。</p>
+
+<div class="insight-card">
+  <div class="label">重要</div>
+  <p>内部リンクのCTAは記事の<strong>冒頭と末尾の2箇所</strong>に設置した。冒頭は「ツールがあること」を先に伝えて興味を引き、末尾は「記事を読んで納得したうえで使う」という流れを作る。どちらか1箇所だけだとCTR（クリック率）が下がる。</p>
+</div>
+
+<h3>記事のキーワード選び方</h3>
+
+<p>記事を書くときは「ツール名で検索する人が次に何を調べるか」から逆算した：</p>
+
+<ul>
+  <li>「営業日 計算」→「3営業日の数え方 当日含む？」（実際によく混乱するポイント）</li>
+  <li>「営業日 計算」→「お盆 年末年始 営業日」（特定時期の疑問）</li>
+  <li>「コンパニオンプランツ 相性」→「一緒に植えてはいけない組み合わせ」（NG情報は強い）</li>
+</ul>
+
+<hr>
+
+<h2>学んだこと3：FAQ 10問 + JSON-LD FAQPage = 強調スニペット狙い</h2>
+
+<h3>強調スニペット（Featured Snippet）とは</h3>
+
+<p>Googleの検索結果で1位より上に表示される「ゼロ位置」のこと。FAQだと検索結果でアコーディオンで展開される形式（「People Also Ask」）になる。</p>
+
+<h3>実装したこと</h3>
+
+<p>ツールページに<strong>FAQ 10問以上</strong>を設置し、JSON-LD（構造化データ）の <code>FAQPage</code> スキーマを実装した。</p>
+
+<pre><code>&lt;script type="application/ld+json"&gt;
+{
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "3営業日後はいつ？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "月曜日起算の場合、3営業日後は木曜日になります..."
+      }
+    },
+    ...
+  ]
+}
+&lt;/script&gt;</code></pre>
+
+<h3>FAQ設計のポイント</h3>
+
+<table>
+  <tr><th>ポイント</th><th>理由</th></tr>
+  <tr><td>10問以上書く</td><td>Googleは複数のFAQを取得して表示する。少ないと強調スニペット候補に漏れる</td></tr>
+  <tr><td>質問文を「〜は何ですか？」「〜はいつですか？」形式に</td><td>検索クエリの語尾パターンに合わせることで一致率が上がる</td></tr>
+  <tr><td>回答に具体的な数値・例を入れる</td><td>「木曜日になります」より「月曜起算なら木曜、金曜起算なら翌々週の金曜になります」の方がスニペットとして引用されやすい</td></tr>
+  <tr><td>HTMLのFAQとJSON-LDを一致させる</td><td>不一致があるとGoogleがスパムとみなすリスクがある</td></tr>
+</table>
+
+<hr>
+
+<h2>学んだこと4：JSON-LD の細かいポイント</h2>
+
+<h3>Organization vs Person</h3>
+
+<p>サイト管理者のスキーマを最初 <code>"@type": "Person"</code> にしていたが、ビジネス・スタジオとして運営するなら <code>"@type": "Organization"</code> の方が適切。</p>
+
+<ul>
+  <li><strong>Person</strong>：個人ブロガー・フリーランス個人向け</li>
+  <li><strong>Organization</strong>：スタジオ・会社・ブランドとして運営する場合</li>
+</ul>
+
+<p>SEADICE は個人スタジオだが「Organization」にした。Googleがサイトをブランドとして認識しやすくなる。</p>
+
+<h3>WebApplication スキーマ（ツールページ）</h3>
+
+<p>ツールページには <code>WebApplication</code> スキーマを使う。無料ツールなら <code>offers</code> に <code>price: 0</code> を入れておく：</p>
+
+<pre><code>{
+  "@type": "WebApplication",
+  "name": "営業日計算ツール",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY"
+  }
+}</code></pre>
+
+<p>「無料」という情報が検索結果に表示されるようになる（リッチリザルト）。</p>
+
+<h3>BreadcrumbList</h3>
+
+<p>パンくずリストのスキーマ。これを入れると検索結果のURLがドメインだけでなく「ホーム / ブログ / 記事名」という階層で表示される。クリック率向上に効く。</p>
+
+<pre><code>{
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" },
+    { "@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://seadice.win/blog/" },
+    { "@type": "ListItem", "position": 3, "name": "記事名", "item": "https://seadice.win/blog/xxx/" }
+  ]
+}</code></pre>
+
+<h3>@graph でまとめて書く</h3>
+
+<p>複数の構造化データは <code>@graph</code> 配列にまとめて1つの <code>&lt;script&gt;</code> タグに書けば整理しやすい：</p>
+
+<pre><code>{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "BlogPosting", ... },
+    { "@type": "BreadcrumbList", ... },
+    { "@type": "FAQPage", ... }
+  ]
+}</code></pre>
+
+<hr>
+
+<h2>学んだこと5：画像の読み込み速度と SEO</h2>
+
+<h3>fetchpriority="high"</h3>
+
+<p>ファーストビューのヒーロー画像に <code>fetchpriority="high"</code> を追加した。これはブラウザに「この画像を優先して読み込め」と伝えるヒント。LCP（Largest Contentful Paint）のスコアに直結する。</p>
+
+<pre><code>&lt;img src="/icons/seadice_hero.webp"
+     alt="..."
+     width="400" height="300"
+     fetchpriority="high"
+     decoding="async"&gt;</code></pre>
+
+<p>ファーストビュー画像にだけ使う。他の画像には <code>loading="lazy"</code> を使う（同時に指定しない）。</p>
+
+<h3>WebP 変換</h3>
+
+<p>すべての表示画像はWebPに変換した。コマンド：</p>
+
+<pre><code>cwebp -q 85 input.png -o output.webp</code></pre>
+
+<p>PNGに比べて30〜50%ファイルサイズが小さくなる。OGP画像（SNSシェア用）はPNGのまま（WebPは一部SNSで対応していない）。</p>
+
+<hr>
+
+<h2>学んだこと6：コンセプトの変更</h2>
+
+<h3>変更前 → 変更後</h3>
+
+<table>
+  <tr><th></th><th>変更前</th><th>変更後</th></tr>
+  <tr><td>ターゲット</td><td>忙しい個人事業主・中小企業</td><td>日常生活・ニッチなジャンルのユーザー全般</td></tr>
+  <tr><td>価値提案</td><td>業務をAIで自動化</td><td>AIと自動化で生活をもっと快適に</td></tr>
+  <tr><td>ABOUTカード</td><td>業務効率化系</td><td>ニッチなニーズに応える / AIで自動化 / ユーザーファースト</td></tr>
+</table>
+
+<h3>なぜ変更したか</h3>
+
+<p>「個人事業主・中小企業向け」というポジションは競合が多い。SaaS系・業務ツール系のサービスが既にたくさんある。一方、<strong>「日常生活のちょっとした不便を解決するニッチツール」</strong>は競合が少ない。</p>
+
+<div class="insight-card">
+  <div class="label">考え方</div>
+  <p>「家庭菜園の相性診断」「営業日カウンター」「iOS画像リサイズ」——これらは業務ツールじゃないが、ちゃんとした需要がある。ニッチなジャンルを積み重ねていく方がSEO的にも差別化的にも戦いやすい。</p>
+</div>
+
+<hr>
+
+<h2>学んだこと7：apps-pipeline と ミニアプリの関係</h2>
+
+<h3>現状の構造</h3>
+
+<p>毎朝自動でFlutterアプリが生成される <code>apps-pipeline</code> がある。その出力先として「ミニアプリ」セクション（旧「無料Webツール」）が位置づけられている。</p>
+
+<p>今日気づいたのは<strong>「ミニアプリ」というラベルのミスマッチ</strong>。自動生成のFlutterアプリが並ぶセクションに「無料Webツール」は合わない。「ミニアプリ集」に変更した。</p>
+
+<h3>セクション名の整理</h3>
+
+<table>
+  <tr><th>セクション</th><th>変更前</th><th>変更後</th><th>中身</th></tr>
+  <tr><td>手動で作るWebツール</td><td>Web Apps</td><td>Web Tools</td><td>営業日カウンター、コンパニオンプランツ相性診断など</td></tr>
+  <tr><td>自動生成Flutterアプリ</td><td>無料Webツール</td><td>ミニアプリ集</td><td>apps-pipelineの出力</td></tr>
+</table>
+
+<hr>
+
+<h2>今後のアクション</h2>
+
+<ul class="checklist">
+  <li>sitemap.xml に今日作ったページを全部追加する（後回しにしてる）</li>
+  <li>Google Search Console でサイトマップを再送信する</li>
+  <li>コンパニオンプランツ関連で記事をさらに追加（「トマトの育て方とコンパニオンプランツ」など）</li>
+  <li>家庭菜園アプリ（kateisaien）のWebバージョンをリリースする（iOS審査中）</li>
+  <li>営業日カウンターの計算精度をさらに上げる（半日・時間計算など）</li>
+  <li>tikdog アプリのWebページを追加する</li>
+</ul>
+
+<hr>
+
+<h2>今日の総括</h2>
+
+<p>「Webサイトを作っても埋もれる」という問題意識から始まり、<strong>「検索意図がツール型なのに記事しかないジャンル」</strong>を狙うという方向性に辿り着いた。実際に2つのツールと6本の記事を1日で作り切った。</p>
+
+<p>大事なのは「ツールを作って終わり」じゃなくて、<strong>ツール × 記事 × 内部リンクという三角形を作ること</strong>。この三角形が1セットできると、Googleから見て「このサイトはこのテーマに詳しい」と認識されやすくなる。</p>
+
+<p>コンパニオンプランツのようなニッチなジャンルは、SEOで上位を取れれば独占できる。継続して積み重ねていこう。</p>
+
+<a href="/blog/" class="back">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; <a href="/blog/">ブログ</a> &nbsp;|&nbsp; <a href="/apps/eigyobi/">営業日カウンター</a> &nbsp;|&nbsp; <a href="/apps/companion/">コンパニオンプランツ相性診断</a></p>
+  <p style="margin-top:8px;">&copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

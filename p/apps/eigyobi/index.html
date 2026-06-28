@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>営業日計算ツール — 3営業日後・N営業日後の日付を即計算【祝日対応】| SEADICE</title>
+  <meta name="description" content="3営業日後・5営業日後がいつか、祝日・振替休日込みで即計算できる無料ツール。2つの日付間の営業日数カウントとN営業日後の日付逆引きに対応。支払期限・納品日の計算に。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://seadice.win/apps/eigyobi/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="営業日カウンター — 祝日・振替休日対応 | SEADICE">
+  <meta property="og:description" content="日本の祝日・振替休日を考慮した無料の営業日カウンター。営業日数の計算とN営業日後の日付逆引きに対応。">
+  <meta property="og:url" content="https://seadice.win/apps/eigyobi/">
+  <meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+  <meta property="og:image:alt" content="営業日カウンター — SEADICE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="営業日カウンター — 祝日・振替休日対応 | SEADICE">
+  <meta name="twitter:description" content="日本の祝日・振替休日を考慮した無料の営業日カウンター。">
+  <meta name="twitter:image" content="https://seadice.win/icons/seadice_ogp.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://seadice.win/apps/eigyobi/#app",
+        "name": "営業日カウンター",
+        "url": "https://seadice.win/apps/eigyobi/",
+        "description": "3営業日後・N営業日後の日付を祝日・振替休日込みで即計算できる無料の営業日計算ツール",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web",
+        "inLanguage": "ja",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+        "publisher": { "@id": "https://seadice.win/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" },
+          { "@type": "ListItem", "position": 2, "name": "Webアプリ", "item": "https://seadice.win/#webapps" },
+          { "@type": "ListItem", "position": 3, "name": "営業日カウンター", "item": "https://seadice.win/apps/eigyobi/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "振替休日は計算に含まれますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。振替休日も含めた日本の祝日データを内蔵しており、自動的に除外して計算します。" }
+          },
+          {
+            "@type": "Question",
+            "name": "土曜日・日曜日は営業日から除外されますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。土曜・日曜は自動的に除外されます。" }
+          },
+          {
+            "@type": "Question",
+            "name": "何年分の祝日に対応していますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "2024年から2027年の祝日・振替休日に対応しています。" }
+          },
+          {
+            "@type": "Question",
+            "name": "5営業日後はいつですか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "「N営業日後を調べる」タブで起算日を入力し、営業日数に「5」と入力して計算ボタンを押すと、土日・祝日を除いた5営業日後の日付が表示されます。" }
+          },
+          {
+            "@type": "Question",
+            "name": "開始日と終了日は営業日数に含まれますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "開始日は含まれ、終了日は含まれません。例えば月曜から金曜を指定すると5営業日と計算されます。" }
+          },
+          {
+            "@type": "Question",
+            "name": "土曜日は営業日に含まれますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "このツールでは土曜日は営業日に含まれません。一般的な「平日のみ営業」の会社・官公庁に合わせた計算をしています。" }
+          },
+          {
+            "@type": "Question",
+            "name": "年末年始は営業日から除外されますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "12月31日・1月1日は祝日データに含まれ除外されます。ただし会社独自の年末年始休暇（12月29〜30日など）は含まれないため、その場合は日数を手動で調整してください。" }
+          },
+          {
+            "@type": "Question",
+            "name": "請求書の支払い期限の計算に使えますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。「N営業日後を調べる」タブで請求書の発行日を起算日に設定し、支払いサイト（例: 30営業日）を入力すると支払い期限日を自動で計算できます。" }
+          },
+          {
+            "@type": "Question",
+            "name": "納品日や締め切りの計算に使えますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。受注日や契約日を起算日にしてN営業日後を計算することで、納品日・締め切り日の目安を調べることができます。" }
+          },
+          {
+            "@type": "Question",
+            "name": "スマートフォンでも使えますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。スマートフォン・タブレット・PCどの端末でも使えます。アプリのインストールは不要で、ブラウザだけで完結します。" }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #05050C;
+      --card: #0C0C1A;
+      --accent: #00FFD1;
+      --accent2: #38BDF8;
+      --border: #1a1a2e;
+      --text: #e2e8f0;
+      --muted: #64748b;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Helvetica Neue', sans-serif; line-height: 1.6; }
+
+    header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      background: rgba(5,5,12,0.85); border-bottom: 1px solid var(--border);
+    }
+    nav { height: 56px; padding: 0 24px; max-width: 1040px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-size: 16px; font-weight: 800; letter-spacing: 0.15em; color: var(--accent); text-decoration: none; }
+    .nav-back { color: var(--muted); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .nav-back:hover { color: var(--text); }
+
+    main { max-width: 680px; margin: 0 auto; padding: 96px 24px 80px; }
+
+    .page-label { font-size: 11px; letter-spacing: 0.25em; color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
+    h1 { font-size: clamp(26px, 5vw, 38px); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+    .page-desc { font-size: 14px; color: var(--muted); margin-bottom: 40px; line-height: 1.8; }
+
+    .tabs { display: flex; gap: 8px; margin-bottom: 28px; }
+    .tab { flex: 1; padding: 10px; border-radius: 10px; border: 1px solid var(--border); background: none; color: var(--muted); font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .tab.active { background: var(--card); border-color: var(--accent); color: var(--accent); }
+
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 28px; margin-bottom: 16px; }
+    .card-title { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 20px; }
+
+    .field { margin-bottom: 20px; }
+    label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+    input[type="date"], input[type="number"] {
+      width: 100%; background: #0a0a18; border: 1px solid var(--border); border-radius: 10px;
+      color: var(--text); font-size: 15px; padding: 12px 14px; outline: none;
+      transition: border-color 0.2s; font-family: inherit;
+    }
+    input[type="date"]:focus, input[type="number"]:focus { border-color: var(--accent); }
+    input[type="number"] { -moz-appearance: textfield; }
+    input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; }
+
+    .calc-btn {
+      width: 100%; padding: 14px; border-radius: 10px; border: none;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #05050C; font-size: 15px; font-weight: 700; cursor: pointer;
+      transition: opacity 0.2s; margin-top: 4px;
+    }
+    .calc-btn:hover { opacity: 0.85; }
+
+    .result { display: none; background: var(--bg); border: 1px solid var(--accent); border-radius: 12px; padding: 20px 24px; margin-top: 20px; }
+    .result.show { display: block; }
+    .result-num { font-size: 36px; font-weight: 800; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .result-label { font-size: 13px; color: var(--muted); margin-top: 4px; }
+    .result-detail { font-size: 12px; color: var(--muted); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); line-height: 1.8; }
+    .copy-btn { margin-top: 14px; background: none; border: 1px solid var(--border); border-radius: 8px; color: var(--muted); font-size: 12px; padding: 6px 14px; cursor: pointer; transition: all 0.2s; }
+    .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    .section { margin-top: 56px; }
+    .section h2 { font-size: 18px; font-weight: 800; margin-bottom: 16px; }
+    .section p, .section li { font-size: 14px; color: var(--muted); line-height: 1.85; }
+    .section ul { padding-left: 20px; }
+    .section li { margin-bottom: 6px; }
+
+    .faq { margin-top: 40px; }
+    .faq h2 { font-size: 18px; font-weight: 800; margin-bottom: 20px; }
+    .faq-item { border-top: 1px solid var(--border); padding: 16px 0; }
+    .faq-q { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+    .faq-a { font-size: 13px; color: var(--muted); line-height: 1.8; }
+
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; }
+    footer p { font-size: 12px; color: var(--muted); }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a class="nav-logo" href="/">SEADICE</a>
+    <a class="nav-back" href="/#webapps">← Webアプリ一覧</a>
+  </nav>
+</header>
+
+<main>
+  <p class="page-label">Web App · 無料ツール</p>
+  <h1>営業日カウンター</h1>
+  <p class="page-desc">3営業日後・5営業日後がいつか、祝日・振替休日込みで即計算。2つの日付間の営業日数カウントと、N営業日後の日付逆引きの両方に対応した無料の営業日計算ツールです。支払期限・納品日・締め切りの計算にどうぞ。</p>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('count')">営業日数を数える</button>
+    <button class="tab" onclick="switchTab('after')">N営業日後を調べる</button>
+  </div>
+
+  <div id="tab-count">
+    <div class="card">
+      <p class="card-title">営業日数を計算</p>
+      <div class="field">
+        <label for="start-date">開始日</label>
+        <input type="date" id="start-date">
+      </div>
+      <div class="field">
+        <label for="end-date">終了日</label>
+        <input type="date" id="end-date">
+      </div>
+      <button class="calc-btn" onclick="calcCount()">計算する</button>
+      <div class="result" id="result-count">
+        <div class="result-num" id="result-count-num"></div>
+        <div class="result-label">営業日</div>
+        <div class="result-detail" id="result-count-detail"></div>
+        <button class="copy-btn" onclick="copyResult('count')">結果をコピー</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-after" style="display:none;">
+    <div class="card">
+      <p class="card-title">N営業日後の日付を調べる</p>
+      <div class="field">
+        <label for="base-date">起算日</label>
+        <input type="date" id="base-date">
+      </div>
+      <div class="field">
+        <label for="n-days">営業日数</label>
+        <input type="number" id="n-days" min="1" max="999" placeholder="例: 5">
+      </div>
+      <button class="calc-btn" onclick="calcAfter()">計算する</button>
+      <div class="result" id="result-after">
+        <div class="result-num" id="result-after-date"></div>
+        <div class="result-label" id="result-after-label"></div>
+        <div class="result-detail" id="result-after-detail"></div>
+        <button class="copy-btn" onclick="copyResult('after')">結果をコピー</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>営業日の計算方法と使い方</h2>
+    <p>営業日とは、<strong>土曜・日曜・祝日・振替休日を除いた平日</strong>のことです。「3営業日後」や「5営業日後」がいつになるかは、間に土日や祝日が何日あるかによって変わるため、カレンダーを目で追って数えるとミスが起きやすいです。このツールで正確に計算してください。</p>
+    <ul>
+      <li>「営業日数を数える」タブ：開始日と終了日を選ぶと、その間の営業日数を自動で計算します。</li>
+      <li>「N営業日後を調べる」タブ：起算日とN日数を入力すると、N営業日後の具体的な日付を逆引きできます。</li>
+      <li>土曜・日曜・祝日・振替休日はすべて除外して計算します。</li>
+      <li>結果は「コピー」ボタンでクリップボードにコピーできます。</li>
+    </ul>
+
+    <h2 style="margin-top:32px;">営業日数の早見表（祝日なしの場合）</h2>
+    <p>祝日がない週を基準にした目安です。祝日が含まれる場合は実際の日付をツールで確認してください。</p>
+    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
+    <table style="width:100%;border-collapse:collapse;margin-top:16px;font-size:14px;min-width:360px;">
+      <thead>
+        <tr>
+          <th style="background:var(--card);padding:10px 14px;text-align:left;border:1px solid var(--border);color:var(--accent);">営業日数</th>
+          <th style="background:var(--card);padding:10px 14px;text-align:left;border:1px solid var(--border);color:var(--accent);">月曜起算</th>
+          <th style="background:var(--card);padding:10px 14px;text-align:left;border:1px solid var(--border);color:var(--accent);">水曜起算</th>
+          <th style="background:var(--card);padding:10px 14px;text-align:left;border:1px solid var(--border);color:var(--accent);">金曜起算</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">1営業日後</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">火曜</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">木曜</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">翌週月曜</td></tr>
+        <tr style="background:rgba(12,12,26,0.5);"><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">3営業日後</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">木曜</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">翌週月曜</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">翌週水曜</td></tr>
+        <tr><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">5営業日後</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">翌週月曜</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">翌週水曜</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">翌々週金曜</td></tr>
+        <tr style="background:rgba(12,12,26,0.5);"><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">10営業日後</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">2週後月曜</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">2週後水曜</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">2週後金曜</td></tr>
+        <tr><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">30営業日後</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">約6週間後</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">約6週間後</td><td style="padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;">約6週間後</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>関連記事</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-top:4px;">
+      <a href="/blog/eigyobi-kazoekata/" style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 20px;text-decoration:none;color:var(--text);display:flex;justify-content:space-between;align-items:center;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div>
+          <p style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:6px;">ビジネス</p>
+          <p style="font-size:15px;font-weight:700;">3営業日の数え方：当日は含む？含まない？具体例で解説</p>
+        </div>
+        <span style="color:var(--muted);font-size:18px;flex-shrink:0;margin-left:12px;">›</span>
+      </a>
+      <a href="/blog/eigyobi-obon-nenmatsu/" style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 20px;text-decoration:none;color:var(--text);display:flex;justify-content:space-between;align-items:center;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div>
+          <p style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:6px;">ビジネス</p>
+          <p style="font-size:15px;font-weight:700;">お盆・年末年始をはさんだ営業日の数え方と注意点</p>
+        </div>
+        <span style="color:var(--muted);font-size:18px;flex-shrink:0;margin-left:12px;">›</span>
+      </a>
+      <a href="/blog/eigyobi-shiharai/" style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 20px;text-decoration:none;color:var(--text);display:flex;justify-content:space-between;align-items:center;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div>
+          <p style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:6px;">経理・ビジネス</p>
+          <p style="font-size:15px;font-weight:700;">請求書の支払期限を営業日で正確に計算する方法</p>
+        </div>
+        <span style="color:var(--muted);font-size:18px;flex-shrink:0;margin-left:12px;">›</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="faq">
+    <h2>よくある質問</h2>
+    <div class="faq-item">
+      <p class="faq-q">振替休日は計算に含まれますか？</p>
+      <p class="faq-a">はい。振替休日も含めた日本の祝日データを内蔵しており、自動的に除外して計算します。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">土曜日・日曜日は除外されますか？</p>
+      <p class="faq-a">はい。土曜・日曜は自動的に除外されます。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">何年分の祝日に対応していますか？</p>
+      <p class="faq-a">2024年から2027年の祝日・振替休日に対応しています。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">5営業日後はいつですか？</p>
+      <p class="faq-a">「N営業日後を調べる」タブで起算日を入力し、営業日数に「5」と入力して計算ボタンを押すと、土日・祝日を除いた5営業日後の日付が表示されます。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">開始日・終了日は営業日数に含まれますか？</p>
+      <p class="faq-a">開始日は含まれ、終了日は含まれません。例えば月曜から金曜を指定すると5営業日と計算されます。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">土曜日は営業日に含まれますか？</p>
+      <p class="faq-a">このツールでは土曜日は営業日に含まれません。一般的な「平日のみ営業」の会社・官公庁に合わせた計算をしています。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">年末年始は除外されますか？</p>
+      <p class="faq-a">12月31日・1月1日は祝日データに含まれ除外されます。ただし会社独自の年末年始休暇（12月29〜30日など）は含まれないため、その場合は日数を手動で調整してください。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">請求書の支払い期限の計算に使えますか？</p>
+      <p class="faq-a">はい。「N営業日後を調べる」タブで請求書の発行日を起算日に設定し、支払いサイト（例: 30営業日）を入力すると支払い期限日を自動で計算できます。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">納品日や締め切りの計算に使えますか？</p>
+      <p class="faq-a">はい。受注日や契約日を起算日にしてN営業日後を計算することで、納品日・締め切り日の目安を調べることができます。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">スマートフォンでも使えますか？</p>
+      <p class="faq-a">はい。スマートフォン・タブレット・PCどの端末でも使えます。アプリのインストールは不要で、ブラウザだけで完結します。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">今日が月曜日の場合、3営業日後はいつですか？</p>
+      <p class="faq-a">祝日がなければ木曜日です。月曜の翌日（火）から数えて火・水・木の3営業日後が木曜になります。ただし間に祝日があると1日ずつ後ろにずれます。正確な日付はツールで計算してください。</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">今日が金曜日の場合、5営業日後はいつですか？</p>
+      <p class="faq-a">祝日がなければ翌々週の金曜日です。金曜の翌日から週をまたいで5営業日後（月・火・水・木・金）が翌々週の金曜になります。週をまたぐ場合は特にツールで確認することをおすすめします。</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>
+    <a href="/">SEADICE</a> &nbsp;|&nbsp;
+    <a href="/#webapps">他のWebアプリを見る</a> &nbsp;|&nbsp;
+    <a href="/blog/">ブログ</a> &nbsp;|&nbsp;
+    <a href="/privacy/">プライバシーポリシー</a>
+  </p>
+  <p style="margin-top:8px;">&copy; 2026 SEADICE</p>
+</footer>
+
+<script>
+  const HOLIDAYS = new Set([
+    '2024-01-01','2024-01-08','2024-02-11','2024-02-12','2024-02-23','2024-03-20',
+    '2024-04-29','2024-05-03','2024-05-04','2024-05-05','2024-05-06','2024-07-15',
+    '2024-08-11','2024-08-12','2024-09-16','2024-09-22','2024-09-23','2024-10-14',
+    '2024-11-03','2024-11-04','2024-11-23','2024-12-31',
+    '2025-01-01','2025-01-13','2025-02-11','2025-02-23','2025-02-24','2025-03-20',
+    '2025-04-29','2025-05-03','2025-05-04','2025-05-05','2025-05-06','2025-07-21',
+    '2025-08-11','2025-09-15','2025-09-23','2025-10-13','2025-11-03','2025-11-23',
+    '2025-11-24','2025-12-31',
+    '2026-01-01','2026-01-12','2026-02-11','2026-02-23','2026-03-20','2026-04-29',
+    '2026-05-03','2026-05-04','2026-05-05','2026-05-06','2026-07-20','2026-08-11',
+    '2026-09-21','2026-09-22','2026-09-23','2026-10-12','2026-11-03','2026-11-23',
+    '2026-12-31',
+    '2027-01-01','2027-01-11','2027-02-11','2027-02-23','2027-03-21','2027-03-22',
+    '2027-04-29','2027-05-03','2027-05-04','2027-05-05','2027-07-19','2027-08-11',
+    '2027-09-20','2027-09-23','2027-10-11','2027-11-03','2027-11-23','2027-12-31',
+  ]);
+
+  const DAYS_JA = ['日', '月', '火', '水', '木', '金', '土'];
+
+  function toYMD(date) {
+    return date.toISOString().slice(0, 10);
+  }
+
+  function isBusinessDay(date) {
+    const d = date.getDay();
+    if (d === 0 || d === 6) return false;
+    return !HOLIDAYS.has(toYMD(date));
+  }
+
+  function formatDate(date) {
+    const y = date.getFullYear();
+    const m = date.getMonth() + 1;
+    const d = date.getDate();
+    const w = DAYS_JA[date.getDay()];
+    return `${y}年${m}月${d}日（${w}）`;
+  }
+
+  function today() {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  }
+
+  function initDates() {
+    const t = toYMD(today());
+    const next = new Date(today());
+    next.setDate(next.getDate() + 14);
+    document.getElementById('start-date').value = t;
+    document.getElementById('end-date').value = toYMD(next);
+    document.getElementById('base-date').value = t;
+    document.getElementById('n-days').value = 5;
+  }
+
+  function switchTab(tab) {
+    document.getElementById('tab-count').style.display = tab === 'count' ? '' : 'none';
+    document.getElementById('tab-after').style.display = tab === 'after' ? '' : 'none';
+    document.querySelectorAll('.tab').forEach((el, i) => {
+      el.classList.toggle('active', (i === 0) === (tab === 'count'));
+    });
+  }
+
+  function calcCount() {
+    const s = new Date(document.getElementById('start-date').value);
+    const e = new Date(document.getElementById('end-date').value);
+    if (isNaN(s) || isNaN(e)) { alert('日付を入力してください'); return; }
+    if (s >= e) { alert('終了日は開始日より後にしてください'); return; }
+
+    let count = 0;
+    let holidays = 0;
+    let weekends = 0;
+    const cur = new Date(s);
+    while (cur < e) {
+      const d = cur.getDay();
+      if (d === 0 || d === 6) weekends++;
+      else if (HOLIDAYS.has(toYMD(cur))) holidays++;
+      else count++;
+      cur.setDate(cur.getDate() + 1);
+    }
+
+    const total = Math.round((e - s) / 86400000);
+    document.getElementById('result-count-num').textContent = count;
+    document.getElementById('result-count-detail').innerHTML =
+      `${formatDate(s)} 〜 ${formatDate(new Date(e.getTime() - 86400000))}<br>` +
+      `合計日数: ${total}日 ／ 土日: ${weekends}日 ／ 祝日: ${holidays}日`;
+    document.getElementById('result-count').classList.add('show');
+  }
+
+  function calcAfter() {
+    const base = new Date(document.getElementById('base-date').value);
+    const n = parseInt(document.getElementById('n-days').value);
+    if (isNaN(base)) { alert('起算日を入力してください'); return; }
+    if (!n || n < 1) { alert('営業日数を入力してください'); return; }
+
+    let count = 0;
+    const cur = new Date(base);
+    cur.setDate(cur.getDate() + 1);
+    while (count < n) {
+      if (isBusinessDay(cur)) count++;
+      if (count < n) cur.setDate(cur.getDate() + 1);
+    }
+
+    const diff = Math.round((cur - base) / 86400000);
+    document.getElementById('result-after-date').textContent = formatDate(cur);
+    document.getElementById('result-after-label').textContent = `${formatDate(base)} の ${n}営業日後`;
+    document.getElementById('result-after-detail').textContent = `カレンダー上は ${diff}日後`;
+    document.getElementById('result-after').classList.add('show');
+  }
+
+  function copyResult(type) {
+    let text = '';
+    if (type === 'count') {
+      const num = document.getElementById('result-count-num').textContent;
+      const detail = document.getElementById('result-count-detail').innerText;
+      text = `営業日数: ${num}日\n${detail}`;
+    } else {
+      const date = document.getElementById('result-after-date').textContent;
+      const label = document.getElementById('result-after-label').textContent;
+      const detail = document.getElementById('result-after-detail').textContent;
+      text = `${label}\n→ ${date}（${detail}）`;
+    }
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = event.target;
+      btn.textContent = 'コピーしました';
+      setTimeout(() => { btn.textContent = '結果をコピー'; }, 2000);
+    });
+  }
+
+  initDates();
+</script>
+
+</body>
+</html>

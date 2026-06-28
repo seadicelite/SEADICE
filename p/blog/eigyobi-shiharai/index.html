@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>請求書の支払期限を営業日で正確に計算する方法 | SEADICE</title>
+<meta name="description" content="「末締め翌月払い」「30営業日以内」など請求書の支払期限を営業日で正確に計算する方法を解説。祝日・月末をまたぐケースも具体例付きで説明。無料ツールで即計算。">
+<link rel="canonical" href="https://seadice.win/blog/eigyobi-shiharai/">
+<meta property="og:title" content="請求書の支払期限を営業日で正確に計算する方法 | SEADICE">
+<meta property="og:description" content="末締め翌月払い・30営業日以内など、請求書の支払期限を営業日で正確に計算する方法を具体例付きで解説。">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:url" content="https://seadice.win/blog/eigyobi-shiharai/">
+<meta property="og:type" content="article">
+<meta property="og:image:alt" content="請求書の支払期限と営業日計算 | SEADICE">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "請求書の支払期限を営業日で正確に計算する方法",
+      "datePublished": "2026-06-28",
+      "dateModified": "2026-06-28",
+      "author": { "@type": "Organization", "name": "SEADICE" },
+      "publisher": { "@type": "Organization", "name": "SEADICE", "url": "https://seadice.win" },
+      "url": "https://seadice.win/blog/eigyobi-shiharai/",
+      "description": "請求書の支払期限を営業日で正確に計算する方法を解説"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" },
+        { "@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://seadice.win/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "請求書の支払期限と営業日", "item": "https://seadice.win/blog/eigyobi-shiharai/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "請求書の支払期限が土日・祝日に当たった場合はどうなりますか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "契約書や請求書に特段の定めがない場合、支払期限が土日・祝日に当たると翌営業日が期限になるのが一般的です。ただし契約書の条項で「前営業日」となっている場合もあるため、契約内容を確認してください。" }
+        },
+        {
+          "@type": "Question",
+          "name": "30営業日後はカレンダーで何日後になりますか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "土日だけで考えると30営業日は約42日（6週間）ですが、祝日が含まれるとさらに延びます。正確な日付は営業日カウンターで計算するのが確実です。" }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;display:block;overflow-x:auto}.body th{background:var(--card);padding:10px 14px;text-align:left;border:1px solid var(--border);color:var(--accent)}.body td{padding:10px 14px;border:1px solid var(--border);color:#cbd5e1}.body tr:nth-child(even) td{background:rgba(12,12,26,0.5)}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.tool-cta{background:var(--card);border:1px solid var(--accent);border-radius:14px;padding:24px;margin:32px 0;text-align:center}.tool-cta p{color:var(--muted);font-size:14px;margin-bottom:14px}.tool-cta a{display:inline-block;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#05050C;font-size:14px;font-weight:700;padding:12px 28px;border-radius:10px;text-decoration:none}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 請求書の支払期限と営業日計算</p>
+  <span class="tag">経理・ビジネス</span>
+  <h1>請求書の支払期限を営業日で正確に計算する方法</h1>
+  <p class="meta"><time datetime="2026-06-28">2026-06-28</time> · SEADICE</p>
+  <div class="body">
+
+<p>フリーランスや中小企業の経営者にとって、請求書の支払期限の計算は毎月必ずやる作業だ。「末締め翌月末払い」「請求書受領後30営業日以内」など、取引先によって条件がさまざまで、祝日や月末の曜日によって期限が変わるため手動計算ではミスが起きやすい。</p>
+
+<p>この記事では、代表的な支払条件パターンごとに営業日計算の方法を解説する。</p>
+
+<h2>よくある支払条件のパターン</h2>
+
+<h3>1. 末締め翌月末払い</h3>
+
+<p>最も一般的な支払条件だ。当月末に締めて、翌月末に支払われる。</p>
+
+<table>
+  <tr><th>請求書発行月</th><th>締め日</th><th>支払期限</th></tr>
+  <tr><td>6月中の請求</td><td>6月30日</td><td>7月31日</td></tr>
+  <tr><td>7月中の請求</td><td>7月31日</td><td>8月31日</td></tr>
+</table>
+
+<p>支払期限が土日・祝日に当たる場合は、翌営業日が支払日になるのが一般的だ。例えば7月31日が土曜なら、支払日は8月2日（月）になる。</p>
+
+<h3>2. 請求書受領後N営業日以内</h3>
+
+<p>「請求書受領後30営業日以内に支払う」という条件の場合、受領日の翌営業日から数えてN営業日後が期限となる。</p>
+
+<p>例：6月2日（月）に請求書を受領した場合の30営業日後</p>
+
+<ul>
+  <li>6月2日（月）受領</li>
+  <li>翌日6月3日（火）から30営業日後を計算</li>
+  <li>祝日なしで単純計算すると7月14日（月）前後</li>
+  <li>祝日が含まれるとさらに後ろにずれる</li>
+</ul>
+
+<div class="tool-cta">
+  <p>「30営業日後がいつか」を祝日込みで即計算するなら</p>
+  <a href="/apps/eigyobi/">営業日カウンターを使う →</a>
+</div>
+
+<h3>3. 翌々月末払い</h3>
+
+<p>「当月締め翌々月末払い」という条件もある。支払いサイトが長い取引に多い。</p>
+
+<table>
+  <tr><th>請求書発行月</th><th>締め日</th><th>支払期限</th></tr>
+  <tr><td>6月中の請求</td><td>6月30日</td><td>8月31日</td></tr>
+  <tr><td>12月中の請求</td><td>12月31日</td><td>2月28日（または29日）</td></tr>
+</table>
+
+<h2>支払期限が土日・祝日に当たった場合</h2>
+
+<p>契約書や請求書に特段の定めがない場合、<strong>支払期限が土日・祝日に当たると翌営業日が実際の支払期限</strong>になるのが一般的だ。ただし契約によっては「前営業日」になる場合もあるため、必ず契約内容を確認すること。</p>
+
+<h3>年末年始をまたぐ場合</h3>
+
+<p>12月末締めの請求書で「翌月末払い」の場合、1月31日が支払期限になる。年末年始をまたぐことで処理が遅れやすいため、12月中に請求書を早めに送付するのが得策だ。</p>
+
+<h2>フリーランスが知っておくべきポイント</h2>
+
+<ul>
+  <li><strong>支払条件は契約時に明記する</strong>：「30日以内」ではなく「30営業日以内」など具体的に</li>
+  <li><strong>請求書には支払期限を明記する</strong>：「お支払期限：○月○日」と具体的な日付を記載</li>
+  <li><strong>下請法の支払期日に注意</strong>：資本金1000万円超の事業者との取引は、下請法により受領後60日以内が上限</li>
+  <li><strong>年末年始・GW前は早めに請求</strong>：長期休暇前に請求書を送ることで支払いを早められる</li>
+</ul>
+
+<h2>営業日計算を毎月ラクにする方法</h2>
+
+<p>支払期限の計算を毎月手動でやるのは手間がかかり、ミスも起きやすい。祝日データを内蔵した営業日カウンターを使えば、起算日とN日数を入れるだけで即座に正確な期限日が分かる。</p>
+
+<div class="tool-cta">
+  <p>支払期限・納品日を毎月正確に計算するなら</p>
+  <a href="/apps/eigyobi/">営業日カウンターを使う →</a>
+</div>
+
+<h2>まとめ</h2>
+
+<ul>
+  <li>支払期限が土日・祝日の場合は翌営業日が期限（契約内容による）</li>
+  <li>「N営業日以内」は受領翌日から数えるのが一般的</li>
+  <li>年末年始・GWをまたぐと想定より大幅に遅くなる</li>
+  <li>請求書には具体的な支払期限日を明記するのがベスト</li>
+  <li>計算ミスを防ぐために営業日カウンターを活用する</li>
+</ul>
+
+<a href="/blog/" class="back">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; <a href="/blog/">ブログ</a> &nbsp;|&nbsp; <a href="/privacy/">プライバシーポリシー</a></p>
+  <p style="margin-top:8px;">&copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

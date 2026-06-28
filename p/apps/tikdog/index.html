@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikDog — 犬動画をスワイプして楽しむ | SEADICE</title>
+  <meta name="description" content="かわいい・おもしろい犬動画だけを集めたバーティカル動画アプリ。TikTokスタイルで無限にスワイプして楽しもう。完全無料。">
+  <meta name="keywords" content="TikDog,犬動画,いぬ,かわいい犬,動画アプリ,無料">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#05050C">
+  <link rel="canonical" href="https://seadice.win/apps/tikdog/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preload" href="/icons/tikdog_icon.webp" as="image" type="image/webp">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="TikDog — 犬動画をスワイプして楽しむ">
+  <meta property="og:description" content="かわいい・おもしろい犬動画だけを集めたバーティカル動画アプリ。TikTokスタイルで無限にスワイプ。完全無料。">
+  <meta property="og:image" content="https://seadice.win/icons/tikdog_icon.webp">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:url" content="https://seadice.win/apps/tikdog/">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="TikDog — 犬動画をスワイプして楽しむ">
+  <meta name="twitter:description" content="かわいい・おもしろい犬動画だけを集めたバーティカル動画アプリ。完全無料。">
+  <meta name="twitter:image" content="https://seadice.win/icons/tikdog_icon.webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "SEADICE", "item": "https://seadice.win/" },
+          { "@type": "ListItem", "position": 2, "name": "アプリ一覧", "item": "https://seadice.win/#apps" },
+          { "@type": "ListItem", "position": 3, "name": "TikDog", "item": "https://seadice.win/apps/tikdog/" }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "TikDog",
+        "description": "かわいい・おもしろい犬動画だけを集めたバーティカル動画アプリ。TikTokスタイルで無限にスワイプして楽しもう。",
+        "applicationCategory": "EntertainmentApplication",
+        "operatingSystem": "iOS",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+        "url": "https://seadice.win/apps/tikdog/",
+        "publisher": { "@type": "Person", "name": "SEADICE", "url": "https://seadice.win/" }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #05050C; --card: #0C0C1A; --accent: #FF6B35; --accent2: #FF8C5A; --border: #1a1a2e; --text: #e2e8f0; --muted: #64748b; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Helvetica Neue', sans-serif; line-height: 1.6; }
+    header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); background: rgba(5,5,12,0.85); border-bottom: 1px solid var(--border); }
+    nav { height: 56px; padding: 0 24px; max-width: 760px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-size: 15px; font-weight: 800; letter-spacing: 0.15em; color: var(--accent); text-decoration: none; }
+    .nav-back { color: var(--muted); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .nav-back:hover { color: var(--text); }
+    main { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+    .hero { min-height: 100svh; display: flex; flex-direction: column; justify-content: center; padding: 96px 0 64px; }
+    .app-icon { width: 80px; height: 80px; border-radius: 20px; overflow: hidden; margin-bottom: 24px; }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-label { font-size: 11px; letter-spacing: 0.25em; color: var(--accent); margin-bottom: 14px; text-transform: uppercase; }
+    h1 { font-size: clamp(32px, 7vw, 52px); font-weight: 800; line-height: 1.15; margin-bottom: 18px; letter-spacing: -0.02em; }
+    .hero-desc { font-size: 16px; color: var(--muted); margin-bottom: 36px; max-width: 560px; line-height: 1.8; }
+    .btn-group { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 28px; border-radius: 10px; font-size: 14px; font-weight: 600; text-decoration: none; transition: opacity 0.2s, transform 0.2s; }
+    .btn:hover { opacity: 0.85; transform: translateY(-1px); }
+    .btn-primary { background: linear-gradient(135deg, #FF6B35, #FF8C5A); color: #fff; }
+    section { padding: 64px 0; }
+    h2 { font-size: clamp(20px, 3vw, 26px); font-weight: 800; margin-bottom: 28px; letter-spacing: -0.02em; }
+    .features { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+    .feature { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; }
+    .feature-label { font-size: 10px; letter-spacing: 0.15em; color: var(--accent); margin-bottom: 8px; text-transform: uppercase; }
+    .feature-title { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+    .feature-desc { font-size: 13px; color: var(--muted); line-height: 1.65; }
+    .faq { display: flex; flex-direction: column; gap: 10px; }
+    .faq-item { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+    .faq-q { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+    .faq-a { font-size: 13px; color: var(--muted); line-height: 1.65; }
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; font-size: 12px; color: var(--muted); }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a class="nav-logo" href="/">SEADICE</a>
+    <a class="nav-back" href="/#apps">← アプリ一覧</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="app-icon">
+      <img src="/icons/tikdog_icon.webp" alt="TikDog" width="80" height="80">
+    </div>
+    <p class="hero-label">Entertainment / 犬動画</p>
+    <h1>犬動画だけを、<br>無限にスワイプ。</h1>
+    <p class="hero-desc">かわいい・おもしろい犬動画だけを集めたバーティカル動画アプリ。TikTokスタイルで下にスワイプするだけで次々と犬動画が楽しめる。完全無料。</p>
+    <div class="btn-group">
+      <a class="btn btn-primary" href="https://apps.apple.com/jp/app/tikdog/id6748308505" rel="noopener">App Store で入手</a>
+    </div>
+  </div>
+
+  <section aria-labelledby="features-heading">
+    <h2 id="features-heading">特徴</h2>
+    <div class="features">
+      <div class="feature">
+        <p class="feature-label">無限スクロール</p>
+        <p class="feature-title">下にスワイプするだけ</p>
+        <p class="feature-desc">TikTokスタイルのバーティカル動画。下にスワイプするだけで次々と犬動画が表示されます。</p>
+      </div>
+      <div class="feature">
+        <p class="feature-label">厳選コンテンツ</p>
+        <p class="feature-title">犬動画だけを厳選</p>
+        <p class="feature-desc">柴犬・コーギー・ゴールデンレトリバーなど様々な犬種のかわいい・おもしろい動画を厳選して掲載。</p>
+      </div>
+      <div class="feature">
+        <p class="feature-label">完全無料</p>
+        <p class="feature-title">ダウンロード無料</p>
+        <p class="feature-desc">アプリのダウンロードも動画の視聴も完全無料。課金一切なし。</p>
+      </div>
+      <div class="feature">
+        <p class="feature-label">自動更新</p>
+        <p class="feature-title">毎日新しい動画が追加</p>
+        <p class="feature-desc">動画は毎日自動で追加されるので、いつ見ても新鮮なコンテンツが楽しめます。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">よくある質問</h2>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="faq-q">無料で使えますか？</p>
+        <p class="faq-a">はい、完全無料です。ダウンロードも視聴も一切費用はかかりません。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">どんな犬種の動画がありますか？</p>
+        <p class="faq-a">柴犬・コーギー・ゴールデンレトリバー・チワワ・フレンチブルドッグなど様々な犬種の動画があります。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">不適切な動画があった場合は？</p>
+        <p class="faq-a">アプリ内の報告ボタンから通報できます。一定数の報告が集まると自動的に削除されます。</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; <a href="/privacy/tikdog/">プライバシーポリシー</a></p>
+</footer>
+
+</body>
+</html>

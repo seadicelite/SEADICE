@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>超ズボラ日記アプリ 開発計画メモ | SEADICE</title>
+<meta name="description" content="Google Calendar + Claude API + AdMob で作る超ズボラ日記アプリの設計・認証・実装手順まとめ。自分用開発メモ。">
+<link rel="canonical" href="https://seadice.win/blog/zuboro-diary-plan/">
+<meta property="og:title" content="超ズボラ日記アプリ 開発計画メモ | SEADICE">
+<meta property="og:description" content="Google Calendar + Claude API + AdMob で作る超ズボラ日記アプリの設計・認証・実装手順まとめ。">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:url" content="https://seadice.win/blog/zuboro-diary-plan/">
+<meta property="og:type" content="article">
+<meta property="og:image:alt" content="超ズボラ日記 開発計画 | SEADICE">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "BlogPosting", "headline": "超ズボラ日記アプリ 開発計画メモ", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": { "@type": "Organization", "name": "SEADICE" }, "publisher": { "@type": "Organization", "name": "SEADICE", "url": "https://seadice.win" }, "url": "https://seadice.win/blog/zuboro-diary-plan/" },
+    { "@type": "BreadcrumbList", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" }, { "@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://seadice.win/blog/" }, { "@type": "ListItem", "position": 3, "name": "超ズボラ日記 開発計画", "item": "https://seadice.win/blog/zuboro-diary-plan/" } ] }
+  ]
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b;--warn:#f59e0b;--danger:#f87171;--green:#22c55e}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.8}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}
+article{max-width:740px;margin:0 auto;padding:96px 24px 80px}
+.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}
+.breadcrumb a{color:var(--muted);text-decoration:none}
+.tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px}
+.tag-personal{color:var(--warn);border-color:var(--warn)}
+h1{font-size:clamp(22px,5vw,34px);font-weight:800;line-height:1.25;margin-bottom:16px}
+.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.diary-note{background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.3);border-radius:10px;padding:16px 20px;margin-bottom:40px;font-size:13px;color:#fbbf24}
+.body h2{font-size:22px;font-weight:800;margin:48px 0 14px;color:var(--accent);padding-bottom:8px;border-bottom:1px solid var(--border)}
+.body h3{font-size:17px;font-weight:700;margin:32px 0 10px;color:var(--accent2)}
+.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.85}
+.body ul,.body ol{padding-left:24px;margin:12px 0}
+.body li{margin:8px 0;font-size:15px;color:#cbd5e1;line-height:1.7}
+.body strong{color:var(--text);font-weight:700}
+.body code{background:rgba(0,255,209,0.08);border:1px solid rgba(0,255,209,0.2);border-radius:4px;padding:2px 6px;font-size:13px;color:var(--accent);font-family:'SF Mono','Courier New',monospace}
+.body pre{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin:20px 0;overflow-x:auto}
+.body pre code{background:none;border:none;padding:0;font-size:13px;color:#94a3b8;line-height:1.6}
+.body blockquote{border-left:3px solid var(--accent);padding:12px 20px;margin:20px 0;background:rgba(0,255,209,0.04);border-radius:0 8px 8px 0}
+.body blockquote p{color:var(--muted);font-size:14px;margin:0;font-style:italic}
+.body table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;display:block;overflow-x:auto}
+.body th{background:var(--card);padding:10px 14px;text-align:left;border:1px solid var(--border);color:var(--accent)}
+.body td{padding:10px 14px;border:1px solid var(--border);color:#cbd5e1;vertical-align:top}
+.body tr:nth-child(even) td{background:rgba(12,12,26,0.5)}
+.body hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+.step-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;margin:20px 0;position:relative}
+.step-num{position:absolute;top:-14px;left:20px;background:var(--accent);color:#05050C;font-size:12px;font-weight:800;padding:3px 12px;border-radius:20px}
+.step-title{font-size:17px;font-weight:800;margin-bottom:12px;margin-top:8px;color:var(--text)}
+.step-body{font-size:14px;color:#cbd5e1;line-height:1.8}
+.step-body ul{padding-left:20px;margin:8px 0}
+.step-body li{margin:6px 0}
+.step-body code{background:rgba(0,255,209,0.08);border:1px solid rgba(0,255,209,0.2);border-radius:4px;padding:2px 6px;font-size:12px;color:var(--accent);font-family:'SF Mono','Courier New',monospace}
+.warn-box{background:rgba(248,113,113,0.08);border:1px solid rgba(248,113,113,0.3);border-radius:10px;padding:16px 20px;margin:20px 0}
+.warn-box p{font-size:14px;color:#fca5a5;margin:0}
+.warn-box strong{color:#f87171}
+.ok-box{background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.3);border-radius:10px;padding:16px 20px;margin:20px 0}
+.ok-box p{font-size:14px;color:#86efac;margin:0}
+.flow{display:flex;flex-direction:column;gap:0;margin:20px 0}
+.flow-item{display:flex;gap:16px;align-items:flex-start}
+.flow-line{display:flex;flex-direction:column;align-items:center}
+.flow-dot{width:32px;height:32px;border-radius:50%;background:var(--accent);color:#05050C;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.flow-connector{width:2px;height:32px;background:var(--border);margin:4px 0}
+.flow-content{padding:4px 0 32px;font-size:14px;color:#cbd5e1;line-height:1.7}
+.flow-content strong{color:var(--text)}
+.checklist{list-style:none;padding:0;margin:16px 0}
+.checklist li{padding:10px 0;font-size:14px;color:#cbd5e1;border-bottom:1px solid rgba(26,26,46,0.5);display:flex;gap:10px;align-items:flex-start}
+.checklist li::before{content:"";width:18px;height:18px;border:2px solid var(--border);border-radius:4px;flex-shrink:0;margin-top:1px}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px}
+footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}
+footer a{color:var(--muted);text-decoration:none}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 超ズボラ日記 開発計画</p>
+  <div class="tag-row">
+    <span class="tag">Flutter</span>
+    <span class="tag">Claude API</span>
+    <span class="tag">Google Calendar</span>
+    <span class="tag tag-personal">自分用メモ</span>
+  </div>
+  <h1>超ズボラ日記アプリ 開発計画メモ</h1>
+  <p class="meta"><time datetime="2026-06-28">2026-06-28</time> · SEADICE &nbsp;·&nbsp; 明日の開発用メモ</p>
+
+  <div class="diary-note">
+    明日すぐ開発に入れるように全部まとめておく。認証まわりで迷わないようにするのが目的。
+  </div>
+
+  <div class="body">
+
+<h2>アプリのコンセプト</h2>
+
+<p><strong>「開いたら日記が書けてる」</strong> — 日記が続かない人のための最強ズボラ日記アプリ。</p>
+
+<ul>
+  <li>アプリを開くと今日・昨日分の日記が自動生成されて並んでいる</li>
+  <li>一言追加したければ入力できる（しなくてもOK）</li>
+  <li>広告を1本見て「投稿」→ Google Calendarに保存される</li>
+  <li>アプリ自体はデータを一切持たない。全部Google Calendarに入る</li>
+</ul>
+
+<div class="ok-box">
+  <p><strong>最大のポイント：</strong> アプリを開くだけでいい。入力ゼロでも日記が完成する。</p>
+</div>
+
+<hr>
+
+<h2>技術スタック</h2>
+
+<table>
+  <tr><th>役割</th><th>使うもの</th><th>コスト</th></tr>
+  <tr><td>UIフレームワーク</td><td>Flutter（iOS/Android）</td><td>無料</td></tr>
+  <tr><td>日記の自動生成</td><td>Claude API（Haiku）</td><td>1回約0.3〜1円</td></tr>
+  <tr><td>データ保存</td><td>Google Calendar API</td><td>無料</td></tr>
+  <tr><td>認証</td><td>Google Sign-In</td><td>無料</td></tr>
+  <tr><td>収益化</td><td>AdMob（動画リワード広告）</td><td>収益になる側</td></tr>
+</table>
+
+<p>サーバー不要。Claude APIとAdMobだけで回る。</p>
+
+<hr>
+
+<h2>アプリ起動時のフロー</h2>
+
+<div class="flow">
+  <div class="flow-item">
+    <div class="flow-line"><div class="flow-dot">1</div><div class="flow-connector"></div></div>
+    <div class="flow-content"><strong>アプリを開く</strong><br>Google Sign-Inのトークンを確認。未ログインなら認証画面へ。</div>
+  </div>
+  <div class="flow-item">
+    <div class="flow-line"><div class="flow-dot">2</div><div class="flow-connector"></div></div>
+    <div class="flow-content"><strong>Google Calendarから過去の日記を取得</strong><br>専用カレンダー「超ズボラ日記」の直近30件のイベントを取得。</div>
+  </div>
+  <div class="flow-item">
+    <div class="flow-line"><div class="flow-dot">3</div><div class="flow-connector"></div></div>
+    <div class="flow-content"><strong>未投稿の日付を検出</strong><br>今日・昨日分のイベントがなければ「未投稿」として扱う。</div>
+  </div>
+  <div class="flow-item">
+    <div class="flow-line"><div class="flow-dot">4</div><div class="flow-connector"></div></div>
+    <div class="flow-content"><strong>Claude APIで日記を自動生成</strong><br>曜日・天気・前回の日記の文体から今日の日記を生成。</div>
+  </div>
+  <div class="flow-item">
+    <div class="flow-line"><div class="flow-dot">5</div><div class="flow-connector"></div></div>
+    <div class="flow-content"><strong>ユーザーに表示</strong><br>生成された日記を見せる。一言追加したければ入力欄に書ける。</div>
+  </div>
+  <div class="flow-item">
+    <div class="flow-line"><div class="flow-dot">6</div></div>
+    <div class="flow-content"><strong>広告を見て「投稿」</strong><br>リワード広告（15〜30秒）を視聴完了 → Google Calendarにイベントとして保存。</div>
+  </div>
+</div>
+
+<hr>
+
+<h2>Google認証まわり（ここが一番複雑）</h2>
+
+<h3>必要なもの</h3>
+
+<ul>
+  <li>Google Cloud Console でプロジェクト作成</li>
+  <li>OAuth 2.0 クライアントIDを発行（iOS用・Android用それぞれ）</li>
+  <li>Calendar APIを有効化</li>
+  <li>必要なスコープを設定</li>
+</ul>
+
+<h3>必要なスコープ（権限）</h3>
+
+<table>
+  <tr><th>スコープ</th><th>用途</th><th>審査レベル</th></tr>
+  <tr><td><code>calendar.readonly</code></td><td>過去の日記を読み込む</td><td>センシティブ</td></tr>
+  <tr><td><code>calendar.events</code></td><td>日記をイベントとして書き込む</td><td>センシティブ</td></tr>
+</table>
+
+<div class="warn-box">
+  <p><strong>注意：</strong> Calendar への書き込みは「センシティブなスコープ」扱い。ストア公開前にGoogleのOAuth審査（verification）が必要。審査には数週間かかる。開発中・テスト中は自分のGoogleアカウントだけで動かせる（テストユーザーとして登録）。</p>
+</div>
+
+<h3>Google Cloud Console の手順</h3>
+
+<div class="step-card">
+  <div class="step-num">Step 1</div>
+  <div class="step-title">プロジェクト作成</div>
+  <div class="step-body">
+    <p>console.cloud.google.com → 新しいプロジェクト → 名前は「zuboro-diary」など</p>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">Step 2</div>
+  <div class="step-title">Google Calendar API を有効化</div>
+  <div class="step-body">
+    <p>APIとサービス → ライブラリ → 「Google Calendar API」を検索 → 有効にする</p>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">Step 3</div>
+  <div class="step-title">OAuth同意画面を設定</div>
+  <div class="step-body">
+    <ul>
+      <li>APIとサービス → OAuth同意画面</li>
+      <li>ユーザーの種類：「外部」を選択</li>
+      <li>アプリ名・メールアドレスを入力</li>
+      <li>スコープに <code>calendar.events</code> を追加</li>
+      <li>テストユーザーに自分のGmailを追加（審査前はこれだけが使える）</li>
+    </ul>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">Step 4</div>
+  <div class="step-title">OAuth クライアントID を発行</div>
+  <div class="step-body">
+    <ul>
+      <li>認証情報 → 認証情報を作成 → OAuthクライアントID</li>
+      <li>iOS用：バンドルID（例：<code>win.seadice.zuborodiary</code>）を入力</li>
+      <li>Android用：パッケージ名 + SHA-1フィンガープリントを入力</li>
+      <li>発行されたクライアントIDをFlutterプロジェクトに設定</li>
+    </ul>
+  </div>
+</div>
+
+<h3>FlutterでのGoogle Sign-In実装</h3>
+
+<pre><code># pubspec.yaml に追加
+google_sign_in: ^6.x.x
+googleapis: ^13.x.x
+http: ^1.x.x</code></pre>
+
+<pre><code>final GoogleSignIn _googleSignIn = GoogleSignIn(
+  scopes: [
+    'https://www.googleapis.com/auth/calendar.events',
+  ],
+);
+
+// サインイン
+final account = await _googleSignIn.signIn();
+final auth = await account!.authentication;
+final accessToken = auth.accessToken;</code></pre>
+
+<h3>Google Calendar にイベントを書き込む</h3>
+
+<pre><code>// googleapis パッケージを使う
+final authClient = GoogleHttpClient({'Authorization': 'Bearer $accessToken'});
+final calendarApi = calendar.CalendarApi(authClient);
+
+final event = calendar.Event()
+  ..summary = '今日の日記'  // タイトル（一言要約）
+  ..description = diaryText  // 本文
+  ..start = calendar.EventDateTime(date: DateTime.now())
+  ..end = calendar.EventDateTime(date: DateTime.now());
+
+await calendarApi.events.insert(event, 'primary');</code></pre>
+
+<div class="ok-box">
+  <p>専用カレンダーを作る場合は <code>'primary'</code> の代わりにカレンダーIDを使う。ユーザーのメインカレンダーを汚さない方が親切。</p>
+</div>
+
+<hr>
+
+<h2>Claude APIで日記を生成する</h2>
+
+<h3>使うモデル</h3>
+
+<p>日記生成は <strong>claude-haiku-4-5</strong> が最適。安くて速い。1回あたり約0.3円。</p>
+
+<h3>プロンプト設計</h3>
+
+<pre><code>システムプロンプト：
+あなたはユーザーの代わりに日記を書くAIです。
+ユーザーの文体・語調を学習して、その人らしい日記を書いてください。
+
+ユーザーの過去の日記（文体参考）：
+{過去5件の日記本文}
+
+今日の情報：
+- 日付：{YYYY年MM月DD日（曜日）}
+- 天気：{天気APIから取得 or 不明}
+- ユーザーからの一言：{入力テキスト or なし}
+
+上記をもとに、200〜300文字の自然な日記を1つ書いてください。
+ユーザーが何も入力していない場合でも、その日らしい日記を作ってください。</code></pre>
+
+<h3>天気の取得</h3>
+
+<p>無料で使える天気API：<strong>Open-Meteo</strong>（APIキー不要）</p>
+
+<pre><code>// 位置情報から天気を取得
+https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily=weathercode&timezone=Asia/Tokyo</code></pre>
+
+<p>位置情報の取得には <code>geolocator</code> パッケージを使う。許可が取れなければ天気なしで生成すればいい。</p>
+
+<hr>
+
+<h2>AdMob リワード広告の実装</h2>
+
+<h3>仕組み</h3>
+
+<p>「投稿」ボタンを押すと動画リワード広告が流れる。視聴完了後にGoogle Calendarへの書き込みが実行される。</p>
+
+<pre><code># pubspec.yaml
+google_mobile_ads: ^5.x.x</code></pre>
+
+<pre><code>// リワード広告をロード
+RewardedAd.load(
+  adUnitId: 'ca-app-pub-xxx/yyy',
+  request: const AdRequest(),
+  rewardedAdLoadCallback: RewardedAdLoadCallback(
+    onAdLoaded: (ad) => _rewardedAd = ad,
+    onAdFailedToLoad: (error) => _postDiary(), // 広告失敗時は直接投稿
+  ),
+);
+
+// 広告を表示して投稿
+_rewardedAd?.show(
+  onUserEarnedReward: (ad, reward) => _postDiary(),
+);</code></pre>
+
+<div class="ok-box">
+  <p>広告のロードに失敗した場合は広告なしで直接投稿する。UXを壊さないことを優先。</p>
+</div>
+
+<hr>
+
+<h2>ユーザーの文体を学習する仕組み</h2>
+
+<p>Fine-tuningは使わない。<strong>プロンプトに過去の日記を入れるだけ</strong>で文体が自然に寄っていく。</p>
+
+<ul>
+  <li>Google Calendarから過去5〜10件の日記を取得</li>
+  <li>そのままプロンプトの「文体参考」に入れる</li>
+  <li>使えば使うほど「自分っぽい」日記になる</li>
+</ul>
+
+<p>さらに精度を上げたい場合は、ユーザーが「これは自分らしくない」とフィードバックできるボタンを付けて、再生成できるようにする。</p>
+
+<hr>
+
+<h2>OAuth審査（ストア公開前に必要）</h2>
+
+<p>Calendar への書き込みはセンシティブスコープなので、一般公開前にGoogleの審査が必要。</p>
+
+<table>
+  <tr><th>段階</th><th>できること</th><th>審査</th></tr>
+  <tr><td>開発中</td><td>テストユーザー（自分）だけ使える</td><td>不要</td></tr>
+  <tr><td>ストア公開</td><td>誰でも使える</td><td>必要（数週間）</td></tr>
+</table>
+
+<h3>審査に必要なもの</h3>
+
+<ul>
+  <li>プライバシーポリシーのURL（seadice.win/privacy/ に追加する）</li>
+  <li>アプリのデモ動画（どのようにCalendarを使うかを説明）</li>
+  <li>ホームページURL</li>
+  <li>セキュリティ評価（セキュアなOAuth実装の確認）</li>
+</ul>
+
+<div class="warn-box">
+  <p><strong>戦略：</strong> まず審査なしで自分用として作り切る。動くものができてからApp Store申請 → 同時にOAuth審査を出す。審査待ちの間はTestFlightで配布できる。</p>
+</div>
+
+<hr>
+
+<h2>実装の順番（明日からの作業順）</h2>
+
+<div class="step-card">
+  <div class="step-num">Day 1</div>
+  <div class="step-title">基本UIとGoogle認証</div>
+  <div class="step-body">
+    <ul>
+      <li>Flutterプロジェクト作成（<code>flutter create zuboro_diary</code>）</li>
+      <li>Google Cloud Console でプロジェクト作成・Calendar API有効化</li>
+      <li>google_sign_in パッケージでログイン実装</li>
+      <li>ログイン後にCalendarのイベント一覧を取得して表示</li>
+    </ul>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">Day 2</div>
+  <div class="step-title">Claude API で日記生成</div>
+  <div class="step-body">
+    <ul>
+      <li>http パッケージで Claude API を叩く</li>
+      <li>過去の日記をプロンプトに入れて生成</li>
+      <li>生成された日記をUIに表示</li>
+      <li>一言追加できる入力欄を実装</li>
+    </ul>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">Day 3</div>
+  <div class="step-title">AdMob + 投稿機能</div>
+  <div class="step-body">
+    <ul>
+      <li>AdMob アカウント作成・アプリ登録</li>
+      <li>リワード広告のロード・表示</li>
+      <li>視聴完了後にGoogle Calendarへ書き込み</li>
+      <li>投稿完了のフィードバックUI</li>
+    </ul>
+  </div>
+</div>
+
+<div class="step-card">
+  <div class="step-num">Day 4</div>
+  <div class="step-title">仕上げ・App Store申請準備</div>
+  <div class="step-body">
+    <ul>
+      <li>アイコン・スプラッシュ画面</li>
+      <li>プライバシーポリシー作成</li>
+      <li>App Store Connect にアプリ登録</li>
+      <li>TestFlightでテスト</li>
+      <li>OAuth審査の申請（並行して）</li>
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<h2>明日やること チェックリスト</h2>
+
+<ul class="checklist">
+  <li>Google Cloud Console でプロジェクト作成</li>
+  <li>Google Calendar API を有効化</li>
+  <li>OAuth同意画面の設定（テストユーザーに自分を追加）</li>
+  <li>iOS用 OAuth クライアントID を発行</li>
+  <li>flutter create zuboro_diary</li>
+  <li>pubspec.yaml に google_sign_in / googleapis / http を追加</li>
+  <li>Google Sign-In の実装・動作確認</li>
+  <li>Calendar からイベント取得・表示</li>
+</ul>
+
+<hr>
+
+<h2>APIキーの管理</h2>
+
+<div class="warn-box">
+  <p><strong>絶対にやってはいけない：</strong> Claude APIキーをFlutterコードにべた書きしない。GitHubに上げると漏洩する。</p>
+</div>
+
+<p>対策：</p>
+<ul>
+  <li><code>--dart-define</code> でビルド時に渡す</li>
+  <li>または自前のバックエンド（Cloud Functions など）経由でAPIを叩く</li>
+  <li>最終的にはCloud Functionsにキーを置いてFlutterからFunctionsを叩くのが安全</li>
+</ul>
+
+<a href="/blog/" class="back">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; <a href="/blog/">ブログ</a></p>
+  <p style="margin-top:8px;">&copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

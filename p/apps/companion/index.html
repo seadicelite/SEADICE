@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>コンパニオンプランツ相性診断 — 一緒に植えていい野菜・ダメな野菜を即チェック | SEADICE</title>
+  <meta name="description" content="育てたい野菜を選ぶだけで、一緒に植えていい野菜・植えてはいけない野菜の組み合わせを即チェック。コンパニオンプランツ相性診断ツール。家庭菜園・プランター栽培に。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://seadice.win/apps/companion/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="コンパニオンプランツ相性診断 | SEADICE">
+  <meta property="og:description" content="育てたい野菜を選ぶだけで、一緒に植えていい野菜・植えてはいけない野菜を即チェック。家庭菜園・プランター栽培に。">
+  <meta property="og:url" content="https://seadice.win/apps/companion/">
+  <meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+  <meta property="og:image:alt" content="コンパニオンプランツ相性診断 | SEADICE">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://seadice.win/apps/companion/#app",
+        "name": "コンパニオンプランツ相性診断",
+        "url": "https://seadice.win/apps/companion/",
+        "description": "育てたい野菜を選ぶだけで、一緒に植えていい野菜・植えてはいけない野菜の組み合わせを即チェックできる無料ツール",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web",
+        "inLanguage": "ja",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+        "publisher": { "@id": "https://seadice.win/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" },
+          { "@type": "ListItem", "position": 2, "name": "Webアプリ", "item": "https://seadice.win/#webapps" },
+          { "@type": "ListItem", "position": 3, "name": "コンパニオンプランツ相性診断", "item": "https://seadice.win/apps/companion/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "コンパニオンプランツとは何ですか？", "acceptedAnswer": { "@type": "Answer", "text": "コンパニオンプランツとは、一緒に植えることで互いに良い影響を与え合う植物の組み合わせのことです。害虫を遠ざけたり、生育を促進したり、土を改善したりする効果があります。" } },
+          { "@type": "Question", "name": "トマトと相性の良い野菜は何ですか？", "acceptedAnswer": { "@type": "Answer", "text": "トマトと相性が良い植物はバジル・ニンジン・パセリ・マリーゴールドなどです。バジルはトマトの害虫を遠ざけ、風味を向上させる効果があると言われています。" } },
+          { "@type": "Question", "name": "一緒に植えてはいけない野菜の組み合わせはありますか？", "acceptedAnswer": { "@type": "Answer", "text": "はい。例えばトマトとフェンネル、キュウリとジャガイモ、ネギとマメ類などは相性が悪い組み合わせです。このツールで確認してください。" } },
+          { "@type": "Question", "name": "プランターでもコンパニオンプランツは使えますか？", "acceptedAnswer": { "@type": "Answer", "text": "はい。プランターでも効果的です。特にバジルとトマト、ネギとイチゴなどの組み合わせはプランターでも試しやすくおすすめです。" } },
+          { "@type": "Question", "name": "コンパニオンプランツに農薬不要の効果はありますか？", "acceptedAnswer": { "@type": "Answer", "text": "完全に農薬が不要になるわけではありませんが、ハーブ類を使ったコンパニオンプランツは害虫を遠ざける効果があり、農薬の使用を減らす助けになります。" } },
+          { "@type": "Question", "name": "マリーゴールドはどの野菜と相性が良いですか？", "acceptedAnswer": { "@type": "Answer", "text": "マリーゴールドはほぼすべての野菜と相性が良く、特にトマト・ナス・ピーマン・キュウリなどとよく使われます。土中のセンチュウを抑制する効果もあります。" } },
+          { "@type": "Question", "name": "ネギはコンパニオンプランツとして有効ですか？", "acceptedAnswer": { "@type": "Answer", "text": "はい。ネギはイチゴやキュウリと組み合わせると土壌病害を抑える効果があります。ただしマメ類（大豆・インゲンなど）との相性は悪いため避けてください。" } },
+          { "@type": "Question", "name": "バジルのコンパニオンプランツ効果は本当ですか？", "acceptedAnswer": { "@type": "Answer", "text": "バジルのアロマ成分がアブラムシやハダニを遠ざける効果があると言われています。トマトとの組み合わせは特に有名で、多くの家庭菜園で実践されています。" } },
+          { "@type": "Question", "name": "キュウリと相性の悪い野菜は何ですか？", "acceptedAnswer": { "@type": "Answer", "text": "キュウリはジャガイモ・フェンネルとの相性が悪いとされています。ジャガイモはキュウリの生育を妨げる可能性があります。" } },
+          { "@type": "Question", "name": "このツールのデータはどこから来ていますか？", "acceptedAnswer": { "@type": "Answer", "text": "一般的なコンパニオンプランツの研究・文献をもとにしたデータを使用しています。植物の組み合わせ効果は栽培環境によって異なる場合があるため、あくまで参考としてご利用ください。" } }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #05050C; --card: #0C0C1A; --accent: #00FFD1; --accent2: #38BDF8;
+      --border: #1a1a2e; --text: #e2e8f0; --muted: #64748b;
+      --good: #00FFD1; --bad: #f87171; --neutral: #94a3b8;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Helvetica Neue', sans-serif; line-height: 1.6; }
+
+    header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); background: rgba(5,5,12,0.85); border-bottom: 1px solid var(--border); }
+    nav { height: 56px; padding: 0 24px; max-width: 1040px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-size: 16px; font-weight: 800; letter-spacing: 0.15em; color: var(--accent); text-decoration: none; }
+    .nav-back { color: var(--muted); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .nav-back:hover { color: var(--text); }
+
+    main { max-width: 720px; margin: 0 auto; padding: 96px 24px 80px; }
+    .page-label { font-size: 11px; letter-spacing: 0.25em; color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
+    h1 { font-size: clamp(24px, 5vw, 36px); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+    .page-desc { font-size: 14px; color: var(--muted); margin-bottom: 36px; line-height: 1.8; }
+
+    .tool-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 28px; margin-bottom: 16px; }
+    .tool-label { font-size: 12px; font-weight: 700; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px; }
+
+    .veggie-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 8px; margin-bottom: 20px; }
+    .veggie-btn { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 10px 6px; font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer; transition: all 0.2s; text-align: center; }
+    .veggie-btn:hover { border-color: var(--accent2); color: var(--text); }
+    .veggie-btn.selected { background: rgba(0,255,209,0.1); border-color: var(--accent); color: var(--accent); }
+
+    .result-area { display: none; }
+    .result-area.show { display: block; }
+    .result-header { font-size: 18px; font-weight: 800; margin-bottom: 20px; }
+    .result-header span { background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
+    .companion-section { margin-bottom: 24px; }
+    .companion-title { font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .dot-good { width: 8px; height: 8px; border-radius: 50%; background: var(--good); flex-shrink: 0; }
+    .dot-bad { width: 8px; height: 8px; border-radius: 50%; background: var(--bad); flex-shrink: 0; }
+    .companion-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .companion-tag { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 8px; font-size: 13px; font-weight: 600; }
+    .tag-good { background: rgba(0,255,209,0.1); border: 1px solid rgba(0,255,209,0.3); color: var(--good); }
+    .tag-bad { background: rgba(248,113,113,0.1); border: 1px solid rgba(248,113,113,0.3); color: var(--bad); }
+    .companion-effect { font-size: 12px; color: var(--muted); margin-top: 6px; line-height: 1.7; }
+
+    .empty-result { text-align: center; padding: 32px; color: var(--muted); font-size: 14px; }
+
+    .section { margin-top: 56px; }
+    .section h2 { font-size: 20px; font-weight: 800; margin-bottom: 16px; }
+    .section p, .section li { font-size: 14px; color: var(--muted); line-height: 1.85; }
+    .section ul { padding-left: 20px; }
+    .section li { margin-bottom: 6px; }
+
+    .articles { display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+    .article-link { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; text-decoration: none; color: var(--text); display: flex; justify-content: space-between; align-items: center; transition: border-color 0.2s; }
+    .article-link:hover { border-color: var(--accent); }
+    .article-tag { font-size: 11px; color: var(--accent); letter-spacing: 0.1em; margin-bottom: 6px; }
+    .article-title { font-size: 15px; font-weight: 700; }
+
+    .faq { margin-top: 40px; }
+    .faq h2 { font-size: 20px; font-weight: 800; margin-bottom: 20px; }
+    .faq-item { border-top: 1px solid var(--border); padding: 16px 0; }
+    .faq-q { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+    .faq-a { font-size: 13px; color: var(--muted); line-height: 1.8; }
+
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; }
+    footer p { font-size: 12px; color: var(--muted); }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a class="nav-logo" href="/">SEADICE</a>
+    <a class="nav-back" href="/#webapps">← Webアプリ一覧</a>
+  </nav>
+</header>
+
+<main>
+  <p class="page-label">Web App · 無料ツール</p>
+  <h1>コンパニオンプランツ相性診断</h1>
+  <p class="page-desc">育てたい野菜を選ぶだけで、一緒に植えていい野菜・植えてはいけない野菜の組み合わせを即チェック。農薬を使わずに害虫を遠ざけたい方、プランターで何を一緒に植えようか迷っている方にどうぞ。</p>
+
+  <div class="tool-card">
+    <p class="tool-label">野菜を選んでください</p>
+    <div class="veggie-grid" id="veggie-grid"></div>
+    <div id="result-area" class="result-area">
+      <hr style="border:none;border-top:1px solid var(--border);margin:20px 0;">
+      <p class="result-header" id="result-header"></p>
+      <div id="good-section" class="companion-section"></div>
+      <div id="bad-section" class="companion-section"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>コンパニオンプランツとは</h2>
+    <p>コンパニオンプランツとは、一緒に植えることで互いに良い影響を与え合う植物の組み合わせのことです。害虫を遠ざけたり、生育を促進したり、土を改善する効果があります。うまく組み合わせることで、農薬を減らしながら元気な野菜を育てることができます。</p>
+    <ul style="margin-top:12px;">
+      <li>害虫忌避効果 — 特定の香りや成分が害虫を遠ざける</li>
+      <li>病害抑制効果 — 土壌病害菌の繁殖を抑える</li>
+      <li>生育促進効果 — 根が出す物質が隣の植物の成長を助ける</li>
+      <li>受粉促進効果 — 花が受粉昆虫を引き寄せる</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>関連記事</h2>
+    <div class="articles">
+      <a class="article-link" href="/blog/companion-dame-awase/">
+        <div><p class="article-tag">家庭菜園</p><p class="article-title">一緒に植えてはいけない野菜の組み合わせ12選</p></div>
+        <span style="color:var(--muted);font-size:18px;flex-shrink:0;margin-left:12px;">›</span>
+      </a>
+      <a class="article-link" href="/blog/companion-planter/">
+        <div><p class="article-tag">家庭菜園</p><p class="article-title">プランターで始めるコンパニオンプランツ入門 — 初心者向け組み合わせ5選</p></div>
+        <span style="color:var(--muted);font-size:18px;flex-shrink:0;margin-left:12px;">›</span>
+      </a>
+      <a class="article-link" href="/blog/companion-herb-mushi/">
+        <div><p class="article-tag">家庭菜園</p><p class="article-title">ハーブで虫除け！農薬なしで育てるコンパニオンプランツ活用法</p></div>
+        <span style="color:var(--muted);font-size:18px;flex-shrink:0;margin-left:12px;">›</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="faq">
+    <h2>よくある質問</h2>
+    <div class="faq-item"><p class="faq-q">コンパニオンプランツとは何ですか？</p><p class="faq-a">一緒に植えることで互いに良い影響を与え合う植物の組み合わせのことです。害虫を遠ざけたり、生育を促進したり、土を改善したりする効果があります。</p></div>
+    <div class="faq-item"><p class="faq-q">トマトと相性の良い野菜は何ですか？</p><p class="faq-a">トマトと相性が良い植物はバジル・ニンジン・パセリ・マリーゴールドなどです。バジルはトマトの害虫を遠ざけ、風味を向上させる効果があると言われています。</p></div>
+    <div class="faq-item"><p class="faq-q">一緒に植えてはいけない野菜の組み合わせはありますか？</p><p class="faq-a">はい。例えばトマトとフェンネル、キュウリとジャガイモ、ネギとマメ類などは相性が悪い組み合わせです。このツールで確認してください。</p></div>
+    <div class="faq-item"><p class="faq-q">プランターでもコンパニオンプランツは使えますか？</p><p class="faq-a">はい。プランターでも効果的です。特にバジルとトマト、ネギとイチゴなどはプランターでも試しやすくおすすめです。</p></div>
+    <div class="faq-item"><p class="faq-q">コンパニオンプランツで農薬は不要になりますか？</p><p class="faq-a">完全に不要になるわけではありませんが、ハーブ類を使ったコンパニオンプランツは害虫を遠ざける効果があり、農薬の使用を減らす助けになります。</p></div>
+    <div class="faq-item"><p class="faq-q">マリーゴールドはどの野菜と相性が良いですか？</p><p class="faq-a">マリーゴールドはほぼすべての野菜と相性が良く、特にトマト・ナス・ピーマン・キュウリなどとよく使われます。土中のセンチュウを抑制する効果もあります。</p></div>
+    <div class="faq-item"><p class="faq-q">ネギはコンパニオンプランツとして有効ですか？</p><p class="faq-a">はい。ネギはイチゴやキュウリと組み合わせると土壌病害を抑える効果があります。ただしマメ類（大豆・インゲンなど）との相性は悪いため避けてください。</p></div>
+    <div class="faq-item"><p class="faq-q">バジルのコンパニオンプランツ効果は本当ですか？</p><p class="faq-a">バジルのアロマ成分がアブラムシやハダニを遠ざける効果があると言われています。トマトとの組み合わせは特に有名で、多くの家庭菜園で実践されています。</p></div>
+    <div class="faq-item"><p class="faq-q">キュウリと相性の悪い野菜は何ですか？</p><p class="faq-a">キュウリはジャガイモ・フェンネルとの相性が悪いとされています。ジャガイモはキュウリの生育を妨げる可能性があります。</p></div>
+    <div class="faq-item"><p class="faq-q">このツールのデータはどこから来ていますか？</p><p class="faq-a">一般的なコンパニオンプランツの研究・文献をもとにしたデータを使用しています。植物の組み合わせ効果は栽培環境によって異なる場合があるため、あくまで参考としてご利用ください。</p></div>
+  </div>
+</main>
+
+<footer>
+  <p>
+    <a href="/">SEADICE</a> &nbsp;|&nbsp;
+    <a href="/#webapps">他のWebアプリを見る</a> &nbsp;|&nbsp;
+    <a href="/blog/">ブログ</a> &nbsp;|&nbsp;
+    <a href="/privacy/">プライバシーポリシー</a>
+  </p>
+  <p style="margin-top:8px;">&copy; 2026 SEADICE</p>
+</footer>
+
+<script>
+const DATA = {
+  'トマト': {
+    good: [
+      { name: 'バジル', effect: 'アブラムシ・ハダニを遠ざける。トマトの風味向上にも効果的。' },
+      { name: 'マリーゴールド', effect: 'センチュウ抑制・害虫忌避。ほぼすべての野菜との相性が良い。' },
+      { name: 'ニンジン', effect: 'トマトの根の周りの土をほぐし、通気性を高める。' },
+      { name: 'パセリ', effect: 'トマトの生育を助け、害虫を遠ざける。' },
+      { name: 'ニラ', effect: 'トマトの土壌病害（青枯れ病・萎凋病）を抑制する。' },
+    ],
+    bad: [
+      { name: 'フェンネル', effect: 'フェンネルはほとんどの野菜の生育を抑制する。トマトにも悪影響。' },
+      { name: 'キャベツ', effect: '同じ場所では互いの生育を妨げる場合がある。' },
+      { name: 'トウモロコシ', effect: 'ワームが両方の作物を好むため害虫被害が増えやすい。' },
+    ]
+  },
+  'キュウリ': {
+    good: [
+      { name: 'ネギ', effect: 'キュウリの蔓割れ病・べと病を抑制。根元に植えると効果的。' },
+      { name: 'パセリ', effect: 'キュウリの生育を助け、害虫を遠ざける。' },
+      { name: 'マリーゴールド', effect: 'センチュウ抑制・害虫忌避。根元に植えると効果的。' },
+      { name: 'ディル', effect: 'アブラムシを遠ざけ、益虫を引き寄せる。' },
+    ],
+    bad: [
+      { name: 'ジャガイモ', effect: 'ジャガイモ疫病がキュウリにも感染するリスクがある。' },
+      { name: 'フェンネル', effect: 'フェンネルの根の物質がキュウリの生育を妨げる。' },
+      { name: 'トマト', effect: '水分・肥料の要求量が異なり管理が難しい。病害が共通している。' },
+    ]
+  },
+  'ナス': {
+    good: [
+      { name: 'マリーゴールド', effect: 'センチュウ抑制・アブラムシ忌避。' },
+      { name: 'バジル', effect: 'アブラムシ・ハダニを遠ざける。' },
+      { name: 'ピーマン', effect: '同じ環境を好み、相性が良く共存できる。' },
+      { name: 'タイム', effect: '害虫を遠ざけ、益虫を引き寄せる。' },
+    ],
+    bad: [
+      { name: 'フェンネル', effect: 'ナスの生育を抑制する。' },
+      { name: 'ジャガイモ', effect: '同科（ナス科）のため病害が共通し互いに感染リスクが高い。' },
+    ]
+  },
+  'ピーマン': {
+    good: [
+      { name: 'バジル', effect: 'アブラムシを遠ざけ、ピーマンの風味を高める。' },
+      { name: 'マリーゴールド', effect: 'センチュウ抑制・害虫忌避。' },
+      { name: 'ニンジン', effect: '土をほぐし通気性を高める。' },
+    ],
+    bad: [
+      { name: 'フェンネル', effect: 'ピーマンの生育を抑制する。' },
+      { name: 'ジャガイモ', effect: '同科（ナス科）のため病害リスクが高い。' },
+    ]
+  },
+  'イチゴ': {
+    good: [
+      { name: 'ネギ', effect: 'イチゴの根腐れ病・萎黄病を抑制。' },
+      { name: 'ニンニク', effect: '害虫忌避・土壌殺菌効果。' },
+      { name: 'マリーゴールド', effect: 'センチュウ抑制。' },
+      { name: 'ボリジ', effect: '蜂を引き寄せ受粉を助ける。' },
+    ],
+    bad: [
+      { name: 'キャベツ', effect: 'イチゴの生育を妨げる場合がある。' },
+      { name: 'フェンネル', effect: 'イチゴの生育を抑制する。' },
+    ]
+  },
+  'ニンジン': {
+    good: [
+      { name: 'トマト', effect: 'ニンジンの生育を助け、互いの成長を促進する。' },
+      { name: 'ネギ', effect: 'ニンジンの害虫（キアゲハ幼虫）を遠ざける。' },
+      { name: 'レタス', effect: '日陰を作ってニンジンの乾燥を防ぐ。' },
+    ],
+    bad: [
+      { name: 'フェンネル', effect: 'ニンジンの生育を妨げる。' },
+      { name: 'ディル', effect: 'ニンジンと同科のため病害が共通しやすい。' },
+    ]
+  },
+  'ホウレンソウ': {
+    good: [
+      { name: 'イチゴ', effect: 'スペースを有効活用でき、互いの生育に悪影響なし。' },
+      { name: 'ニンニク', effect: '害虫忌避。ホウレンソウの病害を抑える。' },
+      { name: 'ラディッシュ', effect: '生育サイクルが短く、スペース活用になる。' },
+    ],
+    bad: [
+      { name: 'フェンネル', effect: 'ホウレンソウの生育を抑制する。' },
+    ]
+  },
+  'レタス': {
+    good: [
+      { name: 'ニンジン', effect: 'ニンジンがレタスの土をほぐし、互いに共存できる。' },
+      { name: 'ラディッシュ', effect: 'スペース活用。ラディッシュがレタスの害虫を遠ざける。' },
+      { name: 'マリーゴールド', effect: 'アブラムシを遠ざける。' },
+    ],
+    bad: [
+      { name: 'フェンネル', effect: 'レタスの生育を著しく妨げる。' },
+      { name: 'セロリ', effect: 'レタスの生育を抑制する場合がある。' },
+    ]
+  },
+  'ネギ': {
+    good: [
+      { name: 'キュウリ', effect: 'キュウリの蔓割れ病・べと病を抑制。' },
+      { name: 'イチゴ', effect: '根腐れ病・萎黄病を抑制。' },
+      { name: 'ニンジン', effect: '害虫忌避効果。互いの成長を助ける。' },
+    ],
+    bad: [
+      { name: 'マメ類', effect: 'ネギの成分がマメ類の根粒菌を死滅させ生育を妨げる。' },
+      { name: 'インゲン', effect: 'ネギがインゲンの根粒菌に悪影響を与える。' },
+    ]
+  },
+  'バジル': {
+    good: [
+      { name: 'トマト', effect: 'アブラムシ・ハダニを遠ざけ、トマトの風味を向上させる。' },
+      { name: 'ピーマン', effect: '害虫忌避効果。' },
+      { name: 'ナス', effect: 'アブラムシを遠ざける。' },
+    ],
+    bad: [
+      { name: 'セージ', effect: 'バジルの生育を妨げる場合がある。' },
+    ]
+  },
+  'マリーゴールド': {
+    good: [
+      { name: 'トマト', effect: 'センチュウ抑制・アブラムシ忌避。' },
+      { name: 'キュウリ', effect: '害虫忌避・センチュウ抑制。' },
+      { name: 'ナス', effect: 'センチュウ抑制・アブラムシ忌避。' },
+      { name: 'ピーマン', effect: '害虫忌避・センチュウ抑制。' },
+    ],
+    bad: []
+  },
+  'ジャガイモ': {
+    good: [
+      { name: 'ホウレンソウ', effect: 'スペースを有効活用できる。' },
+      { name: 'マリーゴールド', effect: 'センチュウ抑制。' },
+      { name: 'ニンニク', effect: '害虫忌避・土壌殺菌効果。' },
+    ],
+    bad: [
+      { name: 'トマト', effect: '同科（ナス科）のため疫病などの病害が共通し感染リスクが高い。' },
+      { name: 'キュウリ', effect: 'ジャガイモ疫病がキュウリに感染するリスクがある。' },
+      { name: 'カボチャ', effect: '互いの生育を妨げる場合がある。' },
+    ]
+  },
+};
+
+const veggies = Object.keys(DATA);
+let selected = null;
+
+function init() {
+  const grid = document.getElementById('veggie-grid');
+  veggies.forEach(v => {
+    const btn = document.createElement('button');
+    btn.className = 'veggie-btn';
+    btn.textContent = v;
+    btn.onclick = () => selectVeggie(v, btn);
+    grid.appendChild(btn);
+  });
+}
+
+function selectVeggie(name, btn) {
+  document.querySelectorAll('.veggie-btn').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  selected = name;
+  showResult(name);
+}
+
+function showResult(name) {
+  const data = DATA[name];
+  const area = document.getElementById('result-area');
+  const header = document.getElementById('result-header');
+  const goodSection = document.getElementById('good-section');
+  const badSection = document.getElementById('bad-section');
+
+  header.innerHTML = `<span>${name}</span> のコンパニオンプランツ`;
+
+  goodSection.innerHTML = `
+    <div class="companion-title"><span class="dot-good"></span>一緒に植えるといい組み合わせ</div>
+    <div class="companion-list">
+      ${data.good.map(g => `<div><span class="companion-tag tag-good">${g.name}</span><p class="companion-effect">${g.effect}</p></div>`).join('')}
+    </div>
+  `;
+
+  badSection.innerHTML = data.bad.length > 0 ? `
+    <div class="companion-title" style="margin-top:20px;"><span class="dot-bad"></span>一緒に植えてはいけない組み合わせ</div>
+    <div class="companion-list">
+      ${data.bad.map(b => `<div><span class="companion-tag tag-bad">${b.name}</span><p class="companion-effect">${b.effect}</p></div>`).join('')}
+    </div>
+  ` : '';
+
+  area.classList.add('show');
+}
+
+init();
+</script>
+
+</body>
+</html>

@@ -160,6 +160,46 @@
         "destination": "/tools/image-resize/index.html"
       },
       {
+        "source": "/apps/eigyobi/**",
+        "destination": "/apps/eigyobi/index.html"
+      },
+      {
+        "source": "/apps/companion/**",
+        "destination": "/apps/companion/index.html"
+      },
+      {
+        "source": "/blog/companion-dame-awase/**",
+        "destination": "/blog/companion-dame-awase/index.html"
+      },
+      {
+        "source": "/blog/companion-planter/**",
+        "destination": "/blog/companion-planter/index.html"
+      },
+      {
+        "source": "/blog/companion-herb-mushi/**",
+        "destination": "/blog/companion-herb-mushi/index.html"
+      },
+      {
+        "source": "/blog/eigyobi-kazoekata/**",
+        "destination": "/blog/eigyobi-kazoekata/index.html"
+      },
+      {
+        "source": "/blog/eigyobi-obon-nenmatsu/**",
+        "destination": "/blog/eigyobi-obon-nenmatsu/index.html"
+      },
+      {
+        "source": "/blog/eigyobi-shiharai/**",
+        "destination": "/blog/eigyobi-shiharai/index.html"
+      },
+      {
+        "source": "/blog/seo-diary-20260628/**",
+        "destination": "/blog/seo-diary-20260628/index.html"
+      },
+      {
+        "source": "/blog/zuboro-diary-plan/**",
+        "destination": "/blog/zuboro-diary-plan/index.html"
+      },
+      {
         "source": "/tools/jikka-seiri/**",
         "destination": "/tools/jikka-seiri/index.html"
       },
