@@ -224,6 +224,34 @@
         "destination": "/privacy/pet-health-app3/index.html"
       },
       {
+        "source": "/tools/camping/**",
+        "destination": "/tools/camping/index.html"
+      },
+      {
+        "source": "/apps/camping-app1/**",
+        "destination": "/apps/camping-app1/index.html"
+      },
+      {
+        "source": "/apps/camping-app2/**",
+        "destination": "/apps/camping-app2/index.html"
+      },
+      {
+        "source": "/apps/camping-app3/**",
+        "destination": "/apps/camping-app3/index.html"
+      },
+      {
+        "source": "/privacy/camping-app1/**",
+        "destination": "/privacy/camping-app1/index.html"
+      },
+      {
+        "source": "/privacy/camping-app2/**",
+        "destination": "/privacy/camping-app2/index.html"
+      },
+      {
+        "source": "/privacy/camping-app3/**",
+        "destination": "/privacy/camping-app3/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
