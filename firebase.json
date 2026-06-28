@@ -188,6 +188,34 @@
         "destination": "/privacy/kateisaien-app3/index.html"
       },
       {
+        "source": "/tools/bosai/**",
+        "destination": "/tools/bosai/index.html"
+      },
+      {
+        "source": "/apps/bosai-app1/**",
+        "destination": "/apps/bosai-app1/index.html"
+      },
+      {
+        "source": "/apps/bosai-app2/**",
+        "destination": "/apps/bosai-app2/index.html"
+      },
+      {
+        "source": "/apps/bosai-app3/**",
+        "destination": "/apps/bosai-app3/index.html"
+      },
+      {
+        "source": "/privacy/bosai-app1/**",
+        "destination": "/privacy/bosai-app1/index.html"
+      },
+      {
+        "source": "/privacy/bosai-app2/**",
+        "destination": "/privacy/bosai-app2/index.html"
+      },
+      {
+        "source": "/privacy/bosai-app3/**",
+        "destination": "/privacy/bosai-app3/index.html"
+      },
+      {
         "source": "/tools/",
         "destination": "/tools/index.html"
       },
