@@ -320,6 +320,14 @@
         "destination": "/privacy/camping-app3/index.html"
       },
       {
+        "source": "/apps/camping_app1/**",
+        "destination": "/apps/camping_app1/index.html"
+      },
+      {
+        "source": "/apps/camping_app2/**",
+        "destination": "/apps/camping_app2/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
