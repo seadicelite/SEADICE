@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "Bash(flutter build *)",
+      "Bash(flutter run *)",
+      "Bash(firebase deploy *)",
+      "Bash(git pull *)",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git stash *)",
+      "Bash(git rebase *)",
+      "Bash(git log *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(rsync *)",
+      "Bash(cp *)",
+      "Bash(cwebp *)",
+      "Bash(sips *)"
+    ]
+  }
+}
