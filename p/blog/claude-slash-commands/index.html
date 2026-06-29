@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude Codeのスラッシュコマンドで作業を自動化する方法 | SEADICE STUDIO</title>
+<meta name="description" content="Claude Codeの/.claude/commands/にMarkdownを置くだけで独自スラッシュコマンドが作れる。ニッチアプリ自動生成の/gachaコマンドを例に、仕組みと活用法をFAQ形式で解説。">
+<link rel="canonical" href="https://seadice.win/blog/claude-slash-commands/">
+<meta property="og:title" content="Claude Codeのスラッシュコマンドで作業を自動化する方法 | SEADICE STUDIO">
+<meta property="og:description" content="Claude Codeの/.claude/commands/にMarkdownを置くだけで独自スラッシュコマンドが作れる。ニッチアプリ自動生成の/gachaコマンドを例に、仕組みと活用法をFAQ形式で解説。">
+<meta property="og:image" content="https://seadice.win/icons/blog_dev.webp">
+<meta property="og:url" content="https://seadice.win/blog/claude-slash-commands/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Claude Codeのスラッシュコマンドで作業を自動化する方法","datePublished":"2026-06-29","author":{"@type":"Organization","name":"SEADICE STUDIO"},"publisher":{"@type":"Organization","name":"SEADICE STUDIO","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.faq{margin:32px 0}.faq-item{border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden}.faq-q{background:var(--card);padding:16px 20px;font-size:15px;font-weight:700;color:var(--text)}.faq-q::before{content:"Q. ";color:var(--accent)}.faq-a{padding:16px 20px;font-size:14px;color:#cbd5e1;line-height:1.8;border-top:1px solid var(--border)}.faq-a::before{content:"A. ";color:var(--accent2);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / Claude Codeのスラッシュコマンドで作業を自動化する方法</p>
+  <img src="/icons/blog_dev.webp" alt="開発" width="680" height="340" style="width:100%;height:240px;object-fit:cover;border-radius:16px;margin-bottom:24px" loading="lazy">
+  <span class="tag">開発・自動化</span>
+  <h1>Claude Codeのスラッシュコマンドで作業を自動化する方法</h1>
+  <p class="meta"><time datetime="2026-06-29">2026-06-29</time> · SEADICE STUDIO</p>
+  <div class="body">
+
+<p>Claude Codeには、Markdownファイルを1つ置くだけで独自のスラッシュコマンドを作れる機能がある。SEADICEでは<code>/gacha</code>というコマンドを作り、ニッチリサーチからFlutterアプリのコード生成、サイトへの追加、デプロイまでを1コマンドで実行できるようにした。</p>
+
+<p>この記事では、その仕組みと実際の使い方をFAQ形式で詳しく解説する。</p>
+
+<h2>スラッシュコマンドとは何か</h2>
+
+<p>Claude Codeのチャット欄で<code>/</code>から始まるコマンドを打つと、あらかじめ設定したプロンプトが自動的に読み込まれて実行される機能だ。<code>/help</code>や<code>/clear</code>といった組み込みコマンドと同じ感覚で、自分専用のコマンドを追加できる。</p>
+
+<p>プロンプトが長くなってきた処理や、毎回同じ手順で実行する作業に特に効果的だ。</p>
+
+<h2>仕組み</h2>
+
+<p>プロジェクトの<code>.claude/commands/</code>フォルダにMarkdownファイルを置くだけで認識される。ファイル名がコマンド名になる。</p>
+
+<pre><code>.claude/
+  commands/
+    gacha.md   → /gacha で実行
+    deploy.md  → /deploy で実行
+    review.md  → /review で実行</code></pre>
+
+<p>ファイルの中身がそのままClaudeへのプロンプトとして使われる。Markdownで書けるので、手順を番号付きリストで整理したり、コードブロックでサンプルを示したりできる。</p>
+
+<h2>よくある質問（FAQ）</h2>
+
+<div class="faq">
+
+<div class="faq-item">
+<p class="faq-q">スラッシュコマンドはどこに置けばいい？</p>
+<p class="faq-a">プロジェクトローカルなら<code>.claude/commands/コマンド名.md</code>。全プロジェクトで使いたい場合は<code>~/.claude/commands/コマンド名.md</code>に置くとグローバルになる。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">いくつまで登録できる？</p>
+<p class="faq-a">制限はない。<code>.claude/commands/</code>に置いたMarkdownファイルの数だけコマンドが増える。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">プロジェクトごとに別々のコマンドを持てる？</p>
+<p class="faq-a">持てる。各プロジェクトの<code>.claude/commands/</code>は独立しているので、プロジェクトに合わせた専用コマンドを設定できる。グローバル（<code>~/.claude/commands/</code>）と併用も可能。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">コマンドの中身はどう書けばいい？</p>
+<p class="faq-a">普通のMarkdownで書く。手順をステップで並べたり、コードブロックでサンプルを示したり、「このフォルダにファイルを作る」「このコマンドを実行する」といった具体的な指示を書けばそのとおりに動く。Claudeへのプロンプトと同じ書き方で問題ない。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">コマンドを編集するには？</p>
+<p class="faq-a">VS Codeなどのエディタで<code>.claude/commands/コマンド名.md</code>を直接開いて編集するだけ。Claude Code上でファイルを編集してもいい。変更は次回コマンドを実行したときから反映される。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">コマンドをGitで管理できる？</p>
+<p class="faq-a">できる。<code>.claude/commands/</code>はプロジェクトのファイルなので、そのままgit管理できる。チームで共有したり、バージョン管理したりするのに向いている。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">Claude APIの料金はかかる？</p>
+<p class="faq-a">かからない。スラッシュコマンドはClaude Codeのサブスクリプション（Claude.ai Pro/Max）の範囲内で動く。API料金は発生しない。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">実行中に確認プロンプト（Yes/No）が頻繁に出る。減らせる？</p>
+<p class="faq-a">減らせる。<code>.claude/settings.json</code>の<code>permissions.allow</code>によく使うコマンドのパターンを登録しておくと自動承認される。<code>"Bash(flutter build *)"</code>や<code>"Bash(firebase deploy *)"</code>のように書く。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">コマンドの中でファイルを作ったり編集したりできる？</p>
+<p class="faq-a">できる。Claude Codeが持っているすべての能力（ファイル作成・編集・Bash実行・Web検索など）をコマンドの中でそのまま使える。プロンプトに「このファイルを作れ」と書けば作るし「このコマンドを実行しろ」と書けば実行する。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">コマンドの途中で止めることはできる？</p>
+<p class="faq-a">できる。Claude Codeの通常の操作と同様に、実行中にEscキーや中断ボタンで止められる。途中まで生成したファイルはそのまま残る。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">コマンドに引数を渡せる？</p>
+<p class="faq-a">渡せる。<code>/gacha 釣り</code>のようにコマンドの後ろに追加テキストを書くと、Claude Codeがそれを文脈として読み取って処理する。プロンプトの中で<code>$ARGUMENTS</code>という変数名で参照することも可能。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">自動でデプロイまでやらせて大丈夫？</p>
+<p class="faq-a">用途次第。SEADICEの<code>/gacha</code>は最後にgit commitとfirebase deployまで自動実行する。ただし、デプロイ前に生成物を確認したい場合はコマンドからデプロイ部分を外して手動でやる設計にした方が安全。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">コマンドが認識されない場合は？</p>
+<p class="faq-a">Claude Codeを再起動すると解決することが多い。コマンドはClaude Code起動時に読み込まれるため、新しく追加した場合は再起動が必要なことがある。</p>
+</div>
+
+</div>
+
+<h2>SEADICEの/gachaコマンドの実例</h2>
+
+<p>SEADICEでは以下の処理を1コマンドで実行できるようにした。</p>
+
+<ol>
+<li>WebSearchで日本のApp Storeの競合が少いニッチを調査</li>
+<li>既存の<code>p/tools/</code>と重複しないニッチを選定</li>
+<li>ニッチのランディングページHTML（<code>p/tools/{slug}/</code>）を生成</li>
+<li>アプリ詳細ページHTML×3（App Storeメタデータ付き）を生成</li>
+<li>プライバシーポリシーHTML×3を生成</li>
+<li><code>p/tools/index.html</code>と<code>p/index.html</code>にカードを追加</li>
+<li>Flutterアプリのコード（<code>lib/main.dart</code>・<code>pubspec.yaml</code>）×3を生成</li>
+<li><code>flutter create</code>でBundle ID（<code>win.seadice.*</code>）を自動設定</li>
+<li><code>firebase.json</code>にrewriteを追加</li>
+<li>git commit & firebase deploy</li>
+</ol>
+
+<p>これだけの処理を毎回手作業でやっていたら数時間かかる。<code>/gacha</code>と打つだけで全部終わる。</p>
+
+<h2>どんな作業をコマンド化すべきか</h2>
+
+<p>以下の条件に当てはまる作業はコマンド化の候補だ。</p>
+
+<ul>
+<li>毎回同じ手順で実行する（テンプレートが決まっている）</li>
+<li>ステップが多くて手順を覚えるのが大変</li>
+<li>複数のファイルを一度に作成・編集する必要がある</li>
+<li>「調査 → 生成 → ファイル保存 → デプロイ」のようなパイプラインになっている</li>
+</ul>
+
+<p>逆に、毎回内容が大きく変わる作業や、一度しかやらない作業はコマンド化しても意味が薄い。</p>
+
+<h2>まとめ</h2>
+
+<p>Claude Codeのスラッシュコマンドは、繰り返し作業の自動化に非常に効果的だ。Markdownファイルを1つ置くだけという手軽さで、API料金なし・サブスク範囲内で動く。</p>
+
+<p>プロンプトを丁寧に書き込むほど精度が上がり、一度作ってしまえば毎回ゼロから指示を出す必要がなくなる。まず小さなコマンドから始めて、少しずつ育てていくのがおすすめだ。</p>
+
+    <a href="/blog/" class="back">← ブログ一覧へ</a>
+  </div>
+</article>
+<footer>
+  <p>&copy; 2026 SEADICE STUDIO</p>
+</footer>
+</body>
+</html>

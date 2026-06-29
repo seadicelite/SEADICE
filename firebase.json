@@ -328,6 +328,10 @@
         "destination": "/apps/camping_app2/index.html"
       },
       {
+        "source": "/blog/claude-slash-commands/**",
+        "destination": "/blog/claude-slash-commands/index.html"
+      },
+      {
         "source": "/tools/tsuri/**",
         "destination": "/tools/tsuri/index.html"
       },
