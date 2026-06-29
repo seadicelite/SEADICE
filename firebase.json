@@ -328,6 +328,34 @@
         "destination": "/apps/camping_app2/index.html"
       },
       {
+        "source": "/tools/tsuri/**",
+        "destination": "/tools/tsuri/index.html"
+      },
+      {
+        "source": "/apps/tsuri-app1/**",
+        "destination": "/apps/tsuri-app1/index.html"
+      },
+      {
+        "source": "/apps/tsuri-app2/**",
+        "destination": "/apps/tsuri-app2/index.html"
+      },
+      {
+        "source": "/apps/tsuri-app3/**",
+        "destination": "/apps/tsuri-app3/index.html"
+      },
+      {
+        "source": "/privacy/tsuri-app1/**",
+        "destination": "/privacy/tsuri-app1/index.html"
+      },
+      {
+        "source": "/privacy/tsuri-app2/**",
+        "destination": "/privacy/tsuri-app2/index.html"
+      },
+      {
+        "source": "/privacy/tsuri-app3/**",
+        "destination": "/privacy/tsuri-app3/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

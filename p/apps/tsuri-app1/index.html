@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>釣果記録マスター - 釣りログ・ポイント管理アプリ｜SEADICE</title>
+<meta name="description" content="釣れた魚・場所・仕掛け・天気を簡単記録。GPS連携でポイントを地図保存、過去の釣果を分析してもっと釣れるようになる釣果記録アプリ。">
+<link rel="canonical" href="https://seadice.win/apps/tsuri-app1/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:title" content="釣果記録マスター | SEADICE">
+<meta property="og:description" content="釣れた魚・場所・仕掛け・天気を簡単記録。GPS連携ポイント保存と釣果分析機能付き。">
+<meta property="og:url" content="https://seadice.win/apps/tsuri-app1/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"釣りサポートガイド","item":"https://seadice.win/tools/tsuri/"},{"@type":"ListItem","position":3,"name":"釣果記録マスター","item":"https://seadice.win/apps/tsuri-app1/"}]},{"@type":"SoftwareApplication","name":"釣果記録マスター","applicationCategory":"UtilitiesApplication","operatingSystem":"iOS","description":"釣れた魚・場所・仕掛け・天気を簡単記録できる釣果ログアプリ。","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--bg2:#0C0C1A;--teal:#00FFD1;--blue:#38BDF8;--text:#E2E8F0;--text2:#94A3B8;--border:#1E2A3A}body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo,sans-serif;line-height:1.7}a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:800px;margin:0 auto;padding:0 20px}header{border-bottom:1px solid var(--border);padding:14px 0;background:rgba(5,5,12,.92);position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.header-inner{display:flex;align-items:center;justify-content:space-between}.logo{font-size:1rem;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--teal),var(--blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.back-link{font-size:.8rem;color:var(--text2)}.hero{padding:64px 0 48px;border-bottom:1px solid var(--border)}.badge-soon{display:inline-block;font-size:.75rem;color:var(--blue);border:1px solid var(--blue);border-radius:4px;padding:3px 12px;margin-bottom:20px}.hero h1{font-size:clamp(1.6rem,5vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:12px}.hero-sub{font-size:1rem;color:var(--text2);margin-bottom:20px}.privacy-link{font-size:.8rem;color:var(--text2)}.section{padding:48px 0;border-bottom:1px solid var(--border)}.section-label{font-size:11px;letter-spacing:.2em;color:var(--teal);text-transform:uppercase;margin-bottom:12px}.section-title{font-size:1.2rem;font-weight:800;margin-bottom:20px}.meta-card{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--teal);border-radius:12px;padding:24px;margin-bottom:12px}.meta-row{display:flex;gap:12px;margin-bottom:12px;flex-wrap:wrap}.meta-row:last-child{margin-bottom:0}.meta-label{font-size:.75rem;color:var(--teal);font-weight:700;min-width:140px;flex-shrink:0}.meta-value{font-size:.875rem;color:var(--text);line-height:1.7}.features-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}.feature-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:18px 16px}.feature-num{font-size:10px;letter-spacing:.2em;color:var(--teal);text-transform:uppercase;margin-bottom:8px}.feature-title{font-size:.9rem;font-weight:700;color:#fff;margin-bottom:6px}.feature-desc{font-size:.8rem;color:var(--text2);line-height:1.6}.ad-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}.ad-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:16px}.ad-type{font-size:.75rem;color:var(--blue);font-weight:700;margin-bottom:6px}.ad-desc{font-size:.8rem;color:var(--text2);line-height:1.6}.future-list{list-style:none;display:flex;flex-direction:column;gap:10px}.future-list li{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:12px 16px;font-size:.875rem;color:var(--text2)}.why-text{font-size:.95rem;color:var(--text2);line-height:1.9}footer{border-top:1px solid var(--border);padding:24px 0;text-align:center;font-size:.8rem;color:var(--text2)}</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="header-inner">
+<a href="https://seadice.win/" class="logo">SEADICE</a>
+<a href="https://seadice.win/tools/tsuri/" class="back-link">← 釣りサポートガイド</a>
+</div>
+</div>
+</header>
+
+<main>
+<div class="wrap">
+
+<section class="hero">
+<span class="badge-soon">App Store近日公開</span>
+<h1>釣果記録マスター</h1>
+<p class="hero-sub">釣果・ポイント・仕掛けを記録して、もっと釣れる自分になる</p>
+<p class="privacy-link"><a href="https://seadice.win/privacy/tsuri-app1/">プライバシーポリシー</a></p>
+</section>
+
+<section class="section">
+<p class="section-label">App Store Metadata</p>
+<h2 class="section-title">App Store申請情報</h2>
+<div class="meta-card">
+<div class="meta-row"><span class="meta-label">名前</span><span class="meta-value">釣果記録マスター</span></div>
+<div class="meta-row"><span class="meta-label">サブタイトル</span><span class="meta-value">釣りログ・ポイント管理</span></div>
+<div class="meta-row"><span class="meta-label">カテゴリ</span><span class="meta-value">ユーティリティ</span></div>
+<div class="meta-row"><span class="meta-label">プライバシーポリシーURL</span><span class="meta-value">https://seadice.win/privacy/tsuri-app1/</span></div>
+<div class="meta-row"><span class="meta-label">プロモーション用テキスト</span><span class="meta-value">釣った魚・場所・仕掛けをワンタップで記録。GPSポイント保存と釣果分析で、あなたの釣りスキルをデータで可視化します。</span></div>
+<div class="meta-row"><span class="meta-label">概要</span><span class="meta-value">「また忘れた、あのポイントどこだっけ」「あの仕掛けで何が釣れたっけ」——釣り人なら誰もが経験する悔しさを、釣果記録マスターが解決します。<br><br>【かんたん記録】魚種・サイズ・重量・場所・仕掛け・天気・潮汐を30秒以内に入力完了。写真も添付できて記録が鮮やかに残ります。<br><br>【GPSポイント保存】釣れたポイントをワンタップでGPS保存。地図上にピンを立てて、次回も同じ場所に迷わずたどり着けます。<br><br>【釣果分析】月別・魚種別・場所別の釣果グラフで自分の釣りパターンを把握。どの時期にどの場所でどの仕掛けが有効かが一目でわかります。<br><br>【リワード広告でプレミアム解放】広告を見ることで詳細な統計グラフやポイントの無制限保存機能を利用できます。</span></div>
+<div class="meta-row"><span class="meta-label">キーワード</span><span class="meta-value">釣果記録,釣りログ,フィッシングアプリ,釣りポイント,魚釣り,釣り日記,アングラー,釣果管理,GPS釣り</span></div>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Features</p>
+<h2 class="section-title">機能一覧</h2>
+<div class="features-grid">
+<div class="feature-card">
+<p class="feature-num">01</p>
+<p class="feature-title">ワンタップ釣果入力</p>
+<p class="feature-desc">魚種・サイズ・場所・仕掛け・天気を30秒で記録。写真も添付してリアルな釣果ログを作成。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">02</p>
+<p class="feature-title">GPSポイント保存</p>
+<p class="feature-desc">釣れた瞬間に現在地をGPS保存。地図ビューでポイント一覧を確認、次回の釣行計画に活用。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">03</p>
+<p class="feature-title">釣果分析グラフ</p>
+<p class="feature-desc">月別・魚種別・場所別の釣果統計をグラフ表示。自分の釣りパターンをデータで把握できる。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">04</p>
+<p class="feature-title">仕掛けデータベース</p>
+<p class="feature-desc">使用した仕掛け・ルアー・エサを記録して釣果と紐付け。何が釣れる仕掛けかが蓄積される。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">05</p>
+<p class="feature-title">釣行カレンダー</p>
+<p class="feature-desc">釣行日をカレンダーで管理。月ごとの釣行回数・総釣果数をカレンダービューで一覧確認。</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Ads</p>
+<h2 class="section-title">広告について</h2>
+<div class="ad-grid">
+<div class="ad-card">
+<p class="ad-type">バナー広告</p>
+<p class="ad-desc">記録一覧画面の下部に常時表示。釣り用品・釣具メーカーの広告が表示されます。</p>
+</div>
+<div class="ad-card">
+<p class="ad-type">インタースティシャル広告</p>
+<p class="ad-desc">釣果記録の保存完了時に表示。操作の自然な区切りで表示します。</p>
+</div>
+<div class="ad-card">
+<p class="ad-type">リワード広告</p>
+<p class="ad-desc">「広告を見る」ボタンで詳細統計グラフ・ポイント無制限保存機能を一時解放。</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Roadmap</p>
+<h2 class="section-title">今後実装予定の機能</h2>
+<ul class="future-list">
+<li>釣果のSNSシェア機能（画像カード自動生成）</li>
+<li>釣り仲間とのポイント共有・グループ機能</li>
+<li>気象APIとの連携による釣行最適日アドバイス</li>
+<li>魚種ごとのサイズ記録とパーソナルベスト管理</li>
+</ul>
+</section>
+
+<section class="section">
+<p class="section-label">Why</p>
+<h2 class="section-title">なぜこのアプリが必要か</h2>
+<p class="why-text">日本には約700万人のアングラーがいると言われていますが、釣果をデジタルで体系的に管理しているのはほんの一部です。多くの釣り人は記憶や手書きメモに頼っており、「去年のあの場所」「あのルアーで釣れた魚」の情報が失われています。釣果記録マスターは、あなたの釣りの経験をすべてデータとして蓄積し、次の釣行をより成功させるための「釣りの個人データベース」として機能します。記録を続けるほど釣果が上がる、そんな好循環を生み出します。</p>
+</section>
+
+</div>
+</main>
+
+<footer>
+<div class="wrap">
+<p>&copy; 2026 SEADICE &nbsp;|&nbsp; <a href="https://seadice.win/privacy/tsuri-app1/">プライバシーポリシー</a></p>
+</div>
+</footer>
+</body>
+</html>
