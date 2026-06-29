@@ -166,6 +166,29 @@ flutter:
 - `MobileAds.instance.initialize()` を `runApp()` 前に呼ぶ
 - `AdWidget` は `SizedBox(height: 50)` でラップ
 
+**flutter create でプロジェクト初期化とBundle ID設定**:
+
+各アプリディレクトリで以下を実行してiOS/Android/Webプロジェクトを作成し、Bundle IDを設定する。
+
+```bash
+cd /Users/hidenori/Developer/apps-pipeline/apps/{slug}_appN
+flutter create --org win.seadice --project-name {slug}_appN --platforms ios,android,web . --quiet
+```
+
+Bundle IDは `win.seadice.{slugCamelCase}App1` の形式になる（例: `win.seadice.tsuriApp1`）。
+
+`ios/Runner/Info.plist` の `</dict>` の直前に以下を追加する（AdMobクラッシュ防止）：
+```xml
+<key>GADApplicationIdentifier</key>
+<string>ca-app-pub-3940256099942544~1458002511</string>
+```
+
+NotoSansJPフォントをコピー：
+```bash
+mkdir -p assets/fonts
+cp /Users/hidenori/Developer/NotoSansJP-VariableFont_wght.ttf assets/fonts/
+```
+
 **README.md**: アプリ概要・ターゲット・機能・マネタイズ（AdMob）を記載。以下のセクションを必ず含める：
 
 ```
