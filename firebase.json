@@ -332,6 +332,18 @@
         "destination": "/blog/claude-slash-commands/index.html"
       },
       {
+        "source": "/blog/claude-intro/**",
+        "destination": "/blog/claude-intro/index.html"
+      },
+      {
+        "source": "/blog/claude-code-intro/**",
+        "destination": "/blog/claude-code-intro/index.html"
+      },
+      {
+        "source": "/blog/claude-api-intro/**",
+        "destination": "/blog/claude-api-intro/index.html"
+      },
+      {
         "source": "/tools/tsuri/**",
         "destination": "/tools/tsuri/index.html"
       },

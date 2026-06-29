@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude Code入門：ファイル操作からデプロイまで自動化する | SEADICE STUDIO</title>
+<meta name="description" content="Claude Codeのインストール方法・基本操作・スラッシュコマンドの作り方を解説。チャットとの違い、できることの範囲、実際の使用例までFAQ形式で学べる入門記事。">
+<link rel="canonical" href="https://seadice.win/blog/claude-code-intro/">
+<meta property="og:title" content="Claude Code入門：ファイル操作からデプロイまで自動化する | SEADICE STUDIO">
+<meta property="og:description" content="Claude Codeのインストール・基本操作・スラッシュコマンドの作り方をFAQ形式で解説。">
+<meta property="og:image" content="https://seadice.win/icons/blog_dev.webp">
+<meta property="og:url" content="https://seadice.win/blog/claude-code-intro/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Claude Code入門：ファイル操作からデプロイまで自動化する","datePublished":"2026-06-29","author":{"@type":"Organization","name":"SEADICE STUDIO"},"publisher":{"@type":"Organization","name":"SEADICE STUDIO","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.faq{margin:32px 0}.faq-item{border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden}.faq-q{background:var(--card);padding:16px 20px;font-size:15px;font-weight:700;color:var(--text)}.faq-q::before{content:"Q. ";color:var(--accent)}.faq-a{padding:16px 20px;font-size:14px;color:#cbd5e1;line-height:1.8;border-top:1px solid var(--border)}.faq-a::before{content:"A. ";color:var(--accent2);font-weight:700}.prev-next{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:48px}.nav-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;text-decoration:none;color:var(--text);display:block}.nav-card:hover{border-color:var(--accent)}.nav-label{font-size:11px;letter-spacing:.1em;color:var(--muted);margin-bottom:4px}.nav-title{font-size:14px;font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:24px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / Claude Code入門</p>
+  <img src="/icons/blog_dev.webp" alt="Claude Code" width="680" height="340" style="width:100%;height:240px;object-fit:cover;border-radius:16px;margin-bottom:24px" loading="lazy">
+  <span class="tag">AI入門 · 第2回</span>
+  <h1>Claude Code入門：ファイル操作からデプロイまで自動化する</h1>
+  <p class="meta"><time datetime="2026-06-29">2026-06-29</time> · SEADICE STUDIO</p>
+  <div class="body">
+
+<p>Claude Codeは、ターミナルやVSCode上で動くAIエージェントだ。チャット版のClaudeと違い、ファイルの読み書き・コマンドの実行・Gitの操作・デプロイまで実際に手を動かして作業してくれる。</p>
+
+<p>SEADICEではClaude Codeを使ってサイトのHTML生成・Flutterビルド・Firebaseデプロイを自動化している。この記事ではClaude Codeの基本を学ぶ。</p>
+
+<h2>チャット版Claudeとの違い</h2>
+
+<p>チャット版（claude.ai）は「会話するだけ」。コードを提案してくれるが、ファイルへの書き込みや実際のコマンド実行はできない。</p>
+
+<p>Claude Codeは「実際に手を動かせる」。ファイルを作る・編集する・Bashコマンドを実行する・GitHubにプッシュするなど、開発者がやる作業をそのまま代行できる。</p>
+
+<h2>よくある質問（FAQ）</h2>
+
+<div class="faq">
+
+<div class="faq-item">
+<p class="faq-q">どうやってインストールする？</p>
+<p class="faq-a">Node.jsが入っている環境で<code>npm install -g @anthropic-ai/claude-code</code>を実行。その後<code>claude</code>コマンドでターミナルから起動できる。VSCode拡張機能版もあり、サイドバーから使える。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">料金はいくら？</p>
+<p class="faq-a">Claude.ai ProプランまたはMaxプランのサブスクリプションが必要。Proは月額約20ドル。APIとは別課金で、サブスク内の使用量に含まれるためAPI料金は追加でかからない。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">どのフォルダで起動すればいい？</p>
+<p class="faq-a">作業したいプロジェクトのルートフォルダで<code>claude</code>と打って起動する。Claude Codeはそのフォルダを「ワーキングディレクトリ」として認識し、その中のファイルを読み書きする。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">何ができる？</p>
+<p class="faq-a">ファイルの作成・編集・削除、Bashコマンドの実行、Gitの操作（add/commit/push）、Webページの読み取り（WebSearch）、複数ファイルにまたがるリファクタリング、エラーの自動修正など。開発者がターミナルでやることはほぼ代行できる。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">危険な操作をうっかりやってしまわない？</p>
+<p class="faq-a">ファイル削除やgit pushなど取り返しのつかない操作は、実行前に確認を求めてくる。許可しない限り実行されない。よく使う安全なコマンドは<code>.claude/settings.json</code>の許可リストに追加して自動承認にできる。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">CLAUDE.mdって何？</p>
+<p class="faq-a">プロジェクトのルートに置く指示書ファイル。「このプロジェクトのデプロイコマンドはこれ」「このファイルは触らないで」などのルールを書いておくと、Claude Codeが毎回参照してくれる。プロジェクト固有のルールを覚えさせるのに使う。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">スラッシュコマンドとは？</p>
+<p class="faq-a"><code>.claude/commands/コマンド名.md</code>にMarkdownを置くと、チャット欄で<code>/コマンド名</code>と打つだけでその内容がプロンプトとして実行される機能。繰り返し使う複雑な手順をコマンド化できる。詳しくは<a href="/blog/claude-slash-commands/">スラッシュコマンドの記事</a>を参照。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">ルーティン（定期実行）とは？</p>
+<p class="faq-a">claude.aiのウェブ上で設定できるクラウド上の定期実行ジョブ。「毎朝4時にGitHubのリポジトリでこの処理を実行する」といった自動化が可能。ローカルのMacが起動していなくても動く。ただし自分のローカルファイルにはアクセスできない。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">MCPとは？</p>
+<p class="faq-a">Model Context Protocol の略。Claude CodeにSlack・GitHub・Notionなどの外部サービスを接続する拡張機能の仕組み。「SlackのメッセージをClaudeに読ませる」「GitHubのIssueを操作する」といったことができるようになる。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">VSCodeとターミナル、どちらで使う方がいい？</p>
+<p class="faq-a">どちらでも機能は同じ。VSCode拡張機能版はコードとチャットを並べて見られるので、コードを書きながら使うのに便利。ターミナル版はシンプルで軽い。好みで選んでよい。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">途中で間違ったことをされたら？</p>
+<p class="faq-a">Gitを使っているプロジェクトなら<code>git checkout .</code>で変更を取り消せる。Claude Code自身に「さっきの変更を元に戻して」と頼むこともできる。重要な作業前はコミットしておくと安全。</p>
+</div>
+
+</div>
+
+<h2>実際の使い方の例</h2>
+
+<p>SEADICEでは以下のような使い方をしている。</p>
+
+<ul>
+<li>「このHTMLに新しいセクションを追加して、キャンプアプリの紹介カードを3枚並べて」</li>
+<li>「firebase.jsonにこのパスのrewriteを追加してデプロイして」</li>
+<li><code>/gacha</code>コマンドでニッチリサーチ〜Flutterコード生成〜デプロイまで一括実行</li>
+</ul>
+
+<p>会話で指示するだけで実際にファイルが変わり、デプロイまで完了する。「コードを提案してもらってコピペする」という作業がなくなった。</p>
+
+<h2>次に学ぶこと</h2>
+
+<p>Claude Codeを理解したら、次はAPIを使って自分のアプリにClaudeを組み込む方法を学ぼう。</p>
+
+    <div class="prev-next">
+      <a href="/blog/claude-intro/" class="nav-card">
+        <p class="nav-label">← 第1回</p>
+        <p class="nav-title">Claude入門</p>
+      </a>
+      <a href="/blog/claude-api-intro/" class="nav-card">
+        <p class="nav-label">第3回 →</p>
+        <p class="nav-title">Claude API入門</p>
+      </a>
+    </div>
+
+    <a href="/blog/" class="back">← ブログ一覧へ</a>
+  </div>
+</article>
+<footer>
+  <p>&copy; 2026 SEADICE STUDIO</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude API入門：自分のアプリにAIを組み込む方法 | SEADICE STUDIO</title>
+<meta name="description" content="Claude APIの基本を解説。APIキーの取得方法・料金・Pythonでの使い方・モデルの選び方まで、アプリにAIを組み込みたい開発者向けにFAQ形式でまとめた入門記事。">
+<link rel="canonical" href="https://seadice.win/blog/claude-api-intro/">
+<meta property="og:title" content="Claude API入門：自分のアプリにAIを組み込む方法 | SEADICE STUDIO">
+<meta property="og:description" content="Claude APIのAPIキー取得・料金・Pythonでの使い方・モデル選択をFAQ形式で解説。">
+<meta property="og:image" content="https://seadice.win/icons/blog_dev.webp">
+<meta property="og:url" content="https://seadice.win/blog/claude-api-intro/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Claude API入門：自分のアプリにAIを組み込む方法","datePublished":"2026-06-29","author":{"@type":"Organization","name":"SEADICE STUDIO"},"publisher":{"@type":"Organization","name":"SEADICE STUDIO","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px;line-height:1.6}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.faq{margin:32px 0}.faq-item{border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden}.faq-q{background:var(--card);padding:16px 20px;font-size:15px;font-weight:700;color:var(--text)}.faq-q::before{content:"Q. ";color:var(--accent)}.faq-a{padding:16px 20px;font-size:14px;color:#cbd5e1;line-height:1.8;border-top:1px solid var(--border)}.faq-a::before{content:"A. ";color:var(--accent2);font-weight:700}.prev-next{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:48px}.nav-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;text-decoration:none;color:var(--text);display:block}.nav-card:hover{border-color:var(--accent)}.nav-label{font-size:11px;letter-spacing:.1em;color:var(--muted);margin-bottom:4px}.nav-title{font-size:14px;font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:24px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / Claude API入門</p>
+  <img src="/icons/blog_dev.webp" alt="Claude API" width="680" height="340" style="width:100%;height:240px;object-fit:cover;border-radius:16px;margin-bottom:24px" loading="lazy">
+  <span class="tag">AI入門 · 第3回</span>
+  <h1>Claude API入門：自分のアプリにAIを組み込む方法</h1>
+  <p class="meta"><time datetime="2026-06-29">2026-06-29</time> · SEADICE STUDIO</p>
+  <div class="body">
+
+<p>Claude APIを使うと、FlutterアプリやWebサービスの中にClaudeの機能を組み込める。チャット画面を開かなくても、アプリのボタンを押すだけでAIが回答する仕組みが作れる。</p>
+
+<p>この記事では「APIって何？」というところから、実際のコードの書き方までFAQで整理する。</p>
+
+<h2>APIとは何か</h2>
+
+<p>API（Application Programming Interface）は、プログラムから別のサービスを呼び出す仕組みだ。Claude APIの場合は「Pythonなどのコードから、Claudeに質問を送って回答を受け取る」ことができる。</p>
+
+<p>チャット版との違いは、人間がブラウザを開いて入力する代わりに、プログラムが自動的に質問を送れること。これにより「ユーザーが入力したテキストをAIで要約して表示する」「毎朝AIが自動レポートを生成する」といった機能を自分のアプリに組み込める。</p>
+
+<h2>よくある質問（FAQ）</h2>
+
+<div class="faq">
+
+<div class="faq-item">
+<p class="faq-q">APIキーはどこで取得する？</p>
+<p class="faq-a">Anthropicのコンソール（console.anthropic.com）にアクセスし、アカウントを作成して「API Keys」からキーを発行する。発行されたキーは一度しか表示されないので、その場でコピーして安全な場所に保存すること。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">料金はいくらかかる？</p>
+<p class="faq-a">APIはサブスクリプションとは別料金で、使った分だけ課金される（従量課金）。料金はトークン（テキストの単位、日本語は1文字が約1〜2トークン）で計算される。Sonnet系で入力100万トークンあたり約3ドル・出力100万トークンあたり約15ドル。個人開発の軽い用途なら月数百円〜数千円程度。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">何語で書ける？</p>
+<p class="faq-a">公式SDKはPython・TypeScript（Node.js）が提供されている。それ以外の言語でも、HTTPリクエストを送れれば使える（Go・Ruby・PHPなどでも利用可）。Flutterアプリに組み込む場合はDartからHTTPリクエストを直接送ることになる。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">Pythonでの基本的な使い方は？</p>
+<p class="faq-a">以下が最小限のコード。<code>pip install anthropic</code>でSDKをインストールしてから実行する。</p>
+</div>
+
+</div>
+
+<pre><code>import anthropic
+
+client = anthropic.Anthropic(api_key="your-api-key")
+
+message = client.messages.create(
+    model="claude-sonnet-4-6",
+    max_tokens=1024,
+    messages=[
+        {"role": "user", "content": "こんにちは！"}
+    ]
+)
+
+print(message.content[0].text)</code></pre>
+
+<div class="faq">
+
+<div class="faq-item">
+<p class="faq-q">モデルはどれを選べばいい？</p>
+<p class="faq-a">用途によって使い分ける。<strong>Opus</strong>は最高性能だがコストが高い（複雑な推論・長文分析向け）。<strong>Sonnet</strong>は性能とコストのバランスが最も良く、ほとんどのケースはこれで十分。<strong>Haiku</strong>は最速・最安価で、シンプルな分類や返答に向いている。迷ったらSonnetから始めると良い。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">システムプロンプトとは？</p>
+<p class="faq-a">AIの役割や振る舞いを事前に指定するテキスト。たとえば「あなたは釣り専門のアシスタントです。簡潔に回答してください」と設定しておくと、ユーザーがどんな質問をしてもその役割で応答する。<code>messages</code>配列の前に<code>system</code>パラメーターで渡す。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">会話の履歴を保持するには？</p>
+<p class="faq-a">APIはステートレス（前の会話を自動で記憶しない）。会話を続けるには、過去の<code>user</code>と<code>assistant</code>のやり取りをすべて<code>messages</code>配列に含めて送る必要がある。アプリ側でリストに履歴を蓄積し、毎回まとめて送るのが基本パターン。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">APIキーを安全に管理するには？</p>
+<p class="faq-a">APIキーはソースコードに直書きしない。環境変数（<code>ANTHROPIC_API_KEY</code>）として設定するのが基本。Flutterアプリの場合、キーをアプリに埋め込むと抽出されるリスクがある。バックエンド（Firebase FunctionsやCloudflare Workers）経由でAPIを呼ぶのが安全な構成。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">ストリーミング（リアルタイム表示）はできる？</p>
+<p class="faq-a">できる。SDKの<code>client.messages.stream()</code>を使うと、ChatGPTのように文字が少しずつ表示される体験を実装できる。長い回答を待たせずに即座に表示し始められるので、ユーザー体験が向上する。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">Claude Codeのサブスクとは別のお金がかかる？</p>
+<p class="faq-a">かかる。Claude CodeのサブスクはClaude Codeツール内での利用が含まれる。APIは別途Anthropicのコンソールでクレジットを購入・チャージして使う。開発中に自分のClaude Codeを使うのはサブスクの範囲内だが、自分のアプリのユーザーにClaudeを提供するにはAPI料金が発生する。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">無料枠はある？</p>
+<p class="faq-a">新規登録時に一定の無料クレジットが付与される（金額はAnthropicの方針により変動）。それを使い切った後は従量課金になる。小規模なプロトタイプ開発中は無料クレジットで試せることが多い。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">レート制限（1分間に何回まで？）は？</p>
+<p class="faq-a">アカウントの利用状況やプランによって異なる。初期は比較的低め（1分あたりのリクエスト数・トークン数の上限がある）。使い込むと自動で引き上げられることが多い。制限に引っかかるとAPIが429エラーを返すので、エクスポネンシャルバックオフ（失敗したら少し待って再試行）を実装しておくと良い。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">Tool Use（関数呼び出し）とは？</p>
+<p class="faq-a">Claudeに「この関数を呼び出してよい」と許可を与える機能。たとえば「天気APIを呼ぶ関数」を定義しておくと、ユーザーが「今日の東京の天気は？」と聞いたときにClaudeが自動でその関数を呼び出し、結果を使って回答を返してくれる。AIエージェントを作る際の中心的な機能。</p>
+</div>
+
+</div>
+
+<h2>Flutter + Claude APIの組み合わせ</h2>
+
+<p>SEADICEアプリでAI機能を追加する場合の構成例：</p>
+
+<ol>
+<li>Flutter側でユーザーのテキスト入力を受け取る</li>
+<li>Firebase Functions（Node.js）にHTTPリクエストを送る</li>
+<li>Functions内でClaude APIを呼び出す（APIキーは環境変数で管理）</li>
+<li>Claudeの回答をFlutterに返す</li>
+</ol>
+
+<p>APIキーをFlutterアプリに直接埋め込まないことが重要。バックエンド経由にすることでキーが漏洩するリスクを防げる。</p>
+
+<h2>シリーズまとめ</h2>
+
+<p>3記事でClaudeのエコシステムを学んだ。</p>
+
+<ul>
+<li><strong>第1回（Claude入門）</strong>：チャットで何でもこなすAIアシスタント</li>
+<li><strong>第2回（Claude Code入門）</strong>：ファイル操作・デプロイまで実際に手を動かすエージェント</li>
+<li><strong>第3回（Claude API入門）</strong>：自分のアプリにAIを組み込むためのインターフェース</li>
+</ul>
+
+<p>それぞれ役割が違う。チャットは対話、Claude Codeは開発作業の自動化、APIはアプリへの組み込み。目的に合わせて使い分けよう。</p>
+
+    <div class="prev-next">
+      <a href="/blog/claude-code-intro/" class="nav-card">
+        <p class="nav-label">← 第2回</p>
+        <p class="nav-title">Claude Code入門</p>
+      </a>
+      <a href="/blog/" class="nav-card">
+        <p class="nav-label">一覧</p>
+        <p class="nav-title">ブログ一覧へ</p>
+      </a>
+    </div>
+
+    <a href="/blog/" class="back">← ブログ一覧へ</a>
+  </div>
+</article>
+<footer>
+  <p>&copy; 2026 SEADICE STUDIO</p>
+</footer>
+</body>
+</html>

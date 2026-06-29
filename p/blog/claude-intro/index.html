@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude入門：AIチャットの使い方とできること・できないこと | SEADICE STUDIO</title>
+<meta name="description" content="AnthropicのAI「Claude」の基本を解説。ChatGPTとの違い、料金プラン、得意なこと・苦手なこと、効果的なプロンプトの書き方までFAQ形式で学べる入門記事。">
+<link rel="canonical" href="https://seadice.win/blog/claude-intro/">
+<meta property="og:title" content="Claude入門：AIチャットの使い方とできること・できないこと | SEADICE STUDIO">
+<meta property="og:description" content="AnthropicのAI「Claude」の基本を解説。ChatGPTとの違い、料金プラン、得意なこと・苦手なこと、効果的なプロンプトの書き方まで。">
+<meta property="og:image" content="https://seadice.win/icons/blog_dev.webp">
+<meta property="og:url" content="https://seadice.win/blog/claude-intro/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Claude入門：AIチャットの使い方とできること・できないこと","datePublished":"2026-06-29","author":{"@type":"Organization","name":"SEADICE STUDIO"},"publisher":{"@type":"Organization","name":"SEADICE STUDIO","url":"https://seadice.win"}}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body code{background:var(--card);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:13px}.body pre{background:var(--card);padding:20px;border-radius:10px;overflow-x:auto;margin:16px 0}.body pre code{background:none;padding:0;font-size:13px}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.faq{margin:32px 0}.faq-item{border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden}.faq-q{background:var(--card);padding:16px 20px;font-size:15px;font-weight:700;color:var(--text)}.faq-q::before{content:"Q. ";color:var(--accent)}.faq-a{padding:16px 20px;font-size:14px;color:#cbd5e1;line-height:1.8;border-top:1px solid var(--border)}.faq-a::before{content:"A. ";color:var(--accent2);font-weight:700}.next-card{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:12px;padding:20px 24px;margin-top:48px;text-decoration:none;display:block;color:var(--text)}.next-card:hover{border-color:var(--accent)}.next-label{font-size:11px;letter-spacing:.15em;color:var(--accent);margin-bottom:6px}.next-title{font-size:16px;font-weight:700}.next-desc{font-size:13px;color:var(--muted);margin-top:4px}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:24px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / Claude入門</p>
+  <img src="/icons/blog_dev.webp" alt="AI・Claude" width="680" height="340" style="width:100%;height:240px;object-fit:cover;border-radius:16px;margin-bottom:24px" loading="lazy">
+  <span class="tag">AI入門 · 第1回</span>
+  <h1>Claude入門：AIチャットの使い方とできること・できないこと</h1>
+  <p class="meta"><time datetime="2026-06-29">2026-06-29</time> · SEADICE STUDIO</p>
+  <div class="body">
+
+<p>AnthropicのAI「Claude」は、テキストを使って会話するAIアシスタントだ。文章を書く・翻訳する・コードを説明してもらう・アイデアを出すなど、幅広い用途で使える。</p>
+
+<p>この記事では、Claudeとは何か・ChatGPTとの違い・何ができるかをFAQで整理する。次の記事ではClaude Code（開発者向けツール）について学ぶ。</p>
+
+<h2>Claudeとは何か</h2>
+
+<p>ClaudeはAnthropic社が開発した大規模言語モデル（LLM）をベースにしたAIアシスタントだ。<strong>claude.ai</strong>というウェブサービスとして提供されており、ブラウザ上で会話するだけで使える。アプリのインストールは不要。</p>
+
+<p>日本語にも対応しており、日本語で質問すれば日本語で回答してくれる。</p>
+
+<h2>よくある質問（FAQ）</h2>
+
+<div class="faq">
+
+<div class="faq-item">
+<p class="faq-q">ChatGPTとどう違う？</p>
+<p class="faq-a">どちらもAIチャットだが、作っている会社が違う（Claude=Anthropic、ChatGPT=OpenAI）。Claudeは長い文章の読み書きや、安全性・正確性を重視した回答が得意と言われている。どちらが優れているかは用途と好みによる。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">無料で使える？</p>
+<p class="faq-a">使える。claude.aiにアカウントを作れば無料プランで使い始められる。ただし無料プランは1日の使用量に上限があり、最新の高性能モデル（Opus・Sonnetの最上位版）は使えないことがある。本格的に使うならProプラン（月額約20ドル）が快適。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">何ができる？</p>
+<p class="faq-a">文章の作成・添削・要約、翻訳、コードの作成・説明・デバッグ、アイデア出し、質問への回答、データの整理・分析など。テキストでできることはほぼ何でも対応できる。ファイル（PDF・画像）を添付して内容を読み取ることもできる。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">何ができない？</p>
+<p class="faq-a">ウェブを自由にブラウズして最新情報を取得することは基本的にできない（一部機能で対応）。ファイルをダウンロードしたり、外部のシステムを操作したりすることもできない。あくまでテキストベースの対話ツール。ファイル操作や自動実行がしたい場合はClaude Codeを使う。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">日本語は得意？</p>
+<p class="faq-a">得意。英語ほどではないが、日本語でも高品質な応答が返ってくる。ただし英語で質問した方が精度が上がることもあるため、精度が気になる場合は英語で試してみるとよい。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">情報は学習に使われる？</p>
+<p class="faq-a">デフォルト設定では会話内容がモデルの改善に使われる可能性がある。設定でオフにできる。機密情報や個人情報は入力しないことを推奨する。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">モデルの種類は？</p>
+<p class="faq-a">2026年時点の主なモデルはOpus（最高性能）、Sonnet（バランス型）、Haiku（高速・軽量）の3種類。ProプランではSonnetが主に使われ、Max/Teamプランでは用途に応じて切り替えられる。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">プロンプト（質問）はどう書けばいい？</p>
+<p class="faq-a">「何をしてほしいか」「どんな形式で出力してほしいか」「背景・条件」の3つを明確に書くと精度が上がる。例：「以下の文章を200文字以内に要約してください。箇条書きで3点にまとめること。対象読者は初心者です。」のように具体的に指定する。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">長い文章や資料を読ませられる？</p>
+<p class="faq-a">読ませられる。Claudeはコンテキストウィンドウ（一度に処理できるテキスト量）が非常に大きく、長い資料・PDF・コードを丸ごと貼り付けて質問できる。Proプランでは数十万トークン（数百ページ相当）を扱える。</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-q">画像を送れる？</p>
+<p class="faq-a">送れる。スクリーンショット・写真・図表を添付すると内容を読み取って説明してくれる。デザインのフィードバック、エラー画面の分析、図表の説明などに使える。</p>
+</div>
+
+</div>
+
+<h2>Claudeを使い始める手順</h2>
+
+<ol>
+<li><strong>claude.aiにアクセス</strong>してGoogleアカウントなどでサインアップ</li>
+<li>チャット画面に質問を入力して送信</li>
+<li>回答が気に入らなければ「もっと短くして」「もっと具体的に」など追加指示を出す</li>
+</ol>
+
+<p>最初は「今日から使えるClaudeの活用法を教えて」と聞いてみるのがおすすめだ。</p>
+
+<h2>次に学ぶこと</h2>
+
+<p>Claudeのチャットを理解したら、次はファイル操作や自動実行ができる<strong>Claude Code</strong>を学ぼう。</p>
+
+    <a href="/blog/claude-code-intro/" class="next-card">
+      <p class="next-label">NEXT → 第2回</p>
+      <p class="next-title">Claude Code入門：ファイル操作からデプロイまで自動化する</p>
+      <p class="next-desc">インストール方法・基本操作・スラッシュコマンドの作り方まで</p>
+    </a>
+
+    <a href="/blog/" class="back">← ブログ一覧へ</a>
+  </div>
+</article>
+<footer>
+  <p>&copy; 2026 SEADICE STUDIO</p>
+</footer>
+</body>
+</html>
