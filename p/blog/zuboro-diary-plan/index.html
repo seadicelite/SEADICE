@@ -105,6 +105,8 @@ footer a{color:var(--muted);text-decoration:none}
 
 <h2>アプリのコンセプト</h2>
 
+<p>「開いたら日記が書けてる」アプリです。アプリを開くだけでClaudeが今日の日記を自動生成し、広告を見て投稿するだけでGoogle Calendarに記録されます。入力ゼロでも日記が完成します。</p>
+
 <p><strong>「開いたら日記が書けてる」</strong> — 日記が続かない人のための最強ズボラ日記アプリ。</p>
 
 <ul>
@@ -122,6 +124,8 @@ footer a{color:var(--muted);text-decoration:none}
 
 <h2>技術スタック</h2>
 
+<p>Flutter + Claude API（Haiku）+ Google Calendar API + AdMobで構成します。サーバー不要で1回の日記生成コストは約0.3〜1円です。</p>
+
 <table>
   <tr><th>役割</th><th>使うもの</th><th>コスト</th></tr>
   <tr><td>UIフレームワーク</td><td>Flutter（iOS/Android）</td><td>無料</td></tr>
@@ -136,6 +140,8 @@ footer a{color:var(--muted);text-decoration:none}
 <hr>
 
 <h2>アプリ起動時のフロー</h2>
+
+<p>起動時にGoogle Calendarから過去30件を取得し、未投稿日の日記をClaude APIで自動生成します。ユーザーは一言追加して広告を見るだけで投稿完了です。</p>
 
 <div class="flow">
   <div class="flow-item">
@@ -167,6 +173,8 @@ footer a{color:var(--muted);text-decoration:none}
 <hr>
 
 <h2>Google認証まわり（ここが一番複雑）</h2>
+
+<p>Google Cloud ConsoleでCalendar APIを有効化し、OAuth 2.0クライアントIDをiOS・Android別に発行します。Calendarへの書き込みはセンシティブスコープのため、ストア公開前にOAuth審査（数週間）が必要です。</p>
 
 <h3>必要なもの</h3>
 
@@ -274,6 +282,8 @@ await calendarApi.events.insert(event, 'primary');</code></pre>
 
 <h2>Claude APIで日記を生成する</h2>
 
+<p>claude-haiku-4-5を使い、過去5〜10件の日記をプロンプトに入れることでユーザーの文体を模倣します。1回の生成コストは約0.3円、ファインチューニング不要です。</p>
+
 <h3>使うモデル</h3>
 
 <p>日記生成は <strong>claude-haiku-4-5</strong> が最適。安くて速い。1回あたり約0.3円。</p>
@@ -308,6 +318,8 @@ https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily=weat
 
 <h2>AdMob リワード広告の実装</h2>
 
+<p>「投稿」ボタンを押すと動画リワード広告（15〜30秒）が流れ、視聴完了後にGoogle Calendarへの書き込みが実行されます。広告ロード失敗時は直接投稿してUXを守ります。</p>
+
 <h3>仕組み</h3>
 
 <p>「投稿」ボタンを押すと動画リワード広告が流れる。視聴完了後にGoogle Calendarへの書き込みが実行される。</p>
@@ -338,6 +350,8 @@ _rewardedAd?.show(
 
 <h2>ユーザーの文体を学習する仕組み</h2>
 
+<p>ファインチューニングは不要です。Google Calendarから過去5〜10件の日記をプロンプトの「文体参考」に入れるだけで、使えば使うほど「自分っぽい」日記が生成されます。</p>
+
 <p>Fine-tuningは使わない。<strong>プロンプトに過去の日記を入れるだけ</strong>で文体が自然に寄っていく。</p>
 
 <ul>
@@ -351,6 +365,8 @@ _rewardedAd?.show(
 <hr>
 
 <h2>OAuth審査（ストア公開前に必要）</h2>
+
+<p>Calendarへの書き込みはセンシティブスコープのため、一般公開前にGoogleのOAuth審査が必要です。審査には数週間かかるため、App Store申請と並行して早めに申請します。</p>
 
 <p>Calendar への書き込みはセンシティブスコープなので、一般公開前にGoogleの審査が必要。</p>
 
@@ -376,6 +392,8 @@ _rewardedAd?.show(
 <hr>
 
 <h2>実装の順番（明日からの作業順）</h2>
+
+<p>Day1でGoogle認証、Day2でClaude API連携、Day3でAdMob実装、Day4でApp Store申請準備の4日間スケジュールです。</p>
 
 <div class="step-card">
   <div class="step-num">Day 1</div>
@@ -434,6 +452,8 @@ _rewardedAd?.show(
 
 <h2>明日やること チェックリスト</h2>
 
+<p>Google Cloud ConsoleのプロジェクトとCalendar API設定が最初のボトルネックです。以下の順序で進めれば1日でGoogle Sign-Inまで動きます。</p>
+
 <ul class="checklist">
   <li>Google Cloud Console でプロジェクト作成</li>
   <li>Google Calendar API を有効化</li>
@@ -448,6 +468,8 @@ _rewardedAd?.show(
 <hr>
 
 <h2>APIキーの管理</h2>
+
+<p>Claude APIキーはFlutterコードにべた書きしてはいけません。<code>--dart-define</code>でビルド時に渡すか、Cloud Functions経由でAPIを叩く方法が安全です。</p>
 
 <div class="warn-box">
   <p><strong>絶対にやってはいけない：</strong> Claude APIキーをFlutterコードにべた書きしない。GitHubに上げると漏洩する。</p>

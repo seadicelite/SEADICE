@@ -29,17 +29,21 @@
   <p class="meta"><time datetime="2026-06-29">2026-06-29</time> · SEADICE STUDIO</p>
   <div class="body">
 
-<p>Claude APIを使うと、FlutterアプリやWebサービスの中にClaudeの機能を組み込める。チャット画面を開かなくても、アプリのボタンを押すだけでAIが回答する仕組みが作れる。</p>
+<p>Claude APIはAnthropicのコンソールでAPIキーを取得し、PythonやDartから呼び出す。料金はSonnet系で入力100万トークンあたり約3ドルの従量課金だ。</p>
 
-<p>この記事では「APIって何？」というところから、実際のコードの書き方までFAQで整理する。</p>
+<p>Claude APIを使うと、FlutterアプリやWebサービスの中にClaudeの機能を組み込める。チャット画面を開かなくても、アプリのボタンを押すだけでAIが回答する仕組みが作れる。この記事では「APIって何？」というところから、実際のコードの書き方までFAQで整理する。</p>
 
 <h2>APIとは何か</h2>
+
+<p>APIはプログラムから別のサービスを呼び出す仕組みで、Claude APIではコードから自動的にClaudeへ質問を送り回答を受け取れる。</p>
 
 <p>API（Application Programming Interface）は、プログラムから別のサービスを呼び出す仕組みだ。Claude APIの場合は「Pythonなどのコードから、Claudeに質問を送って回答を受け取る」ことができる。</p>
 
 <p>チャット版との違いは、人間がブラウザを開いて入力する代わりに、プログラムが自動的に質問を送れること。これにより「ユーザーが入力したテキストをAIで要約して表示する」「毎朝AIが自動レポートを生成する」といった機能を自分のアプリに組み込める。</p>
 
 <h2>よくある質問（FAQ）</h2>
+
+<p>APIキーはconsole.anthropic.comで取得し、モデルはほとんどのケースでSonnetが最適だ。料金はSonnet系で入力100万トークンあたり約3ドルの従量課金。</p>
 
 <div class="faq">
 
@@ -130,6 +134,8 @@ print(message.content[0].text)</code></pre>
 
 <h2>Flutter + Claude APIの組み合わせ</h2>
 
+<p>FlutterにClaude APIを組み込む場合、APIキーをアプリに直接埋め込まずFirebase Functions経由で呼び出すのが安全な構成だ。</p>
+
 <p>SEADICEアプリでAI機能を追加する場合の構成例：</p>
 
 <ol>
@@ -142,6 +148,8 @@ print(message.content[0].text)</code></pre>
 <p>APIキーをFlutterアプリに直接埋め込まないことが重要。バックエンド経由にすることでキーが漏洩するリスクを防げる。</p>
 
 <h2>シリーズまとめ</h2>
+
+<p>チャットは対話・Claude Codeは開発作業の自動化・APIはアプリへの組み込みと、それぞれ役割が異なる。目的に合わせて使い分けることが重要だ。</p>
 
 <p>3記事でClaudeのエコシステムを学んだ。</p>
 

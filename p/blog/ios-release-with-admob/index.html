@@ -28,11 +28,13 @@
   <p class="meta"><time datetime="2026-06-26">2026-06-26</time> · SEADICE</p>
   <div class="body">
 
-<p>AdMob広告を実装したFlutterアプリをApp Storeに初めてリリースしようとすると、思っていたより手順が多い。コードを書き終えただけでは申請できず、AdMob・Apple・App Store Connectをまたいだ設定が必要になる。</p>
+<p>AdMob広告つきFlutterアプリのiOSリリースには、AdMob登録・ATT実装・プライバシーポリシー公開・App Store Connectのプライバシー申告の8ステップが必要だ。コードを書き終えただけでは申請できない。</p>
 
 <p>TOITEのリリース作業で実際にやった手順を全部まとめた。</p>
 
 <h2>全体の流れ</h2>
+
+<p>AdMob登録→本番ID反映→ATT実装→プライバシーポリシー公開→ビルド→App Store Connect登録→Transporterアップロード→プライバシー申告の8ステップで完了する。</p>
 
 <ol>
   <li>AdMobでアプリと広告ユニットを登録する</li>
@@ -47,7 +49,7 @@
 
 <h2>1. AdMobでアプリと広告ユニットを登録する</h2>
 
-<p>admob.google.com でアプリを追加する。iOS と Android は別のアプリとして登録する必要がある。今回は iOS のみ。</p>
+<p>admob.google.comでアプリを追加し、使う広告種類ごとに広告ユニットを作成する。iOSとAndroidは別登録が必要で、同種類の広告なら複数箇所で1つのIDを使い回せる。</p>
 
 <p>登録後、使う広告の種類ごとに広告ユニットを作成する。TOITEで使った3種類：</p>
 
@@ -65,7 +67,7 @@
 
 <h2>2. 本番の広告IDをコードに反映する</h2>
 
-<p>開発中はGoogleが提供するテスト用IDを使う。本番リリース時に差し替える箇所は3つ。</p>
+<p>差し替える箇所はInfo.plistのGADApplicationIdentifier・コード内の各広告ユニットID・AndroidManifest.xmlの3箇所だ。テスト用IDのままリリースすると収益が発生しない。</p>
 
 <p><strong>Info.plist（アプリID）：</strong></p>
 <pre><code>&lt;key&gt;GADApplicationIdentifier&lt;/key&gt;
@@ -80,7 +82,7 @@
 
 <h2>3. ATT（App Tracking Transparency）を実装する</h2>
 
-<p>AdMobはIDFA（広告識別子）を使ってトラッキングを行う。iOS 14.5以降、ユーザーの許可なくIDFAにアクセスすることは禁止されている。</p>
+<p>iOS 14.5以降、IDFAへのアクセスにはユーザー許可が必要だ。<code>app_tracking_transparency</code>パッケージを追加し、AdMob初期化より前に許可ダイアログを表示すること。</p>
 
 <p><code>app_tracking_transparency</code> パッケージを追加する。</p>
 
@@ -104,7 +106,7 @@ dependencies:
 
 <h2>4. プライバシーポリシーを公開する</h2>
 
-<p>App Store審査にはプライバシーポリシーのURLが必須。公開済みのURLが必要なので、審査前にデプロイしておく。</p>
+<p>App Store審査にはプライバシーポリシーの公開URLが必須だ。収集データの種類・第三者提供先（AdMob・Firebase等）・データ削除方法・連絡先を記載してデプロイしておく。</p>
 
 <p>記載すべき内容：</p>
 <ul>
@@ -116,11 +118,13 @@ dependencies:
 
 <h2>5. flutter build ipa でビルドする</h2>
 
+<p><code>flutter build ipa --release</code>を実行すると<code>build/ios/ipa/</code>に.ipaファイルが生成される。本番IDへの差し替えを必ず事前に完了させること。</p>
+
 <pre><code>flutter build ipa --release</code></pre>
 
-<p>成功すると <code>build/ios/ipa/</code> に .ipa ファイルが生成される。</p>
-
 <h2>6. App Store Connect でアプリを登録する</h2>
+
+<p>appstoreconnect.apple.comで新規Appを登録し、バンドルIDをXcodeのプロジェクトと一致させる。この手順を先に完了させないとTransporterのアップロードがエラーになる。</p>
 
 <p>appstoreconnect.apple.com → 「マイApp」→「+」→「新規App」</p>
 
@@ -132,9 +136,11 @@ dependencies:
 
 <h2>7. Transporter でアップロードする</h2>
 
-<p>App Store の Transporter アプリに .ipa をドラッグ＆ドロップする。App Store Connect にアプリが登録されていないとエラーになるので、手順6を先に完了させること。</p>
+<p>TransporterアプリにipaをドラッグするだけでApp Store Connectにアップロードされる。App Store Connectへのアプリ登録（手順6）が先に完了している必要がある。</p>
 
 <h2>8. プライバシー申告と審査情報を入力する</h2>
+
+<p>AdMobを使う場合「デバイスID」をトラッキング目的として申告しないと審査提出ボタンが押せない。ATT実装とプライバシー申告は必ずセットで対応すること。</p>
 
 <p>App Store Connect → アプリ → 「アプリのプライバシー」から申告する。AdMobを使う場合に申告が必要なデータタイプ：</p>
 
@@ -158,6 +164,8 @@ dependencies:
 </ul>
 
 <h2>リリース前チェックリスト</h2>
+
+<p>全10項目を確認してからApp Store審査に提出すること。特に本番IDへの差し替えとデバイスIDのトラッキング申告は見落としやすい。</p>
 
 <ul class="checklist">
   <li>AdMobにアプリを登録し、本番IDを取得した</li>

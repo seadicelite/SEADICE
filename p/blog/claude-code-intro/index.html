@@ -29,17 +29,19 @@
   <p class="meta"><time datetime="2026-06-29">2026-06-29</time> · SEADICE STUDIO</p>
   <div class="body">
 
-<p>Claude Codeは、ターミナルやVSCode上で動くAIエージェントだ。チャット版のClaudeと違い、ファイルの読み書き・コマンドの実行・Gitの操作・デプロイまで実際に手を動かして作業してくれる。</p>
+<p>Claude CodeはターミナルやVSCodeで動くAIエージェントで、ファイル操作・コマンド実行・Git操作・デプロイまで実際に手を動かして作業する。Claude.ai ProプランのサブスクでAPI追加費用なしで使える。</p>
 
-<p>SEADICEではClaude Codeを使ってサイトのHTML生成・Flutterビルド・Firebaseデプロイを自動化している。この記事ではClaude Codeの基本を学ぶ。</p>
+<p>チャット版のClaudeと違い、コードを提案するだけでなく、ファイルを実際に書き換えてデプロイまで完了させてくれる。SEADICEではHTML生成・Flutterビルド・Firebaseデプロイを自動化している。この記事ではClaude Codeの基本を学ぶ。</p>
 
 <h2>チャット版Claudeとの違い</h2>
 
-<p>チャット版（claude.ai）は「会話するだけ」。コードを提案してくれるが、ファイルへの書き込みや実際のコマンド実行はできない。</p>
+<p>チャット版はコードを提案するだけだが、Claude Codeは実際にファイルを作成・編集してコマンドを実行できる。「コピペ作業」が完全になくなる。</p>
 
 <p>Claude Codeは「実際に手を動かせる」。ファイルを作る・編集する・Bashコマンドを実行する・GitHubにプッシュするなど、開発者がやる作業をそのまま代行できる。</p>
 
 <h2>よくある質問（FAQ）</h2>
+
+<p><code>npm install -g @anthropic-ai/claude-code</code>でインストールし、作業プロジェクトのルートで<code>claude</code>と打って起動する。Claude.ai Pro（月額約20ドル）のサブスクが必要。</p>
 
 <div class="faq">
 
@@ -102,6 +104,8 @@
 
 <h2>実際の使い方の例</h2>
 
+<p>会話で指示するだけでファイルが変わり、デプロイまで完了する。「コードを提案してもらってコピペする」という作業がなくなった。</p>
+
 <p>SEADICEでは以下のような使い方をしている。</p>
 
 <ul>
@@ -114,7 +118,7 @@
 
 <h2>次に学ぶこと</h2>
 
-<p>Claude Codeを理解したら、次はAPIを使って自分のアプリにClaudeを組み込む方法を学ぼう。</p>
+<p>Claude Codeでファイル操作と自動実行を学んだら、次は自分のアプリにClaudeを組み込むClaude APIを学ぼう。</p>
 
     <div class="prev-next">
       <a href="/blog/claude-intro/" class="nav-card">

@@ -27,14 +27,17 @@
   <h1>APIを使わずできるだけ自動化する</h1>
   <p class="meta"><time datetime="2026-06-25">2026-06-25</time> · SEADICE STUDIO</p>
   <div class="body">
+<p>X自動投稿・YouTube自動投稿・ブログ生成・デプロイは、cronとClaude Codeを使えばAPIキーなし・月額費用なしで自動化できる。</p>
+
 <p>個人事業をやっていると、やることが本当に多い。開発、営業、発信、経理——全部一人でこなさなければならない。その中で「自動化」は生存戦略だと思っている。</p>
 <p>ただ、自動化というとAPIキーを取得して、クラウドサービスを契約して、月額費用が……という話になりがちだ。個人事業主にとってランニングコストは致命的になることもある。</p>
 <p>この記事では、<strong>APIキーなし・月額費用なし</strong>で実現できる自動化の仕組みを、SEADICE STUDIOで実際にやっていることをベースに紹介する。</p>
 <h2>なぜ「APIを使わない」自動化なのか</h2>
+<p>初期フェーズでは月額費用をかけずに仕組みを作ることが優先だ。仕組みが回り始めてから、必要に応じて有料サービスを追加すればいい。</p>
 <p>APIを使う自動化は強力だが、コストがかかる。X（Twitter）の自動投稿APIは無料プランでは制限が厳しく、YouTubeのData APIも1日のクォータがある。</p>
 <p>個人事業の初期フェーズでは、まず<strong>お金をかけずに仕組みを作ること</strong>が大事だ。仕組みが回り始めてから、必要に応じて有料サービスを検討すればいい。</p>
 <h2>X（Twitter）自動投稿をcronで実現する</h2>
-<p>XへのAPI投稿はOAuth1.0aを使えば無料で可能だ。必要なのはX Developerアカウント（無料）だけ。</p>
+<p>X DeveloperアカウントとOAuth1.0aで認証すれば無料でAPI投稿できる。Pythonスクリプトをcronで1日3回呼ぶだけで自動投稿が完成する。</p>
 <p>Pythonスクリプト（<code>tweet.py</code>）を書いて、cronで定期実行するだけで毎日決まった時間に投稿できる。</p>
 <pre><code># crontabの設定例（8時・12時・18時に投稿）
 0 8 * * * cd /Users/username/x-auto && python3 tweet.py
@@ -44,7 +47,7 @@
 <h3>ポイント：投稿内容は「ゆるく」する</h3>
 <p>意識高い系の投稿を量産しても逆効果。キャラクターを設定して、どうでもいい日常をつぶやくくらいがちょうどいい。フォロワーとの距離感を縮めるのが目的だ。</p>
 <h2>YouTube自動投稿もcronで</h2>
-<p>YouTubeへの動画アップロードも、Google APIを使えば自動化できる。<code>youtube-upload</code>などのPythonライブラリを使うと、コマンド一発でアップロードが完了する。</p>
+<p>youtube-uploadライブラリとGoogle APIを組み合わせれば、毎朝7時に自動でYouTubeへアップロードできる。動画ファイルと説明文を用意しておくだけでいい。</p>
 <pre><code># 毎朝7時に動画をアップロード
 0 7 * * * cd /Users/username/youtube-auto && python3 upload.py</code></pre>
 <p>動画ファイルとタイトル・説明文をあらかじめ用意しておけば、あとは自動で公開される。</p>
@@ -54,7 +57,7 @@
 0 8 * * * /usr/bin/python3 /path/to/script.py</code></pre>
 <p>Pythonのパスは<code>which python3</code>で確認しておくこと。cronは環境変数が通常と異なるので、スクリプト内でフルパスを使うのが安全だ。</p>
 <h2>ブログ記事の生成はClaude Codeに任せる</h2>
-<p>ブログを書くのは時間がかかる。タイトルと書きたいことのメモだけ用意して、あとはClaude Codeに任せるという方法を取っている。</p>
+<p>タイトルとメモだけ用意すれば、Claude Codeがサブスク内（追加費用なし）で記事の構成・本文・デプロイまで自動実行してくれる。</p>
 <p>Claude Codeはサブスクリプション内で使えるので、<strong>APIキーの追加費用なし</strong>で記事の下書きを生成できる。生成した記事はそのままFirebaseにデプロイする。</p>
 <p>この仕組みのメリットは：</p>
 <ul>
@@ -64,7 +67,7 @@
 </ul>
 <p>人間がやるのは「何を書くか」を決めるだけ。それが本来やるべき仕事だ。</p>
 <h2>Firebase Hostingで無料デプロイ</h2>
-<p>サイトのホスティングはFirebase Hostingを使っている。無料プランで十分な帯域とカスタムドメインが使える。</p>
+<p>Firebase Hostingは無料プランで十分な帯域とカスタムドメインが使える。<code>firebase deploy --only hosting</code>の1コマンドでデプロイが完了する。</p>
 <p>デプロイはコマンド一発：</p>
 <pre><code>firebase deploy --only hosting</code></pre>
 <p>Pythonスクリプトの中から<code>subprocess</code>で呼び出せば、記事生成からデプロイまでを1コマンドで完結させることもできる。</p>

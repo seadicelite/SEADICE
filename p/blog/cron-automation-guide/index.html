@@ -27,12 +27,14 @@
   <h1>cronで自動化するときに絶対ハマるポイントと実践例</h1>
   <p class="meta"><time datetime="2026-06-25">2026-06-25</time> · SEADICE STUDIO</p>
   <div class="body">
-<p>個人事業をやっていると、毎日同じことを手動でやり続けるのは非常に非効率だ。X（Twitter）への投稿、YouTubeへの動画アップロード、ブログの更新——これらを全部手動でやっていたら、開発や営業に使う時間がなくなってしまう。</p>
-<p>そこで活躍するのが<strong>cron</strong>だ。Macでもサーバーでも使える標準の定期実行ツールで、設定さえすれば毎日決まった時間にスクリプトを自動実行してくれる。この記事では、SEADICEでの実践例をもとにcronの使い方を詳しく解説する。</p>
+<p>cronはMac・Linux標準の定期実行ツールで、Pythonのフルパス指定・絶対パス使用・ログ出力の3つを守れば確実に動く。スリープ問題はpmsetコマンドで解決できる。</p>
+
+<p>個人事業をやっていると、毎日同じことを手動でやり続けるのは非常に非効率だ。この記事では、SEADICEでの実践例をもとにcronの使い方を詳しく解説する。</p>
 <h2>cronとは何か</h2>
-<p>cronはUnix系OS（Mac・Linux）に標準搭載されているジョブスケジューラーだ。「毎日8時にこのスクリプトを実行する」「毎週月曜の朝にこの処理をする」といった定期実行を、サーバーもクラウドサービスも不要で実現できる。</p>
+<p>cronはMac・Linux標準搭載のジョブスケジューラーで、<code>crontab -e</code>で設定するだけで毎日決まった時間にスクリプトを自動実行できる。サーバーもクラウドサービスも不要だ。</p>
 <p>Macを起動している間は常にcronデーモンが動いているため、設定した時間になると自動的にスクリプトが実行される。</p>
 <h2>crontabの書き方</h2>
+<p>書き方は「分 時 日 月 曜日 コマンド」の5フィールドで、<code>*</code>はワイルドカード（毎回）を意味する。Pythonのパスは<code>which python3</code>で確認したフルパスを必ず使うこと。</p>
 <p>cronの設定は<code>crontab</code>というファイルで管理する。ターミナルで以下を実行すると編集できる。</p>
 <pre><code>crontab -e</code></pre>
 <p>設定の書き方はこうだ。</p>
@@ -52,7 +54,7 @@
 0 23 * * * /usr/bin/python3 /Users/username/blog-auto/generate.py</code></pre>
 <p><code>*</code>はワイルドカードで「毎回」を意味する。曜日は0が日曜、1が月曜……6が土曜だ。</p>
 <h2>SEADICEでの実際のcron設定</h2>
-<p>現在SEADICEで動いているcronはこうなっている。</p>
+<p>SEADICEではYouTube毎朝7時・X投稿8時/12時/18時・ブログ生成23時の4つを自動化している。これだけで毎日の発信がゼロ手動で回る。</p>
 <pre><code># YouTube自動投稿（毎朝7時）
 0 7 * * * cd /Users/hidenori/Developer/youtube-auto && /usr/bin/python3 upload.py
 
@@ -65,6 +67,7 @@
 0 23 * * * /usr/bin/python3 /Users/hidenori/Developer/SEADICE/blog-admin/generate.py >> /Users/hidenori/Developer/SEADICE/blog-admin/generate.log 2>&1</code></pre>
 <p>これだけで毎日のSNS発信とブログ更新が全自動で回る。</p>
 <h2>cronでハマりやすいポイント</h2>
+<p>最もよくある失敗はPythonのフルパス未指定・環境変数の未読み込み・ログなしの3つだ。これを押さえれば大半の問題を回避できる。</p>
 <h3>1. Pythonのパスはフルパスで指定する</h3>
 <p>cronは通常のターミナルとは異なる環境で実行されるため、<code>python3</code>だけでは認識されないことがある。必ず<code>which python3</code>で確認したフルパスを使う。</p>
 <pre><code>which python3
@@ -94,17 +97,17 @@ if env_path.exists():
 <pre><code># 毎日22時55分に自動起動（cronの5分前）
 sudo pmset repeat wakeorpoweron MTWRFSU 22:55:00</code></pre>
 <h2>ログの確認方法</h2>
-<p>cronが正常に動いているか確認するには、ログファイルを見るのが一番確実だ。</p>
+<p><code>tail -f ログファイル</code>でリアルタイム確認できる。cronが動いているか不明なときは必ずログを確認すること。</p>
 <pre><code># ログをリアルタイムで確認
 tail -f /Users/hidenori/Developer/SEADICE/blog-admin/generate.log
 
 # 最新20行を確認
 tail -20 /Users/hidenori/Developer/SEADICE/blog-admin/generate.log</code></pre>
 <h2>Macでcronが動かない場合の対処</h2>
-<p>macOS Catalina以降、cronがフルディスクアクセス権限を要求することがある。</p>
+<p>macOS Catalina以降では「システム設定 → プライバシーとセキュリティ → フルディスクアクセス」にcronを追加すれば解決することが多い。</p>
 <p><strong>システム設定 → プライバシーとセキュリティ → フルディスクアクセス</strong>に<code>cron</code>を追加すると解決することが多い。</p>
 <h2>まとめ</h2>
-<p>cronは設定さえすれば完全に自動で動き続ける、個人事業主にとって最高のツールだ。</p>
+<p>cronは設定さえすれば完全に自動で動き続ける。初期設定に数時間かかるが、その後は何もしなくても動き続けるため、個人事業主の発信自動化に最適だ。</p>
 <ul>
 <li><strong>書き方</strong>: <code>分 時 日 月 曜日 コマンド</code></li>
 <li><strong>注意点</strong>: フルパス・絶対パス・環境変数の手動読み込み</li>
