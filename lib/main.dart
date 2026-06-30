@@ -101,6 +101,16 @@ double _vPad(double w) => w < _kMd ? 60.0 : 100.0;
 final _defaultApps = [
   // ── Apps (status: WEB / LIVE) ─────────────────────────────────────
   AppItem(
+    id: 24,
+    title: '超ズボラ日記',
+    tag: 'Lifestyle',
+    desc: '一言書くだけ。AIが日記に整えてGoogleカレンダーへ自動保存。広告を見て投稿するズボラ向けiOSアプリ。',
+    color: const Color(0xFFFF6B9D),
+    icon: '日記',
+    webUrl: 'https://seadice.win/apps/chozubora/',
+    status: 'LIVE',
+  ),
+  AppItem(
     id: 19,
     title: 'ドローンCBT対策',
     tag: 'Education',
@@ -2712,6 +2722,21 @@ final _appPrivacyData = <String, (String, Color, List<(String, String)>)>{
       ('広告について', '本アプリはGoogle AdMob（Google LLC）による広告を表示します。AdMobは広告配信のために端末識別情報等を収集する場合があります。\n\n初回起動時にApp Tracking Transparency（ATT）の許可確認が表示されます。許可しない場合でも本アプリの全機能をご利用いただけますが、表示される広告がパーソナライズされない場合があります。\n\nGoogleのプライバシーポリシー：policies.google.com/privacy'),
       ('第三者への提供', '収集した情報は、以下のサービスに送信されます：\n・Google Firebase（動画データ管理）\n・Google AdMob（広告配信）\n\nこれら以外の第三者に情報を販売・提供することはありません。'),
       ('コンテンツについて', '本アプリに表示される動画はYouTubeのコンテンツです。各動画の著作権は元の動画投稿者に帰属します。不適切なコンテンツは報告機能から通報してください。'),
+      ('お問い合わせ', 'プライバシーポリシーに関するご質問は、下記までご連絡ください。\n\nseadice.home@gmail.com'),
+    ],
+  ),
+  'chozubora': (
+    '超ズボラ日記',
+    const Color(0xFFFF6B9D),
+    const [
+      ('はじめに', 'このプライバシーポリシーは、SEADICE（以下「当方」）が提供するiOSアプリ「超ズボラ日記」における個人情報の取り扱いについて説明します。'),
+      ('収集する情報', '本アプリは、Googleアカウントでのログイン時にメールアドレスおよびGoogleカレンダーへのアクセス権限を取得します。氏名・電話番号・パスワードなどの情報は収集しません。\n\nユーザーが入力した日記テキストはAI整形のためにAnthropicのAPIへ送信され、整形後のテキストはGoogleカレンダーにのみ保存されます。日記データは当方のサーバーには保存されません。'),
+      ('Googleアカウント連携', '本アプリはGoogle Sign-Inを使用してGoogleアカウントと連携します。取得するスコープはカレンダーへの書き込み権限（google.com/auth/calendar）のみです。\n\nGoogleのプライバシーポリシー：policies.google.com/privacy'),
+      ('AI機能について', 'ユーザーが入力した日記テキストは、Anthropic社のClaude APIに送信され、文章の整形・改善に使用されます。送信されるのはテキストのみで、個人を特定できる情報は含まれません。\n\nAnthropicのプライバシーポリシー：anthropic.com/privacy'),
+      ('広告について', '本アプリはGoogle AdMob（Google LLC）による広告を表示します。AdMobは広告配信のために端末識別情報等を収集する場合があります。\n\n初回起動時にApp Tracking Transparency（ATT）の許可確認が表示されます。許可しない場合でも本アプリの全機能をご利用いただけますが、表示される広告がパーソナライズされない場合があります。\n\nGoogleのプライバシーポリシー：policies.google.com/privacy'),
+      ('通知について', '本アプリは毎日の日記記入をリマインドするためのローカル通知を送信します。通知の受信は端末の設定からいつでもオフにできます。'),
+      ('第三者への提供', '収集した情報は、以下のサービスに送信されます：\n・Google（ログイン・カレンダー保存）\n・Anthropic（AI文章整形）\n・Google AdMob（広告配信）\n\nこれら以外の第三者に情報を販売・提供することはありません。'),
+      ('データの削除', 'アプリをアンインストールすると端末上のデータはすべて削除されます。Googleカレンダーに保存された日記はGoogleカレンダーアプリから直接削除できます。'),
       ('お問い合わせ', 'プライバシーポリシーに関するご質問は、下記までご連絡ください。\n\nseadice.home@gmail.com'),
     ],
   ),

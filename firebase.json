@@ -148,14 +148,6 @@
         "destination": "/apps/kateisaien-app10/index.html"
       },
       {
-        "source": "/apps/kateisaien-app11/**",
-        "destination": "/apps/kateisaien-app11/index.html"
-      },
-      {
-        "source": "/apps/kateisaien-app12/**",
-        "destination": "/apps/kateisaien-app12/index.html"
-      },
-      {
         "source": "/apps/kateisaien-app13/**",
         "destination": "/apps/kateisaien-app13/index.html"
       },
@@ -298,14 +290,6 @@
       {
         "source": "/privacy/kateisaien-app10/**",
         "destination": "/privacy/kateisaien-app10/index.html"
-      },
-      {
-        "source": "/privacy/kateisaien-app11/**",
-        "destination": "/privacy/kateisaien-app11/index.html"
-      },
-      {
-        "source": "/privacy/kateisaien-app12/**",
-        "destination": "/privacy/kateisaien-app12/index.html"
       },
       {
         "source": "/privacy/kateisaien-app13/**",

@@ -77,6 +77,7 @@
         "description": "シーダイス（SEADICE）。個人の日常生活やニッチなジャンルで活躍するアプリ・Webツールを、AIと自動化で開発・提供するスタジオ。",
         "knowsAbout": ["Flutter", "Claude API", "ChatGPT", "Gemini", "iOS開発", "Firebase", "AI アプリ開発"],
         "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "超ズボラ日記", "applicationCategory": "LifestyleApplication", "url": "https://seadice.win/apps/chozubora/" } },
           { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "TOITE", "applicationCategory": "EducationApplication", "url": "https://seadice.win/apps/toite/" } },
           { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "顔タイプ診断", "applicationCategory": "LifestyleApplication", "url": "https://seadice.win/apps/kao-type/" } },
           { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "楽々暗記", "applicationCategory": "EducationApplication", "url": "https://seadice.win/apps/rakuraku/" } },
@@ -210,6 +211,9 @@
     .blog-arrow { color: var(--muted); font-size: 18px; flex-shrink: 0; }
     .blog-more { display: inline-flex; align-items: center; gap: 6px; margin-top: 20px; color: var(--accent2); font-size: 13px; font-weight: 600; text-decoration: none; border-bottom: 1px solid rgba(56,189,248,0.3); padding-bottom: 2px; transition: border-color 0.2s; }
     .blog-more:hover { border-color: var(--accent2); }
+    .explore-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+    .explore-card { display: inline-flex; align-items: center; gap: 6px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 10px 18px; text-decoration: none; color: var(--text); font-size: 14px; font-weight: 600; transition: border-color 0.2s, color 0.2s; }
+    .explore-card:hover { border-color: var(--accent); color: var(--accent); }
 
     .feedback-outer { display: flex; gap: 20px; align-items: flex-start; max-width: 580px; }
     .feedback-mascot { flex-shrink: 0; width: 72px; margin-top: 4px; border-radius: 12px; overflow: hidden; }
@@ -240,12 +244,12 @@
   <nav aria-label="メインナビゲーション">
     <a class="nav-logo" href="/">SEADICE</a>
     <div class="nav-links">
-      <a href="#apps">アプリ</a>
-      <a href="#webapps">Web Tools</a>
-      <a href="#tools">Mini Apps</a>
-      <a href="#about">About</a>
-      <a href="#feedback">ご意見</a>
-      <a href="/blog/" class="nav-blog">ブログ →</a>
+      <a href="#apps">APP</a>
+      <a href="#webapps">TOOL</a>
+      <a href="#tools">Explore</a>
+      <a href="#about">US</a>
+      <a href="#feedback">CHAT</a>
+      <a href="/blog/" class="nav-blog">BLOG →</a>
     </div>
   </nav>
 </header>
@@ -284,6 +288,21 @@
     <h2 class="section-title" id="apps-heading">リリース済みアプリ</h2>
     <div class="apps-grid">
 
+      <a class="app-card" href="/apps/chozubora/">
+        <div class="app-card-top">
+          <div class="app-icon"><img src="/icons/chozubora_icon.webp" alt="超ズボラ日記 アイコン" width="52" height="52" loading="lazy"></div>
+          <div>
+            <div class="app-name">超ズボラ日記</div>
+            <div class="app-tag">AI 日記 / ライフスタイル</div>
+          </div>
+        </div>
+        <p class="app-desc">一言書くだけ。AIが日記に整えてGoogleカレンダーへ自動保存。三日坊主にならない、世界一ズボラな日記アプリ。</p>
+        <div class="app-badges">
+          <span class="app-badge badge-live">● LIVE</span>
+          <span class="app-badge badge-ai">AI</span>
+        </div>
+      </a>
+
       <a class="app-card" href="/apps/toite/">
         <div class="app-card-top">
           <div class="app-icon"><img src="/icons/toite_icon.webp" alt="TOITE アイコン" width="52" height="52" loading="lazy"></div>
@@ -313,6 +332,7 @@
           <span class="app-badge badge-ai">AI</span>
         </div>
       </a>
+
 
       <a class="app-card" href="/apps/rakuraku/">
         <div class="app-card-top">
@@ -356,35 +376,8 @@
         </div>
       </a>
 
-      <a class="app-card" href="/apps/boueki/">
-        <div class="app-card-top">
-          <div class="app-icon"><img src="/icons/trade_icon.webp" alt="貿易実務検定 アイコン" width="52" height="52" loading="lazy"></div>
-          <div>
-            <div class="app-name">貿易実務検定 C 級</div>
-            <div class="app-tag">資格 / 学習</div>
-          </div>
-        </div>
-        <p class="app-desc">貿易実務検定 C 級の模擬試験・大問別演習が無料。インコタームズ・信用状など全分野を本番形式で繰り返し練習できる Web アプリ。</p>
-        <div class="app-badges">
-          <span class="app-badge badge-web">◈ WEB</span>
-        </div>
-      </a>
-
-      <a class="app-card" href="/apps/jinsei-pyramid/">
-        <div class="app-card-top">
-          <div class="app-icon"><img src="/icons/pira.webp" alt="人生ピラミッド アイコン" width="52" height="52" loading="lazy"></div>
-          <div>
-            <div class="app-name">人生ピラミッド</div>
-            <div class="app-tag">目標管理 / 生産性</div>
-          </div>
-        </div>
-        <p class="app-desc">夢から今日やることまでをピラミッド構造で一本化。大きな目標を最小のアクションまで分解して「次に何をすべきか」を常に明確に。</p>
-        <div class="app-badges">
-          <span class="app-badge badge-live">● LIVE</span>
-        </div>
-      </a>
-
     </div>
+    <a class="blog-more" href="/apps/">アプリをもっと見る →</a>
   </section>
 
   <section id="webapps" aria-labelledby="webapps-heading">
@@ -457,91 +450,13 @@
   </section>
 
   <section id="tools" aria-labelledby="tools-heading">
-    <p class="section-label">Mini Apps</p>
-    <h2 class="section-title" id="tools-heading">ミニアプリ集</h2>
-    <div class="blog-list">
-    <a class="blog-card" href="/tools/tsuri/">
-      <div class="blog-card-body">
-        <span class="blog-tag">釣り・アウトドア</span>
-        <p class="blog-title">釣りサポートガイド</p>
-        <p class="blog-meta">釣果記録・潮見表・魚図鑑の3アプリで釣りをもっと楽しく。</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/tools/bosai/">
-      <div class="blog-card-body">
-        <span class="blog-tag">防災・災害対策</span>
-        <p class="blog-title">防災・災害対策サポートガイド</p>
-        <p class="blog-meta">備蓄チェックリスト・訓練トラッカー・防災クイズで家族の命を守る</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/tools/camping/">
-      <div class="blog-card-body">
-        <span class="blog-tag">アウトドア・キャンプ</span>
-        <p class="blog-title">キャンプサポートガイド</p>
-        <p class="blog-meta">持ち物チェックリスト・日記記録・マナークイズで快適キャンプをサポート</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/tools/pet-health/">
-      <div class="blog-card-body">
-        <span class="blog-tag">ペット・健康管理</span>
-        <p class="blog-title">ペット健康管理サポートガイド</p>
-        <p class="blog-meta">健康手帳・体重食事トラッカー・病気クイズで愛犬・愛猫の健康を守る</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/tools/kateisaien/">
-      <div class="blog-card-body">
-        <span class="blog-tag">家庭菜園・園芸</span>
-        <p class="blog-title">家庭菜園サポートガイド</p>
-        <p class="blog-meta">管理ノート・成長記録・知識クイズで菜園を長続きさせる</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/tools/jikka-seiri/">
-      <div class="blog-card-body">
-        <span class="blog-tag">実家・相続</span>
-        <p class="blog-title">実家整理・空き家サポートガイド</p>
-        <p class="blog-meta">片付けナビ・財産記録・活用ガイドで実家問題を丸ごと解決</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/tools/fukugyo-tax/">
-      <div class="blog-card-body">
-        <span class="blog-tag">副業・税金</span>
-        <p class="blog-title">副業の確定申告ガイド</p>
-        <p class="blog-meta">20万円ルールをわかりやすく解説。申告が必要かすぐわかる。</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/apps/camping_app1/">
-      <div class="blog-card-body">
-        <span class="blog-tag">ユーティリティ</span>
-        <p class="blog-title">キャンプ持ち物マスター</p>
-        <p class="blog-meta">カテゴリ別チェックリストでキャンプの忘れ物をゼロにする準備管理アプリ。</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/apps/camping_app2/">
-      <div class="blog-card-body">
-        <span class="blog-tag">ライフスタイル</span>
-        <p class="blog-title">キャンプ日記トラッカー</p>
-        <p class="blog-meta">キャンプ場・天気・料理・感想を記録するデジタルキャンプ日記アプリ。</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
-    <a class="blog-card" href="/apps/camping_app3/">
-      <div class="blog-card-body">
-        <span class="blog-tag">教育</span>
-        <p class="blog-title">キャンプマナークイズ</p>
-        <p class="blog-meta">キャンプマナーと安全知識を100問以上のクイズで楽しく学ぶ教育アプリ。</p>
-      </div>
-      <span class="blog-arrow" aria-hidden="true">›</span>
-    </a>
+    <p class="section-label">Explore</p>
+    <h2 class="section-title" id="tools-heading">ジャンルから探す</h2>
+    <div class="explore-grid">
+      <a class="explore-card" href="/tools/pet-health/">ペット</a>
+      <a class="explore-card" href="/tools/kateisaien/">家庭菜園</a>
     </div>
-    <a class="blog-more" href="/tools/">ミニアプリをもっと見る →</a>
+    <a class="blog-more" href="/tools/">Exploreをもっと見る →</a>
   </section>
 
   <section id="blog" aria-labelledby="blog-heading">
@@ -632,14 +547,15 @@
   <p>
     <a href="#apps">アプリ</a> &nbsp;|&nbsp;
     <a href="#webapps">Web Tools</a> &nbsp;|&nbsp;
-    <a href="#tools">ミニアプリ</a> &nbsp;|&nbsp;
+    <a href="#tools">Explore</a> &nbsp;|&nbsp;
     <a href="/blog/">ブログ</a> &nbsp;|&nbsp;
     <a href="#about">について</a>
   </p>
   <p style="margin-top:12px;">
     &copy; 2026 SEADICE &nbsp;|&nbsp;
     <a href="/privacy/">プライバシーポリシー</a> &nbsp;|&nbsp;
-    <a href="/sitemap.xml">サイトマップ</a>
+    <a href="/sitemap.xml">サイトマップ</a> &nbsp;|&nbsp;
+    <a href="mailto:hi@seadice.win">hi@seadice.win</a>
   </p>
 </footer>
 

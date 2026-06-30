@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>全アプリ一覧 | SEADICE</title>
+<meta name="description" content="SEADICEが開発したiOS・Webアプリの全一覧。AI日記、学習、習慣管理など。">
+<link rel="canonical" href="https://seadice.win/apps/">
+<meta property="og:title" content="全アプリ一覧 | SEADICE">
+<meta property="og:description" content="SEADICEが開発したiOS・Webアプリの全一覧。">
+<meta property="og:url" content="https://seadice.win/apps/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<link rel="icon" href="/favicon.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#05050C;--card:#0C0C1A;--border:rgba(255,255,255,0.08);--text:#F0F0F8;--muted:#8888AA;--accent:#00FFD1;--accent2:#38BDF8}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh}
+header{padding:20px 24px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;max-width:1000px;margin:0 auto}
+.logo{font-size:16px;font-weight:800;letter-spacing:0.05em;text-decoration:none;color:var(--accent)}
+.back{font-size:13px;color:var(--muted);text-decoration:none}
+.back:hover{color:var(--text)}
+main{max-width:1000px;margin:0 auto;padding:48px 24px}
+h1{font-size:28px;font-weight:800;margin-bottom:8px}
+.sub{font-size:14px;color:var(--muted);margin-bottom:36px}
+.apps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.app-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;text-decoration:none;color:var(--text);display:flex;flex-direction:column;transition:border-color 0.2s,transform 0.2s}
+.app-card:hover{border-color:var(--accent2);transform:translateY(-2px)}
+.app-card-top{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.app-icon{width:52px;height:52px;border-radius:13px;overflow:hidden;flex-shrink:0;background:var(--border);display:flex;align-items:center;justify-content:justify-content: center}
+.app-icon img{width:100%;height:100%;object-fit:cover}
+.app-name{font-size:16px;font-weight:700}
+.app-tag{font-size:11px;color:var(--muted);margin-top:2px}
+.app-desc{font-size:13px;color:var(--muted);line-height:1.65;flex:1}
+.app-badges{display:flex;gap:6px;margin-top:14px;flex-wrap:wrap}
+.app-badge{display:inline-block;font-size:10px;letter-spacing:0.15em;padding:3px 8px;border-radius:4px;border:1px solid}
+.badge-live{color:var(--accent);border-color:var(--accent)}
+.badge-web{color:var(--accent2);border-color:var(--accent2)}
+.badge-ai{color:#a78bfa;border-color:#a78bfa}
+footer{text-align:center;padding:48px 24px;color:var(--muted);font-size:12px;border-top:1px solid var(--border);margin-top:64px}
+footer a{color:var(--muted);text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SEADICE</a>
+  <a class="back" href="/">← トップへ戻る</a>
+</header>
+<main>
+  <h1>全アプリ一覧</h1>
+  <p class="sub">SEADICEが開発したiOS・Webアプリ</p>
+  <div class="apps-grid">
+
+    <a class="app-card" href="/apps/chozubora/">
+      <div class="app-card-top">
+        <div class="app-icon"><img src="/icons/chozubora_icon.webp" alt="超ズボラ日記" width="52" height="52" loading="lazy"></div>
+        <div>
+          <div class="app-name">超ズボラ日記</div>
+          <div class="app-tag">AI 日記 / ライフスタイル</div>
+        </div>
+      </div>
+      <p class="app-desc">一言書くだけ。AIが日記に整えてGoogleカレンダーへ自動保存。三日坊主にならない、世界一ズボラな日記アプリ。</p>
+      <div class="app-badges">
+        <span class="app-badge badge-live">● LIVE</span>
+        <span class="app-badge badge-ai">AI</span>
+      </div>
+    </a>
+
+    <a class="app-card" href="/apps/toite/">
+      <div class="app-card-top">
+        <div class="app-icon"><img src="/icons/toite_icon.webp" alt="TOITE" width="52" height="52" loading="lazy"></div>
+        <div>
+          <div class="app-name">TOITE</div>
+          <div class="app-tag">AI 家庭教師 / 教育</div>
+        </div>
+      </div>
+      <p class="app-desc">問題をカメラで撮るだけ。Claude Vision AI が解き方をステップごとに解説する、ポケットに入る AI 家庭教師。毎日 5 問まで無料。</p>
+      <div class="app-badges">
+        <span class="app-badge badge-live">● LIVE</span>
+        <span class="app-badge badge-ai">AI</span>
+      </div>
+    </a>
+
+    <a class="app-card" href="/apps/kao-type/">
+      <div class="app-card-top">
+        <div class="app-icon"><img src="/icons/face.webp" alt="顔タイプ診断" width="52" height="52" loading="lazy"></div>
+        <div>
+          <div class="app-name">顔タイプ診断</div>
+          <div class="app-tag">AI 診断 / ライフスタイル</div>
+        </div>
+      </div>
+      <p class="app-desc">写真 1 枚アップロードするだけで Claude AI が顔のパーツ・骨格・印象を分析。あなたに似合うスタイルをパーソナルに提案。</p>
+      <div class="app-badges">
+        <span class="app-badge badge-web">◈ WEB</span>
+        <span class="app-badge badge-ai">AI</span>
+      </div>
+    </a>
+
+    <a class="app-card" href="/apps/rakuraku/">
+      <div class="app-card-top">
+        <div class="app-icon"><img src="/icons/rakrak_anki.webp" alt="楽々暗記" width="52" height="52" loading="lazy"></div>
+        <div>
+          <div class="app-name">楽々暗記</div>
+          <div class="app-tag">SRS 暗記 / 学習</div>
+        </div>
+      </div>
+      <p class="app-desc">SM-2 アルゴリズムによる間隔反復学習（SRS）で記憶定着を最大化。資格・語学・受験に使えるスマートフラッシュカードアプリ。</p>
+      <div class="app-badges">
+        <span class="app-badge badge-live">● LIVE</span>
+      </div>
+    </a>
+
+    <a class="app-card" href="/apps/lifeisrpg/">
+      <div class="app-card-top">
+        <div class="app-icon"><img src="/icons/rpg.webp" alt="Life's RPG" width="52" height="52" loading="lazy"></div>
+        <div>
+          <div class="app-name">Life's RPG</div>
+          <div class="app-tag">習慣管理 / ゲーミフィケーション</div>
+        </div>
+      </div>
+      <p class="app-desc">人生をロールプレイングゲームに変換。日々のタスクをクエストにして自分キャラをレベルアップさせる、新感覚の習慣管理アプリ。</p>
+      <div class="app-badges">
+        <span class="app-badge badge-live">● LIVE</span>
+      </div>
+    </a>
+
+    <a class="app-card" href="/apps/drone-cbt/">
+      <div class="app-card-top">
+        <div class="app-icon"><img src="/icons/drone_icon.webp" alt="ドローンCBT対策" width="52" height="52" loading="lazy"></div>
+        <div>
+          <div class="app-name">ドローン CBT 対策</div>
+          <div class="app-tag">資格 / 学習</div>
+        </div>
+      </div>
+      <p class="app-desc">ドローン二等無人航空機操縦士の学科試験を CBT 形式で対策。分散学習で最短1週間マスター。全分野の一問一答問題集。</p>
+      <div class="app-badges">
+        <span class="app-badge badge-live">● LIVE</span>
+      </div>
+    </a>
+
+    <a class="app-card" href="/apps/boueki/">
+      <div class="app-card-top">
+        <div class="app-icon"><img src="/icons/trade_icon.webp" alt="貿易実務検定C級" width="52" height="52" loading="lazy"></div>
+        <div>
+          <div class="app-name">貿易実務検定 C 級</div>
+          <div class="app-tag">資格 / 学習</div>
+        </div>
+      </div>
+      <p class="app-desc">貿易実務検定 C 級の模擬試験・大問別演習が無料。インコタームズ・信用状など全分野を本番形式で繰り返し練習できる Web アプリ。</p>
+      <div class="app-badges">
+        <span class="app-badge badge-web">◈ WEB</span>
+      </div>
+    </a>
+
+    <a class="app-card" href="/apps/jinsei-pyramid/">
+      <div class="app-card-top">
+        <div class="app-icon"><img src="/icons/pira.webp" alt="人生ピラミッド" width="52" height="52" loading="lazy"></div>
+        <div>
+          <div class="app-name">人生ピラミッド</div>
+          <div class="app-tag">目標管理 / 生産性</div>
+        </div>
+      </div>
+      <p class="app-desc">夢から今日やることまでをピラミッド構造で一本化。大きな目標を最小のアクションまで分解して「次に何をすべきか」を常に明確に。</p>
+      <div class="app-badges">
+        <span class="app-badge badge-live">● LIVE</span>
+      </div>
+    </a>
+
+  </div>
+</main>
+<footer>
+  <p>&copy; 2025 SEADICE | <a href="/">seadice.win</a></p>
+</footer>
+</body>
+</html>
