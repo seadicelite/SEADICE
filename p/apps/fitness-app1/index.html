@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>筋トレ記録ノート - セット・重量・回数を簡単記録｜SEADICE</title>
+<meta name="description" content="筋トレのセット数・重量・回数をワンタップで記録。種目別グラフと自己ベスト通知で成長を実感できる、シンプルなワークアウトログアプリ。">
+<link rel="canonical" href="https://seadice.win/apps/fitness-app1/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:title" content="筋トレ記録ノート | SEADICE">
+<meta property="og:description" content="セット・重量・回数をワンタップで記録。グラフで成長を実感できるワークアウトログアプリ。">
+<meta property="og:url" content="https://seadice.win/apps/fitness-app1/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"Apps","item":"https://seadice.win/apps/"},{"@type":"ListItem","position":3,"name":"筋トレ記録ノート","item":"https://seadice.win/apps/fitness-app1/"}]},{"@type":"SoftwareApplication","name":"筋トレ記録ノート","applicationCategory":"HealthAndFitness","operatingSystem":"iOS","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"url":"https://seadice.win/apps/fitness-app1/"}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--bg2:#0D0D1A;--card:#0C0C1A;--teal:#00FFD1;--blue:#38BDF8;--text:#E2E8F0;--text2:#94A3B8;--border:#1E2A3A}body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo,sans-serif;line-height:1.7}a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:800px;margin:0 auto;padding:0 20px}header{border-bottom:1px solid var(--border);padding:14px 0;background:rgba(5,5,12,.92);position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.header-inner{display:flex;align-items:center;justify-content:space-between}.logo{font-size:1rem;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--teal),var(--blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.back-link{font-size:.8rem;color:var(--text2)}.hero{padding:64px 0 48px;border-bottom:1px solid var(--border)}.badge{display:inline-block;font-size:.75rem;background:rgba(0,255,209,.1);color:var(--teal);border:1px solid rgba(0,255,209,.3);border-radius:4px;padding:3px 12px;margin-bottom:20px}.hero h1{font-size:clamp(1.6rem,5vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:12px}.hero-sub{font-size:1rem;color:var(--text2);margin-bottom:24px}.privacy-link{font-size:.8rem;color:var(--text2)}.section{padding:48px 0;border-bottom:1px solid var(--border)}.section-label{font-size:11px;letter-spacing:.2em;color:var(--teal);text-transform:uppercase;margin-bottom:12px}.section-title{font-size:1.1rem;font-weight:800;margin-bottom:20px}.meta-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:16px}.meta-lang{font-size:10px;letter-spacing:.2em;color:var(--teal);text-transform:uppercase;margin-bottom:12px}.meta-row{display:flex;gap:12px;margin-bottom:10px;font-size:.85rem}.meta-key{color:var(--text2);min-width:120px;flex-shrink:0}.meta-val{color:var(--text)}.meta-block{margin-bottom:14px}.meta-block .meta-key{color:var(--text2);font-size:.8rem;margin-bottom:4px}.meta-block .meta-val{font-size:.85rem;line-height:1.75}.features-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}.feature-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 16px}.feature-num{font-size:1.4rem;font-weight:800;color:var(--teal);opacity:.4;line-height:1;margin-bottom:8px}.feature-title{font-size:.9rem;font-weight:700;color:#fff;margin-bottom:6px}.feature-desc{font-size:.8rem;color:var(--text2);line-height:1.6}.ads-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px 24px}.ads-box p{font-size:.85rem;color:var(--text2);line-height:1.75;margin-bottom:8px}.ads-box p:last-child{margin-bottom:0}.future-list{list-style:none;display:flex;flex-direction:column;gap:10px}.future-list li{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 16px;font-size:.875rem;color:var(--text2)}.future-list li::before{content:"";display:inline-block;width:6px;height:6px;background:var(--teal);border-radius:50%;margin-right:10px;vertical-align:middle}.why-text{font-size:.95rem;color:var(--text2);line-height:1.85}footer{border-top:1px solid var(--border);padding:24px 0;text-align:center;font-size:.8rem;color:var(--text2)}</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="header-inner">
+<a href="https://seadice.win/" class="logo">SEADICE</a>
+<a href="/tools/fitness/" class="back-link">← フィットネス一覧</a>
+</div>
+</div>
+</header>
+
+<main>
+<div class="wrap">
+
+<section class="hero">
+<span class="badge">App Store近日公開</span>
+<h1>筋トレ記録ノート</h1>
+<p class="hero-sub">セット・重量・回数を簡単記録</p>
+<p><a href="/privacy/fitness-app1/" class="privacy-link">プライバシーポリシー</a></p>
+</section>
+
+<section class="section">
+<p class="section-label">App Store Metadata</p>
+<h2 class="section-title">App Store登録用テキスト（10言語）</h2>
+
+<div class="meta-box">
+<p class="meta-lang">JA — Japanese</p>
+<div class="meta-row"><span class="meta-key">名前</span><span class="meta-val">筋トレ記録ノート</span></div>
+<div class="meta-row"><span class="meta-key">サブタイトル</span><span class="meta-val">セット・重量・回数を簡単記録</span></div>
+<div class="meta-block"><p class="meta-key">プロモーション用テキスト</p><p class="meta-val">筋トレのセット数・重量・回数をワンタップで記録。グラフで成長を実感できる、シンプルなワークアウトログアプリです。</p></div>
+<div class="meta-block"><p class="meta-key">概要</p><p class="meta-val">筋トレを続けるコツは「記録すること」。このアプリはセット数・重量・回数を素早く入力できるシンプルなUIで、ジムでの記録を快適にします。種目ごとの履歴グラフで自分の成長が一目でわかり、自己ベスト更新時には通知でモチベーションをアップ。ワークアウトテンプレートを使えば毎回の入力も時短できます。カレンダーで継続日数を確認し、トレーニング習慣を定着させましょう。広告収入で無料提供しています。</p></div>
+<div class="meta-row"><span class="meta-key">キーワード</span><span class="meta-val">筋トレ,ワークアウト,トレーニング記録,重量管理,ジム,筋肉,セット,回数,フィットネス,筋力</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">EN — English (U.S.)</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Workout Log - Gym Tracker</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Track sets, weight &amp; reps easily</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">Log your sets, weight, and reps with one tap. Visualize your progress with graphs and stay motivated with personal best notifications.</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">The key to building muscle is tracking your progress. This app offers a clean, fast UI to record sets, weight, and reps during your workout. View history graphs by exercise, get notified when you hit a new personal best, and use workout templates to save time. Check your streak on the calendar and build a lasting gym habit. Free to use, supported by ads.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">workout,gym tracker,weight training,fitness log,sets reps,strength,muscle,exercise,personal best,training</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">HI — Hindi</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">वर्कआउट लॉग</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">सेट, वजन और रेप्स ट्रैक करें</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">एक टैप में अपने सेट, वजन और रेप्स रिकॉर्ड करें। ग्राफ से प्रगति देखें और पर्सनल बेस्ट नोटिफिकेशन से प्रेरित रहें।</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">मांसपेशियां बनाने की कुंजी है अपनी प्रगति को ट्रैक करना। यह ऐप एक्सरसाइज के दौरान सेट, वजन और रेप्स को तेज़ी से रिकॉर्ड करने के लिए सरल UI प्रदान करता है। एक्सरसाइज के अनुसार इतिहास देखें, नए पर्सनल बेस्ट पर नोटिफिकेशन पाएं, और टेम्पलेट से समय बचाएं। कैलेंडर पर अपनी स्ट्रीक देखें और जिम की आदत बनाएं। विज्ञापनों से समर्थित, उपयोग के लिए मुफ्त।</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">वर्कआउट,जिम,फिटनेस,ट्रेनिंग,वजन,मांसपेशी,एक्सरसाइज,सेट,रेप्स,स्ट्रेंथ</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">ID — Indonesian</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Catatan Gym</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Catat set, berat &amp; rep dengan mudah</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">Catat set, berat, dan rep dengan satu ketukan. Lihat kemajuan lewat grafik dan tetap termotivasi dengan notifikasi rekor pribadi.</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Kunci membangun otot adalah melacak kemajuan Anda. Aplikasi ini menawarkan UI yang cepat untuk mencatat set, berat, dan rep saat olahraga. Lihat grafik riwayat per latihan, dapatkan notifikasi saat Anda memecahkan rekor pribadi, dan gunakan template untuk menghemat waktu. Cek streak di kalender dan bangun kebiasaan gym yang konsisten. Gratis dengan dukungan iklan.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">gym,latihan,fitness,olahraga,berat,otot,set,rep,kekuatan,tracker</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">VI — Vietnamese</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Nhật Ký Tập Gym</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Ghi lại set, tạ và số lần dễ dàng</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">Ghi lại set, trọng lượng và số lần chỉ với một chạm. Xem tiến độ qua biểu đồ và nhận thông báo kỷ lục cá nhân.</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Chìa khóa để xây dựng cơ bắp là theo dõi tiến độ. Ứng dụng cung cấp giao diện nhanh để ghi lại set, trọng lượng và số lần khi tập. Xem lịch sử theo từng bài tập, nhận thông báo khi phá kỷ lục cá nhân và dùng mẫu có sẵn để tiết kiệm thời gian. Kiểm tra chuỗi ngày trên lịch và xây dựng thói quen tập gym bền vững. Miễn phí, hỗ trợ bởi quảng cáo.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">gym,tập luyện,fitness,sức mạnh,cơ bắp,set,rep,trọng lượng,kỷ lục,lịch sử</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">TH — Thai</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">บันทึกการออกกำลังกาย</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">บันทึกเซต น้ำหนัก และครั้งได้ง่าย</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">บันทึกเซต น้ำหนัก และจำนวนครั้งด้วยแตะเดียว ดูความก้าวหน้าผ่านกราฟและรับการแจ้งเตือนเมื่อทำสถิติส่วนตัว</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">กุญแจสู่การสร้างกล้ามเนื้อคือการติดตามความก้าวหน้า แอปนี้มี UI ที่รวดเร็วสำหรับบันทึกเซต น้ำหนัก และจำนวนครั้งระหว่างออกกำลังกาย ดูประวัติกราฟแยกตามท่า รับการแจ้งเตือนเมื่อทำสถิติใหม่ และใช้เทมเพลตเพื่อประหยัดเวลา ตรวจสอบสตรีคในปฏิทินและสร้างนิสัยออกกำลังกายที่ยั่งยืน ใช้งานฟรีด้วยการสนับสนุนจากโฆษณา</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">ออกกำลังกาย,ยิม,ฟิตเนส,กล้ามเนื้อ,น้ำหนัก,เซต,ครั้ง,สถิติ,การฝึก,ความแข็งแกร่ง</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">PT-BR — Portuguese (Brazil)</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Diário de Treino</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Registre séries, peso e reps facilmente</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">Registre séries, peso e repetições com um toque. Visualize seu progresso em gráficos e receba notificações de recorde pessoal.</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">A chave para construir músculos é acompanhar seu progresso. Este app oferece uma interface rápida para registrar séries, peso e repetições durante o treino. Veja o histórico por exercício em gráficos, receba notificações ao bater um recorde pessoal e use templates para economizar tempo. Acompanhe sua sequência no calendário e crie o hábito de treinar. Gratuito com suporte de anúncios.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">treino,academia,fitness,musculação,força,série,repetição,peso,progresso,hábito</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">ES-MX — Spanish (Mexico)</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Diario de Entrenamiento</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Registra series, peso y reps fácilmente</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">Registra series, peso y repeticiones con un toque. Visualiza tu progreso en gráficas y recibe notificaciones de récord personal.</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">La clave para construir músculo es registrar tu progreso. Esta app ofrece una interfaz rápida para anotar series, peso y repeticiones durante tu entrenamiento. Ve el historial por ejercicio en gráficas, recibe notificaciones al superar tu récord personal y usa plantillas para ahorrar tiempo. Consulta tu racha en el calendario y crea el hábito de entrenar. Gratis con soporte de anuncios.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">entrenamiento,gimnasio,fitness,musculación,fuerza,serie,repetición,peso,progreso,hábito</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">ZH-HANT — Chinese (Traditional)</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">健身訓練日誌</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">輕鬆記錄組數、重量與次數</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">一鍵記錄組數、重量與次數。透過圖表查看進步，並在創下個人紀錄時收到通知。</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">增肌的關鍵在於追蹤訓練進度。本應用程式提供簡潔快速的介面，讓你在訓練時輕鬆記錄組數、重量與次數。可按動作查看歷史圖表，在突破個人紀錄時收到通知，並使用訓練模板節省時間。透過行事曆查看連續訓練天數，養成持續健身的習慣。免費使用，以廣告支持。</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">健身,訓練,重訓,肌肉,重量,組數,次數,紀錄,進步,健康</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">TR — Turkish</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Antrenman Günlüğü</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Set, ağırlık ve tekrarı kolayca kaydet</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">Set, ağırlık ve tekrarı tek dokunuşla kaydet. Grafiklerle ilerlemeyi gör ve kişisel rekor bildirimlerini al.</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Kas geliştirmenin anahtarı ilerlemeyi takip etmektir. Bu uygulama antrenman sırasında set, ağırlık ve tekrarı hızlıca kaydetmek için sade bir arayüz sunar. Egzersiz bazında geçmiş grafikleri görüntüle, kişisel rekor kırdığında bildirim al ve şablonlarla zaman kazan. Takvimde serini kontrol et ve düzenli antrenman alışkanlığı edin. Reklamlarla desteklenen ücretsiz uygulama.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">antrenman,spor,fitness,kas,ağırlık,set,tekrar,güç,rekor,takvim</span></div>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Features</p>
+<h2 class="section-title">主要機能</h2>
+<div class="features-grid">
+<div class="feature-card">
+<p class="feature-num">01</p>
+<p class="feature-title">種目別セット記録</p>
+<p class="feature-desc">ベンチプレス・スクワット・デッドリフトなど種目を選んでセット数・重量・回数をタップで入力。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">02</p>
+<p class="feature-title">履歴グラフ</p>
+<p class="feature-desc">種目ごとに重量推移をグラフで表示。成長が一目でわかりモチベーションが続く。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">03</p>
+<p class="feature-title">ワークアウトテンプレート</p>
+<p class="feature-desc">よく使うメニューをテンプレート保存。次回から選ぶだけで入力を大幅に時短。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">04</p>
+<p class="feature-title">カレンダー表示</p>
+<p class="feature-desc">トレーニングした日をカレンダーでマーク。継続日数と頻度を一目で確認。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">05</p>
+<p class="feature-title">自己ベスト通知</p>
+<p class="feature-desc">重量や回数が過去最高を更新したときに通知。達成感でモチベーションがアップ。</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Ads</p>
+<h2 class="section-title">広告について</h2>
+<div class="ads-box">
+<p>本アプリはGoogle AdMobによるバナー広告・インタースティシャル広告・リワード広告を表示します。</p>
+<p>リワード広告を視聴することで、プレミアム機能（テンプレート無制限保存など）を一時的に利用できます。</p>
+<p>広告収入によって無料でアプリを提供しています。</p>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Roadmap</p>
+<h2 class="section-title">今後実装予定の機能</h2>
+<ul class="future-list">
+<li>Apple Healthとの連動（消費カロリー連携）</li>
+<li>インターバルタイマー（セット間の休憩管理）</li>
+<li>ボディ部位別のトレーニングバランス分析</li>
+<li>複数のトレーニングルーティンの切り替え</li>
+</ul>
+</section>
+
+<section class="section">
+<p class="section-label">Why</p>
+<h2 class="section-title">なぜこのアプリが必要か</h2>
+<p class="why-text">筋トレの成果は「記録」で決まります。前回何キロ上げたかを覚えていなければ、毎回同じ重量で同じ回数をこなすだけになり、筋肉への刺激が一定になって成長が止まります。このアプリはジムでの記録を最小限の操作で残すことだけに特化。シンプルで邪魔にならない設計で、トレーニングの流れを止めずに使えます。</p>
+</section>
+
+</div>
+</main>
+
+<footer>
+<div class="wrap">
+<p>&copy; 2025 SEADICE &nbsp;|&nbsp; <a href="/privacy/fitness-app1/">プライバシーポリシー</a></p>
+</div>
+</footer>
+</body>
+</html>

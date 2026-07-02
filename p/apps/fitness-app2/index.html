@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>体重・体型トラッカー - グラフで体型変化を見える化｜SEADICE</title>
+<meta name="description" content="体重・体脂肪率を毎日記録してグラフで推移を確認。目標体重設定・BMI自動計算・写真記録でダイエットの成果を数字で実感できるアプリ。">
+<link rel="canonical" href="https://seadice.win/apps/fitness-app2/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:title" content="体重・体型トラッカー | SEADICE">
+<meta property="og:description" content="体重・体脂肪率を毎日記録してグラフで推移を確認。BMI自動計算・写真記録でダイエット成果を可視化。">
+<meta property="og:url" content="https://seadice.win/apps/fitness-app2/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"Apps","item":"https://seadice.win/apps/"},{"@type":"ListItem","position":3,"name":"体重・体型トラッカー","item":"https://seadice.win/apps/fitness-app2/"}]},{"@type":"SoftwareApplication","name":"体重・体型トラッカー","applicationCategory":"HealthAndFitness","operatingSystem":"iOS","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"url":"https://seadice.win/apps/fitness-app2/"}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--bg2:#0D0D1A;--card:#0C0C1A;--teal:#00FFD1;--blue:#38BDF8;--text:#E2E8F0;--text2:#94A3B8;--border:#1E2A3A}body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo,sans-serif;line-height:1.7}a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:800px;margin:0 auto;padding:0 20px}header{border-bottom:1px solid var(--border);padding:14px 0;background:rgba(5,5,12,.92);position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.header-inner{display:flex;align-items:center;justify-content:space-between}.logo{font-size:1rem;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--teal),var(--blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.back-link{font-size:.8rem;color:var(--text2)}.hero{padding:64px 0 48px;border-bottom:1px solid var(--border)}.badge{display:inline-block;font-size:.75rem;background:rgba(0,255,209,.1);color:var(--teal);border:1px solid rgba(0,255,209,.3);border-radius:4px;padding:3px 12px;margin-bottom:20px}.hero h1{font-size:clamp(1.6rem,5vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:12px}.hero-sub{font-size:1rem;color:var(--text2);margin-bottom:24px}.privacy-link{font-size:.8rem;color:var(--text2)}.section{padding:48px 0;border-bottom:1px solid var(--border)}.section-label{font-size:11px;letter-spacing:.2em;color:var(--teal);text-transform:uppercase;margin-bottom:12px}.section-title{font-size:1.1rem;font-weight:800;margin-bottom:20px}.meta-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:16px}.meta-lang{font-size:10px;letter-spacing:.2em;color:var(--teal);text-transform:uppercase;margin-bottom:12px}.meta-row{display:flex;gap:12px;margin-bottom:10px;font-size:.85rem}.meta-key{color:var(--text2);min-width:120px;flex-shrink:0}.meta-val{color:var(--text)}.meta-block{margin-bottom:14px}.meta-block .meta-key{color:var(--text2);font-size:.8rem;margin-bottom:4px}.meta-block .meta-val{font-size:.85rem;line-height:1.75}.features-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}.feature-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 16px}.feature-num{font-size:1.4rem;font-weight:800;color:var(--teal);opacity:.4;line-height:1;margin-bottom:8px}.feature-title{font-size:.9rem;font-weight:700;color:#fff;margin-bottom:6px}.feature-desc{font-size:.8rem;color:var(--text2);line-height:1.6}.ads-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px 24px}.ads-box p{font-size:.85rem;color:var(--text2);line-height:1.75;margin-bottom:8px}.ads-box p:last-child{margin-bottom:0}.future-list{list-style:none;display:flex;flex-direction:column;gap:10px}.future-list li{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 16px;font-size:.875rem;color:var(--text2)}.future-list li::before{content:"";display:inline-block;width:6px;height:6px;background:var(--teal);border-radius:50%;margin-right:10px;vertical-align:middle}.why-text{font-size:.95rem;color:var(--text2);line-height:1.85}footer{border-top:1px solid var(--border);padding:24px 0;text-align:center;font-size:.8rem;color:var(--text2)}</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="header-inner">
+<a href="https://seadice.win/" class="logo">SEADICE</a>
+<a href="/tools/fitness/" class="back-link">← フィットネス一覧</a>
+</div>
+</div>
+</header>
+
+<main>
+<div class="wrap">
+
+<section class="hero">
+<span class="badge">App Store近日公開</span>
+<h1>体重・体型トラッカー</h1>
+<p class="hero-sub">グラフで体型変化を見える化</p>
+<p><a href="/privacy/fitness-app2/" class="privacy-link">プライバシーポリシー</a></p>
+</section>
+
+<section class="section">
+<p class="section-label">App Store Metadata</p>
+<h2 class="section-title">App Store登録用テキスト（10言語）</h2>
+
+<div class="meta-box">
+<p class="meta-lang">JA — Japanese</p>
+<div class="meta-row"><span class="meta-key">名前</span><span class="meta-val">体重・体型トラッカー</span></div>
+<div class="meta-row"><span class="meta-key">サブタイトル</span><span class="meta-val">グラフで体型変化を見える化</span></div>
+<div class="meta-block"><p class="meta-key">プロモーション用テキスト</p><p class="meta-val">体重・体脂肪率を毎日記録してグラフで推移を確認。目標体重設定とBMI自動計算で、ダイエットの成果を数字で実感できるアプリです。</p></div>
+<div class="meta-block"><p class="meta-key">概要</p><p class="meta-val">「体重は測っているのに成果が見えない」——それはグラフで確認していないからです。このアプリは体重・体脂肪率を毎日記録し、日・週・月単位のグラフで変化を可視化します。目標体重を設定すれば達成率も確認でき、BMIは身長を入力するだけで自動計算。写真記録機能で見た目の変化も残せます。ダイエットも筋トレも、数字で管理することで継続率が格段に上がります。広告収入で無料提供しています。</p></div>
+<div class="meta-row"><span class="meta-key">キーワード</span><span class="meta-val">体重管理,ダイエット,体脂肪,BMI,体型,グラフ,記録,目標,体重計,痩せる</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">EN — English (U.S.)</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Body Weight Tracker</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Log weight &amp; body fat daily</span></div>
+<div class="meta-block"><p class="meta-key">Promotional Text</p><p class="meta-val">Track your weight and body fat percentage daily with clear graphs. Set a target weight, check your BMI automatically, and capture progress photos to see your transformation.</p></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Seeing your progress is the key to staying motivated. This app records your weight and body fat percentage every day and displays the data as daily, weekly, and monthly graphs. Set a target weight to track your achievement rate, get your BMI calculated automatically by entering your height, and use the photo feature to document your body changes. Managing your diet and workout with numbers dramatically improves consistency. Free to use, supported by ads.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">weight tracker,diet,body fat,BMI,graph,progress,calories,fitness,body composition,slim</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">HI — Hindi</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">वजन ट्रैकर</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">रोज़ वजन और बॉडी फैट रिकॉर्ड करें</span></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">रोज़ाना वजन और बॉडी फैट प्रतिशत रिकॉर्ड करें और ग्राफ से बदलाव देखें। लक्ष्य वजन सेट करें, BMI देखें और फोटो से अपना ट्रांसफॉर्मेशन नोट करें। विज्ञापनों से समर्थित, उपयोग के लिए मुफ्त।</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">वजन,डाइट,बॉडी फैट,BMI,ग्राफ,फिटनेस,स्लिम,ट्रैकर,रिकॉर्ड,लक्ष्य</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">ID — Indonesian</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Pelacak Berat Badan</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Catat berat &amp; lemak tubuh harian</span></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Catat berat badan dan persentase lemak tubuh setiap hari dan lihat perubahan lewat grafik. Tetapkan target berat, cek BMI otomatis, dan foto kemajuan untuk melihat transformasi tubuh Anda. Gratis dengan dukungan iklan.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">berat badan,diet,lemak,BMI,grafik,fitness,langsing,tracker,rekam,target</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">VI — Vietnamese</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Theo Dõi Cân Nặng</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Ghi lại cân nặng &amp; mỡ cơ thể mỗi ngày</span></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Ghi lại cân nặng và tỷ lệ mỡ mỗi ngày, xem biểu đồ thay đổi. Đặt mục tiêu cân nặng, tự tính BMI và chụp ảnh để theo dõi sự thay đổi cơ thể. Miễn phí, hỗ trợ bởi quảng cáo.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">cân nặng,ăn kiêng,mỡ,BMI,biểu đồ,fitness,gầy,theo dõi,ghi chép,mục tiêu</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">TH — Thai</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">ติดตามน้ำหนัก</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">บันทึกน้ำหนักและไขมันรายวัน</span></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">บันทึกน้ำหนักและเปอร์เซ็นต์ไขมันทุกวันและดูการเปลี่ยนแปลงผ่านกราฟ ตั้งเป้าหมายน้ำหนัก คำนวณ BMI อัตโนมัติ และถ่ายภาพติดตามการเปลี่ยนแปลงร่างกาย ใช้งานฟรีด้วยการสนับสนุนจากโฆษณา</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">น้ำหนัก,ไดเอท,ไขมัน,BMI,กราฟ,ฟิตเนส,ผอม,ติดตาม,บันทึก,เป้าหมาย</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">PT-BR — Portuguese (Brazil)</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Monitor de Peso</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Registre peso e gordura diariamente</span></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Registre peso e percentual de gordura todos os dias e veja as mudanças em gráficos. Defina uma meta de peso, calcule o IMC automaticamente e tire fotos para ver sua transformação. Gratuito com suporte de anúncios.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">peso,dieta,gordura,IMC,gráfico,fitness,emagrecer,monitor,registro,meta</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">ES-MX — Spanish (Mexico)</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Monitor de Peso</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Registra peso y grasa corporal diario</span></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Registra peso y porcentaje de grasa cada día y ve los cambios en gráficas. Establece una meta de peso, calcula el IMC automáticamente y toma fotos para ver tu transformación. Gratis con soporte de anuncios.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">peso,dieta,grasa,IMC,gráfica,fitness,adelgazar,monitor,registro,meta</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">ZH-HANT — Chinese (Traditional)</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">體重體型追蹤器</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">每日記錄體重與體脂</span></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">每天記錄體重和體脂率，以圖表追蹤變化。設定目標體重、自動計算BMI，並拍照記錄身體變化。免費使用，以廣告支持。</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">體重,減肥,體脂,BMI,圖表,健身,纖細,追蹤,記錄,目標</span></div>
+</div>
+
+<div class="meta-box">
+<p class="meta-lang">TR — Turkish</p>
+<div class="meta-row"><span class="meta-key">Name</span><span class="meta-val">Kilo Takip</span></div>
+<div class="meta-row"><span class="meta-key">Subtitle</span><span class="meta-val">Kilo ve yağ oranını günlük kaydet</span></div>
+<div class="meta-block"><p class="meta-key">Description</p><p class="meta-val">Her gün kilo ve vücut yağ yüzdesini kaydet, grafiklerde değişimi gör. Hedef kilo belirle, BMI'yı otomatik hesapla ve fotoğraflarla dönüşümünü takip et. Reklamlarla desteklenen ücretsiz uygulama.</p></div>
+<div class="meta-row"><span class="meta-key">Keywords</span><span class="meta-val">kilo,diyet,yağ,BMI,grafik,fitness,zayıflama,takip,kayıt,hedef</span></div>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Features</p>
+<h2 class="section-title">主要機能</h2>
+<div class="features-grid">
+<div class="feature-card">
+<p class="feature-num">01</p>
+<p class="feature-title">体重・体脂肪率の記録</p>
+<p class="feature-desc">毎日の体重と体脂肪率をワンタップで入力。手間なく記録が続けられるシンプルなUI。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">02</p>
+<p class="feature-title">グラフで推移確認</p>
+<p class="feature-desc">日・週・月単位のグラフで体重の変化を確認。短期・長期の傾向が一目でわかる。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">03</p>
+<p class="feature-title">目標体重設定</p>
+<p class="feature-desc">目標体重を設定して達成率をグラフ上に表示。あと何kg必要かが常に確認できる。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">04</p>
+<p class="feature-title">BMI自動計算</p>
+<p class="feature-desc">身長を入力するだけでBMIを自動計算。標準・過体重・肥満の判定も表示。</p>
+</div>
+<div class="feature-card">
+<p class="feature-num">05</p>
+<p class="feature-title">写真記録</p>
+<p class="feature-desc">日付ごとに写真を保存して見た目の変化を記録。数字だけでは見えない成果を確認。</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Ads</p>
+<h2 class="section-title">広告について</h2>
+<div class="ads-box">
+<p>本アプリはGoogle AdMobによるバナー広告・インタースティシャル広告・リワード広告を表示します。</p>
+<p>リワード広告を視聴することで、写真記録の枚数制限解除などのプレミアム機能を利用できます。</p>
+<p>広告収入によって無料でアプリを提供しています。</p>
+</div>
+</section>
+
+<section class="section">
+<p class="section-label">Roadmap</p>
+<h2 class="section-title">今後実装予定の機能</h2>
+<ul class="future-list">
+<li>Apple Healthとの体重データ連携</li>
+<li>カロリー記録との組み合わせ分析</li>
+<li>体型変化のビフォーアフター比較表示</li>
+<li>生理周期と体重変動の相関表示</li>
+</ul>
+</section>
+
+<section class="section">
+<p class="section-label">Why</p>
+<h2 class="section-title">なぜこのアプリが必要か</h2>
+<p class="why-text">体重は日々の食事・運動・睡眠の結果です。毎日計測してグラフで見ることで、「先週より0.5kg減った」「この週は増えた」という客観的な事実がわかります。感覚ではなく数字で管理することで、モチベーションの波に左右されず継続できます。写真記録を加えることで、体重計の数字には表れない筋肉量増加や体型の変化も実感できます。</p>
+</section>
+
+</div>
+</main>
+
+<footer>
+<div class="wrap">
+<p>&copy; 2025 SEADICE &nbsp;|&nbsp; <a href="/privacy/fitness-app2/">プライバシーポリシー</a></p>
+</div>
+</footer>
+</body>
+</html>

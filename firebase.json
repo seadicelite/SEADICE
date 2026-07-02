@@ -168,6 +168,14 @@
         "destination": "/blog/ios-release-with-admob/index.html"
       },
       {
+        "source": "/blog/affiliate-link-in-app/**",
+        "destination": "/blog/affiliate-link-in-app/index.html"
+      },
+      {
+        "source": "/blog/affiliate-for-mobile-app/**",
+        "destination": "/blog/affiliate-for-mobile-app/index.html"
+      },
+      {
         "source": "/blog/mobile-ad-networks-2026/**",
         "destination": "/blog/mobile-ad-networks-2026/index.html"
       },
@@ -368,6 +376,10 @@
         "destination": "/apps/camping-app3/index.html"
       },
       {
+        "source": "/privacy/hiragana-ai/**",
+        "destination": "/privacy/hiragana-ai/index.html"
+      },
+      {
         "source": "/privacy/camping-app1/**",
         "destination": "/privacy/camping-app1/index.html"
       },
@@ -461,6 +473,26 @@
       {"source": "/blog/tsuchi-tsukuri-kanzen/**", "destination": "/blog/tsuchi-tsukuri-kanzen/index.html"},
       {"source": "/blog/ph-yasai-sodatanai/**", "destination": "/blog/ph-yasai-sodatanai/index.html"},
       {"source": "/blog/sekkai-tsukaikata/**", "destination": "/blog/sekkai-tsukaikata/index.html"},
+      {"source": "/blog/flutter-i18n-guide/**", "destination": "/blog/flutter-i18n-guide/index.html"},
+      {"source": "/blog/flutter-image-cache/**", "destination": "/blog/flutter-image-cache/index.html"},
+      {"source": "/blog/kateisaien-app-kanri/**", "destination": "/blog/kateisaien-app-kanri/index.html"},
+      {"source": "/blog/yasai-seicho-photo/**", "destination": "/blog/yasai-seicho-photo/index.html"},
+      {"source": "/blog/kateisaien-kentei/**", "destination": "/blog/kateisaien-kentei/index.html"},
+      {"source": "/blog/mizuyari-app-kanri/**", "destination": "/blog/mizuyari-app-kanri/index.html"},
+      {"source": "/blog/kanyou-zukan-tsukaikata/**", "destination": "/blog/kanyou-zukan-tsukaikata/index.html"},
+      {"source": "/blog/shukaku-calendar/**", "destination": "/blog/shukaku-calendar/index.html"},
+      {"source": "/blog/taniku-saboten-kanri/**", "destination": "/blog/taniku-saboten-kanri/index.html"},
+      {"source": "/blog/yasai-byogaichuu-checker/**", "destination": "/blog/yasai-byogaichuu-checker/index.html"},
+      {"source": "/blog/companion-shindan/**", "destination": "/blog/companion-shindan/index.html"},
+      {"source": "/blog/dojo-shindan-app/**", "destination": "/blog/dojo-shindan-app/index.html"},
+      {"source": "/blog/global-site-access/**", "destination": "/blog/global-site-access/index.html"},
+      {"source": "/tools/fitness/**", "destination": "/tools/fitness/index.html"},
+      {"source": "/apps/fitness-app1/**", "destination": "/apps/fitness-app1/index.html"},
+      {"source": "/apps/fitness-app2/**", "destination": "/apps/fitness-app2/index.html"},
+      {"source": "/apps/fitness-app3/**", "destination": "/apps/fitness-app3/index.html"},
+      {"source": "/privacy/fitness-app1/**", "destination": "/privacy/fitness-app1/index.html"},
+      {"source": "/privacy/fitness-app2/**", "destination": "/privacy/fitness-app2/index.html"},
+      {"source": "/privacy/fitness-app3/**", "destination": "/privacy/fitness-app3/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
