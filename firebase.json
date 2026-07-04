@@ -384,6 +384,9 @@
       {"source": "/tools/danshari/**", "destination": "/tools/danshari/index.html"},
       {"source": "/apps/danshari-app3/**", "destination": "/apps/danshari-app3/index.html"},
       {"source": "/privacy/danshari-app3/**", "destination": "/privacy/danshari-app3/index.html"},
+      {"source": "/tools/black-psychology/**", "destination": "/tools/black-psychology/index.html"},
+      {"source": "/apps/black-psychology/**", "destination": "/apps/black-psychology/index.html"},
+      {"source": "/privacy/black-psychology/**", "destination": "/privacy/black-psychology/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
