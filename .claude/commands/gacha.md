@@ -383,6 +383,13 @@ flutter create --org win.seadice --project-name {slug} --platforms ios,android,w
 <false/>
 ```
 
+輸出コンプライアンスの申告も同時に追加する（**重要**）：
+```xml
+<key>ITSAppUsesNonExemptEncryption</key>
+<false/>
+```
+> このアプリはHTTPS/TLS（Claude APIプロキシ・AdMob等）以外の独自暗号化を実装していないため`false`でよい。これがないと**App Store Connectへのアップロードごとに**「輸出コンプライアンス情報が存在しません」というエラーで審査に進めなくなり、毎回手動で質問に答える必要が生じる。
+
 `url_launcher` で `mailto:` や外部サイトを開く場合、`LSApplicationQueriesSchemes` の宣言も必須（**重要**）：
 ```xml
 <key>LSApplicationQueriesSchemes</key>
