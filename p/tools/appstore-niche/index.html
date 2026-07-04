@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>App Storeニッチキーワードチェッカー | SEADICE Tools</title>
+<meta name="description" content="App Store内検索でそのキーワードが競争激しいか狙い目か無料で診断。単体キーワードを入力するだけで該当アプリ数・競争度・1位アプリを表示。">
+<link rel="canonical" href="https://seadice.win/tools/appstore-niche/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:title" content="App Storeニッチキーワードチェッカー | SEADICE Tools">
+<meta property="og:description" content="App Store内検索でそのキーワードが競争激しいか狙い目か無料で診断します。">
+<meta property="og:url" content="https://seadice.win/tools/appstore-niche/">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"App Storeニッチキーワードチェッカー","item":"https://seadice.win/tools/appstore-niche/"}]},{"@type":"WebApplication","name":"App Storeニッチキーワードチェッカー","url":"https://seadice.win/tools/appstore-niche/","applicationCategory":"UtilitiesApplication","operatingSystem":"Web"}]}</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.6;min-height:100vh}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 24px}
+.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}
+.nav-back{color:var(--muted);text-decoration:none;font-size:13px}
+main{max-width:720px;margin:0 auto;padding:88px 20px 80px}
+.label{font-size:11px;letter-spacing:.25em;color:var(--accent);text-transform:uppercase;margin-bottom:10px}
+h1{font-size:clamp(22px,5vw,32px);font-weight:800;margin-bottom:8px;letter-spacing:-.02em}
+.desc{font-size:14px;color:var(--muted);margin-bottom:32px;line-height:1.7}
+.input-row{display:flex;gap:8px;margin-bottom:8px}
+.input-row input{flex:1;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;color:var(--text);font-size:15px}
+.input-row input:focus{outline:none;border-color:var(--accent)}
+.btn{padding:14px 22px;border-radius:10px;border:none;font-size:14px;font-weight:700;cursor:pointer;transition:opacity .2s,transform .1s;letter-spacing:.02em;white-space:nowrap}
+.btn:active{transform:scale(.98)}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#000}
+.btn-primary:disabled{opacity:.4;cursor:not-allowed;transform:none}
+.hint{font-size:12px;color:var(--muted);margin-bottom:28px}
+.status{font-size:13px;color:var(--muted);margin-bottom:16px;display:none}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:none}
+th,td{padding:12px 14px;text-align:left;font-size:13px;border-bottom:1px solid var(--border)}
+th{color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+tr:last-child td{border-bottom:none}
+.badge{display:inline-block;padding:3px 9px;border-radius:6px;font-size:11px;font-weight:700}
+.badge-low{background:rgba(0,255,209,.15);color:var(--accent)}
+.badge-mid{background:rgba(56,189,248,.15);color:var(--accent2)}
+.badge-high{background:rgba(248,113,113,.15);color:#f87171}
+.badge-none{background:rgba(148,163,184,.15);color:var(--muted)}
+.top-app{color:var(--muted);font-size:12px}
+.error{color:#f87171;font-size:13px;margin-top:12px;display:none}
+</style>
+</head>
+<body>
+<nav>
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-back">← ツール一覧</a>
+</nav>
+<main>
+  <p class="label">App Store ASO Tool</p>
+  <h1>App Storeニッチ<br>キーワードチェッカー</h1>
+  <p class="desc">単体キーワードを入れると、App Store内検索で実際に何件のアプリがヒットするか・競争が激しいかを無料で診断します。「〜できない」のような悩み型より、単語そのものの方がApp Store内検索とは相性が良いので、単体キーワードでの入力がおすすめです。</p>
+
+  <div class="input-row">
+    <input type="text" id="kwInput" placeholder="例: 断捨離" maxlength="40">
+    <button class="btn btn-primary" id="checkBtn">調査する</button>
+  </div>
+  <p class="hint">1回の調査でApp Store内検索を1回実行します。連打しすぎるとApple側のレート制限にかかることがあります。</p>
+
+  <p class="status" id="status">調査中...</p>
+  <p class="error" id="error"></p>
+
+  <table id="resultTable">
+    <thead>
+      <tr>
+        <th>キーワード</th>
+        <th>該当数</th>
+        <th>競争度</th>
+        <th>1位アプリ</th>
+      </tr>
+    </thead>
+    <tbody id="resultBody"></tbody>
+  </table>
+</main>
+
+<script>
+const PROXY_URL = 'https://appstore-niche-proxy.seadice-lite.workers.dev';
+const BIG_PUBLISHER_HINTS = ['google','apple','microsoft','meta','line','yahoo','rakuten','cyberagent','dena','sony','nintendo','adobe','amazon'];
+
+const kwInput = document.getElementById('kwInput');
+const checkBtn = document.getElementById('checkBtn');
+const status = document.getElementById('status');
+const errorEl = document.getElementById('error');
+const table = document.getElementById('resultTable');
+const tbody = document.getElementById('resultBody');
+
+checkBtn.addEventListener('click', runCheck);
+kwInput.addEventListener('keydown', e => { if (e.key === 'Enter') runCheck(); });
+
+async function runCheck() {
+  const keyword = kwInput.value.trim();
+  if (!keyword) return;
+
+  checkBtn.disabled = true;
+  status.style.display = 'block';
+  status.textContent = '調査中...';
+  errorEl.style.display = 'none';
+
+  try {
+    const res = await fetch(`${PROXY_URL}/?term=${encodeURIComponent(keyword)}`);
+    if (!res.ok) throw new Error(`検索に失敗しました (status: ${res.status})`);
+    const data = await res.json();
+    const apps = (data.results || []).map(r => ({
+      name: r.trackName || '',
+      developer: r.artistName || '',
+      ratingCount: r.userRatingCount || 0,
+    }));
+
+    const summary = scoreNiche(apps);
+    addRow(keyword, summary, apps[0]);
+  } catch (e) {
+    errorEl.textContent = e.message || '調査に失敗しました。少し時間を置いて再試行してください。';
+    errorEl.style.display = 'block';
+  } finally {
+    status.style.display = 'none';
+    checkBtn.disabled = false;
+  }
+}
+
+function scoreNiche(apps) {
+  if (!apps.length) {
+    return { count: 0, competition: 'none', label: 'アプリなし(要調査)' };
+  }
+  const top5 = apps.slice(0, 5);
+  const bigCount = top5.filter(a => BIG_PUBLISHER_HINTS.some(h => a.developer.toLowerCase().includes(h))).length;
+  const avgRating = top5.reduce((s, a) => s + a.ratingCount, 0) / top5.length;
+
+  let competition, label;
+  if (bigCount >= 2 || avgRating > 5000) {
+    competition = 'high'; label = '高（大手/実績アプリが強い）';
+  } else if (avgRating > 500) {
+    competition = 'mid'; label = '中';
+  } else {
+    competition = 'low'; label = '低（狙い目の可能性）';
+  }
+  return { count: apps.length, competition, label };
+}
+
+function addRow(keyword, summary, topApp) {
+  table.style.display = 'table';
+  const badgeClass = { low: 'badge-low', mid: 'badge-mid', high: 'badge-high', none: 'badge-none' }[summary.competition];
+  const tr = document.createElement('tr');
+  tr.innerHTML = `
+    <td>${escapeHtml(keyword)}</td>
+    <td>${summary.count}</td>
+    <td><span class="badge ${badgeClass}">${escapeHtml(summary.label)}</span></td>
+    <td class="top-app">${topApp ? escapeHtml(topApp.name) + '（' + topApp.ratingCount.toLocaleString() + '件）' : '-'}</td>
+  `;
+  tbody.prepend(tr);
+}
+
+function escapeHtml(s) {
+  const div = document.createElement('div');
+  div.textContent = s;
+  return div.innerHTML;
+}
+</script>
+</body>
+</html>

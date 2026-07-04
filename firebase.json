@@ -493,6 +493,13 @@
       {"source": "/privacy/fitness-app1/**", "destination": "/privacy/fitness-app1/index.html"},
       {"source": "/privacy/fitness-app2/**", "destination": "/privacy/fitness-app2/index.html"},
       {"source": "/privacy/fitness-app3/**", "destination": "/privacy/fitness-app3/index.html"},
+      {"source": "/tools/danshari/**", "destination": "/tools/danshari/index.html"},
+      {"source": "/apps/danshari-app1/**", "destination": "/apps/danshari-app1/index.html"},
+      {"source": "/apps/danshari-app2/**", "destination": "/apps/danshari-app2/index.html"},
+      {"source": "/apps/danshari-app3/**", "destination": "/apps/danshari-app3/index.html"},
+      {"source": "/privacy/danshari-app1/**", "destination": "/privacy/danshari-app1/index.html"},
+      {"source": "/privacy/danshari-app2/**", "destination": "/privacy/danshari-app2/index.html"},
+      {"source": "/privacy/danshari-app3/**", "destination": "/privacy/danshari-app3/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
