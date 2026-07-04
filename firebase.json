@@ -240,22 +240,6 @@
         "destination": "/blog/zuboro-diary-plan/index.html"
       },
       {
-        "source": "/tools/jikka-seiri/**",
-        "destination": "/tools/jikka-seiri/index.html"
-      },
-      {
-        "source": "/privacy/jikka-seiri-app1/**",
-        "destination": "/privacy/jikka-seiri-app1/index.html"
-      },
-      {
-        "source": "/privacy/jikka-seiri-app2/**",
-        "destination": "/privacy/jikka-seiri-app2/index.html"
-      },
-      {
-        "source": "/privacy/jikka-seiri-app3/**",
-        "destination": "/privacy/jikka-seiri-app3/index.html"
-      },
-      {
         "source": "/privacy/kateisaien-app1/**",
         "destination": "/privacy/kateisaien-app1/index.html"
       },
@@ -296,40 +280,8 @@
         "destination": "/privacy/kateisaien-app10/index.html"
       },
       {
-        "source": "/tools/bosai/**",
-        "destination": "/tools/bosai/index.html"
-      },
-      {
-        "source": "/apps/bosai-app1/**",
-        "destination": "/apps/bosai-app1/index.html"
-      },
-      {
-        "source": "/apps/bosai-app2/**",
-        "destination": "/apps/bosai-app2/index.html"
-      },
-      {
-        "source": "/apps/bosai-app3/**",
-        "destination": "/apps/bosai-app3/index.html"
-      },
-      {
-        "source": "/privacy/bosai-app1/**",
-        "destination": "/privacy/bosai-app1/index.html"
-      },
-      {
-        "source": "/privacy/bosai-app2/**",
-        "destination": "/privacy/bosai-app2/index.html"
-      },
-      {
-        "source": "/privacy/bosai-app3/**",
-        "destination": "/privacy/bosai-app3/index.html"
-      },
-      {
         "source": "/tools/",
         "destination": "/tools/index.html"
-      },
-      {
-        "source": "/tools/fukugyo-tax/**",
-        "destination": "/tools/fukugyo-tax/index.html"
       },
       {
         "source": "/tools/pet-health/**",
@@ -360,44 +312,8 @@
         "destination": "/privacy/pet-health-app3/index.html"
       },
       {
-        "source": "/tools/camping/**",
-        "destination": "/tools/camping/index.html"
-      },
-      {
-        "source": "/apps/camping-app1/**",
-        "destination": "/apps/camping-app1/index.html"
-      },
-      {
-        "source": "/apps/camping-app2/**",
-        "destination": "/apps/camping-app2/index.html"
-      },
-      {
-        "source": "/apps/camping-app3/**",
-        "destination": "/apps/camping-app3/index.html"
-      },
-      {
         "source": "/privacy/hiragana-ai/**",
         "destination": "/privacy/hiragana-ai/index.html"
-      },
-      {
-        "source": "/privacy/camping-app1/**",
-        "destination": "/privacy/camping-app1/index.html"
-      },
-      {
-        "source": "/privacy/camping-app2/**",
-        "destination": "/privacy/camping-app2/index.html"
-      },
-      {
-        "source": "/privacy/camping-app3/**",
-        "destination": "/privacy/camping-app3/index.html"
-      },
-      {
-        "source": "/apps/camping_app1/**",
-        "destination": "/apps/camping_app1/index.html"
-      },
-      {
-        "source": "/apps/camping_app2/**",
-        "destination": "/apps/camping_app2/index.html"
       },
       {
         "source": "/blog/claude-slash-commands/**",
@@ -414,34 +330,6 @@
       {
         "source": "/blog/claude-api-intro/**",
         "destination": "/blog/claude-api-intro/index.html"
-      },
-      {
-        "source": "/tools/tsuri/**",
-        "destination": "/tools/tsuri/index.html"
-      },
-      {
-        "source": "/apps/tsuri-app1/**",
-        "destination": "/apps/tsuri-app1/index.html"
-      },
-      {
-        "source": "/apps/tsuri-app2/**",
-        "destination": "/apps/tsuri-app2/index.html"
-      },
-      {
-        "source": "/apps/tsuri-app3/**",
-        "destination": "/apps/tsuri-app3/index.html"
-      },
-      {
-        "source": "/privacy/tsuri-app1/**",
-        "destination": "/privacy/tsuri-app1/index.html"
-      },
-      {
-        "source": "/privacy/tsuri-app2/**",
-        "destination": "/privacy/tsuri-app2/index.html"
-      },
-      {
-        "source": "/privacy/tsuri-app3/**",
-        "destination": "/privacy/tsuri-app3/index.html"
       },
       {"source": "/blog/kateisaien-record-app/**", "destination": "/blog/kateisaien-record-app/index.html"},
       {"source": "/blog/kateisaien-diary-howto/**", "destination": "/blog/kateisaien-diary-howto/index.html"},
