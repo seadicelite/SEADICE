@@ -385,6 +385,16 @@ flutter create --org win.seadice --project-name {slug} --platforms ios,android,w
 <false/>
 ```
 
+`url_launcher` で `mailto:` や外部サイトを開く場合、`LSApplicationQueriesSchemes` の宣言も必須（**重要**）：
+```xml
+<key>LSApplicationQueriesSchemes</key>
+<array>
+  <string>mailto</string>
+  <string>https</string>
+</array>
+```
+> これがないとiOSの`canOpenURL`チェックが失敗し、`launchUrl`が例外を投げずに`false`を返すだけになる。結果、お問い合わせ・プライバシーポリシー・公式サイトのボタンをタップしても**エラーも出ずに何も起きない**という気づきにくい不具合になる。`_openUrl`実装では`launchUrl`の戻り値が`false`の場合もSnackBarでエラー表示すること（例外catchだけでは検知できない）。
+
 `ios/Podfile` の `post_install` ブロックに以下を追加（iOS deployment target 警告防止）：
 ```ruby
 post_install do |installer|
