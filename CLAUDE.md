@@ -4,30 +4,53 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commands
 
+SEADICE ポートフォリオ本体（`seadice.win` トップページ）は **静的 HTML** (`p/index.html`)。
+Flutter アプリではないので `flutter run` / `flutter build` の対象ではない。
+
 ```bash
-# 開発
-flutter run -d chrome          # Web で起動（メインターゲット）
-flutter run -d ios             # iOS シミュレーター
-flutter run -d android         # Android エミュレーター
-
-# 品質チェック
-flutter analyze lib/main.dart  # Lint（lib/main.dart のみが対象）
-
-# ビルド & デプロイ
-flutter build web --release    # --web-renderer は Flutter 3.22 以降廃止。オプションなしでOK
-
-# ⚠️ 絶対禁止: cp -r build/web/. p/ は実行しない
-# p/ は静的HTMLファイルを含む。上書きするとSEO用HTMLが消える。
-# デプロイは必ず flutter build web --release 後に以下を実行:
-rsync -av --exclude='index.html' --exclude='manifest.json' --exclude='favicon.png' --exclude='robots.txt' --exclude='sitemap.xml' --exclude='apps/' --exclude='icons/' --exclude='fonts/' --exclude='privacy/' --exclude='blog/' build/web/ p/
+# デプロイ（p/ の静的ファイルを直接デプロイするだけ）
 firebase deploy --only hosting # hosting のみデプロイ（functions の警告を避けるため）
 ```
 
-> **Firebase 注意**: `firebase.json` の `public` は `"p"` に設定されている。Flutter のビルド出力 (`build/web`) とは異なるため、デプロイ前に必ず `cp -r build/web/. p/` を実行すること。
+> `firebase.json` の `public` は `"p"`。`p/` 配下を直接編集し、そのままデプロイする。ビルドステップは不要。
+> 個別の Flutter アプリ（`toite`, `rakuraku`, `boueki-hub/*` など）は各アプリのリポジトリ側で `flutter build web --release` してから `p/該当ディレクトリ/` に配置する。
 
-## 新規 Flutter Web アプリを追加するときのチェックリスト
+## Claude API プロキシ（Cloudflare Workers）
 
-新しいアプリを Web に公開する際は、以下を必ず対応すること。
+FlutterアプリでClaude APIを使うときは、APIキーをipaに埋め込まず、Cloudflare Workers経由で呼び出す。
+
+- **Worker URL**: `https://claude-proxy.seadice-lite.workers.dev`
+- **Workerファイル**: `/Users/hidenori/Developer/hiragana-ai-worker/`
+- **APIキー**: Cloudflare Secretsに保存（`ANTHROPIC_API_KEY`）
+- **デプロイ**: `cd /Users/hidenori/Developer/hiragana-ai-worker && wrangler deploy`
+
+### Flutterアプリでの使い方
+
+```dart
+const _proxyUrl = 'https://claude-proxy.seadice-lite.workers.dev';
+
+final res = await http.post(
+  Uri.parse(_proxyUrl),
+  headers: {'content-type': 'application/json'},
+  body: jsonEncode({
+    'model': 'claude-haiku-4-5-20251001',
+    'max_tokens': 200,
+    'messages': [{'role': 'user', 'content': 'your prompt'}],
+  }),
+);
+```
+
+APIキーの追加・更新:
+```bash
+cd /Users/hidenori/Developer/hiragana-ai-worker && wrangler secret put ANTHROPIC_API_KEY
+```
+
+---
+
+## 新規アプリを Web に追加するときのチェックリスト
+
+新しいアプリを `seadice.win` に公開する際は、以下を必ず対応すること。
+（`firebase.json` の rewrite 追加は不要。静的ディレクトリは index.html があれば自動で配信される。レガシー Flutter SPA パス（`toite`, `rakuraku`, `boueki-hub/*` 等）を新設する場合のみ rewrite が必要）
 
 ### 1. ファビコン・PWA アイコンをアプリアイコンから生成
 
@@ -46,14 +69,25 @@ sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 
 > アイコンが `assets/icon/icon.png` にない場合は iOS の `Icon-App-1024x1024@1x.png` を使う。
 
-### 2. SEADICE ポートフォリオへの追加
+### 2. どこに追加するかの判断基準（重要）
 
-- `lib/main.dart` の `_defaultApps` にエントリを追加
-- `_appPrivacyData` にプライバシーポリシーを追加
-- `firebase.json` の `rewrites` にサブパスを追加
-- `flutter build web --release --base-href /サブパス名/` でビルド
-- `cp -r build/web/. /Users/hidenori/Developer/SEADICE/p/サブパス名/` でコピー
-- `firebase deploy --only hosting` でデプロイ
+`p/index.html` のトップページには「Apps」（主力アプリ）と「Explore」（ジャンル別）の2つの入口があり、新しいアプリはどちらか一方にしか追加しない。
+
+- **既存ジャンル（kateisaien / fitness / pet-health / danshari / black-psychology）の量産アプリ**
+  → トップページは触らない。該当する `p/tools/該当ジャンル/index.html` のグリッドにカードを追加するだけ。Explore 経由で自動的に辿れる。
+- **既存ジャンルに当たらない単独の主力アプリ**
+  → `p/index.html` の `#apps` セクション（`.apps-grid`）にカードを追加。
+- **新しいジャンルそのもの**
+  → 新しい `p/tools/新ジャンル/index.html` ハブページを作り、`p/index.html` の `#tools`（Explore）セクションに chip を1つ追加。
+
+### 3. プライバシーポリシーの追加
+
+- `p/privacy/新アプリ名/index.html` を作成
+- `p/privacy/index.html` の一覧にリンクを追加
+
+### 4. デプロイ
+
+- `firebase deploy --only hosting`
 
 ## アーキテクチャ
 
