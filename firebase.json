@@ -72,6 +72,14 @@
         "destination": "/jinsei_pyramid/index.html"
       },
       {
+        "source": "/apps/line-honne-scan/**",
+        "destination": "/apps/line-honne-scan/index.html"
+      },
+      {
+        "source": "/privacy/line-honne-scan/**",
+        "destination": "/privacy/line-honne-scan/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
@@ -79,6 +87,69 @@
     "headers": [
       {
         "source": "/index.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/apps/boueki/index.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/apps/boueki/flutter_service_worker.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/apps/boueki/flutter_bootstrap.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/apps/boueki/flutter.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/apps/boueki/main.dart.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/apps/boueki/version.json",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/",
         "headers": [
           {
             "key": "Cache-Control",
