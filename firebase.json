@@ -92,6 +92,18 @@
         "destination": "/privacy/omikuji-zodiac/index.html"
       },
       {
+        "source": "/tools/yokai-mirror/**",
+        "destination": "/tools/yokai-mirror/index.html"
+      },
+      {
+        "source": "/apps/yokai-mirror/**",
+        "destination": "/apps/yokai-mirror/index.html"
+      },
+      {
+        "source": "/privacy/yokai-mirror/**",
+        "destination": "/privacy/yokai-mirror/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
