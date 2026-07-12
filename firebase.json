@@ -80,6 +80,18 @@
         "destination": "/privacy/line-honne-scan/index.html"
       },
       {
+        "source": "/tools/omikuji-zodiac/**",
+        "destination": "/tools/omikuji-zodiac/index.html"
+      },
+      {
+        "source": "/apps/omikuji-zodiac/**",
+        "destination": "/apps/omikuji-zodiac/index.html"
+      },
+      {
+        "source": "/privacy/omikuji-zodiac/**",
+        "destination": "/privacy/omikuji-zodiac/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
