@@ -188,6 +188,18 @@
         "destination": "/privacy/procrastination-type/index.html"
       },
       {
+        "source": "/tools/omamori-guide/**",
+        "destination": "/tools/omamori-guide/index.html"
+      },
+      {
+        "source": "/apps/omamori-guide/**",
+        "destination": "/apps/omamori-guide/index.html"
+      },
+      {
+        "source": "/privacy/omamori-guide/**",
+        "destination": "/privacy/omamori-guide/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
