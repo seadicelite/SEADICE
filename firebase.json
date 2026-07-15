@@ -202,6 +202,9 @@
       {"source": "/tools/japanglish/**", "destination": "/tools/japanglish/index.html"},
       {"source": "/apps/japanglish/**", "destination": "/apps/japanglish/index.html"},
       {"source": "/privacy/japanglish/**", "destination": "/privacy/japanglish/index.html"},
+      {"source": "/tools/wagashi-muse/**", "destination": "/tools/wagashi-muse/index.html"},
+      {"source": "/apps/wagashi-muse/**", "destination": "/apps/wagashi-muse/index.html"},
+      {"source": "/privacy/wagashi-muse/**", "destination": "/privacy/wagashi-muse/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
