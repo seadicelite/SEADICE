@@ -104,6 +104,30 @@
         "destination": "/privacy/yokai-mirror/index.html"
       },
       {
+        "source": "/tools/hsp-relationship-check/**",
+        "destination": "/tools/hsp-relationship-check/index.html"
+      },
+      {
+        "source": "/apps/hsp-relationship-check/**",
+        "destination": "/apps/hsp-relationship-check/index.html"
+      },
+      {
+        "source": "/privacy/hsp-relationship-check/**",
+        "destination": "/privacy/hsp-relationship-check/index.html"
+      },
+      {
+        "source": "/tools/cognitive-bias-guide/**",
+        "destination": "/tools/cognitive-bias-guide/index.html"
+      },
+      {
+        "source": "/apps/cognitive-bias-guide/**",
+        "destination": "/apps/cognitive-bias-guide/index.html"
+      },
+      {
+        "source": "/privacy/cognitive-bias-guide/**",
+        "destination": "/privacy/cognitive-bias-guide/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
