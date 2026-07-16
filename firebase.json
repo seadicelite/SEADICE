@@ -205,6 +205,9 @@
       {"source": "/tools/wagashi-muse/**", "destination": "/tools/wagashi-muse/index.html"},
       {"source": "/apps/wagashi-muse/**", "destination": "/apps/wagashi-muse/index.html"},
       {"source": "/privacy/wagashi-muse/**", "destination": "/privacy/wagashi-muse/index.html"},
+      {"source": "/tools/chado-sensei/**", "destination": "/tools/chado-sensei/index.html"},
+      {"source": "/apps/chado-sensei/**", "destination": "/apps/chado-sensei/index.html"},
+      {"source": "/privacy/chado-sensei/**", "destination": "/privacy/chado-sensei/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
