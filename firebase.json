@@ -104,6 +104,18 @@
         "destination": "/privacy/yokai-mirror/index.html"
       },
       {
+        "source": "/tools/yumetoki/**",
+        "destination": "/tools/yumetoki/index.html"
+      },
+      {
+        "source": "/apps/yumetoki/**",
+        "destination": "/apps/yumetoki/index.html"
+      },
+      {
+        "source": "/privacy/yumetoki/**",
+        "destination": "/privacy/yumetoki/index.html"
+      },
+      {
         "source": "/tools/mbti-compass/**",
         "destination": "/tools/mbti-compass/index.html"
       },
