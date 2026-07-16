@@ -104,6 +104,18 @@
         "destination": "/privacy/yokai-mirror/index.html"
       },
       {
+        "source": "/tools/mbti-compass/**",
+        "destination": "/tools/mbti-compass/index.html"
+      },
+      {
+        "source": "/apps/mbti-compass/**",
+        "destination": "/apps/mbti-compass/index.html"
+      },
+      {
+        "source": "/privacy/mbti-compass/**",
+        "destination": "/privacy/mbti-compass/index.html"
+      },
+      {
         "source": "/tools/hsp-relationship-check/**",
         "destination": "/tools/hsp-relationship-check/index.html"
       },
