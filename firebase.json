@@ -208,6 +208,9 @@
       {"source": "/tools/chado-sensei/**", "destination": "/tools/chado-sensei/index.html"},
       {"source": "/apps/chado-sensei/**", "destination": "/apps/chado-sensei/index.html"},
       {"source": "/privacy/chado-sensei/**", "destination": "/privacy/chado-sensei/index.html"},
+      {"source": "/tools/matsuri-compass/**", "destination": "/tools/matsuri-compass/index.html"},
+      {"source": "/apps/matsuri-compass/**", "destination": "/apps/matsuri-compass/index.html"},
+      {"source": "/privacy/matsuri-compass/**", "destination": "/privacy/matsuri-compass/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
