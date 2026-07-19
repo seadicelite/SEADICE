@@ -164,6 +164,18 @@
         "destination": "/privacy/kanyou-shindan/index.html"
       },
       {
+        "source": "/tools/fbi-bodylanguage/**",
+        "destination": "/tools/fbi-bodylanguage/index.html"
+      },
+      {
+        "source": "/apps/fbi-bodylanguage/**",
+        "destination": "/apps/fbi-bodylanguage/index.html"
+      },
+      {
+        "source": "/privacy/fbi-bodylanguage/**",
+        "destination": "/privacy/fbi-bodylanguage/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
