@@ -152,6 +152,18 @@
         "destination": "/privacy/cognitive-bias-guide/index.html"
       },
       {
+        "source": "/tools/kanyou-shindan/**",
+        "destination": "/tools/kanyou-shindan/index.html"
+      },
+      {
+        "source": "/apps/kanyou-shindan/**",
+        "destination": "/apps/kanyou-shindan/index.html"
+      },
+      {
+        "source": "/privacy/kanyou-shindan/**",
+        "destination": "/privacy/kanyou-shindan/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
