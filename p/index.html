@@ -15,6 +15,8 @@
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="preload" href="/icons/stand.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.gstatic.com">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="SEADICE">
@@ -52,7 +54,7 @@
         "name": "SEADICE（シーダイス）— 皆さんの生活に自然と溶け込むアプリを届けます",
         "description": "シーダイス（SEADICE）は、皆さんの生活に自然と溶け込むアプリを届けるスタジオ。",
         "inLanguage": "ja",
-        "dateModified": "2026-07-10",
+        "dateModified": "2026-07-20",
         "isPartOf": { "@id": "https://seadice.win/#website" },
         "about": { "@id": "https://seadice.win/#organization" },
         "breadcrumb": { "@id": "https://seadice.win/#breadcrumb" }
@@ -204,9 +206,8 @@
     .hero-label { animation: heroIn 0.7s ease both; }
     .hero-title { animation: heroIn 0.7s ease 0.08s both; }
     .hero-desc { animation: heroIn 0.7s ease 0.16s both; }
-    .hero-stats { animation: heroIn 0.7s ease 0.24s both; }
     @keyframes heroIn { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-    @media (prefers-reduced-motion: reduce) { .hero-label, .hero-title, .hero-desc, .hero-stats { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .hero-label, .hero-title, .hero-desc { animation: none; } }
     .hero-mascot { flex-shrink: 0; width: 260px; display: flex; align-items: flex-end; justify-content: center; }
     .hero-mascot img { width: 220px; height: auto; filter: drop-shadow(0 20px 40px rgba(0,255,209,0.18)); animation: float 4s ease-in-out infinite; }
     @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
@@ -216,13 +217,18 @@
     .hero-title { font-size: clamp(36px, 8vw, 68px); font-weight: 800; line-height: 1.1; letter-spacing: -0.03em; margin-bottom: 24px; }
     .hero-title span { background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     .hero-desc { font-size: clamp(15px, 2vw, 17px); color: var(--muted); max-width: 500px; margin-bottom: 40px; line-height: 1.85; }
-    .hero-stats { display: flex; gap: 32px; flex-wrap: wrap; border-top: 1px solid var(--border); padding-top: 32px; }
-    .stat-num { font-size: 26px; font-weight: 800; color: var(--text); }
-    .stat-label { font-size: 12px; color: var(--muted); margin-top: 2px; }
 
     section { padding: 80px 24px; max-width: 1040px; margin: 0 auto; }
     .section-label { font-size: 11px; letter-spacing: 0.25em; color: var(--accent); margin-bottom: 12px; text-transform: uppercase; }
     .section-title { font-size: clamp(22px, 4vw, 34px); font-weight: 800; margin-bottom: 40px; letter-spacing: -0.02em; }
+
+    .apps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+    .app-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; color: var(--text); transition: border-color 0.2s, transform 0.2s; }
+    .app-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+    .app-icon-badge { width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, var(--accent), var(--accent2)); display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 800; color: #05050C; flex-shrink: 0; }
+    .app-card-name { font-size: 16px; font-weight: 800; }
+    .app-card-desc { font-size: 13px; color: var(--muted); line-height: 1.65; flex: 1; }
+    .app-card-link { font-size: 12px; color: var(--accent2); font-weight: 700; }
 
     .webapps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
     .webapp-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 16px; transition: border-color 0.2s, transform 0.2s; }
@@ -313,6 +319,37 @@
       <img src="/icons/stand.webp" alt="" width="220" height="330">
     </div>
   </div>
+
+  <section id="apps" class="reveal" aria-labelledby="apps-heading">
+    <p class="section-label">Apps</p>
+    <h2 class="section-title" id="apps-heading">SEADICEの主力アプリ</h2>
+    <div class="apps-grid reveal-stagger">
+      <a class="app-card stagger-item" href="/apps/chozubora/">
+        <div class="app-icon-badge">日記</div>
+        <p class="app-card-name">超ズボラ日記</p>
+        <p class="app-card-desc">一言書くだけでAIが日記に仕上げてくれる、続けるハードルを極限まで下げた日記アプリ。</p>
+        <span class="app-card-link">アプリを見る →</span>
+      </a>
+      <a class="app-card stagger-item" href="/apps/toite/">
+        <div class="app-icon-badge">TOITE</div>
+        <p class="app-card-name">TOITE</p>
+        <p class="app-card-desc">数学・英語の問題をカメラで撮るだけ。AIがその場で解説してくれる学習アプリ。</p>
+        <span class="app-card-link">アプリを見る →</span>
+      </a>
+      <a class="app-card stagger-item" href="/apps/kao-type/">
+        <div class="app-icon-badge">顔診断</div>
+        <p class="app-card-name">顔タイプ診断</p>
+        <p class="app-card-desc">写真を撮るだけでAIが顔タイプを診断。似合うファッション・メイクの傾向がわかる。</p>
+        <span class="app-card-link">アプリを見る →</span>
+      </a>
+      <a class="app-card stagger-item" href="/apps/rakuraku/">
+        <div class="app-icon-badge">暗記</div>
+        <p class="app-card-name">楽々暗記</p>
+        <p class="app-card-desc">AIが問題を自動生成する暗記アプリ。資格勉強や単語暗記をスキマ時間で効率化。</p>
+        <span class="app-card-link">アプリを見る →</span>
+      </a>
+    </div>
+  </section>
 
   <section id="webapps" class="reveal" aria-labelledby="webapps-heading">
     <p class="section-label">Web Tools</p>
@@ -408,6 +445,7 @@
     <p class="section-label">Explore</p>
     <h2 class="section-title" id="tools-heading">ジャンルから探す</h2>
     <div class="explore-grid">
+      <a class="explore-card" href="/tools/holmes-deduction/">推理・観察力</a>
       <a class="explore-card" href="/tools/kanyou-shindan/">観葉植物</a>
       <a class="explore-card" href="/tools/hokuro-uranai/">占い</a>
       <a class="explore-card" href="/tools/omikuji-zodiac/">海外向け日本文化</a>

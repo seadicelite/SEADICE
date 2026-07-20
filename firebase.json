@@ -188,6 +188,18 @@
         "destination": "/privacy/procrastination-type/index.html"
       },
       {
+        "source": "/tools/holmes-deduction/**",
+        "destination": "/tools/holmes-deduction/index.html"
+      },
+      {
+        "source": "/apps/holmes-deduction/**",
+        "destination": "/apps/holmes-deduction/index.html"
+      },
+      {
+        "source": "/privacy/holmes-deduction/**",
+        "destination": "/privacy/holmes-deduction/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
