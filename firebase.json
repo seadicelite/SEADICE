@@ -176,6 +176,18 @@
         "destination": "/privacy/fbi-bodylanguage/index.html"
       },
       {
+        "source": "/tools/procrastination-type/**",
+        "destination": "/tools/procrastination-type/index.html"
+      },
+      {
+        "source": "/apps/procrastination-type/**",
+        "destination": "/apps/procrastination-type/index.html"
+      },
+      {
+        "source": "/privacy/procrastination-type/**",
+        "destination": "/privacy/procrastination-type/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
