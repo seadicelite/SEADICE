@@ -200,6 +200,18 @@
         "destination": "/privacy/holmes-deduction/index.html"
       },
       {
+        "source": "/tools/yaritai-100/**",
+        "destination": "/tools/yaritai-100/index.html"
+      },
+      {
+        "source": "/apps/yaritai-100/**",
+        "destination": "/apps/yaritai-100/index.html"
+      },
+      {
+        "source": "/privacy/yaritai-100/**",
+        "destination": "/privacy/yaritai-100/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
