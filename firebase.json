@@ -220,6 +220,9 @@
       {"source": "/tools/kaidan-nights/**", "destination": "/tools/kaidan-nights/index.html"},
       {"source": "/apps/kaidan-nights/**", "destination": "/apps/kaidan-nights/index.html"},
       {"source": "/privacy/kaidan-nights/**", "destination": "/privacy/kaidan-nights/index.html"},
+      {"source": "/tools/bushido-way/**", "destination": "/tools/bushido-way/index.html"},
+      {"source": "/apps/bushido-way/**", "destination": "/apps/bushido-way/index.html"},
+      {"source": "/privacy/bushido-way/**", "destination": "/privacy/bushido-way/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
