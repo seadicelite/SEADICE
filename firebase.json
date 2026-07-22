@@ -248,6 +248,18 @@
         "destination": "/privacy/trauma-response-type/index.html"
       },
       {
+        "source": "/tools/coping-type/**",
+        "destination": "/tools/coping-type/index.html"
+      },
+      {
+        "source": "/apps/coping-type/**",
+        "destination": "/apps/coping-type/index.html"
+      },
+      {
+        "source": "/privacy/coping-type/**",
+        "destination": "/privacy/coping-type/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
