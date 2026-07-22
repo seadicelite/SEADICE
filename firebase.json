@@ -272,6 +272,18 @@
         "destination": "/privacy/perfectionism-type/index.html"
       },
       {
+        "source": "/tools/approval-type/**",
+        "destination": "/tools/approval-type/index.html"
+      },
+      {
+        "source": "/apps/approval-type/**",
+        "destination": "/apps/approval-type/index.html"
+      },
+      {
+        "source": "/privacy/approval-type/**",
+        "destination": "/privacy/approval-type/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
