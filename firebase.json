@@ -223,6 +223,9 @@
       {"source": "/tools/bushido-way/**", "destination": "/tools/bushido-way/index.html"},
       {"source": "/apps/bushido-way/**", "destination": "/apps/bushido-way/index.html"},
       {"source": "/privacy/bushido-way/**", "destination": "/privacy/bushido-way/index.html"},
+      {"source": "/tools/shinobi-scroll/**", "destination": "/tools/shinobi-scroll/index.html"},
+      {"source": "/apps/shinobi-scroll/**", "destination": "/apps/shinobi-scroll/index.html"},
+      {"source": "/privacy/shinobi-scroll/**", "destination": "/privacy/shinobi-scroll/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
