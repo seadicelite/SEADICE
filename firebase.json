@@ -224,6 +224,18 @@
         "destination": "/privacy/attachment-style/index.html"
       },
       {
+        "source": "/tools/enneagram/**",
+        "destination": "/tools/enneagram/index.html"
+      },
+      {
+        "source": "/apps/enneagram/**",
+        "destination": "/apps/enneagram/index.html"
+      },
+      {
+        "source": "/privacy/enneagram/**",
+        "destination": "/privacy/enneagram/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
