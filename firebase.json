@@ -236,6 +236,18 @@
         "destination": "/privacy/enneagram/index.html"
       },
       {
+        "source": "/tools/trauma-response-type/**",
+        "destination": "/tools/trauma-response-type/index.html"
+      },
+      {
+        "source": "/apps/trauma-response-type/**",
+        "destination": "/apps/trauma-response-type/index.html"
+      },
+      {
+        "source": "/privacy/trauma-response-type/**",
+        "destination": "/privacy/trauma-response-type/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
