@@ -284,6 +284,18 @@
         "destination": "/privacy/approval-type/index.html"
       },
       {
+        "source": "/tools/self-esteem-type/**",
+        "destination": "/tools/self-esteem-type/index.html"
+      },
+      {
+        "source": "/apps/self-esteem-type/**",
+        "destination": "/apps/self-esteem-type/index.html"
+      },
+      {
+        "source": "/privacy/self-esteem-type/**",
+        "destination": "/privacy/self-esteem-type/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
