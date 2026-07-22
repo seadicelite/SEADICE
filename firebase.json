@@ -212,6 +212,18 @@
         "destination": "/privacy/yaritai-100/index.html"
       },
       {
+        "source": "/tools/attachment-style/**",
+        "destination": "/tools/attachment-style/index.html"
+      },
+      {
+        "source": "/apps/attachment-style/**",
+        "destination": "/apps/attachment-style/index.html"
+      },
+      {
+        "source": "/privacy/attachment-style/**",
+        "destination": "/privacy/attachment-style/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
