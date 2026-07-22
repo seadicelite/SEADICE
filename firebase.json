@@ -260,6 +260,18 @@
         "destination": "/privacy/coping-type/index.html"
       },
       {
+        "source": "/tools/perfectionism-type/**",
+        "destination": "/tools/perfectionism-type/index.html"
+      },
+      {
+        "source": "/apps/perfectionism-type/**",
+        "destination": "/apps/perfectionism-type/index.html"
+      },
+      {
+        "source": "/privacy/perfectionism-type/**",
+        "destination": "/privacy/perfectionism-type/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
