@@ -75,12 +75,15 @@
     .btn:hover { opacity: 0.85; transform: translateY(-1px); }
     .btn-primary { background: linear-gradient(135deg, #FF6B35, #FF8C5A); color: #fff; }
     section { padding: 64px 0; }
-    h2 { font-size: clamp(20px, 3vw, 26px); font-weight: 800; margin-bottom: 28px; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(20px, 3vw, 26px); font-weight: 800; margin-bottom: 28px; letter-spacing: -0.02em; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, var(--accent), var(--accent2)) 1; padding-bottom: 10px; display: inline-block; }
     .features { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
     .feature { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; }
+    .feature-icon { margin-bottom: 10px; display: block; }
     .feature-label { font-size: 10px; letter-spacing: 0.15em; color: var(--accent); margin-bottom: 8px; text-transform: uppercase; }
     .feature-title { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
     .feature-desc { font-size: 13px; color: var(--muted); line-height: 1.65; }
+    .badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+    .badge-pill { display: inline-flex; align-items: center; font-size: 11px; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; }
     .faq { display: flex; flex-direction: column; gap: 10px; }
     .faq-item { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
     .faq-q { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
@@ -104,6 +107,7 @@
     <div class="app-icon">
       <img src="/icons/tikdog_icon.webp" alt="TikDog" width="80" height="80">
     </div>
+    <div class="badge-row"><span class="badge-pill">エンタメ</span><span class="badge-pill">iOS</span><span class="badge-pill">完全無料</span></div>
     <p class="hero-label">Entertainment / 犬動画</p>
     <h1>犬動画だけを、<br>無限にスワイプ。</h1>
     <p class="hero-desc">かわいい・おもしろい犬動画だけを集めたバーティカル動画アプリ。TikTokスタイルで下にスワイプするだけで次々と犬動画が楽しめる。完全無料。</p>
@@ -116,21 +120,25 @@
     <h2 id="features-heading">特徴</h2>
     <div class="features">
       <div class="feature">
+        <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
         <p class="feature-label">無限スクロール</p>
         <p class="feature-title">下にスワイプするだけ</p>
         <p class="feature-desc">TikTokスタイルのバーティカル動画。下にスワイプするだけで次々と犬動画が表示されます。</p>
       </div>
       <div class="feature">
+        <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
         <p class="feature-label">厳選コンテンツ</p>
         <p class="feature-title">犬動画だけを厳選</p>
         <p class="feature-desc">柴犬・コーギー・ゴールデンレトリバーなど様々な犬種のかわいい・おもしろい動画を厳選して掲載。</p>
       </div>
       <div class="feature">
+        <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
         <p class="feature-label">完全無料</p>
         <p class="feature-title">ダウンロード無料</p>
         <p class="feature-desc">アプリのダウンロードも動画の視聴も完全無料。課金一切なし。</p>
       </div>
       <div class="feature">
+        <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>
         <p class="feature-label">自動更新</p>
         <p class="feature-title">毎日新しい動画が追加</p>
         <p class="feature-desc">動画は毎日自動で追加されるので、いつ見ても新鮮なコンテンツが楽しめます。</p>

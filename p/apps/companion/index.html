@@ -106,8 +106,10 @@
 
     .empty-result { text-align: center; padding: 32px; color: var(--muted); font-size: 14px; }
 
+    .badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+    .badge-pill { display: inline-flex; align-items: center; font-size: 11px; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; }
     .section { margin-top: 56px; }
-    .section h2 { font-size: 20px; font-weight: 800; margin-bottom: 16px; }
+    .section h2 { font-size: 20px; font-weight: 800; margin-bottom: 16px; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, var(--accent), var(--accent2)) 1; padding-bottom: 8px; display: inline-block; }
     .section p, .section li { font-size: 14px; color: var(--muted); line-height: 1.85; }
     .section ul { padding-left: 20px; }
     .section li { margin-bottom: 6px; }
@@ -119,7 +121,7 @@
     .article-title { font-size: 15px; font-weight: 700; }
 
     .faq { margin-top: 40px; }
-    .faq h2 { font-size: 20px; font-weight: 800; margin-bottom: 20px; }
+    .faq h2 { font-size: 20px; font-weight: 800; margin-bottom: 20px; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, var(--accent), var(--accent2)) 1; padding-bottom: 8px; display: inline-block; }
     .faq-item { border-top: 1px solid var(--border); padding: 16px 0; }
     .faq-q { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
     .faq-a { font-size: 13px; color: var(--muted); line-height: 1.8; }
@@ -141,6 +143,7 @@
 
 <main>
   <p class="page-label">Web App · 無料ツール</p>
+  <div class="badge-row"><span class="badge-pill">家庭菜園</span><span class="badge-pill">Web</span><span class="badge-pill">無料</span></div>
   <h1>コンパニオンプランツ相性診断</h1>
   <p class="page-desc">育てたい野菜を選ぶだけで、一緒に植えていい野菜・植えてはいけない野菜の組み合わせを即チェック。農薬を使わずに害虫を遠ざけたい方、プランターで何を一緒に植えようか迷っている方にどうぞ。</p>
 
@@ -204,7 +207,7 @@
     <a href="/">SEADICE</a> &nbsp;|&nbsp;
     <a href="/#webapps">他のWebアプリを見る</a> &nbsp;|&nbsp;
     <a href="/blog/">ブログ</a> &nbsp;|&nbsp;
-    <a href="/privacy/">プライバシーポリシー</a>
+    <a href="/privacy/companion/">プライバシーポリシー</a>
   </p>
   <p style="margin-top:8px;">&copy; 2026 SEADICE</p>
 </footer>
