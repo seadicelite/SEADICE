@@ -296,6 +296,18 @@
         "destination": "/privacy/self-esteem-type/index.html"
       },
       {
+        "source": "/tools/coffee-taste/**",
+        "destination": "/tools/coffee-taste/index.html"
+      },
+      {
+        "source": "/apps/coffee-taste/**",
+        "destination": "/apps/coffee-taste/index.html"
+      },
+      {
+        "source": "/privacy/coffee-taste/**",
+        "destination": "/privacy/coffee-taste/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
