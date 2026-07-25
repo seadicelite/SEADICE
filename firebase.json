@@ -232,6 +232,9 @@
       {"source": "/tools/giongo-echo/**", "destination": "/tools/giongo-echo/index.html"},
       {"source": "/apps/giongo-echo/**", "destination": "/apps/giongo-echo/index.html"},
       {"source": "/privacy/giongo-echo/**", "destination": "/privacy/giongo-echo/index.html"},
+      {"source": "/tools/ekiben-journey/**", "destination": "/tools/ekiben-journey/index.html"},
+      {"source": "/apps/ekiben-journey/**", "destination": "/apps/ekiben-journey/index.html"},
+      {"source": "/privacy/ekiben-journey/**", "destination": "/privacy/ekiben-journey/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
