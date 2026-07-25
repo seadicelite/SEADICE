@@ -235,7 +235,7 @@
   <!-- レビュー -->
   <url>
     <loc>https://seadice.win/reviews/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -248,6 +248,12 @@
   <url>
     <loc>https://seadice.win/reviews/jidou-mizuyari-hikaku/</loc>
     <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/reviews/pet-taijukei-hikaku/</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
