@@ -108,7 +108,16 @@ ListTile(
 
 ### 「関連アプリ」
 
-同じジャンルで**すでにApp Store公開済み**のアプリを2〜3個、アプリ名でリスト表示する（審査中・未公開のアプリは含めない）。新規アプリ作成時に手動で選定してハードコードする。各項目は `url_launcher` で `https://seadice.win/apps/{appId}/` を開く（ハブページ経由ではなく個別アプリページへ直接リンク）。
+**`p/released-apps.json` を唯一の正とする。** ここに載っているアプリだけが「実際にApp Store公開済み」であり、新規アプリ作成時・改修時はこのファイルを見てから関連アプリを選定する。記憶やテンプレートの使い回しで決め打ちしない（過去に、ジャンルの全く異なる心理学系アプリ2本が使い回しで貼られたまま放置される事故があった）。
+
+選定ルール:
+- 同じジャンルの公開済みアプリがあれば2〜3個選ぶ
+- 同じジャンルがまだ無い場合（新規ジャンルの1本目など）は、`released-apps.json` に載っている中から入手できるアプリを2〜3個選ぶ（ジャンル不一致でも構わない。固定の2本を使い回さない）
+- `released-apps.json` が空、または対象アプリ自身しか載っていない場合は「関連アプリ」欄自体を実装しない（空の状態で放置しない）
+
+リンク先: 各項目は `url_launcher` で `released-apps.json` の `appStoreUrl`（App Store直リンク）を開く。`https://seadice.win/apps/{appId}/` へのリンクにはしない（Web経由だとワンクッション増える上、審査中/公開後で行き先が変わる管理コストが発生するため、公開済みと確定しているものは直接App Storeへ）。
+
+新しいアプリがApple審査を通過したら、CLAUDE.mdの「審査通過後のアプリページ更新」の作業とあわせて `p/released-apps.json` にもそのアプリを追加する。これを忘れると次に生成するアプリの関連アプリ欄が古いままになる。
 
 ### 「オープンソースライセンス」
 
@@ -142,6 +151,18 @@ ListTile(
 - AI機能を持たないアプリ（今後作らない方針だが念のため）では、代わりに「広告視聴で運営を応援できます」という説明のみのシンプルな御礼SnackBarにする（加算対象がないため）
 - ロード失敗時は握り潰さずSnackBarでエラー表示する（`AI利用回数の制限`のリワード広告と同じ規約に従う）
 - `SettingsPage` は通常 `StatelessWidget` のままにし、このタイル自体を独立した `StatefulWidget`（例: `SupportDeveloperTile`）として実装して広告インスタンスのライフサイクルを局所化する
+- **`_SupportDeveloperTileState` には必ず `dispose()` をオーバーライドしてロード済み広告インスタンスを解放する**。視聴完了後は`ad.dispose()`で解放しているが、視聴中に画面遷移・アプリバックグラウンド化でウィジェットがunmountされると、その解放処理が呼ばれずインスタンスがメモリに残り続ける（過去に22本のアプリでこの実装漏れが見つかった）：
+  ```dart
+  class _SupportDeveloperTileState extends State<SupportDeveloperTile> {
+    RewardedAd? _ad;
+
+    @override
+    void dispose() {
+      _ad?.dispose();
+      super.dispose();
+    }
+  }
+  ```
 
 ### Firestoreへのフィードバック送信（REST API、SDK不要）
 
@@ -170,6 +191,23 @@ await http.post(
 
 - 評価導線: `url_launcher` で `https://apps.apple.com/app/id{App Store ID}?action=write-review` を開く。審査通過前で ID が未定の場合は `_appStoreId = ''` にしておき、空なら `https://apps.apple.com/` にフォールバックする
 - 共有: `share_plus` パッケージの `Share.share('紹介文\nhttps://seadice.win/apps/{appId}/')` を使う（バージョンによっては `SharePlus.instance.share(ShareParams(...))` API になるので `pubspec.yaml` のバージョンに合わせる）
+- **`sharePositionOrigin` は必ず指定する**。iPadでのpopover起点座標問題として知られているが、share_plus 10.x系ではiPhoneでも端末・iOSバージョンによって`UIActivityViewController`のpresentationに失敗し例外を投げることがある（`nlp_lab`でApp Store配布後に「共有に失敗しました」エラーが実際に発生した実例あり）。iPad/iPhone問わず必ず渡すこと：
+  ```dart
+  Future<void> _shareApp(BuildContext context) async {
+    try {
+      final box = context.findRenderObject() as RenderBox?;
+      await Share.share(
+        '紹介文\nhttps://seadice.win/apps/{appId}/',
+        sharePositionOrigin: box != null ? (box.localToGlobal(Offset.zero) & box.size) : null,
+      );
+    } catch (e) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('共有に失敗しました ($e)')));
+      }
+    }
+  }
+  ```
+  catchブロックのエラーメッセージにも例外詳細（`$e`）を含めること。固定メッセージのみだと不具合報告時に原因を特定できない。
 
 ### 能動的なレビュー依頼（ネイティブダイアログ）
 
@@ -394,6 +432,7 @@ sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 - App Store IDを確認（不明ならユーザーに聞く）
 - バッジ `App Store近日公開` を実際の公開表記に変更
 - 「App Storeで見る」ボタン（`https://apps.apple.com/app/id{App Store ID}`）を目立つ位置に追加
+- `p/released-apps.json` にそのアプリを追加する（今後作る他アプリの「関連アプリ」欄の選定元になるため必須）
 - `firebase deploy --only hosting` でデプロイ
 
 事前に「近日公開」のまま作っておき、公開確定後にこの一括更新だけ行うことで、リリース申請時点での二度手間を避ける。
@@ -593,6 +632,53 @@ Future<void> main() async {
 > この設定により、次回デプロイ後はユーザーがキャッシュを手動削除しなくても自動的に最新版が表示される。
 
 ---
+
+## 起動スプラッシュ画面（全アプリ共通ロゴ）
+
+新規アプリ作成時・既存アプリ改修時は、Flutter標準の白背景スプラッシュのままにせず、SEADICE共通ロゴ（サイコロマスコット）をネイティブ起動画面に設定する。
+
+- **ロゴ画像**: `/Users/hidenori/Developer/Images/splash.png`（背景色 `#01010B` で塗りつぶし済み、ダークテーマ背景 `#05050C` とほぼ同色）
+- **パッケージ**: `flutter_native_splash` を使う（`dev_dependencies` に追加）
+- **設定例**（`pubspec.yaml` に追記）:
+  ```yaml
+  flutter_native_splash:
+    color: "#05050C"
+    image: assets/splash/splash.png
+    android_12:
+      color: "#05050C"
+      image: assets/splash/splash.png
+  ```
+  画像は `assets/splash/splash.png` としてアプリ側にコピーして使う（`Images/`から直接参照しない）。
+- **生成コマンド**:
+  ```bash
+  flutter pub get
+  dart run flutter_native_splash:create
+  ```
+- 既存アプリを改修するときは `/improve-app` のチェック項目としてこれも確認し、未対応なら追加する。
+
+## キーボードを閉じられない不具合の防止（全アプリ必須）
+
+多くのアプリで「入力後キーボードが自動で下がらず、次の画面に進めない」不具合が繰り返し発生している。原因はほぼ常に「画面のどこをタップしてもキーボードを閉じる仕組みが入っていない」こと。新規アプリ・既存アプリ改修時は必ず以下を実装する。
+
+- **`TextField`を含む全画面の`Scaffold`の`body`を`GestureDetector`でラップし、`onTap`で`FocusScope.of(context).unfocus()`を呼ぶ**。これを共通Widget化して使い回すと漏れがなくなる：
+  ```dart
+  class KeyboardDismissOnTap extends StatelessWidget {
+    final Widget child;
+    const KeyboardDismissOnTap({super.key, required this.child});
+
+    @override
+    Widget build(BuildContext context) {
+      return GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTap: () => FocusScope.of(context).unfocus(),
+        child: child,
+      );
+    }
+  }
+  ```
+  各画面で `Scaffold(body: KeyboardDismissOnTap(child: ...))` のように包む。
+- **入力完了・送信ボタン押下時も明示的に`FocusScope.of(context).unfocus()`を呼ぶ**（`onSubmitted`やボタンの`onPressed`の先頭）。ボタンタップだけでは自動でキーボードが閉じないケースがあるため。
+- **`TextField`の`textInputAction`を適切に設定する**（最後のフィールドは`TextInputAction.done`、途中は`TextInputAction.next`）。`onSubmitted`で次のフィールドへの`FocusNode.requestFocus()`または`unfocus()`を必ず書く。
 
 ## 留意事項
 
