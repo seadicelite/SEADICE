@@ -235,6 +235,9 @@
       {"source": "/tools/ekiben-journey/**", "destination": "/tools/ekiben-journey/index.html"},
       {"source": "/apps/ekiben-journey/**", "destination": "/apps/ekiben-journey/index.html"},
       {"source": "/privacy/ekiben-journey/**", "destination": "/privacy/ekiben-journey/index.html"},
+      {"source": "/tools/furoshiki-wrap/**", "destination": "/tools/furoshiki-wrap/index.html"},
+      {"source": "/apps/furoshiki-wrap/**", "destination": "/apps/furoshiki-wrap/index.html"},
+      {"source": "/privacy/furoshiki-wrap/**", "destination": "/privacy/furoshiki-wrap/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
