@@ -199,6 +199,9 @@
         "source": "/privacy/omamori-guide/**",
         "destination": "/privacy/omamori-guide/index.html"
       },
+      {"source": "/tools/japanglish/**", "destination": "/tools/japanglish/index.html"},
+      {"source": "/apps/japanglish/**", "destination": "/apps/japanglish/index.html"},
+      {"source": "/privacy/japanglish/**", "destination": "/privacy/japanglish/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
