@@ -229,6 +229,9 @@
       {"source": "/tools/kamon-crest/**", "destination": "/tools/kamon-crest/index.html"},
       {"source": "/apps/kamon-crest/**", "destination": "/apps/kamon-crest/index.html"},
       {"source": "/privacy/kamon-crest/**", "destination": "/privacy/kamon-crest/index.html"},
+      {"source": "/tools/giongo-echo/**", "destination": "/tools/giongo-echo/index.html"},
+      {"source": "/apps/giongo-echo/**", "destination": "/apps/giongo-echo/index.html"},
+      {"source": "/privacy/giongo-echo/**", "destination": "/privacy/giongo-echo/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
