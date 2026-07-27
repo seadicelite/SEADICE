@@ -238,6 +238,9 @@
       {"source": "/tools/furoshiki-wrap/**", "destination": "/tools/furoshiki-wrap/index.html"},
       {"source": "/apps/furoshiki-wrap/**", "destination": "/apps/furoshiki-wrap/index.html"},
       {"source": "/privacy/furoshiki-wrap/**", "destination": "/privacy/furoshiki-wrap/index.html"},
+      {"source": "/tools/chindogu-genius/**", "destination": "/tools/chindogu-genius/index.html"},
+      {"source": "/apps/chindogu-genius/**", "destination": "/apps/chindogu-genius/index.html"},
+      {"source": "/privacy/chindogu-genius/**", "destination": "/privacy/chindogu-genius/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
