@@ -238,6 +238,18 @@
       {"source": "/tools/furoshiki-wrap/**", "destination": "/tools/furoshiki-wrap/index.html"},
       {"source": "/apps/furoshiki-wrap/**", "destination": "/apps/furoshiki-wrap/index.html"},
       {"source": "/privacy/furoshiki-wrap/**", "destination": "/privacy/furoshiki-wrap/index.html"},
+      {"source": "/tools/kintsugi-mend/**", "destination": "/tools/kintsugi-mend/index.html"},
+      {"source": "/apps/kintsugi-mend/**", "destination": "/apps/kintsugi-mend/index.html"},
+      {"source": "/privacy/kintsugi-mend/**", "destination": "/privacy/kintsugi-mend/index.html"},
+      {"source": "/tools/kakeibo-log/**", "destination": "/tools/kakeibo-log/index.html"},
+      {"source": "/apps/kakeibo-log/**", "destination": "/apps/kakeibo-log/index.html"},
+      {"source": "/privacy/kakeibo-log/**", "destination": "/privacy/kakeibo-log/index.html"},
+      {"source": "/tools/digital-shukatsu/**", "destination": "/tools/digital-shukatsu/index.html"},
+      {"source": "/apps/digital-shukatsu/**", "destination": "/apps/digital-shukatsu/index.html"},
+      {"source": "/privacy/digital-shukatsu/**", "destination": "/privacy/digital-shukatsu/index.html"},
+      {"source": "/tools/sns-soudan-chat/**", "destination": "/tools/sns-soudan-chat/index.html"},
+      {"source": "/apps/sns-soudan-chat/**", "destination": "/apps/sns-soudan-chat/index.html"},
+      {"source": "/privacy/sns-soudan-chat/**", "destination": "/privacy/sns-soudan-chat/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
