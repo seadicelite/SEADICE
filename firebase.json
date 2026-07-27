@@ -217,6 +217,9 @@
       {"source": "/tools/kanji-kokoro/**", "destination": "/tools/kanji-kokoro/index.html"},
       {"source": "/apps/kanji-kokoro/**", "destination": "/apps/kanji-kokoro/index.html"},
       {"source": "/privacy/kanji-kokoro/**", "destination": "/privacy/kanji-kokoro/index.html"},
+      {"source": "/tools/kaidan-nights/**", "destination": "/tools/kaidan-nights/index.html"},
+      {"source": "/apps/kaidan-nights/**", "destination": "/apps/kaidan-nights/index.html"},
+      {"source": "/privacy/kaidan-nights/**", "destination": "/privacy/kaidan-nights/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
