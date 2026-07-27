@@ -250,6 +250,9 @@
       {"source": "/tools/sns-soudan-chat/**", "destination": "/tools/sns-soudan-chat/index.html"},
       {"source": "/apps/sns-soudan-chat/**", "destination": "/apps/sns-soudan-chat/index.html"},
       {"source": "/privacy/sns-soudan-chat/**", "destination": "/privacy/sns-soudan-chat/index.html"},
+      {"source": "/tools/chindogu-genius/**", "destination": "/tools/chindogu-genius/index.html"},
+      {"source": "/apps/chindogu-genius/**", "destination": "/apps/chindogu-genius/index.html"},
+      {"source": "/privacy/chindogu-genius/**", "destination": "/privacy/chindogu-genius/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
