@@ -214,6 +214,9 @@
       {"source": "/tools/dohyo-quiz/**", "destination": "/tools/dohyo-quiz/index.html"},
       {"source": "/apps/dohyo-quiz/**", "destination": "/apps/dohyo-quiz/index.html"},
       {"source": "/privacy/dohyo-quiz/**", "destination": "/privacy/dohyo-quiz/index.html"},
+      {"source": "/tools/kanji-kokoro/**", "destination": "/tools/kanji-kokoro/index.html"},
+      {"source": "/apps/kanji-kokoro/**", "destination": "/apps/kanji-kokoro/index.html"},
+      {"source": "/privacy/kanji-kokoro/**", "destination": "/privacy/kanji-kokoro/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
