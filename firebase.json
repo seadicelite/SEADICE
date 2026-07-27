@@ -226,6 +226,9 @@
       {"source": "/tools/shinobi-scroll/**", "destination": "/tools/shinobi-scroll/index.html"},
       {"source": "/apps/shinobi-scroll/**", "destination": "/apps/shinobi-scroll/index.html"},
       {"source": "/privacy/shinobi-scroll/**", "destination": "/privacy/shinobi-scroll/index.html"},
+      {"source": "/tools/kamon-crest/**", "destination": "/tools/kamon-crest/index.html"},
+      {"source": "/apps/kamon-crest/**", "destination": "/apps/kamon-crest/index.html"},
+      {"source": "/privacy/kamon-crest/**", "destination": "/privacy/kamon-crest/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
