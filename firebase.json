@@ -211,6 +211,9 @@
       {"source": "/tools/matsuri-compass/**", "destination": "/tools/matsuri-compass/index.html"},
       {"source": "/apps/matsuri-compass/**", "destination": "/apps/matsuri-compass/index.html"},
       {"source": "/privacy/matsuri-compass/**", "destination": "/privacy/matsuri-compass/index.html"},
+      {"source": "/tools/dohyo-quiz/**", "destination": "/tools/dohyo-quiz/index.html"},
+      {"source": "/apps/dohyo-quiz/**", "destination": "/apps/dohyo-quiz/index.html"},
+      {"source": "/privacy/dohyo-quiz/**", "destination": "/privacy/dohyo-quiz/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
