@@ -262,6 +262,9 @@
       {"source": "/tools/setsuden-hikaku/**", "destination": "/tools/setsuden-hikaku/index.html"},
       {"source": "/apps/setsuden-hikaku/**", "destination": "/apps/setsuden-hikaku/index.html"},
       {"source": "/privacy/setsuden-hikaku/**", "destination": "/privacy/setsuden-hikaku/index.html"},
+      {"source": "/tools/daruma-vow/**", "destination": "/tools/daruma-vow/index.html"},
+      {"source": "/apps/daruma-vow/**", "destination": "/apps/daruma-vow/index.html"},
+      {"source": "/privacy/daruma-vow/**", "destination": "/privacy/daruma-vow/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
