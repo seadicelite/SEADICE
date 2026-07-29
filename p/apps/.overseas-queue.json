@@ -1,10 +1,5 @@
 [
   {
-    "id": "shodo-brush",
-    "title_en": "Shodo Brush",
-    "concept": "Describe your current mood or goal and AI matches you to a real Japanese calligraphy (shodo) phrase and brush-stroke style, with stroke-order guidance and the meaning/history behind the phrase."
-  },
-  {
     "id": "kokeshi-craft",
     "title_en": "Kokeshi Craft",
     "concept": "Describe your personality or the person you're buying a gift for and AI matches them to one of Japan's traditional regional kokeshi doll styles (Naruko, Tsuchiyu, Yajiro, etc.), with the region's history and painting motifs explained."

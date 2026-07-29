@@ -250,6 +250,18 @@
       {"source": "/tools/sns-soudan-chat/**", "destination": "/tools/sns-soudan-chat/index.html"},
       {"source": "/apps/sns-soudan-chat/**", "destination": "/apps/sns-soudan-chat/index.html"},
       {"source": "/privacy/sns-soudan-chat/**", "destination": "/privacy/sns-soudan-chat/index.html"},
+      {"source": "/tools/shodo-brush/**", "destination": "/tools/shodo-brush/index.html"},
+      {"source": "/apps/shodo-brush/**", "destination": "/apps/shodo-brush/index.html"},
+      {"source": "/privacy/shodo-brush/**", "destination": "/privacy/shodo-brush/index.html"},
+      {"source": "/tools/shikaku-compass/**", "destination": "/tools/shikaku-compass/index.html"},
+      {"source": "/apps/shikaku-compass/**", "destination": "/apps/shikaku-compass/index.html"},
+      {"source": "/privacy/shikaku-compass/**", "destination": "/privacy/shikaku-compass/index.html"},
+      {"source": "/tools/bousai-sim/**", "destination": "/tools/bousai-sim/index.html"},
+      {"source": "/apps/bousai-sim/**", "destination": "/apps/bousai-sim/index.html"},
+      {"source": "/privacy/bousai-sim/**", "destination": "/privacy/bousai-sim/index.html"},
+      {"source": "/tools/setsuden-hikaku/**", "destination": "/tools/setsuden-hikaku/index.html"},
+      {"source": "/apps/setsuden-hikaku/**", "destination": "/apps/setsuden-hikaku/index.html"},
+      {"source": "/privacy/setsuden-hikaku/**", "destination": "/privacy/setsuden-hikaku/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
