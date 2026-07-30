@@ -262,6 +262,9 @@
       {"source": "/tools/setsuden-hikaku/**", "destination": "/tools/setsuden-hikaku/index.html"},
       {"source": "/apps/setsuden-hikaku/**", "destination": "/apps/setsuden-hikaku/index.html"},
       {"source": "/privacy/setsuden-hikaku/**", "destination": "/privacy/setsuden-hikaku/index.html"},
+      {"source": "/tools/rakugo-spin/**", "destination": "/tools/rakugo-spin/index.html"},
+      {"source": "/apps/rakugo-spin/**", "destination": "/apps/rakugo-spin/index.html"},
+      {"source": "/privacy/rakugo-spin/**", "destination": "/privacy/rakugo-spin/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
