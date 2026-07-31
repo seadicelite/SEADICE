@@ -344,6 +344,18 @@
         "destination": "/privacy/hitori-time/index.html"
       },
       {
+        "source": "/tools/fake-check/**",
+        "destination": "/tools/fake-check/index.html"
+      },
+      {
+        "source": "/apps/fake-check/**",
+        "destination": "/apps/fake-check/index.html"
+      },
+      {
+        "source": "/privacy/fake-check/**",
+        "destination": "/privacy/fake-check/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
