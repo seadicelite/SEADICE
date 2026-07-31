@@ -320,6 +320,18 @@
         "destination": "/privacy/mood-forecast/index.html"
       },
       {
+        "source": "/tools/jikka-jimai/**",
+        "destination": "/tools/jikka-jimai/index.html"
+      },
+      {
+        "source": "/apps/jikka-jimai/**",
+        "destination": "/apps/jikka-jimai/index.html"
+      },
+      {
+        "source": "/privacy/jikka-jimai/**",
+        "destination": "/privacy/jikka-jimai/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
