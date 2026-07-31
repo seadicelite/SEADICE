@@ -356,6 +356,18 @@
         "destination": "/privacy/fake-check/index.html"
       },
       {
+        "source": "/tools/study-quest/**",
+        "destination": "/tools/study-quest/index.html"
+      },
+      {
+        "source": "/apps/study-quest/**",
+        "destination": "/apps/study-quest/index.html"
+      },
+      {
+        "source": "/privacy/study-quest/**",
+        "destination": "/privacy/study-quest/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
