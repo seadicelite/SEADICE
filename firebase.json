@@ -380,6 +380,18 @@
         "destination": "/privacy/bousai-plan/index.html"
       },
       {
+        "source": "/tools/scam-guard/**",
+        "destination": "/tools/scam-guard/index.html"
+      },
+      {
+        "source": "/apps/scam-guard/**",
+        "destination": "/apps/scam-guard/index.html"
+      },
+      {
+        "source": "/privacy/scam-guard/**",
+        "destination": "/privacy/scam-guard/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
