@@ -11,6 +11,14 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://seadice.win/"/>
   </url>
 
+  <!-- 活動を支援するページ -->
+  <url>
+    <loc>https://seadice.win/support/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
   <!-- アプリ紹介ページ -->
   <url>
     <loc>https://seadice.win/apps/</loc>
@@ -683,6 +691,26 @@
   <url>
     <loc>https://seadice.win/privacy/</loc>
     <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- mood-forecast -->
+  <url>
+    <loc>https://seadice.win/tools/mood-forecast/</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/apps/mood-forecast/</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/privacy/mood-forecast/</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>

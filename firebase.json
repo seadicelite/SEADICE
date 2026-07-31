@@ -308,6 +308,18 @@
         "destination": "/privacy/coffee-taste/index.html"
       },
       {
+        "source": "/tools/mood-forecast/**",
+        "destination": "/tools/mood-forecast/index.html"
+      },
+      {
+        "source": "/apps/mood-forecast/**",
+        "destination": "/apps/mood-forecast/index.html"
+      },
+      {
+        "source": "/privacy/mood-forecast/**",
+        "destination": "/privacy/mood-forecast/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
