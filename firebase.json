@@ -368,6 +368,18 @@
         "destination": "/privacy/study-quest/index.html"
       },
       {
+        "source": "/tools/bousai-plan/**",
+        "destination": "/tools/bousai-plan/index.html"
+      },
+      {
+        "source": "/apps/bousai-plan/**",
+        "destination": "/apps/bousai-plan/index.html"
+      },
+      {
+        "source": "/privacy/bousai-plan/**",
+        "destination": "/privacy/bousai-plan/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
