@@ -356,6 +356,18 @@
         "destination": "/privacy/fake-check/index.html"
       },
       {
+        "source": "/tools/jibun-torisetsu/**",
+        "destination": "/tools/jibun-torisetsu/index.html"
+      },
+      {
+        "source": "/apps/jibun-torisetsu/**",
+        "destination": "/apps/jibun-torisetsu/index.html"
+      },
+      {
+        "source": "/privacy/jibun-torisetsu/**",
+        "destination": "/privacy/jibun-torisetsu/index.html"
+      },
+      {
         "source": "/tools/study-quest/**",
         "destination": "/tools/study-quest/index.html"
       },
