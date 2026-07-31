@@ -274,6 +274,9 @@
       {"source": "/tools/akiya-diag/**", "destination": "/tools/akiya-diag/index.html"},
       {"source": "/apps/akiya-diag/**", "destination": "/apps/akiya-diag/index.html"},
       {"source": "/privacy/akiya-diag/**", "destination": "/privacy/akiya-diag/index.html"},
+      {"source": "/tools/netsuke-tales/**", "destination": "/tools/netsuke-tales/index.html"},
+      {"source": "/apps/netsuke-tales/**", "destination": "/apps/netsuke-tales/index.html"},
+      {"source": "/privacy/netsuke-tales/**", "destination": "/privacy/netsuke-tales/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
