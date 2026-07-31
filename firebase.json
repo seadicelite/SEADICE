@@ -392,6 +392,18 @@
         "destination": "/privacy/scam-guard/index.html"
       },
       {
+        "source": "/tools/japan-life-guide/**",
+        "destination": "/tools/japan-life-guide/index.html"
+      },
+      {
+        "source": "/apps/japan-life-guide/**",
+        "destination": "/apps/japan-life-guide/index.html"
+      },
+      {
+        "source": "/privacy/japan-life-guide/**",
+        "destination": "/privacy/japan-life-guide/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
