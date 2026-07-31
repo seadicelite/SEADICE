@@ -332,6 +332,18 @@
         "destination": "/privacy/jikka-jimai/index.html"
       },
       {
+        "source": "/tools/hitori-time/**",
+        "destination": "/tools/hitori-time/index.html"
+      },
+      {
+        "source": "/apps/hitori-time/**",
+        "destination": "/apps/hitori-time/index.html"
+      },
+      {
+        "source": "/privacy/hitori-time/**",
+        "destination": "/privacy/hitori-time/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
