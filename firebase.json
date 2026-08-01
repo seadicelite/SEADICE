@@ -286,6 +286,9 @@
       {"source": "/tools/kyufukin-jiten/**", "destination": "/tools/kyufukin-jiten/index.html"},
       {"source": "/apps/kyufukin-jiten/**", "destination": "/apps/kyufukin-jiten/index.html"},
       {"source": "/privacy/kyufukin-jiten/**", "destination": "/privacy/kyufukin-jiten/index.html"},
+      {"source": "/tools/manzai-maker/**", "destination": "/tools/manzai-maker/index.html"},
+      {"source": "/apps/manzai-maker/**", "destination": "/apps/manzai-maker/index.html"},
+      {"source": "/privacy/manzai-maker/**", "destination": "/privacy/manzai-maker/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
