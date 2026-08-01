@@ -298,6 +298,9 @@
       {"source": "/tools/volunteer-quest100/**", "destination": "/tools/volunteer-quest100/index.html"},
       {"source": "/apps/volunteer-quest100/**", "destination": "/apps/volunteer-quest100/index.html"},
       {"source": "/privacy/volunteer-quest100/**", "destination": "/privacy/volunteer-quest100/index.html"},
+      {"source": "/tools/rakugo-spin/**", "destination": "/tools/rakugo-spin/index.html"},
+      {"source": "/apps/rakugo-spin/**", "destination": "/apps/rakugo-spin/index.html"},
+      {"source": "/privacy/rakugo-spin/**", "destination": "/privacy/rakugo-spin/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
