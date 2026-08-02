@@ -21,6 +21,7 @@
   "fukugyou-quest",
   "furoshiki-wrap",
   "giongo-echo",
+  "gomi-bunbetsu-jiten",
   "hokuro-uranai",
   "hsp-relationship-check",
   "ibasho-sim",
@@ -55,12 +56,14 @@
   "nihongo-log",
   "omamori-guide",
   "omikuji-zodiac",
+  "origami-muse",
   "pet-health-app1",
   "pet-health-app2",
   "pet-health-app3",
   "procrastination-type",
   "rakuraku",
   "setsuden-hikaku",
+  "shakai-fukki-navi",
   "shikaku-compass",
   "shinobi-scroll",
   "shodo-brush",
@@ -72,5 +75,6 @@
   "volunteer-quest100",
   "wagashi-muse",
   "yokai-mirror",
-  "yumetoki"
+  "yumetoki",
+  "zairyu-seikatsu-chat"
 ]

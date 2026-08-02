@@ -298,6 +298,18 @@
       {"source": "/tools/volunteer-quest100/**", "destination": "/tools/volunteer-quest100/index.html"},
       {"source": "/apps/volunteer-quest100/**", "destination": "/apps/volunteer-quest100/index.html"},
       {"source": "/privacy/volunteer-quest100/**", "destination": "/privacy/volunteer-quest100/index.html"},
+      {"source": "/tools/origami-muse/**", "destination": "/tools/origami-muse/index.html"},
+      {"source": "/apps/origami-muse/**", "destination": "/apps/origami-muse/index.html"},
+      {"source": "/privacy/origami-muse/**", "destination": "/privacy/origami-muse/index.html"},
+      {"source": "/tools/shakai-fukki-navi/**", "destination": "/tools/shakai-fukki-navi/index.html"},
+      {"source": "/apps/shakai-fukki-navi/**", "destination": "/apps/shakai-fukki-navi/index.html"},
+      {"source": "/privacy/shakai-fukki-navi/**", "destination": "/privacy/shakai-fukki-navi/index.html"},
+      {"source": "/tools/zairyu-seikatsu-chat/**", "destination": "/tools/zairyu-seikatsu-chat/index.html"},
+      {"source": "/apps/zairyu-seikatsu-chat/**", "destination": "/apps/zairyu-seikatsu-chat/index.html"},
+      {"source": "/privacy/zairyu-seikatsu-chat/**", "destination": "/privacy/zairyu-seikatsu-chat/index.html"},
+      {"source": "/tools/gomi-bunbetsu-jiten/**", "destination": "/tools/gomi-bunbetsu-jiten/index.html"},
+      {"source": "/apps/gomi-bunbetsu-jiten/**", "destination": "/apps/gomi-bunbetsu-jiten/index.html"},
+      {"source": "/privacy/gomi-bunbetsu-jiten/**", "destination": "/privacy/gomi-bunbetsu-jiten/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
