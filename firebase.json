@@ -298,6 +298,9 @@
       {"source": "/tools/volunteer-quest100/**", "destination": "/tools/volunteer-quest100/index.html"},
       {"source": "/apps/volunteer-quest100/**", "destination": "/apps/volunteer-quest100/index.html"},
       {"source": "/privacy/volunteer-quest100/**", "destination": "/privacy/volunteer-quest100/index.html"},
+      {"source": "/tools/hanko-spirit/**", "destination": "/tools/hanko-spirit/index.html"},
+      {"source": "/apps/hanko-spirit/**", "destination": "/apps/hanko-spirit/index.html"},
+      {"source": "/privacy/hanko-spirit/**", "destination": "/privacy/hanko-spirit/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
