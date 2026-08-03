@@ -310,6 +310,18 @@
       {"source": "/tools/gomi-bunbetsu-jiten/**", "destination": "/tools/gomi-bunbetsu-jiten/index.html"},
       {"source": "/apps/gomi-bunbetsu-jiten/**", "destination": "/apps/gomi-bunbetsu-jiten/index.html"},
       {"source": "/privacy/gomi-bunbetsu-jiten/**", "destination": "/privacy/gomi-bunbetsu-jiten/index.html"},
+      {"source": "/tools/ikebana-flow/**", "destination": "/tools/ikebana-flow/index.html"},
+      {"source": "/apps/ikebana-flow/**", "destination": "/apps/ikebana-flow/index.html"},
+      {"source": "/privacy/ikebana-flow/**", "destination": "/privacy/ikebana-flow/index.html"},
+      {"source": "/tools/tokushu-sagi-sim/**", "destination": "/tools/tokushu-sagi-sim/index.html"},
+      {"source": "/apps/tokushu-sagi-sim/**", "destination": "/apps/tokushu-sagi-sim/index.html"},
+      {"source": "/privacy/tokushu-sagi-sim/**", "destination": "/privacy/tokushu-sagi-sim/index.html"},
+      {"source": "/tools/benkyo-shukan-log/**", "destination": "/tools/benkyo-shukan-log/index.html"},
+      {"source": "/apps/benkyo-shukan-log/**", "destination": "/apps/benkyo-shukan-log/index.html"},
+      {"source": "/privacy/benkyo-shukan-log/**", "destination": "/privacy/benkyo-shukan-log/index.html"},
+      {"source": "/tools/shakkin-seiri-hikaku/**", "destination": "/tools/shakkin-seiri-hikaku/index.html"},
+      {"source": "/apps/shakkin-seiri-hikaku/**", "destination": "/apps/shakkin-seiri-hikaku/index.html"},
+      {"source": "/privacy/shakkin-seiri-hikaku/**", "destination": "/privacy/shakkin-seiri-hikaku/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
