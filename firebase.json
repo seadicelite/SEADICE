@@ -310,6 +310,9 @@
       {"source": "/tools/gomi-bunbetsu-jiten/**", "destination": "/tools/gomi-bunbetsu-jiten/index.html"},
       {"source": "/apps/gomi-bunbetsu-jiten/**", "destination": "/apps/gomi-bunbetsu-jiten/index.html"},
       {"source": "/privacy/gomi-bunbetsu-jiten/**", "destination": "/privacy/gomi-bunbetsu-jiten/index.html"},
+      {"source": "/tools/enka-verse/**", "destination": "/tools/enka-verse/index.html"},
+      {"source": "/apps/enka-verse/**", "destination": "/apps/enka-verse/index.html"},
+      {"source": "/privacy/enka-verse/**", "destination": "/privacy/enka-verse/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
