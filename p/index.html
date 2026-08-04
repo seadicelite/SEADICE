@@ -218,6 +218,18 @@
     .hero-title span { background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     .hero-desc { font-size: clamp(15px, 2vw, 17px); color: var(--muted); max-width: 500px; margin-bottom: 40px; line-height: 1.85; }
 
+    .hero-promo {
+      display: inline-flex; align-items: center; gap: 12px;
+      background: rgba(0,255,209,0.08); border: 1px solid var(--accent);
+      border-radius: 999px; padding: 10px 20px; text-decoration: none;
+      animation: heroIn 0.7s ease 0.24s both;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .hero-promo:hover { transform: translateY(-1px); background: rgba(0,255,209,0.14); }
+    .hero-promo-title { font-size: 14px; font-weight: 800; color: var(--accent); white-space: nowrap; }
+    .hero-promo-desc { font-size: 13px; color: var(--text); white-space: nowrap; }
+    @media (max-width: 500px) { .hero-promo { flex-wrap: wrap; gap: 4px 12px; } }
+
     section { padding: 80px 24px; max-width: 1040px; margin: 0 auto; }
     .section-label { font-size: 11px; letter-spacing: 0.25em; color: var(--accent); margin-bottom: 12px; text-transform: uppercase; }
     .section-title { font-size: clamp(22px, 4vw, 34px); font-weight: 800; margin-bottom: 40px; letter-spacing: -0.02em; }
@@ -225,10 +237,9 @@
     .apps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
     .app-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; color: var(--text); transition: border-color 0.2s, transform 0.2s; }
     .app-card:hover { border-color: var(--accent); transform: translateY(-3px); }
-    .app-icon-badge { width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, var(--accent), var(--accent2)); display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 800; color: #05050C; flex-shrink: 0; }
+    .app-icon-badge { width: 52px; height: 52px; border-radius: 14px; flex-shrink: 0; object-fit: cover; }
     .app-card-name { font-size: 16px; font-weight: 800; }
     .app-card-desc { font-size: 13px; color: var(--muted); line-height: 1.65; flex: 1; }
-    .app-card-link { font-size: 12px; color: var(--accent2); font-weight: 700; }
 
     .webapps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
     .webapp-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 16px; transition: border-color 0.2s, transform 0.2s; }
@@ -315,6 +326,10 @@
         Better Apps,<br><span>Better Days.</span>
       </h1>
       <p class="hero-desc"><strong style="color:var(--text)">SEADICE（シーダイス）とは、</strong>日記・暗記・診断・資格学習など、生活に自然と溶け込むアプリをChatGPT・Gemini・Claude × Flutterで開発・提供する日本のアプリスタジオです。</p>
+      <a class="hero-promo" href="https://buymeacoffee.com/seadice" target="_blank" rel="noopener">
+        <span class="hero-promo-title">One Dollar, One App</span>
+        <span class="hero-promo-desc">Get your app reviewed for just $1 &rarr;</span>
+      </a>
     </div>
     <div class="hero-mascot" aria-hidden="true">
       <img src="/icons/stand.webp" alt="" width="220" height="330">
@@ -325,29 +340,30 @@
     <p class="section-label">Apps</p>
     <h2 class="section-title" id="apps-heading">SEADICEの主力アプリ</h2>
     <div class="apps-grid reveal-stagger">
+      <a class="app-card stagger-item" href="/apps/nlp-mindshift/">
+        <div class="app-icon-badge" style="background:linear-gradient(135deg,#9B7EF0,#E8B45C)"></div>
+        <p class="app-card-name">NLPで自分を書き換える30日</p>
+        <p class="app-card-desc">本物のNLP技法を1日1つ、30日間で実践。AIコーチが実践ログにフィードバックする買い切りアプリ。</p>
+      </a>
       <a class="app-card stagger-item" href="/apps/chozubora/">
-        <div class="app-icon-badge">日記</div>
+        <img class="app-icon-badge" src="/icons/chozubora_icon.webp" width="52" height="52" alt="超ズボラ日記アイコン" loading="lazy">
         <p class="app-card-name">超ズボラ日記</p>
         <p class="app-card-desc">一言書くだけでAIが日記に仕上げてくれる、続けるハードルを極限まで下げた日記アプリ。</p>
-        <span class="app-card-link">アプリを見る →</span>
       </a>
       <a class="app-card stagger-item" href="/apps/toite/">
-        <div class="app-icon-badge">TOITE</div>
+        <img class="app-icon-badge" src="/icons/toite_icon.webp" width="52" height="52" alt="TOITEアイコン" loading="lazy">
         <p class="app-card-name">TOITE</p>
         <p class="app-card-desc">数学・英語の問題をカメラで撮るだけ。AIがその場で解説してくれる学習アプリ。</p>
-        <span class="app-card-link">アプリを見る →</span>
       </a>
       <a class="app-card stagger-item" href="/apps/kao-type/">
-        <div class="app-icon-badge">顔診断</div>
+        <img class="app-icon-badge" src="/icons/kao-type_icon.webp" width="52" height="52" alt="顔タイプ診断アイコン" loading="lazy">
         <p class="app-card-name">顔タイプ診断</p>
         <p class="app-card-desc">写真を撮るだけでAIが顔タイプを診断。似合うファッション・メイクの傾向がわかる。</p>
-        <span class="app-card-link">アプリを見る →</span>
       </a>
       <a class="app-card stagger-item" href="/apps/rakuraku/">
-        <div class="app-icon-badge">暗記</div>
+        <img class="app-icon-badge" src="/icons/rakuraku_icon.webp" width="52" height="52" alt="楽々暗記アイコン" loading="lazy">
         <p class="app-card-name">楽々暗記</p>
         <p class="app-card-desc">AIが問題を自動生成する暗記アプリ。資格勉強や単語暗記をスキマ時間で効率化。</p>
-        <span class="app-card-link">アプリを見る →</span>
       </a>
     </div>
   </section>

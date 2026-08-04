@@ -416,6 +416,18 @@
         "destination": "/privacy/japan-life-guide/index.html"
       },
       {
+        "source": "/tools/nlp-mindshift/**",
+        "destination": "/tools/nlp-mindshift/index.html"
+      },
+      {
+        "source": "/apps/nlp-mindshift/**",
+        "destination": "/apps/nlp-mindshift/index.html"
+      },
+      {
+        "source": "/privacy/nlp-mindshift/**",
+        "destination": "/privacy/nlp-mindshift/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
