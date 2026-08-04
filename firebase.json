@@ -428,16 +428,16 @@
         "destination": "/privacy/nlp-mindshift/index.html"
       },
       {
-        "source": "/tools/sns-danchi/**",
-        "destination": "/tools/sns-danchi/index.html"
+        "source": "/tools/habit-quit/**",
+        "destination": "/tools/habit-quit/index.html"
       },
       {
-        "source": "/apps/sns-danchi/**",
-        "destination": "/apps/sns-danchi/index.html"
+        "source": "/apps/habit-quit/**",
+        "destination": "/apps/habit-quit/index.html"
       },
       {
-        "source": "/privacy/sns-danchi/**",
-        "destination": "/privacy/sns-danchi/index.html"
+        "source": "/privacy/habit-quit/**",
+        "destination": "/privacy/habit-quit/index.html"
       },
       {
         "source": "**",
