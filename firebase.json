@@ -334,6 +334,9 @@
       {"source": "/tools/chiiki-tasukeai-jiten/**", "destination": "/tools/chiiki-tasukeai-jiten/index.html"},
       {"source": "/apps/chiiki-tasukeai-jiten/**", "destination": "/apps/chiiki-tasukeai-jiten/index.html"},
       {"source": "/privacy/chiiki-tasukeai-jiten/**", "destination": "/privacy/chiiki-tasukeai-jiten/index.html"},
+      {"source": "/tools/enka-verse/**", "destination": "/tools/enka-verse/index.html"},
+      {"source": "/apps/enka-verse/**", "destination": "/apps/enka-verse/index.html"},
+      {"source": "/privacy/enka-verse/**", "destination": "/privacy/enka-verse/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
