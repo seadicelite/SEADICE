@@ -322,6 +322,9 @@
       {"source": "/tools/shakkin-seiri-hikaku/**", "destination": "/tools/shakkin-seiri-hikaku/index.html"},
       {"source": "/apps/shakkin-seiri-hikaku/**", "destination": "/apps/shakkin-seiri-hikaku/index.html"},
       {"source": "/privacy/shakkin-seiri-hikaku/**", "destination": "/privacy/shakkin-seiri-hikaku/index.html"},
+      {"source": "/tools/kotodama-oracle/**", "destination": "/tools/kotodama-oracle/index.html"},
+      {"source": "/apps/kotodama-oracle/**", "destination": "/apps/kotodama-oracle/index.html"},
+      {"source": "/privacy/kotodama-oracle/**", "destination": "/privacy/kotodama-oracle/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
