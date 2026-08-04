@@ -428,6 +428,18 @@
         "destination": "/privacy/nlp-mindshift/index.html"
       },
       {
+        "source": "/tools/sns-danchi/**",
+        "destination": "/tools/sns-danchi/index.html"
+      },
+      {
+        "source": "/apps/sns-danchi/**",
+        "destination": "/apps/sns-danchi/index.html"
+      },
+      {
+        "source": "/privacy/sns-danchi/**",
+        "destination": "/privacy/sns-danchi/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
