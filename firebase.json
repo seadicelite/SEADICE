@@ -334,6 +334,9 @@
       {"source": "/tools/chiiki-tasukeai-jiten/**", "destination": "/tools/chiiki-tasukeai-jiten/index.html"},
       {"source": "/apps/chiiki-tasukeai-jiten/**", "destination": "/apps/chiiki-tasukeai-jiten/index.html"},
       {"source": "/privacy/chiiki-tasukeai-jiten/**", "destination": "/privacy/chiiki-tasukeai-jiten/index.html"},
+      {"source": "/tools/hanko-spirit/**", "destination": "/tools/hanko-spirit/index.html"},
+      {"source": "/apps/hanko-spirit/**", "destination": "/apps/hanko-spirit/index.html"},
+      {"source": "/privacy/hanko-spirit/**", "destination": "/privacy/hanko-spirit/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
