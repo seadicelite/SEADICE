@@ -440,6 +440,18 @@
         "destination": "/privacy/habit-quit/index.html"
       },
       {
+        "source": "/tools/stoicism/**",
+        "destination": "/tools/stoicism/index.html"
+      },
+      {
+        "source": "/apps/stoicism/**",
+        "destination": "/apps/stoicism/index.html"
+      },
+      {
+        "source": "/privacy/stoicism/**",
+        "destination": "/privacy/stoicism/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
