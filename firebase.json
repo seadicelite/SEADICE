@@ -346,6 +346,9 @@
       {"source": "/tools/gomi-genryo-log/**", "destination": "/tools/gomi-genryo-log/index.html"},
       {"source": "/apps/gomi-genryo-log/**", "destination": "/apps/gomi-genryo-log/index.html"},
       {"source": "/privacy/gomi-genryo-log/**", "destination": "/privacy/gomi-genryo-log/index.html"},
+      {"source": "/tools/noh-mask/**", "destination": "/tools/noh-mask/index.html"},
+      {"source": "/apps/noh-mask/**", "destination": "/apps/noh-mask/index.html"},
+      {"source": "/privacy/noh-mask/**", "destination": "/privacy/noh-mask/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
