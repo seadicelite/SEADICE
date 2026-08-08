@@ -464,6 +464,18 @@
         "destination": "/privacy/self-compassion/index.html"
       },
       {
+        "source": "/tools/yofukashi-quest/**",
+        "destination": "/tools/yofukashi-quest/index.html"
+      },
+      {
+        "source": "/apps/yofukashi-quest/**",
+        "destination": "/apps/yofukashi-quest/index.html"
+      },
+      {
+        "source": "/privacy/yofukashi-quest/**",
+        "destination": "/privacy/yofukashi-quest/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
