@@ -334,6 +334,18 @@
       {"source": "/tools/chiiki-tasukeai-jiten/**", "destination": "/tools/chiiki-tasukeai-jiten/index.html"},
       {"source": "/apps/chiiki-tasukeai-jiten/**", "destination": "/apps/chiiki-tasukeai-jiten/index.html"},
       {"source": "/privacy/chiiki-tasukeai-jiten/**", "destination": "/privacy/chiiki-tasukeai-jiten/index.html"},
+      {"source": "/tools/netsuke-charm/**", "destination": "/tools/netsuke-charm/index.html"},
+      {"source": "/apps/netsuke-charm/**", "destination": "/apps/netsuke-charm/index.html"},
+      {"source": "/privacy/netsuke-charm/**", "destination": "/privacy/netsuke-charm/index.html"},
+      {"source": "/tools/tenshoku-soudan-chat/**", "destination": "/tools/tenshoku-soudan-chat/index.html"},
+      {"source": "/apps/tenshoku-soudan-chat/**", "destination": "/apps/tenshoku-soudan-chat/index.html"},
+      {"source": "/privacy/tenshoku-soudan-chat/**", "destination": "/privacy/tenshoku-soudan-chat/index.html"},
+      {"source": "/tools/gaikokujin-tetsuzuki-sim/**", "destination": "/tools/gaikokujin-tetsuzuki-sim/index.html"},
+      {"source": "/apps/gaikokujin-tetsuzuki-sim/**", "destination": "/apps/gaikokujin-tetsuzuki-sim/index.html"},
+      {"source": "/privacy/gaikokujin-tetsuzuki-sim/**", "destination": "/privacy/gaikokujin-tetsuzuki-sim/index.html"},
+      {"source": "/tools/gomi-genryo-log/**", "destination": "/tools/gomi-genryo-log/index.html"},
+      {"source": "/apps/gomi-genryo-log/**", "destination": "/apps/gomi-genryo-log/index.html"},
+      {"source": "/privacy/gomi-genryo-log/**", "destination": "/privacy/gomi-genryo-log/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
