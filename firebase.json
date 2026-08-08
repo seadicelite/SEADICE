@@ -452,6 +452,18 @@
         "destination": "/privacy/stoicism/index.html"
       },
       {
+        "source": "/tools/self-compassion/**",
+        "destination": "/tools/self-compassion/index.html"
+      },
+      {
+        "source": "/apps/self-compassion/**",
+        "destination": "/apps/self-compassion/index.html"
+      },
+      {
+        "source": "/privacy/self-compassion/**",
+        "destination": "/privacy/self-compassion/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
