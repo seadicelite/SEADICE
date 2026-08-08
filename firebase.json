@@ -346,6 +346,18 @@
       {"source": "/tools/gomi-genryo-log/**", "destination": "/tools/gomi-genryo-log/index.html"},
       {"source": "/apps/gomi-genryo-log/**", "destination": "/apps/gomi-genryo-log/index.html"},
       {"source": "/privacy/gomi-genryo-log/**", "destination": "/privacy/gomi-genryo-log/index.html"},
+      {"source": "/tools/daruma-goal/**", "destination": "/tools/daruma-goal/index.html"},
+      {"source": "/apps/daruma-goal/**", "destination": "/apps/daruma-goal/index.html"},
+      {"source": "/privacy/daruma-goal/**", "destination": "/privacy/daruma-goal/index.html"},
+      {"source": "/tools/monowasure-check/**", "destination": "/tools/monowasure-check/index.html"},
+      {"source": "/apps/monowasure-check/**", "destination": "/apps/monowasure-check/index.html"},
+      {"source": "/privacy/monowasure-check/**", "destination": "/privacy/monowasure-check/index.html"},
+      {"source": "/tools/sns-seigen-hikaku/**", "destination": "/tools/sns-seigen-hikaku/index.html"},
+      {"source": "/apps/sns-seigen-hikaku/**", "destination": "/apps/sns-seigen-hikaku/index.html"},
+      {"source": "/privacy/sns-seigen-hikaku/**", "destination": "/privacy/sns-seigen-hikaku/index.html"},
+      {"source": "/tools/kinyu-quest100/**", "destination": "/tools/kinyu-quest100/index.html"},
+      {"source": "/apps/kinyu-quest100/**", "destination": "/apps/kinyu-quest100/index.html"},
+      {"source": "/privacy/kinyu-quest100/**", "destination": "/privacy/kinyu-quest100/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
