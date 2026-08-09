@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "furin-chime",
+    "title_en": "Furin Chime",
+    "concept": "AI matches a described mood or memory to a real furin (wind chime) regional/material style (Edo furin hand-painted glass, Nanbu tekki cast iron, Shinano suzu bronze bell), explaining the tone-to-material relationship and the seasonal custom of hanging furin to signal summer."
+  },
+  {
+    "id": "sumie-ink",
+    "title_en": "Sumi-e Ink",
+    "concept": "AI matches a described scene or feeling to a real sumi-e (ink wash painting) subject and brushstroke technique (nijimi bleeding-ink, kasure dry-brush, boku-hitsu graded tone), explaining the ichigo-ichie one-stroke philosophy and the historical schools that shaped it."
+  },
+  {
+    "id": "mizuhiki-knot",
+    "title_en": "Mizuhiki Knot",
+    "concept": "AI matches a described occasion (wedding, birth, funeral, celebration) to a real mizuhiki cord knot style (musubikiri single-tie for one-time events, chomusubi bow-tie for repeatable happy events, awaji-musubi interlocking knot for lasting ties), explaining the color and knot-count conventions used on gift envelopes."
+  },
+  {
+    "id": "ema-wish",
+    "title_en": "Ema Wish",
+    "concept": "AI matches a described wish or goal to the type of ema wooden wish plaque tradition and the matching shrine practice (shape and imagery vary by shrine and by the type of wish - exams, safe childbirth, romance, business), explaining the history of ema as a substitute for once-live horse offerings."
+  }
+]

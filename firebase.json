@@ -358,6 +358,18 @@
       {"source": "/tools/kinyu-quest100/**", "destination": "/tools/kinyu-quest100/index.html"},
       {"source": "/apps/kinyu-quest100/**", "destination": "/apps/kinyu-quest100/index.html"},
       {"source": "/privacy/kinyu-quest100/**", "destination": "/privacy/kinyu-quest100/index.html"},
+      {"source": "/tools/temari-thread/**", "destination": "/tools/temari-thread/index.html"},
+      {"source": "/apps/temari-thread/**", "destination": "/apps/temari-thread/index.html"},
+      {"source": "/privacy/temari-thread/**", "destination": "/privacy/temari-thread/index.html"},
+      {"source": "/tools/kaji-share-log/**", "destination": "/tools/kaji-share-log/index.html"},
+      {"source": "/apps/kaji-share-log/**", "destination": "/apps/kaji-share-log/index.html"},
+      {"source": "/privacy/kaji-share-log/**", "destination": "/privacy/kaji-share-log/index.html"},
+      {"source": "/tools/benkyoho-jiten/**", "destination": "/tools/benkyoho-jiten/index.html"},
+      {"source": "/apps/benkyoho-jiten/**", "destination": "/apps/benkyoho-jiten/index.html"},
+      {"source": "/privacy/benkyoho-jiten/**", "destination": "/privacy/benkyoho-jiten/index.html"},
+      {"source": "/tools/ijuu-teiju-sim/**", "destination": "/tools/ijuu-teiju-sim/index.html"},
+      {"source": "/apps/ijuu-teiju-sim/**", "destination": "/apps/ijuu-teiju-sim/index.html"},
+      {"source": "/privacy/ijuu-teiju-sim/**", "destination": "/privacy/ijuu-teiju-sim/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
