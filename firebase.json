@@ -488,6 +488,18 @@
         "destination": "/privacy/iiwake-stop/index.html"
       },
       {
+        "source": "/tools/choudogai-stop/**",
+        "destination": "/tools/choudogai-stop/index.html"
+      },
+      {
+        "source": "/apps/choudogai-stop/**",
+        "destination": "/apps/choudogai-stop/index.html"
+      },
+      {
+        "source": "/privacy/choudogai-stop/**",
+        "destination": "/privacy/choudogai-stop/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
