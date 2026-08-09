@@ -358,6 +358,9 @@
       {"source": "/tools/kinyu-quest100/**", "destination": "/tools/kinyu-quest100/index.html"},
       {"source": "/apps/kinyu-quest100/**", "destination": "/apps/kinyu-quest100/index.html"},
       {"source": "/privacy/kinyu-quest100/**", "destination": "/privacy/kinyu-quest100/index.html"},
+      {"source": "/tools/onsen-alchemist/**", "destination": "/tools/onsen-alchemist/index.html"},
+      {"source": "/apps/onsen-alchemist/**", "destination": "/apps/onsen-alchemist/index.html"},
+      {"source": "/privacy/onsen-alchemist/**", "destination": "/privacy/onsen-alchemist/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
