@@ -524,6 +524,18 @@
         "destination": "/privacy/muchu-switch/index.html"
       },
       {
+        "source": "/tools/jibun-koe/**",
+        "destination": "/tools/jibun-koe/index.html"
+      },
+      {
+        "source": "/apps/jibun-koe/**",
+        "destination": "/apps/jibun-koe/index.html"
+      },
+      {
+        "source": "/privacy/jibun-koe/**",
+        "destination": "/privacy/jibun-koe/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
