@@ -512,6 +512,18 @@
         "destination": "/privacy/kanjou-reset/index.html"
       },
       {
+        "source": "/tools/muchu-switch/**",
+        "destination": "/tools/muchu-switch/index.html"
+      },
+      {
+        "source": "/apps/muchu-switch/**",
+        "destination": "/apps/muchu-switch/index.html"
+      },
+      {
+        "source": "/privacy/muchu-switch/**",
+        "destination": "/privacy/muchu-switch/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
