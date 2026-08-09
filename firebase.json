@@ -476,6 +476,18 @@
         "destination": "/privacy/yofukashi-quest/index.html"
       },
       {
+        "source": "/tools/iiwake-stop/**",
+        "destination": "/tools/iiwake-stop/index.html"
+      },
+      {
+        "source": "/apps/iiwake-stop/**",
+        "destination": "/apps/iiwake-stop/index.html"
+      },
+      {
+        "source": "/privacy/iiwake-stop/**",
+        "destination": "/privacy/iiwake-stop/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
