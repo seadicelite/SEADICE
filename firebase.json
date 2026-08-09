@@ -512,6 +512,18 @@
         "destination": "/privacy/kanjou-reset/index.html"
       },
       {
+        "source": "/tools/tsunagari-quest/**",
+        "destination": "/tools/tsunagari-quest/index.html"
+      },
+      {
+        "source": "/apps/tsunagari-quest/**",
+        "destination": "/apps/tsunagari-quest/index.html"
+      },
+      {
+        "source": "/privacy/tsunagari-quest/**",
+        "destination": "/privacy/tsunagari-quest/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
