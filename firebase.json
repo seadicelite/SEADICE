@@ -500,6 +500,18 @@
         "destination": "/privacy/choudogai-stop/index.html"
       },
       {
+        "source": "/tools/kanjou-reset/**",
+        "destination": "/tools/kanjou-reset/index.html"
+      },
+      {
+        "source": "/apps/kanjou-reset/**",
+        "destination": "/apps/kanjou-reset/index.html"
+      },
+      {
+        "source": "/privacy/kanjou-reset/**",
+        "destination": "/privacy/kanjou-reset/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
