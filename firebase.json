@@ -536,6 +536,18 @@
         "destination": "/privacy/jibun-koe/index.html"
       },
       {
+        "source": "/tools/shakitto-switch/**",
+        "destination": "/tools/shakitto-switch/index.html"
+      },
+      {
+        "source": "/apps/shakitto-switch/**",
+        "destination": "/apps/shakitto-switch/index.html"
+      },
+      {
+        "source": "/privacy/shakitto-switch/**",
+        "destination": "/privacy/shakitto-switch/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
