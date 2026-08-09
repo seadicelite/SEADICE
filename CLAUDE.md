@@ -698,6 +698,7 @@ Future<void> main() async {
 
 ## 留意事項
 
+- **iOS Deployment Targetは`15.0`にすること（`14.0`以下は使わない、2026-08-09〜）**。Appleは2027年春以降、`MinimumOSVersion`が15.0未満のアプリのアップロード・審査提出を受け付けなくなる（App Store Connectの`ITMS-90068`警告）。`ios/Podfile`の`platform :ios`・`post_install`内の`IPHONEOS_DEPLOYMENT_TARGET`、および`ios/Runner.xcodeproj/project.pbxproj`内の`IPHONEOS_DEPLOYMENT_TARGET`（3箇所）を`15.0`に統一する。`flutter create`直後のデフォルトは`13.0`になっていることがあるので、新規アプリ作成後に必ず確認する（詳細な手順は[gacha.md](.claude/commands/gacha.md)のStep 6参照）。
 - `Color.withOpacity()` は非推奨。`withValues(alpha: x)` を使うこと（Flutter 3.27+）
 - `AnimatedBuilder` の未使用パラメーターは `(_, _)` と書く（Dart 3.7+ のワイルドカード）
 - データ永続化は SharedPreferences（`AppStorage.load()` / `AppStorage.save()`）

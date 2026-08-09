@@ -430,11 +430,12 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
     target.build_configurations.each do |config|
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
     end
   end
 end
 ```
+> **`15.0`を使うこと（`14.0`は使わない、2026-08-09〜）**。Appleは2027年春以降、`MinimumOSVersion`が15.0未満のアプリのアップロード・審査提出を受け付けなくなる（`ITMS-90068`警告）。`14.0`のまま出したアプリは将来ビルドを出し直す必要が生じるため、最初から`15.0`にしておく。Xcodeプロジェクト側（`ios/Runner.xcodeproj`）の`IPHONEOS_DEPLOYMENT_TARGET`も同様に`15.0`にする（`flutter create`直後のデフォルトが古い場合は`Runner.xcodeproj/project.pbxproj`内の該当行、または`ios/Flutter/AppFrameworkInfo.plist`の`MinimumOSVersion`も確認する）。
 
 NotoSansJPフォントをコピー：
 ```bash
