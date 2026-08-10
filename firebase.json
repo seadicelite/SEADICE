@@ -548,6 +548,18 @@
         "destination": "/privacy/shakitto-switch/index.html"
       },
       {
+        "source": "/tools/sumaho-tebanashi/**",
+        "destination": "/tools/sumaho-tebanashi/index.html"
+      },
+      {
+        "source": "/apps/sumaho-tebanashi/**",
+        "destination": "/apps/sumaho-tebanashi/index.html"
+      },
+      {
+        "source": "/privacy/sumaho-tebanashi/**",
+        "destination": "/privacy/sumaho-tebanashi/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
