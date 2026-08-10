@@ -548,6 +548,18 @@
         "destination": "/privacy/shakitto-switch/index.html"
       },
       {
+        "source": "/tools/bunkai-note/**",
+        "destination": "/tools/bunkai-note/index.html"
+      },
+      {
+        "source": "/apps/bunkai-note/**",
+        "destination": "/apps/bunkai-note/index.html"
+      },
+      {
+        "source": "/privacy/bunkai-note/**",
+        "destination": "/privacy/bunkai-note/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
