@@ -370,6 +370,9 @@
       {"source": "/tools/ijuu-teiju-sim/**", "destination": "/tools/ijuu-teiju-sim/index.html"},
       {"source": "/apps/ijuu-teiju-sim/**", "destination": "/apps/ijuu-teiju-sim/index.html"},
       {"source": "/privacy/ijuu-teiju-sim/**", "destination": "/privacy/ijuu-teiju-sim/index.html"},
+      {"source": "/tools/kumadori-role/**", "destination": "/tools/kumadori-role/index.html"},
+      {"source": "/apps/kumadori-role/**", "destination": "/apps/kumadori-role/index.html"},
+      {"source": "/privacy/kumadori-role/**", "destination": "/privacy/kumadori-role/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
