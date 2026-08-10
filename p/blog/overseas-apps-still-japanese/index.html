@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>「海外向け」ラベルのアプリが14本、実は日本語ページのままだった話 | SEADICE</title>
+<meta name="description" content="海外向け(English-only)方針で作った初期14本のアプリ(omamori-guideからfuroshiki-wrapまで)が、実際には<html lang=\"ja\">の日本語ページのまま公開され続けていたと判明した。レジストリが「配線済みか」しか記録せず「対象言語」を記録していなかった構造的な原因を残す。">
+<link rel="canonical" href="https://seadice.win/blog/overseas-apps-still-japanese/">
+<meta property="og:title" content="「海外向け」ラベルのアプリが14本、実は日本語ページのままだった話 | SEADICE">
+<meta property="og:description" content="海外向け方針で作った初期14本のアプリが、実際には日本語ページのまま公開され続けていた。原因はレジストリが対象言語を記録していなかった構造にある。">
+<meta property="og:url" content="https://seadice.win/blog/overseas-apps-still-japanese/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="海外向けアプリ14本が日本語ページのままだった話 | SEADICE">
+<meta name="twitter:description" content="レジストリが「配線済みか」だけを記録し「対象言語」を記録していなかったため、過去分の見落としに気づけなかった話。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"「海外向け」ラベルのアプリが14本、実は日本語ページのままだった話","datePublished":"2026-08-10","dateModified":"2026-08-10","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/overseas-apps-still-japanese/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"「海外向け」ラベルのアプリが14本、実は日本語ページのままだった話","item":"https://seadice.win/blog/overseas-apps-still-japanese/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.code-block{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin:16px 0;overflow-x:auto;font-family:'SF Mono',Consolas,monospace;font-size:13px;color:#94a3b8;white-space:pre}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 「海外向け」ラベルのアプリが14本、実は日本語ページのままだった話</p>
+  <span class="tag">開発</span>
+  <h1>「海外向け」ラベルのアプリが14本<br>実は日本語ページのままだった話</h1>
+  <p class="meta"><time datetime="2026-08-10">2026-08-10</time> · SEADICE</p>
+  <div class="body">
+
+<p>今日の新規4本の言語チェックのついでにカタログ全体を見直したところ、<strong>「海外向け(English-only)」の方針で作ったはずの初期14本のアプリ</strong>が、omamori-guideからfuroshiki-wrapまで全て<code>&lt;html lang="ja"&gt;</code>のまま、日本語の本文で公開され続けていることが分かった。原因はコード側のバグではなく、レジストリファイルが「配線済みかどうか」しか記録しておらず「対象言語」をどこにも記録していなかったという設計の抜けだった。</p>
+
+<h2>何が起きていたか</h2>
+<p>2026年7月26日までにPRベースのブランチ運用(<code>overseas/アプリ名</code>)で作られた14本の「海外向け」アプリは、App Storeメタデータの英語欄はあるものの、ページ本文・見出し・広告文言まで含めて全て日本語のまま公開されていた。</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>PR番号</th><th>アプリID</th><th>lang属性</th></tr></thead>
+  <tbody>
+    <tr><td>#1</td><td>omamori-guide</td><td><code>ja</code></td></tr>
+    <tr><td>#2</td><td>japanglish</td><td><code>ja</code></td></tr>
+    <tr><td>#3</td><td>wagashi-muse</td><td><code>ja</code></td></tr>
+    <tr><td>#4</td><td>chado-sensei</td><td><code>ja</code></td></tr>
+    <tr><td>#5</td><td>matsuri-compass</td><td><code>ja</code></td></tr>
+    <tr><td>#6</td><td>dohyo-quiz</td><td><code>ja</code></td></tr>
+    <tr><td>#7</td><td>kanji-kokoro</td><td><code>ja</code></td></tr>
+    <tr><td>#8</td><td>kaidan-nights</td><td><code>ja</code></td></tr>
+    <tr><td>#9</td><td>bushido-way</td><td><code>ja</code></td></tr>
+    <tr><td>#10</td><td>shinobi-scroll</td><td><code>ja</code></td></tr>
+    <tr><td>#11</td><td>kamon-crest</td><td><code>ja</code></td></tr>
+    <tr><td>#12</td><td>giongo-echo</td><td><code>ja</code></td></tr>
+    <tr><td>#13</td><td>ekiben-journey</td><td><code>ja</code></td></tr>
+    <tr><td>#14</td><td>furoshiki-wrap</td><td><code>ja</code></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>いつ英語統一に切り替わったか</h2>
+<p>furoshiki-wrap(2026年7月26日)を最後にPRベースのブランチ運用が終わり、2026年8月2日のorigami-museから直接コミット+<code>lang="en"</code>の運用に切り替わっていた。切り替え自体は正しく機能しており、以降のkaresansui-zen・kokeshi-craft・shodo-brush・kintsugi-mend・ukiyoe-vision・ikebana-flow・bonsai-spirit・netsuke-charm・daruma-goal・temari-thread・furin-chime(本日分)まで11本連続で<code>lang="en"</code>を維持できている。問題は運用が変わった後、変わる前の14本を遡って直す工程がどこにも組み込まれていなかったことにある。</p>
+
+<h2>なぜ日次チェックでは見逃され続けたか</h2>
+<p><code>p/apps/.reflected.json</code>は「サイトへの配線が完了したアプリID」の一覧であり、「対象言語が英語かどうか」というフィールドを持たない。日次の自動化はその日新規に作った分の言語だけを確認する設計になっており、レジストリに載っている既存アプリを毎回全件スキャンする工程がないため、運用ルールが変わった過去分は仕組みの外側に取り残されたまま気づかれなかった。</p>
+<ul>
+<li>レジストリは「配線済み/未配線」の二値のみを持ち、言語・アイコン・カテゴリ等の属性は記録していない</li>
+<li>日次チェックはその日追加した新規IDのみを検証対象とし、既存98本(当時)への遡及チェックは行っていない</li>
+<li>PRベースからコミットベースへの運用変更時に、過去分の移行タスクが明示的に切られなかった</li>
+</ul>
+
+<h2>今回はスコープを広げず、発見だけを記録する</h2>
+<p>この日の運用ルールは「新規4本の作成+配線+記事1本」に限定されており、既存14本の翻訳・書き換えはその場では着手していない。原因を確定させないまま手を広げると、翻訳の品質チェックや既存App Store掲載情報との整合性確認まで芋づる式に必要になり、当日の作業が完了しなくなるためだ。まず該当14本のIDと現状を確定させて記録に残し、翻訳作業は独立したタスクとして次回以降に切り出す方が、途中で手が止まった半端な多言語ページを増やさずに済む。</p>
+
+<div class="note">
+<p>今回の調査は新規4本(furin-chime・koreisha-sumaho-chat・futoko-manabi-hikaku・rouhi-kuse-quest100)の言語確認から発覚したもので、既存14本の書き換えは未着手のまま。次にこの14本に触れる回で、英語版への書き換えを独立タスクとして切り出す予定。</p>
+</div>
+
+<a class="tool-cta" href="/apps/furoshiki-wrap/">
+  <p>Example</p>
+  <p>今回確認したfuroshiki-wrap(日本語のまま残っているページ)を見る →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>
