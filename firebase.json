@@ -370,6 +370,18 @@
       {"source": "/tools/ijuu-teiju-sim/**", "destination": "/tools/ijuu-teiju-sim/index.html"},
       {"source": "/apps/ijuu-teiju-sim/**", "destination": "/apps/ijuu-teiju-sim/index.html"},
       {"source": "/privacy/ijuu-teiju-sim/**", "destination": "/privacy/ijuu-teiju-sim/index.html"},
+      {"source": "/tools/furin-chime/**", "destination": "/tools/furin-chime/index.html"},
+      {"source": "/apps/furin-chime/**", "destination": "/apps/furin-chime/index.html"},
+      {"source": "/privacy/furin-chime/**", "destination": "/privacy/furin-chime/index.html"},
+      {"source": "/tools/koreisha-sumaho-chat/**", "destination": "/tools/koreisha-sumaho-chat/index.html"},
+      {"source": "/apps/koreisha-sumaho-chat/**", "destination": "/apps/koreisha-sumaho-chat/index.html"},
+      {"source": "/privacy/koreisha-sumaho-chat/**", "destination": "/privacy/koreisha-sumaho-chat/index.html"},
+      {"source": "/tools/futoko-manabi-hikaku/**", "destination": "/tools/futoko-manabi-hikaku/index.html"},
+      {"source": "/apps/futoko-manabi-hikaku/**", "destination": "/apps/futoko-manabi-hikaku/index.html"},
+      {"source": "/privacy/futoko-manabi-hikaku/**", "destination": "/privacy/futoko-manabi-hikaku/index.html"},
+      {"source": "/tools/rouhi-kuse-quest100/**", "destination": "/tools/rouhi-kuse-quest100/index.html"},
+      {"source": "/apps/rouhi-kuse-quest100/**", "destination": "/apps/rouhi-kuse-quest100/index.html"},
+      {"source": "/privacy/rouhi-kuse-quest100/**", "destination": "/privacy/rouhi-kuse-quest100/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
