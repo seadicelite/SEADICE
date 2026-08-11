@@ -382,6 +382,9 @@
       {"source": "/tools/rouhi-kuse-quest100/**", "destination": "/tools/rouhi-kuse-quest100/index.html"},
       {"source": "/apps/rouhi-kuse-quest100/**", "destination": "/apps/rouhi-kuse-quest100/index.html"},
       {"source": "/privacy/rouhi-kuse-quest100/**", "destination": "/privacy/rouhi-kuse-quest100/index.html"},
+      {"source": "/tools/goshuin-atlas/**", "destination": "/tools/goshuin-atlas/index.html"},
+      {"source": "/apps/goshuin-atlas/**", "destination": "/apps/goshuin-atlas/index.html"},
+      {"source": "/privacy/goshuin-atlas/**", "destination": "/privacy/goshuin-atlas/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
