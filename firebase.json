@@ -560,6 +560,18 @@
         "destination": "/privacy/bunkai-note/index.html"
       },
       {
+        "source": "/tools/hanashikake-lab/**",
+        "destination": "/tools/hanashikake-lab/index.html"
+      },
+      {
+        "source": "/apps/hanashikake-lab/**",
+        "destination": "/apps/hanashikake-lab/index.html"
+      },
+      {
+        "source": "/privacy/hanashikake-lab/**",
+        "destination": "/privacy/hanashikake-lab/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
