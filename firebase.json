@@ -382,6 +382,18 @@
       {"source": "/tools/rouhi-kuse-quest100/**", "destination": "/tools/rouhi-kuse-quest100/index.html"},
       {"source": "/apps/rouhi-kuse-quest100/**", "destination": "/apps/rouhi-kuse-quest100/index.html"},
       {"source": "/privacy/rouhi-kuse-quest100/**", "destination": "/privacy/rouhi-kuse-quest100/index.html"},
+      {"source": "/tools/sumie-ink/**", "destination": "/tools/sumie-ink/index.html"},
+      {"source": "/apps/sumie-ink/**", "destination": "/apps/sumie-ink/index.html"},
+      {"source": "/privacy/sumie-ink/**", "destination": "/privacy/sumie-ink/index.html"},
+      {"source": "/tools/bousai-bichiku-jiten/**", "destination": "/tools/bousai-bichiku-jiten/index.html"},
+      {"source": "/apps/bousai-bichiku-jiten/**", "destination": "/apps/bousai-bichiku-jiten/index.html"},
+      {"source": "/privacy/bousai-bichiku-jiten/**", "destination": "/privacy/bousai-bichiku-jiten/index.html"},
+      {"source": "/tools/shikaku-plan-sim/**", "destination": "/tools/shikaku-plan-sim/index.html"},
+      {"source": "/apps/shikaku-plan-sim/**", "destination": "/apps/shikaku-plan-sim/index.html"},
+      {"source": "/privacy/shikaku-plan-sim/**", "destination": "/privacy/shikaku-plan-sim/index.html"},
+      {"source": "/tools/skill-gap-shindan/**", "destination": "/tools/skill-gap-shindan/index.html"},
+      {"source": "/apps/skill-gap-shindan/**", "destination": "/apps/skill-gap-shindan/index.html"},
+      {"source": "/privacy/skill-gap-shindan/**", "destination": "/privacy/skill-gap-shindan/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
