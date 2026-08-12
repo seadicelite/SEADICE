@@ -632,6 +632,18 @@
         "destination": "/privacy/shoudou-surf/index.html"
       },
       {
+        "source": "/tools/mirai-kakei-note/**",
+        "destination": "/tools/mirai-kakei-note/index.html"
+      },
+      {
+        "source": "/apps/mirai-kakei-note/**",
+        "destination": "/apps/mirai-kakei-note/index.html"
+      },
+      {
+        "source": "/privacy/mirai-kakei-note/**",
+        "destination": "/privacy/mirai-kakei-note/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
