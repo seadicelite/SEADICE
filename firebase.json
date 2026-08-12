@@ -572,6 +572,18 @@
         "destination": "/privacy/hanashikake-lab/index.html"
       },
       {
+        "source": "/tools/kodo-challenge100/**",
+        "destination": "/tools/kodo-challenge100/index.html"
+      },
+      {
+        "source": "/apps/kodo-challenge100/**",
+        "destination": "/apps/kodo-challenge100/index.html"
+      },
+      {
+        "source": "/privacy/kodo-challenge100/**",
+        "destination": "/privacy/kodo-challenge100/index.html"
+      },
+      {
         "source": "/tools/kininaru-memo/**",
         "destination": "/tools/kininaru-memo/index.html"
       },
