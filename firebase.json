@@ -668,6 +668,18 @@
         "destination": "/privacy/teishutsu-switch/index.html"
       },
       {
+        "source": "/tools/chakuchi-note/**",
+        "destination": "/tools/chakuchi-note/index.html"
+      },
+      {
+        "source": "/apps/chakuchi-note/**",
+        "destination": "/apps/chakuchi-note/index.html"
+      },
+      {
+        "source": "/privacy/chakuchi-note/**",
+        "destination": "/privacy/chakuchi-note/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
