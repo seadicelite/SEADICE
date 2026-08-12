@@ -572,6 +572,18 @@
         "destination": "/privacy/hanashikake-lab/index.html"
       },
       {
+        "source": "/tools/curiosity-type/**",
+        "destination": "/tools/curiosity-type/index.html"
+      },
+      {
+        "source": "/apps/curiosity-type/**",
+        "destination": "/apps/curiosity-type/index.html"
+      },
+      {
+        "source": "/privacy/curiosity-type/**",
+        "destination": "/privacy/curiosity-type/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
