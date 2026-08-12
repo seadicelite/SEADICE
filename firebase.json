@@ -656,6 +656,18 @@
         "destination": "/privacy/hikaku-tomeru/index.html"
       },
       {
+        "source": "/tools/teishutsu-switch/**",
+        "destination": "/tools/teishutsu-switch/index.html"
+      },
+      {
+        "source": "/apps/teishutsu-switch/**",
+        "destination": "/apps/teishutsu-switch/index.html"
+      },
+      {
+        "source": "/privacy/teishutsu-switch/**",
+        "destination": "/privacy/teishutsu-switch/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
