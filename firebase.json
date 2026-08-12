@@ -668,6 +668,18 @@
         "destination": "/privacy/teishutsu-switch/index.html"
       },
       {
+        "source": "/tools/gofun-switch/**",
+        "destination": "/tools/gofun-switch/index.html"
+      },
+      {
+        "source": "/apps/gofun-switch/**",
+        "destination": "/apps/gofun-switch/index.html"
+      },
+      {
+        "source": "/privacy/gofun-switch/**",
+        "destination": "/privacy/gofun-switch/index.html"
+      },
+      {
         "source": "/tools/chakuchi-note/**",
         "destination": "/tools/chakuchi-note/index.html"
       },
