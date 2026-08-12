@@ -584,6 +584,30 @@
         "destination": "/privacy/curiosity-type/index.html"
       },
       {
+        "source": "/tools/toikake-card/**",
+        "destination": "/tools/toikake-card/index.html"
+      },
+      {
+        "source": "/apps/toikake-card/**",
+        "destination": "/apps/toikake-card/index.html"
+      },
+      {
+        "source": "/privacy/toikake-card/**",
+        "destination": "/privacy/toikake-card/index.html"
+      },
+      {
+        "source": "/tools/shoudou-surf/**",
+        "destination": "/tools/shoudou-surf/index.html"
+      },
+      {
+        "source": "/apps/shoudou-surf/**",
+        "destination": "/apps/shoudou-surf/index.html"
+      },
+      {
+        "source": "/privacy/shoudou-surf/**",
+        "destination": "/privacy/shoudou-surf/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
