@@ -572,6 +572,18 @@
         "destination": "/privacy/hanashikake-lab/index.html"
       },
       {
+        "source": "/tools/kininaru-memo/**",
+        "destination": "/tools/kininaru-memo/index.html"
+      },
+      {
+        "source": "/apps/kininaru-memo/**",
+        "destination": "/apps/kininaru-memo/index.html"
+      },
+      {
+        "source": "/privacy/kininaru-memo/**",
+        "destination": "/privacy/kininaru-memo/index.html"
+      },
+      {
         "source": "/tools/curiosity-type/**",
         "destination": "/tools/curiosity-type/index.html"
       },
