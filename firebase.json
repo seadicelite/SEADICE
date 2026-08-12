@@ -644,6 +644,18 @@
         "destination": "/privacy/mirai-kakei-note/index.html"
       },
       {
+        "source": "/tools/hikaku-tomeru/**",
+        "destination": "/tools/hikaku-tomeru/index.html"
+      },
+      {
+        "source": "/apps/hikaku-tomeru/**",
+        "destination": "/apps/hikaku-tomeru/index.html"
+      },
+      {
+        "source": "/privacy/hikaku-tomeru/**",
+        "destination": "/privacy/hikaku-tomeru/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
