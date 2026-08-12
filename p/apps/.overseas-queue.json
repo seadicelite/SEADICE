@@ -1,10 +1,5 @@
 [
   {
-    "id": "mizuhiki-knot",
-    "title_en": "Mizuhiki Knot",
-    "concept": "AI matches a described occasion (wedding, birth, funeral, celebration) to a real mizuhiki cord knot style (musubikiri single-tie for one-time events, chomusubi bow-tie for repeatable happy events, awaji-musubi interlocking knot for lasting ties), explaining the color and knot-count conventions used on gift envelopes."
-  },
-  {
     "id": "ema-wish",
     "title_en": "Ema Wish",
     "concept": "AI matches a described wish or goal to the type of ema wooden wish plaque tradition and the matching shrine practice (shape and imagery vary by shrine and by the type of wish - exams, safe childbirth, romance, business), explaining the history of ema as a substitute for once-live horse offerings."
