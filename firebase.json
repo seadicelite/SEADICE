@@ -418,6 +418,9 @@
       {"source": "/tools/genkai-shuraku-sim/**", "destination": "/tools/genkai-shuraku-sim/index.html"},
       {"source": "/apps/genkai-shuraku-sim/**", "destination": "/apps/genkai-shuraku-sim/index.html"},
       {"source": "/privacy/genkai-shuraku-sim/**", "destination": "/privacy/genkai-shuraku-sim/index.html"},
+      {"source": "/tools/kimono-canvas/**", "destination": "/tools/kimono-canvas/index.html"},
+      {"source": "/apps/kimono-canvas/**", "destination": "/apps/kimono-canvas/index.html"},
+      {"source": "/privacy/kimono-canvas/**", "destination": "/privacy/kimono-canvas/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
