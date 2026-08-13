@@ -560,6 +560,18 @@
         "destination": "/privacy/bunkai-note/index.html"
       },
       {
+        "source": "/tools/procrastination-log/**",
+        "destination": "/tools/procrastination-log/index.html"
+      },
+      {
+        "source": "/apps/procrastination-log/**",
+        "destination": "/apps/procrastination-log/index.html"
+      },
+      {
+        "source": "/privacy/procrastination-log/**",
+        "destination": "/privacy/procrastination-log/index.html"
+      },
+      {
         "source": "/tools/hanashikake-lab/**",
         "destination": "/tools/hanashikake-lab/index.html"
       },
