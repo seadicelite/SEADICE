@@ -418,6 +418,9 @@
       {"source": "/tools/genkai-shuraku-sim/**", "destination": "/tools/genkai-shuraku-sim/index.html"},
       {"source": "/apps/genkai-shuraku-sim/**", "destination": "/apps/genkai-shuraku-sim/index.html"},
       {"source": "/privacy/genkai-shuraku-sim/**", "destination": "/privacy/genkai-shuraku-sim/index.html"},
+      {"source": "/tools/onsen-alchemist/**", "destination": "/tools/onsen-alchemist/index.html"},
+      {"source": "/apps/onsen-alchemist/**", "destination": "/apps/onsen-alchemist/index.html"},
+      {"source": "/privacy/onsen-alchemist/**", "destination": "/privacy/onsen-alchemist/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
