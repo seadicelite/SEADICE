@@ -704,6 +704,18 @@
         "destination": "/privacy/chakuchi-note/index.html"
       },
       {
+        "source": "/tools/kincho-stop/**",
+        "destination": "/tools/kincho-stop/index.html"
+      },
+      {
+        "source": "/apps/kincho-stop/**",
+        "destination": "/apps/kincho-stop/index.html"
+      },
+      {
+        "source": "/privacy/kincho-stop/**",
+        "destination": "/privacy/kincho-stop/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
