@@ -406,6 +406,9 @@
       {"source": "/tools/nihon-seikatsu-quest100/**", "destination": "/tools/nihon-seikatsu-quest100/index.html"},
       {"source": "/apps/nihon-seikatsu-quest100/**", "destination": "/apps/nihon-seikatsu-quest100/index.html"},
       {"source": "/privacy/nihon-seikatsu-quest100/**", "destination": "/privacy/nihon-seikatsu-quest100/index.html"},
+      {"source": "/tools/ikebana-atelier/**", "destination": "/tools/ikebana-atelier/index.html"},
+      {"source": "/apps/ikebana-atelier/**", "destination": "/apps/ikebana-atelier/index.html"},
+      {"source": "/privacy/ikebana-atelier/**", "destination": "/privacy/ikebana-atelier/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
