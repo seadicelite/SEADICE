@@ -418,6 +418,9 @@
       {"source": "/tools/genkai-shuraku-sim/**", "destination": "/tools/genkai-shuraku-sim/index.html"},
       {"source": "/apps/genkai-shuraku-sim/**", "destination": "/apps/genkai-shuraku-sim/index.html"},
       {"source": "/privacy/genkai-shuraku-sim/**", "destination": "/privacy/genkai-shuraku-sim/index.html"},
+      {"source": "/tools/karakuri-craft/**", "destination": "/tools/karakuri-craft/index.html"},
+      {"source": "/apps/karakuri-craft/**", "destination": "/apps/karakuri-craft/index.html"},
+      {"source": "/privacy/karakuri-craft/**", "destination": "/privacy/karakuri-craft/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
