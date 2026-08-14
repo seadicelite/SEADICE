@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "haiku-muse",
+    "title_en": "Haiku Muse",
+    "concept": "Describe a moment or scene in a sentence, and Claude AI turns it into a real 5-7-5 haiku following kigo (seasonal word) convention, explaining which season word was used and why, plus the classical poets associated with that kigo."
+  },
+  {
+    "id": "hanko-seal",
+    "title_en": "Hanko Seal",
+    "concept": "An AI-guided reference for the Japanese personal seal (hanko/inkan) tradition: describe your name or purpose (bank account, real estate contract, art signature) and the app explains which seal type (jitsuin, ginkoin, mitomein) and script style fits, plus real registration etiquette."
+  },
+  {
+    "id": "chochin-glow",
+    "title_en": "Chochin Glow",
+    "concept": "Describe an event or place (a festival, a restaurant entrance, a family crest) and Claude AI matches it to the real chochin paper-lantern tradition it belongs to, explaining shape, regional style, and the calligraphy conventions painted on them."
+  },
+  {
+    "id": "maneki-fortune",
+    "title_en": "Maneki Fortune",
+    "concept": "Describe a wish for your shop, home, or venture and Claude AI matches it to the real maneki-neko (beckoning cat) tradition - which paw, which color, which pose - explaining the Edo-era folklore and shopkeeper etiquette behind each variant."
+  }
+]
