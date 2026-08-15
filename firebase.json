@@ -442,6 +442,9 @@
       {"source": "/tools/setsuden-setsusui-sim/**", "destination": "/tools/setsuden-setsusui-sim/index.html"},
       {"source": "/apps/setsuden-setsusui-sim/**", "destination": "/apps/setsuden-setsusui-sim/index.html"},
       {"source": "/privacy/setsuden-setsusui-sim/**", "destination": "/privacy/setsuden-setsusui-sim/index.html"},
+      {"source": "/tools/ikebana-atelier/**", "destination": "/tools/ikebana-atelier/index.html"},
+      {"source": "/apps/ikebana-atelier/**", "destination": "/apps/ikebana-atelier/index.html"},
+      {"source": "/privacy/ikebana-atelier/**", "destination": "/privacy/ikebana-atelier/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
