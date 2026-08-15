@@ -716,6 +716,18 @@
         "destination": "/privacy/kincho-stop/index.html"
       },
       {
+        "source": "/tools/dopamine-detox/**",
+        "destination": "/tools/dopamine-detox/index.html"
+      },
+      {
+        "source": "/apps/dopamine-detox/**",
+        "destination": "/apps/dopamine-detox/index.html"
+      },
+      {
+        "source": "/privacy/dopamine-detox/**",
+        "destination": "/privacy/dopamine-detox/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
