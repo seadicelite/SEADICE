@@ -1,10 +1,5 @@
 [
   {
-    "id": "hanko-seal",
-    "title_en": "Hanko Seal",
-    "concept": "An AI-guided reference for the Japanese personal seal (hanko/inkan) tradition: describe your name or purpose (bank account, real estate contract, art signature) and the app explains which seal type (jitsuin, ginkoin, mitomein) and script style fits, plus real registration etiquette."
-  },
-  {
     "id": "chochin-glow",
     "title_en": "Chochin Glow",
     "concept": "Describe an event or place (a festival, a restaurant entrance, a family crest) and Claude AI matches it to the real chochin paper-lantern tradition it belongs to, explaining shape, regional style, and the calligraphy conventions painted on them."
