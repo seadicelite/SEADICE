@@ -454,6 +454,9 @@
       {"source": "/tools/gokinjo-kizuna-quest100/**", "destination": "/tools/gokinjo-kizuna-quest100/index.html"},
       {"source": "/apps/gokinjo-kizuna-quest100/**", "destination": "/apps/gokinjo-kizuna-quest100/index.html"},
       {"source": "/privacy/gokinjo-kizuna-quest100/**", "destination": "/privacy/gokinjo-kizuna-quest100/index.html"},
+      {"source": "/tools/kumihimo-weave/**", "destination": "/tools/kumihimo-weave/index.html"},
+      {"source": "/apps/kumihimo-weave/**", "destination": "/apps/kumihimo-weave/index.html"},
+      {"source": "/privacy/kumihimo-weave/**", "destination": "/privacy/kumihimo-weave/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
