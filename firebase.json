@@ -454,6 +454,18 @@
       {"source": "/tools/gokinjo-kizuna-quest100/**", "destination": "/tools/gokinjo-kizuna-quest100/index.html"},
       {"source": "/apps/gokinjo-kizuna-quest100/**", "destination": "/apps/gokinjo-kizuna-quest100/index.html"},
       {"source": "/privacy/gokinjo-kizuna-quest100/**", "destination": "/privacy/gokinjo-kizuna-quest100/index.html"},
+      {"source": "/tools/chochin-glow/**", "destination": "/tools/chochin-glow/index.html"},
+      {"source": "/apps/chochin-glow/**", "destination": "/apps/chochin-glow/index.html"},
+      {"source": "/privacy/chochin-glow/**", "destination": "/privacy/chochin-glow/index.html"},
+      {"source": "/tools/bousai-kit-shindan/**", "destination": "/tools/bousai-kit-shindan/index.html"},
+      {"source": "/apps/bousai-kit-shindan/**", "destination": "/apps/bousai-kit-shindan/index.html"},
+      {"source": "/privacy/bousai-kit-shindan/**", "destination": "/privacy/bousai-kit-shindan/index.html"},
+      {"source": "/tools/gakushu-shien-hikaku/**", "destination": "/tools/gakushu-shien-hikaku/index.html"},
+      {"source": "/apps/gakushu-shien-hikaku/**", "destination": "/apps/gakushu-shien-hikaku/index.html"},
+      {"source": "/privacy/gakushu-shien-hikaku/**", "destination": "/privacy/gakushu-shien-hikaku/index.html"},
+      {"source": "/tools/sabusuku-shishutsu-log/**", "destination": "/tools/sabusuku-shishutsu-log/index.html"},
+      {"source": "/apps/sabusuku-shishutsu-log/**", "destination": "/apps/sabusuku-shishutsu-log/index.html"},
+      {"source": "/privacy/sabusuku-shishutsu-log/**", "destination": "/privacy/sabusuku-shishutsu-log/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
