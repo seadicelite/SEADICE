@@ -728,6 +728,18 @@
         "destination": "/privacy/dopamine-detox/index.html"
       },
       {
+        "source": "/tools/tebanashi-note/**",
+        "destination": "/tools/tebanashi-note/index.html"
+      },
+      {
+        "source": "/apps/tebanashi-note/**",
+        "destination": "/apps/tebanashi-note/index.html"
+      },
+      {
+        "source": "/privacy/tebanashi-note/**",
+        "destination": "/privacy/tebanashi-note/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
