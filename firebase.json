@@ -466,6 +466,9 @@
       {"source": "/tools/sabusuku-shishutsu-log/**", "destination": "/tools/sabusuku-shishutsu-log/index.html"},
       {"source": "/apps/sabusuku-shishutsu-log/**", "destination": "/apps/sabusuku-shishutsu-log/index.html"},
       {"source": "/privacy/sabusuku-shishutsu-log/**", "destination": "/privacy/sabusuku-shishutsu-log/index.html"},
+      {"source": "/tools/hanafuda-bloom/**", "destination": "/tools/hanafuda-bloom/index.html"},
+      {"source": "/apps/hanafuda-bloom/**", "destination": "/apps/hanafuda-bloom/index.html"},
+      {"source": "/privacy/hanafuda-bloom/**", "destination": "/privacy/hanafuda-bloom/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
