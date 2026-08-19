@@ -478,6 +478,18 @@
       {"source": "/tools/compost-koka-sim/**", "destination": "/tools/compost-koka-sim/index.html"},
       {"source": "/apps/compost-koka-sim/**", "destination": "/apps/compost-koka-sim/index.html"},
       {"source": "/privacy/compost-koka-sim/**", "destination": "/privacy/compost-koka-sim/index.html"},
+      {"source": "/tools/noren-curtain/**", "destination": "/tools/noren-curtain/index.html"},
+      {"source": "/apps/noren-curtain/**", "destination": "/apps/noren-curtain/index.html"},
+      {"source": "/privacy/noren-curtain/**", "destination": "/privacy/noren-curtain/index.html"},
+      {"source": "/tools/shorui-seiri-log/**", "destination": "/tools/shorui-seiri-log/index.html"},
+      {"source": "/apps/shorui-seiri-log/**", "destination": "/apps/shorui-seiri-log/index.html"},
+      {"source": "/privacy/shorui-seiri-log/**", "destination": "/privacy/shorui-seiri-log/index.html"},
+      {"source": "/tools/ijime-taiou-shindan/**", "destination": "/tools/ijime-taiou-shindan/index.html"},
+      {"source": "/apps/ijime-taiou-shindan/**", "destination": "/apps/ijime-taiou-shindan/index.html"},
+      {"source": "/privacy/ijime-taiou-shindan/**", "destination": "/privacy/ijime-taiou-shindan/index.html"},
+      {"source": "/tools/shougakukin-hikaku/**", "destination": "/tools/shougakukin-hikaku/index.html"},
+      {"source": "/apps/shougakukin-hikaku/**", "destination": "/apps/shougakukin-hikaku/index.html"},
+      {"source": "/privacy/shougakukin-hikaku/**", "destination": "/privacy/shougakukin-hikaku/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
