@@ -490,6 +490,9 @@
       {"source": "/tools/shougakukin-hikaku/**", "destination": "/tools/shougakukin-hikaku/index.html"},
       {"source": "/apps/shougakukin-hikaku/**", "destination": "/apps/shougakukin-hikaku/index.html"},
       {"source": "/privacy/shougakukin-hikaku/**", "destination": "/privacy/shougakukin-hikaku/index.html"},
+      {"source": "/tools/hanafuda-bloom/**", "destination": "/tools/hanafuda-bloom/index.html"},
+      {"source": "/apps/hanafuda-bloom/**", "destination": "/apps/hanafuda-bloom/index.html"},
+      {"source": "/privacy/hanafuda-bloom/**", "destination": "/privacy/hanafuda-bloom/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
