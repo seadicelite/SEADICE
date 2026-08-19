@@ -490,6 +490,9 @@
       {"source": "/tools/shougakukin-hikaku/**", "destination": "/tools/shougakukin-hikaku/index.html"},
       {"source": "/apps/shougakukin-hikaku/**", "destination": "/apps/shougakukin-hikaku/index.html"},
       {"source": "/privacy/shougakukin-hikaku/**", "destination": "/privacy/shougakukin-hikaku/index.html"},
+      {"source": "/tools/kumadori-role/**", "destination": "/tools/kumadori-role/index.html"},
+      {"source": "/apps/kumadori-role/**", "destination": "/apps/kumadori-role/index.html"},
+      {"source": "/privacy/kumadori-role/**", "destination": "/privacy/kumadori-role/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
