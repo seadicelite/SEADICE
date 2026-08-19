@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー - ホンシツ診断 | SEADICE</title>
+<meta name="description" content="ホンシツ診断のプライバシーポリシー。収集データ、Claude APIへの送信内容、データ削除方法について説明します。本アプリは広告配信を一切行いません。">
+<link rel="canonical" href="https://seadice.win/privacy/honshitsu-type/">
+<link rel="icon" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="プライバシーポリシー - ホンシツ診断">
+<meta property="og:url" content="https://seadice.win/privacy/honshitsu-type/">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#140F22;--card:#1D1633;--accent:#B99BFF;--accent2:#FBD36B;--border:#2C2350;--text:#EDE7FA;--muted:#9184B8}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.8}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(20,15,34,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}.nav-home{color:var(--muted);text-decoration:none;font-size:13px}.nav-home:hover{color:var(--text)}main{max-width:720px;margin:0 auto;padding:96px 24px 80px}h1{font-size:clamp(22px,4.5vw,30px);font-weight:800;margin-bottom:8px}.updated{font-size:12px;color:var(--muted);margin-bottom:40px}h2{font-size:16px;font-weight:800;margin-top:36px;margin-bottom:12px;color:var(--accent2)}p,li{font-size:14px;color:#d9d2ee}ul{padding-left:20px;margin-top:8px}li{margin-bottom:6px}a{color:var(--accent2)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted);margin-top:60px}footer a{color:var(--muted);text-decoration:none}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="https://seadice.win/">SEADICE</a>
+  <a class="nav-home" href="https://seadice.win/">ホームへ戻る</a>
+</nav>
+<main>
+  <h1>プライバシーポリシー</h1>
+  <p class="updated">最終更新日: 2026年8月19日 / 対象アプリ: ホンシツ診断</p>
+
+  <p>SEADICE（以下「開発者」）が提供するアプリ「ホンシツ診断」（以下「本アプリ」）における、ユーザーの個人情報の取り扱いについて説明します。</p>
+
+  <h2>開発者・連絡先</h2>
+  <p>開発者: SEADICE<br>連絡先: <a href="mailto:hi@seadice.win">hi@seadice.win</a></p>
+
+  <h2>収集する情報</h2>
+  <ul>
+    <li>診断の質問への回答内容</li>
+    <li>診断結果（本質タイプ・資質のHigh/Low傾向・AIによるアドバイス文）</li>
+    <li>診断履歴、実施日時</li>
+    <li>設定（フィードバック・不具合報告フォームに入力した任意のテキスト）</li>
+  </ul>
+  <p>本アプリは氏名・電話番号・位置情報などの直接的な個人を特定する情報の入力を求めません。診断結果・履歴は端末内(SharedPreferences)に保存され、開発者のサーバーには保存されません。</p>
+
+  <h2>外部AI(Claude API)への送信について</h2>
+  <p>本アプリの診断機能は、Cloudflare Workers経由でAnthropic社のClaude APIを利用します。診断の質問への回答内容は、本質タイプの判定・パーソナライズされたアドバイス生成のためにClaude APIへ送信されます。送信は診断実行時のみ行われ、氏名・連絡先等の個人を特定する情報は送信しません。送信された内容は本アプリの応答生成のみに利用され、Anthropic社のポリシーに基づき処理されます。</p>
+
+  <h2>広告について</h2>
+  <p>本アプリは広告を一切実装していません。広告配信事業者による端末情報の収集は行われません。</p>
+
+  <h2>フィードバック・不具合報告機能について</h2>
+  <p>設定画面の「アプリを一緒に育てませんか？」「不具合を報告する」から送信された内容のみ、開発者が運用するFirestore（Google Cloud）に送信・保存されます。ここには診断の回答内容は含まれず、ユーザーが任意で入力した要望・不具合内容のみが送信されます。</p>
+
+  <h2>免責事項</h2>
+  <p>本アプリの診断は心理学の性格特性理論を参考にした簡易セルフチェックであり、医学的・臨床的な診断・治療を行うものではありません。診断結果やAIによるアドバイスは自己理解を深めるための参考情報であり、内容の正確性・妥当性を保証するものではありません。</p>
+
+  <h2>データの削除方法</h2>
+  <p>診断結果・履歴などのデータはすべて端末内に保存されているため、アプリをアンインストールすることで削除されます。個別のデータ削除をご希望の場合は、上記連絡先までご連絡ください。</p>
+
+  <h2>プライバシーポリシーの変更</h2>
+  <p>本ポリシーは予告なく変更されることがあります。変更後の内容は本ページに掲載した時点で効力を生じます。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>本ポリシーに関するご質問は <a href="mailto:hi@seadice.win">hi@seadice.win</a> までご連絡ください。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">© SEADICE</a>
+</footer>
+</body>
+</html>

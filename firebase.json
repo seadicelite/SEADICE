@@ -740,6 +740,18 @@
         "destination": "/privacy/tebanashi-note/index.html"
       },
       {
+        "source": "/tools/honshitsu-type/**",
+        "destination": "/tools/honshitsu-type/index.html"
+      },
+      {
+        "source": "/apps/honshitsu-type/**",
+        "destination": "/apps/honshitsu-type/index.html"
+      },
+      {
+        "source": "/privacy/honshitsu-type/**",
+        "destination": "/privacy/honshitsu-type/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
