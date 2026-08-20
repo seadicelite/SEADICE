@@ -752,6 +752,18 @@
         "destination": "/privacy/honshitsu-type/index.html"
       },
       {
+        "source": "/tools/hitokoto-eigocho/**",
+        "destination": "/tools/hitokoto-eigocho/index.html"
+      },
+      {
+        "source": "/apps/hitokoto-eigocho/**",
+        "destination": "/apps/hitokoto-eigocho/index.html"
+      },
+      {
+        "source": "/privacy/hitokoto-eigocho/**",
+        "destination": "/privacy/hitokoto-eigocho/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
