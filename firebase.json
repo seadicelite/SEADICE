@@ -490,6 +490,18 @@
       {"source": "/tools/shougakukin-hikaku/**", "destination": "/tools/shougakukin-hikaku/index.html"},
       {"source": "/apps/shougakukin-hikaku/**", "destination": "/apps/shougakukin-hikaku/index.html"},
       {"source": "/privacy/shougakukin-hikaku/**", "destination": "/privacy/shougakukin-hikaku/index.html"},
+      {"source": "/tools/tsuba-crest/**", "destination": "/tools/tsuba-crest/index.html"},
+      {"source": "/apps/tsuba-crest/**", "destination": "/apps/tsuba-crest/index.html"},
+      {"source": "/privacy/tsuba-crest/**", "destination": "/privacy/tsuba-crest/index.html"},
+      {"source": "/tools/shikaku-quest100/**", "destination": "/tools/shikaku-quest100/index.html"},
+      {"source": "/apps/shikaku-quest100/**", "destination": "/apps/shikaku-quest100/index.html"},
+      {"source": "/privacy/shikaku-quest100/**", "destination": "/privacy/shikaku-quest100/index.html"},
+      {"source": "/tools/nihon-manner-jiten/**", "destination": "/tools/nihon-manner-jiten/index.html"},
+      {"source": "/apps/nihon-manner-jiten/**", "destination": "/apps/nihon-manner-jiten/index.html"},
+      {"source": "/privacy/nihon-manner-jiten/**", "destination": "/privacy/nihon-manner-jiten/index.html"},
+      {"source": "/tools/saigai-tasukeai-sim/**", "destination": "/tools/saigai-tasukeai-sim/index.html"},
+      {"source": "/apps/saigai-tasukeai-sim/**", "destination": "/apps/saigai-tasukeai-sim/index.html"},
+      {"source": "/privacy/saigai-tasukeai-sim/**", "destination": "/privacy/saigai-tasukeai-sim/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
