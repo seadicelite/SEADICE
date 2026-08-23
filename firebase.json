@@ -502,6 +502,9 @@
       {"source": "/tools/saigai-tasukeai-sim/**", "destination": "/tools/saigai-tasukeai-sim/index.html"},
       {"source": "/apps/saigai-tasukeai-sim/**", "destination": "/apps/saigai-tasukeai-sim/index.html"},
       {"source": "/privacy/saigai-tasukeai-sim/**", "destination": "/privacy/saigai-tasukeai-sim/index.html"},
+      {"source": "/tools/karuta-verses/**", "destination": "/tools/karuta-verses/index.html"},
+      {"source": "/apps/karuta-verses/**", "destination": "/apps/karuta-verses/index.html"},
+      {"source": "/privacy/karuta-verses/**", "destination": "/privacy/karuta-verses/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
