@@ -514,6 +514,9 @@
       {"source": "/tools/cashless-hikaku/**", "destination": "/tools/cashless-hikaku/index.html"},
       {"source": "/apps/cashless-hikaku/**", "destination": "/apps/cashless-hikaku/index.html"},
       {"source": "/privacy/cashless-hikaku/**", "destination": "/privacy/cashless-hikaku/index.html"},
+      {"source": "/tools/nukadoko-companion/**", "destination": "/tools/nukadoko-companion/index.html"},
+      {"source": "/apps/nukadoko-companion/**", "destination": "/apps/nukadoko-companion/index.html"},
+      {"source": "/privacy/nukadoko-companion/**", "destination": "/privacy/nukadoko-companion/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
