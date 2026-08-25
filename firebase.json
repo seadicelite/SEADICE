@@ -526,6 +526,9 @@
       {"source": "/tools/eco-seikatsu-shindan/**", "destination": "/tools/eco-seikatsu-shindan/index.html"},
       {"source": "/apps/eco-seikatsu-shindan/**", "destination": "/apps/eco-seikatsu-shindan/index.html"},
       {"source": "/privacy/eco-seikatsu-shindan/**", "destination": "/privacy/eco-seikatsu-shindan/index.html"},
+      {"source": "/tools/kyudo-path/**", "destination": "/tools/kyudo-path/index.html"},
+      {"source": "/apps/kyudo-path/**", "destination": "/apps/kyudo-path/index.html"},
+      {"source": "/privacy/kyudo-path/**", "destination": "/privacy/kyudo-path/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
