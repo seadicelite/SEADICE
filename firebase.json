@@ -538,6 +538,9 @@
       {"source": "/tools/chiiki-borantia-log/**", "destination": "/tools/chiiki-borantia-log/index.html"},
       {"source": "/apps/chiiki-borantia-log/**", "destination": "/apps/chiiki-borantia-log/index.html"},
       {"source": "/privacy/chiiki-borantia-log/**", "destination": "/privacy/chiiki-borantia-log/index.html"},
+      {"source": "/tools/kamishibai-tales/**", "destination": "/tools/kamishibai-tales/index.html"},
+      {"source": "/apps/kamishibai-tales/**", "destination": "/apps/kamishibai-tales/index.html"},
+      {"source": "/privacy/kamishibai-tales/**", "destination": "/privacy/kamishibai-tales/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
