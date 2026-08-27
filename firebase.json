@@ -550,6 +550,9 @@
       {"source": "/tools/kinyu-literacy-shindan/**", "destination": "/tools/kinyu-literacy-shindan/index.html"},
       {"source": "/apps/kinyu-literacy-shindan/**", "destination": "/apps/kinyu-literacy-shindan/index.html"},
       {"source": "/privacy/kinyu-literacy-shindan/**", "destination": "/privacy/kinyu-literacy-shindan/index.html"},
+      {"source": "/tools/shamisen-soul/**", "destination": "/tools/shamisen-soul/index.html"},
+      {"source": "/apps/shamisen-soul/**", "destination": "/apps/shamisen-soul/index.html"},
+      {"source": "/privacy/shamisen-soul/**", "destination": "/privacy/shamisen-soul/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
