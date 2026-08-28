@@ -1,10 +1,5 @@
 [
   {
-    "id": "onsen-manner",
-    "title_en": "Onsen Manner",
-    "concept": "AI matches described trip context (tattoos, travel companions, preferences) to the right real type of Japanese hot spring (rotenburo, uchiyu, ashiyu, konyoku) and explains genuine bathing etiquette rules so first-time visitors don't commit a faux pas."
-  },
-  {
     "id": "sashiko-stitch",
     "title_en": "Sashiko Stitch",
     "concept": "AI matches a described mending/decorating need and skill level to a real traditional sashiko stitch pattern (moyo-zashi, hitomezashi, kogin-zashi), explaining its regional origin and step-by-step guidance."
