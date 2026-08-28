@@ -574,6 +574,9 @@
       {"source": "/tools/kakure-kotei-hi-shindan/**", "destination": "/tools/kakure-kotei-hi-shindan/index.html"},
       {"source": "/apps/kakure-kotei-hi-shindan/**", "destination": "/apps/kakure-kotei-hi-shindan/index.html"},
       {"source": "/privacy/kakure-kotei-hi-shindan/**", "destination": "/privacy/kakure-kotei-hi-shindan/index.html"},
+      {"source": "/tools/karuta-verses/**", "destination": "/tools/karuta-verses/index.html"},
+      {"source": "/apps/karuta-verses/**", "destination": "/apps/karuta-verses/index.html"},
+      {"source": "/privacy/karuta-verses/**", "destination": "/privacy/karuta-verses/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
