@@ -562,6 +562,9 @@
       {"source": "/tools/recycle-hikaku/**", "destination": "/tools/recycle-hikaku/index.html"},
       {"source": "/apps/recycle-hikaku/**", "destination": "/apps/recycle-hikaku/index.html"},
       {"source": "/privacy/recycle-hikaku/**", "destination": "/privacy/recycle-hikaku/index.html"},
+      {"source": "/tools/dagashi-oracle/**", "destination": "/tools/dagashi-oracle/index.html"},
+      {"source": "/apps/dagashi-oracle/**", "destination": "/apps/dagashi-oracle/index.html"},
+      {"source": "/privacy/dagashi-oracle/**", "destination": "/privacy/dagashi-oracle/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
