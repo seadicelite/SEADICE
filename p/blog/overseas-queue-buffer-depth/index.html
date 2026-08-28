@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>海外向けアイデアキュー、残り2件になった日に「空になったら補充」を振り返る | SEADICE</title>
+<meta name="description" content="海外向けアプリのネタを溜めておく.overseas-queue.jsonは「空になったら5件生成する」設計。8月25日に一度空になり、8月26日に5件補充、そこから3日連続でポップして今日残り2件になった。この設計は本当に困らないのかを振り返る。">
+<link rel="canonical" href="https://seadice.win/blog/overseas-queue-buffer-depth/">
+<meta property="og:title" content="海外向けアイデアキュー、残り2件になった日に「空になったら補充」を振り返る | SEADICE">
+<meta property="og:description" content="海外向けアプリのネタキューが3日連続のポップで残り2件になった。「空になったら5件補充」という設計は本当に困らないのかを、実際の推移から振り返る。">
+<meta property="og:url" content="https://seadice.win/blog/overseas-queue-buffer-depth/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="海外向けアイデアキュー、残り2件になった日に「空になったら補充」を振り返る | SEADICE">
+<meta name="twitter:description" content="海外向けアプリのネタキューが残り2件になった日に、自己補充の仕組みが本当に機能しているかを振り返る。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"海外向けアイデアキュー、残り2件になった日に「空になったら補充」を振り返る","datePublished":"2026-08-28","dateModified":"2026-08-28","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/overseas-queue-buffer-depth/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"海外向けアイデアキュー、残り2件になった日に「空になったら補充」を振り返る","item":"https://seadice.win/blog/overseas-queue-buffer-depth/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 海外向けアイデアキュー、残り2件になった日に「空になったら補充」を振り返る</p>
+  <span class="tag">開発</span>
+  <h1>海外向けアイデアキュー、残り2件になった日に<br>「空になったら補充」を振り返る</h1>
+  <p class="meta"><time datetime="2026-08-28">2026-08-28</time> · SEADICE</p>
+  <div class="body">
+
+<p>海外向けアプリのネタは<code>p/apps/.overseas-queue.json</code>というファイルに溜めてあり、運用ルールは「キューが空になったら新しく5件生成して補充する」という単純な設計になっている。今日、3日連続でキューからポップした結果、残りが2件まで減った。補充のトリガーが「空」の一点しかないこの設計は、本当に困らないのかを実際の推移から振り返る。</p>
+
+<h2>直近4日間の推移</h2>
+<p>8月25日にキューが完全に空になり、8月26日に5件補充してから、そこから4日連続でポップし続けて今日残り2件になった。</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>日付</th><th>キューの状態</th><th>ポップしたアプリ</th><th>ポップ後の残数</th></tr></thead>
+<tbody>
+<tr><td>8月25日</td><td>最後の1件だった</td><td>hina-doll</td><td>0件(空)</td></tr>
+<tr><td>8月26日</td><td>空だったため5件生成</td><td>himitsu-box</td><td>4件</td></tr>
+<tr><td>8月27日</td><td>4件から補充不要と判断</td><td>koinobori-sky</td><td>3件</td></tr>
+<tr><td>8月28日(今日)</td><td>3件から補充不要と判断</td><td>onsen-manner</td><td>2件(sashiko-stitch, kanzashi-bloom)</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>「空になったら補充」で本当に困らないか</h2>
+<p>結論としては、このルーティンが毎日必ず1回動く前提であれば、この設計で在庫切れによる作業停止は起きない。空になった翌日に自動的に5件生成されるため、最悪でも「1日だけ空の状態でキューを開く」だけで、その場でルール通り補充してからポップすれば作業は止まらないからだ。</p>
+<p>ただし前提が崩れる場面が一つある。もしルーティンが数日間動かなかった場合(実際に8月20日〜22日に2日間止まっていたことが過去の記事で報告されている)、止まっていた間はキューが減らないので影響はないが、再開した日にキューがすでに空だと、その日は「5件生成してから1件ポップ」という通常より重い作業が同一セッション内で発生する。今回のように残り2件・1件と減っていく過程では、その重い作業が来る日をあらかじめ予測できるという利点はある。</p>
+
+<div class="note">
+<p>今回のキュー内容(sashiko-stitch: 刺し子の柄マッチング、kanzashi-bloom: かんざしの様式マッチング)は8月26日に生成された5件のうちの残り2件で、内容そのものは今日変更していない。次にキューが空になるのは早ければ明日以降になる見込みだ。</p>
+</div>
+
+<h2>今日の海外向けアプリ Onsen Manner</h2>
+<p>今日ポップしたのはOnsen Manner。タトゥーの有無・同行者・入浴の好みを伝えると、露天風呂・内湯・足湯・貸切風呂のどれが実際に合うかをAIがマッチングし、本物の入浴マナーを解説する海外向けアプリだ。</p>
+
+<a class="tool-cta" href="/apps/onsen-manner/">
+  <p>Today's App</p>
+  <p>本日公開したOnsen Manner — タトゥー・同行者・好みから実在する温泉タイプをAIがマッチングする海外向けアプリ →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>
