@@ -574,6 +574,9 @@
       {"source": "/tools/kakure-kotei-hi-shindan/**", "destination": "/tools/kakure-kotei-hi-shindan/index.html"},
       {"source": "/apps/kakure-kotei-hi-shindan/**", "destination": "/apps/kakure-kotei-hi-shindan/index.html"},
       {"source": "/privacy/kakure-kotei-hi-shindan/**", "destination": "/privacy/kakure-kotei-hi-shindan/index.html"},
+      {"source": "/tools/dagashi-oracle/**", "destination": "/tools/dagashi-oracle/index.html"},
+      {"source": "/apps/dagashi-oracle/**", "destination": "/apps/dagashi-oracle/index.html"},
+      {"source": "/privacy/dagashi-oracle/**", "destination": "/privacy/dagashi-oracle/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
