@@ -586,6 +586,9 @@
       {"source": "/tools/koreisha-mimamori-kiki-hikaku/**", "destination": "/tools/koreisha-mimamori-kiki-hikaku/index.html"},
       {"source": "/apps/koreisha-mimamori-kiki-hikaku/**", "destination": "/apps/koreisha-mimamori-kiki-hikaku/index.html"},
       {"source": "/privacy/koreisha-mimamori-kiki-hikaku/**", "destination": "/privacy/koreisha-mimamori-kiki-hikaku/index.html"},
+      {"source": "/tools/shamisen-soul/**", "destination": "/tools/shamisen-soul/index.html"},
+      {"source": "/apps/shamisen-soul/**", "destination": "/apps/shamisen-soul/index.html"},
+      {"source": "/privacy/shamisen-soul/**", "destination": "/privacy/shamisen-soul/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
