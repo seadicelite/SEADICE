@@ -586,6 +586,9 @@
       {"source": "/tools/koreisha-mimamori-kiki-hikaku/**", "destination": "/tools/koreisha-mimamori-kiki-hikaku/index.html"},
       {"source": "/apps/koreisha-mimamori-kiki-hikaku/**", "destination": "/apps/koreisha-mimamori-kiki-hikaku/index.html"},
       {"source": "/privacy/koreisha-mimamori-kiki-hikaku/**", "destination": "/privacy/koreisha-mimamori-kiki-hikaku/index.html"},
+      {"source": "/tools/kamishibai-tales/**", "destination": "/tools/kamishibai-tales/index.html"},
+      {"source": "/apps/kamishibai-tales/**", "destination": "/apps/kamishibai-tales/index.html"},
+      {"source": "/privacy/kamishibai-tales/**", "destination": "/privacy/kamishibai-tales/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
