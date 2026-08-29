@@ -586,6 +586,9 @@
       {"source": "/tools/koreisha-mimamori-kiki-hikaku/**", "destination": "/tools/koreisha-mimamori-kiki-hikaku/index.html"},
       {"source": "/apps/koreisha-mimamori-kiki-hikaku/**", "destination": "/apps/koreisha-mimamori-kiki-hikaku/index.html"},
       {"source": "/privacy/koreisha-mimamori-kiki-hikaku/**", "destination": "/privacy/koreisha-mimamori-kiki-hikaku/index.html"},
+      {"source": "/tools/kyudo-path/**", "destination": "/tools/kyudo-path/index.html"},
+      {"source": "/apps/kyudo-path/**", "destination": "/apps/kyudo-path/index.html"},
+      {"source": "/privacy/kyudo-path/**", "destination": "/privacy/kyudo-path/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
