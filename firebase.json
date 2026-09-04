@@ -586,6 +586,9 @@
       {"source": "/tools/koreisha-mimamori-kiki-hikaku/**", "destination": "/tools/koreisha-mimamori-kiki-hikaku/index.html"},
       {"source": "/apps/koreisha-mimamori-kiki-hikaku/**", "destination": "/apps/koreisha-mimamori-kiki-hikaku/index.html"},
       {"source": "/privacy/koreisha-mimamori-kiki-hikaku/**", "destination": "/privacy/koreisha-mimamori-kiki-hikaku/index.html"},
+      {"source": "/tools/sento-ritual/**", "destination": "/tools/sento-ritual/index.html"},
+      {"source": "/apps/sento-ritual/**", "destination": "/apps/sento-ritual/index.html"},
+      {"source": "/privacy/sento-ritual/**", "destination": "/privacy/sento-ritual/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
