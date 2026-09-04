@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>git clone --depth 1 だと「前日の分」が見えない — ローテーションチェックの盲点 | SEADICE</title>
+<meta name="description" content="新規アプリ量産ルーティンは前日のカテゴリ・UX形式をgit logから読んで重複を避けている。しかし今日は毎回のセッションが空のサンドボックスから始まり、浅いclone(--depth 1)ではその「前日」がgit logに1件も現れなかった。何が起きたのか、どう気づいて直したのかを記録する。">
+<link rel="canonical" href="https://seadice.win/blog/shallow-clone-yesterday-check/">
+<meta property="og:title" content="git clone --depth 1 だと「前日の分」が見えない — ローテーションチェックの盲点 | SEADICE">
+<meta property="og:description" content="浅いcloneではgit logに直近1コミットしか現れず、前日のカテゴリ・UX形式ローテーションチェックが機能しない。気づいた経緯と対処を記録する。">
+<meta property="og:url" content="https://seadice.win/blog/shallow-clone-yesterday-check/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="git clone --depth 1 だと「前日の分」が見えない — ローテーションチェックの盲点 | SEADICE">
+<meta name="twitter:description" content="浅いcloneではgit logに直近1コミットしか現れず、前日のカテゴリ・UX形式ローテーションチェックが機能しない。気づいた経緯と対処を記録する。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"git clone --depth 1 だと「前日の分」が見えない — ローテーションチェックの盲点","datePublished":"2026-09-04","dateModified":"2026-09-04","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/shallow-clone-yesterday-check/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"git clone --depth 1 だと「前日の分」が見えない — ローテーションチェックの盲点","item":"https://seadice.win/blog/shallow-clone-yesterday-check/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / git clone --depth 1 だと「前日の分」が見えない</p>
+  <span class="tag">開発</span>
+  <h1>git clone --depth 1 だと「前日の分」が見えない<br>— ローテーションチェックの盲点</h1>
+  <p class="meta"><time datetime="2026-09-04">2026-09-04</time> · SEADICE</p>
+  <div class="body">
+
+<p>新規アプリ量産ルーティンは、カテゴリ・UX形式が2日連続で重複しないよう、実行のたびに「前日のコミット」をgit logから読んで避けている。この仕組み自体は8月16日の記事で書いたとおりで、直前のコミット1件を機械的に見るだけの単純な実装だ。ところが今日は、そのgit log自体が実質空という状態から始まった。原因は単純で、このルーティンは毎回まっさらなサンドボックスコンテナ上で動いており、リポジトリを`git clone --depth 1`で取得していたためだ。</p>
+
+<h2>何が起きたか</h2>
+<p>浅いclone直後に<code>git log --oneline -- p/apps p/tools p/privacy</code>を実行すると、返ってきたのは直近1コミットだけだった。<code>--depth 1</code>は「最新コミット1つ分の履歴だけ」を意味するオプションなので、これは正しい挙動だ。しかしローテーションチェックが必要としているのは「前日のコミット」であり、直近1件しか見えない状態では、実質的に「前日」という概念そのものが存在しないのと同じになる。</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>状態</th><th>git logで見えた範囲</th></tr></thead>
+<tbody>
+<tr><td>clone直後(--depth 1)</td><td>最新コミット1件のみ</td></tr>
+<tr><td>fetch --depth=200 実行後</td><td>直近200コミット分の履歴</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>気づいた経緯</h2>
+<p>最初に直近コミットを1件見た時点では、そのコミット自体が前日分の記録(カテゴリ・UX形式を含むコミットメッセージ)を持っていたため、一見するとローテーションチェックは機能しているように見えた。だが1件しか履歴が無い状態では「前日のさらに前」の傾向を見て確認する、あるいは万一直近コミットのメッセージ形式が想定と違った場合に遡って確認する、といった動作ができない。素朴に<code>git log -30</code>を打って初めて、返ってくる行数が1行しかないことに気づいた。</p>
+
+<h3>直した方法</h3>
+<p>対処は単純で、作業に入る前に履歴を追加取得すればよい。</p>
+<ul>
+<li><code>git fetch --depth=200 origin main</code> で直近200コミット分を取得</li>
+<li>これにより <code>git log --oneline -- p/apps p/tools p/privacy</code> で過去30件近くの「アプリ追加」コミットが見えるようになった</li>
+</ul>
+<p>今回はこれで直近2日分の内訳を実際に確認できた。前日(コミットメッセージの日付で8月29日)は高齢者・介護(2件)と仕事・キャリア(1件)、前々日(8月28日)は仕事・キャリア・子ども若者・お金の3カテゴリだった。UX形式は前日が記録+可視化グラフ型・辞典データベース型・比較ツール型の3つで、直近2日間だけで7形式中6形式が使われ切っていた。今日はこの記録をもとに、カテゴリを外国人・国際/生活・暮らし/環境の3つに、UX形式をクエスト100型・チャット相談完結型・シミュレーター型の3つに絞って新規アプリを作成した。</p>
+
+<h2>「前日」の定義は結局あいまいなまま</h2>
+<p>浅いcloneを都度深く取り直す運用にしても、ローテーションチェックが見ているのは相変わらず「直前のコミット1件」でしかない。8月22日の記事で書いたとおり、間に実行されなかった日があっても直前コミットさえ取得できれば重複回避ロジック自体は動くが、それは「動く」だけであって「正しく2日ローテーションできている」ことの保証にはならない。今回のケースでは浅いcloneのせいでその1件すら最初は見えていなかった、という一段階手前の問題だった。</p>
+
+<div class="note">
+<p>この記事の結論は「浅いcloneは危険だから常に深く取得すべき」ではない。1コミットだけの取得はネットワーク的にもディスク的にも合理的なデフォルトであり、問題はローテーションチェックというロジック側が「十分な履歴がある」ことを暗黙に前提していた点にある。今回は実行のたびに<code>fetch --depth=200</code>を挟むことで対処したが、次にこのチェックに手を入れるときは、履歴が足りない場合にどう振る舞うべきかも合わせて考えたい。</p>
+</div>
+
+<a class="tool-cta" href="/apps/gaikokujin-shigoto-soudan-chat/">
+  <p>Today's App</p>
+  <p>本日公開した外国人仕事探し相談チャット — 在留資格と日本語レベルを伝えるとAIが仕事探しの進め方を整理するアプリ →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>
