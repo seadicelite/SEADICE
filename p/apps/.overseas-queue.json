@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "chindogu-lab",
+    "title_en": "Chindogu Lab",
+    "concept": "AI generates a whimsical Chindogu-style 'un-useless' invention concept for a described everyday annoyance, in the spirit of Kenji Kawakami's Chindogu principles, explaining why a genuine Chindogu must remain almost, but not quite, entirely useless."
+  },
+  {
+    "id": "suiseki-stone",
+    "title_en": "Suiseki Stone",
+    "concept": "Describe a found stone's shape and where you found it, and AI matches it to a suiseki viewing-stone classification (distant mountain, waterfall, island, hut) and explains traditional display (daiza stand or suiban tray) and viewing etiquette."
+  },
+  {
+    "id": "torii-gate",
+    "title_en": "Torii Gate Guide",
+    "concept": "AI matches a described shrine visit (deity type, occasion, region) to real torii gate styles (Shinmei, Myojin, Kasuga, Inari senbon-torii) and explains their structural differences and the meaning of passing through off-center."
+  },
+  {
+    "id": "kadomatsu-craft",
+    "title_en": "Kadomatsu Craft",
+    "concept": "AI matches household size and region to a traditional New Year kadomatsu arrangement (bamboo cut style, pine, ume), explaining regional variations and correct display and removal dates (matsu-no-uchi)."
+  }
+]
