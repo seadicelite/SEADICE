@@ -610,6 +610,9 @@
       {"source": "/tools/furusato-nozei-hikaku/**", "destination": "/tools/furusato-nozei-hikaku/index.html"},
       {"source": "/apps/furusato-nozei-hikaku/**", "destination": "/apps/furusato-nozei-hikaku/index.html"},
       {"source": "/privacy/furusato-nozei-hikaku/**", "destination": "/privacy/furusato-nozei-hikaku/index.html"},
+      {"source": "/tools/sento-ritual/**", "destination": "/tools/sento-ritual/index.html"},
+      {"source": "/apps/sento-ritual/**", "destination": "/apps/sento-ritual/index.html"},
+      {"source": "/privacy/sento-ritual/**", "destination": "/privacy/sento-ritual/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
