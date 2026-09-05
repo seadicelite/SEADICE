@@ -598,6 +598,9 @@
       {"source": "/tools/plastic-gomi-herasu-sim/**", "destination": "/tools/plastic-gomi-herasu-sim/index.html"},
       {"source": "/apps/plastic-gomi-herasu-sim/**", "destination": "/apps/plastic-gomi-herasu-sim/index.html"},
       {"source": "/privacy/plastic-gomi-herasu-sim/**", "destination": "/privacy/plastic-gomi-herasu-sim/index.html"},
+      {"source": "/tools/kokeshi-charm/**", "destination": "/tools/kokeshi-charm/index.html"},
+      {"source": "/apps/kokeshi-charm/**", "destination": "/apps/kokeshi-charm/index.html"},
+      {"source": "/privacy/kokeshi-charm/**", "destination": "/privacy/kokeshi-charm/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
