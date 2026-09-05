@@ -440,6 +440,18 @@
         "destination": "/privacy/habit-quit/index.html"
       },
       {
+        "source": "/tools/munashisa-note/**",
+        "destination": "/tools/munashisa-note/index.html"
+      },
+      {
+        "source": "/apps/munashisa-note/**",
+        "destination": "/apps/munashisa-note/index.html"
+      },
+      {
+        "source": "/privacy/munashisa-note/**",
+        "destination": "/privacy/munashisa-note/index.html"
+      },
+      {
         "source": "/tools/stoicism/**",
         "destination": "/tools/stoicism/index.html"
       },
