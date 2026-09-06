@@ -610,6 +610,18 @@
       {"source": "/tools/furusato-nozei-hikaku/**", "destination": "/tools/furusato-nozei-hikaku/index.html"},
       {"source": "/apps/furusato-nozei-hikaku/**", "destination": "/apps/furusato-nozei-hikaku/index.html"},
       {"source": "/privacy/furusato-nozei-hikaku/**", "destination": "/privacy/furusato-nozei-hikaku/index.html"},
+      {"source": "/tools/chindogu-lab/**", "destination": "/tools/chindogu-lab/index.html"},
+      {"source": "/apps/chindogu-lab/**", "destination": "/apps/chindogu-lab/index.html"},
+      {"source": "/privacy/chindogu-lab/**", "destination": "/privacy/chindogu-lab/index.html"},
+      {"source": "/tools/kaigo-hiyo-sim/**", "destination": "/tools/kaigo-hiyo-sim/index.html"},
+      {"source": "/apps/kaigo-hiyo-sim/**", "destination": "/apps/kaigo-hiyo-sim/index.html"},
+      {"source": "/privacy/kaigo-hiyo-sim/**", "destination": "/privacy/kaigo-hiyo-sim/index.html"},
+      {"source": "/tools/chiiki-bika-quest100/**", "destination": "/tools/chiiki-bika-quest100/index.html"},
+      {"source": "/apps/chiiki-bika-quest100/**", "destination": "/apps/chiiki-bika-quest100/index.html"},
+      {"source": "/privacy/chiiki-bika-quest100/**", "destination": "/privacy/chiiki-bika-quest100/index.html"},
+      {"source": "/tools/jichikai-sanka-shindan/**", "destination": "/tools/jichikai-sanka-shindan/index.html"},
+      {"source": "/apps/jichikai-sanka-shindan/**", "destination": "/apps/jichikai-sanka-shindan/index.html"},
+      {"source": "/privacy/jichikai-sanka-shindan/**", "destination": "/privacy/jichikai-sanka-shindan/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
