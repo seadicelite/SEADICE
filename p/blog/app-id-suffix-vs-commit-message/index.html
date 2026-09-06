@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ディレクトリ名の末尾からUX形式は分かるか — 178本を数えたら半分だった | SEADICE</title>
+<meta name="description" content="ローテーション判定はコミットメッセージの文章を読んでいるが、もしファイル名の末尾(-log/-sim等)だけで判定していたら。178本を実際に数えると一致は半分だった。">
+<link rel="canonical" href="https://seadice.win/blog/app-id-suffix-vs-commit-message/">
+<meta property="og:title" content="ディレクトリ名の末尾からUX形式は分かるか — 178本を数えたら半分だった | SEADICE">
+<meta property="og:description" content="もしUX形式のローテーション判定をファイル名の末尾だけで行っていたら、178本中カバーできるのは半分だけだった。実測結果を記録する。">
+<meta property="og:url" content="https://seadice.win/blog/app-id-suffix-vs-commit-message/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ディレクトリ名の末尾からUX形式は分かるか — 178本を数えたら半分だった | SEADICE">
+<meta name="twitter:description" content="ファイル名末尾だけでUX形式を判定する場合のカバー率を178本の実データで検証した。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"ディレクトリ名の末尾からUX形式は分かるか — 178本を数えたら半分だった","datePublished":"2026-09-06","dateModified":"2026-09-06","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/app-id-suffix-vs-commit-message/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"ディレクトリ名の末尾からUX形式は分かるか","item":"https://seadice.win/blog/app-id-suffix-vs-commit-message/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / ディレクトリ名の末尾からUX形式は分かるか</p>
+  <span class="tag">開発</span>
+  <h1>ディレクトリ名の末尾からUX形式は分かるか<br>— 178本を数えたら半分だった</h1>
+  <p class="meta"><time datetime="2026-09-06">2026-09-06</time> · SEADICE</p>
+  <div class="body">
+
+<p>新規アプリのUX形式(記録+可視化グラフ型・辞典データベース型・比較ツール型・シミュレーター型・1回完結の診断+提案型・チャット相談完結型・クエスト100型)を2日連続で重複させないローテーション判定は、直前のコミットメッセージの文章をそのまま読んで行っている。8月16日の記事で書いたとおり、この判定は実際には機能しているが、今日は別の角度から一つ確認したいことがあった。もしコミットメッセージではなく、ディレクトリ名の末尾(<code>-log</code>や<code>-sim</code>など)だけを機械的に見てローテーションを判定しようとしたら、それはどこまで通用するのか、という点だ。</p>
+
+<h2>実際に数えてみた</h2>
+<p><code>p/apps/</code>配下の178個のアプリIDを、末尾の文字列で7つのUX形式に分類できるか数えたところ、判定できたのは87本(約49%)にとどまった。</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>末尾</th><th>対応するUX形式</th><th>該当数</th></tr></thead>
+<tbody>
+<tr><td>-log</td><td>記録+可視化グラフ型</td><td>16</td></tr>
+<tr><td>-jiten</td><td>辞典・データベース型</td><td>13</td></tr>
+<tr><td>-hikaku</td><td>比較ツール型</td><td>15</td></tr>
+<tr><td>-shindan</td><td>1回完結の診断+提案型</td><td>9</td></tr>
+<tr><td>-sim</td><td>シミュレーター型</td><td>14</td></tr>
+<tr><td>-chat</td><td>チャット相談完結型</td><td>12</td></tr>
+<tr><td>quest100</td><td>クエスト100型</td><td>8</td></tr>
+<tr><td>(該当なし)</td><td>判定不能</td><td>91</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>判定できない91本の内訳</h2>
+<p>判定不能な91本の大半は、海外向けの伝統文化マッチング系アプリ(<code>washi-craft</code>、<code>kanzashi-bloom</code>など)と、初期に作られた単発アプリ・数字付きの量産シリーズ(<code>kateisaien-app1</code>〜<code>10</code>など)だった。</p>
+<ul>
+<li>海外向けアプリはそもそも「マッチング型」という独自ジャンルで、末尾に定型の記号を持たない</li>
+<li><code>kateisaien-app1</code>〜<code>10</code>や<code>fitness-app1</code>〜<code>3</code>など、ジャンルハブに属する量産シリーズは連番であってUX形式を表さない</li>
+<li>初期の主力アプリ(<code>toite</code>、<code>rakuraku</code>など)は命名規則が固まる前に作られたもの</li>
+</ul>
+
+<h2>結論: 末尾判定だけでは半分しか読めない</h2>
+<p>もし将来「コミットメッセージを読まずに、ディレクトリ名の末尾だけでローテーション履歴を再構築するツール」を作ろうとしたら、それは178本のうち91本(51%)で誤判定または判定不能になる。これは実装上の欠陥というより、命名規則自体が「UX形式を厳密にエンコードするため」ではなく「アプリの内容が一目で分かるように」という別の目的で決められてきた結果だ。</p>
+
+<div class="note">
+<p>この記事の結論は「命名規則を厳格にすべき」ではない。現在のローテーション判定はコミットメッセージの文章を直接読んでおり、この方式は末尾記号のような省略された情報に頼っていないため、今回確認した51%という数字によって実際に影響を受けているわけではない。ただし、今後もし判定ロジックに手を入れる機会があれば、「ディレクトリ名から機械的に推測する」という選択肢は今回の実測値をもって除外できる、という記録として残しておく。</p>
+</div>
+
+<a class="tool-cta" href="/apps/chiiki-bika-quest100/">
+  <p>Today's App</p>
+  <p>本日公開した地域美化100日クエスト — ゴミ拾いや分別確認など、100日間のクエスト形式で地域美化の習慣を積み上げるアプリ →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>
