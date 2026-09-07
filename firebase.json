@@ -634,6 +634,9 @@
       {"source": "/tools/gaikokujin-kodoku-log/**", "destination": "/tools/gaikokujin-kodoku-log/index.html"},
       {"source": "/apps/gaikokujin-kodoku-log/**", "destination": "/apps/gaikokujin-kodoku-log/index.html"},
       {"source": "/privacy/gaikokujin-kodoku-log/**", "destination": "/privacy/gaikokujin-kodoku-log/index.html"},
+      {"source": "/tools/kokeshi-charm/**", "destination": "/tools/kokeshi-charm/index.html"},
+      {"source": "/apps/kokeshi-charm/**", "destination": "/apps/kokeshi-charm/index.html"},
+      {"source": "/privacy/kokeshi-charm/**", "destination": "/privacy/kokeshi-charm/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
