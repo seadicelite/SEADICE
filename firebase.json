@@ -622,6 +622,9 @@
       {"source": "/tools/jichikai-sanka-shindan/**", "destination": "/tools/jichikai-sanka-shindan/index.html"},
       {"source": "/apps/jichikai-sanka-shindan/**", "destination": "/apps/jichikai-sanka-shindan/index.html"},
       {"source": "/privacy/jichikai-sanka-shindan/**", "destination": "/privacy/jichikai-sanka-shindan/index.html"},
+      {"source": "/tools/wagara-loom/**", "destination": "/tools/wagara-loom/index.html"},
+      {"source": "/apps/wagara-loom/**", "destination": "/apps/wagara-loom/index.html"},
+      {"source": "/privacy/wagara-loom/**", "destination": "/privacy/wagara-loom/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
