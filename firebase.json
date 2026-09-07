@@ -622,6 +622,18 @@
       {"source": "/tools/jichikai-sanka-shindan/**", "destination": "/tools/jichikai-sanka-shindan/index.html"},
       {"source": "/apps/jichikai-sanka-shindan/**", "destination": "/apps/jichikai-sanka-shindan/index.html"},
       {"source": "/privacy/jichikai-sanka-shindan/**", "destination": "/privacy/jichikai-sanka-shindan/index.html"},
+      {"source": "/tools/suiseki-stone/**", "destination": "/tools/suiseki-stone/index.html"},
+      {"source": "/apps/suiseki-stone/**", "destination": "/apps/suiseki-stone/index.html"},
+      {"source": "/privacy/suiseki-stone/**", "destination": "/privacy/suiseki-stone/index.html"},
+      {"source": "/tools/kaji-daikou-hikaku/**", "destination": "/tools/kaji-daikou-hikaku/index.html"},
+      {"source": "/apps/kaji-daikou-hikaku/**", "destination": "/apps/kaji-daikou-hikaku/index.html"},
+      {"source": "/privacy/kaji-daikou-hikaku/**", "destination": "/privacy/kaji-daikou-hikaku/index.html"},
+      {"source": "/tools/freelance-dokuritsu-soudan-chat/**", "destination": "/tools/freelance-dokuritsu-soudan-chat/index.html"},
+      {"source": "/apps/freelance-dokuritsu-soudan-chat/**", "destination": "/apps/freelance-dokuritsu-soudan-chat/index.html"},
+      {"source": "/privacy/freelance-dokuritsu-soudan-chat/**", "destination": "/privacy/freelance-dokuritsu-soudan-chat/index.html"},
+      {"source": "/tools/gaikokujin-kodoku-log/**", "destination": "/tools/gaikokujin-kodoku-log/index.html"},
+      {"source": "/apps/gaikokujin-kodoku-log/**", "destination": "/apps/gaikokujin-kodoku-log/index.html"},
+      {"source": "/privacy/gaikokujin-kodoku-log/**", "destination": "/privacy/gaikokujin-kodoku-log/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
