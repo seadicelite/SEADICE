@@ -634,6 +634,9 @@
       {"source": "/tools/gaikokujin-kodoku-log/**", "destination": "/tools/gaikokujin-kodoku-log/index.html"},
       {"source": "/apps/gaikokujin-kodoku-log/**", "destination": "/apps/gaikokujin-kodoku-log/index.html"},
       {"source": "/privacy/gaikokujin-kodoku-log/**", "destination": "/privacy/gaikokujin-kodoku-log/index.html"},
+      {"source": "/tools/ema-grove/**", "destination": "/tools/ema-grove/index.html"},
+      {"source": "/apps/ema-grove/**", "destination": "/apps/ema-grove/index.html"},
+      {"source": "/privacy/ema-grove/**", "destination": "/privacy/ema-grove/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
