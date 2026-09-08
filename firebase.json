@@ -634,6 +634,9 @@
       {"source": "/tools/gaikokujin-kodoku-log/**", "destination": "/tools/gaikokujin-kodoku-log/index.html"},
       {"source": "/apps/gaikokujin-kodoku-log/**", "destination": "/apps/gaikokujin-kodoku-log/index.html"},
       {"source": "/privacy/gaikokujin-kodoku-log/**", "destination": "/privacy/gaikokujin-kodoku-log/index.html"},
+      {"source": "/tools/aizome-vessel/**", "destination": "/tools/aizome-vessel/index.html"},
+      {"source": "/apps/aizome-vessel/**", "destination": "/apps/aizome-vessel/index.html"},
+      {"source": "/privacy/aizome-vessel/**", "destination": "/privacy/aizome-vessel/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
