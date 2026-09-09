@@ -634,6 +634,9 @@
       {"source": "/tools/gaikokujin-kodoku-log/**", "destination": "/tools/gaikokujin-kodoku-log/index.html"},
       {"source": "/apps/gaikokujin-kodoku-log/**", "destination": "/apps/gaikokujin-kodoku-log/index.html"},
       {"source": "/privacy/gaikokujin-kodoku-log/**", "destination": "/privacy/gaikokujin-kodoku-log/index.html"},
+      {"source": "/tools/kaiseki-course/**", "destination": "/tools/kaiseki-course/index.html"},
+      {"source": "/apps/kaiseki-course/**", "destination": "/apps/kaiseki-course/index.html"},
+      {"source": "/privacy/kaiseki-course/**", "destination": "/privacy/kaiseki-course/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
