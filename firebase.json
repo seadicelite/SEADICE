@@ -634,6 +634,18 @@
       {"source": "/tools/gaikokujin-kodoku-log/**", "destination": "/tools/gaikokujin-kodoku-log/index.html"},
       {"source": "/apps/gaikokujin-kodoku-log/**", "destination": "/apps/gaikokujin-kodoku-log/index.html"},
       {"source": "/privacy/gaikokujin-kodoku-log/**", "destination": "/privacy/gaikokujin-kodoku-log/index.html"},
+      {"source": "/tools/torii-gate/**", "destination": "/tools/torii-gate/index.html"},
+      {"source": "/apps/torii-gate/**", "destination": "/apps/torii-gate/index.html"},
+      {"source": "/privacy/torii-gate/**", "destination": "/privacy/torii-gate/index.html"},
+      {"source": "/tools/futoko-kaifuku-quest100/**", "destination": "/tools/futoko-kaifuku-quest100/index.html"},
+      {"source": "/apps/futoko-kaifuku-quest100/**", "destination": "/apps/futoko-kaifuku-quest100/index.html"},
+      {"source": "/privacy/futoko-kaifuku-quest100/**", "destination": "/privacy/futoko-kaifuku-quest100/index.html"},
+      {"source": "/tools/kaigo-futan-yosoku-sim/**", "destination": "/tools/kaigo-futan-yosoku-sim/index.html"},
+      {"source": "/apps/kaigo-futan-yosoku-sim/**", "destination": "/apps/kaigo-futan-yosoku-sim/index.html"},
+      {"source": "/privacy/kaigo-futan-yosoku-sim/**", "destination": "/privacy/kaigo-futan-yosoku-sim/index.html"},
+      {"source": "/tools/shakkin-fukamido-shindan/**", "destination": "/tools/shakkin-fukamido-shindan/index.html"},
+      {"source": "/apps/shakkin-fukamido-shindan/**", "destination": "/apps/shakkin-fukamido-shindan/index.html"},
+      {"source": "/privacy/shakkin-fukamido-shindan/**", "destination": "/privacy/shakkin-fukamido-shindan/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
