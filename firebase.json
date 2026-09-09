@@ -644,6 +644,18 @@
         "destination": "/privacy/toikake-card/index.html"
       },
       {
+        "source": "/tools/dopagaki-reset/**",
+        "destination": "/tools/dopagaki-reset/index.html"
+      },
+      {
+        "source": "/apps/dopagaki-reset/**",
+        "destination": "/apps/dopagaki-reset/index.html"
+      },
+      {
+        "source": "/privacy/dopagaki-reset/**",
+        "destination": "/privacy/dopagaki-reset/index.html"
+      },
+      {
         "source": "/tools/shoudou-surf/**",
         "destination": "/tools/shoudou-surf/index.html"
       },
