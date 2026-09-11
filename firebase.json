@@ -658,6 +658,9 @@
       {"source": "/tools/tsumekae-eco-hikaku/**", "destination": "/tools/tsumekae-eco-hikaku/index.html"},
       {"source": "/apps/tsumekae-eco-hikaku/**", "destination": "/apps/tsumekae-eco-hikaku/index.html"},
       {"source": "/privacy/tsumekae-eco-hikaku/**", "destination": "/privacy/tsumekae-eco-hikaku/index.html"},
+      {"source": "/tools/irezumi-codex/**", "destination": "/tools/irezumi-codex/index.html"},
+      {"source": "/apps/irezumi-codex/**", "destination": "/apps/irezumi-codex/index.html"},
+      {"source": "/privacy/irezumi-codex/**", "destination": "/privacy/irezumi-codex/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
