@@ -658,6 +658,9 @@
       {"source": "/tools/tsumekae-eco-hikaku/**", "destination": "/tools/tsumekae-eco-hikaku/index.html"},
       {"source": "/apps/tsumekae-eco-hikaku/**", "destination": "/apps/tsumekae-eco-hikaku/index.html"},
       {"source": "/privacy/tsumekae-eco-hikaku/**", "destination": "/privacy/tsumekae-eco-hikaku/index.html"},
+      {"source": "/tools/suiseki-eye/**", "destination": "/tools/suiseki-eye/index.html"},
+      {"source": "/apps/suiseki-eye/**", "destination": "/apps/suiseki-eye/index.html"},
+      {"source": "/privacy/suiseki-eye/**", "destination": "/privacy/suiseki-eye/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
