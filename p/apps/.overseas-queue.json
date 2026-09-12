@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "tengu-mountain",
+    "title_en": "Tengu Mountain",
+    "concept": "Describe a personal struggle or ambition, and AI matches it to one of Japan's real tengu-associated mountain legends (e.g. Kurama's Sojobo, Hiko-san, Izuna Gongen), explaining that mountain's specific lore and the tengu's traditional role as a stern but fair teacher of martial or spiritual discipline."
+  },
+  {
+    "id": "kendama-trick",
+    "title_en": "Kendama Trick Dojo",
+    "concept": "Describe your kendama skill level and which part keeps missing (ozara, kozara, kensaki, or the moshikame chain), and AI matches you to a real named trick to practice next, plus the correct grip and swing form drawn from Japan's traditional kendama teaching lineage."
+  },
+  {
+    "id": "inari-fox",
+    "title_en": "Inari Fox Guide",
+    "concept": "Describe what you're hoping for (business, harvest, protection, safe travel), and AI matches it to a real Inari shrine dedication style, from Fushimi Inari's senbon torii to a small neighborhood inari-sha, explaining the symbolism of the kitsune fox messengers and correct offering and prayer etiquette."
+  },
+  {
+    "id": "rakugo-tales",
+    "title_en": "Rakugo Tales",
+    "concept": "Describe a mood or moment you want turned into a short story, and AI writes an original rakugo-style comic tale using the real classical structure (makura intro, hon-banashi, ochi punchline), explaining the tradition's single-performer, no-props storytelling style with a note on an iconic real piece like Manju Kowai."
+  },
+  {
+    "id": "sumo-basho-guide",
+    "title_en": "Sumo Basho Guide",
+    "concept": "Describe what you want to know about an upcoming sumo tournament (a wrestler, a technique, a rank), and AI explains it using the real basho structure, the six-tournament annual calendar, and genuine kimarite winning techniques, distinct from an existing app's sumo-ring trivia by focusing on the tournament and ranking system itself."
+  }
+]
