@@ -674,6 +674,54 @@
       {"source": "/apps/sensu-muse/**", "destination": "/apps/sensu-muse/index.html"},
       {"source": "/privacy/sensu-muse/**", "destination": "/privacy/sensu-muse/index.html"},
       {
+        "source": "/tools/tengu-mountain/**",
+        "destination": "/tools/tengu-mountain/index.html"
+      },
+      {
+        "source": "/apps/tengu-mountain/**",
+        "destination": "/apps/tengu-mountain/index.html"
+      },
+      {
+        "source": "/privacy/tengu-mountain/**",
+        "destination": "/privacy/tengu-mountain/index.html"
+      },
+      {
+        "source": "/tools/bichiku-kigen-log/**",
+        "destination": "/tools/bichiku-kigen-log/index.html"
+      },
+      {
+        "source": "/apps/bichiku-kigen-log/**",
+        "destination": "/apps/bichiku-kigen-log/index.html"
+      },
+      {
+        "source": "/privacy/bichiku-kigen-log/**",
+        "destination": "/privacy/bichiku-kigen-log/index.html"
+      },
+      {
+        "source": "/tools/shikaku-koza-hikaku/**",
+        "destination": "/tools/shikaku-koza-hikaku/index.html"
+      },
+      {
+        "source": "/apps/shikaku-koza-hikaku/**",
+        "destination": "/apps/shikaku-koza-hikaku/index.html"
+      },
+      {
+        "source": "/privacy/shikaku-koza-hikaku/**",
+        "destination": "/privacy/shikaku-koza-hikaku/index.html"
+      },
+      {
+        "source": "/tools/ninchi-kunren-quest100/**",
+        "destination": "/tools/ninchi-kunren-quest100/index.html"
+      },
+      {
+        "source": "/apps/ninchi-kunren-quest100/**",
+        "destination": "/apps/ninchi-kunren-quest100/index.html"
+      },
+      {
+        "source": "/privacy/ninchi-kunren-quest100/**",
+        "destination": "/privacy/ninchi-kunren-quest100/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
