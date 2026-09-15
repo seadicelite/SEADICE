@@ -670,6 +670,9 @@
       {"source": "/tools/chiiki-kodoku-shindan/**", "destination": "/tools/chiiki-kodoku-shindan/index.html"},
       {"source": "/apps/chiiki-kodoku-shindan/**", "destination": "/apps/chiiki-kodoku-shindan/index.html"},
       {"source": "/privacy/chiiki-kodoku-shindan/**", "destination": "/privacy/chiiki-kodoku-shindan/index.html"},
+      {"source": "/tools/sensu-muse/**", "destination": "/tools/sensu-muse/index.html"},
+      {"source": "/apps/sensu-muse/**", "destination": "/apps/sensu-muse/index.html"},
+      {"source": "/privacy/sensu-muse/**", "destination": "/privacy/sensu-muse/index.html"},
       {
         "source": "/tools/tengu-mountain/**",
         "destination": "/tools/tengu-mountain/index.html"
