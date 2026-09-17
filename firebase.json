@@ -719,6 +719,18 @@
         "destination": "/privacy/ninchi-kunren-quest100/index.html"
       },
       {
+        "source": "/tools/temari-wish/**",
+        "destination": "/tools/temari-wish/index.html"
+      },
+      {
+        "source": "/apps/temari-wish/**",
+        "destination": "/apps/temari-wish/index.html"
+      },
+      {
+        "source": "/privacy/temari-wish/**",
+        "destination": "/privacy/temari-wish/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
