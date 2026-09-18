@@ -788,6 +788,18 @@
         "destination": "/privacy/hitokoto-eigocho/index.html"
       },
       {
+        "source": "/tools/life-map/**",
+        "destination": "/tools/life-map/index.html"
+      },
+      {
+        "source": "/apps/life-map/**",
+        "destination": "/apps/life-map/index.html"
+      },
+      {
+        "source": "/privacy/life-map/**",
+        "destination": "/privacy/life-map/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
