@@ -11,960 +11,1004 @@
       "firebase-debug.log"
     ]
   },
-  "hosting": {
-    "public": "p",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "/lifeisrpg/**",
-        "destination": "/lifeisrpg/index.html"
-      },
-      {
-        "source": "/kao_type_diag/**",
-        "destination": "/kao_type_diag/index.html"
-      },
-      {
-        "source": "/toite/**",
-        "destination": "/toite/index.html"
-      },
-      {
-        "source": "/focus-dice/**",
-        "destination": "/focus-dice/index.html"
-      },
-      {
-        "source": "/rakuraku/**",
-        "destination": "/rakuraku/index.html"
-      },
-      {
-        "source": "/boueki-hub/kentei/**",
-        "destination": "/boueki-hub/kentei/index.html"
-      },
-      {
-        "source": "/boueki-hub/jitsumu-word/**",
-        "destination": "/boueki-hub/jitsumu-word/index.html"
-      },
-      {
-        "source": "/boueki-hub/srs/**",
-        "destination": "/boueki-hub/srs/index.html"
-      },
-      {
-        "source": "/boueki-hub/english-word/**",
-        "destination": "/boueki-hub/english-word/index.html"
-      },
-      {
-        "source": "/boueki-hub/**",
-        "destination": "/boueki-hub/index.html"
-      },
-      {
-        "source": "/boueki/**",
-        "destination": "/boueki/index.html"
-      },
-      {
-        "source": "/drone/anki/**",
-        "destination": "/drone/anki/index.html"
-      },
-      {
-        "source": "/jinsei_pyramid/**",
-        "destination": "/jinsei_pyramid/index.html"
-      },
-      {
-        "source": "/apps/line-honne-scan/**",
-        "destination": "/apps/line-honne-scan/index.html"
-      },
-      {
-        "source": "/privacy/line-honne-scan/**",
-        "destination": "/privacy/line-honne-scan/index.html"
-      },
-      {
-        "source": "/tools/omikuji-zodiac/**",
-        "destination": "/tools/omikuji-zodiac/index.html"
-      },
-      {
-        "source": "/apps/omikuji-zodiac/**",
-        "destination": "/apps/omikuji-zodiac/index.html"
-      },
-      {
-        "source": "/privacy/omikuji-zodiac/**",
-        "destination": "/privacy/omikuji-zodiac/index.html"
-      },
-      {
-        "source": "/tools/yokai-mirror/**",
-        "destination": "/tools/yokai-mirror/index.html"
-      },
-      {
-        "source": "/apps/yokai-mirror/**",
-        "destination": "/apps/yokai-mirror/index.html"
-      },
-      {
-        "source": "/privacy/yokai-mirror/**",
-        "destination": "/privacy/yokai-mirror/index.html"
-      },
-      {
-        "source": "/tools/yumetoki/**",
-        "destination": "/tools/yumetoki/index.html"
-      },
-      {
-        "source": "/apps/yumetoki/**",
-        "destination": "/apps/yumetoki/index.html"
-      },
-      {
-        "source": "/privacy/yumetoki/**",
-        "destination": "/privacy/yumetoki/index.html"
-      },
-      {
-        "source": "/tools/mbti-compass/**",
-        "destination": "/tools/mbti-compass/index.html"
-      },
-      {
-        "source": "/apps/mbti-compass/**",
-        "destination": "/apps/mbti-compass/index.html"
-      },
-      {
-        "source": "/privacy/mbti-compass/**",
-        "destination": "/privacy/mbti-compass/index.html"
-      },
-      {
-        "source": "/tools/hsp-relationship-check/**",
-        "destination": "/tools/hsp-relationship-check/index.html"
-      },
-      {
-        "source": "/apps/hsp-relationship-check/**",
-        "destination": "/apps/hsp-relationship-check/index.html"
-      },
-      {
-        "source": "/privacy/hsp-relationship-check/**",
-        "destination": "/privacy/hsp-relationship-check/index.html"
-      },
-      {
-        "source": "/tools/cognitive-bias-guide/**",
-        "destination": "/tools/cognitive-bias-guide/index.html"
-      },
-      {
-        "source": "/apps/cognitive-bias-guide/**",
-        "destination": "/apps/cognitive-bias-guide/index.html"
-      },
-      {
-        "source": "/privacy/cognitive-bias-guide/**",
-        "destination": "/privacy/cognitive-bias-guide/index.html"
-      },
-      {
-        "source": "/tools/kanyou-shindan/**",
-        "destination": "/tools/kanyou-shindan/index.html"
-      },
-      {
-        "source": "/apps/kanyou-shindan/**",
-        "destination": "/apps/kanyou-shindan/index.html"
-      },
-      {
-        "source": "/privacy/kanyou-shindan/**",
-        "destination": "/privacy/kanyou-shindan/index.html"
-      },
-      {
-        "source": "/tools/fbi-bodylanguage/**",
-        "destination": "/tools/fbi-bodylanguage/index.html"
-      },
-      {
-        "source": "/apps/fbi-bodylanguage/**",
-        "destination": "/apps/fbi-bodylanguage/index.html"
-      },
-      {
-        "source": "/privacy/fbi-bodylanguage/**",
-        "destination": "/privacy/fbi-bodylanguage/index.html"
-      },
-      {
-        "source": "/tools/procrastination-type/**",
-        "destination": "/tools/procrastination-type/index.html"
-      },
-      {
-        "source": "/apps/procrastination-type/**",
-        "destination": "/apps/procrastination-type/index.html"
-      },
-      {
-        "source": "/privacy/procrastination-type/**",
-        "destination": "/privacy/procrastination-type/index.html"
-      },
-      {
-        "source": "/tools/holmes-deduction/**",
-        "destination": "/tools/holmes-deduction/index.html"
-      },
-      {
-        "source": "/apps/holmes-deduction/**",
-        "destination": "/apps/holmes-deduction/index.html"
-      },
-      {
-        "source": "/privacy/holmes-deduction/**",
-        "destination": "/privacy/holmes-deduction/index.html"
-      },
-      {
-        "source": "/tools/yaritai-100/**",
-        "destination": "/tools/yaritai-100/index.html"
-      },
-      {
-        "source": "/apps/yaritai-100/**",
-        "destination": "/apps/yaritai-100/index.html"
-      },
-      {
-        "source": "/privacy/yaritai-100/**",
-        "destination": "/privacy/yaritai-100/index.html"
-      },
-      {
-        "source": "/tools/attachment-style/**",
-        "destination": "/tools/attachment-style/index.html"
-      },
-      {
-        "source": "/apps/attachment-style/**",
-        "destination": "/apps/attachment-style/index.html"
-      },
-      {
-        "source": "/privacy/attachment-style/**",
-        "destination": "/privacy/attachment-style/index.html"
-      },
-      {
-        "source": "/tools/enneagram/**",
-        "destination": "/tools/enneagram/index.html"
-      },
-      {
-        "source": "/apps/enneagram/**",
-        "destination": "/apps/enneagram/index.html"
-      },
-      {
-        "source": "/privacy/enneagram/**",
-        "destination": "/privacy/enneagram/index.html"
-      },
-      {
-        "source": "/tools/trauma-response-type/**",
-        "destination": "/tools/trauma-response-type/index.html"
-      },
-      {
-        "source": "/apps/trauma-response-type/**",
-        "destination": "/apps/trauma-response-type/index.html"
-      },
-      {
-        "source": "/privacy/trauma-response-type/**",
-        "destination": "/privacy/trauma-response-type/index.html"
-      },
-      {
-        "source": "/tools/coping-type/**",
-        "destination": "/tools/coping-type/index.html"
-      },
-      {
-        "source": "/apps/coping-type/**",
-        "destination": "/apps/coping-type/index.html"
-      },
-      {
-        "source": "/privacy/coping-type/**",
-        "destination": "/privacy/coping-type/index.html"
-      },
-      {
-        "source": "/tools/perfectionism-type/**",
-        "destination": "/tools/perfectionism-type/index.html"
-      },
-      {
-        "source": "/apps/perfectionism-type/**",
-        "destination": "/apps/perfectionism-type/index.html"
-      },
-      {
-        "source": "/privacy/perfectionism-type/**",
-        "destination": "/privacy/perfectionism-type/index.html"
-      },
-      {
-        "source": "/tools/approval-type/**",
-        "destination": "/tools/approval-type/index.html"
-      },
-      {
-        "source": "/apps/approval-type/**",
-        "destination": "/apps/approval-type/index.html"
-      },
-      {
-        "source": "/privacy/approval-type/**",
-        "destination": "/privacy/approval-type/index.html"
-      },
-      {
-        "source": "/tools/self-esteem-type/**",
-        "destination": "/tools/self-esteem-type/index.html"
-      },
-      {
-        "source": "/apps/self-esteem-type/**",
-        "destination": "/apps/self-esteem-type/index.html"
-      },
-      {
-        "source": "/privacy/self-esteem-type/**",
-        "destination": "/privacy/self-esteem-type/index.html"
-      },
-      {
-        "source": "/tools/coffee-taste/**",
-        "destination": "/tools/coffee-taste/index.html"
-      },
-      {
-        "source": "/apps/coffee-taste/**",
-        "destination": "/apps/coffee-taste/index.html"
-      },
-      {
-        "source": "/privacy/coffee-taste/**",
-        "destination": "/privacy/coffee-taste/index.html"
-      },
-      {
-        "source": "/tools/mood-forecast/**",
-        "destination": "/tools/mood-forecast/index.html"
-      },
-      {
-        "source": "/apps/mood-forecast/**",
-        "destination": "/apps/mood-forecast/index.html"
-      },
-      {
-        "source": "/privacy/mood-forecast/**",
-        "destination": "/privacy/mood-forecast/index.html"
-      },
-      {
-        "source": "/tools/jikka-jimai/**",
-        "destination": "/tools/jikka-jimai/index.html"
-      },
-      {
-        "source": "/apps/jikka-jimai/**",
-        "destination": "/apps/jikka-jimai/index.html"
-      },
-      {
-        "source": "/privacy/jikka-jimai/**",
-        "destination": "/privacy/jikka-jimai/index.html"
-      },
-      {
-        "source": "/tools/hitori-time/**",
-        "destination": "/tools/hitori-time/index.html"
-      },
-      {
-        "source": "/apps/hitori-time/**",
-        "destination": "/apps/hitori-time/index.html"
-      },
-      {
-        "source": "/privacy/hitori-time/**",
-        "destination": "/privacy/hitori-time/index.html"
-      },
-      {
-        "source": "/tools/fake-check/**",
-        "destination": "/tools/fake-check/index.html"
-      },
-      {
-        "source": "/apps/fake-check/**",
-        "destination": "/apps/fake-check/index.html"
-      },
-      {
-        "source": "/privacy/fake-check/**",
-        "destination": "/privacy/fake-check/index.html"
-      },
-      {
-        "source": "/tools/jibun-torisetsu/**",
-        "destination": "/tools/jibun-torisetsu/index.html"
-      },
-      {
-        "source": "/apps/jibun-torisetsu/**",
-        "destination": "/apps/jibun-torisetsu/index.html"
-      },
-      {
-        "source": "/privacy/jibun-torisetsu/**",
-        "destination": "/privacy/jibun-torisetsu/index.html"
-      },
-      {
-        "source": "/tools/study-quest/**",
-        "destination": "/tools/study-quest/index.html"
-      },
-      {
-        "source": "/apps/study-quest/**",
-        "destination": "/apps/study-quest/index.html"
-      },
-      {
-        "source": "/privacy/study-quest/**",
-        "destination": "/privacy/study-quest/index.html"
-      },
-      {
-        "source": "/tools/bousai-plan/**",
-        "destination": "/tools/bousai-plan/index.html"
-      },
-      {
-        "source": "/apps/bousai-plan/**",
-        "destination": "/apps/bousai-plan/index.html"
-      },
-      {
-        "source": "/privacy/bousai-plan/**",
-        "destination": "/privacy/bousai-plan/index.html"
-      },
-      {
-        "source": "/tools/scam-guard/**",
-        "destination": "/tools/scam-guard/index.html"
-      },
-      {
-        "source": "/apps/scam-guard/**",
-        "destination": "/apps/scam-guard/index.html"
-      },
-      {
-        "source": "/privacy/scam-guard/**",
-        "destination": "/privacy/scam-guard/index.html"
-      },
-      {
-        "source": "/tools/japan-life-guide/**",
-        "destination": "/tools/japan-life-guide/index.html"
-      },
-      {
-        "source": "/apps/japan-life-guide/**",
-        "destination": "/apps/japan-life-guide/index.html"
-      },
-      {
-        "source": "/privacy/japan-life-guide/**",
-        "destination": "/privacy/japan-life-guide/index.html"
-      },
-      {
-        "source": "/tools/nlp-mindshift/**",
-        "destination": "/tools/nlp-mindshift/index.html"
-      },
-      {
-        "source": "/apps/nlp-mindshift/**",
-        "destination": "/apps/nlp-mindshift/index.html"
-      },
-      {
-        "source": "/privacy/nlp-mindshift/**",
-        "destination": "/privacy/nlp-mindshift/index.html"
-      },
-      {
-        "source": "/tools/habit-quit/**",
-        "destination": "/tools/habit-quit/index.html"
-      },
-      {
-        "source": "/apps/habit-quit/**",
-        "destination": "/apps/habit-quit/index.html"
-      },
-      {
-        "source": "/privacy/habit-quit/**",
-        "destination": "/privacy/habit-quit/index.html"
-      },
-      {
-        "source": "/tools/munashisa-note/**",
-        "destination": "/tools/munashisa-note/index.html"
-      },
-      {
-        "source": "/apps/munashisa-note/**",
-        "destination": "/apps/munashisa-note/index.html"
-      },
-      {
-        "source": "/privacy/munashisa-note/**",
-        "destination": "/privacy/munashisa-note/index.html"
-      },
-      {
-        "source": "/tools/stoicism/**",
-        "destination": "/tools/stoicism/index.html"
-      },
-      {
-        "source": "/apps/stoicism/**",
-        "destination": "/apps/stoicism/index.html"
-      },
-      {
-        "source": "/privacy/stoicism/**",
-        "destination": "/privacy/stoicism/index.html"
-      },
-      {
-        "source": "/tools/self-compassion/**",
-        "destination": "/tools/self-compassion/index.html"
-      },
-      {
-        "source": "/apps/self-compassion/**",
-        "destination": "/apps/self-compassion/index.html"
-      },
-      {
-        "source": "/privacy/self-compassion/**",
-        "destination": "/privacy/self-compassion/index.html"
-      },
-      {
-        "source": "/tools/yofukashi-quest/**",
-        "destination": "/tools/yofukashi-quest/index.html"
-      },
-      {
-        "source": "/apps/yofukashi-quest/**",
-        "destination": "/apps/yofukashi-quest/index.html"
-      },
-      {
-        "source": "/privacy/yofukashi-quest/**",
-        "destination": "/privacy/yofukashi-quest/index.html"
-      },
-      {
-        "source": "/tools/iiwake-stop/**",
-        "destination": "/tools/iiwake-stop/index.html"
-      },
-      {
-        "source": "/apps/iiwake-stop/**",
-        "destination": "/apps/iiwake-stop/index.html"
-      },
-      {
-        "source": "/privacy/iiwake-stop/**",
-        "destination": "/privacy/iiwake-stop/index.html"
-      },
-      {
-        "source": "/tools/choudogai-stop/**",
-        "destination": "/tools/choudogai-stop/index.html"
-      },
-      {
-        "source": "/apps/choudogai-stop/**",
-        "destination": "/apps/choudogai-stop/index.html"
-      },
-      {
-        "source": "/privacy/choudogai-stop/**",
-        "destination": "/privacy/choudogai-stop/index.html"
-      },
-      {
-        "source": "/tools/kanjou-reset/**",
-        "destination": "/tools/kanjou-reset/index.html"
-      },
-      {
-        "source": "/apps/kanjou-reset/**",
-        "destination": "/apps/kanjou-reset/index.html"
-      },
-      {
-        "source": "/privacy/kanjou-reset/**",
-        "destination": "/privacy/kanjou-reset/index.html"
-      },
-      {
-        "source": "/tools/muchu-switch/**",
-        "destination": "/tools/muchu-switch/index.html"
-      },
-      {
-        "source": "/apps/muchu-switch/**",
-        "destination": "/apps/muchu-switch/index.html"
-      },
-      {
-        "source": "/privacy/muchu-switch/**",
-        "destination": "/privacy/muchu-switch/index.html"
-      },
-      {
-        "source": "/tools/jibun-koe/**",
-        "destination": "/tools/jibun-koe/index.html"
-      },
-      {
-        "source": "/apps/jibun-koe/**",
-        "destination": "/apps/jibun-koe/index.html"
-      },
-      {
-        "source": "/privacy/jibun-koe/**",
-        "destination": "/privacy/jibun-koe/index.html"
-      },
-      {
-        "source": "/tools/shakitto-switch/**",
-        "destination": "/tools/shakitto-switch/index.html"
-      },
-      {
-        "source": "/apps/shakitto-switch/**",
-        "destination": "/apps/shakitto-switch/index.html"
-      },
-      {
-        "source": "/privacy/shakitto-switch/**",
-        "destination": "/privacy/shakitto-switch/index.html"
-      },
-      {
-        "source": "/tools/bunkai-note/**",
-        "destination": "/tools/bunkai-note/index.html"
-      },
-      {
-        "source": "/apps/bunkai-note/**",
-        "destination": "/apps/bunkai-note/index.html"
-      },
-      {
-        "source": "/privacy/bunkai-note/**",
-        "destination": "/privacy/bunkai-note/index.html"
-      },
-      {
-        "source": "/tools/procrastination-log/**",
-        "destination": "/tools/procrastination-log/index.html"
-      },
-      {
-        "source": "/apps/procrastination-log/**",
-        "destination": "/apps/procrastination-log/index.html"
-      },
-      {
-        "source": "/privacy/procrastination-log/**",
-        "destination": "/privacy/procrastination-log/index.html"
-      },
-      {
-        "source": "/tools/hanashikake-lab/**",
-        "destination": "/tools/hanashikake-lab/index.html"
-      },
-      {
-        "source": "/apps/hanashikake-lab/**",
-        "destination": "/apps/hanashikake-lab/index.html"
-      },
-      {
-        "source": "/privacy/hanashikake-lab/**",
-        "destination": "/privacy/hanashikake-lab/index.html"
-      },
-      {
-        "source": "/tools/kodo-challenge100/**",
-        "destination": "/tools/kodo-challenge100/index.html"
-      },
-      {
-        "source": "/apps/kodo-challenge100/**",
-        "destination": "/apps/kodo-challenge100/index.html"
-      },
-      {
-        "source": "/privacy/kodo-challenge100/**",
-        "destination": "/privacy/kodo-challenge100/index.html"
-      },
-      {
-        "source": "/tools/kininaru-memo/**",
-        "destination": "/tools/kininaru-memo/index.html"
-      },
-      {
-        "source": "/apps/kininaru-memo/**",
-        "destination": "/apps/kininaru-memo/index.html"
-      },
-      {
-        "source": "/privacy/kininaru-memo/**",
-        "destination": "/privacy/kininaru-memo/index.html"
-      },
-      {
-        "source": "/tools/curiosity-type/**",
-        "destination": "/tools/curiosity-type/index.html"
-      },
-      {
-        "source": "/apps/curiosity-type/**",
-        "destination": "/apps/curiosity-type/index.html"
-      },
-      {
-        "source": "/privacy/curiosity-type/**",
-        "destination": "/privacy/curiosity-type/index.html"
-      },
-      {
-        "source": "/tools/toikake-card/**",
-        "destination": "/tools/toikake-card/index.html"
-      },
-      {
-        "source": "/apps/toikake-card/**",
-        "destination": "/apps/toikake-card/index.html"
-      },
-      {
-        "source": "/privacy/toikake-card/**",
-        "destination": "/privacy/toikake-card/index.html"
-      },
-      {
-        "source": "/tools/dopagaki-reset/**",
-        "destination": "/tools/dopagaki-reset/index.html"
-      },
-      {
-        "source": "/apps/dopagaki-reset/**",
-        "destination": "/apps/dopagaki-reset/index.html"
-      },
-      {
-        "source": "/privacy/dopagaki-reset/**",
-        "destination": "/privacy/dopagaki-reset/index.html"
-      },
-      {
-        "source": "/tools/shoudou-surf/**",
-        "destination": "/tools/shoudou-surf/index.html"
-      },
-      {
-        "source": "/apps/shoudou-surf/**",
-        "destination": "/apps/shoudou-surf/index.html"
-      },
-      {
-        "source": "/privacy/shoudou-surf/**",
-        "destination": "/privacy/shoudou-surf/index.html"
-      },
-      {
-        "source": "/tools/mirai-kakei-note/**",
-        "destination": "/tools/mirai-kakei-note/index.html"
-      },
-      {
-        "source": "/apps/mirai-kakei-note/**",
-        "destination": "/apps/mirai-kakei-note/index.html"
-      },
-      {
-        "source": "/privacy/mirai-kakei-note/**",
-        "destination": "/privacy/mirai-kakei-note/index.html"
-      },
-      {
-        "source": "/tools/hikaku-tomeru/**",
-        "destination": "/tools/hikaku-tomeru/index.html"
-      },
-      {
-        "source": "/apps/hikaku-tomeru/**",
-        "destination": "/apps/hikaku-tomeru/index.html"
-      },
-      {
-        "source": "/privacy/hikaku-tomeru/**",
-        "destination": "/privacy/hikaku-tomeru/index.html"
-      },
-      {
-        "source": "/tools/teishutsu-switch/**",
-        "destination": "/tools/teishutsu-switch/index.html"
-      },
-      {
-        "source": "/apps/teishutsu-switch/**",
-        "destination": "/apps/teishutsu-switch/index.html"
-      },
-      {
-        "source": "/privacy/teishutsu-switch/**",
-        "destination": "/privacy/teishutsu-switch/index.html"
-      },
-      {
-        "source": "/tools/gofun-switch/**",
-        "destination": "/tools/gofun-switch/index.html"
-      },
-      {
-        "source": "/apps/gofun-switch/**",
-        "destination": "/apps/gofun-switch/index.html"
-      },
-      {
-        "source": "/privacy/gofun-switch/**",
-        "destination": "/privacy/gofun-switch/index.html"
-      },
-      {
-        "source": "/tools/chakuchi-note/**",
-        "destination": "/tools/chakuchi-note/index.html"
-      },
-      {
-        "source": "/apps/chakuchi-note/**",
-        "destination": "/apps/chakuchi-note/index.html"
-      },
-      {
-        "source": "/privacy/chakuchi-note/**",
-        "destination": "/privacy/chakuchi-note/index.html"
-      },
-      {
-        "source": "/tools/kincho-stop/**",
-        "destination": "/tools/kincho-stop/index.html"
-      },
-      {
-        "source": "/apps/kincho-stop/**",
-        "destination": "/apps/kincho-stop/index.html"
-      },
-      {
-        "source": "/privacy/kincho-stop/**",
-        "destination": "/privacy/kincho-stop/index.html"
-      },
-      {
-        "source": "/tools/dopamine-detox/**",
-        "destination": "/tools/dopamine-detox/index.html"
-      },
-      {
-        "source": "/apps/dopamine-detox/**",
-        "destination": "/apps/dopamine-detox/index.html"
-      },
-      {
-        "source": "/privacy/dopamine-detox/**",
-        "destination": "/privacy/dopamine-detox/index.html"
-      },
-      {
-        "source": "/tools/tebanashi-note/**",
-        "destination": "/tools/tebanashi-note/index.html"
-      },
-      {
-        "source": "/apps/tebanashi-note/**",
-        "destination": "/apps/tebanashi-note/index.html"
-      },
-      {
-        "source": "/privacy/tebanashi-note/**",
-        "destination": "/privacy/tebanashi-note/index.html"
-      },
-      {
-        "source": "/tools/honshitsu-type/**",
-        "destination": "/tools/honshitsu-type/index.html"
-      },
-      {
-        "source": "/apps/honshitsu-type/**",
-        "destination": "/apps/honshitsu-type/index.html"
-      },
-      {
-        "source": "/privacy/honshitsu-type/**",
-        "destination": "/privacy/honshitsu-type/index.html"
-      },
-      {
-        "source": "/tools/hitokoto-eigocho/**",
-        "destination": "/tools/hitokoto-eigocho/index.html"
-      },
-      {
-        "source": "/apps/hitokoto-eigocho/**",
-        "destination": "/apps/hitokoto-eigocho/index.html"
-      },
-      {
-        "source": "/privacy/hitokoto-eigocho/**",
-        "destination": "/privacy/hitokoto-eigocho/index.html"
-      },
-      {
-        "source": "/tools/life-map/**",
-        "destination": "/tools/life-map/index.html"
-      },
-      {
-        "source": "/apps/life-map/**",
-        "destination": "/apps/life-map/index.html"
-      },
-      {
-        "source": "/privacy/life-map/**",
-        "destination": "/privacy/life-map/index.html"
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ],
-    "headers": [
-      {
-        "source": "/index.html",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/apps/boueki/index.html",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/apps/boueki/flutter_service_worker.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/apps/boueki/flutter_bootstrap.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/apps/boueki/flutter.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/apps/boueki/main.dart.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/apps/boueki/version.json",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/flutter_service_worker.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/flutter_bootstrap.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/flutter.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/main.dart.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "/version.json",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      },
-      {
-        "source": "**/*.@(png|jpg|jpeg|gif|webp|svg|ico)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=86400"
-          }
-        ]
-      },
-      {
-        "source": "/sitemap.xml",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=86400"
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/xml; charset=utf-8"
-          }
-        ]
-      },
-      {
-        "source": "**",
-        "headers": [
-          {
-            "key": "X-Content-Type-Options",
-            "value": "nosniff"
-          },
-          {
-            "key": "X-Frame-Options",
-            "value": "SAMEORIGIN"
-          },
-          {
-            "key": "Referrer-Policy",
-            "value": "strict-origin-when-cross-origin"
-          },
-          {
-            "key": "Permissions-Policy",
-            "value": "camera=(), microphone=(), geolocation=()"
-          }
-        ]
-      }
-    ]
-  }
+  "hosting": [
+    {
+      "public": "p",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/lifeisrpg/**",
+          "destination": "/lifeisrpg/index.html"
+        },
+        {
+          "source": "/kao_type_diag/**",
+          "destination": "/kao_type_diag/index.html"
+        },
+        {
+          "source": "/toite/**",
+          "destination": "/toite/index.html"
+        },
+        {
+          "source": "/focus-dice/**",
+          "destination": "/focus-dice/index.html"
+        },
+        {
+          "source": "/rakuraku/**",
+          "destination": "/rakuraku/index.html"
+        },
+        {
+          "source": "/boueki-hub/kentei/**",
+          "destination": "/boueki-hub/kentei/index.html"
+        },
+        {
+          "source": "/boueki-hub/jitsumu-word/**",
+          "destination": "/boueki-hub/jitsumu-word/index.html"
+        },
+        {
+          "source": "/boueki-hub/srs/**",
+          "destination": "/boueki-hub/srs/index.html"
+        },
+        {
+          "source": "/boueki-hub/english-word/**",
+          "destination": "/boueki-hub/english-word/index.html"
+        },
+        {
+          "source": "/boueki-hub/**",
+          "destination": "/boueki-hub/index.html"
+        },
+        {
+          "source": "/boueki/**",
+          "destination": "/boueki/index.html"
+        },
+        {
+          "source": "/drone/anki/**",
+          "destination": "/drone/anki/index.html"
+        },
+        {
+          "source": "/jinsei_pyramid/**",
+          "destination": "/jinsei_pyramid/index.html"
+        },
+        {
+          "source": "/apps/line-honne-scan/**",
+          "destination": "/apps/line-honne-scan/index.html"
+        },
+        {
+          "source": "/privacy/line-honne-scan/**",
+          "destination": "/privacy/line-honne-scan/index.html"
+        },
+        {
+          "source": "/tools/omikuji-zodiac/**",
+          "destination": "/tools/omikuji-zodiac/index.html"
+        },
+        {
+          "source": "/apps/omikuji-zodiac/**",
+          "destination": "/apps/omikuji-zodiac/index.html"
+        },
+        {
+          "source": "/privacy/omikuji-zodiac/**",
+          "destination": "/privacy/omikuji-zodiac/index.html"
+        },
+        {
+          "source": "/tools/yokai-mirror/**",
+          "destination": "/tools/yokai-mirror/index.html"
+        },
+        {
+          "source": "/apps/yokai-mirror/**",
+          "destination": "/apps/yokai-mirror/index.html"
+        },
+        {
+          "source": "/privacy/yokai-mirror/**",
+          "destination": "/privacy/yokai-mirror/index.html"
+        },
+        {
+          "source": "/tools/yumetoki/**",
+          "destination": "/tools/yumetoki/index.html"
+        },
+        {
+          "source": "/apps/yumetoki/**",
+          "destination": "/apps/yumetoki/index.html"
+        },
+        {
+          "source": "/privacy/yumetoki/**",
+          "destination": "/privacy/yumetoki/index.html"
+        },
+        {
+          "source": "/tools/mbti-compass/**",
+          "destination": "/tools/mbti-compass/index.html"
+        },
+        {
+          "source": "/apps/mbti-compass/**",
+          "destination": "/apps/mbti-compass/index.html"
+        },
+        {
+          "source": "/privacy/mbti-compass/**",
+          "destination": "/privacy/mbti-compass/index.html"
+        },
+        {
+          "source": "/tools/hsp-relationship-check/**",
+          "destination": "/tools/hsp-relationship-check/index.html"
+        },
+        {
+          "source": "/apps/hsp-relationship-check/**",
+          "destination": "/apps/hsp-relationship-check/index.html"
+        },
+        {
+          "source": "/privacy/hsp-relationship-check/**",
+          "destination": "/privacy/hsp-relationship-check/index.html"
+        },
+        {
+          "source": "/tools/cognitive-bias-guide/**",
+          "destination": "/tools/cognitive-bias-guide/index.html"
+        },
+        {
+          "source": "/apps/cognitive-bias-guide/**",
+          "destination": "/apps/cognitive-bias-guide/index.html"
+        },
+        {
+          "source": "/privacy/cognitive-bias-guide/**",
+          "destination": "/privacy/cognitive-bias-guide/index.html"
+        },
+        {
+          "source": "/tools/kanyou-shindan/**",
+          "destination": "/tools/kanyou-shindan/index.html"
+        },
+        {
+          "source": "/apps/kanyou-shindan/**",
+          "destination": "/apps/kanyou-shindan/index.html"
+        },
+        {
+          "source": "/privacy/kanyou-shindan/**",
+          "destination": "/privacy/kanyou-shindan/index.html"
+        },
+        {
+          "source": "/tools/fbi-bodylanguage/**",
+          "destination": "/tools/fbi-bodylanguage/index.html"
+        },
+        {
+          "source": "/apps/fbi-bodylanguage/**",
+          "destination": "/apps/fbi-bodylanguage/index.html"
+        },
+        {
+          "source": "/privacy/fbi-bodylanguage/**",
+          "destination": "/privacy/fbi-bodylanguage/index.html"
+        },
+        {
+          "source": "/tools/procrastination-type/**",
+          "destination": "/tools/procrastination-type/index.html"
+        },
+        {
+          "source": "/apps/procrastination-type/**",
+          "destination": "/apps/procrastination-type/index.html"
+        },
+        {
+          "source": "/privacy/procrastination-type/**",
+          "destination": "/privacy/procrastination-type/index.html"
+        },
+        {
+          "source": "/tools/holmes-deduction/**",
+          "destination": "/tools/holmes-deduction/index.html"
+        },
+        {
+          "source": "/apps/holmes-deduction/**",
+          "destination": "/apps/holmes-deduction/index.html"
+        },
+        {
+          "source": "/privacy/holmes-deduction/**",
+          "destination": "/privacy/holmes-deduction/index.html"
+        },
+        {
+          "source": "/tools/yaritai-100/**",
+          "destination": "/tools/yaritai-100/index.html"
+        },
+        {
+          "source": "/apps/yaritai-100/**",
+          "destination": "/apps/yaritai-100/index.html"
+        },
+        {
+          "source": "/privacy/yaritai-100/**",
+          "destination": "/privacy/yaritai-100/index.html"
+        },
+        {
+          "source": "/tools/attachment-style/**",
+          "destination": "/tools/attachment-style/index.html"
+        },
+        {
+          "source": "/apps/attachment-style/**",
+          "destination": "/apps/attachment-style/index.html"
+        },
+        {
+          "source": "/privacy/attachment-style/**",
+          "destination": "/privacy/attachment-style/index.html"
+        },
+        {
+          "source": "/tools/enneagram/**",
+          "destination": "/tools/enneagram/index.html"
+        },
+        {
+          "source": "/apps/enneagram/**",
+          "destination": "/apps/enneagram/index.html"
+        },
+        {
+          "source": "/privacy/enneagram/**",
+          "destination": "/privacy/enneagram/index.html"
+        },
+        {
+          "source": "/tools/trauma-response-type/**",
+          "destination": "/tools/trauma-response-type/index.html"
+        },
+        {
+          "source": "/apps/trauma-response-type/**",
+          "destination": "/apps/trauma-response-type/index.html"
+        },
+        {
+          "source": "/privacy/trauma-response-type/**",
+          "destination": "/privacy/trauma-response-type/index.html"
+        },
+        {
+          "source": "/tools/coping-type/**",
+          "destination": "/tools/coping-type/index.html"
+        },
+        {
+          "source": "/apps/coping-type/**",
+          "destination": "/apps/coping-type/index.html"
+        },
+        {
+          "source": "/privacy/coping-type/**",
+          "destination": "/privacy/coping-type/index.html"
+        },
+        {
+          "source": "/tools/perfectionism-type/**",
+          "destination": "/tools/perfectionism-type/index.html"
+        },
+        {
+          "source": "/apps/perfectionism-type/**",
+          "destination": "/apps/perfectionism-type/index.html"
+        },
+        {
+          "source": "/privacy/perfectionism-type/**",
+          "destination": "/privacy/perfectionism-type/index.html"
+        },
+        {
+          "source": "/tools/approval-type/**",
+          "destination": "/tools/approval-type/index.html"
+        },
+        {
+          "source": "/apps/approval-type/**",
+          "destination": "/apps/approval-type/index.html"
+        },
+        {
+          "source": "/privacy/approval-type/**",
+          "destination": "/privacy/approval-type/index.html"
+        },
+        {
+          "source": "/tools/self-esteem-type/**",
+          "destination": "/tools/self-esteem-type/index.html"
+        },
+        {
+          "source": "/apps/self-esteem-type/**",
+          "destination": "/apps/self-esteem-type/index.html"
+        },
+        {
+          "source": "/privacy/self-esteem-type/**",
+          "destination": "/privacy/self-esteem-type/index.html"
+        },
+        {
+          "source": "/tools/coffee-taste/**",
+          "destination": "/tools/coffee-taste/index.html"
+        },
+        {
+          "source": "/apps/coffee-taste/**",
+          "destination": "/apps/coffee-taste/index.html"
+        },
+        {
+          "source": "/privacy/coffee-taste/**",
+          "destination": "/privacy/coffee-taste/index.html"
+        },
+        {
+          "source": "/tools/mood-forecast/**",
+          "destination": "/tools/mood-forecast/index.html"
+        },
+        {
+          "source": "/apps/mood-forecast/**",
+          "destination": "/apps/mood-forecast/index.html"
+        },
+        {
+          "source": "/privacy/mood-forecast/**",
+          "destination": "/privacy/mood-forecast/index.html"
+        },
+        {
+          "source": "/tools/jikka-jimai/**",
+          "destination": "/tools/jikka-jimai/index.html"
+        },
+        {
+          "source": "/apps/jikka-jimai/**",
+          "destination": "/apps/jikka-jimai/index.html"
+        },
+        {
+          "source": "/privacy/jikka-jimai/**",
+          "destination": "/privacy/jikka-jimai/index.html"
+        },
+        {
+          "source": "/tools/hitori-time/**",
+          "destination": "/tools/hitori-time/index.html"
+        },
+        {
+          "source": "/apps/hitori-time/**",
+          "destination": "/apps/hitori-time/index.html"
+        },
+        {
+          "source": "/privacy/hitori-time/**",
+          "destination": "/privacy/hitori-time/index.html"
+        },
+        {
+          "source": "/tools/fake-check/**",
+          "destination": "/tools/fake-check/index.html"
+        },
+        {
+          "source": "/apps/fake-check/**",
+          "destination": "/apps/fake-check/index.html"
+        },
+        {
+          "source": "/privacy/fake-check/**",
+          "destination": "/privacy/fake-check/index.html"
+        },
+        {
+          "source": "/tools/jibun-torisetsu/**",
+          "destination": "/tools/jibun-torisetsu/index.html"
+        },
+        {
+          "source": "/apps/jibun-torisetsu/**",
+          "destination": "/apps/jibun-torisetsu/index.html"
+        },
+        {
+          "source": "/privacy/jibun-torisetsu/**",
+          "destination": "/privacy/jibun-torisetsu/index.html"
+        },
+        {
+          "source": "/tools/study-quest/**",
+          "destination": "/tools/study-quest/index.html"
+        },
+        {
+          "source": "/apps/study-quest/**",
+          "destination": "/apps/study-quest/index.html"
+        },
+        {
+          "source": "/privacy/study-quest/**",
+          "destination": "/privacy/study-quest/index.html"
+        },
+        {
+          "source": "/tools/bousai-plan/**",
+          "destination": "/tools/bousai-plan/index.html"
+        },
+        {
+          "source": "/apps/bousai-plan/**",
+          "destination": "/apps/bousai-plan/index.html"
+        },
+        {
+          "source": "/privacy/bousai-plan/**",
+          "destination": "/privacy/bousai-plan/index.html"
+        },
+        {
+          "source": "/tools/scam-guard/**",
+          "destination": "/tools/scam-guard/index.html"
+        },
+        {
+          "source": "/apps/scam-guard/**",
+          "destination": "/apps/scam-guard/index.html"
+        },
+        {
+          "source": "/privacy/scam-guard/**",
+          "destination": "/privacy/scam-guard/index.html"
+        },
+        {
+          "source": "/tools/japan-life-guide/**",
+          "destination": "/tools/japan-life-guide/index.html"
+        },
+        {
+          "source": "/apps/japan-life-guide/**",
+          "destination": "/apps/japan-life-guide/index.html"
+        },
+        {
+          "source": "/privacy/japan-life-guide/**",
+          "destination": "/privacy/japan-life-guide/index.html"
+        },
+        {
+          "source": "/tools/nlp-mindshift/**",
+          "destination": "/tools/nlp-mindshift/index.html"
+        },
+        {
+          "source": "/apps/nlp-mindshift/**",
+          "destination": "/apps/nlp-mindshift/index.html"
+        },
+        {
+          "source": "/privacy/nlp-mindshift/**",
+          "destination": "/privacy/nlp-mindshift/index.html"
+        },
+        {
+          "source": "/tools/habit-quit/**",
+          "destination": "/tools/habit-quit/index.html"
+        },
+        {
+          "source": "/apps/habit-quit/**",
+          "destination": "/apps/habit-quit/index.html"
+        },
+        {
+          "source": "/privacy/habit-quit/**",
+          "destination": "/privacy/habit-quit/index.html"
+        },
+        {
+          "source": "/tools/munashisa-note/**",
+          "destination": "/tools/munashisa-note/index.html"
+        },
+        {
+          "source": "/apps/munashisa-note/**",
+          "destination": "/apps/munashisa-note/index.html"
+        },
+        {
+          "source": "/privacy/munashisa-note/**",
+          "destination": "/privacy/munashisa-note/index.html"
+        },
+        {
+          "source": "/tools/stoicism/**",
+          "destination": "/tools/stoicism/index.html"
+        },
+        {
+          "source": "/apps/stoicism/**",
+          "destination": "/apps/stoicism/index.html"
+        },
+        {
+          "source": "/privacy/stoicism/**",
+          "destination": "/privacy/stoicism/index.html"
+        },
+        {
+          "source": "/tools/self-compassion/**",
+          "destination": "/tools/self-compassion/index.html"
+        },
+        {
+          "source": "/apps/self-compassion/**",
+          "destination": "/apps/self-compassion/index.html"
+        },
+        {
+          "source": "/privacy/self-compassion/**",
+          "destination": "/privacy/self-compassion/index.html"
+        },
+        {
+          "source": "/tools/yofukashi-quest/**",
+          "destination": "/tools/yofukashi-quest/index.html"
+        },
+        {
+          "source": "/apps/yofukashi-quest/**",
+          "destination": "/apps/yofukashi-quest/index.html"
+        },
+        {
+          "source": "/privacy/yofukashi-quest/**",
+          "destination": "/privacy/yofukashi-quest/index.html"
+        },
+        {
+          "source": "/tools/iiwake-stop/**",
+          "destination": "/tools/iiwake-stop/index.html"
+        },
+        {
+          "source": "/apps/iiwake-stop/**",
+          "destination": "/apps/iiwake-stop/index.html"
+        },
+        {
+          "source": "/privacy/iiwake-stop/**",
+          "destination": "/privacy/iiwake-stop/index.html"
+        },
+        {
+          "source": "/tools/choudogai-stop/**",
+          "destination": "/tools/choudogai-stop/index.html"
+        },
+        {
+          "source": "/apps/choudogai-stop/**",
+          "destination": "/apps/choudogai-stop/index.html"
+        },
+        {
+          "source": "/privacy/choudogai-stop/**",
+          "destination": "/privacy/choudogai-stop/index.html"
+        },
+        {
+          "source": "/tools/kanjou-reset/**",
+          "destination": "/tools/kanjou-reset/index.html"
+        },
+        {
+          "source": "/apps/kanjou-reset/**",
+          "destination": "/apps/kanjou-reset/index.html"
+        },
+        {
+          "source": "/privacy/kanjou-reset/**",
+          "destination": "/privacy/kanjou-reset/index.html"
+        },
+        {
+          "source": "/tools/muchu-switch/**",
+          "destination": "/tools/muchu-switch/index.html"
+        },
+        {
+          "source": "/apps/muchu-switch/**",
+          "destination": "/apps/muchu-switch/index.html"
+        },
+        {
+          "source": "/privacy/muchu-switch/**",
+          "destination": "/privacy/muchu-switch/index.html"
+        },
+        {
+          "source": "/tools/jibun-koe/**",
+          "destination": "/tools/jibun-koe/index.html"
+        },
+        {
+          "source": "/apps/jibun-koe/**",
+          "destination": "/apps/jibun-koe/index.html"
+        },
+        {
+          "source": "/privacy/jibun-koe/**",
+          "destination": "/privacy/jibun-koe/index.html"
+        },
+        {
+          "source": "/tools/shakitto-switch/**",
+          "destination": "/tools/shakitto-switch/index.html"
+        },
+        {
+          "source": "/apps/shakitto-switch/**",
+          "destination": "/apps/shakitto-switch/index.html"
+        },
+        {
+          "source": "/privacy/shakitto-switch/**",
+          "destination": "/privacy/shakitto-switch/index.html"
+        },
+        {
+          "source": "/tools/bunkai-note/**",
+          "destination": "/tools/bunkai-note/index.html"
+        },
+        {
+          "source": "/apps/bunkai-note/**",
+          "destination": "/apps/bunkai-note/index.html"
+        },
+        {
+          "source": "/privacy/bunkai-note/**",
+          "destination": "/privacy/bunkai-note/index.html"
+        },
+        {
+          "source": "/tools/procrastination-log/**",
+          "destination": "/tools/procrastination-log/index.html"
+        },
+        {
+          "source": "/apps/procrastination-log/**",
+          "destination": "/apps/procrastination-log/index.html"
+        },
+        {
+          "source": "/privacy/procrastination-log/**",
+          "destination": "/privacy/procrastination-log/index.html"
+        },
+        {
+          "source": "/tools/hanashikake-lab/**",
+          "destination": "/tools/hanashikake-lab/index.html"
+        },
+        {
+          "source": "/apps/hanashikake-lab/**",
+          "destination": "/apps/hanashikake-lab/index.html"
+        },
+        {
+          "source": "/privacy/hanashikake-lab/**",
+          "destination": "/privacy/hanashikake-lab/index.html"
+        },
+        {
+          "source": "/tools/kodo-challenge100/**",
+          "destination": "/tools/kodo-challenge100/index.html"
+        },
+        {
+          "source": "/apps/kodo-challenge100/**",
+          "destination": "/apps/kodo-challenge100/index.html"
+        },
+        {
+          "source": "/privacy/kodo-challenge100/**",
+          "destination": "/privacy/kodo-challenge100/index.html"
+        },
+        {
+          "source": "/tools/kininaru-memo/**",
+          "destination": "/tools/kininaru-memo/index.html"
+        },
+        {
+          "source": "/apps/kininaru-memo/**",
+          "destination": "/apps/kininaru-memo/index.html"
+        },
+        {
+          "source": "/privacy/kininaru-memo/**",
+          "destination": "/privacy/kininaru-memo/index.html"
+        },
+        {
+          "source": "/tools/curiosity-type/**",
+          "destination": "/tools/curiosity-type/index.html"
+        },
+        {
+          "source": "/apps/curiosity-type/**",
+          "destination": "/apps/curiosity-type/index.html"
+        },
+        {
+          "source": "/privacy/curiosity-type/**",
+          "destination": "/privacy/curiosity-type/index.html"
+        },
+        {
+          "source": "/tools/toikake-card/**",
+          "destination": "/tools/toikake-card/index.html"
+        },
+        {
+          "source": "/apps/toikake-card/**",
+          "destination": "/apps/toikake-card/index.html"
+        },
+        {
+          "source": "/privacy/toikake-card/**",
+          "destination": "/privacy/toikake-card/index.html"
+        },
+        {
+          "source": "/tools/dopagaki-reset/**",
+          "destination": "/tools/dopagaki-reset/index.html"
+        },
+        {
+          "source": "/apps/dopagaki-reset/**",
+          "destination": "/apps/dopagaki-reset/index.html"
+        },
+        {
+          "source": "/privacy/dopagaki-reset/**",
+          "destination": "/privacy/dopagaki-reset/index.html"
+        },
+        {
+          "source": "/tools/shoudou-surf/**",
+          "destination": "/tools/shoudou-surf/index.html"
+        },
+        {
+          "source": "/apps/shoudou-surf/**",
+          "destination": "/apps/shoudou-surf/index.html"
+        },
+        {
+          "source": "/privacy/shoudou-surf/**",
+          "destination": "/privacy/shoudou-surf/index.html"
+        },
+        {
+          "source": "/tools/mirai-kakei-note/**",
+          "destination": "/tools/mirai-kakei-note/index.html"
+        },
+        {
+          "source": "/apps/mirai-kakei-note/**",
+          "destination": "/apps/mirai-kakei-note/index.html"
+        },
+        {
+          "source": "/privacy/mirai-kakei-note/**",
+          "destination": "/privacy/mirai-kakei-note/index.html"
+        },
+        {
+          "source": "/tools/hikaku-tomeru/**",
+          "destination": "/tools/hikaku-tomeru/index.html"
+        },
+        {
+          "source": "/apps/hikaku-tomeru/**",
+          "destination": "/apps/hikaku-tomeru/index.html"
+        },
+        {
+          "source": "/privacy/hikaku-tomeru/**",
+          "destination": "/privacy/hikaku-tomeru/index.html"
+        },
+        {
+          "source": "/tools/teishutsu-switch/**",
+          "destination": "/tools/teishutsu-switch/index.html"
+        },
+        {
+          "source": "/apps/teishutsu-switch/**",
+          "destination": "/apps/teishutsu-switch/index.html"
+        },
+        {
+          "source": "/privacy/teishutsu-switch/**",
+          "destination": "/privacy/teishutsu-switch/index.html"
+        },
+        {
+          "source": "/tools/gofun-switch/**",
+          "destination": "/tools/gofun-switch/index.html"
+        },
+        {
+          "source": "/apps/gofun-switch/**",
+          "destination": "/apps/gofun-switch/index.html"
+        },
+        {
+          "source": "/privacy/gofun-switch/**",
+          "destination": "/privacy/gofun-switch/index.html"
+        },
+        {
+          "source": "/tools/chakuchi-note/**",
+          "destination": "/tools/chakuchi-note/index.html"
+        },
+        {
+          "source": "/apps/chakuchi-note/**",
+          "destination": "/apps/chakuchi-note/index.html"
+        },
+        {
+          "source": "/privacy/chakuchi-note/**",
+          "destination": "/privacy/chakuchi-note/index.html"
+        },
+        {
+          "source": "/tools/kincho-stop/**",
+          "destination": "/tools/kincho-stop/index.html"
+        },
+        {
+          "source": "/apps/kincho-stop/**",
+          "destination": "/apps/kincho-stop/index.html"
+        },
+        {
+          "source": "/privacy/kincho-stop/**",
+          "destination": "/privacy/kincho-stop/index.html"
+        },
+        {
+          "source": "/tools/dopamine-detox/**",
+          "destination": "/tools/dopamine-detox/index.html"
+        },
+        {
+          "source": "/apps/dopamine-detox/**",
+          "destination": "/apps/dopamine-detox/index.html"
+        },
+        {
+          "source": "/privacy/dopamine-detox/**",
+          "destination": "/privacy/dopamine-detox/index.html"
+        },
+        {
+          "source": "/tools/tebanashi-note/**",
+          "destination": "/tools/tebanashi-note/index.html"
+        },
+        {
+          "source": "/apps/tebanashi-note/**",
+          "destination": "/apps/tebanashi-note/index.html"
+        },
+        {
+          "source": "/privacy/tebanashi-note/**",
+          "destination": "/privacy/tebanashi-note/index.html"
+        },
+        {
+          "source": "/tools/honshitsu-type/**",
+          "destination": "/tools/honshitsu-type/index.html"
+        },
+        {
+          "source": "/apps/honshitsu-type/**",
+          "destination": "/apps/honshitsu-type/index.html"
+        },
+        {
+          "source": "/privacy/honshitsu-type/**",
+          "destination": "/privacy/honshitsu-type/index.html"
+        },
+        {
+          "source": "/tools/hitokoto-eigocho/**",
+          "destination": "/tools/hitokoto-eigocho/index.html"
+        },
+        {
+          "source": "/apps/hitokoto-eigocho/**",
+          "destination": "/apps/hitokoto-eigocho/index.html"
+        },
+        {
+          "source": "/privacy/hitokoto-eigocho/**",
+          "destination": "/privacy/hitokoto-eigocho/index.html"
+        },
+        {
+          "source": "/tools/life-map/**",
+          "destination": "/tools/life-map/index.html"
+        },
+        {
+          "source": "/apps/life-map/**",
+          "destination": "/apps/life-map/index.html"
+        },
+        {
+          "source": "/privacy/life-map/**",
+          "destination": "/privacy/life-map/index.html"
+        },
+        {
+          "source": "/tools/dokugaku-schedule/**",
+          "destination": "/tools/dokugaku-schedule/index.html"
+        },
+        {
+          "source": "/apps/dokugaku-schedule/**",
+          "destination": "/apps/dokugaku-schedule/index.html"
+        },
+        {
+          "source": "/privacy/dokugaku-schedule/**",
+          "destination": "/privacy/dokugaku-schedule/index.html"
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/apps/boueki/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/apps/boueki/flutter_service_worker.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/apps/boueki/flutter_bootstrap.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/apps/boueki/flutter.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/apps/boueki/main.dart.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/apps/boueki/version.json",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/flutter_service_worker.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/flutter_bootstrap.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/flutter.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/main.dart.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/version.json",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(png|jpg|jpeg|gif|webp|svg|ico)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=86400"
+            }
+          ]
+        },
+        {
+          "source": "/sitemap.xml",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=86400"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/xml; charset=utf-8"
+            }
+          ]
+        },
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "Permissions-Policy",
+              "value": "camera=(), microphone=(), geolocation=()"
+            }
+          ]
+        },
+        {
+          "source": "/boueki/**",
+          "headers": [
+            {
+              "key": "Content-Security-Policy",
+              "value": "frame-ancestors 'self' https://boueki.seadice.win"
+            }
+          ]
+        }
+      ],
+      "target": "main"
+    },
+    {
+      "target": "boueki-dojo",
+      "public": "boueki-dojo",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "headers": [
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
