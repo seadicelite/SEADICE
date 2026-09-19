@@ -718,6 +718,9 @@
         "source": "/privacy/ninchi-kunren-quest100/**",
         "destination": "/privacy/ninchi-kunren-quest100/index.html"
       },
+      {"source": "/tools/eki-melody/**", "destination": "/tools/eki-melody/index.html"},
+      {"source": "/apps/eki-melody/**", "destination": "/apps/eki-melody/index.html"},
+      {"source": "/privacy/eki-melody/**", "destination": "/privacy/eki-melody/index.html"},
       {
         "source": "**",
         "destination": "/index.html"
