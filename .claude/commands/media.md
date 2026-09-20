@@ -15,7 +15,7 @@ argument-hint: <slug 例: research> [--draft] [トピック]
 4. 記事を `postsPerRun` 本作る（確認不要）。出典を確認できないトピックは捨てて次へ。
 5. 配線と写真（スクリプトで行う。一覧やsitemapを手で編集しない）:
    - `media/{slug}-posts.json` の先頭に `{"slug","category"(設定のcategoriesから),"date","title","summary"(60字前後)}` を1件追加する。
-   - 写真: `python3 media/photo.py {slug} {記事slug} "<英語の検索語 2〜4語>"` を1回だけ実行する（環境変数 `UNSPLASH_ACCESS_KEY` が無い・失敗した場合はスクリプトが自動で何もしない。写真なしで続行してよい。リトライ・複数回検索は禁止）。
+   - 写真（Wikimedia Commons。キー不要）: `python3 media/photo.py {slug} {記事slug} "<英語の検索語 2〜4語>"` を1回だけ実行する。検索語は「物・場所・道具」に寄せる（例: "bedroom bed pillow"。"person" 等の人物語は避ける）。自由ライセンスのJPEGだけを採用し、センシティブな内容は自動除外され、撮影者・ライセンスが記事に自動表示される。候補なし・失敗時は写真なしで続行してよい。リトライ・複数回検索は禁止。
    - `python3 media/build.py {slug}` で一覧ページとsitemapを再生成する。
 6. **公開前の自己検査（人の目が無い前提。1つでも落ちたらその記事は公開せず破棄して次のトピックへ）**:
    - 記事内の全出典URLを WebFetch し直し、記事の数値・主張が出典本文に書かれていることを1件ずつ照合した。

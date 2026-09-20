@@ -18,6 +18,8 @@ FALLBACK = ("other", "#64748b", "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z")
 
 
 def img_url(i, w, h):
+    if "src" in i:  # Wikimedia Commons(表示用サムネイルURL)
+        return i["src640"] if w <= 640 else i["src"]
     return f"{i['raw']}&w={w}&h={h}&fit=crop&q=70&fm=webp"
 
 
@@ -92,7 +94,7 @@ def build(slug):
 
   {secs}
 
-  <div class="about"><strong>このメディアについて</strong><br>記事はAIが公開された研究論文や公的機関の資料を調べ、出典の内容を確認して作成しています。SEADICEが独自に実験したものではありません。各記事の末尾に出典を掲載しています。写真は <a href="https://unsplash.com/?utm_source=seadice_research&amp;utm_medium=referral" style="color:#7dd3fc" target="_blank" rel="noopener">Unsplash</a> の提供です。</div>
+  <div class="about"><strong>このメディアについて</strong><br>記事はAIが公開された研究論文や公的機関の資料を調べ、出典の内容を確認して作成しています。SEADICEが独自に実験したものではありません。各記事の末尾に出典を掲載しています。写真は <a href="https://commons.wikimedia.org/" style="color:#7dd3fc" target="_blank" rel="noopener">Wikimedia Commons</a> の自由ライセンス素材で、各記事に撮影者とライセンスを表示しています。</div>
 </main>
 <footer><p><a href="/">HOME</a> &nbsp;|&nbsp; <a href="/apps/">アプリ一覧</a> &nbsp;|&nbsp; &copy; SEADICE</p></footer>
 </body>

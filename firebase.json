@@ -731,6 +731,54 @@
         "destination": "/privacy/jizo-wayfarer/index.html"
       },
       {
+        "source": "/tools/kendama-trick/**",
+        "destination": "/tools/kendama-trick/index.html"
+      },
+      {
+        "source": "/apps/kendama-trick/**",
+        "destination": "/apps/kendama-trick/index.html"
+      },
+      {
+        "source": "/privacy/kendama-trick/**",
+        "destination": "/privacy/kendama-trick/index.html"
+      },
+      {
+        "source": "/tools/nigate-kamoku-jiten/**",
+        "destination": "/tools/nigate-kamoku-jiten/index.html"
+      },
+      {
+        "source": "/apps/nigate-kamoku-jiten/**",
+        "destination": "/apps/nigate-kamoku-jiten/index.html"
+      },
+      {
+        "source": "/privacy/nigate-kamoku-jiten/**",
+        "destination": "/privacy/nigate-kamoku-jiten/index.html"
+      },
+      {
+        "source": "/tools/futoko-hogosha-soudan-chat/**",
+        "destination": "/tools/futoko-hogosha-soudan-chat/index.html"
+      },
+      {
+        "source": "/apps/futoko-hogosha-soudan-chat/**",
+        "destination": "/apps/futoko-hogosha-soudan-chat/index.html"
+      },
+      {
+        "source": "/privacy/futoko-hogosha-soudan-chat/**",
+        "destination": "/privacy/futoko-hogosha-soudan-chat/index.html"
+      },
+      {
+        "source": "/tools/nenkin-mitsumori-sim/**",
+        "destination": "/tools/nenkin-mitsumori-sim/index.html"
+      },
+      {
+        "source": "/apps/nenkin-mitsumori-sim/**",
+        "destination": "/apps/nenkin-mitsumori-sim/index.html"
+      },
+      {
+        "source": "/privacy/nenkin-mitsumori-sim/**",
+        "destination": "/privacy/nenkin-mitsumori-sim/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
