@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}} | SEADICE RESEARCH</title>
+<meta name="description" content="{{DESCRIPTION_120字以内・質問形+結論}}">
+<link rel="canonical" href="https://seadice.win/research/{{SLUG}}/">
+<meta property="og:title" content="{{TITLE}} | SEADICE RESEARCH">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="https://seadice.win/research/{{SLUG}}/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"{{TITLE}}","datePublished":"{{YYYY-MM-DD}}","dateModified":"{{YYYY-MM-DD}}","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/research/{{SLUG}}/","citation":["{{出典URL1}}","{{出典URL2}}"]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"{{質問}}","acceptedAnswer":{"@type":"Answer","text":"{{回答}}"}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"HOME","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"RESEARCH","item":"https://seadice.win/research/"},{"@type":"ListItem","position":3,"name":"{{TITLE}}","item":"https://seadice.win/research/{{SLUG}}/"}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#8592a6}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.8;-webkit-text-size-adjust:100%}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}nav a.r{font-size:13px;color:var(--muted);text-decoration:none}article{max-width:680px;margin:0 auto;padding:88px 20px 72px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:20px}.breadcrumb a{color:var(--muted);text-decoration:none}.tag{display:inline-block;font-size:11px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:14px}h1{font-size:clamp(26px,6vw,38px);font-weight:800;line-height:1.3;margin-bottom:14px}.meta{font-size:12px;color:var(--muted);margin-bottom:24px}.ai-badge{display:flex;align-items:flex-start;gap:10px;background:rgba(0,255,209,.06);border:1px solid rgba(0,255,209,.35);border-radius:12px;padding:12px 16px;margin-bottom:28px;font-size:12px;color:#b6c2d4;line-height:1.6}.ai-badge strong{color:var(--accent);font-weight:800;white-space:nowrap}.lead{font-size:17px;line-height:1.9;color:var(--text);margin-bottom:28px}.summary{background:linear-gradient(135deg,rgba(0,255,209,.10),rgba(56,189,248,.08));border:1px solid rgba(0,255,209,.3);border-radius:16px;padding:20px 22px;margin:0 0 36px}.summary h2{font-size:13px;letter-spacing:.14em;color:var(--accent);margin:0 0 10px}.summary ol{padding-left:22px}.summary li{font-size:15px;margin:8px 0;color:var(--text);line-height:1.7}h2.sec{font-size:22px;font-weight:800;margin:52px 0 6px;line-height:1.4}h2.sec .n{display:block;font-size:12px;letter-spacing:.16em;color:var(--accent);margin-bottom:4px}.answer{font-size:15px;color:#cbd5e1;margin:8px 0 18px;padding-left:14px;border-left:3px solid var(--accent)}p.t{margin:14px 0;font-size:16px;color:#cbd5e1}.body strong{color:var(--text)}.body a{color:#7dd3fc}.study{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:14px 0}.study .who{font-size:12px;color:var(--muted);margin-bottom:6px}.study .find{font-size:16px;font-weight:700;line-height:1.6;margin-bottom:8px}.study .cond{font-size:13px;color:var(--muted);line-height:1.7}.study .ref{font-size:11px;color:var(--accent);margin-left:4px}.step{display:flex;gap:14px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;margin:12px 0}.step .num{flex:0 0 32px;height:32px;border-radius:50%;background:var(--accent);color:#05050C;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:15px}.step .ttl{font-weight:700;font-size:16px;margin-bottom:2px}.step .dsc{font-size:14px;color:#cbd5e1;line-height:1.7}.step .time{font-size:12px;color:var(--accent);margin-top:4px}.note{background:rgba(56,189,248,.07);border:1px solid rgba(56,189,248,.25);border-radius:12px;padding:14px 18px;margin:18px 0;font-size:14px;color:#b6c2d4}details{background:var(--card);border:1px solid var(--border);border-radius:12px;margin:10px 0}summary{cursor:pointer;padding:14px 18px;font-weight:700;font-size:15px;list-style:none}summary::-webkit-details-marker{display:none}summary::before{content:"Q. ";color:var(--accent)}details p{padding:0 18px 16px;font-size:14px;color:#cbd5e1;line-height:1.8}.idea{background:linear-gradient(135deg,rgba(0,255,209,.13),rgba(56,189,248,.10));border:1px solid var(--accent);border-radius:18px;padding:24px 22px;margin:20px 0}.idea .lb{font-size:12px;letter-spacing:.16em;color:var(--accent);margin-bottom:6px}.idea .nm{font-size:22px;font-weight:800;line-height:1.35;margin-bottom:6px}.idea .ba{font-size:14px;color:var(--muted);margin-bottom:14px}.idea ul{padding-left:20px}.idea li{font-size:15px;margin:8px 0;color:var(--text);line-height:1.7}.idea .ask{margin-top:16px;font-size:13px;color:var(--muted)}.idea .ask a{color:#7dd3fc}.sources{margin-top:56px;padding-top:24px;border-top:1px solid var(--border)}.sources h2{font-size:14px;margin:0 0 12px;color:var(--muted);letter-spacing:.1em}.sources li{font-size:12px;color:var(--muted);margin:8px 0;line-height:1.7}.sources a{color:#7dd3fc;word-break:break-all}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/research/" class="r">RESEARCH</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/research/">RESEARCH</a> / {{TITLE}}</p>
+  <span class="tag">{{カテゴリ名}}</span>
+  <h1>{{TITLE}}</h1>
+  <p class="meta"><time datetime="{{YYYY-MM-DD}}">{{YYYY-MM-DD}}</time> · 約{{N}}分で読めます</p>
+
+  <div class="ai-badge"><strong>AIによる調査</strong><span>公開されている研究論文や公的機関の資料をAI（Claude）が調べ、内容を確認して整理しました。SEADICEが独自に実験したものではありません。出典は末尾にあります。</span></div>
+
+  <div class="body">
+    <!-- 導入: 読者の悩みへの共感か問いかけ。責めない・煽らない。2〜4文 -->
+    <p class="lead">{{導入}}</p>
+
+    <div class="summary">
+      <h2>3行でわかる</h2>
+      <ol>
+        <li>{{結論1}}</li>
+        <li>{{結論2}}</li>
+        <li>{{結論3}}</li>
+      </ol>
+    </div>
+
+    <h2 class="sec"><span class="n">01</span>{{悩みの正体を、やさしい言葉で}}</h2>
+    <p class="answer">{{120字以内の結論}}</p>
+    <p class="t">{{説明。専門用語は初出で言い換える}}</p>
+
+    <h2 class="sec"><span class="n">02</span>科学的にわかっていること</h2>
+    <p class="answer">{{120字以内の結論}}</p>
+    <!-- 研究1件につき1枚。[1]は出典番号 -->
+    <div class="study">
+      <p class="who">{{著者ら}}（{{年}}）<span class="ref">[1]</span></p>
+      <p class="find">{{何がわかったか。平易に・数値は確認済みのみ}}</p>
+      <p class="cond">対象: {{人数・年齢・条件}} ／ 限界: {{1文}}</p>
+    </div>
+
+    <h2 class="sec"><span class="n">03</span>今日からできる小さな一歩</h2>
+    <p class="answer">{{120字以内の結論}}</p>
+    <div class="step"><div class="num">1</div><div><p class="ttl">{{行動}}</p><p class="dsc">{{やり方を1〜2文で}}</p><p class="time">所要 {{時間}}</p></div></div>
+    <div class="step"><div class="num">2</div><div><p class="ttl">{{行動}}</p><p class="dsc">{{やり方}}</p><p class="time">所要 {{時間}}</p></div></div>
+    <div class="step"><div class="num">3</div><div><p class="ttl">{{行動}}</p><p class="dsc">{{やり方}}</p><p class="time">所要 {{時間}}</p></div></div>
+
+    <h2 class="sec"><span class="n">04</span>続けるためのコツ</h2>
+    <p class="answer">{{120字以内の結論}}</p>
+    <ul><li>{{コツ}}</li></ul>
+
+    <h2 class="sec"><span class="n">05</span>この研究から考えた、こんなアプリ</h2>
+    <p class="answer">{{この悩みに向いたアプリの姿を一言で}}</p>
+    <div class="idea">
+      <p class="lb">APP IDEA</p>
+      <p class="nm">{{仮のアプリ名・キャッチ}}</p>
+      <p class="ba">{{Before}} → {{After}}</p>
+      <ul>
+        <li>{{研究に基づく機能1（読者が「あったら楽しい・助かる」と感じる書き方）}}</li>
+        <li>{{機能2}}</li>
+        <li>{{機能3}}</li>
+      </ul>
+      <p class="ask">こんなアプリがあったら使いたいですか？ 感想やほしい機能は <a href="/#feedback">トップページのCHAT</a> から教えてください。</p>
+    </div>
+    <!-- アプリ作成後は .idea を、実在するアプリへの案内（/apps/{appId}/）に差し替える -->
+
+    <h2 class="sec"><span class="n">06</span>よくある質問</h2>
+    <details><summary>{{質問}}</summary><p>{{回答}}</p></details>
+
+    <div class="sources">
+      <h2>出典</h2>
+      <ol>
+        <li>{{著者 (年). 論文タイトル. 雑誌名. <a href="{{URL}}" target="_blank" rel="noopener">{{URL}}</a>}}</li>
+      </ol>
+    </div>
+  </div>
+</article>
+<footer><p><a href="/research/">RESEARCH</a> &nbsp;|&nbsp; &copy; SEADICE</p></footer>
+</body>
+</html>
