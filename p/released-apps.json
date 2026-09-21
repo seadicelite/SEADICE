@@ -1,0 +1,40 @@
+{
+  "_comment": "App StoreでApple審査を通過し公開済みのアプリだけをここに登録する。新規アプリの「関連アプリ」欄はこのファイルから選ぶ。scripts/check_released_apps.py で自動更新される。",
+  "apps": [
+    {
+      "id": "black-psychology",
+      "name": "ブラック心理学　AIが相手の隠れた本音を見抜く",
+      "genre": "psychology",
+      "appStoreId": "6787542361",
+      "appStoreUrl": "https://apps.apple.com/app/id6787542361"
+    },
+    {
+      "id": "danshari-app3",
+      "name": "断捨離AI",
+      "genre": "danshari",
+      "appStoreId": "6787390344",
+      "appStoreUrl": "https://apps.apple.com/app/id6787390344"
+    },
+    {
+      "id": "yokai-mirror",
+      "name": "Yokai Did It !",
+      "genre": "overseas-japan-culture",
+      "appStoreId": "6791859198",
+      "appStoreUrl": "https://apps.apple.com/app/id6791859198"
+    },
+    {
+      "id": "boueki",
+      "name": "貿易実務検定CBT",
+      "genre": "boueki",
+      "appStoreId": "6789349072",
+      "appStoreUrl": "https://apps.apple.com/app/id6789349072"
+    },
+    {
+      "id": "boueki-eigo",
+      "name": "貿易実務英単語",
+      "genre": "boueki",
+      "appStoreId": "6788717337",
+      "appStoreUrl": "https://apps.apple.com/app/id6788717337"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# SEADICE（シーダイス）
+
+> SEADICE（シーダイス）は、夜更かし・先延ばし・衝動買い・防災・家計など、毎日の小さな困りごとを解決するiOSアプリを開発・提供する日本のアプリスタジオです。生活に自然と溶け込む、続けやすい設計を大切にしています。ChatGPT・Gemini・Claude と Flutter を活用して開発し、App Store で配信しています。
+
+## 基本情報
+
+- 名称: SEADICE（読み方: シーダイス）
+- 種別: アプリ開発スタジオ（日本）
+- 提供物: iOSアプリ（App Store）、Webツール、ブログ、商品レビュー
+- 連絡先: hi@seadice.win
+- サイト: https://seadice.win/
+
+## 主要ページ
+
+- [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ
+- [ジャンル別ハブ](https://seadice.win/tools/): 困りごとの種類から探す
+- [ポモドーロタイマー](https://seadice.win/pomodoro/): 雨音・波音などのヒーリングサウンド付き無料タイマー
+- [ブログ](https://seadice.win/blog/): 開発ブログ・解説記事
+- [Talk](https://seadice.win/talk/): AIとの対話ページ
+- [活動を支援する](https://seadice.win/support/): 開発活動への支援
+- [プライバシーポリシー](https://seadice.win/privacy/): 各アプリのプライバシーポリシー
+
+## 補足
+
+- 最新のアプリ・記事の一覧は上記の一覧ページと sitemap（https://seadice.win/sitemap.xml）を参照してください。
+- 各アプリの個別ページは https://seadice.win/apps/{アプリ名}/ にあります。
