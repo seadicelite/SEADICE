@@ -21,6 +21,20 @@
       "genre": "overseas-japan-culture",
       "appStoreId": "6791859198",
       "appStoreUrl": "https://apps.apple.com/app/id6791859198"
+    },
+    {
+      "id": "boueki",
+      "name": "貿易実務検定CBT",
+      "genre": "boueki",
+      "appStoreId": "6789349072",
+      "appStoreUrl": "https://apps.apple.com/app/id6789349072"
+    },
+    {
+      "id": "boueki-eigo",
+      "name": "貿易実務英単語",
+      "genre": "boueki",
+      "appStoreId": "6788717337",
+      "appStoreUrl": "https://apps.apple.com/app/id6788717337"
     }
   ]
 }
