@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ヒーリングサウンド付きポモドーロタイマー｜無料・登録不要 | SEADICE</title>
+  <meta name="description" content="雨音・波音・小川・森の実際の録音を流しながら使える無料のポモドーロタイマー。25分集中＋5分休憩を自動で切り替え。登録・インストール不要でブラウザだけで使えます。">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#05050C">
+  <link rel="canonical" href="https://seadice.win/pomodoro/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="ヒーリングサウンド付きポモドーロタイマー｜無料・登録不要">
+  <meta property="og:description" content="雨音・波音・小川・森の録音を流しながら使える無料のポモドーロタイマー。登録・インストール不要。">
+  <meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://seadice.win/pomodoro/">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ヒーリングサウンド付きポモドーロタイマー｜無料・登録不要">
+  <meta name="twitter:description" content="雨音・波音・小川・森の録音を流しながら使える無料のポモドーロタイマー。">
+  <meta name="twitter:image" content="https://seadice.win/icons/seadice_ogp.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://seadice.win/pomodoro/#app",
+        "name": "ヒーリングサウンド付きポモドーロタイマー",
+        "url": "https://seadice.win/pomodoro/",
+        "description": "雨音・波音・小川・森の録音を流しながら使える無料のポモドーロタイマー。25分集中＋5分休憩を自動で切り替えます。",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Any (Web browser)",
+        "inLanguage": "ja",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+        "publisher": { "@type": "Organization", "name": "SEADICE", "url": "https://seadice.win/" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" },
+          { "@type": "ListItem", "position": 2, "name": "ポモドーロタイマー", "item": "https://seadice.win/pomodoro/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "ポモドーロ・テクニックとは何ですか？", "acceptedAnswer": { "@type": "Answer", "text": "25分の作業と5分の休憩を1セットとして繰り返す時間管理術です。1980年代後半にフランチェスコ・シリロが考案しました。4セットごとに15〜30分の長い休憩を取ります。" } },
+          { "@type": "Question", "name": "このタイマーは無料ですか？登録は必要ですか？", "acceptedAnswer": { "@type": "Answer", "text": "無料で、登録もインストールも不要です。ブラウザで開くだけで使えます。" } },
+          { "@type": "Question", "name": "ヒーリングサウンドは何を流していますか？", "acceptedAnswer": { "@type": "Answer", "text": "雨音・波音・小川・森の4種類は実際の録音（CC0またはパブリックドメインの素材）です。ブラウンノイズとホワイトノイズの2種類は、ブラウザ上で生成しています。" } },
+          { "@type": "Question", "name": "他のタブを開いていてもタイマーは動きますか？", "acceptedAnswer": { "@type": "Answer", "text": "動きます。開始時刻から経過時間を計算しているため、別タブに切り替えても時間はずれません。ページを閉じるとリセットされます。" } }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg:#05050C; --card:#0C0C1A; --accent:#00FFD1; --accent2:#38BDF8; --border:#1a1a2e; --text:#e2e8f0; --muted:#64748b; --break:#38BDF8; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Helvetica Neue', sans-serif; line-height: 1.7; overflow-x: hidden; }
+    body[data-mode="break"] { --accent: #38BDF8; --accent2: #818CF8; }
+    header { border-bottom: 1px solid var(--border); }
+    nav { height: 56px; padding: 0 24px; max-width: 760px; margin: 0 auto; display: flex; align-items: center; }
+    .nav-logo { font-size: 16px; font-weight: 800; letter-spacing: 0.15em; color: var(--accent); text-decoration: none; }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 24px 64px; }
+    .breadcrumb { font-size: 12px; color: var(--muted); margin-bottom: 20px; }
+    .breadcrumb a { color: var(--muted); }
+    h1 { font-size: clamp(24px, 5vw, 34px); font-weight: 800; line-height: 1.3; letter-spacing: -0.02em; margin-bottom: 12px; }
+    .lead { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    .timer-card { background: var(--card); border: 1px solid var(--border); border-radius: 24px; padding: 28px 20px; text-align: center; }
+    .modes { display: inline-flex; gap: 6px; padding: 4px; background: #0a0a18; border: 1px solid var(--border); border-radius: 999px; margin-bottom: 24px; }
+    .modes button { border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 13px; font-weight: 700; padding: 8px 16px; border-radius: 999px; cursor: pointer; min-height: 40px; }
+    .modes button[aria-pressed="true"] { background: var(--accent); color: #05050C; }
+    .ring { position: relative; width: min(280px, 72vw); aspect-ratio: 1; margin: 0 auto 20px; }
+    .ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+    .ring circle { fill: none; stroke-width: 8; }
+    .ring .track { stroke: var(--border); }
+    .ring .bar { stroke: var(--accent); stroke-linecap: round; transition: stroke-dashoffset 0.25s linear; }
+    .ring-text { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .time { font-size: clamp(44px, 14vw, 64px); font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+    .phase { font-size: 13px; color: var(--muted); }
+    .controls { display: flex; justify-content: center; gap: 12px; margin-bottom: 16px; }
+    .btn { min-height: 48px; padding: 0 28px; border-radius: 999px; font: inherit; font-size: 15px; font-weight: 700; cursor: pointer; border: 1px solid var(--border); background: rgba(255,255,255,0.03); color: var(--text); }
+    .btn-main { border: 0; background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #05050C; min-width: 140px; }
+    .btn:hover { opacity: 0.9; }
+    .task { display: block; width: min(420px, 100%); margin: 0 auto 22px; text-align: left; }
+    .task label { display: block; font-size: 12px; font-weight: 700; color: var(--muted); margin-bottom: 6px; }
+    .task input { width: 100%; min-height: 48px; padding: 0 16px; border-radius: 12px; border: 1px solid var(--border); background: #0a0a18; color: var(--text); font: inherit; font-size: 16px; }
+    .task input::placeholder { color: var(--muted); }
+    .task input:focus { border-color: var(--accent); outline: none; }
+    .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .hint { font-size: 12px; color: var(--muted); min-height: 20px; margin-bottom: 8px; }
+    .count { font-size: 13px; color: var(--muted); }
+
+    .panel { margin-top: 20px; background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 22px 20px; }
+    .panel h2 { font-size: 15px; font-weight: 800; margin-bottom: 14px; }
+    .sounds { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .sounds button { min-height: 44px; padding: 0 16px; border-radius: 10px; border: 1px solid var(--border); background: #0a0a18; color: var(--text); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .sounds button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+    .vol { display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--muted); }
+    .vol input { flex: 1; accent-color: var(--accent); min-height: 32px; }
+    .note { font-size: 12px; color: var(--muted); margin-top: 12px; }
+
+    article { margin-top: 48px; }
+    article h2 { font-size: 20px; font-weight: 800; margin: 36px 0 10px; }
+    article h3 { font-size: 15px; font-weight: 800; margin: 20px 0 6px; }
+    article p, article li { font-size: 14px; color: #cbd5e1; }
+    article p + p, article p + ul, article p + ol { margin-top: 10px; }
+    article ul, article ol { padding-left: 22px; }
+    article a { color: #7dd3fc; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+    th, td { border: 1px solid var(--border); padding: 10px 12px; text-align: left; color: #cbd5e1; }
+    th { background: var(--card); color: var(--text); }
+
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; font-size: 12px; color: var(--muted); }
+    footer a { color: var(--muted); text-decoration: none; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (prefers-reduced-motion: reduce) { .ring .bar { transition: none; } }
+    @media (max-width: 480px) { main { padding: 24px 16px 48px; } nav { padding: 0 16px; } .timer-card { padding: 24px 12px; } }
+  </style>
+</head>
+<body data-mode="focus">
+
+<header>
+  <nav aria-label="メインナビゲーション"><a class="nav-logo" href="/">SEADICE</a></nav>
+</header>
+
+<main>
+  <p class="breadcrumb"><a href="/">ホーム</a> / ポモドーロタイマー</p>
+  <h1>ヒーリングサウンド付きポモドーロタイマー</h1>
+  <p class="lead">25分集中して5分休む、を自動で繰り返す無料タイマーです。雨音や波音を流しながら、登録不要でそのまま使えます。</p>
+
+  <section class="timer-card" aria-label="タイマー">
+    <div class="modes" role="group" aria-label="タイマーの長さ">
+      <button type="button" data-preset="25-5-15" aria-pressed="true">25 / 5</button>
+      <button type="button" data-preset="50-10-30" aria-pressed="false">50 / 10</button>
+      <button type="button" data-preset="15-3-10" aria-pressed="false">15 / 3</button>
+    </div>
+    <div class="task">
+      <label for="task">今回やること</label>
+      <input type="text" id="task" maxlength="60" placeholder="例: 英語の長文を1つ読む" autocomplete="off" enterkeyhint="go">
+    </div>
+    <div class="ring">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle class="track" cx="60" cy="60" r="54"/>
+        <circle class="bar" id="bar" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="0"/>
+      </svg>
+      <div class="ring-text">
+        <div class="time" id="time" role="timer" aria-live="off">25:00</div>
+        <div class="phase" id="phase">集中</div>
+      </div>
+    </div>
+    <div class="controls">
+      <button type="button" class="btn btn-main" id="start">スタート</button>
+      <button type="button" class="btn" id="reset">リセット</button>
+      <button type="button" class="btn" id="skip">スキップ</button>
+    </div>
+    <p class="hint" id="hint" role="status"></p>
+    <p class="count">完了した集中: <span id="done">0</span> セット</p>
+  </section>
+
+  <section class="panel" aria-label="ヒーリングサウンド">
+    <h2>ヒーリングサウンド</h2>
+    <div class="sounds" id="sounds" role="group" aria-label="サウンドの種類">
+      <button type="button" data-sound="off" aria-pressed="true">なし</button>
+      <button type="button" data-sound="rain" aria-pressed="false">雨音</button>
+      <button type="button" data-sound="waves" aria-pressed="false">波音</button>
+      <button type="button" data-sound="stream" aria-pressed="false">小川</button>
+      <button type="button" data-sound="forest" aria-pressed="false">森</button>
+      <button type="button" data-sound="brown" aria-pressed="false">ブラウンノイズ</button>
+      <button type="button" data-sound="white" aria-pressed="false">ホワイトノイズ</button>
+    </div>
+    <label class="vol">音量 <input type="range" id="vol" min="0" max="100" value="50" aria-label="音量"></label>
+    <p class="note" id="sound-msg" role="status" style="color:#f87171;margin-top:8px"></p>
+    <p class="note">雨音・波音・小川・森は実際の録音です（初回のみ読み込みます）。イヤホン・スピーカーの音量にご注意ください。タイマー終了時にはチャイムが鳴ります。</p>
+  </section>
+
+  <article>
+    <h2>ポモドーロ・テクニックとは</h2>
+    <p>ポモドーロ・テクニックとは、25分の作業と5分の休憩を1セットとして繰り返す時間管理術です。1980年代後半にフランチェスコ・シリロが考案しました。</p>
+    <ul>
+      <li>作業時間: 25分（集中）</li>
+      <li>休憩時間: 5分</li>
+      <li>4セットごと: 15〜30分の長い休憩</li>
+    </ul>
+
+    <h2>使い方</h2>
+    <ol>
+      <li>やることを1つ決め、「スタート」を押します。</li>
+      <li>タイマーが鳴るまでは、その1つに集中します。</li>
+      <li>終了のチャイムが鳴ったら、5分間しっかり休みます。</li>
+      <li>4セット終わったら、長めの休憩に入ります（自動で切り替わります）。</li>
+    </ol>
+
+    <h2>タイマーの長さの選び方</h2>
+    <p>初めてなら25/5がおすすめです。慣れて集中が続くようになったら50/10、取りかかりが重いときは15/3で始めます。</p>
+    <table>
+      <thead><tr><th>設定</th><th>集中</th><th>休憩</th><th>長い休憩</th><th>向いている場面</th></tr></thead>
+      <tbody>
+        <tr><td>25 / 5</td><td>25分</td><td>5分</td><td>15分</td><td>標準。勉強・事務作業</td></tr>
+        <tr><td>50 / 10</td><td>50分</td><td>10分</td><td>30分</td><td>執筆・プログラミングなど深い作業</td></tr>
+        <tr><td>15 / 3</td><td>15分</td><td>3分</td><td>10分</td><td>気が進まないときの助走</td></tr>
+      </tbody>
+    </table>
+
+    <h2>サウンドの出典</h2>
+    <ul>
+      <li>雨音: 「Rain against the window」cori（パブリックドメイン, Wikimedia Commons）</li>
+      <li>波音: 「Ocean Waves on a Tropical Beach」Jarrod stanley（CC0, Wikimedia Commons）</li>
+      <li>小川: 「stream-river-water-up-close」jackthemurray（CC0, Wikimedia Commons）</li>
+      <li>森: 「20090610 0 ambience」nille（パブリックドメイン, Wikimedia Commons）</li>
+    </ul>
+    <p>いずれもループ再生用に一部を切り出し、音量を揃えています。</p>
+
+    <h2>よくある質問</h2>
+    <h3>無料ですか？登録は必要ですか？</h3>
+    <p>無料で、登録もインストールも不要です。ブラウザで開くだけで使えます。</p>
+    <h3>ヒーリングサウンドは何を流していますか？</h3>
+    <p>雨音・波音・小川・森の4種類は実際の録音（CC0またはパブリックドメインの素材）です。ブラウンノイズとホワイトノイズの2種類は、ブラウザ上で生成しています。</p>
+    <h3>他のタブを開いていてもタイマーは動きますか？</h3>
+    <p>動きます。開始時刻から経過時間を計算しているため、別タブに切り替えても時間はずれません。ページを閉じるとリセットされます。</p>
+  </article>
+</main>
+
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; <a href="/privacy/">プライバシーポリシー</a> &nbsp;|&nbsp; <a href="mailto:hi@seadice.win">hi@seadice.win</a></p>
+  <p style="margin-top:8px;">&copy; SEADICE</p>
+</footer>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const C = 2 * Math.PI * 54;
+  const state = { preset: [25, 5, 15], mode: 'focus', remain: 25 * 60, end: 0, running: false, done: 0, timer: null };
+  const label = { focus: '集中', break: '休憩', long: '長い休憩' };
+
+  const total = () => state.preset[state.mode === 'focus' ? 0 : state.mode === 'break' ? 1 : 2] * 60;
+  const fmt = (s) => String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0');
+
+  function render() {
+    const s = Math.max(0, Math.ceil(state.remain));
+    $('time').textContent = fmt(s);
+    $('phase').textContent = label[state.mode];
+    $('bar').style.strokeDashoffset = String(C * (1 - state.remain / total()));
+    $('start').textContent = state.running ? '一時停止' : (state.remain < total() ? '再開' : 'スタート');
+    $('done').textContent = state.done;
+    document.body.dataset.mode = state.mode === 'focus' ? 'focus' : 'break';
+    const needTask = state.mode === 'focus' && !state.running && state.remain >= total() && !$('task').value.trim();
+    $('start').disabled = needTask;
+    $('hint').textContent = needTask ? '「今回やること」を入力するとスタートできます' : '';
+    const t = $('task').value.trim();
+    document.title = (state.running ? fmt(s) + ' ' + (state.mode === 'focus' && t ? t : label[state.mode]) + ' | ' : '') + 'ポモドーロタイマー | SEADICE';
+  }
+
+  function setMode(m) { state.mode = m; state.remain = total(); render(); }
+
+  function tick() {
+    state.remain = (state.end - Date.now()) / 1000;
+    if (state.remain <= 0) { finish(); return; }
+    render();
+  }
+
+  function finish() {
+    chime();
+    if (state.mode === 'focus') {
+      state.done += 1;
+      setMode(state.done % 4 === 0 ? 'long' : 'break');
+    } else {
+      setMode('focus');
+    }
+    state.end = Date.now() + state.remain * 1000;
+  }
+
+  function start() {
+    ensureAudio();
+    state.running = true;
+    state.end = Date.now() + state.remain * 1000;
+    clearInterval(state.timer);
+    state.timer = setInterval(tick, 250);
+    render();
+  }
+  function pause() { state.running = false; clearInterval(state.timer); tick_safe(); render(); }
+  function tick_safe() { state.remain = Math.max(0, (state.end - Date.now()) / 1000); }
+
+  $('start').addEventListener('click', () => { $('task').blur(); state.running ? pause() : start(); });
+  $('task').addEventListener('input', render);
+  $('task').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !$('start').disabled && !state.running) { e.preventDefault(); $('start').click(); } });
+  $('reset').addEventListener('click', () => { state.running = false; clearInterval(state.timer); state.done = 0; setMode('focus'); });
+  $('skip').addEventListener('click', () => {
+    const wasRunning = state.running;
+    if (state.mode === 'focus') { state.done += 1; setMode(state.done % 4 === 0 ? 'long' : 'break'); } else { setMode('focus'); }
+    if (wasRunning) { state.end = Date.now() + state.remain * 1000; }
+    render();
+  });
+  document.querySelectorAll('[data-preset]').forEach((b) => b.addEventListener('click', () => {
+    document.querySelectorAll('[data-preset]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    state.preset = b.dataset.preset.split('-').map(Number);
+    state.running = false; clearInterval(state.timer); state.done = 0; setMode('focus');
+  }));
+
+  /* ---- Audio (Web Audio API: all sounds are generated in the browser) ---- */
+  let ctx = null, master = null, noiseBuf = null, current = null, soundName = 'off';
+
+  function ensureAudio() {
+    if (!ctx) {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return false;
+      ctx = new AC();
+      master = ctx.createGain();
+      master.connect(ctx.destination);
+      applyVol();
+      const len = ctx.sampleRate * 4;
+      noiseBuf = ctx.createBuffer(1, len, ctx.sampleRate);
+      const d = noiseBuf.getChannelData(0);
+      for (let i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+    }
+    if (ctx.state === 'suspended') ctx.resume();
+    return true;
+  }
+  function applyVol() { if (master) master.gain.value = Math.pow($('vol').value / 100, 2) * 0.9; }
+  $('vol').addEventListener('input', applyVol);
+
+  function noise() { const n = ctx.createBufferSource(); n.buffer = noiseBuf; n.loop = true; n.start(); return n; }
+  function filt(type, f, q) { const x = ctx.createBiquadFilter(); x.type = type; x.frequency.value = f; if (q) x.Q.value = q; return x; }
+  function lfo(rate, depth, target) { const o = ctx.createOscillator(), g = ctx.createGain(); o.frequency.value = rate; g.gain.value = depth; o.connect(g); g.connect(target); o.start(); return o; }
+
+  const files = { rain: 'rain', waves: 'waves', stream: 'stream', forest: 'forest' };
+  const buffers = {};
+  async function loadFile(name) {
+    if (buffers[name]) return buffers[name];
+    const res = await fetch('/pomodoro/sounds/' + files[name] + '.mp3');
+    if (!res.ok) throw new Error(res.status);
+    buffers[name] = await ctx.decodeAudioData(await res.arrayBuffer());
+    return buffers[name];
+  }
+  function fromBuffer(buf) {
+    const out = ctx.createGain(); out.gain.value = 0; out.connect(master);
+    const s = ctx.createBufferSource(); s.buffer = buf; s.loop = true; s.connect(out); s.start();
+    out.gain.linearRampToValueAtTime(1, ctx.currentTime + 1.2);
+    return { out, nodes: [s] };
+  }
+  function build(name) {
+    const out = ctx.createGain(); out.gain.value = 0; out.connect(master);
+    const nodes = [];
+    const n = noise(); nodes.push(n);
+    if (name === 'brown') {
+      const l1 = filt('lowpass', 200), l2 = filt('lowpass', 200), g = ctx.createGain(); g.gain.value = 5;
+      n.connect(l1); l1.connect(l2); l2.connect(g); g.connect(out);
+    } else {
+      const lp = filt('lowpass', 12000), g = ctx.createGain(); g.gain.value = 0.35;
+      n.connect(lp); lp.connect(g); g.connect(out);
+    }
+    out.gain.linearRampToValueAtTime(1, ctx.currentTime + 1.2);
+    return { out, nodes };
+  }
+  function stopCurrent() {
+    if (!current) return;
+    const c = current; current = null;
+    c.out.gain.cancelScheduledValues(ctx.currentTime);
+    c.out.gain.setValueAtTime(c.out.gain.value, ctx.currentTime);
+    c.out.gain.linearRampToValueAtTime(0, ctx.currentTime + 0.6);
+    setTimeout(() => { c.nodes.forEach((x) => { try { x.stop(); } catch (e) {} }); c.out.disconnect(); }, 800);
+  }
+  let pick = 0;
+  document.querySelectorAll('[data-sound]').forEach((b) => b.addEventListener('click', async () => {
+    document.querySelectorAll('[data-sound]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    soundName = b.dataset.sound;
+    const my = ++pick;
+    if (!ensureAudio()) return;
+    stopCurrent();
+    if (soundName === 'off') return;
+    if (files[soundName]) {
+      const label = b.textContent; b.textContent = label + '…';
+      try {
+        const buf = await loadFile(soundName);
+        if (my === pick) current = fromBuffer(buf);
+      } catch (e) {
+        if (my === pick) $('sound-msg').textContent = '音の読み込みに失敗しました。通信状況をご確認ください。';
+      } finally { b.textContent = label; }
+    } else {
+      current = build(soundName);
+    }
+    if (my === pick && current) $('sound-msg').textContent = '';
+  }));
+
+  function chime() {
+    if (!ensureAudio()) return;
+    [660, 880, 1320].forEach((f, i) => {
+      const o = ctx.createOscillator(), g = ctx.createGain(), t = ctx.currentTime + i * 0.22;
+      o.type = 'sine'; o.frequency.value = f;
+      g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(0.25, t + 0.02); g.gain.exponentialRampToValueAtTime(0.001, t + 1.1);
+      o.connect(g); g.connect(ctx.destination); o.start(t); o.stop(t + 1.2);
+    });
+  }
+
+  render();
+})();
+</script>
+
+</body>
+</html>

@@ -8,5 +8,19 @@ service cloud.firestore {
                     && request.resource.data.source is string;
       allow read, update, delete: if false;
     }
+
+    match /book_quiz_decks/{doc} {
+      allow create: if request.resource.data.bookTitle is string
+                    && request.resource.data.bookTitle.size() > 0
+                    && request.resource.data.bookTitle.size() <= 200
+                    && request.resource.data.bookTitleLower is string
+                    && request.resource.data.author is string
+                    && request.resource.data.cards is list
+                    && request.resource.data.cards.size() > 0
+                    && request.resource.data.cards.size() <= 50
+                    && request.resource.data.deviceId is string;
+      allow read: if true;
+      allow update, delete: if false;
+    }
   }
 }

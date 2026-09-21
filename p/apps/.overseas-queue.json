@@ -1,15 +1,5 @@
 [
   {
-    "id": "tengu-mountain",
-    "title_en": "Tengu Mountain",
-    "concept": "Describe a personal struggle or ambition, and AI matches it to one of Japan's real tengu-associated mountain legends (e.g. Kurama's Sojobo, Hiko-san, Izuna Gongen), explaining that mountain's specific lore and the tengu's traditional role as a stern but fair teacher of martial or spiritual discipline."
-  },
-  {
-    "id": "kendama-trick",
-    "title_en": "Kendama Trick Dojo",
-    "concept": "Describe your kendama skill level and which part keeps missing (ozara, kozara, kensaki, or the moshikame chain), and AI matches you to a real named trick to practice next, plus the correct grip and swing form drawn from Japan's traditional kendama teaching lineage."
-  },
-  {
     "id": "inari-fox",
     "title_en": "Inari Fox Guide",
     "concept": "Describe what you're hoping for (business, harvest, protection, safe travel), and AI matches it to a real Inari shrine dedication style, from Fushimi Inari's senbon torii to a small neighborhood inari-sha, explaining the symbolism of the kitsune fox messengers and correct offering and prayer etiquette."
