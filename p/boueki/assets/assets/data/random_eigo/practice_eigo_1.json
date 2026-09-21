@@ -1,0 +1,2012 @@
+[
+  {
+    "id": 11101,
+    "term_en": "Acceptance",
+    "term_jp": "受諾／引受"
+  },
+  {
+    "id": 11102,
+    "term_en": "Acceptance Rate",
+    "term_jp": "一覧払輸入手形決済相場"
+  },
+  {
+    "id": 11103,
+    "term_en": "Account",
+    "term_jp": "勘定／口座"
+  },
+  {
+    "id": 11104,
+    "term_en": "Act of God",
+    "term_jp": "不可抗力（天災など）"
+  },
+  {
+    "id": 11105,
+    "term_en": "Additional Order",
+    "term_jp": "追加注文"
+  },
+  {
+    "id": 11106,
+    "term_en": "Addressee",
+    "term_jp": "名宛人"
+  },
+  {
+    "id": 11107,
+    "term_en": "Adjustment",
+    "term_jp": "調整／清算"
+  },
+  {
+    "id": 11108,
+    "term_en": "Ad Valorem",
+    "term_jp": "従価（価格に応じて）"
+  },
+  {
+    "id": 11109,
+    "term_en": "Advance Payment",
+    "term_jp": "前払い"
+  },
+  {
+    "id": 11110,
+    "term_en": "Advising Bank",
+    "term_jp": "信用状を通知する銀行"
+  },
+  {
+    "id": 11111,
+    "term_en": "Agent",
+    "term_jp": "代理人／代理店"
+  },
+  {
+    "id": 11112,
+    "term_en": "Agency Agreement",
+    "term_jp": "代理店契約(書)"
+  },
+  {
+    "id": 11113,
+    "term_en": "Agent Commission",
+    "term_jp": "代理店手数料"
+  },
+  {
+    "id": 11114,
+    "term_en": "Agreement",
+    "term_jp": "契約／合意"
+  },
+  {
+    "id": 11115,
+    "term_en": "Airmail",
+    "term_jp": "航空便"
+  },
+  {
+    "id": 11116,
+    "term_en": "Airparcel",
+    "term_jp": "航空小包"
+  },
+  {
+    "id": 11117,
+    "term_en": "Air Waybill (AWB)",
+    "term_jp": "航空運送状"
+  },
+  {
+    "id": 11118,
+    "term_en": "All Risks (A/R)",
+    "term_jp": "一切の危険担保（全危険担保）"
+  },
+  {
+    "id": 11119,
+    "term_en": "Amendment",
+    "term_jp": "修正／条件変更"
+  },
+  {
+    "id": 11120,
+    "term_en": "Amount Insured",
+    "term_jp": "保険金額"
+  },
+
+  {
+    "id": 11121,
+    "term_en": "Annual Report",
+    "term_jp": "年次報告"
+  },
+  {
+    "id": 11122,
+    "term_en": "Anticipated Profit",
+    "term_jp": "見込み利益"
+  },
+  {
+    "id": 11123,
+    "term_en": "Applicant",
+    "term_jp": "申請者／依頼人"
+  },
+  {
+    "id": 11124,
+    "term_en": "Application",
+    "term_jp": "依頼書／申込み"
+  },
+  {
+    "id": 11125,
+    "term_en": "Appointment",
+    "term_jp": "任命／約束"
+  },
+  {
+    "id": 11126,
+    "term_en": "Arbitration",
+    "term_jp": "仲裁"
+  },
+  {
+    "id": 11127,
+    "term_en": "Arbitration Clause",
+    "term_jp": "仲裁条項"
+  },
+  {
+    "id": 11128,
+    "term_en": "Arrangement",
+    "term_jp": "取り決め／協定"
+  },
+  {
+    "id": 11129,
+    "term_en": "Arrival Notice",
+    "term_jp": "着船通知書"
+  },
+  {
+    "id": 11130,
+    "term_en": "Article",
+    "term_jp": "条項／品物"
+  },
+  {
+    "id": 11131,
+    "term_en": "Assets",
+    "term_jp": "資産"
+  },
+  {
+    "id": 11132,
+    "term_en": "Assignment",
+    "term_jp": "譲渡／割当"
+  },
+  {
+    "id": 11133,
+    "term_en": "Assured",
+    "term_jp": "被保険者"
+  },
+  {
+    "id": 11134,
+    "term_en": "ATA Carnet",
+    "term_jp": "通関手帳"
+  },
+  {
+    "id": 11135,
+    "term_en": "At sight (A/S)",
+    "term_jp": "一覧払い"
+  },
+  {
+    "id": 11136,
+    "term_en": "Award",
+    "term_jp": "裁定"
+  },
+  {
+    "id": 11137,
+    "term_en": "Balance",
+    "term_jp": "残高／均衡"
+  },
+  {
+    "id": 11138,
+    "term_en": "Balance Sheet",
+    "term_jp": "貸借対照表"
+  },
+  {
+    "id": 11139,
+    "term_en": "Bank Reference",
+    "term_jp": "銀行信用照会先"
+  },
+  {
+    "id": 11140,
+    "term_en": "Bank Check",
+    "term_jp": "銀行小切手"
+  },
+
+  {
+    "id": 11141,
+    "term_en": "Beneficiary",
+    "term_jp": "受益者／信用状受益者"
+  },
+  {
+    "id": 11142,
+    "term_en": "Beneficiary's Draft",
+    "term_jp": "受益者為替手形"
+  },
+  {
+    "id": 11143,
+    "term_en": "Berth",
+    "term_jp": "船の停泊位置／バース"
+  },
+  {
+    "id": 11144,
+    "term_en": "Bid",
+    "term_jp": "入札／値を付ける"
+  },
+  {
+    "id": 11145,
+    "term_en": "Bill",
+    "term_jp": "請求書／手形"
+  },
+  {
+    "id": 11146,
+    "term_en": "Bill of Entry",
+    "term_jp": "輸入申告書"
+  },
+  {
+    "id": 11147,
+    "term_en": "Bill of Exchange",
+    "term_jp": "為替手形"
+  },
+  {
+    "id": 11148,
+    "term_en": "Bill of Lading (B/L)",
+    "term_jp": "船荷証券"
+  },
+  {
+    "id": 11149,
+    "term_en": "Bonded Area",
+    "term_jp": "保税地域"
+  },
+  {
+    "id": 11150,
+    "term_en": "Bonded Warehouse",
+    "term_jp": "保税倉庫"
+  },
+  {
+    "id": 11151,
+    "term_en": "Booking",
+    "term_jp": "予約（船積み予約）"
+  },
+  {
+    "id": 11152,
+    "term_en": "Booking Note",
+    "term_jp": "船積予約書"
+  },
+  {
+    "id": 11153,
+    "term_en": "Brand",
+    "term_jp": "商標／銘柄"
+  },
+  {
+    "id": 11154,
+    "term_en": "Broker",
+    "term_jp": "仲買人／ブローカー"
+  },
+  {
+    "id": 11155,
+    "term_en": "Bulk Cargo",
+    "term_jp": "ばら積み貨物"
+  },
+  {
+    "id": 11156,
+    "term_en": "Buyer",
+    "term_jp": "買主／購入者"
+  },
+  {
+    "id": 11157,
+    "term_en": "Cancellation",
+    "term_jp": "解除／キャンセル"
+  },
+  {
+    "id": 11158,
+    "term_en": "Capacity",
+    "term_jp": "容量／能力"
+  },
+  {
+    "id": 11159,
+    "term_en": "Cargo",
+    "term_jp": "貨物"
+  },
+  {
+    "id": 11160,
+    "term_en": "Cargo Insurance",
+    "term_jp": "貨物保険"
+  }
+,
+  {
+    "id": 11161,
+    "term_en": "Cargo Manifest",
+    "term_jp": "貨物明細書"
+  },
+  {
+    "id": 11162,
+    "term_en": "Carriage",
+    "term_jp": "運送／輸送"
+  },
+  {
+    "id": 11163,
+    "term_en": "Carrier",
+    "term_jp": "運送人"
+  },
+  {
+    "id": 11164,
+    "term_en": "Cartage",
+    "term_jp": "陸上運送費／荷車運賃"
+  },
+  {
+    "id": 11165,
+    "term_en": "Cash Against Documents (C.A.D)",
+    "term_jp": "書類渡しと引換現金払い"
+  },
+  {
+    "id": 11166,
+    "term_en": "Cash on Delivery (C.O.D)",
+    "term_jp": "代金引換"
+  },
+  {
+    "id": 11167,
+    "term_en": "Certificate",
+    "term_jp": "証明書"
+  },
+  {
+    "id": 11168,
+    "term_en": "Certificate of Analysis",
+    "term_jp": "分析証明書"
+  },
+  {
+    "id": 11169,
+    "term_en": "Certificate of Inspection",
+    "term_jp": "検査証明書"
+  },
+  {
+    "id": 11170,
+    "term_en": "Certificate of Origin",
+    "term_jp": "原産地証明書"
+  },
+  {
+    "id": 11171,
+    "term_en": "Charge",
+    "term_jp": "料金／手数料"
+  },
+  {
+    "id": 11172,
+    "term_en": "Charter Party",
+    "term_jp": "用船契約"
+  },
+  {
+    "id": 11173,
+    "term_en": "Claim",
+    "term_jp": "請求／クレーム"
+  },
+  {
+    "id": 11174,
+    "term_en": "Clean B/L",
+    "term_jp": "無故障船荷証券"
+  },
+  {
+    "id": 11175,
+    "term_en": "Commercial Invoice",
+    "term_jp": "商業送り状"
+  },
+  {
+    "id": 11176,
+    "term_en": "Commission",
+    "term_jp": "手数料／委託料"
+  },
+  {
+    "id": 11177,
+    "term_en": "Commodity",
+    "term_jp": "商品／産物"
+  },
+  {
+    "id": 11178,
+    "term_en": "Communication",
+    "term_jp": "通信／連絡"
+  },
+  {
+    "id": 11179,
+    "term_en": "Compensation",
+    "term_jp": "補償／賠償"
+  },
+  {
+    "id": 11180,
+    "term_en": "Compliance",
+    "term_jp": "遵守"
+  },
+
+  {
+    "id": 11181,
+    "term_en": "Consignee",
+    "term_jp": "荷受人"
+  },
+  {
+    "id": 11182,
+    "term_en": "Consignment",
+    "term_jp": "委託品／発送品"
+  },
+  {
+    "id": 11183,
+    "term_en": "Consignor",
+    "term_jp": "荷送人"
+  },
+  {
+    "id": 11184,
+    "term_en": "Consolidation",
+    "term_jp": "混載／コンソリ"
+  },
+  {
+    "id": 11185,
+    "term_en": "Container",
+    "term_jp": "コンテナ"
+  },
+  {
+    "id": 11186,
+    "term_en": "Container Freight Station (CFS)",
+    "term_jp": "コンテナ詰め作業場"
+  },
+  {
+    "id": 11187,
+    "term_en": "Container Yard (CY)",
+    "term_jp": "コンテナヤード"
+  },
+  {
+    "id": 11188,
+    "term_en": "Contract",
+    "term_jp": "契約"
+  },
+  {
+    "id": 11189,
+    "term_en": "Contract Price",
+    "term_jp": "契約価格"
+  },
+  {
+    "id": 11190,
+    "term_en": "Contribution",
+    "term_jp": "負担金／拠出"
+  },
+  {
+    "id": 11191,
+    "term_en": "Correspondence",
+    "term_jp": "往復書簡／通信"
+  },
+  {
+    "id": 11192,
+    "term_en": "Cost and Freight (C&F)",
+    "term_jp": "運賃込み条件"
+  },
+  {
+    "id": 11193,
+    "term_en": "Cost, Insurance and Freight (CIF)",
+    "term_jp": "運賃・保険料込み条件"
+  },
+  {
+    "id": 11194,
+    "term_en": "Counter Offer",
+    "term_jp": "反対申込み"
+  },
+  {
+    "id": 11195,
+    "term_en": "Credit",
+    "term_jp": "信用／与信"
+  },
+  {
+    "id": 11196,
+    "term_en": "Credit Limit",
+    "term_jp": "与信限度額"
+  },
+  {
+    "id": 11197,
+    "term_en": "Currency",
+    "term_jp": "通貨"
+  },
+  {
+    "id": 11198,
+    "term_en": "Customs",
+    "term_jp": "税関"
+  },
+  {
+    "id": 11199,
+    "term_en": "Customs Clearance",
+    "term_jp": "通関"
+  },
+  {
+    "id": 11200,
+    "term_en": "Customs Duty",
+    "term_jp": "関税"
+  },
+  {
+    "id": 11201,
+    "term_en": "Damage",
+    "term_jp": "損害／損傷"
+  },
+  {
+    "id": 11202,
+    "term_en": "DDP (Delivered Duty Paid)",
+    "term_jp": "関税込持込渡し条件"
+  },
+  {
+    "id": 11203,
+    "term_en": "DDU (Delivered Duty Unpaid)",
+    "term_jp": "関税抜持込渡し条件"
+  },
+  {
+    "id": 11204,
+    "term_en": "Declaration",
+    "term_jp": "申告／宣言"
+  },
+  {
+    "id": 11205,
+    "term_en": "Default",
+    "term_jp": "不履行／債務不履行"
+  },
+  {
+    "id": 11206,
+    "term_en": "Defective Goods",
+    "term_jp": "欠陥品"
+  },
+  {
+    "id": 11207,
+    "term_en": "Deferred Payment",
+    "term_jp": "後払い"
+  },
+  {
+    "id": 11208,
+    "term_en": "Deficiency",
+    "term_jp": "不足"
+  },
+  {
+    "id": 11209,
+    "term_en": "Definite Insurance",
+    "term_jp": "確定保険"
+  },
+  {
+    "id": 11210,
+    "term_en": "Definite Policy",
+    "term_jp": "確定保険証券"
+  },
+  {
+    "id": 11211,
+    "term_en": "Delayed Shipment",
+    "term_jp": "船積み遅延"
+  },
+  {
+    "id": 11212,
+    "term_en": "Delivery",
+    "term_jp": "引渡し／納入"
+  },
+  {
+    "id": 11213,
+    "term_en": "Delivery Order (D/O)",
+    "term_jp": "荷渡指図書"
+  },
+  {
+    "id": 11214,
+    "term_en": "Demand",
+    "term_jp": "需要／請求"
+  },
+  {
+    "id": 11215,
+    "term_en": "Demand Draft",
+    "term_jp": "送金小切手"
+  },
+  {
+    "id": 11216,
+    "term_en": "Demurrage",
+    "term_jp": "滞船料"
+  },
+  {
+    "id": 11217,
+    "term_en": "DEQ (Delivered Ex Quay)",
+    "term_jp": "埠頭渡し条件"
+  },
+  {
+    "id": 11218,
+    "term_en": "DES (Delivered Ex Ship)",
+    "term_jp": "本船渡し条件"
+  },
+  {
+    "id": 11219,
+    "term_en": "Description",
+    "term_jp": "説明"
+  },
+  {
+    "id": 11220,
+    "term_en": "Destination",
+    "term_jp": "仕向地"
+  }
+,
+  {
+    "id": 11221,
+    "term_en": "Detail",
+    "term_jp": "詳細"
+  },
+  {
+    "id": 11222,
+    "term_en": "Discharge",
+    "term_jp": "荷卸し／解除"
+  },
+  {
+    "id": 11223,
+    "term_en": "Discrepancy",
+    "term_jp": "不一致／相違"
+  },
+  {
+    "id": 11224,
+    "term_en": "Dispute",
+    "term_jp": "紛争／争議"
+  },
+  {
+    "id": 11225,
+    "term_en": "Distributor",
+    "term_jp": "販売店"
+  },
+  {
+    "id": 11226,
+    "term_en": "Distributorship Agreement",
+    "term_jp": "販売店契約"
+  },
+  {
+    "id": 11227,
+    "term_en": "Documentary Bill of Exchange",
+    "term_jp": "荷為替手形"
+  },
+  {
+    "id": 11228,
+    "term_en": "Documents against Acceptance (D/A)",
+    "term_jp": "引受渡書類"
+  },
+  {
+    "id": 11229,
+    "term_en": "Documents against Payment (D/P)",
+    "term_jp": "支払渡書類"
+  },
+  {
+    "id": 11230,
+    "term_en": "Draft",
+    "term_jp": "手形／小切手"
+  },
+  {
+    "id": 11231,
+    "term_en": "Drawee",
+    "term_jp": "手形名宛人"
+  },
+  {
+    "id": 11232,
+    "term_en": "Drawer",
+    "term_jp": "手形振出人"
+  },
+  {
+    "id": 11233,
+    "term_en": "Due Date",
+    "term_jp": "支払期日"
+  },
+  {
+    "id": 11234,
+    "term_en": "Duplicate",
+    "term_jp": "控え／副本"
+  },
+  {
+    "id": 11235,
+    "term_en": "Duration",
+    "term_jp": "期間"
+  },
+  {
+    "id": 11236,
+    "term_en": "Effective Date",
+    "term_jp": "発効日"
+  },
+  {
+    "id": 11237,
+    "term_en": "Endorsement",
+    "term_jp": "裏書"
+  },
+  {
+    "id": 11238,
+    "term_en": "Endorser",
+    "term_jp": "裏書人"
+  },
+  {
+    "id": 11239,
+    "term_en": "Entire Agreement",
+    "term_jp": "完全合意"
+  },
+  {
+    "id": 11240,
+    "term_en": "Estimate",
+    "term_jp": "見積り"
+  },
+  {
+    "id": 11241,
+    "term_en": "ETA (Estimated Time of Arrival)",
+    "term_jp": "到着予定時刻"
+  },
+  {
+    "id": 11242,
+    "term_en": "ETD (Estimated Time of Departure)",
+    "term_jp": "出発予定時刻"
+  },
+  {
+    "id": 11243,
+    "term_en": "Exchange Contract",
+    "term_jp": "為替予約"
+  },
+  {
+    "id": 11244,
+    "term_en": "Exchange Quotation",
+    "term_jp": "為替相場表"
+  },
+  {
+    "id": 11245,
+    "term_en": "Exchange Rate",
+    "term_jp": "為替相場"
+  },
+  {
+    "id": 11246,
+    "term_en": "Exchange Risk",
+    "term_jp": "為替リスク"
+  },
+  {
+    "id": 11247,
+    "term_en": "Exclusive Agent",
+    "term_jp": "総代理店"
+  },
+  {
+    "id": 11248,
+    "term_en": "Export Declaration (E/D)",
+    "term_jp": "輸出申告(書)"
+  },
+  {
+    "id": 11249,
+    "term_en": "Export License",
+    "term_jp": "輸出承認証"
+  },
+  {
+    "id": 11250,
+    "term_en": "Export Permit",
+    "term_jp": "輸出許可"
+  },
+  {
+    "id": 11251,
+    "term_en": "Expiry",
+    "term_jp": "有効期限／満了日"
+  },
+  {
+    "id": 11252,
+    "term_en": "EXW (Ex Works)",
+    "term_jp": "工場渡し条件"
+  },
+  {
+    "id": 11253,
+    "term_en": "FAQ (Fair Average Quality)",
+    "term_jp": "平均中等品質条件"
+  },
+  {
+    "id": 11254,
+    "term_en": "FAS (Free Alongside Ship)",
+    "term_jp": "船側渡し条件"
+  },
+  {
+    "id": 11255,
+    "term_en": "FCA (Free Carrier)",
+    "term_jp": "運送人渡し条件"
+  },
+  {
+    "id": 11256,
+    "term_en": "Financial Statements",
+    "term_jp": "財務諸表"
+  },
+  {
+    "id": 11257,
+    "term_en": "Firm Offer",
+    "term_jp": "確定申込み"
+  },
+  {
+    "id": 11258,
+    "term_en": "FOB (Free on Board)",
+    "term_jp": "本船渡し条件"
+  },
+  {
+    "id": 11259,
+    "term_en": "Force Majeure",
+    "term_jp": "不可抗力"
+  },
+  {
+    "id": 11260,
+    "term_en": "Forward Exchange",
+    "term_jp": "先物為替"
+  },
+
+  {
+    "id": 11261,
+    "term_en": "Forward Rate",
+    "term_jp": "先物相場"
+  },
+  {
+    "id": 11262,
+    "term_en": "Forwarder",
+    "term_jp": "海貨業者／乙仲"
+  },
+  {
+    "id": 11263,
+    "term_en": "Foul B/L",
+    "term_jp": "不良船荷証券"
+  },
+  {
+    "id": 11264,
+    "term_en": "FPA (Free from Particular Average)",
+    "term_jp": "分損不担保条件"
+  },
+  {
+    "id": 11265,
+    "term_en": "Freight",
+    "term_jp": "運賃／貨物"
+  },
+  {
+    "id": 11266,
+    "term_en": "Freight Collect",
+    "term_jp": "運賃着払い"
+  },
+  {
+    "id": 11267,
+    "term_en": "Freight Conference",
+    "term_jp": "運賃同盟"
+  },
+  {
+    "id": 11268,
+    "term_en": "Freight Prepaid",
+    "term_jp": "運賃前払い"
+  },
+  {
+    "id": 11269,
+    "term_en": "Freight Rate",
+    "term_jp": "運賃率"
+  },
+  {
+    "id": 11270,
+    "term_en": "Full Container Load (FCL)",
+    "term_jp": "コンテナ一杯積み"
+  },
+  {
+    "id": 11271,
+    "term_en": "GATT",
+    "term_jp": "関税及び貿易に関する一般協定"
+  },
+  {
+    "id": 11272,
+    "term_en": "General Average",
+    "term_jp": "共同海損"
+  },
+  {
+    "id": 11273,
+    "term_en": "General Cargo",
+    "term_jp": "一般貨物"
+  },
+  {
+    "id": 11274,
+    "term_en": "General Terms and Conditions",
+    "term_jp": "一般取引条件"
+  },
+  {
+    "id": 11275,
+    "term_en": "Generalized System of Preferences (GSP)",
+    "term_jp": "一般特恵関税制度"
+  },
+  {
+    "id": 11276,
+    "term_en": "GMQ (Good Merchantable Quality)",
+    "term_jp": "適商品質条件"
+  },
+  {
+    "id": 11277,
+    "term_en": "Goods",
+    "term_jp": "商品"
+  },
+  {
+    "id": 11278,
+    "term_en": "Governing Law",
+    "term_jp": "準拠法"
+  },
+  {
+    "id": 11279,
+    "term_en": "Gross Domestic Product (GDP)",
+    "term_jp": "国内総生産"
+  },
+  {
+    "id": 11280,
+    "term_en": "Gross Weight (G/W)",
+    "term_jp": "総重量"
+  },
+  {
+    "id": 11281,
+    "term_en": "Handling Charge",
+    "term_jp": "取扱手数料"
+  },
+  {
+    "id": 11282,
+    "term_en": "IATA",
+    "term_jp": "国際航空運送協会"
+  },
+  {
+    "id": 11283,
+    "term_en": "ICC",
+    "term_jp": "国際商業会議所"
+  },
+  {
+    "id": 11284,
+    "term_en": "Import Declaration",
+    "term_jp": "輸入申告"
+  },
+  {
+    "id": 11285,
+    "term_en": "Import License",
+    "term_jp": "輸入承認"
+  },
+  {
+    "id": 11286,
+    "term_en": "Import Permit",
+    "term_jp": "輸入許可"
+  },
+  {
+    "id": 11287,
+    "term_en": "Import Quota",
+    "term_jp": "輸入割当"
+  },
+  {
+    "id": 11288,
+    "term_en": "Inquiry",
+    "term_jp": "照会／問い合わせ"
+  },
+  {
+    "id": 11289,
+    "term_en": "Inspection Certificate",
+    "term_jp": "検査証明書"
+  },
+  {
+    "id": 11290,
+    "term_en": "Institute Cargo Clauses",
+    "term_jp": "協会貨物約款"
+  },
+  {
+    "id": 11291,
+    "term_en": "Insurable Interest",
+    "term_jp": "被保険利益"
+  },
+  {
+    "id": 11292,
+    "term_en": "Insurance Policy",
+    "term_jp": "保険証券"
+  },
+  {
+    "id": 11293,
+    "term_en": "Insurance Premium",
+    "term_jp": "保険料"
+  },
+  {
+    "id": 11294,
+    "term_en": "Insured Amount",
+    "term_jp": "保険金額"
+  },
+  {
+    "id": 11295,
+    "term_en": "Inventory",
+    "term_jp": "在庫"
+  },
+  {
+    "id": 11296,
+    "term_en": "Invoice",
+    "term_jp": "送り状"
+  },
+  {
+    "id": 11297,
+    "term_en": "Irrevocable L/C",
+    "term_jp": "取消不能信用状"
+  },
+  {
+    "id": 11298,
+    "term_en": "Issuing Bank",
+    "term_jp": "信用状発行銀行"
+  },
+  {
+    "id": 11299,
+    "term_en": "Item",
+    "term_jp": "項目／品目"
+  },
+  {
+    "id": 11300,
+    "term_en": "Landed Quality Terms",
+    "term_jp": "陸揚品質条件"
+  }
+,
+  {
+    "id": 11301,
+    "term_en": "Landed Terms",
+    "term_jp": "陸揚条件"
+  },
+  {
+    "id": 11302,
+    "term_en": "Landed Weight Terms",
+    "term_jp": "陸揚重量条件"
+  },
+  {
+    "id": 11303,
+    "term_en": "Latest Date for Shipment",
+    "term_jp": "最終船積期限"
+  },
+  {
+    "id": 11304,
+    "term_en": "Less than Container Load (LCL)",
+    "term_jp": "混載貨物"
+  },
+  {
+    "id": 11305,
+    "term_en": "Letter of Credit (L/C)",
+    "term_jp": "信用状"
+  },
+  {
+    "id": 11306,
+    "term_en": "Letter of Guarantee (L/G)",
+    "term_jp": "保証状"
+  },
+  {
+    "id": 11307,
+    "term_en": "Letter of Indemnity (L/I)",
+    "term_jp": "保証状（補償状）"
+  },
+  {
+    "id": 11308,
+    "term_en": "Liner",
+    "term_jp": "定期船"
+  },
+  {
+    "id": 11309,
+    "term_en": "List Price",
+    "term_jp": "定価"
+  },
+  {
+    "id": 11310,
+    "term_en": "Loss",
+    "term_jp": "損失"
+  },
+  {
+    "id": 11311,
+    "term_en": "Manifest",
+    "term_jp": "船荷目録"
+  },
+  {
+    "id": 11312,
+    "term_en": "Marine Insurance",
+    "term_jp": "海上保険"
+  },
+  {
+    "id": 11313,
+    "term_en": "Market Price",
+    "term_jp": "市場価格"
+  },
+  {
+    "id": 11314,
+    "term_en": "Material",
+    "term_jp": "原料／資材"
+  },
+  {
+    "id": 11315,
+    "term_en": "Mate's Receipt (M/R)",
+    "term_jp": "本船受取証"
+  },
+  {
+    "id": 11316,
+    "term_en": "Maturity",
+    "term_jp": "満期／支払期日"
+  },
+  {
+    "id": 11317,
+    "term_en": "Measurement",
+    "term_jp": "寸法／容積"
+  },
+  {
+    "id": 11318,
+    "term_en": "Merchandise",
+    "term_jp": "商品"
+  },
+  {
+    "id": 11319,
+    "term_en": "More or Less Terms",
+    "term_jp": "増減数量条件"
+  },
+  {
+    "id": 11320,
+    "term_en": "Multimodal Transport",
+    "term_jp": "複合一貫輸送"
+  },
+  {
+    "id": 11321,
+    "term_en": "Negotiating Bank",
+    "term_jp": "買取銀行"
+  },
+  {
+    "id": 11322,
+    "term_en": "Negotiation",
+    "term_jp": "買い取り／交渉"
+  },
+  {
+    "id": 11323,
+    "term_en": "Net Weight (N/W)",
+    "term_jp": "正味重量"
+  },
+  {
+    "id": 11324,
+    "term_en": "Non-Delivery",
+    "term_jp": "不着"
+  },
+  {
+    "id": 11325,
+    "term_en": "Notifying Bank",
+    "term_jp": "通知銀行"
+  },
+  {
+    "id": 11326,
+    "term_en": "Notify Party",
+    "term_jp": "到着通知先"
+  },
+  {
+    "id": 11327,
+    "term_en": "NVOCC",
+    "term_jp": "利用運送事業者"
+  },
+  {
+    "id": 11328,
+    "term_en": "Ocean Freight",
+    "term_jp": "海上運賃"
+  },
+  {
+    "id": 11329,
+    "term_en": "Offer",
+    "term_jp": "申込み／オファー"
+  },
+  {
+    "id": 11330,
+    "term_en": "Offer subject to Prior Sale",
+    "term_jp": "先約優先条件付き申込み"
+  },
+  {
+    "id": 11331,
+    "term_en": "Offer subject to Seller's Final Confirmation",
+    "term_jp": "売主最終承認条件付き申込み"
+  },
+  {
+    "id": 11332,
+    "term_en": "Open L/C",
+    "term_jp": "買取銀行無指定信用状"
+  },
+  {
+    "id": 11333,
+    "term_en": "Open Cover",
+    "term_jp": "包括予定保険"
+  },
+  {
+    "id": 11334,
+    "term_en": "Open Policy",
+    "term_jp": "包括予定保険証券"
+  },
+  {
+    "id": 11335,
+    "term_en": "Order",
+    "term_jp": "注文"
+  },
+  {
+    "id": 11336,
+    "term_en": "Order B/L",
+    "term_jp": "指図式船荷証券"
+  },
+  {
+    "id": 11337,
+    "term_en": "Ordinary Transfer",
+    "term_jp": "普通送金"
+  },
+  {
+    "id": 11338,
+    "term_en": "Original",
+    "term_jp": "原本"
+  },
+  {
+    "id": 11339,
+    "term_en": "Packing List",
+    "term_jp": "梱包明細書"
+  },
+  {
+    "id": 11340,
+    "term_en": "Parcel Post",
+    "term_jp": "小包郵便"
+  },
+
+  {
+    "id": 11341,
+    "term_en": "Partial Shipment",
+    "term_jp": "分割船積み"
+  },
+  {
+    "id": 11342,
+    "term_en": "Particular Average",
+    "term_jp": "単独海損"
+  },
+  {
+    "id": 11343,
+    "term_en": "Partial Loss",
+    "term_jp": "部分損害"
+  },
+  {
+    "id": 11344,
+    "term_en": "Party",
+    "term_jp": "当事者"
+  },
+  {
+    "id": 11345,
+    "term_en": "Paying Bank",
+    "term_jp": "支払銀行"
+  },
+  {
+    "id": 11346,
+    "term_en": "Payment",
+    "term_jp": "支払い"
+  },
+  {
+    "id": 11347,
+    "term_en": "Postage",
+    "term_jp": "郵送料"
+  },
+  {
+    "id": 11348,
+    "term_en": "Post Receipt",
+    "term_jp": "郵便受領証"
+  },
+  {
+    "id": 11349,
+    "term_en": "Principal",
+    "term_jp": "委託者／本人"
+  },
+  {
+    "id": 11350,
+    "term_en": "Product Liability (PL)",
+    "term_jp": "製造物責任"
+  },
+  {
+    "id": 11351,
+    "term_en": "Profit",
+    "term_jp": "利益"
+  },
+  {
+    "id": 11352,
+    "term_en": "Proforma Invoice",
+    "term_jp": "見積送り状"
+  },
+  {
+    "id": 11353,
+    "term_en": "Promissory Note",
+    "term_jp": "約束手形"
+  },
+  {
+    "id": 11354,
+    "term_en": "Proposal",
+    "term_jp": "提案／勧誘"
+  },
+  {
+    "id": 11355,
+    "term_en": "Provisional Insurance",
+    "term_jp": "予定保険"
+  },
+  {
+    "id": 11356,
+    "term_en": "Purchase Order",
+    "term_jp": "発注書"
+  },
+  {
+    "id": 11357,
+    "term_en": "Quality",
+    "term_jp": "品質"
+  },
+  {
+    "id": 11358,
+    "term_en": "Quality Sample",
+    "term_jp": "品質見本"
+  },
+  {
+    "id": 11359,
+    "term_en": "Quantity",
+    "term_jp": "数量"
+  },
+  {
+    "id": 11360,
+    "term_en": "Quantity Discount",
+    "term_jp": "数量割引"
+  },
+  {
+    "id": 11361,
+    "term_en": "Reasonable Price",
+    "term_jp": "妥当な価格"
+  },
+  {
+    "id": 11362,
+    "term_en": "Receipt",
+    "term_jp": "受領書／領収証"
+  },
+  {
+    "id": 11363,
+    "term_en": "Received B/L",
+    "term_jp": "受取船荷証券"
+  },
+  {
+    "id": 11364,
+    "term_en": "Reference",
+    "term_jp": "照会／参照"
+  },
+  {
+    "id": 11365,
+    "term_en": "Replacement",
+    "term_jp": "代替／交換"
+  },
+  {
+    "id": 11366,
+    "term_en": "Restricted L/C",
+    "term_jp": "制限付き信用状"
+  },
+  {
+    "id": 11367,
+    "term_en": "Revolving L/C",
+    "term_jp": "回転信用状"
+  },
+  {
+    "id": 11368,
+    "term_en": "Sale by Grade or Type",
+    "term_jp": "規格売買"
+  },
+  {
+    "id": 11369,
+    "term_en": "Sale by Sample",
+    "term_jp": "見本売買"
+  },
+  {
+    "id": 11370,
+    "term_en": "Sale by Specification",
+    "term_jp": "仕様売買"
+  },
+  {
+    "id": 11371,
+    "term_en": "Sale by Standard",
+    "term_jp": "標準売買"
+  },
+  {
+    "id": 11372,
+    "term_en": "Sale by Trademark or Brand",
+    "term_jp": "商標売買"
+  },
+  {
+    "id": 11373,
+    "term_en": "Shed Delivery",
+    "term_jp": "総揚げ"
+  },
+  {
+    "id": 11374,
+    "term_en": "Shipped B/L",
+    "term_jp": "積込船荷証券"
+  },
+  {
+    "id": 11375,
+    "term_en": "Shipped Quality Terms",
+    "term_jp": "本船品質条件"
+  },
+  {
+    "id": 11376,
+    "term_en": "Shipped Weight Terms",
+    "term_jp": "本船重量条件"
+  },
+  {
+    "id": 11377,
+    "term_en": "Shipping Advice",
+    "term_jp": "船積通知"
+  },
+  {
+    "id": 11378,
+    "term_en": "Shipping Conference",
+    "term_jp": "海運同盟"
+  },
+  {
+    "id": 11379,
+    "term_en": "Shipping Mark",
+    "term_jp": "荷印"
+  },
+  {
+    "id": 11380,
+    "term_en": "Shipping Order (S/O)",
+    "term_jp": "船積指図書"
+  },
+
+  {
+    "id": 11381,
+    "term_en": "Shipside Delivery",
+    "term_jp": "自家取り（上屋渡し）"
+  },
+  {
+    "id": 11382,
+    "term_en": "Short Shipment",
+    "term_jp": "積送不足"
+  },
+  {
+    "id": 11383,
+    "term_en": "Specification(s)",
+    "term_jp": "仕様書"
+  },
+  {
+    "id": 11384,
+    "term_en": "Straight B/L",
+    "term_jp": "記名式船荷証券"
+  },
+  {
+    "id": 11385,
+    "term_en": "Supplier",
+    "term_jp": "供給者／仕入先"
+  },
+  {
+    "id": 11386,
+    "term_en": "Surcharge",
+    "term_jp": "割増料金"
+  },
+  {
+    "id": 11387,
+    "term_en": "Survey Report",
+    "term_jp": "検査報告書"
+  },
+  {
+    "id": 11388,
+    "term_en": "Third Party",
+    "term_jp": "第三者"
+  },
+  {
+    "id": 11389,
+    "term_en": "Time Bill (Usance Bill)",
+    "term_jp": "期限付き為替手形"
+  },
+  {
+    "id": 11390,
+    "term_en": "Time Bill Buying Rate",
+    "term_jp": "期限付き手形買相場"
+  },
+  {
+    "id": 11391,
+    "term_en": "Total Loss",
+    "term_jp": "全損"
+  },
+  {
+    "id": 11392,
+    "term_en": "Trade Terms",
+    "term_jp": "貿易条件"
+  },
+  {
+    "id": 11393,
+    "term_en": "Tramper",
+    "term_jp": "不定期船"
+  },
+  {
+    "id": 11394,
+    "term_en": "Transferable L/C",
+    "term_jp": "譲渡可能信用状"
+  },
+  {
+    "id": 11395,
+    "term_en": "Transshipment",
+    "term_jp": "積替え"
+  },
+  {
+    "id": 11396,
+    "term_en": "Trust Receipt (T/R)",
+    "term_jp": "輸入担保荷物保管証"
+  },
+  {
+    "id": 11397,
+    "term_en": "T/T (Telegraphic Transfer)",
+    "term_jp": "電信送金"
+  },
+  {
+    "id": 11398,
+    "term_en": "TTB (Telegraphic Transfer Buying Rate)",
+    "term_jp": "電信買相場"
+  },
+  {
+    "id": 11399,
+    "term_en": "TTS (Telegraphic Transfer Selling Rate)",
+    "term_jp": "電信売相場"
+  },
+  {
+    "id": 11400,
+    "term_en": "Unit Price",
+    "term_jp": "単価"
+  },
+  {
+    "id": 11401,
+    "term_en": "Validity",
+    "term_jp": "有効性／有効期間"
+  },
+  {
+    "id": 11402,
+    "term_en": "Vanning",
+    "term_jp": "バン詰め（コンテナ詰め）"
+  },
+  {
+    "id": 11403,
+    "term_en": "WA (With Average)",
+    "term_jp": "分損担保条件"
+  },
+  {
+    "id": 11404,
+    "term_en": "Warehouse",
+    "term_jp": "倉庫"
+  },
+  {
+    "id": 11405,
+    "term_en": "Warranty",
+    "term_jp": "保証"
+  },
+  {
+    "id": 11406,
+    "term_en": "Weight",
+    "term_jp": "重量"
+  },
+  {
+    "id": 11407,
+    "term_en": "Wholesale Price",
+    "term_jp": "卸売価格"
+  },
+  {
+    "id": 11408,
+    "term_en": "World Trade Organization (WTO)",
+    "term_jp": "世界貿易機関"
+  },
+  {
+    "id": 11409,
+    "term_en": "Air Freight",
+    "term_jp": "航空運賃"
+  },
+  {
+    "id": 11410,
+    "term_en": "Air Cargo",
+    "term_jp": "航空貨物"
+  },
+  {
+    "id": 11411,
+    "term_en": "Arrival",
+    "term_jp": "到着"
+  },
+  {
+    "id": 11412,
+    "term_en": "Departure",
+    "term_jp": "出発"
+  },
+  {
+    "id": 11413,
+    "term_en": "Warehouse Receipt",
+    "term_jp": "倉庫証券"
+  },
+  {
+    "id": 11414,
+    "term_en": "Dispatcher",
+    "term_jp": "配車担当／発送係"
+  },
+  {
+    "id": 11415,
+    "term_en": "Carrier",
+    "term_jp": "運送人"
+  },
+  {
+    "id": 11416,
+    "term_en": "Stevedore",
+    "term_jp": "荷役作業員"
+  },
+  {
+    "id": 11417,
+    "term_en": "Customs",
+    "term_jp": "税関"
+  },
+  {
+    "id": 11418,
+    "term_en": "Permit",
+    "term_jp": "許可証"
+  },
+  {
+    "id": 11419,
+    "term_en": "Importer",
+    "term_jp": "輸入者"
+  },
+  {
+    "id": 11420,
+    "term_en": "Exporter",
+    "term_jp": "輸出者"
+  },
+
+  {
+    "id": 11421,
+    "term_en": "Exporter Declaration",
+    "term_jp": "輸出者申告書"
+  },
+  {
+    "id": 11422,
+    "term_en": "Importer Declaration",
+    "term_jp": "輸入者申告書"
+  },
+  {
+    "id": 11423,
+    "term_en": "Customs Inspection",
+    "term_jp": "税関検査"
+  },
+  {
+    "id": 11424,
+    "term_en": "Freight Forwarding",
+    "term_jp": "貨物取扱"
+  },
+  {
+    "id": 11425,
+    "term_en": "Shipment",
+    "term_jp": "船積み"
+  },
+  {
+    "id": 11426,
+    "term_en": "Cargo Receipt",
+    "term_jp": "貨物受領書"
+  },
+  {
+    "id": 11427,
+    "term_en": "Cargo Insurance",
+    "term_jp": "貨物保険"
+  },
+  {
+    "id": 11428,
+    "term_en": "Loading Port",
+    "term_jp": "積出港"
+  },
+  {
+    "id": 11429,
+    "term_en": "Destination Port",
+    "term_jp": "仕向地港"
+  },
+  {
+    "id": 11430,
+    "term_en": "Import Tax",
+    "term_jp": "輸入税"
+  },
+  {
+    "id": 11431,
+    "term_en": "Export Tax",
+    "term_jp": "輸出税"
+  },
+  {
+    "id": 11432,
+    "term_en": "Sailing Schedule",
+    "term_jp": "船舶スケジュール"
+  },
+  {
+    "id": 11433,
+    "term_en": "Air Way",
+    "term_jp": "航空路"
+  },
+  {
+    "id": 11434,
+    "term_en": "Booking Number",
+    "term_jp": "予約番号"
+  },
+  {
+    "id": 11435,
+    "term_en": "Commercial Value",
+    "term_jp": "商業価値"
+  },
+  {
+    "id": 11436,
+    "term_en": "Customs Valuation",
+    "term_jp": "税関評価"
+  },
+  {
+    "id": 11437,
+    "term_en": "Cargo Manifest",
+    "term_jp": "貨物目録"
+  },
+  {
+    "id": 11438,
+    "term_en": "Packing Material",
+    "term_jp": "梱包材"
+  },
+  {
+    "id": 11439,
+    "term_en": "Seal Number",
+    "term_jp": "封印番号"
+  },
+  {
+    "id": 11440,
+    "term_en": "Loading List",
+    "term_jp": "積込明細書"
+  },
+  {
+    "id": 11441,
+    "term_en": "Cargo Damage",
+    "term_jp": "貨物損傷"
+  },
+  {
+    "id": 11442,
+    "term_en": "Insurance Claim",
+    "term_jp": "保険請求"
+  },
+  {
+    "id": 11443,
+    "term_en": "Overweight Charge",
+    "term_jp": "重量超過料金"
+  },
+  {
+    "id": 11444,
+    "term_en": "Customs Release",
+    "term_jp": "税関放出"
+  },
+  {
+    "id": 11445,
+    "term_en": "Handling Fee",
+    "term_jp": "取扱手数料"
+  },
+  {
+    "id": 11446,
+    "term_en": "Freight Invoice",
+    "term_jp": "運賃請求書"
+  },
+  {
+    "id": 11447,
+    "term_en": "Trade Contract",
+    "term_jp": "貿易契約"
+  },
+  {
+    "id": 11448,
+    "term_en": "Risk Management",
+    "term_jp": "リスク管理"
+  },
+  {
+    "id": 11449,
+    "term_en": "Storage Fee",
+    "term_jp": "保管料"
+  },
+  {
+    "id": 11450,
+    "term_en": "Container Yard (CY)",
+    "term_jp": "コンテナヤード"
+  },
+  {
+    "id": 11451,
+    "term_en": "Container Freight Station (CFS)",
+    "term_jp": "コンテナフレイトステーション"
+  },
+  {
+    "id": 11452,
+    "term_en": "Transport Document",
+    "term_jp": "輸送書類"
+  },
+  {
+    "id": 11453,
+    "term_en": "Handover",
+    "term_jp": "引き渡し"
+  },
+  {
+    "id": 11454,
+    "term_en": "Buyer",
+    "term_jp": "買い手"
+  },
+  {
+    "id": 11455,
+    "term_en": "Seller",
+    "term_jp": "売り手"
+  },
+  {
+    "id": 11456,
+    "term_en": "Freight Charge",
+    "term_jp": "運賃"
+  },
+  {
+    "id": 11457,
+    "term_en": "Shipment Number",
+    "term_jp": "船積番号"
+  },
+  {
+    "id": 11458,
+    "term_en": "Cargo Tracking",
+    "term_jp": "貨物追跡"
+  },
+  {
+    "id": 11459,
+    "term_en": "Freight Agent",
+    "term_jp": "運送代理人"
+  },
+  {
+    "id": 11460,
+    "term_en": "Loading Fee",
+    "term_jp": "積込料"
+  },
+  {
+    "id": 11461,
+    "term_en": "Unloading Fee",
+    "term_jp": "荷卸し料"
+  },
+  {
+    "id": 11462,
+    "term_en": "Marine Cargo",
+    "term_jp": "海上貨物"
+  },
+  {
+    "id": 11463,
+    "term_en": "Air Cargo Terminal",
+    "term_jp": "航空貨物ターミナル"
+  },
+  {
+    "id": 11464,
+    "term_en": "Port Authority",
+    "term_jp": "港湾局"
+  },
+  {
+    "id": 11465,
+    "term_en": "Cargo Release",
+    "term_jp": "貨物引渡し"
+  },
+  {
+    "id": 11466,
+    "term_en": "Export Declaration",
+    "term_jp": "輸出申告"
+  },
+  {
+    "id": 11467,
+    "term_en": "Import Declaration",
+    "term_jp": "輸入申告"
+  },
+  {
+    "id": 11468,
+    "term_en": "Bonded Warehouse",
+    "term_jp": "保税倉庫"
+  },
+  {
+    "id": 11469,
+    "term_en": "Tariff",
+    "term_jp": "関税率"
+  },
+  {
+    "id": 11470,
+    "term_en": "Trade Barrier",
+    "term_jp": "貿易障壁"
+  },
+  {
+    "id": 11471,
+    "term_en": "Logistics",
+    "term_jp": "物流"
+  },
+  {
+    "id": 11472,
+    "term_en": "Supply Chain",
+    "term_jp": "サプライチェーン"
+  },
+  {
+    "id": 11473,
+    "term_en": "Distribution Center",
+    "term_jp": "物流センター"
+  },
+  {
+    "id": 11474,
+    "term_en": "Container Ship",
+    "term_jp": "コンテナ船"
+  },
+  {
+    "id": 11475,
+    "term_en": "Cargo Handling",
+    "term_jp": "貨物取扱"
+  },
+  {
+    "id": 11476,
+    "term_en": "Lead Time",
+    "term_jp": "リードタイム"
+  },
+  {
+    "id": 11477,
+    "term_en": "Trade Invoice",
+    "term_jp": "貿易インボイス"
+  },
+  {
+    "id": 11478,
+    "term_en": "Quotation",
+    "term_jp": "見積書"
+  },
+  {
+    "id": 11479,
+    "term_en": "Shipment Date",
+    "term_jp": "船積日"
+  },
+  {
+    "id": 11480,
+    "term_en": "Arrival Date",
+    "term_jp": "到着日"
+  },
+  {
+    "id": 11481,
+    "term_en": "Export Permit Number",
+    "term_jp": "輸出許可番号"
+  },
+  {
+    "id": 11482,
+    "term_en": "Import Permit Number",
+    "term_jp": "輸入許可番号"
+  },
+  {
+    "id": 11483,
+    "term_en": "Container Number",
+    "term_jp": "コンテナ番号"
+  },
+  {
+    "id": 11484,
+    "term_en": "Customs Form",
+    "term_jp": "税関書類"
+  },
+  {
+    "id": 11485,
+    "term_en": "Declaration Form",
+    "term_jp": "申告書"
+  },
+  {
+    "id": 11486,
+    "term_en": "Truck Carrier",
+    "term_jp": "トラック運送会社"
+  },
+  {
+    "id": 11487,
+    "term_en": "Rail Carrier",
+    "term_jp": "鉄道運送会社"
+  },
+  {
+    "id": 11488,
+    "term_en": "Shipping Line",
+    "term_jp": "船会社"
+  },
+  {
+    "id": 11489,
+    "term_en": "Port Charge",
+    "term_jp": "港湾使用料"
+  },
+  {
+    "id": 11490,
+    "term_en": "Harbor Fee",
+    "term_jp": "港湾料金"
+  },
+  {
+    "id": 11491,
+    "term_en": "Freight Negotiation",
+    "term_jp": "運賃交渉"
+  },
+  {
+    "id": 11492,
+    "term_en": "Delivery Deadline",
+    "term_jp": "納期"
+  },
+  {
+    "id": 11493,
+    "term_en": "Shipment Notice",
+    "term_jp": "出荷通知"
+  },
+  {
+    "id": 11494,
+    "term_en": "Sales Contract",
+    "term_jp": "売買契約"
+  },
+  {
+    "id": 11495,
+    "term_en": "Escrow",
+    "term_jp": "エスクロー（第三者預託）"
+  },
+  {
+    "id": 11496,
+    "term_en": "Inspection Fee",
+    "term_jp": "検査費用"
+  },
+  {
+    "id": 11497,
+    "term_en": "Hazardous Cargo",
+    "term_jp": "危険貨物"
+  },
+  {
+    "id": 11498,
+    "term_en": "Commercial Offer",
+    "term_jp": "商業オファー"
+  },
+  {
+    "id": 11499,
+    "term_en": "Sales Lead",
+    "term_jp": "見込み客"
+  },
+  {
+    "id": 11500,
+    "term_en": "Business Inquiry",
+    "term_jp": "商談問い合わせ"
+  }
+]

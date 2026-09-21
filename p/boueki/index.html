@@ -1,47 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
   <base href="/boueki/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="貿易実務検定C級の模擬試験・大問別演習が無料でできるWebアプリ。本番形式で繰り返し練習して合格を目指せる。">
-  <meta name="keywords" content="貿易実務検定,C級,模擬試験,対策,無料">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- iOS meta tags & icons -->
+  <!-- Primary Meta -->
+  <title>貿易実務検定C級 無料模擬試験アプリ | SEADICE</title>
+  <meta name="description" content="貿易実務検定C級の模擬試験・大問別演習が無料でできるWebアプリ。本番形式で繰り返し練習して合格を目指そう。">
+  <meta name="keywords" content="貿易実務検定, 貿易実務検定C級, 模擬試験, 模擬テスト, 過去問, 対策, 無料, 貿易実務, 検定試験">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://seadice.win/apps/boueki/">
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="ja" href="https://seadice.win/apps/boueki/">
+  <link rel="alternate" hreflang="x-default" href="https://seadice.win/apps/boueki/">
+
+  <!-- OGP -->
+  <meta property="og:type"        content="website">
+  <meta property="og:site_name"   content="SEADICE">
+  <meta property="og:title"       content="貿易実務検定C級 無料模擬試験アプリ">
+  <meta property="og:description" content="貿易実務検定C級の模擬試験・大問別演習が無料でできるWebアプリ。本番形式で繰り返し練習して合格を目指そう。">
+  <meta property="og:image"       content="https://seadice.win/icons/Icon-512.png">
+  <meta property="og:url"         content="https://seadice.win/apps/boueki/">
+  <meta property="og:locale"      content="ja_JP">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="貿易実務検定C級 無料模擬試験アプリ">
+  <meta name="twitter:description" content="貿易実務検定C級の模擬試験・大問別演習が無料でできるWebアプリ。">
+  <meta name="twitter:image"       content="https://seadice.win/icons/Icon-512.png">
+
+  <!-- PWA / iOS -->
+  <meta name="theme-color" content="#10A37F">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="貿易実務検定C級対策">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="貿易検定C級">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png">
 
-  <title>貿易実務検定C級対策 - 無料模擬試験Webアプリ</title>
+  <!-- Manifest -->
   <link rel="manifest" href="manifest.json">
+
+  <!-- JSON-LD 構造化データ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "貿易実務検定C級 模擬試験アプリ",
+    "url": "https://seadice.win/apps/boueki/",
+    "description": "貿易実務検定C級の模擬試験・大問別演習が無料でできるWebアプリ。本番形式で繰り返し練習して合格を目指せます。",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "JPY"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "SEADICE",
+      "url": "https://seadice.win"
+    },
+    "keywords": "貿易実務検定, C級, 模擬試験, 無料"
+  }
+  </script>
+
+  <!-- NotoSansJP: ブラウザに先読みさせて文字化けを防ぐ -->
+  <link rel="preload" href="fonts/NotoSansJP-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <style>
+    body { background-color: #0a0a0a; margin: 0; }
+    @font-face {
+      font-family: 'NotoSansJP';
+      src: url('fonts/NotoSansJP-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-display: block;
+    }
+    @font-face {
+      font-family: 'NotoSansJP';
+      src: url('fonts/NotoSansJP-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-display: block;
+    }
+    @font-face {
+      font-family: 'NotoSansJP';
+      src: url('fonts/NotoSansJP-Bold.ttf') format('truetype');
+      font-weight: 700;
+      font-display: block;
+    }
+    body { font-family: 'NotoSansJP', sans-serif; }
+  </style>
 </head>
 <body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
-
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
   <script src="flutter_bootstrap.js" async></script>
+
+  <!-- クローラー向けコンテンツ -->
+  <noscript>
+    <style>
+      body { background: #0a0a0a; color: #e0e0e0; font-family: sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; }
+      h1 { color: #10A37F; } h2 { color: #38BDF8; border-bottom: 1px solid #222; padding-bottom: 8px; }
+      a { color: #10A37F; } p { line-height: 1.8; color: #9ca3af; }
+    </style>
+    <h1>貿易実務検定C級 無料模擬試験アプリ</h1>
+    <p>貿易実務検定C級の模擬試験・大問別演習が無料でできるWebアプリです。<br>
+    本番形式で繰り返し練習して合格を目指しましょう。</p>
+    <h2>特徴</h2>
+    <p>・本番形式の模擬試験<br>・大問別の演習モード<br>・無料で何度でも使える<br>・ブラウザだけで動作</p>
+    <p><a href="https://seadice.win">← SEADICE トップへ</a></p>
+    <p><small>このアプリはJavaScriptが必要です。</small></p>
+  </noscript>
 </body>
 </html>
