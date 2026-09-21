@@ -2,6 +2,10 @@
 
 SEADICEサイト用に、Claude APIを使ったAIアプリを1本生成してサイトに追加する（1ニッチ = 1アプリ構成。詳細はStep 1参照）。
 
+> **必読（このスキルのどのステップを実行する前にも毎回）**: `/Users/hidenori/Developer/SEADICE/CLAUDE.md` を必ず読み込んでから作業を始めること。ランディングページ（HTML）を書くときだけでなく、Flutterアプリのコード生成、App Storeメタデータ作成、デザイン差別化の判断など、このスキルの**全ステップ**でCLAUDE.mdの規約（フォント、絵文字禁止、設定画面の標準構成、AI利用回数制限、App Store審査対策、キャッシュ設定など）に従う。海外向け日本文化アプリなど、他の企画メモ（`海外向け日本文化アプリ方針`等）に沿って作る場合も、CLAUDE.mdの規約が土台として優先される。
+>
+> **⚠️ 広告は一切実装しない（重要・頻出ミス）**: このファイル内には旧方針時代のAdMob関連の記述（`google_mobile_ads`依存、インタースティシャル/リワード広告、「広告を見る」ボタン等）が随所に残っているが、**CLAUDE.mdの「広告は一切実装しない」方針（2026-07-30〜、AdMobアカウント停止のため）が常に優先される。** 以下に出てくるAdMob関連の記述はすべて無視し、広告コード・広告文言・AdMob依存を一切追加しないこと。AI利用上限に達した場合は「本日の利用回数の上限に達しました。明日またお試しください」という広告なしメッセージのみを表示する（CLAUDE.mdの「Claude APIを使うアプリの利用回数制限」参照）。2026-08-08、この矛盾に気づかず新規アプリにAdMobを実装してしまいユーザー指摘で修正した実例があるため、繰り返さないこと。
+
 ## Flutterアプリのデザイン差別化（Guideline 4.3(a) スパム対策・必須）
 
 過去に生成したアプリが全て同じ配色・同じナビゲーション構造だったため、Appleから「解約済み開発者アカウントのアプリと類似している」という理由でスパム判定を受け、審査落ちしたことがある。**新規に生成するアプリは、過去に生成した他ニッチのアプリと配色・ナビゲーション構造を重複させない**こと。
@@ -19,11 +23,17 @@ SEADICEサイト用に、Claude APIを使ったAIアプリを1本生成してサ
 
 > 使い切ったパレットは**新規アプリでは使用禁止**。上記以外の新しい配色を自分で考案してもよい。高級感を出したい場合は`LinearGradient`でアクセント2色をグラデーションにするとよい（ボタン・選択中タブなどに適用）。
 
+**配色はアプリのジャンル・テーマに合わせて自由に考案してよい**（表の使い回しに縛られる必要はない）。スパム対策上の「他アプリと重複させない」制約さえ守れば、そのアプリの世界観に合った配色を優先する。例:
+- 夢占い・夜がテーマ → 深紺・ラベンダーなど「夜/月光」を感じる配色（例: `yumetoki`は`#0F1229`背景 + `#B4A7E8`アクセント）
+- 性格診断・軽やかな印象にしたい → 明るいクリーム背景 + パステル系アクセント（例: `mbti_compass`は`#F7F5FB`背景 + `#7C6FF0`アクセント）
+- ブラック心理学・ミステリアスな印象 → ダーク基調 + 単色の強いアクセント
+新規アプリを作る際は、まず「このアプリのテーマ・雰囲気は何か」を考えてから配色を決め、その後に他アプリとの重複がないか確認する、という順序でよい。
+
 **ナビゲーション構造・カードレイアウトも過去のアプリと変える**：
 - ナビゲーション: `BottomNavigationBar` / 上部`TabBar` / 角丸のピル型セグメントコントロール（`AnimatedContainer`で自作）
 - レイアウト: 縦一列の`ListView` / 2列の`GridView` / 画像・写真中心の大きなカード
 
-過去に生成したアプリの構成を`apps-pipeline/apps/`で確認し、同じ組み合わせを避けること。
+過去に生成したアプリの構成は各ジャンルフォルダ（`~/Developer/{ジャンル名}系/` 配下、例: `観葉植物系/`）で確認し、同じ組み合わせを避けること。ジャンルフォルダの一覧は事前にユーザーに確認するか、`ls ~/Developer/` で `系` のつくフォルダを探す。
 
 ## Step 0: ジャンル・キーワードの自動選定
 
@@ -50,6 +60,8 @@ python3 keyword_research.py keywords.txt
 この調査結果をもとにニッチを1つ選定し、スラッグ（英数字・ハイフンのみ）を決める。例: `hiking`, `study-timer`, `baby-log`
 
 ## Step 1: ニッチ定義
+
+> **企画コンセプトはCLAUDE.mdの「新規アプリの企画方針（Before→After型ニッチ）」に従うこと（2026-08-08〜）。** ジャンル名や学術用語をそのままアプリコンセプトにせず、「〇〇な自分から△△な自分になりたい」という平易な対比に翻訳してから企画する。
 
 **1個のアプリのみを定義する**（方針変更: 2026年7月〜、AI機能を持たないアプリはリリースしない）：
 - app: **Claude APIを使ったAIアプリ**（ユーザーの具体的な悩みをAIが解決するもの）。写真・テキスト入力など、そのニッチに合った入力形式でAIに投げ、具体的なアドバイス・診断・提案を返す
@@ -78,6 +90,8 @@ App Store登録用テキストは**まず日本語のみ**生成する（多言�
 
 CLAUDE.mdを必ず読んでからHTMLを書く。
 
+> **海外向けアプリ（アプリ内UIが英語、またはApp Storeの主言語がEnglish (U.S.)のアプリ）の場合、`p/tools/{slug}/`・`p/apps/{slug}/`・`p/privacy/{slug}/` の3ページとも `lang="en"` で全文英語にする。** 日本語を混在させない（title・meta description・見出し・本文すべて）。SEADICEサイト全体の既定言語は日本語だが、これは個別ページ単位で決めるものであり、海外ユーザーやApple審査官が読むページに日本語が残っていると信頼性を損なう。過去に `yokai-mirror`・`omikuji-zodiac` で日本語ページのまま放置してしまった反省から、必ずこのルールを最初から適用すること。プライバシーポリシーは特に重要（App Store審査官が必ず開く）。
+
 ページ構成：
 1. Hero: アプリ名 + サブタイトル + ターゲットユーザー説明
 2. 課題セクション: このニッチが抱える問題
@@ -100,7 +114,7 @@ CLAUDE.mdを必ず読んでからHTMLを書く。
 以下のセクションを含める：
 
 **Section 1: Hero**
-アプリ名（h1）、サブタイトル、「App Store近日公開」バッジ、プライバシーポリシーリンク
+アプリアイコン画像（`p/icons/{slug}.webp`、56〜80px角丸）、アプリ名（h1）、サブタイトル、「App Store近日公開」バッジ、プライバシーポリシーリンク
 
 **Section 2: App Storeメタデータ（そのままコピペできる形式）**
 - 名前（30字以内）
@@ -111,7 +125,7 @@ CLAUDE.mdを必ず読んでからHTMLを書く。
 - 概要（500〜1000字）
 - キーワード（100字以内）
 
-**Section 3: 機能一覧**（5つのカードグリッド）
+**Section 3: 機能一覧**（5つのカードグリッド。各カードにインラインSVGの小アイコンを添える。番号だけの無機質な羅列にしない）
 
 **Section 4: 広告について**（AdMob バナー・インタースティシャル・リワード。AI診断の1日利用回数制限とリワード広告での追加解放についても明記）
 
@@ -125,6 +139,16 @@ CLAUDE.mdを必ず読んでからHTMLを書く。
 - canonical: `https://seadice.win/apps/{slug}/`
 - OGP・JSON-LD（SoftwareApplication + BreadcrumbList）
 - デザイン: SEADICEブランドカラーで統一、絵文字禁止
+
+### 見た目の強化ルール（必須）
+
+過去生成分は「App Storeメタデータの無機質な一覧」で終わっていたため、以下を必ず加える：
+
+- **アプリアイコン画像をHero上部に表示**: `p/icons/{slug}.webp`（アプリのApp Icon 1024×1024から`cwebp -q 85`で変換して配置）。`width="72" height="72"` を指定しレイアウトシフトを防ぐ
+- **メタ情報バッジ**: `.badge`（App Store近日公開）に加えて、カテゴリ・対応OSなど小さなピル型バッジを横並びで添える（`display:inline-flex;gap:8px`）
+- **機能カードにアイコン**: `.feature-num`（01, 02...の連番）だけでなく、機能内容に合ったインラインSVG（`<svg width="20" height="20">`程度、`stroke="var(--accent)"`）をカード左上に置く
+- **セクション見出しの下線をグラデーションに**: `h2`に`border-bottom`を付ける場合は`linear-gradient(90deg,var(--accent),var(--accent2))`を使う（単色下線は禁止ではないが、グラデーションを優先する）
+- **App Store公開後のCTAボタン**: 公開前は実装不要。審査通過後にユーザーから「〇〇審査通った」と連絡があったタイミングで、バッジ更新と合わせて「App Storeで見る」ボタン（`https://apps.apple.com/app/id{App Store ID}`）を目立つ位置（Hero直下）に追加する（詳細は `CLAUDE.md` の「新規アプリを Web に追加するときのチェックリスト」5番を参照）
 
 ## Step 4: プライバシーポリシーページ生成
 
@@ -150,7 +174,9 @@ CLAUDE.mdを必ず読んでからHTMLを書く。
 
 ## Step 6: Flutterアプリスケルトン生成
 
-`/Users/hidenori/Developer/apps-pipeline/apps/{slug}/` に以下を作成する（1ニッチ1アプリなので`_app1`等のサフィックスは付けない）。
+> `~/Developer/apps-pipeline`（自動生成パイプライン）は2026-07-08に廃止済み。以後はジャンル別フォルダで手動管理する。
+
+`~/Developer/{ジャンル名}系/{slug}/` に以下を作成する（1ニッチ1アプリなので`_app1`等のサフィックスは付けない）。ジャンル名はニッチの内容から決める（例: 観葉植物診断なら`観葉植物系`）。該当ジャンルフォルダが無ければ `mkdir` で新規作成する。既存ジャンルフォルダの一覧はユーザーに確認するか `ls ~/Developer/` で `系` のつくフォルダを探して重複を避ける。
 
 **pubspec.yaml**:
 ```yaml
@@ -189,9 +215,9 @@ assets/i18n/
   ja.json
 ```
 
-> **開発中はja.jsonのみを更新する。** 機能追加・修正のたびにja/en両方を訳すのはトークンの無駄で、開発中は仕様も頻繁に変わるため二度手間になる。
-> en.jsonは**リリース直前に1回だけ**、ja.jsonの最終版から一括生成する（Step 6.5参照）。
-> 多言語対応（10言語）は過去にやっていたが、翻訳ファイルの同期コストが高く運用しきれないため廃止した。日英2言語に絞る。
+> **開発中はja.jsonのみを更新する。** 機能追加・修正のたびに全言語を訳すのはトークンの無駄で、開発中は仕様も頻繁に変わるため二度手間になる。
+> 残り9言語（en, zh-Hans, zh-Hant, ko, fr, de, es, it, pt）は**リリース直前に1回だけ**、ja.jsonの最終版から一括生成する（Step 6.5参照）。
+> 多言語対応は2026-07〜08頃に翻訳ファイルの同期コストを理由に日英2言語へ縮小していたが、2026-08-02に方針転換し**App Store主要市場をカバーする10言語（ja, en, zh-Hans, zh-Hant, ko, fr, de, es, it, pt）に戻した**。翻訳自体はリリース直前の一括生成に限定することで同期コストを抑える。
 > 1ニッチ1アプリなので、このアプリのmain.dartで使うキーを決めてから書けばよい（他アプリとキーを共有する必要はない）。
 
 共通で必要なキー：
@@ -232,7 +258,7 @@ assets/i18n/
 // main.dartの上部に定義
 class L {
   static Map<String, dynamic> _strings = {};
-  static final _supported = ['ja','en'];
+  static final _supported = ['ja','en','zh-Hans','zh-Hant','ko','fr','de','es','it','pt'];
 
   static Future<void> load(String code) async {
     final key = _supported.contains(code) ? code : 'en';
@@ -254,19 +280,17 @@ if (savedLang != null) {
 }
 ```
 
-> `_supported`が`['ja','en']`のままだと、en.jsonがまだ存在しない開発中にロケールが日本語以外の実機・シミュレーターで起動するとクラッシュする。**開発中は`_supported = ['ja']`にしておき、Step 6.5でen.jsonを生成するタイミングで`['ja','en']`に戻す。**
+> `_supported`が10言語のままだと、他言語のjsonがまだ存在しない開発中にロケールが日本語以外の実機・シミュレーターで起動するとクラッシュする。**開発中は`_supported = ['ja']`にしておき、Step 6.6で全言語jsonを生成するタイミングで10言語構成に戻す。**
 
 **lib/main.dart**: 動くFlutterアプリを実装する。
 - MaterialApp + ダークテーマ、絵文字禁止
 - UIテキストはすべて `L.t('key')` で参照（ハードコード禁止）
 - BottomNavigation（**4タブ**: アプリ内容に合わせた機能3つ + 最後のタブに「設定」）
 - NotoSansJPフォントフォールバック
-- AdMob（テストID使用）:
+- AdMob（テストID使用、**バナー広告は実装しない**）:
   - App ID: `ca-app-pub-3940256099942544~1458002511`
-  - バナー: `ca-app-pub-3940256099942544/2934735716`
   - インタースティシャル: `ca-app-pub-3940256099942544/4411468910`
   - リワード: `ca-app-pub-3940256099942544/1712485313`
-- バナー広告をメイン画面下部に常時表示
 - インタースティシャルをAI診断実行等の適切なタイミングで表示（表示間隔は最低30秒以上空ける。連続表示はリジェクト原因になる）
 - リワードを「広告を見る」ボタンで追加AI診断回数を解放（下記「AI利用回数の制限」参照）
 - `main()`で必ず`WidgetsFlutterBinding.ensureInitialized()`を呼ぶ
@@ -330,7 +354,7 @@ class SettingsPage extends StatelessWidget {
   ```
   > 過去に `seadice.home@gmail.com` を使っていたが `hi@seadice.win` に統一した。新規アプリは必ず新しい方を使う。
 - **広告について**: AdMobのテスト広告が表示されている旨を説明する `Text` ウィジェット
-- **言語選択**: DropdownButtonまたはListTileで日本語・英語の2言語から選択し `SharedPreferences` に保存、即座にUIに反映
+- **言語選択**: DropdownButtonまたはListTileで対応10言語（日本語・英語・簡体字中国語・繁体字中国語・韓国語・フランス語・ドイツ語・スペイン語・イタリア語・ポルトガル語）から選択し `SharedPreferences` に保存、即座にUIに反映
 
 ルール：
 - `Scaffold` + `ListView` でシンプルに実装する
@@ -371,7 +395,7 @@ Claude APIは呼び出しごとに課金が発生するため、無制限に使�
 **flutter create でプロジェクト初期化とBundle ID設定**:
 
 ```bash
-cd /Users/hidenori/Developer/apps-pipeline/apps/{slug}
+cd ~/Developer/{ジャンル名}系/{slug}
 flutter create --org win.seadice --project-name {slug} --platforms ios,android,web . --quiet
 ```
 
@@ -406,11 +430,12 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
     target.build_configurations.each do |config|
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
     end
   end
 end
 ```
+> **`15.0`を使うこと（`14.0`は使わない、2026-08-09〜）**。Appleは2027年春以降、`MinimumOSVersion`が15.0未満のアプリのアップロード・審査提出を受け付けなくなる（`ITMS-90068`警告）。`14.0`のまま出したアプリは将来ビルドを出し直す必要が生じるため、最初から`15.0`にしておく。Xcodeプロジェクト側（`ios/Runner.xcodeproj`）の`IPHONEOS_DEPLOYMENT_TARGET`も同様に`15.0`にする（`flutter create`直後のデフォルトが古い場合は`Runner.xcodeproj/project.pbxproj`内の該当行、または`ios/Flutter/AppFrameworkInfo.plist`の`MinimumOSVersion`も確認する）。
 
 NotoSansJPフォントをコピー：
 ```bash
@@ -444,16 +469,33 @@ sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 
 **README.md**: アプリ概要・ターゲット・機能・マネタイズ（AdMob）を記載。
 
-## Step 6.5: 英語翻訳の一括生成（リリース直前・1回だけ）
+## Step 6.5: 機能ブレインストーム→実装ループ（3周・必須）
+
+Flutterアプリのスケルトン（Step 6）が動く状態になったら、リリース前に必ず3周の機能ブレインストーム→実装ループを行う。スキップ禁止。
+
+各周のやり方（**目的はコーディングの質を上げること**。機能を増やすこと自体がゴールではない）：
+1. 現在のアプリ（`lib/main.dart`・機能一覧）を読み、(a) 追加すると良い機能、(b) バグ・雑な実装・CLAUDE.md規約からのズレ、の両方を2〜3個ずつ洗い出す
+2. **その周で浮かんだ候補は1つに絞らず全部実装・修正する**（明らかに矛盾・重複する候補だけ統合または良い方を残す）。実装は必ず `/Users/hidenori/Developer/SEADICE/CLAUDE.md` の規約（絵文字禁止、フォント、設定画面の標準構成、AI利用回数制限、`Color.withOpacity()`禁止など）に従う。冒頭の「必読」の対象はStep 6.5も含む
+3. `flutter analyze` でエラーがないことを確認する
+
+**3周目は追加でUIチェックを行う**: ターゲットユーザー（Step 1で定義した層）に対して、配色・フォントの太さ/サイズ・アイコン選定・トーン&マナーが合っているかを見直す。若年層向けなのに地味すぎる、シニア向けなのに文字が小さい、シリアスなテーマなのにポップすぎる配色、といったズレがあれば3周目のうちに修正する（`gacha.md`冒頭のデザイン差別化ルールとは別軸で、他アプリとの重複ではなく「そのアプリ単体としてターゲットに刺さっているか」を見る）。
+
+各周の終わりに、**アプリアイコン未定は減点対象にせず**、それ以外の完成度（コードの正しさ・堅牢性・機能の充実度・UI/UX・CLAUDE.md規約準拠）を10点満点で自己採点する。満点でなければ、減点理由を次周で埋めるべき課題として扱う。
+
+3周終えたら、各周で何を追加・修正したか・各周の自己採点を箇条書きで報告する。この工程はコード生成の中で自動的に行うものであり、ユーザーに毎周確認を取る必要はない。
+
+> Why: ユメトキアプリでこのループを行った際、各周1機能ずつに絞って提案していたが、ユーザーから「候補が出たら全部追加していい」とフィードバックがあった。取捨選択に時間をかけず、思いついた良い候補は全部実装する方針。過去にこのステップ自体を飛ばしてリリース直前まで来てしまったことがあるため、gachaスキルの標準ステップとして明記する。
+
+## Step 6.6: 多言語一括生成（リリース直前・1回だけ）
 
 機能追加・修正のイテレーション中はja.jsonのみを更新し続ける。**リリース準備が整った最終段階になってはじめて**、以下を行う：
 
-1. `assets/i18n/ja.json` の最終版を読み、全キーを英訳して `assets/i18n/en.json` を新規作成する
-2. `class L` の `_supported` を `['ja']` → `['ja','en']` に戻す
-3. App Store登録用テキスト（Step 1で作成した日本語版）もこのタイミングで英訳する
-4. `flutter run` でロケールを英語に切り替えて（シミュレーターの設定変更、または`savedLang`を一時的に'en'にして）文字化け・キー欠落がないか確認する
+1. `assets/i18n/ja.json` の最終版を読み、全キーを英語(en)・簡体字中国語(zh-Hans)・繁体字中国語(zh-Hant)・韓国語(ko)・フランス語(fr)・ドイツ語(de)・スペイン語(es)・イタリア語(it)・ポルトガル語(pt)に翻訳し、`assets/i18n/{code}.json`を9本新規作成する
+2. `class L` の `_supported` を `['ja']` → `['ja','en','zh-Hans','zh-Hant','ko','fr','de','es','it','pt']` に戻す
+3. App Store登録用テキスト（Step 1で作成した日本語版）もこのタイミングで10言語分（日本語含む）翻訳する
+4. `flutter run` でロケールを各言語に切り替えて（シミュレーターの設定変更、または`savedLang`を一時的に切り替えて）文字化け・キー欠落がないか代表的に数言語を確認する
 
-> このステップを毎回の機能追加のたびに行わないこと。ja.jsonのキーが変わるたびに英訳し直すのはトークンの無駄であり、リリース前の1回にまとめることで無駄な二度手間を避けられる。
+> このステップを毎回の機能追加のたびに行わないこと。ja.jsonのキーが変わるたびに9言語訳し直すのはトークンの無駄であり、リリース前の1回にまとめることで無駄な二度手間を避けられる。
 
 ## Step 7: firebase.json にrewrite追加
 
@@ -469,17 +511,14 @@ sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 
 ```bash
 cd /Users/hidenori/Developer/SEADICE
-git add -A
+git add p/tools/{slug} p/apps/{slug} p/privacy/{slug} p/tools/index.html p/index.html firebase.json
 git commit -m "Add {slug}: landing + app pages + privacy policies"
 firebase deploy --only hosting
 ```
 
-```bash
-cd /Users/hidenori/Developer/apps-pipeline
-git add apps/{slug}/
-git commit -m "Add {slug} app skeleton"
-git push
-```
+> `git add -A` は使わない。SEADICEリポジトリには他の未コミット変更が並行して存在することが多いため、当該ニッチのファイルのみを明示的に指定する。
+
+Flutterアプリ（`~/Developer/{ジャンル名}系/{slug}/`）はSEADICEリポジトリの外にあるため、このステップではコミット対象にしない。git管理するかどうかは別途ユーザーの判断に委ねる。
 
 ## ルール
 
