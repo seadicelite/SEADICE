@@ -2180,6 +2180,18 @@
         "destination": "/privacy/nenkin-mitsumori-sim/index.html"
       },
       {
+        "source": "/tools/kotowaza-sage/**",
+        "destination": "/tools/kotowaza-sage/index.html"
+      },
+      {
+        "source": "/apps/kotowaza-sage/**",
+        "destination": "/apps/kotowaza-sage/index.html"
+      },
+      {
+        "source": "/privacy/kotowaza-sage/**",
+        "destination": "/privacy/kotowaza-sage/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       },
