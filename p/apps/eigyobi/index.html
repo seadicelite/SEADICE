@@ -167,14 +167,16 @@
     .copy-btn { margin-top: 14px; background: none; border: 1px solid var(--border); border-radius: 8px; color: var(--muted); font-size: 12px; padding: 6px 14px; cursor: pointer; transition: all 0.2s; }
     .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
 
+    .badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+    .badge-pill { display: inline-flex; align-items: center; font-size: 11px; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; }
     .section { margin-top: 56px; }
-    .section h2 { font-size: 18px; font-weight: 800; margin-bottom: 16px; }
+    .section h2 { font-size: 18px; font-weight: 800; margin-bottom: 16px; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, var(--accent), var(--accent2)) 1; padding-bottom: 8px; display: inline-block; }
     .section p, .section li { font-size: 14px; color: var(--muted); line-height: 1.85; }
     .section ul { padding-left: 20px; }
     .section li { margin-bottom: 6px; }
 
     .faq { margin-top: 40px; }
-    .faq h2 { font-size: 18px; font-weight: 800; margin-bottom: 20px; }
+    .faq h2 { font-size: 18px; font-weight: 800; margin-bottom: 20px; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, var(--accent), var(--accent2)) 1; padding-bottom: 8px; display: inline-block; }
     .faq-item { border-top: 1px solid var(--border); padding: 16px 0; }
     .faq-q { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
     .faq-a { font-size: 13px; color: var(--muted); line-height: 1.8; }
@@ -190,12 +192,13 @@
 <header>
   <nav>
     <a class="nav-logo" href="/">SEADICE</a>
-    <a class="nav-back" href="/#webapps">← Webアプリ一覧</a>
+    <a class="nav-back" href="/apps/">← Webアプリ一覧</a>
   </nav>
 </header>
 
 <main>
   <p class="page-label">Web App · 無料ツール</p>
+  <div class="badge-row"><span class="badge-pill">ビジネス</span><span class="badge-pill">Web</span><span class="badge-pill">無料</span></div>
   <h1>営業日カウンター</h1>
   <p class="page-desc">3営業日後・5営業日後がいつか、祝日・振替休日込みで即計算。2つの日付間の営業日数カウントと、N営業日後の日付逆引きの両方に対応した無料の営業日計算ツールです。支払期限・納品日・締め切りの計算にどうぞ。</p>
 
@@ -362,9 +365,9 @@
 <footer>
   <p>
     <a href="/">SEADICE</a> &nbsp;|&nbsp;
-    <a href="/#webapps">他のWebアプリを見る</a> &nbsp;|&nbsp;
+    <a href="/apps/">他のWebアプリを見る</a> &nbsp;|&nbsp;
     <a href="/blog/">ブログ</a> &nbsp;|&nbsp;
-    <a href="/privacy/">プライバシーポリシー</a>
+    <a href="/privacy/eigyobi/">プライバシーポリシー</a>
   </p>
   <p style="margin-top:8px;">&copy; 2026 SEADICE</p>
 </footer>
