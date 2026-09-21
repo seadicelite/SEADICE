@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>国内アプリのネタ切れとジャンル偏りを防ぐ「9カテゴリ×7形式」ローテーション表を作った話 | SEADICE</title>
+<meta name="description" content="110本を超えたSEADICEのミニアプリ群は、放っておくと「診断」「クエスト」形式に偏っていく。生活課題9カテゴリ×UX形式7パターンの組み合わせを前日と当日で重複させないローテーション表を運用に組み込んだ経緯と、8月10〜12日の実際の割り当て結果を記録する。">
+<link rel="canonical" href="https://seadice.win/blog/kadai-category-ux-form-rotation/">
+<meta property="og:title" content="国内アプリのネタ切れとジャンル偏りを防ぐ「9カテゴリ×7形式」ローテーション表 | SEADICE">
+<meta property="og:description" content="生活課題9カテゴリ×UX形式7パターンを前日・当日で重複させないローテーション表を運用に組み込んだ話。">
+<meta property="og:url" content="https://seadice.win/blog/kadai-category-ux-form-rotation/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="「9カテゴリ×7形式」ローテーション表を作った話 | SEADICE">
+<meta name="twitter:description" content="診断・クエスト型に偏りがちな量産型ミニアプリの企画に、カテゴリ×UX形式のローテーション表を組み込んだ話。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"国内アプリのネタ切れとジャンル偏りを防ぐ「9カテゴリ×7形式」ローテーション表を作った話","datePublished":"2026-08-12","dateModified":"2026-08-12","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/kadai-category-ux-form-rotation/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"国内アプリのネタ切れとジャンル偏りを防ぐ「9カテゴリ×7形式」ローテーション表を作った話","item":"https://seadice.win/blog/kadai-category-ux-form-rotation/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 国内アプリのネタ切れとジャンル偏りを防ぐ「9カテゴリ×7形式」ローテーション表を作った話</p>
+  <span class="tag">開発</span>
+  <h1>国内アプリのネタ切れとジャンル偏りを防ぐ<br>「9カテゴリ×7形式」ローテーション表を作った話</h1>
+  <p class="meta"><time datetime="2026-08-12">2026-08-12</time> · SEADICE</p>
+  <div class="body">
+
+<p>SEADICEのカタログは本日時点で110本を超えた。1日3本ペースで国内向けミニアプリを作り続けていると、放っておくと必ず起きる劣化が2つある。<strong>同じ生活課題カテゴリばかりを選んでしまうこと</strong>と、<strong>「質問に答えるとタイプが出る」形式(診断・クエスト)に手が伸びやすいこと</strong>だ。診断系だけで11本作った経緯は7月20日の記事で書いたが、今回はその反省を踏まえて「カテゴリ×UX形式」の二軸ローテーション表を運用ルールに組み込んだので、その仕組みと直近3日分の実際の割り当てを記録する。</p>
+
+<h2>なぜ2軸で縛る必要があるのか</h2>
+<p>生活課題側だけをローテーションしても、UX形式が毎回「診断」に寄ればアプリ体験は結局似通う。逆にUX形式だけを変えても、同じカテゴリ(たとえば節約・家計)ばかり選び続ければカタログとしての網羅性が落ちる。どちらか一方の軸だけを管理しても偏りは防げないため、生活課題9カテゴリとUX形式7パターンを独立した2つの制約として扱うことにした。</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>軸</th><th>選択肢数</th><th>制約ルール</th></tr></thead>
+<tbody>
+<tr><td>生活課題カテゴリ</td><td>9種類</td><td>前日に使ったカテゴリは当日選ばない</td></tr>
+<tr><td>UX形式</td><td>7種類</td><td>同日の3本で形式を重複させない。直近で多用した形式(診断・クエスト)は優先度を下げる</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>9カテゴリと7形式の内訳</h2>
+<p>生活課題カテゴリは「生活・暮らし」「教育・学習」「仕事・キャリア」「高齢者・介護」「子ども・若者」「外国人・国際」「お金」「環境」「地域・社会」の9種類。UX形式は「記録+可視化グラフ型」「チャット相談完結型」「辞典/データベース型」「シミュレーター型」「1回完結の診断+提案型」「比較ツール型」「クエスト100型」の7種類で、カタログ全体を見ると診断・クエスト型がすでに一定数を占めているため、この2つは他の形式が出しにくいテーマのときの最後の選択肢として扱っている。</p>
+
+<h2>直近3日の実際の割り当て</h2>
+<p>8月10日・11日・12日の3日間で、カテゴリが3日連続で重複した例はなく、同日内でのUX形式の重複も発生していない。</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>日付</th><th>アプリID</th><th>カテゴリ</th><th>UX形式</th></tr></thead>
+<tbody>
+<tr><td>8/10</td><td>koreisha-sumaho-chat</td><td>高齢者・介護</td><td>チャット相談完結型</td></tr>
+<tr><td>8/10</td><td>futoko-manabi-hikaku</td><td>子ども・若者</td><td>比較ツール型</td></tr>
+<tr><td>8/10</td><td>rouhi-kuse-quest100</td><td>お金</td><td>クエスト100型</td></tr>
+<tr><td>8/11</td><td>bousai-bichiku-jiten</td><td>生活・暮らし</td><td>辞典/データベース型</td></tr>
+<tr><td>8/11</td><td>shikaku-plan-sim</td><td>教育・学習</td><td>シミュレーター型</td></tr>
+<tr><td>8/11</td><td>skill-gap-shindan</td><td>仕事・キャリア</td><td>1回完結の診断+提案型</td></tr>
+<tr><td>8/12</td><td>kaigo-futan-log</td><td>高齢者・介護</td><td>記録+可視化グラフ型</td></tr>
+<tr><td>8/12</td><td>kodomo-shien-seido-hikaku</td><td>子ども・若者</td><td>比較ツール型</td></tr>
+<tr><td>8/12</td><td>nihon-seikatsu-quest100</td><td>外国人・国際</td><td>クエスト100型</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>8月12日は前日(8/11)が「生活・暮らし」「教育・学習」「仕事・キャリア」だったため、この3つを除いた6カテゴリから「高齢者・介護」「子ども・若者」「外国人・国際」を選び、UX形式は前日に使った「辞典/データベース型」「シミュレーター型」「1回完結の診断+提案型」を避けて「記録+可視化グラフ型」「比較ツール型」「クエスト100型」を割り当てた。8/10と同じ「高齢者・介護」「子ども・若者」カテゴリが8/12に再登場しているが、ルールは「前日との連続重複」のみを禁止しているため、1日空ければ再登場を許容している。</p>
+
+<h2>同じカテゴリでもテーマが被らない理由</h2>
+<p>「高齢者・介護」は8/10(スマホ相談チャット)と8/12(介護負担記録グラフ)で2度登場しているが、前者は本人(高齢者)向けのスマホ操作相談、後者は介護をする側の負担記録という、対象者もUX形式も異なるテーマにしている。カテゴリのローテーションだけでなく、既存アプリ一覧を確認してテーマの重複がないかを毎回チェックする工程を合わせて運用しないと、カテゴリを分散させても同じ切り口のアプリが増えてしまう。</p>
+
+<div class="note">
+<p>この表はあくまで「同じ形式・同じカテゴリへの偏り」を防ぐための制約であり、ユーザーの実際の課題の深刻度や市場性を判断するものではない。最終的にどのテーマを選ぶかは、既存カタログとの重複確認を経て決めている。</p>
+</div>
+
+<a class="tool-cta" href="/blog/shindan-app-genre-patterns/">
+  <p>Related Post</p>
+  <p>診断系アプリを11本作って見えた共通パターン — このローテーション表を作るきっかけになった記事 →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>

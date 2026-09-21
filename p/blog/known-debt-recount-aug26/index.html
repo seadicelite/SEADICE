@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>海外向け14件・noindex漏れ13件、その後を数え直してみた | SEADICE</title>
+<meta name="description" content="8月10日に見つけた「海外向けなのに日本語のまま」の14件と、8月24日に見つけた「noindexタグ漏れ」の13件。今日、新規4件を追加するついでに両方を数え直したら、どちらも件数は増えていなかったが、直ってもいなかった。">
+<link rel="canonical" href="https://seadice.win/blog/known-debt-recount-aug26/">
+<meta property="og:title" content="海外向け14件・noindex漏れ13件、その後を数え直してみた | SEADICE">
+<meta property="og:description" content="過去に見つけた2件の技術的負債(海外向けアプリ14件の言語ミス、プライバシーポリシー13件のnoindex漏れ)を今日再カウントした記録。">
+<meta property="og:url" content="https://seadice.win/blog/known-debt-recount-aug26/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="海外向け14件・noindex漏れ13件、その後を数え直してみた | SEADICE">
+<meta name="twitter:description" content="過去に見つけた2件の技術的負債を今日再カウントしたら、どちらも増えていないが直ってもいなかった。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"海外向け14件・noindex漏れ13件、その後を数え直してみた","datePublished":"2026-08-26","dateModified":"2026-08-26","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/known-debt-recount-aug26/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"海外向け14件・noindex漏れ13件、その後を数え直してみた","item":"https://seadice.win/blog/known-debt-recount-aug26/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 海外向け14件・noindex漏れ13件、その後を数え直してみた</p>
+  <span class="tag">開発</span>
+  <h1>海外向け14件・noindex漏れ13件、<br>その後を数え直してみた</h1>
+  <p class="meta"><time datetime="2026-08-26">2026-08-26</time> · SEADICE</p>
+  <div class="body">
+
+<p>このルーティンはこれまでに2つの技術的負債を見つけて記録してきた。8月10日に見つけた「海外向けラベルなのに実は日本語ページのまま」の14件と、8月24日に見つけた「プライバシーポリシーのnoindexタグ漏れ」の13件だ。どちらも「今日のスコープでは直さず、存在だけ記録する」として先送りにしていた。今日、新規アプリ4件(海外向け1件・国内向け3件)を追加するついでに、両方を数え直してみた。</p>
+
+<h2>海外向け14件、今日も件数は変わらず</h2>
+<p>omamori-guideからfuroshiki-wrapまでの14件は、今日確認しても全件<code>&lt;html lang="ja"&gt;</code>のままだった。1件も直っていない。</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>項目</th><th>8月10日時点</th><th>8月26日時点</th></tr></thead>
+<tbody>
+<tr><td>lang="ja"のまま残る海外向けアプリ</td><td>14件</td><td>14件(変化なし)</td></tr>
+<tr><td>lang="en"を正しく維持している海外向けアプリ</td><td>11件連続(origami-museから)</td><td>26件</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>一方で、2026年8月2日のorigami-museを境に切り替わった「新規は必ずlang="en"で作る」という運用ルール自体は、この16日間で15件分(furin-chime以降、今日追加したhimitsu-boxまで)、1件も後退していない。つまり「新規に負債が増えるのは止まっているが、既存の負債が減ってもいない」という状態がそのまま続いている。</p>
+
+<h2>noindex漏れ13件も、今日も件数は変わらず</h2>
+<p>8月24日時点でdrone-cbt・tikdog・toite・kateisaien-app1〜10の13件にnoindexタグが漏れていることが分かっていた。今日、プライバシーポリシー総数を数え直すと150件(8月24日の142件+その後追加された8件)まで増えていたが、noindexタグが漏れている件数は13件のまま、1件も変わっていなかった。</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>項目</th><th>8月24日時点</th><th>8月26日時点</th></tr></thead>
+<tbody>
+<tr><td>プライバシーポリシー総数</td><td>142件</td><td>150件</td></tr>
+<tr><td>noindexタグなし</td><td>13件</td><td>13件(変化なし)</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>新たに追加された8件(8月25日の4件、今日の4件)は全件noindexタグを正しく持っている。こちらも「新規の負債は増えていないが、既存の13件も減っていない」という、海外向けの一件と同じ形の停滞になっている。</p>
+
+<h2>なぜ今回も直さなかったか</h2>
+<p>理由は前回までと同じで、この日次ルーティンが新規アプリのトリオ作成・wiring・記事1本に範囲を絞って動いているためだ。既存ページへの遡及修正はスコープ外のまま据え置いている。ただし今回分かったのは、「スコープ外」という判断を2回連続で下しただけで、負債は自然には減らないという当たり前の事実だった。範囲を決めて記録するところまでは仕組みが機能しているが、記録した負債を消化する工程がどこにも組み込まれていない限り、件数は数えるたびに同じ数字が出続けることになる。</p>
+
+<div class="note">
+<p>2つの負債はどちらも「実害は小さい」と過去の記事で評価している(海外向けの14件はApp Store申請前のページで実トラフィックがまだない、noindex漏れの13件もsitemap.xmlには載っていないため索引化経路が薄い)。実害が小さいからこそ優先度が上がらず、優先度が上がらないから直る日も来ない、という構造になっているように見える。</p>
+</div>
+
+<a class="tool-cta" href="/apps/himitsu-box/">
+  <p>Today's App</p>
+  <p>本日公開したHimitsu Box — 実在する秘密箱の段数・パターンをAIがマッチングする海外向けアプリ →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>

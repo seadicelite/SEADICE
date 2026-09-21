@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>診断系アプリを11本作って見えた共通パターン — ジャンル選定・構成・ASOの型 | SEADICE</title>
+<meta name="description" content="SEADICEは診断系ミニアプリを11本リリースした。個人開発と相性がいい理由、共通の3要素構成、ASOでの型を実データとともに解説する。">
+<link rel="canonical" href="https://seadice.win/blog/shindan-app-genre-patterns/">
+<meta property="og:title" content="診断系アプリを11本作って見えた共通パターン | SEADICE">
+<meta property="og:description" content="SEADICEは診断系ミニアプリを11本リリースした。個人開発と相性がいい理由、共通の3要素構成、ASOでの型を解説。">
+<meta property="og:url" content="https://seadice.win/blog/shindan-app-genre-patterns/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="診断系アプリを11本作って見えた共通パターン | SEADICE">
+<meta name="twitter:description" content="個人開発と相性がいい理由、共通の3要素構成、ASOでの型を実データとともに解説。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"診断系アプリを11本作って見えた共通パターン — ジャンル選定・構成・ASOの型","datePublished":"2026-07-20","dateModified":"2026-07-20","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/shindan-app-genre-patterns/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"診断系アプリを11本作って見えた共通パターン","item":"https://seadice.win/blog/shindan-app-genre-patterns/"}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.rank-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin:12px 0}.rank-num{font-size:28px;font-weight:800;color:var(--accent);line-height:1}.rank-title{font-size:16px;font-weight:700;margin:4px 0}.rank-desc{font-size:13px;color:var(--muted);line-height:1.6}.sources{margin-top:48px;padding-top:24px;border-top:1px solid var(--border)}.sources p{font-size:12px;color:var(--muted);margin-bottom:8px}.sources a{color:var(--muted);font-size:12px}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 診断系アプリを11本作って見えた共通パターン</p>
+  <span class="tag">開発</span>
+  <h1>診断系アプリを11本作って<br>見えた共通パターン</h1>
+  <p class="meta"><time datetime="2026-07-20">2026-07-20</time> · SEADICE</p>
+  <div class="body">
+
+<p>SEADICEはこれまでに顔タイプ診断・MBTIコンパス・先延ばし診断ラボなど診断系ミニアプリを11本リリースしている。個人開発と相性がいい理由は、質問→タイプ判定→対策提示という型が固定できるため1人でも量産でき、かつApp Store検索とSNSシェアの両方から見つけてもらえるからだ。</p>
+
+<h2>なぜ診断系ジャンルを選んでいるか</h2>
+
+<p>診断結果は「他人に伝えたい」という欲求を刺激するためSNSでシェアされやすく、さらにApp Storeのダウンロードの65%以上は検索直後に発生するため、キーワード設計だけで新規流入を作りやすい。</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>流入経路</th><th>診断系との相性</th><th>根拠</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>App Store検索</td><td>高い</td><td>週6.5億人が訪問、DLの65%超が検索直後に発生</td></tr>
+    <tr><td>SNSシェア</td><td>高い</td><td>診断結果は自己表現欲求と結びつきシェアされやすい</td></tr>
+    <tr><td>相性・比較系の拡散</td><td>非常に高い</td><td>「誰と相性が良いか」型はエンゲージメントが特に高い</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>リリース済みの診断系アプリ</h2>
+
+<p>ジャンルは心理・占い・行動科学・人間関係の4系統に分かれる。1本あたりの開発期間を圧縮するため、UIコンポーネントは使い回している。</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>アプリ</th><th>診断テーマ</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>顔タイプ診断</td><td>AIによる顔分析とスタイル提案</td></tr>
+    <tr><td>MBTIコンパス</td><td>16タイプ性格診断</td></tr>
+    <tr><td>先延ばし診断ラボ</td><td>行動心理学ベースの先延ばしタイプ判定</td></tr>
+    <tr><td>ブラック心理学</td><td>心理テクニック解説</td></tr>
+    <tr><td>認知バイアス図鑑</td><td>認知バイアスの図解カタログ</td></tr>
+    <tr><td>全身ほくろ占いAI</td><td>ほくろの位置による占い</td></tr>
+    <tr><td>スクショ本音診断</td><td>LINEスクショから本音を読み解くAI診断</td></tr>
+    <tr><td>HSPナビ</td><td>HSP傾向と人間関係チェック</td></tr>
+    <tr><td>Yokai Mirror</td><td>顔から妖怪タイプを診断</td></tr>
+    <tr><td>Omikuji Zodiac</td><td>おみくじ×干支診断</td></tr>
+    <tr><td>FBI式ボディランゲージ辞典</td><td>しぐさ・表情の読み取り辞典</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>固定している3要素構成</h2>
+
+<p>どのアプリも「質問診断」「タイプ別の解説・対策」「AIによる自由記述への個別提案」の3要素で構成しており、この型を守ることで新規アプリの企画から公開までを数日単位で回している。</p>
+
+<ul>
+  <li><strong>質問診断</strong>: 15〜20問程度でタイプを判定する固定ロジック</li>
+  <li><strong>タイプ別解説</strong>: 4〜5タイプに分類し、それぞれに具体的な対策や特徴を提示</li>
+  <li><strong>AI自由記述提案</strong>: ユーザーが今直面している状況を入力すると、タイプに応じてAIが個別提案する</li>
+</ul>
+
+<h2>ASOで揃えているタイトルの型</h2>
+
+<p>App Store名は「ジャンル名+診断・辞典・ラボ等の名詞」で統一し、キーワード欄には診断名・関連する悩みワード・行動科学用語を並べている。検索語と結果ページの文言を一致させることで、検索直後の離脱を防ぐ狙いだ。</p>
+
+<div class="rank-card">
+  <p class="rank-num">01</p>
+  <p class="rank-title">アプリ名</p>
+  <p class="rank-desc">「〇〇診断」「〇〇ラボ」など、検索される悩みワード＋固有の呼び名で構成</p>
+</div>
+<div class="rank-card">
+  <p class="rank-num">02</p>
+  <p class="rank-title">キーワード欄</p>
+  <p class="rank-desc">診断対象・関連する悩み・行動科学用語をカンマ区切りで最大10個並べる</p>
+</div>
+<div class="rank-card">
+  <p class="rank-num">03</p>
+  <p class="rank-title">プロモーション文</p>
+  <p class="rank-desc">質問数とタイプ数を数字で明示し、AI個別提案の有無を1文目に入れる</p>
+</div>
+
+<h2>次に作るなら優先すること</h2>
+
+<p>次にジャンルを増やすなら、相性診断のように結果を他人と比較できる形式を優先する。単独の自己理解型診断よりシェア率が高く、拡散を通じた新規流入が見込めるためだ。</p>
+
+<div class="note">
+<p>いずれの診断アプリも、診断結果は行動心理学や占い・言い伝えの一般的な知見を参考にしたエンターテインメントであり、医学的診断ではない。</p>
+</div>
+
+<a class="tool-cta" href="/apps/procrastination-type/">
+  <p>Latest App</p>
+  <p>先延ばし診断ラボ — 行動科学で5タイプを判定し、AIがパーソナライズ対策を提案 →</p>
+</a>
+
+<div class="sources">
+  <p>参考データ</p>
+  <a href="https://www.apptweak.com/ja/aso-blog/app-store-keyword-research-aso">AppTweak — ASOのためのApp Storeキーワードリサーチ</a><br>
+  <a href="https://www.hottolink.co.jp/column/20240917_116695/">ホットリンク — 診断コンテンツの作り方を徹底解説</a>
+</div>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2025 SEADICE</p></footer>
+</body>
+</html>

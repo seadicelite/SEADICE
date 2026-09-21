@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新規アプリ公開後の「配線忘れ」をレジストリで自動化した話 | SEADICE</title>
+<meta name="description" content="SEADICEはアプリを1本公開するたびにジャンルハブ・プライバシー一覧・サイトマップへの反映が必要になる。レジストリファイルで既知アプリを管理し、配線忘れを防ぐ仕組みを作った。">
+<link rel="canonical" href="https://seadice.win/blog/app-launch-checklist-automation/">
+<meta property="og:title" content="新規アプリ公開後の「配線忘れ」をレジストリで自動化した話 | SEADICE">
+<meta property="og:description" content="アプリを1本公開するたびに必要な反映作業を、既知アプリのレジストリファイルで管理して自動化した仕組みを解説する。">
+<meta property="og:url" content="https://seadice.win/blog/app-launch-checklist-automation/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="新規アプリ公開後の「配線忘れ」を自動化した話 | SEADICE">
+<meta name="twitter:description" content="レジストリファイルで既知アプリを管理し、ジャンルハブ・プライバシー一覧・サイトマップへの反映漏れを防ぐ。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"新規アプリ公開後の「配線忘れ」をレジストリで自動化した話","datePublished":"2026-07-24","dateModified":"2026-07-24","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/app-launch-checklist-automation/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"新規アプリ公開後の「配線忘れ」を自動化した話","item":"https://seadice.win/blog/app-launch-checklist-automation/"}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.code-block{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin:16px 0;overflow-x:auto;font-family:'SF Mono',Consolas,monospace;font-size:13px;color:#94a3b8;white-space:pre}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 新規アプリ公開後の「配線忘れ」を自動化した話</p>
+  <span class="tag">開発</span>
+  <h1>新規アプリ公開後の<br>「配線忘れ」を自動化した話</h1>
+  <p class="meta"><time datetime="2026-07-24">2026-07-24</time> · SEADICE</p>
+  <div class="body">
+
+<p>SEADICEでは、既知アプリのIDを1つのJSONレジストリで管理し、そこに載っていない新規アプリを検出したら、ジャンルハブ・プライバシー一覧・サイトマップへの反映を自動で行う仕組みにした。人手のチェックリストに頼るのをやめ、40本のアプリを1人で回すための最小限の自動化である。</p>
+
+<h2>なぜ「配線忘れ」が起きるのか</h2>
+
+<p>アプリを1本作るとlanding・privacyの2ページは必ず作るが、そこから先の反映作業を忘れやすい。</p>
+
+<ul>
+  <li><strong>ジャンルハブ</strong>: 家庭菜園・フィットネス・ペット健康などの一覧ページにカードを追加し忘れる</li>
+  <li><strong>プライバシー一覧</strong>: `/privacy/` にリンクを足し忘れ、ページ自体は存在するのに一覧から辿れない</li>
+  <li><strong>サイトマップ</strong>: `sitemap.xml` に新規URLを追加し忘れ、検索エンジンに存在を伝えられない</li>
+</ul>
+
+<h2>レジストリファイルで「既知のアプリ」を管理する</h2>
+
+<p><code>p/apps/.reflected.json</code>という1つのJSON配列に、配線が完了したアプリIDだけを列挙している。</p>
+
+<div class="code-block">[
+  "kateisaien-app1",
+  "fitness-app1",
+  "procrastination-type"
+]</div>
+
+<p>`p/apps/`配下のディレクトリ一覧とこの配列を突き合わせるだけで、「新規に作られたが、まだどこにも反映されていないアプリ」を機械的に洗い出せる。差分を取るだけなので判定に迷いが生じない。</p>
+
+<h2>新規アプリ検出時に自動でやること</h2>
+
+<ol>
+  <li>アプリのindex.htmlから正式名称と一行説明を読み取る</li>
+  <li>該当ジャンルのハブページ（例: <code>p/tools/fitness/</code>）にカードを追加</li>
+  <li>プライバシーポリシーページが存在すれば一覧に追加。存在しなければ人間向けにToDoとして記録</li>
+  <li><code>sitemap.xml</code>にapp・privacyのURLを追加</li>
+  <li>すべて終わったらレジストリにIDを追加し、二度と再判定しない</li>
+</ol>
+
+<h2>一部だけ完了した場合の扱い</h2>
+
+<p>プライバシーページが未作成などで一部の手順しか終わらなくても、IDは必ずレジストリに追加し、未完了項目だけをサマリーで報告する運用にしている。</p>
+
+<div class="note">
+<p>途中で失敗したアプリを毎回リトライし続けると、いつまでも「新規アプリ」として扱われ続けて無限にノイズを生む。1回判定したら記録して次に進み、足りない部分は人間の判断に戻す方が結果的に速い。</p>
+</div>
+
+<h2>40本を1人で回すための最小限の自動化</h2>
+
+<p>現在SEADICEには40本のアプリが登録されており、ジャンルハブは9カテゴリに分かれている。この規模になると、公開のたびに全ファイルを目視確認するコストの方が、レジストリを1つ用意するコストより高くつく。</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>方式</th><th>反映漏れのリスク</th><th>確認コスト</th></tr></thead>
+  <tbody>
+    <tr><td>都度チェックリストを目視</td><td>高い（本数が増えるほど悪化）</td><td>アプリ数に比例して増加</td></tr>
+    <tr><td>レジストリとの差分検出</td><td>低い（未登録IDが必ず検出される）</td><td>ディレクトリ一覧とJSONの突合のみ</td></tr>
+  </tbody>
+</table>
+</div>
+
+<a class="tool-cta" href="/blog/shindan-app-genre-patterns/">
+  <p>Related</p>
+  <p>診断系アプリを11本作って見えた共通パターン — ジャンル選定・構成・ASOの型 →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2025 SEADICE</p></footer>
+</body>
+</html>

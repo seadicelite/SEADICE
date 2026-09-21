@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>アプリLPを86本作っても、共通CSSファイルを1つも持たない理由 | SEADICE</title>
+<meta name="description" content="SEADICEのアプリランディングページは新規追加のたび既存アプリの3ファイルをまるごとコピーして作る。共通CSSファイルを持たず、外部リクエストゼロを守ったまま86本を一貫したデザインに保つ運用を、今日追加した4本を例に解説する。">
+<link rel="canonical" href="https://seadice.win/blog/app-lp-template-copy-no-shared-css/">
+<meta property="og:title" content="アプリLPを86本作っても、共通CSSファイルを1つも持たない理由 | SEADICE">
+<meta property="og:description" content="新規アプリのLPは既存アプリの3ファイルをまるごとコピーして作る。共通CSSファイルを持たない理由と、系統ごとにコピー元を固定する運用を実測数字とともに解説。">
+<meta property="og:url" content="https://seadice.win/blog/app-lp-template-copy-no-shared-css/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="アプリLP86本、共通CSSファイル0本の理由 | SEADICE">
+<meta name="twitter:description" content="外部リクエストゼロを守ったまま86本のアプリLPを一貫したデザインに保つ、コピー&書き換え運用の実測記録。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"アプリLPを86本作っても、共通CSSファイルを1つも持たない理由","datePublished":"2026-08-04","dateModified":"2026-08-04","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/app-lp-template-copy-no-shared-css/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"アプリLPを86本作っても、共通CSSファイルを1つも持たない理由","item":"https://seadice.win/blog/app-lp-template-copy-no-shared-css/"}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.code-block{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin:16px 0;overflow-x:auto;font-family:'SF Mono',Consolas,monospace;font-size:13px;color:#94a3b8;white-space:pre}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / アプリLPを86本作っても、共通CSSファイルを1つも持たない理由</p>
+  <span class="tag">開発</span>
+  <h1>アプリLPを86本作っても、<br>共通CSSファイルを1つも<br>持たない理由</h1>
+  <p class="meta"><time datetime="2026-08-04">2026-08-04</time> · SEADICE</p>
+  <div class="body">
+
+<p>今日、Bonsai Spirit・早起きクエスト・進路診断ナビ・地域助け合い辞典の4本を追加し、<code>p/apps/.reflected.json</code>に登録されたアプリは86本になった。この86本のランディングページは、共通CSSファイルを1つも持たない。新しいアプリを作るたびに、系統が近い既存アプリの<code>index.html</code>をapps・tools・privacyの3ファイルまるごとコピーし、文言とURL、海外向けだけアクセントカラー6色を書き換えている。共通コンポーネント化ではなくコピー&書き換えを選んでいるのは、そのほうが壊れにくいという理由からだ。</p>
+
+<h2>今日追加した4本も、白紙からではなく既存アプリのコピーから始まった</h2>
+
+<p>新規アプリのapps・tools・privacyページは、デザインをゼロから起こすのではなく、系統が近い既存アプリの3ファイルをそのまま複製して作る。今日の4本は次の組み合わせで作成した。</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>新規アプリ</th><th>コピー元</th><th>変更した内容</th></tr></thead>
+  <tbody>
+    <tr><td>Bonsai Spirit(海外・英語)</td><td>Ikebana Flow</td><td>本文・メタデータ全文、アクセントカラー6色(テラコッタ×セージ)</td></tr>
+    <tr><td>早起きクエスト(国内・クエスト100型)</td><td>ボランティアクエスト100</td><td>本文・メタデータ全文のみ(配色は共通のティール×ブルー)</td></tr>
+    <tr><td>進路診断ナビ(国内・AI診断型)</td><td>Furoshiki Wrap</td><td>本文・メタデータ全文のみ</td></tr>
+    <tr><td>地域助け合い辞典(国内・辞典型)</td><td>ゴミ分別大辞典</td><td>本文・メタデータ全文のみ</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>共通CSSファイルを1つも作らなかった理由</h2>
+
+<p><code>CLAUDE.md</code>には「外部CSS読み込みゼロ」というルールがある。ここで共有CSSファイルを1つ作ってしまうと、86本のどのページを開いても<code>&lt;link rel="stylesheet"&gt;</code>という外部リクエストが1本増える。ページごとに<code>&lt;style&gt;</code>タグへ丸ごとインライン複製すれば、そのページ単体で完結し、リクエスト数はゼロのままになる。</p>
+
+<ul>
+<li>共有CSSファイル方式: リクエストは1本増えるが、修正が全ページに一括反映される</li>
+<li>インライン複製方式(採用中): リクエストは増えないが、デザイン変更時は該当ページを1つずつ書き換える必要がある</li>
+</ul>
+
+<h2>コピー元を系統ごとに固定しているから、文言のニュアンスまで正しく引き継がれる</h2>
+
+<p>コピー元をランダムに選ばず、系統が近いアプリに固定している。海外向けはFuroshiki WrapやIkebana Flowのような「AIマッチング×英語」系から、国内クエスト型はボランティアクエスト100から、国内辞典型はゴミ分別大辞典から複製する。これにより、広告文言や「AIへの送信について」といったプライバシーポリシーの記述まで、そのアプリの実際の仕様(AIを使うか・端末内保存のみか)に沿った状態を保てる。</p>
+
+<h2>この方式で本当に壊れていないか、ファイルサイズを実測した</h2>
+
+<p>今日追加したBonsai Spiritの3ページを実測すると、apps側の<code>&lt;style&gt;</code>ブロックは2,634バイト、apps・tools・privacyの3ファイル合計は22,708バイトだった。86本×3ページ分のCSSを単純合計すれば重複バイト数はかなりの量になるが、実際に1回の訪問で読み込まれるのは開いた1ページ分だけなので、体感速度には影響しない。</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>ファイル</th><th>サイズ</th></tr></thead>
+  <tbody>
+    <tr><td>p/apps/bonsai-spirit/index.html</td><td>9,479 バイト</td></tr>
+    <tr><td>p/tools/bonsai-spirit/index.html</td><td>5,784 バイト</td></tr>
+    <tr><td>p/privacy/bonsai-spirit/index.html</td><td>7,445 バイト</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="note">
+<p>共通化しない設計は行儀が悪く見えるかもしれないが、ビルドステップを持たない静的サイトでは「1ファイルで完結している」こと自体が、どのページからでも壊れずに配信できる保証になる。86本目にして初めてこの数字を実測し、この運用を続ける根拠を自分の手元で確認できた。</p>
+</div>
+
+<a class="tool-cta" href="/apps/bonsai-spirit/">
+  <p>Today's App</p>
+  <p>Bonsai Spirit - 性格や部屋の雰囲気を伝えるとAIが本物の盆栽の仕立て方を提案するアプリ →</p>
+</a>
+
+<a class="tool-cta" href="/blog/firebase-rewrites-static-pages/">
+  <p>Related</p>
+  <p>毎日firebase.jsonに足しているrewriteは、実は静的ランディングページには不要だった話 →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>

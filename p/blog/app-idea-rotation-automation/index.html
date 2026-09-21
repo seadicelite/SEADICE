@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>アプリのネタ切れと偏りを防ぐ「アイデア在庫」と「重複回避ルール」を自動化した話 | SEADICE</title>
+<meta name="description" content="海外向け1日1本・国内向け1日3本のアプリ企画を自動化する際、ネタ切れとジャンル・UX形態の偏りが課題になった。キュー在庫ファイルとgit log参照によるローテーション判定で解決した仕組みを解説する。">
+<link rel="canonical" href="https://seadice.win/blog/app-idea-rotation-automation/">
+<meta property="og:title" content="アプリのネタ切れと偏りを防ぐ「アイデア在庫」と「重複回避ルール」を自動化した話 | SEADICE">
+<meta property="og:description" content="海外1日1本・国内1日3本のアプリ企画自動化で、ネタ切れとジャンル・UX形態の偏りをキュー在庫とgit log参照でどう防いだかを解説。">
+<meta property="og:url" content="https://seadice.win/blog/app-idea-rotation-automation/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="アプリ企画のネタ切れと偏りを自動で防ぐ仕組み | SEADICE">
+<meta name="twitter:description" content="キュー在庫ファイルとgit log参照によるローテーション判定で、アプリ企画の自動化にネタ切れ対策と偏り防止を組み込んだ話。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"アプリのネタ切れと偏りを防ぐ「アイデア在庫」と「重複回避ルール」を自動化した話","datePublished":"2026-07-29","dateModified":"2026-07-29","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/app-idea-rotation-automation/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"アプリのネタ切れと偏りを防ぐ「アイデア在庫」と「重複回避ルール」を自動化した話","item":"https://seadice.win/blog/app-idea-rotation-automation/"}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.code-block{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin:16px 0;overflow-x:auto;font-family:'SF Mono',Consolas,monospace;font-size:13px;color:#94a3b8;white-space:pre}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / アプリのネタ切れと偏りを防ぐ「アイデア在庫」と「重複回避ルール」を自動化した話</p>
+  <span class="tag">開発</span>
+  <h1>アプリのネタ切れと偏りを防ぐ<br>「アイデア在庫」と<br>「重複回避ルール」を自動化した話</h1>
+  <p class="meta"><time datetime="2026-07-29">2026-07-29</time> · SEADICE</p>
+  <div class="body">
+
+<p>海外向けアプリ1日1本・国内向けアプリ1日3本というリリース頻度を自動化すると、すぐにアイデアのネタ切れと、ジャンル・UX形態の偏りという2つの問題にぶつかる。<code>p/apps/.overseas-queue.json</code>というアイデア在庫ファイルと、git logで直近の実績を参照するローテーション判定を組み合わせることで、この2つを同時に解決した。</p>
+
+<h2>ネタ切れ対策:アイデアをその場で1本考えるのではなく「在庫」を持つ</h2>
+
+<p>毎回その場で新しいアイデアを1つ考えると、質が安定しないうえ既存アプリとの重複チェックが漏れやすい。そこで海外向けは、アイデアを5本まとめて考えて<code>p/apps/.overseas-queue.json</code>というJSON配列に貯めておき、実行のたびに先頭から1本だけ取り出す(pop)方式にした。</p>
+
+<ul>
+  <li>キューが空になったタイミングでのみ、既存の15本以上(bushido-way・kamon-crest・kintsugi-mendなど)と重複しない新規5本をまとめて生成</li>
+  <li>1回の実行では在庫から1本取り出すだけなので、生成の質を担保しながら実行コストも安定する</li>
+  <li>在庫が尽きる直前に気づけるよう、残数を毎回コミットメッセージに記録</li>
+</ul>
+
+<h2>偏り対策:git logを「直近の実績データベース」として使う</h2>
+
+<p>国内向けは、生活・お金・教育など8つの困りごとジャンルと、記録+可視化・チャット相談・辞典型など7つのUX形態を掛け合わせて選ぶ。何もルールがないと「診断系ばかり作ってしまう」という偏りが起きやすい。</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>参照先</th><th>チェック内容</th><th>ルール</th></tr></thead>
+  <tbody>
+    <tr><td><code>git log --format=%B</code>の直近コミット</td><td>前回選んだ3ジャンル</td><td>同じジャンルを2日連続で選ばない</td></tr>
+    <tr><td>同上</td><td>前回選んだ3つのUX形態</td><td>同じ日に同じ形態を2回選ばない・前日と同じ形態も避ける</td></tr>
+    <tr><td>アプリディレクトリ一覧</td><td>既存アプリ名・題材</td><td>企画段階で重複候補を除外</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>実行するたびに自分の履歴を読み直す設計</h2>
+
+<p>ポイントは、ローテーションのルールを固定の順番表として持たせるのではなく、実行するたびに<code>git log</code>を読み直して「前回何を選んだか」を確認する設計にしたことだ。これにより、実行間隔が空いても崩れないし、手動でアプリを追加した日があっても自動的に整合性が取れる。</p>
+
+<ol>
+  <li>直近のコミットメッセージから前回選んだジャンル・UX形態を抽出</li>
+  <li>困りごとジャンルプール・UX形態リストから、前回と重複しない組み合わせを選定</li>
+  <li>選定理由(ジャンル・形態の組み合わせ)をコミットメッセージに明記し、次回参照できる状態を維持</li>
+</ol>
+
+<div class="note">
+<p>固定スケジュール表を持たせなかったのは、実行が飛んだ日があっても壊れない設計にしたかったため。判定材料を「今のリポジトリの実際の状態」だけに絞ることで、外部の状態管理を持たずに済んでいる。</p>
+</div>
+
+<h2>2026年7月29日時点の在庫状況</h2>
+
+<p>本日時点で海外向けキューはukiyoe-vision・karesansui-zen・kokeshi-craftの3本を残して運用中。国内向けは資格・防災・節電節水という3ジャンルを本日選定し、辞典型・シミュレーター型・比較ツール型という3つのUX形態を組み合わせて実装した。</p>
+
+<a class="tool-cta" href="/blog/app-launch-checklist-automation/">
+  <p>Related</p>
+  <p>新規アプリ公開後の「配線忘れ」をレジストリで自動化した話 →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>

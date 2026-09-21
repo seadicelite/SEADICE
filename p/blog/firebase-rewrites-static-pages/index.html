@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>毎日firebase.jsonに足しているrewriteは、実は静的ランディングページには不要だった話 | SEADICE</title>
+<meta name="description" content="新規アプリを1本追加するたびfirebase.jsonにrewriteを3行足す運用を続けてきたが、Firebase Hostingはディレクトリindex.htmlを末尾スラッシュで標準解決するため、1ファイルの静的ページには本来不要。SPAとの違いを検証した。">
+<link rel="canonical" href="https://seadice.win/blog/firebase-rewrites-static-pages/">
+<meta property="og:title" content="毎日firebase.jsonに足しているrewriteは、実は静的ランディングページには不要だった話 | SEADICE">
+<meta property="og:description" content="Firebase Hostingのディレクトリindex標準解決とrewriteの役割の違いを検証し、静的ランディングページへのrewrite追加が冗長である理由を整理した。">
+<meta property="og:url" content="https://seadice.win/blog/firebase-rewrites-static-pages/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="firebase.jsonのrewriteは静的ページに本当に必要か検証した話 | SEADICE">
+<meta name="twitter:description" content="毎日3行ずつ足してきたrewriteルールが、実はディレクトリindex標準解決により1ファイルの静的ページには不要だったという検証記録。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"毎日firebase.jsonに足しているrewriteは、実は静的ランディングページには不要だった話","datePublished":"2026-08-02","dateModified":"2026-08-02","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/firebase-rewrites-static-pages/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"毎日firebase.jsonに足しているrewriteは、実は静的ランディングページには不要だった話","item":"https://seadice.win/blog/firebase-rewrites-static-pages/"}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.code-block{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin:16px 0;overflow-x:auto;font-family:'SF Mono',Consolas,monospace;font-size:13px;color:#94a3b8;white-space:pre}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 毎日firebase.jsonに足しているrewriteは、実は静的ランディングページには不要だった話</p>
+  <span class="tag">開発</span>
+  <h1>毎日firebase.jsonに足している<br>rewriteは、実は静的ランディング<br>ページには不要だった話</h1>
+  <p class="meta"><time datetime="2026-08-02">2026-08-02</time> · SEADICE</p>
+  <div class="body">
+
+<p>新規アプリを1本追加するたび、<code>firebase.json</code>の<code>hosting.rewrites</code>に<code>/tools/{id}/**</code>・<code>/apps/{id}/**</code>・<code>/privacy/{id}/**</code>の3行を機械的に足す運用をここ数日続けてきた。今日だけで4本、直近5日で合計20本追加している。改めて調べてみると、<strong>index.html 1枚だけの静的ランディングページには、この3行は本来なくても動く</strong>ことが分かった。</p>
+
+<h2>Firebase Hostingは末尾スラッシュのディレクトリindexを標準で解決する</h2>
+
+<p>Firebase Hostingは<code>trailingSlash</code>の設定を明示しない場合、ディレクトリのindexファイル(例: <code>about/index.html</code>)についてのみ、標準で末尾スラッシュを使う。つまり<code>/apps/origami-muse/</code>のようなURLは、<code>rewrites</code>に何も書かなくても<code>p/apps/origami-muse/index.html</code>を自動的に返す。これは静的ホスティングとしてごく一般的な挙動で、GitHub PagesやNetlifyのような他の静的ホストとも共通する。</p>
+
+<h2>rewriteの本来の役割はSPAのキャッチオール</h2>
+
+<p><code>firebase.json</code>の<code>rewrites</code>設定は、本来「このURLパターンに一致したら、実ファイルの有無に関わらず必ずこのHTMLを返す」ためのものだ。SEADICEのリポジトリでは<code>toite</code>・<code>rakuraku</code>・<code>lifeisrpg</code>・<code>kao_type_diag</code>・<code>focus-dice</code>のような既存のFlutter SPAアプリが、まさにこの用途でrewriteを使っている。これらは<code>/toite/settings</code>のような実ファイルが存在しない深いパスにもアクセスされる可能性があり、Flutterのクライアントサイドルーターに処理を渡すには、あらゆるサブパスを<code>index.html</code>に着地させる必要がある。</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>ページの種類</th><th>rewriteの要否</th><th>理由</th></tr></thead>
+  <tbody>
+    <tr><td>Flutter SPA(toite・rakuraku等)</td><td>必要</td><td>実ファイルが存在しない任意のサブパスにアクセスされ、クライアントルーターに処理を渡す必要がある</td></tr>
+    <tr><td>静的ランディングページ(apps/tools/privacy配下の新規アプリ)</td><td>不要</td><td>ディレクトリに<code>index.html</code>が1枚あるだけで、末尾スラッシュのURLは標準解決される</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>それでも今日から書き方を変えないと決めた理由</h2>
+
+<p>結論としては、これまで通りrewriteを3行足す運用を継続する。冗長ではあっても実害がないうえ、いくつか具体的なメリットがあるからだ。</p>
+
+<ul>
+<li>将来<code>trailingSlash</code>設定や<code>public</code>ディレクトリ構成を変更したときに、明示的なrewriteがあれば挙動が変わりにくい</li>
+<li><code>rewrites</code>配列を見るだけで、そのアプリのURLが3種類(tools/apps/privacy)存在することが一覧で分かり、ドキュメント代わりになる</li>
+<li>本記事執筆時点で<code>CLAUDE.md</code>のチェックリストには「静的ディレクトリはrewrite不要」と明記されているが、実際の日次運用ではFlutter SPAとの区別を毎回考えるコストの方が、3行追加するコストより高い</li>
+</ul>
+
+<div class="note">
+<p>この記事を書くきっかけになった調査結果は、<code>CLAUDE.md</code>の「新規アプリをWebに追加するときのチェックリスト」節にすでに一行で書かれていた内容と一致する。ドキュメントに書いてあることを実際に手を動かして検証し直す、という遠回りをした形だが、なぜそのルールが正しいのかを理解した状態で運用を続けられるようになったのは収穫だった。</p>
+</div>
+
+<a class="tool-cta" href="/apps/origami-muse/">
+  <p>Today's App</p>
+  <p>Origami Muse - 気分やシーンを伝えるとAIが本物の折り紙モデルを提案するアプリ →</p>
+</a>
+
+<a class="tool-cta" href="/blog/app-launch-checklist-automation/">
+  <p>Related</p>
+  <p>新規アプリ公開後の「配線忘れ」をレジストリで自動化した話 →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>

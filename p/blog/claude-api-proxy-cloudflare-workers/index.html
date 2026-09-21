@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>なぜAPIキーをアプリに埋め込まないのか — Cloudflare WorkersでClaude APIプロキシを作った理由 | SEADICE</title>
+<meta name="description" content="SEADICEは全FlutterアプリでClaude APIキーをipaに埋め込まず、Cloudflare Workers経由で呼び出す。理由と構成、実装のポイントを解説する。">
+<link rel="canonical" href="https://seadice.win/blog/claude-api-proxy-cloudflare-workers/">
+<meta property="og:title" content="なぜAPIキーをアプリに埋め込まないのか — Claude APIプロキシの作り方 | SEADICE">
+<meta property="og:description" content="SEADICEは全FlutterアプリでClaude APIキーをipaに埋め込まず、Cloudflare Workers経由で呼び出す。理由と構成を解説。">
+<meta property="og:url" content="https://seadice.win/blog/claude-api-proxy-cloudflare-workers/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="なぜAPIキーをアプリに埋め込まないのか | SEADICE">
+<meta name="twitter:description" content="Cloudflare WorkersでClaude APIプロキシを作った理由と構成を解説。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"なぜAPIキーをアプリに埋め込まないのか — Cloudflare WorkersでClaude APIプロキシを作った理由","datePublished":"2026-07-22","dateModified":"2026-07-22","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/claude-api-proxy-cloudflare-workers/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"なぜAPIキーをアプリに埋め込まないのか","item":"https://seadice.win/blog/claude-api-proxy-cloudflare-workers/"}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#64748b}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:10px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.code-block{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin:16px 0;overflow-x:auto;font-family:'SF Mono',Consolas,monospace;font-size:13px;color:#94a3b8;white-space:pre}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:11px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / なぜAPIキーをアプリに埋め込まないのか</p>
+  <span class="tag">開発</span>
+  <h1>なぜAPIキーをアプリに<br>埋め込まないのか</h1>
+  <p class="meta"><time datetime="2026-07-22">2026-07-22</time> · SEADICE</p>
+  <div class="body">
+
+<p>SEADICEはAI機能を持つFlutterアプリでClaude APIキーをipa/apkに直接埋め込まず、Cloudflare Workers経由の1本のプロキシで呼び出している。理由はバイナリ解析によるキー流出を防ぐためで、アプリ側のコードは数行変えるだけで済む。</p>
+
+<h2>APIキー直埋め込みが危険な理由</h2>
+
+<p>ipa・apkはstringsコマンドやjadxで簡単に逆コンパイルでき、埋め込んだ文字列はほぼ確実に抽出される。</p>
+
+<ul>
+  <li><strong>strings</strong>: バイナリ内の文字列を抽出する標準コマンドで、平文キーは一発で見つかる</li>
+  <li><strong>jadx / apktool</strong>: apkをJavaソースやリソースに逆変換し、難読化していないキーを露出させる</li>
+  <li><strong>流出後の被害</strong>: キーが漏れると第三者に無制限でAPIを叩かれ、従量課金がそのまま請求される</li>
+</ul>
+
+<h2>Cloudflare Workersプロキシの構成</h2>
+
+<p>SEADICEは<code>claude-proxy.seadice-lite.workers.dev</code>という1つのWorkerを全アプリで共用し、APIキーはCloudflare Secretsに<code>ANTHROPIC_API_KEY</code>として保存している。</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>構成要素</th><th>役割</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Flutterアプリ</td><td>Workerのエンドポイントにmodel・messagesをPOSTするだけ</td></tr>
+    <tr><td>Cloudflare Worker</td><td>リクエストを中継し、Cloudflare SecretsからAPIキーを注入</td></tr>
+    <tr><td>Cloudflare Secrets</td><td><code>ANTHROPIC_API_KEY</code>を暗号化保存。コードにもipaにも残らない</td></tr>
+    <tr><td>Anthropic API</td><td>Workerからのリクエストのみを受け付ける実質的な唯一の呼び出し元</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>アプリ側の実装は数行で済む</h2>
+
+<p>アプリ側はAnthropicのエンドポイントの代わりにWorker URLへPOSTするだけで、既存のリクエスト形式をそのまま流用できる。</p>
+
+<div class="code-block">final res = await http.post(
+  Uri.parse('https://claude-proxy.seadice-lite.workers.dev'),
+  headers: {'content-type': 'application/json'},
+  body: jsonEncode({
+    'model': 'claude-haiku-4-5-20251001',
+    'max_tokens': 200,
+    'messages': [{'role': 'user', 'content': 'your prompt'}],
+  }),
+);</div>
+
+<h2>キー更新時の運用</h2>
+
+<p>キーを更新・再発行する際も、差し替えはWorker側の1コマンドで完結し、公開済みのアプリを再ビルド・再申請する必要がない。</p>
+
+<div class="code-block">cd hiragana-ai-worker && wrangler secret put ANTHROPIC_API_KEY</div>
+
+<div class="note">
+<p>診断系AIアプリ群のように個別提案にClaude APIを使う機能は、この構成を前提に設計している。プロキシを1本に集約しているため、モデル変更や料金プラン変更もWorker側の修正だけで全アプリに反映できる。</p>
+</div>
+
+<a class="tool-cta" href="/blog/claude-api-intro/">
+  <p>Related</p>
+  <p>Claude APIのはじめかた — キー取得・Python実装・モデル選択・ストリーミングまで →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2025 SEADICE</p></footer>
+</body>
+</html>
