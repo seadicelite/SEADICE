@@ -2990,6 +2990,18 @@
           }
         ]
       }
+    ],
+    "redirects": [
+      {
+        "source": "/research",
+        "destination": "https://seadice-research.web.app/",
+        "type": 301
+      },
+      {
+        "source": "/research/:path*",
+        "destination": "https://seadice-research.web.app/:path",
+        "type": 301
+      }
     ]
   }
 }
