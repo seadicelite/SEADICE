@@ -1,12 +1,12 @@
 {
-    "name": "boueki_hub",
-    "short_name": "boueki_hub",
+    "name": "貿易実務検定C級 対策アプリ",
+    "short_name": "貿易検定C級",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#0F0F0F",
+    "theme_color": "#10A37F",
+    "description": "貿易実務検定C級の模擬テスト・大問別演習ができる無料の対策アプリです。",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {

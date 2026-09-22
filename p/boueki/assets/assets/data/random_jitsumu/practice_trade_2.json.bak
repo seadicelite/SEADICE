@@ -1,0 +1,866 @@
+{
+  "questions": [
+    {
+      "sentence": "貨物に Fragile とあった場合の意味はどちらか？",
+      "optionA": "天地無用",
+      "optionB": "こわれもの注意",
+      "answer": "B",
+      "explanation": "Fragile は「こわれもの注意」。"
+    },
+    {
+      "sentence": "Documents against Acceptance（D/A手形）の意味はどちらか？",
+      "optionA": "手形引受書類渡し",
+      "optionB": "手形支払書類渡し",
+      "answer": "A",
+      "explanation": "D/Aは手形引受書類渡しのこと。"
+    },
+    {
+      "sentence": "税関が審査・認定した通関業者を何という？",
+      "optionA": "特定通関業者",
+      "optionB": "認定通関業者",
+      "answer": "B",
+      "explanation": "適正業者として税関が認定したものを認定通関業者という。"
+    },
+    {
+      "sentence": "最恵国待遇はどちらを意味する？",
+      "optionA": "他国より有利に扱う",
+      "optionB": "不利にならない条件を与える",
+      "answer": "B",
+      "explanation": "最恵国待遇（MFN）は平等な扱いを求める原則。"
+    },
+    {
+      "sentence": "輸入者がドル建て送金する場合、適用される相場はどちら？",
+      "optionA": "TTB",
+      "optionB": "TTS",
+      "answer": "B",
+      "explanation": "輸入者はドルを「買う」ので TTS。"
+    },
+    
+
+
+  {
+    "sentence": "自ら国際輸送手段を持たない利用運送事業者を()という",
+    "optionA": "NVOCC",
+    "optionB": "NACCS",
+    "answer": "A",
+    "explanation": "自ら輸送手段を持たない利用運送事業者は NVOCC（Non-Vessel Operating Common Carrier）である。"
+  },
+  {
+    "sentence": "用船契約で、輸出港における積込費用および輸入港における荷卸費用が運賃に含まれていることを（）という？",
+    "optionA": "Berth Term",
+    "optionB": "FIO",
+    "answer": "A",
+    "explanation": "Berth Term は積込費用および荷卸費用が運賃に含まれる条件である。"
+  },
+  {
+    "sentence": "通常、貿易取引の売買契約で取り交わす一般取引条件は、注文書型・注文請書型契約書の（）に印刷されている？",
+    "optionA": "裏面",
+    "optionB": "表面",
+    "answer": "A",
+    "explanation": "一般取引条件は通常、契約書の裏面に印刷されている。"
+  },
+  {
+    "sentence": "貿易保険の対象となるリスクで、不可抗力により輸出不能や代金回収不能となる危険を（）という",
+    "optionA": "信用危険",
+    "optionB": "非常危険",
+    "answer": "B",
+    "explanation": "不可抗力による輸出不能や代金回収不能は非常危険に該当する。"
+  },
+  {
+    "sentence": "At 30 days after B/L date のように、確定日後に為替手形を決済する方法を（）という",
+    "optionA": "一覧後定期払い",
+    "optionB": "確定日後定期払い",
+    "answer": "B",
+    "explanation": "B/L日後○日といった方法は確定日後定期払いである。"
+  },
+  {
+    "sentence": "先物為替の受渡時期で、10月渡し・12月渡しなど将来の特定月を引渡月とする方法を（）という",
+    "optionA": "順月確定日渡し",
+    "optionB": "暦月オプション渡し",
+    "answer": "B",
+    "explanation": "将来の特定月を引渡月とする方法は暦月オプション渡しである。"
+  },
+  {
+    "sentence": "委託加工貿易で、委託者が日本にある場合を（）という",
+    "optionA": "順委託加工貿易",
+    "optionB": "逆委託加工貿易",
+    "answer": "B",
+    "explanation": "委託者が日本にある場合は順委託加工貿易という。"
+  },
+  {
+    "sentence": "TRIPS協定とは（）に関する協定か？",
+    "optionA": "知的財産権",
+    "optionB": "原産地規則",
+    "answer": "A",
+    "explanation": "TRIPS協定は知的財産権に関する協定である。"
+  },
+  {
+    "sentence": "輸出でコンテナ単位に満たない小口貨物は（）に持ち込まれるか？",
+    "optionA": "CFS",
+    "optionB": "CY",
+    "answer": "A",
+    "explanation": "小口貨物はCFSに持ち込まれ、他の貨物と混載される。"
+  },
+  {
+    "sentence": "在来船貨物で、船会社が貨物を全部一括して陸揚げすることを（）という",
+    "optionA": "総揚げ",
+    "optionB": "自家揚げ",
+    "answer": "A",
+    "explanation": "船会社が一括して陸揚げすることを総揚げという。"
+  },
+  {
+    "sentence": "WTOの原則で、他国に与えている条件より不利にならない条件を与えることを（）という",
+    "optionA": "内国民待遇",
+    "optionB": "最恵国待遇",
+    "answer": "B",
+    "explanation": "最恵国待遇は、他国に与える条件より不利にしない原則である。"
+  },
+  {
+    "sentence": "同一グループ企業間で輸出入を相殺し、差額のみ決済する方法を（）という",
+    "optionA": "ネッティング",
+    "optionB": "リーズ・アンド・ラッグス",
+    "answer": "A",
+    "explanation": "相殺して差額決済する方法をネッティングという。"
+  },
+  {
+    "sentence": "標準品売買で、穀物類の売買に用いられる品質条件を()という",
+    "optionA": "FAQ",
+    "optionB": "GMQ",
+    "answer": "A",
+    "explanation": "農産物・穀物類にはFAQ条件が用いられる。"
+  },
+  {
+    "sentence": "海外メーカー製品に自社ブランドを付けて輸入・販売する形態を()という",
+    "optionA": "OSL輸入",
+    "optionB": "OEM輸入",
+    "answer": "B",
+    "explanation": "自社ブランドで販売する形態はOEM輸入である。"
+  },
+  {
+    "sentence": "円高時に増加し、円安時に減少する為替調整用運賃サーチャージを()という",
+    "optionA": "BAF",
+    "optionB": "CAF",
+    "answer": "B",
+    "explanation": "為替変動に対応するサーチャージはCAFである。"
+  },
+  {
+    "sentence": "信用状取引における三大船積書類に含まれないものは()である",
+    "optionA": "パッキングリスト",
+    "optionB": "保険証券",
+    "answer": "A",
+    "explanation": "三大船積書類はインボイス・船荷証券・保険証券である。"
+  },
+  {
+    "sentence": "コンテナヤード内でコンテナの配列・整理を行う場所を（）という",
+    "optionA": "エプロン",
+    "optionB": "マーシャリング・ヤード",
+    "answer": "B",
+    "explanation": "コンテナ配列・整理を行うのはマーシャリング・ヤードである。"
+  },
+  {
+    "sentence": "取引見込先を確保するために積極的に売り込みを行うことを（）という",
+    "optionA": "Inquiry",
+    "optionB": "Proposal",
+    "answer": "B",
+    "explanation": "積極的な売り込みはProposalである。"
+  },
+  {
+    "sentence": "海外商社名簿の格付けを信用調査に利用することは（）",
+    "optionA": "できる",
+    "optionB": "できない",
+    "answer": "A",
+    "explanation": "海外商社名簿の格付けは信用調査に利用できる。"
+  },
+  {
+    "sentence": "信用状の条件を変更することを（）という",
+    "optionA": "ディスクレ",
+    "optionB": "アメンドメント",
+    "answer": "B",
+    "explanation": "信用状条件の変更はアメンドメントという。"
+  },
+  
+  {
+    "sentence": "貿易取引で、通貨が異なるために生じる通貨交換時のリスクを何というか？",
+    "optionA": "信用リスク",
+    "optionB": "為替変動リスク",
+    "answer": "B",
+    "explanation": "通貨が異なることによって生じるリスクは為替変動リスク。"
+  },
+  {
+    "sentence": "海外の受託者に原材料や部品を提供し加工させた製品を輸入する委託加工貿易で、委託者が日本にある場合の形態を何というか？",
+    "optionA": "逆委託加工貿易",
+    "optionB": "順委託加工貿易",
+    "answer": "A",
+    "explanation": "委託者が日本側の場合は逆委託加工貿易。"
+  },
+  {
+    "sentence": "取引交渉において契約が成立した場合、注文請書を相手方に送付するのはどちらか？",
+    "optionA": "買主側",
+    "optionB": "売主側",
+    "answer": "B",
+    "explanation": "契約成立後、注文請書を送付するのは売主側。"
+  },
+  {
+    "sentence": "標準品売買の品質条件のうち、主に穀物類に用いられ、当該季節の収穫物の中等品質を基準とするのはどちらか？",
+    "optionA": "FAQ",
+    "optionB": "GMQ",
+    "answer": "A",
+    "explanation": "FAQは穀物取引で用いられる中等品質基準。"
+  },
+  {
+    "sentence": "信用状取引で、船荷証券（B/L）の荷受人欄が「to order」の場合、白地裏書が必要なのはどちらか？",
+    "optionA": "信用状発行銀行",
+    "optionB": "輸出者",
+    "answer": "B",
+    "explanation": "to order B/Lの場合、輸出者の白地裏書が必要。"
+  },
+  {
+    "sentence": "信用状発行銀行の支払確約に加え、信用度の高い銀行の支払確約が付されている信用状を何というか？",
+    "optionA": "Restricted L/C",
+    "optionB": "Confirmed L/C",
+    "answer": "B",
+    "explanation": "他行の支払確約が付いた信用状はConfirmed L/C。"
+  },
+  {
+    "sentence": "貿易条件がCFRの場合、運賃を負担するのはどちらか？",
+    "optionA": "輸出者",
+    "optionB": "輸入者",
+    "answer": "A",
+    "explanation": "CFRでは運賃は輸出者負担。"
+  },
+  {
+    "sentence": "在来船で大口貨物を荷主の責任で本船船側まで持ち込む方法を何というか？",
+    "optionA": "総積み",
+    "optionB": "自家（直）積み",
+    "answer": "B",
+    "explanation": "荷主責任で船側まで持ち込むのは自家積み。"
+  },
+  {
+    "sentence": "信用状取引による航空貨物の場合、Air Waybillの荷受人は通常どちらか？",
+    "optionA": "信用状発行銀行",
+    "optionB": "航空会社",
+    "answer": "A",
+    "explanation": "L/C取引では信用状発行銀行が荷受人となる。"
+  },
+  {
+    "sentence": "3％や5％などの小損害を免責とする条件を何というか？",
+    "optionA": "エクサス条件",
+    "optionB": "フランチャイズ",
+    "answer": "B",
+    "explanation": "一定割合以下の損害を免責とするのはフランチャイズ。"
+  },
+  {
+    "sentence": "貨物海上保険の保険料率はどちらか？",
+    "optionA": "自由料率",
+    "optionB": "ICC統一料率",
+    "answer": "A",
+    "explanation": "貨物海上保険の料率は自由料率。"
+  },
+  {
+    "sentence": "信用状なしの荷為替手形決済で、銀行の取扱いの原則はどちらか？",
+    "optionA": "買取扱い",
+    "optionB": "取立扱い",
+    "answer": "B",
+    "explanation": "信用状なしの場合は取立扱いが原則。"
+  },
+  {
+    "sentence": "インボイス価格がFOB価格の場合、輸入申告書に記載すべき価格は同一か？",
+    "optionA": "同一である",
+    "optionB": "異なる",
+    "answer": "B",
+    "explanation": "輸入申告価格はCIF価格となるため異なる。"
+  },
+  {
+    "sentence": "為替予約で将来の特定の月を引渡月とする方法を何というか？",
+    "optionA": "順月オプション渡し",
+    "optionB": "暦月オプション渡し",
+    "answer": "B",
+    "explanation": "特定の月を指定するのは暦月オプション渡し。"
+  },
+  {
+    "sentence": "本支店間取引などで輸出入額を相殺し、差額のみ決済する方法を何というか？",
+    "optionA": "リーズ・アンド・ラッグス",
+    "optionB": "ネッティング",
+    "answer": "B",
+    "explanation": "相殺決済方式はネッティング。"
+  },
+  {
+    "sentence": "自ら国際輸送手段を持たない複合運送人を何というか？",
+    "optionA": "NACCS",
+    "optionB": "NVOCC",
+    "answer": "B",
+    "explanation": "船舶等を持たない複合運送人はNVOCC。"
+  },
+  {
+    "sentence": "銀行に海外銀行を支払人とする小切手を振り出してもらい送付する輸入代金決済方法はどちらか？",
+    "optionA": "Demand Draft",
+    "optionB": "Mail Transfer",
+    "answer": "A",
+    "explanation": "小切手を送付する方法はDemand Draft。"
+  },
+  {
+    "sentence": "輸入貨物に課される消費税は原則として何を課税標準とするか？",
+    "optionA": "CIF価格",
+    "optionB": "CIF価格＋関税額",
+    "answer": "B",
+    "explanation": "輸入消費税はCIF価格に関税を加えた額が課税標準。"
+  },
+  {
+    "sentence": "輸出国の補助金により自国産業が損害を受けた場合に課される関税を何というか？",
+    "optionA": "相殺関税",
+    "optionB": "緊急関税",
+    "answer": "A",
+    "explanation": "補助金相当額を限度に課すのが相殺関税。"
+  },
+  {
+    "sentence": "WTO設立協定書付属書1CのTRIPS協定は何に関する協定か？",
+    "optionA": "原産地規則",
+    "optionB": "知的財産権",
+    "answer": "B",
+    "explanation": "TRIPS協定は知的財産権に関する協定。"
+  },
+  
+  {
+    "sentence": "有害廃棄物の国境を越える移動及びその処分の規定に関する条約はどちらか？",
+    "optionA": "バーゼル条約",
+    "optionB": "ウィーン条約",
+    "answer": "A",
+    "explanation": "有害廃棄物の越境移動と処分を規定するのはバーゼル条約。"
+  },
+  {
+    "sentence": "信用状取引における三大船積書類のうち、インボイス・船荷証券と並ぶものはどちらか？",
+    "optionA": "保険証券",
+    "optionB": "パッキング・リスト",
+    "answer": "A",
+    "explanation": "三大船積書類はインボイス、船荷証券、保険証券。"
+  },
+  {
+    "sentence": "輸入貨物に「Fragile」という表示があった場合の意味はどちらか？",
+    "optionA": "こわれもの注意",
+    "optionB": "Freight（運賃）",
+    "answer": "A",
+    "explanation": "Fragileは「こわれもの注意」を意味する。"
+  },
+
+  {
+    "sentence": "貨物が買主指定の本船の船上に置かれた時点で、危険負担と費用負担が売主から買主へ移転する貿易条件はどちらか？",
+    "optionA": "FCA",
+    "optionB": "FOB",
+    "answer": "B",
+    "explanation": "FOBでは本船船上に置かれた時点で負担が移転する。"
+  },
+
+  {
+    "sentence": "取引先の信用調査項目であるCapital、Capacity、Characterを総称して何というか？",
+    "optionA": "3C of Credit",
+    "optionB": "Customs",
+    "answer": "A",
+    "explanation": "Capital、Capacity、Characterを3C of Creditという。"
+  },
+  {
+    "sentence": "売買契約時の貿易条件はインコタームズによるものでなければならないか？",
+    "optionA": "なくてもよい",
+    "optionB": "なければならない",
+    "answer": "A",
+    "explanation": "インコタームズの使用は必須ではない。"
+  },
+
+  {
+    "sentence": "外国送金は、資金移動の指図と資金の流れが同一方向となるため、何というか？",
+    "optionA": "並為替",
+    "optionB": "仕向為替",
+    "answer": "A",
+    "explanation": "同一方向の送金は並為替。"
+  },
+  {
+    "sentence": "船積書類と信用状条件が一致しない状態を何というか？",
+    "optionA": "アメンドメント",
+    "optionB": "ディスクレ",
+    "answer": "B",
+    "explanation": "条件不一致はディスクレパンシー（ディスクレ）。"
+  },
+  {
+    "sentence": "売買契約は諾成契約であるため、口頭のみでも成立するか？",
+    "optionA": "する",
+    "optionB": "しない",
+    "answer": "A",
+    "explanation": "諾成契約のため口頭でも成立する。"
+  },
+  {
+    "sentence": "航空貨物運送状（Air Waybill）の法的性質はどちらか？",
+    "optionA": "証拠証券",
+    "optionB": "有価証券",
+    "answer": "A",
+    "explanation": "AWBは有価証券ではなく証拠証券。"
+  },
+  {
+    "sentence": "指定された加工を行うために輸出される加工原材料で、輸出価格が100万円を超える場合、輸出承認を行うのは誰か？",
+    "optionA": "財務大臣",
+    "optionB": "経済産業大臣",
+    "answer": "B",
+    "explanation": "加工原材料の輸出承認は経済産業大臣。"
+  },
+  {
+    "sentence": "インコタームズ2020のCIP条件における輸出者の危険負担はどこまでか？",
+    "optionA": "指定場所で運送人に引き渡した時点まで",
+    "optionB": "指定仕向地に到着した時点まで",
+    "answer": "A",
+    "explanation": "CIPでは引渡し時点で危険が移転する。"
+  },
+  {
+    "sentence": "買主の承諾後も売主の最終確認を条件として契約が成立するオファーを何というか？",
+    "optionA": "カウンター・オファー",
+    "optionB": "サブコン・オファー",
+    "answer": "B",
+    "explanation": "売主確認を条件とするのはサブコン・オファー。"
+  },
+  {
+    "sentence": "信用状取引においてBeneficiaryとは誰を指すか？",
+    "optionA": "輸出者",
+    "optionB": "輸入者",
+    "answer": "A",
+    "explanation": "Beneficiaryは信用状によって利益を受ける輸出者。"
+  },
+  {
+    "sentence": "契約書のタイプ条項と印刷条項が矛盾した場合、どちらが優先されるか？",
+    "optionA": "印刷条項",
+    "optionB": "タイプ条項",
+    "answer": "B",
+    "explanation": "個別に記載されたタイプ条項が優先される。"
+  },
+  {
+    "sentence": "輸入者がドル建て代金を海外送金で支払う場合に適用される為替相場はどちらか？",
+    "optionA": "TTB",
+    "optionB": "TTS",
+    "answer": "B",
+    "explanation": "輸入者が支払う場合はTTSが適用される。"
+  },
+  {
+    "sentence": "信用状条件による取引で、信用状の発行を銀行に依頼するのはどちらか？",
+    "optionA": "輸出者",
+    "optionB": "輸入者",
+    "answer": "B",
+    "explanation": "信用状の発行依頼を行うのは輸入者。"
+  }
+
+,
+  {
+    "sentence": "取引先を確保するために積極的な売込みを行うことを何というか？",
+    "optionA": "Inquiry（引合）",
+    "optionB": "Proposal（申込み）",
+    "answer": "B",
+    "explanation": "積極的な売込みはProposal（申込み）。"
+  },
+  {
+    "sentence": "旧ICCにおいて、FPAがカバーする損害に加え、海水濡れ損害など海固有の危険による分損を一定割合以上でてん補する条件はどちらか？",
+    "optionA": "WA",
+    "optionB": "A/R",
+    "answer": "A",
+    "explanation": "WAはFPA＋海固有危険による分損を一定割合以上で補償する。"
+  },
+  {
+    "sentence": "コンテナターミナルで、積付図に基づきコンテナの配列・整理を行う場所はどこか？",
+    "optionA": "エプロン",
+    "optionB": "マーシャリング・ヤード",
+    "answer": "B",
+    "explanation": "コンテナの配列・整理を行うのはマーシャリング・ヤード。"
+  },
+  {
+    "sentence": "在来船で大口貨物を荷主の責任で本船船側まで持ち込む方法はどちらか？",
+    "optionA": "総積み",
+    "optionB": "自家（直）積み",
+    "answer": "B",
+    "explanation": "荷主責任で船側まで持ち込むのは自家積み。"
+  },
+  {
+    "sentence": "インコタームズはどの国際機関によって定められたか？",
+    "optionA": "ICC",
+    "optionB": "WTO",
+    "answer": "A",
+    "explanation": "インコタームズはICCが制定している。"
+  },
+  {
+    "sentence": "実際の売主または買主が商社などを介して行う貿易を何というか？",
+    "optionA": "仲介貿易",
+    "optionB": "間接貿易",
+    "answer": "B",
+    "explanation": "商社を介する形態は間接貿易。"
+  },
+  {
+    "sentence": "認定通関業者に輸出通関を委託し、保税地域に入れずに輸出申告できる者を何というか？",
+    "optionA": "特定輸出者",
+    "optionB": "特定委託輸出者",
+    "answer": "B",
+    "explanation": "この制度の対象は特この制度は特定輸出申告制度（または特定委託輸出申告制度）と呼ばれ、物流の迅速化とコスト削減を図るAEO制度の一部"
+  },
+  {
+    "sentence": "信用状統一規則で、aboutなどの語が金額・数量・単価についている場合の許容誤差はどちらか？",
+    "optionA": "±20％",
+    "optionB": "±10％",
+    "answer": "B",
+    "explanation": "about等が付く場合の許容誤差は±10％。"
+  },
+
+  {
+    "sentence": "通貨変動による為替差損益を調整する海上運賃の割増運賃はどちらか？",
+    "optionA": "BAF",
+    "optionB": "CAF",
+    "answer": "B",
+    "explanation": "為替変動調整はCAF。"
+  },
+  {
+    "sentence": "為替予約で将来の特定の月を受渡月とする方法はどちらか？",
+    "optionA": "順月確定日渡し",
+    "optionB": "暦月オプション渡し",
+    "answer": "B",
+    "explanation": "特定の月を指定するのは暦月オプション渡し。"
+  },
+  {
+    "sentence": "外貨建てで海外送金を行う場合に適用される為替相場はどちらか？",
+    "optionA": "TTS",
+    "optionB": "TTB",
+    "answer": "A",
+    "explanation": "外貨建て送金ではTTSが適用される。"
+  },
+  {
+    "sentence": "米国向け輸出コンテナ貨物では、船積何時間前までに貨物情報を米国税関へ提供する必要があるか？",
+    "optionA": "24時間",
+    "optionB": "48時間",
+    "answer": "A",
+    "explanation": "米国向けは24時間ルールが適用される。"
+  },
+  {
+    "sentence": "信用状を開設する際、銀行に発行依頼を行うのはどちらか？",
+    "optionA": "輸出者",
+    "optionB": "輸入者",
+    "answer": "B",
+    "explanation": "信用状の発行依頼は輸入者が行う。"
+  },
+  {
+    "sentence": "為替変動リスク回避のために為替予約を締結する際に利用する相場はどちらか？",
+    "optionA": "直物相場",
+    "optionB": "先物相場",
+    "answer": "B",
+    "explanation": "為替予約は先物相場を利用する。"
+  },
+  {
+    "sentence": "船積品質条件の場合、契約通りの品質で出荷されたことを確認するために提出が求められる書類はどちらか？",
+    "optionA": "品質検査証明書",
+    "optionB": "重量容積証明書",
+    "answer": "A",
+    "explanation": "船積品質条件では品質検査証明書が必要。"
+  },
+  {
+    "sentence": "自ら国際輸送手段を持たない利用運送事業者を何というか？",
+    "optionA": "NVOCC",
+    "optionB": "NACCS",
+    "answer": "A",
+    "explanation": "輸送手段を持たない事業者はNVOCC。"
+  },
+  {
+    "sentence": "貿易取引では、必ず最新のインコタームズを採用しなければならないか？",
+    "optionA": "しなければならない",
+    "optionB": "しなくてもよい",
+    "answer": "B",
+    "explanation": "インコタームズの採用は任意。"
+  },
+  {
+    "sentence": "オゾン層を破壊するおそれのある物質を規制することを目的とした国際的取決めはどちらか？",
+    "optionA": "ワシントン条約",
+    "optionB": "ウィーン条約",
+    "answer": "B",
+    "explanation": "オゾン層保護を目的とするのはウィーン条約。"
+  },
+  {
+    "sentence": "日本のPL法が対象とする製造物の範囲は、製造または加工された動産に限定されるか？",
+    "optionA": "される",
+    "optionB": "されない",
+    "answer": "A",
+    "explanation": "PL法の対象は製造・加工された動産に限定される。"
+  },
+  
+  {
+    "sentence": "貿易取引で、通貨が異なるために生じる通貨交換時のリスクを何というか？",
+    "optionA": "信用リスク",
+    "optionB": "為替変動リスク",
+    "answer": "B",
+    "explanation": "通貨の変動によって生じるリスクは為替変動リスク。"
+  },
+  {
+    "sentence": "信用状発行銀行の支払確約に加え、信用度の高い銀行の支払確約が付された信用状を何というか？",
+    "optionA": "Restricted L/C",
+    "optionB": "Confirmed L/C",
+    "answer": "B",
+    "explanation": "他行の支払確約が付く信用状はConfirmed L/C。"
+  },
+  {
+    "sentence": "WTO設立協定書付属書1CのTRIPS協定は何に関する協定か？",
+    "optionA": "原産地規則",
+    "optionB": "知的財産権",
+    "answer": "B",
+    "explanation": "TRIPS協定は知的財産権に関する協定。"
+  },
+  {
+    "sentence": "輸出入の通関や船積み、荷受け手続きを代行する業者を一般に何というか？",
+    "optionA": "複合運送人",
+    "optionB": "海貨業者",
+    "answer": "B",
+    "explanation": "通関や船積みを代行するのは海貨業者。"
+  },
+  {
+    "sentence": "定期船（Liner）で不特定多数の荷主の貨物を運送する方式を何というか？",
+    "optionA": "個品運送契約",
+    "optionB": "用船契約",
+    "answer": "A",
+    "explanation": "定期船による一般貨物輸送は個品運送契約。"
+  },
+  {
+    "sentence": "信用状金額が支払ごと、または一定期間後に自動的に復元される信用状を何というか？",
+    "optionA": "Revolving L/C",
+    "optionB": "Restricted L/C",
+    "answer": "A",
+    "explanation": "金額が復元される信用状はRevolving L/C。"
+  },
+  {
+    "sentence": "注文書型・注文請書型契約書の裏面に印刷された共通条件を何というか？",
+    "optionA": "タイプ条項",
+    "optionB": "印刷条項",
+    "answer": "B",
+    "explanation": "裏面の共通条件は印刷条項。"
+  },
+  {
+    "sentence": "ブランド品などを正規代理店を通さずに輸入することを何というか？",
+    "optionA": "並行輸入",
+    "optionB": "OEM輸入",
+    "answer": "A",
+    "explanation": "正規代理店を通さない輸入は並行輸入。"
+  },
+  {
+    "sentence": "売買契約時の貿易条件は必ずインコタームズによらなければならないか？",
+    "optionA": "なくてもよい",
+    "optionB": "なければならない",
+    "answer": "A",
+    "explanation": "インコタームズの使用は任意。"
+  },
+
+  {
+    "sentence": "用船契約で、積込費用・荷卸費用が運賃に含まれる条件を何というか？",
+    "optionA": "FIO",
+    "optionB": "Berth Term",
+    "answer": "B",
+    "explanation": "積卸費用込みはBerth Term。"
+  },
+  {
+    "sentence": "仲介貿易において、売買契約が締結される相手は誰か？",
+    "optionA": "輸入者",
+    "optionB": "日本の仲介貿易業者",
+    "answer": "B",
+    "explanation": "輸出者と日本の仲介貿易業者の間で契約が結ばれる。"
+  },
+
+  {
+    "sentence": "インコタームズ2020のCIF・CIP条件で海上保険の付保義務を負うのはどちらか？",
+    "optionA": "輸出者",
+    "optionB": "輸入者",
+    "answer": "A",
+    "explanation": "CIF・CIPでは輸出者に保険付保義務がある。"
+  },
+  {
+    "sentence": "FCL貨物をコンテナ船に積み込む場合、どこに持ち込まれるか？",
+    "optionA": "CY",
+    "optionB": "CFS",
+    "answer": "A",
+    "explanation": "FCL貨物はCYに持ち込まれる。"
+  },
+  {
+    "sentence": "貿易条件がCFRの場合の運賃表示はどちらか？",
+    "optionA": "FREIGHT PREPAID",
+    "optionB": "FREIGHT COLLECT",
+    "answer": "A",
+    "explanation": "CFRでは運賃は輸出者負担のためPrepaid。"
+  },
+  {
+    "sentence": "輸出手形保険の保険料を負担するのは誰か？",
+    "optionA": "買取銀行",
+    "optionB": "輸出者",
+    "answer": "B",
+    "explanation": "輸出手形保険の保険料は輸出者負担。"
+  },
+  {
+    "sentence": "GATTで定める最恵国待遇とは何か？",
+    "optionA": "最恵国待遇",
+    "optionB": "特恵国待遇",
+    "answer": "A",
+    "explanation": "他国に与える条件と同等以上を与える原則が最恵国待遇。"
+  },
+  {
+    "sentence": "法定納期限までに関税が納付されない場合に課される附帯税はどちらか？",
+    "optionA": "延滞税",
+    "optionB": "重加算税",
+    "answer": "A",
+    "explanation": "期限内に納付されない場合は延滞税が課される。"
+  },
+  {
+    "sentence": "信用状取引においてBeneficiaryとは誰を指すか？",
+    "optionA": "輸入者",
+    "optionB": "輸出者",
+    "answer": "B",
+    "explanation": "Beneficiaryは信用状の受益者である輸出者。"
+  },
+  {
+    "sentence": "輸入した貨物に「Fragile」という表示があった場合の意味はどちらか？",
+    "optionA": "天地指定",
+    "optionB": "こわれもの注意",
+    "answer": "B",
+    "explanation": "Fragileは「こわれもの注意」を意味する。"
+  },
+  {
+    "sentence": "貨物海上保険の保険料率はどちらか？",
+    "optionA": "自由料率",
+    "optionB": "ICC統一料率",
+    "answer": "A",
+    "explanation": "貨物海上保険の保険料率は自由料率である。"
+  },
+  {
+    "sentence": "信用状統一規則において、aboutまたはそれに類する語が金額・数量・単価についている場合の許容誤差はどちらか？",
+    "optionA": "±10%",
+    "optionB": "±15%",
+    "answer": "A",
+    "explanation": "about等が付く場合、±10%以内の過不足が許容される。"
+  },
+  {
+    "sentence": "総揚げの場合、D/O（デリバリー・オーダー）は誰宛てに発行されるか？",
+    "optionA": "船長",
+    "optionB": "ランディング・エージェント",
+    "answer": "B",
+    "explanation": "総揚げの場合、D/Oはランディング・エージェント宛に発行される。"
+  },
+  {
+    "sentence": "Documents against Acceptance（D/A手形）を指すのはどちらか？",
+    "optionA": "手形引受書類渡し",
+    "optionB": "手形支払書類渡し",
+    "answer": "A",
+    "explanation": "D/Aは手形引受書類渡しを意味する。"
+  },
+  {
+    "sentence": "コンプライアンスおよびセキュリティ管理の観点から税関が審査・認定した通関業者を何というか？",
+    "optionA": "特定通関業者",
+    "optionB": "認定通関業者",
+    "answer": "B",
+    "explanation": "税関が審査・認定した業者は認定通関業者である。"
+  },
+  {
+    "sentence": "WTOの原則で、相手国に対して他国より不利にならない条件を与える待遇を何というか？",
+    "optionA": "最恵国待遇",
+    "optionB": "内国民待遇",
+    "answer": "A",
+    "explanation": "他国と同等以上の条件を与える原則は最恵国待遇。"
+  },
+  {
+    "sentence": "旧ICCにおいて、FPAに加え海固有の危険による分損を一定条件で補償し、新ICCのB条件に相当するのはどちらか？",
+    "optionA": "WA",
+    "optionB": "A/R",
+    "answer": "A",
+    "explanation": "WAは旧ICCで新ICC(B)に相当する条件。"
+  },
+  {
+    "sentence": "市場調査の項目において、需要情報はどちらに分類されるか？",
+    "optionA": "商品特有の情報",
+    "optionB": "一般的情報",
+    "answer": "A",
+    "explanation": "需要情報は商品特有の情報に含まれる。"
+  },
+  {
+    "sentence": "外国為替相場のリスク対策として、決済時期を早めたり遅らせたりする方法を何というか？",
+    "optionA": "リーズ・アンド・ラッグス",
+    "optionB": "ネッティング",
+    "answer": "A",
+    "explanation": "決済時期を調整する方法はリーズ・アンド・ラッグス。"
+  },
+  {
+    "sentence": "注文書型・注文請書型契約書において、一般取引条件は通常どこに印刷されているか？",
+    "optionA": "表面",
+    "optionB": "裏面",
+    "answer": "B",
+    "explanation": "一般取引条件は契約書の裏面に印刷される。"
+  },
+  {
+    "sentence": "海外価格の下落などにより輸入が急増した場合に、国内産業保護のために課される関税を何というか？",
+    "optionA": "相殺関税",
+    "optionB": "緊急関税",
+    "answer": "B",
+    "explanation": "輸入急増時の国内産業保護は緊急関税。"
+  },
+  {
+    "sentence": "輸入者が商品代金を海外送金で支払う場合、代金がドル建てのときに適用される為替相場はどちらか？",
+    "optionA": "TTB",
+    "optionB": "TTS",
+    "answer": "B",
+    "explanation": "輸入者が外貨を支払う場合はTTSが適用される。"
+  },
+  {
+    "sentence": "マーケティング戦略における4Pとは、Product・Price・Promotionと何か？",
+    "optionA": "Proposal",
+    "optionB": "Place",
+    "answer": "B",
+    "explanation": "4PはProduct・Price・Promotion・Place。"
+  },
+  {
+    "sentence": "在来船への積込み作業で貨物に瑕疵が見つかった場合、その情報が記録される書類はどちらか？",
+    "optionA": "ドック・レシート",
+    "optionB": "メイツ・レシート",
+    "answer": "B",
+    "explanation": "積込み時の瑕疵はメイツ・レシートに記載される。"
+  },
+  {
+    "sentence": "日本のメーカーが逆委託加工貿易契約により海外で生産委託した製品を、日本に輸入せず第三国へ直接輸出する取引形態はどちらか？",
+    "optionA": "間接貿易",
+    "optionB": "仲介貿易",
+    "answer": "B",
+    "explanation": "間接貿易とは、輸出入者が直接海外の製造業者と取引をするのではなく、商社を介して行う貿易"
+  },
+  {
+    "sentence": "インボイスに記載された価格がFOB価格である場合、輸入申告書に記載すべき価格はこれと異なるか？",
+    "optionA": "FOB価格",
+    "optionB": "CIF価格",
+    "answer": "A",
+    "explanation": "FOB価格の場合、輸入申告価格（CIF）とは異なる。"
+  },
+  {
+    "sentence": "売買契約で数量決定時点を船積数量条件とした場合、輸入者が輸出者に提出を義務付けられる書類はどちらか？",
+    "optionA": "品質検査証明書",
+    "optionB": "重量容積証明書",
+    "answer": "B",
+    "explanation": "船積数量条件では重量容積証明書が必要。"
+  },
+  {
+    "sentence": "海外バイヤーの格付けを掲載している海外商社名簿を、信用調査に利用することはできるか？",
+    "optionA": "できない",
+    "optionB": "できる",
+    "answer": "B",
+    "explanation": "海外商社名簿は信用調査資料として利用できる。"
+  },
+  {
+    "sentence": "インコタームズ2020において、一般に輸出者の費用負担が最も大きい条件はどちらか？",
+    "optionA": "EXW",
+    "optionB": "DDP",
+    "answer": "B",
+    "explanation": "DDPは輸出者の費用・責任負担が最大。"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+
+  
+}
