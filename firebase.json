@@ -2179,6 +2179,9 @@
         "source": "/privacy/nenkin-mitsumori-sim/**",
         "destination": "/privacy/nenkin-mitsumori-sim/index.html"
       },
+      {"source": "/tools/irezumi-codex/**", "destination": "/tools/irezumi-codex/index.html"},
+      {"source": "/apps/irezumi-codex/**", "destination": "/apps/irezumi-codex/index.html"},
+      {"source": "/privacy/irezumi-codex/**", "destination": "/privacy/irezumi-codex/index.html"},
       {
         "source": "/tools/inari-fox/**",
         "destination": "/tools/inari-fox/index.html"
