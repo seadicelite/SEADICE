@@ -2180,6 +2180,54 @@
         "destination": "/privacy/nenkin-mitsumori-sim/index.html"
       },
       {
+        "source": "/tools/inari-fox/**",
+        "destination": "/tools/inari-fox/index.html"
+      },
+      {
+        "source": "/apps/inari-fox/**",
+        "destination": "/apps/inari-fox/index.html"
+      },
+      {
+        "source": "/privacy/inari-fox/**",
+        "destination": "/privacy/inari-fox/index.html"
+      },
+      {
+        "source": "/tools/nichiyohin-kireyoho-log/**",
+        "destination": "/tools/nichiyohin-kireyoho-log/index.html"
+      },
+      {
+        "source": "/apps/nichiyohin-kireyoho-log/**",
+        "destination": "/apps/nichiyohin-kireyoho-log/index.html"
+      },
+      {
+        "source": "/privacy/nichiyohin-kireyoho-log/**",
+        "destination": "/privacy/nichiyohin-kireyoho-log/index.html"
+      },
+      {
+        "source": "/tools/hatarakikata-hikaku/**",
+        "destination": "/tools/hatarakikata-hikaku/index.html"
+      },
+      {
+        "source": "/apps/hatarakikata-hikaku/**",
+        "destination": "/apps/hatarakikata-hikaku/index.html"
+      },
+      {
+        "source": "/privacy/hatarakikata-hikaku/**",
+        "destination": "/privacy/hatarakikata-hikaku/index.html"
+      },
+      {
+        "source": "/tools/ifuku-kankyo-shindan/**",
+        "destination": "/tools/ifuku-kankyo-shindan/index.html"
+      },
+      {
+        "source": "/apps/ifuku-kankyo-shindan/**",
+        "destination": "/apps/ifuku-kankyo-shindan/index.html"
+      },
+      {
+        "source": "/privacy/ifuku-kankyo-shindan/**",
+        "destination": "/privacy/ifuku-kankyo-shindan/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       },
