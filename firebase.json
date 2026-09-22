@@ -2132,6 +2132,18 @@
         "destination": "/privacy/ninchi-kunren-quest100/index.html"
       },
       {
+        "source": "/tools/jizo-wayfarer/**",
+        "destination": "/tools/jizo-wayfarer/index.html"
+      },
+      {
+        "source": "/apps/jizo-wayfarer/**",
+        "destination": "/apps/jizo-wayfarer/index.html"
+      },
+      {
+        "source": "/privacy/jizo-wayfarer/**",
+        "destination": "/privacy/jizo-wayfarer/index.html"
+      },
+      {
         "source": "/tools/kendama-trick/**",
         "destination": "/tools/kendama-trick/index.html"
       },
