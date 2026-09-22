@@ -2132,6 +2132,18 @@
         "destination": "/privacy/ninchi-kunren-quest100/index.html"
       },
       {
+        "source": "/tools/shishiodoshi-pause/**",
+        "destination": "/tools/shishiodoshi-pause/index.html"
+      },
+      {
+        "source": "/apps/shishiodoshi-pause/**",
+        "destination": "/apps/shishiodoshi-pause/index.html"
+      },
+      {
+        "source": "/privacy/shishiodoshi-pause/**",
+        "destination": "/privacy/shishiodoshi-pause/index.html"
+      },
+      {
         "source": "/tools/kendama-trick/**",
         "destination": "/tools/kendama-trick/index.html"
       },
