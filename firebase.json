@@ -2866,6 +2866,18 @@
       {
         "source": "/privacy/kotowaru-lab/**",
         "destination": "/privacy/kotowaru-lab/index.html"
+      },
+      {
+        "source": "/tools/sensu-muse/**",
+        "destination": "/tools/sensu-muse/index.html"
+      },
+      {
+        "source": "/apps/sensu-muse/**",
+        "destination": "/apps/sensu-muse/index.html"
+      },
+      {
+        "source": "/privacy/sensu-muse/**",
+        "destination": "/privacy/sensu-muse/index.html"
       }
     ],
     "headers": [
