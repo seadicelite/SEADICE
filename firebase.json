@@ -2132,6 +2132,18 @@
         "destination": "/privacy/ninchi-kunren-quest100/index.html"
       },
       {
+        "source": "/tools/kumiko-lattice/**",
+        "destination": "/tools/kumiko-lattice/index.html"
+      },
+      {
+        "source": "/apps/kumiko-lattice/**",
+        "destination": "/apps/kumiko-lattice/index.html"
+      },
+      {
+        "source": "/privacy/kumiko-lattice/**",
+        "destination": "/privacy/kumiko-lattice/index.html"
+      },
+      {
         "source": "/tools/kendama-trick/**",
         "destination": "/tools/kendama-trick/index.html"
       },
