@@ -2228,6 +2228,18 @@
         "destination": "/privacy/ifuku-kankyo-shindan/index.html"
       },
       {
+        "source": "/tools/ukiyoe-lens/**",
+        "destination": "/tools/ukiyoe-lens/index.html"
+      },
+      {
+        "source": "/apps/ukiyoe-lens/**",
+        "destination": "/apps/ukiyoe-lens/index.html"
+      },
+      {
+        "source": "/privacy/ukiyoe-lens/**",
+        "destination": "/privacy/ukiyoe-lens/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       },
