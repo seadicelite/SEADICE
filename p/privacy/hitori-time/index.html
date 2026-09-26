@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | ひとりじかんノート</title>
+<meta name="description" content="ひとりじかんノートのプライバシーポリシー。収集するデータ、Claude API（Anthropic）への送信内容、データの削除方法について説明します。">
+<link rel="canonical" href="https://seadice.win/privacy/hitori-time/">
+<link rel="icon" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#1A1420;--card:#241B2C;--accent:#E8A87C;--accent2:#A78BFA;--border:#332942;--text:#efe8f4;--muted:#9a8fab}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.8}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(26,20,32,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}.nav-home{color:var(--muted);text-decoration:none;font-size:13px}.nav-home:hover{color:var(--text)}main{max-width:720px;margin:0 auto;padding:96px 24px 80px}h1{font-size:26px;font-weight:800;margin-bottom:24px}h2{font-size:17px;font-weight:800;margin:36px 0 12px;color:var(--accent)}p,li{font-size:14px;color:#d6cfe0}ul{padding-left:20px;margin-top:8px}li{margin-bottom:6px}.updated{font-size:12px;color:var(--muted);margin-bottom:32px}a{color:var(--accent2)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted);margin-top:60px}footer a{color:var(--muted);text-decoration:none}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="https://seadice.win/">SEADICE</a>
+  <a class="nav-home" href="https://seadice.win/">ホームへ戻る</a>
+</nav>
+<main>
+  <h1>プライバシーポリシー（ひとりじかんノート）</h1>
+  <p class="updated">最終更新日: 2026年9月19日</p>
+
+  <p>「ひとりじかんノート」（以下「本アプリ」）は、SEADICE（個人開発者、以下「開発者」）が提供するアプリです。本ポリシーは、本アプリにおける利用者情報の取り扱いについて説明します。</p>
+
+  <h2>開発者・お問い合わせ</h2>
+  <p>開発者: SEADICE<br>連絡先: <a href="mailto:hi@seadice.win">hi@seadice.win</a></p>
+
+  <h2>収集する情報</h2>
+  <p>本アプリは以下の情報を端末内（SharedPreferences）に保存します。これらの情報は開発者のサーバーには送信されません。</p>
+  <ul>
+    <li>入力した気分・したいことのテキスト、AIからの提案内容、AI雑談の履歴</li>
+    <li>ひとり時間ログの記録内容（過ごし方・日時）</li>
+    <li>AI機能の利用回数・利用日（1日3回の利用制限管理のため）</li>
+    <li>アプリの設定情報（オンボーディング表示済みフラグ、レビュー依頼済みフラグなど）</li>
+  </ul>
+
+  <h2>Claude API（Anthropic）への送信内容</h2>
+  <p>本アプリのAI過ごし方提案・AI雑談機能は、開発者が管理するCloudflare Workersのプロキシサーバーを経由して、Anthropic社が提供するClaude APIを利用しています。この機能を利用した場合、以下の情報がプロキシサーバー経由でAnthropic社のサーバーに送信されます。</p>
+  <ul>
+    <li>利用者が入力した気分・したいこと・雑談内容に関するテキスト（AI雑談では、その回の会話履歴を含みます）</li>
+  </ul>
+  <p><strong>送信先:</strong> Anthropic, PBC（米国）が提供するClaude API。氏名・連絡先・端末識別子などは送信しません。<br><strong>同意の取得:</strong> 初めてAI機能を使う際、送信内容と送信先を示すダイアログで利用者の同意を得てから送信します。同意しない場合、AI機能は利用できず、テキストは送信されません。<br><strong>利用目的:</strong> AIによる提案・応答の生成のみです。Anthropic社は、ご利用のAPI経由の入力をモデルの学習には使用しません。</p>
+  <p>本アプリはAPIキーを端末内に保持せず、開発者が管理するプロキシサーバー経由でのみClaude APIを呼び出します。送信された情報は、AIによる提案・応答生成の目的にのみ利用され、Anthropic社のプライバシーポリシーおよび利用規約に従って取り扱われます。詳細は<a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">Anthropic社のプライバシーポリシー</a>をご確認ください。</p>
+
+  <h2>広告について</h2>
+  <p>本アプリは広告を一切表示しません。第三者広告配信事業者（AdMob等）は利用していないため、広告目的での個人情報の収集・第三者提供は一切行われません。</p>
+
+  <h2>データの第三者提供</h2>
+  <p>本アプリは、法令に基づく場合を除き、利用者の同意なく個人を特定できる情報を第三者に提供することはありません。</p>
+
+  <h2>AI雑談機能についての注意</h2>
+  <p>本アプリのAI雑談相手は傾聴に徹するものであり、医療的な診断・心理カウンセリング・治療的な助言を行うものではありません。深刻な悩みやお困りごとがある場合は、専門機関や信頼できる周囲の方にご相談ください。</p>
+
+  <h2>データの削除方法</h2>
+  <p>本アプリに保存されているすべてのデータ（提案履歴・ひとり時間ログ・設定情報等）は、端末の設定からアプリを削除することで完全に削除されます。個別の記録のみを削除したい場合は、アプリ内の履歴画面から該当する記録を削除してください。Claude APIへ送信された内容はプロキシサーバー・Anthropic社側で保存・蓄積を行っておらず、応答生成後は保持されません。</p>
+
+  <h2>お子様のプライバシー</h2>
+  <p>本アプリは13歳未満のお子様を対象としていません。13歳未満のお子様から意図的に個人情報を収集することはありません。</p>
+
+  <h2>本ポリシーの変更</h2>
+  <p>本ポリシーの内容は、法令の変更やアプリの機能追加に伴い、予告なく変更される場合があります。変更後のポリシーは本ページに掲載した時点で効力を生じます。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>本ポリシーに関するご質問は <a href="mailto:hi@seadice.win">hi@seadice.win</a> までご連絡ください。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">© SEADICE</a> ・ <a href="/apps/hitori-time/">アプリ詳細</a>
+</footer>
+</body>
+</html>
