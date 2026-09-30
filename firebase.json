@@ -2228,6 +2228,18 @@
         "destination": "/privacy/ifuku-kankyo-shindan/index.html"
       },
       {
+        "source": "/tools/tesukatsu-log/**",
+        "destination": "/tools/tesukatsu-log/index.html"
+      },
+      {
+        "source": "/apps/tesukatsu-log/**",
+        "destination": "/apps/tesukatsu-log/index.html"
+      },
+      {
+        "source": "/privacy/tesukatsu-log/**",
+        "destination": "/privacy/tesukatsu-log/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       },
