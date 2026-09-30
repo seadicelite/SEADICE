@@ -2240,10 +2240,6 @@
         "destination": "/privacy/tesukatsu-log/index.html"
       },
       {
-        "source": "**",
-        "destination": "/index.html"
-      },
-      {
         "source": "/tools/holmes-deduction/**",
         "destination": "/tools/holmes-deduction/index.html"
       },
