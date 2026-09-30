@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>活動を支援する | SEADICE（シーダイス）</title>
-  <meta name="description" content="SEADICEは個人開発者が広告収益に頼らず運営するアプリスタジオです。運営を続けるための支援（投げ銭）を受け付けています。">
+  <meta name="description" content="SEADICEのアプリ・Webツールは無料で使えます。レビュー・シェア・Amazon経由のお買い物など、お金をかけずにできる応援から、投げ銭まで、支援の方法をまとめました。">
 
   <meta name="author" content="SEADICE">
   <meta name="robots" content="index, follow">
@@ -18,7 +18,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="SEADICE">
   <meta property="og:title" content="活動を支援する | SEADICE（シーダイス）">
-  <meta property="og:description" content="SEADICEは個人開発者が広告収益に頼らず運営するアプリスタジオです。運営を続けるための支援（投げ銭）を受け付けています。">
+  <meta property="og:description" content="SEADICEのアプリ・Webツールは無料で使えます。レビュー・シェア・Amazon経由のお買い物など、お金をかけずにできる応援から、投げ銭まで、支援の方法をまとめました。">
   <meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -26,7 +26,7 @@
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="活動を支援する | SEADICE（シーダイス）">
-  <meta name="twitter:description" content="SEADICEは個人開発者が広告収益に頼らず運営するアプリスタジオです。運営を続けるための支援（投げ銭）を受け付けています。">
+  <meta name="twitter:description" content="SEADICEのアプリ・Webツールは無料で使えます。レビュー・シェア・Amazon経由のお買い物など、お金をかけずにできる応援から、投げ銭まで、支援の方法をまとめました。">
   <meta name="twitter:image" content="https://seadice.win/icons/seadice_ogp.png">
 
   <script type="application/ld+json">
@@ -38,9 +38,9 @@
         "@id": "https://seadice.win/support/#webpage",
         "url": "https://seadice.win/support/",
         "name": "活動を支援する | SEADICE（シーダイス）",
-        "description": "SEADICEは個人開発者が広告収益に頼らず運営するアプリスタジオです。運営を続けるための支援（投げ銭）を受け付けています。",
+        "description": "SEADICEのアプリ・Webツールは無料で使えます。レビュー・シェア・Amazon経由のお買い物など、お金をかけずにできる応援から、投げ銭まで、支援の方法をまとめました。",
         "inLanguage": "ja",
-        "dateModified": "2026-07-30",
+        "dateModified": "2026-09-30",
         "isPartOf": { "@id": "https://seadice.win/#website" }
       },
       {
@@ -64,7 +64,7 @@
       --accent2: #38BDF8;
       --border: #1a1a2e;
       --text: #e2e8f0;
-      --muted: #64748b;
+      --muted: #7c8aa0;
     }
     body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Helvetica Neue', sans-serif; line-height: 1.6; }
 
@@ -88,7 +88,7 @@
     .breadcrumb a { color: var(--muted); text-decoration: none; }
     .breadcrumb a:hover { color: var(--text); }
 
-    .label { font-size: 11px; letter-spacing: 0.25em; color: var(--accent); margin-bottom: 16px; text-transform: uppercase; }
+    .label { font-size: 12px; letter-spacing: 0.25em; color: var(--accent); margin-bottom: 16px; text-transform: uppercase; }
     h1 { font-size: clamp(26px, 5vw, 38px); font-weight: 800; line-height: 1.35; letter-spacing: -0.02em; margin-bottom: 20px; }
     .lead { font-size: 15px; color: var(--muted); line-height: 1.85; margin-bottom: 40px; }
 
@@ -119,6 +119,17 @@
     }
     .future-note strong { color: var(--text); }
 
+    .way-list { list-style: none; padding: 0; display: grid; gap: 12px; margin: 16px 0 12px; }
+    .way { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; margin: 0; }
+    .way strong { display: block; color: var(--text); font-size: 15px; margin-bottom: 4px; }
+    .way p { margin-bottom: 10px; }
+    .way p:last-child { margin-bottom: 0; }
+    .way-links { display: flex; flex-wrap: wrap; gap: 8px; }
+    .way-links a { font-size: 13px; color: var(--accent); text-decoration: none; border: 1px solid rgba(0,255,209,.35); border-radius: 999px; padding: 6px 14px; }
+    .way-links a:hover { border-color: var(--accent); }
+    .disclosure { font-size: 12px; }
+    main a { color: #7dd3fc; }
+
     footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; }
     footer p { font-size: 12px; color: var(--muted); }
     footer a { color: var(--muted); text-decoration: none; }
@@ -139,12 +150,40 @@
 
   <p class="label">Support</p>
   <h1>SEADICEの活動を支援する</h1>
-  <p class="lead">SEADICEは個人開発者が運営する、広告収益に頼らないアプリスタジオです。運営を続けるための支援を受け付けています。</p>
+  <p class="lead">SEADICEのアプリ・Webツール・メディアは、誰でも無料で使えることをいちばん大切にしています。支援の方法は1つではありません。お金をかけずにできる応援もたくさんあります。</p>
 
-  <h2>なぜ支援が必要か</h2>
-  <p>SEADICEのアプリの多くは、AI（Claude API）を使った診断・相談機能を無料で提供しています。これらの機能はAPIの利用ごとに運営コストが発生しますが、SEADICEでは広告表示によるユーザー体験の悪化を避けるため、バナー広告・インタースティシャル広告は使用していません。</p>
-  <p>皆さんからの支援は、こうしたAPI利用料やアプリの継続開発・保守にあてられます。</p>
+  <h2>お金をかけずにできる応援</h2>
+  <p>使っていて「いいな」と思ったら、次のどれか1つだけでも大きな力になります。</p>
+  <ul class="way-list">
+    <li class="way">
+      <strong>1. App Storeでレビュー・評価をつける</strong>
+      <p>星1つ・一言の感想でも、アプリが見つけてもらいやすくなります。</p>
+      <div class="way-links"><a href="https://apps.apple.com/app/id6787542361?action=write-review" target="_blank" rel="noopener">ブラック心理学</a><a href="https://apps.apple.com/app/id6787390344?action=write-review" target="_blank" rel="noopener">断捨離AI</a><a href="https://apps.apple.com/app/id6791859198?action=write-review" target="_blank" rel="noopener">Yokai Did It !</a><a href="https://apps.apple.com/app/id6789349072?action=write-review" target="_blank" rel="noopener">貿易実務検定CBT</a><a href="https://apps.apple.com/app/id6788717337?action=write-review" target="_blank" rel="noopener">貿易実務英単語</a></div>
+    </li>
+    <li class="way">
+      <strong>2. 友だち・SNSでシェアする</strong>
+      <p>役に立ちそうな人がいたら、教えてあげてください。</p>
+      <div class="way-links"><a href="https://x.com/intent/post?text=%E6%AF%8E%E6%97%A5%E3%81%AE%E5%9B%B0%E3%82%8A%E3%81%94%E3%81%A8%E3%82%92%E5%B0%8F%E3%81%95%E3%81%8F%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%83%BB%E7%84%A1%E6%96%99%E3%83%84%E3%83%BC%E3%83%AB%20SEADICE&amp;url=https%3A%2F%2Fseadice.win%2F" target="_blank" rel="noopener">Xでシェア</a><a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fseadice.win%2F" target="_blank" rel="noopener">LINEで送る</a></div>
+    </li>
+    <li class="way">
+      <strong>3. Amazonでのお買い物をSEADICE経由にする</strong>
+      <p>下のリンクからAmazonに入って普段どおり買い物をすると、商品の価格はそのままで、Amazonから紹介料がSEADICEに入ります。</p>
+      <div class="way-links"><a href="https://www.amazon.co.jp/?tag=hide04261326-22" target="_blank" rel="nofollow noopener">Amazonでお買い物</a><a href="/reviews/">SEADICEのグッズ比較を見る</a></div>
+    </li>
+    <li class="way">
+      <strong>4. メディアを読む・シェアする</strong>
+      <p>悩み・心理・お金を研究や知見から読み解く姉妹サイトです。記事のシェアも応援になります。</p>
+      <div class="way-links"><a href="https://seadice-research.web.app/" target="_blank" rel="noopener">SEADICE RESEARCH</a><a href="https://seadice-umbra.web.app/" target="_blank" rel="noopener">UMBRA</a><a href="https://ledger.seadice.win/" target="_blank" rel="noopener">LEDGER</a></div>
+    </li>
+    <li class="way">
+      <strong>5. 要望・感想を送る</strong>
+      <p>「こんなアプリが欲しい」「ここが使いにくい」という声が、次のアプリや改善のいちばんの材料です。</p>
+      <div class="way-links"><a href="/#feedback">トップページから送る</a><a href="mailto:hi@seadice.win">メールで送る</a></div>
+    </li>
+  </ul>
 
+  <h2>投げ銭で応援する</h2>
+  <p>もし余裕があれば、1杯のコーヒー代からの投げ銭も受け付けています。もちろん、投げ銭をしなくてもすべての機能をこれまでどおり使えます。</p>
   <div class="cta-card">
     <p>1杯のコーヒー代からでも、開発の力になります。</p>
     <a class="cta-btn" href="https://buymeacoffee.com/seadice" target="_blank" rel="noopener">
@@ -153,10 +192,15 @@
     <p class="cta-note">外部サイト（Buy Me a Coffee）に移動します</p>
   </div>
 
-  <h2>今後の展望</h2>
+  <h2>支援の使いみち</h2>
+  <p>SEADICEのアプリの多くは、AI（Claude API）を使った診断・相談機能を無料で提供しています。これらの機能は使われるたびに運営コストが発生します。いただいた支援や紹介料は、API利用料やサーバー代、アプリの継続開発・保守にあてられます。</p>
+
+  <h2>企業・団体の方へ</h2>
   <div class="future-note">
-    <strong>月額の応援プラン（賛助会員）</strong>も準備中です。継続的に支援いただける方向けの仕組みを検討しています。決まり次第このページでお知らせします。
+    <strong>スポンサー・タイアップのご相談を受け付けています。</strong>メディアやアプリのテーマ（暮らし・心理・お金・学び・防災など）に合う企業・団体の方は、<a href="mailto:hi@seadice.win?subject=%E3%80%90%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B5%E3%83%BC%E3%81%AE%E3%81%94%E7%9B%B8%E8%AB%87%E3%80%91">hi@seadice.win</a> までご連絡ください。
   </div>
+
+  <p class="disclosure" style="margin-top:32px;">SEADICEはAmazonアソシエイト・プログラムの参加者です。Amazonのアソシエイトとして、SEADICEは適格販売により収入を得ています。</p>
 </main>
 
 <footer>

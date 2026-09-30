@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>あなたの「隠れた性格」診断 | SEADICE 診断</title>
+  <meta name="description" content="周りには見せていない、あなたの本当の一面がわかる話題の無料診断。隠れ天然・隠れ策士・隠れ繊細さん・隠れリーダー・隠れロマンチストの5タイプから判定します。">
+  <meta name="keywords" content="性格診断,隠れた性格,話題の診断,無料診断,タイプ診断">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/hidden-personality/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="あなたの「隠れた性格」診断 | SEADICE 診断">
+  <meta property="og:description" content="周りには見せていない本当の一面がわかる話題の無料診断。5タイプから判定。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/hidden-personality/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/hidden-personality-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seadice.win/diagnosis/assets/img/hidden-personality-og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"あなたの「隠れた性格」診断","item":"https://seadice.win/diagnosis/hidden-personality/"}]},{"@type":"Quiz","name":"あなたの「隠れた性格」診断","description":"周りには見せていない本当の一面がわかる話題の無料診断","url":"https://seadice.win/diagnosis/hidden-personality/","inLanguage":"ja"}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <div id="quiz-intro">
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / あなたの「隠れた性格」診断</p>
+  <p class="section-label">Diagnosis · Trending</p>
+  <h1>あなたの「隠れた性格」診断</h1>
+  <p class="hero-desc">普段は見せていない、あなたの本当の一面を診断します。8つの質問から、隠れ天然・隠れ策士・隠れ繊細さん・隠れリーダー・隠れロマンチストの5タイプの中から、あなたの隠れた性格を判定します。友人にシェアして結果を見比べてみましょう。</p>
+
+  <figure class="hero"><img src="/diagnosis/assets/img/hidden-personality-hero.webp" width="900" height="600" alt="ヴェネツィア・カーニバルの仮面" loading="eager"><figcaption>Photo: Frank Kovalchek from Anchorage, Alaska, USA / <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a> / <a href="https://commons.wikimedia.org/wiki/File:Venice_Carnival_-_Masked_Lovers_(2010).jpg" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption></figure>
+
+    <button type="button" id="quiz-start-btn" class="quiz-start-btn">診断をはじめる（1分・全8問）</button>
+  </div>
+
+  <div id="quiz-progress-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+    <p class="quiz-step-label"><span>質問</span><span id="quiz-progress-label">1 / 8</span></p>
+  </div>
+  <div id="quiz-questions"></div>
+
+  <div id="quiz-result">
+    <div class="result-card">
+      <div class="result-icon"></div>
+      <p class="result-type"></p>
+      <h2 class="result-name" style="margin-top:0"></h2>
+      <p class="result-desc"></p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度診断する</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/renai-type/"><span class="diag-title">恋愛タイプ診断</span></a>
+      <a class="diag-card" href="/diagnosis/mbti-lite/"><span class="diag-title">簡易MBTI風 気質診断</span></a>
+    </div>
+  </div>
+
+  <script type="application/json" id="quiz-data">
+  {
+    "shareTitle": "あなたの「隠れた性格」診断",
+    "resultLabel": "あなたの隠れた性格",
+    "types": {
+      "TENNEN": {
+        "name": "隠れ天然タイプ",
+        "desc": "普段はしっかり者に見られがちですが、実はふとした瞬間に抜けたところがあるタイプです。緊張が解けると素の天然っぷりが出て、周りを和ませます。親しい人ほどそのギャップに気づいています。",
+        "color": "#ff6b81"
+      },
+      "SAKUSHI": {
+        "name": "隠れ策士タイプ",
+        "desc": "一見おとなしそうに見えて、実は物事を先読みして動いているタイプです。感情的にならず、裏で状況をコントロールするのが得意です。実はかなりの努力家で、結果を出すまで見せない慎重さも持っています。",
+        "color": "#6c63ff"
+      },
+      "SENSAI": {
+        "name": "隠れ繊細さんタイプ",
+        "desc": "強く見られがちですが、内面はとても繊細で人の言葉を深く受け止めているタイプです。表には出さず一人で処理することが多く、気づかれにくい優しさと傷つきやすさを併せ持っています。",
+        "color": "#00b894"
+      },
+      "LEADER": {
+        "name": "隠れリーダータイプ",
+        "desc": "普段は控えめですが、いざという時に自然とみんなを引っ張るタイプです。目立つことを好まないのに、周りから頼られて中心的な役割を任されることが多い傾向があります。",
+        "color": "#ffa62b"
+      },
+      "ROMANTIC": {
+        "name": "隠れロマンチストタイプ",
+        "desc": "現実的でクールに見られがちですが、内心では理想や特別な瞬間を大切にしているタイプです。感動的な話や特別な記念日には人一倍思い入れがあり、そのギャップに驚かれることがあります。",
+        "color": "#3a86ff"
+      }
+    },
+    "questions": [
+      {
+        "q": "友人からよく言われる自分のイメージは？",
+        "options": [
+          {
+            "text": "しっかりしていて頼れる人",
+            "type": "TENNEN"
+          },
+          {
+            "text": "冷静で何を考えているかわからない人",
+            "type": "SAKUSHI"
+          },
+          {
+            "text": "強くてあまり悩まなそうな人",
+            "type": "SENSAI"
+          },
+          {
+            "text": "自分から前に出ないタイプ",
+            "type": "LEADER"
+          }
+        ]
+      },
+      {
+        "q": "一人になったときに、つい考えていることは？",
+        "options": [
+          {
+            "text": "さっき失敗したことをぼんやり思い出している",
+            "type": "TENNEN"
+          },
+          {
+            "text": "今後どう動けばうまくいくか作戦を練っている",
+            "type": "SAKUSHI"
+          },
+          {
+            "text": "誰かに言われた一言を何度も思い返している",
+            "type": "SENSAI"
+          },
+          {
+            "text": "理想の未来や特別な出来事を想像している",
+            "type": "ROMANTIC"
+          }
+        ]
+      },
+      {
+        "q": "グループで問題が起きたとき、実は？",
+        "options": [
+          {
+            "text": "誰よりも早く解決策を考え始めている",
+            "type": "SAKUSHI"
+          },
+          {
+            "text": "表には出さないけどかなり心がざわついている",
+            "type": "SENSAI"
+          },
+          {
+            "text": "自然と最後にはまとめ役になっている",
+            "type": "LEADER"
+          },
+          {
+            "text": "実はうっかり原因を作った側だったりする",
+            "type": "TENNEN"
+          }
+        ]
+      },
+      {
+        "q": "映画やドラマを見て涙腺が緩むのは？",
+        "options": [
+          {
+            "text": "感動的な再会や特別なシーン",
+            "type": "ROMANTIC"
+          },
+          {
+            "text": "誰かがそっと支えてくれるシーン",
+            "type": "SENSAI"
+          },
+          {
+            "text": "意外と自分でも驚くくらいすぐ泣く",
+            "type": "TENNEN"
+          },
+          {
+            "text": "あまり表に出さないが実は結構泣いている",
+            "type": "LEADER"
+          }
+        ]
+      },
+      {
+        "q": "本当は褒められて一番嬉しい言葉は？",
+        "options": [
+          {
+            "text": "「実は抜けてるところが可愛いよね」",
+            "type": "TENNEN"
+          },
+          {
+            "text": "「いつの間にか先を読んでるよね」",
+            "type": "SAKUSHI"
+          },
+          {
+            "text": "「あなたのおかげでまとまった」",
+            "type": "LEADER"
+          },
+          {
+            "text": "「意外とロマンチストだよね」",
+            "type": "ROMANTIC"
+          }
+        ]
+      },
+      {
+        "q": "誰にも言っていない自分の一面は？",
+        "options": [
+          {
+            "text": "実はかなり繊細で引きずりやすい",
+            "type": "SENSAI"
+          },
+          {
+            "text": "実は裏でいろいろ計算して動いている",
+            "type": "SAKUSHI"
+          },
+          {
+            "text": "実は特別な日や記念日にすごくこだわる",
+            "type": "ROMANTIC"
+          },
+          {
+            "text": "実はよく忘れ物やうっかりミスをする",
+            "type": "TENNEN"
+          }
+        ]
+      },
+      {
+        "q": "困っている人を見かけたら？",
+        "options": [
+          {
+            "text": "気づけば自然と声をかけて先頭に立っている",
+            "type": "LEADER"
+          },
+          {
+            "text": "自分のことのように心が痛んでしまう",
+            "type": "SENSAI"
+          },
+          {
+            "text": "どう助けるのが一番効果的か考える",
+            "type": "SAKUSHI"
+          },
+          {
+            "text": "とりあえず思いついたままに動いて空回りすることも",
+            "type": "TENNEN"
+          }
+        ]
+      },
+      {
+        "q": "理想のプレゼントをもらうなら？",
+        "options": [
+          {
+            "text": "実用的で無駄のないもの",
+            "type": "SAKUSHI"
+          },
+          {
+            "text": "手紙やメッセージが添えられた特別なもの",
+            "type": "ROMANTIC"
+          },
+          {
+            "text": "何でも嬉しいけど、もらった瞬間ちょっと泣きそうになる",
+            "type": "SENSAI"
+          },
+          {
+            "text": "サプライズならなおさら喜ぶ",
+            "type": "TENNEN"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script src="/diagnosis/assets/quiz.js"></script>
+</main>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

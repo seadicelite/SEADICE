@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>簡易ビッグファイブ性格診断 | SEADICE 診断</title>
+  <meta name="description" content="心理学で最も信頼されている性格理論「ビッグファイブ」をもとにした簡易診断。8つの質問であなたの最も強い性格特性がわかります。">
+  <meta name="keywords" content="ビッグファイブ,性格診断,心理学,無料診断,パーソナリティ">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/bigfive-lite/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="簡易ビッグファイブ性格診断 | SEADICE 診断">
+  <meta property="og:description" content="心理学の性格理論「ビッグファイブ」をもとにした無料の簡易診断。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/bigfive-lite/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/bigfive-lite-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seadice.win/diagnosis/assets/img/bigfive-lite-og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"簡易ビッグファイブ性格診断","item":"https://seadice.win/diagnosis/bigfive-lite/"}]},{"@type":"Quiz","name":"簡易ビッグファイブ性格診断","description":"心理学の性格理論ビッグファイブをもとにした無料診断","url":"https://seadice.win/diagnosis/bigfive-lite/","inLanguage":"ja"}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <div id="quiz-intro">
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / 簡易ビッグファイブ性格診断</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>簡易ビッグファイブ性格診断</h1>
+  <p class="hero-desc">「ビッグファイブ」は、世界中の心理学研究で最も支持されている性格理論です。外向性・協調性・誠実性・開放性・情緒安定性の5つの特性のうち、あなたに最も強く現れている特性を8つの質問で診断します。</p>
+
+  <figure class="hero"><img src="/diagnosis/assets/img/bigfive-lite-hero.webp" width="900" height="900" alt="色彩豊かな星雲の天体写真" loading="eager"><figcaption>Photo: NASA, ESA, T. Megeath (University of Toledo) and M. Robberto (STScI) / Public domain / <a href="https://commons.wikimedia.org/wiki/File:Spitzer_and_Hubble_Create_Colorful_Masterpiece_(2006-01-1834).jpg" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption></figure>
+
+    <button type="button" id="quiz-start-btn" class="quiz-start-btn">診断をはじめる（1分・全8問）</button>
+  </div>
+
+  <div id="quiz-progress-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+    <p class="quiz-step-label"><span>質問</span><span id="quiz-progress-label">1 / 8</span></p>
+  </div>
+  <div id="quiz-questions"></div>
+
+  <div id="quiz-result">
+    <div class="result-card">
+      <div class="result-icon"></div>
+      <p class="result-type"></p>
+      <h2 class="result-name" style="margin-top:0"></h2>
+      <p class="result-desc"></p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度診断する</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/mbti-lite/"><span class="diag-title">簡易MBTI風 気質診断</span></a>
+      <a class="diag-card" href="/diagnosis/stress-type/"><span class="diag-title">ストレス対処タイプ診断</span></a>
+    </div>
+  </div>
+
+  <script type="application/json" id="quiz-data">
+  {
+    "shareTitle": "簡易ビッグファイブ性格診断",
+    "resultLabel": "あなたの最も強い性格特性",
+    "types": {
+      "EXT": {
+        "name": "外向型",
+        "desc": "人と関わることでエネルギーを得るタイプです。社交的で刺激を求め、初対面の人とも積極的に話せます。一人の時間が長く続くと、逆に元気がなくなりやすい傾向があります。",
+        "color": "#ff6b81"
+      },
+      "AGR": {
+        "name": "協調型",
+        "desc": "他人への思いやりや協力を大切にするタイプです。争いを避け、周囲との調和を重んじます。人の頼みを断るのが苦手で、自分のことを後回しにしがちな一面もあります。",
+        "color": "#6c63ff"
+      },
+      "CON": {
+        "name": "誠実型",
+        "desc": "計画性と自己管理力に優れたタイプです。目標に向かってコツコツ努力を積み重ねることができ、周囲から信頼されやすい性格です。完璧を求めすぎて自分を追い込むこともあります。",
+        "color": "#00b894"
+      },
+      "OPE": {
+        "name": "開放型",
+        "desc": "好奇心が強く、新しいアイデアや体験を求めるタイプです。芸術やユニークな発想を好み、型にはまらない考え方をします。ルーティンワークには飽きやすい傾向があります。",
+        "color": "#ffa62b"
+      },
+      "NEU": {
+        "name": "情緒安定型",
+        "desc": "感情の波が少なく、プレッシャーの中でも落ち着いて行動できるタイプです。ストレスに強く、周囲を冷静にサポートできます。一方で危機感が薄く見られることもあります。",
+        "color": "#3a86ff"
+      }
+    },
+    "questions": [
+      {
+        "q": "パーティーや飲み会に誘われたら？",
+        "options": [
+          {
+            "text": "喜んで参加し、初対面の人とも積極的に話す",
+            "type": "EXT"
+          },
+          {
+            "text": "その場の空気を壊さないよう気を配りながら過ごす",
+            "type": "AGR"
+          },
+          {
+            "text": "参加するなら準備をしっかりして臨みたい",
+            "type": "CON"
+          },
+          {
+            "text": "新しい出会いや刺激があるなら興味を持つ",
+            "type": "OPE"
+          }
+        ]
+      },
+      {
+        "q": "友人が急に困りごとを相談してきたら？",
+        "options": [
+          {
+            "text": "とにかく話をよく聞いて共感する",
+            "type": "AGR"
+          },
+          {
+            "text": "冷静に状況を整理してアドバイスする",
+            "type": "NEU"
+          },
+          {
+            "text": "一緒に解決策を具体的に考える",
+            "type": "CON"
+          },
+          {
+            "text": "違う視点からユニークな案を出してみる",
+            "type": "OPE"
+          }
+        ]
+      },
+      {
+        "q": "新しいプロジェクトを任されたら？",
+        "options": [
+          {
+            "text": "まず綿密な計画を立てて進める",
+            "type": "CON"
+          },
+          {
+            "text": "とにかく新しいやり方を試してみたい",
+            "type": "OPE"
+          },
+          {
+            "text": "チームのモチベーションを上げることから始める",
+            "type": "EXT"
+          },
+          {
+            "text": "プレッシャーがあっても淡々と対応する",
+            "type": "NEU"
+          }
+        ]
+      },
+      {
+        "q": "予定外のトラブルが起きたら？",
+        "options": [
+          {
+            "text": "落ち着いて優先順位をつけて対処する",
+            "type": "NEU"
+          },
+          {
+            "text": "関係者に相談しながら周りと協力して解決する",
+            "type": "AGR"
+          },
+          {
+            "text": "むしろ普段と違う状況を面白いと感じる",
+            "type": "OPE"
+          },
+          {
+            "text": "予定通り進められるよう即座に立て直す",
+            "type": "CON"
+          }
+        ]
+      },
+      {
+        "q": "休みの日、心から満たされるのはどんな時？",
+        "options": [
+          {
+            "text": "友人や家族と賑やかに過ごしている時",
+            "type": "EXT"
+          },
+          {
+            "text": "誰かの役に立てたと感じた時",
+            "type": "AGR"
+          },
+          {
+            "text": "決めていたタスクをすべて終えた時",
+            "type": "CON"
+          },
+          {
+            "text": "知らない世界に触れて刺激を受けた時",
+            "type": "OPE"
+          }
+        ]
+      },
+      {
+        "q": "自分の性格で自信があるところは？",
+        "options": [
+          {
+            "text": "どんな時も冷静でいられること",
+            "type": "NEU"
+          },
+          {
+            "text": "人の気持ちに寄り添えること",
+            "type": "AGR"
+          },
+          {
+            "text": "最後までやり遂げる責任感",
+            "type": "CON"
+          },
+          {
+            "text": "誰とでもすぐ打ち解けられること",
+            "type": "EXT"
+          }
+        ]
+      },
+      {
+        "q": "苦手だと感じることは？",
+        "options": [
+          {
+            "text": "一人で静かに過ごす時間が長く続くこと",
+            "type": "EXT"
+          },
+          {
+            "text": "自分の意見をはっきり主張すること",
+            "type": "AGR"
+          },
+          {
+            "text": "計画を立てずに行き当たりばったりで動くこと",
+            "type": "CON"
+          },
+          {
+            "text": "同じことを繰り返すルーティン作業",
+            "type": "OPE"
+          }
+        ]
+      },
+      {
+        "q": "大きなプレッシャーがかかる場面で、あなたは？",
+        "options": [
+          {
+            "text": "意外と平常心を保てる",
+            "type": "NEU"
+          },
+          {
+            "text": "むしろワクワクして力が出る",
+            "type": "EXT"
+          },
+          {
+            "text": "とにかく準備を万全にして臨もうとする",
+            "type": "CON"
+          },
+          {
+            "text": "普段と違う発想で乗り切ろうとする",
+            "type": "OPE"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script src="/diagnosis/assets/quiz.js"></script>
+</main>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

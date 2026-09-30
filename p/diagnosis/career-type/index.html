@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>キャリア適性タイプ診断 | SEADICE 診断</title>
+  <meta name="description" content="あなたが仕事で力を発揮しやすいタイプがわかる無料診断。リーダー型・サポーター型・スペシャリスト型など6タイプから適性を見つけます。">
+  <meta name="keywords" content="キャリア診断,適性診断,転職,仕事,タイプ診断,無料診断">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/career-type/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="キャリア適性タイプ診断 | SEADICE 診断">
+  <meta property="og:description" content="仕事で力を発揮しやすいタイプがわかる無料診断。6タイプから適性を判定。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/career-type/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/career-type-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seadice.win/diagnosis/assets/img/career-type-og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"キャリア適性タイプ診断","item":"https://seadice.win/diagnosis/career-type/"}]},{"@type":"Quiz","name":"キャリア適性タイプ診断","description":"仕事で力を発揮しやすいタイプがわかる無料診断","url":"https://seadice.win/diagnosis/career-type/","inLanguage":"ja"}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <div id="quiz-intro">
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / キャリア適性タイプ診断</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>キャリア適性タイプ診断</h1>
+  <p class="hero-desc">転職やキャリアの方向性に迷ったときに。8つの質問から、あなたが仕事で最も力を発揮しやすいタイプを診断します。リーダー型・サポーター型・スペシャリスト型・クリエイター型・アナリスト型・チャレンジャー型の6タイプから判定します。</p>
+
+  <figure class="hero"><img src="/diagnosis/assets/img/career-type-hero.webp" width="900" height="594" alt="チームで働く人々" loading="eager"><figcaption>Photo: Foreign and Commonwealth Office / <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">CC BY 2.0</a> / <a href="https://commons.wikimedia.org/wiki/File:FCO_consular_team_working_in_Nepal_(17125229747).jpg" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption></figure>
+
+    <button type="button" id="quiz-start-btn" class="quiz-start-btn">診断をはじめる（1分・全8問）</button>
+  </div>
+
+  <div id="quiz-progress-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+    <p class="quiz-step-label"><span>質問</span><span id="quiz-progress-label">1 / 8</span></p>
+  </div>
+  <div id="quiz-questions"></div>
+
+  <div id="quiz-result">
+    <div class="result-card">
+      <div class="result-icon"></div>
+      <p class="result-type"></p>
+      <h2 class="result-name" style="margin-top:0"></h2>
+      <p class="result-desc"></p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度診断する</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/stress-type/"><span class="diag-title">ストレス対処タイプ診断</span></a>
+      <a class="diag-card" href="/diagnosis/mbti-lite/"><span class="diag-title">簡易MBTI風 気質診断</span></a>
+    </div>
+  </div>
+
+  <script type="application/json" id="quiz-data">
+  {
+    "shareTitle": "キャリア適性タイプ診断",
+    "resultLabel": "あなたのキャリアタイプ",
+    "types": {
+      "LEAD": {
+        "name": "リーダー型",
+        "desc": "目標を決めて周りを引っ張ることに向いているタイプです。決断力があり、責任を引き受けることを恐れません。マネジメント職や、裁量の大きいポジションで力を発揮しやすいタイプです。",
+        "color": "#ff6b81"
+      },
+      "SUPPORT": {
+        "name": "サポーター型",
+        "desc": "誰かを支えることにやりがいを感じるタイプです。周囲の状況をよく観察し、調整役として力を発揮します。人事・総務・カスタマーサポートなど、人を支える仕事との相性が良いタイプです。",
+        "color": "#6c63ff"
+      },
+      "SPECIALIST": {
+        "name": "スペシャリスト型",
+        "desc": "一つの分野を深く極めることに強みがあるタイプです。専門知識を積み上げ、質の高い成果を出すことにやりがいを感じます。エンジニア・研究職・専門職との相性が良いタイプです。",
+        "color": "#00b894"
+      },
+      "CREATOR": {
+        "name": "クリエイター型",
+        "desc": "ゼロから新しいものを生み出すことに喜びを感じるタイプです。既存の枠にとらわれず、独自のアイデアを形にします。企画職・デザイナー・マーケティングなどとの相性が良いタイプです。",
+        "color": "#ffa62b"
+      },
+      "ANALYST": {
+        "name": "アナリスト型",
+        "desc": "データや事実をもとに冷静に判断するタイプです。感覚より論理を重視し、正確な分析で成果を出します。経理・データ分析・コンサルティングなどとの相性が良いタイプです。",
+        "color": "#3a86ff"
+      },
+      "CHALLENGER": {
+        "name": "チャレンジャー型",
+        "desc": "リスクを恐れず新しい挑戦を楽しめるタイプです。変化の多い環境でこそ実力を発揮します。起業・新規事業・営業などスピード感のある仕事との相性が良いタイプです。",
+        "color": "#d63384"
+      }
+    },
+    "questions": [
+      {
+        "q": "理想の仕事の進め方は？",
+        "options": [
+          {
+            "text": "チームを引っ張り、方向性を決めていきたい",
+            "type": "LEAD"
+          },
+          {
+            "text": "誰かをサポートし、縁の下の力持ちでいたい",
+            "type": "SUPPORT"
+          },
+          {
+            "text": "一つのことを深く突き詰めていきたい",
+            "type": "SPECIALIST"
+          },
+          {
+            "text": "新しい企画やアイデアをゼロから形にしたい",
+            "type": "CREATOR"
+          }
+        ]
+      },
+      {
+        "q": "会議で意見を求められたら？",
+        "options": [
+          {
+            "text": "データや根拠をもとに冷静に発言する",
+            "type": "ANALYST"
+          },
+          {
+            "text": "リスクを取ってでも新しい挑戦を提案する",
+            "type": "CHALLENGER"
+          },
+          {
+            "text": "みんなの意見をまとめて方向性を示す",
+            "type": "LEAD"
+          },
+          {
+            "text": "発言しにくそうな人を気にかけてフォローする",
+            "type": "SUPPORT"
+          }
+        ]
+      },
+      {
+        "q": "仕事で一番やりがいを感じる瞬間は？",
+        "options": [
+          {
+            "text": "自分のアイデアが形になった時",
+            "type": "CREATOR"
+          },
+          {
+            "text": "専門知識で難しい課題を解決した時",
+            "type": "SPECIALIST"
+          },
+          {
+            "text": "分析結果が正確に的中した時",
+            "type": "ANALYST"
+          },
+          {
+            "text": "誰かの助けになれたと感謝された時",
+            "type": "SUPPORT"
+          }
+        ]
+      },
+      {
+        "q": "新しい環境に飛び込むとき、どう感じる？",
+        "options": [
+          {
+            "text": "ワクワクして自分から動き出す",
+            "type": "CHALLENGER"
+          },
+          {
+            "text": "まずしっかり情報収集してから動く",
+            "type": "ANALYST"
+          },
+          {
+            "text": "自分の役割・立ち位置を早く見つけたい",
+            "type": "SUPPORT"
+          },
+          {
+            "text": "自分の専門性をどう活かせるか考える",
+            "type": "SPECIALIST"
+          }
+        ]
+      },
+      {
+        "q": "苦手な仕事のスタイルは？",
+        "options": [
+          {
+            "text": "誰の指示も受けず一人で黙々と進めること",
+            "type": "LEAD"
+          },
+          {
+            "text": "決まった手順を淡々と繰り返すこと",
+            "type": "CREATOR"
+          },
+          {
+            "text": "感覚や勢いだけで判断すること",
+            "type": "ANALYST"
+          },
+          {
+            "text": "安定していて変化のない環境",
+            "type": "CHALLENGER"
+          }
+        ]
+      },
+      {
+        "q": "尊敬する人のタイプは？",
+        "options": [
+          {
+            "text": "大きな組織や事業を率いる人",
+            "type": "LEAD"
+          },
+          {
+            "text": "一つの道を極めた職人・専門家",
+            "type": "SPECIALIST"
+          },
+          {
+            "text": "誰かのために黙って支え続ける人",
+            "type": "SUPPORT"
+          },
+          {
+            "text": "ゼロから何かを生み出したクリエイター",
+            "type": "CREATOR"
+          }
+        ]
+      },
+      {
+        "q": "プレッシャーのかかる場面での強みは？",
+        "options": [
+          {
+            "text": "冷静にリスクとリターンを計算できる",
+            "type": "ANALYST"
+          },
+          {
+            "text": "むしろ燃えて勢いよく動ける",
+            "type": "CHALLENGER"
+          },
+          {
+            "text": "全体を見て的確な指示を出せる",
+            "type": "LEAD"
+          },
+          {
+            "text": "困っている仲間に気を配れる",
+            "type": "SUPPORT"
+          }
+        ]
+      },
+      {
+        "q": "5年後、どんな自分になっていたい？",
+        "options": [
+          {
+            "text": "その分野のプロフェッショナルと呼ばれる存在",
+            "type": "SPECIALIST"
+          },
+          {
+            "text": "自分の作品・企画が世に広まっている",
+            "type": "CREATOR"
+          },
+          {
+            "text": "新しい事業やチャレンジを続けている",
+            "type": "CHALLENGER"
+          },
+          {
+            "text": "組織やチームを率いる立場になっている",
+            "type": "LEAD"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script src="/diagnosis/assets/quiz.js"></script>
+</main>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

@@ -1,26 +1,35 @@
 # SEADICE（シーダイス）
 
-> SEADICE（シーダイス）は、夜更かし・先延ばし・衝動買い・防災・家計など、毎日の小さな困りごとを解決するiOSアプリを開発・提供する日本のアプリスタジオです。生活に自然と溶け込む、続けやすい設計を大切にしています。ChatGPT・Gemini・Claude と Flutter を活用して開発し、App Store で配信しています。
+> SEADICE（シーダイス）は、夜更かし・先延ばし・衝動買い・防災・家計など、毎日の小さな困りごとを解決する無料・広告なしのiOSアプリを開発する日本のスタジオです。アプリに加えて、悩みを科学で読み解くメディアと、登録不要の無料Webツールも運営しています。
 
 ## 基本情報
 
 - 名称: SEADICE（読み方: シーダイス）
-- 種別: アプリ開発スタジオ（日本）
-- 提供物: iOSアプリ（App Store）、Webツール、ブログ、商品レビュー
+- 種別: アプリ開発・メディア運営スタジオ（日本）
+- 提供物: iOSアプリ（App Store、無料・広告なし）、AIメディア、無料Webツール、開発ブログ
+- 対応OS: iPhone・iPad（iOS専用。Android版なし）
 - 連絡先: hi@seadice.win
 - サイト: https://seadice.win/
+
+## メディア
+
+- [SEADICE RESEARCH](https://seadice-research.web.app/): 悩みを科学で調べるAIメディア
+- [UMBRA](https://seadice-umbra.web.app/): 恋愛・仕草・相性から本音を読み解くメディア
+- [LEDGER](https://ledger.seadice.win/): お金の使い方を行動経済学で読み解くメディア
 
 ## 主要ページ
 
 - [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ
-- [ジャンル別ハブ](https://seadice.win/tools/): 困りごとの種類から探す
-- [ポモドーロタイマー](https://seadice.win/pomodoro/): 雨音・波音などのヒーリングサウンド付き無料タイマー
-- [ブログ](https://seadice.win/blog/): 開発ブログ・解説記事
-- [Talk](https://seadice.win/talk/): AIとの対話ページ
+- [Webツール・ジャンル別ハブ](https://seadice.win/tools/): 困りごとの種類から探す
+- [無料診断まとめ](https://seadice.win/diagnosis/): 性格・心理・適性をブラウザで診断
+- [ポモドーロタイマー](https://seadice.win/pomodoro/): ヒーリングサウンド付き無料タイマー
+- [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
+- [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット
+- [ブログ](https://seadice.win/blog/): 開発ブログ
 - [活動を支援する](https://seadice.win/support/): 開発活動への支援
 - [プライバシーポリシー](https://seadice.win/privacy/): 各アプリのプライバシーポリシー
 
 ## 補足
 
-- 最新のアプリ・記事の一覧は上記の一覧ページと sitemap（https://seadice.win/sitemap.xml）を参照してください。
+- 最新のページ一覧は sitemap（https://seadice.win/sitemap.xml）を参照してください。
 - 各アプリの個別ページは https://seadice.win/apps/{アプリ名}/ にあります。

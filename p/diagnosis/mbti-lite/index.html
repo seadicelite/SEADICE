@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>簡易MBTI風 気質診断 | SEADICE 診断</title>
+  <meta name="description" content="8つの質問に答えるだけで、MBTIのベースになった4つの気質タイプ（分析家・外交官・番人・探検家）のどれに近いかがわかる簡易診断。">
+  <meta name="keywords" content="MBTI,性格診断,気質診断,16パーソナリティ,無料診断">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/mbti-lite/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="簡易MBTI風 気質診断 | SEADICE 診断">
+  <meta property="og:description" content="8つの質問でMBTIのベースになった4つの気質タイプがわかる無料診断。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/mbti-lite/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/mbti-lite-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seadice.win/diagnosis/assets/img/mbti-lite-og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"簡易MBTI風 気質診断","item":"https://seadice.win/diagnosis/mbti-lite/"}]},{"@type":"Quiz","name":"簡易MBTI風 気質診断","description":"MBTIのベースになった4つの気質タイプがわかる無料診断","url":"https://seadice.win/diagnosis/mbti-lite/","inLanguage":"ja"}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <div id="quiz-intro">
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / 簡易MBTI風 気質診断</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>簡易MBTI風 気質診断</h1>
+  <p class="hero-desc">MBTIは4つの軸から16タイプに分類しますが、その土台にあるのは「分析家・外交官・番人・探検家」という4つの気質グループです。8つの質問に答えて、あなたがどの気質に近いかを見てみましょう。所要時間は約1分です。</p>
+
+  <figure class="hero"><img src="/diagnosis/assets/img/mbti-lite-hero.webp" width="900" height="477" alt="4つの方角を描いたモザイク画" loading="eager"><figcaption>Photo: Jan Boon / <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://commons.wikimedia.org/wiki/File:De_Vier_Windstreken_Jan_Boon_Utrecht_Centraal.JPG" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption></figure>
+
+    <button type="button" id="quiz-start-btn" class="quiz-start-btn">診断をはじめる（1分・全8問）</button>
+  </div>
+
+  <div id="quiz-progress-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+    <p class="quiz-step-label"><span>質問</span><span id="quiz-progress-label">1 / 8</span></p>
+  </div>
+  <div id="quiz-questions"></div>
+
+  <div id="quiz-result">
+    <div class="result-card">
+      <div class="result-icon"></div>
+      <p class="result-type"></p>
+      <h2 class="result-name" style="margin-top:0"></h2>
+      <p class="result-desc"></p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度診断する</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/bigfive-lite/"><span class="diag-title">簡易ビッグファイブ性格診断</span></a>
+      <a class="diag-card" href="/diagnosis/hidden-personality/"><span class="diag-title">あなたの「隠れた性格」診断</span></a>
+    </div>
+  </div>
+
+  <script type="application/json" id="quiz-data">
+  {
+    "shareTitle": "簡易MBTI風 気質診断",
+    "resultLabel": "あなたの気質タイプ",
+    "types": {
+      "NT": {
+        "name": "分析家タイプ",
+        "desc": "論理と仕組みで物事を捉えるのが得意なタイプです。感情よりも合理性を優先し、独自の視点で物事を分析します。一人で深く考える時間を大切にし、非効率なやり方には強いストレスを感じやすい傾向があります。",
+        "color": "#ff6b81"
+      },
+      "NF": {
+        "name": "外交官タイプ",
+        "desc": "人の気持ちや理想を大切にするタイプです。共感力が高く、周囲との調和や意味のある目標に向かって動くときに力を発揮します。理想と現実のギャップに悩みやすい一面もあります。",
+        "color": "#6c63ff"
+      },
+      "SJ": {
+        "name": "番人タイプ",
+        "desc": "計画性と責任感を武器にするタイプです。ルールや秩序を守り、着実に物事を進めることを得意とします。周囲から信頼されやすい反面、予定外の変化にはやや弱い傾向があります。",
+        "color": "#00b894"
+      },
+      "SP": {
+        "name": "探検家タイプ",
+        "desc": "その場の状況に柔軟に対応する行動派タイプです。理屈より実際にやってみることを重視し、変化やスリルを楽しめます。長期的な計画よりも「今この瞬間」を大事にする傾向があります。",
+        "color": "#ffa62b"
+      }
+    },
+    "questions": [
+      {
+        "q": "休日の予定は、きっちり決めておきたい派？それとも当日の気分で動きたい派？",
+        "options": [
+          {
+            "text": "きっちり計画を立てておきたい",
+            "type": "SJ"
+          },
+          {
+            "text": "当日の気分・直感で動きたい",
+            "type": "SP"
+          },
+          {
+            "text": "みんなが楽しめる案を考えておきたい",
+            "type": "NF"
+          },
+          {
+            "text": "効率よく回れるルートを事前に分析したい",
+            "type": "NT"
+          }
+        ]
+      },
+      {
+        "q": "初対面の人と話すとき、まず気になるのは？",
+        "options": [
+          {
+            "text": "相手がどんな考え方をする人か",
+            "type": "NT"
+          },
+          {
+            "text": "相手が今どんな気持ちでいるか",
+            "type": "NF"
+          },
+          {
+            "text": "礼儀正しく接することができているか",
+            "type": "SJ"
+          },
+          {
+            "text": "とりあえず場を楽しく盛り上げること",
+            "type": "SP"
+          }
+        ]
+      },
+      {
+        "q": "仕事や勉強で行き詰まったとき、どうする？",
+        "options": [
+          {
+            "text": "原因を分解して論理的に解決策を探す",
+            "type": "NT"
+          },
+          {
+            "text": "信頼できる人に相談して気持ちを整理する",
+            "type": "NF"
+          },
+          {
+            "text": "決められた手順・マニュアルに沿ってやり直す",
+            "type": "SJ"
+          },
+          {
+            "text": "とにかく手を動かしながら試行錯誤する",
+            "type": "SP"
+          }
+        ]
+      },
+      {
+        "q": "理想の週末の過ごし方は？",
+        "options": [
+          {
+            "text": "興味のあるテーマを一人でじっくり調べる",
+            "type": "NT"
+          },
+          {
+            "text": "大切な人と深い話をして過ごす",
+            "type": "NF"
+          },
+          {
+            "text": "家の片付けや予定の整理など、やるべきことを片付ける",
+            "type": "SJ"
+          },
+          {
+            "text": "予定を決めずにふらっと外に出かける",
+            "type": "SP"
+          }
+        ]
+      },
+      {
+        "q": "チームで作業するとき、あなたの役割は？",
+        "options": [
+          {
+            "text": "戦略や仕組みを考える頭脳役",
+            "type": "NT"
+          },
+          {
+            "text": "メンバーの気持ちをまとめるムードメーカー",
+            "type": "NF"
+          },
+          {
+            "text": "進行管理やスケジュール調整をする世話役",
+            "type": "SJ"
+          },
+          {
+            "text": "とにかく最初に動いて場を切り開く行動役",
+            "type": "SP"
+          }
+        ]
+      },
+      {
+        "q": "褒められて一番嬉しいのはどれ？",
+        "options": [
+          {
+            "text": "「発想が独創的だね」",
+            "type": "NT"
+          },
+          {
+            "text": "「一緒にいると安心する」",
+            "type": "NF"
+          },
+          {
+            "text": "「いつも真面目でしっかりしてる」",
+            "type": "SJ"
+          },
+          {
+            "text": "「フットワークが軽くて面白い」",
+            "type": "SP"
+          }
+        ]
+      },
+      {
+        "q": "苦手なことは？",
+        "options": [
+          {
+            "text": "感情だけで判断される話し合い",
+            "type": "NT"
+          },
+          {
+            "text": "冷たく機械的に処理される人間関係",
+            "type": "NF"
+          },
+          {
+            "text": "計画が直前で大きく変わること",
+            "type": "SJ"
+          },
+          {
+            "text": "細かいルールに縛られること",
+            "type": "SP"
+          }
+        ]
+      },
+      {
+        "q": "将来について考えるとき、一番大事にしたいのは？",
+        "options": [
+          {
+            "text": "自分の能力を高め続けられること",
+            "type": "NT"
+          },
+          {
+            "text": "誰かの役に立てる意味のある人生",
+            "type": "NF"
+          },
+          {
+            "text": "安定した生活基盤を築くこと",
+            "type": "SJ"
+          },
+          {
+            "text": "自由に選択肢を持ち続けられること",
+            "type": "SP"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script src="/diagnosis/assets/quiz.js"></script>
+</main>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

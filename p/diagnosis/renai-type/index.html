@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>恋愛タイプ診断 | SEADICE 診断</title>
+  <meta name="description" content="あなたの恋愛スタイルがわかる無料診断。一途型・自由型・尽くす型・駆け引き型・マイペース型の5タイプから、恋愛の傾向と向き合い方がわかります。">
+  <meta name="keywords" content="恋愛診断,恋愛タイプ,恋愛心理,無料診断,タイプ診断">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/renai-type/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="恋愛タイプ診断 | SEADICE 診断">
+  <meta property="og:description" content="あなたの恋愛スタイルがわかる無料診断。5タイプから傾向がわかります。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/renai-type/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/renai-type-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seadice.win/diagnosis/assets/img/renai-type-og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"恋愛タイプ診断","item":"https://seadice.win/diagnosis/renai-type/"}]},{"@type":"Quiz","name":"恋愛タイプ診断","description":"あなたの恋愛スタイルがわかる無料診断","url":"https://seadice.win/diagnosis/renai-type/","inLanguage":"ja"}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <div id="quiz-intro">
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / 恋愛タイプ診断</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>恋愛タイプ診断</h1>
+  <p class="hero-desc">恋愛における自分の傾向を知ることは、すれ違いを減らす第一歩です。8つの質問から、一途型・自由型・尽くす型・駆け引き型・マイペース型の5タイプの中から、あなたの恋愛スタイルを診断します。</p>
+
+  <figure class="hero"><img src="/diagnosis/assets/img/renai-type-hero.webp" width="900" height="675" alt="夕暮れの浜辺に立つカップルのシルエット" loading="eager"><figcaption>Photo: Marwenwafi / <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a> / <a href="https://commons.wikimedia.org/wiki/File:A_couple_silhouette_at_Ras_jebel_beach_during_a_golden_sunset.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption></figure>
+
+    <button type="button" id="quiz-start-btn" class="quiz-start-btn">診断をはじめる（1分・全8問）</button>
+  </div>
+
+  <div id="quiz-progress-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+    <p class="quiz-step-label"><span>質問</span><span id="quiz-progress-label">1 / 8</span></p>
+  </div>
+  <div id="quiz-questions"></div>
+
+  <div id="quiz-result">
+    <div class="result-card">
+      <div class="result-icon"></div>
+      <p class="result-type"></p>
+      <h2 class="result-name" style="margin-top:0"></h2>
+      <p class="result-desc"></p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度診断する</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/hidden-personality/"><span class="diag-title">あなたの「隠れた性格」診断</span></a>
+      <a class="diag-card" href="/diagnosis/bigfive-lite/"><span class="diag-title">簡易ビッグファイブ性格診断</span></a>
+    </div>
+  </div>
+
+  <script type="application/json" id="quiz-data">
+  {
+    "shareTitle": "恋愛タイプ診断",
+    "resultLabel": "あなたの恋愛タイプ",
+    "types": {
+      "ICHIZU": {
+        "name": "一途型",
+        "desc": "一度好きになると気持ちがぶれにくいタイプです。相手を信じて長く想い続けられる反面、相手の気持ちが見えないと不安になりやすい一面もあります。誠実な付き合いを望む人と相性が良いタイプです。",
+        "color": "#ff6b81"
+      },
+      "JIYU": {
+        "name": "自由型",
+        "desc": "恋愛でも自分の時間や価値観を大切にするタイプです。束縛されることを嫌い、対等な関係を好みます。程よい距離感を保てるパートナーとの相性が良いタイプです。",
+        "color": "#6c63ff"
+      },
+      "TSUKUSU": {
+        "name": "尽くす型",
+        "desc": "相手のために行動することに喜びを感じるタイプです。献身的で気配りが得意な反面、尽くしすぎて自分を後回しにしがちな傾向があります。感謝を言葉で伝えてくれる相手と相性が良いタイプです。",
+        "color": "#00b894"
+      },
+      "KAKEHIKI": {
+        "name": "駆け引き型",
+        "desc": "恋愛を戦略的に楽しむタイプです。相手の気持ちを読みながら、あえて一歩引いてみせるなど駆け引きを楽しめます。刺激的な関係を好む一方、素直になるタイミングが難しいこともあります。",
+        "color": "#ffa62b"
+      },
+      "MYPACE": {
+        "name": "マイペース型",
+        "desc": "恋愛においても自分のペースを崩さないタイプです。焦らずじっくり関係を育てていくことを好みます。無理に合わせようとせず、自然体でいられる相手と相性が良いタイプです。",
+        "color": "#3a86ff"
+      }
+    },
+    "questions": [
+      {
+        "q": "気になる人ができたら、まずどうする？",
+        "options": [
+          {
+            "text": "じっくり時間をかけて距離を縮めていく",
+            "type": "MYPACE"
+          },
+          {
+            "text": "さりげなく気を引くようなアプローチをする",
+            "type": "KAKEHIKI"
+          },
+          {
+            "text": "相手のために何かしてあげたいと思う",
+            "type": "TSUKUSU"
+          },
+          {
+            "text": "素直に好意をまっすぐ伝えたくなる",
+            "type": "ICHIZU"
+          }
+        ]
+      },
+      {
+        "q": "デート中、大事にしていることは？",
+        "options": [
+          {
+            "text": "お互いの時間を尊重しすぎず楽しむこと",
+            "type": "JIYU"
+          },
+          {
+            "text": "相手が喜ぶことを優先すること",
+            "type": "TSUKUSU"
+          },
+          {
+            "text": "二人だけの特別な時間を大切にすること",
+            "type": "ICHIZU"
+          },
+          {
+            "text": "無理せず自然体で過ごすこと",
+            "type": "MYPACE"
+          }
+        ]
+      },
+      {
+        "q": "連絡の頻度について、理想は？",
+        "options": [
+          {
+            "text": "毎日こまめに連絡を取り合いたい",
+            "type": "ICHIZU"
+          },
+          {
+            "text": "お互い忙しい時は無理に連絡しなくていい",
+            "type": "JIYU"
+          },
+          {
+            "text": "相手のペースに合わせたい",
+            "type": "MYPACE"
+          },
+          {
+            "text": "既読スルーくらいの緊張感も嫌いじゃない",
+            "type": "KAKEHIKI"
+          }
+        ]
+      },
+      {
+        "q": "恋人に不満があるとき、どうする？",
+        "options": [
+          {
+            "text": "はっきり素直に気持ちを伝える",
+            "type": "ICHIZU"
+          },
+          {
+            "text": "態度で少しずつサインを出す",
+            "type": "KAKEHIKI"
+          },
+          {
+            "text": "自分が我慢すれば済むと思ってしまう",
+            "type": "TSUKUSU"
+          },
+          {
+            "text": "一旦距離を置いて冷静に考える",
+            "type": "JIYU"
+          }
+        ]
+      },
+      {
+        "q": "友人にあなたの恋愛観を聞かれたら？",
+        "options": [
+          {
+            "text": "「好きになったら一途」とよく言われる",
+            "type": "ICHIZU"
+          },
+          {
+            "text": "「駆け引きが得意」と言われることが多い",
+            "type": "KAKEHIKI"
+          },
+          {
+            "text": "「尽くしすぎ」と心配されることがある",
+            "type": "TSUKUSU"
+          },
+          {
+            "text": "「マイペースだね」とよく言われる",
+            "type": "MYPACE"
+          }
+        ]
+      },
+      {
+        "q": "理想の相手との関係性は？",
+        "options": [
+          {
+            "text": "お互いに自立していて対等な関係",
+            "type": "JIYU"
+          },
+          {
+            "text": "何でも話せる一番の理解者のような関係",
+            "type": "ICHIZU"
+          },
+          {
+            "text": "支え合いながらも適度な緊張感がある関係",
+            "type": "KAKEHIKI"
+          },
+          {
+            "text": "無理せず自然体でいられる関係",
+            "type": "MYPACE"
+          }
+        ]
+      },
+      {
+        "q": "恋愛で一番後悔しやすいことは？",
+        "options": [
+          {
+            "text": "尽くしすぎて自分を見失ってしまうこと",
+            "type": "TSUKUSU"
+          },
+          {
+            "text": "駆け引きしすぎて素直になれなかったこと",
+            "type": "KAKEHIKI"
+          },
+          {
+            "text": "相手に依存しすぎてしまうこと",
+            "type": "ICHIZU"
+          },
+          {
+            "text": "自由を優先しすぎて関係が浅くなること",
+            "type": "JIYU"
+          }
+        ]
+      },
+      {
+        "q": "恋人ができた後の生活の変化は？",
+        "options": [
+          {
+            "text": "生活の中心が相手中心になりやすい",
+            "type": "TSUKUSU"
+          },
+          {
+            "text": "自分の趣味や友人関係もそのまま大事にする",
+            "type": "JIYU"
+          },
+          {
+            "text": "特に大きく変えず自分のペースを保つ",
+            "type": "MYPACE"
+          },
+          {
+            "text": "相手との駆け引きを楽しむ余裕を持つ",
+            "type": "KAKEHIKI"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script src="/diagnosis/assets/quiz.js"></script>
+</main>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

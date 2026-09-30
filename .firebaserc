@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "seadiceweb"
-  }
+  },
+  "targets": {
+    "seadiceweb": {
+      "hosting": {
+        "main": [
+          "seadiceweb"
+        ],
+        "boueki-dojo": [
+          "boueki-dojo"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

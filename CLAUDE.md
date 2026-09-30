@@ -206,16 +206,16 @@ await http.post(
 
 - 評価導線: 設定画面の「App Storeで評価する」ボタンは `in_app_review` パッケージの `InAppReview.instance.requestReview()` を呼ぶ（App Storeアプリへの画面遷移はさせない）。OS側の頻度制限で実際にはポップアップが表示されないことがあるが、その場合はボタンを押しても何も起きないだけでよい（App Storeへのフォールバック遷移は実装しない）。ポップアップが出るかどうかはBundle IDごとにOSが個別管理するため、他アプリでの表示履歴とは独立している
 - コア機能完了N回目（目安3回）で自動的に呼ぶ「能動的なレビュー依頼」（後述）とロジックを共通化してよい（同じ `maybeRequestReview()`/`requestReview()` 呼び出しを設定ボタンからも叩く形でよく、生涯1回きりの制限とは別に手動ボタンは何度でも呼び出し可）
-- 共有: `share_plus` パッケージの `Share.share('紹介文\nhttps://seadice.win/apps/{appId}/')` を使う（バージョンによっては `SharePlus.instance.share(ShareParams(...))` API になるので `pubspec.yaml` のバージョンに合わせる）
-- **`sharePositionOrigin` は必ず指定する**。iPadでのpopover起点座標問題として知られているが、share_plus 10.x系ではiPhoneでも端末・iOSバージョンによって`UIActivityViewController`のpresentationに失敗し例外を投げることがある（`nlp_lab`でApp Store配布後に「共有に失敗しました」エラーが実際に発生した実例あり）。iPad/iPhone問わず必ず渡すこと：
+- 共有: **`share_plus` は `^11.0.0` 以上を使い、必ず新API `SharePlus.instance.share(ShareParams(text: ..., sharePositionOrigin: ...))` で実装する**。旧 `Share.share(...)` 静的API＋`share_plus` 10.x系の組み合わせは、iPadOS 26 で `UIActivityViewController` を presentation できず「タップしても無反応（例外も飛ばないので catch のスナックバーも出ない）」になり、**Apple審査で Guideline 2.1(a) リジェクトを受けた実例あり**（`curiosity-type` 2026-08、iPad Air 11-inch M3 / iPadOS 26.6.1）。新規アプリ・既存アプリ改修とも `pubspec.yaml` が 10.x のままなら `^11.0.0` に上げて `flutter pub get` してから実装する。審査通過済みの `enneagram` が 11.x + 新API の実装リファレンス。
+- **`sharePositionOrigin` は必ず指定する**。iPadでのpopover起点座標問題として知られているが、iPhoneでも端末・iOSバージョンによって`UIActivityViewController`のpresentationに失敗し例外を投げることがある（`nlp_lab`でApp Store配布後に「共有に失敗しました」エラーが実際に発生した実例あり）。iPad/iPhone問わず必ず渡すこと。共有ボタンの `ListTile` は `Builder` で包み、その `tileContext`（タイル自身の `RenderBox`）から起点矩形を取る。画面全体・空の矩形にならないよう、非空かつ画面内に収まる小さな矩形へ丸める `_shareOrigin(context)` ヘルパー経由が望ましい：
   ```dart
   Future<void> _shareApp(BuildContext context) async {
     try {
       final box = context.findRenderObject() as RenderBox?;
-      await Share.share(
-        '紹介文\nhttps://seadice.win/apps/{appId}/',
+      await SharePlus.instance.share(ShareParams(
+        text: '紹介文\nhttps://seadice.win/apps/{appId}/',
         sharePositionOrigin: box != null ? (box.localToGlobal(Offset.zero) & box.size) : null,
-      );
+      ));
     } catch (e) {
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('共有に失敗しました ($e)')));
@@ -653,15 +653,16 @@ Future<void> main() async {
 
 新規アプリ作成時・既存アプリ改修時は、Flutter標準の白背景スプラッシュのままにせず、SEADICE共通ロゴ（サイコロマスコット）をネイティブ起動画面に設定する。
 
-- **ロゴ画像**: `/Users/hidenori/Developer/Images/splash.png`（背景色 `#01010B` で塗りつぶし済み、ダークテーマ背景 `#05050C` とほぼ同色）
+- **ロゴ画像**: `/Users/hidenori/Developer/Images/splash.png`（背景色 `#01010B` で塗りつぶし済み）
 - **パッケージ**: `flutter_native_splash` を使う（`dev_dependencies` に追加）
+- **`color` は画像の塗りつぶし色 `#01010B` と厳密に一致させる**。ダークテーマ背景 `#05050C` は近似色であって同一ではないため、`#05050C` を指定すると画像の縁に色の継ぎ目が見える
 - **設定例**（`pubspec.yaml` に追記）:
   ```yaml
   flutter_native_splash:
-    color: "#05050C"
+    color: "#01010B"
     image: assets/splash/splash.png
     android_12:
-      color: "#05050C"
+      color: "#01010B"
       image: assets/splash/splash.png
   ```
   画像は `assets/splash/splash.png` としてアプリ側にコピーして使う（`Images/`から直接参照しない）。
@@ -720,6 +721,21 @@ Future<void> main() async {
 2. `seadice.win` を登録
 3. DNS プロバイダーに表示される A レコードを登録
 4. SSL 証明書の自動発行を待つ（〜24時間）
+
+## サイト設計の12項目（p/ 配下のページを作る・直すときに毎回確認する、2026-09-30〜）
+
+1. **SEO**: 固有のtitle/description/canonical、h1は1つ、sitemap・内部リンクを更新
+2. **AIO/AEO**: 質問に結論から答える文、主語に「SEADICE」等の固有名、JSON-LD（FAQPage等）、`p/llms.txt`を最新に保つ
+3. **モバイル操作**: 本文14px以上・補助テキストも12px未満にしない、タップ領域は上下8px以上の余白、フォームは最小項目
+4. **パフォーマンス**: WebPは表示サイズの2倍までに縮小、JS最小、width/height指定、ファーストビュー画像はpreload
+5. **アクセシビリティ**: 文字色は背景とコントラスト4.5:1以上（`--muted`は`#7c8aa0`）、色だけで状態を伝えない、キーボード操作・focus表示、装飾画像は`alt=""`
+6. **情報設計**: 重要ページへ少ない操作で到達、パンくず（下層ページ）、関連ページ同士をつなぐ
+7. **セキュリティ・プライバシー**: HTTPS、フォームで個人情報を集めない（匿名フォームにはその旨を明記）
+8. **CVR**: ボタンは「送る」でなく「要望を送る」のように具体的な文言、不安要素（返信の有無・無料かどうか）を先に書く
+9. **計測**: 外部スクリプトを入れない方針のため、Search Console（検索流入）とフィードバック件数で見る
+10. **エラー処理**: 送信中の表示、失敗時は入力を消さない、存在しないURLは`p/404.html`で本物の404を返す（`firebase.json`に`"**"→/index.html`のような全体rewriteを入れない。ソフト404になる）
+11. **保守性**: 共通のCSS変数・クラスを使い回す、メディア追加等の手順はスキル側に書いておく
+12. **信頼性**: 運営者・連絡先・プライバシーポリシーへの導線、更新日（JSON-LDの`dateModified`）を入れる
 
 ## Web制作方針（SEO・パフォーマンス）
 
@@ -823,6 +839,12 @@ FAQ を含む記事は `FAQPage` も追加すると AI 引用率が上がる：
 ]}
 ```
 
+**独立メディアサイト（UMBRA方式）では `FAQPage` を任意ではなく標準搭載にする。** 記事末尾に「〜とは？」「〜の違いは？」型の質問を3〜5個、Q&A形式で必ず入れる。AI検索エンジン（Google AI Overview / ChatGPT検索 / Perplexity等）は見出し直下の断定文と同様、Q&Aペアをそのまま引用しやすいため。
+
+**`author` はメディアの編集部名義にする**（個人名を出さない）。`publisher` と合わせてメディアブランドの一貫性を保つ。
+
+**サイトルートに `/llms.txt` を設置する**（独立メディアサイトでは必須）。AIクローラー向けにサイトの目的・主要ページ構成・カテゴリ一覧をプレーンテキストで明示し、AI検索エンジンにサイト構造を伝える。
+
 ### 4. 箇条書き・表・番号リストを積極的に使う
 
 AI は整理された情報をそのまま引用しやすい。
@@ -866,7 +888,7 @@ AI は整理された情報をそのまま引用しやすい。
 
 ### 掲載場所（重要）
 
-アフィリエイト商品紹介記事は**ブログ（`/blog/`）ではなく`/reviews/`配下に置く**。理由: `/blog/`（開発ブログ）はトップページのnavから意図的に外されており、フッター経由でしか辿れない。商品比較記事はここに混ぜても発見されないため、`/reviews/`という独立ツリーをトップページのnav・フッター両方に導線を用意して運用する。
+アフィリエイト商品紹介記事は**ブログ（`/blog/`）ではなく`/reviews/`配下に置く**。理由: `/blog/`は開発ブログであり、商品比較記事を混ぜると読者層がずれるため、`/reviews/`という独立ツリーで運用する（2026-09-30〜トップページからの`/reviews/`導線は置かない）。
 
 - パス: `p/reviews/{カテゴリ}/{スラッグ}/index.html`（カテゴリは `kateisaien` 等、`p/tools/` のジャンルと一致させる）
 - カテゴリごとに `p/reviews/{カテゴリ}/index.html`（記事一覧ハブ）を用意し、新しい記事を書いたら**先頭に**カードを追加する

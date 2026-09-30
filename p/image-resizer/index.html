@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>画像リサイザー｜無料・登録不要・サーバー送信なし | SEADICE</title>
+<meta name="description" content="画像のサイズ変更・圧縮・形式変換（JPEG/PNG/WebP）をブラウザだけで行える無料ツール。画像はアップロードされず端末内で処理。複数枚の一括変換にも対応。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/image-resizer/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="画像リサイザー｜無料・登録不要・サーバー送信なし">
+<meta property="og:description" content="画像のサイズ変更・圧縮・形式変換をブラウザ内で完結。アップロード不要で安全。">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://seadice.win/image-resizer/">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebApplication","@id":"https://seadice.win/image-resizer/#app","name":"画像リサイザー","url":"https://seadice.win/image-resizer/","description":"画像のサイズ変更・圧縮・形式変換をブラウザ内で行う無料ツール。","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"}},
+{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"HOME","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"画像リサイザー","item":"https://seadice.win/image-resizer/"}]}
+]}
+</script>
+<style>
+:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--line:#1e1e34;--mut:#94a3b8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#e2e8f0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.7}
+.w{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+.bc{font-size:12px;color:var(--mut);margin-bottom:16px}.bc a{color:#7dd3fc;text-decoration:none}
+h1{font-size:26px;margin:0 0 8px;line-height:1.3}
+h2{font-size:18px;margin:36px 0 10px}
+.lead{color:#cbd5e1;margin:0 0 20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px}
+#drop{border:2px dashed var(--accent);border-radius:14px;padding:34px 16px;text-align:center;cursor:pointer;background:rgba(0,255,209,.05)}
+#drop.on{background:rgba(0,255,209,.15)}
+#drop strong{color:var(--accent)}
+#drop small{display:block;color:var(--mut);margin-top:6px}
+.row{display:flex;flex-wrap:wrap;gap:14px}
+.f{flex:1 1 150px;min-width:0}
+label{display:block;font-size:12px;color:var(--mut);margin-bottom:4px}
+input[type=number],select{width:100%;background:#05050C;color:#e2e8f0;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:16px}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.chk{display:flex;align-items:center;gap:8px;font-size:14px;margin-top:12px}
+.btn{background:var(--accent);color:#000;border:0;border-radius:10px;padding:12px 20px;font-size:15px;font-weight:800;cursor:pointer}
+.btn.s{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn:disabled{opacity:.4;cursor:default}
+.bar{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.it{display:flex;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.it:first-child{border-top:0}
+.it img{width:56px;height:56px;object-fit:cover;border-radius:8px;background:#000;flex:none}
+.it .m{flex:1;min-width:0;font-size:13px}
+.it .m b{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.it .m span{color:var(--mut)}
+.it a{color:#7dd3fc;font-size:13px;white-space:nowrap}
+.pre{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.pre button{background:#05050C;color:#cbd5e1;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:12px;cursor:pointer}
+ul{padding-left:20px}
+a{color:#7dd3fc}
+footer{margin-top:40px;font-size:12px;color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="bc"><a href="/">HOME</a> / 画像リサイザー</div>
+<h1>画像リサイザー</h1>
+<p class="lead">画像のサイズ変更・圧縮・形式変換ができる無料ツールです。画像はアップロードされず、すべてお使いの端末のブラウザ内で処理されます。</p>
+
+<div id="drop" tabindex="0" role="button" aria-label="画像を選択">
+<strong>ここに画像をドロップ、またはタップして選択</strong>
+<small>JPEG / PNG / WebP / GIF・複数枚OK</small>
+<input id="file" type="file" accept="image/*" multiple hidden>
+</div>
+
+<div class="card" style="margin-top:16px">
+<div class="row">
+<div class="f"><label for="w">幅 (px)</label><input id="w" type="number" min="1" max="16000" inputmode="numeric" placeholder="自動"></div>
+<div class="f"><label for="h">高さ (px)</label><input id="h" type="number" min="1" max="16000" inputmode="numeric" placeholder="自動"></div>
+<div class="f"><label for="fmt">出力形式</label>
+<select id="fmt"><option value="image/jpeg">JPEG</option><option value="image/webp">WebP</option><option value="image/png">PNG</option></select></div>
+</div>
+<div class="chk"><input id="ratio" type="checkbox" checked><label for="ratio" style="margin:0;font-size:14px;color:#e2e8f0">縦横比を維持する（幅・高さの片方だけ入力で自動計算）</label></div>
+<div class="row" style="margin-top:12px">
+<div class="f"><label for="fit">縦横比を維持しない時のフィット方法（幅・高さ両方指定時）</label>
+<select id="fit"><option value="cover">はみ出しをカット（ぴったり埋める）</option><option value="contain">全体を表示（余白を付ける）</option><option value="fill">引き伸ばす</option></select></div>
+<div class="f"><label for="bg">余白・背景色</label><input id="bg" type="color" value="#ffffff" style="width:100%;height:42px;background:#05050C;border:1px solid var(--line);border-radius:8px;padding:2px"></div>
+</div>
+<div style="margin-top:12px"><label for="q">画質：<span id="qv">85</span>%（JPEG/WebPのみ）</label><input id="q" type="range" min="10" max="100" value="85"></div>
+<div class="pre">
+<button data-w="1920">1920px 幅</button><button data-w="1280">1280px 幅</button><button data-w="800">800px 幅</button><button data-w="512">512px 幅</button><button data-p="50">50%</button>
+<button data-s="1242x2688">App Store iPhone 1242×2688</button><button data-s="2064x2752">App Store iPad 2064×2752</button>
+</div>
+<div class="chk"><input id="auto" type="checkbox" checked><label for="auto" style="margin:0;font-size:14px;color:#e2e8f0">変換後に自動でダウンロード（複数枚はZIPにまとめる）</label></div>
+<div class="chk"><input id="asc" type="checkbox"><label for="asc" style="margin:0;font-size:14px;color:#e2e8f0">App Store用サイズも同時に出力（iPhone 1320×2868 / 1242×2688、iPad 2064×2752）</label></div>
+<div class="bar"><button class="btn" id="go" disabled>変換する</button><button class="btn s" id="zip" disabled>すべて保存</button><button class="btn s" id="clr" disabled>クリア</button></div>
+</div>
+
+<div class="card" id="list" hidden></div>
+
+<h2>使い方</h2>
+<ol>
+<li>画像を選択またはドロップします。</li>
+<li>幅・高さ、出力形式、画質を指定します。</li>
+<li>App Storeに提出する場合は「App Store用サイズも同時に出力」をオンにすると、指定サイズの変換と同時にiPhone・iPad用サイズも出力されます（上の「フィット方法」で余白かカットかを選べます）。</li>
+<li>「変換する」を押すと自動でダウンロードされます（複数枚はZIP1つにまとめて保存）。自動保存をオフにした場合は、各画像の「保存」リンクか「すべて保存」から保存できます。</li>
+</ol>
+
+<h2>よくある質問</h2>
+<p><b>画像は外部に送信されますか？</b><br>いいえ。変換はブラウザ内（Canvas）で行い、サーバーへは一切送信しません。</p>
+<p><b>拡大もできますか？</b><br>できますが、拡大すると画質は劣化します。</p>
+<p><b>PNGだと画質スライダーが効かないのはなぜ？</b><br>PNGは可逆圧縮のため画質指定がありません。軽くしたい場合はJPEGかWebPを選んでください。</p>
+<p><b>写真のEXIF（位置情報など）は？</b><br>再エンコード時に削除されます。</p>
+
+<footer><a href="/">SEADICE</a> ・ <a href="/pomodoro/">ポモドーロタイマー</a></footer>
+</div>
+
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var files=[],out=[],ex={"image/jpeg":"jpg","image/png":"png","image/webp":"webp"};
+var drop=$("drop"),fi=$("file"),W=$("w"),H=$("h"),R=$("ratio"),Q=$("q"),F=$("fmt");
+var ratioSrc=null;
+function fmtSize(n){return n>1048576?(n/1048576).toFixed(2)+" MB":Math.round(n/1024)+" KB"}
+function load(f){return new Promise(function(res,rej){var u=URL.createObjectURL(f),i=new Image();i.onload=function(){res({img:i,url:u})};i.onerror=function(){URL.revokeObjectURL(u);rej()};i.src=u})}
+function add(list){
+  Array.prototype.forEach.call(list,function(f){if(/^image\//.test(f.type))files.push(f)});
+  if(!files.length)return;
+  $("go").disabled=false;$("clr").disabled=false;
+  if(!ratioSrc){load(files[0]).then(function(r){ratioSrc=r.img.naturalWidth/r.img.naturalHeight;if(!W.value&&!H.value){W.placeholder=r.img.naturalWidth;H.placeholder=r.img.naturalHeight}})}
+  render();
+}
+function row(l,src,name,info,url){
+  var d=document.createElement("div");d.className="it";
+  var im=document.createElement("img");im.alt="";im.src=src;
+  var m=document.createElement("div");m.className="m";
+  var b=document.createElement("b");b.textContent=name;
+  var s=document.createElement("span");s.textContent=info;
+  m.appendChild(b);m.appendChild(s);d.appendChild(im);d.appendChild(m);
+  if(url){var a=document.createElement("a");a.href=url;a.download=name;a.textContent="保存";d.appendChild(a)}
+  l.appendChild(d);
+}
+function render(){
+  var l=$("list");l.hidden=!files.length&&!out.length;
+  l.innerHTML="";
+  files.forEach(function(f,i){
+    var os=out[i];
+    if(os&&os.length)os.forEach(function(o){row(l,o.url,o.name,o.w+"×"+o.h+"px ・ "+fmtSize(f.size)+" → "+fmtSize(o.blob.size),o.url)});
+    else row(l,URL.createObjectURL(f),f.name,fmtSize(f.size),null);
+  });
+}
+function conv(f,spec){
+  return load(f).then(function(r){
+    var iw=r.img.naturalWidth,ih=r.img.naturalHeight,w=parseInt(W.value)||0,h=parseInt(H.value)||0;
+    var mode="fill";
+    if(spec){w=spec.w;h=spec.h;mode=$("fit").value}
+    else if(!w&&!h){w=iw;h=ih}
+    else if(R.checked){if(w&&!h)h=Math.round(ih*w/iw);else if(h&&!w)w=Math.round(iw*h/ih);else{var k=Math.min(w/iw,h/ih);w=Math.round(iw*k);h=Math.round(ih*k)}}
+    else{w=w||iw;h=h||ih;if(W.value&&H.value)mode=$("fit").value}
+    w=Math.max(1,Math.min(w,16000));h=Math.max(1,Math.min(h,16000));
+    var c=document.createElement("canvas");c.width=w;c.height=h;
+    var x=c.getContext("2d");
+    x.fillStyle=$("bg").value;x.fillRect(0,0,w,h);
+    x.imageSmoothingQuality="high";
+    if(mode==="fill")x.drawImage(r.img,0,0,w,h);
+    else{var sc=mode==="cover"?Math.max(w/iw,h/ih):Math.min(w/iw,h/ih),dw=iw*sc,dh=ih*sc;x.drawImage(r.img,(w-dw)/2,(h-dh)/2,dw,dh)}
+    URL.revokeObjectURL(r.url);
+    return new Promise(function(res){c.toBlob(function(b){
+      var base=f.name.replace(/\.[^.]+$/,"");
+      res({blob:b,url:URL.createObjectURL(b),w:w,h:h,name:base+"-"+w+"x"+h+"."+ex[F.value]});
+    },F.value,Q.value/100)});
+  });
+}
+var AS=[{w:1320,h:2868},{w:1242,h:2688},{w:2064,h:2752}];
+function flat(){var r=[];out.forEach(function(os){if(os)os.forEach(function(o){r.push(o)})});return r}
+function revokeAll(){flat().forEach(function(o){URL.revokeObjectURL(o.url)})}
+$("go").onclick=function(){
+  var btn=this;btn.disabled=true;btn.textContent="変換中…";
+  revokeAll();out=[];
+  var specs=[null].concat($("asc").checked?AS:[]);
+  var p=Promise.resolve();
+  files.forEach(function(f,i){
+    out[i]=[];
+    specs.forEach(function(sp){p=p.then(function(){return conv(f,sp)}).then(function(o){out[i].push(o);render()}).catch(function(){})});
+  });
+  p.then(function(){btn.disabled=false;btn.textContent="変換する";$("zip").disabled=!flat().length;if($("auto").checked)saveAll()});
+};
+var crcT=(function(){var t=[],c,n,k;for(n=0;n<256;n++){c=n;for(k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0}return t})();
+function crc32(u){var c=0xFFFFFFFF;for(var i=0;i<u.length;i++)c=crcT[(c^u[i])&255]^(c>>>8);return(c^0xFFFFFFFF)>>>0}
+function mkZip(items){
+  var enc=new TextEncoder(),parts=[],cd=[],off=0,used={};
+  items.forEach(function(it){
+    var nm=it.name,n=1;while(used[nm]){nm=it.name.replace(/(\.[^.]+)$/,"-"+(++n)+"$1")}used[nm]=1;
+    var nb=enc.encode(nm),d=it.data,crc=crc32(d);
+    var h=new DataView(new ArrayBuffer(30));
+    h.setUint32(0,0x04034b50,true);h.setUint16(4,20,true);h.setUint16(6,0x0800,true);h.setUint32(14,crc,true);h.setUint32(18,d.length,true);h.setUint32(22,d.length,true);h.setUint16(26,nb.length,true);
+    parts.push(h.buffer,nb,d);
+    var c=new DataView(new ArrayBuffer(46));
+    c.setUint32(0,0x02014b50,true);c.setUint16(4,20,true);c.setUint16(6,20,true);c.setUint16(8,0x0800,true);c.setUint32(16,crc,true);c.setUint32(20,d.length,true);c.setUint32(24,d.length,true);c.setUint16(28,nb.length,true);c.setUint32(42,off,true);
+    cd.push(c.buffer,nb);
+    off+=30+nb.length+d.length;
+  });
+  var cs=0;cd.forEach(function(b){cs+=b.byteLength||b.length});
+  var e=new DataView(new ArrayBuffer(22));
+  e.setUint32(0,0x06054b50,true);e.setUint16(8,items.length,true);e.setUint16(10,items.length,true);e.setUint32(12,cs,true);e.setUint32(16,off,true);
+  return new Blob(parts.concat(cd,[e.buffer]),{type:"application/zip"});
+}
+function dl(url,name){var a=document.createElement("a");a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove()}
+function saveAll(){
+  var ok=flat();if(!ok.length)return;
+  if(ok.length===1){dl(ok[0].url,ok[0].name);return}
+  Promise.all(ok.map(function(o){return o.blob.arrayBuffer().then(function(b){return{name:o.name,data:new Uint8Array(b)}})})).then(function(items){
+    var z=URL.createObjectURL(mkZip(items));dl(z,"images-"+Date.now()+".zip");setTimeout(function(){URL.revokeObjectURL(z)},10000);
+  });
+}
+$("zip").onclick=saveAll;
+$("clr").onclick=function(){revokeAll();files=[];out=[];ratioSrc=null;W.value=H.value="";W.placeholder=H.placeholder="自動";$("go").disabled=$("zip").disabled=$("clr").disabled=true;render()};
+Q.oninput=function(){$("qv").textContent=Q.value};
+F.onchange=function(){Q.disabled=F.value==="image/png"};
+document.querySelectorAll(".pre button").forEach(function(b){b.onclick=function(){
+  if(b.dataset.s){var z=b.dataset.s.split("x");W.value=z[0];H.value=z[1];R.checked=false;F.value="image/png";Q.disabled=true}
+  else if(b.dataset.w){W.value=b.dataset.w;H.value=""}
+  else if(files.length){load(files[0]).then(function(r){var p=b.dataset.p/100;W.value=Math.round(r.img.naturalWidth*p);H.value=Math.round(r.img.naturalHeight*p);URL.revokeObjectURL(r.url)})}
+}});
+drop.onclick=function(){fi.click()};
+drop.onkeydown=function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();fi.click()}};
+fi.onchange=function(){add(fi.files);fi.value=""};
+["dragenter","dragover"].forEach(function(t){drop.addEventListener(t,function(e){e.preventDefault();drop.classList.add("on")})});
+["dragleave","drop"].forEach(function(t){drop.addEventListener(t,function(e){e.preventDefault();drop.classList.remove("on")})});
+drop.addEventListener("drop",function(e){add(e.dataTransfer.files)});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ストレス対処タイプ診断 | SEADICE 診断</title>
+  <meta name="description" content="あなたのストレスの溜め方・逃し方の傾向がわかる無料診断。頑張りすぎ型・抱え込み型・逃避型・完璧主義型・切り替え上手型の5タイプから判定します。">
+  <meta name="keywords" content="ストレス診断,ストレス対処,メンタルヘルス,無料診断,タイプ診断">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/stress-type/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="ストレス対処タイプ診断 | SEADICE 診断">
+  <meta property="og:description" content="ストレスの溜め方・逃し方の傾向がわかる無料診断。5タイプから判定。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/stress-type/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/stress-type-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seadice.win/diagnosis/assets/img/stress-type-og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"ストレス対処タイプ診断","item":"https://seadice.win/diagnosis/stress-type/"}]},{"@type":"Quiz","name":"ストレス対処タイプ診断","description":"ストレスの溜め方・逃し方の傾向がわかる無料診断","url":"https://seadice.win/diagnosis/stress-type/","inLanguage":"ja"}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <div id="quiz-intro">
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / ストレス対処タイプ診断</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>ストレス対処タイプ診断</h1>
+  <p class="hero-desc">自分がストレスをどう溜め込み、どう逃しているかを知ることは、心を守る第一歩です。8つの質問から、頑張りすぎ型・抱え込み型・逃避型・完璧主義型・切り替え上手型の5タイプの中から、あなたのストレス対処傾向を診断します。</p>
+
+  <figure class="hero"><img src="/diagnosis/assets/img/stress-type-hero.webp" width="900" height="703" alt="花模様の壁と人物のシルエット" loading="eager"><figcaption>Photo: Animesh Tiwari / <a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">CC BY 3.0</a> / <a href="https://commons.wikimedia.org/wiki/File:MEDITATIVE_SILHOUETTE.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption></figure>
+
+    <button type="button" id="quiz-start-btn" class="quiz-start-btn">診断をはじめる（1分・全8問）</button>
+  </div>
+
+  <div id="quiz-progress-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+    <p class="quiz-step-label"><span>質問</span><span id="quiz-progress-label">1 / 8</span></p>
+  </div>
+  <div id="quiz-questions"></div>
+
+  <div id="quiz-result">
+    <div class="result-card">
+      <div class="result-icon"></div>
+      <p class="result-type"></p>
+      <h2 class="result-name" style="margin-top:0"></h2>
+      <p class="result-desc"></p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度診断する</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/career-type/"><span class="diag-title">キャリア適性タイプ診断</span></a>
+      <a class="diag-card" href="/diagnosis/bigfive-lite/"><span class="diag-title">簡易ビッグファイブ性格診断</span></a>
+    </div>
+  </div>
+
+  <script type="application/json" id="quiz-data">
+  {
+    "shareTitle": "ストレス対処タイプ診断",
+    "resultLabel": "あなたのストレス対処タイプ",
+    "types": {
+      "GANBARI": {
+        "name": "頑張りすぎ型",
+        "desc": "限界が来るまで頑張り続けてしまうタイプです。責任感が強く、弱音を吐くのが苦手な傾向があります。定期的に「休む予定」を先に決めてしまうことが、燃え尽きを防ぐ鍵になります。",
+        "color": "#ff6b81"
+      },
+      "KAKAEKOMI": {
+        "name": "抱え込み型",
+        "desc": "悩みを一人で抱え込みやすいタイプです。人に相談することを遠慮してしまい、気づいたらストレスが限界を超えていることがあります。小さな悩みのうちに誰かに話す練習が有効です。",
+        "color": "#6c63ff"
+      },
+      "TOUHI": {
+        "name": "逃避型",
+        "desc": "つらい状況から距離を置くことでバランスを取るタイプです。一時的に目を逸らすことでリセットできますが、根本的な問題解決が先延ばしになりやすい傾向もあります。逃げた後にもう一度向き合う時間を作ることが大切です。",
+        "color": "#00b894"
+      },
+      "KANPEKI": {
+        "name": "完璧主義型",
+        "desc": "「ちゃんとやらなければ」という思いがストレスの原因になりやすいタイプです。高い基準を自分に課す分、達成感も大きい一方、自分を追い詰めやすい傾向があります。「60点で十分」と意識的に基準を下げることが助けになります。",
+        "color": "#ffa62b"
+      },
+      "KIRIKAE": {
+        "name": "切り替え上手型",
+        "desc": "ストレスを感じても比較的早く気持ちを切り替えられるタイプです。趣味や気分転換の方法を複数持っていることが多く、心のバランスを保つのが得意です。周囲のストレスケアの相談役になることも多いタイプです。",
+        "color": "#3a86ff"
+      }
+    },
+    "questions": [
+      {
+        "q": "仕事や勉強で予定より遅れているとき、どうする？",
+        "options": [
+          {
+            "text": "睡眠時間を削ってでも取り戻そうとする",
+            "type": "GANBARI"
+          },
+          {
+            "text": "誰にも相談せず一人で何とかしようとする",
+            "type": "KAKAEKOMI"
+          },
+          {
+            "text": "一旦離れて別のことをしてから戻る",
+            "type": "TOUHI"
+          },
+          {
+            "text": "完璧に終わらせないと気が済まない",
+            "type": "KANPEKI"
+          }
+        ]
+      },
+      {
+        "q": "嫌なことがあった日の過ごし方は？",
+        "options": [
+          {
+            "text": "好きなことをして気分をすぐ切り替える",
+            "type": "KIRIKAE"
+          },
+          {
+            "text": "とりあえず考えないようにして寝る",
+            "type": "TOUHI"
+          },
+          {
+            "text": "何がいけなかったのか一人で反省し続ける",
+            "type": "KANPEKI"
+          },
+          {
+            "text": "誰にも言わずに自分の中で処理しようとする",
+            "type": "KAKAEKOMI"
+          }
+        ]
+      },
+      {
+        "q": "「無理しないで」と言われたら？",
+        "options": [
+          {
+            "text": "そう言われても、つい頑張ってしまう",
+            "type": "GANBARI"
+          },
+          {
+            "text": "本当は辛くても大丈夫なふりをしてしまう",
+            "type": "KAKAEKOMI"
+          },
+          {
+            "text": "その言葉に甘えて、少し離れてみる",
+            "type": "TOUHI"
+          },
+          {
+            "text": "素直に受け止めて力を抜くことができる",
+            "type": "KIRIKAE"
+          }
+        ]
+      },
+      {
+        "q": "体調が少し悪いと感じたら？",
+        "options": [
+          {
+            "text": "予定を優先してそのまま無理して動く",
+            "type": "GANBARI"
+          },
+          {
+            "text": "早めに休んでしっかり回復させる",
+            "type": "KIRIKAE"
+          },
+          {
+            "text": "誰にも心配をかけたくなくて隠す",
+            "type": "KAKAEKOMI"
+          },
+          {
+            "text": "とりあえず気を紛らわせて忘れようとする",
+            "type": "TOUHI"
+          }
+        ]
+      },
+      {
+        "q": "自分に対して厳しいと感じることは？",
+        "options": [
+          {
+            "text": "「完璧にできて当たり前」と思ってしまう",
+            "type": "KANPEKI"
+          },
+          {
+            "text": "「弱音を吐いてはいけない」と思ってしまう",
+            "type": "GANBARI"
+          },
+          {
+            "text": "「人に迷惑をかけてはいけない」と思ってしまう",
+            "type": "KAKAEKOMI"
+          },
+          {
+            "text": "特に厳しくしすぎず、うまく力を抜ける",
+            "type": "KIRIKAE"
+          }
+        ]
+      },
+      {
+        "q": "ストレスが溜まっているときのサインは？",
+        "options": [
+          {
+            "text": "気づかないうちに限界まで頑張ってしまっている",
+            "type": "GANBARI"
+          },
+          {
+            "text": "考えるのをやめてスマホやゲームに逃げている",
+            "type": "TOUHI"
+          },
+          {
+            "text": "細かいミスが許せなくなっている",
+            "type": "KANPEKI"
+          },
+          {
+            "text": "誰にも相談せず表情に出さないようにしている",
+            "type": "KAKAEKOMI"
+          }
+        ]
+      },
+      {
+        "q": "友人からストレス対処法を聞かれたら？",
+        "options": [
+          {
+            "text": "自分なりの気分転換方法をいくつも教えられる",
+            "type": "KIRIKAE"
+          },
+          {
+            "text": "つい「我慢するしかない」と答えてしまう",
+            "type": "GANBARI"
+          },
+          {
+            "text": "「一旦離れるのが一番」と答える",
+            "type": "TOUHI"
+          },
+          {
+            "text": "「ちゃんとやり切ることが大事」と答える",
+            "type": "KANPEKI"
+          }
+        ]
+      },
+      {
+        "q": "心が疲れたとき、本当はどうしたい？",
+        "options": [
+          {
+            "text": "誰かに「頑張らなくていい」と言ってほしい",
+            "type": "GANBARI"
+          },
+          {
+            "text": "誰かにただ話を聞いてほしい",
+            "type": "KAKAEKOMI"
+          },
+          {
+            "text": "全部忘れてどこかに逃げ出したい",
+            "type": "TOUHI"
+          },
+          {
+            "text": "納得いくまでやり直したい",
+            "type": "KANPEKI"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script src="/diagnosis/assets/quiz.js"></script>
+</main>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

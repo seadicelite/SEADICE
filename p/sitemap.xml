@@ -5,7 +5,7 @@
   <!-- ホーム -->
   <url>
     <loc>https://seadice.win/</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ja" href="https://seadice.win/"/>
@@ -13,6 +13,12 @@
   <url>
     <loc>https://seadice.win/pomodoro/</loc>
     <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/image-resizer/</loc>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -35,12 +41,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/black-psychology/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/apps/boueki-eigo/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -51,12 +51,6 @@
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/boueki-ittou/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://seadice.win/tools/boueki-ittou/</loc>
@@ -777,12 +771,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/mood-forecast/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/privacy/mood-forecast/</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>yearly</changefreq>
@@ -790,12 +778,6 @@
   </url>
   <url>
     <loc>https://seadice.win/tools/jikka-jimai/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/jikka-jimai/</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -813,12 +795,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/hitori-time/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/privacy/hitori-time/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
@@ -826,12 +802,6 @@
   </url>
   <url>
     <loc>https://seadice.win/tools/notify-mindfulness/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/notify-mindfulness/</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -849,12 +819,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/study-quest/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/privacy/study-quest/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
@@ -862,12 +826,6 @@
   </url>
   <url>
     <loc>https://seadice.win/tools/fake-check/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/fake-check/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -885,12 +843,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/bousai-plan/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/privacy/bousai-plan/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
@@ -898,12 +850,6 @@
   </url>
   <url>
     <loc>https://seadice.win/tools/scam-guard/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/scam-guard/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -921,12 +867,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/japan-life-guide/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/privacy/japan-life-guide/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
@@ -934,12 +874,6 @@
   </url>
   <url>
     <loc>https://seadice.win/tools/jibun-torisetsu/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/jibun-torisetsu/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -957,22 +891,10 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kotowaru-lab/</loc>
-    <lastmod>2026-09-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/privacy/kotowaru-lab/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/hiru10/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seadice.win/tools/hiru10/</loc>
@@ -1029,19 +951,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/omamori-guide/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/omamori-guide/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/japanglish/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1053,19 +963,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/wagashi-muse/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/wagashi-muse/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/chado-sensei/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1077,19 +975,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/matsuri-compass/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/matsuri-compass/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/dohyo-quiz/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1101,19 +987,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kanji-kokoro/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kanji-kokoro/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kaidan-nights/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1125,19 +999,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/bushido-way/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/bushido-way/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shinobi-scroll/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1149,19 +1011,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kamon-crest/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kamon-crest/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/giongo-echo/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1173,19 +1023,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/ekiben-journey/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/ekiben-journey/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/furoshiki-wrap/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1197,19 +1035,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kintsugi-mend/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kintsugi-mend/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kakeibo-log/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1221,19 +1047,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/digital-shukatsu/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/digital-shukatsu/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/sns-soudan-chat/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1245,19 +1059,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/shodo-brush/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/shodo-brush/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shikaku-compass/</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1269,19 +1071,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/bousai-sim/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/bousai-sim/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/setsuden-hikaku/</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1293,19 +1083,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kokeshi-craft/</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kokeshi-craft/</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/fukugyou-quest/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1317,19 +1095,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/nihongo-log/</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/nihongo-log/</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/akiya-diag/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1341,19 +1107,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/karesansui-zen/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/karesansui-zen/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kaigo-soudan-chat/</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1365,19 +1119,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/ibasho-sim/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/ibasho-sim/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kyufukin-jiten/</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1389,19 +1131,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/ukiyoe-vision/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/ukiyoe-vision/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shokuhin-loss-log/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1413,19 +1143,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/manabinaoshi-hikaku/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/manabinaoshi-hikaku/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/volunteer-quest100/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1437,19 +1155,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/origami-muse/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/origami-muse/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shakai-fukki-navi/</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1461,19 +1167,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/zairyu-seikatsu-chat/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/zairyu-seikatsu-chat/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/gomi-bunbetsu-jiten/</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1485,19 +1179,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/ikebana-flow/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/ikebana-flow/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/tokushu-sagi-sim/</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1509,19 +1191,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/benkyo-shukan-log/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/benkyo-shukan-log/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shakkin-seiri-hikaku/</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1533,19 +1203,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/bonsai-spirit/</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/bonsai-spirit/</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/hayaoki-quest/</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1557,19 +1215,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/shinro-shindan/</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/shinro-shindan/</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/chiiki-tasukeai-jiten/</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1581,19 +1227,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/netsuke-charm/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/netsuke-charm/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/tenshoku-soudan-chat/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1605,19 +1239,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/gaikokujin-tetsuzuki-sim/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/gaikokujin-tetsuzuki-sim/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/gomi-genryo-log/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1647,19 +1269,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/daruma-goal/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/daruma-goal/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/monowasure-check/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1671,19 +1281,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/sns-seigen-hikaku/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/sns-seigen-hikaku/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kinyu-quest100/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1695,19 +1293,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/temari-thread/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/temari-thread/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kaji-share-log/</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1719,19 +1305,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/benkyoho-jiten/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/benkyoho-jiten/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/ijuu-teiju-sim/</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1743,19 +1317,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/furin-chime/</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/furin-chime/</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/koreisha-sumaho-chat/</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1767,19 +1329,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/futoko-manabi-hikaku/</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/futoko-manabi-hikaku/</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/rouhi-kuse-quest100/</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1791,19 +1341,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/sumie-ink/</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/sumie-ink/</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/bousai-bichiku-jiten/</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1815,19 +1353,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/shikaku-plan-sim/</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/shikaku-plan-sim/</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/skill-gap-shindan/</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1839,19 +1365,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/mizuhiki-knot/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/mizuhiki-knot/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kaigo-futan-log/</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1863,19 +1377,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kodomo-shien-seido-hikaku/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kodomo-shien-seido-hikaku/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/nihon-seikatsu-quest100/</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1887,19 +1389,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/ema-wish/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/ema-wish/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/konposuto-soudan-chat/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1911,19 +1401,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/roudou-mondai-jiten/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/roudou-mondai-jiten/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/genkai-shuraku-sim/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1947,19 +1425,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/goshuin-quest/</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/goshuin-quest/</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/seikatsu-rhythm-log/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1971,19 +1437,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/gakushu-type-shindan/</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/gakushu-type-shindan/</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/nisa-ideco-hikaku/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1995,19 +1449,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/haiku-muse/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/haiku-muse/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shokuba-ningenkankei-soudan-chat/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2019,19 +1461,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kaigo-hoken-service-jiten/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kaigo-hoken-service-jiten/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/setsuden-setsusui-sim/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2049,19 +1479,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/hanko-seal/</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/hanko-seal/</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kodomo-yousu-log/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2073,19 +1491,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/zairyu-shikaku-hikaku/</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/zairyu-shikaku-hikaku/</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/gokinjo-kizuna-quest100/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2103,19 +1509,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/chochin-glow/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/chochin-glow/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/bousai-kit-shindan/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2127,19 +1521,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/gakushu-shien-hikaku/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/gakushu-shien-hikaku/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/sabusuku-shishutsu-log/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2157,19 +1539,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/maneki-fortune/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/maneki-fortune/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/fukugyou-zeikin-chat/</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2181,19 +1551,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/koreisha-mimamori-jiten/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/koreisha-mimamori-jiten/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/compost-koka-sim/</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2211,19 +1569,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/noren-curtain/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/noren-curtain/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shorui-seiri-log/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2235,19 +1581,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/ijime-taiou-shindan/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/ijime-taiou-shindan/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shougakukin-hikaku/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2265,19 +1599,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/tsuba-crest/</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/tsuba-crest/</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shikaku-quest100/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2289,19 +1611,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/nihon-manner-jiten/</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/nihon-manner-jiten/</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/saigai-tasukeai-sim/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2319,19 +1629,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/koma-inu-guardian/</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/koma-inu-guardian/</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/souji-shukan-log/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2343,19 +1641,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/koreisha-kodoku-chat/</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/koreisha-kodoku-chat/</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/cashless-hikaku/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2367,19 +1653,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kumihimo-braid/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kumihimo-braid/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/hatarakikata-seido-jiten/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2391,19 +1665,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kyoiku-kakusa-sim/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kyoiku-kakusa-sim/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/eco-seikatsu-shindan/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2427,19 +1689,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/hina-doll/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/hina-doll/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/koreisha-sagi-quest100/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2451,19 +1701,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/yakuba-tetsuzuki-hikaku/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/yakuba-tetsuzuki-hikaku/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/chiiki-borantia-log/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2481,19 +1719,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/himitsu-box/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/himitsu-box/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/katei-kankyo-kakusa-sim/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2505,19 +1731,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/bousai-junbi-chat/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/bousai-junbi-chat/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kinyu-literacy-shindan/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2535,19 +1749,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/koinobori-sky/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/koinobori-sky/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shikaku-benkyo-log/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2559,19 +1761,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kaigo-yougo-jiten/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kaigo-yougo-jiten/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/recycle-hikaku/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2589,19 +1779,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/onsen-manner/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/onsen-manner/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/risukiringu-soudan-chat/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2613,19 +1791,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/sns-enjou-sim/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/sns-enjou-sim/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kakure-kotei-hi-shindan/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2643,19 +1809,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/sashiko-stitch/</loc>
-    <lastmod>2026-08-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/sashiko-stitch/</loc>
-    <lastmod>2026-08-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/fukuyaku-kanri-log/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2667,19 +1821,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/shikaku-jiten/</loc>
-    <lastmod>2026-08-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/shikaku-jiten/</loc>
-    <lastmod>2026-08-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/koreisha-mimamori-kiki-hikaku/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2697,19 +1839,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kanzashi-bloom/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kanzashi-bloom/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/bousai-kunren-quest100/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2721,19 +1851,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/gaikokujin-shigoto-soudan-chat/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/gaikokujin-shigoto-soudan-chat/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/plastic-gomi-herasu-sim/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2751,19 +1869,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/washi-craft/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/washi-craft/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/manabinaoshi-kiroku-log/</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2775,19 +1881,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/ijime-taiou-jiten/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/ijime-taiou-jiten/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/furusato-nozei-hikaku/</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2799,19 +1893,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/chindogu-lab/</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/chindogu-lab/</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kaigo-hiyo-sim/</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2823,19 +1905,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/chiiki-bika-quest100/</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/chiiki-bika-quest100/</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/jichikai-sanka-shindan/</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2859,19 +1929,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/suiseki-stone/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/suiseki-stone/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/kaji-daikou-hikaku/</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2883,19 +1941,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/freelance-dokuritsu-soudan-chat/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/freelance-dokuritsu-soudan-chat/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/gaikokujin-kodoku-log/</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2907,19 +1953,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/torii-gate/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/torii-gate/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/futoko-kaifuku-quest100/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2931,19 +1965,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kaigo-futan-yosoku-sim/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kaigo-futan-yosoku-sim/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shakkin-fukamido-shindan/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2961,19 +1983,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kadomatsu-craft/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kadomatsu-craft/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/katazuke-progress-log/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2985,19 +1995,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/manabinaoshi-jiten/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/manabinaoshi-jiten/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/tsumekae-eco-hikaku/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3015,19 +2013,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/tanabata-wish/</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/tanabata-wish/</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/shukatsu-mensetsu-chat/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3039,19 +2025,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/bunka-gap-sim/</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/bunka-gap-sim/</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/chiiki-kodoku-shindan/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3069,19 +2043,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/tengu-mountain/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/tengu-mountain/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/bichiku-kigen-log/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3093,19 +2055,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/shikaku-koza-hikaku/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/shikaku-koza-hikaku/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/ninchi-kunren-quest100/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3123,19 +2073,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/kendama-trick/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/kendama-trick/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/nigate-kamoku-jiten/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3147,19 +2085,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/apps/futoko-hogosha-soudan-chat/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/futoko-hogosha-soudan-chat/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/apps/nenkin-mitsumori-sim/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3173,6 +2099,48 @@
   <url>
     <loc>https://seadice.win/blog/hub-coverage-118-to-206/</loc>
     <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/diagnosis/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/diagnosis/mbti-lite/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/diagnosis/bigfive-lite/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/diagnosis/hidden-personality/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/diagnosis/renai-type/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/diagnosis/career-type/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/diagnosis/stress-type/</loc>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

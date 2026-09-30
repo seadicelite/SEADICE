@@ -5,6 +5,8 @@ SEADICEサイト用に、Claude APIを使ったAIアプリを1本生成してサ
 > **必読（このスキルのどのステップを実行する前にも毎回）**: `/Users/hidenori/Developer/SEADICE/CLAUDE.md` を必ず読み込んでから作業を始めること。ランディングページ（HTML）を書くときだけでなく、Flutterアプリのコード生成、App Storeメタデータ作成、デザイン差別化の判断など、このスキルの**全ステップ**でCLAUDE.mdの規約（フォント、絵文字禁止、設定画面の標準構成、AI利用回数制限、App Store審査対策、キャッシュ設定など）に従う。海外向け日本文化アプリなど、他の企画メモ（`海外向け日本文化アプリ方針`等）に沿って作る場合も、CLAUDE.mdの規約が土台として優先される。
 >
 > **⚠️ 広告は一切実装しない（重要・頻出ミス）**: このファイル内には旧方針時代のAdMob関連の記述（`google_mobile_ads`依存、インタースティシャル/リワード広告、「広告を見る」ボタン等）が随所に残っているが、**CLAUDE.mdの「広告は一切実装しない」方針（2026-07-30〜、AdMobアカウント停止のため）が常に優先される。** 以下に出てくるAdMob関連の記述はすべて無視し、広告コード・広告文言・AdMob依存を一切追加しないこと。AI利用上限に達した場合は「本日の利用回数の上限に達しました。明日またお試しください」という広告なしメッセージのみを表示する（CLAUDE.mdの「Claude APIを使うアプリの利用回数制限」参照）。2026-08-08、この矛盾に気づかず新規アプリにAdMobを実装してしまいユーザー指摘で修正した実例があるため、繰り返さないこと。
+>
+> **⚠️ iOS Deployment Targetは15.0固定（重要・頻出ミス）**: Step 6でPodfileに`IPHONEOS_DEPLOYMENT_TARGET = '15.0'`を追加するだけでなく、`ios/Runner.xcodeproj/project.pbxproj`内の同名キー（Debug/Release/Profileの3箇所）も必ず`grep -n "IPHONEOS_DEPLOYMENT_TARGET" ios/Runner.xcodeproj/project.pbxproj`で確認し、`13.0`や`14.0`のままなら`15.0`に置換すること（`flutter create`直後は`13.0`がデフォルト）。やめラボでこのチェックが漏れ、Apple審査後に`ITMS-90068`警告（MinimumOSVersion too low）を受けた実例がある。`/release`でipaをビルドする前にも同じgrepで再確認する。
 
 ## Flutterアプリのデザイン差別化（Guideline 4.3(a) スパム対策・必須）
 
