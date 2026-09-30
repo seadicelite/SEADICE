@@ -1,0 +1,36 @@
+{
+  "document_type": "INVOICE",
+  "documents": [
+    {
+      "document": {
+        "invoice_no": "INV-1001",
+        "invoice_date": "May 1, 2025",
+        "seller": { "company": "ABC Trading Co." },
+        "buyer": { "company": "XYZ Import Ltd." },
+        "from": "Yokohama",
+        "to": "Los Angeles",
+        "total": {
+          "currency": "USD",
+          "amount": 12000,
+          "trade_term": "CIF"
+        }
+      },
+      "questions": [
+        {
+          "sentence": "What is the total invoice amount?",
+          "A": "USD 10,000",
+          "B": "USD 12,000",
+          "C": "USD 15,000",
+          "answer": "B"
+        },
+        {
+          "sentence": "Which trade term is used?",
+          "A": "FOB",
+          "B": "CFR",
+          "C": "CIF",
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

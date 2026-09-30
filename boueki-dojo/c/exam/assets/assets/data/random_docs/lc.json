@@ -1,0 +1,76 @@
+{
+  "document_type": "LETTER_OF_CREDIT",
+  "documents": [
+    {
+      "document": {
+        "lc_no": "LC-778899",
+        "applicant": { "company": "XYZ Import Ltd." },
+        "beneficiary": { "company": "ABC Trading Co." },
+        "expiry": { "date": "June 30, 2025" }
+      },
+      "questions": [
+        {
+          "sentence": "Who is the beneficiary of this L/C?",
+          "A": "XYZ Import Ltd.",
+          "B": "ABC Trading Co.",
+          "C": "Issuing Bank",
+          "answer": "B"
+        },
+        {
+          "sentence": "When does this L/C expire?",
+          "A": "May 30, 2025",
+          "B": "June 30, 2025",
+          "C": "July 30, 2025",
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "document": {
+        "lc_no": "231-112449J",
+        "issue_date": "February 21, 2025",
+        "issue_place": "Los Angeles, U.S.A.",
+        "issuing_bank": "The First National Banking Corporation",
+        "advising_bank": "The Pacific Bank, Ltd., Tokyo",
+        "applicant": {
+          "company": "Motor Equipment, Inc.",
+          "country": "U.S.A."
+        },
+        "beneficiary": {
+          "company": "Global Trading Co., Ltd.",
+          "country": "Japan"
+        },
+        "amount": {
+          "currency": "USD",
+          "value": 170000
+        },
+        "tenor": "60 days after shipment",
+        "latest_shipment_date": "April 30, 2025",
+        "expiry_date": "May 14, 2025",
+        "expiry_place": "Tokyo, Japan",
+        "shipment": {
+          "from": "Tokyo, Japan",
+          "to": "Long Beach, U.S.A.",
+          "partial": false,
+          "transshipment": false
+        }
+      },
+      "questions": [
+        {
+          "sentence": "Which type of bill of exchange is drawn under this letter of credit?",
+          "A": "Sight draft",
+          "B": "Usance draft payable 60 days after shipment",
+          "C": "Usance draft payable at a fixed date",
+          "answer": "B"
+        },
+        {
+          "sentence": "If the shipment date is April 28, 2025, by when must the documents be presented?",
+          "A": "May 12, 2025",
+          "B": "May 13, 2025",
+          "C": "May 14, 2025",
+          "answer": "C"
+        }
+      ]
+      }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://boueki.seadice.win/sitemap.xml

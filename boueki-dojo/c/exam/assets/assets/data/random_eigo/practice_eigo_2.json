@@ -1,0 +1,388 @@
+{
+  "questions": [
+    {
+      "sentence_en": "The goods will be shipped within ten days after receipt of payment.",
+      "optionA_jp": "支払い受領後10日以内に貨物は船積みされる。",
+      "optionB_jp": "貨物は支払い前に船積みされる。",
+      "optionC_jp": "貨物は10日以内に到着する。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "Please confirm the delivery date as soon as possible.",
+      "optionA_jp": "できるだけ早く納期を確認してください。",
+      "optionB_jp": "納期を延期してください。",
+      "optionC_jp": "すぐに代金を支払ってください。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "We regret to inform you that the shipment has been delayed.",
+      "optionA_jp": "出荷が前倒しになったことをお知らせします。",
+      "optionB_jp": "出荷が遅延していることをお知らせします。",
+      "optionC_jp": "出荷が完了したことをお知らせします。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "The price quoted is valid for thirty days.",
+      "optionA_jp": "提示価格は30日間有効です。",
+      "optionB_jp": "価格は30日後に変更されます。",
+      "optionC_jp": "価格は即時無効です。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "Payment must be made by bank transfer.",
+      "optionA_jp": "支払いは現金で行わなければならない。",
+      "optionB_jp": "支払いは銀行振込で行わなければならない。",
+      "optionC_jp": "支払いは小切手で行う。",
+      "answer": "B"
+    },
+  
+    {
+      "sentence_en": "We would like you to quote prices on the basis of CIP Kobe rather than FOB Long Beach as specified in your price list.",
+      "optionA_jp": "価格表に記載されているロングビーチ本船渡し条件ではなく、神戸までの運賃込み条件で価格の見積りをお願いします。",
+      "optionB_jp": "価格表に記載されているロングビーチ港本船渡し条件ではなく、神戸港までの輸送費・保険料込み条件で価格の見積りをお願いします。",
+      "optionC_jp": "神戸港までの輸送費・保険料込み条件ではなく、価格表に記載されているロングビーチ港本船渡し条件で価格の見積りをお願いします。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "All goods on your order No. 100 of May 19, 2024 were shipped by C/S Yamato Maru today as specified in the attached copies of the shipping documents.",
+      "optionA_jp": "2024年5月19日付貴社注文No.100の商品はすべて、添付の船積書類写しを送付したように、今朝コンテナ船大和丸で船積みされました。",
+      "optionB_jp": "2024年5月19日付貴社注文No.100の商品はすべて、添付の船積書類写しに指示されているとおり、本日コンテナ船大和丸へ船積みする予定です。",
+      "optionC_jp": "2024年5月19日付貴社注文No.100の商品はすべて、添付の船積書類写しに記載されているとおり、本日コンテナ船大和丸で船積みされました。",
+      "answer": "C"
+    }
+
+,
+
+    {
+      "sentence_en": "Because of an increase in retail prices since this summer, the next consignment will be more costly. Therefore, we recommend that you take prompt advantage of this offer.",
+      "optionA_jp": "夏からの物価上昇によって、次回の注文はさらに混み合うでしょう。したがいまして、今回のオファーは見送り、次の好機をお待ちいただくことをお勧めします。",
+      "optionB_jp": "夏からの物価上昇によって、次回の生産量はより減少するでしょう。したがいまして、今のうちに可能な限り大量のご注文をしていただくことをお勧めします。",
+      "optionC_jp": "夏からの小売価格の上昇によって、次回の積送品はより高値になるでしょう。したがいまして、今回のオファーは好機ですので、速やかに受け入れられることをお勧めします。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "The unit price of Model 30-PC is subject to change.",
+      "optionA_jp": "30-PC型の単価は変更することがあります。",
+      "optionB_jp": "30-PC型の単価は変更することはありません。",
+      "optionC_jp": "30-PC型の単価は間違いありません。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "Much to our regret, we have to inform you that your acceptance can no longer be taken since the deadline specified in our firm offer has already passed.",
+      "optionA_jp": "ファーム・オファーに特別の時間を費やしてしまいましたので、大変残念ですが、貴社からの承諾をこれ以上引き伸ばすことはできません。",
+      "optionB_jp": "貴社の承諾までにそれほど長い時間はかかりませんでしたが、ファーム・オファーの特別期間をすでに過ぎてしまったことをご報告します。",
+      "optionC_jp": "大変残念ですが、ファーム・オファーの期限を過ぎておりますので、貴社からの承諾を受け入れかねます。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "We are looking forward to receiving your favorable reply.",
+      "optionA_jp": "現在、貴社からの返答に対して適切な対応を検討しております。",
+      "optionB_jp": "貴社からのよいお返事をお待ちしております。",
+      "optionC_jp": "ご回答いただいた件につきまして、貴社の利益となる点を探しております。",
+      "answer": "B"
+    }
+
+,
+
+    {
+      "sentence_en": "We have received complaints from our customers that this shipment contains high levels of impurities.",
+      "optionA_jp": "顧客より、この荷物は高水準の不純物に汚染されているとの連絡がありました。",
+      "optionB_jp": "この積荷に高水準の不純物が含まれていると、お客様から苦情がありました。",
+      "optionC_jp": "鑑定人より、この積荷に高濃度の不純物が検出されたとの報告を受けました。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We would refer you to the Bank of Boujitsu, Shinjuku, as to our financial standing.",
+      "optionA_jp": "当社の財務状態については、貿実銀行新宿支店に照会してください。",
+      "optionB_jp": "当社は貴社に、財務管理銀行として貿実銀行新宿支店を紹介します。",
+      "optionC_jp": "当社の財務情報については、貿実銀行新宿支店が貴社に共有します。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "As this is our lowest price, we are unable to reduce it further.",
+      "optionA_jp": "これは当社の最低価格ですが、さらに価格を引き下げることは可能です。",
+      "optionB_jp": "これは当社の割引価格ですが、さらに価格を割り引くことは可能です。",
+      "optionC_jp": "これは当社の最低価格ですので、これ以上価格を引き下げることはできかねます。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "Our new medical equipment has a good reputation in the local market, and we believe that it will sell well also in your country.",
+      "optionA_jp": "当社の新しい医療機器は、当地の市場で評判が良く、貴国でもよく売れると考えております。",
+      "optionB_jp": "当社の新しい医療施設は、当地市場で多くの優良顧客を抱えており、貴国でも良い実績を上げると考えております。",
+      "optionC_jp": "当社の新しい医療薬品は、当地の市場で業績を伸ばしており、貴国でもよく売れると考えております。",
+      "answer": "A"
+    },
+    
+    {
+      "sentence_en": "We engage in manufacturing various kinds of paper products.",
+      "optionA_jp": "当社は多くの紙問屋から大口注文を受けております。",
+      "optionB_jp": "当社はいろいろな種類の紙製品の製造に従事しています。",
+      "optionC_jp": "当社は紙の製造卸販売の老舗です。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "It will be about three months before we can receive a new supply of this model from the factory.",
+      "optionA_jp": "その工場の製造準備が整うまで約3か月かかります。",
+      "optionB_jp": "その新機種は、3か月間は入手できません。",
+      "optionC_jp": "工場からこの機種の新しい供給を得るまでに約3か月かかります。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "Because of the heavy berth congestion at Los Angeles and Long Beach, the time for delivery of our goods will be delayed.",
+      "optionA_jp": "ロサンゼルスおよびロングビーチでの深刻なバース混雑のため、当社商品の納期が遅れます。",
+      "optionB_jp": "ロサンゼルスおよびロングビーチでの貨物滞留のため、当社商品の船積みが遅れます。",
+      "optionC_jp": "ロサンゼルスおよびロングビーチでの港湾ストライキのため、当社商品の生産が遅れます。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "Our forwarding agent will go through the procedures for customs clearance on our behalf.",
+      "optionA_jp": "当社の販売代理店が、当社に代わって販売契約の手続きを行います。",
+      "optionB_jp": "当社の現地代理店が、当社に代わって輸入申告の手続きを行います。",
+      "optionC_jp": "当社の運送代理店が、当社に代わって通関手続きを行います。",
+      "answer": "C"
+    }
+,
+    {
+      "sentence_en": "We have to advise you that our company regulations do not permit payment against invoices for incomplete orders.",
+      "optionA_jp": "当社の規定により、納品が完了した注文の請求書であっても、すぐにはお支払いできかねますのでご了承ください。",
+      "optionB_jp": "当社の規定により、納品が完了していない注文に関する請求書に対してはお支払いできない旨、お知らせいたします。",
+      "optionC_jp": "当社の規定により、ご注文の納品が未完了の請求書については、お支払いしなくてもよいことになっております。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We regret to inform you that we have not yet received your payment to our invoice No. 105 of June 10, 2024.",
+      "optionA_jp": "残念ながら、2024年6月10日付当社請求書第105号に対するお支払いを、まだいただいておりませんのでご連絡いたします。",
+      "optionB_jp": "恐れ入りますが、2024年6月10日付貴社請求書第105号に対するお支払いは、まだ完了しておりません。",
+      "optionC_jp": "残念ながら、2024年6月10日付当社請求書第105号に対するお支払いが遅延しておりますのでご連絡いたします。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "We would appreciate it if you could allow us a three percent discount for an order of fifty cartons or more.",
+      "optionA_jp": "50ケースを超える注文に対して、3％以上の割引をしていただけるとありがたく思います。",
+      "optionB_jp": "50ケース以上の注文の場合、3％の値引きをしていただけるとありがたく思います。",
+      "optionC_jp": "50ケース以上の注文の場合、3％の値引きをさせていただきます。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We will effect insurance on these goods for US$110,000 against WA.",
+      "optionA_jp": "これらの商品に、分損担保の条件で110,000米ドルの保険を掛けます。",
+      "optionB_jp": "これらの商品に、分損不担保の条件で110,000米ドルの保険を掛けます。",
+      "optionC_jp": "これらの商品に、全危険担保の条件で110,000米ドルの保険を掛けます。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "The estimated ocean freights are valid through July 31, 2024. They are subject to change in case of a violent fluctuation in the crude oil market during the term of validity.",
+      "optionA_jp": "お見積りした運賃の有効期限は2024年7月31日です。有効期間中に原油マーケットの変動があっても、運賃の変更はいたしません。",
+      "optionB_jp": "お見積りした海上運賃は2024年7月31日まで有効です。有効期間中に激しい原油マーケットの変動があれば、運賃を変更することがあります。",
+      "optionC_jp": "お見積りした海上運賃は2024年7月31日まで有効です。有効期間を過ぎた場合には、燃油割増運賃を大幅に変更することがあります。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We have decided to grant you the exclusive license, which will allow you to manufacture and sell all models of our electric shaver under our manufacturing specifications in your country.",
+      "optionA_jp": "貴社に製造販売排除権を行使することに決定しました。それにより、貴社は当社の電気カミソリ全機種を貴国で製造販売できなくなります。",
+      "optionB_jp": "貴社に専用実施権を許諾することにいたしました。それにより、貴社は当社の製造仕様書に基づき、当社の電気カミソリ全機種を貴国で製造販売することが可能になります。",
+      "optionC_jp": "貴社との独占的ライセンス契約を解消することに決定しましたので、当社の電気カミソリ全機種を貴国で製造販売することができなくなりました。",
+      "answer": "B"
+    },
+   {
+      "sentence_en": "Please send us your lowest price on both ICA Chicago Airport and CPT Narita Airport, in US dollars.",
+      "optionA_jp": "米ドル建てで、シカゴ空港までの輸送費込み条件と成田空港渡し条件の両方の最低価格をお送りいただけませんか。",
+      "optionB_jp": "米ドル建てで、シカゴ空港渡し条件と成田空港までの輸送費込み条件の両方の最低価格をお送りいただけませんか。",
+      "optionC_jp": "シカゴ空港までの本船渡し条件と成田空港までの運賃込み条件の両方の最低価格を、米ドル建てでお送りいただけませんか。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We can reduce the price by 5% if you order 100 units or more.",
+      "optionA_jp": "100個以上のご注文に対しては、価格を5％にいたします。",
+      "optionB_jp": "100個ご注文を頂ければ、価格を5％お下げいたします。",
+      "optionC_jp": "100個以上のご注文を頂ければ、価格を5％お下げいたします。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "MHJ Co., Ltd. has applied to open an account with us and provided your name as a reference.",
+      "optionA_jp": "MHJ社が当社との取引申込みに際し、信用照会先として貴社名を挙げております。",
+      "optionB_jp": "MHJ社が当行での口座開設にあたり、主たる取引先として貴社名を挙げております。",
+      "optionC_jp": "MHJ社が当社との取引申込みに際し、貴社から当社を紹介されたと伺いました。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "We are interested in the medical equipment you recently showcased at your booth at Tokyo Big Sight.",
+      "optionA_jp": "最近の東京ビッグサイトで貴社が展示していた医療機器は、販売見込みが大きいと思います。",
+      "optionB_jp": "最近の東京ビッグサイトで見学させていただいた医療機器に興味を持っております。",
+      "optionC_jp": "最近、東京ビッグサイトの貴社ブースに展示されておりました医療機器に興味を持っております。",
+      "answer": "C"
+    },
+
+    {
+      "sentence_en": "We have to advise you that the prices of all our products will be raised by 5% due to the recent sudden appreciation of the Japanese Yen.",
+      "optionA_jp": "最近の急激な円高により、当社の全製品の価格が5％値上がりすることをお知らせいたします。",
+      "optionB_jp": "近い将来、突然円高になる可能性があるため、全製品のうち約5％の商品を値上げすることをお知らせします。",
+      "optionC_jp": "最近の急激な円安により、当社の全製品の価格が5％の範囲内で値上がりすることをお知らせします。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "A labor strike at the port has suspended all operations for over a week. Currently, we cannot predict when the situation will return to normal.",
+      "optionA_jp": "港湾ストライキが1週間以上続いており、現時点では作業が元に戻った場合の予定を立てるほかありません。",
+      "optionB_jp": "港湾労働者のストライキにより、港の作業が1週間以上停止したままで、いつ正常に戻るのか現在のところ予測できません。",
+      "optionC_jp": "港での労働者ストライキは1週間もすれば収束するはずですが、現状では正常に戻っても本船はまだ到着しないでしょう。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We would appreciate your signing the Sales Contract and sending the duplicate back to us at your earliest convenience.",
+      "optionA_jp": "署名された売買契約書を2通、裏書のうえご返送いただければ幸いです。",
+      "optionB_jp": "売買契約書にご署名いただき、2部ご返送いただきましてありがとうございます。",
+      "optionC_jp": "売買契約書にご署名のうえ、できるだけ早く副本をご返送いただければ幸いです。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "According to the terms of payment mutually agreed upon, we have drawn a draft at 30 days after sight to cover this shipment and would like to ask for your acceptance of the draft on presentation.",
+      "optionA_jp": "相互に同意した支払条件に従い、出荷貨物の船積日から30日間の支払猶予付手形を振り出すことにしましたので、確認のうえご了承願います。",
+      "optionB_jp": "相互に同意した支払条件に従い、今回の積荷を対象とする一覧払後30日払いの手形を振り出しましたので、呈示があり次第、引受けをお願いいたします。",
+      "optionC_jp": "相互に同意した支払条件によると、貨物が仕向地に到着してから30日後に代金を支払う条件で手形を振り出すことにしましたので、確認のうえお引受け願います。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We have learned from the Survey Report prepared by the Surveyor here that the quality of your goods does not meet the level of FAQ condition in which we agreed.",
+      "optionA_jp": "当船の船長によって作成された積荷報告書から、貴社製品の品質が合意どおりの品質から劣化していることが分かりました。",
+      "optionB_jp": "当地の鑑定人によって作成された鑑定報告書から、貴社製品の品質が、我々が合意した平均中等品質（FAQ）条件の基準に達していないことが分かりました。",
+      "optionC_jp": "当地の検数人によって作成された検数報告書から、貴社製品の品質が、我々が合意した適商品質条件の基準に達していないことが分かりました。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "The unit price of Model 3000-DX is subject to change.",
+      "optionA_jp": "3000-DX型の単価は変更されます。",
+      "optionB_jp": "3000-DX型の単価は変更される可能性があります。",
+      "optionC_jp": "3000-DX型の単価は変更後のものです。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We enclose the order confirmation in this letter for your order placed on December 5th.",
+      "optionA_jp": "貴社の12月5日のご注文につき、注文確認書を本状に同封いたします。",
+      "optionB_jp": "貴社の12月5日の引き合いに関して、注文書を本状に同封いたします。",
+      "optionC_jp": "貴社の12月5日付のご注文書が同封されていることを確認しました。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "We have been informed by the supplier that the product has already been discontinued. Therefore, we will send you a list of compatible products.",
+      "optionA_jp": "仕入先より、その商品は生産を中断していると連絡がありました。したがって、最新型の商品リストをお送りします。",
+      "optionB_jp": "仕入先より、その商品はすでに販売を終了していると連絡がありましたので、類似の商品リストをお送りします。",
+      "optionC_jp": "仕入先より、その商品は既に生産が終了していると連絡がありました。つきましては、互換性のある商品のリストをお送りします。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "We would like to ask you to effect insurance on the cargo against All Risks including War and SRCC Clauses for the full invoice amount plus 10%.",
+      "optionA_jp": "インボイス価格の110％で、貨物に戦争・ストライキ特約付き分損不担保条件の保険を掛けてください。",
+      "optionB_jp": "貨物には、インボイス総額の10％増しで、戦争・ストライキ特約付き全危険担保条件の保険を掛けてください。",
+      "optionC_jp": "貨物には、インボイス価格で全危険担保条件の保険を掛けてください。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We regret to inform you that we cannot accept your additional order as the deadline for our firm offer has already passed.",
+      "optionA_jp": "ファーム・オファーの期限が過ぎましたので、残念ながら貴社の注文期間を再度引き延ばすことはできない旨、ご了承ください。",
+      "optionB_jp": "貴社の追加注文は確定申込期限がすでに過ぎているため、再注文が可能か確認してご連絡いたします。",
+      "optionC_jp": "大変残念ですが、確定申込みの期限をすでに過ぎておりますので、貴社の追加注文をお受けしかねる旨ご連絡いたします。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "Would you please quote us on FOB Long Beach and CIP Kobe?",
+      "optionA_jp": "ロングビーチでの運送人渡し条件と、神戸港までの輸送費込み条件で価格の見積りをお願いします。",
+      "optionB_jp": "ロングビーチ港での本船渡し条件と、神戸港までの運賃・保険料込み条件で価格の見積りをお願いします。",
+      "optionC_jp": "ロングビーチ港での本船渡し価格と、神戸港までの輸送費・保険料込み条件で価格の見積りをお願いします。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We will grant a 3% discount under the condition of an irrevocable letter of credit at sight.",
+      "optionA_jp": "取消不能信用状にもとづく一覧払いという条件で、3％の値引きをさせていただきます。",
+      "optionB_jp": "信用状を利用せず、一覧払いという条件であれば、3％の値引きをさせていただきます。",
+      "optionC_jp": "取消不能信用状付き、期限払いという条件であれば、3％の値引きをさせていただきます。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "The Sunrise, carrying your ordered goods, was scheduled to depart Tokyo today, but its departure has been delayed due to a typhoon. We will inform you immediately once it sets sail.",
+      "optionA_jp": "本日東京を出航予定だったサンライズは、台風のため出航を中止することが決まりました。代替船が決まり次第ご連絡します。",
+      "optionB_jp": "貴社の注文品を積んでいるサンライズ号は、本日東京を出港する予定でしたが、台風のため出航が遅れております。出航次第すぐにご連絡します。",
+      "optionC_jp": "貴社の注文品を積み込む予定だったサンライズ号は、台風により出航が遅れております。船積準備ができ次第ご連絡します。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "Our company is one of Japan's leading frozen food manufacturers. For 40 years, we have continuously supplied various products to customers domestically and internationally.",
+      "optionA_jp": "当社は日本の大手冷凍食品業者の一つです。40年間、国内外の顧客にさまざまな製品を供給し続けています。",
+      "optionB_jp": "当社は日本の大手冷凍食品業者の一つです。40年間、国内外の顧客に製品を安定供給するためのさまざまな研究を続けています。",
+      "optionC_jp": "当社は創業40年の日本の大手冷凍食品業者の一つであり、国内外の顧客にさまざまな製品を供給し続ける努力をしています。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "We guarantee that all information provided by your company will be treated with the utmost confidentiality, and your company will not be held liable in any way for disclosing information to us.",
+      "optionA_jp": "貴社から提供されたすべての情報は厳重に取り扱い、他社には開示せず、また当社への情報開示に関して貴社にいかなる責任も問わないことを保証いたします。",
+      "optionB_jp": "貴社から提供されたすべての情報は極秘扱いとし、貴社は当社への情報開示について責任を問われることはないと保証いたします。",
+      "optionC_jp": "貴社から提供されたすべての情報は極秘扱いとし、当社は貴社が開示した情報により生じた損害について一切の責任を負わないことを保証いたします。",
+      "answer": "A"
+    },
+     {
+      "sentence_en": "This article enjoys a good reputation in our market, and you will soon see the same in your market.",
+      "optionA_jp": "この商品は当市場で評判がよく、貴市場でもすぐに同様になるでしょう。",
+      "optionB_jp": "この市場ではこの商品を皆が楽しんでおりますので、貴市場でもそうなると思います。",
+      "optionC_jp": "この商品は当地では需要が高いです。貴市場でもすぐに同じ商品を見るでしょう。",
+      "answer": "A"
+    },
+
+    {
+      "sentence_en": "Your products draw our attention very much, and we would like to act as your sole agent in Japan.",
+      "optionA_jp": "貴社製品に大変魅力を感じており、日本における貴社の総代理店として活動したいと存じます。",
+      "optionB_jp": "貴社製品は注目を集めておりますので、当社は日本における貴社の一手販売店になりたいと考えております。",
+      "optionC_jp": "当社は貴社製品に非常に興味を持っており、日本代理店としてお役に立ちたいと考えております。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "We would like to request you quote us your best prices on both FCA Hamburg and CIP Tokyo for 20 units of the e-bike shown in your catalog.",
+      "optionA_jp": "貴社カタログ掲載と同等の電動バイク20台につき、ハンブルグ港本船渡し条件と東京までの運賃保険料込み条件での最善価格をお知らせください。",
+      "optionB_jp": "貴社カタログ掲載の電動バイク20台につき、ハンブルグ港運送人渡し条件と東京港までの運賃保険料込み条件でお見積りください。",
+      "optionC_jp": "貴社カタログに掲載されている電動バイク20台につき、ハンブルグにおける運送人渡し条件と東京までの輸送費・保険料込み条件の両方で最善価格をお見積りください。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "We should like to ask you to extend 14 days of the time of shipment and the validity of the relative L/C respectively due to the delay in production for your order No. 1234.",
+      "optionA_jp": "貴社注文番号1234の生産遅延により、関連する信用状の有効期限はそのままに、船積期限のみ14日間延長していただきたく存じます。",
+      "optionB_jp": "貴社注文番号1234の製造遅延のため、関係信用状の船積期限および有効期限をそれぞれ14日ずつ延長していただく必要があります。",
+      "optionC_jp": "貴社注文番号1234の製造遅延のため、当該信用状の船積期限と有効期限を考慮のうえ、14日延長することをお認めください。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "Unless otherwise instructed, we will effect insurance on your order against WA (I.O.P.) including TPND.",
+      "optionA_jp": "別段のご指示がなければ、貴社ご注文品には、免責歩合条項除外の分損担保条件に盗難・抜荷・不着（TPND）を追加担保する保険を付保いたします。",
+      "optionB_jp": "ご指示いただいたとおり、貴社ご注文品には、免責歩合条項除外の分損担保条件に雨または淡水濡れ損を追加担保する保険を付保いたします。",
+      "optionC_jp": "ご指示以外には、貴社ご注文品には、免責歩合条項込みの分損担保条件に盗難・抜荷・不着（TPND）を追加担保する保険を付保いたします。",
+      "answer": "A"
+    },
+    {
+      "sentence_en": "The shipping company has informed us that the currency adjustment factor is subject to change according to the recent sudden fluctuations in the exchange rate.",
+      "optionA_jp": "最近の外国為替市場の不安定化に伴う原油価格の高騰により、燃料割増金を変更せざるを得ないと船会社から連絡がありました。",
+      "optionB_jp": "最近は通貨変動が大きいため、通貨調整サーチャージを増加させるとの情報を船会社から受けました。",
+      "optionC_jp": "通貨変動割増金（CAF）は、最近の急激な為替変動に応じて変更されることがあると、船会社から連絡がありました。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "We would be grateful very much if you would let us know by return e-mail when the shortage in your order No. 987 will be paid.",
+      "optionA_jp": "貴社注文番号987の不足額をお支払いいただける際には、事前にお知らせいただければ幸いです。",
+      "optionB_jp": "貴社注文番号987の不足金額を折り返しご送金いただけるとのご連絡をいただき、誠にありがとうございます。",
+      "optionC_jp": "貴社注文番号987の不足額をいつお支払いいただけるのか、折り返しのEメールでお知らせいただければ大変ありがたく存じます。",
+      "answer": "C"
+    },
+    {
+      "sentence_en": "We wish to remind you that your account is now more than three months overdue, and we would appreciate your remitting us US$38,000 at your earliest convenience.",
+      "optionA_jp": "貴社の財務状況が3か月以上債務超過であることをお知らせします。38,000米ドルをご用意でき次第ご精算ください。",
+      "optionB_jp": "貴社の勘定はすでに3か月以上支払期限を過ぎておりますので、ご都合がつき次第38,000米ドルをご送金いただければ幸いです。",
+      "optionC_jp": "貴社との取引が3か月以上履行されていないことをお知らせします。ご都合がよろしければ38,000米ドルの取引を再開できれば幸いです。",
+      "answer": "B"
+    },
+    {
+      "sentence_en": "We have drawn a draft on you 60 days after sight for the invoice amount. So, please honor it upon presentation.",
+      "optionA_jp": "当社はインボイス金額について一覧後60日目に全額を支払うことを約束しました。したがって、期日に手形をご呈示ください。",
+      "optionB_jp": "当社はインボイス金額について一覧後60日払いで貴社宛てに手形を振り出しましたので、呈示があり次第お引受けください。",
+      "optionC_jp": "当社はインボイス金額について一覧後60日払いで貴社宛てに手形を振り出しました。したがって、期日までその手形をご所持ください。",
+      "answer": "B"
+    }
+  ]
+}
+
+

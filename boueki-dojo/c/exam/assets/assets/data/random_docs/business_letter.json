@@ -1,0 +1,127 @@
+{
+  "document_type": "BUSINESS_LETTER",
+  "documents": [
+    {
+      "document": {
+        "seller": "Japan Trading Co., Ltd.",
+        "buyer": "Global Sports Wholesale Co., Ltd.",
+        "date": "July 1, 2024",
+        "subject": "Order Acknowledgement",
+        "commodity": "Running Shoes (MHJ3000)",
+        "specification": "No.1030",
+        "quantity": 1000,
+        "unit_price": {
+          "currency": "GBP",
+          "amount": 30.00
+        },
+        "total_amount": {
+          "currency": "GBP",
+          "amount": 30000.00
+        },
+        "incoterms": "FCA Tokyo",
+        "payment_terms": "Draft at 30 days after B/L date",
+        "shipment_date": "By August 5, 2024",
+        "port_of_loading": "Tokyo, Japan",
+        "port_of_discharge": "Felixstowe, U.K."
+      },
+      "questions": [
+        {
+          "sentence": "Which of the following correctly describes the content of this business letter?",
+          "A": "An order confirmation for 1,000 pairs of running shoes under FAS Tokyo based on Specification No.1030.",
+          "B": "An order confirmation for 1,000 pairs of running shoes (MHJ3000) under FOB Tokyo.",
+          "C": "An order acknowledgement for running shoes based on Specification No.1030 with a total amount of GBP 30,000.",
+          "answer": "C"
+        },
+        {
+          "sentence": "Which statement about the content of this letter is correct?",
+          "A": "The goods are scheduled to be shipped by August 5, 2024.",
+          "B": "The payment is a usance bill payable 30 days after shipment.",
+          "C": "The exporter will inform the shipment date and vessel name upon the exporter’s request.",
+          "answer": "A"
+        }
+      ]
+    },
+    
+    {
+      "document": {
+        "seller": "Japan Trading Co., Ltd.",
+        "buyer": "Global Sports Wholesale Co., Ltd.",
+        "date": "July 1, 2024",
+        "subject": "Order Acknowledgement",
+        "commodity": "Running Shoes (MHJ3000)",
+        "specification": "No.1030",
+        "quantity": 1000,
+        "unit_price": {
+          "currency": "GBP",
+          "amount": 30.00
+        },
+        "total_amount": {
+          "currency": "GBP",
+          "amount": 30000.00
+        },
+        "incoterms": "FCA Tokyo",
+        "payment_terms": "Draft at 30 days after B/L date",
+        "shipment_date": "By August 5, 2024",
+        "port_of_loading": "Tokyo, Japan",
+        "port_of_discharge": "Felixstowe, U.K."
+      },
+      "questions": [
+        {
+          "sentence": "Which of the following correctly describes the content of this business letter?",
+          "A": "An order confirmation for 1,000 pairs of running shoes under FAS Tokyo based on Specification No.1030.",
+          "B": "An order confirmation for 1,000 pairs of running shoes (MHJ3000) under FOB Tokyo.",
+          "C": "An order acknowledgement for running shoes based on Specification No.1030 with a total amount of GBP 30,000.",
+          "answer": "C"
+        },
+        {
+          "sentence": "Which statement about the content of this letter is correct?",
+          "A": "The goods are scheduled to be shipped by August 5, 2024.",
+          "B": "The payment is a usance bill payable 30 days after shipment.",
+          "C": "The exporter will inform the shipment date and vessel name upon the exporter’s request.",
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "document": {
+        "seller": "Osaka Export Co., Ltd.",
+        "buyer": "Pacific Retailers Inc.",
+        "date": "March 12, 2025",
+        "subject": "Order Confirmation",
+        "commodity": "Digital Cameras (DX-500)",
+        "specification": "Spec No.558",
+        "quantity": 500,
+        "unit_price": {
+          "currency": "USD",
+          "amount": 200.00
+        },
+        "total_amount": {
+          "currency": "USD",
+          "amount": 100000.00
+        },
+        "incoterms": "CIF Los Angeles",
+        "payment_terms": "Irrevocable L/C at sight",
+        "shipment_date": "On or before April 30, 2025",
+        "port_of_loading": "Kobe, Japan",
+        "port_of_discharge": "Los Angeles, U.S.A."
+      },
+      "questions": [
+        {
+          "sentence": "Which statement correctly describes the trade terms in this letter?",
+          "A": "The seller bears the cost and insurance up to the port of discharge.",
+          "B": "The buyer bears the marine insurance cost.",
+          "C": "The risk transfers to the buyer at the seller’s warehouse.",
+          "answer": "A"
+        },
+        {
+          "sentence": "Which of the following is correct regarding the payment terms?",
+          "A": "Payment will be made by a usance bill 30 days after shipment.",
+          "B": "Payment will be made immediately upon presentation of documents.",
+          "C": "Payment will be made after the arrival of the goods.",
+          "answer": "B"
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "貿易実務検定C級 対策アプリ",
+    "short_name": "貿易検定C級",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0F0F0F",
+    "theme_color": "#10A37F",
+    "description": "貿易実務検定C級の模擬テスト・大問別演習ができる無料の対策アプリです。",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

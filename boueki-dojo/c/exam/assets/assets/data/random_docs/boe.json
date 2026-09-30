@@ -1,0 +1,98 @@
+{
+  "document_type": "BILL_OF_EXCHANGE",
+  "documents": [
+    {
+      "document": {
+        "amount_numeric": "USD 12,000",
+        "tenor": "60 days after sight",
+        "drawer": "ABC Trading Co."
+      },
+      "questions": [
+        {
+          "sentence": "What is the tenor of this bill?",
+          "A": "At sight",
+          "B": "30 days after sight",
+          "C": "60 days after sight",
+          "answer": "C"
+        },
+        {
+          "sentence": "Who is the drawer?",
+          "A": "XYZ Import Ltd.",
+          "B": "ABC Trading Co.",
+          "C": "Issuing Bank",
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "document": {
+        "boe_no": "01/215",
+        "place": "Tokyo",
+        "issue_date": "May 19, 2024",
+        "amount": {
+          "currency": "USD",
+          "value": 1600000
+        },
+        "tenor": "30 days after sight",
+        "drawer": "Maunharf Japan Co., Ltd.",
+        "drawee": "Dai-Tokyo Metropolitan Bank",
+        "payee": "The California Bank",
+        "lc": {
+          "type": "Irrevocable",
+          "lc_no": "AB-11-15",
+          "issue_date": "March 15, 2024"
+        }
+      },
+      "questions": [
+        {
+          "sentence": "In a documentary bill under an irrevocable L/C, what is the role of Dai-Tokyo Metropolitan Bank?",
+          "A": "Issuing bank",
+          "B": "Advising bank",
+          "C": "Negotiating bank",
+          "answer": "C"
+        },
+        {
+          "sentence": "What type of bill of exchange is this?",
+          "A": "Sight bill",
+          "B": "Usance bill (after sight)",
+          "C": "Usance bill (after date)",
+          "answer": "B"
+        }
+      ]
+    },
+    {
+  "document": {
+    "boe_no": "142913",
+    "place": "Tokyo",
+    "issue_date": "October 1, 2024",
+    "amount": {
+      "currency": "USD",
+      "value": 425000
+    },
+    "tenor": "60 days after sight",
+    "collection_terms": "Documents against Acceptance",
+    "drawer": "MHJ Trading Co., Ltd.",
+    "drawee": "California Machinery, Ltd.",
+    "payee": "The Tokyo City Bank Co., Ltd."
+  },
+  "questions": [
+    {
+      "sentence": "Which of the following correctly describes the terms of this bill of exchange?",
+      "A": "With L/C, usance bill payable 60 days after sight, documents against payment.",
+      "B": "Without L/C, usance bill payable 60 days after sight, documents against acceptance.",
+      "C": "Without L/C, usance bill payable 60 days after date, documents against payment.",
+      "answer": "B"
+    },
+    {
+      "sentence": "Who is entitled to receive the amount of this bill of exchange?",
+      "A": "The Tokyo City Bank Co., Ltd.",
+      "B": "California Machinery, Ltd.",
+      "C": "MHJ Trading Co., Ltd.",
+      "answer": "A"
+    }
+  ]
+}
+
+  
+  ]
+}

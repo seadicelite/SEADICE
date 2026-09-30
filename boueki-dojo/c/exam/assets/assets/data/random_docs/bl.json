@@ -1,0 +1,29 @@
+{
+  "document_type": "BILL_OF_LADING",
+  "documents": [
+    {
+      "document": {
+        "shipper": "ABC Trading Co.",
+        "consignee": "XYZ Import Ltd.",
+        "port_of_loading": "Yokohama",
+        "port_of_discharge": "Los Angeles"
+      },
+      "questions": [
+        {
+          "sentence": "Who is the consignee?",
+          "A": "ABC Trading Co.",
+          "B": "XYZ Import Ltd.",
+          "C": "Shipping Company",
+          "answer": "B"
+        },
+        {
+          "sentence": "What is the port of discharge?",
+          "A": "Yokohama",
+          "B": "San Francisco",
+          "C": "Los Angeles",
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}
