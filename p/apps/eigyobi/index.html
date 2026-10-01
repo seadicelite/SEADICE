@@ -20,88 +20,140 @@
   <link rel="icon" type="image/png" href="/favicon.png">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebApplication",
-        "@id": "https://seadice.win/apps/eigyobi/#app",
-        "name": "営業日カウンター",
-        "url": "https://seadice.win/apps/eigyobi/",
-        "description": "3営業日後・N営業日後の日付を祝日・振替休日込みで即計算できる無料の営業日計算ツール",
-        "applicationCategory": "UtilitiesApplication",
-        "operatingSystem": "Web",
-        "inLanguage": "ja",
-        "isAccessibleForFree": true,
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
-        "publisher": { "@id": "https://seadice.win/#organization" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://seadice.win/apps/eigyobi/#app",
+      "name": "営業日カウンター",
+      "url": "https://seadice.win/apps/eigyobi/",
+      "description": "3営業日後・N営業日後の日付を祝日・振替休日込みで即計算できる無料の営業日計算ツール",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "ja",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
       },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" },
-          { "@type": "ListItem", "position": 2, "name": "Webアプリ", "item": "https://seadice.win/#webapps" },
-          { "@type": "ListItem", "position": 3, "name": "営業日カウンター", "item": "https://seadice.win/apps/eigyobi/" }
-        ]
+      "publisher": {
+        "@id": "https://seadice.win/#organization"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "振替休日は計算に含まれますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "はい。振替休日も含めた日本の祝日データを内蔵しており、自動的に除外して計算します。" }
-          },
-          {
-            "@type": "Question",
-            "name": "土曜日・日曜日は営業日から除外されますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "はい。土曜・日曜は自動的に除外されます。" }
-          },
-          {
-            "@type": "Question",
-            "name": "何年分の祝日に対応していますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "2024年から2027年の祝日・振替休日に対応しています。" }
-          },
-          {
-            "@type": "Question",
-            "name": "5営業日後はいつですか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "「N営業日後を調べる」タブで起算日を入力し、営業日数に「5」と入力して計算ボタンを押すと、土日・祝日を除いた5営業日後の日付が表示されます。" }
-          },
-          {
-            "@type": "Question",
-            "name": "開始日と終了日は営業日数に含まれますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "開始日は含まれ、終了日は含まれません。例えば月曜から金曜を指定すると5営業日と計算されます。" }
-          },
-          {
-            "@type": "Question",
-            "name": "土曜日は営業日に含まれますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "このツールでは土曜日は営業日に含まれません。一般的な「平日のみ営業」の会社・官公庁に合わせた計算をしています。" }
-          },
-          {
-            "@type": "Question",
-            "name": "年末年始は営業日から除外されますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "12月31日・1月1日は祝日データに含まれ除外されます。ただし会社独自の年末年始休暇（12月29〜30日など）は含まれないため、その場合は日数を手動で調整してください。" }
-          },
-          {
-            "@type": "Question",
-            "name": "請求書の支払い期限の計算に使えますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "はい。「N営業日後を調べる」タブで請求書の発行日を起算日に設定し、支払いサイト（例: 30営業日）を入力すると支払い期限日を自動で計算できます。" }
-          },
-          {
-            "@type": "Question",
-            "name": "納品日や締め切りの計算に使えますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "はい。受注日や契約日を起算日にしてN営業日後を計算することで、納品日・締め切り日の目安を調べることができます。" }
-          },
-          {
-            "@type": "Question",
-            "name": "スマートフォンでも使えますか？",
-            "acceptedAnswer": { "@type": "Answer", "text": "はい。スマートフォン・タブレット・PCどの端末でも使えます。アプリのインストールは不要で、ブラウザだけで完結します。" }
+      "dateModified": "2026-09-30"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://seadice.win/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Webアプリ",
+          "item": "https://seadice.win/#webapps"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "営業日カウンター",
+          "item": "https://seadice.win/apps/eigyobi/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "振替休日は計算に含まれますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。振替休日も含めた日本の祝日データを内蔵しており、自動的に除外して計算します。"
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "土曜日・日曜日は営業日から除外されますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。土曜・日曜は自動的に除外されます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "何年分の祝日に対応していますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2024年から2027年の祝日・振替休日に対応しています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5営業日後はいつですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "「N営業日後を調べる」タブで起算日を入力し、営業日数に「5」と入力して計算ボタンを押すと、土日・祝日を除いた5営業日後の日付が表示されます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "開始日と終了日は営業日数に含まれますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "開始日は含まれ、終了日は含まれません。例えば月曜から金曜を指定すると5営業日と計算されます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "土曜日は営業日に含まれますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "このツールでは土曜日は営業日に含まれません。一般的な「平日のみ営業」の会社・官公庁に合わせた計算をしています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "年末年始は営業日から除外されますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "12月31日・1月1日は祝日データに含まれ除外されます。ただし会社独自の年末年始休暇（12月29〜30日など）は含まれないため、その場合は日数を手動で調整してください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "請求書の支払い期限の計算に使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。「N営業日後を調べる」タブで請求書の発行日を起算日に設定し、支払いサイト（例: 30営業日）を入力すると支払い期限日を自動で計算できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "納品日や締め切りの計算に使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。受注日や契約日を起算日にしてN営業日後を計算することで、納品日・締め切り日の目安を調べることができます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "スマートフォンでも使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。スマートフォン・タブレット・PCどの端末でも使えます。アプリのインストールは不要で、ブラウザだけで完結します。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
