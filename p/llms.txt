@@ -14,8 +14,8 @@
 ## メディア
 
 - [SEADICE RESEARCH](https://seadice-research.web.app/): 悩みを科学で調べるAIメディア
-- [UMBRA](https://seadice-umbra.web.app/): 恋愛・仕草・相性から本音を読み解くメディア
-- [LEDGER](https://ledger.seadice.win/): お金の使い方を行動経済学で読み解くメディア
+- [しぐさと本音](https://seadice-umbra.web.app/): 恋愛・仕草・相性から本音を読み解くメディア
+- [お金と心理](https://ledger.seadice.win/): お金の使い方を行動経済学で読み解くメディア
 - [BOHAN](https://bohan.seadice.win/): 身近な犯罪を研究と統計で読み解く、何も売らない防犯メディア
 
 ## 主要ページ
