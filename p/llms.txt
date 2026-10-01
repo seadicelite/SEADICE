@@ -13,6 +13,7 @@
 
 ## メディア
 
+- [日常の心理学](https://shinri.seadice.win/): 心理学を無料で独学できるサイト。大学の心理学概論と同じ流れの全16章の無料講座「ゼロから学ぶ心理学入門」と心理学用語辞典
 - [SEADICE RESEARCH](https://seadice-research.web.app/): 悩みを科学で調べるAIメディア
 - [しぐさと本音](https://seadice-umbra.web.app/): 恋愛・仕草・相性から本音を読み解くメディア
 - [お金と心理](https://ledger.seadice.win/): お金の使い方を行動経済学で読み解くメディア
