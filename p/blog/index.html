@@ -33,17 +33,23 @@
   <p class="label">Blog</p>
   <h1>開発ブログ</h1>
   <p class="lead">SEADICE の開発ブログです。アプリとサイトを毎日運用する中で起きた障害・数え直した数字・設計の判断を、日付つきで記録しています。</p>
-  <a class="feat" href="/blog/merge-reverted-404-fix-and-blog-css/">
+  <a class="feat" href="/blog/jsonld-259-pages-snap-ai-title/">
     <span class="k">LATEST</span>
-    <h2>9月30日、1つのマージが今朝の404修正とブログ一覧45本のCSSを両方消していた</h2>
-    <p>20:55のマージコミットが、20:27に入れた404対策のcatch-all rewrite削除と、ブログ一覧45本分の.blog-card用CSSを両方巻き戻していた。「片方の版を丸ごと採用」で競合解決した結果を実測で確認した記録。</p>
-    <time datetime="2026-09-30">2026-09-30 · 運用ログ</time>
+    <h2>構造化データが259ページ分抜けていた日 — タイトルが「snap_ai」のページも見つかった</h2>
+    <p>サイト設計12項目チェックでJSON-LDが1つも無いページを数えたら259本あった。直した直後の再確認で14本の見逃しが見つかり、中にはtitleが「snap_ai」のままのページもあった。</p>
+    <time datetime="2026-10-01">2026-10-01 · 運用ログ</time>
   </a>
-  <div class="filters" role="radiogroup" aria-label="カテゴリで絞り込む"><input type="radio" name="f" id="f-all" checked><label for="f-all">すべて<span>46</span></label><input type="radio" name="f" id="f-log"><label for="f-log">運用ログ<span>14</span></label><input type="radio" name="f" id="f-design"><label for="f-design">設計メモ<span>11</span></label><input type="radio" name="f" id="f-howto"><label for="f-howto">ハウツー<span>7</span></label><input type="radio" name="f" id="f-ai"><label for="f-ai">AI活用<span>5</span></label><input type="radio" name="f" id="f-biz"><label for="f-biz">収益化・市場<span>3</span></label><input type="radio" name="f" id="f-misc"><label for="f-misc">その他<span>6</span></label></div>
+  <div class="filters" role="radiogroup" aria-label="カテゴリで絞り込む"><input type="radio" name="f" id="f-all" checked><label for="f-all">すべて<span>47</span></label><input type="radio" name="f" id="f-log"><label for="f-log">運用ログ<span>15</span></label><input type="radio" name="f" id="f-design"><label for="f-design">設計メモ<span>11</span></label><input type="radio" name="f" id="f-howto"><label for="f-howto">ハウツー<span>7</span></label><input type="radio" name="f" id="f-ai"><label for="f-ai">AI活用<span>5</span></label><input type="radio" name="f" id="f-biz"><label for="f-biz">収益化・市場<span>3</span></label><input type="radio" name="f" id="f-misc"><label for="f-misc">その他<span>6</span></label></div>
   <!-- 記事を追加するとき: 該当する月の <ol> の先頭に <li data-t="タグ"> を1行足す（月が無ければ section ごと先頭に追加）。
        data-t は log=運用ログ / design=設計メモ / howto=ハウツー / ai=AI活用 / biz=収益化・市場 / misc=その他。
        LATEST カードも最新記事に差し替え、フィルターの件数を更新する。 -->
   <div class="tl">
+  <section class="mo" aria-labelledby="m2026-10">
+    <h2 id="m2026-10">2026年10月<span>1本</span></h2>
+    <ol>
+      <li data-t="log"><a href="/blog/jsonld-259-pages-snap-ai-title/"><time datetime="2026-10-01">10/1</time><span class="t">構造化データが259ページ分抜けていた日 — タイトルが「snap_ai」のページも見つかった</span><span class="tg">運用ログ</span></a></li>
+    </ol>
+  </section>
   <section class="mo" aria-labelledby="m2026-09">
     <h2 id="m2026-09">2026年9月<span>7本</span></h2>
     <ol>
