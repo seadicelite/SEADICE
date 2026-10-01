@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>復習タイミング計算 — テスト日から最適な復習日を出す | SEADICE</title>
+<meta name="description" content="復習はいつすればいい？テスト日（覚えておきたい期間）を入れると、1,350人以上の実験でわかった「ちょうどよい間隔」をもとに復習日を計算します。カレンダー登録にも対応した無料ツールです。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/fukushu-timing/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="復習タイミング計算 | SEADICE">
+<meta property="og:description" content="テスト日を入れると、研究でわかった間隔をもとに復習日を計算。カレンダー登録にも対応した無料ツール。">
+<meta property="og:url" content="https://seadice.win/tools/fukushu-timing/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"復習タイミング計算","url":"https://seadice.win/tools/fukushu-timing/","description":"テスト日（覚えておきたい期間）から、間隔効果の研究をもとに復習日を計算するツール。SEADICEが作成。","applicationCategory":"EducationalApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-02","dateModified":"2026-10-02"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ツール","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"復習タイミング計算","item":"https://seadice.win/tools/fukushu-timing/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"最初の復習はいつがいいですか？","acceptedAnswer":{"@type":"Answer","text":"覚えておきたい期間によって変わります。1,350人以上を対象にした実験（Cepedaら, 2008）では、テストまで1週間なら期間の20〜40%、1年なら5〜10%ほど間をあけたときに成績が最もよくなりました。1週間後のテストなら、1〜2日後が最初の復習日の目安です。"}},{"@type":"Question","name":"なぜ覚えた直後に復習してはいけないのですか？","acceptedAnswer":{"@type":"Answer","text":"直後はまだはっきり覚えているため、思い出す負荷がほとんどかかりません。少し思い出しにくくなった頃に復習すると、思い出す作業そのものが学習になり、記憶に残りやすいと考えられています。"}},{"@type":"Question","name":"どんな勉強にも同じ間隔が当てはまりますか？","acceptedAnswer":{"@type":"Answer","text":"研究の多くは単語や事実の暗記を対象にしています。複雑な理解や実技の学習にそのまま当てはまるとは限らないため、計算結果は目安として使ってください。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}.app{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px 20px;margin-bottom:40px}.field{margin-bottom:18px}.field label,.lb{display:block;font-size:14px;font-weight:700;margin-bottom:8px}input[type=date],input[type=text]{width:100%;font:inherit;font-size:16px;color:var(--text);background:var(--bg);border:1px solid #2a2a44;border-radius:10px;padding:11px 14px;color-scheme:dark}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{font:inherit;font-size:13px;color:var(--muted);background:transparent;border:1px solid var(--border);border-radius:999px;padding:7px 12px;cursor:pointer}.chip:hover{color:var(--text)}.chip[aria-pressed=true]{color:var(--bg);background:var(--accent);border-color:var(--accent);font-weight:700}.or{font-size:13px;color:var(--muted);margin:10px 0}.err{font-size:14px;color:#F2A65A;margin-top:4px}.res{border-top:1px solid var(--border);margin-top:6px;padding-top:18px}.res h2{font-size:17px;margin-bottom:4px}.res .sub{font-size:13px;color:var(--muted);margin-bottom:14px}.plan{list-style:none;counter-reset:n}.plan li{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid var(--border)}.plan li::before{counter-increment:n;content:counter(n);width:28px;height:28px;border-radius:50%;background:rgba(0,255,209,.12);color:var(--accent);font-weight:800;font-size:13px;display:grid;place-items:center}.plan li.t::before{content:"T";background:rgba(56,189,248,.15);color:var(--accent2)}.plan b{font-size:16px;font-variant-numeric:tabular-nums}.plan small{display:block;font-size:12px;color:var(--muted)}.plan .gap{font-size:13px;color:var(--muted);white-space:nowrap}.btn{display:block;width:100%;font:inherit;font-size:16px;font-weight:800;color:var(--bg);background:linear-gradient(90deg,var(--accent),var(--accent2));border:0;border-radius:12px;padding:14px;cursor:pointer;margin-top:16px}.hint{font-size:13px;color:var(--muted);margin-top:10px}section.s{margin-bottom:40px}section.s>h2{font-size:19px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}section.s>p{font-size:15px;margin-bottom:12px}table{width:100%;border-collapse:collapse;font-size:14px;margin-bottom:12px}th,td{border-bottom:1px solid var(--border);padding:10px 6px;text-align:left}th{color:var(--muted);font-weight:600;font-size:13px}ul.why,ol.how{padding-left:1.4em;font-size:15px}ul.why li,ol.how li{margin-bottom:8px}.src{display:block;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--text);margin-top:14px}.src:hover{border-color:var(--accent)}.src small{display:block;font-size:12px;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}.src b{font-size:15px;line-height:1.5}details{border-bottom:1px solid var(--border);padding:12px 0}summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details p{font-size:14px;color:#b6c0cf;margin-top:8px}.note{font-size:13px;color:var(--muted);border-left:3px solid var(--border);padding:4px 0 4px 12px}footer{border-top:1px solid var(--border);padding:24px 20px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / 復習タイミング計算</p>
+  <p class="label">TOOL</p>
+  <h1>復習タイミング計算</h1>
+  <p class="lead">テストの日（いつまで覚えておきたいか）を入れると、復習日の目安を計算します。もとにしたのは、1,350人以上の実験でわかった「覚えておきたい期間が長いほど、復習の間隔も長くする」という研究です。無料・登録不要です。</p>
+
+  <div class="app">
+    <div class="field">
+      <label for="d0">覚えた日（勉強した日）</label>
+      <input type="date" id="d0">
+    </div>
+    <div class="field">
+      <label for="d1">テストの日</label>
+      <input type="date" id="d1">
+      <p class="or">テストの日が決まっていなければ、覚えておきたい期間を選んでください</p>
+      <div class="chips" role="group" aria-label="覚えておきたい期間">
+        <button type="button" class="chip" data-d="7">1週間</button>
+        <button type="button" class="chip" data-d="30">1か月</button>
+        <button type="button" class="chip" data-d="90">3か月</button>
+        <button type="button" class="chip" data-d="180">半年</button>
+        <button type="button" class="chip" data-d="365">1年</button>
+      </div>
+      <p class="err" id="err" role="alert" hidden></p>
+    </div>
+    <div class="res" id="res" hidden aria-live="polite">
+      <h2 id="res-h"></h2>
+      <p class="sub" id="res-sub"></p>
+      <ol class="plan" id="plan"></ol>
+      <button type="button" class="btn" id="ics">復習日をカレンダーに登録する</button>
+      <p class="hint">.ics ファイルを保存すると、iPhone・Android・Googleカレンダーなどに予定として追加できます。</p>
+    </div>
+  </div>
+
+  <section class="s" aria-labelledby="h-rule">
+    <h2 id="h-rule">復習の間隔の決め方</h2>
+    <p>最初の復習は、覚えておきたい期間の一部（短い期間ほど大きな割合）だけ間をあけます。2回目以降は、間隔を少しずつ広げていきます。</p>
+    <table>
+      <thead><tr><th>覚えておきたい期間</th><th>最初の復習までの間隔</th></tr></thead>
+      <tbody><tr><td>1週間</td><td>期間の20〜40%（1〜2日後）</td></tr><tr><td>1年</td><td>期間の5〜10%（3〜5週間後）</td></tr></tbody>
+    </table>
+    <p>このツールでは、上の2点のあいだを期間に応じてなめらかにつなぎ、中間の値を最初の間隔にしています。2回目以降は前の間隔の約2倍ずつ広げ、テストの日までに収まる分だけ表示します。</p>
+  </section>
+
+  <section class="s" aria-labelledby="h-why">
+    <h2 id="h-why">なぜ間隔をあけるのか</h2>
+    <ul class="why">
+      <li>覚えた直後はまだはっきり覚えているので、復習しても思い出す負荷がかかりません。少し思い出しにくくなった頃に復習すると、思い出す作業そのものが学習になります。</li>
+      <li>1,350人以上が参加した実験では、テストまでの期間ごとに成績が最もよくなる間隔があり、期間が長いほどその間隔も長くなりました（Cepedaら, 2008）。</li>
+      <li>317件の実験をまとめた分析でも、復習の間隔と覚えておきたい期間が影響し合うことが確認されています（Cepedaら, 2006）。</li>
+    </ul>
+    <a class="src" href="https://research.seadice.win/spacing-effect-review-timing/"><small>このツールの根拠になった記事</small><b>復習はいつがベスト？1,350人の実験でわかった、記憶が変わるタイミング</b></a>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <details><summary>最初の復習はいつがいいですか？</summary><p>覚えておきたい期間によって変わります。テストまで1週間なら期間の20〜40%、1年なら5〜10%ほど間をあけたときに成績が最もよくなりました。1週間後のテストなら、1〜2日後が最初の復習日の目安です。</p></details>
+    <details><summary>なぜ覚えた直後に復習してはいけないのですか？</summary><p>直後はまだはっきり覚えているため、思い出す負荷がほとんどかかりません。少し思い出しにくくなった頃に復習すると、思い出す作業そのものが学習になり、記憶に残りやすいと考えられています。</p></details>
+    <details><summary>どんな勉強にも同じ間隔が当てはまりますか？</summary><p>研究の多くは単語や事実の暗記を対象にしています。複雑な理解や実技の学習にそのまま当てはまるとは限らないため、計算結果は目安として使ってください。</p></details>
+  </section>
+  <p class="note">入力した日付はこのページの計算にだけ使い、保存も外部への送信もしません。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE</p>
+</footer>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)},d0=$('d0'),d1=$('d1'),chips=document.querySelectorAll('.chip'),plan=[],W='日月火水木金土';
+function iso(d){return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
+function parse(v){var p=v.split('-');return new Date(+p[0],p[1]-1,+p[2])}
+function add(d,n){var x=new Date(d);x.setDate(x.getDate()+n);return x}
+function jp(d){return(d.getMonth()+1)+'月'+d.getDate()+'日（'+W[d.getDay()]+'）'}
+function ratio(D){var a=Math.log(7),b=Math.log(365),t=(Math.log(Math.min(Math.max(D,7),365))-a)/(b-a);return .3+(.075-.3)*t}
+d0.value=iso(new Date());
+function press(n){Array.prototype.forEach.call(chips,function(c){c.setAttribute('aria-pressed',String(+c.dataset.d===n))})}
+Array.prototype.forEach.call(chips,function(c){c.setAttribute('aria-pressed','false');c.addEventListener('click',function(){if(!d0.value)d0.value=iso(new Date());d1.value=iso(add(parse(d0.value),+c.dataset.d));calc()})});
+d0.addEventListener('change',calc);d1.addEventListener('change',calc);
+function calc(){var e=$('err');e.hidden=true;$('res').hidden=true;press(-1);if(!d0.value||!d1.value)return;var s=parse(d0.value),t=parse(d1.value),D=Math.round((t-s)/864e5);
+if(D<2){e.textContent='テストの日は、覚えた日の2日以上あとにしてください。前日の詰め込みにも短期的な効果はありますが、間隔をあける復習が役立つのは数日以上先の場合です。';e.hidden=false;return}
+press(D);var g=Math.max(1,Math.round(D*ratio(D))),day=0;plan=[];
+while(day+g<D&&plan.length<6){day+=g;plan.push({d:add(s,day),gap:g});g=Math.max(g+1,Math.round(g*2))}
+if(!plan.length)plan.push({d:add(s,1),gap:1});
+$('res-h').textContent='復習は'+plan.length+'回が目安です';
+$('res-sub').textContent='テストまで'+D+'日。最初の復習は覚えた日から'+plan[0].gap+'日後（期間の約'+Math.round(plan[0].gap/D*100)+'%）です。';
+$('plan').innerHTML=plan.map(function(p,i){return'<li><div><b>'+jp(p.d)+'</b><small>'+(i?'前回から':'覚えた日から')+p.gap+'日後</small></div><span class="gap">'+(i?i+1+'回目':'1回目')+'</span></li>'}).join('')+'<li class="t"><div><b>'+jp(t)+'</b><small>テストの日</small></div><span class="gap">本番</span></li>';
+$('res').hidden=false}
+$('ics').addEventListener('click',function(){var z=function(d){return iso(d).replace(/-/g,'')},n=new Date().toISOString().replace(/[-:]/g,'').split('.')[0]+'Z',L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//SEADICE//fukushu-timing//JA','CALSCALE:GREGORIAN'];
+plan.forEach(function(p,i){L.push('BEGIN:VEVENT','UID:'+z(p.d)+'-'+i+'-'+Math.random().toString(36).slice(2)+'@seadice.win','DTSTAMP:'+n,'DTSTART;VALUE=DATE:'+z(p.d),'DTEND;VALUE=DATE:'+z(add(p.d,1)),'SUMMARY:復習 '+(i+1)+'回目','DESCRIPTION:思い出す練習から始める（5〜10分）','END:VEVENT')});
+L.push('END:VCALENDAR');try{var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([L.join('\r\n')],{type:'text/calendar'}));a.download='fukushu.ics';document.body.appendChild(a);a.click();a.remove()}catch(e){alert('カレンダーファイルを作れませんでした。日付を手でカレンダーに登録してください。')}});
+})();
+</script>
+</body>
+</html>

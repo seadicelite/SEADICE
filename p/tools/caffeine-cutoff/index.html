@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>カフェインは何時まで？寝る時刻から計算 | SEADICE</title>
+<meta name="description" content="カフェインは寝る何時間前までOK？寝る時刻と飲む量を入れると、24件の研究をまとめた分析の目安（コーヒー1杯なら約9時間前、多めなら13時間以上前）から、最後に飲んでよい時刻を計算する無料ツールです。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/caffeine-cutoff/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="カフェインは何時まで？寝る時刻から計算 | SEADICE">
+<meta property="og:description" content="寝る時刻と量から、最後にカフェインを飲んでよい時刻を計算。24件の研究をまとめた分析の目安をもとにした無料ツール。">
+<meta property="og:url" content="https://seadice.win/tools/caffeine-cutoff/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"カフェインは何時まで？計算ツール","url":"https://seadice.win/tools/caffeine-cutoff/","description":"寝る時刻と飲む量から、睡眠への影響を避けるためにカフェインを最後に飲む時刻の目安を計算するツール。SEADICEが作成。","applicationCategory":"HealthApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-02","dateModified":"2026-10-02"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ツール","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"カフェインは何時まで？","item":"https://seadice.win/tools/caffeine-cutoff/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"カフェインは寝る何時間前までなら大丈夫ですか？","acceptedAnswer":{"@type":"Answer","text":"量によります。24件の研究をまとめた分析（Gardinerら, 2023）では、コーヒー1杯（約107mg）は寝る8.8時間前まで、多めの量（約217.5mg）は13.2時間前までが目安とされました。23時に寝るなら、1杯は14時ごろ、多めなら10時ごろまでが目安です。"}},{"@type":"Question","name":"「寝る6時間前まで」という目安は正しくないのですか？","acceptedAnswer":{"@type":"Answer","text":"6時間前という目安は、400mg（コーヒー3〜4杯相当）を使った実験から来ています。量を分けて調べた研究では、400mgは寝る12時間前でも深い睡眠を減らしていました。量によって適切な時間は変わります。"}},{"@type":"Question","name":"紅茶や緑茶、エナジードリンクでも同じですか？","acceptedAnswer":{"@type":"Answer","text":"根拠にした研究はコーヒーや粉末カフェインを使ったもので、飲み物ごとの検証ではありません。含まれるカフェイン量も製品ごとに違うため、パッケージの表示量を見て「1杯程度」か「多め」かを選んでください。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--warn:#F2A65A}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}.app{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px 20px;margin-bottom:40px}.field{margin-bottom:18px}.field label,.lb{display:block;font-size:14px;font-weight:700;margin-bottom:8px}input[type=time]{width:100%;font:inherit;font-size:18px;color:var(--text);background:var(--bg);border:1px solid #2a2a44;border-radius:10px;padding:10px 14px;color-scheme:dark}.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}.seg button{font:inherit;font-size:14px;color:var(--muted);background:transparent;border:1px solid var(--border);border-radius:12px;padding:12px 10px;cursor:pointer;line-height:1.5;text-align:left}.seg button b{display:block;font-size:15px;color:var(--text)}.seg button[aria-pressed=true]{border-color:var(--accent);background:rgba(0,255,209,.08)}.seg button[aria-pressed=true] b{color:var(--accent)}.out{border-top:1px solid var(--border);padding-top:18px;text-align:center}.out p{font-size:14px;color:#b6c0cf}.out .big{font-size:clamp(44px,14vw,64px);font-weight:800;font-variant-numeric:tabular-nums;line-height:1.2;margin:4px 0;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.out .now{display:inline-block;margin-top:10px;font-size:14px;font-weight:700;border-radius:999px;padding:6px 14px;border:1px solid var(--border)}.ok{color:var(--accent)}.late{color:var(--warn)}section.s{margin-bottom:40px}section.s>h2{font-size:19px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}section.s>p{font-size:15px;margin-bottom:12px}.row{display:flex;gap:8px;margin-bottom:12px}.row input{flex:1}.add{font:inherit;font-size:15px;font-weight:800;color:var(--bg);background:linear-gradient(90deg,var(--accent),var(--accent2));border:0;border-radius:10px;padding:0 18px;cursor:pointer;white-space:nowrap}.log{list-style:none}.log li{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 2px;border-bottom:1px solid var(--border);font-size:15px}.log li span:first-child{font-variant-numeric:tabular-nums;font-weight:700}.log small{font-size:13px;color:var(--muted);font-weight:400;margin-left:8px}.log .j{font-size:13px;font-weight:700;white-space:nowrap}.del{font:inherit;font-size:13px;color:var(--muted);background:none;border:0;cursor:pointer;padding:8px 4px;text-decoration:underline}.empty{font-size:14px;color:var(--muted);padding:10px 0}table{width:100%;border-collapse:collapse;font-size:14px;margin-bottom:12px}th,td{border-bottom:1px solid var(--border);padding:10px 6px;text-align:left}th{color:var(--muted);font-weight:600;font-size:13px}ul.why{padding-left:1.4em;font-size:15px}ul.why li{margin-bottom:8px}.src{display:block;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--text);margin-top:14px}.src:hover{border-color:var(--accent)}.src small{display:block;font-size:12px;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}.src b{font-size:15px;line-height:1.5}details{border-bottom:1px solid var(--border);padding:12px 0}summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details p{font-size:14px;color:#b6c0cf;margin-top:8px}.note{font-size:13px;color:var(--muted);border-left:3px solid var(--border);padding:4px 0 4px 12px;margin-bottom:12px}footer{border-top:1px solid var(--border);padding:24px 20px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / カフェインは何時まで？</p>
+  <p class="label">TOOL</p>
+  <h1>カフェインは何時まで？</h1>
+  <p class="lead">寝る時刻と飲む量を選ぶと、カフェインを最後に飲んでよい時刻の目安がわかります。24件の研究をまとめた分析では、コーヒー1杯なら寝る約9時間前、多めなら13時間以上前までが目安でした。無料・登録不要です。</p>
+
+  <div class="app">
+    <div class="field">
+      <label for="bed">寝る時刻</label>
+      <input type="time" id="bed" value="23:00" step="900">
+    </div>
+    <div class="field">
+      <span class="lb" id="lb-amt">飲む量</span>
+      <div class="seg" role="group" aria-labelledby="lb-amt">
+        <button type="button" id="a1" aria-pressed="true"><b>1杯程度</b>コーヒー1杯（約100mg）まで</button>
+        <button type="button" id="a2" aria-pressed="false"><b>多め</b>2杯以上・約200mg以上</button>
+      </div>
+    </div>
+    <div class="out" aria-live="polite">
+      <p id="out-l">最後に飲むのは</p>
+      <p class="big" id="out-t">14:00</p>
+      <p id="out-s">までが目安（寝る9時間前）</p>
+      <span class="now" id="now"></span>
+    </div>
+  </div>
+
+  <section class="s" aria-labelledby="h-memo">
+    <h2 id="h-memo">今日飲んだ時刻をメモする</h2>
+    <p>飲んだ時刻と量を1行残しておくと、夜の眠りとの関係を自分の体で確かめられます。目安より遅かったものには印が付きます。</p>
+    <div class="row">
+      <input type="time" id="mt" aria-label="飲んだ時刻">
+      <button type="button" class="add" id="m1">1杯</button>
+      <button type="button" class="add" id="m2">多め</button>
+    </div>
+    <ul class="log" id="log"></ul>
+    <p class="empty" id="empty">今日のメモはまだありません。</p>
+    <p class="note">メモはこのブラウザの中だけに保存され、外部には送信されません。日付が変わると新しい日のメモになります。</p>
+  </section>
+
+  <section class="s" aria-labelledby="h-why">
+    <h2 id="h-why">「何時間前まで」は量で変わる</h2>
+    <p>カフェインの影響は、飲んだ時刻だけでなく量によっても変わります。研究でわかった目安は次のとおりです。</p>
+    <table>
+      <thead><tr><th>量</th><th>寝る何時間前まで</th></tr></thead>
+      <tbody><tr><td>コーヒー1杯（約107mg）</td><td>8.8時間前</td></tr><tr><td>多め（約217.5mg）</td><td>13.2時間前</td></tr></tbody>
+    </table>
+    <ul class="why">
+      <li>24件の研究をまとめた分析では、カフェインを摂ると総睡眠時間が平均45分減り、眠りに入るまでの時間が9分延びました（Gardinerら, 2023）。</li>
+      <li>400mg（コーヒー3〜4杯相当）は、寝る12時間前に飲んでも深い睡眠を減らしていました。</li>
+      <li>このツールでは、上の目安に少し余裕を足した「1杯なら9時間前、多めなら13時間前」で計算しています。</li>
+    </ul>
+    <a class="src" href="https://research.seadice.win/caffeine-hours-before-bed/"><small>このツールの根拠になった記事</small><b>カフェインは何時間前までOK？研究でわかった「量」と「時間」の関係</b></a>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <details><summary>カフェインは寝る何時間前までなら大丈夫ですか？</summary><p>量によります。コーヒー1杯（約107mg）は寝る8.8時間前まで、多めの量（約217.5mg）は13.2時間前までが目安とされました。23時に寝るなら、1杯は14時ごろ、多めなら10時ごろまでが目安です。</p></details>
+    <details><summary>「寝る6時間前まで」という目安は正しくないのですか？</summary><p>6時間前という目安は、400mg（コーヒー3〜4杯相当）を使った実験から来ています。量を分けて調べた研究では、400mgは寝る12時間前でも深い睡眠を減らしていました。量によって適切な時間は変わります。</p></details>
+    <details><summary>紅茶や緑茶、エナジードリンクでも同じですか？</summary><p>根拠にした研究はコーヒーや粉末カフェインを使ったもので、飲み物ごとの検証ではありません。含まれるカフェイン量も製品ごとに違うため、パッケージの表示量を見て「1杯程度」か「多め」かを選んでください。</p></details>
+  </section>
+  <p class="note">計算結果は研究にもとづく目安で、カフェインへの反応には個人差があります。生活の工夫をしても眠れない日が続くときは、医師や専門の医療機関に相談してください。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE</p>
+</footer>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)},KEY='caffeineCutoff.v1',H={1:9,2:13},amt=1;
+function load(){try{var o=JSON.parse(localStorage.getItem(KEY)||'{}');return o&&typeof o==='object'?o:{}}catch(e){return{}}}
+function save(o){try{localStorage.setItem(KEY,JSON.stringify(o))}catch(e){}}
+var st=load();if(st.bed)$('bed').value=st.bed;if(st.amt===2)amt=2;
+function today(){var d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()}
+function mins(v){var p=v.split(':');return(+p[0])*60+(+p[1])}
+function hm(m){m=((m%1440)+1440)%1440;return Math.floor(m/60)+':'+('0'+m%60).slice(-2)}
+function cut(a){return mins($('bed').value||'23:00')-H[a]*60}
+function late(t,a){var b=mins($('bed').value||'23:00'),c=cut(a),x=mins(t);if(c<0){if(x<b)x+=1440;return x>c+1440}if(x>b)return true;return x>c}
+function render(){$('a1').setAttribute('aria-pressed',String(amt===1));$('a2').setAttribute('aria-pressed',String(amt===2));var c=cut(amt);$('out-t').textContent=hm(c);$('out-s').textContent='までが目安（寝る'+H[amt]+'時間前'+'）';
+var n=mins(nowT()),cc=((c%1440)+1440)%1440,ok=!late(nowT(),amt),r=((cc-n)%1440+1440)%1440,el=$('now');
+el.className='now '+(ok?'ok':'late');el.textContent=ok?'いまから飲むなら、あと'+Math.floor(r/60)+'時間'+(r%60)+'分は目安内':'いまの時刻（'+hm(n)+'）は目安を過ぎています';
+st.bed=$('bed').value;st.amt=amt;save(st);paint()}
+$('a1').addEventListener('click',function(){amt=1;render()});$('a2').addEventListener('click',function(){amt=2;render()});$('bed').addEventListener('change',render);
+function nowT(){var d=new Date();return('0'+d.getHours()).slice(-2)+':'+('0'+d.getMinutes()).slice(-2)}
+$('mt').value=nowT();
+function addMemo(a){var t=$('mt').value||nowT();if(st.day!==today()){st.day=today();st.memo=[]}st.memo=(st.memo||[]).concat([{t:t,a:a}]).sort(function(x,y){return mins(x.t)-mins(y.t)});save(st);paint()}
+$('m1').addEventListener('click',function(){addMemo(1)});$('m2').addEventListener('click',function(){addMemo(2)});
+function paint(){var m=st.day===today()?(st.memo||[]):[];$('empty').hidden=m.length>0;$('log').innerHTML=m.map(function(x,i){var l=late(x.t,x.a);return'<li><span>'+x.t+'<small>'+(x.a===2?'多め':'1杯')+'</small></span><span class="j '+(l?'late':'ok')+'">'+(l?'目安より遅い':'目安内')+'</span><button type="button" class="del" data-i="'+i+'" aria-label="'+x.t+'のメモを消す">消す</button></li>'}).join('')}
+$('log').addEventListener('click',function(e){var i=e.target.getAttribute('data-i');if(i===null)return;st.memo.splice(+i,1);save(st);paint()});
+render();
+})();
+</script>
+</body>
+</html>
