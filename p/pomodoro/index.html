@@ -26,41 +26,88 @@
   <meta name="twitter:image" content="https://seadice.win/icons/seadice_ogp.png">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebApplication",
-        "@id": "https://seadice.win/pomodoro/#app",
-        "name": "ヒーリングサウンド付きポモドーロタイマー",
-        "url": "https://seadice.win/pomodoro/",
-        "description": "雨音・波音・小川・森の録音を流しながら使える無料のポモドーロタイマー。25分集中＋5分休憩を自動で切り替えます。",
-        "applicationCategory": "ProductivityApplication",
-        "operatingSystem": "Any (Web browser)",
-        "inLanguage": "ja",
-        "isAccessibleForFree": true,
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
-        "publisher": { "@type": "Organization", "name": "SEADICE", "url": "https://seadice.win/" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://seadice.win/pomodoro/#app",
+      "name": "ヒーリングサウンド付きポモドーロタイマー",
+      "url": "https://seadice.win/pomodoro/",
+      "description": "雨音・波音・小川・森の録音を流しながら使える無料のポモドーロタイマー。25分集中＋5分休憩を自動で切り替えます。",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Any (Web browser)",
+      "inLanguage": "ja",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
       },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://seadice.win/" },
-          { "@type": "ListItem", "position": 2, "name": "ポモドーロタイマー", "item": "https://seadice.win/pomodoro/" }
-        ]
+      "publisher": {
+        "@type": "Organization",
+        "name": "SEADICE",
+        "url": "https://seadice.win/"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "ポモドーロ・テクニックとは何ですか？", "acceptedAnswer": { "@type": "Answer", "text": "25分の作業と5分の休憩を1セットとして繰り返す時間管理術です。1980年代後半にフランチェスコ・シリロが考案しました。4セットごとに15〜30分の長い休憩を取ります。" } },
-          { "@type": "Question", "name": "このタイマーは無料ですか？登録は必要ですか？", "acceptedAnswer": { "@type": "Answer", "text": "無料で、登録もインストールも不要です。ブラウザで開くだけで使えます。" } },
-          { "@type": "Question", "name": "ヒーリングサウンドは何を流していますか？", "acceptedAnswer": { "@type": "Answer", "text": "雨音・波音・小川・森の4種類は実際の録音（CC0またはパブリックドメインの素材）です。ブラウンノイズとホワイトノイズの2種類は、ブラウザ上で生成しています。" } },
-          { "@type": "Question", "name": "他のタブを開いていてもタイマーは動きますか？", "acceptedAnswer": { "@type": "Answer", "text": "動きます。開始時刻から経過時間を計算しているため、別タブに切り替えても時間はずれません。ページを閉じるとリセットされます。" } }
-        ]
-      }
-    ]
-  }
-  </script>
+      "dateModified": "2026-09-30"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://seadice.win/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ポモドーロタイマー",
+          "item": "https://seadice.win/pomodoro/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ポモドーロ・テクニックとは何ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "25分の作業と5分の休憩を1セットとして繰り返す時間管理術です。1980年代後半にフランチェスコ・シリロが考案しました。4セットごとに15〜30分の長い休憩を取ります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "このタイマーは無料ですか？登録は必要ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "無料で、登録もインストールも不要です。ブラウザで開くだけで使えます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ヒーリングサウンドは何を流していますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "雨音・波音・小川・森の4種類は実際の録音（CC0またはパブリックドメインの素材）です。ブラウンノイズとホワイトノイズの2種類は、ブラウザ上で生成しています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "他のタブを開いていてもタイマーは動きますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "動きます。開始時刻から経過時間を計算しているため、別タブに切り替えても時間はずれません。ページを閉じるとリセットされます。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
