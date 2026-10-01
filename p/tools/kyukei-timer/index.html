@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>こまめ休憩タイマー — 10分ごとに90秒、集中を立て直す | SEADICE</title>
+<meta name="description" content="集中が続かないときは休憩の取り方を変える。10分作業→90秒休憩、または25分→5分を自動でくり返し、休憩中にやることも出してくれる無料タイマーです。短い休憩をこまめに取る研究をもとに作りました。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/kyukei-timer/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="こまめ休憩タイマー | SEADICE">
+<meta property="og:description" content="10分作業→90秒休憩をくり返し、休憩中にやることも出してくれる無料タイマー。短い休憩の研究をもとに作りました。">
+<meta property="og:url" content="https://seadice.win/tools/kyukei-timer/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"こまめ休憩タイマー","url":"https://seadice.win/tools/kyukei-timer/","description":"作業と短い休憩を決まった間隔でくり返すタイマー。休憩中の行動も提案する。SEADICEが作成。","applicationCategory":"ProductivityApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-02","dateModified":"2026-10-02"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ツール","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"こまめ休憩タイマー","item":"https://seadice.win/tools/kyukei-timer/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"なぜ10分ごとに90秒の休憩なのですか？","acceptedAnswer":{"@type":"Answer","text":"集中力は30分前後で目減りし始めますが、数秒〜90秒の短い注意そらしを挟むだけで集中の落ち込みを防げたという実験があります。長い休憩を1回取るより、短い休憩をこまめに取るほうが集中を保ちやすいと考えられています。"}},{"@type":"Question","name":"ポモドーロ・テクニック（25分＋5分）とどちらがいいですか？","acceptedAnswer":{"@type":"Answer","text":"研究では、決まった時間で区切って休む方法は、好きなタイミングで休む方法より疲労や気分の面で有利でした。どちらが正解というより、作業に合わせて続けやすいほうを選んでください。"}},{"@type":"Question","name":"休憩中にスマホを見てもいいですか？","acceptedAnswer":{"@type":"Answer","text":"根拠にした研究は数秒〜90秒の短い注意そらしを扱ったもので、SNSのように新しい情報が次々入る休憩の効果は検証されていません。伸びをする、水を飲む、窓の外を見るなど、作業に戻りやすい休憩がおすすめです。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--rest:#F2A65A}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}.app{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px 20px;margin-bottom:40px;text-align:center}.app.resting{border-color:var(--rest)}.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:20px;text-align:left}.seg button{font:inherit;font-size:13px;color:var(--muted);background:transparent;border:1px solid var(--border);border-radius:12px;padding:10px 12px;cursor:pointer;line-height:1.5}.seg button b{display:block;font-size:15px;color:var(--text)}.seg button[aria-pressed=true]{border-color:var(--accent);background:rgba(0,255,209,.08)}.seg button[aria-pressed=true] b{color:var(--accent)}.seg button:disabled{opacity:.5;cursor:not-allowed}.phase{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.1em;border-radius:999px;padding:4px 14px;background:rgba(0,255,209,.12);color:var(--accent)}.resting .phase{background:rgba(242,166,90,.15);color:var(--rest)}.clock{font-size:clamp(60px,20vw,92px);font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1;margin:10px 0 12px}.bar{height:8px;background:var(--border);border-radius:99px;overflow:hidden;margin-bottom:18px}.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .5s linear}.resting .bar i{background:var(--rest)}.todo{min-height:56px;font-size:16px;font-weight:700;margin-bottom:18px;line-height:1.6}.todo small{display:block;font-size:13px;color:var(--muted);font-weight:400}.btns{display:grid;grid-template-columns:2fr 1fr;gap:10px}.btn{font:inherit;font-size:16px;font-weight:800;color:var(--bg);background:linear-gradient(90deg,var(--accent),var(--accent2));border:0;border-radius:12px;padding:14px;cursor:pointer}.btn2{font:inherit;font-size:15px;font-weight:700;color:var(--text);background:transparent;border:1px solid #2a2a44;border-radius:12px;padding:13px;cursor:pointer}.meta{display:flex;justify-content:center;gap:18px;font-size:13px;color:var(--muted);margin-top:16px;flex-wrap:wrap}.meta label{display:flex;align-items:center;gap:6px;cursor:pointer;padding:6px 0}.meta input{accent-color:var(--accent);width:18px;height:18px}section.s{margin-bottom:40px}section.s>h2{font-size:19px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}section.s>p{font-size:15px;margin-bottom:12px}ul.why,ol.how{padding-left:1.4em;font-size:15px}ul.why li,ol.how li{margin-bottom:8px}.src{display:block;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--text);margin-top:14px}.src:hover{border-color:var(--accent)}.src small{display:block;font-size:12px;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}.src b{font-size:15px;line-height:1.5}details{border-bottom:1px solid var(--border);padding:12px 0}summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details p{font-size:14px;color:#b6c0cf;margin-top:8px}.note{font-size:13px;color:var(--muted);border-left:3px solid var(--border);padding:4px 0 4px 12px}footer{border-top:1px solid var(--border);padding:24px 20px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / こまめ休憩タイマー</p>
+  <p class="label">TOOL</p>
+  <h1>こまめ休憩タイマー</h1>
+  <p class="lead">集中が続かないのは、意志が弱いからではありません。研究では、短い休憩を決まった間隔でこまめに挟むと集中を保ちやすいことがわかっています。作業と休憩を自動でくり返し、休憩中にやることも出す無料タイマーです。</p>
+
+  <div class="app" id="app">
+    <div class="seg" role="group" aria-label="作業と休憩の長さ">
+      <button type="button" id="m1" aria-pressed="true"><b>10分 + 90秒</b>こまめに立て直す</button>
+      <button type="button" id="m2" aria-pressed="false"><b>25分 + 5分</b>ポモドーロ型</button>
+    </div>
+    <span class="phase" id="phase">作業</span>
+    <p class="clock" id="clock" role="timer" aria-live="off">10:00</p>
+    <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+    <p class="todo" id="todo" aria-live="polite">スタートを押すと作業時間が始まります<small>時間になったら音で知らせます</small></p>
+    <div class="btns">
+      <button type="button" class="btn" id="go">スタート</button>
+      <button type="button" class="btn2" id="reset">リセット</button>
+    </div>
+    <div class="meta">
+      <label><input type="checkbox" id="snd" checked>音を鳴らす</label>
+      <span>今日の作業 <b id="cnt">0</b>回</span>
+    </div>
+  </div>
+
+  <section class="s" aria-labelledby="h-how">
+    <h2 id="h-how">使い方</h2>
+    <ol class="how">
+      <li>作業と休憩の長さを選びます。迷ったら「10分＋90秒」から始めてください。</li>
+      <li>スタートを押して作業します。時間になると音が鳴り、休憩に切り替わります。</li>
+      <li>休憩中は、表示された行動（伸びをする、水を飲むなど）か、作業と関係のない一瞬の課題をやってみます。</li>
+      <li>休憩が終わると、また作業が始まります。止めたいときは一時停止かリセットを押します。</li>
+    </ol>
+  </section>
+
+  <section class="s" aria-labelledby="h-why">
+    <h2 id="h-why">なぜ短い休憩をこまめに取るのか</h2>
+    <ul class="why">
+      <li>集中力は30分前後で目減りし始めます。これは「資源切れ」ではなく、脳が同じ作業に慣れて注意を向けなくなる現象だと考えられています。</li>
+      <li>数秒〜90秒の短い注意そらしを挟むだけで、集中の落ち込みを防げたという実験があります。</li>
+      <li>好きなタイミングで休むより、決まった間隔で休むほうが疲労や気分の面で有利だったという報告もあります。</li>
+    </ul>
+    <a class="src" href="https://research.seadice.win/focus-microbreaks-pomodoro/"><small>このツールの根拠になった記事</small><b>集中が続かないのは意志の弱さじゃない。休憩の取り方を研究で調べた</b></a>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <details><summary>なぜ10分ごとに90秒の休憩なのですか？</summary><p>集中力は30分前後で目減りし始めますが、数秒〜90秒の短い注意そらしを挟むだけで集中の落ち込みを防げたという実験があります。長い休憩を1回取るより、短い休憩をこまめに取るほうが集中を保ちやすいと考えられています。</p></details>
+    <details><summary>ポモドーロ・テクニック（25分＋5分）とどちらがいいですか？</summary><p>研究では、決まった時間で区切って休む方法は、好きなタイミングで休む方法より疲労や気分の面で有利でした。どちらが正解というより、作業に合わせて続けやすいほうを選んでください。</p></details>
+    <details><summary>休憩中にスマホを見てもいいですか？</summary><p>根拠にした研究は数秒〜90秒の短い注意そらしを扱ったもので、SNSのように新しい情報が次々入る休憩の効果は検証されていません。伸びをする、水を飲む、窓の外を見るなど、作業に戻りやすい休憩がおすすめです。</p></details>
+  </section>
+  <p class="note">このページを開いたままにしておくと、別のタブを見ていても時間どおりに切り替わります。作業回数はこのブラウザの中だけに保存され、外部には送信されません。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE</p>
+</footer>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)},M={1:[600,90],2:[1500,300]},mode=1,rest=false,left=600,endAt=0,tick=null,ac=null,KEY='kyukeiTimer.v1',T=document.title;
+var BR=['立ち上がって大きく伸びをする','水かお茶を一口飲む','窓の外や遠くを20秒見る','肩を5回ゆっくり回す','目を閉じて深呼吸を3回する'];
+function today(){var d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()}
+function ld(){try{var o=JSON.parse(localStorage.getItem(KEY)||'{}');return o.d===today()?o.n||0:0}catch(e){return 0}}
+function sv(n){try{localStorage.setItem(KEY,JSON.stringify({d:today(),n:n}))}catch(e){}}
+var cnt=ld();$('cnt').textContent=cnt;
+function fmt(s){s=Math.max(0,Math.ceil(s));return Math.floor(s/60)+':'+('0'+s%60).slice(-2)}
+function dur(){return M[mode][rest?1:0]}
+function render(){$('clock').textContent=fmt(left);$('bar').style.width=((dur()-left)/dur()*100)+'%';$('phase').textContent=rest?'休憩':'作業';$('app').classList.toggle('resting',rest);if(tick)document.title=(rest?'休憩 ':'作業 ')+fmt(left)}
+function suggest(){if(Math.random()<.35){var a=11+Math.floor(Math.random()*39),b=11+Math.floor(Math.random()*39);return'暗算してみる：'+a+' + '+b+' = ?<small>作業と関係のない一瞬の課題で、注意を立て直します</small>'}return BR[Math.floor(Math.random()*BR.length)]+'<small>画面から目を離して、作業のことはいったん忘れます</small>'}
+function beep(n){if(!$('snd').checked)return;try{ac=ac||new(window.AudioContext||window.webkitAudioContext)();for(var i=0;i<n;i++){var o=ac.createOscillator(),g=ac.createGain(),t=ac.currentTime+i*.25;o.frequency.value=rest?660:880;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.25,t+.02);g.gain.exponentialRampToValueAtTime(.0001,t+.2);o.connect(g);g.connect(ac.destination);o.start(t);o.stop(t+.22)}}catch(e){}}
+function sw(){if(!rest){cnt++;$('cnt').textContent=cnt;sv(cnt)}rest=!rest;left=dur();endAt=Date.now()+left*1000;$('todo').innerHTML=rest?suggest():'作業に戻ります<small>次の休憩まで'+Math.round(dur()/60)+'分です</small>';beep(rest?2:1);if(navigator.vibrate){try{navigator.vibrate(rest?[150,80,150]:150)}catch(e){}}}
+function run(){endAt=Date.now()+left*1000;tick=setInterval(function(){left=(endAt-Date.now())/1000;if(left<=0)sw();render()},250);$('go').textContent='一時停止';lock(true)}
+function stop(){clearInterval(tick);tick=null;$('go').textContent='再開';document.title=T}
+function lock(v){$('m1').disabled=v;$('m2').disabled=v}
+$('go').addEventListener('click',function(){if(tick)stop();else{if(ac&&ac.state==='suspended')ac.resume();if(!rest&&left===dur())$('todo').innerHTML='作業中です<small>'+Math.round(dur()/60)+'分たったら休憩の合図をします</small>';run()}});
+$('reset').addEventListener('click',function(){stop();rest=false;left=dur();$('go').textContent='スタート';lock(false);$('todo').innerHTML='スタートを押すと作業時間が始まります<small>時間になったら音で知らせます</small>';render()});
+function pick(m){if(tick)return;mode=m;rest=false;left=dur();$('m1').setAttribute('aria-pressed',String(m===1));$('m2').setAttribute('aria-pressed',String(m===2));$('go').textContent='スタート';render()}
+$('m1').addEventListener('click',function(){pick(1)});$('m2').addEventListener('click',function(){pick(2)});
+render();
+})();
+</script>
+</body>
+</html>

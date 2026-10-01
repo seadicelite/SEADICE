@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>睡眠負債チェック — 週末の寝だめで足りる？を計算 | SEADICE</title>
+<meta name="description" content="週末の寝だめで平日の睡眠不足は取り戻せる？理想と平日の睡眠時間を入れると、1晩・1週間の睡眠負債と、寝だめで補えそうか、今夜何時に寝ればよいかを計算する無料ツールです。12,637人の調査などの研究をもとに作りました。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/suimin-fusai/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="睡眠負債チェック | SEADICE">
+<meta property="og:description" content="理想と平日の睡眠時間から、睡眠負債と「寝だめで足りるか」、今夜の就寝時刻を計算する無料ツール。">
+<meta property="og:url" content="https://seadice.win/tools/suimin-fusai/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"睡眠負債チェック","url":"https://seadice.win/tools/suimin-fusai/","description":"理想の睡眠時間と平日の睡眠時間から睡眠負債を計算し、週末の寝だめで補えそうかと今夜の就寝時刻の目安を示すツール。SEADICEが作成。","applicationCategory":"HealthApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-02","dateModified":"2026-10-02"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ツール","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"睡眠負債チェック","item":"https://seadice.win/tools/suimin-fusai/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"週末の寝だめで平日の睡眠不足は取り戻せますか？","acceptedAnswer":{"@type":"Answer","text":"一部はイエス、大きな不足はノーです。フランスの成人12,637人の調査（Legerら, 2020）では、90分以上の重い睡眠負債を抱える人のうち、週末の寝だめや昼寝で解消できていたのは4人に1人に届きませんでした。"}},{"@type":"Question","name":"寝だめは何時間くらいがいいですか？","acceptedAnswer":{"@type":"Answer","text":"普段そこそこ眠れている人では、1時間ほど多く眠る軽い寝だめが体調の良さと関連していました。慢性的に睡眠が短い人は、寝だめの長さより平日の睡眠時間を増やすことが先です。"}},{"@type":"Question","name":"寝だめをすれば体への影響もなくなりますか？","acceptedAnswer":{"@type":"Answer","text":"なくなるとは限りません。実験では、週末に好きなだけ眠っても、平日の睡眠不足で低下したインスリン感受性（血糖を取り込む働き）は元に戻りませんでした。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--warn:#F2A65A}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}.app{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px 20px;margin-bottom:40px}.field{margin-bottom:16px}.field label{display:block;font-size:14px;font-weight:700;margin-bottom:6px}.field small{display:block;font-size:12px;color:var(--muted);margin-top:4px}select{width:100%;font:inherit;font-size:16px;color:var(--text);background:var(--bg);border:1px solid #2a2a44;border-radius:10px;padding:11px 14px;color-scheme:dark}.res{border-top:1px solid var(--border);margin-top:20px;padding-top:18px}.nums{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}.num{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:12px;text-align:center}.num span{display:block;font-size:12px;color:var(--muted)}.num b{font-size:24px;font-variant-numeric:tabular-nums}.lvl{border-radius:12px;padding:14px 16px;margin-bottom:14px;border:1px solid var(--border)}.lvl b{display:block;font-size:16px;margin-bottom:4px}.lvl p{font-size:14px;color:#b6c0cf}.lvl.ok{border-color:var(--accent)}.lvl.ok b{color:var(--accent)}.lvl.mid{border-color:var(--accent2)}.lvl.mid b{color:var(--accent2)}.lvl.hi{border-color:var(--warn)}.lvl.hi b{color:var(--warn)}.steps{list-style:none}.steps li{padding:10px 0;border-bottom:1px solid var(--border);font-size:15px}.steps li b{color:var(--accent);font-variant-numeric:tabular-nums}section.s{margin-bottom:40px}section.s>h2{font-size:19px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}section.s>p{font-size:15px;margin-bottom:12px}ul.why{padding-left:1.4em;font-size:15px}ul.why li{margin-bottom:8px}.src{display:block;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--text);margin-top:14px}.src:hover{border-color:var(--accent)}.src small{display:block;font-size:12px;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}.src b{font-size:15px;line-height:1.5}details{border-bottom:1px solid var(--border);padding:12px 0}summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details p{font-size:14px;color:#b6c0cf;margin-top:8px}.note{font-size:13px;color:var(--muted);border-left:3px solid var(--border);padding:4px 0 4px 12px}footer{border-top:1px solid var(--border);padding:24px 20px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / 睡眠負債チェック</p>
+  <p class="label">TOOL</p>
+  <h1>睡眠負債チェック</h1>
+  <p class="lead">週末の寝だめで、平日の睡眠不足は取り戻せるのか。理想の睡眠時間と平日の睡眠時間を選ぶと、たまっている睡眠負債と、寝だめで補えそうか、今夜は何時に寝ればよいかがわかります。無料・登録不要です。</p>
+
+  <div class="app">
+    <div class="field">
+      <label for="ideal">理想の睡眠時間</label>
+      <select id="ideal"></select>
+      <small>日中を眠気なくすっきり過ごせると感じる睡眠時間</small>
+    </div>
+    <div class="field">
+      <label for="actual">平日の実際の睡眠時間（平均）</label>
+      <select id="actual"></select>
+    </div>
+    <div class="field">
+      <label for="bed">平日にふだん寝る時刻</label>
+      <select id="bed"></select>
+    </div>
+    <div class="res" aria-live="polite">
+      <div class="nums">
+        <div class="num"><span>1晩あたりの不足</span><b id="n1"></b></div>
+        <div class="num"><span>平日5日でたまる負債</span><b id="n5"></b></div>
+      </div>
+      <div class="lvl" id="lvl"><b id="lvl-h"></b><p id="lvl-p"></p></div>
+      <ul class="steps" id="steps"></ul>
+    </div>
+  </div>
+
+  <section class="s" aria-labelledby="h-why">
+    <h2 id="h-why">寝だめで取り戻せるのは「小さな不足」まで</h2>
+    <p>研究の答えは「一部はイエス、大きな不足はノー」でした。このツールは次の研究をもとに判定しています。</p>
+    <ul class="why">
+      <li>フランスの成人12,637人の調査では、理想より90分以上足りない「重い睡眠負債」の人のうち、週末の寝だめで補えていたのは18.2%、昼寝で7.4%にとどまりました（Legerら, 2020）。</li>
+      <li>韓国の成人4,871人の調査では、寝だめをする人のほうが不安・抑うつが少なく、生活の質の指数も高い傾向がありました（Ohら, 2019）。</li>
+      <li>実験では、週末に好きなだけ眠っても、平日の睡眠不足で低下したインスリン感受性は元に戻りませんでした（Depnerら, 2019）。</li>
+    </ul>
+    <a class="src" href="https://research.seadice.win/weekend-catchup-sleep-debt/"><small>このツールの根拠になった記事</small><b>週末の寝だめで平日の睡眠不足は帳消しにできる？4つの研究でわかったこと</b></a>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <details><summary>週末の寝だめで平日の睡眠不足は取り戻せますか？</summary><p>一部はイエス、大きな不足はノーです。90分以上の重い睡眠負債を抱える人のうち、週末の寝だめや昼寝で解消できていたのは4人に1人に届きませんでした。</p></details>
+    <details><summary>寝だめは何時間くらいがいいですか？</summary><p>普段そこそこ眠れている人では、1時間ほど多く眠る軽い寝だめが体調の良さと関連していました。慢性的に睡眠が短い人は、寝だめの長さより平日の睡眠時間を増やすことが先です。</p></details>
+    <details><summary>寝だめをすれば体への影響もなくなりますか？</summary><p>なくなるとは限りません。実験では、週末に好きなだけ眠っても、平日の睡眠不足で低下したインスリン感受性（血糖を取り込む働き）は元に戻りませんでした。</p></details>
+  </section>
+  <p class="note">計算結果は研究にもとづく目安です。選んだ時間はこのブラウザの中だけに保存され、外部には送信されません。生活を見直しても眠気や不眠が続くときは、医師や専門の医療機関に相談してください。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE</p>
+</footer>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)},KEY='suiminFusai.v1';
+function hm(m){var h=Math.floor(m/60),r=m%60;return(h?h+'時間':'')+(r?r+'分':'')}
+function clock(m){m=((m%1440)+1440)%1440;return Math.floor(m/60)+':'+('0'+m%60).slice(-2)}
+function opts(el,from,to,step,f,def){var h='';for(var m=from;m<=to;m+=step)h+='<option value="'+m+'"'+(m===def?' selected':'')+'>'+f(m)+'</option>';el.innerHTML=h}
+opts($('ideal'),300,600,15,hm,450);opts($('actual'),180,600,15,hm,360);
+var bh='';for(var m=1260;m<=1260+360;m+=15)bh+='<option value="'+m+'"'+(m===1440?' selected':'')+'>'+clock(m)+'</option>';$('bed').innerHTML=bh;
+try{var s=JSON.parse(localStorage.getItem(KEY)||'{}');['ideal','actual','bed'].forEach(function(k){if(s[k])$(k).value=s[k]})}catch(e){}
+function calc(){var I=+$('ideal').value,A=+$('actual').value,B=+$('bed').value,d=Math.max(0,I-A);
+try{localStorage.setItem(KEY,JSON.stringify({ideal:I,actual:A,bed:B}))}catch(e){}
+$('n1').textContent=d?hm(d):'なし';$('n5').textContent=d?hm(d*5):'なし';
+var L=$('lvl'),st=[];
+if(d===0){L.className='lvl ok';$('lvl-h').textContent='平日の睡眠は足りています';$('lvl-p').textContent='週末に寝だめをするなら、1時間前後の軽い寝だめにとどめると、ふだんのリズムを崩しにくくなります。';st.push('いまの就寝時刻 <b>'+clock(B)+'</b> を続ける');st.push('週末は起きる時刻を <b>1時間</b> 遅らせる程度まで')}
+else{var w=Math.ceil(d/15);
+if(d<90){L.className='lvl mid';$('lvl-h').textContent='軽い睡眠負債です';$('lvl-p').textContent='1時間前後の軽い寝だめは体調の良さと関連していました。ただ、寝だめだけに頼らず、平日の不足そのものを減らすのが根本的な対策です。'}
+else{L.className='lvl hi';$('lvl-h').textContent='重い睡眠負債です（90分以上）';$('lvl-p').textContent='12,637人の調査では、90分以上の重い睡眠負債を抱える人のうち、週末の寝だめや昼寝で解消できていたのは4人に1人に届きませんでした。寝だめより先に、平日の就寝・起床時刻を見直すことが大切です。'}
+st.push('今夜は <b>'+clock(B-15)+'</b> に寝る（いつもより15分早く）');
+st.push('1週間ごとに15分ずつ早めると、<b>'+w+'週間</b>で理想に届きます（最終的な就寝 <b>'+clock(B-d)+'</b>）');
+st.push('週末の寝だめは <b>1時間前後</b> を目安にする')}
+$('steps').innerHTML=st.map(function(x){return'<li>'+x+'</li>'}).join('')}
+['ideal','actual','bed'].forEach(function(k){$(k).addEventListener('change',calc)});calc();
+})();
+</script>
+</body>
+</html>

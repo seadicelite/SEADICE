@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サブスク見直しチェック — 解約できない心理を逆手に取る | SEADICE</title>
+<meta name="description" content="サブスクを解約できないのはなぜ？契約中のサブスクを一覧にして「いまゼロから契約するとしても入るか」に答えると、見直し候補と年間でいくら浮くかを計算し、解約を検討する日をカレンダーに登録できる無料ツールです。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/sabusuku-minaoshi/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="サブスク見直しチェック | SEADICE">
+<meta property="og:description" content="契約中のサブスクに「いまゼロから契約するとしても入る？」と答えるだけで、見直し候補と年間で浮く金額がわかる無料ツール。">
+<meta property="og:url" content="https://seadice.win/tools/sabusuku-minaoshi/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"サブスク見直しチェック","url":"https://seadice.win/tools/sabusuku-minaoshi/","description":"契約中のサブスクを一覧にし、継続するかを問い直して見直し候補と年間の節約額を計算するツール。解約検討日のカレンダー登録に対応。SEADICEが作成。","applicationCategory":"FinanceApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-02","dateModified":"2026-10-02"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ツール","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"サブスク見直しチェック","item":"https://seadice.win/tools/sabusuku-minaoshi/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"なぜサブスクは解約できないのですか？","acceptedAnswer":{"@type":"Answer","text":"「持っているものを手放したくない」という保有効果と、「何もしない」を選びやすい現状維持バイアスが重なるためと考えられています。サブスクは何もしなければ自動で続く仕組みなので、解約が先延ばしにされやすくなります。"}},{"@type":"Question","name":"「いまゼロから契約するとしても入るか」と考えるのはなぜですか？","acceptedAnswer":{"@type":"Answer","text":"すでに持っているものは、持っていないときより高く評価してしまいます（保有効果）。まだ契約していない前提で考え直すと、その影響を減らして本当に必要かを判断しやすくなります。"}},{"@type":"Question","name":"入力したサブスクの情報はどこに保存されますか？","acceptedAnswer":{"@type":"Answer","text":"お使いのブラウザの中だけに保存され、外部には送信されません。ブラウザのデータを消すと一覧も消えます。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--warn:#F2A65A}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}.app{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px 20px;margin-bottom:40px}.app h2{font-size:17px;margin-bottom:12px}.form{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}.form .full{grid-column:1/-1}.form label{display:block;font-size:13px;font-weight:700;margin-bottom:4px}input,select{width:100%;font:inherit;font-size:16px;color:var(--text);background:var(--bg);border:1px solid #2a2a44;border-radius:10px;padding:10px 12px;color-scheme:dark}.add{display:block;width:100%;font:inherit;font-size:15px;font-weight:800;color:var(--bg);background:linear-gradient(90deg,var(--accent),var(--accent2));border:0;border-radius:12px;padding:13px;cursor:pointer}.err{font-size:14px;color:var(--warn);margin-top:6px}.list{list-style:none;margin-top:18px}.item{border:1px solid var(--border);border-radius:14px;padding:14px;margin-bottom:10px;background:var(--bg)}.item.no{border-color:var(--warn)}.item.yes{border-color:rgba(0,255,209,.5)}.top2{display:flex;justify-content:space-between;align-items:baseline;gap:10px}.top2 b{font-size:16px;word-break:break-all}.top2 span{font-size:14px;font-variant-numeric:tabular-nums;white-space:nowrap}.sub{font-size:12px;color:var(--muted);margin:2px 0 10px}.q{font-size:14px;margin-bottom:8px}.ans{display:grid;grid-template-columns:1fr 1fr auto;gap:8px}.ans button{font:inherit;font-size:14px;color:var(--muted);background:transparent;border:1px solid var(--border);border-radius:10px;padding:9px 6px;cursor:pointer}.ans button[aria-pressed=true].y{color:var(--bg);background:var(--accent);border-color:var(--accent);font-weight:800}.ans button[aria-pressed=true].n{color:var(--bg);background:var(--warn);border-color:var(--warn);font-weight:800}.ans .del{font-size:13px;text-decoration:underline;border:0;padding:9px 4px}.sum{border-top:1px solid var(--border);margin-top:14px;padding-top:16px}.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}.num{border:1px solid var(--border);border-radius:12px;padding:10px 6px;text-align:center}.num span{display:block;font-size:12px;color:var(--muted)}.num b{font-size:18px;font-variant-numeric:tabular-nums}.num.save b{color:var(--warn)}.msg{font-size:14px;color:#b6c0cf;margin-bottom:12px}.empty{font-size:14px;color:var(--muted);padding:10px 0}.btn2{display:block;width:100%;font:inherit;font-size:15px;font-weight:700;color:var(--text);background:transparent;border:1px solid #2a2a44;border-radius:12px;padding:13px;cursor:pointer}.hint{font-size:13px;color:var(--muted);margin-top:8px}section.s{margin-bottom:40px}section.s>h2{font-size:19px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}section.s>p{font-size:15px;margin-bottom:12px}ul.why{padding-left:1.4em;font-size:15px}ul.why li{margin-bottom:8px}.src{display:block;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--text);margin-top:14px}.src:hover{border-color:var(--accent)}.src small{display:block;font-size:12px;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}.src b{font-size:15px;line-height:1.5}details{border-bottom:1px solid var(--border);padding:12px 0}summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details p{font-size:14px;color:#b6c0cf;margin-top:8px}.note{font-size:13px;color:var(--muted);border-left:3px solid var(--border);padding:4px 0 4px 12px}footer{border-top:1px solid var(--border);padding:24px 20px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / サブスク見直しチェック</p>
+  <p class="label">TOOL</p>
+  <h1>サブスク見直しチェック</h1>
+  <p class="lead">サブスクを解約できないのは、意志が弱いからではありません。「持っているものを手放したくない」心理と、何もしなければ続く仕組みが重なるためです。契約中のサブスクを一覧にして「いまゼロから契約するとしても入るか」に答えるだけで、見直し候補と年間で浮く金額がわかります。無料・登録不要です。</p>
+
+  <div class="app">
+    <h2>契約中のサブスクを追加する</h2>
+    <form id="f" class="form" novalidate>
+      <div class="full"><label for="nm">サービス名</label><input id="nm" maxlength="30" placeholder="例: 動画配信サービス" autocomplete="off" enterkeyhint="next"></div>
+      <div><label for="pr">料金（円）</label><input id="pr" type="number" inputmode="numeric" min="1" max="999999" placeholder="例: 990"></div>
+      <div><label for="cy">支払い</label><select id="cy"><option value="m">毎月</option><option value="y">毎年</option></select></div>
+      <div class="full"><label for="dt">次の更新日（わかれば）</label><input id="dt" type="date"></div>
+      <div class="full"><button type="submit" class="add">一覧に追加する</button><p class="err" id="err" role="alert" hidden></p></div>
+    </form>
+    <ul class="list" id="list"></ul>
+    <p class="empty" id="empty">まだ何もありません。まずは毎月引き落とされているものを思い出して、1つずつ追加してください。</p>
+    <div class="sum" id="sum" hidden aria-live="polite">
+      <div class="nums">
+        <div class="num"><span>月の合計</span><b id="s-m"></b></div>
+        <div class="num"><span>年の合計</span><b id="s-y"></b></div>
+        <div class="num save"><span>見直すと年に</span><b id="s-s"></b></div>
+      </div>
+      <p class="msg" id="msg"></p>
+      <button type="button" class="btn2" id="ics">解約を考える日をカレンダーに登録する</button>
+      <p class="hint">「入らない」と答えたサブスクの更新日の3日前と、毎月1日の見直し日を予定にします。.ics ファイルはiPhone・Android・Googleカレンダーなどに追加できます。</p>
+    </div>
+  </div>
+
+  <section class="s" aria-labelledby="h-why">
+    <h2 id="h-why">なぜ「ゼロから契約するとしても入るか」なのか</h2>
+    <ul class="why">
+      <li>人は持っているものを、持っていないときより高く評価します（保有効果）。マグカップを使った実験では、売り手の希望額は平均約7ドル、買い手が払ってもよい額は平均約3ドルと、約2倍の差が出ました。</li>
+      <li>何もしなければ続く仕組みは強力です。年金の自動加入をデフォルトにしただけで、加入率は2倍以上になりました。</li>
+      <li>まだ持っていない前提で考え直すと、保有効果の影響を減らせます。更新日の前に考える日を先に決めておくと、「何もしない」を選びにくくなります。</li>
+    </ul>
+    <a class="src" href="https://ledger.seadice.win/subscription-cant-cancel/"><small>このツールの根拠になった記事</small><b>なぜサブスクを解約できないのか？保有効果と現状維持バイアスの研究</b></a>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <details><summary>なぜサブスクは解約できないのですか？</summary><p>「持っているものを手放したくない」という保有効果と、「何もしない」を選びやすい現状維持バイアスが重なるためと考えられています。サブスクは何もしなければ自動で続く仕組みなので、解約が先延ばしにされやすくなります。</p></details>
+    <details><summary>全部のサブスクを見直す必要がありますか？</summary><p>ありません。よく使っていて満足しているものまで削る必要はなく、「最近使っていない」「解約を考えたことがある」ものだけを見直せば十分です。</p></details>
+    <details><summary>入力したサブスクの情報はどこに保存されますか？</summary><p>お使いのブラウザの中だけに保存され、外部には送信されません。ブラウザのデータを消すと一覧も消えます。</p></details>
+  </section>
+  <p class="note">入力した内容はこのブラウザの中だけに保存され、外部には送信されません。解約の手続きは各サービスで行ってください。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE</p>
+</footer>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)},KEY='sabusukuMinaoshi.v1',items=[];
+try{var r=JSON.parse(localStorage.getItem(KEY)||'[]');if(Array.isArray(r))items=r}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(items))}catch(e){}}
+function yen(n){return n.toLocaleString('ja-JP')+'円'}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function mon(x){return x.cy==='y'?x.pr/12:x.pr}
+function yr(x){return x.cy==='y'?x.pr:x.pr*12}
+$('f').addEventListener('submit',function(e){e.preventDefault();var n=$('nm').value.trim(),p=Math.round(+$('pr').value),er=$('err');
+if(!n||!(p>0)){er.textContent=!n?'サービス名を入れてください。':'料金を1円以上の数字で入れてください。';er.hidden=false;return}
+er.hidden=true;items.push({nm:n,pr:p,cy:$('cy').value,dt:$('dt').value||'',a:''});save();$('nm').value='';$('pr').value='';$('dt').value='';document.activeElement.blur();paint()});
+$('list').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var i=+b.dataset.i;if(b.dataset.a==='del'){items.splice(i,1)}else{items[i].a=items[i].a===b.dataset.a?'':b.dataset.a}save();paint()});
+function paint(){$('empty').hidden=items.length>0;$('sum').hidden=!items.length;
+$('list').innerHTML=items.map(function(x,i){return'<li class="item '+(x.a==='y'?'yes':x.a==='n'?'no':'')+'"><div class="top2"><b>'+esc(x.nm)+'</b><span>'+yen(x.pr)+(x.cy==='y'?' / 年':' / 月')+'</span></div><p class="sub">年 '+yen(yr(x))+(x.dt?'・次の更新 '+esc(x.dt):'')+'</p><p class="q">いまゼロから契約するとしても入る？</p><div class="ans"><button type="button" class="y" data-i="'+i+'" data-a="y" aria-pressed="'+(x.a==='y')+'">入る</button><button type="button" class="n" data-i="'+i+'" data-a="n" aria-pressed="'+(x.a==='n')+'">入らない</button><button type="button" class="del" data-i="'+i+'" data-a="del" aria-label="'+esc(x.nm)+'を一覧から消す">消す</button></div></li>'}).join('');
+var m=0,y=0,s=0,nn=0,un=0;items.forEach(function(x){m+=mon(x);y+=yr(x);if(x.a==='n'){s+=yr(x);nn++}if(!x.a)un++});
+$('s-m').textContent=yen(Math.round(m));$('s-y').textContent=yen(y);$('s-s').textContent=yen(s);
+$('msg').textContent=un?'まだ答えていないものが'+un+'件あります。「いまゼロから契約するとしても入るか」で考えてみてください。':nn?'「入らない」が'+nn+'件。更新日の前に解約を考える日をカレンダーに入れておくと、何もしないまま続くのを防げます。':'すべて「入る」でした。満足して使っているものは、無理に削らなくて大丈夫です。'}
+$('ics').addEventListener('click',function(){var p=function(n){return('0'+n).slice(-2)},z=function(d){return d.getFullYear()+p(d.getMonth()+1)+p(d.getDate())},now=new Date(),st=now.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z',L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//SEADICE//sabusuku-minaoshi//JA','CALSCALE:GREGORIAN'];
+function ev(d,sum,desc,rr){var e=new Date(d);e.setDate(e.getDate()+1);L.push('BEGIN:VEVENT','UID:'+z(d)+'-'+Math.random().toString(36).slice(2)+'@seadice.win','DTSTAMP:'+st,'DTSTART;VALUE=DATE:'+z(d),'DTEND;VALUE=DATE:'+z(e),'SUMMARY:'+sum,'DESCRIPTION:'+desc);if(rr)L.push(rr);L.push('END:VEVENT')}
+var first=new Date(now.getFullYear(),now.getMonth()+1,1);ev(first,'サブスクの見直し日','いまゼロから契約するとしても入るか？で一覧を見直す','RRULE:FREQ=MONTHLY');
+items.forEach(function(x){if(x.a!=='n'||!x.dt)return;var q=x.dt.split('-'),d=new Date(+q[0],q[1]-1,+q[2]-3);if(d<new Date(now.getFullYear(),now.getMonth(),now.getDate()))d=new Date(now.getFullYear(),now.getMonth(),now.getDate());ev(d,x.nm.replace(/[,;\\\n]/g,' ')+'を解約するか決める','更新日は'+x.dt)});
+L.push('END:VCALENDAR');try{var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([L.join('\r\n')],{type:'text/calendar'}));a.download='sabusuku.ics';document.body.appendChild(a);a.click();a.remove()}catch(e){alert('カレンダーファイルを作れませんでした。更新日を手でカレンダーに登録してください。')}});
+paint();
+})();
+</script>
+</body>
+</html>
