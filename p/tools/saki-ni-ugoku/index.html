@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>先に動く5分タイマー — やる気を待たずに5分だけ動き、前後の気分を記録 | SEADICE</title>
+<meta name="description" content="やる気が出るのを待たずに動くには？「5分だけ」と決めて始め、始める前と後の気分を10点満点で記録する無料ツールです。行動活性化の研究をもとに作りました。登録不要、記録はブラウザ内だけに保存します。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/saki-ni-ugoku/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="先に動く5分タイマー | SEADICE">
+<meta property="og:description" content="やる気を待たずに5分だけ動き、前後の気分を記録する無料ツール。行動活性化の研究をもとに作りました。">
+<meta property="og:url" content="https://seadice.win/tools/saki-ni-ugoku/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"先に動く5分タイマー","url":"https://seadice.win/tools/saki-ni-ugoku/","description":"やる気が出るのを待たずに5分だけ動き、始める前と後の気分を10点満点で記録するツール。行動活性化の研究をもとにSEADICEが作成。","applicationCategory":"LifestyleApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-01","dateModified":"2026-10-01"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ツール","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"先に動く5分タイマー","item":"https://seadice.win/tools/saki-ni-ugoku/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"なぜ「やる気が出てから」ではなく先に動くのですか？","acceptedAnswer":{"@type":"Answer","text":"うつ病治療の研究を中心に、気分に関係なく先に行動を増やす「行動活性化」が、考え方まで扱う認知療法や抗うつ薬と同程度の効果を示すことが複数の比較試験で確認されています。やる気は行動の後からついてくることが多いと考えられています。"}},{"@type":"Question","name":"記録したデータはどこに保存されますか？","acceptedAnswer":{"@type":"Answer","text":"お使いのブラウザの中だけに保存され、SEADICEのサーバーを含む外部には送信されません。ブラウザのデータを消すと記録も消えます。別の端末やブラウザとは同期されません。"}},{"@type":"Question","name":"5分たって気分が変わらなかったら失敗ですか？","acceptedAnswer":{"@type":"Answer","text":"失敗ではありません。気分が変わらない日があっても、記録を続けることで「動いた日は少し楽になることが多い」といった自分の傾向に気づきやすくなります。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--warn:#F2A65A}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.crumb a:hover{color:var(--text)}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}.app{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px 20px;margin-bottom:40px}.stepno{font-size:12px;letter-spacing:.15em;color:var(--accent);font-weight:700;margin-bottom:6px}.app h2{font-size:18px;margin-bottom:14px;line-height:1.5}.field{margin-bottom:20px}.field label,.field .lb{display:block;font-size:14px;font-weight:700;margin-bottom:8px}input[type=text]{width:100%;font:inherit;font-size:16px;color:var(--text);background:var(--bg);border:1px solid #2a2a44;border-radius:10px;padding:12px 14px}input[type=text]::placeholder{color:#6b7790}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.chip{font:inherit;font-size:13px;color:var(--muted);background:transparent;border:1px solid var(--border);border-radius:999px;padding:7px 12px;cursor:pointer}.chip:hover{color:var(--text);border-color:#33335a}.mood{display:flex;align-items:center;gap:14px}.mood input{flex:1;accent-color:var(--accent);height:32px}.mood output{min-width:56px;text-align:right;font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}.mood output small{font-size:12px;color:var(--muted);font-weight:400}.scale{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:2px}.btn{display:block;width:100%;font:inherit;font-size:16px;font-weight:800;color:var(--bg);background:linear-gradient(90deg,var(--accent),var(--accent2));border:0;border-radius:12px;padding:15px;cursor:pointer}.btn:disabled{opacity:.4;cursor:not-allowed}.btn2{display:block;width:100%;font:inherit;font-size:15px;font-weight:700;color:var(--text);background:transparent;border:1px solid #2a2a44;border-radius:12px;padding:13px;cursor:pointer;margin-top:10px}.btn2:hover{border-color:var(--muted)}.task{font-size:15px;color:#b6c0cf;margin-bottom:18px}.clock{font-size:clamp(56px,18vw,84px);font-weight:800;text-align:center;font-variant-numeric:tabular-nums;letter-spacing:.02em;line-height:1.1;margin:8px 0 14px}.bar{height:8px;background:var(--border);border-radius:99px;overflow:hidden;margin-bottom:18px}.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .5s linear}.hint{font-size:13px;color:var(--muted);text-align:center;margin-top:12px}.result{text-align:center;padding:6px 0 4px}.result .big{font-size:40px;font-weight:800;font-variant-numeric:tabular-nums;margin:6px 0}.result .big span{color:var(--accent)}.result p{font-size:14px;color:#b6c0cf}[hidden]{display:none!important}section.s{margin-bottom:40px}section.s>h2{font-size:19px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}section.s>p{font-size:15px;margin-bottom:12px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}.stat{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 10px;text-align:center}.stat b{display:block;font-size:22px;font-variant-numeric:tabular-nums}.stat span{font-size:12px;color:var(--muted)}.log{list-style:none}.log li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;border-bottom:1px solid var(--border);font-size:14px}.log .d{grid-column:1/-1;font-size:12px;color:var(--muted)}.log .m{font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}.up{color:var(--accent)}.down{color:var(--warn)}.empty{font-size:14px;color:var(--muted);padding:12px 0}.linkbtn{font:inherit;font-size:13px;color:var(--muted);background:none;border:0;text-decoration:underline;cursor:pointer;padding:10px 0;margin-top:6px}ol.how,ul.why{padding-left:1.4em;font-size:15px}ol.how li,ul.why li{margin-bottom:8px}.src{display:block;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--text);margin-top:14px}.src:hover{border-color:var(--accent)}.src small{display:block;font-size:12px;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}.src b{font-size:15px;line-height:1.5}details{border-bottom:1px solid var(--border);padding:12px 0}summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details p{font-size:14px;color:#b6c0cf;margin-top:8px}.note{font-size:13px;color:var(--muted);border-left:3px solid var(--border);padding:4px 0 4px 12px}footer{border-top:1px solid var(--border);padding:24px 20px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}footer a:hover{color:var(--text)}</style>
+</head>
+<body>
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / 先に動く5分タイマー</p>
+  <p class="label">TOOL</p>
+  <h1>先に動く5分タイマー</h1>
+  <p class="lead">やる気が出るのを待たずに、5分だけ動いてみるためのツールです。始める前と後の気分を10点満点で記録して、「動いたら気分がどう変わったか」を自分の記録で確かめられます。無料・登録不要です。</p>
+
+  <div class="app" id="app">
+    <div id="v-set">
+      <p class="stepno">STEP 1 / 3</p>
+      <h2>5分だけ、何をやりますか？</h2>
+      <div class="field">
+        <label for="task">やること（小さく、1つだけ）</label>
+        <input type="text" id="task" maxlength="40" placeholder="例: 机の上を1か所だけ片づける" autocomplete="off" enterkeyhint="done">
+        <div class="chips" aria-label="入力例">
+          <button type="button" class="chip">机の上を1か所だけ片づける</button>
+          <button type="button" class="chip">メールを1通だけ返す</button>
+          <button type="button" class="chip">資料を開いて1行だけ書く</button>
+          <button type="button" class="chip">外を5分だけ歩く</button>
+          <button type="button" class="chip">洗い物を3つだけ洗う</button>
+        </div>
+      </div>
+      <div class="field">
+        <span class="lb" id="lb-before">いまの気分</span>
+        <div class="mood"><input type="range" id="before" min="0" max="10" step="1" value="3" aria-labelledby="lb-before"><output for="before" id="before-o">3<small>/10</small></output></div>
+        <div class="scale" aria-hidden="true"><span>0 とても重い</span><span>10 とても軽い</span></div>
+      </div>
+      <button type="button" class="btn" id="start" disabled>5分だけ始める</button>
+      <p class="hint">5分たったら、やめてかまいません。</p>
+    </div>
+
+    <div id="v-run" hidden>
+      <p class="stepno">STEP 2 / 3</p>
+      <h2>手を動かしています</h2>
+      <p class="task" id="run-task"></p>
+      <p class="clock" id="clock" role="timer" aria-live="off">5:00</p>
+      <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+      <button type="button" class="btn" id="pause">一時停止</button>
+      <button type="button" class="btn2" id="finish">ここで終える</button>
+      <p class="hint">途中でやめても記録できます。始められたことに意味があります。</p>
+    </div>
+
+    <div id="v-after" hidden>
+      <p class="stepno">STEP 3 / 3</p>
+      <h2 id="after-h">5分たちました。いまの気分は？</h2>
+      <div class="field">
+        <span class="lb" id="lb-after">動いた後の気分</span>
+        <div class="mood"><input type="range" id="after" min="0" max="10" step="1" value="3" aria-labelledby="lb-after"><output for="after" id="after-o">3<small>/10</small></output></div>
+        <div class="scale" aria-hidden="true"><span>0 とても重い</span><span>10 とても軽い</span></div>
+      </div>
+      <button type="button" class="btn" id="save">記録する</button>
+    </div>
+
+    <div id="v-done" hidden aria-live="polite">
+      <div class="result">
+        <p>今回の気分の変化</p>
+        <p class="big" id="res-big"></p>
+        <p id="res-msg"></p>
+      </div>
+      <button type="button" class="btn2" id="again">もう一度やる</button>
+    </div>
+  </div>
+
+  <section class="s" aria-labelledby="h-log">
+    <h2 id="h-log">あなたの記録</h2>
+    <div class="stats">
+      <div class="stat"><b id="st-n">0</b><span>動いた回数</span></div>
+      <div class="stat"><b id="st-streak">0</b><span>連続日数</span></div>
+      <div class="stat"><b id="st-avg">—</b><span>平均の変化</span></div>
+    </div>
+    <ul class="log" id="log"></ul>
+    <p class="empty" id="empty">まだ記録はありません。上のタイマーで1回目を記録すると、ここに並びます。</p>
+    <button type="button" class="linkbtn" id="clear" hidden>記録をすべて消す</button>
+    <p class="note">記録はこのブラウザの中だけに保存され、外部には送信されません。別の端末とは同期されません。</p>
+  </section>
+
+  <section class="s" aria-labelledby="h-why">
+    <h2 id="h-why">なぜ「先に動く」のか</h2>
+    <p>研究では、気分が良くなってから動くより、先に動いたほうが気分が後から回復しやすいことが確認されています。気分に関係なく行動を増やす方法は「行動活性化」と呼ばれます。</p>
+    <ul class="why">
+      <li>うつ病の外来患者150人の研究で、行動を増やすだけの治療が、考え方まで扱う認知療法と同じ程度の効果を示しました（Jacobsonら, 1996）。</li>
+      <li>症状が重い患者241人の研究で、行動活性化は抗うつ薬と同程度の効果を示しました（Dimidjianら, 2006）。</li>
+      <li>うつ病の診断がない人を含む20件の研究をまとめた分析でも、幸福感を高める効果が見られています（Mazzucchelliら, 2010）。</li>
+    </ul>
+    <a class="src" href="https://research.seadice.win/motivation-before-action-research/"><small>このツールの根拠になった記事</small><b>「やる気が出たらやる」は逆効果なのか。研究でわかった『行動が先』の心理学</b></a>
+  </section>
+
+  <section class="s" aria-labelledby="h-how">
+    <h2 id="h-how">使い方</h2>
+    <ol class="how">
+      <li>やることを1つだけ、できるだけ小さく決めます。「終わらせる」ではなく「始める」ことが目標です。</li>
+      <li>いまの気分を0〜10で選び、「5分だけ始める」を押します。</li>
+      <li>5分たったら、やめても続けてもかまいません。動いた後の気分を選んで記録します。</li>
+      <li>記録が増えると、動く前と後で気分がどう変わることが多いか、平均で見えてきます。</li>
+    </ol>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <details><summary>なぜ「やる気が出てから」ではなく先に動くのですか？</summary><p>うつ病治療の研究を中心に、気分に関係なく先に行動を増やす「行動活性化」が、認知療法や抗うつ薬と同程度の効果を示すことが複数の比較試験で確認されています。やる気は行動の後からついてくることが多いと考えられています。</p></details>
+    <details><summary>記録したデータはどこに保存されますか？</summary><p>お使いのブラウザの中だけに保存され、SEADICEのサーバーを含む外部には送信されません。ブラウザのデータを消すと記録も消えます。別の端末やブラウザとは同期されません。</p></details>
+    <details><summary>5分たって気分が変わらなかったら失敗ですか？</summary><p>失敗ではありません。気分が変わらない日があっても、記録を続けることで「動いた日は少し楽になることが多い」といった自分の傾向に気づきやすくなります。</p></details>
+  </section>
+
+  <p class="note">このツールは治療の代わりではありません。気分の落ち込みが重く、日常生活に支障が出ている場合は、一人で抱え込まず専門家に相談することも選択肢の一つです。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE</p>
+</footer>
+<script>
+(function(){
+var KEY='sakiNiUgoku.v1',DUR=300,$=function(i){return document.getElementById(i)};
+function load(){try{var r=JSON.parse(localStorage.getItem(KEY)||'[]');return Array.isArray(r)?r:[]}catch(e){return[]}}
+function store(r){try{localStorage.setItem(KEY,JSON.stringify(r));return true}catch(e){return false}}
+function ymd(d){return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function show(v){['set','run','after','done'].forEach(function(k){$('v-'+k).hidden=k!==v})}
+function sign(n){return(n>0?'+':'')+n}
+var task=$('task'),startBtn=$('start'),endAt=0,left=DUR,tick=null,cur=null,baseTitle=document.title;
+function bindMood(id){var i=$(id),o=$(id+'-o');i.addEventListener('input',function(){o.innerHTML=i.value+'<small>/10</small>'})}
+bindMood('before');bindMood('after');
+task.addEventListener('input',function(){startBtn.disabled=!task.value.trim()});
+task.addEventListener('keydown',function(e){if(e.key==='Enter'){task.blur()}});
+Array.prototype.forEach.call(document.querySelectorAll('.chip'),function(c){c.addEventListener('click',function(){task.value=c.textContent;startBtn.disabled=false})});
+function fmt(s){s=Math.max(0,Math.ceil(s));return Math.floor(s/60)+':'+('0'+s%60).slice(-2)}
+function render(){$('clock').textContent=fmt(left);$('bar').style.width=((DUR-left)/DUR*100)+'%';document.title=fmt(left)+' | 先に動く5分タイマー'}
+function run(){endAt=Date.now()+left*1000;tick=setInterval(function(){left=(endAt-Date.now())/1000;if(left<=0){left=0;render();finish(true)}else render()},250);$('pause').textContent='一時停止'}
+function stop(){clearInterval(tick);tick=null}
+startBtn.addEventListener('click',function(){var t=task.value.trim();if(!t)return;task.blur();cur={task:t,before:+$('before').value,date:ymd(new Date())};$('run-task').textContent=t;left=DUR;show('run');render();run()});
+$('pause').addEventListener('click',function(){if(tick){stop();$('pause').textContent='再開する'}else run()});
+function finish(full){stop();document.title=baseTitle;cur.sec=Math.round(DUR-left);$('after-h').textContent=full?'5分たちました。いまの気分は？':'おつかれさまでした。いまの気分は？';$('after').value=cur.before;$('after-o').innerHTML=cur.before+'<small>/10</small>';show('after');if(full&&navigator.vibrate){try{navigator.vibrate(200)}catch(e){}}$('after').focus()}
+$('finish').addEventListener('click',function(){finish(false)});
+$('save').addEventListener('click',function(){cur.after=+$('after').value;var r=load();r.unshift(cur);var ok=store(r);var d=cur.after-cur.before;$('res-big').innerHTML=cur.before+' → <span>'+cur.after+'</span>（'+sign(d)+'）';$('res-msg').textContent=(d>0?'動く前より軽くなりました。':d===0?'気分は同じでした。変わらない日があっても大丈夫です。':'今日は重く感じた日でした。それでも始められたことが記録に残りました。')+(ok?'':'（このブラウザでは記録を保存できませんでした）');show('done');paint(r)});
+$('again').addEventListener('click',function(){task.value='';startBtn.disabled=true;show('set');task.focus()});
+$('clear').addEventListener('click',function(){if(confirm('このブラウザに保存した記録をすべて消します。よろしいですか？')){try{localStorage.removeItem(KEY)}catch(e){}paint([])}});
+function streak(r){var days={};r.forEach(function(x){days[x.date]=1});var d=new Date(),n=0;if(!days[ymd(d)])d.setDate(d.getDate()-1);while(days[ymd(d)]){n++;d.setDate(d.getDate()-1)}return n}
+function paint(r){$('st-n').textContent=r.length;$('st-streak').textContent=streak(r);if(r.length){var s=0;r.forEach(function(x){s+=x.after-x.before});var a=Math.round(s/r.length*10)/10;$('st-avg').textContent=sign(a)}else $('st-avg').textContent='—';$('empty').hidden=r.length>0;$('clear').hidden=!r.length;$('log').innerHTML=r.slice(0,20).map(function(x){var d=x.after-x.before;return'<li><span class="d">'+esc(x.date)+' · '+fmt(x.sec||0)+'</span><span>'+esc(x.task)+'</span><span class="m">'+x.before+' → '+x.after+' <span class="'+(d>0?'up':d<0?'down':'')+'">('+sign(d)+')</span></span></li>'}).join('')}
+paint(load());
+})();
+</script>
+</body>
+</html>

@@ -897,6 +897,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://seadice.win/tools/saki-ni-ugoku/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://seadice.win/tools/hiru10/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
