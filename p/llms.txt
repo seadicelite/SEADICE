@@ -30,7 +30,7 @@
 - [ポモドーロタイマー](https://seadice.win/pomodoro/): ヒーリングサウンド付き無料タイマー
 - [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
 - [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット
-- [ブログ](https://seadice.win/blog/): 開発ブログ
+- [ブログ](https://seadice.win/blog/): 開発ブログ。アプリとサイトの運用で起きた障害・数字・設計判断の記録と、Claude AI・Flutter・自動化の入門記事
 - [活動を支援する](https://seadice.win/support/): 開発活動への支援
 - [プライバシーポリシー](https://seadice.win/privacy/): 各アプリのプライバシーポリシー
 
