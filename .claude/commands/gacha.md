@@ -169,10 +169,9 @@ CLAUDE.mdを必ず読んでからHTMLを書く。
 </a>
 ```
 
-**`p/index.html`** の `<section id="tools"` 内 `.explore-grid` divに追加：
-```html
-<a class="explore-card" href="/tools/{slug}/">{ジャンル名}</a>
-```
+**`p/index.html`（ホームページ）は触らない**。トップページは固定運用で、新規アプリは `/tools/` 側の一覧から辿れれば十分。
+
+**`p/sitemap.xml`** に `https://seadice.win/tools/{slug}/` と `https://seadice.win/apps/{slug}/` の `<url>` を追加する（`lastmod` は今日の日付、`priority` は 0.7）。
 
 ## Step 6: Flutterアプリスケルトン生成
 
@@ -480,21 +479,15 @@ Flutterアプリのスケルトン（Step 6）が動く状態になったら、�
 
 > このステップを毎回の機能追加のたびに行わないこと。ja.jsonのキーが変わるたびに9言語訳し直すのはトークンの無駄であり、リリース前の1回にまとめることで無駄な二度手間を避けられる。
 
-## Step 7: firebase.json にrewrite追加
+## Step 7: firebase.json は触らない
 
-`firebase.json` の `**` catch-allの直前に以下を追加する：
-
-```json
-{"source": "/tools/{slug}/**", "destination": "/tools/{slug}/index.html"},
-{"source": "/apps/{slug}/**", "destination": "/apps/{slug}/index.html"},
-{"source": "/privacy/{slug}/**", "destination": "/privacy/{slug}/index.html"}
-```
+`p/tools/{slug}/` などは `index.html` を置いた静的ディレクトリなので、Firebase Hosting がそのまま配信する。rewrite の追加は不要。`"**"` の全体 rewrite は本物の404を返せなくなる（ソフト404）ため絶対に入れない。
 
 ## Step 8: git commit & deploy
 
 ```bash
 cd /Users/hidenori/Developer/SEADICE
-git add p/tools/{slug} p/apps/{slug} p/privacy/{slug} p/tools/index.html p/index.html firebase.json
+git add p/tools/{slug} p/apps/{slug} p/privacy/{slug} p/tools/index.html p/sitemap.xml
 git commit -m "Add {slug}: landing + app pages + privacy policies"
 firebase deploy --only hosting
 ```
