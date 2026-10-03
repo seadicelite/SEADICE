@@ -20,9 +20,10 @@
 - [哲学](https://tetsugaku.seadice.win/): 哲学者・概念・学派を専門用語なしで解説する入門百科（出典つき）
 - [工芸](https://kogei.seadice.win/): 日本の伝統工芸の技術・歴史・後継者問題と、テクノロジーとの交差点をレポートするメディア（出典つき）
 - [RESEARCH](https://research.seadice.win/): 悩みを科学で調べるAIメディア
-- [しぐさと本音](https://umbra.seadice.win/): 恋愛・仕草・相性から本音を読み解くメディア
+- [しぐさと本音](https://umbra.seadice.win/): 恋愛・しぐさ・相性から本音を読み解くメディア
 - [お金と心理](https://ledger.seadice.win/): お金の使い方を行動経済学で読み解くメディア
 - [防犯](https://bohan.seadice.win/): 身近な犯罪を研究と統計で読み解く、何も売らない防犯メディア
+- [犯罪と心理](https://hanzai.seadice.win/): 人はなぜ罪を犯すのか、目撃証言はなぜ間違うのか、虚偽自白はなぜ起きるのか。犯罪をめぐる人の心の仕組みを犯罪心理学・法と心理学の研究と公的統計から読み解くメディア（出典つき・手口の詳細は書かない）
 - [子育てデータ](https://kosodate.seadice.win/): AI時代の子育ての疑問（AIは何歳から・スマホ時間・宿題とAIなど）に、研究と公的データから結論を先に答えるメディア（出典つき・商品紹介なし）
 - [AI時代のメンタルヘルス](https://mentalai.seadice.win/): AI疲れ・仕事を奪われる不安・AIと比べて落ち込む・AI依存など、AI時代の心の負担に研究と公的データから結論を先に答えるメディア（出典つき・診断なし・商品紹介なし）
 
@@ -36,6 +37,7 @@
 - しぐさと本音: https://umbra.seadice.win/llms.txt （全文: https://umbra.seadice.win/llms-full.txt）
 - お金と心理: https://ledger.seadice.win/llms.txt （全文: https://ledger.seadice.win/llms-full.txt）
 - 防犯: https://bohan.seadice.win/llms.txt （全文: https://bohan.seadice.win/llms-full.txt）
+- 犯罪と心理: https://hanzai.seadice.win/llms.txt （全文: https://hanzai.seadice.win/llms-full.txt）
 - 子育てデータ: https://kosodate.seadice.win/llms.txt （全文: https://kosodate.seadice.win/llms-full.txt）
 - AI時代のメンタルヘルス: https://mentalai.seadice.win/llms.txt （全文: https://mentalai.seadice.win/llms-full.txt）
 - 日常の心理学（講座の目次）: https://shinri.seadice.win/llms.txt
