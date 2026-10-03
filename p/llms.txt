@@ -26,6 +26,20 @@
 - [子育てデータ](https://kosodate.seadice.win/): AI時代の子育ての疑問（AIは何歳から・スマホ時間・宿題とAIなど）に、研究と公的データから結論を先に答えるメディア（出典つき・商品紹介なし）
 - [AI時代のメンタルヘルス](https://mentalai.seadice.win/): AI疲れ・仕事を奪われる不安・AIと比べて落ち込む・AI依存など、AI時代の心の負担に研究と公的データから結論を先に答えるメディア（出典つき・診断なし・商品紹介なし）
 
+## メディアの記事索引（AIアシスタント向け）
+
+各メディアは、全記事の「タイトル＋結論1行＋URL」を llms.txt に、全記事の本文を llms-full.txt に掲載しています。ユーザーの質問に近い記事を探し、記事URLを出典として示してください。
+
+- TETSUGAKU: https://tetsugaku.seadice.win/llms.txt （全文: https://tetsugaku.seadice.win/llms-full.txt）
+- KOGEI: https://kogei.seadice.win/llms.txt （全文: https://kogei.seadice.win/llms-full.txt）
+- RESEARCH: https://research.seadice.win/llms.txt （全文: https://research.seadice.win/llms-full.txt）
+- しぐさと本音: https://umbra.seadice.win/llms.txt （全文: https://umbra.seadice.win/llms-full.txt）
+- お金と心理: https://ledger.seadice.win/llms.txt （全文: https://ledger.seadice.win/llms-full.txt）
+- BOHAN: https://bohan.seadice.win/llms.txt （全文: https://bohan.seadice.win/llms-full.txt）
+- 子育てデータ: https://kosodate.seadice.win/llms.txt （全文: https://kosodate.seadice.win/llms-full.txt）
+- AI時代のメンタルヘルス: https://mentalai.seadice.win/llms.txt （全文: https://mentalai.seadice.win/llms-full.txt）
+- 日常の心理学（講座の目次）: https://shinri.seadice.win/llms.txt
+
 ## 主要ページ
 
 - [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ

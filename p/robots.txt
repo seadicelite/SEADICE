@@ -32,4 +32,17 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
+User-agent: Bingbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
 Sitemap: https://seadice.win/sitemap.xml
+# AI向けの案内: https://seadice.win/llms.txt
