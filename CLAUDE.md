@@ -87,22 +87,16 @@ cd /Users/hidenori/Developer/hiragana-ai-worker && wrangler secret put ANTHROPIC
 2. **不具合を報告する**（1のすぐ下、独立したカードで配置）
    - タップで `BugReportFormPage` に遷移。`FeedbackFormPage` と同じ作り（テキストボックス＋送信ボタンのみ）だが、プレースホルダーは「どんな操作をしたときに」「どんな不具合が起きたか」を書いてもらう文言にする
    - 送信先は同じ Firestore `feedback` コレクションを共用し、`source` フィールドを `'{appId}-bug'` にして通常フィードバックと区別する（新規コレクションは作らない）
-3. **App Storeで評価する** / **アプリを共有する** / **活動を支援する** / **お問い合わせ** / **関連アプリ** / **SEADICEのホームページ** / **プライバシーポリシー** / **オープンソースライセンス** / **バージョン情報**（1つのCardにまとめる）
+3. **App Storeで評価する** / **アプリを共有する** / **お問い合わせ** / **関連アプリ** / **SEADICEのホームページ** / **プライバシーポリシー** / **オープンソースライセンス** / **バージョン情報**（1つのCardにまとめる）
 
 ### 「活動を支援する」
 
-広告を一切実装しない方針（上記参照）の代わりに、開発者への支援導線として設置する。配置場所は「アプリを共有する」の次（旧・広告を見て開発者を応援するタイルと同じ位置）。
+**新規アプリには実装しない（2026-09-30〜）。** アプリから外部の寄付ページ（`https://seadice.win/support/` 等）へ誘導すると、任意の寄付でも Guideline 3.1.1（IAP以外の決済導線）でリジェクトされる（`hiru10` 2026-09-22 の実例）。
 
-- `url_launcher` で `https://seadice.win/support/` を開くだけのシンプルな実装。アプリ内に決済ロジック・SDK（Stripe SDK等）は一切持たせない
-- 寄付手段（Buy Me a Coffee等）はWebページ側で一元管理し、複数の募金プラットフォームを増やす場合もアプリ側のコードは変更不要にする（アプリ→Webページ→決済、の一方向の導線に固定する）
-- 実装例:
-  ```dart
-  ListTile(
-    leading: const Icon(Icons.favorite_outline),
-    title: const Text('活動を支援する'),
-    onTap: () => launchUrl(Uri.parse('https://seadice.win/support/')),
-  )
-  ```
+- 新規アプリ: 設定画面に「活動を支援する」タイルを置かない。App Store Connectのサポート URL にも `/support/` を指定しない（`https://seadice.win/` にする）
+- 既存アプリ: 改修時に `seadice.win/support` へのタイルを見つけたら削除する
+- **リリース後に伸びたアプリだけ**、IAP（消耗型の投げ銭）で「活動を支援する」を後付けする。全アプリに課金システムを事前に仕込むことはしない
+- 寄付ページ `seadice.win/support/` 自体はWebサイトからの導線としてのみ残す（アプリからはリンクしない）
 
 ### 1・2（フィードバック・不具合報告）の視覚的な強調ルール
 
@@ -161,7 +155,7 @@ ListTile(
 - `google_mobile_ads` 依存・`RewardedAd`関連コード・設定画面の「広告を見て開発者を応援する」（`SupportDeveloperTile`）は実装しない。既存アプリに残っている場合は改修時に削除する（[/improve-app](../../.claude/commands/improve-app.md)のチェック項目を参照）
 - AI診断の利用上限に達したときも広告視聴で回数を追加する導線は設けない。上限到達時は広告なしの単純なメッセージ（例:「本日の利用回数の上限に達しました。明日またお試しください」）を表示するだけにする
 - Claude APIを使うアプリは、広告ボーナスで水増しされない日次無料回数の上限チェックが唯一のコスト防波堤になる。上限チェックがエラー時に無制限で通す「フェイルオープン」な実装になっていないか必ず確認する
-- 開発者への応援導線が欲しい場合は、広告ではなく寄付ページ（Buy Me a Coffee等）へのリンクなど別の手段を検討する（実装するかは都度判断）
+- 開発者への応援導線はアプリ内に置かない（外部の寄付ページへのリンクは Guideline 3.1.1 でリジェクトされる。上記「活動を支援する」参照。伸びたアプリだけIAP投げ銭を後付けする）
 
 ### Claude APIを使うアプリの利用回数制限（広告なし運用の標準実装）
 
@@ -270,7 +264,7 @@ Future<void> _maybeRequestReview() async {
 
 ### 絵文字ではなくアイコン/イラストを使う
 
-このプロジェクトは全体で絵文字禁止（Flutter Web 読み込み時に絵文字フォントが未ロードで文字化けするため。上記「絵文字禁止」セクション参照）。「絵文字を1〜3個添えて親しみやすくする」という効果は、`Icon(Icons.xxx, color: _accent)` の小アイコンや、キャラクターイラスト（`Image.asset`）に置き換えて実現する。テキスト中に絵文字文字（😊など）を直接書かない。
+このプロジェクトは全体で絵文字禁止（Flutter Web 読み込み時に絵文字フォントが未ロードで文字化けするため。末尾の「絵文字禁止」セクション参照）。「絵文字を1〜3個添えて親しみやすくする」という効果は、`Icon(Icons.xxx, color: _accent)` の小アイコンや、キャラクターイラスト（`Image.asset`）に置き換えて実現する。テキスト中に絵文字文字（😊など）を直接書かない。
 
 ### 実装例
 
@@ -469,35 +463,19 @@ sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 
 ## アーキテクチャ
 
-### 概要
+### サイト（seadice.win）
 
-SEADICE スタジオの **Flutter Web ポートフォリオ**。単一ページのスクロールサイト（Linear/Vercel スタイル）で、モバイルにも対応している。
+`p/` 配下の**静的 HTML** をそのまま Firebase Hosting で配信する（ビルドステップなし）。旧 Flutter Web ポートフォリオ（`lib/main.dart`）は廃止済みで、リポジトリにも残っていない。
 
-- **エントリーポイント**: `lib/main.dart` のみ。全コンポーネントが 1 ファイルに集約されている
-- **ルーティング**: `go_router` + `MaterialApp.router`。ルートは `/`（HomePage）と `/apps/:id`（AppDetailPage）の 2 つ
+- トップページ: `p/index.html`（頼まれない限り触らない）
+- アプリ紹介: `p/apps/{appId}/` / ジャンル別ハブ: `p/tools/{ジャンル}/` / プライバシー: `p/privacy/{appId}/`
+- ブログ: `p/blog/` / 商品比較: `p/reviews/` / 寄付: `p/support/`
+- 公開済みアプリ一覧（関連アプリ選定の正）: `p/released-apps.json`
+- 404: `p/404.html`
 
-### ページ構成（スクロールセクション）
+### Flutterアプリ共通のデザイン定数
 
-`HomePage` が `SingleChildScrollView` でセクションを縦に並べる。各セクションは `RevealOnScroll` でラップされ、スクロール到達時に fade + slide-up アニメーションが発火する。
-
-```
-Navbar（fixed top）
-└── HeroSection           ← fade+slide（600ms）+ タイトルタイピングアニメーション
-└── RevealOnScroll
-    └── AppsSection       ← フィルターチップ付きグリッド
-└── RevealOnScroll
-    └── AboutSection      ← 統計グリッド（apps リストから自動集計）
-└── RevealOnScroll
-    └── ContactSection
-```
-
-### データ管理
-
-`AppItem` モデルのリストを `SharedPreferences` に JSON で保存。`AppStorage.load()` / `AppStorage.save()` で永続化。デフォルトデータは `_defaultApps` 定数（`lib/main.dart` 冒頭）。
-
-管理モードは Navbar の「⚙ 管理」ボタンで ON/OFF。ON 時はカードに「✎ 編集」ボタンが出現し、`AppFormDialog` で CRUD 操作ができる。
-
-### デザインシステム（定数）
+個別のFlutterアプリ（ダークテーマ固定）で使うブランド色。本書中の `_accent` / `_accent2` はこれを指す。
 
 ```dart
 const _bg      = Color(0xFF05050C);   // 背景
@@ -505,12 +483,6 @@ const _accent  = Color(0xFF00FFD1);   // プライマリアクセント（ティ
 const _accent2 = Color(0xFF38BDF8);   // グラデーション用（ブルー）
 const _cardBg  = Color(0xFF0C0C1A);   // カード背景
 ```
-
-フォント: **Syne**（見出し）/ **DM Sans**（本文）/ **Space Mono**（ラベル・モノスペース）
-
-### Navbar のレスポンシブ
-
-幅 700px 未満でハンバーガーメニューに切替。`BackdropFilter` による backdrop blur が適用されている（`dart:ui` が必要）。
 
 ## 日本語フォント（文字化け対策）
 
@@ -561,7 +533,7 @@ Dart 側の FontLoader だけでは初回レンダリングに間に合わない
 </style>
 ```
 
-### 4. `main()` で先読み（Flutter ネイティブ向け保険）
+### 5. `main()` で先読み（Flutter ネイティブ向け保険）
 ```dart
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -572,14 +544,14 @@ Future<void> main() async {
 }
 ```
 
-### 5. `ThemeData` にフォールバック設定
+### 6. `ThemeData` にフォールバック設定
 ```dart
 textTheme: GoogleFonts.dmSansTextTheme(ThemeData.dark().textTheme)
     .apply(fontFamilyFallback: ['NotoSansJP']),
 ```
 
 > Latin フォント（Syne / DM Sans）が優先され、日本語グリフのみ NotoSansJP にフォールバックする。
-> **Web では手順3が必須**。手順4・5だけでは文字化けが再現することがある。
+> **Web では手順3・4が必須**。手順5・6だけでは文字化けが再現することがある。
 
 ### フォント先読みの原則（文字化けゼロにするための順序）
 
@@ -702,19 +674,20 @@ Future<void> main() async {
 - **iOS Deployment Targetは`15.0`にすること（`14.0`以下は使わない、2026-08-09〜）**。Appleは2027年春以降、`MinimumOSVersion`が15.0未満のアプリのアップロード・審査提出を受け付けなくなる（App Store Connectの`ITMS-90068`警告）。`ios/Podfile`の`platform :ios`・`post_install`内の`IPHONEOS_DEPLOYMENT_TARGET`、および`ios/Runner.xcodeproj/project.pbxproj`内の`IPHONEOS_DEPLOYMENT_TARGET`（3箇所）を`15.0`に統一する。`flutter create`直後のデフォルトは`13.0`になっていることがあるので、新規アプリ作成後に必ず確認する（詳細な手順は[gacha.md](.claude/commands/gacha.md)のStep 6参照）。
 - `Color.withOpacity()` は非推奨。`withValues(alpha: x)` を使うこと（Flutter 3.27+）
 - `AnimatedBuilder` の未使用パラメーターは `(_, _)` と書く（Dart 3.7+ のワイルドカード）
-- データ永続化は SharedPreferences（`AppStorage.load()` / `AppStorage.save()`）
-- プライバシーポリシーは `lib/main.dart` 末尾の `_appPrivacyData` と `AppPrivacyPage` で管理
+- Flutterアプリのデータ永続化は SharedPreferences
+- アプリのプライバシーポリシーは `p/privacy/{appId}/index.html`（静的HTML）で管理
 - 共通のデザイン定数・開発者情報は `~/Desktop/CLAUDE.md` を参照
 
 ## SEO 設定（ドメイン: seadice.win）
 
 | ファイル | 役割 |
 |---|---|
-| `web/index.html` | canonical / OGP / JSON-LD / noscript コンテンツ |
-| `web/robots.txt` | クローラー許可 + サイトマップ指定 |
-| `web/sitemap.xml` | 全ページ URL リスト |
-| `web/manifest.json` | PWA 設定 |
-| `firebase.json` | キャッシュヘッダー + セキュリティヘッダー |
+| `p/index.html` | canonical / OGP / JSON-LD / noscript コンテンツ |
+| `p/robots.txt` | クローラー許可 + サイトマップ指定 |
+| `p/sitemap.xml` | 全ページ URL リスト |
+| `p/manifest.json` | PWA 設定 |
+| `p/llms.txt` | AI検索向けのサイト構成・索引 |
+| `firebase.json` | キャッシュヘッダー + セキュリティヘッダー + 301リダイレクト |
 
 **Firebase カスタムドメイン設定（コンソールで手動）:**
 1. Firebase コンソール → Hosting → カスタムドメインを追加
@@ -839,7 +812,7 @@ FAQ を含む記事は `FAQPage` も追加すると AI 引用率が上がる：
 ]}
 ```
 
-**独立メディアサイト（UMBRA方式）では `FAQPage` を任意ではなく標準搭載にする。** 記事末尾に「〜とは？」「〜の違いは？」型の質問を3〜5個、Q&A形式で必ず入れる。AI検索エンジン（Google AI Overview / ChatGPT検索 / Perplexity等）は見出し直下の断定文と同様、Q&Aペアをそのまま引用しやすいため。
+**独立メディアサイト（しぐさと本音などのAIメディア）では `FAQPage` を任意ではなく標準搭載にする。** 記事末尾に「〜とは？」「〜の違いは？」型の質問を3〜5個、Q&A形式で必ず入れる。AI検索エンジン（Google AI Overview / ChatGPT検索 / Perplexity等）は見出し直下の断定文と同様、Q&Aペアをそのまま引用しやすいため。
 
 **`author` はメディアの編集部名義にする**（個人名を出さない）。`publisher` と合わせてメディアブランドの一貫性を保つ。
 
@@ -870,7 +843,7 @@ AI は整理された情報をそのまま引用しやすい。
 | tool-cta（アプリへのリンク）があるか | 記事末尾に必須 |
 | JSON-LD に BlogPosting + BreadcrumbList があるか | 必須 |
 | datePublished / dateModified が記入されているか | `YYYY-MM-DD` 形式 |
-| firebase.json に rewrite を追加したか | デプロイ前に必須 |
+| sitemap.xml と ブログ一覧に追加したか | デプロイ前に必須（静的ディレクトリなので firebase.json の rewrite は不要） |
 
 ### 記事を書いた後の修正フロー
 
@@ -878,7 +851,7 @@ AI は整理された情報をそのまま引用しやすい。
 2. 結論が h1 直後にない → 冒頭 `<p>` を追加・修正
 3. 数値・固有名詞が少ない → 具体的な数字に置き換え
 4. 箇条書きがない h2 → `<ul>` か `<ol>` を追加
-5. firebase.json の rewrite を確認して追加 → `firebase deploy --only hosting`
+5. sitemap.xml・ブログ一覧への追加を確認 → `firebase deploy --only hosting`
 
 ---
 
