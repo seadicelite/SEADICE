@@ -4,7 +4,7 @@ SEADICEサイト用に、Claude APIを使ったAIアプリを1本生成してサ
 
 > **必読（このスキルのどのステップを実行する前にも毎回）**: `/Users/hidenori/Developer/SEADICE/CLAUDE.md` を必ず読み込んでから作業を始めること。ランディングページ（HTML）を書くときだけでなく、Flutterアプリのコード生成、App Storeメタデータ作成、デザイン差別化の判断など、このスキルの**全ステップ**でCLAUDE.mdの規約（フォント、絵文字禁止、設定画面の標準構成、AI利用回数制限、App Store審査対策、キャッシュ設定など）に従う。海外向け日本文化アプリなど、他の企画メモ（`海外向け日本文化アプリ方針`等）に沿って作る場合も、CLAUDE.mdの規約が土台として優先される。
 >
-> **⚠️ 広告は一切実装しない（重要・頻出ミス）**: このファイル内には旧方針時代のAdMob関連の記述（`google_mobile_ads`依存、インタースティシャル/リワード広告、「広告を見る」ボタン等）が随所に残っているが、**CLAUDE.mdの「広告は一切実装しない」方針（2026-07-30〜、AdMobアカウント停止のため）が常に優先される。** 以下に出てくるAdMob関連の記述はすべて無視し、広告コード・広告文言・AdMob依存を一切追加しないこと。AI利用上限に達した場合は「本日の利用回数の上限に達しました。明日またお試しください」という広告なしメッセージのみを表示する（CLAUDE.mdの「Claude APIを使うアプリの利用回数制限」参照）。2026-08-08、この矛盾に気づかず新規アプリにAdMobを実装してしまいユーザー指摘で修正した実例があるため、繰り返さないこと。
+> **広告は一切実装しない**: CLAUDE.mdの「広告は一切実装しない」方針（2026-07-30〜、AdMobアカウント停止のため）に従い、`google_mobile_ads`依存・広告コード・広告文言・「広告を見る」導線を一切追加しない。旧AdMob手順は2026-10-03に本ファイルから削除済み。
 >
 > **⚠️ iOS Deployment Targetは15.0固定（重要・頻出ミス）**: Step 6でPodfileに`IPHONEOS_DEPLOYMENT_TARGET = '15.0'`を追加するだけでなく、`ios/Runner.xcodeproj/project.pbxproj`内の同名キー（Debug/Release/Profileの3箇所）も必ず`grep -n "IPHONEOS_DEPLOYMENT_TARGET" ios/Runner.xcodeproj/project.pbxproj`で確認し、`13.0`や`14.0`のままなら`15.0`に置換すること（`flutter create`直後は`13.0`がデフォルト）。やめラボでこのチェックが漏れ、Apple審査後に`ITMS-90068`警告（MinimumOSVersion too low）を受けた実例がある。`/release`でipaをビルドする前にも同じgrepで再確認する。
 
@@ -129,7 +129,7 @@ CLAUDE.mdを必ず読んでからHTMLを書く。
 
 **Section 3: 機能一覧**（5つのカードグリッド。各カードにインラインSVGの小アイコンを添える。番号だけの無機質な羅列にしない）
 
-**Section 4: 広告について**（AdMob バナー・インタースティシャル・リワード。AI診断の1日利用回数制限とリワード広告での追加解放についても明記）
+**Section 4: 料金・利用回数について**（広告なし・無料であること。AI機能がある場合は1日の無料利用回数も明記）
 
 **Section 5: 今後実装予定の機能**（3〜5個）
 
@@ -156,7 +156,7 @@ CLAUDE.mdを必ず読んでからHTMLを書く。
 
 `p/privacy/{slug}/index.html` を作成する。
 
-含める内容：アプリ名、開発者（SEADICE）、連絡先 hi@seadice.win、収集データ、AdMob サードパーティ、**Claude API（Anthropic）への送信内容の明記**、データ削除方法。日本語。同じSEADICEデザイン。favicon `/favicon.png`。
+含める内容：アプリ名、開発者（SEADICE）、連絡先 hi@seadice.win、収集データ（広告SDKは使用しない）、**Claude API（Anthropic）への送信内容の明記**、データ削除方法。日本語。同じSEADICEデザイン。favicon `/favicon.png`。
 
 ## Step 5: インデックスページ更新
 
@@ -190,7 +190,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_mobile_ads: ^9.0.0
   shared_preferences: ^2.5.2
   intl: ^0.19.0
   url_launcher: ^6.3.0
@@ -232,8 +231,6 @@ assets/i18n/
   "version": "バージョン 1.0.0",
   "privacy_policy": "プライバシーポリシー",
   "contact": "お問い合わせ",
-  "about_ads": "広告について",
-  "ads_description": "AdMob広告の説明文",
   "language": "言語",
   "error_occurred": "エラーが発生しました",
   "no_data": "まだデータがありません",
@@ -289,15 +286,8 @@ if (savedLang != null) {
 - UIテキストはすべて `L.t('key')` で参照（ハードコード禁止）
 - BottomNavigation（**4タブ**: アプリ内容に合わせた機能3つ + 最後のタブに「設定」）
 - NotoSansJPフォントフォールバック
-- AdMob（テストID使用、**バナー広告は実装しない**）:
-  - App ID: `ca-app-pub-3940256099942544~1458002511`
-  - インタースティシャル: `ca-app-pub-3940256099942544/4411468910`
-  - リワード: `ca-app-pub-3940256099942544/1712485313`
-- インタースティシャルをAI診断実行等の適切なタイミングで表示（表示間隔は最低30秒以上空ける。連続表示はリジェクト原因になる）
-- リワードを「広告を見る」ボタンで追加AI診断回数を解放（下記「AI利用回数の制限」参照）
+- 広告は実装しない（AdMob等の広告SDK・広告ウィジェットを入れない）
 - `main()`で必ず`WidgetsFlutterBinding.ensureInitialized()`を呼ぶ
-- **`runApp()` を先に呼び、その後 `try { await MobileAds.instance.initialize(); } catch (_) {}`**（クラッシュ防止）
-- `AdWidget` は `SizedBox(height: 50)` でラップ
 
 ### App Store審査（Guideline 2.1）対策：必須実装
 - **空状態UI**: データが0件のとき「まだデータがありません」などのメッセージを表示。絶対にエラーやクラッシュにしない
@@ -311,7 +301,6 @@ if (savedLang != null) {
   }
   ```
 - **ローディング状態**: 非同期処理中は`CircularProgressIndicator`を表示する
-- **AdMob初期化のみ握り潰しOK**: `MobileAds.instance.initialize()`のcatchだけは例外的に`catch (_) {}`でよい
 
 ### iPhone・iPad・PCレスポンシブ対応：必須実装
 - `LayoutBuilder`でブレークポイントを判定してレイアウトを切り替える
@@ -355,7 +344,6 @@ class SettingsPage extends StatelessWidget {
   ).toString()),
   ```
   > 過去に `seadice.home@gmail.com` を使っていたが `hi@seadice.win` に統一した。新規アプリは必ず新しい方を使う。
-- **広告について**: AdMobのテスト広告が表示されている旨を説明する `Text` ウィジェット
 - **言語選択**: DropdownButtonまたはListTileで対応10言語（日本語・英語・簡体字中国語・繁体字中国語・韓国語・フランス語・ドイツ語・スペイン語・イタリア語・ポルトガル語）から選択し `SharedPreferences` に保存、即座にUIに反映
 
 ルール：
@@ -389,9 +377,10 @@ class SettingsPage extends StatelessWidget {
 
 Claude APIは呼び出しごとに課金が発生するため、無制限に使わせない。以下を標準実装とする：
 
-- 1日の無料診断回数の上限を設ける（目安: `_dailyFreeLimit = 5`）
-- `SharedPreferences`に`usage_date`（`yyyy-MM-dd`）・`usage_count`・`usage_bonus`を保存し、保存日と今日の日付が異なればカウントをリセットする
-- 上限に達したら診断実行前にダイアログを表示し、「広告を見る」でリワード広告視聴後に追加回数（目安: `_bonusPerAd = 3`）を付与する
+- 1日の無料診断回数の上限を設ける（目安: `_dailyFreeLimit = 3`。CLAUDE.mdの「Claude APIを使うアプリの利用回数制限」に従う）
+- `SharedPreferences`に最終利用日（`yyyy-MM-dd`）と当日のカウントを保存し、保存日と今日の日付が異なればカウントをリセットする。キー名には`_appId`を含める
+- 判定処理で例外が起きたら上限到達扱いにする（フェイルクローズ）
+- 上限に達したら「本日の利用回数の上限に達しました。明日またお試しください」とだけ表示する（広告視聴で回数を追加する導線は作らない）
 - 上限到達ダイアログ・残り回数表示のUIテキストは`L.t()`で管理する
 
 **flutter create でプロジェクト初期化とBundle ID設定**:
@@ -401,20 +390,12 @@ cd ~/Developer/{ジャンル名}系/{slug}
 flutter create --org win.seadice --project-name {slug} --platforms ios,android,web . --quiet
 ```
 
-`ios/Runner/Info.plist` の `</dict>` の直前に以下を追加（AdMobクラッシュ防止）：
-```xml
-<key>GADApplicationIdentifier</key>
-<string>ca-app-pub-3940256099942544~1458002511</string>
-<key>GADIsAdManagerApp</key>
-<false/>
-```
-
-輸出コンプライアンスの申告も同時に追加する（**重要**）：
+`ios/Runner/Info.plist` の `</dict>` の直前に輸出コンプライアンスの申告を追加する（**重要**）：
 ```xml
 <key>ITSAppUsesNonExemptEncryption</key>
 <false/>
 ```
-> このアプリはHTTPS/TLS（Claude APIプロキシ・AdMob等）以外の独自暗号化を実装していないため`false`でよい。これがないと**App Store Connectへのアップロードごとに**「輸出コンプライアンス情報が存在しません」というエラーで審査に進めなくなり、毎回手動で質問に答える必要が生じる。
+> このアプリはHTTPS/TLS（Claude APIプロキシ等）以外の独自暗号化を実装していないため`false`でよい。これがないと**App Store Connectへのアップロードごとに**「輸出コンプライアンス情報が存在しません」というエラーで審査に進めなくなり、毎回手動で質問に答える必要が生じる。
 
 `url_launcher` で `mailto:` や外部サイトを開く場合、`LSApplicationQueriesSchemes` の宣言も必須（**重要**）：
 ```xml
@@ -469,7 +450,7 @@ sips -s format png -z 192 192 "$ICON_SRC" --out web/icons/Icon-maskable-192.png
 sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 ```
 
-**README.md**: アプリ概要・ターゲット・機能・マネタイズ（AdMob）を記載。
+**README.md**: アプリ概要・ターゲット・機能・マネタイズ（広告なし・無料）を記載。
 
 ## Step 6.5: 機能ブレインストーム→実装ループ（3周・必須）
 
@@ -532,5 +513,4 @@ Flutterアプリ（`~/Developer/{ジャンル名}系/{slug}/`）はSEADICEリポ
 - 絵文字禁止
 - faviconは常に `/favicon.png`（絶対パス）
 - 戻るリンクは `https://seadice.win/`（絶対URL）
-- `MobileAds.instance.initialize()` は必ず `runApp()` の後にtry-catchで呼ぶ
 - `CFBundleDisplayName` は必ず日本語アプリ名を設定する
