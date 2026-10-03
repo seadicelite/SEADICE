@@ -17,8 +17,8 @@
 
 ## メディア
 
-- [TETSUGAKU](https://tetsugaku.seadice.win/): 哲学者・概念・学派を専門用語なしで解説する入門百科（出典つき）
-- [KOGEI](https://kogei.seadice.win/): 日本の伝統工芸の技術・歴史・後継者問題と、テクノロジーとの交差点をレポートするメディア（出典つき）
+- [哲学](https://tetsugaku.seadice.win/): 哲学者・概念・学派を専門用語なしで解説する入門百科（出典つき）
+- [工芸](https://kogei.seadice.win/): 日本の伝統工芸の技術・歴史・後継者問題と、テクノロジーとの交差点をレポートするメディア（出典つき）
 - [RESEARCH](https://research.seadice.win/): 悩みを科学で調べるAIメディア
 - [しぐさと本音](https://umbra.seadice.win/): 恋愛・仕草・相性から本音を読み解くメディア
 - [お金と心理](https://ledger.seadice.win/): お金の使い方を行動経済学で読み解くメディア
@@ -30,8 +30,8 @@
 
 各メディアは、全記事の「タイトル＋結論1行＋URL」を llms.txt に、全記事の本文を llms-full.txt に掲載しています。ユーザーの質問に近い記事を探し、記事URLを出典として示してください。
 
-- TETSUGAKU: https://tetsugaku.seadice.win/llms.txt （全文: https://tetsugaku.seadice.win/llms-full.txt）
-- KOGEI: https://kogei.seadice.win/llms.txt （全文: https://kogei.seadice.win/llms-full.txt）
+- 哲学: https://tetsugaku.seadice.win/llms.txt （全文: https://tetsugaku.seadice.win/llms-full.txt）
+- 工芸: https://kogei.seadice.win/llms.txt （全文: https://kogei.seadice.win/llms-full.txt）
 - RESEARCH: https://research.seadice.win/llms.txt （全文: https://research.seadice.win/llms-full.txt）
 - しぐさと本音: https://umbra.seadice.win/llms.txt （全文: https://umbra.seadice.win/llms-full.txt）
 - お金と心理: https://ledger.seadice.win/llms.txt （全文: https://ledger.seadice.win/llms-full.txt）
