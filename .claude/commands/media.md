@@ -18,7 +18,7 @@ argument-hint: <slug 例: research> [--draft] [トピック]
 5. 配線と写真（スクリプトで行う。一覧やsitemapを手で編集しない）:
    - `media/{slug}-posts.json` の先頭に `{"slug","category"(設定のcategoriesから),"date","title","summary"(60字前後)}` を1件追加する。
    - **写真は必須（キー不要）。写真なしで公開しない。** 手順・リトライの基準は `quality.md`「画像は必須」を参照。`python3 media/photo.py {slug} {記事slug} "<英語の検索語 2〜4語>"`（検索語は「物・場所・道具」に寄せる。"person" 等の人物語は避ける）。
-   - `python3 media/build.py {slug}` で一覧ページとsitemapを再生成する。
+   - `python3 media/build.py {slug}` で一覧ページとsitemapを再生成する。写真は build.py が自動で自サイト配信に切り替える（`media/localize_images.py`。外部画像の直リンクはしない。作者・ライセンス表示はそのまま）。
 6. **公開前の自己検査（人の目が無い前提。1つでも落ちたらその記事は公開せず破棄して次のトピックへ）**:
    - 記事内の全出典URLを WebFetch し直し、記事の数値・主張が出典本文に書かれていることを1件ずつ照合した。
    - 「私たちの研究で」等の一次研究表現、断定・医療行為の助言、絵文字、開発側事情（課金・価格）が無い。
