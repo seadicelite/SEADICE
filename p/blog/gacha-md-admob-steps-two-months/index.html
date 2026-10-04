@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>広告ゼロ方針から2か月、アプリ生成コマンドにはAdMobの手順が残っていた | SEADICE</title>
+<meta name="description" content="2026年7月30日に広告を一切入れない方針に変えたが、新規アプリを作るコマンドgacha.mdにはAdMobの実装手順が10月3日まで残っていた。冒頭の注意書きで上書きする運用では8月に2本のアプリへ広告が入り、最終的に手順そのものを削除した記録。">
+<link rel="canonical" href="https://seadice.win/blog/gacha-md-admob-steps-two-months/">
+<meta property="og:title" content="広告ゼロ方針から2か月、アプリ生成コマンドにはAdMobの手順が残っていた | SEADICE">
+<meta property="og:description" content="2026年7月30日に広告を一切入れない方針に変えたが、新規アプリを作るコマンドgacha.mdにはAdMobの実装手順が10月3日まで残っていた。冒頭の注意書きで上書きする運用では8月に2本のアプリへ広告が入り、最終的に手順そのものを削除した記録。">
+<meta property="og:url" content="https://seadice.win/blog/gacha-md-admob-steps-two-months/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="広告ゼロ方針から2か月、アプリ生成コマンドにはAdMobの手順が残っていた | SEADICE">
+<meta name="twitter:description" content="2026年7月30日に広告を一切入れない方針に変えたが、新規アプリを作るコマンドgacha.mdにはAdMobの実装手順が10月3日まで残っていた。冒頭の注意書きで上書きする運用では8月に2本のアプリへ広告が入り、最終的に手順そのものを削除した記録。">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"広告ゼロ方針から2か月、アプリ生成コマンドにはAdMobの手順が残っていた","datePublished":"2026-10-04","dateModified":"2026-10-04","author":{"@type":"Organization","name":"SEADICE"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win"},"url":"https://seadice.win/blog/gacha-md-admob-steps-two-months/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://seadice.win/blog/"},{"@type":"ListItem","position":3,"name":"gacha.mdにAdMob手順が残っていた","item":"https://seadice.win/blog/gacha-md-admob-steps-two-months/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:12px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:12px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+<style id="blog-theme">/*blog-theme:v1*/body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;font-feature-settings:"palt" 1}::selection{background:rgba(0,255,209,.28);color:#fff}article{max-width:720px;padding:112px 24px 88px}.breadcrumb{font-size:12px;letter-spacing:.04em;margin-bottom:28px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tag{border-radius:999px;padding:3px 12px;font-weight:700;letter-spacing:.12em;background:rgba(0,255,209,.06);margin-bottom:18px}h1{font-size:clamp(25px,5.2vw,38px);line-height:1.45;letter-spacing:.01em;margin-bottom:20px}.meta{display:flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:.04em;margin-bottom:48px;padding-bottom:28px}.meta::before{content:"";width:24px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--accent2))}.body{font-size:16.5px;letter-spacing:.03em}.body>p:first-child{font-size:17.5px;line-height:2;color:#e2e8f0;margin-top:0}.body p{margin:0 0 1.5em;font-size:16.5px;line-height:2;color:#cfd8e3}.body h2{position:relative;font-size:clamp(20px,3.6vw,24px);line-height:1.5;letter-spacing:.02em;color:#f1f5f9;margin:64px 0 20px;padding:0 0 14px;border-bottom:1px solid var(--border)}.body h2::after{content:"";position:absolute;left:0;bottom:-1px;width:56px;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent2))}.body h3{font-size:18px;line-height:1.6;color:#f1f5f9;margin:40px 0 12px;padding-left:14px;border-left:3px solid var(--accent)}.body ul,.body ol{margin:0 0 1.6em;padding-left:1.4em}.body li{font-size:16px;line-height:1.9;color:#cfd8e3;margin:.5em 0;padding-left:.2em}.body ul li::marker{color:var(--accent)}.body ol li::marker{color:var(--accent);font-weight:700}.body strong{color:#fff;background:linear-gradient(transparent 62%,rgba(0,255,209,.2) 62%)}.body a:not(.tool-cta):not(.back){color:#7dd3fc;text-decoration:underline;text-decoration-color:rgba(125,211,252,.4);text-underline-offset:3px;transition:text-decoration-color .2s}.body a:not(.tool-cta):not(.back):hover{text-decoration-color:#7dd3fc}.body code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:#12122a;border:1px solid #23234a;border-radius:6px;padding:.12em .45em;color:#e2e8f0;word-break:break-all}.body pre{background:#0a0a18;border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin:0 0 1.6em;overflow-x:auto;font-size:13.5px;line-height:1.7}.body pre code{background:none;border:0;padding:0;word-break:normal}.body blockquote{margin:0 0 1.6em;padding:4px 0 4px 20px;border-left:3px solid var(--accent2);color:#94a3b8}.body hr{margin:56px auto;width:56px;border-top:2px solid var(--border)}.body img{max-width:100%;height:auto;border-radius:12px}.note{background:linear-gradient(135deg,rgba(0,255,209,.07),rgba(56,189,248,.04));border:1px solid rgba(0,255,209,.18);border-left:3px solid var(--accent);border-radius:12px;padding:18px 22px;margin:0 0 1.6em}.note p{font-size:15px;line-height:1.9;color:#b6c2d1;margin:0}.table-wrap{margin:0 0 1.8em;border:1px solid var(--border);border-radius:12px}.table-wrap table{font-size:14.5px}.table-wrap th{font-size:13px;letter-spacing:.04em;padding:12px 16px;white-space:nowrap}.table-wrap td{padding:12px 16px;line-height:1.7}.table-wrap tbody tr:nth-child(even) td{background:rgba(255,255,255,.015)}.tool-cta{position:relative;border:1px solid rgba(0,255,209,.35);border-radius:16px;padding:22px 26px;margin:48px 0 8px;background:linear-gradient(135deg,rgba(0,255,209,.08),rgba(56,189,248,.05)),var(--card);transition:border-color .2s,transform .2s}.tool-cta:hover{border-color:var(--accent);transform:translateY(-2px)}.tool-cta p{margin:0}.tool-cta p:last-child{line-height:1.7}.back{margin-top:40px;border:1px solid var(--border);border-radius:999px;padding:10px 18px;transition:border-color .2s,color .2s}.back:hover{border-color:var(--muted)}@supports (animation-timeline:scroll()){body::after{content:"";position:fixed;top:56px;left:0;right:0;height:2px;z-index:101;background:linear-gradient(90deg,var(--accent),var(--accent2));transform-origin:0 50%;transform:scaleX(0);animation:blog-progress linear both;animation-timeline:scroll(root)}@keyframes blog-progress{to{transform:scaleX(1)}}}@media (max-width:600px){article{padding:96px 20px 72px}.body,.body p{font-size:16px;line-height:1.95}.body>p:first-child{font-size:16.5px}.body li{font-size:15.5px}.body h2{margin-top:52px}}@media (prefers-reduced-motion:reduce){body::after{display:none}.tool-cta:hover{transform:none}}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / gacha.mdにAdMob手順が残っていた</p>
+  <span class="tag">開発</span>
+  <h1>広告ゼロ方針から2か月、<br>アプリ生成コマンドにはAdMobの手順が残っていた</h1>
+  <p class="meta"><time datetime="2026-10-04">2026-10-04</time> · SEADICE</p>
+  <div class="body">
+
+<p>SEADICEは2026年7月30日に「アプリに広告を一切入れない」方針に変えた。しかし新規アプリを作るときにAIが読むコマンドファイル<code>gacha.md</code>には、AdMobの実装手順が10月3日まで残っていた。8月には実際に2本のアプリへ広告が入り、注意書きを足す対応では止めきれなかったため、最終的に手順そのものを削除した。</p>
+
+<h2>gacha.mdに残っていた広告の手順</h2>
+<p>残っていたのは説明文ではなく、そのままコピーできる具体的な手順だった。</p>
+<ul>
+<li><code>pubspec.yaml</code>への<code>google_mobile_ads: ^9.0.0</code>の追加</li>
+<li>AdMobのテスト用App ID・インタースティシャル・リワード広告のユニットID</li>
+<li><code>Info.plist</code>への<code>GADApplicationIdentifier</code>の追加</li>
+<li>AI診断の上限(1日5回)に達したら「広告を見る」で3回追加するリワード広告の導線</li>
+<li>App Store説明文の「広告について」の節と、プライバシーポリシーの「AdMob サードパーティ」の記載</li>
+</ul>
+<p>方針を書いたCLAUDE.mdは7月30日に更新していたが、毎回の作業で実際に手順として読まれるのは<code>gacha.md</code>の方だった。</p>
+
+<h2>注意書きでは止まらなかった</h2>
+<p>8月8日、新規アプリ<code>yofukashi-quest</code>と<code>self-compassion</code>の2本に、インタースティシャル広告と「広告を見る」ボタンが実装されていた。</p>
+<p>このとき<code>gacha.md</code>の冒頭に「このファイル内のAdMob関連の記述はすべて無視する」という警告を足した。手順の本体は消さなかった。その結果、ファイルの中には「実装する手順」と「無視せよという警告」が同時に存在する状態が約2か月続いた。</p>
+<div class="table-wrap"><table>
+<thead><tr><th>日付</th><th>出来事</th></tr></thead>
+<tbody>
+<tr><td>7月30日</td><td>AdMobアカウント停止を受け、CLAUDE.mdに「広告は一切実装しない」を追加</td></tr>
+<tr><td>8月8日</td><td>gacha.mdの手順どおりに2本のアプリへ広告が入る。冒頭に警告文を追加</td></tr>
+<tr><td>10月3日</td><td>CLAUDE.mdの見直しに続けてgacha.mdを点検し、AdMob手順を削除</td></tr>
+</tbody></table></div>
+
+<h2>10月3日に直した内容</h2>
+<p>広告関連の手順を削除し、残った記述をCLAUDE.mdの現行ルールに揃えた。変更は2回のコミットで、合計44行を削除して17行を追加した。</p>
+<ol>
+<li>AdMobの依存・ユニットID・<code>Info.plist</code>の設定・初期化コードの手順を削除</li>
+<li>AI利用回数の上限を「1日5回+広告で3回追加」から、CLAUDE.mdと同じ「1日3回、判定に失敗したら止める(フェイルクローズ)」に変更</li>
+<li>App Store説明文の「広告について」を「料金・利用回数について(広告なし・無料)」に差し替え</li>
+<li>冒頭の長い警告文を「旧AdMob手順は削除済み」という1行に短縮</li>
+</ol>
+<p>同じ点検で、<code>firebase.json</code>にrewriteを追加する手順と、トップページにリンクを足す手順も見つかった。どちらも<a href="/blog/claude-md-six-stale-rules/">前日のCLAUDE.md見直し</a>で不要・禁止と整理した内容だったので、代わりに<code>sitemap.xml</code>へ追加する手順に置き換えた。</p>
+
+<div class="note">
+<p>方針を変えたら、方針を書いたファイルだけでなく、その方針で作業する手順書側を検索する。注意書きで上書きするのは一時的な対応にとどめ、古い手順は消す。</p>
+</div>
+
+<a class="tool-cta" href="/blog/admob-privacy-pages-219-of-258/">
+  <p>Related</p>
+  <p>広告ゼロ方針から2ヶ月、プライバシーポリシー258本中219本がまだAdMobについて書いていた →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE</p></footer>
+</body>
+</html>
