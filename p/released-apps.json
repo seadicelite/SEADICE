@@ -35,6 +35,13 @@
       "genre": "boueki",
       "appStoreId": "6788717337",
       "appStoreUrl": "https://apps.apple.com/app/id6788717337"
+    },
+    {
+      "id": "dokugaku-schedule",
+      "name": "独学スケジュールメーカー",
+      "genre": "study",
+      "appStoreId": "6813728815",
+      "appStoreUrl": "https://apps.apple.com/app/id6813728815"
     }
   ]
 }
