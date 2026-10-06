@@ -437,13 +437,27 @@ sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 
 ### 5. 審査通過後のアプリページ更新（ユーザーからの一言トリガー）
 
-新規アプリ作成時点では `p/apps/{appId}/index.html` のバッジは `App Store近日公開` のまま据え置いてよい（App Store IDが未定のため）。**ユーザーが「〇〇（アプリ名）審査通った」と伝えてきたタイミングで**、以下をまとめて対応する。
+新規アプリ作成時点ではアプリページ（`p/tools/{appId}/`。`p/apps/` は大半が削除済み）は `App Store近日公開` のまま据え置いてよい（App Store IDが未定のため）。**ユーザーが「〇〇（アプリ名）審査通った」と伝えてきたタイミングで**、以下をまとめて対応する。
 
-- App Store IDを確認（不明ならユーザーに聞く）
-- バッジ `App Store近日公開` を実際の公開表記に変更
-- 「App Storeで見る」ボタン（`https://apps.apple.com/app/id{App Store ID}`）を目立つ位置に追加
-- `p/released-apps.json` にそのアプリを追加する（今後作る他アプリの「関連アプリ」欄の選定元になるため必須）
+- App Store IDは**ユーザーに聞かない**。`python3 scripts/check_released_apps.py` を実行すると、Bundle ID（`win.seadice.{appId}` / camelCase版）から iTunes Lookup API で公開済みアプリを総当たりで見つけ、`p/released-apps.json` に追加する（今後作る他アプリの「関連アプリ」欄の選定元になるため必須）。Bundle IDが命名規則と違う場合は `curl "https://itunes.apple.com/lookup?bundleId={Bundle ID}"` で直接引く
+- アプリページの「近日公開」を公開表記に変え、「App Storeで見る」ボタン（`https://apps.apple.com/app/id{ID}?ct=seadice`）を付ける
+- **メディアとの相互送客**（下記「アプリとメディアの相互送客」）を設定する
 - `firebase deploy --only hosting` でデプロイ
+
+### 6. アプリとメディアの相互送客（2026-10-06〜）
+
+目的は「メディアを読んだ人がアプリを使い、アプリを使った人がメディアに戻る」往復を作ること。仕組みは `seadice-media/media/apps.py`。
+
+**メディア → アプリ**（審査通過時に設定。アプリの再申請は不要）
+- テーマが合うメディアの設定 `seadice-media/media/{slug}.json` の `apps` 配列に1件追加する（`id` / `name` / `appStoreId` / `icon` / `catch` / `hubLead` / `theme` / `articles`）。アイコンは128pxのWebPにして `sites/{slug}/img/apps/{appId}.webp` に置く
+- `articles` には**テーマが合う記事のslugだけ**を明示的に並べる。カテゴリ丸ごとにはしない。アプリと矛盾する記事（例: 通知アプリを「通知を減らす」記事）には付けない
+- `python3 media/build.py {slug}` で、対象記事の関連記事の直前にアプリカードが入り、アプリ用ページ `/apps/{appId}/` が生成される。新しい記事は、執筆時に `posts.json` の `"app"` フィールドと本文中の1行リンクで付く（`relatedApps` の指示）
+- 1記事1アプリまで。App Storeリンクには `?ct={メディアslug}` を付け、App Store Connect のアナリティクスでどのメディアから来たかを見る
+- `p/released-apps.json` の該当アプリに `"media": [{"site": ..., "hub": ...}]` を書き、`p/tools/{appId}/` からもアプリ用ページにリンクする
+
+**アプリ → メディア**（次のアップデートで実装。新規アプリは最初から）
+- アプリに入れるURLは**メディアのアプリ用ページ `https://{メディア}/apps/{appId}/` の1本だけ**。個別記事のURLは入れない（記事はアプリ用ページ側で増えていくため、アプリを再申請せずに中身が育つ）
+- 置き場所は2か所: ①コア機能を終えた直後の画面に小さなテキストリンク（例:「なぜ深呼吸で落ち着くの？ 解説を読む」。毎回出さず3回目以降など控えめに）②設定画面の「関連アプリ」の上に「もっと知る（SEADICEのメディア）」
 
 事前に「近日公開」のまま作っておき、公開確定後にこの一括更新だけ行うことで、リリース申請時点での二度手間を避ける。
 

@@ -42,6 +42,138 @@
       "genre": "study",
       "appStoreId": "6813728815",
       "appStoreUrl": "https://apps.apple.com/app/id6813728815"
+    },
+    {
+      "id": "active-recall",
+      "name": "思い出しトレーニング",
+      "genre": "",
+      "appStoreId": "6801937769",
+      "appStoreUrl": "https://apps.apple.com/app/id6801937769"
+    },
+    {
+      "id": "book-quiz",
+      "name": "Book Quiz",
+      "genre": "",
+      "appStoreId": "6809091934",
+      "appStoreUrl": "https://apps.apple.com/app/id6809091934"
+    },
+    {
+      "id": "coffee-taste",
+      "name": "コーヒー診断 わたしの一杯",
+      "genre": "",
+      "appStoreId": "6794831454",
+      "appStoreUrl": "https://apps.apple.com/app/id6794831454"
+    },
+    {
+      "id": "curiosity-type",
+      "name": "5次元好奇心診断",
+      "genre": "",
+      "appStoreId": "6802216752",
+      "appStoreUrl": "https://apps.apple.com/app/id6802216752"
+    },
+    {
+      "id": "dopa-quest",
+      "name": "DOPAMINE QUEST",
+      "genre": "",
+      "appStoreId": "6813295947",
+      "appStoreUrl": "https://apps.apple.com/app/id6813295947"
+    },
+    {
+      "id": "dopamine-detox",
+      "name": "ドーパミンハック",
+      "genre": "",
+      "appStoreId": "6801960694",
+      "appStoreUrl": "https://apps.apple.com/app/id6801960694"
+    },
+    {
+      "id": "evidence",
+      "name": "Evidence",
+      "genre": "",
+      "appStoreId": "6814862760",
+      "appStoreUrl": "https://apps.apple.com/app/id6814862760"
+    },
+    {
+      "id": "habit-quit",
+      "name": "科学で断つ 悪習慣ログ",
+      "genre": "",
+      "appStoreId": "6798075879",
+      "appStoreUrl": "https://apps.apple.com/app/id6798075879"
+    },
+    {
+      "id": "hikaku-tomeru",
+      "name": "SNS比較疲れ対策",
+      "genre": "",
+      "appStoreId": "6802040116",
+      "appStoreUrl": "https://apps.apple.com/app/id6802040116"
+    },
+    {
+      "id": "hiru10",
+      "name": "昼10",
+      "genre": "",
+      "appStoreId": "6814377156",
+      "appStoreUrl": "https://apps.apple.com/app/id6814377156"
+    },
+    {
+      "id": "hitori-time",
+      "name": "　ひとりじかんノート",
+      "genre": "",
+      "appStoreId": "6797715532",
+      "appStoreUrl": "https://apps.apple.com/app/id6797715532"
+    },
+    {
+      "id": "honshitsu-type",
+      "name": "ビッグファイブ",
+      "genre": "",
+      "appStoreId": "6802926492",
+      "appStoreUrl": "https://apps.apple.com/app/id6802926492"
+    },
+    {
+      "id": "jikka-jimai",
+      "name": "実家じまいノート",
+      "genre": "",
+      "appStoreId": "6797358274",
+      "appStoreUrl": "https://apps.apple.com/app/id6797358274"
+    },
+    {
+      "id": "memory-palace",
+      "name": "記憶の宮殿メイカー",
+      "genre": "",
+      "appStoreId": "6804366687",
+      "appStoreUrl": "https://apps.apple.com/app/id6804366687"
+    },
+    {
+      "id": "mood-forecast",
+      "name": "感情の天気予報",
+      "genre": "",
+      "appStoreId": "6797248387",
+      "appStoreUrl": "https://apps.apple.com/app/id6797248387"
+    },
+    {
+      "id": "nlp-mindshift",
+      "name": "NLPで自分を書き換える３０日",
+      "genre": "",
+      "appStoreId": "6798104619",
+      "appStoreUrl": "https://apps.apple.com/app/id6798104619"
+    },
+    {
+      "id": "notify-mindfulness",
+      "name": "通知deマインドフルネス",
+      "genre": "mental-health",
+      "appStoreId": "6799487711",
+      "appStoreUrl": "https://apps.apple.com/app/id6799487711",
+      "media": [
+        {
+          "site": "kokoro",
+          "hub": "https://mentalai.seadice.win/apps/notify-mindfulness/"
+        }
+      ]
+    },
+    {
+      "id": "teishutsu-switch",
+      "name": "前進スイッチ",
+      "genre": "",
+      "appStoreId": "6802195593",
+      "appStoreUrl": "https://apps.apple.com/app/id6802195593"
     }
   ]
 }

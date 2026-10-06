@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-p/apps/ 配下の全アプリについて、App Store公開済みかどうかを
+p/apps/ と p/tools/ 配下の全アプリについて、App Store公開済みかどうかを
 公開API（iTunes Lookup、認証不要）で総当たりチェックし、
 新しく見つかったものを p/released-apps.json に自動追加する。
 
@@ -19,7 +19,8 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-APPS_DIR = ROOT / "p" / "apps"
+# /apps/ ページは大半が削除済みで、/tools/{appId}/ が入口になっているアプリが多いため両方を見る
+APP_DIRS = [ROOT / "p" / "apps", ROOT / "p" / "tools"]
 REGISTRY = ROOT / "p" / "released-apps.json"
 
 
@@ -51,10 +52,10 @@ def main():
         registry = json.loads(REGISTRY.read_text())
     known_ids = {a["id"] for a in registry["apps"]}
 
-    slugs = sorted(
-        p.name for p in APPS_DIR.iterdir()
+    slugs = sorted({
+        p.name for d in APP_DIRS for p in d.iterdir()
         if p.is_dir() and (p / "index.html").exists()
-    )
+    } - known_ids)
 
     found = []
     for slug in slugs:
@@ -87,7 +88,8 @@ def main():
             registry["apps"].append(entry)
             changed = True
         elif existing.get("appStoreId") != entry["appStoreId"]:
-            existing.update(entry)
+            # genre / media など手で足した項目は残す
+            existing.update(appStoreId=entry["appStoreId"], appStoreUrl=entry["appStoreUrl"])
             changed = True
 
     if changed:
