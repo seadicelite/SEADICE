@@ -30,6 +30,7 @@
 - [防犯](https://bohan.seadice.win/): 身近な犯罪を研究と統計で読み解く、何も売らない防犯メディア
 - [犯罪と心理](https://hanzai.seadice.win/): 人はなぜ罪を犯すのか、目撃証言はなぜ間違うのか、虚偽自白はなぜ起きるのか。犯罪をめぐる人の心の仕組みを犯罪心理学・法と心理学の研究と公的統計から読み解くメディア（出典つき・手口の詳細は書かない）
 - [子育てデータ](https://kosodate.seadice.win/): AI時代の子育ての疑問（AIは何歳から・スマホ時間・宿題とAIなど）に、研究と公的データから結論を先に答えるメディア（出典つき・商品紹介なし）
+- [親が年をとったら](https://oya.seadice.win/): 親の物忘れ・免許返納・転倒・ひとり暮らし・介護とお金の疑問に、40〜60代の子ども世代に向けて研究と公的データから結論を先に答えるメディア。親への声のかけ方つき（出典つき・商品紹介なし）
 - [AI時代のメンタルヘルス](https://mentalai.seadice.win/): AI疲れ・仕事を奪われる不安・AIと比べて落ち込む・AI依存など、AI時代の心の負担に研究と公的データから結論を先に答えるメディア（出典つき・診断なし・商品紹介なし）
 - [独学の科学](https://dokugaku.seadice.win/): 覚えられない・続かない・集中できないといった独学の悩みに、記憶・学習科学・習慣の研究から答えるメディア。勉強法を「効く・条件しだい・当てにならない」に判定した早見表とよくある質問つき（出典つき・商品紹介なし）
 
@@ -45,6 +46,7 @@
 - 防犯: https://bohan.seadice.win/llms.txt （全文: https://bohan.seadice.win/llms-full.txt）
 - 犯罪と心理: https://hanzai.seadice.win/llms.txt （全文: https://hanzai.seadice.win/llms-full.txt）
 - 子育てデータ: https://kosodate.seadice.win/llms.txt （全文: https://kosodate.seadice.win/llms-full.txt）
+- 親が年をとったら: https://oya.seadice.win/llms.txt （全文: https://oya.seadice.win/llms-full.txt）
 - AI時代のメンタルヘルス: https://mentalai.seadice.win/llms.txt （全文: https://mentalai.seadice.win/llms-full.txt）
 - 独学の科学: https://dokugaku.seadice.win/llms.txt （全文: https://dokugaku.seadice.win/llms-full.txt）
 - ゼロから学ぶ心理学（講座の目次）: https://shinri.seadice.win/llms.txt
