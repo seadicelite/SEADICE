@@ -174,6 +174,19 @@
       "genre": "",
       "appStoreId": "6802195593",
       "appStoreUrl": "https://apps.apple.com/app/id6802195593"
+    },
+    {
+      "id": "tetsujin-friends",
+      "name": "哲人フレンドー哲学者と会話しよう",
+      "genre": "",
+      "appStoreId": "6809145872",
+      "appStoreUrl": "https://apps.apple.com/app/id6809145872",
+      "media": [
+        {
+          "site": "tetsugaku",
+          "hub": "https://tetsugaku.seadice.win/apps/tetsujin-friends/"
+        }
+      ]
     }
   ]
 }
