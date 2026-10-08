@@ -2049,11 +2049,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://seadice.win/apps/evidence/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/blog/seadice-direction-2026-10/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://seadice.win/privacy/renshu-sns/</loc>
     <lastmod>2026-10-07</lastmod>
   </url>
   <url>
     <loc>https://seadice.win/blog/daily-2026-10-07/</loc>
     <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://seadice.win/blog/daily-2026-10-08/</loc>
+    <lastmod>2026-10-08</lastmod>
   </url>
 </urlset>
