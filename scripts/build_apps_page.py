@@ -45,10 +45,24 @@ DESC_OVERRIDE = {
 }
 
 
+def is_tracked(path):
+    r = subprocess.run(["git", "ls-files", "--error-unmatch", str(path)], cwd=ROOT, capture_output=True)
+    return r.returncode == 0
+
+
+NOINDEX = re.compile(r'<meta name="robots" content="noindex">\n?')
+
+
 def page_for(app_id):
+    # 未コミットのページは本番に出ていないのでリンクしない
     for sub in ("tools", "apps"):
         f = P / sub / app_id / "index.html"
-        if f.exists():
+        if f.exists() and is_tracked(f):
+            # 審査通過前に検索から外していたページは、公開と同時に戻す
+            text = f.read_text(encoding="utf-8")
+            if NOINDEX.search(text):
+                f.write_text(NOINDEX.sub("", text), encoding="utf-8")
+                print(f"  removed noindex: {f.relative_to(ROOT)}")
             return f"/{sub}/{app_id}/", f.read_text(encoding="utf-8")
     return None, ""
 

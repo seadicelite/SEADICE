@@ -440,7 +440,7 @@ sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 新規アプリ作成時点ではアプリページ（`p/tools/{appId}/`。`p/apps/` は大半が削除済み）は `App Store近日公開` のまま据え置いてよい（App Store IDが未定のため）。**ユーザーが「〇〇（アプリ名）審査通った」と伝えてきたタイミングで**、以下をまとめて対応する。
 
 - App Store IDは**ユーザーに聞かない**。`python3 scripts/check_released_apps.py` を実行すると、Bundle ID（`win.seadice.{appId}` / camelCase版）から iTunes Lookup API で公開済みアプリを総当たりで見つけ、`p/released-apps.json` に追加する（今後作る他アプリの「関連アプリ」欄の選定元になるため必須）。Bundle IDが命名規則と違う場合は `curl "https://itunes.apple.com/lookup?bundleId={Bundle ID}"` で直接引く
-- 続けて `python3 scripts/build_apps_page.py` を実行し、アプリ一覧 `p/apps/index.html` を作り直す（アイコンも自動取得）。新しいアプリが「その他」に入ったら、スクリプト内の `CATEGORIES` に追記して再実行する。`/tools/` の一覧（ブラウザで動くツールだけを載せる）にはアプリを追加しない
+- 続けて `python3 scripts/build_apps_page.py` を実行し、アプリ一覧 `p/apps/index.html` を作り直す（アイコンも自動取得。未公開の間に付けていた `noindex` もこのとき自動で外れる。サイトマップへの再追加は手動）。新しいアプリが「その他」に入ったら、スクリプト内の `CATEGORIES` に追記して再実行する。`/tools/` の一覧（ブラウザで動くツールだけを載せる）にはアプリを追加しない
 - アプリページの「近日公開」を公開表記に変え、「App Storeで見る」ボタン（`https://apps.apple.com/app/id{ID}?ct=seadice`）を付ける
 - **メディアとの相互送客**（下記「アプリとメディアの相互送客」）を設定する
 - `firebase deploy --only hosting` でデプロイ
