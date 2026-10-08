@@ -303,6 +303,13 @@
     }
     @media (max-width: 700px) { .wwd-grid { grid-template-columns: minmax(0, 1fr); gap: 20px; } .wwd-card { min-height: 150px; } }
     @media (prefers-reduced-motion: reduce) { .wwd-text, .wwd-art { transition: none; } }
+    .hub-more { margin-top: 12px; }
+    .hub-more summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; color: var(--accent2); font-size: 14px; padding: 10px 0; }
+    .hub-more summary::-webkit-details-marker { display: none; }
+    .hub-more summary::after { content: "+"; font-size: 18px; line-height: 1; transition: transform 0.2s; }
+    .hub-more[open] summary::after { transform: rotate(45deg); }
+    .hub-more[open] summary { margin-bottom: 12px; }
+    .hub-more summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
   </style>
 </head>
 <body>
@@ -389,6 +396,7 @@
   </section>
 
   <section id="study" class="reveal" aria-labelledby="study-heading">
+    <!-- 講座が7件以上になったら、メディアと同じく7件目以降を details.hub-more に入れる -->
     <p class="section-label">Study</p>
     <h2 class="section-title" id="study-heading">学ぶ</h2>
     <p class="section-lead">記事を読むメディアとは別に、心理学・犯罪学・行動経済学・貿易実務・保育士・介護福祉士を順番に学んで身につけるための無料の学習サイトです。登録不要で、最初から最後まで無料で読めます。</p>
@@ -497,47 +505,53 @@
         </span>
         <span class="blog-arrow" aria-hidden="true">&rarr;</span>
       </a>
-      <a class="blog-card" href="https://hanzai.seadice.win/" target="_blank" rel="noopener">
-        <span class="blog-card-body">
-          <span class="blog-tag">犯罪と心理</span>
-          <span class="blog-title">犯罪と心理</span>
-          <span class="blog-meta">犯罪をめぐる人の心の仕組みを心理学の研究で読み解くメディア</span>
-        </span>
-        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="blog-card" href="https://kosodate.seadice.win/" target="_blank" rel="noopener">
-        <span class="blog-card-body">
-          <span class="blog-tag">AI時代の子育て</span>
-          <span class="blog-title">AI時代の子育て</span>
-          <span class="blog-meta">AI時代の子育ての疑問に、研究と公的データで答えるメディア</span>
-        </span>
-        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="blog-card" href="https://oya.seadice.win/" target="_blank" rel="noopener">
-        <span class="blog-card-body">
-          <span class="blog-tag">親が年をとったら</span>
-          <span class="blog-title">親が年をとったら</span>
-          <span class="blog-meta">親の物忘れ・運転・介護の疑問に、研究と公的データで答えるメディア</span>
-        </span>
-        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="blog-card" href="https://mentalai.seadice.win/" target="_blank" rel="noopener">
-        <span class="blog-card-body">
-          <span class="blog-tag">AI時代のメンタルヘルス</span>
-          <span class="blog-title">AI時代のメンタルヘルス</span>
-          <span class="blog-meta">AI疲れ・仕事の不安・AI依存を、研究と公的データで考えるメディア</span>
-        </span>
-        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="blog-card" href="https://dokugaku.seadice.win/" target="_blank" rel="noopener">
-        <span class="blog-card-body">
-          <span class="blog-tag">独学の科学</span>
-          <span class="blog-title">独学の科学</span>
-          <span class="blog-meta">覚え方・勉強法・続け方を研究で確かめ、効く勉強法と当てにならない通説を切り分けるメディア</span>
-        </span>
-        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
-      </a>
     </div>
+    <!-- 7件目以降は下の details の中に入れる（最初の6件は常に表示） -->
+    <details class="hub-more">
+      <summary>ほかのメディアも見る</summary>
+      <div class="hub-grid">
+        <a class="blog-card" href="https://hanzai.seadice.win/" target="_blank" rel="noopener">
+          <span class="blog-card-body">
+            <span class="blog-tag">犯罪と心理</span>
+            <span class="blog-title">犯罪と心理</span>
+            <span class="blog-meta">犯罪をめぐる人の心の仕組みを心理学の研究で読み解くメディア</span>
+          </span>
+          <span class="blog-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="blog-card" href="https://kosodate.seadice.win/" target="_blank" rel="noopener">
+          <span class="blog-card-body">
+            <span class="blog-tag">AI時代の子育て</span>
+            <span class="blog-title">AI時代の子育て</span>
+            <span class="blog-meta">AI時代の子育ての疑問に、研究と公的データで答えるメディア</span>
+          </span>
+          <span class="blog-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="blog-card" href="https://oya.seadice.win/" target="_blank" rel="noopener">
+          <span class="blog-card-body">
+            <span class="blog-tag">親が年をとったら</span>
+            <span class="blog-title">親が年をとったら</span>
+            <span class="blog-meta">親の物忘れ・運転・介護の疑問に、研究と公的データで答えるメディア</span>
+          </span>
+          <span class="blog-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="blog-card" href="https://mentalai.seadice.win/" target="_blank" rel="noopener">
+          <span class="blog-card-body">
+            <span class="blog-tag">AI時代のメンタルヘルス</span>
+            <span class="blog-title">AI時代のメンタルヘルス</span>
+            <span class="blog-meta">AI疲れ・仕事の不安・AI依存を、研究と公的データで考えるメディア</span>
+          </span>
+          <span class="blog-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="blog-card" href="https://dokugaku.seadice.win/" target="_blank" rel="noopener">
+          <span class="blog-card-body">
+            <span class="blog-tag">独学の科学</span>
+            <span class="blog-title">独学の科学</span>
+            <span class="blog-meta">覚え方・勉強法・続け方を研究で確かめ、効く勉強法と当てにならない通説を切り分けるメディア</span>
+          </span>
+          <span class="blog-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+    </details>
   </section>
 
   <section id="tools" class="reveal" aria-labelledby="tools-heading">
