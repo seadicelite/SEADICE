@@ -187,6 +187,19 @@
           "hub": "https://tetsugaku.seadice.win/apps/tetsujin-friends/"
         }
       ]
+    },
+    {
+      "id": "renshu-sns",
+      "name": "れんしゅうSNS",
+      "genre": "information-literacy",
+      "appStoreId": "6820029513",
+      "appStoreUrl": "https://apps.apple.com/app/id6820029513",
+      "media": [
+        {
+          "site": "kosodate",
+          "hub": "https://kosodate.seadice.win/apps/renshu-sns/"
+        }
+      ]
     }
   ]
 }
