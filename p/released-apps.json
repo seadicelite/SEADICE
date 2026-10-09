@@ -46,9 +46,15 @@
     {
       "id": "active-recall",
       "name": "思い出しトレーニング",
-      "genre": "",
+      "genre": "study",
       "appStoreId": "6801937769",
-      "appStoreUrl": "https://apps.apple.com/app/id6801937769"
+      "appStoreUrl": "https://apps.apple.com/app/id6801937769",
+      "media": [
+        {
+          "site": "dokugaku",
+          "hub": "https://dokugaku.seadice.win/apps/active-recall/"
+        }
+      ]
     },
     {
       "id": "book-quiz",
