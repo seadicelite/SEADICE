@@ -128,7 +128,6 @@
 
     @media (prefers-reduced-motion: reduce) {
       .reveal { opacity: 1; transform: none; transition: none; }
-      .hero-board .on { animation: none; }
     }
 
     header {
@@ -188,8 +187,6 @@
     .hero-board a:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
     .hero-board i { position: absolute; right: 8px; bottom: 6px; font: 500 12px ui-monospace, "SF Mono", Menlo, monospace; font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
     .hero-board a:hover i { color: var(--accent); }
-    .hero-board .on { color: var(--accent); background: rgba(0,255,209,.06); animation: boardOn 3.2s ease-in-out infinite; }
-    @keyframes boardOn { 0%,100% { background: rgba(0,255,209,.04); } 50% { background: rgba(0,255,209,.1); } }
     @media (max-width: 700px) { .hero { flex-direction: column; align-items: stretch; gap: 32px; min-height: auto; } .hero-content { flex: none; } .hero-board { width: 100%; max-width: 320px; } }
 
     .hero-label { display: flex; flex-wrap: wrap; gap: 6px 20px; font: 500 12px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: 0.14em; color: var(--muted); margin-bottom: 24px; text-transform: uppercase; }
@@ -331,7 +328,7 @@
       <a href="#media" aria-label="メディア"><b>02</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M5.5 3.5h9l4 4v13h-13z"/><path d="M14.5 3.5v4h4M8.5 12h7M8.5 15.5h7M8.5 9h3"/></svg><i>Media</i></a>
       <a href="#study" aria-label="独学講座"><b>03</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M3.5 20.5h4.5V16h4.5v-4.5h4.5V7h3.5"/></svg><i>Study</i></a>
       <a href="https://bohan.seadice.win/" target="_blank" rel="noopener" aria-label="防犯メディア"><b>04</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.5-3.2 8-7.5 9.5-4.3-1.5-7.5-5-7.5-9.5V6z"/><path d="M9 12l2 2 4-4"/></svg><i>Bohan</i></a>
-      <a class="on" href="#about" aria-label="SEADICEの特徴"><b>05</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1" fill="currentColor"/></svg><i>About</i></a>
+      <a href="#about" aria-label="SEADICEの特徴"><b>05</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1" fill="currentColor"/></svg><i>About</i></a>
       <a href="https://ledger.seadice.win/" target="_blank" rel="noopener" aria-label="お金と心理"><b>06</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M9 8l3 4 3-4M12 12v5M9.5 13.5h5"/></svg><i>Ledger</i></a>
       <a href="https://kosodate.seadice.win/" target="_blank" rel="noopener" aria-label="AI時代の子育て"><b>07</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><circle cx="8.5" cy="6" r="2.5"/><path d="M4.5 20.5v-5a4 4 0 0 1 8 0v5"/><circle cx="17" cy="10.5" r="2"/><path d="M14 20.5v-3a3 3 0 0 1 6 0v3"/></svg><i>Kosodate</i></a>
       <a href="https://mentalai.seadice.win/" target="_blank" rel="noopener" aria-label="AI時代のメンタルヘルス"><b>08</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M2.5 12.5h4l2-5 3.5 10 2.5-7 1.5 2h5.5"/></svg><i>Mental</i></a>
