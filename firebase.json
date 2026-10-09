@@ -3049,6 +3049,11 @@
     ],
     "redirects": [
       {
+        "source": "/tools/kankaku-kabin/**",
+        "destination": "https://research.seadice.win/kankaku-kabin/",
+        "type": 301
+      },
+      {
         "source": "/research",
         "destination": "https://seadice-research.web.app/",
         "type": 301
