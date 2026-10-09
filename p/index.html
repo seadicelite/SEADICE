@@ -54,7 +54,7 @@
         "isPartOf": { "@id": "https://seadice.win/#website" },
         "about": { "@id": "https://seadice.win/#organization" },
         "breadcrumb": { "@id": "https://seadice.win/#breadcrumb" },
-        "dateModified": "2026-10-07"
+        "dateModified": "2026-10-09"
       },
       {
         "@type": "BreadcrumbList",
@@ -196,11 +196,16 @@
     .hero::before { content: ""; position: absolute; top: 0; bottom: 0; left: calc(50% - 50vw); right: calc(50% - 50vw); z-index: -1; pointer-events: none; background-image: linear-gradient(rgba(232,236,242,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(232,236,242,.07) 1px, transparent 1px); background-size: 48px 48px; background-position: center top; -webkit-mask-image: linear-gradient(#000 60%, transparent); mask-image: linear-gradient(#000 60%, transparent); }
     .picto { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
     .hero-board { flex-shrink: 0; width: 360px; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid rgba(232,236,242,.14); background: var(--bg); }
-    .hero-board div { aspect-ratio: 1; display: grid; place-items: center; position: relative; color: #5d6a80; border-right: 1px solid rgba(232,236,242,.14); border-bottom: 1px solid rgba(232,236,242,.14); }
-    .hero-board div:nth-child(3n) { border-right: 0; }
-    .hero-board div:nth-child(n+7) { border-bottom: 0; }
+    .hero-board a { aspect-ratio: 1; display: grid; place-items: center; position: relative; color: #5d6a80; border-right: 1px solid rgba(232,236,242,.14); border-bottom: 1px solid rgba(232,236,242,.14); }
+    .hero-board a:nth-child(3n) { border-right: 0; }
+    .hero-board a:nth-child(n+7) { border-bottom: 0; }
     .hero-board svg { width: 38%; height: 38%; }
-    .hero-board b { position: absolute; left: 8px; top: 6px; font: 500 10px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .1em; color: #56627a; }
+    .hero-board b { position: absolute; left: 8px; top: 6px; font: 500 12px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .1em; color: var(--muted); }
+    .hero-board a { text-decoration: none; transition: color .2s, background .2s; -webkit-tap-highlight-color: transparent; }
+    .hero-board a:hover, .hero-board a:active { color: var(--accent); background: rgba(0,255,209,.06); }
+    .hero-board a:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+    .hero-board i { position: absolute; right: 8px; bottom: 6px; font: 500 12px ui-monospace, "SF Mono", Menlo, monospace; font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+    .hero-board a:hover i { color: var(--accent); }
     .hero-board .on { color: var(--accent); background: rgba(0,255,209,.06); animation: boardOn 3.2s ease-in-out infinite; }
     @keyframes boardOn { 0%,100% { background: rgba(0,255,209,.04); } 50% { background: rgba(0,255,209,.1); } }
     @media (max-width: 700px) { .hero { flex-direction: column; align-items: stretch; gap: 32px; min-height: auto; } .hero-content { flex: none; } .hero-board { width: 100%; max-width: 320px; } }
@@ -289,7 +294,7 @@
     .picto-grid a:hover { background: #0b0f18; }
     .picto-grid a:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
     .picto-grid svg { width: 36px; height: 36px; color: var(--accent); }
-    .picto-grid .mono { font-size: 11px; color: var(--muted); }
+    .picto-grid .mono { font-size: 12px; color: var(--muted); }
     .picto-grid strong { font-size: 16px; font-weight: 700; line-height: 1.4; }
     @media (min-width: 900px) { .wwd-grid { grid-template-columns: repeat(4, 1fr); } .wwd-grid a { padding: 32px 24px; } .wwd-grid svg { width: 44px; height: 44px; } }
     .media-grid a { flex-direction: row; align-items: center; gap: 14px; padding: 20px 18px; }
@@ -340,16 +345,16 @@
       <p class="hero-lead">毎日の困りごとを、小さく解決する。</p>
       <p class="hero-desc"><strong>SEADICE（シーダイス）</strong>は、アプリ・メディア・無料ツールをつくるスタジオです。</p>
     </div>
-    <div class="hero-board" aria-hidden="true">
-      <div><b>01</b><svg class="picto" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg></div>
-      <div><b>02</b><svg class="picto" viewBox="0 0 24 24"><path d="M5.5 3.5h9l4 4v13h-13z"/><path d="M14.5 3.5v4h4M8.5 12h7M8.5 15.5h7M8.5 9h3"/></svg></div>
-      <div><b>03</b><svg class="picto" viewBox="0 0 24 24"><path d="M3.5 20.5h5v-5h5v-5h5v-5h2"/></svg></div>
-      <div><b>04</b><svg class="picto" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.5-3.2 8-7.5 9.5-4.3-1.5-7.5-5-7.5-9.5V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-      <div class="on"><b>05</b><svg class="picto" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1" fill="currentColor"/></svg></div>
-      <div><b>06</b><svg class="picto" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M9 8l3 4 3-4M12 12v5M9.5 13.5h5"/></svg></div>
-      <div><b>07</b><svg class="picto" viewBox="0 0 24 24"><circle cx="8" cy="5.5" r="2"/><path d="M8 9v11.5M5 12.5h6M8 15l-2.5 5.5M8 15l2.5 5.5"/><circle cx="16.5" cy="11" r="1.5"/><path d="M16.5 13.5v7M14.5 16h4"/></svg></div>
-      <div><b>08</b><svg class="picto" viewBox="0 0 24 24"><path d="M2.5 12.5h4l2-5 3.5 10 2.5-7 1.5 2h5.5"/></svg></div>
-      <div><b>09</b><svg class="picto" viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h16"/><circle cx="9" cy="6.5" r="2" fill="#05050C"/><circle cx="15" cy="12" r="2" fill="#05050C"/><circle cx="7" cy="17.5" r="2" fill="#05050C"/></svg></div>
+    <div class="hero-board">
+      <a href="/apps/" aria-label="アプリ一覧"><b>01</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><i>Apps</i></a>
+      <a href="#media" aria-label="メディア"><b>02</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M5.5 3.5h9l4 4v13h-13z"/><path d="M14.5 3.5v4h4M8.5 12h7M8.5 15.5h7M8.5 9h3"/></svg><i>Media</i></a>
+      <a href="#study" aria-label="独学講座"><b>03</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M3.5 20.5h5v-5h5v-5h5v-5h2"/></svg><i>Study</i></a>
+      <a href="https://bohan.seadice.win/" target="_blank" rel="noopener" aria-label="防犯メディア"><b>04</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.5-3.2 8-7.5 9.5-4.3-1.5-7.5-5-7.5-9.5V6z"/><path d="M9 12l2 2 4-4"/></svg><i>Bohan</i></a>
+      <a class="on" href="#about" aria-label="SEADICEの特徴"><b>05</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1" fill="currentColor"/></svg><i>About</i></a>
+      <a href="https://ledger.seadice.win/" target="_blank" rel="noopener" aria-label="お金と心理"><b>06</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M9 8l3 4 3-4M12 12v5M9.5 13.5h5"/></svg><i>Ledger</i></a>
+      <a href="https://kosodate.seadice.win/" target="_blank" rel="noopener" aria-label="AI時代の子育て"><b>07</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><circle cx="8" cy="5.5" r="2"/><path d="M8 9v11.5M5 12.5h6M8 15l-2.5 5.5M8 15l2.5 5.5"/><circle cx="16.5" cy="11" r="1.5"/><path d="M16.5 13.5v7M14.5 16h4"/></svg><i>Kosodate</i></a>
+      <a href="https://mentalai.seadice.win/" target="_blank" rel="noopener" aria-label="AI時代のメンタルヘルス"><b>08</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M2.5 12.5h4l2-5 3.5 10 2.5-7 1.5 2h5.5"/></svg><i>Mental</i></a>
+      <a href="#tools" aria-label="無料Webツール"><b>09</b><svg aria-hidden="true" class="picto" viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h16"/><circle cx="9" cy="6.5" r="2" fill="#05050C"/><circle cx="15" cy="12" r="2" fill="#05050C"/><circle cx="7" cy="17.5" r="2" fill="#05050C"/></svg><i>Tools</i></a>
     </div>
   </div>
 
