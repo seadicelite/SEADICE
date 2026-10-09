@@ -33,6 +33,7 @@
 - [親が年をとったら](https://oya.seadice.win/): 親の物忘れ・免許返納・転倒・ひとり暮らし・介護とお金の疑問に、40〜60代の子ども世代に向けて研究と公的データから結論を先に答えるメディア。親への声のかけ方つき（出典つき・商品紹介なし）
 - [AI時代のメンタルヘルス](https://mentalai.seadice.win/): AI疲れ・仕事を奪われる不安・AIと比べて落ち込む・AI依存など、AI時代の心の負担に研究と公的データから結論を先に答えるメディア（出典つき・診断なし・商品紹介なし）
 - [独学の科学](https://dokugaku.seadice.win/): 覚えられない・続かない・集中できないといった独学の悩みに、記憶・学習科学・習慣の研究から答えるメディア。勉強法を「効く・条件しだい・当てにならない」に判定した早見表とよくある質問つき（出典つき・商品紹介なし）
+- [AI時代の困りごと](https://ai.seadice.win/): AIへの不安・AI疲れ・AIへの依存・AI音声の詐欺・ディープフェイク・個人情報・著作権・子どもとAIなど、AIで起きる困りごとをジャンル別に整理し、研究と公的機関の資料から答えるメディア（出典つき・商品紹介なし）
 
 ## メディアの記事索引（AIアシスタント向け）
 
@@ -49,6 +50,7 @@
 - 親が年をとったら: https://oya.seadice.win/llms.txt （全文: https://oya.seadice.win/llms-full.txt）
 - AI時代のメンタルヘルス: https://mentalai.seadice.win/llms.txt （全文: https://mentalai.seadice.win/llms-full.txt）
 - 独学の科学: https://dokugaku.seadice.win/llms.txt （全文: https://dokugaku.seadice.win/llms-full.txt）
+- AI時代の困りごと: https://ai.seadice.win/llms.txt （全文: https://ai.seadice.win/llms-full.txt）
 - ゼロから学ぶ心理学（講座の目次）: https://shinri.seadice.win/llms.txt
 
 ## 主要ページ
