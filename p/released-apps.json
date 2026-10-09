@@ -101,9 +101,15 @@
     {
       "id": "habit-quit",
       "name": "科学で断つ 悪習慣ログ",
-      "genre": "",
+      "genre": "digital-wellbeing",
       "appStoreId": "6798075879",
-      "appStoreUrl": "https://apps.apple.com/app/id6798075879"
+      "appStoreUrl": "https://apps.apple.com/app/id6798075879",
+      "media": [
+        {
+          "site": "research",
+          "hub": "https://research.seadice.win/apps/habit-quit/"
+        }
+      ]
     },
     {
       "id": "hikaku-tomeru",
