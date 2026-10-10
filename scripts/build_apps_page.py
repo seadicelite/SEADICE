@@ -115,6 +115,8 @@ def card(app):
     title = (f'<a class="app-name" href="{href}">{html.escape(name)}</a>' if href
              else f'<span class="app-name">{html.escape(name)}</span>')
     more = f'<a class="app-link" href="{href}">くわしく</a>' if href else ""
+    if 'class="evidence"' in page:
+        more += '<a class="app-ev" href="/evidence-series/">研究にもとづく</a>'
     return f'''      <li class="app">
         <span class="app-icon">{icon}</span>
         <div class="app-body">
@@ -217,6 +219,8 @@ a.app-name:hover{{color:var(--accent)}}
 .app-store:hover{{background:var(--accent2)}}
 .app-link{{color:var(--accent2);padding:6px 0;text-decoration:none}}
 .app-link:hover{{text-decoration:underline}}
+.app-ev{{color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:5px 12px;text-decoration:none;font-size:12px}}
+.app-ev:hover{{background:rgba(0,255,209,.1)}}
 .more{{margin-top:56px;font-size:14px;color:var(--muted)}}
 .more a{{color:var(--accent2)}}
 footer{{text-align:center;padding:40px 24px;color:var(--muted);font-size:13px;border-top:1px solid var(--border)}}
@@ -230,6 +234,7 @@ footer a{{text-decoration:none;margin:0 6px}}
   <h1>iPhoneアプリ一覧</h1>
   <p class="lead"><strong>SEADICE（シーダイス）は、App StoreでiPhoneアプリを{count}本公開しています。</strong>夜更かし・先延ばし・SNS疲れ・片付けなど、暮らしの「ちょっと困った」に効くアプリです。</p>
   <ul class="facts"><li>すべて無料</li><li>広告なし</li><li>iPhone・iPad対応</li></ul>
+  <p class="lead" style="margin-top:12px">機能のもとになった論文と解説記事を公開しているアプリは<a href="/evidence-series/" style="color:var(--accent2)">EVIDENCEシリーズ（研究にもとづくアプリ）</a>にまとめています。</p>
 
 {sections}
 
