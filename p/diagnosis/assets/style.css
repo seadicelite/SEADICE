@@ -171,3 +171,29 @@ a.cred:hover{text-decoration:underline}
 .ref-list{font-size:13px;padding-left:18px;display:flex;flex-direction:column;gap:8px}
 .ref-list a{color:#4b44d6;font-weight:700}
 .rank-banner{border-color:#1d4ed8}
+
+/* likert scale result */
+.q-lead{font-size:12.5px;color:#5d5d70;font-weight:700;margin-bottom:6px}
+.q-opt-on{border-color:var(--accent2);background:#f3f2ff}
+.sc-note{font-size:12.5px;color:#5d5d70;margin:-8px 0 18px}
+.sc-list{display:flex;flex-direction:column;gap:18px;text-align:left}
+.sc-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:6px}
+.sc-name{font-size:15px;font-weight:800}
+.sc-level{font-size:13px;font-weight:800;color:#5d5d70}
+.sc-high .sc-level{color:#c2185b}
+.sc-low .sc-level{color:#1d4ed8}
+.sc-bar{position:relative;height:12px;border-radius:99px;background:var(--border);margin-bottom:8px}
+.sc-bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.sc-bar b{position:absolute;top:-4px;width:2px;height:20px;background:var(--text);margin-left:-1px}
+.sc-desc{font-size:13.5px;line-height:1.8}
+.tori{margin-top:26px;text-align:left;background:#fbfbfe;border:1.5px solid var(--border);border-radius:16px;padding:16px 18px}
+.tori-title{font-size:14px;font-weight:800;margin-bottom:8px}
+.tori-list{padding-left:18px;font-size:13.5px;line-height:1.8;display:flex;flex-direction:column;gap:4px}
+.about{margin-top:44px}
+.about p,.about li{font-size:14px}
+.about ul{padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.about-table{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:14px;background:var(--card);border-radius:12px;overflow:hidden}
+.about-table th,.about-table td{padding:10px 12px;border-bottom:1px solid var(--border);text-align:left}
+.about-table th{font-size:12px;color:#5d5d70;background:#fbfbfe;white-space:nowrap}
+.about-table td:first-child{font-weight:700;white-space:nowrap}
+.about a{color:#4b44d6;font-weight:700}

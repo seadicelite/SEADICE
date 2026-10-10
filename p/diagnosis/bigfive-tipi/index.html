@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ビッグファイブ性格診断（日本語版TIPI・10問） | SEADICE 診断</title>
+  <meta name="description" content="研究で確かめられた日本語版TIPI（小塩ほか, 2012）の10問で、外向性・協調性・勤勉性・神経症傾向・開放性の5つを点数で測る無料のビッグファイブ診断。大学生902人の平均とくらべて、あなたの取扱説明書がわかります。登録不要・約1分。">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/bigfive-tipi/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <link rel="preload" as="image" href="/diagnosis/assets/img/bigfive-lite-hero.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="ビッグファイブ性格診断（日本語版TIPI・10問） | SEADICE 診断">
+  <meta property="og:description" content="研究で確かめられた10問で、性格の5つの特性を点数で測る無料診断。信ぴょう性ランクA。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/bigfive-tipi/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/bigfive-lite-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seadice.win/diagnosis/assets/img/bigfive-lite-og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"ビッグファイブ性格診断（日本語版TIPI）","item":"https://seadice.win/diagnosis/bigfive-tipi/"}]},{"@type":"Quiz","name":"ビッグファイブ性格診断（日本語版TIPI・10問）","description":"日本語版TIPIの10問で性格の5つの特性を点数で測る無料診断","url":"https://seadice.win/diagnosis/bigfive-tipi/","inLanguage":"ja","datePublished":"2026-10-10","dateModified":"2026-10-10","citation":"小塩真司・阿部晋吾・カトローニ ピノ (2012). 日本語版Ten Item Personality Inventory（TIPI-J）作成の試み. パーソナリティ研究, 21(1), 40-52.","publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"TIPI-Jとは？","acceptedAnswer":{"@type":"Answer","text":"TIPI-Jは、性格を5つの特性（外向性・協調性・勤勉性・神経症傾向・開放性）で測るビッグファイブの日本語版の短い尺度です。10問で測れるよう作られ、大学生902人の調査で信頼性と妥当性が確かめられています（小塩ほか, 2012）。"}},{"@type":"Question","name":"10問だけで性格がわかるのですか？","acceptedAnswer":{"@type":"Answer","text":"TIPI-Jは短さを優先した尺度なので、長い尺度より精度は下がります。おおまかな傾向をつかむ目安として使い、細かく知りたいときは項目数の多い尺度を使うのがおすすめです。"}}]}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <div id="quiz-intro">
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / ビッグファイブ性格診断（日本語版TIPI）</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>ビッグファイブ性格診断<br>（日本語版TIPI・10問）</h1>
+  <p class="cred-row"><a class="cred cred-a" href="/diagnosis/rank/">信ぴょう性 <b>A</b></a>研究で確かめられた尺度を使っている</p>
+  <p class="hero-desc">性格研究で最も広く使われる「ビッグファイブ」の5つの特性を、研究で確かめられた日本語版TIPIの10問で点数にします。大学生902人の平均とくらべて、あなたの取扱説明書をつくります。所要時間は約1分です。</p>
+
+  <figure class="hero"><img src="/diagnosis/assets/img/bigfive-lite-hero.webp" width="900" height="900" alt="色彩豊かな星雲の天体写真" loading="eager"><figcaption>Photo: NASA, ESA, T. Megeath (University of Toledo) and M. Robberto (STScI) / Public domain / <a href="https://commons.wikimedia.org/wiki/File:Spitzer_and_Hubble_Create_Colorful_Masterpiece_(2006-01-1834).jpg" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption></figure>
+
+    <button type="button" id="quiz-start-btn" class="quiz-start-btn">診断をはじめる（1分・全10問）</button>
+  </div>
+
+  <div id="quiz-progress-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+    <p class="quiz-step-label"><span>質問</span><span id="quiz-progress-label">1 / 10</span></p>
+  </div>
+  <div id="quiz-questions"></div>
+
+  <div id="quiz-result">
+    <div class="result-card" style="--type-color:#6c63ff">
+      <p class="result-type">あなたのビッグファイブ</p>
+      <h2 class="result-name" style="margin-top:0;font-size:22px">5つの特性の点数</h2>
+      <p class="sc-note">各2〜14点。バーの縦線は大学生902人の平均です。</p>
+      <div class="sc-list"></div>
+      <div class="tori">
+        <p class="tori-title">わたしの取扱説明書</p>
+        <ul class="tori-list"></ul>
+      </div>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度診断する</button>
+      </div>
+      <a class="profile-note" href="/diagnosis/profile/"></a>
+    </div>
+  </div>
+
+  <section class="about">
+    <h2>日本語版TIPIとは</h2>
+    <p>日本語版TIPI（TIPI-J）は、性格を5つの特性で測る「ビッグファイブ」の日本語版の短い尺度です。10問で測れるよう作られ、大学生902人の調査で、長い性格検査の結果ともきちんと関連することが確かめられています（小塩ほか, 2012）。</p>
+    <table class="about-table">
+      <thead><tr><th scope="col">特性</th><th scope="col">高いと</th></tr></thead>
+      <tbody>
+        <tr><td>外向性</td><td>人と関わるのが好きで、にぎやか</td></tr>
+        <tr><td>協調性</td><td>思いやりがあり、人に合わせる</td></tr>
+        <tr><td>勤勉性</td><td>計画的で、まじめにやりとげる</td></tr>
+        <tr><td>神経症傾向</td><td>不安や心配を感じやすい</td></tr>
+        <tr><td>開放性</td><td>新しいことやアイデアが好き</td></tr>
+      </tbody>
+    </table>
+
+    <h2>点数の出し方</h2>
+    <ul>
+      <li>10問に7段階（1〜7点）で答えます。</li>
+      <li>各特性は2問の合計（2〜14点）です。そのうち1問は逆向きの質問なので、点数を逆にしてから足します。</li>
+      <li>大学生902人の平均とくらべ、標準偏差の半分以上高ければ「高め」、低ければ「低め」としています（この区切りはSEADICEが決めたものです）。</li>
+    </ul>
+
+    <h2>よくある質問</h2>
+    <h3 class="faq-q">10問だけで性格がわかるのですか？</h3>
+    <p class="faq-a">TIPI-Jは短さを優先した尺度なので、長い尺度より精度は下がります。おおまかな傾向をつかむ目安として使い、細かく知りたいときは項目数の多い尺度を使うのがおすすめです。</p>
+    <h3 class="faq-q">簡易ビッグファイブ診断との違いは？</h3>
+    <p class="faq-a"><a href="/diagnosis/bigfive-lite/">簡易ビッグファイブ診断</a>はSEADICEが作った8問で「いちばん強い1つ」を出す簡易版（信ぴょう性B）です。こちらは研究で確かめられた質問をそのまま使い、5つすべてを点数で出します（信ぴょう性A）。</p>
+    <h3 class="faq-q">「取扱説明書」の文章も研究の結果ですか？</h3>
+    <p class="faq-a">質問と点数の出し方は論文のとおりですが、結果の説明と取扱説明書の文章は、各特性の一般的な意味をもとにSEADICEが書いたものです。</p>
+
+    <h2>出典</h2>
+    <ul class="ref-list">
+      <li>小塩真司・阿部晋吾・カトローニ ピノ (2012). 日本語版Ten Item Personality Inventory（TIPI-J）作成の試み. <i>パーソナリティ研究</i>, 21(1), 40–52. <a href="https://doi.org/10.2132/personality.21.40" target="_blank" rel="noopener">論文</a></li>
+      <li>Gosling, S. D., Rentfrow, P. J., &amp; Swann, W. B., Jr. (2003). A very brief measure of the Big-Five personality domains. <i>Journal of Research in Personality</i>, 37(6), 504–528. <a href="https://doi.org/10.1016/S0092-6566(03)00046-1" target="_blank" rel="noopener">論文</a></li>
+    </ul>
+  </section>
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/profile/"><span class="diag-body"><span class="diag-title">診断プロフィール帳</span></span></a>
+      <a class="diag-card" href="/diagnosis/rank/"><span class="diag-body"><span class="diag-title">診断の信ぴょう性ランク</span></span></a>
+    </div>
+  </div>
+
+  <script type="application/json" id="scale-data">
+  {
+    "shareTitle": "ビッグファイブ性格診断（日本語版TIPI）",
+    "lead": "私は自分自身のことを……",
+    "labels": ["全く違うと思う", "おおよそ違うと思う", "少し違うと思う", "どちらでもない", "少しそう思う", "まあまあそう思う", "強くそう思う"],
+    "items": [
+      {"text": "活発で，外向的だと思う", "key": "E"},
+      {"text": "他人に不満をもち，もめごとを起こしやすいと思う", "key": "A", "reverse": true},
+      {"text": "しっかりしていて，自分に厳しいと思う", "key": "C"},
+      {"text": "心配性で，うろたえやすいと思う", "key": "N"},
+      {"text": "新しいことが好きで，変わった考えをもつと思う", "key": "O"},
+      {"text": "ひかえめで，おとなしいと思う", "key": "E", "reverse": true},
+      {"text": "人に気をつかう，やさしい人間だと思う", "key": "A"},
+      {"text": "だらしなく，うっかりしていると思う", "key": "C", "reverse": true},
+      {"text": "冷静で，気分が安定していると思う", "key": "N", "reverse": true},
+      {"text": "発想力に欠けた，平凡な人間だと思う", "key": "O", "reverse": true}
+    ],
+    "keys": {
+      "E": {"name": "外向性", "color": "#ff6b81", "min": 2, "max": 14, "mean": 7.83, "sd": 2.97,
+        "high": {"desc": "人と話したり、にぎやかな場にいたりすると元気が出るタイプです。", "tori": "誘ってもらえるとうれしい。人と話すと元気が出ます。"},
+        "mid": {"desc": "人といる時間もひとりの時間も、場面に合わせて楽しめるタイプです。", "tori": "にぎやかな日と静かな日、どちらも大事にしたいです。"},
+        "low": {"desc": "ひとりの時間や少人数での会話で、エネルギーを充電するタイプです。", "tori": "急な誘いより、前もって声をかけてもらえると助かります。"}},
+      "A": {"name": "協調性", "color": "#6c63ff", "min": 2, "max": 14, "mean": 9.48, "sd": 2.16,
+        "high": {"desc": "人に気をつかい、まわりと合わせることが得意なタイプです。", "tori": "頼まれると断れないことがあるので、無理していないか聞いてもらえるとうれしいです。"},
+        "mid": {"desc": "相手に合わせることも、自分の意見を言うこともできるタイプです。", "tori": "意見がちがうときは、遠慮なく言ってもらって大丈夫です。"},
+        "low": {"desc": "人に合わせるより、自分の考えをはっきり持つタイプです。", "tori": "はっきり言うのは悪気がないから。意見として受け取ってもらえると助かります。"}},
+      "C": {"name": "勤勉性", "color": "#00b894", "min": 2, "max": 14, "mean": 6.14, "sd": 2.41,
+        "high": {"desc": "計画を立てて、こつこつやりとげるのが得意なタイプです。", "tori": "予定が変わるときは、早めに教えてもらえると助かります。"},
+        "mid": {"desc": "きちんとやる場面と、ゆるくやる場面を使い分けるタイプです。", "tori": "大事なことは、念のため一言リマインドしてもらえると安心です。"},
+        "low": {"desc": "計画より、その場の流れで柔軟に動くのが得意なタイプです。", "tori": "締め切りや約束は、リマインドしてもらえるととても助かります。"}},
+      "N": {"name": "神経症傾向", "color": "#3a86ff", "min": 2, "max": 14, "mean": 9.21, "sd": 2.48,
+        "high": {"desc": "不安や心配を感じやすいぶん、危ないことや変化に早く気づくタイプです。", "tori": "不安なときは、話を聞いてもらえるだけで落ち着きます。"},
+        "mid": {"desc": "気持ちがゆれる日もあれば、落ち着いている日もあるタイプです。", "tori": "元気がなさそうな日は、そっと声をかけてもらえるとうれしいです。"},
+        "low": {"desc": "気持ちが安定していて、あわてにくいタイプです。", "tori": "平気そうに見えても、たまには気にかけてもらえるとうれしいです。"}},
+      "O": {"name": "開放性", "color": "#ffa62b", "min": 2, "max": 14, "mean": 8.03, "sd": 2.48,
+        "high": {"desc": "新しいことや変わったアイデアにわくわくするタイプです。", "tori": "新しいお店や話題に誘ってもらえるとうれしいです。"},
+        "mid": {"desc": "新しいことも、なじんだやり方も、どちらも楽しめるタイプです。", "tori": "新しいことは、少しずつ一緒に試してもらえるとうれしいです。"},
+        "low": {"desc": "なじんだやり方や、慣れた場所を大切にするタイプです。", "tori": "いつものやり方を大事にしたいので、急な変更は相談してもらえると助かります。"}}
+    }
+  }
+  </script>
+  <script src="/diagnosis/assets/likert.js"></script>
+</main>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>
