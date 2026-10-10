@@ -70,6 +70,7 @@
 - [人生満足度診断（SWLS・5問）](https://seadice.win/diagnosis/life-satisfaction/): Dienerらの人生満足度尺度で満足度を点数化、作者の6段階の目安で表示。信ぴょう性B
 - [右脳派・左脳派は本当にある？](https://seadice.win/diagnosis/right-left-brain/): 1,011人の脳画像研究（Nielsenら, 2013）で右脳派・左脳派の証拠なし
 - [学習スタイル診断は当たる？](https://seadice.win/diagnosis/learning-style/): 型に合わせても成績は上がらない（Pashlerら, 2008）。研究にもとづく勉強法つき
+- [バットとボール問題に挑戦（認知反射テスト）](https://seadice.win/diagnosis/crt/): Frederick(2005)の3問で直感を疑う力を試す。信ぴょう性B。行動経済学講座へリンク
 - [ポモドーロタイマー](https://seadice.win/pomodoro/): ヒーリングサウンド付き無料タイマー
 - [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
 - [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット

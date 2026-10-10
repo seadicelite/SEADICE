@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>バットとボール問題に挑戦（認知反射テスト・3問） | SEADICE 診断</title>
+  <meta name="description" content="「バットとボールは合わせて1100円…」思わず答えたくなる直感の答えは、ほぼ不正解。行動経済学で有名な認知反射テスト（Frederick, 2005）の3問で、最初に浮かんだ答えを疑ってじっくり考える力を試せます。登録不要・約2分。">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/crt/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="バットとボール問題に挑戦（認知反射テスト・3問） | SEADICE 診断">
+  <meta property="og:description" content="直感の答えは、ほぼ不正解。行動経済学で有名な3問で、じっくり考える力を試そう。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/crt/">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"認知反射テスト","item":"https://seadice.win/diagnosis/crt/"}]},{"@type":"Quiz","name":"バットとボール問題に挑戦（認知反射テスト・3問）","url":"https://seadice.win/diagnosis/crt/","inLanguage":"ja","datePublished":"2026-10-11","dateModified":"2026-10-11","citation":"Frederick, S. (2005). Cognitive Reflection and Decision Making. Journal of Economic Perspectives, 19(4), 25-42.","publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"バットとボール問題の答えは？","acceptedAnswer":{"@type":"Answer","text":"ボールは50円です。直感で浮かぶ100円だと、バットは1100円で合計1200円になってしまいます。ボールを50円とするとバットは1050円で、合計1100円・差が1000円になります。"}},{"@type":"Question","name":"認知反射テスト（CRT）とは？","acceptedAnswer":{"@type":"Answer","text":"フレデリックが2005年に発表した3問のテストで、最初に浮かんだ答えを疑い、じっくり考えて正しい答えにたどり着く傾向を測ります。行動経済学や意思決定の研究で広く使われています。"}}]}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / 認知反射テスト</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>バットとボール問題に挑戦<br>（認知反射テスト・3問）</h1>
+  <p class="cred-row"><a class="cred cred-b" href="/diagnosis/rank/">信ぴょう性 <b>B</b></a>研究で使われるテスト・日本語訳はSEADICE</p>
+  <p class="hero-desc">行動経済学で有名な3問です。どれもすぐに答えが浮かびますが、その「最初の答え」はほぼ不正解。直感を疑って、じっくり考えられるか試してみましょう。答えは数字で入力してください。</p>
+
+  <form id="crt-form" class="crt-form" autocomplete="off">
+    <div class="q-block crt-q">
+      <p class="q-title"><span class="q-num">Q1</span>バットとボールは合わせて1100円です。バットはボールより1000円高いです。ボールはいくらでしょう？</p>
+      <label class="crt-label"><input class="crt-in" name="q1" inputmode="decimal" enterkeyhint="next" aria-label="Q1の答え"> 円</label>
+    </div>
+    <div class="q-block crt-q">
+      <p class="q-title"><span class="q-num">Q2</span>5台の機械で5個の部品を作るのに5分かかります。100台の機械で100個の部品を作るには何分かかるでしょう？</p>
+      <label class="crt-label"><input class="crt-in" name="q2" inputmode="decimal" enterkeyhint="next" aria-label="Q2の答え"> 分</label>
+    </div>
+    <div class="q-block crt-q">
+      <p class="q-title"><span class="q-num">Q3</span>池に浮き草が生えていて、毎日2倍の広さに増えます。池全体をおおうのに48日かかるとき、池の半分をおおうのは何日目でしょう？</p>
+      <label class="crt-label"><input class="crt-in" name="q3" inputmode="decimal" enterkeyhint="done" aria-label="Q3の答え"> 日目</label>
+    </div>
+    <p class="crt-err" id="crt-err" role="alert" hidden>3問すべてに数字を入れてください。</p>
+    <button type="submit" class="quiz-start-btn">答え合わせする</button>
+  </form>
+
+  <div id="quiz-result">
+    <div class="result-card" style="--type-color:#6c63ff">
+      <p class="result-type">あなたの認知反射テスト</p>
+      <h2 class="result-name" style="margin-top:0" id="crt-score"></h2>
+      <p class="result-desc" id="crt-desc"></p>
+      <div class="crt-answers" id="crt-answers"></div>
+      <p class="sc-note" style="margin:18px 0 0;text-align:left">直感と熟考のしくみは <a href="https://kodokeizai.seadice.win/course/dual-process/" style="color:#4b44d6;font-weight:700">速い思考と遅い思考（ゼロから学ぶ行動経済学）</a> でくわしく学べます。</p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度挑戦する</button>
+      </div>
+      <a class="profile-note" href="/diagnosis/profile/"></a>
+    </div>
+  </div>
+
+  <section class="about">
+    <h2>認知反射テスト（CRT）とは</h2>
+    <p>フレデリックが2005年に発表した3問のテストで、最初に浮かんだ答えを疑い、じっくり考えて正しい答えにたどり着く傾向を測ります。行動経済学や意思決定の研究で広く使われています。</p>
+    <ul>
+      <li>3問とも、すぐに浮かぶ「直感の答え」が用意されていて、それは不正解です。</li>
+      <li>フレデリックの研究では、点数が高い人ほど、すぐもらえる少ない金額より少し待って多い金額を選びやすいなど、意思決定の傾向にちがいが見られました。</li>
+    </ul>
+
+    <h2>よくある質問</h2>
+    <h3 class="faq-q">点数が低いと頭が悪いということ？</h3>
+    <p class="faq-a">ちがいます。このテストが見ているのは、計算力より「最初の答えを確かめる習慣」です。答えを知った今なら、同じタイプの問題で立ち止まれるはずです。</p>
+    <h3 class="faq-q">なぜ信ぴょう性がAではなくBなのですか？</h3>
+    <p class="faq-a">テスト自体は研究で広く使われていますが、日本語の問題文はSEADICEが訳し、1問目の金額を円に置き換えたものだからです。また、問題が有名になったため、答えを知っている人では点数が高く出ることがあります。</p>
+
+    <h2>出典</h2>
+    <ul class="ref-list">
+      <li>Frederick, S. (2005). Cognitive reflection and decision making. <i>Journal of Economic Perspectives</i>, 19(4), 25–42. <a href="https://doi.org/10.1257/089533005775196732" target="_blank" rel="noopener">論文</a></li>
+    </ul>
+  </section>
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/profile/"><span class="diag-body"><span class="diag-title">診断プロフィール帳</span></span></a>
+      <a class="diag-card" href="/diagnosis/rank/"><span class="diag-body"><span class="diag-title">診断の信ぴょう性ランク</span></span></a>
+    </div>
+  </div>
+</main>
+<script>
+(function(){
+  var Q = [
+    {ans: 50, trap: 100, unit: '円', why: 'ボールが100円だとバットは1100円で、合計1200円になってしまいます。ボール50円・バット1050円なら、合計1100円で差が1000円です。'},
+    {ans: 5, trap: 100, unit: '分', why: '1台の機械が1個の部品を作るのに5分かかります。100台がそれぞれ1個ずつ作るので、5分です。'},
+    {ans: 47, trap: 24, unit: '日目', why: '毎日2倍になるので、池全体をおおう48日目の前の日、47日目にちょうど半分です。'}
+  ];
+  var form = document.getElementById('crt-form');
+  var inputs = form.querySelectorAll('.crt-in');
+  var resultEl = document.getElementById('quiz-result');
+  function num(v){
+    v = String(v).replace(/[０-９．]/g, function(c){ return String.fromCharCode(c.charCodeAt(0) - 0xFEE0); }).replace(/,/g, '');
+    var m = v.match(/\d+(\.\d+)?/);
+    return m ? parseFloat(m[0]) : null;
+  }
+  inputs.forEach(function(el, i){
+    el.addEventListener('keydown', function(e){
+      if (e.key !== 'Enter') return;
+      e.preventDefault();
+      if (i < inputs.length - 1) inputs[i + 1].focus(); else el.blur();
+    });
+  });
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (document.activeElement) document.activeElement.blur();
+    var vals = Array.prototype.map.call(inputs, function(el){ return num(el.value); });
+    var err = document.getElementById('crt-err');
+    if (vals.some(function(v){ return v === null; })) { err.hidden = false; return; }
+    err.hidden = true;
+    var score = 0, traps = 0;
+    var html = Q.map(function(q, i){
+      var ok = vals[i] === q.ans, trap = vals[i] === q.trap;
+      if (ok) score++;
+      if (trap) traps++;
+      return '<div class="crt-a ' + (ok ? 'crt-ok' : 'crt-ng') + '"><p class="crt-a-head">Q' + (i + 1) + ' ' + (ok ? '正解' : '不正解') + '</p>' +
+        '<p>あなたの答え: ' + vals[i] + q.unit + ' / 正解: <b>' + q.ans + q.unit + '</b>' + (trap ? '（直感の答えでした）' : '') + '</p><p>' + q.why + '</p></div>';
+    }).join('');
+    var desc = score === 3 ? '3問とも、直感の答えに引っかからずに正解できました。最初に浮かんだ答えを確かめる習慣がしっかりあります。'
+      : traps >= 2 ? '直感の答えに引っかかりました。でも、これは多くの人が通る道です。今回の「あれ？」の感覚を覚えておくと、急かされる場面で立ち止まれます。'
+      : 'いくつかは直感を疑えました。急いでいるときほど「本当に？」と一度確かめると、満点に近づけます。';
+    document.getElementById('crt-score').textContent = '3問中 ' + score + '問正解';
+    document.getElementById('crt-desc').textContent = desc;
+    document.getElementById('crt-answers').innerHTML = html;
+    var summary = '3問中' + score + '問正解';
+    var shareText = encodeURIComponent('バットとボール問題（認知反射テスト）→ ' + summary + '。直感の答えはほぼ不正解');
+    var url = encodeURIComponent(location.href);
+    resultEl.querySelector('.share-twitter').href = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + url;
+    resultEl.querySelector('.share-line').href = 'https://social-plugins.line.me/lineit/share?url=' + url + '&text=' + shareText;
+    var saved = false, count = 0;
+    try {
+      var p = JSON.parse(localStorage.getItem('seadice_diag_profile_v1')) || {};
+      p.crt = {key: String(score), name: summary, color: '#6c63ff', at: new Date().toISOString().slice(0, 10)};
+      localStorage.setItem('seadice_diag_profile_v1', JSON.stringify(p));
+      count = Object.keys(p).length; saved = true;
+    } catch (e2) {}
+    resultEl.querySelector('.profile-note').innerHTML = saved
+      ? '<b>診断プロフィール帳に記録しました</b><span>' + count + '本の診断を記録済み・プロフィール帳を見る →</span>'
+      : '<b>診断プロフィール帳</b><span>全部の結果を1枚にまとめる →</span>';
+    form.style.display = 'none';
+    resultEl.style.display = 'block';
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  });
+  resultEl.querySelector('.retry-btn').addEventListener('click', function(){
+    inputs.forEach(function(el){ el.value = ''; });
+    resultEl.style.display = 'none';
+    form.style.display = 'block';
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  });
+})();
+</script>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

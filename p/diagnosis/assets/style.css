@@ -207,3 +207,14 @@ a.cred:hover{text-decoration:underline}
 .bt-result .result-name{font-size:22px;margin-bottom:10px}
 .bt-answer{margin-top:18px;text-align:left;background:#e4ecff;border-radius:14px;padding:14px 16px;font-size:14px;line-height:1.8}
 .about-table.wrap td:first-child{white-space:normal;width:38%}
+.crt-form{display:flex;flex-direction:column;gap:14px}
+.crt-q .q-title{margin-bottom:12px}
+.crt-label{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:700}
+.crt-in{width:140px;font-size:18px;padding:12px 14px;border:1.5px solid var(--border);border-radius:12px;background:#fbfbfe;color:var(--text)}
+.crt-in:focus{outline:2px solid var(--accent2);border-color:transparent}
+.crt-err{font-size:13.5px;color:#b3261e;font-weight:700}
+.crt-answers{display:flex;flex-direction:column;gap:10px;margin-top:18px;text-align:left}
+.crt-a{border-radius:14px;padding:12px 14px;font-size:13.5px;line-height:1.8;border-left:5px solid}
+.crt-ok{background:#dff5ee;border-color:#0b6b55}
+.crt-ng{background:#fff1dc;border-color:#8a4f00}
+.crt-a-head{font-weight:800;font-size:14px}
