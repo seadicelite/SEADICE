@@ -15,6 +15,21 @@
   var answers = new Array(total).fill(null);
   var current = 0;
 
+  // 診断プロフィール帳: 結果はこの端末のブラウザにだけ保存する
+  var PROFILE_KEY = 'seadice_diag_profile_v1';
+  var slug = location.pathname.replace(/^\/diagnosis\//, '').replace(/\/.*$/, '');
+  function loadProfile(){
+    try { return JSON.parse(localStorage.getItem(PROFILE_KEY)) || {}; } catch (e) { return {}; }
+  }
+  function saveToProfile(key, t){
+    try {
+      var p = loadProfile();
+      p[slug] = {key: key, name: t.name, color: t.color || '#ff6b81', at: new Date().toISOString().slice(0, 10)};
+      localStorage.setItem(PROFILE_KEY, JSON.stringify(p));
+      return true;
+    } catch (e) { return false; }
+  }
+
   var ICONS = [
     '<svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" fill="#fff" fill-opacity=".9"/></svg>',
     '<svg viewBox="0 0 24 24" fill="none"><rect x="5" y="5" width="14" height="14" rx="4" transform="rotate(45 12 12)" fill="#fff" fill-opacity=".9"/></svg>',
@@ -101,7 +116,29 @@
     var url = encodeURIComponent(location.href);
     resultEl.querySelector('.share-twitter').href = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + url;
     resultEl.querySelector('.share-line').href = 'https://social-plugins.line.me/lineit/share?url=' + url + '&text=' + shareText;
+    var saved = saveToProfile(bestKey, t);
+    var note = resultEl.querySelector('.profile-note');
+    if (!note) {
+      note = document.createElement('a');
+      note.className = 'profile-note';
+      note.href = '/diagnosis/profile/';
+      card.appendChild(note);
+    }
+    var count = Object.keys(loadProfile()).length;
+    note.innerHTML = saved
+      ? '<b>診断プロフィール帳に記録しました</b><span>' + count + ' / 6 診断済み・プロフィール帳を見る →</span>'
+      : '<b>診断プロフィール帳</b><span>全部の結果を1枚にまとめる →</span>';
     window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
+  if (introEl && slug) {
+    var prev = loadProfile()[slug];
+    if (prev && startBtn) {
+      var prevEl = document.createElement('p');
+      prevEl.className = 'prev-result';
+      prevEl.innerHTML = '前回の結果: <b style="color:' + prev.color + '">' + prev.name + '</b>（' + prev.at + '）';
+      startBtn.parentNode.insertBefore(prevEl, startBtn.nextSibling);
+    }
   }
 
   if (startBtn) {

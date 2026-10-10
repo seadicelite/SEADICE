@@ -62,6 +62,7 @@
 - [感覚過敏きろく](https://research.seadice.win/kankaku-kabin/): 音・光・におい・肌ざわりでつらかった場面をタップで記録し、苦手の傾向・楽になった対処・職場や学校に伝える合理的配慮のメモを作る無料ツール。特定のイヤホンや機種に依存せずブラウザで動く（登録不要・記録は端末内のみ）
 - [退去立会いの写真記録](https://seadice.win/tools/taikyo-shashin/): 賃貸の入居時・退去時の部屋を場所ごとに日時入りで撮影・比較し、PDFレポートにする無料ツール。国交省「原状回復をめぐるトラブルとガイドライン」の負担区分早見表と壁紙の負担割合計算つき（登録不要・写真は端末内のみ）
 - [無料診断まとめ](https://seadice.win/diagnosis/): 性格・心理・適性をブラウザで診断
+- [診断プロフィール帳](https://seadice.win/diagnosis/profile/): 6つの診断結果を端末内に記録し、1枚の画像にまとめる（登録不要）
 - [ポモドーロタイマー](https://seadice.win/pomodoro/): ヒーリングサウンド付き無料タイマー
 - [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
 - [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット

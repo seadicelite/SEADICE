@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>診断プロフィール帳 | SEADICE 診断</title>
+  <meta name="description" content="SEADICEの無料診断6種類の結果を1枚にまとめるプロフィール帳。気質・ビッグファイブ・恋愛・キャリアなどの結果が自動で記録され、画像にして友だちと見せ合えます。登録不要。">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/profile/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="診断プロフィール帳 | SEADICE 診断">
+  <meta property="og:description" content="6つの無料診断の結果を1枚にまとめて、画像で見せ合えるプロフィール帳。登録不要。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/profile/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/mbti-lite-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"診断プロフィール帳","item":"https://seadice.win/diagnosis/profile/"}]},{"@type":"WebPage","name":"診断プロフィール帳","description":"SEADICEの無料診断6種類の結果を1枚にまとめるプロフィール帳","url":"https://seadice.win/diagnosis/profile/","inLanguage":"ja","dateModified":"2026-10-10","publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"診断プロフィール帳とは？","acceptedAnswer":{"@type":"Answer","text":"SEADICEの無料診断6種類の結果を自動で記録し、1枚のプロフィールカードにまとめる機能です。カードは画像にして保存・共有できます。"}},{"@type":"Question","name":"登録は必要ですか？結果はどこに保存されますか？","acceptedAnswer":{"@type":"Answer","text":"登録は不要です。結果はお使いの端末のブラウザの中にだけ保存され、SEADICEのサーバーには送信されません。"}}]}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / 診断プロフィール帳</p>
+  <p class="section-label">Profile Book</p>
+  <h1>診断プロフィール帳</h1>
+  <p class="hero-desc">6つの診断の結果がここに自動でたまっていきます。全部うめたら、1枚の画像にして友だちと見せ合えます。登録はいりません。</p>
+
+  <p class="pf-count" id="pf-count"></p>
+  <div class="pf-bar"><i id="pf-bar"></i></div>
+
+  <label class="pf-name" for="pf-name">ニックネーム（画像に入ります・空欄でもOK）</label>
+  <input class="pf-name-input" id="pf-name" type="text" maxlength="16" placeholder="例: しーちゃん" autocomplete="off" enterkeyhint="done">
+
+  <div class="pf-grid" id="pf-grid"></div>
+
+  <h2>画像にする</h2>
+  <p style="font-size:14px;margin-bottom:16px">診断した分だけの結果が入った画像を作ります。SNSのプロフィールや、友だちとの見せ合いにどうぞ。</p>
+  <img class="pf-preview" id="pf-preview" alt="プロフィールカードのプレビュー" width="1080" height="1350" hidden>
+  <div class="pf-actions">
+    <button type="button" class="quiz-start-btn" id="pf-share">画像で共有する</button>
+    <button type="button" class="retry-btn" id="pf-save">画像を保存する</button>
+  </div>
+
+  <p class="pf-privacy">結果はこの端末のブラウザの中にだけ保存されます。SEADICEのサーバーには送信されません。ブラウザの履歴やデータを消すと、記録も消えます。</p>
+  <button type="button" class="pf-reset" id="pf-reset">記録をすべて消す</button>
+
+  <h2>よくある質問</h2>
+  <h3 style="font-size:15px;margin:14px 0 4px">診断プロフィール帳とは？</h3>
+  <p style="font-size:14px">SEADICEの無料診断6種類の結果を自動で記録し、1枚のプロフィールカードにまとめる機能です。カードは画像にして保存・共有できます。</p>
+  <h3 style="font-size:15px;margin:14px 0 4px">登録は必要ですか？結果はどこに保存されますか？</h3>
+  <p style="font-size:14px">登録は不要です。結果はお使いの端末のブラウザの中にだけ保存され、SEADICEのサーバーには送信されません。</p>
+</main>
+<script>
+(function(){
+  var KEY = 'seadice_diag_profile_v1', NAME_KEY = 'seadice_diag_profile_name';
+  var LIST = [
+    {slug:'mbti-lite', label:'気質タイプ（MBTI風）', title:'簡易MBTI風 気質診断'},
+    {slug:'bigfive-lite', label:'いちばん強い性格特性', title:'簡易ビッグファイブ性格診断'},
+    {slug:'hidden-personality', label:'隠れた性格', title:'「隠れた性格」診断'},
+    {slug:'renai-type', label:'恋愛タイプ', title:'恋愛タイプ診断'},
+    {slug:'stress-type', label:'ストレス対処タイプ', title:'ストレス対処タイプ診断'},
+    {slug:'career-type', label:'キャリアタイプ', title:'キャリア適性タイプ診断'}
+  ];
+  function get(k){ try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function set(k, v){ try { localStorage.setItem(k, v); } catch (e) {} }
+  function load(){ try { return JSON.parse(get(KEY)) || {}; } catch (e) { return {}; } }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  var data = load();
+  var nameEl = document.getElementById('pf-name');
+  nameEl.value = get(NAME_KEY) || '';
+
+  function render(){
+    var done = LIST.filter(function(d){ return data[d.slug]; }).length;
+    document.getElementById('pf-count').innerHTML = '<b>' + done + '</b> / ' + LIST.length + ' 診断済み' + (done === LIST.length ? '・コンプリート' : '');
+    document.getElementById('pf-bar').style.width = (done / LIST.length * 100) + '%';
+    document.getElementById('pf-grid').innerHTML = LIST.map(function(d){
+      var r = data[d.slug];
+      if (!r) return '<div class="pf-item pf-empty"><p class="pf-label">' + d.label + '</p><p class="pf-result">まだ診断していません</p><a class="pf-go" href="/diagnosis/' + d.slug + '/">' + d.title + 'をする（1分）</a></div>';
+      return '<div class="pf-item" style="--c:' + esc(r.color) + '"><p class="pf-label">' + d.label + '</p><p class="pf-result" style="color:' + esc(r.color) + '">' + esc(r.name) + '</p><p class="pf-meta"><span>' + esc(r.at) + '</span><a href="/diagnosis/' + d.slug + '/">やり直す</a></p></div>';
+    }).join('');
+    draw();
+  }
+
+  function rr(ctx, x, y, w, h, r){ ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); }
+
+  var canvas = document.createElement('canvas');
+  canvas.width = 1080; canvas.height = 1350;
+  var FONT = '-apple-system,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif';
+
+  function draw(){
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#f7f7fb'; ctx.fillRect(0, 0, 1080, 1350);
+    var g = ctx.createLinearGradient(0, 0, 1080, 0);
+    g.addColorStop(0, '#ff6b81'); g.addColorStop(1, '#6c63ff');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, 1080, 16);
+    ctx.fillStyle = '#2b2b3a'; ctx.textBaseline = 'alphabetic';
+    ctx.font = '800 30px ' + FONT; ctx.fillText('診断プロフィール帳', 72, 110);
+    var name = nameEl.value.trim();
+    ctx.font = '800 64px ' + FONT;
+    ctx.fillText(name ? name : 'わたしのプロフィール', 72, 196, 936);
+    var y = 260, h = 160, gap = 20;
+    LIST.forEach(function(d){
+      var r = data[d.slug];
+      ctx.fillStyle = '#ffffff'; rr(ctx, 72, y, 936, h, 24); ctx.fill();
+      ctx.fillStyle = r ? r.color : '#ececf4'; rr(ctx, 72, y, 14, h, 7); ctx.fill();
+      ctx.fillStyle = '#5d5d70'; ctx.font = '700 28px ' + FONT; ctx.fillText(d.label, 120, y + 58);
+      ctx.fillStyle = r ? r.color : '#b0b0c0'; ctx.font = (r ? '800 52px ' : '700 40px ') + FONT;
+      ctx.fillText(r ? r.name : 'まだ', 120, y + 122, 860);
+      y += h + gap;
+    });
+    ctx.fillStyle = '#5d5d70'; ctx.font = '700 26px ' + FONT;
+    ctx.fillText('seadice.win/diagnosis/profile/', 72, 1316);
+    var prev = document.getElementById('pf-preview');
+    prev.src = canvas.toDataURL('image/png'); prev.hidden = false;
+  }
+
+  function toBlob(cb){ draw(); canvas.toBlob(cb, 'image/png'); }
+  function download(blob){
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = 'seadice-diagnosis-profile.png';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
+  }
+
+  nameEl.addEventListener('input', function(){ set(NAME_KEY, nameEl.value); draw(); });
+  nameEl.addEventListener('keydown', function(e){ if (e.key === 'Enter') nameEl.blur(); });
+  document.getElementById('pf-save').addEventListener('click', function(){ toBlob(download); });
+  document.getElementById('pf-share').addEventListener('click', function(){
+    toBlob(function(blob){
+      var file = new File([blob], 'seadice-diagnosis-profile.png', {type: 'image/png'});
+      var payload = {files: [file], text: 'わたしの診断プロフィール帳', url: 'https://seadice.win/diagnosis/profile/'};
+      if (navigator.canShare && navigator.canShare({files: [file]})) {
+        navigator.share(payload).catch(function(){});
+      } else {
+        download(blob);
+      }
+    });
+  });
+  document.getElementById('pf-reset').addEventListener('click', function(){
+    if (!confirm('診断プロフィール帳の記録をすべて消しますか？元には戻せません。')) return;
+    try { localStorage.removeItem(KEY); localStorage.removeItem(NAME_KEY); } catch (e) {}
+    data = {}; nameEl.value = ''; render();
+  });
+
+  render();
+})();
+</script>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>
