@@ -32,15 +32,17 @@ def to_camel(slug: str) -> str:
 
 
 def lookup_bundle(bundle_id: str):
-    url = f"https://itunes.apple.com/lookup?bundleId={bundle_id}"
-    try:
-        with urllib.request.urlopen(url, timeout=10) as res:
-            data = json.load(res)
-    except Exception as e:
-        print(f"  ! lookup failed for {bundle_id}: {e}", file=sys.stderr)
-        return None
-    if data.get("resultCount", 0) > 0:
-        return data["results"][0]
+    # 日本のストアだけで配信しているアプリは country 未指定（米国ストア）だと見つからないため jp → us の順に引く
+    for country in ("jp", "us"):
+        url = f"https://itunes.apple.com/lookup?bundleId={bundle_id}&country={country}"
+        try:
+            with urllib.request.urlopen(url, timeout=10) as res:
+                data = json.load(res)
+        except Exception as e:
+            print(f"  ! lookup failed for {bundle_id} ({country}): {e}", file=sys.stderr)
+            continue
+        if data.get("resultCount", 0) > 0:
+            return data["results"][0]
     return None
 
 

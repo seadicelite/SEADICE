@@ -226,6 +226,125 @@
       "genre": "psychology",
       "appStoreId": "6790624555",
       "appStoreUrl": "https://apps.apple.com/app/id6790624555"
+    },
+    {
+      "id": "attachment-style",
+      "name": "愛着スタイル診断",
+      "genre": "",
+      "appStoreId": "6793424764",
+      "appStoreUrl": "https://apps.apple.com/app/id6793424764"
+    },
+    {
+      "id": "cognitive-bias-guide",
+      "name": "認知バイアス",
+      "genre": "",
+      "appStoreId": "6791445664",
+      "appStoreUrl": "https://apps.apple.com/app/id6791445664"
+    },
+    {
+      "id": "dark-triad",
+      "name": "ダークトライアド診断",
+      "genre": "",
+      "appStoreId": "6793077230",
+      "appStoreUrl": "https://apps.apple.com/app/id6793077230"
+    },
+    {
+      "id": "enneagram",
+      "name": "エニアグラム診断",
+      "genre": "",
+      "appStoreId": "6793464893",
+      "appStoreUrl": "https://apps.apple.com/app/id6793464893"
+    },
+    {
+      "id": "fbi-bodylanguage",
+      "name": "FBI式ボディランゲージ辞典",
+      "genre": "",
+      "appStoreId": "6792498079",
+      "appStoreUrl": "https://apps.apple.com/app/id6792498079"
+    },
+    {
+      "id": "holmes-deduction",
+      "name": "目指せシャーロックホームズ-推理ノート",
+      "genre": "",
+      "appStoreId": "6792714584",
+      "appStoreUrl": "https://apps.apple.com/app/id6792714584"
+    },
+    {
+      "id": "hsp-relationship-check",
+      "name": "HSPナビ",
+      "genre": "",
+      "appStoreId": "6791561869",
+      "appStoreUrl": "https://apps.apple.com/app/id6791561869"
+    },
+    {
+      "id": "kateisaien-app10",
+      "name": "土壌診断ノート",
+      "genre": "",
+      "appStoreId": "6786537318",
+      "appStoreUrl": "https://apps.apple.com/app/id6786537318"
+    },
+    {
+      "id": "lifeisrpg",
+      "name": "Life's RPG",
+      "genre": "",
+      "appStoreId": "6777974093",
+      "appStoreUrl": "https://apps.apple.com/app/id6777974093"
+    },
+    {
+      "id": "line-honne-scan",
+      "name": "本音診断",
+      "genre": "",
+      "appStoreId": "6790064627",
+      "appStoreUrl": "https://apps.apple.com/app/id6790064627"
+    },
+    {
+      "id": "mbti-compass",
+      "name": "MBTIコンパス-性格診断と相性相関図",
+      "genre": "",
+      "appStoreId": "6791745891",
+      "appStoreUrl": "https://apps.apple.com/app/id6791745891"
+    },
+    {
+      "id": "nlp-goal-coach",
+      "name": "NLP式ゴールコーチ-目標達成AI",
+      "genre": "",
+      "appStoreId": "6792938273",
+      "appStoreUrl": "https://apps.apple.com/app/id6792938273"
+    },
+    {
+      "id": "pet-health-app3",
+      "name": "ペット健康クイズ",
+      "genre": "",
+      "appStoreId": "6785127486",
+      "appStoreUrl": "https://apps.apple.com/app/id6785127486"
+    },
+    {
+      "id": "procrastination-type",
+      "name": "先延ばしタイプ診断",
+      "genre": "",
+      "appStoreId": "6792604492",
+      "appStoreUrl": "https://apps.apple.com/app/id6792604492"
+    },
+    {
+      "id": "trauma-response-type",
+      "name": "ストレス反応タイプ",
+      "genre": "",
+      "appStoreId": "6793581239",
+      "appStoreUrl": "https://apps.apple.com/app/id6793581239"
+    },
+    {
+      "id": "yaritai-100",
+      "name": "死ぬまでにやりたい100のこと-バケットリスト",
+      "genre": "",
+      "appStoreId": "6793014142",
+      "appStoreUrl": "https://apps.apple.com/app/id6793014142"
+    },
+    {
+      "id": "yumetoki",
+      "name": "ユメトキ",
+      "genre": "",
+      "appStoreId": "6791805828",
+      "appStoreUrl": "https://apps.apple.com/app/id6791805828"
     }
   ]
 }
