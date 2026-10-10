@@ -38,6 +38,24 @@ def ensure_series_link(href):
     print(f"  added series link: {f.relative_to(P.parent)}")
 
 
+FLAGSHIP = "evidence"  # シリーズの名前の元になったアプリ。研究そのものを読むアプリなので、研究欄ではなく先頭に看板として置く
+
+
+def flagship_block(apps):
+    a = next((x for x in apps if x["id"] == FLAGSHIP), None)
+    href, page = page_for(FLAGSHIP)
+    if not a or not href:
+        return ""
+    m = re.search(r'<meta name="description" content="([^"]*)"', page)
+    store = f"https://apps.apple.com/jp/app/id{a['appStoreId']}?ct=seadice"
+    return f'''  <section class="flag" aria-labelledby="flag-title">
+    <div class="app-head"><span class="app-icon"><img src="/icons/apps/{FLAGSHIP}.webp" alt="" width="56" height="56"></span>
+      <div><p class="label">シリーズの入口</p><h2 id="flag-title"><a href="{href}">EVIDENCE</a></h2></div></div>
+    <p class="flag-desc">{html.escape(m.group(1) if m else "")}</p>
+    <div class="app-actions"><a class="app-store" href="{store}" target="_blank" rel="noopener">App Storeで見る</a><a class="app-link" href="{href}">アプリの紹介を読む</a></div>
+  </section>'''
+
+
 def main():
     apps = json.loads(REGISTRY.read_text(encoding="utf-8"))["apps"]
     blocks, items_ld, total = [], [], 0
@@ -69,7 +87,15 @@ def main():
             "@type": "SoftwareApplication", "name": name, "operatingSystem": "iOS",
             "applicationCategory": "LifestyleApplication", "url": f"https://seadice.win{href}",
             "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}})
-    count = len(blocks)
+    flag = flagship_block(apps)
+    count = len(blocks) + (1 if flag else 0)
+    if flag:
+        items_ld.insert(0, {"@type": "ListItem", "position": 0, "item": {
+            "@type": "SoftwareApplication", "name": "EVIDENCE", "operatingSystem": "iOS",
+            "applicationCategory": "EducationApplication", "url": "https://seadice.win/apps/evidence/",
+            "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY"}}})
+        for n, it in enumerate(items_ld, 1):
+            it["position"] = n
     today = date.today().isoformat()
     desc = (f"EVIDENCEシリーズは、SEADICEのアプリのうち、機能のもとになった研究の論文と解説記事を公開しているアプリのまとめです。"
             f"現在{count}本・研究{total}件。すべて無料・広告なし。")
@@ -93,7 +119,7 @@ def main():
     faq_html = "\n".join(f"    <dt>{html.escape(q)}</dt><dd>{html.escape(t)}</dd>" for q, t in faq)
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(TEMPLATE.format(desc=desc, ld=json.dumps(ld, ensure_ascii=False), count=count, total=total,
-                                   apps="\n\n".join(blocks), faq=faq_html, year=date.today().year), encoding="utf-8")
+                                   apps="\n\n".join(([flag] if flag else []) + blocks), faq=faq_html, year=date.today().year), encoding="utf-8")
     print(f"wrote {OUT.relative_to(P.parent)} ({count} apps, {total} studies)")
 
 
@@ -138,6 +164,10 @@ h1{{font-size:clamp(24px,4vw,34px);font-weight:800;letter-spacing:-.02em}}
 .rules ol{{padding-left:20px;font-size:14px;color:var(--muted)}}
 .rules li{{margin:6px 0}}
 .rules li strong{{color:var(--text)}}
+.flag{{margin-top:40px;border:1px solid var(--accent);border-radius:16px;padding:20px;background:var(--card)}}
+.flag h2{{font-size:18px;font-weight:800}}
+.flag h2 a{{text-decoration:none}}
+.flag-desc{{font-size:14px;color:var(--muted);margin-top:4px}}
 .app{{margin-top:48px;padding-top:24px;border-top:1px solid var(--border)}}
 .app-head{{display:flex;align-items:center;gap:14px;margin-bottom:8px}}
 .app-icon{{flex:0 0 56px;width:56px;height:56px;border-radius:13px;overflow:hidden;background:var(--card)}}
@@ -171,7 +201,7 @@ footer a{{text-decoration:none;margin:0 6px;padding:8px 0}}
 <header><div class="bar"><a class="logo" href="/">SEADICE</a><nav class="crumb" aria-label="パンくずリスト"><a href="/">HOME</a> / <a href="/apps/">アプリ一覧</a> / EVIDENCE</nav></div></header>
 <main>
   <div class="hero"><img src="/icons/evidence-mark.webp" width="48" height="48" alt=""><div><p class="label">Evidence Series</p><h1>研究にもとづくアプリ</h1></div></div>
-  <p class="lead"><strong>EVIDENCEシリーズは、機能のもとになった研究の論文と解説記事をすべて公開しているSEADICEのアプリです。</strong>「なぜこの機能があるのか」を、元の論文とやさしい解説記事で確かめてから使えます。</p>
+  <p class="lead"><strong>EVIDENCEシリーズは、機能のもとになった研究の論文と解説記事をすべて公開しているSEADICEのアプリです。</strong>「なぜこの機能があるのか」を、元の論文とやさしい解説記事で確かめてから使えます。入口は、研究そのものを3枚のカードで読めるアプリ「EVIDENCE」です。</p>
   <ul class="facts"><li>{count}本のアプリ</li><li>研究{total}件</li><li>すべて無料・広告なし</li></ul>
 
   <section class="rules" aria-labelledby="rules-title">
