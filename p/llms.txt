@@ -65,6 +65,8 @@
 - [診断プロフィール帳](https://seadice.win/diagnosis/profile/): 6つの診断結果を端末内に記録し、1枚の画像にまとめる（登録不要）
 - [診断の信ぴょう性ランク](https://seadice.win/diagnosis/rank/): 診断を研究での裏付けの強さでA〜Dに分類（MBTIはC、ビッグファイブ簡易版はB）。基準と根拠論文つき
 - [ビッグファイブ性格診断（日本語版TIPI・10問）](https://seadice.win/diagnosis/bigfive-tipi/): 研究で確かめられたTIPI-J（小塩ほか, 2012）で5特性を点数化し、大学生902人の平均と比較。信ぴょう性A
+- [自己肯定感診断（ローゼンバーグ自尊感情尺度・10問）](https://seadice.win/diagnosis/self-esteem/): 日本語版（桜井, 2000）の10問で自尊感情を点数化し、大学生361人の平均と比較。信ぴょう性A
+- [血液型性格診断は当たる？研究で答え合わせ](https://seadice.win/diagnosis/blood-type/): 日米1万人以上の調査で68項目中65項目に差なし、説明できる差は0.3%未満（縄田, 2014）
 - [ポモドーロタイマー](https://seadice.win/pomodoro/): ヒーリングサウンド付き無料タイマー
 - [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
 - [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット
