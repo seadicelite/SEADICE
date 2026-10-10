@@ -42,7 +42,7 @@
   <div class="pf-grid" id="pf-grid"></div>
 
   <h2>画像にする</h2>
-  <p style="font-size:14px;margin-bottom:16px">診断した分だけの結果が入った画像を作ります。SNSのプロフィールや、友だちとの見せ合いにどうぞ。</p>
+  <p style="font-size:14px;margin-bottom:16px">診断した分だけの結果が入った画像を作ります（信ぴょう性ランクも入ります）。SNSのプロフィールや、友だちとの見せ合いにどうぞ。</p>
   <img class="pf-preview" id="pf-preview" alt="プロフィールカードのプレビュー" width="1080" height="1350" hidden>
   <div class="pf-actions">
     <button type="button" class="quiz-start-btn" id="pf-share">画像で共有する</button>
@@ -101,8 +101,12 @@
   var FONT = '-apple-system,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif';
 
   function draw(){
+    // 診断した分だけを並べ、件数に合わせて画像の高さを変える
+    var done = LIST.filter(function(d){ return data[d.slug]; });
+    var h = 150, gap = 18, top = 300;
+    canvas.height = Math.max(1080, top + Math.max(done.length, 1) * (h + gap) + 90);
     var ctx = canvas.getContext('2d');
-    ctx.fillStyle = '#f7f7fb'; ctx.fillRect(0, 0, 1080, 1350);
+    ctx.fillStyle = '#f7f7fb'; ctx.fillRect(0, 0, canvas.width, canvas.height);
     var g = ctx.createLinearGradient(0, 0, 1080, 0);
     g.addColorStop(0, '#ff6b81'); g.addColorStop(1, '#6c63ff');
     ctx.fillStyle = g; ctx.fillRect(0, 0, 1080, 16);
@@ -111,19 +115,27 @@
     var name = nameEl.value.trim();
     ctx.font = '800 64px ' + FONT;
     ctx.fillText(name ? name : 'わたしのプロフィール', 72, 196, 936);
-    var y = 260, h = 160, gap = 20;
-    LIST.forEach(function(d){
+    ctx.fillStyle = '#5d5d70'; ctx.font = '700 28px ' + FONT;
+    ctx.fillText(done.length + ' / ' + LIST.length + ' 診断済み', 72, 250);
+    var y = top;
+    if (!done.length) {
+      ctx.fillStyle = '#8a8a9c'; ctx.font = '700 36px ' + FONT;
+      ctx.fillText('まだ診断していません', 72, y + 80);
+    }
+    done.forEach(function(d){
       var r = data[d.slug];
       ctx.fillStyle = '#ffffff'; rr(ctx, 72, y, 936, h, 24); ctx.fill();
-      ctx.fillStyle = r ? r.color : '#ececf4'; rr(ctx, 72, y, 14, h, 7); ctx.fill();
-      ctx.fillStyle = '#5d5d70'; ctx.font = '700 28px ' + FONT; ctx.fillText(d.label, 120, y + 58);
-      ctx.fillStyle = r ? r.color : '#b0b0c0'; ctx.font = (r ? '800 52px ' : '700 40px ') + FONT;
-      ctx.fillText(r ? r.name : 'まだ', 120, y + 122, 860);
+      ctx.fillStyle = r.color; rr(ctx, 72, y, 14, h, 7); ctx.fill();
+      ctx.fillStyle = '#5d5d70'; ctx.font = '700 28px ' + FONT;
+      ctx.fillText(d.label + '（信ぴょう性' + d.rank.toUpperCase() + '）', 120, y + 56, 860);
+      ctx.fillStyle = r.color; ctx.font = '800 48px ' + FONT;
+      ctx.fillText(r.name, 120, y + 116, 860);
       y += h + gap;
     });
     ctx.fillStyle = '#5d5d70'; ctx.font = '700 26px ' + FONT;
-    ctx.fillText('seadice.win/diagnosis/profile/', 72, 1316);
+    ctx.fillText('seadice.win/diagnosis/profile/', 72, canvas.height - 40);
     var prev = document.getElementById('pf-preview');
+    prev.width = canvas.width; prev.height = canvas.height;
     prev.src = canvas.toDataURL('image/png'); prev.hidden = false;
   }
 
