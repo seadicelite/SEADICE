@@ -140,6 +140,10 @@
         {
           "site": "research",
           "hub": "https://research.seadice.win/apps/habit-quit/"
+        },
+        {
+          "site": "umbra",
+          "hub": "https://umbra.seadice.win/apps/habit-quit/"
         }
       ]
     },
