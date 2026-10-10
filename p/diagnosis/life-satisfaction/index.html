@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人生満足度診断（人生満足度尺度 SWLS・5問） | SEADICE 診断</title>
+  <meta name="description" content="幸福研究で世界中で使われている人生満足度尺度（SWLS, Dienerら, 1985）の5問で、今の人生にどれくらい満足しているかを点数にする無料診断。作者が示した6段階の目安で結果がわかります。登録不要・約1分。">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/life-satisfaction/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="人生満足度診断（人生満足度尺度 SWLS・5問） | SEADICE 診断">
+  <meta property="og:description" content="幸福研究で世界中で使われている5問で、人生の満足度を点数にする無料診断。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/life-satisfaction/">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"人生満足度診断","item":"https://seadice.win/diagnosis/life-satisfaction/"}]},{"@type":"Quiz","name":"人生満足度診断（人生満足度尺度 SWLS・5問）","url":"https://seadice.win/diagnosis/life-satisfaction/","inLanguage":"ja","datePublished":"2026-10-10","dateModified":"2026-10-10","citation":"Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71-75.","publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"人生満足度尺度（SWLS）とは？","acceptedAnswer":{"@type":"Answer","text":"幸福研究の第一人者ディーナーらが1985年に作った、人生全体への満足度を測る5問の尺度です。幸福や満足度の研究で世界中で使われています。"}},{"@type":"Question","name":"人生満足度の平均はどれくらい？","acceptedAnswer":{"@type":"Answer","text":"作者のディーナーによると、経済的に発展した国の平均は5〜35点のうち20〜24点の範囲です。多くの人はおおむね満足しつつ、改善したい部分も持っています。"}}]}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <div id="quiz-intro">
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / 人生満足度診断</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>人生満足度診断<br>（人生満足度尺度 SWLS・5問）</h1>
+  <p class="cred-row"><a class="cred cred-b" href="/diagnosis/rank/">信ぴょう性 <b>B</b></a>原版は研究で確かめられている・日本語訳の検証は未確認</p>
+  <p class="hero-desc">幸福研究で世界中で使われている「人生満足度尺度（SWLS）」の5問で、今の人生にどれくらい満足しているかを点数にします。結果は作者のディーナーが示した6段階の目安で見られます。所要時間は約1分です。</p>
+
+  <div class="hero-icon" aria-hidden="true"><svg viewBox="0 0 120 120" width="120" height="120"><circle cx="60" cy="60" r="56" fill="#fff6e6"/><circle cx="60" cy="60" r="22" fill="#ffa62b"/><g stroke="#ffa62b" stroke-width="6" stroke-linecap="round"><path d="M60 18v12M60 90v12M18 60h12M90 60h12M30 30l8 8M82 82l8 8M30 90l8-8M82 38l8-8"/></g></svg></div>
+
+    <button type="button" id="quiz-start-btn" class="quiz-start-btn">診断をはじめる（1分・全5問）</button>
+  </div>
+
+  <div id="quiz-progress-wrap">
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+    <p class="quiz-step-label"><span>質問</span><span id="quiz-progress-label">1 / 5</span></p>
+  </div>
+  <div id="quiz-questions"></div>
+
+  <div id="quiz-result">
+    <div class="result-card" style="--type-color:#ffa62b">
+      <p class="result-type">あなたの人生満足度</p>
+      <h2 class="result-name" style="margin-top:0;font-size:22px">人生満足度の点数</h2>
+      <p class="sc-note">5〜35点。経済的に発展した国の平均は20〜24点です。</p>
+      <div class="sc-list"></div>
+      <div class="tori">
+        <p class="tori-title">わたしの取扱説明書</p>
+        <ul class="tori-list"></ul>
+      </div>
+      <p class="sc-note" style="margin:18px 0 0;text-align:left">点数は今の満足度の目安で、最近の出来事でも変わります。満足度の低い状態が長く続くときは、ひとりで抱えず身近な人や相談窓口に話してみてください。</p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度診断する</button>
+      </div>
+      <a class="profile-note" href="/diagnosis/profile/"></a>
+    </div>
+  </div>
+
+  <section class="about">
+    <h2>人生満足度尺度（SWLS）とは</h2>
+    <p>幸福研究の第一人者ディーナーらが1985年に作った、「人生全体にどれくらい満足しているか」を測る5問の尺度です。幸福や満足度の研究で世界中で使われています。このページの日本語の質問文は、作者のサイトで公開されている日本語訳（大石繁宏 訳）をそのまま使っています。</p>
+
+    <h2>点数の出し方</h2>
+    <ul>
+      <li>5問に7段階（強く反対する＝1点〜強く同意する＝7点）で答え、合計します（5〜35点）。</li>
+      <li>結果の6段階は、作者のディーナーが示した目安（30〜35点: とても満足 / 25〜29点: 満足 / 20〜24点: 平均的 / 15〜19点: 平均よりやや低め / 10〜14点: 不満 / 5〜9点: とても不満）です。</li>
+    </ul>
+
+    <h2>よくある質問</h2>
+    <h3 class="faq-q">人生満足度の平均はどれくらい？</h3>
+    <p class="faq-a">作者のディーナーによると、経済的に発展した国の平均は5〜35点のうち20〜24点の範囲です。多くの人はおおむね満足しつつ、改善したい部分も持っています。</p>
+    <h3 class="faq-q">なぜ信ぴょう性がAではなくBなのですか？</h3>
+    <p class="faq-a">英語の原版は研究で確かめられていますが、このページで使っている日本語訳について、日本人を対象に信頼性・妥当性を確かめた論文をSEADICEでは確認できていないためです。</p>
+    <h3 class="faq-q">「取扱説明書」の文章も研究の結果ですか？</h3>
+    <p class="faq-a">質問と点数の区分は作者の資料のとおりですが、取扱説明書の文章はSEADICEが書いたものです。</p>
+
+    <h2>出典</h2>
+    <ul class="ref-list">
+      <li>Diener, E., Emmons, R. A., Larsen, R. J., &amp; Griffin, S. (1985). The Satisfaction With Life Scale. <i>Journal of Personality Assessment</i>, 49(1), 71–75. <a href="https://doi.org/10.1207/s15327752jpa4901_13" target="_blank" rel="noopener">論文</a></li>
+      <li>Diener, E. Understanding Scores on the Satisfaction with Life Scale. <a href="https://labs.psychology.illinois.edu/~ediener/Documents/Understanding%20SWLS%20Scores.pdf" target="_blank" rel="noopener">資料</a> / 日本語訳（大石繁宏 訳）: <a href="https://labs.psychology.illinois.edu/~ediener/SWLS.html" target="_blank" rel="noopener">作者のサイト</a></li>
+    </ul>
+  </section>
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/self-esteem/"><span class="diag-body"><span class="diag-title">自己肯定感診断（信ぴょう性A）</span></span></a>
+      <a class="diag-card" href="/diagnosis/profile/"><span class="diag-body"><span class="diag-title">診断プロフィール帳</span></span></a>
+    </div>
+  </div>
+
+  <script type="application/json" id="scale-data">
+{
+ "shareTitle": "人生満足度診断（SWLS）",
+ "summaryMode": "single",
+ "lead": "次の文章に、どのくらい同意しますか",
+ "labels": [
+  "強く反対する",
+  "反対する",
+  "かすかに反対する",
+  "どちらでもない",
+  "かすかに同意する",
+  "同意する",
+  "強く同意する"
+ ],
+ "items": [
+  {
+   "text": "ほとんどの面で、私の人生は私の理想に近い。",
+   "key": "L"
+  },
+  {
+   "text": "私の人生は、とてもすばらしい状態だ。",
+   "key": "L"
+  },
+  {
+   "text": "私は自分の人生に満足している。",
+   "key": "L"
+  },
+  {
+   "text": "私はこれまで、自分の人生に求める大切なものを得てきた。",
+   "key": "L"
+  },
+  {
+   "text": "もう一度人生をやり直せるとしても、ほとんど何も変えないだろう。",
+   "key": "L"
+  }
+ ],
+ "keys": {
+  "L": {
+   "name": "人生満足度",
+   "color": "#ffa62b",
+   "min": 5,
+   "max": 35,
+   "bands": [
+    {
+     "min": 30,
+     "level": "high",
+     "label": "とても満足",
+     "desc": "人生をとても気に入っていて、物事がうまくいっていると感じている状態です。完ぺきではなくても、仕事や学校・家族・友人・余暇などがおおむね順調です。",
+     "tori": "今の暮らしを楽しめています。うれしいことは一緒に喜んでもらえると、もっとうれしいです。"
+    },
+    {
+     "min": 25,
+     "level": "high",
+     "label": "満足",
+     "desc": "人生を気に入っていて、だいたいうまくいっていると感じている状態です。満足していない部分を、やる気の源にできることもあります。",
+     "tori": "だいたい順調です。新しい挑戦の話も、気軽に聞かせてください。"
+    },
+    {
+     "min": 20,
+     "level": "mid",
+     "label": "平均的",
+     "desc": "経済的に発展した国の平均はこの範囲です。おおむね満足しつつ、いくつか良くしたい部分がある、ごくふつうの状態です。",
+     "tori": "良くしたいことがいくつかあります。相談したときは、一緒に考えてもらえると助かります。"
+    },
+    {
+     "min": 15,
+     "level": "low",
+     "label": "平均よりやや低め",
+     "desc": "いくつかの分野に小さな悩みがあるか、ひとつの分野に大きな悩みがある状態です。最近の出来事で一時的に下がっているなら、時間とともに戻ることが多いとされています。",
+     "tori": "今は少し疲れ気味です。話を聞いてもらえるだけで助かります。"
+    },
+    {
+     "min": 10,
+     "level": "low",
+     "label": "不満",
+     "desc": "人生にかなり不満を感じている状態です。最近の出来事が原因なら時間とともに戻ることが多いとされますが、長く続くなら、考え方や暮らし方を少し変えてみる時期かもしれません。",
+     "tori": "今はしんどい時期です。無理に励ますより、そばにいてもらえるとうれしいです。"
+    },
+    {
+     "min": 5,
+     "level": "low",
+     "label": "とても不満",
+     "desc": "今の生活をとてもつらく感じている状態です。ひとりで抱えず、家族や友人、相談窓口など、まわりの人の助けを借りることが大切です。",
+     "tori": "今はとてもつらい時期です。声をかけてもらえるだけで、少し楽になります。"
+    }
+   ]
+  }
+ }
+}
+  </script>
+  <script src="/diagnosis/assets/likert.js"></script>
+</main>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>

@@ -206,3 +206,4 @@ a.cred:hover{text-decoration:underline}
 .bt-result{scroll-margin-top:72px}
 .bt-result .result-name{font-size:22px;margin-bottom:10px}
 .bt-answer{margin-top:18px;text-align:left;background:#e4ecff;border-radius:14px;padding:14px 16px;font-size:14px;line-height:1.8}
+.about-table.wrap td:first-child{white-space:normal;width:38%}

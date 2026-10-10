@@ -67,6 +67,9 @@
 - [ビッグファイブ性格診断（日本語版TIPI・10問）](https://seadice.win/diagnosis/bigfive-tipi/): 研究で確かめられたTIPI-J（小塩ほか, 2012）で5特性を点数化し、大学生902人の平均と比較。信ぴょう性A
 - [自己肯定感診断（ローゼンバーグ自尊感情尺度・10問）](https://seadice.win/diagnosis/self-esteem/): 日本語版（桜井, 2000）の10問で自尊感情を点数化し、大学生361人の平均と比較。信ぴょう性A
 - [血液型性格診断は当たる？研究で答え合わせ](https://seadice.win/diagnosis/blood-type/): 日米1万人以上の調査で68項目中65項目に差なし、説明できる差は0.3%未満（縄田, 2014）
+- [人生満足度診断（SWLS・5問）](https://seadice.win/diagnosis/life-satisfaction/): Dienerらの人生満足度尺度で満足度を点数化、作者の6段階の目安で表示。信ぴょう性B
+- [右脳派・左脳派は本当にある？](https://seadice.win/diagnosis/right-left-brain/): 1,011人の脳画像研究（Nielsenら, 2013）で右脳派・左脳派の証拠なし
+- [学習スタイル診断は当たる？](https://seadice.win/diagnosis/learning-style/): 型に合わせても成績は上がらない（Pashlerら, 2008）。研究にもとづく勉強法つき
 - [ポモドーロタイマー](https://seadice.win/pomodoro/): ヒーリングサウンド付き無料タイマー
 - [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
 - [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット

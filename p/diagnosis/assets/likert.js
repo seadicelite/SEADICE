@@ -61,6 +61,13 @@
   }
 
   function levelOf(score, k){
+    if (k.bands) {
+      // 作者が示した点数の区分で判定する（高い区分から順に）
+      for (var i = 0; i < k.bands.length; i++) {
+        var b = k.bands[i];
+        if (score >= b.min) return {id: b.level, label: b.label, z: score, band: b};
+      }
+    }
     var z = (score - k.mean) / k.sd;
     if (z >= 0.5) return {id: 'high', label: '高め', z: z};
     if (z <= -0.5) return {id: 'low', label: '低め', z: z};
@@ -80,13 +87,13 @@
     var tori = [];
     var top = null;
     keys.forEach(function(k){
-      var d = data.keys[k], s = scores[k], lv = levelOf(s, d), t = d[lv.id];
+      var d = data.keys[k], s = scores[k], lv = levelOf(s, d), t = lv.band || d[lv.id];
       if (!top || lv.z > top.z) top = {k: k, z: lv.z, lv: lv};
       var pos = (s - d.min) / (d.max - d.min) * 100;
-      var mean = (d.mean - d.min) / (d.max - d.min) * 100;
+      var mean = d.mean != null ? (d.mean - d.min) / (d.max - d.min) * 100 : null;
       html += '<div class="sc-item sc-' + lv.id + '">' +
         '<p class="sc-head"><span class="sc-name">' + d.name + '</span><span class="sc-level">' + lv.label + '（' + s + '点）</span></p>' +
-        '<div class="sc-bar" role="img" aria-label="' + d.name + ' ' + s + '点（' + d.min + '〜' + d.max + '点、平均' + d.mean + '点）"><i style="width:' + pos + '%"></i><b style="left:' + mean + '%"></b></div>' +
+        '<div class="sc-bar" role="img" aria-label="' + d.name + ' ' + s + '点（' + d.min + '〜' + d.max + '点' + (mean != null ? '、平均' + d.mean + '点' : '') + '）"><i style="width:' + pos + '%"></i>' + (mean != null ? '<b style="left:' + mean + '%"></b>' : '') + '</div>' +
         '<p class="sc-desc">' + t.desc + '</p></div>';
       tori.push(t.tori);
     });
@@ -121,7 +128,7 @@
   data.summary = function(top, keys){
     if (data.summaryMode === 'single') {
       var k = Object.keys(keys)[0];
-      return keys[k].name + 'は' + top.lv.label;
+      return keys[k].name + '：' + top.lv.label;
     }
     return 'いちばん高かったのは' + keys[top.k].name;
   };
