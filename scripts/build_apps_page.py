@@ -30,7 +30,7 @@ OUT = P / "apps" / "index.html"
 CATEGORIES = [
     ("mind", "心とメンタル", ["black-psychology", "hikaku-tomeru", "hitori-time", "mood-forecast",
                          "notify-mindfulness", "honshitsu-type", "curiosity-type", "nlp-mindshift",
-                         "teishutsu-switch"]),
+                         "teishutsu-switch", "body-language-scan"]),
     ("habit", "習慣と行動", ["dopa-quest", "dopamine-detox", "habit-quit", "hiru10"]),
     ("learn", "学びと記憶", ["active-recall", "memory-palace", "book-quiz", "dokugaku-schedule",
                         "evidence", "tetsujin-friends", "boueki", "boueki-eigo"]),

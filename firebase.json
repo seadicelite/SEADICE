@@ -3049,6 +3049,11 @@
     ],
     "redirects": [
       {
+        "source": "/apps/body-language-scan/**",
+        "destination": "/tools/body-language-scan/",
+        "type": 301
+      },
+      {
         "source": "/tools/kankaku-kabin/**",
         "destination": "https://research.seadice.win/kankaku-kabin/",
         "type": 301

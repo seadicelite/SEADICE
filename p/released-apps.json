@@ -212,6 +212,20 @@
           "hub": "https://kosodate.seadice.win/apps/renshu-sns/"
         }
       ]
+    },
+    {
+      "id": "tesukatsu-log",
+      "name": "テス活",
+      "genre": "",
+      "appStoreId": "6815236373",
+      "appStoreUrl": "https://apps.apple.com/app/id6815236373"
+    },
+    {
+      "id": "body-language-scan",
+      "name": "ボディランゲージ診断",
+      "genre": "psychology",
+      "appStoreId": "6790624555",
+      "appStoreUrl": "https://apps.apple.com/app/id6790624555"
     }
   ]
 }
