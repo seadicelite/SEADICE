@@ -3037,18 +3037,28 @@
     ],
     "redirects": [
       {
+        "source": "/tools/kaumae/**",
+        "destination": "/tools/spendology/",
+        "type": 301
+      },
+      {
+        "source": "/privacy/kaumae/**",
+        "destination": "/privacy/spendology/",
+        "type": 301
+      },
+      {
         "source": "/tools/choudogai-stop/**",
-        "destination": "/tools/kaumae/",
+        "destination": "/tools/spendology/",
         "type": 301
       },
       {
         "source": "/apps/choudogai-stop/**",
-        "destination": "/tools/kaumae/",
+        "destination": "/tools/spendology/",
         "type": 301
       },
       {
         "source": "/privacy/choudogai-stop/**",
-        "destination": "/privacy/kaumae/",
+        "destination": "/privacy/spendology/",
         "type": 301
       },
       {
