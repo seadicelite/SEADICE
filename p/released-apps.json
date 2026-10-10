@@ -47,7 +47,13 @@
       "name": "独学スケジュールメーカー",
       "genre": "study",
       "appStoreId": "6813728815",
-      "appStoreUrl": "https://apps.apple.com/app/id6813728815"
+      "appStoreUrl": "https://apps.apple.com/app/id6813728815",
+      "media": [
+        {
+          "site": "dokugaku",
+          "hub": "https://dokugaku.seadice.win/apps/dokugaku-schedule/"
+        }
+      ]
     },
     {
       "id": "active-recall",
@@ -57,8 +63,20 @@
       "appStoreUrl": "https://apps.apple.com/app/id6801937769",
       "media": [
         {
+          "site": "ai",
+          "hub": "https://ai.seadice.win/apps/active-recall/"
+        },
+        {
           "site": "dokugaku",
           "hub": "https://dokugaku.seadice.win/apps/active-recall/"
+        },
+        {
+          "site": "kosodate",
+          "hub": "https://kosodate.seadice.win/apps/active-recall/"
+        },
+        {
+          "site": "research",
+          "hub": "https://research.seadice.win/apps/active-recall/"
         }
       ]
     },
@@ -111,6 +129,14 @@
       "appStoreId": "6798075879",
       "appStoreUrl": "https://apps.apple.com/app/id6798075879",
       "media": [
+        {
+          "site": "kokoro",
+          "hub": "https://mentalai.seadice.win/apps/habit-quit/"
+        },
+        {
+          "site": "ledger",
+          "hub": "https://ledger.seadice.win/apps/habit-quit/"
+        },
         {
           "site": "research",
           "hub": "https://research.seadice.win/apps/habit-quit/"
@@ -183,6 +209,10 @@
         {
           "site": "kokoro",
           "hub": "https://mentalai.seadice.win/apps/notify-mindfulness/"
+        },
+        {
+          "site": "research",
+          "hub": "https://research.seadice.win/apps/notify-mindfulness/"
         }
       ]
     },
@@ -213,6 +243,10 @@
       "appStoreId": "6820029513",
       "appStoreUrl": "https://apps.apple.com/app/id6820029513",
       "media": [
+        {
+          "site": "bohan",
+          "hub": "https://bohan.seadice.win/apps/renshu-sns/"
+        },
         {
           "site": "kosodate",
           "hub": "https://kosodate.seadice.win/apps/renshu-sns/"

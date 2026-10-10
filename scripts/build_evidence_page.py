@@ -17,6 +17,7 @@ import re
 from datetime import date
 
 from build_apps_page import P, REGISTRY, page_for
+from evidence import MEDIA_CSS, media_list, media_section
 
 OUT = P / "evidence-series" / "index.html"
 URL = "https://seadice.win/evidence-series/"
@@ -38,6 +39,34 @@ def ensure_series_link(href):
     print(f"  added series link: {f.relative_to(P.parent)}")
 
 
+def ensure_media_block(href, app_id):
+    """「もとになった研究」欄の直後に、関連するメディア記事の欄を入れる（毎回作り直す。メディア側の追加が自動で反映される）"""
+    f = P / href.strip("/") / "index.html"
+    text = f.read_text(encoding="utf-8")
+    blk = media_section(app_id)
+    if "<!--media-->" in text:
+        new = re.sub(r"<!--media-->.*?<!--/media-->\n?", lambda m: blk + "\n" if blk else "", text, flags=re.S)
+    elif blk:
+        new = SECTION.sub(lambda m: m.group(0) + "\n" + blk, text, count=1)
+    else:
+        return
+    if blk and ".ev-media{" not in new:
+        new = new.replace("</style>", MEDIA_CSS + "</style>", 1)
+    if new != text:
+        f.write_text(new, encoding="utf-8")
+        print(f"  media block: {f.relative_to(P.parent)}")
+
+
+def sync_registry_media(apps):
+    """released-apps.json の media をメディア設定（apps[] に載っているメディア）に合わせる"""
+    changed = False
+    for a in apps:
+        ms = [{"site": c["slug"], "hub": f'{c["url"]}apps/{a["id"]}/'} for c, _ in media_list(a["id"])]
+        if ms and a.get("media") != ms:
+            a["media"], changed = ms, True
+    return changed
+
+
 FLAGSHIP = "evidence"  # シリーズの名前の元になったアプリ。研究そのものを読むアプリなので、研究欄ではなく先頭に看板として置く
 
 
@@ -57,7 +86,11 @@ def flagship_block(apps):
 
 
 def main():
-    apps = json.loads(REGISTRY.read_text(encoding="utf-8"))["apps"]
+    reg = json.loads(REGISTRY.read_text(encoding="utf-8"))
+    apps = reg["apps"]
+    if sync_registry_media(apps):
+        REGISTRY.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"  updated media in {REGISTRY.relative_to(P.parent)}")
     blocks, items_ld, total = [], [], 0
     for a in apps:
         href, page = page_for(a["id"])
@@ -65,6 +98,7 @@ def main():
         if not sec:
             continue
         ensure_series_link(href)
+        ensure_media_block(href, a["id"])
         items = [i.strip() for i in ITEM.findall(sec.group(0))]
         total += len(items)
         name = a["name"].strip().split("　")[0].strip()
