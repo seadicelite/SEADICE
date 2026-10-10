@@ -2552,18 +2552,6 @@
         "destination": "/privacy/iiwake-stop/index.html"
       },
       {
-        "source": "/tools/choudogai-stop/**",
-        "destination": "/tools/choudogai-stop/index.html"
-      },
-      {
-        "source": "/apps/choudogai-stop/**",
-        "destination": "/apps/choudogai-stop/index.html"
-      },
-      {
-        "source": "/privacy/choudogai-stop/**",
-        "destination": "/privacy/choudogai-stop/index.html"
-      },
-      {
         "source": "/tools/kanjou-reset/**",
         "destination": "/tools/kanjou-reset/index.html"
       },
@@ -3048,6 +3036,21 @@
       }
     ],
     "redirects": [
+      {
+        "source": "/tools/choudogai-stop/**",
+        "destination": "/tools/kaumae/",
+        "type": 301
+      },
+      {
+        "source": "/apps/choudogai-stop/**",
+        "destination": "/tools/kaumae/",
+        "type": 301
+      },
+      {
+        "source": "/privacy/choudogai-stop/**",
+        "destination": "/privacy/kaumae/",
+        "type": 301
+      },
       {
         "source": "/apps/body-language-scan/**",
         "destination": "/tools/body-language-scan/",
