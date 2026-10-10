@@ -62,12 +62,12 @@
 (function(){
   var KEY = 'seadice_diag_profile_v1', NAME_KEY = 'seadice_diag_profile_name';
   var LIST = [
-    {slug:'mbti-lite', label:'気質タイプ（MBTI風）', title:'簡易MBTI風 気質診断'},
-    {slug:'bigfive-lite', label:'いちばん強い性格特性', title:'簡易ビッグファイブ性格診断'},
-    {slug:'hidden-personality', label:'隠れた性格', title:'「隠れた性格」診断'},
-    {slug:'renai-type', label:'恋愛タイプ', title:'恋愛タイプ診断'},
-    {slug:'stress-type', label:'ストレス対処タイプ', title:'ストレス対処タイプ診断'},
-    {slug:'career-type', label:'キャリアタイプ', title:'キャリア適性タイプ診断'}
+    {slug:'mbti-lite', rank:'c', label:'気質タイプ（MBTI風）', title:'簡易MBTI風 気質診断'},
+    {slug:'bigfive-lite', rank:'b', label:'いちばん強い性格特性', title:'簡易ビッグファイブ性格診断'},
+    {slug:'hidden-personality', rank:'d', label:'隠れた性格', title:'「隠れた性格」診断'},
+    {slug:'renai-type', rank:'d', label:'恋愛タイプ', title:'恋愛タイプ診断'},
+    {slug:'stress-type', rank:'d', label:'ストレス対処タイプ', title:'ストレス対処タイプ診断'},
+    {slug:'career-type', rank:'d', label:'キャリアタイプ', title:'キャリア適性タイプ診断'}
   ];
   function get(k){ try { return localStorage.getItem(k); } catch (e) { return null; } }
   function set(k, v){ try { localStorage.setItem(k, v); } catch (e) {} }
@@ -84,8 +84,8 @@
     document.getElementById('pf-bar').style.width = (done / LIST.length * 100) + '%';
     document.getElementById('pf-grid').innerHTML = LIST.map(function(d){
       var r = data[d.slug];
-      if (!r) return '<div class="pf-item pf-empty"><p class="pf-label">' + d.label + '</p><p class="pf-result">まだ診断していません</p><a class="pf-go" href="/diagnosis/' + d.slug + '/">' + d.title + 'をする（1分）</a></div>';
-      return '<div class="pf-item" style="--c:' + esc(r.color) + '"><p class="pf-label">' + d.label + '</p><p class="pf-result" style="color:' + esc(r.color) + '">' + esc(r.name) + '</p><p class="pf-meta"><span>' + esc(r.at) + '</span><a href="/diagnosis/' + d.slug + '/">やり直す</a></p></div>';
+      if (!r) return '<div class="pf-item pf-empty"><p class="pf-label">' + d.label + ' <span class="cred cred-' + d.rank + '" style="padding:1px 6px;font-size:10.5px">' + d.rank.toUpperCase() + '</span></p><p class="pf-result">まだ診断していません</p><a class="pf-go" href="/diagnosis/' + d.slug + '/">' + d.title + 'をする（1分）</a></div>';
+      return '<div class="pf-item" style="--c:' + esc(r.color) + '"><p class="pf-label">' + d.label + ' <span class="cred cred-' + d.rank + '" style="padding:1px 6px;font-size:10.5px">' + d.rank.toUpperCase() + '</span></p><p class="pf-result" style="color:' + esc(r.color) + '">' + esc(r.name) + '</p><p class="pf-meta"><span>' + esc(r.at) + '</span><a href="/diagnosis/' + d.slug + '/">やり直す</a></p></div>';
     }).join('');
     draw();
   }

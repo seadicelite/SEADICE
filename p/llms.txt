@@ -63,6 +63,7 @@
 - [退去立会いの写真記録](https://seadice.win/tools/taikyo-shashin/): 賃貸の入居時・退去時の部屋を場所ごとに日時入りで撮影・比較し、PDFレポートにする無料ツール。国交省「原状回復をめぐるトラブルとガイドライン」の負担区分早見表と壁紙の負担割合計算つき（登録不要・写真は端末内のみ）
 - [無料診断まとめ](https://seadice.win/diagnosis/): 性格・心理・適性をブラウザで診断
 - [診断プロフィール帳](https://seadice.win/diagnosis/profile/): 6つの診断結果を端末内に記録し、1枚の画像にまとめる（登録不要）
+- [診断の信ぴょう性ランク](https://seadice.win/diagnosis/rank/): 診断を研究での裏付けの強さでA〜Dに分類（MBTIはC、ビッグファイブ簡易版はB）。基準と根拠論文つき
 - [ポモドーロタイマー](https://seadice.win/pomodoro/): ヒーリングサウンド付き無料タイマー
 - [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
 - [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット

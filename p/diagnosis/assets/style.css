@@ -144,3 +144,30 @@ footer a:hover{color:var(--accent)}
 .pf-preview{display:block;width:100%;height:auto;max-width:360px;margin:0 auto 18px;border-radius:16px;box-shadow:var(--shadow)}
 .pf-privacy{font-size:12.5px;color:#5d5d70;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 14px;margin-bottom:16px}
 .pf-reset{display:block;margin:0 auto;font-size:12.5px;color:#5d5d70;background:none;border:none;cursor:pointer;padding:8px;text-decoration:underline}
+
+/* credibility rank */
+.cred{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:800;border-radius:8px;padding:4px 10px;text-decoration:none;white-space:nowrap;line-height:1.4}
+.cred b{font-size:14px}
+.cred-a{background:#dff5ee;color:#0b6b55}
+.cred-b{background:#e4ecff;color:#1d4ed8}
+.cred-c{background:#fff1dc;color:#8a4f00}
+.cred-d{background:#ececf2;color:#4d4d60}
+a.cred:hover{text-decoration:underline}
+.cred-row{margin:-4px 0 14px;font-size:12px;color:#5d5d70}
+.cred-row .cred{margin-right:6px}
+.diag-body .cred{margin:0 0 10px 6px;padding:3px 8px;font-size:10.5px}
+.rank-def{display:flex;flex-direction:column;gap:10px}
+.rank-def-item{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow)}
+.rank-def-item p{font-size:13.5px;margin-top:8px}
+.rank-def-item p b{display:block;font-size:15px}
+.table-wrap{overflow-x:auto}
+.rank-table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--card);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.rank-table th,.rank-table td{padding:12px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+.rank-table th{white-space:nowrap;font-size:12px;color:#5d5d70;background:#fbfbfe}
+.rank-table td:first-child{min-width:120px;font-weight:700}
+.rank-table a{color:#4b44d6}
+.faq-q{font-size:15px;margin:18px 0 4px}
+.faq-a{font-size:14px}
+.ref-list{font-size:13px;padding-left:18px;display:flex;flex-direction:column;gap:8px}
+.ref-list a{color:#4b44d6;font-weight:700}
+.rank-banner{border-color:#1d4ed8}
