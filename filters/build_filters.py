@@ -5,7 +5,7 @@
 
 出力（filters/public/）:
   scam.json      詐欺サイトを止める（Phishing.Database, MIT）
-  ads.json       広告を減らす（AdGuard Japanese + Base, GPL-3.0）
+  ads.json       広告を減らす（AdGuard Japanese: GPL-3.0 + EasyList: CC BY-SA 3.0）
   trackers.json  あとをつけられないようにする（EasyPrivacy, CC BY-SA 3.0）
   meta.json      件数・更新日時・出典
   state/scam-firstseen.json.gz  詐欺ドメインを最初に見た日（新しい順に選ぶため。次回の --state に渡す）
@@ -15,6 +15,7 @@ Safariは1拡張15万ルールまでだが、iOS 18で5万前後でも読み込�
 import argparse
 import datetime
 import gzip
+import hashlib
 import json
 import os
 import re
@@ -29,8 +30,8 @@ SOURCES = {
               "MIT", "https://github.com/mitchellkrogza/Phishing.Database")],
     "ads": [("AdGuard Japanese filter", "https://filters.adtidy.org/extension/safari/filters/7.txt",
              "GPL-3.0", "https://github.com/AdguardTeam/AdguardFilters"),
-            ("AdGuard Base filter", "https://filters.adtidy.org/extension/safari/filters/2.txt",
-             "GPL-3.0", "https://github.com/AdguardTeam/AdguardFilters")],
+            ("EasyList", "https://easylist.to/easylist/easylist.txt",
+             "CC BY-SA 3.0 (The EasyList authors)", "https://easylist.to/")],
     "trackers": [("EasyPrivacy", "https://easylist.to/easylist/easyprivacy.txt",
                   "CC BY-SA 3.0 (The EasyList authors)", "https://easylist.to/")],
 }
@@ -65,11 +66,46 @@ def domain_filter(domain):
     return "^[^:]+://+([^:/]+\\.)?" + re.escape(domain).replace("\\-", "-") + "[:/]"
 
 
-def block_rule(domain, third_party=False):
+def block_rule(domain, extra=None):
     trigger = {"url-filter": domain_filter(domain)}
-    if third_party:
-        trigger["load-type"] = ["third-party"]
+    trigger.update(extra or {})
     return {"trigger": trigger, "action": {"type": "block"}}
+
+
+# ABPの資源タイプ → WebKitのresource-type（iOS 15でも通るものだけ）
+RTYPES = {"script": "script", "image": "image", "stylesheet": "style-sheet", "css": "style-sheet", "font": "font",
+          "xmlhttprequest": "raw", "xhr": "raw", "websocket": "raw", "ping": "raw", "media": "media",
+          "subdocument": "document", "frame": "document", "document": "document", "doc": "document",
+          "popup": "popup", "other": "raw", "object": "raw"}
+ALL_TYPES = ["document", "image", "style-sheet", "script", "font", "raw", "media", "popup"]
+
+
+def convert_opts(opts):
+    """$以降の条件をWebKitのtriggerの追加項目に変える。変換できない条件があれば None（その行は使わない）。"""
+    extra, types, neg = {}, set(), set()
+    for o in opts:
+        if o in ("important", "match-case", "all", ""):
+            continue
+        if o in ("third-party", "3p"):
+            extra["load-type"] = ["third-party"]
+        elif o in ("~third-party", "1p", "first-party", "~3p"):
+            extra["load-type"] = ["first-party"]
+        elif o.startswith("domain="):
+            ds = o[7:].split("|")
+            inc = [d for d in ds if not d.startswith("~")]
+            exc = [d[1:] for d in ds if d.startswith("~")]
+            if (inc and exc) or not all(DOMAIN_RE.match(d) for d in inc + exc):
+                return None
+            extra["if-domain" if inc else "unless-domain"] = ["*" + d for d in (inc or exc)]
+        elif o.lstrip("~") in RTYPES:
+            (neg if o.startswith("~") else types).add(RTYPES[o.lstrip("~")])
+        else:
+            return None  # redirect, csp, removeparam, badfilter など
+    if neg and not types:
+        types = set(ALL_TYPES) - neg
+    if types:
+        extra["resource-type"] = sorted(types)
+    return extra
 
 
 def allow_rule(domain):
@@ -111,13 +147,30 @@ def build_scam(text, firstseen, today):
 
 # ---------- 広告・追跡（ABP/AdGuard形式のうち、確実に変換できる行だけ） ----------
 
+# EasyListの章ごとの優先度（小さいほど先に残す）。前半のマイナーな広告配信ドメイン群より、主要な広告・個別サイト向けを優先する
+SECTION_PRIORITY = [("third-party adverts", 0), ("specific advert", 1), ("general advert", 1),
+                    ("adservers_popup", 4), ("adult", 5), ("adservers", 3)]
+
+
+def section_priority(header, current):
+    h = header.lower()
+    for key, pr in SECTION_PRIORITY:
+        if key in h:
+            return pr
+    return current
+
+
 def parse_abp(texts, cap):
     blocks, allows, generic_css, site_css = [], [], [], {}
     seen = set()
     for text in texts:
+        prio = 0
         for raw in text.splitlines():
             line = raw.strip()
-            if not line or line.startswith("!") or line.startswith("["):
+            if line.startswith("!"):
+                prio = section_priority(line, prio)
+                continue
+            if not line or line.startswith("["):
                 continue
             if "#@#" in line or "#?#" in line or "#$#" in line or "#%#" in line or "$$" in line:
                 continue
@@ -140,18 +193,19 @@ def parse_abp(texts, cap):
             domain, opts = m.group(1), m.group(2)
             if not DOMAIN_RE.match(domain):
                 continue
-            opts = set(opts.split(",")) if opts else set()
+            opts = opts.split(",") if opts else []
             if exception:
-                if opts - {"document", "important"}:
+                if set(opts) - {"document", "important"}:
                     continue
                 allows.append(domain)
                 continue
-            if opts - {"third-party", "important"}:
+            extra = convert_opts(opts)
+            if extra is None:
                 continue
-            key = (domain, "third-party" in opts)
+            key = (domain, json.dumps(extra, sort_keys=True))
             if key not in seen:
                 seen.add(key)
-                blocks.append(key)
+                blocks.append((domain, extra, prio))
 
     rules = []
     css_rules = []
@@ -162,11 +216,12 @@ def parse_abp(texts, cap):
         css_rules.append({"trigger": {"url-filter": ".*", "if-domain": ["*" + d for d in ds]},
                           "action": {"type": "css-display-none", "selector": ", ".join(dict.fromkeys(sels))}})
     allow_rules = [allow_rule(d) for d in dict.fromkeys(allows)]
+    # 上限を超えるときは、どのサイトでも効く通信ブロックを最優先で残す。
+    # 見た目を隠すCSSは全体の2割まで（日本語リストを先に読むので、国内サイト向けが残る）
+    css_rules = css_rules[:cap // 5]
+    blocks.sort(key=lambda b: b[2])
     room = cap - len(css_rules) - len(allow_rules)
-    if room < 0:  # CSSが多すぎる場合はサイト別CSSから削る
-        css_rules = css_rules[:cap - len(allow_rules)]
-        room = 0
-    rules = [block_rule(d, tp) for d, tp in blocks[:room]] + css_rules + allow_rules
+    rules = [block_rule(d, extra) for d, extra, _ in blocks[:room]] + css_rules + allow_rules
     return rules
 
 
@@ -194,12 +249,15 @@ def main():
         "ads": parse_abp([fetch(s[1]) for s in SOURCES["ads"]], MAX_RULES),
         "trackers": parse_abp([fetch(s[1]) for s in SOURCES["trackers"]], MAX_RULES),
     }
+    hashes = {}
     for name, rules in outputs.items():
         if not rules:
             sys.exit("empty rule list: " + name)
-        with open(os.path.join(args.out, name + ".json"), "w") as f:
-            json.dump(rules, f, ensure_ascii=False, separators=(",", ":"))
+        body = json.dumps(rules, ensure_ascii=False, separators=(",", ":")).encode()
+        with open(os.path.join(args.out, name + ".json"), "wb") as f:
+            f.write(body)
         counts[name] = len(rules)
+        hashes[name] = hashlib.sha256(body).hexdigest()[:16]  # アプリは変わったファイルだけ取り直す
     with open(os.path.join(args.out, "state", "scam-firstseen.json.gz"), "wb") as f:
         f.write(gzip.compress(json.dumps(firstseen, separators=(",", ":")).encode()))
 
@@ -207,6 +265,7 @@ def main():
         "version": datetime.datetime.utcnow().strftime("%Y%m%d%H%M"),
         "updated": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
         "counts": counts,
+        "hashes": hashes,
         "scamSourceTotal": scam_total,
         "sources": {k: [{"name": n, "license": l, "url": u} for n, _, l, u in v] for k, v in SOURCES.items()},
     }
