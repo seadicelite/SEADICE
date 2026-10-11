@@ -10,6 +10,7 @@
 - 対応OS: iPhone・iPad（iOS専用。Android版なし）
 - 連絡先: hi@seadice.win
 - サイト: https://seadice.win/
+- 運営の約束: [SEADICEの10ヶ条](https://seadice.win/promise/)（研究にもとづいて書く・個人情報を取らない・広告なし・無料・決めたことは最後までやり抜く など10項目と、その守り方）
 
 ## 学習サイト
 

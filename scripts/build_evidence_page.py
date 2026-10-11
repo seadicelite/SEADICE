@@ -258,7 +258,7 @@ footer a{{text-decoration:none;margin:0 6px;padding:8px 0}}
 
   <p class="more">ほかのアプリは<a href="/apps/">アプリ一覧</a>にあります。</p>
 </main>
-<footer><a href="/">ホーム</a><a href="/apps/">アプリ一覧</a><a href="/privacy/">プライバシーポリシー</a><p style="margin-top:10px">&copy; {year} SEADICE</p></footer>
+<footer><a href="/">ホーム</a><a href="/apps/">アプリ一覧</a><a href="/promise/">10ヶ条</a><a href="/privacy/">プライバシーポリシー</a><p style="margin-top:10px">&copy; {year} SEADICE</p></footer>
 </body>
 </html>
 '''
