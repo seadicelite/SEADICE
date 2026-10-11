@@ -1,0 +1,26 @@
+# Safari拡張のブロックリストを毎日作り直し、seadice-filters.web.app に配信する
+name: Update Safari filters
+on:
+  schedule:
+    - cron: "0 18 * * *" # 毎日 3:00 JST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["filters/**"]
+concurrency: filters
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build rule lists
+        run: python3 filters/build_filters.py --out filters/public --state https://seadice-filters.web.app/state/scam-firstseen.json.gz
+      - name: Validate with WebKit
+        run: swift filters/tools/validate.swift filters/public/scam.json filters/public/ads.json filters/public/trackers.json
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SEADICEWEB }}
+          channelId: live
+          projectId: seadiceweb
+          entryPoint: ./filters
