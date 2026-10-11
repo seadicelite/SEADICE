@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>メモ</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#11111f">
+<link rel="manifest" href="/memo/manifest.json">
+<link rel="apple-touch-icon" href="/memo/icon-180.png">
+<link rel="icon" type="image/png" href="/memo/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="メモ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--accent:#00FFD1;--border:#1f1f33;--text:#e2e8f0;--muted:#8794a8;--paper:#11111f;--warn:#F2A65A}html,body{height:100%;background:var(--paper)}body{color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.6;-webkit-text-size-adjust:100%}button,input,textarea{font:inherit;color:inherit}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}[hidden]{display:none!important}
+.app{height:100vh;height:100dvh;max-width:720px;margin:0 auto;display:flex;flex-direction:column;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}.bar{display:flex;align-items:center;gap:4px;padding:8px 8px 8px 18px;border-bottom:1px solid var(--border);min-height:57px}.bar h1{flex:1;font-size:17px;font-weight:800}.ib{font-size:14px;background:transparent;border:1px solid transparent;border-radius:10px;padding:8px 10px;cursor:pointer;display:inline-flex;align-items:center;gap:5px;min-height:40px}.ib:hover{border-color:var(--border)}.ib svg{width:18px;height:18px;flex:none}.ib.acc{color:var(--accent)}.view{flex:1;overflow-y:auto;display:flex;flex-direction:column;-webkit-overflow-scrolling:touch}
+.gate{align-items:center;justify-content:center;padding:32px 24px;text-align:center;gap:14px}.gate>svg{width:40px;height:40px;color:var(--muted)}.gate p{font-size:14px;color:var(--muted)}.gate form{width:100%;max-width:300px;display:flex;flex-direction:column;gap:10px}.in{font-size:16px;background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:12px 14px;width:100%}.btn{font-size:15px;font-weight:800;color:#05050C;background:var(--accent);border:0;border-radius:12px;padding:13px 16px;cursor:pointer}.btn:disabled{opacity:.6;cursor:wait}.err{font-size:13px;color:var(--warn);min-height:1.2em}.meter{font-size:12px;color:var(--muted);text-align:left}.meter i{display:block;height:4px;border-radius:2px;background:var(--border);margin-top:4px;overflow:hidden}.meter b{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.banner{margin:10px 12px 0;padding:10px 12px 10px 14px;border:1px solid var(--warn);border-radius:12px;font-size:13px;display:flex;gap:10px;align-items:center;justify-content:space-between}.banner button{font-size:13px;background:transparent;border:1px solid var(--border);border-radius:10px;padding:6px 10px;cursor:pointer;white-space:nowrap}
+.list{list-style:none}.list li{border-bottom:1px solid var(--border)}.list button{background:transparent;border:0;width:100%;text-align:left;padding:14px 18px;cursor:pointer;display:block}.list button:hover{background:rgba(255,255,255,.03)}.list b{display:block;font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.list small{display:block;font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.empty{padding:40px 18px;text-align:center;font-size:14px;color:var(--muted)}.count{font-size:12px;color:var(--muted);padding:10px 18px;text-align:center}
+.ed{flex:1;font-size:16px;line-height:1.8;background:transparent;border:0;resize:none;padding:16px 18px;width:100%}.ed:focus-visible{outline:none}.edfoot{display:flex;justify-content:space-between;align-items:center;padding:4px 8px 6px 18px;border-top:1px solid var(--border);font-size:12px;color:var(--muted)}
+.set{padding:18px;display:flex;flex-direction:column;gap:26px}.set h2{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:10px}.set p{font-size:13px;color:var(--muted);margin-top:8px}.set form{display:flex;flex-direction:column;gap:10px}.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.seg button,.b2{font-size:14px;background:transparent;border:1px solid var(--border);border-radius:12px;padding:10px 12px;cursor:pointer;min-height:44px}.seg button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);background:rgba(0,255,209,.08)}.row{display:flex;flex-wrap:wrap;gap:10px}.b2.danger{color:var(--warn)}.msg{font-size:13px;color:var(--accent);min-height:1.2em}.msg.ng{color:var(--warn)}.howto{font-size:13px;color:var(--muted);background:var(--bg);border-radius:12px;padding:12px 14px}</style>
+</head>
+<body>
+<div class="app">
+  <div class="bar">
+    <button type="button" class="ib" id="bk" hidden aria-label="もどる"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span id="bkT">一覧</span></button>
+    <h1 id="ttl">メモ</h1>
+    <button type="button" class="ib acc" id="nw" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>新規</button>
+    <button type="button" class="ib" id="st" hidden aria-label="設定"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.8-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 11-4 0v-.1a1.7 1.7 0 00-1.1-1.5 1.7 1.7 0 00-1.8.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.8 1.7 1.7 0 00-1.5-1H3a2 2 0 110-4h.1a1.7 1.7 0 001.5-1.1 1.7 1.7 0 00-.3-1.8l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.8.3H9a1.7 1.7 0 001-1.5V3a2 2 0 114 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.8-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.8V9a1.7 1.7 0 001.5 1H21a2 2 0 110 4h-.1a1.7 1.7 0 00-1.5 1z"/></svg></button>
+    <button type="button" class="ib" id="lk" hidden aria-label="ロックする"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>ロック</button>
+  </div>
+
+  <div class="view gate" id="vSetup" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>
+    <p>はじめに、本物のメモを開く合言葉を決めます。<br>忘れると本物のメモは取り出せません。</p>
+    <form id="fSetup" autocomplete="off">
+      <input class="in" type="password" id="p1" placeholder="合言葉（4文字以上）" aria-label="合言葉" aria-describedby="m1">
+      <div class="meter" id="m1" aria-live="polite"><span>強さ: -</span><i><b></b></i></div>
+      <input class="in" type="password" id="p2" placeholder="もう一度入力" aria-label="合言葉をもう一度入力">
+      <p class="err" id="eSetup" role="alert"></p>
+      <button class="btn" type="submit" id="setupBtn">この合言葉ではじめる</button>
+    </form>
+  </div>
+
+  <div class="view gate" id="vLock" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>
+    <p>パスワードを入力</p>
+    <form id="fLock" autocomplete="off">
+      <input class="in" type="password" id="pw" placeholder="パスワード" aria-label="パスワード">
+      <button class="btn" type="submit" id="open">開く</button>
+    </form>
+  </div>
+
+  <div class="view" id="vList" hidden>
+    <div class="banner" id="bn" hidden><span>しばらくバックアップをとっていません</span><button type="button" id="bnGo">設定を開く</button></div>
+    <ul class="list" id="list"></ul>
+    <p class="count" id="cnt"></p>
+  </div>
+
+  <div class="view" id="vEdit" hidden>
+    <textarea class="ed" id="ed" aria-label="メモの本文" placeholder="1行目がタイトルになります"></textarea>
+    <div class="edfoot"><span id="when"></span><button type="button" class="ib" id="del">削除</button></div>
+  </div>
+
+  <div class="view" id="vSet" hidden>
+    <div class="set">
+      <section>
+        <h2>自動ロック（画面を離れたとき）</h2>
+        <div class="seg" role="group" aria-label="自動ロックまでの時間">
+          <button type="button" data-al="0" aria-pressed="true">すぐ</button>
+          <button type="button" data-al="60" aria-pressed="false">1分後</button>
+          <button type="button" data-al="300" aria-pressed="false">5分後</button>
+        </div>
+      </section>
+      <section>
+        <h2>合言葉を変える</h2>
+        <form id="fChg" autocomplete="off">
+          <input class="in" type="password" id="c1" placeholder="新しい合言葉（4文字以上）" aria-label="新しい合言葉" aria-describedby="m2">
+          <div class="meter" id="m2" aria-live="polite"><span>強さ: -</span><i><b></b></i></div>
+          <input class="in" type="password" id="c2" placeholder="もう一度入力" aria-label="新しい合言葉をもう一度入力">
+          <button class="btn" type="submit" id="chgBtn">合言葉を変える</button>
+          <p class="msg" id="mChg" role="status"></p>
+        </form>
+      </section>
+      <section>
+        <h2>バックアップ</h2>
+        <div class="row">
+          <button type="button" class="b2" id="exp">書き出す</button>
+          <button type="button" class="b2" id="impBtn">読み込む</button>
+          <input type="file" id="imp" accept="application/json,.json" hidden>
+        </div>
+        <p id="lastBk"></p>
+        <p>ブラウザのデータが消えるとメモも消えます。ときどき書き出しておくと安心です。</p>
+      </section>
+      <section id="a2hs" hidden>
+        <h2>ホーム画面に追加する</h2>
+        <div class="howto">ホーム画面に置くと「メモ」という名前のアプリとして開けて、データも消えにくくなります。<br>iPhone: 共有ボタン → ホーム画面に追加<br>Android: メニュー → ホーム画面に追加<br>ホーム画面から開いたメモは、ブラウザで開いたメモとは別に保存されます。移すときはバックアップを書き出して読み込みます。</div>
+      </section>
+      <section>
+        <h2>リセット</h2>
+        <button type="button" class="b2 danger" id="wipe">すべてのメモを消す</button>
+      </section>
+    </div>
+  </div>
+
+  <div class="view gate" id="vNo" hidden><p>このブラウザでは保存できません。プライベートブラウズを切るか、別のブラウザで開いてください。</p></div>
+</div>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var KV='uramemo.vault',KD='uramemo.decoy',KA='uramemo.al',KB='uramemo.bk',KC='uramemo.c',ITER=250000,DAY=86400000;
+var te=new TextEncoder(),td=new TextDecoder();
+var mode=null,key=null,salt=null,notes=[],cur=null,timer=null,pending=null,hiddenAt=0,view='';
+var SAMPLE=['買い物リスト\n牛乳\n卵\n食パン\n洗剤（詰め替え）','今週やること\n・歯医者の予約\n・電気代の支払い\n・資料の見直し','読みたい本\n・積んである1冊を読み切る\n・図書館の返却は金曜まで'];
+var standalone=(window.matchMedia&&matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true;
+var embedded=window.self!==window.top;
+function get(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function put(k,v){try{if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v);return true}catch(e){return false}}
+function b64(u){u=new Uint8Array(u);var s='';for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s)}
+function ub(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+function rnd(n){return crypto.getRandomValues(new Uint8Array(n))}
+async function derive(pw,s){var k=await crypto.subtle.importKey('raw',te.encode(pw),'PBKDF2',false,['deriveKey']);return crypto.subtle.deriveKey({name:'PBKDF2',salt:s,iterations:ITER,hash:'SHA-256'},k,{name:'AES-GCM',length:256},false,['encrypt','decrypt'])}
+function vault(){try{var v=JSON.parse(get(KV));return v&&v.s&&v.i&&v.c?v:null}catch(e){return null}}
+async function openVault(pw,v){var k=await derive(pw,ub(v.s));try{var p=await crypto.subtle.decrypt({name:'AES-GCM',iv:ub(v.i)},k,ub(v.c));return{key:k,notes:JSON.parse(td.decode(p))}}catch(e){return null}}
+async function seal(k,s,data){var iv=rnd(12);var c=await crypto.subtle.encrypt({name:'AES-GCM',iv:iv},k,te.encode(JSON.stringify(data)));return JSON.stringify({v:1,s:b64(s),i:b64(iv),c:b64(c)})}
+function sample(){var t=Date.now();return SAMPLE.map(function(b,i){return{id:'d'+i,b:b,u:t-(i+1)*DAY*(i+2)}})}
+function decoy(){try{var d=JSON.parse(get(KD));if(Array.isArray(d))return d}catch(e){}var s=sample();put(KD,JSON.stringify(s));return s}
+function persist(){try{if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(function(){})}catch(e){}}
+function save(now){clearTimeout(timer);if(mode==='decoy'){put(KD,JSON.stringify(notes));return Promise.resolve()}if(mode!=='real')return Promise.resolve();var run=function(){var k=key,s=salt,d=notes.slice();pending=seal(k,s,d).then(function(j){put(KV,j)});return pending};if(now)return run();timer=setTimeout(run,300);return Promise.resolve()}
+async function flush(){await save(true);if(pending)await pending}
+function show(id){view=id;['vSetup','vLock','vList','vEdit','vSet','vNo'].forEach(function(v){$(v).hidden=v!==id});var inMemo=id==='vList'||id==='vEdit'||id==='vSet';$('nw').hidden=id!=='vList';$('st').hidden=id!=='vList';$('lk').hidden=!inMemo;$('bk').hidden=id!=='vEdit'&&id!=='vSet';$('bkT').textContent='一覧';$('ttl').textContent=id==='vEdit'?'':id==='vSet'?'設定':'メモ'}
+function title(n){var l=n.b.split('\n').filter(function(x){return x.trim()});return{t:l[0]||'新しいメモ',s:l[1]||''}}
+function fmt(t){var d=new Date(t),n=new Date();var hm=d.getHours()+':'+('0'+d.getMinutes()).slice(-2);if(d.toDateString()===n.toDateString())return hm;return(d.getMonth()+1)+'/'+d.getDate()+(d.getFullYear()!==n.getFullYear()?' '+d.getFullYear():'')}
+function needBackup(){var last=+get(KB)||+get(KC)||0;return last>0&&Date.now()-last>7*DAY}
+function renderList(){var ul=$('list');ul.textContent='';notes.sort(function(a,b){return b.u-a.u});if(!notes.length){var li=document.createElement('li');li.className='empty';li.textContent='メモはまだありません';ul.appendChild(li)}notes.forEach(function(n){var li=document.createElement('li'),b=document.createElement('button'),h=title(n),t=document.createElement('b'),s=document.createElement('small');b.type='button';t.textContent=h.t;s.textContent=fmt(n.u)+'  '+h.s;b.appendChild(t);b.appendChild(s);b.addEventListener('click',function(){edit(n.id)});li.appendChild(b);ul.appendChild(li)});$('cnt').textContent=notes.length?notes.length+'件のメモ':'';$('bn').hidden=!needBackup();show('vList')}
+function edit(id){cur=id;var n=notes.find(function(x){return x.id===id});$('ed').value=n.b;$('when').textContent=fmt(n.u);show('vEdit');$('ed').focus()}
+function closeEdit(){if(cur){var n=notes.find(function(x){return x.id===cur});if(n&&!n.b.trim()){notes=notes.filter(function(x){return x.id!==cur});save()}}cur=null}
+function settings(){var al=String(+get(KA)||0);document.querySelectorAll('[data-al]').forEach(function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-al')===al))});var b=+get(KB);$('lastBk').textContent='最後に書き出した日: '+(b?fmt(b)+(new Date(b).toDateString()===new Date().toDateString()?'（今日）':''):'まだありません');$('a2hs').hidden=standalone;$('mChg').textContent='';show('vSet')}
+async function lock(){if(!mode)return;closeEdit();await flush();mode=null;key=null;notes=[];cur=null;$('ed').value='';$('list').textContent='';$('pw').value='';$('c1').value=$('c2').value='';meter('c1','m2');show(vault()?'vLock':'vSetup')}
+function enter(m,n,k,s){mode=m;notes=n;key=k||null;salt=s||null;persist();renderList()}
+function strength(p){if(!p)return 0;var c=0;if(/[a-z]/.test(p))c++;if(/[A-Z]/.test(p))c++;if(/[0-9]/.test(p))c++;if(/[^a-zA-Z0-9]/.test(p))c++;if(p.length>=16||(p.length>=12&&c>=3))return 3;if(p.length>=10||(p.length>=8&&c>=2))return 2;return 1}
+function meter(inp,id){var s=strength($(inp).value),m=$(id);m.querySelector('span').textContent='強さ: '+['-','弱い（推測されやすい）','ふつう','強い'][s];m.querySelector('b').style.width=(s*100/3)+'%';m.querySelector('b').style.background=s===1?'var(--warn)':'var(--accent)'}
+$('p1').addEventListener('input',function(){meter('p1','m1')});$('c1').addEventListener('input',function(){meter('c1','m2')});
+$('ed').addEventListener('input',function(){var n=notes.find(function(x){return x.id===cur});if(!n)return;n.b=this.value;n.u=Date.now();$('when').textContent=fmt(n.u);save()});
+$('nw').addEventListener('click',function(){var n={id:b64(rnd(6)),b:'',u:Date.now()};notes.unshift(n);edit(n.id)});
+$('bk').addEventListener('click',function(){if(view==='vEdit')closeEdit();renderList()});
+$('st').addEventListener('click',settings);$('bnGo').addEventListener('click',settings);
+$('lk').addEventListener('click',lock);
+$('del').addEventListener('click',function(){if(!confirm('このメモを削除しますか？'))return;notes=notes.filter(function(x){return x.id!==cur});cur=null;save();renderList()});
+document.querySelectorAll('[data-al]').forEach(function(b){b.addEventListener('click',function(){put(KA,b.getAttribute('data-al'));settings()})});
+$('fLock').addEventListener('submit',async function(e){e.preventDefault();var v=vault();if(!v){show('vSetup');return}$('open').disabled=true;var r=await openVault($('pw').value,v);$('pw').value='';$('open').disabled=false;if(r)enter('real',r.notes,r.key,ub(v.s));else enter('decoy',decoy())});
+$('fSetup').addEventListener('submit',async function(e){e.preventDefault();var a=$('p1').value,b=$('p2').value;if(a.length<4){$('eSetup').textContent='4文字以上にしてください';return}if(a!==b){$('eSetup').textContent='2回の入力が一致しません';return}$('setupBtn').disabled=true;var s=rnd(16),k=await derive(a,s),first=[{id:'r0',b:'ここが本物のメモです\nちがう合言葉で開くと、別のメモ（ダミー）が開きます。\nダミーの中身は、ちがう合言葉で開いて書き換えられます。\n本物が出ないときは、まず合言葉を打ち直してください。',u:Date.now()}];var ok=put(KV,await seal(k,s,first));$('setupBtn').disabled=false;if(!ok){show('vNo');return}put(KC,String(Date.now()));decoy();$('p1').value=$('p2').value='';meter('p1','m1');$('eSetup').textContent='';enter('real',first,k,s)});
+// ダミーで開いているときも同じ表示・同じ待ち時間で「変えました」と返す（失敗表示で見破られないように）
+$('fChg').addEventListener('submit',async function(e){e.preventDefault();var m=$('mChg'),a=$('c1').value;m.className='msg';if(a.length<4||a!==$('c2').value){m.className='msg ng';m.textContent=a.length<4?'4文字以上にしてください':'2回の入力が一致しません';return}$('chgBtn').disabled=true;var s=rnd(16),k=await derive(a,s);if(mode==='real'){await flush();put(KV,await seal(k,s,notes));key=k;salt=s}$('chgBtn').disabled=false;$('c1').value=$('c2').value='';meter('c1','m2');m.textContent='合言葉を変えました'});
+function stamp(){var d=new Date();return d.getFullYear()+('0'+(d.getMonth()+1)).slice(-2)+('0'+d.getDate()).slice(-2)}
+$('exp').addEventListener('click',async function(){await flush();var v=get(KV);if(!v){alert('書き出すメモがありません');return}var json=JSON.stringify({app:'ura-memo',v:1,vault:JSON.parse(v),decoy:JSON.parse(get(KD)||'[]')}),name='memo-backup-'+stamp()+'.json';var f=null;try{f=new File([json],name,{type:'application/json'})}catch(e){}var touch=window.matchMedia&&matchMedia('(pointer: coarse)').matches;if(f&&touch&&navigator.canShare&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f]})}catch(e){if(e&&e.name==='AbortError')return}}else{var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([json],{type:'application/json'}));a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000)}put(KB,String(Date.now()));if(mode)settings()});
+$('impBtn').addEventListener('click',function(){$('imp').click()});
+$('imp').addEventListener('change',function(){var f=this.files[0];this.value='';if(!f)return;var r=new FileReader();r.onload=async function(){try{var d=JSON.parse(r.result);if(d.app!=='ura-memo'||!d.vault||!d.vault.c||!Array.isArray(d.decoy))throw 0;if(!confirm('今のメモを、バックアップの内容で置きかえますか？'))return;await lock();put(KV,JSON.stringify(d.vault));put(KD,JSON.stringify(d.decoy));put(KB,String(Date.now()));if(!get(KC))put(KC,String(Date.now()));show('vLock');alert('読み込みました。合言葉で開いてください')}catch(e){alert('このファイルは読み込めません')}};r.readAsText(f)});
+$('wipe').addEventListener('click',function(){if(!confirm('すべてのメモを消します。元に戻せません。よろしいですか？'))return;clearTimeout(timer);mode=null;key=null;notes=[];cur=null;[KV,KD,KB,KC].forEach(function(k){put(k,null)});show('vSetup')});
+document.addEventListener('visibilitychange',function(){if(document.hidden){if(!mode)return;save(true);if(!(+get(KA)))lock();else hiddenAt=Date.now()}else{if(mode&&hiddenAt&&Date.now()-hiddenAt>=(+get(KA))*1000)lock();hiddenAt=0}});
+window.addEventListener('pagehide',function(){if(mode)save(true)});
+if(!window.crypto||!crypto.subtle||!put('uramemo.t','1')){show('vNo')}else{put('uramemo.t',null);if(vault()&&!get(KC))put(KC,String(Date.now()));show(vault()?'vLock':'vSetup')}
+if('serviceWorker' in navigator&&!embedded)navigator.serviceWorker.register('/memo/sw.js',{scope:'/memo/'}).catch(function(){});
+})();
+</script>
+</body>
+</html>
