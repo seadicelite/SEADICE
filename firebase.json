@@ -3037,6 +3037,11 @@
     ],
     "redirects": [
       {
+        "source": "/tools/ura-memo/**",
+        "destination": "/tools/decoy-notes/",
+        "type": 301
+      },
+      {
         "source": "/tools/kaumae/**",
         "destination": "/tools/spendology/",
         "type": 301
