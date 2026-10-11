@@ -287,6 +287,11 @@
     .about-grid strong { font-size: 16px; }
     .about-grid span { font-size: 14px; color: var(--muted); line-height: 1.7; }
     @media (min-width: 700px) { .about-grid { grid-template-columns: repeat(3, 1fr); } }
+    .about-grid .about-promise { grid-column: 1 / -1; padding: 0; }
+    .about-promise a { display: flex; align-items: center; gap: 16px; padding: 20px; color: inherit; text-decoration: none; }
+    .about-promise a > span { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+    .about-promise b { color: var(--accent); font-size: 20px; }
+    .about-promise a:hover strong, .about-promise a:focus-visible strong { color: var(--accent); }
     .blog-card, .info-card, .goal-card { border-radius: 0; background: transparent; border-color: rgba(232,236,242,.12); }
     @media (min-width: 900px) { .media-grid { grid-template-columns: repeat(4, 1fr); } }
   </style>
@@ -425,8 +430,8 @@
       <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r=".8" fill="currentColor"/></svg><strong>1テーマ1アプリ</strong><span>ひとつの悩みに、ひとつのアプリで集中する。</span></li>
       <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 20.5h5M12 3.5a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2v1.1h5v-1.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3.5z"/></svg><strong>知識を行動に</strong><span>研究の知見を、今日できる小さな一歩に変える。</span></li>
       <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M6 18L18 6"/></svg><strong>無料・広告なし・登録なし</strong><span>読んで知る→アプリで続けるまで、すべて無料。</span></li>
+      <li class="about-promise"><a href="/promise/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17h-11z"/><path d="M9.5 8h5M9.5 11.5h5M9.5 15h3"/></svg><span><strong>SEADICEの10ヶ条</strong><span>この3つを守るための、運営の約束10項目。</span></span><b aria-hidden="true">&rarr;</b></a></li>
     </ul>
-    <a class="blog-more" href="/promise/">SEADICEの10ヶ条（運営の約束）を読む &rarr;</a>
   </section>
 
   <section id="blog" class="reveal" aria-labelledby="blog-heading">
