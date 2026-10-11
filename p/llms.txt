@@ -73,6 +73,7 @@
 - [学習スタイル診断は当たる？](https://seadice.win/diagnosis/learning-style/): 型に合わせても成績は上がらない（Pashlerら, 2008）。研究にもとづく勉強法つき
 - [バットとボール問題に挑戦（認知反射テスト）](https://seadice.win/diagnosis/crt/): Frederick(2005)の3問で直感を疑う力を試す。信ぴょう性B。行動経済学講座へリンク
 - [トロッコ問題 あなたはどうする？](https://seadice.win/diagnosis/trolley/): 3場面に答えて42か国・約7万人の回答（Awadら, 2020。レバー81%・回り込み72%・突き落とし51%）と比較
+- [損失回避度チェック](https://seadice.win/diagnosis/loss-aversion/): 3つの賭けで損を得の何倍に感じるかの目安。150論文の平均1.955（Brownら, 2024）と比較。信ぴょう性B
 - [ポモドーロタイマー](https://seadice.win/pomodoro/): ヒーリングサウンド付き無料タイマー
 - [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
 - [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット

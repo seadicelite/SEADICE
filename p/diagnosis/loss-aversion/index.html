@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>損失回避度チェック 損をどれくらい重く感じる？ | SEADICE 診断</title>
+  <meta name="description" content="コインの裏なら1,000円払う、表ならいくらもらえれば参加する？3つの賭けに答えると、損を得の何倍に感じるか（損失回避の強さ）の目安がわかります。150の論文をまとめた研究（Brownら, 2024）の平均は約2倍。行動経済学のプロスペクト理論にもとづく無料診断です。">
+  <meta name="author" content="SEADICE">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f7f7fb">
+  <link rel="canonical" href="https://seadice.win/diagnosis/loss-aversion/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/diagnosis/assets/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SEADICE">
+  <meta property="og:title" content="損失回避度チェック 損をどれくらい重く感じる？ | SEADICE 診断">
+  <meta property="og:description" content="3つの賭けに答えて、損を得の何倍に感じるかを確かめよう。研究の平均は約2倍。">
+  <meta property="og:url" content="https://seadice.win/diagnosis/loss-aversion/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://seadice.win/diagnosis/assets/img/loss-aversion-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seadice.win/diagnosis/assets/img/loss-aversion-og.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"診断","item":"https://seadice.win/diagnosis/"},{"@type":"ListItem","position":3,"name":"損失回避度チェック","item":"https://seadice.win/diagnosis/loss-aversion/"}]},{"@type":"Quiz","name":"損失回避度チェック","url":"https://seadice.win/diagnosis/loss-aversion/","inLanguage":"ja","datePublished":"2026-10-11","dateModified":"2026-10-11","citation":"Brown, A. L., Imai, T., Vieider, F. M., & Camerer, C. F. (2024). Meta-analysis of empirical estimates of loss aversion. Journal of Economic Literature, 62(2), 485-516.","publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"人は損を得の何倍に感じる？","acceptedAnswer":{"@type":"Answer","text":"150の論文・607の推定値をまとめた研究では、損失を利益に比べてどれくらい重く感じるかを表す係数の平均は1.955で、およそ2倍でした（Brownら, 2024）。ただし、損失が全体として利益より強く影響するとは言えないと主張するレビューもあります（Gal & Rucker, 2018）。"}},{"@type":"Question","name":"損失回避が強いと何が起きる？","acceptedAnswer":{"@type":"Answer","text":"損をしている株を元に戻るまで売れない、使っていないサブスクを解約できない、少しの損を避けるために大きなチャンスを逃す、といったことが起きやすくなります。一方で、無駄遣いやリスクの高い話から身を守る面もあります。"}}]}]}</script>
+</head>
+<body>
+<header>
+  <nav aria-label="ページナビゲーション">
+    <a href="/" class="nav-logo">SEADICE</a>
+  </nav>
+</header>
+<main>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/diagnosis/">診断</a> / 損失回避度チェック</p>
+  <p class="section-label">Diagnosis</p>
+  <h1>損失回避度チェック<br>損をどれくらい重く感じる？</h1>
+  <p class="cred-row"><a class="cred cred-b" href="/diagnosis/rank/">信ぴょう性 <b>B</b></a>研究で使われる方法・SEADICEの簡易版</p>
+  <p class="hero-desc" style="color:var(--text)">コインを投げて、裏なら払う、表ならもらえる。そんな賭けに、いくらもらえるなら参加するかを3回答えてください。損を得の何倍に感じているか（損失回避の強さ）の目安がわかります。正解はありません。</p>
+
+  <div id="la-q"></div>
+
+  <div id="quiz-result">
+    <div class="result-card" style="--type-color:#00b894">
+      <p class="result-type">あなたの損失回避の強さ</p>
+      <h2 class="result-name" style="margin-top:0" id="la-score"></h2>
+      <p class="result-desc" id="la-desc"></p>
+      <div class="sc-bar" role="img" id="la-bar" style="margin:6px 0 4px"><i></i><b style="left:24%"></b></div>
+      <p class="sc-note" style="margin:0 0 12px;text-align:left">0〜5倍。縦線は150の論文の平均（約2倍）です。</p>
+      <div class="tori">
+        <p class="tori-title">わたしの取扱説明書</p>
+        <ul class="tori-list" id="la-tori"></ul>
+      </div>
+      <p class="sc-note" style="margin:16px 0 0;text-align:left">損失回避のしくみは <a href="https://ledger.seadice.win/loss-aversion-money/" style="color:#4b44d6;font-weight:700">1万円を失う痛みはなぜ大きい？（お金と心理）</a> と <a href="https://kodokeizai.seadice.win/course/loss-aversion/" style="color:#4b44d6;font-weight:700">損失回避とは？（ゼロから学ぶ行動経済学）</a> でくわしく読めます。</p>
+      <div class="share-row">
+        <a class="share-btn share-twitter" target="_blank" rel="noopener">Xでシェア</a>
+        <a class="share-btn share-line" target="_blank" rel="noopener">LINEでシェア</a>
+        <button type="button" class="retry-btn">もう一度答える</button>
+      </div>
+      <a class="profile-note" href="/diagnosis/profile/"></a>
+    </div>
+  </div>
+
+  <section class="about">
+    <h2>研究でわかっていること</h2>
+    <p>人は損を、同じ額の得のおよそ2倍の重さで感じる傾向があります。ただし反論もあります。</p>
+    <table class="about-table wrap">
+      <tbody>
+        <tr><td>150の論文のまとめ（Brownら, 2024）</td><td>607の推定値をまとめると、損を得に比べてどれくらい重く感じるかの係数は平均1.955（およそ2倍）</td></tr>
+        <tr><td>反論のレビュー（Gal &amp; Rucker, 2018）</td><td>今ある証拠からは、損が全体として得より強く影響するとは言えず、状況によって変わると主張</td></tr>
+      </tbody>
+    </table>
+
+    <h2>このチェックのしくみ</h2>
+    <ul>
+      <li>「50%で払う・50%でもらう」賭けに参加できる最低額が、払う額の何倍かを見ています。損と得を同じ重さで感じる人なら、払う額と同じ額（1倍）で参加できる計算です。</li>
+      <li>3問の倍率のまん中の値を、あなたの目安にしています。</li>
+      <li>研究で使われる考え方を、SEADICEが3問に簡単にしたもので、おおまかな目安です。実際の研究では、もっと多くの賭けや細かい計算を使います。</li>
+    </ul>
+
+    <h2>よくある質問</h2>
+    <h3 class="faq-q">損失回避が強いと何が起きる？</h3>
+    <p class="faq-a">損をしている株を元に戻るまで売れない、使っていないサブスクを解約できない、少しの損を避けるために大きなチャンスを逃す、といったことが起きやすくなります。一方で、無駄遣いやリスクの高い話から身を守る面もあります。</p>
+    <h3 class="faq-q">金額が大きくなると答えが変わるのはなぜ？</h3>
+    <p class="faq-a">払う額が大きいほど、負けたときの生活への影響も大きくなるからです。金額が大きい賭けほど、もっと多くもらえないと参加したくないと感じる人もいます。そのため、3問のまん中の値を目安にしています。</p>
+
+    <h2>出典</h2>
+    <ul class="ref-list">
+      <li>Brown, A. L., Imai, T., Vieider, F. M., &amp; Camerer, C. F. (2024). Meta-analysis of empirical estimates of loss aversion. <i>Journal of Economic Literature</i>, 62(2), 485–516. <a href="https://doi.org/10.1257/jel.20221698" target="_blank" rel="noopener">論文</a></li>
+      <li>Gal, D., &amp; Rucker, D. D. (2018). The loss of loss aversion: Will it loom larger than its gain? <i>Journal of Consumer Psychology</i>, 28(3), 497–516. <a href="https://doi.org/10.1002/jcpy.1047" target="_blank" rel="noopener">論文</a></li>
+    </ul>
+  </section>
+
+  <div class="related-box">
+    <p class="related-title">他の診断も見る</p>
+    <div class="diag-list">
+      <a class="diag-card" href="/diagnosis/crt/"><span class="diag-body"><span class="diag-title">バットとボール問題に挑戦</span></span></a>
+      <a class="diag-card" href="/diagnosis/profile/"><span class="diag-body"><span class="diag-title">診断プロフィール帳</span></span></a>
+    </div>
+  </div>
+</main>
+<script>
+(function(){
+  var LOSS = [1000, 10000, 100];
+  var RATIOS = [1, 1.5, 2, 2.5, 3, 4, 5];
+  var qEl = document.getElementById('la-q'), resultEl = document.getElementById('quiz-result');
+  var ans = [], cur = 0;
+  function yen(n){ return n.toLocaleString('ja-JP') + '円'; }
+  function render(){
+    var L = LOSS[cur];
+    var opts = RATIOS.map(function(r){
+      return '<button type="button" class="q-opt" data-r="' + r + '"><span class="q-opt-dot"></span><span>' + yen(L * r) + 'もらえるなら参加する</span></button>';
+    }).join('') + '<button type="button" class="q-opt" data-r="6"><span class="q-opt-dot"></span><span>' + yen(L * 5) + 'より多くても参加しない</span></button>';
+    qEl.innerHTML = '<div class="q-block"><p class="q-lead">賭け ' + (cur + 1) + ' / 3</p><p class="q-title">コインを投げて、裏なら <b>' + yen(L) + '払います</b>。表ならお金がもらえます。いくら以上もらえるなら、この賭けに参加しますか？</p><div class="q-opt-list">' + opts + '</div></div>';
+    qEl.querySelectorAll('.q-opt').forEach(function(b){
+      b.addEventListener('click', function(){
+        ans[cur] = parseFloat(b.getAttribute('data-r'));
+        if (cur < LOSS.length - 1) { cur++; render(); } else { show(); }
+      });
+    });
+  }
+  function show(){
+    var s = ans.slice().sort(function(a, b){ return a - b; }), m = s[1];
+    var label = m >= 6 ? '5倍より大きい' : m + '倍';
+    var type, desc, tori;
+    if (m < 1.5) { type = '損に強いタイプ'; desc = '損と得を、ほぼ同じ重さで感じています。損を恐れずに挑戦できる一方、リスクを軽く見すぎないよう注意も必要です。'; tori = ['新しい話には乗り気です。でも、念のためリスクも一緒に確認してもらえると助かります。']; }
+    else if (m <= 2.5) { type = '平均的なタイプ'; desc = '損を得のおよそ' + label + 'に感じています。研究でわかっている多くの人の平均（約2倍）に近い感じ方です。'; tori = ['損はふつうに気になります。迷ったときは、損と得を書き出して一緒にくらべてもらえると助かります。']; }
+    else { type = '慎重タイプ'; desc = '損を得の' + label + 'に感じていて、平均（約2倍）より損を重く感じています。無駄遣いや危ない話から身を守れる一方、手放すべきものを手放せないこともあります。'; tori = ['損をするのが苦手です。決めるときは急かさず、「やめた場合に失うもの」も一緒に考えてもらえると安心です。']; }
+    document.getElementById('la-score').textContent = '損を得の ' + label + ' に感じる（' + type + '）';
+    document.getElementById('la-desc').textContent = desc;
+    document.getElementById('la-tori').innerHTML = tori.map(function(t){ return '<li>' + t + '</li>'; }).join('');
+    var bar = document.getElementById('la-bar');
+    bar.querySelector('i').style.width = Math.min(m, 5) / 5 * 100 + '%';
+    bar.querySelector('b').style.left = (1.955 / 5 * 100) + '%';
+    bar.setAttribute('aria-label', 'あなたは損を得の' + label + 'に感じる。研究の平均は約2倍');
+    var summary = '損を得の' + label + 'に感じる（' + type + '）';
+    var shareText = encodeURIComponent('損失回避度チェック → ' + summary + '。研究の平均は約2倍');
+    var url = encodeURIComponent(location.href);
+    resultEl.querySelector('.share-twitter').href = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + url;
+    resultEl.querySelector('.share-line').href = 'https://social-plugins.line.me/lineit/share?url=' + url + '&text=' + shareText;
+    var saved = false, count = 0;
+    try {
+      var p = JSON.parse(localStorage.getItem('seadice_diag_profile_v1')) || {};
+      p['loss-aversion'] = {key: String(m), name: summary, color: '#00b894', at: new Date().toISOString().slice(0, 10)};
+      localStorage.setItem('seadice_diag_profile_v1', JSON.stringify(p));
+      count = Object.keys(p).length; saved = true;
+    } catch (e) {}
+    resultEl.querySelector('.profile-note').innerHTML = saved
+      ? '<b>診断プロフィール帳に記録しました</b><span>' + count + '本の診断を記録済み・プロフィール帳を見る →</span>'
+      : '<b>診断プロフィール帳</b><span>全部の結果を1枚にまとめる →</span>';
+    qEl.style.display = 'none';
+    resultEl.style.display = 'block';
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+  resultEl.querySelector('.retry-btn').addEventListener('click', function(){
+    ans = []; cur = 0; qEl.style.display = 'block'; resultEl.style.display = 'none'; render();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  });
+  render();
+})();
+</script>
+<footer>
+  <p><a href="/">SEADICE</a> &nbsp;|&nbsp; &copy; 2026 SEADICE</p>
+</footer>
+</body>
+</html>
