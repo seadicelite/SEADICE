@@ -218,3 +218,4 @@ a.cred:hover{text-decoration:underline}
 .crt-ok{background:#dff5ee;border-color:#0b6b55}
 .crt-ng{background:#fff1dc;border-color:#8a4f00}
 .crt-a-head{font-weight:800;font-size:14px}
+.tr-cmp{display:flex;flex-direction:column;gap:16px;text-align:left;margin-top:20px}.tr-cmp .sc-desc{font-size:13px;color:#5d5d70}
