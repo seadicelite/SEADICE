@@ -15,67 +15,65 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"AboutPage","name":"SEADICEの10ヶ条","url":"https://seadice.win/promise/","description":"SEADICEがアプリ・メディア・Webツールを作るときに守っている10の約束と、それぞれの守り方。","dateModified":"2026-10-11","inLanguage":"ja","about":{"@id":"https://seadice.win/#org"}},{"@type":"Organization","@id":"https://seadice.win/#org","name":"SEADICE","alternateName":"シーダイス","url":"https://seadice.win/","email":"hi@seadice.win","publishingPrinciples":"https://seadice.win/promise/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"HOME","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"SEADICEの10ヶ条","item":"https://seadice.win/promise/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"SEADICEは個人情報を集めていますか？","acceptedAnswer":{"@type":"Answer","text":"集めていません。会員登録・ログインはなく、フォームで名前・メールアドレス・電話番号などを求めません。ツールの入力と記録は使っている端末の中だけに保存され、外部の解析・広告スクリプトも入れていません。"}},{"@type":"Question","name":"SEADICEのアプリやツールは本当に無料ですか？","acceptedAnswer":{"@type":"Answer","text":"はい。アプリ・Webツール・診断・講座・メディアはすべて無料で、広告もありません。"}},{"@type":"Question","name":"SEADICEの記事はAIが書いていますか？","acceptedAnswer":{"@type":"Answer","text":"メディアの記事やレビューの多くは、AIが調べて書いています。その場合はページに明記しています。数字や研究は出典と照らし合わせ、出典にない数字は使いません。"}},{"@type":"Question","name":"「科学的に証明された」と書かないのはなぜですか？","acceptedAnswer":{"@type":"Answer","text":"研究で効果が示されるのは方法であり、アプリや記事そのものではないからです。SEADICEでは「研究にもとづく」「研究でわかった」と書き、根拠の弱い話は弱いと書きます。"}}]}]}</script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#05050C;--card:#0C0C1A;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--accent:#00FFD1;--accent2:#38BDF8}
-body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}
-a{color:inherit}
-a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
-header{border-bottom:1px solid var(--border)}
-.bar{max-width:760px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.logo{font-size:16px;font-weight:800;letter-spacing:.15em;color:var(--accent);text-decoration:none}
-.crumb{font-size:13px;color:var(--muted)}
-.crumb a{text-decoration:none;padding:8px 0}
-main{max-width:760px;margin:0 auto;padding:48px 24px 80px}
-.label{font-size:12px;letter-spacing:.25em;color:var(--accent);text-transform:uppercase}
-h1{font-size:clamp(26px,5vw,36px);font-weight:800;letter-spacing:-.02em;margin:6px 0 16px}
-.lead{font-size:15px;color:var(--muted)}
-.lead strong{color:var(--text)}
-.list{list-style:none;margin-top:40px;counter-reset:n}
-.item{display:grid;grid-template-columns:52px 1fr;gap:4px 16px;border-top:1px solid var(--border);padding:24px 0}
-.num{grid-row:span 2;font-size:28px;font-weight:800;color:var(--accent);font-variant-numeric:tabular-nums;line-height:1.2}
-.item h2{font-size:18px;font-weight:800;line-height:1.5}
-.how{font-size:14px;color:var(--muted)}
-.how b{display:inline-block;font-size:12px;font-weight:700;color:var(--text);border:1px solid var(--border);border-radius:999px;padding:0 10px;margin-right:8px}
-.how a{color:#7dd3fc}
-.item.last{border:1px solid var(--accent);border-radius:16px;padding:24px 20px;background:var(--card);margin-top:8px}
-.faq{margin-top:56px}
-.faq h2{font-size:18px;font-weight:800;margin-bottom:8px}
-.faq dt{font-weight:700;margin-top:18px}
-.faq dd{font-size:14px;color:var(--muted);margin-top:4px}
-.contact{margin-top:48px;font-size:14px;color:var(--muted);border-top:1px solid var(--border);padding-top:24px}
-.contact a{color:#7dd3fc}
-footer{text-align:center;padding:40px 24px;color:var(--muted);font-size:13px;border-top:1px solid var(--border)}
-footer a{text-decoration:none;margin:0 6px;padding:8px 0}
-@media(max-width:480px){main{padding:36px 16px 64px}.bar{padding:16px}.item{grid-template-columns:40px 1fr;gap:4px 12px}.num{font-size:24px}}
+:root{--paper:#f3ede1;--ink:#1c1a17;--sub:#554e45;--shu:#b3261e;--line:#d9cfbd;--link:#8f2219}
+body{background:var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .38 0 0 0 0 .28 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E");color:var(--ink);font-family:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif JP",serif;line-height:1.9}
+a{color:var(--link)}
+a:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}
+header{border-bottom:1px solid var(--line)}
+.bar{max-width:760px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-family:-apple-system,'Helvetica Neue',sans-serif}
+.logo{font-size:15px;font-weight:800;letter-spacing:.2em;color:var(--ink);text-decoration:none}
+.crumb{font-size:13px;color:var(--sub)}
+.crumb a{color:var(--sub);text-decoration:none;padding:8px 0}
+main{max-width:760px;margin:0 auto;padding:56px 24px 80px}
+.hero{display:flex;flex-direction:row-reverse;align-items:flex-start;gap:40px}
+.title{display:flex;flex-direction:column;align-items:center;gap:20px;flex-shrink:0}
+h1{writing-mode:vertical-rl;font-size:clamp(40px,8vw,60px);font-weight:700;letter-spacing:.18em;line-height:1.2}
+h1 small{display:block;font-size:.36em;letter-spacing:.3em;color:var(--sub);font-weight:600;margin-left:.6em}
+.seal{display:inline-grid;place-items:center;width:56px;height:56px;background:var(--shu);color:#fbf6ec;font-size:30px;font-weight:700;border-radius:6px;transform:rotate(-4deg);box-shadow:inset 0 0 0 3px var(--shu),inset 0 0 0 5px #fbf6ec80}
+.seal.sm{width:40px;height:40px;font-size:22px;float:right;margin:0 0 8px 12px}
+.intro{padding-top:12px}
+.intro p{font-size:16px}
+.intro .sub{font-size:14px;color:var(--sub);margin-top:16px}
+.stroke{display:block;width:100%;height:28px;margin:48px 0 8px;color:var(--ink)}
+.list{list-style:none}
+.art{display:grid;grid-template-columns:56px 1fr;gap:20px;padding:32px 0;border-bottom:1px solid var(--line)}
+.no{writing-mode:vertical-rl;font-size:20px;font-weight:700;color:var(--shu);letter-spacing:.25em;justify-self:center}
+.art h2{font-size:clamp(20px,4.4vw,25px);font-weight:700;line-height:1.55;letter-spacing:.04em}
+.how{font-size:15px;color:var(--sub);margin-top:10px}
+.art.last{border:1px solid var(--shu);outline:1px solid var(--shu);outline-offset:4px;background:#fbf6ec;padding:28px 20px;margin-top:40px}
+.art.last h2{font-size:clamp(22px,5vw,28px)}
+.faq{margin-top:72px}
+.faq>h2{font-size:22px;font-weight:700;letter-spacing:.08em;border-left:4px solid var(--ink);padding-left:12px}
+.faq dt{font-weight:700;margin-top:24px;font-size:16px}
+.faq dd{font-size:15px;color:var(--sub);margin-top:4px}
+.contact{margin-top:56px;font-size:15px;color:var(--sub);border-top:1px solid var(--line);padding-top:24px}
+footer{text-align:center;padding:40px 24px;color:var(--sub);font-size:13px;border-top:1px solid var(--line);font-family:-apple-system,'Helvetica Neue',sans-serif}
+footer a{color:var(--sub);text-decoration:none;margin:0 6px;padding:8px 0}
+@media(max-width:600px){main{padding:40px 16px 64px}.bar{padding:16px}.hero{flex-direction:column;align-items:center;gap:28px}.intro{padding-top:0}.art{grid-template-columns:36px 1fr;gap:12px}.no{font-size:17px}}
 </style>
 </head>
 <body>
-<header><div class="bar"><a class="logo" href="/">SEADICE</a><nav class="crumb" aria-label="パンくずリスト"><a href="/">HOME</a> / 10ヶ条</nav></div></header>
+<header><div class="bar"><a class="logo" href="/">SEADICE</a><nav class="crumb" aria-label="パンくずリスト"><a href="/">HOME</a> / 十ヶ条</nav></div></header>
 <main>
-  <p class="label">Our Promise</p>
-  <h1>SEADICEの10ヶ条</h1>
-  <p class="lead"><strong>SEADICEの10ヶ条は、アプリ・メディア・Webツールを作るときに守っている約束です。</strong>どの約束にも、実際にどう守っているかを添えています。守れていない箇所を見つけたら、下の連絡先から教えてください。</p>
-
+  <div class="hero">
+    <div class="title"><h1><small>SEADICEの</small>十ヶ条</h1><span class="seal" aria-hidden="true">誠</span></div>
+    <div class="intro">
+      <p><strong>SEADICEの十ヶ条は、アプリ・メディア・Webツールを作るときに守っている約束です。</strong></p>
+      <p class="sub">どの条にも、実際にどう守っているかを添えています。守れていない箇所を見つけたら、ページの最後の連絡先から教えてください。</p>
+    </div>
+  </div>
+  <svg class="stroke" viewBox="0 0 760 28" preserveAspectRatio="none" aria-hidden="true"><path d="M4 17C60 9 160 6 300 9s330 7 452 2c3 0 5 2 3 4-90 9-300 8-450 6S70 20 8 23c-6 1-9-5-4-6z" fill="currentColor" opacity=".88"/></svg>
   <ol class="list">
-    <li class="item"><span class="num" aria-hidden="true">01</span><h2>ユーザーに誠実である</h2>
-      <p class="how"><b>守り方</b>できないこと、根拠が弱いこと、間違えたことを隠さずに書きます。都合のいい部分だけを切り取って見せません。</p></li>
-    <li class="item"><span class="num" aria-hidden="true">02</span><h2>研究にもとづいて書く</h2>
-      <p class="how"><b>守り方</b>研究や数字には著者・年・論文の出典を付けます。「科学的に証明された」とは書かず、根拠の弱い話は弱いと書きます。アプリは<a href="/evidence-series/">もとになった研究</a>を公開しています。</p></li>
-    <li class="item"><span class="num" aria-hidden="true">03</span><h2>数字を盛らない</h2>
-      <p class="how"><b>守り方</b>出典にない数字や研究は足しません。誤りが見つかったら直し、ページの更新日を新しくします。</p></li>
-    <li class="item"><span class="num" aria-hidden="true">04</span><h2>AIで作っていることを隠さない</h2>
-      <p class="how"><b>守り方</b>AIが調べて書いたページには、そのことを明記しています。</p></li>
-    <li class="item"><span class="num" aria-hidden="true">05</span><h2>すべて無料で使える</h2>
-      <p class="how"><b>守り方</b>アプリ・Webツール・診断・講座・メディアは、すべて無料です。</p></li>
-    <li class="item"><span class="num" aria-hidden="true">06</span><h2>広告を載せない・売るために書かない</h2>
-      <p class="how"><b>守り方</b>広告は載せません。閲覧数を稼ぐために記事を細切れにしたり、ページを渡り歩かせたりせず、1ページで答えまで届くように書きます。</p></li>
-    <li class="item"><span class="num" aria-hidden="true">07</span><h2>個人情報を取らない</h2>
-      <p class="how"><b>守り方</b>会員登録・ログインはありません。フォームで名前・メールアドレス・電話番号・住所を求めず、要望フォームは匿名で送られます。</p></li>
-    <li class="item"><span class="num" aria-hidden="true">08</span><h2>入力も閲覧の記録も、外に出さない</h2>
-      <p class="how"><b>守り方</b>ツールの計算はブラウザの中で行い、記録はその端末にだけ保存します。AIを使う機能も、入力された文章を保存しません。外部の解析・広告・SNS埋め込みのスクリプトも入れていません。詳しくは<a href="/privacy/">プライバシーポリシー</a>に書いています。</p></li>
-    <li class="item"><span class="num" aria-hidden="true">09</span><h2>読むだけで終わらせない</h2>
-      <p class="how"><b>守り方</b>記事には、今日できる一歩（<a href="/tools/">Webツール</a>・チェックリスト・<a href="/diagnosis/">診断</a>）を置きます。</p></li>
-    <li class="item last"><span class="num" aria-hidden="true">10</span><h2>やると決めたことは、ゴールを決めて最後までやり抜く</h2>
-      <p class="how"><b>守り方</b>講座は章立てを、メディアは書くテーマの表を先に決め、空きがなくなるまで書き続けます。</p></li>
+    <li class="art first"><p class="no" aria-label="第1条">第一条</p><div class="body"><h2>ユーザーに誠実である</h2><p class="how">できないこと、根拠が弱いこと、間違えたことを隠さずに書きます。都合のいい部分だけを切り取って見せません。</p></div></li>
+    <li class="art"><p class="no" aria-label="第2条">第二条</p><div class="body"><h2>研究にもとづいて書く</h2><p class="how">研究や数字には著者・年・論文の出典を付けます。「科学的に証明された」とは書かず、根拠の弱い話は弱いと書きます。アプリは<a href="/evidence-series/">もとになった研究</a>を公開しています。</p></div></li>
+    <li class="art"><p class="no" aria-label="第3条">第三条</p><div class="body"><h2>数字を盛らない</h2><p class="how">出典にない数字や研究は足しません。誤りが見つかったら直し、ページの更新日を新しくします。</p></div></li>
+    <li class="art"><p class="no" aria-label="第4条">第四条</p><div class="body"><h2>AIで作っていることを隠さない</h2><p class="how">AIが調べて書いたページには、そのことを明記しています。</p></div></li>
+    <li class="art"><p class="no" aria-label="第5条">第五条</p><div class="body"><h2>すべて無料で使える</h2><p class="how">アプリ・Webツール・診断・講座・メディアは、すべて無料です。</p></div></li>
+    <li class="art"><p class="no" aria-label="第6条">第六条</p><div class="body"><h2>広告を載せない・売るために書かない</h2><p class="how">広告は載せません。閲覧数を稼ぐために記事を細切れにしたり、ページを渡り歩かせたりせず、1ページで答えまで届くように書きます。</p></div></li>
+    <li class="art"><p class="no" aria-label="第7条">第七条</p><div class="body"><h2>個人情報を取らない</h2><p class="how">会員登録・ログインはありません。フォームで名前・メールアドレス・電話番号・住所を求めず、要望フォームは匿名で送られます。</p></div></li>
+    <li class="art"><p class="no" aria-label="第8条">第八条</p><div class="body"><h2>入力も閲覧の記録も、外に出さない</h2><p class="how">ツールの計算はブラウザの中で行い、記録はその端末にだけ保存します。AIを使う機能も、入力された文章を保存しません。外部の解析・広告・SNS埋め込みのスクリプトも入れていません。詳しくは<a href="/privacy/">プライバシーポリシー</a>に書いています。</p></div></li>
+    <li class="art"><p class="no" aria-label="第9条">第九条</p><div class="body"><h2>読むだけで終わらせない</h2><p class="how">記事には、今日できる一歩（<a href="/tools/">Webツール</a>・チェックリスト・<a href="/diagnosis/">診断</a>）を置きます。</p></div></li>
+    <li class="art last"><p class="no" aria-label="第10条">第十条</p><div class="body"><h2>やると決めたことは、ゴールを決めて最後までやり抜く</h2><span class="seal sm" aria-hidden="true">貫</span><p class="how">講座は章立てを、メディアは書くテーマの表を先に決め、空きがなくなるまで書き続けます。</p></div></li>
   </ol>
 
   <section class="faq" aria-labelledby="faq-title">
