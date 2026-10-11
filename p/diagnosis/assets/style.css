@@ -219,3 +219,5 @@ a.cred:hover{text-decoration:underline}
 .crt-ng{background:#fff1dc;border-color:#8a4f00}
 .crt-a-head{font-weight:800;font-size:14px}
 .tr-cmp{display:flex;flex-direction:column;gap:16px;text-align:left;margin-top:20px}.tr-cmp .sc-desc{font-size:13px;color:#5d5d70}
+
+.app-head{margin-top:40px}.app-list{display:grid;gap:16px}.app-card{display:flex;align-items:center;gap:4px;background:var(--card);border:1px solid var(--border);border-radius:16px;padding-left:16px;text-decoration:none;color:var(--text);box-shadow:var(--shadow)}.app-icon{width:64px;height:64px;border-radius:14px;flex-shrink:0}
