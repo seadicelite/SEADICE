@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>裏メモ — 合言葉で開くと本物、ちがうとダミーが開くメモ帳 | SEADICE</title>
+<meta name="description" content="のぞき見されたくないメモを、ふつうのメモ帳の裏に隠せる無料ツールです。正しい合言葉では本物のメモ、まちがった合言葉ではダミーのメモが同じ見た目で開きます。本物は暗号化してブラウザの中だけに保存（登録不要）。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/ura-memo/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="裏メモ — 表と裏があるメモ帳 | SEADICE">
+<meta property="og:description" content="正しい合言葉なら本物のメモ、ちがう合言葉ならダミーのメモが開く。本物は暗号化してブラウザ内だけに保存する無料メモ帳です。">
+<meta property="og:url" content="https://seadice.win/tools/ura-memo/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"裏メモ","url":"https://seadice.win/tools/ura-memo/","description":"正しい合言葉では本物のメモ、まちがった合言葉ではダミーのメモが同じ見た目で開くメモ帳。本物のメモはAES-GCMで暗号化し、ブラウザ内だけに保存する。SEADICEが作成。","applicationCategory":"UtilitiesApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-11","dateModified":"2026-10-11"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ツール","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"裏メモ","item":"https://seadice.win/tools/ura-memo/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"合言葉をまちがえたことは、相手にわかりますか？","acceptedAnswer":{"@type":"Answer","text":"画面には出ません。正しい合言葉でもまちがった合言葉でも、同じ見た目のメモ帳が同じくらいの時間で開きます。ちがうのは中に入っているメモだけです。"}},{"@type":"Question","name":"合言葉を忘れたらどうなりますか？","acceptedAnswer":{"@type":"Answer","text":"本物のメモは取り出せなくなります。合言葉そのものはどこにも保存しておらず、SEADICEにも送られないため、復元する方法はありません。"}},{"@type":"Question","name":"メモはどこに保存されますか？","acceptedAnswer":{"@type":"Answer","text":"使っているブラウザの中だけです。サーバーには送りません。本物のメモは合言葉から作った鍵で暗号化して保存します。ブラウザのデータを消すとメモも消えるため、必要なら暗号化されたバックアップを書き出してください。"}},{"@type":"Question","name":"ダミーのメモは書き換えられますか？","acceptedAnswer":{"@type":"Answer","text":"できます。わざとちがう合言葉で開くとダミーのメモ帳になるので、買い物リストなど本当にありそうな中身に書き換えておくと、より自然に見えます。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--paper:#11111f;--warn:#F2A65A}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}
+.app{background:var(--paper);border:1px solid var(--border);border-radius:18px;margin-bottom:12px;min-height:440px;display:flex;flex-direction:column;overflow:hidden}.bar{display:flex;align-items:center;gap:6px;padding:10px 12px 10px 18px;border-bottom:1px solid var(--border)}.bar h2{flex:1;font-size:17px;font-weight:800;margin:0;border:0;padding:0}.ib{font:inherit;font-size:14px;color:var(--text);background:transparent;border:1px solid transparent;border-radius:10px;padding:8px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;min-height:40px}.ib:hover{border-color:var(--border)}.ib svg{width:18px;height:18px;flex:none}.ib.acc{color:var(--accent)}.view{flex:1;display:flex;flex-direction:column}[hidden]{display:none!important}
+.gate{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 24px;text-align:center;gap:14px}.gate svg{width:40px;height:40px;color:var(--muted)}.gate p{font-size:14px;color:var(--muted)}.gate form{width:100%;max-width:300px;display:flex;flex-direction:column;gap:10px}.in{font:inherit;font-size:16px;color:var(--text);background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:12px 14px;width:100%}.btn{font:inherit;font-size:15px;font-weight:800;color:#05050C;background:var(--accent);border:0;border-radius:12px;padding:13px 16px;cursor:pointer}.btn:disabled{opacity:.6;cursor:wait}.err{font-size:13px;color:var(--warn);min-height:1.2em}
+.list{list-style:none;flex:1}.list li{border-bottom:1px solid var(--border)}.list button{font:inherit;color:var(--text);background:transparent;border:0;width:100%;text-align:left;padding:14px 18px;cursor:pointer;display:block}.list button:hover{background:rgba(255,255,255,.03)}.list b{display:block;font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.list small{display:block;font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.empty{padding:40px 18px;text-align:center;font-size:14px;color:var(--muted)}.count{font-size:12px;color:var(--muted);padding:10px 18px;text-align:center}
+.ed{flex:1;font:inherit;font-size:16px;line-height:1.8;color:var(--text);background:transparent;border:0;resize:none;padding:16px 18px;min-height:340px;width:100%}.ed:focus-visible{outline:none}.edfoot{display:flex;justify-content:space-between;align-items:center;padding:6px 12px 8px 18px;border-top:1px solid var(--border);font-size:12px;color:var(--muted)}
+.note{font-size:12px;color:var(--muted);margin-bottom:40px}
+.s{margin-bottom:40px}.s h2{font-size:20px;font-weight:800;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border)}.s p{font-size:15px;color:#cbd5e1;margin-bottom:12px}.s ol,.s ul{padding-left:1.4em;font-size:15px;color:#cbd5e1}.s li{margin-bottom:8px}.s strong{color:var(--text)}table{width:100%;border-collapse:collapse;font-size:14px;margin-top:4px}th,td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}th{background:var(--card);font-weight:700}.tools{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px}.tools form{display:flex;flex-direction:column;gap:10px;margin-bottom:8px}.tools h3{font-size:15px;margin-bottom:10px}.row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;padding-top:16px;border-top:1px solid var(--border)}.btn2{font:inherit;font-size:14px;color:var(--text);background:transparent;border:1px solid var(--border);border-radius:12px;padding:10px 14px;cursor:pointer;min-height:44px}.btn2:hover{border-color:var(--accent)}.btn2.danger{color:var(--warn)}.msg{font-size:13px;color:var(--accent);min-height:1.2em}.msg.ng{color:var(--warn)}.faq dt{font-weight:700;font-size:15px;margin-top:16px}.faq dd{font-size:15px;color:#cbd5e1;margin-top:4px}
+footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;margin:0 6px;display:inline-block;padding:6px 0}</style>
+</head>
+<body>
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / 裏メモ</p>
+  <p class="label">TOOL</p>
+  <h1>裏メモ</h1>
+  <p class="lead">見た目はふつうのメモ帳です。正しい合言葉で開くと本物のメモ、ちがう合言葉で開くとダミーのメモが、まったく同じ画面で出てきます。本物のメモは暗号化して、このブラウザの中だけに保存します。登録は要りません。</p>
+
+  <div class="app" id="app">
+    <div class="bar">
+      <h2 id="ttl">メモ</h2>
+      <button type="button" class="ib" id="bk" hidden aria-label="一覧にもどる"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>一覧</button>
+      <button type="button" class="ib acc" id="nw" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>新規</button>
+      <button type="button" class="ib" id="lk" hidden aria-label="ロックする"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>ロック</button>
+    </div>
+
+    <div class="view gate" id="vSetup" hidden>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>
+      <p>はじめに、本物のメモを開く合言葉を決めます。<br>忘れると本物のメモは取り出せません。</p>
+      <form id="fSetup" autocomplete="off">
+        <input class="in" type="password" id="p1" placeholder="合言葉（4文字以上）" aria-label="合言葉" minlength="4" required>
+        <input class="in" type="password" id="p2" placeholder="もう一度入力" aria-label="合言葉をもう一度入力" required>
+        <p class="err" id="eSetup" role="alert"></p>
+        <button class="btn" type="submit">この合言葉ではじめる</button>
+      </form>
+    </div>
+
+    <div class="view gate" id="vLock" hidden>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>
+      <p>パスワードを入力</p>
+      <form id="fLock" autocomplete="off">
+        <input class="in" type="password" id="pw" placeholder="パスワード" aria-label="パスワード">
+        <button class="btn" type="submit" id="open">開く</button>
+      </form>
+    </div>
+
+    <div class="view" id="vList" hidden>
+      <ul class="list" id="list"></ul>
+      <p class="count" id="cnt"></p>
+    </div>
+
+    <div class="view" id="vEdit" hidden>
+      <textarea class="ed" id="ed" aria-label="メモの本文" placeholder="1行目がタイトルになります"></textarea>
+      <div class="edfoot"><span id="when"></span><button type="button" class="ib" id="del">削除</button></div>
+    </div>
+
+    <div class="view gate" id="vNo" hidden><p>このブラウザでは保存できません。プライベートブラウズを切るか、別のブラウザで開いてください。</p></div>
+  </div>
+  <p class="note">画面を切りかえる・別のタブに移ると自動でロックします。</p>
+
+  <section class="s" aria-labelledby="h-how">
+    <h2 id="h-how">使い方</h2>
+    <p>合言葉を1つ決めるだけで使えます。本物とダミーの2冊のメモ帳が、同じ入口の裏表になります。</p>
+    <ol>
+      <li>はじめに合言葉を決めます。これが本物のメモを開く鍵になります。</li>
+      <li>次からは「パスワードを入力」の画面で合言葉を入れると、本物のメモが開きます。</li>
+      <li>ちがう言葉（空欄でも）を入れると、ダミーのメモが開きます。エラーは出ません。</li>
+      <li>ダミーのメモは、わざとちがう言葉で開いて、ありそうな中身に書き換えておきます。</li>
+    </ol>
+  </section>
+
+  <section class="s" aria-labelledby="h-diff">
+    <h2 id="h-diff">本物とダミーのちがい</h2>
+    <p>ちがうのは中身だけです。画面・ボタン・開くまでの時間はそろえてあり、見た目から区別できません。</p>
+    <table>
+      <thead><tr><th scope="col"></th><th scope="col">本物のメモ</th><th scope="col">ダミーのメモ</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">開き方</th><td>正しい合言葉</td><td>それ以外の言葉すべて</td></tr>
+        <tr><th scope="row">保存のしかた</th><td>合言葉から作った鍵で暗号化（AES-GCM 256bit）</td><td>暗号化しない</td></tr>
+        <tr><th scope="row">書き換え</th><td>できる</td><td>できる</td></tr>
+        <tr><th scope="row">合言葉を忘れたら</th><td>取り出せない</td><td>いつでも開ける</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="s" aria-labelledby="h-care">
+    <h2 id="h-care">使う前に知っておくこと</h2>
+    <p>合言葉はどこにも保存していないため、忘れると本物のメモは誰にも取り出せません。</p>
+    <ul>
+      <li>メモはこのブラウザの中だけにあり、SEADICEのサーバーには送りません。別の端末とは共有されません。</li>
+      <li>ブラウザの履歴・サイトデータを消すとメモも消えます。下の「バックアップを書き出す」で控えを取れます（本物は暗号化されたまま書き出します）。</li>
+      <li>合言葉は、生年月日など推測されやすいものを避けてください。暗号の強さは合言葉の強さで決まります。</li>
+      <li>このページを知っている人には「裏がある」ことは推測できます。ダミーの中身を自然にしておくのが一番の守りです。</li>
+    </ul>
+  </section>
+
+  <section class="s" aria-labelledby="h-set">
+    <h2 id="h-set">合言葉の変更・バックアップ</h2>
+    <div class="tools">
+      <form id="fChg" autocomplete="off">
+        <h3>合言葉を変える</h3>
+        <input class="in" type="password" id="c0" placeholder="今の合言葉" aria-label="今の合言葉" required>
+        <input class="in" type="password" id="c1" placeholder="新しい合言葉（4文字以上）" aria-label="新しい合言葉" minlength="4" required>
+        <input class="in" type="password" id="c2" placeholder="新しい合言葉をもう一度" aria-label="新しい合言葉をもう一度" required>
+        <button class="btn" type="submit" id="chgBtn">合言葉を変える</button>
+        <p class="msg" id="mChg" role="status"></p>
+      </form>
+      <div class="row">
+        <button type="button" class="btn2" id="exp">バックアップを書き出す</button>
+        <button type="button" class="btn2" id="impBtn">バックアップを読み込む</button>
+        <input type="file" id="imp" accept="application/json,.json" hidden>
+        <button type="button" class="btn2 danger" id="wipe">すべて消す</button>
+      </div>
+      <p class="msg" id="mBk" role="status"></p>
+    </div>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <dl class="faq">
+      <dt>合言葉をまちがえたことは、相手にわかりますか？</dt>
+      <dd>画面には出ません。正しい合言葉でもまちがった合言葉でも、同じ見た目のメモ帳が同じくらいの時間で開きます。ちがうのは中に入っているメモだけです。</dd>
+      <dt>合言葉を忘れたらどうなりますか？</dt>
+      <dd>本物のメモは取り出せなくなります。合言葉そのものはどこにも保存しておらず、SEADICEにも送られないため、復元する方法はありません。</dd>
+      <dt>メモはどこに保存されますか？</dt>
+      <dd>使っているブラウザの中だけです。本物のメモは合言葉から作った鍵で暗号化して保存します。ブラウザのデータを消すとメモも消えるため、必要ならバックアップを書き出してください。</dd>
+      <dt>ダミーのメモは書き換えられますか？</dt>
+      <dd>できます。わざとちがう合言葉で開くとダミーのメモ帳になるので、買い物リストなど本当にありそうな中身に書き換えておくと、より自然に見えます。</dd>
+    </dl>
+  </section>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE</p>
+</footer>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var KV='uramemo.vault',KD='uramemo.decoy',ITER=250000;
+var te=new TextEncoder(),td=new TextDecoder();
+var mode=null,key=null,salt=null,notes=[],cur=null,timer=null,pending=null;
+var SAMPLE=['買い物リスト\n牛乳\n卵\n食パン\n洗剤（詰め替え）','今週やること\n・歯医者の予約\n・電気代の支払い\n・資料の見直し','読みたい本\n・積んである1冊を読み切る\n・図書館の返却は金曜まで'];
+function get(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function put(k,v){try{if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v);return true}catch(e){return false}}
+function b64(u){u=new Uint8Array(u);var s='';for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s)}
+function ub(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+function rnd(n){return crypto.getRandomValues(new Uint8Array(n))}
+async function derive(pw,s){var k=await crypto.subtle.importKey('raw',te.encode(pw),'PBKDF2',false,['deriveKey']);return crypto.subtle.deriveKey({name:'PBKDF2',salt:s,iterations:ITER,hash:'SHA-256'},k,{name:'AES-GCM',length:256},false,['encrypt','decrypt'])}
+function vault(){try{var v=JSON.parse(get(KV));return v&&v.s&&v.i&&v.c?v:null}catch(e){return null}}
+async function openVault(pw,v){var k=await derive(pw,ub(v.s));try{var p=await crypto.subtle.decrypt({name:'AES-GCM',iv:ub(v.i)},k,ub(v.c));return{key:k,notes:JSON.parse(td.decode(p))}}catch(e){return null}}
+async function seal(k,s,data){var iv=rnd(12);var c=await crypto.subtle.encrypt({name:'AES-GCM',iv:iv},k,te.encode(JSON.stringify(data)));return JSON.stringify({v:1,s:b64(s),i:b64(iv),c:b64(c)})}
+function sample(){var t=Date.now();return SAMPLE.map(function(b,i){return{id:'d'+i,b:b,u:t-(i+1)*86400000*(i+2)}})}
+function decoy(){try{var d=JSON.parse(get(KD));if(Array.isArray(d))return d}catch(e){}var s=sample();put(KD,JSON.stringify(s));return s}
+function save(now){clearTimeout(timer);if(mode==='decoy'){put(KD,JSON.stringify(notes));return Promise.resolve()}if(mode!=='real')return Promise.resolve();var run=function(){var k=key,s=salt,d=notes.slice();pending=seal(k,s,d).then(function(j){put(KV,j)});return pending};if(now)return run();timer=setTimeout(run,300);return Promise.resolve()}
+function show(id){['vSetup','vLock','vList','vEdit','vNo'].forEach(function(v){$(v).hidden=v!==id});var inMemo=id==='vList'||id==='vEdit';$('nw').hidden=id!=='vList';$('lk').hidden=!inMemo;$('bk').hidden=id!=='vEdit';$('ttl').textContent=id==='vEdit'?'':'メモ'}
+function title(n){var l=n.b.split('\n').filter(function(x){return x.trim()});return{t:l[0]||'新しいメモ',s:l[1]||''}}
+function fmt(t){var d=new Date(t),n=new Date();var hm=d.getHours()+':'+('0'+d.getMinutes()).slice(-2);if(d.toDateString()===n.toDateString())return hm;return(d.getMonth()+1)+'/'+d.getDate()+(d.getFullYear()!==n.getFullYear()?' '+d.getFullYear():'')}
+function renderList(){var ul=$('list');ul.textContent='';notes.sort(function(a,b){return b.u-a.u});if(!notes.length){var li=document.createElement('li');li.className='empty';li.textContent='メモはまだありません';ul.appendChild(li)}notes.forEach(function(n){var li=document.createElement('li'),b=document.createElement('button'),h=title(n),t=document.createElement('b'),s=document.createElement('small');b.type='button';t.textContent=h.t;s.textContent=fmt(n.u)+'  '+h.s;b.appendChild(t);b.appendChild(s);b.addEventListener('click',function(){edit(n.id)});li.appendChild(b);ul.appendChild(li)});$('cnt').textContent=notes.length?notes.length+'件のメモ':'';show('vList')}
+function edit(id){cur=id;var n=notes.find(function(x){return x.id===id});$('ed').value=n.b;$('when').textContent=fmt(n.u);show('vEdit');$('ed').focus()}
+function back(){if(cur){var n=notes.find(function(x){return x.id===cur});if(n&&!n.b.trim()){notes=notes.filter(function(x){return x.id!==cur});save()}}cur=null;renderList()}
+async function lock(){if(!mode)return;await save(true);if(pending)await pending;mode=null;key=null;notes=[];cur=null;$('ed').value='';$('list').textContent='';$('pw').value='';show(vault()?'vLock':'vSetup')}
+function enter(m,n,k,s){mode=m;notes=n;key=k||null;salt=s||null;renderList()}
+$('ed').addEventListener('input',function(){var n=notes.find(function(x){return x.id===cur});if(!n)return;n.b=this.value;n.u=Date.now();$('when').textContent=fmt(n.u);save()});
+$('nw').addEventListener('click',function(){var n={id:b64(rnd(6)),b:'',u:Date.now()};notes.unshift(n);edit(n.id)});
+$('bk').addEventListener('click',back);
+$('lk').addEventListener('click',lock);
+$('del').addEventListener('click',function(){if(!confirm('このメモを削除しますか？'))return;notes=notes.filter(function(x){return x.id!==cur});cur=null;save();renderList()});
+$('fLock').addEventListener('submit',async function(e){e.preventDefault();var v=vault();if(!v){show('vSetup');return}$('open').disabled=true;var r=await openVault($('pw').value,v);$('pw').value='';$('open').disabled=false;if(r)enter('real',r.notes,r.key,ub(v.s));else enter('decoy',decoy())});
+$('fSetup').addEventListener('submit',async function(e){e.preventDefault();var a=$('p1').value,b=$('p2').value;if(a.length<4){$('eSetup').textContent='4文字以上にしてください';return}if(a!==b){$('eSetup').textContent='2回の入力が一致しません';return}var s=rnd(16),k=await derive(a,s),first=[{id:'r0',b:'ここが本物のメモです\nちがう合言葉で開くと、別のメモ（ダミー）が開きます。\nダミーの中身は、ちがう合言葉で開いて書き換えられます。',u:Date.now()}];if(!put(KV,await seal(k,s,first))){show('vNo');return}decoy();$('p1').value=$('p2').value='';$('eSetup').textContent='';enter('real',first,k,s)});
+$('fChg').addEventListener('submit',async function(e){e.preventDefault();var m=$('mChg');m.className='msg';var a=$('c1').value;if(a.length<4||a!==$('c2').value){m.className='msg ng';m.textContent=a.length<4?'新しい合言葉は4文字以上にしてください':'新しい合言葉が一致しません';return}if(mode==='real'){await save(true);if(pending)await pending}var v=vault();if(!v){m.className='msg ng';m.textContent='まだ合言葉が決まっていません';return}$('chgBtn').disabled=true;var r=await openVault($('c0').value,v);if(!r){$('chgBtn').disabled=false;m.className='msg ng';m.textContent='今の合言葉がちがいます';return}var s=rnd(16),k=await derive(a,s);put(KV,await seal(k,s,r.notes));if(mode==='real'){key=k;salt=s}$('chgBtn').disabled=false;this.reset();m.textContent='合言葉を変えました'});
+$('exp').addEventListener('click',async function(){if(mode){await save(true);if(pending)await pending}var v=get(KV);if(!v){$('mBk').textContent='書き出すメモがありません';return}var blob=new Blob([JSON.stringify({app:'ura-memo',v:1,vault:JSON.parse(v),decoy:JSON.parse(get(KD)||'[]')})],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='memo-backup.json';a.click();setTimeout(function(){URL.revokeObjectURL(a.href)},1000);$('mBk').className='msg';$('mBk').textContent='書き出しました（本物のメモは暗号化されたままです）'});
+$('impBtn').addEventListener('click',function(){$('imp').click()});
+$('imp').addEventListener('change',function(){var f=this.files[0];this.value='';if(!f)return;var r=new FileReader();r.onload=async function(){var m=$('mBk');try{var d=JSON.parse(r.result);if(d.app!=='ura-memo'||!d.vault||!d.vault.c||!Array.isArray(d.decoy))throw 0;if(!confirm('今のメモを、バックアップの内容で置きかえますか？'))return;await lock();put(KV,JSON.stringify(d.vault));put(KD,JSON.stringify(d.decoy));show('vLock');m.className='msg';m.textContent='読み込みました。合言葉で開いてください'}catch(e){m.className='msg ng';m.textContent='このファイルは読み込めません'}};r.readAsText(f)});
+$('wipe').addEventListener('click',async function(){if(!confirm('本物とダミーのメモをすべて消します。元に戻せません。よろしいですか？'))return;clearTimeout(timer);mode=null;key=null;notes=[];put(KV,null);put(KD,null);$('mBk').className='msg';$('mBk').textContent='すべて消しました';show('vSetup')});
+document.addEventListener('visibilitychange',function(){if(document.hidden)lock()});
+window.addEventListener('pagehide',function(){if(mode)save(true)});
+if(!window.crypto||!crypto.subtle||!put('uramemo.t','1')){show('vNo')}else{put('uramemo.t',null);show(vault()?'vLock':'vSetup')}
+})();
+</script>
+</body>
+</html>
