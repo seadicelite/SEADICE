@@ -141,8 +141,10 @@ def build_scam(text, firstseen, today):
     newest = sorted(collapse(sorted(domains)), key=lambda d: (firstseen[d], d), reverse=True)
     jp = [d for d in newest if JP_WORDS.search(d)][:SCAM_JP_SHARE]
     jp_set = set(jp)
-    rest = [d for d in newest if d not in jp_set][:MAX_RULES - len(jp)]
-    return [block_rule(d) for d in jp + rest], len(domains)
+    rest = [d for d in newest if d not in jp_set][:MAX_RULES - len(jp) - 1]
+    # 「効いているか試す」用のページ。拡張がオンなら開けない（アプリと審査での確認に使う）
+    test = {"trigger": {"url-filter": "^https?://seadice-filters\\.web\\.app/blocked-test/"}, "action": {"type": "block"}}
+    return [test] + [block_rule(d) for d in jp + rest], len(domains)
 
 
 # ---------- 広告・追跡（ABP/AdGuard形式のうち、確実に変換できる行だけ） ----------
