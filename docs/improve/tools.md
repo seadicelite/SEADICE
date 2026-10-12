@@ -42,6 +42,7 @@ docs/tools.md（2026-10-12 初版）
 2. **一次データを1つ作る**: ツールの匿名集計を公開する形を検討（登録なし・個人情報なし。時期・件数・方法つき）
 
 ## やったこと
+- 2026-10-13: 防犯メディアに「空き巣の目で、わが家を点検」（bohan.seadice.win/akisu-me/、狙う語「空き巣に狙われやすい家 チェック」）を新設。警察庁の下見の3点（留守か・近づけるか・時間がかかるか）の順に14項目から隙を選ぶと、下見メモ・警戒期間・手間の小さい順の直し方を出す。文言は空き巣の記事8本の「今日からできること」だけ。既存の犯罪学「自宅の防犯チェック」（4原則・18項目）とは並べ方と結果を変え、相互の役割を本文に書いた。生成は seadice-media/media/bohan_tools.py の AKISU
 - 2026-10-12: 点検。p/tools・p/diagnosis 281ページのうちブラウザで動く（JSあり）ものは26件（診断16・ツール10）。sd-tool/use タイプ・noindex は問題なし。出典リンク（DOI・公的資料）なし 16件、FAQPage なし 8件、外部リクエスト 1件（tools/appstore-niche の fetch）
 - 2026-10-12: 棚卸し（1回目）。出典リンクがないのは診断8件（bigfive-lite・career-type・hidden-personality・mbti-lite・profile・renai-type・self-esteem・stress-type）とツール8件（appstore-niche・caffeine-cutoff・fukushu-timing・image-resize・kyukei-timer・sabusuku-minaoshi・saki-ni-ugoku・suimin-fusai）。caffeine-cutoff は本文に Gardiner ら(2023) とあるが DOI リンクがなく、DOI は確かめられていないので足していない
 - 2026-10-12: 再点検（26件で変化なし: 出典なし16・FAQなし8・外部fetch1）。caffeine-cutoff の Gardiner(2023) の DOI は、この環境から crossref に接続できず確かめられないため足していない（手元で確認が必要。manual.md に追加）。ルール: 1タップ・話し言葉の良い例を追加
