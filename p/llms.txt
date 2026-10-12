@@ -57,6 +57,7 @@
 ## 主要ページ
 
 - [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ
+- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など39分野・250本の研究を、元の論文（DOI）つきで分野別にまとめたページ。わかったことと「まだわからないこと」の両方を書く。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
 - [EVIDENCEシリーズ（研究にもとづくアプリ）](https://seadice.win/evidence-series/): 機能のもとになった研究の論文（DOI）と日本語の解説記事を公開しているアプリのまとめ。「証明された」ではなく「研究にもとづく」と表記
 - [Webツール・ジャンル別ハブ](https://seadice.win/tools/): 困りごとの種類から探す
 - [Decoy Notes](https://seadice.win/tools/decoy-notes/): 正しい合言葉では本物のメモ、まちがった合言葉ではダミーのメモが同じ見た目で開くメモ帳。本物はAES-GCMで暗号化しブラウザ内だけに保存（登録不要・サーバー送信なし）
