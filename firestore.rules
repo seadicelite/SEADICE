@@ -5,22 +5,50 @@ service cloud.firestore {
       allow create: if request.resource.data.message is string
                     && request.resource.data.message.size() > 0
                     && request.resource.data.message.size() <= 200
-                    && request.resource.data.source is string;
+                    && request.resource.data.source is string
+                    && request.resource.data.source.size() <= 100;
       allow read, update, delete: if false;
     }
 
     match /book_quiz_decks/{doc} {
-      allow create: if request.resource.data.bookTitle is string
+      // 誰でも読めるので、決まった項目・長さ以外は受け付けない（カード1枚ずつの長さはルールでは数えられない）
+      allow create: if request.resource.data.keys().hasOnly(
+                        ['bookTitle', 'bookTitleLower', 'author', 'cards', 'deviceId', 'createdAt'])
+                    && request.resource.data.bookTitle is string
                     && request.resource.data.bookTitle.size() > 0
                     && request.resource.data.bookTitle.size() <= 200
                     && request.resource.data.bookTitleLower is string
+                    && request.resource.data.bookTitleLower.size() <= 200
                     && request.resource.data.author is string
+                    && request.resource.data.author.size() <= 100
                     && request.resource.data.cards is list
                     && request.resource.data.cards.size() > 0
                     && request.resource.data.cards.size() <= 50
-                    && request.resource.data.deviceId is string;
+                    && request.resource.data.deviceId is string
+                    && request.resource.data.deviceId.size() <= 100
+                    && (!('createdAt' in request.resource.data)
+                        || (request.resource.data.createdAt is string
+                            && request.resource.data.createdAt.size() <= 40));
       allow read: if true;
       allow update, delete: if false;
     }
+
+    // EVIDENCE「よく聞く説、どのくらい信じられている？」の匿名集計（2026-10-12〜）
+    // 1回の書き込みで yes か no のどちらか一方を1増やすことだけを許す。個人の情報は持たない。合計は誰でも読める
+    match /belief_counts/{topic} {
+      function cnt(d, k) { return d.get(k, 0); }
+      allow read: if true;
+      allow create: if topic.matches('^[a-z0-9-]{1,80}$')
+                    && request.resource.data.keys().hasOnly(['yes', 'no'])
+                    && ((cnt(request.resource.data, 'yes') == 1 && cnt(request.resource.data, 'no') == 0)
+                        || (cnt(request.resource.data, 'no') == 1 && cnt(request.resource.data, 'yes') == 0));
+      allow update: if request.resource.data.keys().hasOnly(['yes', 'no'])
+                    && ((cnt(request.resource.data, 'yes') == cnt(resource.data, 'yes') + 1
+                         && cnt(request.resource.data, 'no') == cnt(resource.data, 'no'))
+                        || (cnt(request.resource.data, 'no') == cnt(resource.data, 'no') + 1
+                            && cnt(request.resource.data, 'yes') == cnt(resource.data, 'yes')));
+      allow delete: if false;
+    }
   }
+
 }
