@@ -2167,4 +2167,10 @@
   <url><loc>https://seadice.win/evidence/criminal-psychology/hanzai-bystander-effect-meta/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/policy/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/corrections/</loc><lastmod>2026-10-12</lastmod></url>
+  <url>
+    <loc>https://seadice.win/blog/shallow-clone-yesterday-check/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

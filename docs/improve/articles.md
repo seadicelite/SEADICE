@@ -13,11 +13,10 @@ docs/writing.md
 - 守る手間がかかるだけで、ユーザーのためになっていないルールはないか
 
 ### ルールの次にやること
-1. 日誌（daily-YYYY-MM-DD）など検索向けでない記事の位置づけを docs/writing.md に書く
-2. メディア（seadice-media）と本体ブログで同じテーマを書かないための確かめ方を具体的な手順にする
+1. メディア（seadice-media）と本体ブログで同じテーマを書かないための確かめ方を具体的な手順にする
 
 ### ルールの変更履歴
-（まだなし）
+- 2026-10-12: docs/writing.md に日誌の位置づけを追加、「悪い例」を削除（良い例だけで足りるため）
 
 ## 良い状態（docs/writing.md）
 - h1直後と各h2直下に結論、数値に出典リンク、末尾に tool-cta
@@ -38,8 +37,9 @@ docs/writing.md
 - 記事の中身の書き換え、記事の統合・削除・noindex、レビュー記事のアフィリエイト
 
 ## 次にやること
-1. **日誌（daily-YYYY-MM-DD）の扱いを決める**: 検索向けではないので、記事一覧と分けるか、検索から外すかを判断する材料（件数・Search Console の表示）をまとめる
+1. **日誌（daily-YYYY-MM-DD）の扱いを決める**: 6件が sitemap・blog 一覧にある。検索から外す（noindex＋sitemap 除外）か残すかを、Search Console の表示回数を見て判断する（2026-11上旬のCSVと一緒に）
 2. **既存のレビュー記事24件を docs/writing.md の新しい条件で点検**: 実際に使った結果・一次データがない記事を一覧にする（直さず報告）
 
 ## やったこと
+- 2026-10-12: 点検（blog 93・reviews 23。publisher の @id なし 2件、sitemap 漏れ 1件、tool-cta/BreadcrumbList 漏れ 0）。monetization-admob-iap・mobile-ad-networks-2026 に publisher @id を追加、shallow-clone-yesterday-check を sitemap に追加。日誌は 6件（daily-*）、すべて sitemap 掲載・noindex なし
 - 2026-10-12: docs/writing.md を目標基準で書き直し（書く前に「AIが補えない部分」と検索語を決める。AIで比べただけのレビューは新規に作らない）
