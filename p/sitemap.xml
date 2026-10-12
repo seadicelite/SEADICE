@@ -446,20 +446,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seadice.win/tools/appstore-niche/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/black-psychology/</loc>
     <lastmod>2026-07-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/tools/image-resize/</loc>
-    <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

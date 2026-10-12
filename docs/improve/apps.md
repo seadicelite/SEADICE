@@ -41,7 +41,8 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 - アプリページの削除・統合
 
 ## 次にやること
-1. **Google Play 候補の判断材料**: 公開済みアプリごとに、App Store アナリティクスの ct=seadice の数字を記録する表を作る（数字はユーザーから受け取る）
+1. **Life's RPG のアプリ内に寄付ページ（seadice.win/support/）へのリンクが残っている**（lib/main.dart 3682行付近）。審査ガイドライン 3.1.1 で却下された実例があり、docs/flutter-app.md でも削除する決まり。次のアップデートで消す（アプリ本体の作業なので manual.md へ）
+2. **Google Play 候補の判断材料**: 公開済みアプリごとに、App Store アナリティクスの ct=seadice の数字を記録する表を作る（数字はユーザーから受け取る）
 2. **プライバシーページを作る（body-language-scan・lifeisrpg）**: /privacy/ 一覧と lifeisrpg のフッターから /privacy/body-language-scan/・/privacy/lifeisrpg/ にリンクしているが、ページが存在しない（git履歴にもなし）。収集データ（AI送信の有無など）をアプリ側で確かめてから read タイプで作る。tetsujin-friends は p/tools/tetsujin-chat（名前が哲人チャット）と同じアプリか確かめ、同じなら released-apps.json かページ名をそろえて App Store リンクを足す
 3. **公開済みアプリで「もとになった研究」欄がないもの（40件）を一覧にし、/evidence で足せるものから足す**
 
@@ -50,3 +51,4 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 - 2026-10-12: 点検。released-apps.json 46件のうち、App Store リンクなし 13件・ct なし 5件・「もとになった研究」欄なし 40件（欄があるのは5件）・プライバシーなし 2件（body-language-scan, lifeisrpg）・ページなし 1件（tetsujin-friends）
 - 2026-10-12: ct=seadice を 5ページに付け、リンクがなかった13ページ（book-quiz ほか）に App Storeで見る を追加。「準備中」の文言3ページを「公開中」に修正
 - 2026-10-12: 再点検（46件: App Storeリンクなし0・ctなし0・研究欄なし40・privacyなし2・ページ名違い1）。privacy 2件は /privacy/ 一覧とlifeisrpgフッターからリンクされているのに存在しない（リンク切れ）。内容の事実確認が要るため作らず manual.md へ
+- 2026-10-13: body-language-scan・lifeisrpg のプライバシーポリシーを作成（ソースコードで確認: 記録は端末内のみ、通信はアップデート確認・任意のフィードバック・Google Fonts の書体読み込み）

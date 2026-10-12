@@ -46,3 +46,4 @@ docs/tools.md（2026-10-12 初版）
 - 2026-10-12: 棚卸し（1回目）。出典リンクがないのは診断8件（bigfive-lite・career-type・hidden-personality・mbti-lite・profile・renai-type・self-esteem・stress-type）とツール8件（appstore-niche・caffeine-cutoff・fukushu-timing・image-resize・kyukei-timer・sabusuku-minaoshi・saki-ni-ugoku・suimin-fusai）。caffeine-cutoff は本文に Gardiner ら(2023) とあるが DOI リンクがなく、DOI は確かめられていないので足していない
 - 2026-10-12: 再点検（26件で変化なし: 出典なし16・FAQなし8・外部fetch1）。caffeine-cutoff の Gardiner(2023) の DOI は、この環境から crossref に接続できず確かめられないため足していない（手元で確認が必要。manual.md に追加）。ルール: 1タップ・話し言葉の良い例を追加
 - 2026-10-12: caffeine-cutoff の Gardiner(2023) に DOI リンクを追加（手元で Europe PMC の要旨と照合: 24件・睡眠45分減・入眠9分延長・8.8時間/13.2時間前、すべて一致）。出典なしは15件に
+- 2026-10-13: 運営者向けツール appstore-niche・image-resize を削除（/tools/ 一覧・sitemap からも外した。外部 fetch していた1件が消えた）
