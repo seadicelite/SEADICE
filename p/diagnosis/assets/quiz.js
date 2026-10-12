@@ -24,7 +24,7 @@
   function saveToProfile(key, t){
     try {
       var p = loadProfile();
-      p[slug] = {key: key, name: t.name, color: t.color || '#ff6b81', at: new Date().toISOString().slice(0, 10)};
+      p[slug] = {key: key, name: t.name, color: t.color || '#ff6b81', at: (function(d){ return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); })(new Date())};
       localStorage.setItem(PROFILE_KEY, JSON.stringify(p));
       return true;
     } catch (e) { return false; }
