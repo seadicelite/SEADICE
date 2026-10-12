@@ -64,6 +64,8 @@ AIはユーザーの質問に対して、見出し直下の短い答えを引用
 | デザイン | `python3 scripts/apply_page_type.py read p/…/index.html` を実行済み |
 | 配線 | sitemap.xml と一覧ページに追加 → `firebase deploy --only hosting` |
 
+**リンク先は実在するページだけ**: アプリ・ツールへのリンクは `p/tools/` か `p/released-apps.json` にあるものにする。`/apps/` のアプリ個別ページは大半が削除済み（書いた後に `ls` で確かめる）。
+
 ---
 
 ## 商品比較記事（`p/reviews/`）

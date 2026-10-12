@@ -16,6 +16,7 @@ docs/writing.md
 1. メディア（seadice-media）と本体ブログで同じテーマを書かないための確かめ方を具体的な手順にする
 
 ### ルールの変更履歴
+- 2026-10-12: docs/writing.md に「リンク先は実在するページだけ（/apps/ 個別ページは大半削除済み）」を追加（記事から削除済みアプリページへのリンク切れが33件あったため）
 - 2026-10-12: docs/writing.md に日誌の位置づけを追加、「悪い例」を削除（良い例だけで足りるため）
 
 ## 良い状態（docs/writing.md）
@@ -41,5 +42,6 @@ docs/writing.md
 2. **既存のレビュー記事24件を docs/writing.md の新しい条件で点検**: 実際に使った結果・一次データがない記事を一覧にする（直さず報告）
 
 ## やったこと
+- 2026-10-12: 点検（blog+reviews 116。publisher/tool-cta/BreadcrumbList 漏れ0、過去年タイトル0、sitemap漏れ1）。privacy-pages-noindex-audit を sitemap に追加。削除済み /apps/kateisaien-app*・pet-health-app1,2・koreisha-mimamori-kiki-hikaku へのリンク（記事33本、サイト全体で33ファイル）を /tools/ のハブへ張り替え。残: /apps/fitness-app1/（jitaku-dumbbell-hikaku）は行き先のハブなし
 - 2026-10-12: 点検（blog 93・reviews 23。publisher の @id なし 2件、sitemap 漏れ 1件、tool-cta/BreadcrumbList 漏れ 0）。monetization-admob-iap・mobile-ad-networks-2026 に publisher @id を追加、shallow-clone-yesterday-check を sitemap に追加。日誌は 6件（daily-*）、すべて sitemap 掲載・noindex なし
 - 2026-10-12: docs/writing.md を目標基準で書き直し（書く前に「AIが補えない部分」と検索語を決める。AIで比べただけのレビューは新規に作らない）
