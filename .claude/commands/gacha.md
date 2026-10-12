@@ -2,9 +2,9 @@
 
 SEADICEサイト用に、Claude APIを使ったAIアプリを1本生成してサイトに追加する（1ニッチ = 1アプリ構成。詳細はStep 1参照）。
 
-> **必読（このスキルのどのステップを実行する前にも毎回）**: `/Users/hidenori/Developer/SEADICE/CLAUDE.md` を必ず読み込んでから作業を始めること。ランディングページ（HTML）を書くときだけでなく、Flutterアプリのコード生成、App Storeメタデータ作成、デザイン差別化の判断など、このスキルの**全ステップ**でCLAUDE.mdの規約（フォント、絵文字禁止、設定画面の標準構成、AI利用回数制限、App Store審査対策、キャッシュ設定など）に従う。海外向け日本文化アプリなど、他の企画メモ（`海外向け日本文化アプリ方針`等）に沿って作る場合も、CLAUDE.mdの規約が土台として優先される。
+> **必読（このスキルのどのステップを実行する前にも毎回）**: `/Users/hidenori/Developer/SEADICE/CLAUDE.md` と `/Users/hidenori/Developer/SEADICE/docs/flutter-app.md`（アプリの標準実装はこちらに移動）を必ず読み込んでから作業を始めること。ランディングページ（HTML）を書くときだけでなく、Flutterアプリのコード生成、App Storeメタデータ作成、デザイン差別化の判断など、このスキルの**全ステップ**でCLAUDE.mdの規約（フォント、絵文字禁止、設定画面の標準構成、AI利用回数制限、App Store審査対策、キャッシュ設定など）に従う。海外向け日本文化アプリなど、他の企画メモ（`海外向け日本文化アプリ方針`等）に沿って作る場合も、CLAUDE.mdの規約が土台として優先される。
 >
-> **広告は一切実装しない**: CLAUDE.mdの「広告は一切実装しない」方針（2026-07-30〜、AdMobアカウント停止のため）に従い、`google_mobile_ads`依存・広告コード・広告文言・「広告を見る」導線を一切追加しない。旧AdMob手順は2026-10-03に本ファイルから削除済み。
+> **広告は一切実装しない**: docs/flutter-app.mdの「広告は一切実装しない」方針（2026-07-30〜、AdMobアカウント停止のため）に従い、`google_mobile_ads`依存・広告コード・広告文言・「広告を見る」導線を一切追加しない。旧AdMob手順は2026-10-03に本ファイルから削除済み。
 >
 > **⚠️ iOS Deployment Targetは15.0固定（重要・頻出ミス）**: Step 6でPodfileに`IPHONEOS_DEPLOYMENT_TARGET = '15.0'`を追加するだけでなく、`ios/Runner.xcodeproj/project.pbxproj`内の同名キー（Debug/Release/Profileの3箇所）も必ず`grep -n "IPHONEOS_DEPLOYMENT_TARGET" ios/Runner.xcodeproj/project.pbxproj`で確認し、`13.0`や`14.0`のままなら`15.0`に置換すること（`flutter create`直後は`13.0`がデフォルト）。やめラボでこのチェックが漏れ、Apple審査後に`ITMS-90068`警告（MinimumOSVersion too low）を受けた実例がある。`/release`でipaをビルドする前にも同じgrepで再確認する。
 
@@ -63,7 +63,7 @@ python3 keyword_research.py keywords.txt
 
 ## Step 1: ニッチ定義
 
-> **企画コンセプトはCLAUDE.mdの「新規アプリの企画方針（Before→After型ニッチ）」に従うこと（2026-08-08〜）。** ジャンル名や学術用語をそのままアプリコンセプトにせず、「〇〇な自分から△△な自分になりたい」という平易な対比に翻訳してから企画する。
+> **企画コンセプトはdocs/flutter-app.mdの「新規アプリの企画方針（Before→After型ニッチ）」に従うこと（2026-08-08〜）。** ジャンル名や学術用語をそのままアプリコンセプトにせず、「〇〇な自分から△△な自分になりたい」という平易な対比に翻訳してから企画する。
 
 **1個のアプリのみを定義する**（方針変更: 2026年7月〜、AI機能を持たないアプリはリリースしない）：
 - app: **Claude APIを使ったAIアプリ**（ユーザーの具体的な悩みをAIが解決するもの）。写真・テキスト入力など、そのニッチに合った入力形式でAIに投げ、具体的なアドバイス・診断・提案を返す
@@ -376,7 +376,7 @@ class SettingsPage extends StatelessWidget {
 
 Claude APIは呼び出しごとに課金が発生するため、無制限に使わせない。以下を標準実装とする：
 
-- 1日の無料診断回数の上限を設ける（目安: `_dailyFreeLimit = 3`。CLAUDE.mdの「Claude APIを使うアプリの利用回数制限」に従う）
+- 1日の無料診断回数の上限を設ける（目安: `_dailyFreeLimit = 3`。docs/flutter-app.mdの「Claude APIを使うアプリの利用回数制限」に従う）
 - `SharedPreferences`に最終利用日（`yyyy-MM-dd`）と当日のカウントを保存し、保存日と今日の日付が異なればカウントをリセットする。キー名には`_appId`を含める
 - 判定処理で例外が起きたら上限到達扱いにする（フェイルクローズ）
 - 上限に達したら「本日の利用回数の上限に達しました。明日またお試しください」とだけ表示する（広告視聴で回数を追加する導線は作らない）
