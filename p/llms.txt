@@ -75,6 +75,10 @@
   - [寝だめに効果はある？ 論文でわかったこと](https://seadice.win/evidence/sleep/sleep-weekend-catchup-debt/)
   - [ブルーライトは睡眠に影響する？ 論文でわかったこと](https://seadice.win/evidence/color-psychology/color-blue-light-melatonin/)
   - [年収が上がると幸福度は頭打ちになる？ 論文でわかったこと](https://seadice.win/evidence/happiness/happy-income-conflict-resolved/)
+  - [1万時間の法則は嘘？ メタ分析でわかったこと](https://seadice.win/evidence/learning/learning-10000-hours/)
+  - [女性はマルチタスクが得意は本当？ 研究でわかったこと](https://seadice.win/evidence/focus/focus-multitask-gender/)
+  - [ながら作業ばかりだと気が散る頭になる？ 追試でわかったこと](https://seadice.win/evidence/replication/replication-media-multitasking/)
+  - [傍観者効果は本当？ メタ分析でわかったこと](https://seadice.win/evidence/criminal-psychology/hanzai-bystander-effect-meta/)
 - [EVIDENCEシリーズ（研究にもとづくアプリ）](https://seadice.win/evidence-series/): 機能のもとになった研究の論文（DOI）と日本語の解説記事を公開しているアプリのまとめ。「証明された」ではなく「研究にもとづく」と表記
 - [Webツール・ジャンル別ハブ](https://seadice.win/tools/): 困りごとの種類から探す
 - [Decoy Notes](https://seadice.win/tools/decoy-notes/): 正しい合言葉では本物のメモ、まちがった合言葉ではダミーのメモが同じ見た目で開くメモ帳。本物はAES-GCMで暗号化しブラウザ内だけに保存（登録不要・サーバー送信なし）

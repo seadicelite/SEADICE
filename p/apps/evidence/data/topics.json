@@ -259,8 +259,15 @@
         "body": "調べたのは画面上の課題での注意力。ながら作業そのものが勉強や仕事の効率を下げるか、という別の疑問への答えではないので、そこは混同しないでね。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-media-multitasking",
-    "studyType": "メタ分析"
+    "webUrl": "https://seadice.win/evidence/replication/replication-media-multitasking/",
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "focus-multitask-gender",
+        "type": "あわせて読む",
+        "why": "マルチタスクの男女差という別の説も、確かめると差はなかった"
+      }
+    ]
   },
   {
     "id": "replication-grit",
@@ -9700,7 +9707,14 @@
     "articleUrl": "https://hanzai.seadice.win/bystander-effect-38-witnesses/",
     "articleSite": "犯罪と心理",
     "webUrl": "https://seadice.win/evidence/criminal-psychology/#hanzai-bystanders-help-cctv",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "hanzai-bystander-effect-meta",
+        "type": "反対の結果",
+        "why": "実験をまとめると、周りに人がいると助ける人は減っていた"
+      }
+    ]
   },
   {
     "id": "hanzai-milgram-replication",
@@ -10136,5 +10150,115 @@
         "why": "目の看板では他所の盗難が増えたが、まとめでは移動は一部"
       }
     ]
+  },
+  {
+    "id": "learning-10000-hours",
+    "category": "学習法",
+    "kind": "よく聞く説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Macnamara, Hambrick & Oswald, \"Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis\" (Psychological Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/0956797614535810",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "1万時間練習すれば、誰でも一流になれる？",
+        "body": "「どんな分野でも1万時間やれば一流になれる」——本や記事でよく見る話だよね。もとは、練習の量で一流とそうでない人の差が説明できる、とした研究が広まったもの。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "練習と成績の研究をまとめて分析した",
+        "body": "2014年、マクナマラたちは、音楽・ゲーム・スポーツ・勉強・仕事の分野で、上達のための練習の量と成績の関係を調べた研究を集め、メタ分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "練習で説明できる差は、一部だけだった",
+        "body": "成績の差のうち練習量で説明できたのは、ゲームで26%、音楽で21%、スポーツで18%、勉強で4%、仕事では1%未満。練習は大事だけど、言われてきたほどではなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "残りの差が何で決まるかは、議論が続いている",
+        "body": "このメタ分析が見たのは練習と成績の「関係」まで。残りの差が、始めた年齢・生まれ持ったもの・教え方など何で決まるのかは、研究者のあいだで今も議論されている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/learning-10000-hours/"
+  },
+  {
+    "id": "focus-multitask-gender",
+    "category": "集中力",
+    "kind": "よく聞く説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Hirnstein, Larøi & Laloyaux, \"No sex difference in an everyday multitasking paradigm\" (Psychological Research, 2019)",
+    "sourceUrl": "https://doi.org/10.1007/s00426-018-1045-0",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "女性はマルチタスクが得意？",
+        "body": "「女性は同時にいくつもこなせて、男性は1つずつ」——よく聞く話だよね。でも実は、それを確かめたデータは少なく、これまでの研究でも結果はばらばらだった。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "会議の準備をこなす課題で比べた",
+        "body": "2019年、ハーンスタインたちは、パソコン上で会議室を準備しながら次々に来る用事や邪魔に対応する課題を、18〜60歳の男性82人・女性66人にやってもらった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "男女の差は見られなかった",
+        "body": "正確さ、かかった時間、動いた距離、やることを覚えておく力、邪魔への対処のどれでも、男女の差はなかった。差の大きさはどれも「小さい」とも呼べないほどだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの課題でも同じかは、まだわからない",
+        "body": "調べたのは1種類の課題で、約150人。ほかの種類のマルチタスクでも差がないと言えるだけのデータは、まだそろっていない、と著者たち自身も書いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-media-multitasking",
+        "type": "あわせて読む",
+        "why": "ながら作業が多い人ほど気が散る、という説も追試ではほぼ消えた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/focus-multitask-gender/"
+  },
+  {
+    "id": "hanzai-bystander-effect-meta",
+    "category": "犯罪の心理",
+    "kind": "よく聞く説",
+    "themeColor": "#94A3B8",
+    "sourceLabel": "Fischer et al., \"The bystander-effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies\" (Psychological Bulletin, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0023304",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "周りに人が多いほど、誰も助けない？",
+        "body": "「大勢いると、みんな誰かがやると思って助けない」——傍観者効果としてよく聞く話だよね。1960年代から、たくさんの実験で調べられてきた。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "50年分の研究をまとめて分析した",
+        "body": "2011年、フィッシャーたちは、1960年代から2010年までの傍観者の研究を集め、7,700人以上・105の結果をまとめてメタ分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "効果はあった。でも危険な場面では弱まった",
+        "body": "周りに人がいると助ける人が減る、という効果は全体では確かにあった。ただ、危険がはっきりした場面や、加害者がその場にいるときは、その効果が弱まった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本物の街の中では、違う結果も出ている",
+        "body": "まとめたのは主に実験で作った場面。実際の街の防犯カメラ映像を調べた別の研究では、争いの10件中9件で誰かが助けに入っていた。現実でどのくらい起きるかは、まだ議論がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "hanzai-bystanders-help-cctv",
+        "type": "反対の結果",
+        "why": "実際の街の映像では、周りの人が多いほど助けが入りやすかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/criminal-psychology/hanzai-bystander-effect-meta/"
   }
 ]
