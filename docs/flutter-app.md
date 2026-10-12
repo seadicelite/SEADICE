@@ -421,29 +421,20 @@ bool _isNewer(String latest, String current) {
 
 ---
 
-## 起動スプラッシュ画面（全アプリ共通ロゴ）
+## 起動画面（ロゴは出さない、2026-10-13〜）
 
-新規アプリ作成時・既存アプリ改修時は、Flutter標準の白背景スプラッシュのままにせず、SEADICE共通ロゴ（サイコロマスコット）をネイティブ起動画面に設定する。
+起動画面には SEADICE のロゴを出さず、アプリの背景色だけにする（ユーザー判断: ロゴは待たされる感じがして、いらない）。iOS は起動画面そのものをなくせないので、アプリの最初の画面と同じ色の無地にして、切り替わりを目立たせない。Flutter 標準の白い起動画面のままにはしない（ダークのアプリで白く光るため）。
 
-- **ロゴ画像**: `/Users/hidenori/Developer/Images/splash.png`（背景色 `#01010B` で塗りつぶし済み）
-- **パッケージ**: `flutter_native_splash` を使う（`dev_dependencies` に追加）
-- **`color` は画像の塗りつぶし色 `#01010B` と厳密に一致させる**。ダークテーマ背景 `#05050C` は近似色であって同一ではないため、`#05050C` を指定すると画像の縁に色の継ぎ目が見える
-- **設定例**（`pubspec.yaml` に追記）:
+- **パッケージ**: `flutter_native_splash`（`dev_dependencies`）
+- **設定例**（`pubspec.yaml`。色はアプリの `scaffoldBackgroundColor` と同じにする。ダーク固定なら `#05050C`）:
   ```yaml
   flutter_native_splash:
-    color: "#01010B"
-    image: assets/splash/splash.png
+    color: "#05050C"
     android_12:
-      color: "#01010B"
-      image: assets/splash/splash.png
+      color: "#05050C"
   ```
-  画像は `assets/splash/splash.png` としてアプリ側にコピーして使う（`Images/`から直接参照しない）。
-- **生成コマンド**:
-  ```bash
-  flutter pub get
-  dart run flutter_native_splash:create
-  ```
-- 既存アプリを改修するときは `/improve-app` のチェック項目としてこれも確認し、未対応なら追加する。
+- **生成**: `flutter pub get && dart run flutter_native_splash:create`。ロゴを使っていたアプリは `image:` の行と `assets/splash/` を消してから生成する
+- 既存アプリは、改修するついでに `/improve-app` のチェックでロゴを外す（ロゴを外すためだけの再申請はしない）
 
 ## キーボードを閉じられない不具合の防止（全アプリ必須）
 
