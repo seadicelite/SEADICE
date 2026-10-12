@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-why-procrastinate-studying-temporal-discounting",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Zhang & Ma, \"Temporal discounting predicts procrastination in the real world\" (Scientific Reports, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-024-65110-4",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/why-procrastinate-studying/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "なんでギリギリまでやらないの？",
+        "body": "締め切りが何か月も先だと、なぜか手が動かない。この「後回し」には、先のご褒美を小さく感じるクセが関係している、という説があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "109日間の課題を追いかけた",
+        "body": "ニューヨーク大学の学生84人が、学期中に7時間ぶんの研究参加を終える課題をどう進めたかを記録。「今の少ないお金」と「後の多いお金」の選び方で、先の報酬をどれだけ割り引くかも測った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "先を割り引く人ほど後半に回す",
+        "body": "先のご褒美を大きく割り引く人ほど、課題を学期の後半に回していた（相関r=0.28）。遠いご褒美が小さく感じられることが、後回しの一因になっているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "測り方で結果が変わる",
+        "body": "「終えた日」や質問票で後回しを測ると、はっきりした関係は出なかった。対象は1つの大学の学生で、勉強そのものではない課題。相関なので原因とまでは言えない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-why-procrastinate-studying-temporal-discounting"
+  },
+  {
+    "id": "dokugaku-sleep-log-checklist-for-learners-night-before-exam",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Okano et al., \"Sleep quality, duration, and consistency are associated with better academic performance in college students\" (npj Science of Learning, 2019)",
+    "sourceUrl": "https://doi.org/10.1038/s41539-019-0055-z",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/sleep-log-checklist-for-learners/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "試験の前の晩さえ寝ればいい",
+        "body": "ふだんは夜ふかしでも、試験の前日だけしっかり寝れば大丈夫。そう思っている人は多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "学生88人の睡眠を14週間記録",
+        "body": "MITの化学の講義を受ける大学生88人が、リストバンド型の機器を14週間つけて生活し、睡眠と成績の関係が調べられた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いていたのはふだんの睡眠",
+        "body": "試験前夜の睡眠と点数には、はっきりした関係がなかった。一方、睡眠の長さ・質・規則正しさの3つで、成績のばらつきの約24%を説明できた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "睡眠が成績を上げたのか",
+        "body": "相関の研究なので、よく眠ったから成績が良かったとは言い切れない。対象は1つの大学の1つの講義で、睡眠の質は市販機器の独自の指標だった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#dokugaku-sleep-log-checklist-for-learners-night-before-exam"
+  },
+  {
+    "id": "kokoro-ai-easier-to-confide-chatbot-disclosure",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Ho A, Hancock J, Miner AS, \"Psychological, Relational, and Emotional Effects of Self-Disclosure After Conversations With a Chatbot\" (Journal of Communication, 2018)",
+    "sourceUrl": "https://doi.org/10.1093/joc/jqy026",
+    "articleUrl": "https://mentalai.seadice.win/ai-easier-to-confide/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIに話しても気持ちは軽くなる？",
+        "body": "人には言えないことを、AIには書けちゃう。でも相手がAIだと、話しても意味ないのかな？と思うこと、あるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "相手は「AI」と伝えて25分チャット",
+        "body": "スタンフォード大学の実験。98人にチャットで話してもらい、半分には相手はAI、半分には人と伝えたんだ。実は相手はどちらも訓練を受けた人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気持ちを話すと、AIでも人でも同じように楽に",
+        "body": "予定などの事実より気持ちを話した人のほうが「楽になった」と感じていた。その効果は、相手をAIだと思っていても人だと思っていても同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本物のAIが相手だったら？",
+        "body": "相手は実際には人で、参加者は大学で募集した若い人たち。今の会話AIと話して同じ結果になるかは、まだ確かめられていないよ。"
+      }
+    ],
+    "studyType": "実験",
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-easier-to-confide-chatbot-disclosure"
+  },
+  {
+    "id": "pet-dog-ownership-survival",
+    "category": "ペットの科学",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Kramer, Mehmood & Suen, \"Dog Ownership and Survival: A Systematic Review and Meta-Analysis\" (Circulation: Cardiovascular Quality and Outcomes, 2019)",
+    "sourceUrl": "https://doi.org/10.1161/CIRCOUTCOMES.119.005554",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "犬を飼うと長生きするって本当？",
+        "body": "犬と暮らす人は元気で長生き、という話はよく聞くよね。散歩もするし、なんとなく体に良さそう。実際のデータではどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10件・約384万人のデータをまとめた",
+        "body": "カナダの研究チームが、犬を飼っているかどうかと、その後に亡くなったかを追いかけた観察研究10件をまとめたんだ。追いかけた期間は平均で約10年。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "亡くなるリスクは24%低かった",
+        "body": "犬を飼っている人は、飼っていない人より、期間中に亡くなるリスクが24%低かった。心臓の血管の発作を経験したことがある人では、差がさらに大きく65%低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "犬のおかげかはわからない",
+        "body": "まとめたのは観察研究だけで、分析では年齢や健康状態などのちがいを調整していない。もともと元気な人が犬を飼いやすいだけかもしれず、犬が寿命をのばすとまでは言えない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "pet-dog-walking",
+        "type": "あわせて読む",
+        "why": "犬の飼い主は運動の目安を満たしやすいという研究。長生きとの関係を考えるヒント"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-ownership-survival"
+  },
+  {
+    "id": "caffeine-coffee-health-umbrella",
+    "category": "カフェイン",
+    "kind": "よくある説",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Poole et al., \"Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes\" (BMJ, 2017)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.j5024",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーは体に悪いって本当？",
+        "body": "カフェインが多いし、飲みすぎると体に悪そう。毎日何杯も飲んでいて、ちょっと気になっている人も多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "メタ分析をさらに200件以上まとめた",
+        "body": "イギリスの研究チームが、コーヒーと健康についてのメタ分析を集めて見直した。観察研究のメタ分析201件と、介入研究のメタ分析17件が対象なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "害より得のほうが多かった",
+        "body": "コーヒーは多くの病気で、害よりリスクが低いほうと結びついていた。1日3〜4杯の人は、飲まない人より期間中に亡くなるリスクが17%低かった。ふつうの量なら、おおむね安全らしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "妊娠中は別。原因かどうかも未確認",
+        "body": "妊娠中は、多く飲む人で低い体重での出生や早産などとの関係が見られ、女性では骨折との関係もあった。もとの多くは観察研究で、コーヒーが体を良くしたのかはまだ確かめられていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-health-umbrella"
+  },
+  {
     "id": "research-music-cortisol-stress-research-meta104",
     "category": "音楽と集中力",
     "kind": "よくある説",
@@ -1540,7 +1713,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/pets/#pet-dog-walking",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "pet-dog-ownership-survival",
+        "type": "あわせて読む",
+        "why": "犬を飼う人は亡くなるリスクが低いというメタ分析。散歩はその理由の候補の1つ"
+      }
+    ]
   },
   {
     "id": "pet-cat-petting",
@@ -2234,6 +2414,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "直立群は猫背群より自尊心が高く、気分が良く、恐怖感が低かった。猫背群はスピーチで一人称単数やネガティブな感情語を多く使った。小規模な実験で長期効果は不明。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室での1回の話",
+        "body": "オークランド大学の実験で、74人がテープで姿勢を固定して1回スピーチしたときの結果。ふだんの姿勢を変えて長く効くかは調べていない。体の反応では、背筋を伸ばした人のほうが脈圧（血圧の上と下の差）が高かった。"
       }
     ],
     "quiz": {
@@ -2268,12 +2453,17 @@
       {
         "stage": "研究",
         "title": "どんな研究？",
-        "body": "中国の研究チームが、健康な成人40人を無作為に2群に分け、一方は装置で呼吸をフィードバックしながら8週間で20回の腹式呼吸の練習を行い、もう一方は練習しなかった。"
+        "body": "中国の研究チームが、北京のIT企業で集めた健康な成人40人を申し込み順に交互に2群に分け、一方は装置で呼吸をフィードバックしながら8週間で20回の腹式呼吸の練習を行い、もう一方は練習しなかった。"
       },
       {
         "stage": "結果",
         "title": "数字で見ると",
         "body": "トレーニング群は持続的注意が向上し、ネガティブな気分とコルチゾール濃度が下がった。対照群ではコルチゾールに変化がなかった。参加者は40人と少人数。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな研究で、比べた相手は何もしない群",
+        "body": "対象は北京の会社員40人ほど。比べた群は何もしていないので、装置やコーチとの時間そのものが効いた可能性は分けられない。ネガティブな気分は、群どうしの差としてはぎりぎり（p=0.07）だった。"
       }
     ],
     "quiz": {
@@ -2284,7 +2474,7 @@
     "articleUrl": "https://mentalai.seadice.win/slow-breathing-stress/",
     "articleSite": "AI時代のメンタルヘルス",
     "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-cortisol",
-    "studyType": "ランダム化比較試験",
+    "studyType": "実験",
     "links": [
       {
         "id": "laughter-yoga-cortisol",
