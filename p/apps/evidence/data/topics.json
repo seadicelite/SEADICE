@@ -28,7 +28,7 @@
         "body": "試したのは、決まった作業の組み合わせ1種類だけ。ほかの課題や、もっと長い時間の疲れでも同じなのかは、研究者のあいだで今も議論されている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-ego-depletion",
+    "webUrl": "https://seadice.win/evidence/replication/replication-ego-depletion/",
     "studyType": "実験"
   },
   {
@@ -60,7 +60,7 @@
         "body": "15歳の行動面とのつながりはもっと小さく、はっきりしないことが多かった。学力の差も多くは「20秒以上待てたか」で決まっていて、待つ力だけで将来が決まるとは言いにくい。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-marshmallow",
+    "webUrl": "https://seadice.win/evidence/replication/replication-marshmallow/",
     "studyType": "観察研究"
   },
   {
@@ -92,7 +92,7 @@
         "body": "わかったのは、実験室で短い時間に気分を答えてもらった結果。落ち込んでいるときや毎日の生活で同じように効くかは、この研究では確かめていない。ペンの方法も決着はついていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-facial-feedback",
+    "webUrl": "https://seadice.win/evidence/replication/replication-facial-feedback/",
     "studyType": "実験"
   },
   {
@@ -124,7 +124,7 @@
         "body": "この実験から「状況だけで人は残酷になる」とは言いにくくなった。ただ、これは1つの実験の記録を調べ直した研究。人がどんな条件で残酷になるのかという問い自体は、まだ答えが出ていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-stanford-prison",
+    "webUrl": "https://seadice.win/evidence/replication/replication-stanford-prison/",
     "studyType": "実験"
   },
   {
@@ -348,7 +348,7 @@
         "body": "使ったのは別目的の社会調査の質問で、性格テストそのものではない。ただ、話題として楽しむぶんには問題ない。人を判断する材料にはしないのがよさそう。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/japan/#japan-blood-type",
+    "webUrl": "https://seadice.win/evidence/japan/japan-blood-type/",
     "studyType": "観察研究"
   },
   {
@@ -508,7 +508,7 @@
         "body": "これは、どれくらい信じられているかの調査で、10%説そのものを実験で確かめたものではない。対象も脳に関心のある先生に限られていて、一般の人での割合はまた別。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-ten-percent",
+    "webUrl": "https://seadice.win/evidence/brain-myths/brain-ten-percent/",
     "studyType": "観察研究"
   },
   {
@@ -540,7 +540,7 @@
         "body": "調べたのは安静にしているときの脳のつながりで、性格や考え方のテストと照らし合わせたわけではない。対象も29歳まで。ただ「右脳型・左脳型」を脳で裏づける材料は見つからなかった。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-left-right-type",
+    "webUrl": "https://seadice.win/evidence/brain-myths/brain-left-right-type/",
     "studyType": "実験"
   },
   {
@@ -1755,7 +1755,7 @@
     },
     "articleUrl": "https://research.seadice.win/habit-formation-two-minute-rule/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/habits/#habit-66days",
+    "webUrl": "https://seadice.win/evidence/habits/habit-66days/",
     "studyType": "観察研究"
   },
   {
@@ -2341,7 +2341,7 @@
     },
     "articleUrl": "https://research.seadice.win/weekend-catchup-sleep-debt/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/sleep/#sleep-weekend-catchup-debt",
+    "webUrl": "https://seadice.win/evidence/sleep/sleep-weekend-catchup-debt/",
     "studyType": "実験"
   },
   {
@@ -3226,7 +3226,7 @@
       "correct": "青系の光",
       "wrong": "赤系の光"
     },
-    "webUrl": "https://seadice.win/evidence/color-psychology/#color-blue-light-melatonin",
+    "webUrl": "https://seadice.win/evidence/color-psychology/color-blue-light-melatonin/",
     "studyType": "実験"
   },
   {
@@ -5513,7 +5513,7 @@
       "correct": "多くの人で上がり続ける",
       "wrong": "ある年収で頭打ちになる"
     },
-    "webUrl": "https://seadice.win/evidence/happiness/#happy-income-conflict-resolved",
+    "webUrl": "https://seadice.win/evidence/happiness/happy-income-conflict-resolved/",
     "studyType": "観察研究"
   },
   {
@@ -5672,7 +5672,7 @@
       "correct": "再現できた",
       "wrong": "再現できなかった"
     },
-    "webUrl": "https://seadice.win/evidence/memory/#memory-ebbinghaus-replication",
+    "webUrl": "https://seadice.win/evidence/memory/memory-ebbinghaus-replication/",
     "studyType": "実験"
   },
   {
@@ -5833,7 +5833,7 @@
       "correct": "ごく小さなものだった",
       "wrong": "知能を大きく高めた"
     },
-    "webUrl": "https://seadice.win/evidence/music-focus/#music-mozart-effect-metaanalysis",
+    "webUrl": "https://seadice.win/evidence/music-focus/music-mozart-effect-metaanalysis/",
     "studyType": "メタ分析"
   },
   {
@@ -5866,7 +5866,7 @@
     },
     "articleUrl": "https://umbra.seadice.win/power-pose-confidence-replication-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-power-pose-hormones-debunk",
+    "webUrl": "https://seadice.win/evidence/posture-confidence/posture-power-pose-hormones-debunk/",
     "studyType": "ランダム化比較試験"
   },
   {
@@ -8924,7 +8924,7 @@
     },
     "articleUrl": "https://hanzai.seadice.win/milgram-obedience-experiment-replication/",
     "articleSite": "犯罪と心理",
-    "webUrl": "https://seadice.win/evidence/relationships/#hanzai-milgram-replication",
+    "webUrl": "https://seadice.win/evidence/relationships/hanzai-milgram-replication/",
     "studyType": "実験"
   },
   {

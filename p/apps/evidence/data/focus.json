@@ -1,0 +1,18 @@
+{
+  "_説明": "検索されている説（Googleの検索候補で「〇〇 嘘」「〇〇 論文」などが出るもの）を1問1ページにする。kw=検索語、title=ページの問い。2026-10-12 作成",
+  "habit-66days": {"kw": "習慣化 66日", "title": "習慣化は21日？66日？ 論文でわかったこと"},
+  "replication-ego-depletion": {"kw": "意志力 減る", "title": "意志力は使うと減る？ 23の研究室の追試でわかったこと"},
+  "replication-marshmallow": {"kw": "マシュマロ実験", "title": "マシュマロ実験は嘘？ 追試でわかったこと"},
+  "replication-stanford-prison": {"kw": "スタンフォード監獄実験", "title": "スタンフォード監獄実験は本当？ 再検証でわかったこと"},
+  "hanzai-milgram-replication": {"kw": "ミルグラム実験", "title": "ミルグラム実験は今も再現する？ 追試でわかったこと"},
+  "replication-facial-feedback": {"kw": "作り笑顔 効果", "title": "作り笑顔で楽しくなる？ 追試でわかったこと"},
+  "posture-power-pose-hormones-debunk": {"kw": "パワーポーズ", "title": "パワーポーズに効果はある？ 追試でわかったこと"},
+  "japan-blood-type": {"kw": "血液型 性格", "title": "血液型と性格は関係ある？ 論文でわかったこと"},
+  "brain-ten-percent": {"kw": "脳 10%", "title": "「脳は10%しか使っていない」は本当？ 研究でわかったこと"},
+  "brain-left-right-type": {"kw": "右脳 左脳", "title": "右脳派・左脳派は本当にいる？ 研究でわかったこと"},
+  "music-mozart-effect-metaanalysis": {"kw": "モーツァルト効果", "title": "モーツァルト効果は嘘？ メタ分析でわかったこと"},
+  "memory-ebbinghaus-replication": {"kw": "忘却曲線", "title": "エビングハウスの忘却曲線は本当？ 再現実験でわかったこと"},
+  "sleep-weekend-catchup-debt": {"kw": "寝だめ", "title": "寝だめに効果はある？ 論文でわかったこと"},
+  "color-blue-light-melatonin": {"kw": "ブルーライト 睡眠", "title": "ブルーライトは睡眠に影響する？ 論文でわかったこと"},
+  "happy-income-conflict-resolved": {"kw": "年収 幸福度", "title": "年収が上がると幸福度は頭打ちになる？ 論文でわかったこと"}
+}

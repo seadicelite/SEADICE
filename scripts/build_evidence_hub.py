@@ -3,8 +3,9 @@
 
   python3 scripts/build_evidence_hub.py
 
-入力: p/apps/evidence/data/topics.json / practice.json / corrections.json
-出力: p/evidence/ のトップ・分野別まとめ・編集方針・訂正履歴、p/sitemap.xml の該当行
+入力: p/apps/evidence/data/topics.json / practice.json / corrections.json / focus.json（1問1ページにする説）
+出力: p/evidence/ のトップ・分野別まとめ・1問1ページ・編集方針・訂正履歴、p/sitemap.xml の該当行
+更新日は中身が変わったページだけ今日になる（page_dates.json に中身のハッシュを記録）
 トピックを増やしたら、データを更新してからこれを実行するだけでページも増える。
 """
 import datetime
@@ -21,6 +22,9 @@ OUT = P / "evidence"
 BASE = "https://seadice.win"
 APP_URL = "https://apps.apple.com/app/id6814862760?ct=evidence-web"
 TODAY = datetime.date.today().isoformat()
+ORG = {"@type": "Organization", "@id": f"{BASE}/#organization", "name": "SEADICE", "url": BASE + "/"}
+DATES_PATH = DATA / "page_dates.json"
+DATES = json.loads(DATES_PATH.read_text()) if DATES_PATH.exists() else {}
 
 # 分野名 → URL。新しい分野が出たらここに足す（足さないと仮のURLになり、警告が出る）
 SLUGS = {
@@ -88,11 +92,15 @@ CSS = (
 
 def page(path, title, desc, body, crumbs, ld_extra=()):
     url = f"{BASE}/{path}"
+    h = hashlib.sha1("\n".join([title, desc, body, json.dumps(ld_extra, ensure_ascii=False)]).encode()).hexdigest()[:16]
+    if DATES.get(path, {}).get("hash") != h:
+        DATES[path] = {"hash": h, "date": TODAY}
+    date = DATES[path]["date"]
     bc = {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": i + 1, "name": n, "item": f"{BASE}{u}"}
         for i, (n, u) in enumerate(crumbs)]}
     web = {"@type": "WebPage", "name": title, "description": desc, "url": url, "inLanguage": "ja",
-           "dateModified": TODAY, "publisher": {"@type": "Organization", "name": "SEADICE", "url": BASE + "/"}}
+           "dateModified": date, "publisher": ORG}
     ld = json.dumps({"@context": "https://schema.org", "@graph": [web, bc, *ld_extra]}, ensure_ascii=False, separators=(",", ":"))
     crumb_html = " / ".join(
         f'<a href="{u}">{e(n)}</a>' if i < len(crumbs) - 1 else e(n) for i, (n, u) in enumerate(crumbs))
@@ -129,15 +137,28 @@ def page(path, title, desc, body, crumbs, ld_extra=()):
     out = P / path / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(doc)
-    return url
+    return url, date
 
 
-def topic_html(t, practice):
+def answer_of(t):
+    """トピックの結論のカード。1枚目が「よく聞く説」「素朴な疑問」のときは、説ではなく「ほんとのところ」「わかったこと」を返す"""
+    cards = t["cards"]
+    if cards[0]["stage"] == "結論":
+        return cards[0]
+    for c in cards[1:]:
+        if c["stage"] in ("ほんとのところ", "わかったこと", "結論"):
+            return c
+    return next((c for c in reversed(cards) if "わから" not in c["stage"]), cards[-1])
+
+
+def topic_html(t, practice, focus_url=None, heading="h2"):
     cards = t["cards"]
     first, rest = cards[0], cards[1:]
     parts = [f'<article class="topic" id="{e(t["id"])}">',
              *([f'<p class="type"><a href="/evidence/policy/#types">{e(t["studyType"])}</a></p>'] if t.get("studyType") else []),
-             f'<h2>{e(first["title"])}</h2>', f'<p class="ans">{e(first["body"])}</p>']
+             (f'<{heading}><a href="{focus_url}">{e(first["title"])}</a></{heading}>' if focus_url else f'<{heading}>{e(first["title"])}</{heading}>'),
+             *([] if first["stage"] == "結論" else [f'<p class="stage">{e(first["stage"])}</p>']),
+             f'<p class="ans">{e(first["body"])}</p>']
     for c in rest:
         unknown = "わから" in c["stage"]
         parts.append(f'<div class="unknown">' if unknown else "<div>")
@@ -160,6 +181,18 @@ def main():
     pr = json.loads((DATA / "practice.json").read_text())
     corr_path = DATA / "corrections.json"
     corrections = json.loads(corr_path.read_text()) if corr_path.exists() else []
+    focus = {k: v for k, v in json.loads((DATA / "focus.json").read_text()).items() if not k.startswith("_")}
+    known = {t["id"] for t in topics}
+    for k in focus:
+        if k not in known:
+            print(f"警告: focus.json の {k} は topics.json にありません")
+
+    def focus_path(t):
+        return f"evidence/{slug_of(t['category'])}/{t['id']}/" if t["id"] in focus else None
+
+    def topic_link(t):
+        fp = focus_path(t)
+        return f"/{fp}" if fp else f"/evidence/{slug_of(t['category'])}/#{t['id']}"
 
     def practice_of(t):
         key = pr.get("topics", {}).get(t["id"]) or pr.get("categories", {}).get(t["category"])
@@ -172,7 +205,8 @@ def main():
     # 各トピックにサイトのページURLを書き込む（アプリの共有で、iPhoneがない人も続きを読めるように）
     changed = False
     for t in topics:
-        url = f"{BASE}/evidence/{slug_of(t['category'])}/#{t['id']}"
+        fp = focus_path(t)
+        url = f"{BASE}/{fp}" if fp else f"{BASE}/evidence/{slug_of(t['category'])}/#{t['id']}"
         if t.get("webUrl") != url:
             t["webUrl"] = url
             changed = True
@@ -192,15 +226,42 @@ def main():
         desc = f"{cat}について、研究でわかったこととまだわかっていないことを、出典（論文）つきで{n}本まとめました。例:「{ts[0]['cards'][0]['title']}」"[:120]
         faq = {"@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": t["cards"][0]["title"],
-             "acceptedAnswer": {"@type": "Answer", "text": t["cards"][0]["body"]}} for t in ts]}
+             "acceptedAnswer": {"@type": "Answer", "text": f'{answer_of(t)["title"]}。{answer_of(t)["body"]}' if t["cards"][0]["stage"] != "結論" else answer_of(t)["body"]}} for t in ts]}
         others = "".join(f'<a href="/evidence/{slug_of(c)}/">{e(c)}<span>{len(by_cat[c])}本</span></a>' for c in cats if c != cat)
         body = (f'<p class="label">EVIDENCE / {e(cat)}</p><h1>{e(cat)}の研究まとめ</h1>'
                 f'<p class="lead">{e(cat)}について、研究でわかったことを{n}本、元の論文の出典つきでまとめています。'
                 f'わかったことだけでなく、研究の限界や「まだわからないこと」も書いています。</p>'
-                + "".join(topic_html(t, practice_of(t)) for t in ts)
+                + "".join(topic_html(t, practice_of(t), "/" + focus_path(t) if focus_path(t) else None) for t in ts)
                 + f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。気になった話は、出典つきで友だちに送れます。</p><a class="cta" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>'
                 f'<section><h2>ほかの分野</h2><div class="grid">{others}</div></section>')
         urls.append(page(f"evidence/{slug}/", title, desc, body, [*top_crumbs, (cat, f"/evidence/{slug}/")], [faq]))
+
+    # 1問1ページ（検索されている説）
+    focus_links = []
+    for t in topics:
+        fp = focus_path(t)
+        if not fp:
+            continue
+        f, cat, slug = focus[t["id"]], t["category"], slug_of(t["category"])
+        first, ans = t["cards"][0], answer_of(t)
+        concl = ans["body"] if ans is first else f'{ans["title"]}。{ans["body"]}'
+        desc = concl[:120]
+        same = [o for o in by_cat[cat] if o["id"] != t["id"]][:6]
+        rel = "".join(f'<a href="{topic_link(o)}">{e(o["cards"][0]["title"])}</a>' for o in same)
+        body = (f'<p class="label">EVIDENCE / {e(cat)}</p><h1>{e(f["title"])}</h1>'
+                f'<p class="lead"><strong>結論:</strong> {e(concl)}</p>'
+                f'<p class="lead">「{e(f["kw"])}」について、元の論文でわかったことと、まだわかっていないことをまとめました。研究の種類と出典の論文は下にあります。</p>'
+                + topic_html(t, practice_of(t), heading="h2")
+                + f'<section><h2>{e(cat)}のほかの研究</h2><div class="grid">{rel}</div>'
+                f'<p><a href="/evidence/{slug}/">{e(cat)}の研究まとめ（{len(by_cat[cat])}本）を読む</a></p></section>'
+                f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。気になった話は、出典つきで友だちに送れます。</p><a class="cta" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>')
+        art = {"@type": "Article", "headline": f["title"], "about": f["kw"], "inLanguage": "ja", "publisher": ORG,
+               "citation": {"@type": "ScholarlyArticle", "name": t["sourceLabel"], "url": t["sourceUrl"]}}
+        faq = {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": first["title"],
+               "acceptedAnswer": {"@type": "Answer", "text": concl}}]}
+        urls.append(page(fp, f'{f["title"]} | EVIDENCE', desc, body,
+                         [*top_crumbs, (cat, f"/evidence/{slug}/"), (f["kw"], "/" + fp)], [art, faq]))
+        focus_links.append(f'<a href="/{fp}">{e(f["kw"])}<span>{e(f["title"].split("？")[0])}？</span></a>')
 
     # トップ
     grid = "".join(f'<a href="/evidence/{slug_of(c)}/">{e(c)}<span>{len(by_cat[c])}本</span></a>' for c in cats)
@@ -217,6 +278,7 @@ def main():
             f'<li>広告を載せず、特定の商品をすすめない</li>'
             f'<li>間違いを直したら、<a href="/evidence/corrections/">訂正履歴</a>に残す</li></ul>'
             f'<p>調べ方と確かめ方は<a href="/evidence/policy/">編集方針</a>にまとめています。</p></div>'
+            f'<section><h2>よく聞く説を確かめる</h2><div class="grid">{"".join(focus_links)}</div></section>'
             f'<section><h2>分野から探す</h2><div class="grid">{grid}</div></section>'
             f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。読んだあと、内容を試せるアプリやツールにもつながります。</p><a class="cta" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>')
     urls.insert(0, page("evidence/", "EVIDENCE｜信頼できる情報を、研究の出典つきで | SEADICE",
@@ -263,9 +325,10 @@ def main():
     sm_path = P / "sitemap.xml"
     sm = sm_path.read_text()
     sm = re.sub(r"\s*<url><loc>https://seadice\.win/evidence/[^<]*</loc><lastmod>[^<]*</lastmod></url>", "", sm)
-    add = "".join(f"\n  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls)
+    add = "".join(f"\n  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>" for u, d in urls)
     sm = sm.replace("\n</urlset>", add + "\n</urlset>")
     sm_path.write_text(sm)
+    DATES_PATH.write_text(json.dumps(DATES, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
     print(f"{len(cats)}分野・{len(topics)}本 → {len(urls)}ページを書き出しました")
 
 
