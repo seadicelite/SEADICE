@@ -12,6 +12,8 @@ p/released-apps.json（App Store公開済みアプリの正）から、アプリ
 審査通過時は check_released_apps.py のあとにこれを実行する。
 """
 import html
+
+import apply_page_type
 import json
 import re
 import subprocess
@@ -156,7 +158,7 @@ def main():
     today = date.today().isoformat()
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "name": "アプリ一覧 | SEADICE", "url": "https://seadice.win/apps/",
-         "dateModified": today, "publisher": {"@type": "Organization", "name": "SEADICE", "url": "https://seadice.win/"}},
+         "dateModified": today, "publisher": {"@id": "https://seadice.win/#organization", "@type": "Organization", "name": "SEADICE", "url": "https://seadice.win/"}},
         {"@type": "ItemList", "name": "SEADICEのiPhoneアプリ", "numberOfItems": len(apps), "itemListElement": items_ld},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "HOME", "item": "https://seadice.win/"},
@@ -166,6 +168,7 @@ def main():
     out = TEMPLATE.format(count=count, desc=desc, ld=json.dumps(ld, ensure_ascii=False),
                           sections="\n\n".join(sections), year=date.today().year)
     OUT.write_text(out, encoding="utf-8")
+    apply_page_type.apply(OUT, "show")  # 魅せるページのデザイン（design/）を差し込む
     print(f"wrote {OUT.relative_to(ROOT)} ({count} apps)")
 
 
@@ -245,7 +248,7 @@ footer a{{text-decoration:none;margin:0 6px}}
 
   <p class="more">ブラウザで使えるツールは<a href="/tools/">無料Webツール一覧</a>にあります。</p>
 </main>
-<footer><a href="/">ホーム</a><a href="/tools/">Webツール</a><a href="/promise/">7ヶ条</a><a href="/privacy/">プライバシーポリシー</a><p style="margin-top:10px">&copy; {year} SEADICE</p></footer>
+<footer><a href="/">ホーム</a><a href="/tools/">Webツール</a><a href="/promise/">7ヶ条</a><a href="/about/">運営者情報</a><a href="/privacy/">プライバシーポリシー</a><p style="margin-top:10px">&copy; {year} SEADICE</p></footer>
 </body>
 </html>
 '''

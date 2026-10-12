@@ -16,6 +16,7 @@ import json
 import re
 from datetime import date
 
+import apply_page_type
 from build_apps_page import P, REGISTRY, page_for
 from evidence import MEDIA_CSS, media_list, media_section
 
@@ -143,7 +144,7 @@ def main():
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "name": "EVIDENCEシリーズ｜研究にもとづくアプリ", "url": URL,
          "description": desc, "dateModified": today, "inLanguage": "ja",
-         "publisher": {"@type": "Organization", "name": "SEADICE", "url": "https://seadice.win/"}},
+         "publisher": {"@id": "https://seadice.win/#organization", "@type": "Organization", "name": "SEADICE", "url": "https://seadice.win/"}},
         {"@type": "ItemList", "name": "EVIDENCEシリーズのアプリ", "numberOfItems": count, "itemListElement": items_ld},
         {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": t}} for q, t in faq]},
         {"@type": "BreadcrumbList", "itemListElement": [
@@ -154,6 +155,7 @@ def main():
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(TEMPLATE.format(desc=desc, ld=json.dumps(ld, ensure_ascii=False), count=count, total=total,
                                    apps="\n\n".join(([flag] if flag else []) + blocks), faq=faq_html, year=date.today().year), encoding="utf-8")
+    apply_page_type.apply(OUT, "show")  # 魅せるページのデザイン（design/）を差し込む
     print(f"wrote {OUT.relative_to(P.parent)} ({count} apps, {total} studies)")
 
 
@@ -258,7 +260,7 @@ footer a{{text-decoration:none;margin:0 6px;padding:8px 0}}
 
   <p class="more">ほかのアプリは<a href="/apps/">アプリ一覧</a>にあります。</p>
 </main>
-<footer><a href="/">ホーム</a><a href="/apps/">アプリ一覧</a><a href="/promise/">7ヶ条</a><a href="/privacy/">プライバシーポリシー</a><p style="margin-top:10px">&copy; {year} SEADICE</p></footer>
+<footer><a href="/">ホーム</a><a href="/apps/">アプリ一覧</a><a href="/promise/">7ヶ条</a><a href="/about/">運営者情報</a><a href="/privacy/">プライバシーポリシー</a><p style="margin-top:10px">&copy; {year} SEADICE</p></footer>
 </body>
 </html>
 '''

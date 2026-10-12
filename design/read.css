@@ -1,0 +1,12 @@
+/* 読ませる: 狭い1段組・大きめ本文・広い行間・左揃え。PCでも段は広げない */
+body.t-read article,body.t-read main.read{max-width:calc(660px + var(--sd-g)*2);margin:0 auto;padding-left:var(--sd-g);padding-right:var(--sd-g)}
+body.t-read h1{line-height:1.4;letter-spacing:.01em}
+body.t-read .body p,body.t-read .body li{font-size:16px;line-height:1.95;letter-spacing:.02em;color:#d5dce6}
+body.t-read .body p{margin:1.1em 0}
+body.t-read .body ul,body.t-read .body ol{padding-left:1.4em;margin:1em 0}
+body.t-read .body li{margin:.4em 0}
+body.t-read .body h2{font-size:clamp(20px,4.8vw,24px);line-height:1.5;color:var(--sd-text);margin:2.6em 0 .6em;padding-left:12px;border-left:3px solid var(--sd-accent)}
+body.t-read .body h3{font-size:18px;line-height:1.5;margin:2em 0 .4em}
+body.t-read .body a{color:var(--sd-link)}
+body.t-read .body table{display:block;overflow-x:auto;max-width:100%}
+@media(min-width:600px){body.t-read .body p,body.t-read .body li{font-size:17px}}

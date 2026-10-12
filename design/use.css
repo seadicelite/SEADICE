@@ -1,0 +1,12 @@
+/* 使う: 道具が先。見出しは小さめ、操作部は1枚のパネル、押せる所は48px以上。PCでは説明が左・道具が右に固定 */
+body.t-use main{max-width:calc(640px + var(--sd-g)*2);padding-left:var(--sd-g);padding-right:var(--sd-g)}
+body.t-use h1{font-size:clamp(24px,5.4vw,32px);line-height:1.35}
+body.t-use .lead{font-size:14px;line-height:1.8}
+body.t-use .sd-tool{background:var(--sd-surface2);border:1px solid var(--sd-line2);border-radius:8px}
+body.t-use input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=file]),body.t-use select,body.t-use textarea{min-height:48px;font-size:max(16px,1em)}
+body.t-use button{min-height:44px}
+@media(min-width:960px){
+body.t-use main:has(>.sd-tool){max-width:calc(1120px + var(--sd-g)*2);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);column-gap:56px;align-items:start}
+body.t-use main:has(>.sd-tool)>*{grid-column:1}
+body.t-use main>.sd-tool{grid-column:2;grid-row:1 / span 40;position:sticky;top:80px;margin-bottom:0}
+}
