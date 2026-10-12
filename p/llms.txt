@@ -79,6 +79,8 @@
   - [女性はマルチタスクが得意は本当？ 研究でわかったこと](https://seadice.win/evidence/focus/focus-multitask-gender/)
   - [ながら作業ばかりだと気が散る頭になる？ 追試でわかったこと](https://seadice.win/evidence/replication/replication-media-multitasking/)
   - [傍観者効果は本当？ メタ分析でわかったこと](https://seadice.win/evidence/criminal-psychology/hanzai-bystander-effect-meta/)
+  - [単純接触効果は本当？ メタ分析でわかったこと](https://seadice.win/evidence/decision-bias/bias-mere-exposure/)
+  - [朝食を抜くと太るは本当？ メタ分析でわかったこと](https://seadice.win/evidence/food-brain/food-breakfast-weight/)
   - [ピグマリオン効果は本当？ 35年分の研究でわかったこと](https://seadice.win/evidence/replication/replication-pygmalion-teacher/)
   - [ラーニングピラミッドの割合は本当？ 出どころを調べた論文でわかったこと](https://seadice.win/evidence/learning/learning-pyramid-myth/)
   - [乳酸は疲労物質って本当？ 研究でわかったこと](https://seadice.win/evidence/body-myths/myth-lactate-fatigue/)

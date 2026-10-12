@@ -4923,23 +4923,28 @@
     "id": "bias-mere-exposure",
     "category": "意思決定バイアス",
     "themeColor": "#DC2626",
-    "sourceLabel": "Zajonc, \"Attitudinal Effects of Mere Exposure\" (Journal of Personality and Social Psychology Monograph Supplement, 1968)",
-    "sourceUrl": "https://doi.org/10.1037/h0025848",
+    "sourceLabel": "Montoya, Horton, Vevea, Citkowicz & Lauber, \"A re-examination of the mere exposure effect: The influence of repeated exposure on recognition, familiarity, and liking\" (Psychological Bulletin, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000085",
     "cards": [
       {
-        "stage": "結論",
-        "title": "何度も見るだけで好きになる、はなぜ起きるのか？",
-        "body": "意味や理由が分からないものでも、単に目にする回数が増えるだけで、人はそれを好ましく感じるようになる「単純接触効果」が確認されている。"
+        "stage": "よく聞く説",
+        "title": "何度も見るだけで、好きになる？",
+        "body": "何度も目にするだけで、そのものや人を好きになる——「単純接触効果」。もとは1968年、意味のわからない図形や単語を回数を変えて見せた実験が始まりで、恋愛や広告の話でよく出てくるよね。"
       },
       {
-        "stage": "研究",
-        "title": "どんな研究？",
-        "body": "漢字に似た図形、無意味な単語、顔写真などを、0〜25回ほど回数を変えて参加者に繰り返し見せ、意味を教えないまま、それぞれへの好感度を評価させた。"
+        "stage": "調べた人",
+        "title": "81本の論文の、268の結果をまとめた",
+        "body": "2017年、モントヤたちは、くり返し見せたときに好感度やなじみ深さがどう変わるかを調べた研究をメタ分析した。81本の論文から、268の結果を集めた。"
       },
       {
-        "stage": "結果",
-        "title": "数字で見ると",
-        "body": "見せられた回数が多い刺激ほど、好感度の評価が高くなる傾向が見られた。この効果はその後のメタ分析でも確認されたが、効果は小さく、繰り返しすぎると頭打ちになるとされる。"
+        "stage": "ほんとのところ",
+        "title": "増える。でも、見すぎると下がる",
+        "body": "見る回数が増えると好感度は上がったが、ある回数を過ぎると下がる、山なりの形だった。この形は目で見るものでは出たが、耳で聞くものでははっきりしなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ起きるのかは、まだ説明しきれていない",
+        "body": "著者らは、これまでの説明のどれも結果をうまく説明できていないとまとめた。何回くらいで下がり始めるかは見せ方で変わり、実際の人間関係で同じことが起きるかもわからない。"
       }
     ],
     "quiz": {
@@ -4949,8 +4954,9 @@
     },
     "articleUrl": "https://umbra.seadice.win/mere-exposure-effect-romantic-attraction/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-mere-exposure",
-    "studyType": "メタ分析"
+    "webUrl": "https://seadice.win/evidence/decision-bias/bias-mere-exposure/",
+    "studyType": "メタ分析",
+    "kind": "よく聞く説"
   },
   {
     "id": "relationship-36-questions",
@@ -6426,19 +6432,24 @@
     "sourceUrl": "https://doi.org/10.1136/bmj.l42",
     "cards": [
       {
-        "stage": "結論",
-        "title": "朝食を食べればやせる、は本当？",
-        "body": "朝食は減量の助けにならないようです。むしろ1日の摂取エネルギーが増える傾向が、ランダム化試験の統合で示されました。"
+        "stage": "よく聞く説",
+        "title": "朝食を抜くと太る？",
+        "body": "朝ごはんを抜くと、昼にドカ食いして太る——昔からよく言われる話だよね。逆に、ちゃんと朝食をとればやせやすい、とすすめる記事も多い。"
       },
       {
-        "stage": "研究",
-        "title": "どんな研究？",
-        "body": "高所得国の成人で、朝食を食べる群と抜く群を比べたランダム化比較試験13件を統合したメタ分析です。体重は7件、摂取エネルギーは10件が対象でした。"
+        "stage": "調べた人",
+        "title": "くじ引きで分けた試験13件をまとめた",
+        "body": "2019年、シーバートたちは、高所得国の大人を、朝食をとる組と抜く組にくじ引きで分けた試験13件をメタ分析した。体重は7件、1日に食べた量は10件のデータ。"
       },
       {
-        "stage": "結果",
-        "title": "数字で見ると",
-        "body": "体重は朝食を抜いた群のほうが平均0.44kg軽く、朝食群の総摂取量は1日約260kcal多めでした。試験間のばらつきは大きい点に注意です。"
+        "stage": "ほんとのところ",
+        "title": "朝食を抜いた組のほうが、少し軽かった",
+        "body": "体重は朝食を抜いた組のほうが平均0.44kg軽く、朝食をとった組は1日の食べる量が約260kcal多かった。減量のために朝食を足すのはよい方法とは言えない、とまとめられた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い試験ばかりで、質も高くない",
+        "body": "体重を見た期間は平均7週間、食べた量は2週間と短い。どの試験にも偏りの心配があり、結果のばらつきも大きかった。何年も続けたらどうなるか、子どもでどうかはわからない。"
       }
     ],
     "quiz": {
@@ -6446,7 +6457,7 @@
       "correct": "朝食は減量の助けにならない",
       "wrong": "朝食を食べるとやせやすい"
     },
-    "webUrl": "https://seadice.win/evidence/food-brain/#food-breakfast-weight",
+    "webUrl": "https://seadice.win/evidence/food-brain/food-breakfast-weight/",
     "studyType": "メタ分析",
     "links": [
       {
@@ -6459,7 +6470,8 @@
         "type": "あわせて読む",
         "why": "朝食を食べるかどうかも食事回数の問題。体重との関係を試験で調べた別のまとめ"
       }
-    ]
+    ],
+    "kind": "よく聞く説"
   },
   {
     "id": "food-dehydration-cognition",

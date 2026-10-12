@@ -1,7 +1,7 @@
 {
  "evidence/": {
   "date": "2026-10-13",
-  "hash": "cc20ce0b94e77ec3"
+  "hash": "2834655e6f53fd0c"
  },
  "evidence/aging-parents/": {
   "date": "2026-10-13",
@@ -73,7 +73,7 @@
  },
  "evidence/corrections/": {
   "date": "2026-10-13",
-  "hash": "6035a366a5f8ff22"
+  "hash": "8c451cc43063aa13"
  },
  "evidence/crime-prevention/": {
   "date": "2026-10-13",
@@ -93,7 +93,11 @@
  },
  "evidence/decision-bias/": {
   "date": "2026-10-13",
-  "hash": "c7fa16268ba02869"
+  "hash": "5894327aa0ea58ec"
+ },
+ "evidence/decision-bias/bias-mere-exposure/": {
+  "date": "2026-10-13",
+  "hash": "2787847869313886"
  },
  "evidence/digital-detox/": {
   "date": "2026-10-13",
@@ -133,15 +137,19 @@
  },
  "evidence/food-brain/": {
   "date": "2026-10-13",
-  "hash": "ea94ef2275acfcd8"
+  "hash": "95e2431715a15c33"
+ },
+ "evidence/food-brain/food-breakfast-weight/": {
+  "date": "2026-10-13",
+  "hash": "5cddd23879c20ab9"
  },
  "evidence/food-myths/": {
   "date": "2026-10-13",
-  "hash": "f3794fa04e4b752a"
+  "hash": "b4e261ea1c2cb86e"
  },
  "evidence/food-myths/foodmyth-late-eating-hunger/": {
   "date": "2026-10-13",
-  "hash": "285a175209946a77"
+  "hash": "e29500bed5cc29fd"
  },
  "evidence/food-myths/foodmyth-lowcarb-vs-lowfat/": {
   "date": "2026-10-13",

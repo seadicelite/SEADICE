@@ -167,5 +167,13 @@
   "personality-heritability": {
     "kw": "性格 遺伝 何割",
     "title": "性格はどのくらい遺伝で決まる？ 論文でわかったこと"
+  },
+  "bias-mere-exposure": {
+    "kw": "単純接触効果",
+    "title": "単純接触効果は本当？ メタ分析でわかったこと"
+  },
+  "food-breakfast-weight": {
+    "kw": "朝食 抜くと太る",
+    "title": "朝食を抜くと太るは本当？ メタ分析でわかったこと"
   }
 }
