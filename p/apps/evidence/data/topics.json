@@ -28,7 +28,8 @@
         "body": "試したのは、決まった作業の組み合わせ1種類だけ。ほかの課題や、もっと長い時間の疲れでも同じなのかは、研究者のあいだで今も議論されている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-ego-depletion"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-ego-depletion",
+    "studyType": "実験"
   },
   {
     "id": "replication-marshmallow",
@@ -59,7 +60,8 @@
         "body": "15歳の行動面とのつながりはもっと小さく、はっきりしないことが多かった。学力の差も多くは「20秒以上待てたか」で決まっていて、待つ力だけで将来が決まるとは言いにくい。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-marshmallow"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-marshmallow",
+    "studyType": "観察研究"
   },
   {
     "id": "replication-facial-feedback",
@@ -90,7 +92,8 @@
         "body": "わかったのは、実験室で短い時間に気分を答えてもらった結果。落ち込んでいるときや毎日の生活で同じように効くかは、この研究では確かめていない。ペンの方法も決着はついていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-facial-feedback"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-facial-feedback",
+    "studyType": "実験"
   },
   {
     "id": "replication-stanford-prison",
@@ -121,7 +124,8 @@
         "body": "この実験から「状況だけで人は残酷になる」とは言いにくくなった。ただ、これは1つの実験の記録を調べ直した研究。人がどんな条件で残酷になるのかという問い自体は、まだ答えが出ていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-stanford-prison"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-stanford-prison",
+    "studyType": "実験"
   },
   {
     "id": "replication-priming-walking",
@@ -152,7 +156,8 @@
         "body": "参加者の多くは、言葉とお年寄りの関係に気づいていたようすもあった。1つの大学での実験なので、言葉が無意識に行動を変える力がどこまであるのかは、まだ議論が続いている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-priming-walking"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-priming-walking",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "replication-growth-mindset",
@@ -183,7 +188,8 @@
         "body": "「効く子もいるかも」という部分は、まだ絞り込みの途中。授業の内容や国もばらばらなので、どんな条件なら効くのかは今後の研究待ち。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-growth-mindset"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-growth-mindset",
+    "studyType": "メタ分析"
   },
   {
     "id": "replication-birth-order",
@@ -214,7 +220,8 @@
         "body": "調べたのは大まかな性格の特徴で、もっと細かい好みや家族の中での役割までは見ていない。知能に近い部分には小さな差があったので、「まったく関係ない」とまでは言えない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-birth-order"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-birth-order",
+    "studyType": "観察研究"
   },
   {
     "id": "replication-media-multitasking",
@@ -245,7 +252,8 @@
         "body": "調べたのは画面上の課題での注意力。ながら作業そのものが勉強や仕事の効率を下げるか、という別の疑問への答えではないので、そこは混同しないでね。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-media-multitasking"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-media-multitasking",
+    "studyType": "メタ分析"
   },
   {
     "id": "replication-grit",
@@ -276,7 +284,8 @@
         "body": "グリットを伸ばす教育で成績が上がるかは、この研究では確かめていない。著者たちは、効果があっても小さいかもしれないと見ている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-grit"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-grit",
+    "studyType": "メタ分析"
   },
   {
     "id": "replication-stereotype-threat",
@@ -307,7 +316,8 @@
         "body": "著者たちも、結果はオランダの13〜14歳と数学に限った話だと書いている。ほかの状況で同じ効果がないとまでは言えない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/replication/#replication-stereotype-threat"
+    "webUrl": "https://seadice.win/evidence/replication/#replication-stereotype-threat",
+    "studyType": "実験"
   },
   {
     "id": "japan-blood-type",
@@ -338,7 +348,8 @@
         "body": "使ったのは別目的の社会調査の質問で、性格テストそのものではない。ただ、話題として楽しむぶんには問題ない。人を判断する材料にはしないのがよさそう。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/japan/#japan-blood-type"
+    "webUrl": "https://seadice.win/evidence/japan/#japan-blood-type",
+    "studyType": "観察研究"
   },
   {
     "id": "japan-three-year-myth",
@@ -369,7 +380,8 @@
         "body": "中流家庭や両親のいる家庭、生後1年目からの仕事では、マイナスの結果も一部あった。家庭の状況や保育の環境で変わるので、「誰にでもこう」とは言えない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/japan/#japan-three-year-myth"
+    "webUrl": "https://seadice.win/evidence/japan/#japan-three-year-myth",
+    "studyType": "メタ分析"
   },
   {
     "id": "japan-kids-these-days",
@@ -400,7 +412,8 @@
         "body": "この研究が見たのは大人の「感じ方」で、若者の実際の変化を測ったわけじゃない。対象もアメリカの大人なので、日本で同じかは確かめられていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/japan/#japan-kids-these-days"
+    "webUrl": "https://seadice.win/evidence/japan/#japan-kids-these-days",
+    "studyType": "実験"
   },
   {
     "id": "japan-left-handed-genius",
@@ -431,7 +444,8 @@
         "body": "どの手を使うかの測り方や、「知能が高い」の基準は研究によって違う。利き手と脳の働きのつながり自体は、まだ研究が続いている分野。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/japan/#japan-left-handed-genius"
+    "webUrl": "https://seadice.win/evidence/japan/#japan-left-handed-genius",
+    "studyType": "メタ分析"
   },
   {
     "id": "japan-weather-headache",
@@ -462,7 +476,8 @@
         "body": "対象は片頭痛のある28人だけで、ほかの頭痛や片頭痛のない人に当てはまるかはわからない。頭痛が続くときやいつもと違うときは、医療機関に相談してね。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/japan/#japan-weather-headache"
+    "webUrl": "https://seadice.win/evidence/japan/#japan-weather-headache",
+    "studyType": "観察研究"
   },
   {
     "id": "brain-ten-percent",
@@ -493,7 +508,8 @@
         "body": "これは、どれくらい信じられているかの調査で、10%説そのものを実験で確かめたものではない。対象も脳に関心のある先生に限られていて、一般の人での割合はまた別。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-ten-percent"
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-ten-percent",
+    "studyType": "観察研究"
   },
   {
     "id": "brain-left-right-type",
@@ -524,7 +540,8 @@
         "body": "調べたのは安静にしているときの脳のつながりで、性格や考え方のテストと照らし合わせたわけではない。対象も29歳まで。ただ「右脳型・左脳型」を脳で裏づける材料は見つからなかった。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-left-right-type"
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-left-right-type",
+    "studyType": "実験"
   },
   {
     "id": "brain-adult-neurogenesis",
@@ -586,7 +603,8 @@
         "body": "比べたのは実験のために集まったグループ。毎日一緒に働くチームや、もっと複雑な議題で同じになるかはわからない。決定の質に差が出なかったことは、研究者にとっても予想外だったらしい。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/work/#work-standup-meeting"
+    "webUrl": "https://seadice.win/evidence/work/#work-standup-meeting",
+    "studyType": "実験"
   },
   {
     "id": "work-hybrid-wfh",
@@ -617,7 +635,8 @@
         "body": "わかったのは、成果が上がったではなく、落ちなかったということ。しかも週2日だけの在宅で、中国の1社の大卒社員の話。毎日在宅や、ほかの国・職種で同じかはわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/work/#work-hybrid-wfh"
+    "webUrl": "https://seadice.win/evidence/work/#work-hybrid-wfh",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "work-microbreak",
@@ -648,7 +667,8 @@
         "body": "休憩が長いほど成績は伸びやすい傾向もあった。研究者は、ぐったりするほど頭を使う作業のあとは、10分より長い休憩が要るかもしれないと書いている。集まった研究の数もまだ少ない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/work/#work-microbreak"
+    "webUrl": "https://seadice.win/evidence/work/#work-microbreak",
+    "studyType": "メタ分析"
   },
   {
     "id": "work-open-office",
@@ -679,7 +699,8 @@
         "body": "調べたのは2社で、52人と100人。1社目は生産性も下がったと会社から聞いたそうだけど、数字は出ていない。なぜ人が話さなくなるのかも、研究者の推測の段階。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/work/#work-open-office"
+    "webUrl": "https://seadice.win/evidence/work/#work-open-office",
+    "studyType": "実験"
   },
   {
     "id": "work-detachment",
@@ -710,7 +731,8 @@
         "body": "見ているのは関係で、離れたから元気になったのか、元気だから離れられたのかは区別しきれない。創造性とは逆にマイナスの関係も出ていて、休日の考えごとが全部悪いとは限らない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/work/#work-detachment"
+    "webUrl": "https://seadice.win/evidence/work/#work-detachment",
+    "studyType": "メタ分析"
   },
   {
     "id": "myth-stretch-soreness",
@@ -741,7 +763,8 @@
         "body": "調べたのは健康な大人の筋肉痛だけ。けがの予防や体のやわらかさは別の話。研究の多くは小さく、証拠の質は低〜中程度とされている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-stretch-soreness"
+    "webUrl": "https://seadice.win/evidence/body-myths/#myth-stretch-soreness",
+    "studyType": "メタ分析"
   },
   {
     "id": "myth-sugar-hyperactive",
@@ -772,7 +795,8 @@
         "body": "著者たち自身、ごく小さな影響や、一部の子だけに出る影響までは否定できないとしている。1995年のまとめで、その後の食生活の変化までは追えていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-sugar-hyperactive"
+    "webUrl": "https://seadice.win/evidence/body-myths/#myth-sugar-hyperactive",
+    "studyType": "メタ分析"
   },
   {
     "id": "myth-knuckle-cracking",
@@ -803,7 +827,8 @@
         "body": "過去の習慣を本人の記憶で答えてもらう調査で、人数も215人と多くない。指を鳴らすと関節にいい、という話でもない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-knuckle-cracking"
+    "webUrl": "https://seadice.win/evidence/body-myths/#myth-knuckle-cracking",
+    "studyType": "観察研究"
   },
   {
     "id": "myth-coffee-dehydration",
@@ -834,7 +859,8 @@
         "body": "対象は、カフェインに慣れた男性だけ。女性や、ふだん飲まない人、もっとたくさん飲む場合で同じかは、この研究ではわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-coffee-dehydration"
+    "webUrl": "https://seadice.win/evidence/body-myths/#myth-coffee-dehydration",
+    "studyType": "実験"
   },
   {
     "id": "myth-nightcap-sleep",
@@ -867,7 +893,8 @@
     ],
     "articleUrl": "https://research.seadice.win/alcohol-before-bed-sleep/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-nightcap-sleep"
+    "webUrl": "https://seadice.win/evidence/body-myths/#myth-nightcap-sleep",
+    "studyType": "レビュー"
   },
   {
     "id": "pet-dog-walking",
@@ -898,7 +925,8 @@
         "body": "これは一度きりのアンケートで、運動量はほぼ自己申告（機械で確かめたのは大人28人だけ）。もともと歩くのが好きな人が犬を飼った可能性もあるし、イギリスの1地域の話でもある。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-walking"
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-walking",
+    "studyType": "観察研究"
   },
   {
     "id": "pet-cat-petting",
@@ -929,7 +957,8 @@
         "body": "見たのは嫌そうなしぐさで、気持ちよさそうかは直接はかっていない。なじみの人で嫌そうな点数が高かった理由も、この研究だけではわからない。実験した猫の数や国も、ここでは確かめきれていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/pets/#pet-cat-petting"
+    "webUrl": "https://seadice.win/evidence/pets/#pet-cat-petting",
+    "studyType": "実験"
   },
   {
     "id": "pet-dog-faces",
@@ -960,7 +989,8 @@
         "body": "わかったのは、訓練すれば写真の表情を見分けられること。表情の意味まで理解しているか、家で飼い主の顔をどう読んでいるかは、この実験だけではわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-faces"
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-faces",
+    "studyType": "実験"
   },
   {
     "id": "pet-dog-gaze-oxytocin",
@@ -991,7 +1021,8 @@
         "body": "これは決まった時間の実験で測った話。毎日の暮らしで同じループが続いているか、どんな犬や飼い主でも同じかはわからない。人と犬が一緒に進化した、という部分は研究者の解釈だよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-gaze-oxytocin"
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-gaze-oxytocin",
+    "studyType": "実験"
   },
   {
     "id": "pet-cat-name",
@@ -1022,7 +1053,8 @@
         "body": "わかったのは音を聞き分けていること。反応は耳や頭を向けるくらいで、鳴いたりしっぽを動かす猫は1割未満。名前がごはん等と結びついている可能性も研究者は挙げている。実験1は16匹と少数。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/pets/#pet-cat-name"
+    "webUrl": "https://seadice.win/evidence/pets/#pet-cat-name",
+    "studyType": "実験"
   },
   {
     "id": "love-first-impression-100ms",
@@ -1053,7 +1085,8 @@
         "body": "調べたのは「じっくり見たときの印象と同じか」で、その印象が本人の性格と合っているかではない。写真の顔だけの実験で、話したり一緒に過ごしたりすると印象は変わりうる。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/love/#love-first-impression-100ms"
+    "webUrl": "https://seadice.win/evidence/love/#love-first-impression-100ms",
+    "studyType": "実験"
   },
   {
     "id": "love-similarity-attraction",
@@ -1084,7 +1117,8 @@
         "body": "まとめたのは関係を見た研究が中心で、どちらが先かまでは決めきれない。好きな相手ほど「自分と似てる」と感じるだけ、という可能性も残る。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/love/#love-similarity-attraction"
+    "webUrl": "https://seadice.win/evidence/love/#love-similarity-attraction",
+    "studyType": "メタ分析"
   },
   {
     "id": "love-suspension-bridge",
@@ -1115,7 +1149,8 @@
         "body": "調べたのは主に実験室で、写真や初対面の相手への一時的な評価。1998年までの研究のまとめで、その後の研究で大きさが変わる可能性もある。相手を落とす方法として使えるような話ではない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/love/#love-suspension-bridge"
+    "webUrl": "https://seadice.win/evidence/love/#love-suspension-bridge",
+    "studyType": "実験"
   },
   {
     "id": "love-red-attractive",
@@ -1146,7 +1181,8 @@
         "body": "女性→男性では、事前登録した研究ほど効果が小さい傾向があり、もとの見積もりが大きすぎた可能性がある。服の色より、ほかの要素のほうがずっと大きいと考えるのが自然そう。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/love/#love-red-attractive"
+    "webUrl": "https://seadice.win/evidence/love/#love-red-attractive",
+    "studyType": "メタ分析"
   },
   {
     "id": "love-ideal-partner-preferences",
@@ -1177,7 +1213,8 @@
         "body": "まとめたのは関係を見た研究で、なぜ惹かれたかの因果まではわからない。どの国の人が多いかもこの分析だけでは言えず、出会ってすぐか長い付き合いかで結果が違う可能性もある。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/love/#love-ideal-partner-preferences"
+    "webUrl": "https://seadice.win/evidence/love/#love-ideal-partner-preferences",
+    "studyType": "メタ分析"
   },
   {
     "id": "myth-water-8-glasses",
@@ -1207,7 +1244,8 @@
         "body": "これは、ふつうの気候でふつうに暮らす健康な大人の話。真夏や激しい運動のあと、医師に水分を多めにと言われている人は、そちらが優先。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-water-8-glasses"
+    "webUrl": "https://seadice.win/evidence/body-myths/#myth-water-8-glasses",
+    "studyType": "レビュー"
   },
   {
     "id": "question-shower-idea",
@@ -1237,7 +1275,8 @@
         "body": "伸びたのは、一度考えたことのある問題だけ。実験室の課題なので、シャワーや散歩で同じことが起きるかは、まだ確かめられていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/insight/#question-shower-idea"
+    "webUrl": "https://seadice.win/evidence/insight/#question-shower-idea",
+    "studyType": "実験"
   },
   {
     "id": "myth-10000-steps",
@@ -1267,7 +1306,8 @@
         "body": "これは観察した研究なので、もともと元気な人がよく歩いていただけ、という可能性は残る。対象も高齢の女性だけで、若い人や男性で同じかはわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-10000-steps"
+    "webUrl": "https://seadice.win/evidence/body-myths/#myth-10000-steps",
+    "studyType": "観察研究"
   },
   {
     "id": "sleep-nap",
@@ -1299,7 +1339,8 @@
     },
     "articleUrl": "https://research.seadice.win/nap-best-length/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/sleep/#sleep-nap"
+    "webUrl": "https://seadice.win/evidence/sleep/#sleep-nap",
+    "studyType": "実験"
   },
   {
     "id": "exercise-memory",
@@ -1361,7 +1402,8 @@
       "correct": "カフェイン分解が遅い型",
       "wrong": "カフェイン分解が速い型"
     },
-    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-gene"
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-gene",
+    "studyType": "実験"
   },
   {
     "id": "gum-focus",
@@ -1393,7 +1435,8 @@
     },
     "articleUrl": "https://research.seadice.win/chewing-gum-focus-research/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/focus/#gum-focus"
+    "webUrl": "https://seadice.win/evidence/focus/#gum-focus",
+    "studyType": "実験"
   },
   {
     "id": "scent-memory",
@@ -1423,7 +1466,8 @@
       "correct": "感情の強さが高い",
       "wrong": "鮮明さが高い"
     },
-    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-memory"
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-memory",
+    "studyType": "実験"
   },
   {
     "id": "laughter-immunity",
@@ -1453,7 +1497,8 @@
       "correct": "対照群より低かった",
       "wrong": "対照群より高かった"
     },
-    "webUrl": "https://seadice.win/evidence/laughter/#laughter-immunity"
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-immunity",
+    "studyType": "実験"
   },
   {
     "id": "posture-confidence",
@@ -1485,7 +1530,8 @@
     },
     "articleUrl": "https://research.seadice.win/upright-posture-mood-research/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-confidence"
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-confidence",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "breathing-cortisol",
@@ -1517,7 +1563,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/slow-breathing-stress/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-cortisol"
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-cortisol",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "breathing-slow-review",
@@ -1549,7 +1596,8 @@
     },
     "articleUrl": "https://research.seadice.win/slow-breathing-stress-research/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-slow-review"
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-slow-review",
+    "studyType": "メタ分析"
   },
   {
     "id": "music-work-performance",
@@ -1579,7 +1627,8 @@
       "correct": "作業時間",
       "wrong": "前向きな気分"
     },
-    "webUrl": "https://seadice.win/evidence/music-focus/#music-work-performance"
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-work-performance",
+    "studyType": "実験"
   },
   {
     "id": "color-red-blue-task",
@@ -1609,7 +1658,8 @@
       "correct": "効果は確認されなかった",
       "wrong": "赤で解答が速くなった"
     },
-    "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-blue-task"
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-blue-task",
+    "studyType": "レビュー"
   },
   {
     "id": "color-green-creativity",
@@ -1639,7 +1689,8 @@
       "correct": "緑",
       "wrong": "赤"
     },
-    "webUrl": "https://seadice.win/evidence/color-psychology/#color-green-creativity"
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-green-creativity",
+    "studyType": "実験"
   },
   {
     "id": "color-red-exam",
@@ -1669,7 +1720,8 @@
       "correct": "確かな証拠は残らなかった",
       "wrong": "赤で成績低下が確認された"
     },
-    "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-exam"
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-exam",
+    "studyType": "メタ分析"
   },
   {
     "id": "habit-66days",
@@ -1733,7 +1785,8 @@
     },
     "articleUrl": "https://research.seadice.win/if-then-planning-habit-research/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/habits/#habit-implementation-intentions"
+    "webUrl": "https://seadice.win/evidence/habits/#habit-implementation-intentions",
+    "studyType": "メタ分析"
   },
   {
     "id": "habit-context-cue",
@@ -1765,7 +1818,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/willpower-self-control-study-environment/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/habits/#habit-context-cue"
+    "webUrl": "https://seadice.win/evidence/habits/#habit-context-cue",
+    "studyType": "実験"
   },
   {
     "id": "habit-fresh-start",
@@ -1797,7 +1851,8 @@
     },
     "articleUrl": "https://research.seadice.win/fresh-start-effect-habit-timing-research/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/habits/#habit-fresh-start"
+    "webUrl": "https://seadice.win/evidence/habits/#habit-fresh-start",
+    "studyType": "実験"
   },
   {
     "id": "sleep-ereader-blue-light",
@@ -1829,7 +1884,8 @@
     },
     "articleUrl": "https://research.seadice.win/bedtime-reading-paper-book-sleep/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-ereader-blue-light"
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-ereader-blue-light",
+    "studyType": "実験"
   },
   {
     "id": "sleep-pink-noise-rem",
@@ -1859,7 +1915,8 @@
       "correct": "レム睡眠",
       "wrong": "ノンレム睡眠"
     },
-    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-pink-noise-rem"
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-pink-noise-rem",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "exercise-mood-metaanalysis",
@@ -1891,7 +1948,8 @@
     },
     "articleUrl": "https://research.seadice.win/short-exercise-mood-boost/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-mood-metaanalysis"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-mood-metaanalysis",
+    "studyType": "メタ分析"
   },
   {
     "id": "exercise-green-dose",
@@ -1921,7 +1979,8 @@
       "correct": "短時間で大きく、その後は逓減",
       "wrong": "時間に比例して増え続ける"
     },
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-green-dose"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-green-dose",
+    "studyType": "メタ分析"
   },
   {
     "id": "exercise-walking-creativity",
@@ -1953,7 +2012,8 @@
     },
     "articleUrl": "https://research.seadice.win/walking-boosts-creativity/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-walking-creativity"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-walking-creativity",
+    "studyType": "実験"
   },
   {
     "id": "digital-facebook-deactivation",
@@ -1985,7 +2045,8 @@
     },
     "articleUrl": "https://research.seadice.win/social-media-break-wellbeing/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-facebook-deactivation"
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-facebook-deactivation",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "digital-no-more-fomo",
@@ -2017,7 +2078,8 @@
     },
     "articleUrl": "https://research.seadice.win/social-media-break-wellbeing/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-no-more-fomo"
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-no-more-fomo",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "digital-notification-interruption",
@@ -2079,7 +2141,8 @@
       "correct": "ストレスと体調不良が増えた",
       "wrong": "ストレスが減り成績が上がった"
     },
-    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-longitudinal"
+    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-longitudinal",
+    "studyType": "観察研究"
   },
   {
     "id": "procrastination-metaanalysis",
@@ -2111,7 +2174,8 @@
     },
     "articleUrl": "https://research.seadice.win/procrastination-emotion-regulation/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-metaanalysis"
+    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-metaanalysis",
+    "studyType": "メタ分析"
   },
   {
     "id": "mindfulness-attention",
@@ -2143,7 +2207,8 @@
     },
     "articleUrl": "https://research.seadice.win/short-meditation-focus-recovery/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-attention"
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-attention",
+    "studyType": "実験"
   },
   {
     "id": "mindfulness-wandering-mind",
@@ -2205,7 +2270,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/gratitude-writing/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-gratitude"
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-gratitude",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "sleep-emotion-amygdala",
@@ -2237,7 +2303,8 @@
     },
     "articleUrl": "https://research.seadice.win/sleep-loss-anger-irritability/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/sleep/#sleep-emotion-amygdala"
+    "webUrl": "https://seadice.win/evidence/sleep/#sleep-emotion-amygdala",
+    "studyType": "実験"
   },
   {
     "id": "sleep-weekend-catchup-debt",
@@ -2299,7 +2366,8 @@
       "correct": "レム睡眠を含む昼寝",
       "wrong": "ノンレム睡眠だけの昼寝"
     },
-    "webUrl": "https://seadice.win/evidence/sleep/#sleep-rem-creativity"
+    "webUrl": "https://seadice.win/evidence/sleep/#sleep-rem-creativity",
+    "studyType": "実験"
   },
   {
     "id": "exercise-hippocampus-volume",
@@ -2331,7 +2399,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/exercise-and-memory-learning/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-hippocampus-volume"
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-hippocampus-volume",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "exercise-timing-encoding",
@@ -2363,7 +2432,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/exercise-and-memory-learning/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-timing-encoding"
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-timing-encoding",
+    "studyType": "実験"
   },
   {
     "id": "exercise-resistance-executive",
@@ -2393,7 +2463,8 @@
       "correct": "ストループ課題の成績",
       "wrong": "単語の記憶課題の成績"
     },
-    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-resistance-executive"
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-resistance-executive",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "caffeine-memory-consolidation",
@@ -2423,7 +2494,8 @@
       "correct": "似た画像を区別する成績",
       "wrong": "画像を思い出す速さ"
     },
-    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-memory-consolidation"
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-memory-consolidation",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "caffeine-nap-combo",
@@ -2483,7 +2555,8 @@
       "correct": "頭痛や倦怠感",
       "wrong": "食欲増進や多幸感"
     },
-    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-withdrawal-symptoms"
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-withdrawal-symptoms",
+    "studyType": "レビュー"
   },
   {
     "id": "focus-brief-diversion",
@@ -2543,7 +2616,8 @@
       "correct": "見落としの誤りが少ない",
       "wrong": "反応が速くなった"
     },
-    "webUrl": "https://seadice.win/evidence/focus/#focus-green-microbreak"
+    "webUrl": "https://seadice.win/evidence/focus/#focus-green-microbreak",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "focus-interrupted-work-stress",
@@ -2575,7 +2649,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/interrupted-focus-return/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/focus/#focus-interrupted-work-stress"
+    "webUrl": "https://seadice.win/evidence/focus/#focus-interrupted-work-stress",
+    "studyType": "実験"
   },
   {
     "id": "scent-rosemary-memory",
@@ -2607,7 +2682,8 @@
     },
     "articleUrl": "https://research.seadice.win/aroma-rosemary-focus-research/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-rosemary-memory"
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-rosemary-memory",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "scent-orange-lavender-anxiety",
@@ -2637,7 +2713,8 @@
       "correct": "オレンジかラベンダーの香り",
       "wrong": "何の香りもない部屋"
     },
-    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-orange-lavender-anxiety"
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-orange-lavender-anxiety",
+    "studyType": "実験"
   },
   {
     "id": "scent-odor-sleep-memory",
@@ -2697,7 +2774,8 @@
       "correct": "上がった",
       "wrong": "下がった"
     },
-    "webUrl": "https://seadice.win/evidence/laughter/#laughter-pain-threshold"
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-pain-threshold",
+    "studyType": "実験"
   },
   {
     "id": "laughter-yoga-cortisol",
@@ -2727,7 +2805,8 @@
       "correct": "小さかった",
       "wrong": "変わらなかった"
     },
-    "webUrl": "https://seadice.win/evidence/laughter/#laughter-yoga-cortisol"
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-yoga-cortisol",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "laughter-humor-reappraisal",
@@ -2789,7 +2868,8 @@
     },
     "articleUrl": "https://research.seadice.win/testing-effect-retrieval-practice/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/learning/#learning-testing-effect"
+    "webUrl": "https://seadice.win/evidence/learning/#learning-testing-effect",
+    "studyType": "実験"
   },
   {
     "id": "learning-spacing-effect",
@@ -2821,7 +2901,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/spaced-review-why-it-works/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#learning-spacing-effect"
+    "webUrl": "https://seadice.win/evidence/learning/#learning-spacing-effect",
+    "studyType": "メタ分析"
   },
   {
     "id": "learning-interleaving",
@@ -2853,7 +2934,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/interleaving-mixed-practice/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#learning-interleaving"
+    "webUrl": "https://seadice.win/evidence/learning/#learning-interleaving",
+    "studyType": "実験"
   },
   {
     "id": "posture-gait-sadness",
@@ -2883,7 +2965,8 @@
       "correct": "遅く、腕の振りが小さい",
       "wrong": "速く、腕を大きく振る"
     },
-    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-gait-sadness"
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-gait-sadness",
+    "studyType": "実験"
   },
   {
     "id": "posture-standing-desk-engagement",
@@ -2913,7 +2996,8 @@
       "correct": "成績は同じで熱意が高まった",
       "wrong": "読解の成績が大きく上がった"
     },
-    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-standing-desk-engagement"
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-standing-desk-engagement",
+    "studyType": "実験"
   },
   {
     "id": "music-lyrics-reading",
@@ -3007,7 +3091,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/slow-breathing-stress/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-resonance-hrv"
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-resonance-hrv",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "breathing-humming-nitric-oxide",
@@ -3037,7 +3122,8 @@
       "correct": "静かな呼気より15倍に増えた",
       "wrong": "静かな呼気より減った"
     },
-    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-humming-nitric-oxide"
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-humming-nitric-oxide",
+    "studyType": "実験"
   },
   {
     "id": "sleep-room-temperature",
@@ -3067,7 +3153,8 @@
       "correct": "夜中の覚醒が増えた",
       "wrong": "深い眠りが増えた"
     },
-    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-room-temperature"
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-room-temperature",
+    "studyType": "実験"
   },
   {
     "id": "sleep-white-noise-icu",
@@ -3097,7 +3184,8 @@
       "correct": "覚醒が基準の水準まで戻った",
       "wrong": "覚醒がさらに増えた"
     },
-    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-white-noise-icu"
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-white-noise-icu",
+    "studyType": "実験"
   },
   {
     "id": "color-blue-light-melatonin",
@@ -3157,7 +3245,8 @@
       "correct": "黄色",
       "wrong": "青"
     },
-    "webUrl": "https://seadice.win/evidence/color-psychology/#color-yellow-attention-priority"
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-yellow-attention-priority",
+    "studyType": "実験"
   },
   {
     "id": "habit-temptation-bundling",
@@ -3187,7 +3276,8 @@
       "correct": "当初は増えたが時間で薄れた",
       "wrong": "ずっと同じ効果が続いた"
     },
-    "webUrl": "https://seadice.win/evidence/habits/#habit-temptation-bundling"
+    "webUrl": "https://seadice.win/evidence/habits/#habit-temptation-bundling",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "exercise-anxiety-sensitivity",
@@ -3217,7 +3307,8 @@
       "correct": "低下した",
       "wrong": "変化しなかった"
     },
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-anxiety-sensitivity"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-anxiety-sensitivity",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "exercise-hiit-mood-memory",
@@ -3247,7 +3338,8 @@
       "correct": "気分は上向き記憶も高い",
       "wrong": "気分は下がり記憶も低い"
     },
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-hiit-mood-memory"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-hiit-mood-memory",
+    "studyType": "実験"
   },
   {
     "id": "digital-phubbing-relationship",
@@ -3279,7 +3371,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/partner-phone-phubbing/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-phubbing-relationship"
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-phubbing-relationship",
+    "studyType": "観察研究"
   },
   {
     "id": "procrastination-self-forgiveness",
@@ -3309,7 +3402,8 @@
       "correct": "最初の先延ばしを許せた人",
       "wrong": "最初の先延ばしを責めた人"
     },
-    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-self-forgiveness"
+    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-self-forgiveness",
+    "studyType": "観察研究"
   },
   {
     "id": "procrastination-self-compassion",
@@ -3339,7 +3433,8 @@
       "correct": "自分への思いやりが低い",
       "wrong": "自分への思いやりが高い"
     },
-    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-self-compassion"
+    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-self-compassion",
+    "studyType": "観察研究"
   },
   {
     "id": "mindfulness-pain-modulation",
@@ -3369,7 +3464,8 @@
       "correct": "マインドフルネス瞑想",
       "wrong": "プラセボ鎮痛"
     },
-    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-pain-modulation"
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-pain-modulation",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "mindfulness-mbct-relapse",
@@ -3399,7 +3495,8 @@
       "correct": "60週間の再発リスクが下がった",
       "wrong": "再発リスクは変わらなかった"
     },
-    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-mbct-relapse"
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-mbct-relapse",
+    "studyType": "メタ分析"
   },
   {
     "id": "money-sunk-cost",
@@ -3431,7 +3528,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/sunk-cost-mottainai/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/money/#money-sunk-cost"
+    "webUrl": "https://seadice.win/evidence/money/#money-sunk-cost",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "money-credit-card",
@@ -3463,7 +3561,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/cashless-spending/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/money/#money-credit-card"
+    "webUrl": "https://seadice.win/evidence/money/#money-credit-card",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "money-prosocial-spending",
@@ -3495,7 +3594,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/money-and-happiness/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/money/#money-prosocial-spending"
+    "webUrl": "https://seadice.win/evidence/money/#money-prosocial-spending",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "money-experiential-purchase",
@@ -3525,7 +3625,8 @@
       "correct": "旅行などの経験",
       "wrong": "形に残るモノ"
     },
-    "webUrl": "https://seadice.win/evidence/money/#money-experiential-purchase"
+    "webUrl": "https://seadice.win/evidence/money/#money-experiential-purchase",
+    "studyType": "メタ分析"
   },
   {
     "id": "bias-anchoring",
@@ -3557,7 +3658,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/sale-price-anchoring/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-anchoring"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-anchoring",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "bias-framing-asian-disease",
@@ -3617,7 +3719,8 @@
       "correct": "既製品より高く評価した",
       "wrong": "既製品より低く評価した"
     },
-    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-ikea-effect"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-ikea-effect",
+    "studyType": "実験"
   },
   {
     "id": "bias-mere-exposure",
@@ -3649,7 +3752,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/mere-exposure-effect-romantic-attraction/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-mere-exposure"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-mere-exposure",
+    "studyType": "メタ分析"
   },
   {
     "id": "relationship-36-questions",
@@ -3679,7 +3783,8 @@
       "correct": "雑談ペアより親密さが高い",
       "wrong": "雑談ペアより親密さが低い"
     },
-    "webUrl": "https://seadice.win/evidence/relationships/#relationship-36-questions"
+    "webUrl": "https://seadice.win/evidence/relationships/#relationship-36-questions",
+    "studyType": "実験"
   },
   {
     "id": "relationship-self-disclosure",
@@ -3711,7 +3816,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/self-disclosure-confiding-liking-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/relationships/#relationship-self-disclosure"
+    "webUrl": "https://seadice.win/evidence/relationships/#relationship-self-disclosure",
+    "studyType": "実験"
   },
   {
     "id": "relationship-gratitude-bind",
@@ -3805,7 +3911,8 @@
       "correct": "青色光",
       "wrong": "緑色光"
     },
-    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-blue-light-melatonin"
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-blue-light-melatonin",
+    "studyType": "実験"
   },
   {
     "id": "circadian-morning-light-bmi",
@@ -3897,7 +4004,8 @@
       "correct": "睡眠の質と活力が低かった",
       "wrong": "睡眠の質と活力が高かった"
     },
-    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-daylight-office-sleep"
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-daylight-office-sleep",
+    "studyType": "実験"
   },
   {
     "id": "aging-exercise-telomere-ultramarathon",
@@ -3957,7 +4065,8 @@
       "correct": "長い傾向があった",
       "wrong": "短い傾向があった"
     },
-    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-exercise-vo2max-telomere"
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-exercise-vo2max-telomere",
+    "studyType": "メタ分析"
   },
   {
     "id": "aging-resistance-training-protein-synthesis",
@@ -3987,7 +4096,8 @@
       "correct": "タンパク源に関わらず高まった",
       "wrong": "動物性のときだけ高まった"
     },
-    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-resistance-training-protein-synthesis"
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-resistance-training-protein-synthesis",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "aging-grip-strength-mortality",
@@ -4017,7 +4127,8 @@
       "correct": "高かった",
       "wrong": "低かった"
     },
-    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-grip-strength-mortality"
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-grip-strength-mortality",
+    "studyType": "観察研究"
   },
   {
     "id": "appetite-sleep-leptin-ghrelin",
@@ -4047,7 +4158,8 @@
       "correct": "増えて空腹感が上がった",
       "wrong": "減って空腹感が下がった"
     },
-    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-leptin-ghrelin"
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-leptin-ghrelin",
+    "studyType": "実験"
   },
   {
     "id": "appetite-sleep-fmri-junkfood",
@@ -4077,7 +4189,8 @@
       "correct": "上昇した",
       "wrong": "低下した"
     },
-    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-fmri-junkfood"
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-fmri-junkfood",
+    "studyType": "実験"
   },
   {
     "id": "appetite-sleep-sweet-taste",
@@ -4107,7 +4220,8 @@
       "correct": "8時間睡眠後より高かった",
       "wrong": "8時間睡眠後より低かった"
     },
-    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-sweet-taste"
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-sweet-taste",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "appetite-sleep-energy-intake",
@@ -4137,7 +4251,8 @@
       "correct": "食べる量",
       "wrong": "消費エネルギー"
     },
-    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-energy-intake"
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-energy-intake",
+    "studyType": "実験"
   },
   {
     "id": "posture-text-neck-hansraj",
@@ -4197,7 +4312,8 @@
       "correct": "リスクが高いと関連した",
       "wrong": "リスクが低いと関連した"
     },
-    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-sedentary-low-back-pain"
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-sedentary-low-back-pain",
+    "studyType": "メタ分析"
   },
   {
     "id": "posture-pain-catastrophizing",
@@ -4227,7 +4343,8 @@
       "correct": "抑うつ",
       "wrong": "不眠"
     },
-    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-pain-catastrophizing"
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-pain-catastrophizing",
+    "studyType": "観察研究"
   },
   {
     "id": "posture-disc-pressure-sitting",
@@ -4287,7 +4404,8 @@
       "correct": "ほとんど悪化しなかった",
       "wrong": "低下とともに強まった"
     },
-    "webUrl": "https://seadice.win/evidence/sleep/#sleep-chronic-restriction-unaware"
+    "webUrl": "https://seadice.win/evidence/sleep/#sleep-chronic-restriction-unaware",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "sleep-short-sleep-common-cold",
@@ -4381,7 +4499,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/learning-styles-visual-learner-myth/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#learning-styles-not-supported"
+    "webUrl": "https://seadice.win/evidence/learning/#learning-styles-not-supported",
+    "studyType": "実験"
   },
   {
     "id": "habit-thoughtless-daily-diary",
@@ -4411,7 +4530,8 @@
       "correct": "行動と無関係なことを考えがち",
       "wrong": "行動に強く意識が向いている"
     },
-    "webUrl": "https://seadice.win/evidence/habits/#habit-thoughtless-daily-diary"
+    "webUrl": "https://seadice.win/evidence/habits/#habit-thoughtless-daily-diary",
+    "studyType": "観察研究"
   },
   {
     "id": "habit-paid-gym-attendance",
@@ -4441,7 +4561,8 @@
       "correct": "報酬後も通う回数が増えた",
       "wrong": "報酬が終わると元に戻った"
     },
-    "webUrl": "https://seadice.win/evidence/habits/#habit-paid-gym-attendance"
+    "webUrl": "https://seadice.win/evidence/habits/#habit-paid-gym-attendance",
+    "studyType": "観察研究"
   },
   {
     "id": "focus-brief-interruption-errors",
@@ -4473,7 +4594,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/interrupted-focus-return/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/focus/#focus-brief-interruption-errors"
+    "webUrl": "https://seadice.win/evidence/focus/#focus-brief-interruption-errors",
+    "studyType": "実験"
   },
   {
     "id": "exercise-mental-health-umbrella",
@@ -4505,7 +4627,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/exercise-low-mood-anxiety/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-mental-health-umbrella"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-mental-health-umbrella",
+    "studyType": "メタ分析"
   },
   {
     "id": "exercise-type-mental-health-days",
@@ -4535,7 +4658,8 @@
       "correct": "月に約1.5日少ない傾向",
       "wrong": "月に約1.5日多い傾向"
     },
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-type-mental-health-days"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-type-mental-health-days",
+    "studyType": "観察研究"
   },
   {
     "id": "procrastination-genetics-impulsivity",
@@ -4567,7 +4691,8 @@
     },
     "articleUrl": "https://research.seadice.win/procrastination-genetics-change-research/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-genetics-impulsivity"
+    "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-genetics-impulsivity",
+    "studyType": "観察研究"
   },
   {
     "id": "procrastination-planning-fallacy",
@@ -4631,7 +4756,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/automatic-saving-works/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/money/#money-save-more-tomorrow"
+    "webUrl": "https://seadice.win/evidence/money/#money-save-more-tomorrow",
+    "studyType": "観察研究"
   },
   {
     "id": "bias-default-organ-donation",
@@ -4693,7 +4819,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/subscription-cant-cancel/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-endowment-mug"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-endowment-mug",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "breathing-cyclic-sighing-rct",
@@ -4725,7 +4852,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/slow-breathing-stress/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-cyclic-sighing-rct"
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-cyclic-sighing-rct",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "breathing-six-per-minute-prayer",
@@ -4849,7 +4977,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/mindfulness-stress/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-meditation-meta-analysis"
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-meditation-meta-analysis",
+    "studyType": "メタ分析"
   },
   {
     "id": "food-smiles-diet-depression",
@@ -4879,7 +5008,8 @@
       "correct": "食事群で症状が軽くなった",
       "wrong": "雑談群のほうが軽くなった"
     },
-    "webUrl": "https://seadice.win/evidence/food-brain/#food-smiles-diet-depression"
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-smiles-diet-depression",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "food-breakfast-weight",
@@ -4909,7 +5039,8 @@
       "correct": "朝食は減量の助けにならない",
       "wrong": "朝食を食べるとやせやすい"
     },
-    "webUrl": "https://seadice.win/evidence/food-brain/#food-breakfast-weight"
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-breakfast-weight",
+    "studyType": "メタ分析"
   },
   {
     "id": "food-dehydration-cognition",
@@ -4941,7 +5072,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/hydration-focus/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/food-brain/#food-dehydration-cognition"
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-dehydration-cognition",
+    "studyType": "メタ分析"
   },
   {
     "id": "food-alcohol-brain-atrophy",
@@ -4971,7 +5103,8 @@
       "correct": "海馬の萎縮と関連した",
       "wrong": "脳を守るという裏づけがあった"
     },
-    "webUrl": "https://seadice.win/evidence/food-brain/#food-alcohol-brain-atrophy"
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-alcohol-brain-atrophy",
+    "studyType": "観察研究"
   },
   {
     "id": "food-sugar-mood-whitehall",
@@ -5001,7 +5134,8 @@
       "correct": "気分の不調が出やすい傾向",
       "wrong": "気分の不調が出にくい傾向"
     },
-    "webUrl": "https://seadice.win/evidence/food-brain/#food-sugar-mood-whitehall"
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-sugar-mood-whitehall",
+    "studyType": "観察研究"
   },
   {
     "id": "nature-120-minutes-week",
@@ -5033,7 +5167,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/nature-time-mood/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/nature/#nature-120-minutes-week"
+    "webUrl": "https://seadice.win/evidence/nature/#nature-120-minutes-week",
+    "studyType": "観察研究"
   },
   {
     "id": "nature-window-view-recovery",
@@ -5063,7 +5198,8 @@
       "correct": "入院が短い傾向があった",
       "wrong": "入院が長い傾向があった"
     },
-    "webUrl": "https://seadice.win/evidence/nature/#nature-window-view-recovery"
+    "webUrl": "https://seadice.win/evidence/nature/#nature-window-view-recovery",
+    "studyType": "観察研究"
   },
   {
     "id": "nature-walk-rumination-bratman",
@@ -5093,7 +5229,8 @@
       "correct": "自然の中の散歩",
       "wrong": "都会の散歩"
     },
-    "webUrl": "https://seadice.win/evidence/nature/#nature-walk-rumination-bratman"
+    "webUrl": "https://seadice.win/evidence/nature/#nature-walk-rumination-bratman",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "nature-childhood-green-space",
@@ -5123,7 +5260,8 @@
       "correct": "精神疾患のリスクが高め",
       "wrong": "精神疾患のリスクが低め"
     },
-    "webUrl": "https://seadice.win/evidence/nature/#nature-childhood-green-space"
+    "webUrl": "https://seadice.win/evidence/nature/#nature-childhood-green-space",
+    "studyType": "観察研究"
   },
   {
     "id": "nature-greenspace-metaanalysis",
@@ -5155,7 +5293,8 @@
     },
     "articleUrl": "https://research.seadice.win/nature-time-stress-reduction/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/nature/#nature-greenspace-metaanalysis"
+    "webUrl": "https://seadice.win/evidence/nature/#nature-greenspace-metaanalysis",
+    "studyType": "メタ分析"
   },
   {
     "id": "social-relationships-mortality-2010",
@@ -5187,7 +5326,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/social-connection-health/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/loneliness/#social-relationships-mortality-2010"
+    "webUrl": "https://seadice.win/evidence/loneliness/#social-relationships-mortality-2010",
+    "studyType": "メタ分析"
   },
   {
     "id": "social-loneliness-mortality-2015",
@@ -5219,7 +5359,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/social-connection-health/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/loneliness/#social-loneliness-mortality-2015"
+    "webUrl": "https://seadice.win/evidence/loneliness/#social-loneliness-mortality-2015",
+    "studyType": "メタ分析"
   },
   {
     "id": "social-talk-to-strangers",
@@ -5251,7 +5392,8 @@
     },
     "articleUrl": "https://research.seadice.win/stranger-small-talk-mood-research/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/loneliness/#social-talk-to-strangers"
+    "webUrl": "https://seadice.win/evidence/loneliness/#social-talk-to-strangers",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "social-weak-ties-wellbeing",
@@ -5283,7 +5425,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/prevent-isolation-habits/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/loneliness/#social-weak-ties-wellbeing"
+    "webUrl": "https://seadice.win/evidence/loneliness/#social-weak-ties-wellbeing",
+    "studyType": "観察研究"
   },
   {
     "id": "social-liking-gap",
@@ -5315,7 +5458,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/post-event-rumination-after-awkward-conversation-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/loneliness/#social-liking-gap"
+    "webUrl": "https://seadice.win/evidence/loneliness/#social-liking-gap",
+    "studyType": "実験"
   },
   {
     "id": "happy-income-conflict-resolved",
@@ -5375,7 +5519,8 @@
       "correct": "全員ではなく個人差が大きい",
       "wrong": "全員がすぐ元に戻る"
     },
-    "webUrl": "https://seadice.win/evidence/happiness/#happy-adaptation-marriage"
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-adaptation-marriage",
+    "studyType": "観察研究"
   },
   {
     "id": "happy-kindness-meta",
@@ -5407,7 +5552,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/helping-others-wellbeing/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/happiness/#happy-kindness-meta"
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-kindness-meta",
+    "studyType": "メタ分析"
   },
   {
     "id": "happy-buying-time",
@@ -5439,7 +5585,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/time-over-money-happiness/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/happiness/#happy-buying-time"
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-buying-time",
+    "studyType": "観察研究"
   },
   {
     "id": "happy-positive-psychology-meta",
@@ -5469,7 +5616,8 @@
       "correct": "効くが効果は小さめ",
       "wrong": "非常に大きな効果がある"
     },
-    "webUrl": "https://seadice.win/evidence/happiness/#happy-positive-psychology-meta"
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-positive-psychology-meta",
+    "studyType": "メタ分析"
   },
   {
     "id": "memory-ebbinghaus-replication",
@@ -5529,7 +5677,8 @@
       "correct": "絵に描いた単語",
       "wrong": "書いた単語"
     },
-    "webUrl": "https://seadice.win/evidence/memory/#memory-drawing-effect"
+    "webUrl": "https://seadice.win/evidence/memory/#memory-drawing-effect",
+    "studyType": "実験"
   },
   {
     "id": "memory-sleep-between-sessions",
@@ -5625,7 +5774,8 @@
     },
     "articleUrl": "https://research.seadice.win/background-music-studying-focus/",
     "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/music-focus/#music-background-metaanalysis"
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-background-metaanalysis",
+    "studyType": "メタ分析"
   },
   {
     "id": "music-mozart-effect-metaanalysis",
@@ -5655,7 +5805,8 @@
       "correct": "ごく小さなものだった",
       "wrong": "知能を大きく高めた"
     },
-    "webUrl": "https://seadice.win/evidence/music-focus/#music-mozart-effect-metaanalysis"
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-mozart-effect-metaanalysis",
+    "studyType": "メタ分析"
   },
   {
     "id": "posture-power-pose-hormones-debunk",
@@ -5687,7 +5838,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/power-pose-confidence-replication-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-power-pose-hormones-debunk"
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-power-pose-hormones-debunk",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "posture-confident-self-validation",
@@ -5717,7 +5869,8 @@
       "correct": "書いた思考への確信度",
       "wrong": "思考の数や質"
     },
-    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-confident-self-validation"
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-confident-self-validation",
+    "studyType": "実験"
   },
   {
     "id": "memory-generation-effect-metaanalysis",
@@ -5749,7 +5902,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/think-first-then-ai/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/memory/#memory-generation-effect-metaanalysis"
+    "webUrl": "https://seadice.win/evidence/memory/#memory-generation-effect-metaanalysis",
+    "studyType": "メタ分析"
   },
   {
     "id": "relationship-deep-talk-strangers",
@@ -5779,7 +5933,8 @@
       "correct": "予想より気まずくならない",
       "wrong": "予想以上に気まずくなる"
     },
-    "webUrl": "https://seadice.win/evidence/relationships/#relationship-deep-talk-strangers"
+    "webUrl": "https://seadice.win/evidence/relationships/#relationship-deep-talk-strangers",
+    "studyType": "実験"
   },
   {
     "id": "relationship-capitalization-good-news",
@@ -5841,7 +5996,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/exercise-and-memory-learning/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-cardio-memory-metaanalysis"
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-cardio-memory-metaanalysis",
+    "studyType": "メタ分析"
   },
   {
     "id": "caffeine-late-sleep-disruption",
@@ -5873,7 +6029,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/caffeine-anxiety-sleep/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-late-sleep-disruption"
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-late-sleep-disruption",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "scent-odor-memory-childhood",
@@ -5903,7 +6060,8 @@
       "correct": "幼少期の記憶に偏る",
       "wrong": "10代以降の記憶に偏る"
     },
-    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-odor-memory-childhood"
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-odor-memory-childhood",
+    "studyType": "レビュー"
   },
   {
     "id": "kokoro-ai-error-trust-repair",
@@ -5935,7 +6093,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-error-trust-recover/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-error-trust-repair"
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-error-trust-repair",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-hobby-depression-recovery",
@@ -5967,7 +6126,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/hobby-recover-fatigue/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-hobby-depression-recovery"
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-hobby-depression-recovery",
+    "studyType": "観察研究"
   },
   {
     "id": "kokoro-ai-feedback-writing-confidence",
@@ -5999,7 +6159,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-edits-writing-confidence/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/learning/#kokoro-ai-feedback-writing-confidence"
+    "webUrl": "https://seadice.win/evidence/learning/#kokoro-ai-feedback-writing-confidence",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-ai-companion-mourning",
@@ -6031,7 +6192,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-companion-loss-grief/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-companion-mourning"
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-companion-mourning",
+    "studyType": "観察研究"
   },
   {
     "id": "kokoro-brain-training-transfer",
@@ -6063,7 +6225,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/brain-training-focus-recover/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/focus/#kokoro-brain-training-transfer"
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-brain-training-transfer",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "kokoro-sleep-loss-social-distance",
@@ -6127,7 +6290,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-frustration-anger/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-anger-third-person-reappraisal"
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-anger-third-person-reappraisal",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "kokoro-tablet-learning-older-adults",
@@ -6191,7 +6355,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-written-message-found-out/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-ai-written-condolence"
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-ai-written-condolence",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-ai-disagreement-changes-answer",
@@ -6223,7 +6388,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-disagrees-self-doubt/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#kokoro-ai-disagreement-changes-answer"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#kokoro-ai-disagreement-changes-answer",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-ai-art-label-bias",
@@ -6255,7 +6421,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-art-drawing-confidence/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-art-label-bias"
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-art-label-bias",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-llm-vs-search-learning-depth",
@@ -6287,7 +6454,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-summary-only-reading/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/learning/#kokoro-llm-vs-search-learning-depth"
+    "webUrl": "https://seadice.win/evidence/learning/#kokoro-llm-vs-search-learning-depth",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-bedtime-procrastination-sleep",
@@ -6319,7 +6487,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/revenge-bedtime-procrastination/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/sleep/#kokoro-bedtime-procrastination-sleep"
+    "webUrl": "https://seadice.win/evidence/sleep/#kokoro-bedtime-procrastination-sleep",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-sycophantic-ai-affirmation",
@@ -6351,7 +6520,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/ai-always-agrees/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/ai/#kokoro-sycophantic-ai-affirmation"
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-sycophantic-ai-affirmation",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-phantom-vibration-internship",
@@ -6383,7 +6553,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/phantom-phone-vibration/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-phantom-vibration-internship"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-phantom-vibration-internship",
+    "studyType": "観察研究"
   },
   {
     "id": "kokoro-reach-out-old-friends",
@@ -6415,7 +6586,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/old-friend-reach-out/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-reach-out-old-friends"
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-reach-out-old-friends",
+    "studyType": "実験"
   },
   {
     "id": "kokoro-doomscrolling-mood",
@@ -6447,7 +6619,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/bad-news-scrolling/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-doomscrolling-mood"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-doomscrolling-mood",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "kokoro-videoconference-fatigue-eeg",
@@ -6479,7 +6652,8 @@
     },
     "articleUrl": "https://mentalai.seadice.win/video-meeting-fatigue/",
     "articleSite": "AI時代のメンタルヘルス",
-    "webUrl": "https://seadice.win/evidence/digital-detox/#kokoro-videoconference-fatigue-eeg"
+    "webUrl": "https://seadice.win/evidence/digital-detox/#kokoro-videoconference-fatigue-eeg",
+    "studyType": "実験"
   },
   {
     "id": "ai-gps-use-spatial-memory",
@@ -6511,7 +6685,8 @@
     },
     "articleUrl": "https://ai.seadice.win/navigation-app-reliance-memory/",
     "articleSite": "AI時代の困りごと",
-    "webUrl": "https://seadice.win/evidence/memory/#ai-gps-use-spatial-memory"
+    "webUrl": "https://seadice.win/evidence/memory/#ai-gps-use-spatial-memory",
+    "studyType": "観察研究"
   },
   {
     "id": "ai-true-news-skepticism",
@@ -6543,7 +6718,8 @@
     },
     "articleUrl": "https://ai.seadice.win/fake-news-distrust-everything/",
     "articleSite": "AI時代の困りごと",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#ai-true-news-skepticism"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#ai-true-news-skepticism",
+    "studyType": "メタ分析"
   },
   {
     "id": "umbra-serial-infidelity",
@@ -6575,7 +6751,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/serial-infidelity-repeat-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/romance/#umbra-serial-infidelity"
+    "webUrl": "https://seadice.win/evidence/romance/#umbra-serial-infidelity",
+    "studyType": "実験"
   },
   {
     "id": "umbra-eye-direction-lie-myth",
@@ -6607,7 +6784,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/eye-direction-up-right-lying-nlp-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/relationships/#umbra-eye-direction-lie-myth"
+    "webUrl": "https://seadice.win/evidence/relationships/#umbra-eye-direction-lie-myth",
+    "studyType": "実験"
   },
   {
     "id": "umbra-fake-smile-detection",
@@ -6671,7 +6849,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/relationship-boredom-novel-activities-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/romance/#umbra-couple-exciting-activities"
+    "webUrl": "https://seadice.win/evidence/romance/#umbra-couple-exciting-activities",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "umbra-partner-phubbing",
@@ -6703,7 +6882,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/turning-toward-bids-lasting-couple-signs-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#umbra-partner-phubbing"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#umbra-partner-phubbing",
+    "studyType": "メタ分析"
   },
   {
     "id": "umbra-mimicry-and-liking",
@@ -6735,7 +6915,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/chameleon-effect-mimicry-liking-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/relationships/#umbra-mimicry-and-liking"
+    "webUrl": "https://seadice.win/evidence/relationships/#umbra-mimicry-and-liking",
+    "studyType": "実験"
   },
   {
     "id": "umbra-growth-belief-conflict",
@@ -6767,7 +6948,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/destiny-belief-relationship-satisfaction-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/romance/#umbra-growth-belief-conflict"
+    "webUrl": "https://seadice.win/evidence/romance/#umbra-growth-belief-conflict",
+    "studyType": "観察研究"
   },
   {
     "id": "umbra-personal-space-distance",
@@ -6831,7 +7013,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/age-gap-marriage-satisfaction-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/happiness/#umbra-age-gap-marriage"
+    "webUrl": "https://seadice.win/evidence/happiness/#umbra-age-gap-marriage",
+    "studyType": "観察研究"
   },
   {
     "id": "umbra-breakup-mood-recovery",
@@ -6863,7 +7046,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/breakup-recovery-time-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/mental-health/#umbra-breakup-mood-recovery"
+    "webUrl": "https://seadice.win/evidence/mental-health/#umbra-breakup-mood-recovery",
+    "studyType": "観察研究"
   },
   {
     "id": "umbra-blink-synchrony-video",
@@ -6895,7 +7079,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/blink-rate-nervousness-lying-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/focus/#umbra-blink-synchrony-video"
+    "webUrl": "https://seadice.win/evidence/focus/#umbra-blink-synchrony-video",
+    "studyType": "実験"
   },
   {
     "id": "umbra-emoji-responsiveness",
@@ -6927,7 +7112,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/emoji-sticker-liking-signal-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#umbra-emoji-responsiveness"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#umbra-emoji-responsiveness",
+    "studyType": "実験"
   },
   {
     "id": "umbra-breakup-love-regulation",
@@ -6959,7 +7145,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/breakup-recovery-actions-reappraisal-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/romance/#umbra-breakup-love-regulation"
+    "webUrl": "https://seadice.win/evidence/romance/#umbra-breakup-love-regulation",
+    "studyType": "実験"
   },
   {
     "id": "umbra-thinking-gaze-culture",
@@ -6991,7 +7178,8 @@
     },
     "articleUrl": "https://umbra.seadice.win/gaze-avoidance-social-anxiety-research/",
     "articleSite": "しぐさと本音",
-    "webUrl": "https://seadice.win/evidence/relationships/#umbra-thinking-gaze-culture"
+    "webUrl": "https://seadice.win/evidence/relationships/#umbra-thinking-gaze-culture",
+    "studyType": "実験"
   },
   {
     "id": "bohan-watching-eyes-bike-theft",
@@ -7023,7 +7211,8 @@
     },
     "articleUrl": "https://bohan.seadice.win/watching-eyes-sign-crime/",
     "articleSite": "防犯",
-    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-watching-eyes-bike-theft"
+    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-watching-eyes-bike-theft",
+    "studyType": "実験"
   },
   {
     "id": "bohan-heat-violent-crime",
@@ -7055,7 +7244,8 @@
     },
     "articleUrl": "https://bohan.seadice.win/heat-temperature-crime-research/",
     "articleSite": "防犯",
-    "webUrl": "https://seadice.win/evidence/criminal-psychology/#bohan-heat-violent-crime"
+    "webUrl": "https://seadice.win/evidence/criminal-psychology/#bohan-heat-violent-crime",
+    "studyType": "メタ分析"
   },
   {
     "id": "bohan-hotspot-foot-patrol",
@@ -7087,7 +7277,8 @@
     },
     "articleUrl": "https://bohan.seadice.win/neighborhood-watch-patrol-effect/",
     "articleSite": "防犯",
-    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-hotspot-foot-patrol"
+    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-hotspot-foot-patrol",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "bohan-vacant-lot-cleanup",
@@ -7119,7 +7310,8 @@
     },
     "articleUrl": "https://bohan.seadice.win/vacant-land-restoration-crime/",
     "articleSite": "防犯",
-    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-vacant-lot-cleanup"
+    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-vacant-lot-cleanup",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "ledger-opportunity-cost",
@@ -7151,7 +7343,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/sale-overbuying-opportunity-cost/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-opportunity-cost"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-opportunity-cost",
+    "studyType": "実験"
   },
   {
     "id": "ledger-debt-help-delay",
@@ -7215,7 +7408,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/payment-reminders-attention/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/money/#ledger-reminder-side-effect"
+    "webUrl": "https://seadice.win/evidence/money/#ledger-reminder-side-effect",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "ledger-coupon-windfall",
@@ -7247,7 +7441,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/coupon-transaction-utility/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/money/#ledger-coupon-windfall"
+    "webUrl": "https://seadice.win/evidence/money/#ledger-coupon-windfall",
+    "studyType": "観察研究"
   },
   {
     "id": "ledger-left-digit",
@@ -7279,7 +7474,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/left-digit-price-980/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-left-digit"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-left-digit",
+    "studyType": "観察研究"
   },
   {
     "id": "ledger-envelope-saving",
@@ -7343,7 +7539,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/couples-money-conflict-research/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/relationships/#ledger-couples-money-conflict"
+    "webUrl": "https://seadice.win/evidence/relationships/#ledger-couples-money-conflict",
+    "studyType": "実験"
   },
   {
     "id": "ledger-points-goal-gradient",
@@ -7375,7 +7572,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/points-reward-overspending/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/habits/#ledger-points-goal-gradient"
+    "webUrl": "https://seadice.win/evidence/habits/#ledger-points-goal-gradient",
+    "studyType": "実験"
   },
   {
     "id": "ledger-subscription-inattention",
@@ -7407,7 +7605,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/subscription-review-procrastination-status-quo-bias/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-subscription-inattention"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-subscription-inattention",
+    "studyType": "レビュー"
   },
   {
     "id": "ledger-loss-aversion-meta",
@@ -7439,7 +7638,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/loss-aversion-money/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-loss-aversion-meta"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-loss-aversion-meta",
+    "studyType": "メタ分析"
   },
   {
     "id": "ledger-commitment-savings",
@@ -7471,7 +7671,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/future-self-saving/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/money/#ledger-commitment-savings"
+    "webUrl": "https://seadice.win/evidence/money/#ledger-commitment-savings",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "ledger-loot-box-gambling",
@@ -7503,7 +7704,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/gacha-loot-box-spending/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#ledger-loot-box-gambling"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#ledger-loot-box-gambling",
+    "studyType": "観察研究"
   },
   {
     "id": "ledger-choice-overload-meta",
@@ -7535,7 +7737,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/choice-overload-shopping/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-choice-overload-meta"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-choice-overload-meta",
+    "studyType": "メタ分析"
   },
   {
     "id": "ledger-brisk-walk-craving",
@@ -7567,7 +7770,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/stress-shopping-swap-if-then/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#ledger-brisk-walk-craving"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#ledger-brisk-walk-craving",
+    "studyType": "実験"
   },
   {
     "id": "oya-advance-care-planning",
@@ -7599,7 +7803,8 @@
     },
     "articleUrl": "https://oya.seadice.win/parent-acp-new-year-talk/",
     "articleSite": "親が年をとったら",
-    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-advance-care-planning"
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-advance-care-planning",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "oya-discharge-caregiver",
@@ -7631,7 +7836,8 @@
     },
     "articleUrl": "https://oya.seadice.win/parent-hospital-discharge-preparation/",
     "articleSite": "親が年をとったら",
-    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-discharge-caregiver"
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-discharge-caregiver",
+    "studyType": "メタ分析"
   },
   {
     "id": "oya-hearing-aid-achieve",
@@ -7663,7 +7869,8 @@
     },
     "articleUrl": "https://oya.seadice.win/parent-hearing-aid-dementia-risk/",
     "articleSite": "親が年をとったら",
-    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-hearing-aid-achieve"
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-hearing-aid-achieve",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "oya-balance-exercise-falls",
@@ -7695,7 +7902,8 @@
     },
     "articleUrl": "https://oya.seadice.win/parent-fall-prevention-home/",
     "articleSite": "親が年をとったら",
-    "webUrl": "https://seadice.win/evidence/exercise-aging/#oya-balance-exercise-falls"
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#oya-balance-exercise-falls",
+    "studyType": "メタ分析"
   },
   {
     "id": "oya-cold-house-temperature",
@@ -7727,7 +7935,8 @@
     },
     "articleUrl": "https://oya.seadice.win/parent-cold-house-room-temperature/",
     "articleSite": "親が年をとったら",
-    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-cold-house-temperature"
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-cold-house-temperature",
+    "studyType": "観察研究"
   },
   {
     "id": "oya-older-driver-insight",
@@ -7759,7 +7968,8 @@
     },
     "articleUrl": "https://oya.seadice.win/older-driver-self-assessment-gap/",
     "articleSite": "親が年をとったら",
-    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-older-driver-insight"
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-older-driver-insight",
+    "studyType": "実験"
   },
   {
     "id": "dokugaku-pretesting-guess-first",
@@ -7791,7 +8001,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/pretesting-before-reading/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-pretesting-guess-first"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-pretesting-guess-first",
+    "studyType": "実験"
   },
   {
     "id": "dokugaku-cramming-one-week",
@@ -7823,7 +8034,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/cramming-overnight-study/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-cramming-one-week"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-cramming-one-week",
+    "studyType": "実験"
   },
   {
     "id": "dokugaku-tot-repeat",
@@ -7887,7 +8099,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/micro-learning-spare-time-study/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-typing-short-sessions"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-typing-short-sessions",
+    "studyType": "実験"
   },
   {
     "id": "dokugaku-two-rooms-study",
@@ -7919,7 +8132,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/study-location-context-dependent-memory/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-two-rooms-study"
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-two-rooms-study",
+    "studyType": "実験"
   },
   {
     "id": "dokugaku-money-reward-undermining",
@@ -7983,7 +8197,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/learning-by-teaching-protege-effect/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-teaching-meta"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-teaching-meta",
+    "studyType": "メタ分析"
   },
   {
     "id": "dokugaku-flashcards-one-deck",
@@ -8015,7 +8230,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/flashcards-how-to-use/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-flashcards-one-deck"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-flashcards-one-deck",
+    "studyType": "実験"
   },
   {
     "id": "dokugaku-laptop-notes-replication",
@@ -8047,7 +8263,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/handwriting-vs-laptop-notes/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-laptop-notes-replication"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-laptop-notes-replication",
+    "studyType": "メタ分析"
   },
   {
     "id": "dokugaku-font-size-illusion",
@@ -8079,7 +8296,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/illusion-of-knowing-fluency/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#dokugaku-font-size-illusion"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#dokugaku-font-size-illusion",
+    "studyType": "実験"
   },
   {
     "id": "dokugaku-ai-answers-crutch",
@@ -8111,7 +8329,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/ai-answers-and-learning/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/ai/#dokugaku-ai-answers-crutch"
+    "webUrl": "https://seadice.win/evidence/ai/#dokugaku-ai-answers-crutch",
+    "studyType": "実験"
   },
   {
     "id": "dokugaku-working-together-cues",
@@ -8143,7 +8362,8 @@
     },
     "articleUrl": "https://dokugaku.seadice.win/study-buddy-learning-together/",
     "articleSite": "独学の科学",
-    "webUrl": "https://seadice.win/evidence/relationships/#dokugaku-working-together-cues"
+    "webUrl": "https://seadice.win/evidence/relationships/#dokugaku-working-together-cues",
+    "studyType": "実験"
   },
   {
     "id": "kosodate-music-lessons-iq",
@@ -8175,7 +8395,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/music-lessons-intelligence-academic/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-music-lessons-iq"
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-music-lessons-iq",
+    "studyType": "メタ分析"
   },
   {
     "id": "kosodate-teens-ai-mental-health",
@@ -8239,7 +8460,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/ai-voice-assistant-child-trust/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/ai/#kosodate-kids-trust-voice-ai"
+    "webUrl": "https://seadice.win/evidence/ai/#kosodate-kids-trust-voice-ai",
+    "studyType": "実験"
   },
   {
     "id": "kosodate-offloading-memo-memory",
@@ -8271,7 +8493,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/ai-answers-memory-retention/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/memory/#kosodate-offloading-memo-memory"
+    "webUrl": "https://seadice.win/evidence/memory/#kosodate-offloading-memo-memory",
+    "studyType": "実験"
   },
   {
     "id": "kosodate-social-media-test-scores",
@@ -8303,7 +8526,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/social-media-cognitive-performance-decline/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kosodate-social-media-test-scores"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kosodate-social-media-test-scores",
+    "studyType": "観察研究"
   },
   {
     "id": "kosodate-punishment-lying",
@@ -8335,7 +8559,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/children-lying-development-age/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-punishment-lying"
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-punishment-lying",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "kosodate-tantrum-age-course",
@@ -8367,7 +8592,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/tantrum-coping-children-research/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-tantrum-age-course"
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-tantrum-age-course",
+    "studyType": "観察研究"
   },
   {
     "id": "kosodate-daycare-return-distress",
@@ -8399,7 +8625,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/nursery-separation-anxiety-how-long/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-daycare-return-distress"
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-daycare-return-distress",
+    "studyType": "観察研究"
   },
   {
     "id": "hanzai-flashbulb-911",
@@ -8431,7 +8658,8 @@
     },
     "articleUrl": "https://hanzai.seadice.win/flashbulb-memory-accuracy/",
     "articleSite": "犯罪と心理",
-    "webUrl": "https://seadice.win/evidence/memory/#hanzai-flashbulb-911"
+    "webUrl": "https://seadice.win/evidence/memory/#hanzai-flashbulb-911",
+    "studyType": "実験"
   },
   {
     "id": "hanzai-deepfake-fake-movie",
@@ -8495,7 +8723,8 @@
     },
     "articleUrl": "https://hanzai.seadice.win/automation-bias-ai-trust/",
     "articleSite": "犯罪と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#hanzai-automation-bias-face"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#hanzai-automation-bias-face",
+    "studyType": "実験"
   },
   {
     "id": "hanzai-hungry-judge",
@@ -8559,7 +8788,8 @@
     },
     "articleUrl": "https://hanzai.seadice.win/lie-detection-accuracy-54-percent/",
     "articleSite": "犯罪と心理",
-    "webUrl": "https://seadice.win/evidence/criminal-psychology/#hanzai-lie-detection-54"
+    "webUrl": "https://seadice.win/evidence/criminal-psychology/#hanzai-lie-detection-54",
+    "studyType": "メタ分析"
   },
   {
     "id": "hanzai-anger-calm-not-vent",
@@ -8591,7 +8821,8 @@
     },
     "articleUrl": "https://hanzai.seadice.win/anger-venting-catharsis-myth/",
     "articleSite": "犯罪と心理",
-    "webUrl": "https://seadice.win/evidence/breathing-stress/#hanzai-anger-calm-not-vent"
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#hanzai-anger-calm-not-vent",
+    "studyType": "メタ分析"
   },
   {
     "id": "hanzai-bystanders-help-cctv",
@@ -8655,7 +8886,8 @@
     },
     "articleUrl": "https://hanzai.seadice.win/milgram-obedience-experiment-replication/",
     "articleSite": "犯罪と心理",
-    "webUrl": "https://seadice.win/evidence/relationships/#hanzai-milgram-replication"
+    "webUrl": "https://seadice.win/evidence/relationships/#hanzai-milgram-replication",
+    "studyType": "実験"
   },
   {
     "id": "hanzai-face-trust-sentencing",
@@ -8687,7 +8919,8 @@
     },
     "articleUrl": "https://hanzai.seadice.win/facial-appearance-and-legal-judgments/",
     "articleSite": "犯罪と心理",
-    "webUrl": "https://seadice.win/evidence/decision-bias/#hanzai-face-trust-sentencing"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#hanzai-face-trust-sentencing",
+    "studyType": "実験"
   },
   {
     "id": "hanzai-asch-replication-2023",
@@ -8719,7 +8952,8 @@
     },
     "articleUrl": "https://hanzai.seadice.win/asch-conformity-culture-replication/",
     "articleSite": "犯罪と心理",
-    "webUrl": "https://seadice.win/evidence/relationships/#hanzai-asch-replication-2023"
+    "webUrl": "https://seadice.win/evidence/relationships/#hanzai-asch-replication-2023",
+    "studyType": "実験"
   },
   {
     "id": "kosodate-toddler-tablet-passive",
@@ -8751,7 +8985,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/toddler-tablet-learning-app-effect/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-toddler-tablet-passive"
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-toddler-tablet-passive",
+    "studyType": "実験"
   },
   {
     "id": "kosodate-fantasy-video-ef",
@@ -8783,7 +9018,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/fast-paced-video-fantasy-executive-function/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/focus/#kosodate-fantasy-video-ef"
+    "webUrl": "https://seadice.win/evidence/focus/#kosodate-fantasy-video-ef",
+    "studyType": "メタ分析"
   },
   {
     "id": "kosodate-screen-rules-4x",
@@ -8815,7 +9051,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/family-screen-time-rules-research/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-screen-rules-4x"
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-screen-rules-4x",
+    "studyType": "観察研究"
   },
   {
     "id": "ai-medical-chatbot-users",
@@ -8847,7 +9084,8 @@
     },
     "articleUrl": "https://ai.seadice.win/ai-medical-advice-accuracy/",
     "articleSite": "AI時代の困りごと",
-    "webUrl": "https://seadice.win/evidence/ai/#ai-medical-chatbot-users"
+    "webUrl": "https://seadice.win/evidence/ai/#ai-medical-chatbot-users",
+    "studyType": "ランダム化比較試験"
   },
   {
     "id": "ai-detector-nonnative-bias",
@@ -8879,7 +9117,8 @@
     },
     "articleUrl": "https://ai.seadice.win/ai-detector-false-positive/",
     "articleSite": "AI時代の困りごと",
-    "webUrl": "https://seadice.win/evidence/ai/#ai-detector-nonnative-bias"
+    "webUrl": "https://seadice.win/evidence/ai/#ai-detector-nonnative-bias",
+    "studyType": "実験"
   },
   {
     "id": "ai-ai-profile-text-detect",
@@ -8911,7 +9150,8 @@
     },
     "articleUrl": "https://ai.seadice.win/sns-bot-account-ai-detect/",
     "articleSite": "AI時代の困りごと",
-    "webUrl": "https://seadice.win/evidence/ai/#ai-ai-profile-text-detect"
+    "webUrl": "https://seadice.win/evidence/ai/#ai-ai-profile-text-detect",
+    "studyType": "実験"
   },
   {
     "id": "ai-chatgpt-fake-citations",
@@ -8975,7 +9215,8 @@
     },
     "articleUrl": "https://bohan.seadice.win/ai-voice-clone-family-scam/",
     "articleSite": "防犯",
-    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-ai-voice-detect"
+    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-ai-voice-detect",
+    "studyType": "実験"
   },
   {
     "id": "bohan-crime-displacement",
@@ -9007,6 +9248,7 @@
     },
     "articleUrl": "https://bohan.seadice.win/crime-displacement-diffusion-benefits/",
     "articleSite": "防犯",
-    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-crime-displacement"
+    "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-crime-displacement",
+    "studyType": "レビュー"
   }
 ]

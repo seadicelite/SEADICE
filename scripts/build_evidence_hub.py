@@ -68,6 +68,7 @@ CSS = (
     "a{color:#7dd3fc}"
     ".topic{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px 20px;margin-bottom:16px}"
     ".topic{scroll-margin-top:72px}.topic:target{border-color:var(--accent)}"
+    ".type{margin-bottom:8px}.type a{display:inline-block;font-size:12px;font-weight:700;color:var(--text);border:1px solid var(--border);border-radius:999px;padding:3px 10px;text-decoration:none}"
     ".topic p{font-size:14px}.topic .ans{font-size:15px;color:#e2e8f0}"
     ".stage{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);margin-top:14px}"
     ".unknown{border-left:3px solid #fbbf24;padding-left:12px;margin-top:14px}.unknown .stage{color:#fbbf24;margin-top:0}"
@@ -135,6 +136,7 @@ def topic_html(t, practice):
     cards = t["cards"]
     first, rest = cards[0], cards[1:]
     parts = [f'<article class="topic" id="{e(t["id"])}">',
+             *([f'<p class="type"><a href="/evidence/policy/#types">{e(t["studyType"])}</a></p>'] if t.get("studyType") else []),
              f'<h2>{e(first["title"])}</h2>', f'<p class="ans">{e(first["body"])}</p>']
     for c in rest:
         unknown = "わから" in c["stage"]
@@ -226,12 +228,13 @@ def main():
 <p class="lead">EVIDENCEは、研究でわかったことを、元の研究まで確かめられる形で紹介します。どう調べて、どう確かめているかをここにまとめます。</p>
 <section><h2>出典の選び方</h2><p>査読のある論文、複数の研究をまとめた分析（メタ分析・系統的レビュー）、公的な統計を出典にします。論文はDOI（論文ごとの番号）を付け、論文の登録機関Crossrefで実在とタイトルを確かめています。</p></section>
 <section><h2>数字の確かめ方</h2><p>人数、期間、効果の大きさなどの数字は、論文の本文または要旨と照らし合わせ、一致するものだけを書きます。確かめられなかった数字は書きません。対象者（例: 高齢の女性、大学生）や条件も、論文のとおりに書きます。</p></section>
-<section><h2>研究の種類の見方</h2><p>研究にはいくつかの種類があり、言えることの強さが違います。</p>
+<section id="types"><h2>研究の種類の見方</h2><p>研究にはいくつかの種類があり、言えることの強さが違います。EVIDENCEでは各トピックに、出典の研究の種類を表示しています。</p>
 <table><tr><th>種類</th><th>どんな研究か</th><th>言えること</th></tr>
-<tr><td>メタ分析・系統的レビュー</td><td>同じテーマの研究をまとめて分析</td><td>結果が一貫しているかがわかる</td></tr>
+<tr><td>メタ分析</td><td>同じテーマの研究をまとめて分析</td><td>結果が一貫しているかがわかる</td></tr>
 <tr><td>ランダム化比較試験</td><td>くじ引きでグループを分けて比べる</td><td>原因と結果の関係を調べやすい</td></tr>
+<tr><td>レビュー</td><td>専門家がこれまでの研究を読み比べて整理</td><td>全体の傾向がわかるが、数字でまとめた分析ではない</td></tr>
 <tr><td>観察研究</td><td>生活の様子と結果の関係を追いかける</td><td>関係（相関）はわかるが、原因とまでは言えない</td></tr>
-<tr><td>1回の実験</td><td>実験室などで1回試す</td><td>面白い手がかり。追試で確かめられるまでは慎重に</td></tr></table></section>
+<tr><td>実験</td><td>実験室などで条件を変えて試す</td><td>面白い手がかり。追試で確かめられるまでは慎重に</td></tr></table></section>
 <section><h2>「まだわからないこと」を書く理由</h2><p>研究は「ここまではわかった」という途中経過です。相関なのか因果なのか、対象者が限られていないか、実験室の話なのかを書くことで、読む人が自分で判断できるようにしています。追試で再現されなかった研究は使わないか、その旨を書きます。</p></section>
 <section><h2>AIの使い方</h2><p>トピックの下書きは、AI（Claude）が論文をもとに作っています。そのうえで、出典の実在と、数字・対象者・条件が論文と一致しているかを確かめてから載せています。AIを使っていることは隠さず、間違いに気づいたときは下の方法で直します。</p></section>
 <section><h2>扱わないこと</h2><ul class="box"><li>病気の診断や治療についての助言（必要なときは医療機関に相談してください）</li><li>特定の商品やサービスのおすすめ</li><li>広告・お金をもらって書く記事</li></ul></section>
