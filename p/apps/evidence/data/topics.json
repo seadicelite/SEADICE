@@ -1727,7 +1727,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/body-myths/myth-10000-steps/",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "body-steps-7000-meta",
+        "type": "あわせて読む",
+        "why": "2025年のメタ分析では、7000歩で死亡リスクが47%低かった"
+      }
+    ]
   },
   {
     "id": "sleep-nap",
@@ -10788,7 +10795,14 @@
         "body": "示されたのは乳酸の役割まで。運動のあとの疲れや筋肉痛が何で起きるかは、このまとめの中心ではない。1人の研究者によるレビューで、数字でまとめた分析でもない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/myth-lactate-fatigue/"
+    "webUrl": "https://seadice.win/evidence/body-myths/myth-lactate-fatigue/",
+    "links": [
+      {
+        "id": "body-muscle-fatigue-causes",
+        "type": "あわせて読む",
+        "why": "では何で疲れるのか。筋肉の中のカルシウムの働きなどが挙げられている"
+      }
+    ]
   },
   {
     "id": "bohan-broken-windows",
@@ -10898,7 +10912,14 @@
         "body": "2013年までの研究のまとめで、年齢や運動の種類、ふだんの食事が違う人でも同じかは、この分析だけでは言えない。直後にとっても損はなく、時間より量を優先していい、ということ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/myth-protein-golden-time/"
+    "webUrl": "https://seadice.win/evidence/body-myths/myth-protein-golden-time/",
+    "links": [
+      {
+        "id": "body-protein-amount-1-6g",
+        "type": "あわせて読む",
+        "why": "大事なのは総量。体重1kgあたり約1.6gで頭打ちになった"
+      }
+    ]
   },
   {
     "id": "sleep-golden-time-growth-hormone",
@@ -11016,5 +11037,122 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep/#sleep-deep-sleep-aging-gh"
+  },
+  {
+    "id": "body-muscle-fatigue-causes",
+    "category": "からだの常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Allen, Lamb & Westerblad, \"Skeletal Muscle Fatigue: Cellular Mechanisms\" (Physiological Reviews, 2008)",
+    "sourceUrl": "https://doi.org/10.1152/physrev.00015.2007",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "乳酸じゃないなら、筋肉はなぜ疲れる？",
+        "body": "乳酸は疲れのもとではなかった、と聞くと、じゃあ何が原因なの？と気になるよね。激しく動いたあと、筋肉の力が落ちるしくみの話。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "筋肉が疲れるしくみの研究を整理した",
+        "body": "2008年、アレンたちは、筋肉を繰り返し強く使ったときに力が落ちる「筋疲労」について、細胞の中で何が起きているのかを調べた研究をまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "乳酸と酸の影響は、おそらく小さい",
+        "body": "昔からの説明だった「乳酸と酸がたまって筋肉が働かなくなる」は、哺乳類ではおそらく大きな原因ではない、とされた。かわりに、筋肉に力を出させるカルシウムの放出がうまくいかなくなることなどが挙げられた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因はひとつではなく、多くは動物の筋肉での研究",
+        "body": "どんな運動をしたかで疲れのしくみは違い、どれがどの場面で効くのかはまだ整理の途中。しくみの研究の多くは動物から取り出した筋肉で行われていて、人の体でそのまま確かめられてはいない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "myth-lactate-fatigue",
+        "type": "あわせて読む",
+        "why": "乳酸はゴミではなく燃料として使われている、とまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#body-muscle-fatigue-causes"
+  },
+  {
+    "id": "body-protein-amount-1-6g",
+    "category": "からだの常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Morton, Murphy, McKellar, Schoenfeld et al., \"A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults\" (British Journal of Sports Medicine, 2018)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2017-097608",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "筋トレするなら、タンパク質は1日どれだけ？",
+        "body": "タイミングより1日の量が大事、と聞くと、次はどれだけとればいいのかが気になるよね。多ければ多いほどいいのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "49件・1,863人の実験をまとめた",
+        "body": "2018年、モートンたちは、6週間以上の筋トレにタンパク質を足したランダム化比較試験を集めて分析した。49件・1,863人分のデータ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体重1kgあたり約1.6gで頭打ち",
+        "body": "タンパク質を足すと、筋力と筋肉の大きさの伸びは大きくなった。ただ、1日の総量が体重1kgあたり約1.6gを超えると、筋肉はそれ以上増えなかった。年齢が上がるほど効果は小さく、筋トレに慣れた人では大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1.6gは目安で、上限ではない",
+        "body": "1.6gは平均から出した区切りで、人によって違う可能性がある。対象は健康な大人で、腎臓の病気などがある人に当てはまる話ではない。量を増やす前に、ふだんの食事でどれだけとれているかを見るのが先。"
+      }
+    ],
+    "links": [
+      {
+        "id": "myth-protein-golden-time",
+        "type": "あわせて読む",
+        "why": "タイミングより総量が大事、とわかったメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#body-protein-amount-1-6g"
+  },
+  {
+    "id": "body-steps-7000-meta",
+    "category": "からだの常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Ding, Nguyen, Nau, Luo et al., \"Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis\" (The Lancet Public Health, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/S2468-2667(25)00164-1",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "1万歩じゃなくても、7000歩で足りる？",
+        "body": "1日1万歩は大変だけど、少なくても意味はあるのかな。死亡だけでなく、心臓の病気や認知症、気分の落ち込みまで見た研究があるらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "歩数計で測った57の研究をまとめた",
+        "body": "2025年、ディンたちは、機器で測った歩数とその後の健康を追った研究を集めた。57件を整理し、そのうち31件でメタ分析をした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2000歩と比べて、7000歩で死亡リスクは47%低い",
+        "body": "1日7000歩の人は2000歩の人より、亡くなるリスクが47%、認知症が38%、うつの症状が22%低かった。死亡や認知症では、5000〜7000歩あたりから下がり方がゆるやかになった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "追跡した研究で、病気ごとの研究はまだ少ない",
+        "body": "歩数と健康の関係を追った研究なので、もともと元気な人がよく歩いていた可能性は残る。病気によっては研究が2〜3件しかなく、年齢ごとの分析もない。1万歩も、歩ける人には今も意味のある目標とされた。"
+      }
+    ],
+    "links": [
+      {
+        "id": "myth-10000-steps",
+        "type": "あわせて読む",
+        "why": "高齢女性1万6千人の追跡で、7,500歩あたりで横ばいになった研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#body-steps-7000-meta"
   }
 ]
