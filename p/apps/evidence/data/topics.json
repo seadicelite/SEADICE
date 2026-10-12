@@ -253,7 +253,14 @@
         "body": "対象はアクションゲームだけ。効果が出た研究ほど発表されやすく、約30%大きく見積もられているらしい。発表後に分析の一部が訂正された。ゲームで認知能力は伸びないとする別のメタ分析もあり、結果は分かれている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-game-brain-myth"
+    "webUrl": "https://seadice.win/evidence/brain-myths/brain-game-brain-myth/",
+    "links": [
+      {
+        "id": "brain-game-training-null",
+        "type": "反対の結果",
+        "why": "ゲームの種類を絞らない別のメタ分析では、頭の力全体が伸びる証拠は見つからなかった"
+      }
+    ]
   },
   {
     "id": "dokugaku-self-compassion-after-study-setback-study-time",
@@ -1143,7 +1150,7 @@
         "body": "調べたのは健康な大人の筋肉痛だけ。けがの予防や体のやわらかさは別の話。研究の多くは小さく、証拠の質は低〜中程度とされている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-stretch-soreness",
+    "webUrl": "https://seadice.win/evidence/body-myths/myth-stretch-soreness/",
     "studyType": "メタ分析"
   },
   {
@@ -1239,7 +1246,7 @@
         "body": "対象は、カフェインに慣れた男性だけ。女性や、ふだん飲まない人、もっとたくさん飲む場合で同じかは、この研究ではわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-coffee-dehydration",
+    "webUrl": "https://seadice.win/evidence/body-myths/myth-coffee-dehydration/",
     "studyType": "実験",
     "links": [
       {
@@ -1472,7 +1479,7 @@
         "body": "調べたのは「じっくり見たときの印象と同じか」で、その印象が本人の性格と合っているかではない。写真の顔だけの実験で、話したり一緒に過ごしたりすると印象は変わりうる。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/love/#love-first-impression-100ms",
+    "webUrl": "https://seadice.win/evidence/love/love-first-impression-100ms/",
     "studyType": "実験"
   },
   {
@@ -1536,7 +1543,7 @@
         "body": "調べたのは主に実験室で、写真や初対面の相手への一時的な評価。1998年までの研究のまとめで、その後の研究で大きさが変わる可能性もある。相手を落とす方法として使えるような話ではない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/love/#love-suspension-bridge",
+    "webUrl": "https://seadice.win/evidence/love/love-suspension-bridge/",
     "studyType": "実験"
   },
   {
@@ -1638,7 +1645,7 @@
         "body": "これは、ふつうの気候でふつうに暮らす健康な大人の話。真夏や激しい運動のあと、医師に水分を多めにと言われている人は、そちらが優先。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-water-8-glasses",
+    "webUrl": "https://seadice.win/evidence/body-myths/myth-water-8-glasses/",
     "studyType": "レビュー",
     "links": [
       {
@@ -1719,7 +1726,7 @@
         "body": "これは観察した研究なので、もともと元気な人がよく歩いていただけ、という可能性は残る。対象も高齢の女性だけで、若い人や男性で同じかはわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#myth-10000-steps",
+    "webUrl": "https://seadice.win/evidence/body-myths/myth-10000-steps/",
     "studyType": "観察研究"
   },
   {
@@ -8459,7 +8466,14 @@
     "articleUrl": "https://bohan.seadice.win/vacant-land-restoration-crime/",
     "articleSite": "防犯",
     "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-vacant-lot-cleanup",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "bohan-broken-windows",
+        "type": "あわせて読む",
+        "why": "割れ窓理論のメタ分析でも、効いたのは場所を直す取り組みだった"
+      }
+    ]
   },
   {
     "id": "ledger-opportunity-cost",
@@ -9378,7 +9392,14 @@
     "articleUrl": "https://dokugaku.seadice.win/learning-by-teaching-protege-effect/",
     "articleSite": "独学の科学",
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-teaching-meta",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "learning-pyramid-myth",
+        "type": "あわせて読む",
+        "why": "よく見る「教えると90%」の図は、出どころをたどると根拠がなかった"
+      }
+    ]
   },
   {
     "id": "dokugaku-flashcards-one-deck",
@@ -10660,5 +10681,250 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/criminal-psychology/hanzai-bystander-effect-meta/"
+  },
+  {
+    "id": "replication-pygmalion-teacher",
+    "category": "心理学の再現性",
+    "kind": "よく聞く説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Jussim & Harber, \"Teacher Expectations and Self-Fulfilling Prophecies: Knowns and Unknowns, Resolved and Unresolved Controversies\" (Personality and Social Psychology Review, 2005)",
+    "sourceUrl": "https://doi.org/10.1207/s15327957pspr0902_3",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "期待をかけると、子どもは伸びる？",
+        "body": "先生が「この子は伸びる」と思うだけで成績が上がる——「ピグマリオン効果」として有名な話。もとは1960年代にアメリカの小学校で行われた実験が広まったもの。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "35年分の研究を整理し直した",
+        "body": "2005年、ジュシムとハーバーは、先生の期待と生徒の成績についての35年分の研究を見直し、わかったことと、まだ決着していないことを整理した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "起きる。でも効果は小さかった",
+        "body": "期待が現実になることは教室でも起きる。ただ多くは小さく、時間がたつと積み重なるより消えやすかった。偏見を向けられやすいグループの子では、強く出ることがあるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "先生の見立てが「当たっていた」だけかも",
+        "body": "期待が成績を予想できたのは、期待が成績を変えたからというより、先生の見立てが正確だったからかもしれない。知能まで変わるのか、全体で良い影響が多いのかもはっきりしない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/replication-pygmalion-teacher/"
+  },
+  {
+    "id": "learning-pyramid-myth",
+    "category": "学習法",
+    "kind": "よく聞く説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Masters, \"Edgar Dale's Pyramid of Learning in medical education: A literature review\" (Medical Teacher, 2013)",
+    "sourceUrl": "https://doi.org/10.3109/0142159X.2013.800636",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ラーニングピラミッドの「覚える割合」は本当？",
+        "body": "講義を聞く・読む・見る・話し合う・人に教える…と、学び方ごとに「覚えている割合」が並んだ三角形の図。研修や教育の本でよく見かけるよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "図の出どころを、論文をさかのぼって調べた",
+        "body": "2013年、マスターズは医学教育の論文で、この図と割合がどう引用されているかを1946〜2012年の文献で調べた。見つかった論文と学会発表は43本。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "割合の根拠は見つからなかった",
+        "body": "引用元に割合が書かれていない、引用がぐるぐる回っている、あやしい出典に頼っている、などが見つかった。割合も論文ごとにばらばら。著者は「この図は引用しないほうがいい」とまとめた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「教えると身につく」まで否定されたわけではない",
+        "body": "根拠がなかったのは図と割合のほう。人に教える・自分で思い出すといった学び方の効果は、別の研究で調べられている。どの学び方がどれだけ残るかは、これからの研究の課題とされている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-teaching-meta",
+        "type": "あわせて読む",
+        "why": "図の割合に根拠はないが、人に教える効果はメタ分析で調べられている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/learning-pyramid-myth/"
+  },
+  {
+    "id": "myth-lactate-fatigue",
+    "category": "からだの常識",
+    "kind": "よく聞く説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Brooks, \"The Science and Translation of Lactate Shuttle Theory\" (Cell Metabolism, 2018)",
+    "sourceUrl": "https://doi.org/10.1016/j.cmet.2018.03.008",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "乳酸は疲れのもと？",
+        "body": "運動のあとのだるさは「乳酸がたまるから」——部活や健康番組でよく聞いた話だよね。乳酸は、酸素が足りないときに出るゴミのようなもの、と考えられてきた。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "乳酸の研究を、昔から最近まで整理した",
+        "body": "2018年、乳酸の研究を長く続けてきたブルックスが、乳酸が体の中でどう作られ、どこへ運ばれて使われるかについての研究をまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "乳酸はゴミではなく、燃料だった",
+        "body": "乳酸は酸素が足りているときも、いつも作られている。作った細胞から別の細胞へ運ばれて、エネルギー源になったり、糖を作る材料になったり、信号として働いたりしている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "だるさの原因は、このまとめの外",
+        "body": "示されたのは乳酸の役割まで。運動のあとの疲れや筋肉痛が何で起きるかは、このまとめの中心ではない。1人の研究者によるレビューで、数字でまとめた分析でもない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/myth-lactate-fatigue/"
+  },
+  {
+    "id": "bohan-broken-windows",
+    "category": "防犯の心理",
+    "kind": "よく聞く説",
+    "themeColor": "#FDE047",
+    "sourceLabel": "Braga, Welsh & Schnell, \"Can Policing Disorder Reduce Crime? A Systematic Review and Meta-analysis\" (Journal of Research in Crime and Delinquency, 2015)",
+    "sourceUrl": "https://doi.org/10.1177/0022427815576576",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "割れた窓を直せば、犯罪は減る？",
+        "body": "落書きや割れた窓を放っておくと、大きな犯罪まで増える——「割れ窓理論」。ニューヨークの治安の話と一緒に、防犯の本でよく紹介されるよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "「乱れ」への取り組み30件をまとめた",
+        "body": "2015年、ブラガたちは、警察が地域の乱れに取り組んだ効果を、ランダム化比較試験と準実験の30件から、初めて系統的にまとめて分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "減る。でも、やり方しだいだった",
+        "body": "全体では、犯罪は小さいながら減っていた。効果が大きかったのは、地域と一緒に場所の環境を直す取り組み。軽い違反を一人ずつ厳しく取り締まるやり方では、犯罪ははっきり減らなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どこが効いているのかは、まだ調べ中",
+        "body": "どの要素が犯罪を減らしているのかは、さらに研究が必要とされている。調べたのは主に海外の警察の取り組みで、日本の地域や、自分の家の防犯にそのまま当てはまるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "bohan-vacant-lot-cleanup",
+        "type": "あわせて読む",
+        "why": "効いたのは場所を直す取り組み。空き地の片づけはその具体例"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/crime-prevention/bohan-broken-windows/"
+  },
+  {
+    "id": "brain-game-training-null",
+    "category": "脳の神話",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Sala, Tatlidil & Gobet, \"Video game training does not enhance cognitive ability: A comprehensive meta-analytic investigation\" (Psychological Bulletin, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000139",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ゲームで、頭は良くなる？",
+        "body": "ゲームで反射神経や注意力がきたえられる、という話もあるよね。脳トレとしてゲームをすすめる声もある。じゃあ、ゲームをすると頭の力そのものは伸びるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "3つのメタ分析を同時に行った",
+        "body": "2018年、サラたちは、ゲームの腕と頭の力の関係、ゲームをする人としない人の差、ゲームで練習させた効果の3つを、それぞれ300を超えるデータで分析した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どれも、差は小さいかほぼゼロ",
+        "body": "ゲームの腕と頭の力の関係は弱く、ゲームで練習すると頭の力全体が伸びる、という因果の証拠は見つからなかった。練習したことが別の力に広がりにくいのは、脳トレや音楽と同じだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "注意の力に限れば、話は別かも",
+        "body": "同じ年の別のメタ分析では、アクションゲームで注意や空間の力が少し伸びたという結果が出ている。どのゲームを、どれだけやると、どの力に効くのかは、研究者の見方が分かれている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-game-brain-myth",
+        "type": "反対の結果",
+        "why": "アクションゲームに絞った別のメタ分析では、注意と空間の力が少し伸びた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-game-training-null"
+  },
+  {
+    "id": "myth-protein-golden-time",
+    "category": "からだの常識",
+    "kind": "よく聞く説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Schoenfeld, Aragon & Krieger, \"The effect of protein timing on muscle strength and hypertrophy: a meta-analysis\" (Journal of the International Society of Sports Nutrition, 2013)",
+    "sourceUrl": "https://doi.org/10.1186/1550-2783-10-53",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "筋トレ直後のプロテインは「ゴールデンタイム」？",
+        "body": "筋トレのあとすぐタンパク質をとらないと、筋肉がつきにくい——ジムや雑誌でよく聞く話だよね。運動の前後が勝負、という考え方。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "くじ引きで分けた実験をまとめた",
+        "body": "2013年、シェーンフェルドたちは、タンパク質をとる時間を変えたランダム化比較試験をメタ分析した。筋力は20件・478人、筋肉の大きさは23件・525人のデータ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "大事なのはタイミングより、1日の量",
+        "body": "単純に比べると筋肉の大きさに少し差が出たが、とったタンパク質の総量などをそろえると、筋力にも筋肉の大きさにも差はなかった。筋肉の増え方をいちばんよく説明したのは総量だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "すぐとるのが悪い、という話ではない",
+        "body": "2013年までの研究のまとめで、年齢や運動の種類、ふだんの食事が違う人でも同じかは、この分析だけでは言えない。直後にとっても損はなく、時間より量を優先していい、ということ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/myth-protein-golden-time/"
+  },
+  {
+    "id": "sleep-golden-time-growth-hormone",
+    "category": "睡眠",
+    "kind": "よく聞く説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Sassin, Parker, Mace, Gotlin et al., \"Human Growth Hormone Release: Relation to Slow-Wave Sleep and Sleep-Waking Cycles\" (Science, 1969)",
+    "sourceUrl": "https://doi.org/10.1126/science.165.3892.513",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "夜10時〜2時は「睡眠のゴールデンタイム」？",
+        "body": "この時間に寝ていないと成長ホルモンが出ない、肌や体が回復しない——そんな話を聞いたことがあるよね。時計の時刻で決まる、という考え方。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "寝る時間を12時間ずらしてみた",
+        "body": "1969年、サッシンたちは、成長ホルモンが眠りのどの段階で出るかを調べた。さらに、寝る時間と起きている時間を12時間入れ替えて、出るタイミングがどうなるかを確かめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "時刻ではなく、深い眠りについてくる",
+        "body": "成長ホルモンは、深い眠り（徐波睡眠）と結びついて出ていた。寝る時間を12時間ずらすと、出るタイミングも一緒にずれた。決まった時刻に出るわけではなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "50年以上前の実験。回復のすべてではない",
+        "body": "古い実験で、調べたのは成長ホルモンが出るタイミングだけ。夜勤などで生活がずれた人の体の回復が、夜に寝る人と同じかまでは、この実験からはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/sleep-golden-time-growth-hormone/"
   }
 ]

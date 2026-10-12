@@ -75,5 +75,57 @@
   "hanzai-bystander-effect-meta": {
     "kw": "傍観者効果",
     "title": "傍観者効果は本当？ メタ分析でわかったこと"
+  },
+  "replication-pygmalion-teacher": {
+    "kw": "ピグマリオン効果",
+    "title": "ピグマリオン効果は本当？ 35年分の研究でわかったこと"
+  },
+  "learning-pyramid-myth": {
+    "kw": "ラーニングピラミッド",
+    "title": "ラーニングピラミッドの割合は本当？ 出どころを調べた論文でわかったこと"
+  },
+  "myth-lactate-fatigue": {
+    "kw": "乳酸 疲労物質",
+    "title": "乳酸は疲労物質って本当？ 研究でわかったこと"
+  },
+  "bohan-broken-windows": {
+    "kw": "割れ窓理論",
+    "title": "割れ窓理論は本当？ メタ分析でわかったこと"
+  },
+  "brain-game-brain-myth": {
+    "kw": "ゲーム脳",
+    "title": "ゲーム脳は本当？ メタ分析でわかったこと"
+  },
+  "myth-protein-golden-time": {
+    "kw": "プロテイン ゴールデンタイム",
+    "title": "筋トレ後のプロテインのゴールデンタイムは本当？ メタ分析でわかったこと"
+  },
+  "sleep-golden-time-growth-hormone": {
+    "kw": "睡眠 ゴールデンタイム",
+    "title": "睡眠のゴールデンタイムは本当？ 論文でわかったこと"
+  },
+  "love-suspension-bridge": {
+    "kw": "吊り橋効果",
+    "title": "吊り橋効果は本当？ 実験をまとめた論文でわかったこと"
+  },
+  "myth-10000-steps": {
+    "kw": "1日1万歩",
+    "title": "1日1万歩は本当に必要？ 研究でわかったこと"
+  },
+  "myth-water-8-glasses": {
+    "kw": "水 1日2リットル",
+    "title": "水は1日2リットル（8杯）飲むべき？ 研究でわかったこと"
+  },
+  "myth-coffee-dehydration": {
+    "kw": "コーヒー 利尿作用",
+    "title": "コーヒーで脱水になるは本当？ 実験でわかったこと"
+  },
+  "love-first-impression-100ms": {
+    "kw": "第一印象 3秒",
+    "title": "第一印象は3秒で決まる？ 実験でわかったこと"
+  },
+  "myth-stretch-soreness": {
+    "kw": "ストレッチ 筋肉痛",
+    "title": "ストレッチで筋肉痛は防げる？ メタ分析でわかったこと"
   }
 }

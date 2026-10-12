@@ -40,6 +40,7 @@
 
 ## 事実の確かめ方（省略しない）
 - DOIは https://api.crossref.org/works/{DOI} で実在・タイトル一致・撤回されていないこと（update-to / relation に retraction がない）を確かめる
+- 要旨も本文も読めず数字を確かめられない説（例: 1967年の論文で要旨がない「メラビアンの法則」）は書かずに見送り、docs/improve/evidence.md の「次にやること」に残す
 - 数字・人数・国・条件・所属は、論文の要旨か本文（Europe PMC: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:{DOI}&resultType=core&format=json 、なければ PubMed や出版社ページ）で確かめたものだけ書く。確かめられない数字は書かない
 - データの不正が指摘された研究者・撤回された論文は使わない
 - 外部サービスに個人情報を送らない（DOIやキーワードで公開APIを引くだけ）
