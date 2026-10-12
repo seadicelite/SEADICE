@@ -1,5 +1,199 @@
 [
   {
+    "id": "research-music-cortisol-stress-research-meta104",
+    "category": "音楽と集中力",
+    "kind": "よくある説",
+    "themeColor": "#C084FC",
+    "sourceLabel": "de Witte M et al., \"Effects of music interventions on stress-related outcomes: a systematic review and two meta-analyses\" (Health Psychology Review, 2020)",
+    "sourceUrl": "https://doi.org/10.1080/17437199.2019.1627897",
+    "articleUrl": "https://research.seadice.win/music-cortisol-stress-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "音楽を聴くとストレスが減るって本当？",
+        "body": "「好きな音楽を聴くと落ち着く」とよく言われるけど、気分だけじゃなく体の反応まで変わるのか気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "104件の実験をまとめて検証",
+        "body": "オランダの研究チームが、音楽を使った実験104件・参加者9,617人分のデータを統合して、ストレスへの効果を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "心拍数ほどではないけど、ホルモンにも効果あり",
+        "body": "心理的なストレスへの効果が一番大きく、心拍数・血圧・ホルモン濃度にも効果があった。ただしホルモンへの効果は、心拍数への効果より小さめだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの曲をどう聴けばいいかまでは言えない",
+        "body": "まとめた104件は、場面も曲も聴き方もばらばらな実験。出てきたのはその平均の効果で、「この曲をこう聴けば効く」とまでは言えない。違いがはっきりしたのは、測ったもの（心か体か）による差だった。"
+      }
+    ],
+    "studyType": "メタ分析",
+    "webUrl": "https://seadice.win/evidence/music-focus/#research-music-cortisol-stress-research-meta104"
+  },
+  {
+    "id": "research-room-temperature-concentration-research-hotcold",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Pilcher JJ et al., \"Effects of hot and cold temperature exposure on performance: a meta-analytic review\" (Ergonomics, 2002)",
+    "sourceUrl": "https://doi.org/10.1080/00140130210158419",
+    "articleUrl": "https://research.seadice.win/room-temperature-concentration-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "暑い部屋も寒い部屋も集中力が落ちるって本当？",
+        "body": "「暑くて頭が働かない」「寒くて集中できない」、どっちもよく聞くけど、実際どのくらい作業に影響するのか気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22件の研究・515の効果量をまとめた",
+        "body": "研究チームが、温度と作業成績を調べた実験を集めてメタ分析したんだ。暑い環境と寒い環境、両方のデータが含まれている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらも1割以上の成績低下",
+        "body": "暑さ指数（WBGT）32.22℃以上の暑さでは約14.88%、10℃以下の寒さでは約13.91%、ほどよい温度のときより成績が下がった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「中立な温度」はどれくらいか",
+        "body": "比べたのは極端な暑さ・寒さと、ほどよい温度。何度がちょうどいいかまでは示していない。温度の中にいた時間や作業の種類・長さで、影響の大きさが変わることもわかっている。"
+      }
+    ],
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "research-room-temperature-concentration-research-optimal",
+        "type": "あわせて読む",
+        "why": "極端な暑さ寒さの影響と、ちょうどいい室温の目安を調べたレビュー"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-room-temperature-concentration-research-hotcold"
+  },
+  {
+    "id": "research-room-temperature-concentration-research-optimal",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Dupont L et al., \"The impact of high indoor temperatures on cognitive performance within the work setting: a systematic review\" (Tijdschrift voor Psychiatrie, 2023)",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37434569/",
+    "articleUrl": "https://research.seadice.win/room-temperature-concentration-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "何度がいちばん集中できるの？",
+        "body": "エアコンの設定温度、結局何度がいいのか迷うことない？研究でヒントが出てるらしいよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "職場の高温と認知機能、17件のレビュー",
+        "body": "研究チームが、職場の室温と認知機能の関係を調べた17件の研究をまとめて見直したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "目安は22〜24℃、反応速度が特に敏感",
+        "body": "認知機能が保たれやすい室温の目安はおおむね22〜24℃。24℃を超えると、特に反応の速さや処理速度が落ちやすいとされた。論理的な推論は影響を受けにくかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究ごとに結果はバラバラ",
+        "body": "17件の結果は一貫していなかったと著者ら自身が書いている。集めた研究は実際の職場に近い条件のものが少なく、そのまま職場に当てはまるとは言い切れない。"
+      }
+    ],
+    "studyType": "レビュー",
+    "links": [
+      {
+        "id": "research-room-temperature-concentration-research-hotcold",
+        "type": "あわせて読む",
+        "why": "ちょうどいい室温の目安と、極端な暑さ寒さで成績がどれだけ落ちるか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-room-temperature-concentration-research-optimal"
+  },
+  {
+    "id": "insight-walking-creativity",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Oppezzo & Schwartz, \"Give your ideas some legs: the positive effect of walking on creative thinking\" (Journal of Experimental Psychology: Learning, Memory, and Cognition, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/a0036577",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "歩くとアイデアが浮かぶって本当？",
+        "body": "考えごとは散歩しながらのほうがはかどる、ってよく聞くよね。座っているときと歩いているときで、本当にアイデアの出方は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "座って考える・歩いて考えるを比べた",
+        "body": "米スタンフォード大学のチームが4つの実験をした。ルームランナーの上や屋外を歩きながら、または座ったまま、ある物の使い道をできるだけ多く挙げるような発想のテストを解いてもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "たくさん思いつく力は上がった",
+        "body": "歩いているとき、81%の人で発想テストの点が上がった。歩いたあと座っても、しばらく効果が残った。一方、答えが1つに決まる連想問題で上がった人は23%だけだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事のアイデアの質までは未確認",
+        "body": "その場で解くテストの点を測った研究。強かったのは「数を出す」発想で、答えを1つに絞る問題にはあまり効かなかった。仕事の企画が実際に良くなるかや、何分歩けばいいかまでは調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "insight-incubation-meta",
+        "type": "あわせて読む",
+        "why": "行き詰まったら離れる効果のまとめと、歩きながら考える効果の実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-walking-creativity"
+  },
+  {
+    "id": "sleep-light-on-insulin",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Mason et al., \"Light exposure during sleep impairs cardiometabolic function\" (PNAS, 2022)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2113290119",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "電気をつけたまま寝ると体に悪い？",
+        "body": "寝落ちして部屋の電気がつけっぱなし、ってよくあるよね。目を閉じていれば、明るさは関係ないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "部屋の明かりで1晩寝てもらった",
+        "body": "米ノースウェスタン大学のチームが、18〜40歳の健康な20人を2つに分けた。10人は2晩目を部屋の明かり（100ルクス）の中で、残り10人は2晩とも3ルクス未満の暗い部屋で寝た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "心拍が上がり、翌朝の血糖の調整が鈍った",
+        "body": "明かりの中で寝た人は、寝ている間の心拍数が高く、心拍のゆらぎが小さかった（体が緊張モードに傾いたサイン）。翌朝はインスリンが効きにくい状態に。一方、メラトニンの量は暗い部屋と変わらなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1晩・20人の実験室の話",
+        "body": "若くて健康な20人が、実験室で1晩だけ明かりの中で寝た結果。毎晩つけっぱなしで病気が増えるかや、豆電球くらいの弱い光ならどうかは、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-ereader-blue-light",
+        "type": "あわせて読む",
+        "why": "寝る前に浴びる光の影響と、寝ている間の明かりの影響"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-light-on-insulin"
+  },
+  {
     "id": "insight-sleep-onset-n1",
     "category": "ひらめき",
     "kind": "よくある説",
@@ -219,6 +413,11 @@
         "id": "insight-sleep-onset-n1",
         "type": "あわせて読む",
         "why": "離れている間に浅く眠った人だけ、近道に気づく人が増えた実験"
+      },
+      {
+        "id": "insight-walking-creativity",
+        "type": "あわせて読む",
+        "why": "離れて寝かせる効果のまとめと、歩きながら考えると発想が増えた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/insight/#insight-incubation-meta"
@@ -1915,12 +2114,17 @@
       {
         "stage": "研究",
         "title": "どんな研究？",
-        "body": "参加者が思い出に残る出来事を言葉で思い出した後、同じ手がかり（例：香水）を匂いで嗅ぐ場合と、見て確認する場合で、記憶の感情の強さなどを比べた。"
+        "body": "参加者が思い出に残る出来事を言葉で思い出した後、同じ手がかりを匂いで嗅ぐ場合と、見て確認する場合で、記憶の感情の強さなどを比べた。"
       },
       {
         "stage": "結果",
         "title": "分かったこと",
         "body": "匂いに誘発された記憶は、視覚や言葉の手がかりの記憶より有意に感情的で、「その時に戻った」感覚も強い傾向があった。ただし鮮明さや正確さまでは示していない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふいに香りで思い出す場面とは別",
+        "body": "思い出は先に言葉で呼び出してから、匂いや見た目の手がかりを出す方法で比べた。匂いがふいに記憶を呼び起こす場面そのものを調べたわけではない。感情の強さは本人の評価で、手がかりも思い出を呼びやすいものに絞られていた。"
       }
     ],
     "quiz": {
@@ -1958,7 +2162,12 @@
       {
         "stage": "結果",
         "title": "分かったこと",
-        "body": "笑った群では、コルチゾール、ドーパミンの代謝物、エピネフリンが対照群より低かった。サンプルが10人と小さく、免疫力が上がるとまでは、この研究では示せていない。"
+        "body": "笑った群では、コルチゾールとドーパミンの代謝物が対照群より速く下がり、エピネフリンはどの時点でも対照群より低かった。サンプルが10人と小さく、免疫力が上がるとまでは、この研究では示せていない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "10人・1回の動画の話",
+        "body": "健康な男性10人（笑った5人、見なかった5人）だけの小さな実験で、女性や病気のある人は入っていない。1回60分の動画を見た日の血液の変化で、毎日笑うと健康になるかまでは調べていない。"
       }
     ],
     "quiz": {
@@ -2396,6 +2605,11 @@
         "id": "circadian-room-light-melatonin",
         "type": "あわせて読む",
         "why": "寝る前の端末だけでなく、ふつうの室内灯でもメラトニンが減る"
+      },
+      {
+        "id": "sleep-light-on-insulin",
+        "type": "あわせて読む",
+        "why": "寝る前の光の影響と、寝ている間につけっぱなしの明かりの影響"
       }
     ]
   },
