@@ -1743,9 +1743,15 @@
   </url>
   <url>
     <loc>https://seadice.win/diagnosis/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seadice.win/diagnosis/enneagram/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seadice.win/diagnosis/mbti-lite/</loc>
@@ -1785,13 +1791,13 @@
   </url>
   <url>
     <loc>https://seadice.win/diagnosis/profile/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://seadice.win/diagnosis/rank/</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1997,7 +2003,7 @@
   </url>
   <url>
     <loc>https://seadice.win/tools/enneagram/</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

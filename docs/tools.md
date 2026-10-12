@@ -30,5 +30,6 @@
 ## 6. 技術
 - `python3 scripts/apply_page_type.py use p/…/index.html`。操作部の要素に `sd-tool` クラスを付けてから実行
 - JS は最小限・インライン。エラー時に入力を消さない
+- 点数式（○件法で合計する）の診断は、独自JSを書かず共通エンジン `/diagnosis/assets/likert.js` を使う（結果は診断プロフィール帳に自動で記録される）。研究の平均がない尺度は `mean` を書かずに `bands`（点数の区切り）で判定し、区切りはSEADICEが決めたと本文に書く。タイプが多いときは `"sortByScore": true` で高い順に並べる。見本: `p/diagnosis/bigfive-tipi/`（平均あり）、`p/diagnosis/enneagram/`（bands・9タイプ）
 - title と h1 に狙う検索語。JSON-LD は WebApplication（`publisher` は `"@id":"https://seadice.win/#organization"`）＋ BreadcrumbList（＋ FAQPage）
 - sitemap・ツール一覧（`/tools/`）・llms.txt に追加

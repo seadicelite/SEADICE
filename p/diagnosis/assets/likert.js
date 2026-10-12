@@ -86,6 +86,8 @@
     var html = '';
     var tori = [];
     var top = null;
+    // sortByScore: 点数の高い順に並べる（同点はもとの順）
+    if (data.sortByScore) keys = keys.map(function(k, i){ return [k, i]; }).sort(function(x, y){ return scores[y[0]] - scores[x[0]] || x[1] - y[1]; }).map(function(x){ return x[0]; });
     keys.forEach(function(k){
       var d = data.keys[k], s = scores[k], lv = levelOf(s, d), t = lv.band || d[lv.id];
       if (!top || lv.z > top.z) top = {k: k, z: lv.z, lv: lv};
@@ -95,7 +97,7 @@
         '<p class="sc-head"><span class="sc-name">' + d.name + '</span><span class="sc-level">' + lv.label + '（' + s + '点）</span></p>' +
         '<div class="sc-bar" role="img" aria-label="' + d.name + ' ' + s + '点（' + d.min + '〜' + d.max + '点' + (mean != null ? '、平均' + d.mean + '点' : '') + '）"><i style="width:' + pos + '%"></i>' + (mean != null ? '<b style="left:' + mean + '%"></b>' : '') + '</div>' +
         '<p class="sc-desc">' + t.desc + '</p></div>';
-      tori.push(t.tori);
+      if (t.tori) tori.push(t.tori);
     });
 
     progressWrap.style.display = 'none';
@@ -103,6 +105,8 @@
     resultEl.style.display = 'block';
     resultEl.querySelector('.sc-list').innerHTML = html;
     resultEl.querySelector('.tori-list').innerHTML = tori.map(function(t){ return '<li>' + t + '</li>'; }).join('');
+    var toriBox = resultEl.querySelector('.tori');
+    if (toriBox) toriBox.style.display = tori.length ? '' : 'none';
 
     var summary = data.summary(top, data.keys);
     var shareText = encodeURIComponent(data.shareTitle + ' → ' + summary);
