@@ -3053,7 +3053,8 @@
       "correct": "ほぼ全員",
       "wrong": "ごく一部の人"
     },
-    "webUrl": "https://seadice.win/evidence/laughter/#laughter-humor-reappraisal"
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-humor-reappraisal",
+    "studyType": "実験"
   },
   {
     "id": "learning-testing-effect",
@@ -4698,7 +4699,8 @@
       "correct": "大きくなると試算された",
       "wrong": "小さくなると試算された"
     },
-    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-text-neck-hansraj"
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-text-neck-hansraj",
+    "studyType": "実験"
   },
   {
     "id": "posture-sedentary-low-back-pain",
@@ -4804,7 +4806,8 @@
         "type": "あわせて読む",
         "why": "座りすぎと腰痛の関係を、椎間板への負担から考える"
       }
-    ]
+    ],
+    "studyType": "実験"
   },
   {
     "id": "sleep-chronic-restriction-unaware",
@@ -5267,7 +5270,8 @@
       "correct": "初期設定で大きく変わる",
       "wrong": "初期設定では変わらない"
     },
-    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-default-organ-donation"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-default-organ-donation",
+    "studyType": "観察研究"
   },
   {
     "id": "bias-endowment-mug",
@@ -6613,7 +6617,8 @@
       "correct": "出来事以上に上向く",
       "wrong": "話しても変わらない"
     },
-    "webUrl": "https://seadice.win/evidence/relationships/#relationship-capitalization-good-news"
+    "webUrl": "https://seadice.win/evidence/relationships/#relationship-capitalization-good-news",
+    "studyType": "観察研究"
   },
   {
     "id": "exercise-cardio-memory-metaanalysis",
@@ -8127,7 +8132,8 @@
     },
     "articleUrl": "https://ledger.seadice.win/revolving-debt-recovery-steps/",
     "articleSite": "お金と心理",
-    "webUrl": "https://seadice.win/evidence/money/#ledger-debt-help-delay"
+    "webUrl": "https://seadice.win/evidence/money/#ledger-debt-help-delay",
+    "studyType": "観察研究"
   },
   {
     "id": "ledger-reminder-side-effect",
@@ -9243,7 +9249,8 @@
     },
     "articleUrl": "https://kosodate.seadice.win/ai-chatbot-worry-consultation-safety/",
     "articleSite": "AI時代の子育て",
-    "webUrl": "https://seadice.win/evidence/ai/#kosodate-teens-ai-mental-health"
+    "webUrl": "https://seadice.win/evidence/ai/#kosodate-teens-ai-mental-health",
+    "studyType": "観察研究"
   },
   {
     "id": "kosodate-kids-trust-voice-ai",
@@ -10076,7 +10083,8 @@
     },
     "articleUrl": "https://ai.seadice.win/ai-work-output-check/",
     "articleSite": "AI時代の困りごと",
-    "webUrl": "https://seadice.win/evidence/ai/#ai-chatgpt-fake-citations"
+    "webUrl": "https://seadice.win/evidence/ai/#ai-chatgpt-fake-citations",
+    "studyType": "観察研究"
   },
   {
     "id": "bohan-ai-voice-detect",
