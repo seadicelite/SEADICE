@@ -1989,6 +1989,11 @@
         "id": "color-red-exam",
         "type": "あわせて読む",
         "why": "赤の効果はどちらも、初期の研究ほど大きく出ていた"
+      },
+      {
+        "id": "color-red-uniform-win",
+        "type": "あわせて読む",
+        "why": "赤の効果が、時代とともに消えていった格闘技の試合の研究"
       }
     ]
   },
@@ -2583,7 +2588,14 @@
       "wrong": "赤で解答が速くなった"
     },
     "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-blue-task",
-    "studyType": "レビュー"
+    "studyType": "レビュー",
+    "links": [
+      {
+        "id": "color-baker-miller-pink",
+        "type": "あわせて読む",
+        "why": "有名な色の効果が、追試で確かめられなかった別の例"
+      }
+    ]
   },
   {
     "id": "color-green-creativity",
@@ -2651,6 +2663,11 @@
         "id": "love-red-attractive",
         "type": "あわせて読む",
         "why": "赤の効果はどちらも、初期の研究ほど大きく出ていた"
+      },
+      {
+        "id": "color-red-uniform-win",
+        "type": "あわせて読む",
+        "why": "赤の効果を集め直すと、五分五分になった格闘技の試合の研究"
       }
     ]
   },
@@ -3809,7 +3826,14 @@
       "wrong": "起きている間に嗅ぐ"
     },
     "webUrl": "https://seadice.win/evidence/scent-memory/#scent-odor-sleep-memory",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "scent-aromatherapy-sleep",
+        "type": "あわせて読む",
+        "why": "眠りの質そのものへの香りの効果を、31本の試験でまとめた研究"
+      }
+    ]
   },
   {
     "id": "laughter-pain-threshold",
@@ -6680,7 +6704,14 @@
       "wrong": "都会の散歩"
     },
     "webUrl": "https://seadice.win/evidence/nature/#nature-walk-rumination-bratman",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "nature-forest-bathing-cortisol",
+        "type": "あわせて読む",
+        "why": "森林浴のメタ分析で、ストレスホルモンも短い期間で下がった"
+      }
+    ]
   },
   {
     "id": "nature-childhood-green-space",
@@ -6757,6 +6788,11 @@
         "id": "nature-childhood-green-space",
         "type": "あわせて読む",
         "why": "緑の多い環境と心身の健康を、まとめと追跡調査で"
+      },
+      {
+        "id": "nature-forest-bathing-cortisol",
+        "type": "あわせて読む",
+        "why": "森林浴に絞ったメタ分析でも、コルチゾールは森で低かった"
       }
     ]
   },
@@ -13169,5 +13205,331 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/japan/japan-eat-then-sleep/"
+  },
+  {
+    "id": "color-red-uniform-win",
+    "category": "色彩心理",
+    "kind": "よく聞く説",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Peperkoorn, Hill, Barton & Pollet, \"Meta-analysis of the red advantage in combat sports\" (Scientific Reports, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-024-81373-3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "赤いユニフォームを着ると、勝ちやすい？",
+        "body": "ボクシングやテコンドーなどの格闘技で、赤を着た側のほうが勝ちやすい——そんな研究が話題になったよね。特に接戦で差が出る、と言われてきた。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "最初に報告した研究者たち自身が、試合を集め直した",
+        "body": "夏のオリンピック7大会（1996〜2020年）と世界ボクシング選手権9大会（2005〜2021年）から、ボクシング・テコンドー・レスリングの6,589試合の結果を集め、メタ分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "全体では、赤の勝率は50.5%だった",
+        "body": "赤が勝ったのは全体で50.5%、接戦にしぼっても51.5%で、どちらも五分五分と意味のある差はなかった。ただし最初に報告された2005年より前の接戦では、赤が56.8%勝っていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ差が消えたのかは、はっきりしない",
+        "body": "効果が知れわたったことや、各競技のルール変更で小さな差が出にくくなった可能性がある、と著者たちは考えている。見たのは格闘技の試合結果だけで、ほかの競技や、ふだんの勝負にも当てはまるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "color-red-exam",
+        "type": "あわせて読む",
+        "why": "赤の効果を集め直すと、はっきりしなくなった別の場面の研究"
+      },
+      {
+        "id": "love-red-attractive",
+        "type": "あわせて読む",
+        "why": "赤の効果をメタ分析すると、年々小さくなっていた恋愛の場面の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-uniform-win"
+  },
+  {
+    "id": "color-blue-appetite",
+    "category": "色彩心理",
+    "kind": "よく聞く説",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Cho et al., \"Blue lighting decreases the amount of food consumed in men, but not in women\" (Appetite, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2014.11.020",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "青い色を見ると、食欲が減る？",
+        "body": "「青は食欲を減らす色だから、ダイエット中は青いものを」という話、聞いたことあるよね。実際に、青い光の下で食べる量が変わるのかを試した研究がある。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "白・黄・青の照明の下で朝ごはんを食べてもらった",
+        "body": "112人（男性62人・女性50人）に、白・黄・青のどれか1色の照明の下で、オムレツとミニパンケーキの朝食を食べてもらった。見た目の好ましさ、食べたい気持ち、味、食べた量を測った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "青で食べる量が減ったのは、男性だけだった",
+        "body": "青い照明だと、料理の見た目の好ましさは下がったけど、食べたい気持ちは変わらなかった。食べた量は、白や黄に比べて男性では減り、女性では差がなかった。味の強さや全体の印象も3色で差はなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の朝食での話で、やせるかは別",
+        "body": "調べたのは部屋の照明の色で、青いお皿や青い服の話ではない。1回の食事で食べた量を見ただけなので、毎日続けて体重が減るかはわからない。男女で結果が分かれた理由も、この研究ではわからなかった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/color-blue-appetite/"
+  },
+  {
+    "id": "color-baker-miller-pink",
+    "category": "色彩心理",
+    "kind": "よく聞く説",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Genschow, Noll, Wänke & Gersbach, \"Does Baker-Miller pink reduce aggression in prison detention cells? A critical empirical examination\" (Psychology, Crime & Law, 2015)",
+    "sourceUrl": "https://doi.org/10.1080/1068316x.2014.989172",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ピンクの部屋にいると、気持ちが落ち着く？",
+        "body": "「ベイカーミラーピンク」という色に塗った部屋は、怒りや攻撃性をしずめる——そう言われ、欧米では刑務所の独房をこの色に塗るところも出てきた。もとは30年以上前の研究だ。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "条件をそろえた実験で、もう一度確かめた",
+        "body": "ゲンショウたちは、もとの研究のやり方に問題があったと指摘した。そのうえで、条件をきっちりそろえて管理した実験をおこない、ベイカーミラーピンクが攻撃的な行動を減らすかを調べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "もとの研究の結果は、再現されなかった",
+        "body": "ピンクで攻撃的な行動が減るという、もとの結果は再現されなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの実験で、ほかの場面はまだ",
+        "body": "これは1つの実験の結果で、著者たち自身も限界があると書いている。調べたのは攻撃的な行動で、ピンクの部屋で「ほっとする」と感じるかどうかは別の問い。好きな色でくつろげる人がいても、この研究とは矛盾しない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "color-red-blue-task",
+        "type": "あわせて読む",
+        "why": "有名な色の効果が、追試で確かめられなかった別の例"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/color-baker-miller-pink/"
+  },
+  {
+    "id": "scent-aromatherapy-sleep",
+    "category": "香りと記憶",
+    "kind": "よく聞く説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Lin et al., \"Effects of aromatherapy on sleep quality: A systematic review and meta-analysis\" (Complementary Therapies in Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.ctim.2019.06.006",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ラベンダーなどのアロマで、ぐっすり眠れる？",
+        "body": "寝る前にラベンダーのアロマを焚くとよく眠れる、という話はよく聞くよね。睡眠グッズにも香りものがたくさん並んでいる。でも、ほんとうに眠りの質まで変わるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "くじ引きで分けた試験を31本まとめた",
+        "body": "2019年、リンたちは英語と中国語の医学データベースから、アロマテラピーと睡眠を調べたランダム化比較試験を探した。条件に合った31本の試験の結果を、メタ分析でまとめている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "全体では、眠りの質は良くなっていた",
+        "body": "31本をまとめると、アロマテラピーで睡眠の質ははっきり良くなっていた（効果の大きさ g=1.103）。ただ試験ごとの結果のばらつきがとても大きく、著者も「慎重に当てはめるべき」と書いている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験の質と、出版のかたよりが気になる",
+        "body": "偏りの心配が少ない試験は31本中4本だけで、26本は質がはっきりしなかった。効果が出た研究ほど発表されやすいかたより（出版バイアス）も見つかっている。どの香りがどれだけ効くかは、まだ言い切れない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "scent-odor-sleep-memory",
+        "type": "あわせて読む",
+        "why": "眠っている間の香りは、眠りの質でなく記憶の定着でも調べられている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/scent-aromatherapy-sleep/"
+  },
+  {
+    "id": "scent-human-pheromones",
+    "category": "香りと記憶",
+    "kind": "よく聞く説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Wyatt, \"The search for human pheromones: the lost decades and the necessity of returning to first principles\" (Proceedings of the Royal Society B, 2015)",
+    "sourceUrl": "https://doi.org/10.1098/rspb.2014.2994",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人にも異性を引きつけるフェロモンがある？",
+        "body": "「フェロモン入り」をうたう香水を見かけるよね。人にも、匂いで異性を引きつけたり気分を変えたりする物質がある、という話。研究で名前がよく出るのは、アンドロスタジエノンなど4つの物質なんだ。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "フェロモン研究の数十年をふり返った",
+        "body": "2015年、ワイアットが、人のフェロモンとされてきた研究をふり返った。対象は、アンドロステノン、アンドロステノール、アンドロスタジエノン、エストラテトラエノールの4つの物質だ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "4つが人のフェロモンだという確かな証拠はない",
+        "body": "4つの物質が人のフェロモンだという主張には、しっかりした証拠がないとワイアットは結論づけた。効果ありの結果も、人数の少なさ、効果の見積もりすぎ、効いた結果ばかり発表されること、追試がないことで、偽の陽性の可能性が高いという。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人のフェロモンがないとは言っていない",
+        "body": "人も哺乳類なので、フェロモンがある可能性はむしろ高いとも書いている。候補として皮脂腺や、授乳中の母親の乳輪から出て赤ちゃんの吸う動きを促す分泌物を挙げた。物質を特定する研究はこれからだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/scent-human-pheromones/"
+  },
+  {
+    "id": "scent-smell-loss-dementia",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Chen et al., \"Olfactory impairment and the risk of cognitive decline and dementia in older adults: a meta-analysis\" (Brazilian Journal of Otorhinolaryngology, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.bjorl.2020.07.009",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "匂いがわかりにくいと、認知症になりやすい？",
+        "body": "年をとると匂いがわかりにくくなる、と聞くよね。そして「嗅覚の衰えは認知症のサイン」という話も見かける。匂いがわかりにくい人は、その後もの忘れが進みやすいのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "高齢者を追いかけた研究を8本まとめた",
+        "body": "2021年、チェンたちは、始めの時点で認知機能に問題のない高齢者の嗅覚を調べ、その後の認知機能の変化を追った研究を集めた。8本、のべ1万3165人分をメタ分析している。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "嗅覚が落ちていた人は、リスクが高かった",
+        "body": "始めに嗅覚が落ちていた人は、追跡の終わりに認知機能が低下している割合が高かった。70〜80歳のグループでは、リスクはおよそ2倍（相対リスク2.00）。追跡の長さは結果にあまり影響しなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかも、1人ずつの予測も別の話",
+        "body": "見ているのは追跡した「関係」で、嗅覚の衰えが認知症を起こすのかはわからない。まとめた研究は8本だけで、匂いがわかりにくい人がみな認知症になるわけでもない。これは診断の目安ではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/scent-smell-loss-dementia/"
+  },
+  {
+    "id": "nature-forest-bathing-cortisol",
+    "category": "自然と健康",
+    "kind": "よく聞く説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Antonelli, Barbieri & Donelli, \"Effects of forest bathing (shinrin-yoku) on levels of cortisol as a stress biomarker: a systematic review and meta-analysis\" (International Journal of Biometeorology, 2019)",
+    "sourceUrl": "https://doi.org/10.1007/s00484-019-01717-x",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "森林浴で、ストレスは本当に減る？",
+        "body": "「森を歩くとストレスが減る」——森林浴は日本で生まれた言葉で、今は海外でも shinrin-yoku と呼ばれているよね。気分の話だけじゃなく、体の数字でも変わるのかが気になるところ。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "ストレスホルモンを測った研究を集めた",
+        "body": "2019年、アントネッリたちは、森林浴の前後で唾液や血液のコルチゾール（ストレスで増えるホルモン）を測った研究を探した。971本を確かめて22本をレビューに、そのうち8本を数字でまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "森にいるほうが、コルチゾールは低かった",
+        "body": "22本のうち2本を除くすべてで、森の群は街などと比べてコルチゾールが低いか、森林浴の前後で下がっていた。8本のまとめでも、森の群は街の群より唾液のコルチゾールが低かった。短い期間ではストレスを下げるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「森に行ける」と期待するだけでも下がるかも",
+        "body": "実は森の群は、森林浴をする前からコルチゾールが低かった。著者たちは「楽しみにする気持ち（プラセボ）」も大きく効いているかもしれないと書いている。データも少なく、長く続く効果かはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nature-greenspace-metaanalysis",
+        "type": "あわせて読む",
+        "why": "森に限らず緑地全体でも、唾液のコルチゾールが低いという結果"
+      },
+      {
+        "id": "nature-walk-rumination-bratman",
+        "type": "あわせて読む",
+        "why": "自然の中を歩くと、くよくよ考える反すうが減ったという実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/nature-forest-bathing-cortisol/"
+  },
+  {
+    "id": "nature-houseplants-air-quality",
+    "category": "自然と健康",
+    "kind": "よく聞く説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Cummings & Waring, \"Potted plants do not improve indoor air quality: a review and analysis of reported VOC removal efficiencies\" (Journal of Exposure Science & Environmental Epidemiology, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41370-019-0175-9",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "観葉植物を置くと、部屋の空気がきれいになる？",
+        "body": "「この植物は空気をきれいにする」——お店やネットでよく見る話だよね。もとは、密閉した小さな箱に植物を入れると、空気中の化学物質（VOC）が減ったという実験。それが部屋でも通じるのかが問題。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "箱の実験の数字を、部屋の数字に直してみた",
+        "body": "カミングスとウォーリングは、箱で植物を試した研究12本を集め、196の実験結果を「1時間に何立方メートル分の空気をきれいにするか」という空気清浄機と同じ物差しに直して比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "効果を出すには、植物が何百鉢もいる",
+        "body": "植物1鉢がきれいにできる空気は、真ん中の値で1時間に0.023立方メートル。ふつうの建物で外の空気が入れ替わるのと同じだけ減らすには、床1平方メートルあたり10〜1000鉢が必要という計算になった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "空気以外の良さは、別に確かめる必要がある",
+        "body": "これは過去の箱の実験を計算し直したもので、実際の部屋で測ったわけではない。著者たちは、植物が気分や仕事のはかどり方に良いかどうかは、空気とは別に、部屋での研究で確かめるべきだと書いている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/nature-houseplants-air-quality/"
+  },
+  {
+    "id": "nature-negative-air-ions-mood",
+    "category": "自然と健康",
+    "kind": "よく聞く説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Perez, Alexander & Bailey, \"Air ions and mood outcomes: a review and meta-analysis\" (BMC Psychiatry, 2013)",
+    "sourceUrl": "https://doi.org/10.1186/1471-244X-13-29",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "マイナスイオンで、気分は良くなる？",
+        "body": "滝や森で「マイナスイオンを浴びるとリラックスできる」と言われるよね。空気中のイオンが心に効くという話は、80年以上前からメディアや研究で取り上げられてきたらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "人で試した33本の実験をまとめた",
+        "body": "2013年、ペレスたちは、1957〜2012年に発表された、人に空気中のイオンを当てて不安・気分・落ち込みなどを調べた実験33本を整理した。落ち込みを面接で測った5本は、数字でまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "リラックスや眠りには、決まった効果がなかった",
+        "body": "不安・気分・リラックスや眠り・心地よさには、マイナスでもプラスでも一貫した効果は見られなかった。ただ、うつの人を対象にした5本では、マイナスイオンを浴びた群で落ち込みの点数が低いという関連があった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ効くのかは、まだ説明できていない",
+        "body": "落ち込みとの関連は、季節性や慢性のうつの人での話で、浴びた時間や回数を増やしても変わらなかった。体の中で何が起きるのかは今後の研究が必要とされる。ドライヤーなどの家電で同じことが起きるかは、この研究ではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/nature-negative-air-ions-mood/"
   }
 ]

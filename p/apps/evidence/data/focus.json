@@ -207,5 +207,37 @@
   "japan-eat-then-sleep": {
     "kw": "食べてすぐ寝る",
     "title": "食べてすぐ寝ると体に悪い？ 研究でわかったこと"
+  },
+  "color-blue-appetite": {
+    "kw": "青 食欲減退",
+    "title": "青い色で食欲は減る？ 実験でわかったこと"
+  },
+  "color-baker-miller-pink": {
+    "kw": "ベイカーミラーピンク",
+    "title": "ベイカーミラーピンクで気持ちは落ち着く？ 追試でわかったこと"
+  },
+  "scent-aromatherapy-sleep": {
+    "kw": "ラベンダー 睡眠",
+    "title": "ラベンダーやアロマでよく眠れる？ 31の試験のメタ分析でわかったこと"
+  },
+  "scent-human-pheromones": {
+    "kw": "人間 フェロモン",
+    "title": "人間にフェロモンはある？ 研究でわかったこと"
+  },
+  "scent-smell-loss-dementia": {
+    "kw": "嗅覚 認知症",
+    "title": "匂いがわかりにくいと認知症になりやすい？ メタ分析でわかったこと"
+  },
+  "nature-forest-bathing-cortisol": {
+    "kw": "森林浴 効果",
+    "title": "森林浴でストレスは減る？ メタ分析でわかったこと"
+  },
+  "nature-houseplants-air-quality": {
+    "kw": "観葉植物 空気清浄",
+    "title": "観葉植物で空気はきれいになる？ 論文でわかったこと"
+  },
+  "nature-negative-air-ions-mood": {
+    "kw": "マイナスイオン",
+    "title": "マイナスイオンに効果はある？ メタ分析でわかったこと"
   }
 }
