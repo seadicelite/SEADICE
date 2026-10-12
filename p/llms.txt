@@ -58,7 +58,7 @@
 ## 主要ページ
 
 - [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ
-- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など48分野・340本以上の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
+- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など48分野・360本以上の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
   よく聞く説を確かめる（1問1ページ、結論・研究の種類・論文DOIつき）:
   - [習慣化は21日？66日？ 論文でわかったこと](https://seadice.win/evidence/habits/habit-66days/)
   - [意志力は使うと減る？ 23の研究室の追試でわかったこと](https://seadice.win/evidence/replication/replication-ego-depletion/)
@@ -79,6 +79,14 @@
   - [女性はマルチタスクが得意は本当？ 研究でわかったこと](https://seadice.win/evidence/focus/focus-multitask-gender/)
   - [ながら作業ばかりだと気が散る頭になる？ 追試でわかったこと](https://seadice.win/evidence/replication/replication-media-multitasking/)
   - [傍観者効果は本当？ メタ分析でわかったこと](https://seadice.win/evidence/criminal-psychology/hanzai-bystander-effect-meta/)
+  - [性格は変えられる？ 207の研究のメタ分析でわかったこと](https://seadice.win/evidence/personality/personality-change-intervention/)
+  - [性格で寿命は変わる？ メタ分析でわかったこと](https://seadice.win/evidence/personality/personality-conscientiousness-longevity/)
+  - [ビッグファイブ診断は当てになる？ 78の関係を調べ直した研究でわかったこと](https://seadice.win/evidence/personality/personality-big-five-life-outcomes/)
+  - [美人は得は本当？ メタ分析でわかったこと](https://seadice.win/evidence/face-impression/face-beauty-advantage/)
+  - [顔で性格はわかる？ AIと1万2千人の写真でわかったこと](https://seadice.win/evidence/face-impression/face-ai-personality/)
+  - [「病は気から」は本当？ 202の試験をまとめた研究でわかったこと](https://seadice.win/evidence/japan/japan-illness-from-mind/)
+  - [「早起きは三文の徳」は本当？ 43万人の追跡でわかったこと](https://seadice.win/evidence/japan/japan-early-bird/)
+  - [食べてすぐ寝ると体に悪い？ 研究でわかったこと](https://seadice.win/evidence/japan/japan-eat-then-sleep/)
   - [単純接触効果は本当？ メタ分析でわかったこと](https://seadice.win/evidence/decision-bias/bias-mere-exposure/)
   - [朝食を抜くと太るは本当？ メタ分析でわかったこと](https://seadice.win/evidence/food-brain/food-breakfast-weight/)
   - [ピグマリオン効果は本当？ 35年分の研究でわかったこと](https://seadice.win/evidence/replication/replication-pygmalion-teacher/)

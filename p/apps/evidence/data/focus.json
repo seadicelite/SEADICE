@@ -175,5 +175,37 @@
   "food-breakfast-weight": {
     "kw": "朝食 抜くと太る",
     "title": "朝食を抜くと太るは本当？ メタ分析でわかったこと"
+  },
+  "personality-change-intervention": {
+    "kw": "性格 変えられる",
+    "title": "性格は変えられる？ 207の研究のメタ分析でわかったこと"
+  },
+  "personality-conscientiousness-longevity": {
+    "kw": "性格 寿命",
+    "title": "性格で寿命は変わる？ メタ分析でわかったこと"
+  },
+  "personality-big-five-life-outcomes": {
+    "kw": "ビッグファイブ 診断",
+    "title": "ビッグファイブ診断は当てになる？ 78の関係を調べ直した研究でわかったこと"
+  },
+  "face-beauty-advantage": {
+    "kw": "美人は得",
+    "title": "美人は得は本当？ メタ分析でわかったこと"
+  },
+  "face-ai-personality": {
+    "kw": "顔で性格がわかる",
+    "title": "顔で性格はわかる？ AIと1万2千人の写真でわかったこと"
+  },
+  "japan-illness-from-mind": {
+    "kw": "病は気から",
+    "title": "「病は気から」は本当？ 202の試験をまとめた研究でわかったこと"
+  },
+  "japan-early-bird": {
+    "kw": "早起きは三文の徳",
+    "title": "「早起きは三文の徳」は本当？ 43万人の追跡でわかったこと"
+  },
+  "japan-eat-then-sleep": {
+    "kw": "食べてすぐ寝る",
+    "title": "食べてすぐ寝ると体に悪い？ 研究でわかったこと"
   }
 }

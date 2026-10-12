@@ -6312,6 +6312,11 @@
         "id": "circadian-morning-phase-advance",
         "type": "あわせて読む",
         "why": "朝の光で体内時計が早まることを、実験と野外の両方で示す"
+      },
+      {
+        "id": "japan-early-bird",
+        "type": "あわせて読む",
+        "why": "はっきりした夜型は、43万人の追跡で死亡リスクが約10%高かった"
       }
     ]
   },
@@ -12368,6 +12373,11 @@
         "id": "replication-birth-order",
         "type": "あわせて読む",
         "why": "生まれ順では性格の差が見られず、年代では変化が見られた"
+      },
+      {
+        "id": "personality-change-intervention",
+        "type": "あわせて読む",
+        "why": "介入を受けると、平均24週で性格の測定値がはっきり変わった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/personality/personality-change-adulthood/"
@@ -12554,6 +12564,11 @@
         "id": "love-ideal-partner-preferences",
         "type": "あわせて読む",
         "why": "顔の魅力が実際の相手選びでどれだけ効くかを調べたメタ分析"
+      },
+      {
+        "id": "face-beauty-advantage",
+        "type": "あわせて読む",
+        "why": "魅力的な顔の人が、まわりからどう見られ扱われるかをまとめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/face-impression/face-averageness-beauty/"
@@ -12681,6 +12696,11 @@
         "id": "food-breakfast-weight",
         "type": "あわせて読む",
         "why": "この実験の遅い日は朝食抜き。朝食と体重の試験をまとめた研究と並べて読める"
+      },
+      {
+        "id": "japan-eat-then-sleep",
+        "type": "あわせて読む",
+        "why": "夕食から3時間たたずに寝る人は、胸やけの病気の割合が高かった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-late-eating-hunger/"
@@ -12819,5 +12839,335 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-chewing-appetite"
+  },
+  {
+    "id": "personality-change-intervention",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Roberts et al., \"A systematic review of personality trait change through intervention\" (Psychological Bulletin, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000088",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "性格って、自分で変えられるの？",
+        "body": "「この心配性、なんとかしたい」と思ったことはあるよね。でも性格は生まれつきで、変えようとしても変わらない、という声もよく聞く。カウンセリングや練習で、性格そのものは動くのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "介入の前後で性格を測った207件をまとめた",
+        "body": "2017年、ロバーツたちは、治療などの介入のあいだに性格の測定値がどう変わったかを追った研究を207件集めて、メタ分析した。くじで分けた実験も、前後を比べただけの研究も含んでいる。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "平均24週で、性格の測定値ははっきり変わった",
+        "body": "介入を受けると、平均24週で性格の測定値がはっきり変わった（効果量 d = 0.37 など）。いちばん変わったのは情緒の安定さで、次が外向性。治療以外の介入でも見られ、終わった後の追跡でも続いていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "対象の多くは治療を受けた人たち",
+        "body": "中心は病院などで治療を受けた人のデータで、不安の悩みの人がいちばん変わり、依存の治療の人はいちばん変わらなかった。悩みのない人が自分で取り組んだときに同じくらい変わるかは、まだはっきりしない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "personality-change-adulthood",
+        "type": "あわせて読む",
+        "why": "年齢とともに自然に変わる話と、介入で変わる話の両面から見られる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/personality-change-intervention/"
+  },
+  {
+    "id": "personality-big-five-life-outcomes",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Soto, \"How Replicable Are Links Between Personality Traits and Consequential Life Outcomes? The Life Outcomes of Personality Replication Project\" (Psychological Science, 2019)",
+    "sourceUrl": "https://doi.org/10.1177/0956797619831612",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ビッグファイブ診断の結果って、人生と関係あるの？",
+        "body": "ビッグファイブは、性格を5つの軸で測る心理学の考え方。「この5つで仕事や人間関係まで予想できる」という研究がたくさんあるけど、心理学では再現できない研究も話題になったよね。本当に当てになるのかな。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "78個の「性格と人生」の関係をやり直した",
+        "body": "2019年、ソトは、過去に発表された性格と人生の出来事の関係78個を、事前に計画を登録したうえで、もう一度調べ直した。調べた人数は1回あたり中央値で1,504人と、大きな規模だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "87%は同じ向きで再現、ただし強さは小さめ",
+        "body": "やり直した調査の87%で、元の研究と同じ向きの関係が出た。ただ関係の強さは、ふつう元の研究の77%くらいに下がっていた。性格と人生の関係の地図は、だいたい正しいけど少し大げさだった、ということらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関係があっても、原因かどうかは別の話",
+        "body": "これは調査データで関係を見たもので、性格が人生を変えた原因かまではわからない。それに、集団の平均で見つかる関係なので、あなた1人の将来を診断結果で当てられるという意味ではない点にも気をつけたい。"
+      }
+    ],
+    "links": [
+      {
+        "id": "personality-conscientiousness-longevity",
+        "type": "あわせて読む",
+        "why": "性格と人生の関係のうち、寿命とのつながりをメタ分析で詳しく見ている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/personality-big-five-life-outcomes/"
+  },
+  {
+    "id": "personality-conscientiousness-longevity",
+    "category": "性格と性格診断",
+    "kind": "よく聞く説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Kern & Friedman, \"Do conscientious individuals live longer? A quantitative review\" (Health Psychology, 2008)",
+    "sourceUrl": "https://doi.org/10.1037/0278-6133.27.5.505",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "性格で寿命が変わる？",
+        "body": "「几帳面な人は長生きする」「のんきな人のほうが長生き」——性格と寿命の話はいろいろ聞くよね。性格のなかでも、きちんと計画して続ける「誠実性」が長生きと関係する、という研究がある。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "20の集団のデータをまとめて分析した",
+        "body": "2008年、カーンとフリードマンは、誠実性に関わる性格と、死亡のリスクや寿命との関係を調べた20の独立した集団のデータを集めて、メタ分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "誠実性が高い人ほど、少し長生きだった",
+        "body": "誠実性が高い人ほど長生きする傾向があった（相関 r = 0.11）。とくに関係が強かったのは、粘り強くやり抜く面と、整理して規律を守る面。関係ははっきりあるけど、強さとしては小さめだよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "性格が原因なのか、まだ分けきれていない",
+        "body": "これは関係を見た研究のまとめで、性格そのものが寿命を延ばすのか、健康的な暮らし方など別の理由を通しているのかは分けきれていない。著者たちも、健康の出来事が逆に性格を形づくる可能性を挙げている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "personality-big-five-life-outcomes",
+        "type": "あわせて読む",
+        "why": "性格と人生の関係が、追試でどのくらい再現されたかを確かめている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/personality-conscientiousness-longevity/"
+  },
+  {
+    "id": "face-beauty-advantage",
+    "category": "顔と第一印象",
+    "kind": "よく聞く説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Langlois et al., \"Maxims or myths of beauty? A meta-analytic and theoretical review\" (Psychological Bulletin, 2000)",
+    "sourceUrl": "https://doi.org/10.1037/0033-2909.126.3.390",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "見た目がいい人は、やっぱり得をする？",
+        "body": "「美人は得」とよく言われるよね。一方で「見た目より中身」「美人は3日で飽きる」という言葉もある。見た目は、まわりからの見られ方や扱われ方に本当に関係しているのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "見た目の研究を11のメタ分析でまとめた",
+        "body": "2000年、ラングロワたちは、子どもと大人の見た目の魅力について調べた研究を集め、11のメタ分析で整理した。誰が魅力的かで人の意見がそろうのか、見られ方や扱われ方に差があるのかを見ている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "見られ方にも扱われ方にも差があった",
+        "body": "誰が魅力的かは、同じ文化の中でも文化をこえても、かなり意見がそろった。魅力的な子どもや大人は、よく知っている人からも、より良く評価され、より良く扱われていた。「見た目は関係ない」という格言とは合わない結果だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何が原因で、どれくらいの差かは別の話",
+        "body": "まとめたのは、見た目と評価・扱われ方がいっしょに動くという関係。見た目そのものが原因か、育つ中で扱われ方が積み重なった結果かは分けきれていない。収入などの差の大きさや、2000年以降の変化もこの研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "face-averageness-beauty",
+        "type": "あわせて読む",
+        "why": "そもそも、どんな顔が魅力的に見えるのかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/face-beauty-advantage/"
+  },
+  {
+    "id": "face-width-aggression",
+    "category": "顔と第一印象",
+    "kind": "よく聞く説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Geniole et al., \"Evidence from Meta-Analyses of the Facial Width-to-Height Ratio as an Evolved Cue of Threat\" (PLOS ONE, 2015)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0132726",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "顔の横幅が広い人は、攻撃的？",
+        "body": "「えらが張った幅広の顔の男性は攻撃的」という話を見かけることがあるよね。研究では、顔の横幅を上半分の高さで割った「顔の縦横比」として調べられている。この比は、ふるまいと本当に関係するのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "顔の縦横比の研究をまとめて分析した",
+        "body": "2015年、ジェニオールたちは、顔の縦横比を扱った査読つきの研究すべて（と未発表の2件）を集めてメタ分析した。実際のふるまいとの関係と、見た人がどう感じるかの両方を調べている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "実際の関係は小さく、見た目の印象のほうが強い",
+        "body": "幅の広い顔は、見た人から「怖そう」と感じられやすかった（相関0.46、顔1,691枚）。でも男性の実際の攻撃的なふるまいとの関係は相関0.16（4,603人）と小さめ。印象ほどには、ふるまいの違いは大きくなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1人の顔から性格を決めることはできない",
+        "body": "わかったのは集団で見たときの弱い傾向で、目の前の1人に当てはめられるほどではない。見た目の印象を調べた研究では、女性や年配の人の顔がまだ少ないと著者自身が書いている。顔の形が原因なのか、扱われ方の影響なのかも分かれていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-width-aggression"
+  },
+  {
+    "id": "face-ai-personality",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Kachur et al., \"Assessing the Big Five personality traits using real-life static facial images\" (Scientific Reports, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-020-65358-6",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIなら、顔写真で性格がわかる？",
+        "body": "「顔で性格がわかる」「AIが顔写真から性格タイプを判定」という診断をよく見かけるよね。人の目ではなく、たくさんの写真を学習したAIなら、顔から性格を当てられるのかな。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "1万2千人の写真と性格テストを照らし合わせた",
+        "body": "2020年、カチュールたちは、ボランティア12,447人から顔写真31,367枚と性格テスト（ビッグファイブ）の回答を集めた。AIに写真から性格の点数を予想させ、本人の回答とどれくらい合うかを調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少しは合うけれど、当たりは弱い",
+        "body": "いちばん合ったのは「まじめさ」で、相関は男性0.360、女性0.335。5つの性格の平均は0.243だった。偶然よりは合っているけれど、1人の性格を言い当てられるほどの強さではない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIが顔のどこを見ているかはわからない",
+        "body": "AIが顔の形を手がかりにしたのか、表情や写真の撮り方など顔以外の手がかりを使ったのかは、この研究では分けられていない（著者も今後の課題としている）。性格は本人の自己申告で、写真を出したのもボランティアだけだった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/face-ai-personality/"
+  },
+  {
+    "id": "japan-illness-from-mind",
+    "category": "日本でよく聞く説",
+    "kind": "よく聞く説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Hróbjartsson & Gøtzsche, \"Placebo interventions for all clinical conditions\" (Cochrane Database of Systematic Reviews, 2010)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD003974.pub3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「病は気から」って本当？",
+        "body": "気の持ちようで病気は良くも悪くもなる、ってよく言うよね。その代表がプラセボ効果。薬の成分が入っていない偽の薬でも、効くと思えば体が良くなる、という話。じゃあ、それはどのくらい本当なんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "「偽の治療」と「何もしない」を比べた試験を集めた",
+        "body": "2010年、医療の研究をまとめるコクランの研究者2人が、偽の治療を受けるグループと、何もしないグループをくじで分けた試験を集めてまとめた。数字が使えたのは234件のうち202件、扱った病気や症状は60種類にのぼった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "全体では大きな効果はなかった。痛みと吐き気は少し",
+        "body": "偽の治療は、全体としては病気そのものに大事な効果を示さなかった。ただ、痛みや吐き気のように本人が感じて答える症状では、少し良くなったと答える傾向があった。痛みへの効果は試験によってばらばらだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「本当に楽になった」のか「そう答えた」のか",
+        "body": "本人の答えで良くなったように見えても、本当に楽になったのか、答え方が変わっただけなのかは区別しにくいと著者は書いている。偏りが少ないと判断できた試験は16件（8%）だけ。気持ちが病気をどこまで動かすかは、まだはっきりしない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/japan-illness-from-mind/"
+  },
+  {
+    "id": "japan-early-bird",
+    "category": "日本でよく聞く説",
+    "kind": "よく聞く説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Knutson & von Schantz, \"Associations between chronotype, morbidity and mortality in the UK Biobank cohort\" (Chronobiology International, 2018)",
+    "sourceUrl": "https://doi.org/10.1080/07420528.2018.1454458",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「早起きは三文の徳」って本当？",
+        "body": "朝早く起きる人は得をする、ってことわざだよね。朝型の人のほうが健康で、夜型は体に悪いと聞くこともある。じゃあ、朝型か夜型かで、病気や寿命に本当に差が出るんだろうか。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "イギリスの43万人を約6年半追いかけた",
+        "body": "2018年、ナットソンとフォン・シャンツは、イギリスの大規模な健康調査（UKバイオバンク）に参加した38〜73歳の433,268人を、平均6.5年追跡した。自分は朝型か夜型かを4段階で答えてもらい、病気や死亡との関係を見た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "はっきりした夜型は、少しだけ死亡リスクが高かった",
+        "body": "年齢・喫煙・睡眠時間などをそろえても、はっきりした夜型の人ははっきりした朝型の人より、追跡中に亡くなるリスクが約10%高かった。心の不調（約1.9倍）や糖尿病（約1.3倍）を持つ人の割合も、夜型ほど多かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "早起きに変えれば得をするかは、別の話",
+        "body": "これは追跡して比べた研究で、夜型そのものが原因かはわからない。著者は、体内時計と仕事や社会の時間がずれ続けることが一因かもしれないと考えている。対象はイギリスの中高年で、朝型か夜型かは自己申告の1問だけだった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-camping-natural-light",
+        "type": "あわせて読む",
+        "why": "夜型の体内時計は光の浴び方で早められる、という実験。朝型に近づけるかを考えるときに"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/japan-early-bird/"
+  },
+  {
+    "id": "japan-eat-then-sleep",
+    "category": "日本でよく聞く説",
+    "kind": "よく聞く説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Fujiwara et al., \"Association Between Dinner-to-Bed Time and Gastro-Esophageal Reflux Disease\" (The American Journal of Gastroenterology, 2005)",
+    "sourceUrl": "https://doi.org/10.1111/j.1572-0241.2005.00354.x",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「食べてすぐ寝ると牛になる」って本当？",
+        "body": "子どものころに言われたよね。もちろん牛にはならないけど、食べてすぐ横になるのは体に良くない、という意味では今も言われる。特に、胃の中身が食道に上がってくる胸やけ（逆流性食道炎）との関係が気にされているらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "夕食から寝るまでの時間を、患者と健康な人で比べた",
+        "body": "2005年、フジワラたちは、胃の中身が逆流して胸やけなどが起きる病気（GERD）の患者147人と、年齢と性別をそろえた症状のない294人に、夕食を食べ終えてから寝るまでの時間をアンケートで聞いて比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3時間たたずに寝る人は、GERDの割合が高かった",
+        "body": "喫煙・飲酒・体格をそろえても、夕食から寝るまでが短いほどGERDの人が多かった。3時間未満の人は、4時間以上空ける人に比べてGERDである見込み（オッズ）が約7.5倍だった。昔からの「3時間は空ける」という勧めに合う結果。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "すぐ寝るのが原因か、までは言えない",
+        "body": "これは患者とそうでない人を比べた研究で、すぐ寝ることが病気を起こしたのか、ほかの生活習慣が関係しているのかは分けられない。寝るまでの時間は本人の申告だけ。体重が増えるか（牛になるか）は調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "foodmyth-late-eating-hunger",
+        "type": "あわせて読む",
+        "why": "食べる時間を遅らせると空腹や消費がどう変わるかの実験。太るかの話はこちら"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/japan-eat-then-sleep/"
   }
 ]
