@@ -437,6 +437,15 @@ bool _isNewer(String latest, String current) {
 - **生成**: `flutter pub get && dart run flutter_native_splash:create`。ロゴを使っていたアプリは `image:` の行と `assets/splash/` を消してから生成する
 - 既存アプリは、改修するついでに `/improve-app` のチェックでロゴを外す（ロゴを外すためだけの再申請はしない）
 
+## 文字の大きさとレスポンシブ（全アプリ、2026-10-13〜）
+
+「下から出るシートの文字が小さい」「iPad・Macで間延びする」とユーザーから指摘があった（エニアグラム 1.1.0 で修正）。
+
+- **下から出る読みもの（showModalBottomSheet）**: 本文は `fontSize: 16`・`height: 1.8` 以上を明示する（未指定だと14pxになる）。`isScrollControlled: true`・`useSafeArea: true` にし、中身を `SingleChildScrollView` で包んで高さは画面の85%まで（既定だと画面の半分で切れ、長い本文がはみ出す）。`constraints: BoxConstraints(maxWidth: 640)` でiPad・Macでも読みやすい幅にする。見本: 心理学系/enneagram の `_showReadingSheet`
+- **タブレット・Mac**: `MaterialApp.builder` で、画面の短い辺が600以上なら `textScaler` を1.15倍にする（端末の文字サイズ設定に掛け合わせる）。本文の列は `ConstrainedBox(maxWidth: 600〜900)` で中央に置く
+- **小さすぎる文字を作らない**: 補助テキストも12px以上。タブのラベルなど幅が足りないときだけ11pxまで
+- **はみ出しを防ぐ**: アイコン＋見出しの `Row` では、見出しを `Expanded` で包む（英語など長い訳で横にはみ出す）。リリース前に、スマホ幅とiPad幅、日本語と長い言語で結果画面を描画するウィジェットテストを1本置く
+
 ## キーボードを閉じられない不具合の防止（全アプリ必須）
 
 多くのアプリで「入力後キーボードが自動で下がらず、次の画面に進めない」不具合が繰り返し発生している。原因はほぼ常に「画面のどこをタップしてもキーボードを閉じる仕組みが入っていない」こと。新規アプリ・既存アプリ改修時は必ず以下を実装する。
