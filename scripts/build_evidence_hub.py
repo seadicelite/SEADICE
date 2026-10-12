@@ -36,7 +36,7 @@ SLUGS = {
     "記憶のしくみ": "memory", "習慣形成": "habits", "先延ばし対策": "procrastination",
     "意思決定バイアス": "decision-bias", "お金の心理学": "money", "スマホとSNS": "smartphone-sns",
     "デジタルデトックス": "digital-detox", "AIとのつきあい方": "ai", "子育ての科学": "parenting",
-    "親の老いと介護": "aging-parents", "仕事と働き方": "work", "ペットの科学": "pets", "恋愛と人間関係": "love", "防犯の心理": "crime-prevention", "犯罪の心理": "criminal-psychology",
+    "親の老いと介護": "aging-parents", "仕事と働き方": "work", "ペットの科学": "pets", "恋愛と人間関係": "love", "心理学の再現性": "replication", "日本でよく聞く説": "japan", "脳の神話": "brain-myths", "防犯の心理": "crime-prevention", "犯罪の心理": "criminal-psychology",
 }
 
 e = lambda s: html.escape(str(s), quote=True)

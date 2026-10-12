@@ -1,0 +1,33 @@
+# EVIDENCEアプリのトピックを調べて追加する
+
+研究にもとづくアプリ「EVIDENCE」と、そのサイト seadice.win/evidence/ に載せる短いトピック（カード3〜4枚）を、論文を確かめながら追加する。データは `p/apps/evidence/data/topics.json`（アプリはここを読み込むので、アプリの再申請なしで反映される）。
+
+## 1本の形
+```json
+{
+  "id": "英小文字とハイフン（既存と重複しない）",
+  "category": "分野名（既存の分野名に合わせる）",
+  "kind": "よくある説 | 素朴な疑問 | 研究紹介",
+  "themeColor": "#RRGGBB（同じ分野の既存トピックと同じ色）",
+  "sourceLabel": "Author et al., \"Title\" (Journal, Year)",
+  "sourceUrl": "https://doi.org/<DOI>",
+  "cards": [{"stage": "見出しラベル", "title": "...", "body": "..."}]
+}
+```
+メディアに同じテーマの記事があるときだけ `articleUrl`（記事URL）と `articleSite`（メディア名）を付ける（URLは curl で200を確かめる）。
+
+## 書き方
+- 友だちに話すように。「〜だよね」「実は」「〜らしい」はOK。1枚の本文は120字前後まで。カード3〜4枚、見出し（stage）は自由
+- **最後か最後から2枚目に必ず「まだわからないこと」**：相関か因果か、対象者（国・年齢・人数）、実験室の話か、再現されたか
+- 結論は研究のとおりに書く。問いに都合のいい答えにしない。混ざった結果なら「混ざっている」と書く
+- 「証明された」「絶対」「〜で治る」は使わない。病気の診断・治療の助言、商品のおすすめ、人を操る方法は扱わない
+- 有名な元の研究を紹介するときも、出典は追試・メタ分析などいちばん新しく強い研究にする
+
+## 事実の確かめ方（省略しない）
+- DOIは https://api.crossref.org/works/{DOI} で実在・タイトル一致・撤回されていないこと（update-to / relation に retraction がない）を確かめる
+- 数字・人数・国・条件・所属は、論文の要旨か本文（Europe PMC: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:{DOI}&resultType=core&format=json 、なければ PubMed や出版社ページ）で確かめたものだけ書く。確かめられない数字は書かない
+- データの不正が指摘された研究者・撤回された論文は使わない
+- 外部サービスに個人情報を送らない（DOIやキーワードで公開APIを引くだけ）
+
+## 重複させない
+- 既存の topics.json の id・タイトル・sourceUrl と比べ、同じ研究・同じ問いは書かない
