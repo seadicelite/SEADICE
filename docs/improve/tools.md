@@ -41,6 +41,7 @@ docs/tools.md（2026-10-12 初版）
 1. **出典リンクの追加**: 上の16件に、論文まで確かめた DOI を「出典」の節で足す（caffeine-cutoff の Gardiner 2023 から。確かめられない数字は書かない）。続けて棚卸し（検索語・Search Console の表示・磨く／まとめる／外す案）を10件ずつ。元の項目: p/tools/ のうちブラウザで動くツールを一覧にし、「AIが補えない部分」があるか・狙う検索語・Search Console の表示の有無を表にする（1回で10件ずつ）。磨く／まとめる／検索から外すの案をつける
 
 ## やったこと
+- 2026-10-13: 子育てメディアに「朝の様子の記録（登校しぶり）」（kosodate.seadice.win/asa-kiroku/、狙う語「登校しぶり 記録」）を新設。行けた・遅れて・途中で帰った・休んだと朝の訴えを1タップで記録し、4週間のカレンダー・曜日ごとの割合・学校や相談先に見せるまとめ（コピー・共有）を出す。端末内保存・書き出し/読み込みあり、判定はしない。同日に書いた不登校のはじまりの記事と相互リンク。あわせて kosodate-matrix.json（13テーマ×5問い、65マス中41マス）を作り、毎朝の執筆が空きマスから選ぶようにした。生成は seadice-media/media/kosodate_kiroku_tool.py
 - 2026-10-13: 防犯メディアに「空き巣の目で、わが家を点検」（bohan.seadice.win/akisu-me/、狙う語「空き巣に狙われやすい家 チェック」）を新設。警察庁の下見の3点（留守か・近づけるか・時間がかかるか）の順に14項目から隙を選ぶと、下見メモ・警戒期間・手間の小さい順の直し方を出す。文言は空き巣の記事8本の「今日からできること」だけ。既存の犯罪学「自宅の防犯チェック」（4原則・18項目）とは並べ方と結果を変え、相互の役割を本文に書いた。生成は seadice-media/media/bohan_tools.py の AKISU
 - 2026-10-12: 点検。p/tools・p/diagnosis 281ページのうちブラウザで動く（JSあり）ものは26件（診断16・ツール10）。sd-tool/use タイプ・noindex は問題なし。出典リンク（DOI・公的資料）なし 16件、FAQPage なし 8件、外部リクエスト 1件（tools/appstore-niche の fetch）
 - 2026-10-12: 棚卸し（1回目）。出典リンクがないのは診断8件（bigfive-lite・career-type・hidden-personality・mbti-lite・profile・renai-type・self-esteem・stress-type）とツール8件（appstore-niche・caffeine-cutoff・fukushu-timing・image-resize・kyukei-timer・sabusuku-minaoshi・saki-ni-ugoku・suimin-fusai）。caffeine-cutoff は本文に Gardiner ら(2023) とあるが DOI リンクがなく、DOI は確かめられていないので足していない
