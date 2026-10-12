@@ -1,5 +1,185 @@
 [
   {
+    "id": "insight-sleep-onset-n1",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Lacaux et al., \"Sleep onset is a creative sweet spot\" (Science Advances, 2021)",
+    "sourceUrl": "https://doi.org/10.1126/sciadv.abj5866",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "うとうとした瞬間にひらめく？",
+        "body": "発明家のエジソンは、玉を手に持ってうたた寝し、落ちた音で起きてアイデアを書き留めたという話があるよね。寝入りばなに、本当にひらめきやすいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "手にボトルを持って20分休む",
+        "body": "103人に、隠れた近道に気づけば一瞬で解ける数字の問題を解いてもらい、途中で20分、目を閉じてボトルを手に持ったまま休んでもらった。休憩中の眠りの深さは脳波で測った。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "浅いうとうとで近道に気づく人が多かった",
+        "body": "ごく浅い眠り（N1）に15秒以上入った人は83%が近道に気づき、起きていた人の30%を大きく上回った。でも、もっと深い眠りまで入った人では14%で、効果は消えた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "眠るかどうかは選べなかった",
+        "body": "眠ったかどうかで後から分けたので、くじ引きで分けた比較ではない。浅い眠りの人は24人だけ。平均23歳のパリの健康な人が、1種類の数字の問題を解いた実験で、仕事のアイデアでも同じかは未確認。"
+      }
+    ],
+    "links": [
+      {
+        "id": "insight-incubation-meta",
+        "type": "あわせて読む",
+        "why": "「いったん離れる」効果のまとめと、離れている間の浅い眠りを調べた1つの実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-sleep-onset-n1"
+  },
+  {
+    "id": "brain-male-female-mosaic",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Joel et al., \"Sex beyond the genitalia: The human brain mosaic\" (PNAS, 2015)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1509654112",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "脳には男脳と女脳がある？",
+        "body": "「男は地図が読めて、女は気持ちを読むのが得意。脳のつくりが違うから」なんて話、よく聞くよね。脳は本当に男性型・女性型の2つに分かれるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,400人以上の脳の画像を見た",
+        "body": "4つのデータから1,400人以上の脳のMRI画像を集め、灰白質・白質・つながりの特徴を男女で比べた研究がある。性格・関心・行動についても、5,500人以上のデータで同じように調べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "多くの脳は「モザイク」だった",
+        "body": "男女の差がある特徴もあったけど、どの特徴も男女で大きく重なっていた。全部が男性寄り、全部が女性寄りの脳はまれで、多くの脳は両方の特徴が混ざったモザイクだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見分けられるという反論も",
+        "body": "同じ雑誌に「この方法では大きな男女差を見落とす」「脳の特徴を組み合わせると男女を見分けられる」という反論がいくつも出た。2つに分かれないことと、差がないことは別の話で、議論は続いている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-male-female-mosaic"
+  },
+  {
+    "id": "dokugaku-forgotten-language-relearning-permastore",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Bahrick, \"Semantic memory content in permastore: Fifty years of memory for Spanish learned in school\" (Journal of Experimental Psychology: General, 1984)",
+    "sourceUrl": "https://doi.org/10.1037/0096-3445.113.1.1",
+    "articleUrl": "https://dokugaku.seadice.win/forgotten-language-relearning/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "使わない語学は全部消える？",
+        "body": "学生時代に習った英語や第二外国語、何年も使わないともう全部忘れた…と感じるよね。でも本当に消えているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50年分のスペイン語を調べた",
+        "body": "学校でスペイン語を習った733人に、読解・単語・文法のテストをした研究がある。習ってからの年数は人によって最長50年までばらばら。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "数年で減って、その後は長く残る",
+        "body": "知識は最初の3〜6年で急に減ったあと、最長30年ほどほとんど変わらなかった。使っていないのに、かなりの部分が50年以上残っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追ったわけではない",
+        "body": "同じ人を50年追ったのではなく、年数の違う人どうしを比べた研究。最初にどれだけ学んだかでも残る量は違った。日本人の英語で同じかは未確認。"
+      }
+    ],
+    "studyType": "観察研究",
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-forgotten-language-relearning-permastore"
+  },
+  {
+    "id": "dokugaku-study-routine-after-life-change-routine-vs-time-cue",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Keller et al., \"Habit formation following routine-based versus time-based cue planning: A randomized controlled trial\" (British Journal of Health Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.1111/bjhp.12504",
+    "articleUrl": "https://dokugaku.seadice.win/study-routine-after-life-change/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "習慣は決まった時刻に",
+        "body": "新しい習慣を作るなら「毎日○時にやる」と時刻を決めるのが一番、ってよく言われるよね。でも「歯みがきの後」みたいに、いつもの行動につなげる方法もある。どっちがいいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "192人をくじで2つに分けた",
+        "body": "18〜77歳の192人に、食事に関する行動を1つ選んでもらい、半分は「毎日の決まった行動の後」、半分は「決まった時刻」にやると決めてもらった。そのまま84日間、毎日記録した実験がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらも同じくらい効いた",
+        "body": "どちらのグループも習慣になる度合いは上がり、差はなかった。決めた通りに繰り返すことが大事だったらしい。習慣になった人が頭打ちに達するまでは、中央値で59日だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強でも同じ？",
+        "body": "調べたのは食事の行動で、勉強ではない。習慣になったかどうかは本人が答える質問票で測っていて、59日も習慣になった人だけの数字。人や行動によって日数の差は大きい。"
+      }
+    ],
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "habit-66days",
+        "type": "あわせて読む",
+        "why": "習慣になるまでの日数を、ふだんの生活で追った元の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#dokugaku-study-routine-after-life-change-routine-vs-time-cue"
+  },
+  {
+    "id": "dokugaku-adult-learning-dropout-restart-planning-prompts-scale",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Kizilcec et al., \"Scaling up behavioral science interventions in online education\" (PNAS, 2020)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1921417117",
+    "articleUrl": "https://dokugaku.seadice.win/adult-learning-dropout-restart/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "計画を書けば最後まで続く",
+        "body": "「いつ・どうやって勉強するか書き出せば、途中で投げ出さない」ってよく聞くよね。実際、小さな研究ではオンライン講座の修了率が上がったという結果も出ていた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約27万人で確かめ直した",
+        "body": "ハーバード大学・MIT・スタンフォード大学の247のオンライン講座で、2016年から2019年まで、26万9,169人を対象に、計画を書かせるなどの働きかけをくじで割り当てた大きな実験がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効くのは最初の数週間",
+        "body": "計画を書いた人は最初の1週間の学習量が増えたけど、効果は最初の数週間だけで、最後まで修了する人は増えなかった。以前の小さな研究で見えた大きな効果は再現されなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どうすれば続くのか",
+        "body": "受講者はほぼ世界中の国から来た無料オンライン講座の人で、社会人の独学に限らない。講座や国によって効き方は違い、大勢に広げると平均の効果は1桁ほど小さくなりうる、と研究者は書いている。"
+      }
+    ],
+    "studyType": "ランダム化比較試験",
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-adult-learning-dropout-restart-planning-prompts-scale"
+  },
+  {
     "id": "insight-incubation-meta",
     "category": "ひらめき",
     "kind": "よくある説",
@@ -34,6 +214,11 @@
         "id": "question-shower-idea",
         "type": "あわせて読む",
         "why": "簡単な作業をはさむと伸びた1つの実験と、同じ問いの研究のまとめ"
+      },
+      {
+        "id": "insight-sleep-onset-n1",
+        "type": "あわせて読む",
+        "why": "離れている間に浅く眠った人だけ、近道に気づく人が増えた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/insight/#insight-incubation-meta"
@@ -1648,6 +1833,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "分解が遅い型では1日4杯以上でリスクが約1.6倍（オッズ比1.64）、分解が速い型では明確な上昇なし。観察研究で、関連を示すもので因果の証明ではない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "コスタリカの人の、過去をふり返った比較",
+        "body": "調べたのはコスタリカの人で、命にかかわらなかった心筋梗塞だけ。コーヒーの量は食事の質問票で答えてもらった。病気になった人とならなかった人を比べた観察研究なので、関係はわかっても原因とまでは言えない。"
       }
     ],
     "quiz": {
@@ -1656,7 +1846,7 @@
       "wrong": "カフェイン分解が速い型"
     },
     "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-gene",
-    "studyType": "実験"
+    "studyType": "観察研究"
   },
   {
     "id": "gum-focus",
@@ -1679,6 +1869,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "ガムを課題の前に5分噛んだ群は複数の指標で有利だったが、利点は最初の15〜20分で消えた。課題の最中ずっと噛み続けた場合は、成績の向上は見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ効くのかは研究者の説明",
+        "body": "実験室で決まった課題を解いた結果で、効いたのは一部の課題と最初の15〜20分だけ。「噛むと目が覚めるから」「噛みながらだと頭の力を取り合うから」という理由は研究者の考えで、この実験で確かめたものではない。"
       }
     ],
     "quiz": {
@@ -2042,7 +2237,14 @@
     "articleUrl": "https://research.seadice.win/habit-formation-two-minute-rule/",
     "articleSite": "悩みの科学",
     "webUrl": "https://seadice.win/evidence/habits/habit-66days/",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "dokugaku-study-routine-after-life-change-routine-vs-time-cue",
+        "type": "あわせて読む",
+        "why": "習慣になるまでの日数を、きっかけの決め方で比べたくじ引きの実験"
+      }
+    ]
   },
   {
     "id": "habit-implementation-intentions",
