@@ -488,7 +488,14 @@
       }
     ],
     "studyType": "観察研究",
-    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-forgotten-language-relearning-permastore"
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-forgotten-language-relearning-permastore",
+    "links": [
+      {
+        "id": "lang-critical-period-age",
+        "type": "あわせて読む",
+        "why": "大人になってから学んだ語学が、何十年たってどれだけ残るかを調べた研究"
+      }
+    ]
   },
   {
     "id": "dokugaku-study-routine-after-life-change-routine-vs-time-cue",
@@ -650,6 +657,11 @@
         "id": "brain-game-training-null",
         "type": "反対の結果",
         "why": "ゲームの種類を絞らない別のメタ分析では、頭の力全体が伸びる証拠は見つからなかった"
+      },
+      {
+        "id": "game-children-intelligence",
+        "type": "あわせて読む",
+        "why": "アクションゲームと注意力などの関係を、たくさんの研究でまとめた"
       }
     ]
   },
@@ -753,7 +765,14 @@
       }
     ],
     "studyType": "実験",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-ai-overreliance-solve-on-your-own-offloading-cost"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-ai-overreliance-solve-on-your-own-offloading-cost",
+    "links": [
+      {
+        "id": "game-internet-search-knowledge-illusion",
+        "type": "あわせて読む",
+        "why": "すぐ調べられると覚えにくくなるか。外に頼ることの損得"
+      }
+    ]
   },
   {
     "id": "replication-ego-depletion",
@@ -1261,7 +1280,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/japan/#japan-weather-headache",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "weather-pain-humidity",
+        "type": "あわせて読む",
+        "why": "関節の痛みではなく片頭痛と気圧の関係を、日本の28人の日記で調べた研究"
+      }
+    ]
   },
   {
     "id": "brain-ten-percent",
@@ -6824,7 +6850,14 @@
       "wrong": "脳を守るという裏づけがあった"
     },
     "webUrl": "https://seadice.win/evidence/food-brain/#food-alcohol-brain-atrophy",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "alcohol-hyakuyaku-mortality",
+        "type": "あわせて読む",
+        "why": "適度な飲酒でも脳の海馬が縮みやすかった、という30年の追跡研究"
+      }
+    ]
   },
   {
     "id": "food-sugar-mood-whitehall",
@@ -8469,6 +8502,11 @@
         "id": "dokugaku-ai-answers-crutch",
         "type": "あわせて読む",
         "why": "AIに答えをもらう学び方は、身につきにくくなりやすい"
+      },
+      {
+        "id": "game-internet-search-knowledge-illusion",
+        "type": "あわせて読む",
+        "why": "検索ではなくAIのまとめで学ぶと、理解が浅くなるかを調べた研究"
       }
     ]
   },
@@ -9337,7 +9375,14 @@
     "articleUrl": "https://bohan.seadice.win/heat-temperature-crime-research/",
     "articleSite": "防犯",
     "webUrl": "https://seadice.win/evidence/criminal-psychology/#bohan-heat-violent-crime",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "weather-social-media-sentiment",
+        "type": "あわせて読む",
+        "why": "暑さと言葉の次は、暑さと暴力犯罪の関係を83の研究でまとめたもの"
+      }
+    ]
   },
   {
     "id": "bohan-hotspot-foot-patrol",
@@ -9832,7 +9877,14 @@
     "articleUrl": "https://ledger.seadice.win/gacha-loot-box-spending/",
     "articleSite": "お金と心理",
     "webUrl": "https://seadice.win/evidence/smartphone-sns/#ledger-loot-box-gambling",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "game-disorder-prevalence",
+        "type": "あわせて読む",
+        "why": "ゲームの中のガチャへの支出は、ギャンブルの問題と関係するか"
+      }
+    ]
   },
   {
     "id": "ledger-choice-overload-meta",
@@ -11035,6 +11087,11 @@
         "id": "hanzai-false-confession-interrogation",
         "type": "あわせて読む",
         "why": "人は嘘をほぼ見抜けない。だから「怪しい」と決めて責めると危うい"
+      },
+      {
+        "id": "speech-certain-prosody",
+        "type": "あわせて読む",
+        "why": "嘘っぽく聞こえる声があっても、人が実際に嘘を見抜ける割合はほぼ半々"
       }
     ]
   },
@@ -11424,6 +11481,11 @@
         "id": "ai-ai-profile-text-detect",
         "type": "あわせて読む",
         "why": "AIが書いた文章は、人も判定ツールも見分けにくい"
+      },
+      {
+        "id": "lang-accent-impression",
+        "type": "あわせて読む",
+        "why": "母語でない人の英語が、AI判定ツールでも不利に扱われていたという研究"
       }
     ]
   },
@@ -12366,6 +12428,11 @@
         "id": "circadian-daylight-office-sleep",
         "type": "あわせて読む",
         "why": "昼間の光と睡眠の関係を、窓のあるオフィスで比べた小さな研究"
+      },
+      {
+        "id": "weather-seasonal-depression-population",
+        "type": "反対の結果",
+        "why": "外で光を浴びる時間が長い人ほど、気分の落ち込みが少ないという関係が見られた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-daylight-outdoors-mood"
@@ -14098,6 +14165,11 @@
         "id": "brain-game-training-null",
         "type": "あわせて読む",
         "why": "「〇〇で頭全体が鍛えられる」かを確かめた別のメタ分析。こちらも差は小さかった"
+      },
+      {
+        "id": "lang-critical-period-age",
+        "type": "あわせて読む",
+        "why": "2つの言葉を話せると頭も良くなるのか、という別の「言葉の神話」を確かめたメタ分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/brain-myths/brain-bilingual-advantage/"
@@ -14697,6 +14769,11 @@
         "id": "kosodate-social-media-test-scores",
         "type": "あわせて読む",
         "why": "心の調子との関係と、SNSの時間とテストの点の関係"
+      },
+      {
+        "id": "game-play-time-wellbeing",
+        "type": "あわせて読む",
+        "why": "スマホやSNSの時間と子どもの心の関係も、とても小さかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/smartphone-sns/#sns-adolescent-wellbeing-small"
@@ -14736,6 +14813,11 @@
         "id": "sns-adolescent-wellbeing-small",
         "type": "あわせて読む",
         "why": "自己申告の時間を使った大規模調査と、その申告のずれ"
+      },
+      {
+        "id": "game-smart-device-myopia",
+        "type": "あわせて読む",
+        "why": "自分で答えるスマホ時間は、実際の時間とずれやすい"
       }
     ],
     "webUrl": "https://seadice.win/evidence/smartphone-sns/#sns-screen-time-self-report"
@@ -15690,6 +15772,11 @@
         "id": "posture-contractive-vs-expansive-meta",
         "type": "あわせて読む",
         "why": "73の実験では、広げるより縮こまらないことが効いていた"
+      },
+      {
+        "id": "speech-get-excited-anxiety",
+        "type": "あわせて読む",
+        "why": "本番前の気持ちの整え方として、姿勢で自信が変わるかを調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-power-pose-felt-power"
@@ -18117,5 +18204,1233 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/mental-health/kokoro-sleep-improve-mental/"
+  },
+  {
+    "id": "alcohol-hyakuyaku-mortality",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Zhao et al., \"Association Between Daily Alcohol Intake and Risk of All-Cause Mortality\" (JAMA Network Open, 2023)",
+    "sourceUrl": "https://doi.org/10.1001/jamanetworkopen.2023.6185",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「酒は百薬の長」って本当？",
+        "body": "少し飲む人は、まったく飲まない人より長生きする。そんな話を聞いたことがあるよね。昔の研究では、少量なら体にいいように見えるグラフがよく出ていた。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "107の追跡研究、480万人分をまとめ直した",
+        "body": "2023年、ジャオらは1980〜2021年に出た107の追跡研究（参加者約484万人、死亡約43万人）を集めた。病気でお酒をやめた人が「飲まない人」に混ざる偏りなどを調整して、飲む量と死亡リスクを比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "少量でも、長生きにはつながっていなかった",
+        "body": "偏りを調整すると、たまに飲む人も1日24g以下の少量の人も、一生飲まない人と比べて死亡リスクがはっきり低いとは言えなかった。1日45g以上では約1.2〜1.35倍に上がり、女性は男性より少ない量から上がっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "追跡して比べた研究を集めたもの",
+        "body": "元はどれも観察研究で、飲む量は自己申告。調整しきれない違いが残っている可能性がある。「少量なら害がない」と言えたわけでもなく、病気ごとの影響もこのまとめだけではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-red-wine-resveratrol",
+        "type": "あわせて読む",
+        "why": "「赤ワインなら体にいい」という説を、ポリフェノールの量で確かめた研究"
+      },
+      {
+        "id": "food-alcohol-brain-atrophy",
+        "type": "あわせて読む",
+        "why": "適度な飲酒でも脳の海馬が縮みやすかった、という30年の追跡研究"
+      },
+      {
+        "id": "alcohol-flushing-aldh2",
+        "type": "あわせて読む",
+        "why": "体質に関係なく、少量のお酒で長生きするかを107の研究で確かめたまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/alcohol-hyakuyaku-mortality/"
+  },
+  {
+    "id": "alcohol-red-wine-resveratrol",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Semba et al., \"Resveratrol Levels and All-Cause Mortality in Older Community-Dwelling Adults\" (JAMA Internal Medicine, 2014)",
+    "sourceUrl": "https://doi.org/10.1001/jamainternmed.2014.1582",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "赤ワインは心臓にいい？",
+        "body": "赤ワインに入っているポリフェノールの一種「レスベラトロール」が、心臓や長生きにいいと聞くよね。動物の研究で寿命がのびた話が広まって、人気になった。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "イタリア・キャンティ地方の高齢者783人",
+        "body": "2014年、センバらはワインの産地キャンティの2つの村に住む65歳以上の783人を、約9年追いかけた。尿の中のレスベラトロールの量を測り、食事でとっている量の目安にした。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "多い人も少ない人も、差がなかった",
+        "body": "量で4つに分けると、亡くなった人の割合は34.4%・31.6%・33.5%・37.4%で、はっきりした差はなかった。炎症の値や、心臓・血管の病気、がんとの関係も見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ワインそのものを調べたわけではない",
+        "body": "測ったのはふだんの食事でとるレスベラトロールの量で、ワインを飲む量ではない。追跡して比べた研究で、対象はイタリアの1地域の高齢者だけ。サプリのような多い量の話も別になる。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-hyakuyaku-mortality",
+        "type": "あわせて読む",
+        "why": "お酒そのものについて、少量なら長生きかを107の研究で確かめたまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/alcohol-red-wine-resveratrol/"
+  },
+  {
+    "id": "alcohol-flushing-aldh2",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Brooks et al., \"The Alcohol Flushing Response: An Unrecognized Risk Factor for Esophageal Cancer from Alcohol Consumption\" (PLoS Medicine, 2009)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pmed.1000050",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "顔が赤くなる人は、お酒に注意？",
+        "body": "少し飲んだだけで顔が真っ赤になる人がいるよね。「飲めば強くなる」と言われることもあるけど、赤くなる体質とお酒の害には関係があるんだろうか。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "日米の研究者が、これまでの研究を整理した",
+        "body": "2009年、アメリカ国立衛生研究所のブルックスらと日本の久里浜の研究者が、顔が赤くなる体質と食道がんの研究を読み比べて整理した。日本・中国・韓国の人の約36%が、飲むと顔が赤くなるという。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "分解する酵素が弱く、がんのリスクが高い",
+        "body": "赤くなる主な理由は、お酒からできる毒性のあるアセトアルデヒドを分解する酵素ALDH2が弱い体質。この体質の人が飲むと食道がんのリスクがかなり高く、大量に飲む人の追跡では喉や食道のがんが約12倍だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "量ごとのリスクは、これだけではわからない",
+        "body": "これは数字でまとめた分析ではなく、研究を読み比べた整理。約12倍は大量に飲む人の数字で、ふだん少し飲む人に同じ倍率が当てはまるわけではない。赤くならない理由が体質以外のこともある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-hyakuyaku-mortality",
+        "type": "あわせて読む",
+        "why": "体質に関係なく、少量のお酒で長生きするかを107の研究で確かめたまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/alcohol-flushing-aldh2/"
+  },
+  {
+    "id": "alcohol-hangover-remedies",
+    "category": "お酒の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#D97706",
+    "sourceLabel": "Roberts et al., \"The efficacy and tolerability of pharmacologically active interventions for alcohol-induced hangover symptomatology: a systematic review of the evidence from randomised placebo-controlled trials\" (Addiction, 2022)",
+    "sourceUrl": "https://doi.org/10.1111/add.15786",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "二日酔いに効くものはある？",
+        "body": "飲む前に飲むドリンク、翌朝のサプリ、昔ながらの食べ物。二日酔いに効くと言われるものはたくさんあるよね。じゃあ、ちゃんと試した研究ではどうだったんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "偽物と比べた21の試験を集めた",
+        "body": "2022年、ロンドンのロバーツらは、健康な大人に成分を飲んでもらい、偽物（プラセボ）と比べたランダム化試験を集めた。見つかったのは21本、参加者は合わせて386人だった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "効くと言える根拠は、とても弱い",
+        "body": "21本はすべて違う成分を試していて、同じものを確かめた研究が2本もなかった。個々の試験で症状が軽くなった報告はあるけど、どれも根拠の質は「とても低い」と判定された。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな試験が1本ずつしかない",
+        "body": "どの成分も小さな試験1本だけで、追試されていない。水分をとるなど、成分を飲む以外の方法はこのまとめの対象外。数字でまとめる分析はできず、研究を整理したものにとどまる。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-chanpon-hangover",
+        "type": "あわせて読む",
+        "why": "二日酔いの重さを左右したのは、飲み方の順番ではなく酔いの深さだった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/alcohol-hangover-remedies/"
+  },
+  {
+    "id": "alcohol-chanpon-hangover",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Köchling et al., \"Grape or grain but never the twain? A randomized controlled multiarm matched-triplet crossover trial of beer and wine\" (The American Journal of Clinical Nutrition, 2019)",
+    "sourceUrl": "https://doi.org/10.1093/ajcn/nqy309",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「ちゃんぽん」すると悪酔いする？",
+        "body": "ビールのあとにワイン、日本酒と、種類を混ぜて飲むと悪酔いする。そう言われるよね。ドイツにも「ビールのあとのワインはいいけど、逆はだめ」ということわざがあるらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "ドイツで90人に、順番を変えて飲んでもらった",
+        "body": "2019年、ドイツのケッヒリングらは19〜40歳の90人を3つのグループに分けた。ビール→ワイン、ワイン→ビール、どちらか1種類だけで、息のアルコール濃度が0.11%になるまで飲み、翌日の二日酔いを比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "種類も順番も、二日酔いは変わらなかった",
+        "body": "ビールとワインを混ぜても、順番を変えても、1種類だけでも、二日酔いの重さにはっきりした差はなかった。強く関係していたのは、本人が感じた酔いの深さと、吐いたかどうかだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ビールとワインだけの話",
+        "body": "調べたのはビールとワインの2種類だけで、日本酒や焼酎などは含まれない。参加者は平均24歳の若い人で、何を飲んでいるか本人もわかっていた。かなり酔う量での結果で、少量の場合は別かもしれない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-hangover-remedies",
+        "type": "あわせて読む",
+        "why": "二日酔いに効くと言われる成分を、偽物と比べた試験でまとめたレビュー"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/alcohol-chanpon-hangover/"
+  },
+  {
+    "id": "alcohol-beer-belly",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Bendsen et al., \"Is beer consumption related to measures of abdominal and general obesity? A systematic review and meta-analysis\" (Nutrition Reviews, 2013)",
+    "sourceUrl": "https://doi.org/10.1111/j.1753-4887.2012.00548.x",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ビールを飲むと「ビール腹」になる？",
+        "body": "ビール好きはお腹が出る、とよく言われるよね。一方で「太るのはビールじゃなくておつまみのせい」という話もある。ビールとお腹の太さは、本当に関係があるんだろうか。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "47の研究を集めてまとめた",
+        "body": "2013年、デンマークとオランダのベンゼンらは、ビールと肥満について調べた観察研究35本と実験12本を集めた。お腹まわり（腹囲）と体重の両方について、結果を整理し数字でまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1日500mLを超えると、お腹が出やすいかも",
+        "body": "1日500mL未満のふつうの量では、太るかどうかを判断できるだけの根拠がなかった。500mLを超えると、お腹まわりの太さと関係しているかもしれない。男性の実験では、アルコール入りのビールで体重が平均0.73kg増えた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験の質が低く、男女で結果がちがう",
+        "body": "実験は質の低いものが多く、お酒をまったく飲まない場合と比べた実験では体重の増加は見られなかった。女性では結果がそろっていない。観察研究は、一緒に食べるものや生活の違いを分けきれない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/alcohol-beer-belly/"
+  },
+  {
+    "id": "weather-full-moon-births",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Arliss, Kaplan & Galvin, \"The effect of the lunar cycle on frequency of births and birth complications\" (American Journal of Obstetrics and Gynecology, 2005)",
+    "sourceUrl": "https://doi.org/10.1016/j.ajog.2004.12.034",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "満月の夜は出産が増える？",
+        "body": "「満月の日は産院が忙しくなる」という話、聞いたことあるよね。月の引力が体に効くから、なんて説明もされる。じゃあ、出生の記録を大量に数えるとどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "56万件あまりの出生記録を、月の満ち欠けで分けた",
+        "body": "アメリカ・ノースカロライナ州の1997〜2001年の出生証明書のデータから、564,039件の出産を、62回の月の周期・8つの月の形に分けて数えた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "月の形で、出産の数は変わらなかった",
+        "body": "出産の数も、帝王切開などのお産の方法も、お産の合併症も、月の8つの形のあいだで目立った差は見られなかった。論文は「よくある言い伝えだが、根拠はない」とまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの州の5年分のデータ",
+        "body": "調べたのはアメリカの1つの州の5年分で、出生証明書の記録をあとから数えた研究。ほかの国や時代で同じかは、別のデータで確かめる必要がある。「満月の夜は事件が増える」という説は、この研究では扱っていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/weather-full-moon-births/"
+  },
+  {
+    "id": "weather-daily-mood",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Denissen et al., \"The effects of weather on daily mood: A multilevel approach\" (Emotion, 2008)",
+    "sourceUrl": "https://doi.org/10.1037/a0013497",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "天気で気分って変わるの？",
+        "body": "曇りの日はなんだか気が重い、晴れると元気が出る。そう感じる人は多いよね。毎日の気分を記録してもらい、その日の天気と照らし合わせた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,233人の気分日記と気象データ",
+        "body": "2008年、Denissenさんたちが、オンラインで気分の日記をつけた1,233人のデータを、近くの気象台の記録と結びつけた。気温・風・日照・降水・気圧・日の長さの6つを調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係はあるけれど、平均すると小さい",
+        "body": "気温・風の強さ・日照は、いやな気分の強さと関係していた。日照は疲れの感じ方とも関係していた。ただ、気分の上下のうち天気で説明できる部分は、平均するとわずかだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "天気に敏感な人がいる理由は、まだわからない",
+        "body": "天気の影響の受け方には人によって差があったが、性格（ビッグファイブ）・性別・年齢では説明できなかった。オンライン日記の参加者のデータで、天気と気分の関連を見た研究。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-social-media-sentiment",
+        "type": "あわせて読む",
+        "why": "同じ問いを、数十億件のSNS投稿という別のデータで調べた研究"
+      },
+      {
+        "id": "weather-sunshine-stock-returns",
+        "type": "あわせて読む",
+        "why": "晴れで気分が上がるという考えを、株価のデータで確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/weather-daily-mood/"
+  },
+  {
+    "id": "weather-social-media-sentiment",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Baylis et al., \"Weather impacts expressed sentiment\" (PLOS ONE, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0195750",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "暑すぎる日や雨の日は、言葉もとげとげしくなる？",
+        "body": "暑いとイライラする、雨だと気がめいる。そんな感覚が本当なら、みんなが書く文章にも表れるはず。SNSの投稿を大量に集めて調べた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "35億件を超えるSNS投稿",
+        "body": "2009〜2016年のFacebookとTwitterの投稿35億件以上を使った。アメリカの人口の多い75都市の英語の投稿について、前向きな言葉・後ろ向きな言葉の割合を、その日の天気と比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "寒すぎ・暑すぎ・雨で、投稿が暗くなった",
+        "body": "前向きな言葉は最高気温20℃ぐらいまで増え、30℃を超えると減った。雨・湿気・曇り・1日の寒暖差が小さい日も、投稿の雰囲気は悪くなった。天気そのものについての投稿を除いても、同じ傾向だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "投稿の言葉は、気分そのものではない",
+        "body": "見たのは投稿に使われた言葉で、本人の気分を直接聞いたわけではない。対象はアメリカの英語の投稿だけで、関連を見た研究。暑さとけんかや犯罪のような行動との関係は、別の研究で調べられている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-daily-mood",
+        "type": "あわせて読む",
+        "why": "同じ問いを、1,233人の気分日記で調べた研究。天気の影響は平均すると小さかった"
+      },
+      {
+        "id": "bohan-heat-violent-crime",
+        "type": "あわせて読む",
+        "why": "暑さと言葉の次は、暑さと暴力犯罪の関係を83の研究でまとめたもの"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/weather-social-media-sentiment/"
+  },
+  {
+    "id": "weather-pain-humidity",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Dixon et al., \"How the weather affects the pain of citizen scientists using a smartphone app\" (npj Digital Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1038/s41746-019-0180-3",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "雨の日は関節が痛む？",
+        "body": "「雨が降る前は膝が痛む」という話、よく聞くよね。関節炎のある人の約4分の3が、痛みは天気に左右されると感じているらしい。でも、これまでの研究では結論が出ていなかった。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2,658人が毎日スマホで痛みを記録",
+        "body": "イギリスのマンチェスター大学などのチームが、慢性の痛みがある2,658人（83%が女性、平均51歳、多くは関節炎）に、15か月の期間中、スマホで痛みを記録してもらい、位置情報から近くの天気と照らし合わせた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "湿気・低い気圧・風と、痛みに小さな関係があった",
+        "body": "湿度が高い日、気圧が低い日、風が強い日に痛みが強まりやすかった。いちばん関係が強かったのは湿度。雨の量と気温は関係がなかった。湿って風が強く気圧が低い日でも、痛みが強まる確率は平均的な日より2割ほど高い程度だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "アプリを続けた人のデータ",
+        "body": "記録を続けた人だけのデータで、参加者が全体を代表しているかには限界がある。痛みの強さは本人の感じ方で答えたもの。"
+      }
+    ],
+    "links": [
+      {
+        "id": "japan-weather-headache",
+        "type": "あわせて読む",
+        "why": "関節の痛みではなく片頭痛と気圧の関係を、日本の28人の日記で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/weather-pain-humidity/"
+  },
+  {
+    "id": "weather-sunshine-stock-returns",
+    "category": "天気と気分",
+    "kind": "研究紹介",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Hirshleifer & Shumway, \"Good Day Sunshine: Stock Returns and the Weather\" (The Journal of Finance, 2003)",
+    "sourceUrl": "https://doi.org/10.1111/1540-6261.00556",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "晴れの日は株が上がる？",
+        "body": "お金のことは冷静に決めているつもりでも、天気で気分が変わるなら、投資の判断にも出るかもしれない。そんな疑問を、世界の株価のデータで確かめた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "26か国・16年分の株価と朝の天気",
+        "body": "1982〜1997年の26か国について、その国のおもな証券取引所がある都市の朝の日照と、その日の株価指数の動きを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "朝が晴れている日ほど、株価が上がりやすかった",
+        "body": "朝の日照と株の値上がりには、はっきりした関係があった。一方、日照の影響をそろえると、雨や雪は株価と関係がなかった。合理的な値づけだけでは説明しにくい、と論文は書いている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "儲けに使えるほどではなかった",
+        "body": "天気で売り買いする作戦は、取引の手数料がわずかでもかかると、得がほぼ消えた。関連を見た研究で、気分が原因かは直接確かめていない。データは1997年までで、今の市場で同じかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-daily-mood",
+        "type": "あわせて読む",
+        "why": "そもそも天気で個人の気分はどれくらい変わるのかを、気分日記で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/weather-sunshine-stock-returns/"
+  },
+  {
+    "id": "weather-seasonal-depression-population",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Traffanstedt, Mehta & LoBello, \"Major Depression With Seasonal Variation: Is It a Valid Construct?\" (Clinical Psychological Science, 2016)",
+    "sourceUrl": "https://doi.org/10.1177/2167702615615867",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "冬になると、みんな気分が沈む？",
+        "body": "日が短くなると気分も落ちる、いわゆる「冬季うつ」。日光が減ることで起きると考えられて、30年以上注目されてきた。では、ふつうの住民の調査でも冬に落ち込みは増えているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの大人の住民調査で比べた",
+        "body": "アメリカの大人を対象にした住民調査で、うつの症状の質問票（PHQ-8）の答えを、住んでいる場所の緯度・答えた季節・日照の量と照らし合わせた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "緯度・季節・日照と、うつの症状は関係がなかった",
+        "body": "冬に答えた人や、日照の少ない北の地域の人で、うつの症状が多いという関係は見られなかった。著者は「季節のうつという考えは、民間の心理学に深く根づいているが、客観的なデータでは支えられない」と書いている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "住民全体と、一部の人は別の話かもしれない",
+        "body": "ある時点の調査で、同じ人を冬と夏で追ったわけではない。冬季うつと診断された人を夏まで追った別の研究（Rohanら, 2024）では、多くの人が夏に落ち着いていた。住民全体では見えなくても、一部の人に季節の波がある可能性は残っている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-daylight-outdoors-mood",
+        "type": "反対の結果",
+        "why": "外で光を浴びる時間が長い人ほど、気分の落ち込みが少ないという関係が見られた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-seasonal-depression-population"
+  },
+  {
+    "id": "speech-mehrabian-7-percent",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Amsel, \"An Urban Legend Called: 'The 7/38/55 Ratio Rule'\" (European Polygraph, 2019)",
+    "sourceUrl": "https://doi.org/10.2478/ep-2019-0007",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "話の中身は7%しか伝わらない？",
+        "body": "「言葉は7%、声のトーンは38%、見た目は55%」という「メラビアンの法則」。研修や本でよく見るけど、本当に話の中身はほとんど伝わらないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "元になった1967年の2つの実験を読み直した",
+        "body": "このレビューは、元の実験の中身を整理している。「ありがとう」「たぶん」のような単語1つを、気持ちのこもった声や表情で示し、相手の好き嫌いの気持ちをどう受け取るかを調べたものだった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "気持ちが食い違ったときの、1語の実験の話",
+        "body": "数字は、言葉と声、声と表情を別々に比べた2つの実験を組み合わせて出したもの。メラビアン本人も「気持ちや好き嫌いを伝える場面の話で、それ以外には当てはまらない」と述べている。話の中身が7%しか伝わらない、という意味ではない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "これは実験ではなく読み直し",
+        "body": "このレビューは新しいデータを集めていない。元の実験も単語1つ・少人数・作られた場面だった。ふだんの会話で、言葉・声・表情がどのくらいずつ効くのかは、この数字からはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-voice-only-empathy",
+        "type": "あわせて読む",
+        "why": "「見た目が55%」とは逆に、声だけの方が気持ちを読み取れた実験"
+      },
+      {
+        "id": "speech-voice-vs-text-disagreement",
+        "type": "あわせて読む",
+        "why": "言葉の中身が同じでも、声で聞くと相手の印象が変わった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/speech-mehrabian-7-percent/"
+  },
+  {
+    "id": "speech-voice-only-empathy",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Kraus, \"Voice-only communication enhances empathic accuracy\" (American Psychologist, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/amp0000147",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "顔が見えないと、気持ちは伝わらない？",
+        "body": "電話より会って話す方が、相手の気持ちはよくわかる気がするよね。表情が見えた方が、相手の心を読むのに有利なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "声だけ・顔だけ・両方で比べた",
+        "body": "クラウスは5つの実験（合計1772人）で、知らない人どうしの会話や、その録画を、声だけ・映像だけ・声と映像の両方で受け取ってもらい、相手の気持ちをどれだけ正しく当てられるかを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "声だけの方が、気持ちを当てやすかった",
+        "body": "声だけのときの方が、映像だけや声と映像の両方のときより、相手の気持ちを正しく読み取れていた。後半の実験では、声だけだと話し方や言葉に注意が集まることが、その理由として示されたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験の場面での話",
+        "body": "知らない人どうしの短いやりとりや録画を使った実験で、家族や友だちとの長い会話でも同じかはわからない。顔が役に立たないという意味ではなく、声に注意を向けることの大切さを示した結果。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-mehrabian-7-percent",
+        "type": "あわせて読む",
+        "why": "「見た目が55%」という有名な数字の元の実験を読み直したレビュー"
+      },
+      {
+        "id": "speech-certain-prosody",
+        "type": "あわせて読む",
+        "why": "声のどんな特徴が「自信がありそう」に聞こえるかを調べた研究"
+      },
+      {
+        "id": "speech-voice-vs-text-disagreement",
+        "type": "あわせて読む",
+        "why": "同じ中身でも、文字より声で聞く方が相手を考えのある人と感じた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-voice-only-empathy"
+  },
+  {
+    "id": "speech-low-voice-leader",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Klofstad, Anderson & Peters, \"Sounds like a winner: voice pitch influences perception of leadership capacity in both men and women\" (Proceedings of the Royal Society B, 2012)",
+    "sourceUrl": "https://doi.org/10.1098/rspb.2012.0311",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "声が低い人は、リーダーに選ばれやすい？",
+        "body": "低い声は落ち着いていて頼れそう、とよく言われるよね。じゃあ選挙のように誰かを選ぶとき、声の高さで選ばれ方は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人の声を、高くしたり低くしたり",
+        "body": "男女に「11月の選挙では私に投票してください」と言ってもらって録音し、機械で少し高い声と少し低い声の2つを作った。聞いた人に、どちらに投票するかを選んでもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "男女とも、低い声の方が選ばれた",
+        "body": "男性も女性も、話し手が男性でも女性でも、低くした方の声を選ぶことが多かった。研究チームは、平均して声が高い女性がリーダーに選ばれにくい理由の一つかもしれない、と考えている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "決まった1文を聞いて選んだだけ",
+        "body": "同じ1文を聞き比べた実験で、話の中身や実績を知ったうえで選ぶ本物の選挙で、どれだけ効くかはわからない。低い声の人の方が実際にリーダーとして優れているかも調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-certain-prosody",
+        "type": "あわせて読む",
+        "why": "声の高さのほか、話す速さや語尾で受け取られ方が変わるかを調べた研究"
+      },
+      {
+        "id": "face-trustworthiness-detection",
+        "type": "あわせて読む",
+        "why": "声ではなく顔の印象で、本当に信用できる人がわかるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-low-voice-leader"
+  },
+  {
+    "id": "speech-certain-prosody",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Goupil, Ponsot, Richardson, Reyes & Aucouturier, \"Listeners' perceptions of the certainty and honesty of a speaker are associated with a common prosodic signature\" (Nature Communications, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-020-20649-4",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "語尾が上がると、自信がなさそうに聞こえる？",
+        "body": "語尾を上げたり、ゆっくり口ごもったりすると、自信がなさそう、なんだか怪しい、と思われる気がするよね。声の特徴だけで、そんな印象は決まるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "意味のない単語の声を、機械でランダムに変えた",
+        "body": "意味のない作り言葉の声の高さ・長さ・大きさを機械でランダムに変え、フランス語を話す20人に「どちらが自信ありそうか」「どちらが嘘っぽいか」を何百回も選んでもらった。その後の実験では英語・スペイン語などを話す人でも確かめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「自信がない」と「嘘っぽい」は同じ声",
+        "body": "語尾が上がる、出だしが弱い、ゆっくり話す、高さや速さがゆれる声は、自信がなさそうにも嘘っぽくも聞こえた。この受け取り方は、聞く人の母語が違ってもよく似ていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "聞こえ方の話で、本当の嘘とは別",
+        "body": "調べたのは「どう聞こえるか」で、そういう声の人が本当に自信がない、嘘をついている、という意味ではない。意味のない単語1つの実験で、ふだんの長い会話でどれだけ効くかもわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "hanzai-lie-detection-54",
+        "type": "あわせて読む",
+        "why": "嘘っぽく聞こえる声があっても、人が実際に嘘を見抜ける割合はほぼ半々"
+      },
+      {
+        "id": "speech-low-voice-leader",
+        "type": "あわせて読む",
+        "why": "声の高さだけで、リーダーに選ばれやすさが変わるかを調べた実験"
+      },
+      {
+        "id": "speech-voice-only-empathy",
+        "type": "あわせて読む",
+        "why": "声のどんな特徴が「自信がありそう」に聞こえるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-certain-prosody"
+  },
+  {
+    "id": "speech-get-excited-anxiety",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Brooks, \"Get excited: Reappraising pre-performance anxiety as excitement\" (Journal of Experimental Psychology: General, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/a0035325",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人前で話す緊張は「ワクワクしてる」と言い換えると軽くなる？",
+        "body": "スピーチの前は「落ち着いて」と言われることが多いよね。でも、ドキドキを無理に静めるより、「ワクワクしてる」と受け止め直す方がいい、という話がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カラオケ・スピーチ・計算で試した",
+        "body": "ブルックスは、カラオケで歌う、人前で話す、計算問題を解く、という場面で、本番前に「落ち着こう」とする人と「ワクワクしている」と声に出して言う人などに分けて比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「ワクワク」と言った方が、うまくいった",
+        "body": "「ワクワクしている」と受け止め直した人は、落ち着こうとした人よりワクワクを感じ、本番の出来もよかった。ドキドキをピンチではなくチャンスと受け取りやすくなったらしい。多くの人は「落ち着くのがいちばん」と思っていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの論文の実験室での結果",
+        "body": "1人の研究者による実験室での実験で、緊張がとても強い人や、大事な本番でも同じかはわからない。ほかの研究室でどこまで同じ結果が出るかも、ここだけでは言えない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-power-pose-felt-power",
+        "type": "あわせて読む",
+        "why": "本番前の気持ちの整え方として、姿勢で自信が変わるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/speech-get-excited-anxiety/"
+  },
+  {
+    "id": "speech-voice-vs-text-disagreement",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Schroeder, Kardas & Epley, \"The Humanizing Voice: Speech Reveals, and Text Conceals, a More Thoughtful Mind in the Midst of Disagreement\" (Psychological Science, 2017)",
+    "sourceUrl": "https://doi.org/10.1177/0956797617713798",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "意見が違う人の話、文字より声で聞くと違う？",
+        "body": "SNSで自分と反対の意見を読むと、「この人は何も考えてない」と思ってしまうことがあるよね。同じ中身でも、本人の声で聞いたら受け取り方は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ説明を、声と文字で比べた",
+        "body": "意見が分かれる社会の話題や政治について、自分と反対の考えを持つ人の説明を、録音した声で聞く人と、同じ内容を文字で読む人に分けて、相手の印象を比べる実験を3つ行った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "声で聞いた方が「考えのある人」に見えた",
+        "body": "同じ中身でも、声で聞いた方が、相手を考える力や心のある人だと受け取りやすかった。4つ目の実験では、声の抑揚のような話し方の特徴が、その印象を生んでいたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "意見に賛成するようになったわけではない",
+        "body": "変わったのは相手の人柄の見え方で、反対意見に納得したかとは別の話。録音を聞くか文を読むかの短い実験で、日本語や、長い議論・顔を合わせた話し合いでも同じかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-voice-only-empathy",
+        "type": "あわせて読む",
+        "why": "声だけの方が、相手の気持ちを正しく読み取れたという実験"
+      },
+      {
+        "id": "speech-mehrabian-7-percent",
+        "type": "あわせて読む",
+        "why": "「話の中身は7%」という有名な数字が、本当は何の実験だったか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-voice-vs-text-disagreement"
+  },
+  {
+    "id": "game-violent-aggression-longitudinal",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Drummond et al., \"Do longitudinal studies support long-term relationships between aggressive game play and youth aggressive behaviour? A meta-analytic examination\" (Royal Society Open Science, 2020)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.200373",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "暴力的なゲームで、子どもは乱暴になる？",
+        "body": "銃で撃ったり殴ったりするゲームばかりしていると、性格まで攻撃的になる。事件のたびに言われるよね。何年も追いかけた研究では、どうだったんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "子ども約2万1000人の追跡研究をまとめた",
+        "body": "2020年、ドラモンドらは、攻撃的なゲームで遊ぶ子どもを時間をおいて追いかけた研究を集めた。28のグループ、約2万1000人分を数字でまとめている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "つながりは、ほぼゼロに近かった",
+        "body": "全体の関係はr=0.059と、とても小さかった。追いかける期間が長いほど関係は小さくなり、作りのしっかりした研究ほど小さかった。良いやり方をそろえた研究だけでは、ゼロと区別できなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い目で見た話で、一人ひとりはわからない",
+        "body": "まとめたのは追跡調査で、短い実験の話ではない。関係が出るかどうかは、研究の作りや研究者の期待で変わっていたと著者は見ている。この問いは何十年も議論が続いていて、ゲームの中身や子どもによる違いもまだわからない。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/games/game-violent-aggression-longitudinal/"
+  },
+  {
+    "id": "game-play-time-wellbeing",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Vuorre et al., \"Time spent playing video games is unlikely to impact well-being\" (Royal Society Open Science, 2022)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.220411",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ゲームを長くやるほど、心の調子は悪くなる？",
+        "body": "ついゲームに何時間も使ってしまう日、あるよね。遊ぶ時間が長いと、気分や満足感は下がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "本物のプレイ記録3万8935人分",
+        "body": "2022年、ヴオーレらは、任天堂やソニーなどゲーム会社7社から、どうぶつの森やグランツーリスモなど7本の実際のプレイ時間をもらった。6週間に3回、気分や生活の満足感も聞いた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "時間の影響はほとんどなかった",
+        "body": "遊ぶ時間と心の調子の間に、因果のつながりはほぼ見られなかった。気分の変化に気づくには、ふだんより1日10時間も多く遊ぶ必要があるほど小さい。それより「やらされている感」で遊ぶ人ほど調子が悪かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人の英語圏プレイヤーが中心",
+        "body": "対象は18歳以上で、英米など英語圏8か国のプレイヤーだった。子どもや日本の人ではない。期間も6週間で、ゲームは7本だけ。アンケートに答えた人だけなので、もっと長い追跡が必要らしい。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sns-adolescent-wellbeing-small",
+        "type": "あわせて読む",
+        "why": "スマホやSNSの時間と子どもの心の関係も、とても小さかった"
+      },
+      {
+        "id": "game-disorder-prevalence",
+        "type": "あわせて読む",
+        "why": "時間ではなく、やめられなくなる「ゲーム障害」はどのくらいいるか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-play-time-wellbeing"
+  },
+  {
+    "id": "game-disorder-prevalence",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Stevens et al., \"Global prevalence of gaming disorder: A systematic review and meta-analysis\" (Australian & New Zealand Journal of Psychiatry, 2020)",
+    "sourceUrl": "https://doi.org/10.1177/0004867420962851",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ゲーム依存の人って、どのくらいいるの？",
+        "body": "WHOの病気の分類に「ゲーム障害」が入ったよね。ニュースではよく聞くけど、実際に当てはまる人はどのくらいいるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "17か国・22万人超のデータを集めた",
+        "body": "2020年、スティーブンスらは、2009〜2019年に行われた53本の調査を集めた。17か国、22万6247人分の割合を数字でまとめ、割合がばらつく理由も調べている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "全体で約3%。きちんと選んだ調査では約2%",
+        "body": "世界全体の割合は3.05%だった。対象者をきちんと無作為に選んだ調査だけだと1.96%。男性は女性の約2.5倍だった。どのチェック表を使ったかで、ばらつきの77%が説明できたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "測り方で数字が大きく変わる",
+        "body": "10代だけの調査、基準の点数が低い調査、人数が少ない調査ほど割合が高く出た。約2%という値も幅がとても広い。どの国でも同じとは言えず、測り方をそろえた調査が必要とされている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "ledger-loot-box-gambling",
+        "type": "あわせて読む",
+        "why": "ゲームの中のガチャへの支出は、ギャンブルの問題と関係するか"
+      },
+      {
+        "id": "game-play-time-wellbeing",
+        "type": "あわせて読む",
+        "why": "ふつうに遊ぶ時間の長さは、心の調子とほとんど関係しなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-disorder-prevalence"
+  },
+  {
+    "id": "game-children-intelligence",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Sauce et al., \"The impact of digital media on children's intelligence while controlling for genetic differences in cognition and socioeconomic background\" (Scientific Reports, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-022-11341-2",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ゲームをすると、子どもの頭は悪くなる？",
+        "body": "「ゲームばかりだとバカになる」。子どものころ言われた人も多いよね。逆に「頭が良くなる」という話もある。子どもを2年間追いかけた研究を見てみよう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの子ども約1万人を追跡",
+        "body": "ソースらは、アメリカの大規模調査で9〜10歳の子ども9855人の画面時間と知能テストを調べ、5169人は2年後にも測った。遺伝のちがいや家庭の経済状況も、数字の上でそろえている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "ゲームが長い子ほど、少し伸びていた",
+        "body": "はじめの時点では、ゲームの時間と知能に関係はなかった。2年後は、ゲームの時間が長い子ほど知能の伸びが少し大きかった（効果の大きさ0.17）。SNSの時間は伸びと関係がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きで分けた研究ではない",
+        "body": "観察研究なので、ゲームのおかげとは言い切れない。画面時間は自己申告で、対象はアメリカの子どもだけ。ゲームの種類も分けていない。ゲームで頭全体は鍛えられないとするメタ分析もある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-game-brain-myth",
+        "type": "あわせて読む",
+        "why": "アクションゲームと注意力などの関係を、たくさんの研究でまとめた"
+      },
+      {
+        "id": "brain-game-training-null",
+        "type": "反対の結果",
+        "why": "ゲームの実験をまとめた別の研究では、頭の力全体が伸びる証拠はなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/game-children-intelligence/"
+  },
+  {
+    "id": "game-smart-device-myopia",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Foreman et al., \"Association between digital smart device use and myopia: a systematic review and meta-analysis\" (The Lancet Digital Health, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/S2589-7500(21)00135-7",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スマホやゲームで、目が悪くなる？",
+        "body": "「画面ばかり見ていると目が悪くなるよ」。子どもの近視が増えていて、スマホやタブレットのせいだとよく言われるよね。研究をまとめるとどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "33本の研究を集めて、11本をまとめた",
+        "body": "2021年、フォアマンらは、3か月〜33歳を対象に、スマホやタブレットの使用と近視の関係を調べた研究を33本集めた。そのうち11本を数字でまとめている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "使う時間が長いと、近視が少し多かった",
+        "body": "スマホ・タブレットの時間だけで見ると、近視になるオッズは1.26倍だった。パソコンの時間も合わせると1.77倍。著者は、近視のリスクを高めるかもしれない、と控えめにまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "画面時間の測り方が弱い",
+        "body": "すべての研究が画面時間をアンケートで聞いていて、正確に測った研究はなかった。近視を検査せず質問だけで判断した研究や、ほかの要因をそろえていない研究もある。研究ごとの差も大きく、因果はわかっていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sns-screen-time-self-report",
+        "type": "あわせて読む",
+        "why": "自分で答えるスマホ時間は、実際の時間とずれやすい"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/game-smart-device-myopia/"
+  },
+  {
+    "id": "game-internet-search-knowledge-illusion",
+    "category": "ゲームとネット",
+    "kind": "研究紹介",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Fisher et al., \"Searching for explanations: How the Internet inflates estimates of internal knowledge\" (Journal of Experimental Psychology: General, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000070",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "問い",
+        "title": "ネットで調べると「わかった気」になる？",
+        "body": "ちょっと検索しただけで、そのことに詳しくなった気がすること、あるよね。調べられることと、自分が知っていることは、頭の中で混ざってしまうのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9つの実験で試した",
+        "body": "2015年、フィッシャーらは、ネットで説明を検索した人と、そうでない人を比べる実験を9つ行った。自分がどのくらい知っているかを、本人に見積もってもらっている。"
+      },
+      {
+        "stage": "結果",
+        "title": "検索した人ほど「自分は知っている」と答えた",
+        "body": "ネットで調べた人は、自分の頭の中の知識を多めに見積もった。情報に手が届くことを、自分の理解と取りちがえていたらしい。自分の脳がより活発に働いている、という画像を選ぶ傾向まであった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見積もりの話で、学力ではない",
+        "body": "測ったのは「どれだけ知っていると思うか」で、実際の知識が減ったわけではない。実験は短時間で、2015年の検索が対象。AIに聞く今のやり方でも同じかは、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-llm-vs-search-learning-depth",
+        "type": "あわせて読む",
+        "why": "検索ではなくAIのまとめで学ぶと、理解が浅くなるかを調べた研究"
+      },
+      {
+        "id": "dokugaku-ai-overreliance-solve-on-your-own-offloading-cost",
+        "type": "あわせて読む",
+        "why": "すぐ調べられると覚えにくくなるか。外に頼ることの損得"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-internet-search-knowledge-illusion"
+  },
+  {
+    "id": "lang-critical-period-age",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Hartshorne, Tenenbaum & Pinker, \"A critical period for second language acquisition: Evidence from 2/3 million English speakers\" (Cognition, 2018)",
+    "sourceUrl": "https://doi.org/10.1016/j.cognition.2018.04.007",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "外国語は子どものうちに始めないと身につかない？",
+        "body": "「英語は小さいうちに始めないと手遅れ」ってよく聞くよね。大人になってから勉強している人ほど、気になる話かもしれない。データではどう見えるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約67万人の英語の文法クイズを分析した",
+        "body": "MITなどのチームがネットで英語の文法クイズを公開し、英語を母語とする人もしない人も含めて669,498人の答えを集めた。何歳で英語に触れ始めたか、何年使ってきたかと文法の力の関係を、計算モデルで見た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "文法を覚える力は17歳ごろまで保たれていた",
+        "body": "文法を身につける力は子ども時代を通してほぼ変わらず、17.4歳ごろから下がっていた。ただ母語の人並みの文法に届くには、10〜12歳ごろまでに始める必要があるという結果だった。上達には何年もかかるので、遅く始めると時間が足りなくなるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "測ったのは英語の文法だけ",
+        "body": "1回のネットのクイズで、発音・単語・会話は測っていない。ある時点の答えから年齢の変化を推定したもので、同じ人を追いかけたわけではない。「母語の人並み」に届かなくても、大人から使える力をつけることは別の話。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-bilingual-advantage",
+        "type": "あわせて読む",
+        "why": "2つの言葉を話せると頭も良くなるのか、という別の「言葉の神話」を確かめたメタ分析"
+      },
+      {
+        "id": "dokugaku-forgotten-language-relearning-permastore",
+        "type": "あわせて読む",
+        "why": "大人になってから学んだ語学が、何十年たってどれだけ残るかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/lang-critical-period-age/"
+  },
+  {
+    "id": "lang-captioned-video",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Kurokawa, Hein & Uchihara, \"Incidental Vocabulary Acquisition Through Captioned Viewing: A Meta-Analysis\" (Language Learning, 2024)",
+    "sourceUrl": "https://doi.org/10.1111/lang.12697",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "英語の動画は、英語の字幕つきで見ると単語が増える？",
+        "body": "海外ドラマや動画で英語を勉強する人は多いよね。字幕は英語にするか、なしにするか迷うところ。字幕があると単語の覚え方は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "49の実験、89の結果をまとめた",
+        "body": "学んでいる言葉の字幕つきで動画を見たグループと、字幕なしで見たグループを比べた49の実験を集めた。覚えようとせずに見たあと、知らなかった単語をどれだけ覚えていたかを比べている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "字幕つきの方が、単語を中くらい多く覚えた",
+        "body": "全体では、字幕つきのグループの方が単語の伸びが大きく、効果の大きさは中くらい（g＝0.56）だった。効果の大きさは、学ぶ人の段階や、動画が誰向けに作られたものかなどで変わっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほとんどは短い実験",
+        "body": "多くは教室や実験の場で、決まった動画を見たあとにテストした研究。何か月も字幕つきで見続けたときにどうなるか、会話の力まで伸びるかは、このまとめではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "lang-listening-incidental-vocab",
+        "type": "あわせて読む",
+        "why": "読む・聞く・見るだけで単語がどれだけ覚えられるかを比べたメタ分析。見るだけの場合は少なめだった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/lang-captioned-video/"
+  },
+  {
+    "id": "lang-extensive-reading",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Nakanishi, \"A Meta-Analysis of Extensive Reading Research\" (TESOL Quarterly, 2015)",
+    "sourceUrl": "https://doi.org/10.1002/tesq.157",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "やさしい本をたくさん読む「多読」で、英語は伸びる？",
+        "body": "辞書を引かずに、やさしい英語の本をどんどん読む「多読」。「効果がない」という声もあって、続けるか迷う人もいるよね。研究をまとめるとどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "34の研究、3,942人をまとめた",
+        "body": "多読をしたグループとしなかったグループを比べた研究と、多読の前後で比べた研究を集めた。博士論文2本を含む34本で、合わせて3,942人が対象になっている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "読む力は、中くらい伸びていた",
+        "body": "多読をしなかったグループと比べると、読む力の伸びは中くらい（d＝0.46）だった。多読の前後で比べると、伸びはもっと大きかった（d＝0.71）。著者は、多読を語学の授業に入れるべきだとまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "前後の比較は大きく見えやすい",
+        "body": "比べる相手がいない前後の比較は、ふつうの授業の効果も混ざるので大きく出やすい。測ったのは主に読む力で、話す力までは扱っていない。2015年のまとめなので、それ以降の研究は入っていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "lang-listening-incidental-vocab",
+        "type": "あわせて読む",
+        "why": "読むだけで単語がどれだけ覚えられるかを、聞く・見ると比べた別のメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/lang-extensive-reading/"
+  },
+  {
+    "id": "lang-listening-incidental-vocab",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Webb, Uchihara & Yanagisawa, \"How effective is second language incidental vocabulary learning? A meta-analysis\" (Language Teaching, 2023)",
+    "sourceUrl": "https://doi.org/10.1017/s0261444822000507",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "英語は聞き流すだけで単語が覚えられる？",
+        "body": "「聞き流すだけで英語が身につく」という話、よく見かけるよね。覚えようとしなくても、読んだり聞いたりするだけで単語はどれくらい残るんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "24の研究、2,771人をまとめた",
+        "body": "話の中身に集中して読む・聞く・動画を見るとき、ついでに覚えられる単語の割合を調べた24の研究を集めた。覚えようとしたかではなく、内容を楽しんだあとで知らない単語のテストをしている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "覚えられたのは、知らない単語の1〜2割ほど",
+        "body": "直後のテストで覚えていた単語は9〜18%ほど。読む・聞く・聞きながら読むでは似たような割合（13〜17%）で、動画を見るだけだと少なかった（直後7%）。ついでに覚える効果はあるけれど、量は控えめらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「聞き流し」とは条件がちがう",
+        "body": "研究の参加者は話の中身に集中していた。BGMのように聞き流したときは調べていない。覚えられる割合は、英語の力や教材、間をあけて何度も出会うかなどで変わっていた。"
+      }
+    ],
+    "links": [
+      {
+        "id": "lang-captioned-video",
+        "type": "あわせて読む",
+        "why": "動画を見るだけだと少なめでも、字幕をつけると単語が伸びやすいというメタ分析"
+      },
+      {
+        "id": "lang-extensive-reading",
+        "type": "あわせて読む",
+        "why": "たくさん読む「多読」で、読む力そのものがどれだけ伸びるかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/lang-listening-incidental-vocab/"
+  },
+  {
+    "id": "lang-language-apps",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Mihaylova et al., \"A Meta-Analysis on Mobile-Assisted Language Learning Applications: Benefits and Risks\" (Psychologica Belgica, 2022)",
+    "sourceUrl": "https://doi.org/10.5334/pb.1146",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スマホの語学アプリで、外国語は身につく？",
+        "body": "すきま時間にできる語学アプリ、使っている人は多いよね。でも「ゲームみたいで、本当に力がついているのかな」と思うこともある。研究をまとめるとどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アプリと、ふつうの学び方を比べた",
+        "body": "スイスの遠隔大学（UniDistance Suisse）などのチームが、2007〜2019年の論文や未発表の報告を探した。語学アプリで学んだグループと、教室などふつうの方法で学んだグループを比べた23の結果をまとめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "アプリの方が成績が良かった。ただし…",
+        "body": "アプリで学んだ方が成績は良く、効果は中〜大（g＝0.88）だった。ところが、どの研究も「かたよりのおそれが高く、根拠の質は低い」と評価された。著者自身が、結果は慎重に受け取るよう書いている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どのアプリが、誰に効くかは別",
+        "body": "研究ごとにアプリも期間も違い、1つのアプリの効果を示したものではない。続けられるかどうかや、話す力まで伸びるかも、このまとめでははっきりしない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/lang-language-apps/"
+  },
+  {
+    "id": "lang-accent-impression",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Fuertes et al., \"A meta-analysis of the effects of speakers' accents on interpersonal evaluations\" (European Journal of Social Psychology, 2012)",
+    "sourceUrl": "https://doi.org/10.1002/ejsp.862",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "話し方の訛りで、人の印象は変わる？",
+        "body": "英語を話すとき「日本語訛りが恥ずかしい」と感じる人は多いよね。聞く側は、訛りで相手をどう見ているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20の研究、116の結果をまとめた",
+        "body": "その地域の多数派の話し方と、外国語訛りや少数派の話し方を聞かせて、話し手の印象を比べた20の研究を集めた。印象は「地位（賢さなど）」「親しみ（信頼など）」「活発さ」の3つに分けて見た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "訛りで評価ははっきり変わっていた",
+        "body": "話し方の訛りは、聞く人の評価に大きく影響していた。とくに、アメリカの標準的な英語の話し手と比べたときに差が大きかった。中身が同じでも、話し方で印象が左右されるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "多くは録音を聞く実験",
+        "body": "多くは知らない人の録音を聞いて評価する実験で、実際に会って話すときや、長くつきあったあとの印象はわからない。訛りがある人の能力が低いという意味ではなく、聞く側の思いこみの話。"
+      }
+    ],
+    "links": [
+      {
+        "id": "ai-detector-nonnative-bias",
+        "type": "あわせて読む",
+        "why": "母語でない人の英語が、AI判定ツールでも不利に扱われていたという研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#lang-accent-impression"
   }
 ]

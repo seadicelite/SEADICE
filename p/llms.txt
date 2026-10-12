@@ -58,7 +58,7 @@
 ## 主要ページ
 
 - [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ
-- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など48分野・470本以上の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
+- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など53分野・500本の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
   よく聞く説を確かめる（1問1ページ、結論・研究の種類・論文DOIつき）:
   - [習慣化は21日？66日？ 論文でわかったこと](https://seadice.win/evidence/habits/habit-66days/)
   - [意志力は使うと減る？ 23の研究室の追試でわかったこと](https://seadice.win/evidence/replication/replication-ego-depletion/)
@@ -161,6 +161,27 @@
   - [学校のスマホ禁止に効果はある？ 論文でわかったこと](https://seadice.win/evidence/digital-detox/digital-school-phone-ban/)
   - [スマホはそばにあるだけで集中を奪う？ 論文でわかったこと](https://seadice.win/evidence/digital-detox/digital-smartphone-brain-drain/)
   - [Zoom疲れはカメラのせい？ 論文でわかったこと](https://seadice.win/evidence/work/work-camera-fatigue/)
+  - [暴力的なゲームで攻撃的になるは本当？ 論文でわかったこと](https://seadice.win/evidence/games/game-violent-aggression-longitudinal/)
+  - [ゲームで頭が良くなる・悪くなるは本当？ 論文でわかったこと](https://seadice.win/evidence/games/game-children-intelligence/)
+  - [スマホで目が悪くなるは本当？ 論文でわかったこと](https://seadice.win/evidence/games/game-smart-device-myopia/)
+  - [「酒は百薬の長」は本当？ 論文でわかったこと](https://seadice.win/evidence/alcohol/alcohol-hyakuyaku-mortality/)
+  - [お酒で顔が赤くなる人とがんの関係は？ 論文でわかったこと](https://seadice.win/evidence/alcohol/alcohol-flushing-aldh2/)
+  - [ちゃんぽんで悪酔いするは本当？ 論文でわかったこと](https://seadice.win/evidence/alcohol/alcohol-chanpon-hangover/)
+  - [赤ワインは心臓にいいは本当？ 論文でわかったこと](https://seadice.win/evidence/alcohol/alcohol-red-wine-resveratrol/)
+  - [ビール腹は本当？ 論文でわかったこと](https://seadice.win/evidence/alcohol/alcohol-beer-belly/)
+  - [二日酔いに効くものはある？ 論文でわかったこと](https://seadice.win/evidence/alcohol/alcohol-hangover-remedies/)
+  - [満月の日は出産が増えるは本当？ 論文でわかったこと](https://seadice.win/evidence/weather-mood/weather-full-moon-births/)
+  - [天気で気分は変わる？ 論文でわかったこと](https://seadice.win/evidence/weather-mood/weather-daily-mood/)
+  - [雨や気圧で関節が痛むは本当？ 論文でわかったこと](https://seadice.win/evidence/weather-mood/weather-pain-humidity/)
+  - [晴れの日は株が上がる？ 論文でわかったこと](https://seadice.win/evidence/weather-mood/weather-sunshine-stock-returns/)
+  - [暑いとイライラするは本当？ 論文でわかったこと](https://seadice.win/evidence/weather-mood/weather-social-media-sentiment/)
+  - [英語の聞き流しに効果はある？ 論文でわかったこと](https://seadice.win/evidence/language-learning/lang-listening-incidental-vocab/)
+  - [語学アプリに効果はある？ 論文でわかったこと](https://seadice.win/evidence/language-learning/lang-language-apps/)
+  - [多読に効果はある？ 論文でわかったこと](https://seadice.win/evidence/language-learning/lang-extensive-reading/)
+  - [英語字幕で見ると単語は増える？ 論文でわかったこと](https://seadice.win/evidence/language-learning/lang-captioned-video/)
+  - [外国語は何歳から始めるべき？ 論文でわかったこと](https://seadice.win/evidence/language-learning/lang-critical-period-age/)
+  - [メラビアンの法則は本当？ 論文でわかったこと](https://seadice.win/evidence/speaking/speech-mehrabian-7-percent/)
+  - [緊張は「ワクワク」と言い換えると軽くなる？ 研究でわかったこと](https://seadice.win/evidence/speaking/speech-get-excited-anxiety/)
 - [EVIDENCEシリーズ（研究にもとづくアプリ）](https://seadice.win/evidence-series/): 機能のもとになった研究の論文（DOI）と日本語の解説記事を公開しているアプリのまとめ。「証明された」ではなく「研究にもとづく」と表記
 - [Webツール・ジャンル別ハブ](https://seadice.win/tools/): 困りごとの種類から探す
 - [Decoy Notes](https://seadice.win/tools/decoy-notes/): 正しい合言葉では本物のメモ、まちがった合言葉ではダミーのメモが同じ見た目で開くメモ帳。本物はAES-GCMで暗号化しブラウザ内だけに保存（登録不要・サーバー送信なし）

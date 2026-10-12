@@ -403,5 +403,89 @@
   "work-camera-fatigue": {
     "kw": "zoom疲れ",
     "title": "Zoom疲れはカメラのせい？ 論文でわかったこと"
+  },
+  "game-violent-aggression-longitudinal": {
+    "kw": "暴力的なゲーム 影響",
+    "title": "暴力的なゲームで攻撃的になるは本当？ 論文でわかったこと"
+  },
+  "game-children-intelligence": {
+    "kw": "ゲーム 頭が良くなる",
+    "title": "ゲームで頭が良くなる・悪くなるは本当？ 論文でわかったこと"
+  },
+  "game-smart-device-myopia": {
+    "kw": "スマホ 目が悪くなる",
+    "title": "スマホで目が悪くなるは本当？ 論文でわかったこと"
+  },
+  "alcohol-hyakuyaku-mortality": {
+    "kw": "酒は百薬の長 嘘",
+    "title": "「酒は百薬の長」は本当？ 論文でわかったこと"
+  },
+  "alcohol-flushing-aldh2": {
+    "kw": "お酒 顔が赤くなる がん",
+    "title": "お酒で顔が赤くなる人とがんの関係は？ 論文でわかったこと"
+  },
+  "alcohol-chanpon-hangover": {
+    "kw": "ちゃんぽん 悪酔い",
+    "title": "ちゃんぽんで悪酔いするは本当？ 論文でわかったこと"
+  },
+  "alcohol-red-wine-resveratrol": {
+    "kw": "赤ワイン 心臓にいい",
+    "title": "赤ワインは心臓にいいは本当？ 論文でわかったこと"
+  },
+  "alcohol-beer-belly": {
+    "kw": "ビール腹 嘘",
+    "title": "ビール腹は本当？ 論文でわかったこと"
+  },
+  "alcohol-hangover-remedies": {
+    "kw": "二日酔い 論文",
+    "title": "二日酔いに効くものはある？ 論文でわかったこと"
+  },
+  "weather-full-moon-births": {
+    "kw": "満月 出産",
+    "title": "満月の日は出産が増えるは本当？ 論文でわかったこと"
+  },
+  "weather-daily-mood": {
+    "kw": "天気 気分",
+    "title": "天気で気分は変わる？ 論文でわかったこと"
+  },
+  "weather-pain-humidity": {
+    "kw": "気圧 関節痛",
+    "title": "雨や気圧で関節が痛むは本当？ 論文でわかったこと"
+  },
+  "weather-sunshine-stock-returns": {
+    "kw": "天気 株価",
+    "title": "晴れの日は株が上がる？ 論文でわかったこと"
+  },
+  "weather-social-media-sentiment": {
+    "kw": "暑い イライラ",
+    "title": "暑いとイライラするは本当？ 論文でわかったこと"
+  },
+  "lang-listening-incidental-vocab": {
+    "kw": "英語 聞き流し 効果",
+    "title": "英語の聞き流しに効果はある？ 論文でわかったこと"
+  },
+  "lang-language-apps": {
+    "kw": "語学アプリ 効果",
+    "title": "語学アプリに効果はある？ 論文でわかったこと"
+  },
+  "lang-extensive-reading": {
+    "kw": "多読 効果",
+    "title": "多読に効果はある？ 論文でわかったこと"
+  },
+  "lang-captioned-video": {
+    "kw": "英語 字幕 効果",
+    "title": "英語字幕で見ると単語は増える？ 論文でわかったこと"
+  },
+  "lang-critical-period-age": {
+    "kw": "英語 何歳から",
+    "title": "外国語は何歳から始めるべき？ 論文でわかったこと"
+  },
+  "speech-mehrabian-7-percent": {
+    "kw": "メラビアンの法則",
+    "title": "メラビアンの法則は本当？ 論文でわかったこと"
+  },
+  "speech-get-excited-anxiety": {
+    "kw": "緊張 ワクワク",
+    "title": "緊張は「ワクワク」と言い換えると軽くなる？ 研究でわかったこと"
   }
 }
