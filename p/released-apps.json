@@ -389,6 +389,19 @@
       "genre": "",
       "appStoreId": "6791805828",
       "appStoreUrl": "https://apps.apple.com/app/id6791805828"
+    },
+    {
+      "id": "kiroku-nou-training",
+      "name": "毎日脳トレ記録",
+      "genre": "brain-memory",
+      "appStoreId": "6793108726",
+      "appStoreUrl": "https://apps.apple.com/app/id6793108726",
+      "media": [
+        {
+          "site": "oya",
+          "hub": "https://oya.seadice.win/apps/kiroku-nou-training/"
+        }
+      ]
     }
   ]
 }
