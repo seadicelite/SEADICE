@@ -792,7 +792,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/#replication-birth-order",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "personality-change-adulthood",
+        "type": "あわせて読む",
+        "why": "生まれ順では性格の差が見られず、年代では変化が見られた"
+      }
+    ]
   },
   {
     "id": "replication-media-multitasking",
@@ -927,7 +934,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/japan/japan-blood-type/",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "personality-zodiac-sign",
+        "type": "あわせて読む",
+        "why": "血液型も星座も、大人数の調査では性格との関係がほとんど見られなかった"
+      }
+    ]
   },
   {
     "id": "japan-three-year-myth",
@@ -1119,7 +1133,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/brain-myths/brain-left-right-type/",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "personality-mbti-types",
+        "type": "あわせて読む",
+        "why": "「右脳型・左脳型」も、型で人を分ける考えを脳のデータで確かめた研究"
+      }
+    ]
   },
   {
     "id": "brain-adult-neurogenesis",
@@ -1679,7 +1700,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/love/love-first-impression-100ms/",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "face-impression-dimensions-world",
+        "type": "あわせて読む",
+        "why": "顔の印象は一瞬で決まるという研究。その印象の中身を世界で確かめた"
+      }
+    ]
   },
   {
     "id": "love-similarity-attraction",
@@ -1814,7 +1842,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/love/#love-ideal-partner-preferences",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "face-averageness-beauty",
+        "type": "あわせて読む",
+        "why": "顔の魅力が実際の相手選びでどれだけ効くかを調べたメタ分析"
+      }
+    ]
   },
   {
     "id": "myth-water-8-glasses",
@@ -2610,6 +2645,11 @@
         "id": "sleep-light-on-insulin",
         "type": "あわせて読む",
         "why": "寝る前の光の影響と、寝ている間につけっぱなしの明かりの影響"
+      },
+      {
+        "id": "sleep-phone-bedroom-children",
+        "type": "あわせて読む",
+        "why": "寝る前の光る端末で寝つきが遅れることを、実験で確かめた研究"
       }
     ]
   },
@@ -3047,6 +3087,11 @@
         "id": "happy-positive-psychology-meta",
         "type": "あわせて読む",
         "why": "感謝の書き出しの実験と、幸せの練習全体のまとめ"
+      },
+      {
+        "id": "kokoro-expressive-writing-depression",
+        "type": "あわせて読む",
+        "why": "同じ「書き出す」方法でも、感謝を書く実験では気持ちの変化が見られた"
       }
     ]
   },
@@ -3642,6 +3687,11 @@
         "id": "breathing-cortisol",
         "type": "反対の結果",
         "why": "呼吸練習でコルチゾールが下がった研究と、変わらなかった研究"
+      },
+      {
+        "id": "laughter-therapy-meta-depression",
+        "type": "あわせて読む",
+        "why": "笑いヨガ1回で、ストレスへの体の反応を見た小さな実験"
       }
     ]
   },
@@ -4999,7 +5049,14 @@
       "wrong": "睡眠の質と活力が高かった"
     },
     "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-daylight-office-sleep",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "kokoro-daylight-outdoors-mood",
+        "type": "あわせて読む",
+        "why": "昼間の光と睡眠の関係を、窓のあるオフィスで比べた小さな研究"
+      }
+    ]
   },
   {
     "id": "aging-exercise-telomere-ultramarathon",
@@ -5174,6 +5231,11 @@
         "id": "appetite-sleep-sweet-taste",
         "type": "反対の結果",
         "why": "寝不足でレプチンが減った研究と、差がなかった研究"
+      },
+      {
+        "id": "appetite-sleep-snacks",
+        "type": "反対の結果",
+        "why": "寝不足で食欲ホルモンが変わった研究と、差がなかった研究"
       }
     ]
   },
@@ -5288,6 +5350,11 @@
         "id": "appetite-sleep-fmri-junkfood",
         "type": "あわせて読む",
         "why": "寝不足で食べる量が増える理由を、脳の反応から説明する"
+      },
+      {
+        "id": "appetite-sleep-extension-intake",
+        "type": "あわせて読む",
+        "why": "寝不足で食べる量が増えた実験の、逆向きを試した研究"
       }
     ]
   },
@@ -5357,6 +5424,11 @@
         "id": "posture-disc-pressure-sitting",
         "type": "あわせて読む",
         "why": "座りすぎと腰痛の関係を、椎間板への負担から考える"
+      },
+      {
+        "id": "posture-standing-desk-back-pain",
+        "type": "あわせて読む",
+        "why": "座りすぎと腰痛の関係を、観察研究からまとめたメタ分析"
       }
     ]
   },
@@ -5786,6 +5858,11 @@
         "id": "procrastination-metaanalysis",
         "type": "あわせて読む",
         "why": "先延ばしと衝動性の強い関係を、遺伝の面から説明する"
+      },
+      {
+        "id": "personality-heritability",
+        "type": "あわせて読む",
+        "why": "先延ばしのしやすさにも遺伝が関わるかを、双子で調べた研究"
       }
     ]
   },
@@ -6180,7 +6257,19 @@
       "wrong": "朝食を食べるとやせやすい"
     },
     "webUrl": "https://seadice.win/evidence/food-brain/#food-breakfast-weight",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "foodmyth-late-eating-hunger",
+        "type": "あわせて読む",
+        "why": "この実験の遅い日は朝食抜き。朝食と体重の試験をまとめた研究と並べて読める"
+      },
+      {
+        "id": "foodmyth-meal-frequency-weight",
+        "type": "あわせて読む",
+        "why": "朝食を食べるかどうかも食事回数の問題。体重との関係を試験で調べた別のまとめ"
+      }
+    ]
   },
   {
     "id": "food-dehydration-cognition",
@@ -8164,7 +8253,14 @@
     "articleUrl": "https://umbra.seadice.win/fake-smile-duchenne-detection-research/",
     "articleSite": "しぐさと本音",
     "webUrl": "https://seadice.win/evidence/romance/#umbra-fake-smile-detection",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "face-smile-culture-trust",
+        "type": "あわせて読む",
+        "why": "笑顔の受け取られ方の次に、作り笑いは見分けられるかを調べた研究"
+      }
+    ]
   },
   {
     "id": "umbra-couple-exciting-activities",
@@ -10433,7 +10529,19 @@
     "articleUrl": "https://hanzai.seadice.win/facial-appearance-and-legal-judgments/",
     "articleSite": "犯罪と心理",
     "webUrl": "https://seadice.win/evidence/decision-bias/#hanzai-face-trust-sentencing",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "face-trustworthiness-detection",
+        "type": "あわせて読む",
+        "why": "顔の「信用できそう」は当たらないのに、判決の重さには影響したという研究"
+      },
+      {
+        "id": "face-election-appearance",
+        "type": "あわせて読む",
+        "why": "選挙だけでなく、判決でも顔の印象が結果と結びついていた"
+      }
+    ]
   },
   {
     "id": "hanzai-asch-replication-2023",
@@ -11368,5 +11476,1146 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/body-myths/#body-steps-7000-meta"
+  },
+  {
+    "id": "insight-alcohol-creativity",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Benedek et al., \"Creativity on tap? Effects of alcohol intoxication on creative cognition\" (Consciousness and Cognition, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.concog.2017.06.020",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お酒を飲むとアイデアが出る？",
+        "body": "作家や画家がお酒を片手に名作を生んだ、という話はよく聞くよね。少し酔うと頭がやわらかくなるって、本当なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "本物のビールと、ノンアルを比べた",
+        "body": "オーストリアのグラーツ大学のチームが、参加者を本物のビールとノンアルコールビールに分け、飲む前と後で頭の切り替えの課題とアイデアの課題をやってもらった。血中アルコール濃度は0.03%ほどの軽い酔い。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "得をした課題と、しなかった課題がある",
+        "body": "お酒を飲んだ人は、注意を切り替える力が落ちた。一方で、3つの言葉をつなぐ1語を探す課題は解けやすくなった。ただ、いろんなアイデアをたくさん出す力は変わらなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「飲めば冴える」とまでは言えない",
+        "body": "見たのはほろ酔いの1回だけで、実験室の言葉の課題の話。もっと飲んだらどうか、仕事の企画のような実際のアイデアにも当てはまるかは、この研究ではわからない。飲みすぎの害は別の話として残る。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-alcohol-creativity"
+  },
+  {
+    "id": "insight-brainstorming-groups",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Mullen, Johnson & Salas, \"Productivity Loss in Brainstorming Groups: A Meta-Analytic Integration\" (Basic and Applied Social Psychology, 1991)",
+    "sourceUrl": "https://doi.org/10.1207/s15324834basp1201_1",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "アイデアはみんなで出した方が多い？",
+        "body": "会議でブレインストーミング。人数が多いほど、いい案がたくさん出そうな気がするよね。でも実は、昔から研究で疑われてきた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "集まって出すか、ひとりずつ出すか",
+        "body": "米国のシラキュース大学などのチームが、これまでの実験をまとめて分析した。みんなで話しながら出すグループと、同じ人数がひとりずつ出した案を合わせたものを比べている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "ひとりずつ出した方が、量も質も上だった",
+        "body": "話し合うグループは、ひとりずつ出した合計より、案の数でも質でも少なかった。グループが大きいほど、見ている人がいるとき、口で言う形のときに差が広がった。人の目や順番待ちが効いているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "古い研究をまとめたもの",
+        "body": "1991年までの実験室の研究で、多くは学生の短い課題。チャットで書き込む形や、まずひとりで考えてから持ち寄るやり方がどうかは、この分析ではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-brainstorming-groups"
+  },
+  {
+    "id": "insight-good-mood-creativity",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Baas, De Dreu & Nijstad, \"A meta-analysis of 25 years of mood-creativity research: Hedonic tone, activation, or regulatory focus?\" (Psychological Bulletin, 2008)",
+    "sourceUrl": "https://doi.org/10.1037/a0012815",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "機嫌がいい日の方が、アイデアは出る？",
+        "body": "楽しい日は発想がどんどん湧く気がする。でも、悩んでいるときの方が深い作品が生まれる、なんて話もあるよね。どっちなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "25年分の研究をまとめた",
+        "body": "オランダのアムステルダム大学のチームが、気分と創造性を調べた研究から102の効果をまとめて分析した。うれしい・リラックス・悲しい・不安など、気分の種類ごとに分けて見ている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "前向きな気分は少しプラス、不安はマイナス",
+        "body": "前向きな気分のときは、ふつうの気分より創造性がやや高かった（効果は小さめ）。いちばん効いたのは、うれしいのような元気の出る気分。リラックスはそれほどでもなく、悲しみは関係なし。不安や恐れは、頭の切り替えを下げていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果は小さく、課題も実験室のもの",
+        "body": "全体の差は小さく、多くは学生が短い課題に取り組んだ研究。気分を上げれば大きな仕事の発想が変わるかまでは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-good-mood-creativity"
+  },
+  {
+    "id": "kokoro-crying-mood",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Gračanin et al., \"Why crying does and sometimes does not seem to alleviate mood: a quasi-experimental study\" (Motivation and Emotion, 2015)",
+    "sourceUrl": "https://doi.org/10.1007/s11031-015-9507-9",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "泣くとすっきりする？",
+        "body": "思いきり泣いたら気持ちが軽くなった、という経験はあるよね。でも実験室の研究では、泣いた直後はむしろ気分が下がると言われてきた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "泣ける映画のあと、時間をおいて測った",
+        "body": "オランダのティルブルフ大学とクロアチアのリエカ大学のチームが、悲しい映画を見てもらい、泣いた28人と泣かなかった32人の気分を、見る前・直後・20分後・90分後に比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いったん下がって、あとで少し上がった",
+        "body": "泣いた人は直後に気分が沈んだが、20分後にはもとに戻り、90分後には見る前より気分がよくなっていた。泣かなかった人は、ほとんど変わらなかった。「すっきり」は少し時間をおいてから来るのかもしれない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "映画の涙で、人数も少ない",
+        "body": "泣くかどうかをくじで決めたわけではなく、泣いた人と泣かなかった人を比べた研究で、合わせて60人。映画の悲しさと、実生活のつらいことの涙が同じかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-crying-mood"
+  },
+  {
+    "id": "kokoro-expressive-writing-depression",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Reinhold, Bürkner & Holling, \"Effects of expressive writing on depressive symptoms—A meta-analysis\" (Clinical Psychology: Science and Practice, 2018)",
+    "sourceUrl": "https://doi.org/10.1111/cpsp.12224",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "気持ちを書き出すと、落ち込みは軽くなる？",
+        "body": "モヤモヤを紙に書くと楽になる、とよく聞くよね。つらい気持ちを数日書き続ける「筆記開示」というやり方は、研究でもたくさん試されてきた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "39のくじ引き試験をまとめた",
+        "body": "ドイツのミュンスター大学のチームが、体は健康でストレスを抱えた大人を対象にした、39のランダム化比較試験をまとめて分析した。PTSDのある人の研究は除いている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "短い書き出しだけでは、長い目で見た差はなかった",
+        "body": "書いた人と書かなかった人で、しばらくあとの落ち込みの症状に、はっきりした差は見られなかった。ただ、書く回数が多いときや、書くテーマがしぼられているときは、効果が大きめに出ていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "やり方しだいで変わるかも",
+        "body": "まとめたのは、自分ひとりで短く書くやり方が中心。回数を増やしたり、誰かの支えと組み合わせたりするとどうなるかは、これからの研究で確かめる必要がある。書いて楽になる人がいないという意味ではない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-gratitude",
+        "type": "あわせて読む",
+        "why": "同じ「書き出す」方法でも、感謝を書く実験では気持ちの変化が見られた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-expressive-writing-depression"
+  },
+  {
+    "id": "kokoro-daylight-outdoors-mood",
+    "category": "こころの不調",
+    "kind": "素朴な疑問",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Burns et al., \"Time spent in outdoor light is associated with mood, sleep, and circadian rhythm-related outcomes: A cross-sectional and longitudinal study in over 400,000 UK Biobank participants\" (Journal of Affective Disorders, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.jad.2021.08.056",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "外の光を浴びる時間と、気分は関係ある？",
+        "body": "冬になると何となく気分が沈む、日差しを浴びると元気が出る。そんな感覚を持つ人は多いよね。昼間に外にいる時間と気分の関係を、大きなデータで調べた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の大人40万人以上のデータ",
+        "body": "オーストラリアのモナシュ大学などのチームが、英国の37〜73歳の大規模調査（UKバイオバンク）で、昼間に外で過ごす時間（自己申告）と気分・睡眠の答えを照らし合わせた。外にいる時間の中央値は1日2.5時間だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "外の時間が1時間長いごとに、気分の答えがよかった",
+        "body": "昼間に外で過ごす時間が1時間長い人ほど、気分の落ち込みが多いと答える割合が約1割低く、幸せだと答える割合が高かった。朝起きやすく、疲れを感じにくいとも答えていた。時間をおいた追跡でも、同じ向きだった（差は小さめ）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "光のせいか、外に出られる元気のせいか",
+        "body": "関連を見た研究なので、元気な人ほど外に出ているだけかもしれない。外の時間は本人の申告で、実際に目に入った光の強さは測っていない。対象は英国の中高年が中心。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-daylight-office-sleep",
+        "type": "あわせて読む",
+        "why": "昼間の光と睡眠の関係を、窓のあるオフィスで比べた小さな研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-daylight-outdoors-mood"
+  },
+  {
+    "id": "laughter-frequency-mortality-yamagata",
+    "category": "笑いと健康",
+    "kind": "よく聞く説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Sakurada, Konta, Watanabe, Ishizawa et al., \"Associations of Frequency of Laughter With Risk of All-Cause Mortality and Cardiovascular Disease Incidence in a General Population: Findings From the Yamagata Study\" (Journal of Epidemiology, 2020)",
+    "sourceUrl": "https://doi.org/10.2188/jea.JE20180249",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "よく笑う人は長生きする？",
+        "body": "「笑う門には福来る」っていうよね。よく笑う人は長生き、という話は本当なのかな。日本の1万7千人を追いかけた研究があるらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "山形県の40歳以上、17,152人を追った",
+        "body": "2020年、桜田たちは、山形県の健診を受けた40歳以上の17,152人に、ふだんどれくらい笑うかを聞き、その後を追った。追跡期間の中央値は5.4年。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "笑うのが月1回未満の人は、死亡リスクが約2倍",
+        "body": "年齢・性別・高血圧・喫煙・飲酒をそろえても、笑うのが月1回未満の人は、週1回以上の人より亡くなるリスクが1.95倍だった。心臓や血管の病気も、笑う回数が少ない人に多かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "笑うから長生きなのかは、まだわからない",
+        "body": "笑う回数は本人の申告で、追いかけただけの研究なので、原因かどうかは分けられない。体調が悪い人がもともと笑わなくなっていた可能性もある。笑う回数を増やせば寿命が延びるかは試されていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-frequency-mortality-yamagata"
+  },
+  {
+    "id": "laughter-therapy-meta-depression",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "van der Wal & Kok, \"Laughter-inducing therapies: Systematic review and meta-analysis\" (Social Science & Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.socscimed.2019.02.018",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "笑いヨガやお笑いで、気分の落ち込みは軽くなる？",
+        "body": "笑いヨガやお笑いを使ったプログラムが、病院や施設でも広がっているらしい。続けると、気分の落ち込みに何か変化はあるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "笑いのプログラムの研究をまとめた",
+        "body": "2019年、ファン・デル・ワルとコックは、笑いを使ったプログラムの研究を広く集めた。そのうち、何回か続けるプログラムを、やらない群と比べた試験をメタ分析した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "うつの症状は軽くなる方向。つくり笑いの方が効いた",
+        "body": "笑いのプログラムで、うつの症状は軽くなる方向の結果だった。しかも、お笑いを見て笑う「自然な笑い」より、理由なく笑う「つくり笑い」（笑いヨガなど）の方が効果が大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の質は低いと、著者自身が書いている",
+        "body": "集めた研究はどれも質が低く、偏りのリスクが大きかった。対象の年齢も健康状態もばらばら。著者は、ほかの治療に足すものとして期待はできるが、もっと厳密な研究が必要だとまとめている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-yoga-cortisol",
+        "type": "あわせて読む",
+        "why": "笑いヨガ1回で、ストレスへの体の反応を見た小さな実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-therapy-meta-depression"
+  },
+  {
+    "id": "sleep-weighted-blanket-insomnia",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Ekholm, Spulber & Adler, \"A randomized controlled study of weighted chain blankets for insomnia in psychiatric disorders\" (Journal of Clinical Sleep Medicine, 2020)",
+    "sourceUrl": "https://doi.org/10.5664/jcsm.8636",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "重い毛布だと、よく眠れる？",
+        "body": "重さのある毛布で眠りがよくなる、という話を聞くよね。ただの気分なのか、軽い毛布とくじで比べた研究があるらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "不眠のある120人を、重い毛布と軽い毛布に分けた",
+        "body": "2020年、スウェーデンのエクホルムたちは、うつ病・双極性障害・不安障害・ADHDで不眠のある患者120人を、重い金属チェーンの毛布と軽いプラスチックチェーンの毛布にくじで分け、4週間使ってもらった。"
+      },
+      {
+        "stage": "結果",
+        "title": "4週間後、不眠の点数がはっきり下がった",
+        "body": "重い毛布の群は、不眠の重さの点数が軽い毛布の群よりはっきり改善した（効果量1.90）。夜中に目が覚めにくくなり、昼の疲れや気分の落ち込み、不安も軽くなった。重い副作用はなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "健康な人の眠りにも同じかは別の話",
+        "body": "対象は心の病気のある患者で、健康な人に当てはまるかはわからない。毛布の重さは本人にわかるので、期待の影響も混ざりうる。1つの研究の結果で、ほかでの再現はこれから。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-weighted-blanket-insomnia"
+  },
+  {
+    "id": "sleep-phone-bedroom-children",
+    "category": "睡眠環境",
+    "kind": "よく聞く説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Carter, Rees, Hale, Bhattacharjee & Paradkar, \"Association Between Portable Screen-Based Media Device Access or Use and Sleep Outcomes: A Systematic Review and Meta-analysis\" (JAMA Pediatrics, 2016)",
+    "sourceUrl": "https://doi.org/10.1001/jamapediatrics.2016.2341",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝室にスマホがあると、眠りが悪くなる？",
+        "body": "寝る前のスマホはよくない、とよく言われるよね。じゃあ、使わずに枕元に置いておくだけならどうなのかな。子どもを調べた研究をまとめたものがあるらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "6〜19歳、125,198人の調査をまとめた",
+        "body": "2016年、カーターたちは、寝る場所でのスマホやタブレットと睡眠の関係を調べた20本の研究（6〜19歳、計125,198人）をまとめて分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "寝る前に使うと睡眠不足が約2倍。置くだけでも差",
+        "body": "寝る前に使う子は、睡眠が足りない割合が2.17倍、眠りの質が悪い割合が1.46倍、昼の強い眠気が2.72倍だった。使っていなくても寝室にあるだけで、睡眠不足は1.79倍だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "スマホが原因か、眠れないから触るのか",
+        "body": "20本すべてが、ある時点の調査（横断研究）。スマホが眠りを悪くしたのか、眠れない子がスマホを触るのかは分けられない。研究ごとの結果のばらつきも大きく、大人を調べた話でもない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-ereader-blue-light",
+        "type": "あわせて読む",
+        "why": "寝る前の光る端末で寝つきが遅れることを、実験で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-phone-bedroom-children"
+  },
+  {
+    "id": "appetite-sleep-extension-intake",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Tasali, Wroblewski, Kahn, Kilkus & Schoeller, \"Effect of Sleep Extension on Objectively Assessed Energy Intake Among Adults With Overweight in Real-life Settings: A Randomized Clinical Trial\" (JAMA Internal Medicine, 2022)",
+    "sourceUrl": "https://doi.org/10.1001/jamainternmed.2021.8098",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "よく寝るようにしたら、食べる量は減る？",
+        "body": "寝不足だと食べすぎる、という研究はいくつもある。じゃあ逆に、いつも寝不足の人がしっかり寝るようにしたら、食べる量は減るのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "寝不足ぎみの80人を、くじで2つに分けた",
+        "body": "2022年、タサリたちは、ふだんの睡眠が6.5時間未満で太りぎみの21〜40歳80人を、寝床の時間を8.5時間に延ばす助言を受ける群と、いつもどおりの群に分けた。食事や運動の指示はなく、自宅で過ごした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1日あたり約270kcal、食べる量が減った",
+        "body": "延ばした群は1晩に約1.2時間長く眠り、食べる量がいつもどおりの群より1日約270kcal少なかった。消費エネルギーには差がなく、体重は減る方向だった。睡眠が延びた人ほど、食べる量の減りも大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続けたときのことは、まだわからない",
+        "body": "対象は寝不足で太りぎみの若い大人80人で、1つの施設で行われた研究。もっと長い期間続けたときに体重がどうなるか、ほかの年齢や体格の人でも同じかは、これから確かめる必要がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-sleep-energy-intake",
+        "type": "あわせて読む",
+        "why": "寝不足で食べる量が増えた実験の、逆向きを試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-extension-intake"
+  },
+  {
+    "id": "appetite-sleep-snacks",
+    "category": "睡眠と食欲",
+    "kind": "よく聞く説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Nedeltcheva, Kilkus, Imperial, Kasza, Schoeller & Penev, \"Sleep curtailment is accompanied by increased intake of calories from snacks\" (The American Journal of Clinical Nutrition, 2009)",
+    "sourceUrl": "https://doi.org/10.3945/ajcn.2008.26574",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝不足だと、夜にお菓子が増える？",
+        "body": "夜ふかしすると、ついお菓子に手が伸びる気がするよね。増えるのは食事なのか、間食なのか。実験室で2週間ずつ比べた研究があるらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "11人が、睡眠実験室で14日間を2回すごした",
+        "body": "2009年、ネデルチェバたちは、健康な11人（平均39歳）に、寝床の時間5.5時間と8.5時間で14日間ずつ過ごしてもらった。順番はくじで決め、おいしい食べ物は好きなだけ食べられた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "食事は同じで、間食が1日約220kcal増えた",
+        "body": "食事の量は変わらなかったが、短い睡眠のときは間食が1日約1,087kcalと、長い睡眠のとき（約866kcal）より多かった。間食は炭水化物の割合が高く、夜7時から朝7時に増えていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "11人の実験で、なぜ増えたのかはわからない",
+        "body": "11人の小さな実験で、食べ物がいつでも手に入る環境での話。食欲に関わるホルモン（レプチン・グレリン）には差がなく、なぜ間食が増えたのかは、この研究ではわからなかった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-sleep-leptin-ghrelin",
+        "type": "反対の結果",
+        "why": "寝不足で食欲ホルモンが変わった研究と、差がなかった研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-snacks"
+  },
+  {
+    "id": "posture-standing-desk-back-pain",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Ognibene, Torres, von Eyben & Horst, \"Impact of a Sit-Stand Workstation on Chronic Low Back Pain: Results of a Randomized Trial\" (Journal of Occupational and Environmental Medicine, 2016)",
+    "sourceUrl": "https://doi.org/10.1097/JOM.0000000000000615",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "立って使える机で、腰痛は軽くなる？",
+        "body": "座りっぱなしは腰によくない、と聞くと、立っても使える机が気になるよね。腰痛のある人が実際に使ったらどうなるのか、くじで比べた研究があるらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "腰痛のある46人に、机を先に渡すか後に渡すか",
+        "body": "2016年、オグニベネたちは、アメリカの大学で働く慢性の腰痛のある46人を、立って使える机を最初にもらう群と、3か月の終わりにもらう群にくじで分け、痛みを記録してもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "今の痛みも、いちばん強い痛みも下がった",
+        "body": "立って使える机をもらった群では、そのときの腰痛と、いちばん強いときの腰痛が、期間中に下がった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "46人・3か月の小さな研究",
+        "body": "人数が少なく、期間は3か月。痛みは本人の申告で、机をもらったことは本人にわかるので、期待の影響も混ざりうる。腰痛のない人の予防になるかは調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-sedentary-low-back-pain",
+        "type": "あわせて読む",
+        "why": "座りすぎと腰痛の関係を、観察研究からまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-standing-desk-back-pain"
+  },
+  {
+    "id": "posture-mattress-firmness",
+    "category": "姿勢と痛み",
+    "kind": "よく聞く説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Kovacs, Abraira, Peña, Martín-Rodríguez et al., \"Effect of firmness of mattress on chronic non-specific low-back pain: randomised, double-blind, controlled, multicentre trial\" (The Lancet, 2003)",
+    "sourceUrl": "https://doi.org/10.1016/S0140-6736(03)14792-7",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "腰痛には、硬いマットレスがいい？",
+        "body": "腰が痛いなら硬い寝具がいい、とよく言われるよね。でも、その根拠はじつは乏しかったらしい。くじで分けて確かめた試験がある。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "腰痛のある313人を、2つの硬さに分けた",
+        "body": "2003年、スペインのコバックスたちは、寝ているときや起きたときに腰が痛む慢性腰痛の大人313人を、硬いマットレスと中くらいの硬さのマットレスにくじで分け、90日後を比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "中くらいの硬さの方が、痛みが軽くなった",
+        "body": "90日後、中くらいの硬さの群の方が、寝ているときの痛み（オッズ比2.36）と、腰痛による生活の不自由さ（2.10）がよく改善した。起きたときの痛みも同じ向きだったが、はっきりした差ではなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べたのは2つの硬さだけ",
+        "body": "やわらかいマットレスは調べておらず、「中くらいが一番」とまでは言えない。対象は腰痛のある人で、痛みのない人の予防の話ではない。1つの試験の結果で、20年以上前の研究でもある。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-mattress-firmness"
+  },
+  {
+    "id": "personality-zodiac-sign",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Angst & Scheidegger, \"Tierkreiszeichen und Persönlichkeit\" (Sozial- und Präventivmedizin, 1976)",
+    "sourceUrl": "https://doi.org/10.1007/bf01994375",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "星座で性格がわかる？",
+        "body": "「獅子座だから目立ちたがり」「乙女座は几帳面」。星座占いは雑誌やテレビでおなじみだよね。じゃあ、生まれた星座と性格テストの結果を並べてみると、どうなるんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "19歳の男性3,074人の性格テストと比べた",
+        "body": "研究チームが、スイス・チューリッヒ州に住む19歳の男性3,074人（同じ年の男性の約半分）に性格テストを受けてもらい、生まれた星座ごとに結果を比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "星座と性格のつながりは見つからなかった",
+        "body": "統計で調べても、星座と性格テストの結果のあいだに関係は見られなかった。占いで言われる星座ごとの性格の違いは、このデータでは確かめられなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見たのは「太陽の星座」だけ",
+        "body": "対象はスイスの19歳の男性だけで、1970年代の調査。占星術で使う月や惑星の位置までは見ていない（論文自身もそう書いている）。女性や他の国、他の年代でも同じかは、この研究だけではわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "スイスの3,074人の調査で、星座と性格テストの関係は？",
+      "correct": "関係は見られなかった",
+      "wrong": "星座ごとにはっきり違った"
+    },
+    "links": [
+      {
+        "id": "japan-blood-type",
+        "type": "あわせて読む",
+        "why": "血液型も星座も、大人数の調査では性格との関係がほとんど見られなかった"
+      },
+      {
+        "id": "personality-barnum-effect",
+        "type": "あわせて読む",
+        "why": "関係がないのに「当たってる」と感じるしくみを確かめた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/personality-zodiac-sign/"
+  },
+  {
+    "id": "personality-barnum-effect",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Wyman & Vyse, \"Science Versus the Stars: A Double-Blind Test of the Validity of the NEO Five-Factor Inventory and Computer-Generated Astrological Natal Charts\" (The Journal of General Psychology, 2008)",
+    "sourceUrl": "https://doi.org/10.3200/genp.135.3.287-300",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "性格診断が「当たってる」と感じるのはなぜ？",
+        "body": "占いでも性格テストでも、結果を読むと「わかる、自分ってこう」と思うことがあるよね。誰にでも当てはまる文を自分のことだと感じる傾向は「バーナム効果」と呼ばれている。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "本物とニセモノの結果を並べて選んでもらった",
+        "body": "大学生52人に、占星術のホロスコープから作った性格の説明と、心理学の性格テスト（NEO-FFI）の結果を、それぞれ「本物1つ・別の人の1つ」で見せ、どちらが自分のものかを選んでもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらも「当たってる」と感じたが、選べたのは性格テストだけ",
+        "body": "星占いも性格テストも、結果を「当たっている」と高く評価する傾向（バーナム効果）が見られた。でも本物を偶然より高い割合で選べたのは性格テストだけで、ホロスコープの本物は見分けられなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "52人の学生での小さな実験",
+        "body": "参加者は大学生52人と少なく、年齢も19歳前後に偏っている。「当たってる」と感じること自体は悪くないけど、その気持ちは結果が正しい証拠にはならない、というのがこの実験から言えること。"
+      }
+    ],
+    "quiz": {
+      "q": "本物の結果をニセモノと見分けられたのは？",
+      "correct": "心理学の性格テストだけ",
+      "wrong": "ホロスコープだけ"
+    },
+    "links": [
+      {
+        "id": "personality-zodiac-sign",
+        "type": "あわせて読む",
+        "why": "星座と性格の関係を大人数で調べた研究と、当たってると感じるしくみの実験"
+      },
+      {
+        "id": "personality-mbti-types",
+        "type": "あわせて読む",
+        "why": "当たってると感じる16タイプ診断が、何を測っているのかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/personality-barnum-effect/"
+  },
+  {
+    "id": "personality-mbti-types",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "McCrae & Costa, \"Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality\" (Journal of Personality, 1989)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-6494.1989.tb00759.x",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人は16タイプのどれかに分けられる？",
+        "body": "「INFPだから」「Eの人とは合う」。MBTI（16タイプ）は自己紹介でも使われるくらい広まったよね。じゃあ、人ははっきり16の型に分かれるんだろうか。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "468人のMBTIとビッグファイブを比べた",
+        "body": "性格心理学者のマクレーとコスタが、19〜93歳の男女468人にMBTIを受けてもらい、本人の回答と周りの人の評価によるビッグファイブ（5つの特性で性格を見る方法）と照らし合わせた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "「型」ではなく、なだらかな4本の目盛りだった",
+        "body": "人がはっきり別のタイプに分かれることを支える結果は出なかった。MBTIが測っていたのは、ほぼ独立した4つの連続した目盛り。そのうち4つはビッグファイブのうち4つの特性の一部と重なっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "30年以上前の1つのデータ",
+        "body": "使ったのは当時の版のMBTIで、今の版や、ネットで広まっている16タイプ診断で同じ結果になるかは、この研究からはわからない。人数も468人で、1つの国の調査。"
+      }
+    ],
+    "quiz": {
+      "q": "MBTIの結果を調べると、人はどう分かれていた？",
+      "correct": "なだらかな目盛りの上に散らばっていた",
+      "wrong": "16の型にはっきり分かれていた"
+    },
+    "links": [
+      {
+        "id": "brain-left-right-type",
+        "type": "あわせて読む",
+        "why": "「右脳型・左脳型」も、型で人を分ける考えを脳のデータで確かめた研究"
+      },
+      {
+        "id": "personality-barnum-effect",
+        "type": "あわせて読む",
+        "why": "診断結果を当たってると感じるしくみを確かめた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/personality-mbti-types/"
+  },
+  {
+    "id": "personality-change-adulthood",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Roberts, Walton & Viechtbauer, \"Patterns of mean-level change in personality traits across the life course: A meta-analysis of longitudinal studies\" (Psychological Bulletin, 2006)",
+    "sourceUrl": "https://doi.org/10.1037/0033-2909.132.1.1",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "性格は大人になったら変わらない？",
+        "body": "「性格は生まれつきだから」「もう大人だし今さら変わらない」。そう思っている人は多いよね。同じ人を何年も追いかけた研究をまとめると、どう見えるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人を追いかけた92の集団をまとめた",
+        "body": "ロバーツさんたちが、同じ人の性格を時間をあけて何度も測った研究から、92の集団のデータをまとめ、年代ごとに性格がどう動くかを調べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "大人になってからも、性格は動いていた",
+        "body": "まじめさ・情緒の安定・人をリードする面は、とくに20〜40歳で高まっていた。社交的な活発さと好奇心は10代で高まり、高齢期に下がった。6つのうち4つの特性は、中年期や高齢期にも変化していた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "平均の話で、一人ひとりは違う",
+        "body": "わかったのは集団の平均の動きで、全員が同じように変わるわけではない。なぜ変わるのか（仕事や家族などの役割か、年齢そのものか）も、この研究だけではわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "まじめさや情緒の安定がとくに高まっていた年代は？",
+      "correct": "20〜40歳",
+      "wrong": "10代だけ"
+    },
+    "links": [
+      {
+        "id": "personality-heritability",
+        "type": "あわせて読む",
+        "why": "性格は遺伝だけで決まるのか、という問いと、大人になってからの変化"
+      },
+      {
+        "id": "replication-birth-order",
+        "type": "あわせて読む",
+        "why": "生まれ順では性格の差が見られず、年代では変化が見られた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/personality-change-adulthood/"
+  },
+  {
+    "id": "personality-heritability",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Vukasović & Bratko, \"Heritability of personality: A meta-analysis of behavior genetic studies\" (Psychological Bulletin, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000017",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "性格はどのくらい遺伝で決まる？",
+        "body": "「親に似て短気」「育ちのせい」。性格が遺伝なのか環境なのかは、よく話題になるよね。双子や家族を調べた研究をまとめると、おおよその割合が見えてくる。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10万人を超えるデータをまとめた",
+        "body": "ヴカソヴィッチさんとブラトコさんが、双子・家族・養子の研究から62の効果量を集めてまとめた。対象は男女・あらゆる年代で、合わせて10万人を超える。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "性格の個人差のうち、約4割が遺伝、約6割が環境",
+        "body": "平均すると、性格の個人差の40%が遺伝、60%が環境によるものだった。出版の偏りを補正しても結論は同じ。ただ双子の研究では47%、家族や養子の研究では22%と、調べ方で数字が変わった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「あなたの性格の4割」ではない",
+        "body": "この割合は集団の中の個人差の話で、一人の性格の4割が遺伝で決まるという意味ではない。性格は本人の回答で測っていて、環境の6割が具体的に何なのかも、この研究ではわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "性格の個人差のうち、遺伝によるのはおよそ何割？",
+      "correct": "約4割",
+      "wrong": "約9割"
+    },
+    "links": [
+      {
+        "id": "personality-change-adulthood",
+        "type": "あわせて読む",
+        "why": "遺伝の割合と、大人になってからも性格が動くことをあわせて知る"
+      },
+      {
+        "id": "procrastination-genetics-impulsivity",
+        "type": "あわせて読む",
+        "why": "先延ばしのしやすさにも遺伝が関わるかを、双子で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/personality-heritability/"
+  },
+  {
+    "id": "face-trustworthiness-detection",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Jaeger, Oud, Williams, Krumhuber, Fehr, Engelmann, \"Can people detect the trustworthiness of strangers based on their facial appearance?\" (Evolution and Human Behavior, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.evolhumbehav.2022.04.004",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "顔を見れば、信用できる人かわかる？",
+        "body": "人相で人柄がわかる、という話はよく聞くよね。実際、人は初対面の相手を顔で「信用できそう」と判断しがち。でも、その判断は当たっているのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "お金がかかった場面で、顔だけで見抜けるか試した",
+        "body": "2022年、イェーガーたちは大学生に知らない人の顔写真を見せ、信用するかを決めてもらった（131人）。別の実験では、当てると得をする形で信用度を予想してもらった（266人）。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "顔だけでは、見抜けなかった",
+        "body": "どちらの実験でも、判断は相手が実際に信用できたかどうかと関係がなかった。顔だけを切り抜いた写真でも、髪や服が写った写真でも同じ。相手が男性でも女性でも変わらなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "写真だけの、大学生の結果",
+        "body": "使ったのは写真で、ほかの情報がない場面に限った話。声や会話、これまでの付き合いがあると話は変わるかもしれない。参加者は大学生で、人数も数百人と多くはない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "hanzai-face-trust-sentencing",
+        "type": "あわせて読む",
+        "why": "顔の「信用できそう」は当たらないのに、判決の重さには影響したという研究"
+      },
+      {
+        "id": "face-impression-dimensions-world",
+        "type": "あわせて読む",
+        "why": "当たらなくても、顔から受ける印象の軸は多くの地域で似ていた"
+      },
+      {
+        "id": "face-election-appearance",
+        "type": "あわせて読む",
+        "why": "顔の印象は結果を動かしても、中身を当てているとは限らない"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/face-trustworthiness-detection/"
+  },
+  {
+    "id": "face-impression-dimensions-world",
+    "category": "顔と第一印象",
+    "kind": "研究紹介",
+    "themeColor": "#F97316",
+    "sourceLabel": "Jones, DeBruine, Flake, Liuzza et al., \"To which world regions does the valence-dominance model of social perception apply?\" (Nature Human Behaviour, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-020-01007-2",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "顔の第一印象は、世界のどこでも同じ？",
+        "body": "顔から受ける印象は「感じがよいか」と「強そうか」の2つの軸でほぼ説明できる、という有名な説がある。でも、元の研究はほとんど欧米の人が対象だったらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "41か国、1万1570人で同じ方法を試した",
+        "body": "2021年、ジョーンズたちは世界の研究者と組んで、11の地域・41か国の1万1570人に顔を評価してもらった。分析の方法を前もって登録し、審査を受けてから集めた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "元の方法なら共通。別の方法だと地域差が出た",
+        "body": "元の研究と同じ分析では、2つの軸はどの地域でもよく当てはまった。ところが、軸どうしが関係してもよい別の分析にすると、当てはまりはずっと弱くなり、地域による違いが見えてきた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「共通」かどうかは分析の仕方しだい",
+        "body": "答えは分析の選び方で変わる、というのが結論。どの方法がより正しいかは決着していない。評価したのは写真の顔で、実際に会ったときの印象とは違うかもしれない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-first-impression-100ms",
+        "type": "あわせて読む",
+        "why": "顔の印象は一瞬で決まるという研究。その印象の中身を世界で確かめた"
+      },
+      {
+        "id": "face-trustworthiness-detection",
+        "type": "あわせて読む",
+        "why": "印象の軸は似ていても、その印象が当たるかは別の問題"
+      },
+      {
+        "id": "face-smile-culture-trust",
+        "type": "あわせて読む",
+        "why": "顔の印象が世界で共通かを、41か国で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-impression-dimensions-world"
+  },
+  {
+    "id": "face-averageness-beauty",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Rhodes, \"The Evolutionary Psychology of Facial Beauty\" (Annual Review of Psychology, 2006)",
+    "sourceUrl": "https://doi.org/10.1146/annurev.psych.57.102904.190208",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「平均顔」や左右対称の顔ほど、魅力的？",
+        "body": "たくさんの顔を重ねた平均顔は美人に見える、左右対称な顔ほど好まれる、という話があるよね。美しさは文化ごとにバラバラ、という考えとは逆の説らしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "顔の魅力の研究を集めて、数字でまとめた",
+        "body": "2006年、ローズは顔の魅力に関する研究を整理し、平均的な顔・左右対称・男らしさ女らしさの3つについてメタ分析をした。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "3つとも、男女の顔で、文化をこえて魅力的に見えた",
+        "body": "平均的な顔、左右対称の顔、男女らしさがはっきりした顔は、男性の顔でも女性の顔でも、いくつもの文化で魅力的と評価された。好みは幼いころから見られ、文化の間でも一致しやすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ魅力的に見えるのかは、まだ説が分かれる",
+        "body": "健康のしるしだから好まれる、という説と、脳が見慣れた形を処理しやすいだけ、という説があり、ローズは両方が関わると考えた。2006年のまとめで、それ以降の研究は含まない。魅力は評価のされ方の話で、人の価値とは別。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-ideal-partner-preferences",
+        "type": "あわせて読む",
+        "why": "顔の魅力が実際の相手選びでどれだけ効くかを調べたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/face-averageness-beauty/"
+  },
+  {
+    "id": "face-election-appearance",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Lawson, Lenz, Baker, Myers, \"Looking Like a Winner: Candidate Appearance and Electoral Success in New Democracies\" (World Politics, 2010)",
+    "sourceUrl": "https://doi.org/10.1017/s0043887110000195",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "選挙は、候補者の顔で左右される？",
+        "body": "2005年、トドロフたちは、顔写真を1秒ほど見て「有能そう」と選ばれた候補が、2004年の米上院選の68.8%で勝っていたと報告した。これは国や文化をこえても起きるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "メキシコとブラジルの候補者を、米国とインドの人が評価",
+        "body": "2010年、ローソンたちは、名前を伏せた白黒の顔写真を米国とインドの人に見せ、どちらがよい政治家になりそうか選んでもらった。その評価と、実際の選挙結果を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "国が違っても評価は一致し、結果ともよく合った",
+        "body": "文化や人種が違っても、米国とインドの人の評価はよく一致した（相関0.70〜0.87）。そして、その評価はメキシコとブラジルの実際の得票を、驚くほどよく言い当てた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "顔が票を動かしたのかは、まだはっきりしない",
+        "body": "顔の評価と結果が一緒に動いたことを見た研究で、顔そのものが票を変えたとまでは言えない。選挙の仕組みによって、見た目の効き方は強まったり弱まったりするらしい。"
+      }
+    ],
+    "links": [
+      {
+        "id": "hanzai-face-trust-sentencing",
+        "type": "あわせて読む",
+        "why": "選挙だけでなく、判決でも顔の印象が結果と結びついていた"
+      },
+      {
+        "id": "face-trustworthiness-detection",
+        "type": "あわせて読む",
+        "why": "顔の印象は結果を動かしても、中身を当てているとは限らない"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-election-appearance"
+  },
+  {
+    "id": "face-smile-culture-trust",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Krys, Vauclair, Capaldi, Lun, Bond et al., \"Be Careful Where You Smile: Culture Shapes Judgments of Intelligence and Honesty of Smiling Individuals\" (Journal of Nonverbal Behavior, 2016)",
+    "sourceUrl": "https://doi.org/10.1007/s10919-015-0226-4",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "笑顔の人は、どこでも信頼される？",
+        "body": "笑顔は感じがよく、正直そうに見える、というのはよく聞く話。でも、その研究の多くは欧米の大学生が対象。文化が違っても同じなのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "44の文化で、笑顔と真顔の写真を比べた",
+        "body": "クリスたちは、44の文化の大学生4519人に、笑顔の顔4枚と真顔の顔4枚を見せ、どれくらい正直そうか、頭がよさそうかを7段階でつけてもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "正直そうに見えやすいが、国で差があった",
+        "body": "平均すると笑顔は正直そうに見えたが、汚職が多い社会ほどこの差は小さかった。頭のよさは、先のことが読めない状況を気にしない文化ほど、笑顔の人のほうが低く見られた。日本では笑顔のほうが頭がよさそうに見えにくかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大学生と、決まった8枚の顔の結果",
+        "body": "参加者は各国の大学生で、国全体を代表してはいない。顔は欧米系・アフリカ系・インド系の8枚だけで、自分と同じ民族の顔なら違うかもしれない。笑顔の強さや場面の違いも調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "umbra-fake-smile-detection",
+        "type": "あわせて読む",
+        "why": "笑顔の受け取られ方の次に、作り笑いは見分けられるかを調べた研究"
+      },
+      {
+        "id": "face-impression-dimensions-world",
+        "type": "あわせて読む",
+        "why": "顔の印象が世界で共通かを、41か国で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-smile-culture-trust"
+  },
+  {
+    "id": "foodmyth-late-eating-hunger",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Vujović et al., \"Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity\" (Cell Metabolism, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.cmet.2022.09.007",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "夜遅く食べると太る？",
+        "body": "同じものを食べても、夜遅いと太りやすいってよく聞くよね。食べる量が同じなら、時間だけで体の反応は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ食事を約4時間ずらす",
+        "body": "体重が多めの16人が研究施設に泊まり、まったく同じ3食を「朝・昼・夕」と、約4時間遅らせた「昼・夕・夜」の両方で過ごした。順番はくじで決め、睡眠や光、運動もそろえた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "遅い日はおなかがすき、消費が少し減った",
+        "body": "遅く食べた日は空腹を感じる確率が約2倍になり、食欲を抑えるホルモン（レプチン）は起きている間に16%下がった。起きている間に使うエネルギーも約60kcal（5%）少なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "体重が増えるかは測っていない",
+        "body": "見たのは数日の体の反応で、何か月も続けて太るかは調べていない。対象は16人（女性5人）、アメリカの病院の施設での話。遅い日は朝食を抜く形だったので、時間と朝食抜きを分けられない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-breakfast-weight",
+        "type": "あわせて読む",
+        "why": "この実験の遅い日は朝食抜き。朝食と体重の試験をまとめた研究と並べて読める"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-late-eating-hunger/"
+  },
+  {
+    "id": "foodmyth-meal-frequency-weight",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Schoenfeld et al., \"Effects of meal frequency on weight loss and body composition: a meta-analysis\" (Nutrition Reviews, 2015)",
+    "sourceUrl": "https://doi.org/10.1093/nutrit/nuu017",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "少しずつ何回も食べるとやせる？",
+        "body": "1日3食より、5回6回に分けて少しずつ食べたほうが脂肪が落ちる、という話があるよね。回数を増やすと、本当に体は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "食事の回数を変えた15の研究",
+        "body": "食事の回数を変えて、脂肪や筋肉などの体の量がどう変わるかを調べた実験を15本集め、数字でまとめて比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1本の研究を外すと差が消えた",
+        "body": "全部まとめると、回数が多いほど脂肪が減る傾向に見えた。でも1本ずつ外して確かめると、その差はたった1本の研究から来ていた。著者は「回数を増やすと良い」とは言えず、慎重に見るべきだとしている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の数も条件もばらばら",
+        "body": "集めた研究は人数・期間・食べる量の決め方がそろっていない。回数を変えても1日に食べる量が同じかどうかで話は変わるので、今は「回数で差がある」とも「ない」とも言い切れない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-breakfast-weight",
+        "type": "あわせて読む",
+        "why": "朝食を食べるかどうかも食事回数の問題。体重との関係を試験で調べた別のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-meal-frequency-weight"
+  },
+  {
+    "id": "foodmyth-lowcarb-vs-lowfat",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Gardner et al., \"Effect of Low-Fat vs Low-Carbohydrate Diet on 12-Month Weight Loss in Overweight Adults and the Association With Genotype Pattern or Insulin Secretion\" (JAMA, 2018)",
+    "sourceUrl": "https://doi.org/10.1001/jama.2018.0245",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "糖質を減らすのと脂質を減らすの、どっちがやせる？",
+        "body": "糖質制限がいい、いや脂質を減らすべき、と意見が分かれるよね。さらに「遺伝子のタイプで向き不向きがある」という話も。1年続けて比べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "609人をくじで2つに分けて1年",
+        "body": "糖尿病のない18〜50歳で体重が多めの609人を、脂質を減らす組と糖質を減らす組にくじで分けた。どちらも質のよい食事を心がけ、1年間で22回のグループ指導を受けた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1年後の差はほとんどなかった",
+        "body": "1年後の体重は、脂質を減らした組が平均5.3kg、糖質を減らした組が6.0kg減り、差ははっきりしなかった。遺伝子のタイプやインスリンの出方で、どちらが向くかを見分けることもできなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "平均の話で、個人差は大きい",
+        "body": "最後まで続けたのは79%。結果は平均の話で、対象は体重が多めで糖尿病のない18〜50歳の大人。ほかの人に同じ結果が出るかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-lowcarb-vs-lowfat/"
+  },
+  {
+    "id": "foodmyth-msg-headache",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Obayashi & Nagamura, \"Does monosodium glutamate really cause headache? : a systematic review of human studies\" (The Journal of Headache and Pain, 2016)",
+    "sourceUrl": "https://doi.org/10.1186/s10194-016-0639-4",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "うま味調味料で頭が痛くなる？",
+        "body": "うま味調味料（グルタミン酸ナトリウム）を食べると頭痛がする、という話は昔からあるよね。頭痛の国際分類にも原因の1つとして載っているけど、人で試した研究はどうなっているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "人に食べさせた研究を集めた",
+        "body": "うま味調味料を口から取ってもらい、頭痛が出たかを調べた人の研究を集めて整理した。食べ物と一緒に取ったか、水に溶かして単独で取ったかで分けて比べている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "食事と一緒なら差はほぼ出なかった",
+        "body": "食べ物と一緒に取った6つの研究では、1つの研究の女性グループを除き、頭痛の出方に差はなかった。単独で取った7つのうち4つでは差が出たけど、多くは2%を超える濃い液で、味で本物とわかってしまう条件だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「関係ない」とも言い切れない",
+        "body": "濃い液の実験は、飲んだのが本物か偽物か本人にわかってしまうので、思い込みの影響を外せていない。結果もそろっていないため、著者は因果関係があるかは、きちんとした試験がもっと必要だとしている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-msg-headache/"
+  },
+  {
+    "id": "foodmyth-chewing-appetite",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Miquel-Kergoat et al., \"Effects of chewing on appetite, food intake and gut hormones: A systematic review and meta-analysis\" (Physiology & Behavior, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.physbeh.2015.07.017",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "よく噛むと食べすぎない？",
+        "body": "「よく噛んで食べなさい」って子どものころ言われたよね。よく噛むとおなかがいっぱいになりやすくて、食べる量も減る、という話は本当なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "噛む回数を変えた17の試験",
+        "body": "1口あたりの噛む回数や噛む時間を変えて、空腹感・食べた量・おなかのホルモンを調べた15本の論文（17の試験）を集めた。空腹感の数字がそろう13の試験は、まとめて計算もした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "空腹感と食べる量が減る傾向",
+        "body": "16の実験のうち10で、よく噛むと食べた量が減った。数字でまとめると、よく噛んだときは空腹感の自己評価が少し下がった。満腹に関わるおなかのホルモンが増えたという試験もあった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "やせるかどうかは別の話",
+        "body": "見たのは1回の食事の前後で、続けると体重が減るかは調べていない。試験ごとのやり方がばらばらで、効果が出た研究ほど発表されやすい偏りも見つかった。著者も「まだ予備的」としている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-chewing-appetite"
   }
 ]

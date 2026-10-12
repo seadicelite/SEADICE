@@ -44,4 +44,5 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 functions/.env
-evidence/
+# ルート直下の Flutter アプリだけを除外する（先頭の / がないと p/evidence/ の新しいページまで除外されて公開されない）
+/evidence/

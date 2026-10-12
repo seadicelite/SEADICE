@@ -58,7 +58,7 @@
 ## 主要ページ
 
 - [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ
-- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など45分野・300本以上の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
+- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など48分野・340本以上の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
   よく聞く説を確かめる（1問1ページ、結論・研究の種類・論文DOIつき）:
   - [習慣化は21日？66日？ 論文でわかったこと](https://seadice.win/evidence/habits/habit-66days/)
   - [意志力は使うと減る？ 23の研究室の追試でわかったこと](https://seadice.win/evidence/replication/replication-ego-depletion/)
@@ -92,6 +92,16 @@
   - [コーヒーで脱水になるは本当？ 実験でわかったこと](https://seadice.win/evidence/body-myths/myth-coffee-dehydration/)
   - [第一印象は3秒で決まる？ 実験でわかったこと](https://seadice.win/evidence/love/love-first-impression-100ms/)
   - [ストレッチで筋肉痛は防げる？ メタ分析でわかったこと](https://seadice.win/evidence/body-myths/myth-stretch-soreness/)
+  - [夜遅く食べると太るは本当？ 論文でわかったこと](https://seadice.win/evidence/food-myths/foodmyth-late-eating-hunger/)
+  - [糖質制限は脂質を減らすよりやせる？ 論文でわかったこと](https://seadice.win/evidence/food-myths/foodmyth-lowcarb-vs-lowfat/)
+  - [うま味調味料で頭が痛くなる？ 論文でわかったこと](https://seadice.win/evidence/food-myths/foodmyth-msg-headache/)
+  - [人相学は本当？ 顔で信用できる人かわかるか、論文でわかったこと](https://seadice.win/evidence/face-impression/face-trustworthiness-detection/)
+  - [平均顔ほど魅力的は本当？ 論文でわかったこと](https://seadice.win/evidence/face-impression/face-averageness-beauty/)
+  - [MBTI（16タイプ）に根拠はある？ 論文でわかったこと](https://seadice.win/evidence/personality/personality-mbti-types/)
+  - [星座で性格はわかる？ 論文でわかったこと](https://seadice.win/evidence/personality/personality-zodiac-sign/)
+  - [性格診断が当たってると感じるのはなぜ？ 論文でわかったこと](https://seadice.win/evidence/personality/personality-barnum-effect/)
+  - [性格は大人になっても変わる？ 論文でわかったこと](https://seadice.win/evidence/personality/personality-change-adulthood/)
+  - [性格はどのくらい遺伝で決まる？ 論文でわかったこと](https://seadice.win/evidence/personality/personality-heritability/)
 - [EVIDENCEシリーズ（研究にもとづくアプリ）](https://seadice.win/evidence-series/): 機能のもとになった研究の論文（DOI）と日本語の解説記事を公開しているアプリのまとめ。「証明された」ではなく「研究にもとづく」と表記
 - [Webツール・ジャンル別ハブ](https://seadice.win/tools/): 困りごとの種類から探す
 - [Decoy Notes](https://seadice.win/tools/decoy-notes/): 正しい合言葉では本物のメモ、まちがった合言葉ではダミーのメモが同じ見た目で開くメモ帳。本物はAES-GCMで暗号化しブラウザ内だけに保存（登録不要・サーバー送信なし）

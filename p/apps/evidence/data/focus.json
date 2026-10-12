@@ -127,5 +127,45 @@
   "myth-stretch-soreness": {
     "kw": "ストレッチ 筋肉痛",
     "title": "ストレッチで筋肉痛は防げる？ メタ分析でわかったこと"
+  },
+  "foodmyth-late-eating-hunger": {
+    "kw": "夜遅く食べると太る",
+    "title": "夜遅く食べると太るは本当？ 論文でわかったこと"
+  },
+  "foodmyth-lowcarb-vs-lowfat": {
+    "kw": "糖質制限",
+    "title": "糖質制限は脂質を減らすよりやせる？ 論文でわかったこと"
+  },
+  "foodmyth-msg-headache": {
+    "kw": "うま味調味料 頭痛",
+    "title": "うま味調味料で頭が痛くなる？ 論文でわかったこと"
+  },
+  "face-trustworthiness-detection": {
+    "kw": "人相学",
+    "title": "人相学は本当？ 顔で信用できる人かわかるか、論文でわかったこと"
+  },
+  "face-averageness-beauty": {
+    "kw": "平均顔",
+    "title": "平均顔ほど魅力的は本当？ 論文でわかったこと"
+  },
+  "personality-mbti-types": {
+    "kw": "MBTI 根拠",
+    "title": "MBTI（16タイプ）に根拠はある？ 論文でわかったこと"
+  },
+  "personality-zodiac-sign": {
+    "kw": "星座 性格 根拠",
+    "title": "星座で性格はわかる？ 論文でわかったこと"
+  },
+  "personality-barnum-effect": {
+    "kw": "バーナム効果 論文",
+    "title": "性格診断が当たってると感じるのはなぜ？ 論文でわかったこと"
+  },
+  "personality-change-adulthood": {
+    "kw": "性格は変わるのか 論文",
+    "title": "性格は大人になっても変わる？ 論文でわかったこと"
+  },
+  "personality-heritability": {
+    "kw": "性格 遺伝 何割",
+    "title": "性格はどのくらい遺伝で決まる？ 論文でわかったこと"
   }
 }
