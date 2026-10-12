@@ -10749,6 +10749,11 @@
         "id": "dokugaku-teaching-meta",
         "type": "あわせて読む",
         "why": "図の割合に根拠はないが、人に教える効果はメタ分析で調べられている"
+      },
+      {
+        "id": "learning-pyramid-origins",
+        "type": "あわせて読む",
+        "why": "図の歴史をさかのぼると、160年以上前からあり研究から生まれたものではなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/learning-pyramid-myth/"
@@ -10925,6 +10930,91 @@
         "body": "古い実験で、調べたのは成長ホルモンが出るタイミングだけ。夜勤などで生活がずれた人の体の回復が、夜に寝る人と同じかまでは、この実験からはわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/sleep/sleep-golden-time-growth-hormone/"
+    "webUrl": "https://seadice.win/evidence/sleep/sleep-golden-time-growth-hormone/",
+    "links": [
+      {
+        "id": "sleep-deep-sleep-aging-gh",
+        "type": "あわせて読む",
+        "why": "その深い眠りは中年までに大きく減り、成長ホルモンも一緒に減っていた"
+      }
+    ]
+  },
+  {
+    "id": "learning-pyramid-origins",
+    "category": "学習法",
+    "kind": "よく聞く説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Letrud & Hernes, \"Excavating the origins of the learning pyramid myths\" (Cogent Education, 2018)",
+    "sourceUrl": "https://doi.org/10.1080/2331186x.2018.1518638",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ラーニングピラミッドは、研究から生まれた？",
+        "body": "アメリカの研究所の実験だ、エドガー・デールの理論だ、と図の出どころの説明はいろいろ。研修の資料では「研究でわかった」と紹介されることも多いよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "デジタル図書館で、図の歴史をさかのぼった",
+        "body": "2018年、レトルドとヘルネスは、デジタル図書館を広く検索して、ラーニングピラミッドの仲間の図が、いつ、どこから現れたのかを調べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "160年以上前からあり、研究から生まれたものではなかった",
+        "body": "似た図は160年以上前から教育の議論で使われていた。著者らは、この図は実証研究から生まれたものではない、とまとめた。形や数字を変えながら、今も使われ続けている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの学び方がどれだけ残るかは、測り直しが必要",
+        "body": "著者らは、図が前提にしている記憶の考え方は、今の認知心理学の見方と大きくずれていると指摘する。学び方ごとに何がどれだけ残るのかは、図ではなく個別の研究で確かめる必要がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "learning-pyramid-myth",
+        "type": "あわせて読む",
+        "why": "医学教育の論文43本で、図の割合がどう引用されてきたかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#learning-pyramid-origins"
+  },
+  {
+    "id": "sleep-deep-sleep-aging-gh",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Van Cauter, Leproult & Plat, \"Age-Related Changes in Slow Wave Sleep and REM Sleep and Relationship With Growth Hormone and Cortisol Levels in Healthy Men\" (JAMA, 2000)",
+    "sourceUrl": "https://doi.org/10.1001/jama.284.7.861",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとると、深い眠りは減る？",
+        "body": "若いころのようにぐっすり眠れない、という話はよく聞くよね。成長ホルモンは深い眠りと一緒に出るなら、年齢でどう変わるんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "16〜83歳の男性149人の眠りとホルモンを測った",
+        "body": "2000年、ヴァン・コーターたちは、1985〜1999年に4つの研究室で行われた研究のデータを合わせ、健康な男性149人の眠りと、24時間の成長ホルモンの量を調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "深い眠りは、中年までに大きく減っていた",
+        "body": "深い眠りの割合は、16〜25歳の18.9%から36〜50歳では3.4%に。同じ時期に成長ホルモンの分泌も大きく減っていた。その後の高齢期には、夜中に起きている時間が10年ごとに28分増えた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "男性だけで、同じ人を追った研究ではない",
+        "body": "対象は健康な男性だけで、女性は含まれない。年齢の違う人どうしを比べた研究で、同じ人の変化を追ったものではない。眠りの質を上げれば成長ホルモンも増えるかは、今後の研究課題とされた。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-golden-time-growth-hormone",
+        "type": "あわせて読む",
+        "why": "成長ホルモンは時刻ではなく深い眠りについてくる、とわかった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#sleep-deep-sleep-aging-gh"
   }
 ]
