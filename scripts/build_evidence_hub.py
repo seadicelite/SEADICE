@@ -72,6 +72,7 @@ CSS = (
     "a{color:#7dd3fc}"
     ".topic{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px 20px;margin-bottom:16px}"
     ".topic{scroll-margin-top:72px}.topic:target{border-color:var(--accent)}"
+    ".rel{font-size:13px;color:var(--muted);margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:10px}.rel span{display:block;font-size:12px;font-weight:700;color:var(--accent2)}.rel a{display:block;font-weight:700;margin:2px 0}.rel.contrast span{color:#fbbf24}"
     ".type{margin-bottom:8px}.type a{display:inline-block;font-size:12px;font-weight:700;color:var(--text);border:1px solid var(--border);border-radius:999px;padding:3px 10px;text-decoration:none}"
     ".topic p{font-size:14px}.topic .ans{font-size:15px;color:#e2e8f0}"
     ".stage{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);margin-top:14px}"
@@ -151,6 +152,9 @@ def answer_of(t):
     return next((c for c in reversed(cards) if "わから" not in c["stage"]), cards[-1])
 
 
+INDEX = {}
+
+
 def topic_html(t, practice, focus_url=None, heading="h2"):
     cards = t["cards"]
     first, rest = cards[0], cards[1:]
@@ -172,6 +176,11 @@ def topic_html(t, practice, focus_url=None, heading="h2"):
         links.append(f'<a href="{e(practice["url"])}" rel="noopener">{e(practice["name"])}で試す</a>')
     if links:
         parts.append(f'<div class="links">{"".join(links)}</div>')
+    for l in t.get("links", [])[:3]:
+        other = INDEX.get(l["id"])
+        if other:
+            cls = "rel contrast" if l["type"] == "反対の結果" else "rel"
+            parts.append(f'<p class="{cls}"><span>{e(l["type"])}</span><a href="/evidence/{slug_of(other["category"])}/#{e(l["id"])}">{e(other["cards"][0]["title"])}</a>{e(l.get("why", ""))}</p>')
     parts.append("</article>")
     return "".join(parts)
 
@@ -198,6 +207,7 @@ def main():
         key = pr.get("topics", {}).get(t["id"]) or pr.get("categories", {}).get(t["category"])
         return pr["items"].get(key) if key else None
 
+    INDEX.update({t["id"]: t for t in topics})
     by_cat = {}
     for t in topics:
         by_cat.setdefault(t["category"], []).append(t)
