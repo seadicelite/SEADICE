@@ -67,6 +67,7 @@ CSS = (
     "h3{font-size:15px;font-weight:700;margin:14px 0 4px}"
     "a{color:#7dd3fc}"
     ".topic{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px 20px;margin-bottom:16px}"
+    ".topic{scroll-margin-top:72px}.topic:target{border-color:var(--accent)}"
     ".topic p{font-size:14px}.topic .ans{font-size:15px;color:#e2e8f0}"
     ".stage{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);margin-top:14px}"
     ".unknown{border-left:3px solid #fbbf24;padding-left:12px;margin-top:14px}.unknown .stage{color:#fbbf24;margin-top:0}"
@@ -165,6 +166,16 @@ def main():
     by_cat = {}
     for t in topics:
         by_cat.setdefault(t["category"], []).append(t)
+
+    # 各トピックにサイトのページURLを書き込む（アプリの共有で、iPhoneがない人も続きを読めるように）
+    changed = False
+    for t in topics:
+        url = f"{BASE}/evidence/{slug_of(t['category'])}/#{t['id']}"
+        if t.get("webUrl") != url:
+            t["webUrl"] = url
+            changed = True
+    if changed:
+        (DATA / "topics.json").write_text(json.dumps(topics, ensure_ascii=False, indent=2) + "\n")
     cats = sorted(by_cat, key=lambda c: -len(by_cat[c]))
     urls = []
 
