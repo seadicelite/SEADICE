@@ -2101,10 +2101,16 @@
   </url>
   <url><loc>https://seadice.win/blog/privacy-pages-noindex-audit/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/about/</loc><lastmod>2026-10-12</lastmod></url>
+  <url>
+    <loc>https://seadice.win/blog/shallow-clone-yesterday-check/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url><loc>https://seadice.win/evidence/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://seadice.win/evidence/learning/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/decision-bias/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/relationships/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://seadice.win/evidence/learning/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/ai/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/money/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/memory/</loc><lastmod>2026-10-12</lastmod></url>
@@ -2140,11 +2146,11 @@
   <url><loc>https://seadice.win/evidence/crime-prevention/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/aging-parents/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://seadice.win/evidence/brain-myths/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/laughter/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-environment/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-appetite/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/posture-pain/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://seadice.win/evidence/brain-myths/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/insight/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/replication-ego-depletion/</loc><lastmod>2026-10-12</lastmod></url>
@@ -2168,10 +2174,4 @@
   <url><loc>https://seadice.win/evidence/criminal-psychology/hanzai-bystander-effect-meta/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/policy/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/corrections/</loc><lastmod>2026-10-12</lastmod></url>
-  <url>
-    <loc>https://seadice.win/blog/shallow-clone-yesterday-check/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
 </urlset>

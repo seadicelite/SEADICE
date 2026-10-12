@@ -1,5 +1,178 @@
 [
   {
+    "id": "insight-incubation-meta",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Sio & Ormerod, \"Does incubation enhance problem solving? A meta-analytic review\" (Psychological Bulletin, 2009)",
+    "sourceUrl": "https://doi.org/10.1037/a0014212",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "行き詰まったら、いったん寝かせる？",
+        "body": "アイデアが出ないときは、一度その問題から離れて「寝かせる」といい、ってよく言われるよね。本当に離れた方が解けるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「寝かせる効果」の実験をまとめた",
+        "body": "問題をいったん置いて、あとでもう一度取り組む「あたため期間」の効果を調べた実験を集めて、数字でまとめた研究がある。効果ありという研究も、なしという研究もあった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "平均すると、離れる効果はあった",
+        "body": "全体では、いったん離れた方が解けやすかった。アイデアをたくさん出す課題で特に効き、離れる前によく考えた時間が長いほど効果は大きかった。離れている間に頭を使う作業をすると、効果は小さくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室のパズルの話",
+        "body": "まとめたのは実験室のパズルやアイデア出しの課題。ひらめき型の問題では、アイデア出しより効果が小さかった。仕事や生活の悩みで同じように効くかは、確かめられていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "question-shower-idea",
+        "type": "あわせて読む",
+        "why": "簡単な作業をはさむと伸びた1つの実験と、同じ問いの研究のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-incubation-meta"
+  },
+  {
+    "id": "brain-game-brain-myth",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Bediou et al., \"Meta-analysis of action video game impact on perceptual, attentional, and cognitive skills\" (Psychological Bulletin, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000130",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ゲームをすると頭が悪くなる？",
+        "body": "「ゲームばかりしていると脳がダメになる」。日本では「ゲーム脳」という言葉も広まったよね。研究ではどうなっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アクションゲームの研究をまとめた",
+        "body": "2000〜2015年の研究を集め、ふだんアクションゲームをする人としない人を比べた研究と、実際にゲームをしてもらった実験を、それぞれ数字でまとめた研究がある。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "成績が低いわけではなかった",
+        "body": "ゲームをする人の方が、注意や空間をとらえる力などの成績が高めだった。ゲームをしてもらう実験でも、ほかの市販ゲームと比べて伸びはあったけど、比べた研究より小さめだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "別のまとめでは効果なし",
+        "body": "対象はアクションゲームだけ。効果が出た研究ほど発表されやすく、約30%大きく見積もられているらしい。発表後に分析の一部が訂正された。ゲームで認知能力は伸びないとする別のメタ分析もあり、結果は分かれている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-game-brain-myth"
+  },
+  {
+    "id": "dokugaku-self-compassion-after-study-setback-study-time",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Breines & Chen, \"Self-compassion increases self-improvement motivation\" (Personality and Social Psychology Bulletin, 2012)",
+    "sourceUrl": "https://doi.org/10.1177/0146167212445599",
+    "articleUrl": "https://dokugaku.seadice.win/self-compassion-after-study-setback/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分に厳しくしないとサボる？",
+        "body": "失敗したら厳しく反省しないと、また同じことをする。そう思って自分を責めがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つの実験で比べた",
+        "body": "失敗のあと自分に思いやりを向ける条件を、自信を高める言葉の条件や、何もしない・楽しいことを考える条件と比べた研究がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "思いやりの方が勉強した",
+        "body": "思いやりを向けた人は、弱点を直したい気持ちが強かった。難しいテストに一度落ちたあと、次のテストの勉強に使った時間も長かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "点数が上がるかは別",
+        "body": "1回きりの短い実験で、測ったのは勉強した時間。次のテストの点まで上がるかは、この研究の要旨からは言えない。別の研究者が同じ手順で確かめた追試は見つけられなかった。"
+      }
+    ],
+    "studyType": "実験",
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-self-compassion-after-study-setback-study-time"
+  },
+  {
+    "id": "dokugaku-study-burnout-recovery-interventions",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Tang et al., \"Effect of Interventions on Learning Burnout: A Systematic Review and Meta-Analysis\" (Frontiers in Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.645662",
+    "articleUrl": "https://dokugaku.seadice.win/study-burnout-recovery/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "勉強の燃え尽きって減らせる？",
+        "body": "勉強に疲れ切って、やる意味もわからなくなる「学業の燃え尽き」。気合いで乗り切るしかないと思いがちだけど、減らす方法は研究されているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "39本の実験をまとめた",
+        "body": "学生の燃え尽きを減らす取り組みを試したランダム化比較試験39本、学生3,400人分をまとめて分析した研究がある。グループでの相談、運動、時間管理の練習などが含まれていた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "平均では燃え尽きが下がった",
+        "body": "取り組みを受けた学生は、燃え尽きの得点が下がっていた。種類別では運動の効果がいちばん大きく見え、8週間以上続けた取り組みで効果が大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の質はまだ低め",
+        "body": "39本中38本は中国語の論文で、31本は質が低いと評価された。効果の出た研究ほど発表されやすい偏りも見られ、実際の効果はもっと小さいかもしれない。"
+      }
+    ],
+    "studyType": "メタ分析",
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-study-burnout-recovery-interventions"
+  },
+  {
+    "id": "dokugaku-ai-overreliance-solve-on-your-own-offloading-cost",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Grinschgl, Papenmeier & Meyerhoff, \"Consequences of cognitive offloading: Boosting performance but diminishing memory\" (Quarterly Journal of Experimental Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.1177/17470218211008060",
+    "articleUrl": "https://dokugaku.seadice.win/ai-overreliance-solve-on-your-own/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "すぐ調べられると覚えない？",
+        "body": "答えはスマホやAIですぐ見られる。便利だけど、すぐ見られるせいで頭に残らない…ってことはあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見本を開くのに2秒待たせた",
+        "body": "ドイツの大学生172人に、見本を見ながら図形の配置を写してもらった実験がある。半分の人は、見本を開くたびに2秒待つ設定にした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "作業は遅く、記憶は良く",
+        "body": "2秒待つ人は見本を見る回数が減り、その場の作業は遅くなった。でも後で抜き打ちの記憶テストをすると、待った人の方がよく覚えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強でも同じかは不明",
+        "body": "図形と位置を覚える実験室の課題で、教科書の勉強やAIの使い方を調べたわけではない。別の実験では、後でテストがあると知っていた人は、見本に頼りきっても記憶への悪影響をほぼ打ち消せていて、条件で結果が変わる。"
+      }
+    ],
+    "studyType": "実験",
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-ai-overreliance-solve-on-your-own-offloading-cost"
+  },
+  {
     "id": "replication-ego-depletion",
     "category": "心理学の再現性",
     "kind": "よくある説",
@@ -1324,7 +1497,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/insight/#question-shower-idea",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "insight-incubation-meta",
+        "type": "あわせて読む",
+        "why": "同じ問いを多くの実験でまとめた研究と、その中の1つの実験"
+      }
+    ]
   },
   {
     "id": "myth-10000-steps",
@@ -1378,6 +1558,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "10分の仮眠は直後から眠気・疲労・認知成績が改善し、一部は最大155分続いた。5分は効果が小さく、30分は直後に眠気（睡眠慣性）で成績が一時低下した。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝不足の日の、若い人の話",
+        "body": "対象は、ふだん昼寝をしない、よく眠れる若い健康な人24人。前の夜を約5時間に削った日の午後3時の昼寝で、効果を見たのは昼寝の後3時間まで。ふつうに眠れた日や、毎日の昼寝で同じかはわからない。"
       }
     ],
     "quiz": {
@@ -1418,6 +1603,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "4時間後に運動した群だけが、運動なしの群より記憶の保持が良かった。直後の運動では差が出ず、思い出す際の海馬の活動パターンにも違いが見られた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の運動と、実験室の記憶",
+        "body": "運動は1回だけで、覚えたのは写真と場所の組み合わせという実験室の課題。記憶を測ったのは2日後の1回だけなので、教科書の勉強や、何週間も後の記憶で同じかは確かめていない。"
       }
     ],
     "quiz": {
