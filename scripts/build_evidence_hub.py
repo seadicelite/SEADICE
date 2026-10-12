@@ -29,6 +29,7 @@ DATES = json.loads(DATES_PATH.read_text()) if DATES_PATH.exists() else {}
 
 # 分野名 → URL。新しい分野が出たらここに足す（足さないと仮のURLになり、警告が出る）
 SLUGS = {
+    "お金とくらしの数字": "money-life", "子どもの学び": "kids-learning",
     "睡眠": "sleep", "睡眠環境": "sleep-environment", "睡眠と食欲": "sleep-appetite",
     "光と体内時計": "light-circadian", "カフェイン": "caffeine", "食事と脳": "food-brain",
     "運動と記憶": "exercise-memory", "運動と気分": "exercise-mood", "運動と老化": "exercise-aging",

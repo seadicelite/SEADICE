@@ -487,5 +487,53 @@
   "speech-get-excited-anxiety": {
     "kw": "緊張 ワクワク",
     "title": "緊張は「ワクワク」と言い換えると軽くなる？ 研究でわかったこと"
+  },
+  "procrastination-pomodoro-breaks": {
+    "kw": "ポモドーロ 効果",
+    "title": "ポモドーロ・テクニックは効く？ 実験でわかったこと"
+  },
+  "insight-background-music": {
+    "kw": "作業用BGM 効果",
+    "title": "作業用BGMでアイデアは出る？ 実験でわかったこと"
+  },
+  "sleep-eye-mask-memory": {
+    "kw": "アイマスク 睡眠 効果",
+    "title": "アイマスクをして寝ると効果はある？ 実験でわかったこと"
+  },
+  "breathing-breathwork-meta": {
+    "kw": "呼吸法 効果",
+    "title": "呼吸法でストレスは減る？ メタ分析でわかったこと"
+  },
+  "social-loneliness-interventions-meta": {
+    "kw": "孤独感 解消",
+    "title": "孤独感を減らすには何が効く？ メタ分析でわかったこと"
+  },
+  "tobacco-heated-less-harmful": {
+    "kw": "加熱式タバコ 害",
+    "title": "加熱式たばこは害が少ない？ コクランのレビューでわかったこと"
+  },
+  "tobacco-stress-relief": {
+    "kw": "タバコ ストレス解消",
+    "title": "たばこでストレスは和らぐ？ 102の研究でわかったこと"
+  },
+  "moneylife-cashless-overspending": {
+    "kw": "キャッシュレス 使いすぎ",
+    "title": "キャッシュレスだと使いすぎる？ メタ分析でわかったこと"
+  },
+  "moneylife-cash-transfer-work": {
+    "kw": "ベーシックインカム 働かなくなる",
+    "title": "お金を配ると人は働かなくなる？ 実験でわかったこと"
+  },
+  "kids-english-early-start": {
+    "kw": "英語 早期教育",
+    "title": "英語は早く始めるほど身につく？ 研究でわかったこと"
+  },
+  "kids-homework-achievement": {
+    "kw": "宿題 意味ない",
+    "title": "宿題に意味はある？ 研究のまとめでわかったこと"
+  },
+  "kids-parent-homework-help": {
+    "kw": "親が宿題を見る",
+    "title": "親が宿題を見ると成績は上がる？ 研究のまとめでわかったこと"
   }
 }

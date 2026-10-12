@@ -374,6 +374,11 @@
         "id": "circadian-day-night-light-mental",
         "type": "あわせて読む",
         "why": "夜の光が体に与える影響を、実験で確かめた研究"
+      },
+      {
+        "id": "sleep-eye-mask-memory",
+        "type": "あわせて読む",
+        "why": "寝るときに光をさえぎると、翌日の記憶と注意力はどうなるか"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-light-on-insulin"
@@ -4972,7 +4977,14 @@
     "articleUrl": "https://ledger.seadice.win/cashless-spending/",
     "articleSite": "お金と心理",
     "webUrl": "https://seadice.win/evidence/money/#money-credit-card",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "moneylife-cashless-overspending",
+        "type": "あわせて読む",
+        "why": "71本の論文をまとめると、キャッシュレスの出費増は小さいが確かにあった"
+      }
+    ]
   },
   {
     "id": "money-prosocial-spending",
@@ -6523,7 +6535,14 @@
     "articleUrl": "https://mentalai.seadice.win/slow-breathing-stress/",
     "articleSite": "AI時代のメンタルヘルス",
     "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-cyclic-sighing-rct",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "breathing-breathwork-meta",
+        "type": "あわせて読む",
+        "why": "呼吸法のランダム化比較試験を12本まとめたメタ分析"
+      }
+    ]
   },
   {
     "id": "breathing-six-per-minute-prayer",
@@ -7297,6 +7316,11 @@
         "id": "relationship-deep-talk-strangers",
         "type": "あわせて読む",
         "why": "初対面の相手の好意や関心を、人は低く見積もりがち"
+      },
+      {
+        "id": "social-loneliness-interventions-meta",
+        "type": "あわせて読む",
+        "why": "思い込みを見直す方法が、孤独を減らすのにいちばん効いていた"
       }
     ]
   },
@@ -15640,6 +15664,11 @@
         "id": "music-lyrics-reading",
         "type": "あわせて読む",
         "why": "歌詞ありの音楽と読解を1つの実験で確かめた"
+      },
+      {
+        "id": "insight-background-music",
+        "type": "あわせて読む",
+        "why": "BGMがひらめき問題の成績を下げた3つの実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/music-focus/music-bgm-difficult-tasks-review/"
@@ -19432,5 +19461,472 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/language-learning/#lang-accent-impression"
+  },
+  {
+    "id": "procrastination-pomodoro-breaks",
+    "category": "先延ばし対策",
+    "kind": "よく聞く説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Biwer, Wiradhany, oude Egbrink & de Bruin, \"Understanding effort regulation: Comparing 'Pomodoro' breaks and self-regulated breaks\" (British Journal of Educational Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.1111/bjep.12593",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "時間で区切るポモドーロは、本当に効く？",
+        "body": "「25分やって5分休む」をくり返すポモドーロ・テクニック。勉強や仕事が進むと人気だけど、「効果ない」という声も検索で見かけるよね。好きなときに休むのと比べて、何か違うのかな。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "休み方を3通りに分けて、自習してもらった",
+        "body": "オランダの大学生87人が、ふだんの自習を1日オンラインで記録。好きなときに休む組（35人）、24分ごとに6分休む「ポモドーロ」組（25人）、12分ごとに3分休む組（27人）に分けて比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "はかどり方は同じ。でも気分は区切った方がよかった",
+        "body": "自分で休む組は勉強も休憩も長くなり、疲れや気の散りが多く、集中ややる気は低めだった。かけた努力や課題の終わり具合は3組で差がなかった。区切った方が短い時間で同じだけ進んだようだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1日だけ、大学生だけの結果",
+        "body": "調べたのは1日の自習だけで、続けたときにどうなるかはわからない。対象はオランダの大学生87人。「25分」がいちばん良い長さかどうかも、この研究では決められない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/procrastination-pomodoro-breaks/"
+  },
+  {
+    "id": "insight-background-music",
+    "category": "ひらめき",
+    "kind": "よく聞く説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Threadgold, Marsh, McLatchie & Ball, \"Background music stints creativity: Evidence from compound remote associate tasks\" (Applied Cognitive Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.1002/acp.3532",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "音楽を流すと、アイデアが出やすくなる？",
+        "body": "作業用BGMをかけると頭がさえて、ひらめきやすくなる気がするよね。「BGMは創造性を高める」という話もよく聞く。じゃあ、ひらめきを試す問題を解くときにも音楽は助けになるのかな。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "3つの実験で、音楽ありと静かな部屋を比べた",
+        "body": "3つの言葉に共通してつながる1語を探す問題（ひらめきを測るのによく使われる）を解いてもらった。知らない言語の歌詞入り、歌詞なしの曲、知っている歌詞入りの曲を、それぞれ静かな条件と比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "どの音楽でも、静かな方がよく解けた",
+        "body": "3種類の音楽すべてで、静かな条件より成績が下がった。音楽で気分が上がっても、ふだん音楽を聴きながら勉強する人でも、成績は下がっていた。研究者は「BGMで創造性が上がる」という見方に疑問を投げている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ひらめき全部に当てはまるかは不明",
+        "body": "使ったのは言葉をつなぐ1種類の問題だけ。絵を描く・企画を広げるといった別の創造的な作業でも同じかはわからない。実験室での短い課題の話で、長い作業での影響も確かめられていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-bgm-difficult-tasks-review",
+        "type": "あわせて読む",
+        "why": "BGMが邪魔になりやすい作業と人を、研究をまとめて整理した"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/insight-background-music/"
+  },
+  {
+    "id": "sleep-eye-mask-memory",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Greco, Bergamo, Cuoccio, Konkoly, Muñoz Lombardo & Lewis, \"Wearing an eye mask during overnight sleep improves episodic learning and alertness\" (Sleep, 2022)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/zsac305",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "アイマスクをして寝ると、何か変わる？",
+        "body": "旅行や昼寝で使うアイマスク。部屋がもともと暗ければ要らない気もするけど、ほんの少しの光をさえぎるだけで、翌日の調子は変わるのかな。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "1週間ずつ、アイマスクありとなしで比べた",
+        "body": "18〜35歳の94人が、毎晩アイマスクをして寝る1週間と、光をさえぎらない1週間を両方すごした。それぞれ6日目と7日目に、覚える力や注意力のテストを受けた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "アイマスクの週は、覚える力と注意力がよかった",
+        "body": "アイマスクの週は、出来事を覚える力が高く、注意力も上がっていた。別の35人で睡眠を測る機器を使った実験でも覚える力の差がまた見られ、深い眠り（徐波睡眠）が長い人ほど伸びていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い人で、短い期間の結果",
+        "body": "対象は18〜35歳だけで、年配の人や子どもでも同じかはわからない。調べたのは1週間ずつで、何か月も続けたときの効果も不明。寝室がもともとどのくらい明るかったかでも差は変わりそうだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-light-on-insulin",
+        "type": "あわせて読む",
+        "why": "寝ている間の明かりが体に与える影響を調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/sleep-eye-mask-memory/"
+  },
+  {
+    "id": "breathing-breathwork-meta",
+    "category": "呼吸とストレス",
+    "kind": "よく聞く説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Fincham, Strauss, Montero-Marin & Cavanagh, \"Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials\" (Scientific Reports, 2023)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-022-27247-y",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "呼吸法でストレスは減る？",
+        "body": "4-7-8呼吸、ボックス呼吸、ヴィムホフ……呼吸法はいろいろあって、「ストレスに効く」とよく聞くよね。一方で「効果ない」という声もある。くじ引きでグループを分けた研究をまとめると、どうなるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "ランダム化比較試験をまとめて分析した",
+        "body": "2023年、フィンチャムたちは2022年2月までの研究を探し、呼吸法をした人と呼吸法をしなかった人を比べたランダム化比較試験を集めた。ストレスについては12本、大人785人分をまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "ストレスは小〜中くらい減っていた",
+        "body": "呼吸法をした人は、しなかった人よりストレスの自己評価が低かった（効果量g=-0.35、小〜中程度）。不安（20本）と気分の落ち込み（18本）でも同じくらいの差が出た。ただ、研究の多くは偏りの危険が「中程度」だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの呼吸法が良いかまでは言えない",
+        "body": "まとめた研究は呼吸法の種類も対照もばらばらで、どれが一番かは決められない。ストレスは本人の答えで測ったもの。著者自身も、評判ばかり先に立たないよう、偏りの少ない研究が必要だと注意している。"
+      }
+    ],
+    "links": [
+      {
+        "id": "breathing-cyclic-sighing-rct",
+        "type": "あわせて読む",
+        "why": "呼吸法どうしを比べた1つのランダム化比較試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/breathing-breathwork-meta/"
+  },
+  {
+    "id": "social-loneliness-interventions-meta",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Masi, Chen, Hawkley & Cacioppo, \"A Meta-Analysis of Interventions to Reduce Loneliness\" (Personality and Social Psychology Review, 2010)",
+    "sourceUrl": "https://doi.org/10.1177/1088868310377394",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "孤独感を減らすには、人と会う機会を増やせばいい？",
+        "body": "さみしいなら人に会えばいい、と考えがちだよね。でも人に囲まれていても孤独を感じることはある。孤独感を減らすために試されてきた方法のうち、どれがいちばん効いていたのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "孤独を減らす取り組みの研究をまとめた",
+        "body": "2010年、マシたちは孤独を減らす取り組みの研究を集め、4つの方法に分けて比べた。①人づきあいの技術を伸ばす、②支えを増やす、③人と会う機会を増やす、④人間関係についての思い込みやとらえ方を見直す。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いていたのは「とらえ方」を見直す方法",
+        "body": "くじ引きでグループを分けた研究に絞ると、いちばん効果が大きかったのは④の、人間関係へのとらえ方を見直す方法だった。分けずに前後を比べただけの研究では、効果が大きめに出やすいこともわかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "少し前の研究で、新しい方法は入っていない",
+        "body": "2010年に発表されたまとめなので、その後に広がったオンラインの交流などは入っていない。人と会う機会が無意味という話ではなく、どの方法が誰に合うかは、さらに調べる必要がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "social-liking-gap",
+        "type": "あわせて読む",
+        "why": "相手の好意を低く見積もる「思い込み」の具体例"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/social-loneliness-interventions-meta/"
+  },
+  {
+    "id": "tobacco-heated-less-harmful",
+    "category": "からだの常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Tattan-Birch et al., \"Heated tobacco products for smoking cessation and reducing smoking prevalence\" (Cochrane Database of Systematic Reviews, 2022)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD013790.pub2",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "加熱式たばこは、害が少ないの？",
+        "body": "葉を燃やさず加熱するから、紙巻きより体にやさしい——メーカーはそう説明しているよね。日本は加熱式がとくに広まった国。実際のところ、研究ではどこまでわかっているんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "コクランが13の研究をまとめた",
+        "body": "2022年、タッタン＝バーチたちはコクランのレビューで13の研究を集めた。うち11本は、紙巻きを吸う人を加熱式に切り替える組などにくじで分けた試験（計2666人）。追跡は中央値で13週間だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "紙巻きより少ないが、吸わないよりは多い",
+        "body": "加熱式の組は、紙巻きを続けた組より発がん物質などへのさらされ方が少なかった（確かさは中くらい）。一方、たばこを全部やめようとした組と比べると多かった。体の不調の起きやすさに差があるかは、データが足りなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い目で見た健康への影響は不明",
+        "body": "試験はどれもたばこ会社の資金で行われ、期間も短い。病気が減るかまでは調べられていない。日本で加熱式の登場後に紙巻きの売上の減りが速まったデータもあるけれど、ほかの理由の可能性もあるとされている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/tobacco-heated-less-harmful/"
+  },
+  {
+    "id": "tobacco-stress-relief",
+    "category": "からだの常識",
+    "kind": "よく聞く説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Taylor et al., \"Smoking cessation for improving mental health\" (Cochrane Database of Systematic Reviews, 2021)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD013522.pub2",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "たばこを吸うとストレスが和らぐ？",
+        "body": "「たばこはストレス解消になる」「やめたらイライラして心に悪い」と思われがちだよね。でも研究者のあいだには、吸い続けることで切れたときの不安やイライラがくり返し起きている、という見方もある。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "102の研究、16万9500人以上をまとめた",
+        "body": "2021年、テイラーたちはコクランのレビューで、たばこを吸う大人を追いかけた102の研究（16万9500人以上）を集めた。やめた人と吸い続けた人で、6週間以上あとの心の状態の変化を比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "やめた人のほうが、心の状態がよくなっていた",
+        "body": "吸い続けた人に比べ、やめた人は不安・落ちこみ・ストレスが減り、前向きな気持ちが増えていた。改善は小〜中くらいの大きさ。心の病気がある人でも、同じように改善が見られた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "追跡研究なので、因果ははっきりしない",
+        "body": "くじで分けたわけではなく、やめられた人はもともと調子がよかった、などの可能性が残る。そのため確かさは「とても低い」〜「中くらい」とされている。この偏りを減らせる方法での研究が必要だと著者たちは書いている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/tobacco-stress-relief/"
+  },
+  {
+    "id": "moneylife-cashless-overspending",
+    "category": "お金とくらしの数字",
+    "kind": "よく聞く説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Schomburgk, Belli & Hoffmann, \"Less cash, more splash? A meta-analysis on the cashless effect\" (Journal of Retailing, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.jretai.2024.05.003",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "キャッシュレスだと、つい使いすぎる？",
+        "body": "現金なら財布のお札が減るのが見えるけど、カードやスマホ決済だと払った実感がうすい。だから使いすぎる——キャッシュレスが当たり前になった今、よく聞く話だよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "40年分の研究をまとめて分析した",
+        "body": "2024年、ショムバークたちは、払い方とお金の使い方を調べた71本の論文から、392の結果を集めてメタ分析した。現金以外で払うと出費が増える「キャッシュレス効果」が本当にあるのかを確かめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "増える傾向はある。でも小さめだった",
+        "body": "キャッシュレスだと出費が増える傾向は、小さいけれど確かに見られた。人に見せるための買い物では強く、寄付のような人のための出費では弱かった。景気がいい時期にも強まっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "慣れた今、どれくらい効くのか",
+        "body": "この効果は年々弱まっていて、みんながキャッシュレスに慣れたせいかもしれないと考えられている。決済の仕組みの違いで効果が変わる証拠は見つからなかった。今の日本の買い物でどれくらい差が出るかは、まだわからない。"
+      }
+    ],
+    "articleUrl": "https://ledger.seadice.win/cashless-spending/",
+    "articleSite": "お金と心理",
+    "links": [
+      {
+        "id": "money-credit-card",
+        "type": "あわせて読む",
+        "why": "メタ分析のもとになった種類の実験。カード払いだと入札額がほぼ2倍になった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money-life/moneylife-cashless-overspending/"
+  },
+  {
+    "id": "moneylife-scarcity-cognition",
+    "category": "お金とくらしの数字",
+    "kind": "よく聞く説",
+    "themeColor": "#10B981",
+    "sourceLabel": "de Almeida et al., \"Financial scarcity and cognitive performance: A meta-analysis\" (Journal of Economic Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.joep.2024.102702",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お金がないと、判断力が落ちる？",
+        "body": "お金の心配で頭がいっぱいになると、ほかのことを考える余裕がなくなる——「欠乏の行動経済学」などで広まった考え方だよね。本当に、お金が足りないと頭の働きは落ちるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "のべ11万人分のデータをまとめた",
+        "body": "2024年、デ・アルメイダたちは、お金の欠乏と頭の働きの関係を調べた29のデータ（のべ11万1852人、256の結果）を集めてメタ分析した。教育や、欠乏した時期・深刻さによる違いも調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "落ちる傾向はある。教育を考えると小さくなる",
+        "body": "お金が足りない人ほど、頭を使う課題の成績は低い傾向があった。ただ、教育の差を考えに入れると効果は60%小さくなり、小さな効果に。大人になってからの欠乏や、欠乏が深刻なほど影響は大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「お金の心配」だけで一時的に落ちるのか",
+        "body": "このまとめには、関係を見ただけの調査も多い。お金の心配を思い出させると成績が下がるかを試した実験だけをまとめた2024年の別の分析では、効果はないか、あってもごく小さく、データが少なすぎて強くは言えないとされた。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money-life/#moneylife-scarcity-cognition"
+  },
+  {
+    "id": "moneylife-cash-transfer-work",
+    "category": "お金とくらしの数字",
+    "kind": "よく聞く説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Banerjee, Hanna, Kreindler & Olken, \"Debunking the Stereotype of the Lazy Welfare Recipient: Evidence from Cash Transfer Programs\" (The World Bank Research Observer, 2017)",
+    "sourceUrl": "https://doi.org/10.1093/wbro/lkx002",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お金を配ると、人は働かなくなる？",
+        "body": "生活に困っている人にお金を配ると、働く気がなくなるのでは——ベーシックインカムや給付金の話になると、必ず出てくる心配だよね。実際にお金を配った実験では、どうだったんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "7つのくじ引き実験を調べ直した",
+        "body": "2017年、バナジーたちは、6つの途上国で政府が行った現金給付について、くじ引きで受け取る人を決めた7つの実験（ランダム化比較試験）のデータを、まとめて分析し直した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "働かなくなる、という一貫した証拠はなかった",
+        "body": "現金を受け取った人が働かなくなる、という系統だった証拠は見つからなかった。「給付を受けると怠ける」というよくあるイメージは、少なくともこの7つの実験では支えられなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "豊かな国では、少し減ったという報告も",
+        "body": "対象は途上国の貧しい家庭への給付。アメリカで低所得の1000人に月1000ドルを3年配った2024年の実験では、働く時間が週1〜2時間減ったと報告されている。国や金額、配り方で結果は変わりうる。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money-life/moneylife-cash-transfer-work/"
+  },
+  {
+    "id": "kids-english-early-start",
+    "category": "子どもの学び",
+    "kind": "よく聞く説",
+    "themeColor": "#A855F7",
+    "sourceLabel": "Jaekel, Schurig, Florian & Ritter, \"From Early Starters to Late Finishers? A Longitudinal Study of Early Foreign Language Learning in School\" (Language Learning, 2017)",
+    "sourceUrl": "https://doi.org/10.1111/lang.12242",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "英語は早く始めるほど身につく？",
+        "body": "「英語は小さいうちから」とよく言われるよね。子どもは耳がいいから、早く始めた方が得、という考え方。では学校の授業で早く始めた子は、あとまでリードを保てるのかな？"
+      },
+      {
+        "stage": "調べた人",
+        "title": "ドイツで、始めた時期が違う2つの集団を比べた",
+        "body": "ドイツの子どもたちを調べた研究で、英語の授業を始めた時期と英語にふれた量が違う2つの集団を比べた。中学に上がる5年生と、その2年後の7年生で、英語を聞いたり読んだりして理解する力を測った。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "5年生では早く始めた子が上、7年生では逆転",
+        "body": "5年生の時点では、早く始めて多く英語にふれた集団が上回った。ところが2年後の7年生では、遅く始めた集団の方が上になった。学校で早く始めたリードは、そのまま続かなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ逆転したのか、ほかの国でも同じかは",
+        "body": "比べたのはドイツの2つの集団で、くじで分けた実験ではない。測ったのは聞く・読む力で、話す力は見ていない。授業のやり方や家での英語など、学校の外の事情で結果が変わることもありうる。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/kids-learning/kids-english-early-start/"
+  },
+  {
+    "id": "kids-homework-achievement",
+    "category": "子どもの学び",
+    "kind": "素朴な疑問",
+    "themeColor": "#A855F7",
+    "sourceLabel": "Cooper, Robinson & Patall, \"Does Homework Improve Academic Achievement? A Synthesis of Research, 1987–2003\" (Review of Educational Research, 2006)",
+    "sourceUrl": "https://doi.org/10.3102/00346543076001001",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "宿題って、本当に成績に効いてるの？",
+        "body": "毎日の宿題、親子でがんばっているけど「これ意味あるの？」と思うこともあるよね。宿題をやるほど成績は上がるのか、学年によって違うのか。研究をまとめて確かめた人たちがいる。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "アメリカの宿題の研究をまとめ直した",
+        "body": "2006年、クーパーたちは、1987年以降にアメリカで行われた宿題と成績の研究を集めた。研究のやり方ごとに4つのグループに分けて、それぞれの結果をまとめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "おおむねプラス、ただし中高生の方が強い",
+        "body": "どのやり方の研究でも、宿題が成績にプラスに働くという結果がおおむねそろった。宿題の時間と成績の結びつきは、小学生まで（幼稚園〜6年生）より、7〜12年生の方が強かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "集めた研究には、どれも弱点があった",
+        "body": "著者たち自身が、集めた研究はどれもやり方に欠点があったと書いている。時間と成績の結びつきは相関なので、どちらが原因かは言い切れない。対象はアメリカで、日本の宿題に同じように当てはまるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kids-parent-homework-help",
+        "type": "あわせて読む",
+        "why": "宿題そのものの効果に続けて、親がどう関わるとよいかを調べたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/kids-learning/kids-homework-achievement/"
+  },
+  {
+    "id": "kids-parent-homework-help",
+    "category": "子どもの学び",
+    "kind": "素朴な疑問",
+    "themeColor": "#A855F7",
+    "sourceLabel": "Patall, Cooper & Robinson, \"Parent Involvement in Homework: A Research Synthesis\" (Review of Educational Research, 2008)",
+    "sourceUrl": "https://doi.org/10.3102/0034654308325185",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "親が宿題を見てあげると、成績は上がる？",
+        "body": "「宿題は親が見てあげて」と言われることがあるよね。でも、そばで教えるのがいいのか、見守るだけでいいのか、迷う人も多いはず。親の関わり方の研究をまとめた人たちがいる。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "2種類の研究を、それぞれメタ分析した",
+        "body": "2008年、パトールたちは、親に宿題への関わり方を教えた14の研究と、親の関わりと成績の関係を調べた20の研究（22の集団）を集め、それぞれ数字でまとめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関わり方と学年で、結果が分かれた",
+        "body": "関わり方を教わった親の小学生は、宿題をやり終えやすく、困りごとも減った。関わりと成績の関係は小学生・高校生ではプラス、中学生ではマイナス。ルールを決める関わり方の方が、結びつきが強かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "成績まで上がるかは「可能性がある」どまり",
+        "body": "親が関わり方を教わると成績まで上がるかは、可能性があるという段階。関係を見た研究は相関なので、どちらが原因かはわからない。科目でも違い、算数・数学ではマイナス、言葉の力ではプラスだった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kids-homework-achievement",
+        "type": "あわせて読む",
+        "why": "同じ研究チームによる、宿題そのものが成績に効くかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/kids-learning/kids-parent-homework-help/"
   }
 ]
