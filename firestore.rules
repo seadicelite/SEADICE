@@ -32,23 +32,6 @@ service cloud.firestore {
       allow read: if true;
       allow update, delete: if false;
     }
-
-    // EVIDENCE「よく聞く説、どのくらい信じられている？」の匿名集計（2026-10-12〜）
-    // 1回の書き込みで yes か no のどちらか一方を1増やすことだけを許す。個人の情報は持たない。合計は誰でも読める
-    match /belief_counts/{topic} {
-      function cnt(d, k) { return d.get(k, 0); }
-      allow read: if true;
-      allow create: if topic.matches('^[a-z0-9-]{1,80}$')
-                    && request.resource.data.keys().hasOnly(['yes', 'no'])
-                    && ((cnt(request.resource.data, 'yes') == 1 && cnt(request.resource.data, 'no') == 0)
-                        || (cnt(request.resource.data, 'no') == 1 && cnt(request.resource.data, 'yes') == 0));
-      allow update: if request.resource.data.keys().hasOnly(['yes', 'no'])
-                    && ((cnt(request.resource.data, 'yes') == cnt(resource.data, 'yes') + 1
-                         && cnt(request.resource.data, 'no') == cnt(resource.data, 'no'))
-                        || (cnt(request.resource.data, 'no') == cnt(resource.data, 'no') + 1
-                            && cnt(request.resource.data, 'yes') == cnt(resource.data, 'yes')));
-      allow delete: if false;
-    }
   }
 
 }

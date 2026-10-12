@@ -86,40 +86,11 @@ CSS = (
     ".grid a{display:block;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;text-decoration:none;color:var(--text);font-size:14px;font-weight:700}"
     ".grid span{display:block;font-size:12px;color:var(--muted);font-weight:400;margin-top:2px}"
     ".box{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin:24px 0}"
-    ".poll button{min-height:48px;padding:0 18px;margin:8px 8px 0 0;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);font:inherit;font-weight:700;cursor:pointer}"
-    ".poll button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.poll button:disabled{cursor:default;opacity:.6}"
-    ".poll button[aria-pressed=true]{border-color:var(--accent);opacity:1}.poll .note{font-size:13px;color:var(--muted)}"
     ".box p,.box li{font-size:14px;color:#cbd5e1}.box ul{padding-left:20px}"
     ".cta{display:inline-block;margin-top:12px;padding:12px 22px;border-radius:8px;font-weight:700;text-decoration:none;color:#05050C;background:var(--accent)}"
     "table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0 20px}th,td{border:1px solid var(--border);padding:8px;text-align:left;vertical-align:top}th{color:var(--accent)}"
     "section{margin-top:36px}footer{max-width:760px;margin:0 auto;padding:24px 16px 48px;font-size:12px;color:var(--muted)}footer a{color:var(--muted)}"
 )
-
-
-# 一次データ「よく聞く説、どのくらい信じられている？」（Firestore belief_counts。yes か no を1増やすだけ、個人の情報は送らない）
-POLL_JS = ("<script>(()=>{const s=document.querySelector('.poll');if(!s)return;"
-    "const id=s.dataset.id,P='projects/seadiceweb/databases/(default)/documents',A='https://firestore.googleapis.com/v1/'+P,"
-    "r=s.querySelector('.res'),bs=s.querySelectorAll('button'),K='bc-'+id,lock=v=>bs.forEach(b=>{b.disabled=v;}),"
-    "show=c=>{if(!c)return;const t=c[0]+c[1];r.textContent=t<10?'これまでに'+t+'人が答えました。10人を超えたら割合を出します。'"
-    ":'これまでに答えた'+t+'人のうち、'+Math.round(c[0]*100/t)+'%が本当だと思っていました。'},"
-    "load=()=>fetch(A+'/belief_counts/'+id).then(x=>x.ok?x.json():{}).then(d=>{const f=d.fields||{};"
-    "return[+((f.yes||{}).integerValue||0),+((f.no||{}).integerValue||0)]}).catch(()=>null);"
-    "let v=null;try{v=localStorage.getItem(K)}catch(e){}"
-    "if(v){lock(true);bs.forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v));load().then(show)}"
-    "s.addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b||b.disabled)return;lock(true);"
-    "b.setAttribute('aria-pressed','true');r.textContent='送っています…';"
-    "fetch(A+':commit',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({writes:[{transform:"
-    "{document:P+'/belief_counts/'+id,fieldTransforms:[{fieldPath:b.dataset.v,increment:{integerValue:'1'}}]}}]})})"
-    ".then(x=>{if(!x.ok)throw 0;try{localStorage.setItem(K,b.dataset.v)}catch(e){}return load()}).then(show)"
-    ".catch(()=>{r.textContent='送れませんでした。時間をおいて、もう一度押してください。';b.removeAttribute('aria-pressed');lock(false)})})})()</script>")
-
-
-def poll_html(tid):
-    return (f'<section class="box poll" data-id="{e(tid)}"><h2>この話、本当だと思っていましたか？</h2>'
-            '<button type="button" data-v="yes" aria-pressed="false">本当だと思っていた</button>'
-            '<button type="button" data-v="no" aria-pressed="false">思っていなかった</button>'
-            '<p class="res" aria-live="polite"></p>'
-            '<p class="note">SEADICEが2026年10月から、よく聞く説がどのくらい信じられているかを数えています。匿名で、押したボタンの合計だけを記録します（登録なし・1つのブラウザで1回）。</p></section>' + POLL_JS)
 
 
 def page(path, title, desc, body, crumbs, ld_extra=()):
@@ -293,7 +264,6 @@ def main():
         body = (f'<p class="label">EVIDENCE / {e(cat)}</p><h1>{e(f["title"])}</h1>'
                 f'<p class="lead"><strong>結論:</strong> {e(concl)}</p>'
                 f'<p class="lead">「{e(f["kw"])}」について、元の論文でわかったことと、まだわかっていないことをまとめました。研究の種類と出典の論文は下にあります。</p>'
-                + poll_html(t["id"])
                 + topic_html(t, practice_of(t), heading="h2")
                 + f'<section><h2>{e(cat)}のほかの研究</h2><div class="grid">{rel}</div>'
                 f'<p><a href="/evidence/{slug}/">{e(cat)}の研究まとめ（{len(by_cat[cat])}本）を読む</a></p></section>'

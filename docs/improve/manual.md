@@ -8,7 +8,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 ## 未対応
 
 - [ ] 次のアップデートで | アプリ | Life's RPG の設定画面から寄付ページ（seadice.win/support/）へのリンクを外す（lib/main.dart 3682行付近）— 審査 3.1.1 で却下された実例があり、ルールでも削除する決まり（2026-10-13）
-- [ ] 近いうちに | 全体 | firestore.rules に足した belief_counts（一次データ用の匿名カウンター）を本番に反映する: ターミナルで `firebase deploy --only firestore:rules` — Claude からは本番への反映が止められたため（2026-10-12）
+- [x] 近いうちに | 全体 | firestore.rules に足した belief_counts（一次データ用の匿名カウンター）を本番に反映する: ターミナルで `firebase deploy --only firestore:rules` — Claude からは本番への反映が止められたため（2026-10-12） → 2026-10-13 取り下げ（ユーザーが「データを取りたくない」と判断。belief_counts をルールから消して本番に反映）
 - [ ] 近いうちに | 全体 | 理念の「ツールやアプリを売る」と、今の方針「ユーザーは無料、払うのは第三者（2026-09-30）」「EVIDENCE の課金は利用者が増えるまで停止」のどちらを優先するか決める — 売り方（買い切り・サブスク・投げ銭・第三者）で、ツールとアプリの作り方が変わる（2026-10-12）
 - [ ] 毎月はじめ | EVIDENCE | evidence.md の「AIに聞く質問」10問を ChatGPT・Perplexity・Google AIモードに聞き、SEADICE が出たかを教える — AIでの言及は外のAIに聞くしか測れない（2026-10-12）
 - [ ] 毎月はじめ | アプリ | App Store Connect のアナリティクスで、アプリ別の ct=seadice のダウンロード数を教える — 11月中旬に Google Play に出す1本を決める材料（2026-10-12）
