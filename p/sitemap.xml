@@ -657,12 +657,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://seadice.win/privacy/</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/mood-forecast/</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>

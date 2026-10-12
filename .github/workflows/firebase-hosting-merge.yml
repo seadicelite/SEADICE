@@ -11,9 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SEADICEWEB }}
           channelId: live
           projectId: seadiceweb
+      - name: Notify IndexNow
+        run: |
+          git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- p/ > changed.txt || true
+          xargs -a changed.txt python3 scripts/indexnow.py
