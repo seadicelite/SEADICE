@@ -14,9 +14,9 @@ docs/tools.md（2026-10-12 初版）
 
 ### ルールの次にやること
 1. 運営者向けの開発ツール（appstore-niche は外部 fetch、image-resize は公開向けでない）をルールの対象外にするか決める。そのうえで docs/tools.md の初版を、実際のツール10件と見比べて実態に合わせる（守れていないルールは、ルールが悪いのかツールが悪いのかを決める）
-2. 「1タップ・話し言葉」が具体的にどんな画面かの良い例を、既存のツールから1つ選んでルールに載せる
 
 ### ルールの変更履歴
+- 2026-10-12: docs/tools.md に「1タップ・話し言葉」の良い例（kyukei-timer）を追加（抽象的で守れているか判断できなかったため）
 - 2026-10-12: docs/tools.md に「出典は DOI/公的資料へ直接リンク」を明記（ブラウザツール16/26件に出典リンクがなかったため）、ヘッダーの重複した一文を削除
 - 2026-10-12: ツールのルール文書 docs/tools.md を新設（それまでツール専用のルールがなかった）
 
@@ -44,3 +44,4 @@ docs/tools.md（2026-10-12 初版）
 ## やったこと
 - 2026-10-12: 点検。p/tools・p/diagnosis 281ページのうちブラウザで動く（JSあり）ものは26件（診断16・ツール10）。sd-tool/use タイプ・noindex は問題なし。出典リンク（DOI・公的資料）なし 16件、FAQPage なし 8件、外部リクエスト 1件（tools/appstore-niche の fetch）
 - 2026-10-12: 棚卸し（1回目）。出典リンクがないのは診断8件（bigfive-lite・career-type・hidden-personality・mbti-lite・profile・renai-type・self-esteem・stress-type）とツール8件（appstore-niche・caffeine-cutoff・fukushu-timing・image-resize・kyukei-timer・sabusuku-minaoshi・saki-ni-ugoku・suimin-fusai）。caffeine-cutoff は本文に Gardiner ら(2023) とあるが DOI リンクがなく、DOI は確かめられていないので足していない
+- 2026-10-12: 再点検（26件で変化なし: 出典なし16・FAQなし8・外部fetch1）。caffeine-cutoff の Gardiner(2023) の DOI は、この環境から crossref に接続できず確かめられないため足していない（手元で確認が必要。manual.md に追加）。ルール: 1タップ・話し言葉の良い例を追加
