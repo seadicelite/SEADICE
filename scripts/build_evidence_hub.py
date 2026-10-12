@@ -13,6 +13,7 @@ import hashlib
 import html
 import json
 import re
+import apply_page_type
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -138,6 +139,7 @@ def page(path, title, desc, body, crumbs, ld_extra=()):
     out = P / path / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(doc)
+    apply_page_type.apply(out, "show")
     return url, date
 
 
