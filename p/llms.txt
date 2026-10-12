@@ -58,7 +58,7 @@
 ## 主要ページ
 
 - [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ
-- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など48分野・370本以上の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
+- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など48分野・470本以上の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
   よく聞く説を確かめる（1問1ページ、結論・研究の種類・論文DOIつき）:
   - [習慣化は21日？66日？ 論文でわかったこと](https://seadice.win/evidence/habits/habit-66days/)
   - [意志力は使うと減る？ 23の研究室の追試でわかったこと](https://seadice.win/evidence/replication/replication-ego-depletion/)
@@ -120,6 +120,47 @@
   - [性格診断が当たってると感じるのはなぜ？ 論文でわかったこと](https://seadice.win/evidence/personality/personality-barnum-effect/)
   - [性格は大人になっても変わる？ 論文でわかったこと](https://seadice.win/evidence/personality/personality-change-adulthood/)
   - [性格はどのくらい遺伝で決まる？ 論文でわかったこと](https://seadice.win/evidence/personality/personality-heritability/)
+  - [卵とコレステロールの説は本当？ 論文でわかったこと](https://seadice.win/evidence/food-myths/foodmyth-egg-cholesterol-heart/)
+  - [人工甘味料で太るは本当？ 論文でわかったこと](https://seadice.win/evidence/food-myths/foodmyth-sweetener-weight-meta/)
+  - [デトックスで毒が出るは本当？ 論文でわかったこと](https://seadice.win/evidence/food-myths/foodmyth-detox-diet-review/)
+  - [果物は糖が多いから体に悪いは本当？ 論文でわかったこと](https://seadice.win/evidence/food-myths/foodmyth-fruit-sugar-diabetes/)
+  - [カフェインが効かないのはなぜ？ 論文でわかったこと](https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/)
+  - [運動前のカフェインは効く？ 論文でわかったこと](https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/)
+  - [瞑想は危険？ 論文でわかったこと](https://seadice.win/evidence/mindfulness/mindfulness-adverse-events/)
+  - [幸福度は年齢でどう変わる？ 論文でわかったこと](https://seadice.win/evidence/happiness/happy-age-u-curve/)
+  - [笑うとストレス解消になるのは本当？ 論文でわかったこと](https://seadice.win/evidence/laughter/laughter-cortisol-meta/)
+  - [宝くじ当選者は不幸になる？ 論文でわかったこと](https://seadice.win/evidence/happiness/happy-lottery-wealth/)
+  - [睡眠がよくなるとメンタルも整う？ 論文でわかったこと](https://seadice.win/evidence/mental-health/kokoro-sleep-improve-mental/)
+  - [牛乳で背が伸びるは本当？ 論文でわかったこと](https://seadice.win/evidence/japan/japan-milk-height/)
+  - [夫婦は顔が似てくるは本当？ 論文でわかったこと](https://seadice.win/evidence/love/love-spouse-faces/)
+  - [バイリンガルは頭がいいは本当？ 論文でわかったこと](https://seadice.win/evidence/brain-myths/brain-bilingual-advantage/)
+  - [脳は使わないと衰えるは本当？ 論文でわかったこと](https://seadice.win/evidence/brain-myths/brain-use-it-or-lose-it/)
+  - [寝不足だと太るは本当？ 論文でわかったこと](https://seadice.win/evidence/sleep-appetite/appetite-sleep-deprivation-meta/)
+  - [社会的時差ボケで太りやすくなる？ 論文でわかったこと](https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/)
+  - [叩くしつけに効果はある？ 論文でわかったこと](https://seadice.win/evidence/parenting/kosodate-spanking-meta/)
+  - [ねんトレは子どもの心に悪い？ 論文でわかったこと](https://seadice.win/evidence/parenting/kosodate-sleep-training-5y/)
+  - [絵本の読み聞かせで言葉は伸びる？ 論文でわかったこと](https://seadice.win/evidence/parenting/kosodate-shared-book-reading/)
+  - [脳トレで頭の衰えは防げる？ 論文でわかったこと](https://seadice.win/evidence/aging-parents/oya-brain-training-active-10y/)
+  - [運動で記憶力は上がる？ 論文でわかったこと](https://seadice.win/evidence/exercise-memory/exercise-over50-cognition-meta/)
+  - [歩く速さで寿命がわかる？ 論文でわかったこと](https://seadice.win/evidence/exercise-aging/aging-gait-speed-survival/)
+  - [筋トレは寿命と関係する？ 論文でわかったこと](https://seadice.win/evidence/exercise-aging/aging-muscle-strengthening-mortality-meta/)
+  - [運動のしすぎで寿命は縮む？ 論文でわかったこと](https://seadice.win/evidence/exercise-aging/aging-fitness-no-upper-limit/)
+  - [年をとってからの筋トレは効く？ 論文でわかったこと](https://seadice.win/evidence/exercise-aging/aging-strength-training-older-cochrane/)
+  - [スケアード・ストレートは効果がある？ 論文でわかったこと](https://seadice.win/evidence/criminal-psychology/hanzai-scared-straight/)
+  - [防犯カメラで犯罪は減る？ 論文でわかったこと](https://seadice.win/evidence/crime-prevention/bohan-cctv-meta/)
+  - [街灯を明るくすると犯罪は減る？ 論文でわかったこと](https://seadice.win/evidence/crime-prevention/bohan-street-lighting/)
+  - [防犯パトロール・見守り活動で犯罪は減る？ 論文でわかったこと](https://seadice.win/evidence/crime-prevention/bohan-neighborhood-watch/)
+  - [うその自白はなぜ起きる？ 取り調べの研究でわかったこと](https://seadice.win/evidence/criminal-psychology/hanzai-false-confession-interrogation/)
+  - [バイノーラルビートで脳波は整う？ 論文でわかったこと](https://seadice.win/evidence/music-focus/music-binaural-beats-brainwave/)
+  - [ペパーミントの香りで集中できる？ 論文でわかったこと](https://seadice.win/evidence/scent-memory/scent-peppermint-ylang-memory/)
+  - [作業用BGMは集中に効く？ 論文でわかったこと](https://seadice.win/evidence/music-focus/music-bgm-difficult-tasks-review/)
+  - [音楽を聴きながらの運動は効果がある？ 論文でわかったこと](https://seadice.win/evidence/music-focus/music-exercise-performance-metaanalysis/)
+  - [デジタルデトックスに効果はある？ 論文でわかったこと](https://seadice.win/evidence/digital-detox/digital-sns-abstinence-meta/)
+  - [週休3日は本当に良い？ 論文でわかったこと](https://seadice.win/evidence/work/work-four-day-week/)
+  - [長時間労働は脳卒中と関係する？ 論文でわかったこと](https://seadice.win/evidence/work/work-long-hours-stroke/)
+  - [学校のスマホ禁止に効果はある？ 論文でわかったこと](https://seadice.win/evidence/digital-detox/digital-school-phone-ban/)
+  - [スマホはそばにあるだけで集中を奪う？ 論文でわかったこと](https://seadice.win/evidence/digital-detox/digital-smartphone-brain-drain/)
+  - [Zoom疲れはカメラのせい？ 論文でわかったこと](https://seadice.win/evidence/work/work-camera-fatigue/)
 - [EVIDENCEシリーズ（研究にもとづくアプリ）](https://seadice.win/evidence-series/): 機能のもとになった研究の論文（DOI）と日本語の解説記事を公開しているアプリのまとめ。「証明された」ではなく「研究にもとづく」と表記
 - [Webツール・ジャンル別ハブ](https://seadice.win/tools/): 困りごとの種類から探す
 - [Decoy Notes](https://seadice.win/tools/decoy-notes/): 正しい合言葉では本物のメモ、まちがった合言葉ではダミーのメモが同じ見た目で開くメモ帳。本物はAES-GCMで暗号化しブラウザ内だけに保存（登録不要・サーバー送信なし）

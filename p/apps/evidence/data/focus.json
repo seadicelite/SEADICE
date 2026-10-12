@@ -239,5 +239,169 @@
   "nature-negative-air-ions-mood": {
     "kw": "マイナスイオン",
     "title": "マイナスイオンに効果はある？ メタ分析でわかったこと"
+  },
+  "foodmyth-egg-cholesterol-heart": {
+    "kw": "卵 コレステロール 嘘",
+    "title": "卵とコレステロールの説は本当？ 論文でわかったこと"
+  },
+  "foodmyth-sweetener-weight-meta": {
+    "kw": "人工甘味料 太る 嘘",
+    "title": "人工甘味料で太るは本当？ 論文でわかったこと"
+  },
+  "foodmyth-detox-diet-review": {
+    "kw": "デトックス 嘘",
+    "title": "デトックスで毒が出るは本当？ 論文でわかったこと"
+  },
+  "foodmyth-fruit-sugar-diabetes": {
+    "kw": "果物 太る 嘘",
+    "title": "果物は糖が多いから体に悪いは本当？ 論文でわかったこと"
+  },
+  "caffeine-tolerance-alertness": {
+    "kw": "カフェイン 効かない",
+    "title": "カフェインが効かないのはなぜ？ 論文でわかったこと"
+  },
+  "caffeine-exercise-umbrella": {
+    "kw": "カフェイン 運動 論文",
+    "title": "運動前のカフェインは効く？ 論文でわかったこと"
+  },
+  "mindfulness-adverse-events": {
+    "kw": "瞑想 危険",
+    "title": "瞑想は危険？ 論文でわかったこと"
+  },
+  "happy-age-u-curve": {
+    "kw": "幸福度 年齢",
+    "title": "幸福度は年齢でどう変わる？ 論文でわかったこと"
+  },
+  "laughter-cortisol-meta": {
+    "kw": "笑う ストレス解消",
+    "title": "笑うとストレス解消になるのは本当？ 論文でわかったこと"
+  },
+  "happy-lottery-wealth": {
+    "kw": "宝くじ 当選者 不幸",
+    "title": "宝くじ当選者は不幸になる？ 論文でわかったこと"
+  },
+  "kokoro-sleep-improve-mental": {
+    "kw": "睡眠 メンタル",
+    "title": "睡眠がよくなるとメンタルも整う？ 論文でわかったこと"
+  },
+  "japan-milk-height": {
+    "kw": "牛乳 背が伸びる",
+    "title": "牛乳で背が伸びるは本当？ 論文でわかったこと"
+  },
+  "love-spouse-faces": {
+    "kw": "夫婦 顔が似てくる",
+    "title": "夫婦は顔が似てくるは本当？ 論文でわかったこと"
+  },
+  "brain-bilingual-advantage": {
+    "kw": "バイリンガル 頭がいい",
+    "title": "バイリンガルは頭がいいは本当？ 論文でわかったこと"
+  },
+  "brain-use-it-or-lose-it": {
+    "kw": "脳 使わないと衰える",
+    "title": "脳は使わないと衰えるは本当？ 論文でわかったこと"
+  },
+  "appetite-sleep-deprivation-meta": {
+    "kw": "寝不足 太る",
+    "title": "寝不足だと太るは本当？ 論文でわかったこと"
+  },
+  "circadian-social-jetlag-obesity": {
+    "kw": "社会的時差ボケ",
+    "title": "社会的時差ボケで太りやすくなる？ 論文でわかったこと"
+  },
+  "kosodate-spanking-meta": {
+    "kw": "体罰 論文",
+    "title": "叩くしつけに効果はある？ 論文でわかったこと"
+  },
+  "kosodate-sleep-training-5y": {
+    "kw": "ネントレ 論文",
+    "title": "ねんトレは子どもの心に悪い？ 論文でわかったこと"
+  },
+  "kosodate-shared-book-reading": {
+    "kw": "読み聞かせ 効果 論文",
+    "title": "絵本の読み聞かせで言葉は伸びる？ 論文でわかったこと"
+  },
+  "oya-brain-training-active-10y": {
+    "kw": "脳トレ 効果 論文",
+    "title": "脳トレで頭の衰えは防げる？ 論文でわかったこと"
+  },
+  "exercise-over50-cognition-meta": {
+    "kw": "運動 記憶力 論文",
+    "title": "運動で記憶力は上がる？ 論文でわかったこと"
+  },
+  "aging-gait-speed-survival": {
+    "kw": "歩く速さ 寿命",
+    "title": "歩く速さで寿命がわかる？ 論文でわかったこと"
+  },
+  "aging-muscle-strengthening-mortality-meta": {
+    "kw": "筋トレ 寿命 論文",
+    "title": "筋トレは寿命と関係する？ 論文でわかったこと"
+  },
+  "aging-fitness-no-upper-limit": {
+    "kw": "運動しすぎ 寿命",
+    "title": "運動のしすぎで寿命は縮む？ 論文でわかったこと"
+  },
+  "aging-strength-training-older-cochrane": {
+    "kw": "高齢者 筋トレ 論文",
+    "title": "年をとってからの筋トレは効く？ 論文でわかったこと"
+  },
+  "hanzai-scared-straight": {
+    "kw": "スケアードストレート",
+    "title": "スケアード・ストレートは効果がある？ 論文でわかったこと"
+  },
+  "bohan-cctv-meta": {
+    "kw": "防犯カメラ 効果",
+    "title": "防犯カメラで犯罪は減る？ 論文でわかったこと"
+  },
+  "bohan-street-lighting": {
+    "kw": "街灯 防犯 効果",
+    "title": "街灯を明るくすると犯罪は減る？ 論文でわかったこと"
+  },
+  "bohan-neighborhood-watch": {
+    "kw": "防犯パトロール 効果",
+    "title": "防犯パトロール・見守り活動で犯罪は減る？ 論文でわかったこと"
+  },
+  "hanzai-false-confession-interrogation": {
+    "kw": "自白 強要 なぜ",
+    "title": "うその自白はなぜ起きる？ 取り調べの研究でわかったこと"
+  },
+  "music-binaural-beats-brainwave": {
+    "kw": "バイノーラルビート 効果",
+    "title": "バイノーラルビートで脳波は整う？ 論文でわかったこと"
+  },
+  "scent-peppermint-ylang-memory": {
+    "kw": "ペパーミント 集中力",
+    "title": "ペパーミントの香りで集中できる？ 論文でわかったこと"
+  },
+  "music-bgm-difficult-tasks-review": {
+    "kw": "作業用bgm 効果",
+    "title": "作業用BGMは集中に効く？ 論文でわかったこと"
+  },
+  "music-exercise-performance-metaanalysis": {
+    "kw": "音楽 運動 効果",
+    "title": "音楽を聴きながらの運動は効果がある？ 論文でわかったこと"
+  },
+  "digital-sns-abstinence-meta": {
+    "kw": "デジタルデトックス 効果",
+    "title": "デジタルデトックスに効果はある？ 論文でわかったこと"
+  },
+  "work-four-day-week": {
+    "kw": "週休3日 効果",
+    "title": "週休3日は本当に良い？ 論文でわかったこと"
+  },
+  "work-long-hours-stroke": {
+    "kw": "長時間労働 脳卒中",
+    "title": "長時間労働は脳卒中と関係する？ 論文でわかったこと"
+  },
+  "digital-school-phone-ban": {
+    "kw": "学校 スマホ 禁止",
+    "title": "学校のスマホ禁止に効果はある？ 論文でわかったこと"
+  },
+  "digital-smartphone-brain-drain": {
+    "kw": "ブレインドレイン スマホ",
+    "title": "スマホはそばにあるだけで集中を奪う？ 論文でわかったこと"
+  },
+  "work-camera-fatigue": {
+    "kw": "zoom疲れ",
+    "title": "Zoom疲れはカメラのせい？ 論文でわかったこと"
   }
 }

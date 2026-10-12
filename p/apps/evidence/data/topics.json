@@ -170,7 +170,14 @@
         "body": "妊娠中は、多く飲む人で低い体重での出生や早産などとの関係が見られ、女性では骨折との関係もあった。もとの多くは観察研究で、コーヒーが体を良くしたのかはまだ確かめられていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-health-umbrella"
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-health-umbrella",
+    "links": [
+      {
+        "id": "caffeine-crave-coffee-trial",
+        "type": "あわせて読む",
+        "why": "長い目での健康との関係は、こちらの大きなまとめで"
+      }
+    ]
   },
   {
     "id": "research-music-cortisol-stress-research-meta104",
@@ -362,6 +369,11 @@
         "id": "sleep-ereader-blue-light",
         "type": "あわせて読む",
         "why": "寝る前に浴びる光の影響と、寝ている間の明かりの影響"
+      },
+      {
+        "id": "circadian-day-night-light-mental",
+        "type": "あわせて読む",
+        "why": "夜の光が体に与える影響を、実験で確かめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-light-on-insulin"
@@ -435,7 +447,14 @@
         "body": "同じ雑誌に「この方法では大きな男女差を見落とす」「脳の特徴を組み合わせると男女を見分けられる」という反論がいくつも出た。2つに分かれないことと、差がないことは別の話で、議論は続いている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-male-female-mosaic"
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-male-female-mosaic",
+    "links": [
+      {
+        "id": "love-women-talkative",
+        "type": "あわせて読む",
+        "why": "男女の違いをめぐるもう一つの説。脳も男女で大きく重なっていた"
+      }
+    ]
   },
   {
     "id": "dokugaku-forgotten-language-relearning-permastore",
@@ -1576,7 +1595,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/body-myths/#myth-sugar-hyperactive",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "food-sugar-rush-mood-meta",
+        "type": "あわせて読む",
+        "why": "糖で子どもがはしゃぐ説も、実験では支持されなかった"
+      }
+    ]
   },
   {
     "id": "myth-knuckle-cracking",
@@ -1784,7 +1810,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/pets/#pet-dog-faces",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "pet-dog-guilty-look",
+        "type": "あわせて読む",
+        "why": "犬は人の表情を見分けられる。反省顔が飼い主の態度への反応だという話とつながる"
+      }
+    ]
   },
   {
     "id": "pet-dog-gaze-oxytocin",
@@ -1886,6 +1919,16 @@
         "id": "face-impression-dimensions-world",
         "type": "あわせて読む",
         "why": "顔の印象は一瞬で決まるという研究。その印象の中身を世界で確かめた"
+      },
+      {
+        "id": "love-at-first-sight",
+        "type": "あわせて読む",
+        "why": "顔の印象は一瞬で決まるという研究。一目惚れの中身もまず見た目だった"
+      },
+      {
+        "id": "face-same-person-different-photos",
+        "type": "あわせて読む",
+        "why": "印象は0.1秒で決まるが、その印象も写真1枚に左右される"
       }
     ]
   },
@@ -1919,7 +1962,19 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/love/#love-similarity-attraction",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "love-spouse-faces",
+        "type": "あわせて読む",
+        "why": "似た者同士が惹かれあうかをまとめた研究。顔も最初から似ていた"
+      },
+      {
+        "id": "umbra-compatibility-prediction",
+        "type": "あわせて読む",
+        "why": "似ている度合いと惹かれ方の関係を、多くの研究でまとめたもの"
+      }
+    ]
   },
   {
     "id": "love-suspension-bridge",
@@ -2033,6 +2088,11 @@
         "id": "face-averageness-beauty",
         "type": "あわせて読む",
         "why": "顔の魅力が実際の相手選びでどれだけ効くかを調べたメタ分析"
+      },
+      {
+        "id": "umbra-compatibility-prediction",
+        "type": "あわせて読む",
+        "why": "口にする理想の条件も、実際に惹かれる理由とずれていた"
       }
     ]
   },
@@ -2279,7 +2339,14 @@
       "wrong": "カフェイン分解が速い型"
     },
     "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-gene",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "caffeine-tolerance-alertness",
+        "type": "あわせて読む",
+        "why": "カフェインの影響が人によって違う、体質の話"
+      }
+    ]
   },
   {
     "id": "gum-focus",
@@ -2396,7 +2463,14 @@
       "wrong": "対照群より高かった"
     },
     "webUrl": "https://seadice.win/evidence/laughter/#laughter-immunity",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "laughter-cortisol-meta",
+        "type": "あわせて読む",
+        "why": "笑いとストレスホルモンを調べた1989年の小さな実験。こちらはその後の研究をまとめた"
+      }
+    ]
   },
   {
     "id": "posture-confidence",
@@ -2440,6 +2514,11 @@
         "id": "posture-power-pose-hormones-debunk",
         "type": "あわせて読む",
         "why": "姿勢で変わるのは気分の自己評価で、ホルモンは変わらず"
+      },
+      {
+        "id": "posture-upright-depressive-symptoms",
+        "type": "あわせて読む",
+        "why": "同じスピーチ課題を、健康な74人で試した実験"
       }
     ]
   },
@@ -2594,6 +2673,11 @@
         "id": "color-baker-miller-pink",
         "type": "あわせて読む",
         "why": "有名な色の効果が、追試で確かめられなかった別の例"
+      },
+      {
+        "id": "color-red-plate-snack-intake",
+        "type": "あわせて読む",
+        "why": "前提にした「赤は避けたい気持ちを起こす」説は、別の課題で再現されなかった"
       }
     ]
   },
@@ -3046,6 +3130,11 @@
         "id": "digital-no-more-fomo",
         "type": "あわせて読む",
         "why": "SNSを完全にやめる場合と、1日30分に減らす場合"
+      },
+      {
+        "id": "digital-sns-abstinence-meta",
+        "type": "反対の結果",
+        "why": "1つの大きな実験では幸福感が上がったが、まとめると差は出なかった"
       }
     ]
   },
@@ -3120,7 +3209,14 @@
     "articleUrl": "https://research.seadice.win/phone-notifications-off-focus/",
     "articleSite": "悩みの科学",
     "webUrl": "https://seadice.win/evidence/digital-detox/#digital-notification-interruption",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "digital-smartphone-brain-drain",
+        "type": "あわせて読む",
+        "why": "スマホがそばにあるだけの影響と、通知が集中を切る影響"
+      }
+    ]
   },
   {
     "id": "procrastination-longitudinal",
@@ -3333,7 +3429,14 @@
     "articleUrl": "https://research.seadice.win/sleep-loss-anger-irritability/",
     "articleSite": "悩みの科学",
     "webUrl": "https://seadice.win/evidence/sleep/#sleep-emotion-amygdala",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "kokoro-sleep-improve-mental",
+        "type": "あわせて読む",
+        "why": "寝不足だと、感情に関わる脳の反応が強くなることを見た実験"
+      }
+    ]
   },
   {
     "id": "sleep-weekend-catchup-debt",
@@ -3443,6 +3546,11 @@
         "id": "exercise-cardio-memory-metaanalysis",
         "type": "反対の結果",
         "why": "1年の運動で記憶が伸びた実験と、長期運動の効果は不明瞭というまとめ"
+      },
+      {
+        "id": "exercise-memory-complaints-older-rct",
+        "type": "あわせて読む",
+        "why": "同じく高齢の人が長く運動を続けた試験。こちらは脳の大きさを測った"
       }
     ]
   },
@@ -3483,6 +3591,11 @@
         "id": "exercise-memory",
         "type": "あわせて読む",
         "why": "運動は覚える前か4時間後か、タイミング別の結果を比べられる"
+      },
+      {
+        "id": "exercise-light-10min-hippocampus",
+        "type": "あわせて読む",
+        "why": "覚える前に体を動かす効果を、別の方法で調べた研究"
       }
     ]
   },
@@ -3515,7 +3628,14 @@
       "wrong": "単語の記憶課題の成績"
     },
     "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-resistance-executive",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "exercise-over50-cognition-meta",
+        "type": "あわせて読む",
+        "why": "筋トレ単独の1つの試験と、運動の種類をまとめて比べたメタ分析"
+      }
+    ]
   },
   {
     "id": "caffeine-memory-consolidation",
@@ -3615,7 +3735,14 @@
       "wrong": "食欲増進や多幸感"
     },
     "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-withdrawal-symptoms",
-    "studyType": "レビュー"
+    "studyType": "レビュー",
+    "links": [
+      {
+        "id": "caffeine-tolerance-alertness",
+        "type": "あわせて読む",
+        "why": "断ったときの頭痛や眠気が、朝の一杯の効き目の正体かもしれない"
+      }
+    ]
   },
   {
     "id": "focus-brief-diversion",
@@ -3756,6 +3883,11 @@
         "id": "scent-orange-lavender-anxiety",
         "type": "あわせて読む",
         "why": "ラベンダーは不安を和らげたが、記憶の働きは鈍らせた"
+      },
+      {
+        "id": "scent-peppermint-ylang-memory",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが同じ方法で、ローズマリーとラベンダーを比べた"
       }
     ]
   },
@@ -3832,6 +3964,16 @@
         "id": "scent-aromatherapy-sleep",
         "type": "あわせて読む",
         "why": "眠りの質そのものへの香りの効果を、31本の試験でまとめた研究"
+      },
+      {
+        "id": "scent-sleep-cue-metaanalysis",
+        "type": "あわせて読む",
+        "why": "バラの香りで試した元の実験を、91件まとめて確かめた"
+      },
+      {
+        "id": "scent-school-sleep-odor-vocab",
+        "type": "あわせて読む",
+        "why": "実験室の元の研究を、学校と家で試した"
       }
     ]
   },
@@ -3864,7 +4006,14 @@
       "wrong": "下がった"
     },
     "webUrl": "https://seadice.win/evidence/laughter/#laughter-pain-threshold",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "laughter-contagious-bad-jokes",
+        "type": "あわせて読む",
+        "why": "笑いは人と一緒だと起きやすい。みんなで笑ったときの体の変化を見た実験"
+      }
+    ]
   },
   {
     "id": "laughter-yoga-cortisol",
@@ -3906,6 +4055,11 @@
         "id": "laughter-therapy-meta-depression",
         "type": "あわせて読む",
         "why": "笑いヨガ1回で、ストレスへの体の反応を見た小さな実験"
+      },
+      {
+        "id": "laughter-cortisol-meta",
+        "type": "あわせて読む",
+        "why": "つくり笑い（笑いヨガ）で、ストレスへの体の反応を見た試験"
       }
     ]
   },
@@ -3938,7 +4092,14 @@
       "wrong": "ごく一部の人"
     },
     "webUrl": "https://seadice.win/evidence/laughter/#laughter-humor-reappraisal",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "laughter-humor-styles-meta",
+        "type": "あわせて読む",
+        "why": "つらい状況を笑える捉え方に変えられるかを、実際に試した実験"
+      }
+    ]
   },
   {
     "id": "learning-testing-effect",
@@ -4099,7 +4260,19 @@
       "wrong": "速く、腕を大きく振る"
     },
     "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-gait-sadness",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "posture-upright-depressive-symptoms",
+        "type": "あわせて読む",
+        "why": "逆向きに、気分の沈みが歩き方に表れることを調べた研究"
+      },
+      {
+        "id": "posture-stooped-mood-recovery",
+        "type": "あわせて読む",
+        "why": "気分と体の向きは逆方向にもつながる。沈んだ気分は歩き方に出た"
+      }
+    ]
   },
   {
     "id": "posture-standing-desk-engagement",
@@ -4176,6 +4349,11 @@
         "id": "music-background-metaanalysis",
         "type": "あわせて読む",
         "why": "BGMは読解に不利で、特に歌詞入りが成績を下げた"
+      },
+      {
+        "id": "music-bgm-difficult-tasks-review",
+        "type": "あわせて読む",
+        "why": "歌詞ありの音楽と読解を1つの実験で確かめた"
       }
     ]
   },
@@ -4208,7 +4386,14 @@
       "wrong": "漕ぐより遅めのテンポ"
     },
     "webUrl": "https://seadice.win/evidence/music-focus/#music-tempo-exercise-oxygen",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "music-exercise-performance-metaanalysis",
+        "type": "あわせて読む",
+        "why": "テンポを動きに合わせる効果を、1つの実験で調べた"
+      }
+    ]
   },
   {
     "id": "breathing-resonance-hrv",
@@ -5313,6 +5498,11 @@
         "id": "aging-exercise-vo2max-telomere",
         "type": "あわせて読む",
         "why": "細胞の若さは、極端な運動でなく中程度の体力でも保てる"
+      },
+      {
+        "id": "aging-fitness-no-upper-limit",
+        "type": "あわせて読む",
+        "why": "鍛えている人の細胞の若さと、持久力の高さと寿命の関係を調べた研究"
       }
     ]
   },
@@ -5383,7 +5573,14 @@
       "wrong": "動物性のときだけ高まった"
     },
     "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-resistance-training-protein-synthesis",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "aging-strength-training-older-cochrane",
+        "type": "あわせて読む",
+        "why": "筋トレで筋力が上がるまとめと、そのとき食事や補助食品は必要かを調べた研究"
+      }
+    ]
   },
   {
     "id": "aging-grip-strength-mortality",
@@ -5414,7 +5611,19 @@
       "wrong": "低かった"
     },
     "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-grip-strength-mortality",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "aging-gait-speed-survival",
+        "type": "あわせて読む",
+        "why": "握力も歩く速さも、簡単に測れる体力の目印と寿命の関係を調べた研究"
+      },
+      {
+        "id": "aging-muscle-strengthening-mortality-meta",
+        "type": "あわせて読む",
+        "why": "筋トレの習慣と寿命、筋力（握力）と寿命の関係をそれぞれ調べた研究"
+      }
+    ]
   },
   {
     "id": "appetite-sleep-leptin-ghrelin",
@@ -5575,6 +5784,11 @@
         "id": "appetite-sleep-extension-intake",
         "type": "あわせて読む",
         "why": "寝不足で食べる量が増えた実験の、逆向きを試した研究"
+      },
+      {
+        "id": "appetite-sleep-deprivation-meta",
+        "type": "あわせて読む",
+        "why": "メタ分析にまとめられたような、寝不足で食べる量を測った1つの実験"
       }
     ]
   },
@@ -5607,7 +5821,14 @@
       "wrong": "小さくなると試算された"
     },
     "webUrl": "https://seadice.win/evidence/posture-pain/#posture-text-neck-hansraj",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "posture-text-neck-young-adults",
+        "type": "反対の結果",
+        "why": "うつむくと首の負担が増えるという計算と、実際の痛みとは関係が見られなかった調査"
+      }
+    ]
   },
   {
     "id": "posture-sedentary-low-back-pain",
@@ -5649,6 +5870,11 @@
         "id": "posture-standing-desk-back-pain",
         "type": "あわせて読む",
         "why": "座りすぎと腰痛の関係を、観察研究からまとめたメタ分析"
+      },
+      {
+        "id": "posture-spine-posture-causality-umbrella",
+        "type": "あわせて読む",
+        "why": "座りすぎと腰痛の1つのテーマと、姿勢全体の研究をまとめ直した結果"
       }
     ]
   },
@@ -5717,6 +5943,11 @@
         "id": "posture-sedentary-low-back-pain",
         "type": "あわせて読む",
         "why": "座りすぎと腰痛の関係を、椎間板への負担から考える"
+      },
+      {
+        "id": "posture-lifting-flexion-back-pain",
+        "type": "あわせて読む",
+        "why": "姿勢で椎間板の圧が変わるという測定と、姿勢と痛みの関係を調べたまとめ"
       }
     ],
     "studyType": "実験"
@@ -6379,6 +6610,11 @@
         "id": "sleep-ereader-blue-light",
         "type": "あわせて読む",
         "why": "寝る前の端末だけでなく、ふつうの室内灯でもメラトニンが減る"
+      },
+      {
+        "id": "circadian-evening-light-sensitivity",
+        "type": "あわせて読む",
+        "why": "室内灯でメラトニンが減ることに加え、何ルクスから効くか・人による差を測った"
       }
     ]
   },
@@ -6419,6 +6655,16 @@
         "id": "mindfulness-mbct-relapse",
         "type": "あわせて読む",
         "why": "瞑想の効果のまとめと、うつの再発予防の試験"
+      },
+      {
+        "id": "mindfulness-nonclinical-meta",
+        "type": "あわせて読む",
+        "why": "不安やうつへの瞑想の効果を、別の観点からまとめた先行のメタ分析"
+      },
+      {
+        "id": "mindfulness-adverse-events",
+        "type": "あわせて読む",
+        "why": "効果の大きさをまとめた研究。こちらは悪い出来事の側を集めた"
       }
     ]
   },
@@ -6451,7 +6697,14 @@
       "wrong": "雑談群のほうが軽くなった"
     },
     "webUrl": "https://seadice.win/evidence/food-brain/#food-smiles-diet-depression",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "food-omega3-depression-meta",
+        "type": "あわせて読む",
+        "why": "サプリ1つではなく、食事全体を見直した試験の結果"
+      }
+    ]
   },
   {
     "id": "food-breakfast-weight",
@@ -6602,7 +6855,14 @@
       "wrong": "気分の不調が出にくい傾向"
     },
     "webUrl": "https://seadice.win/evidence/food-brain/#food-sugar-mood-whitehall",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "food-sugar-rush-mood-meta",
+        "type": "あわせて読む",
+        "why": "こちらは直後の気分、あちらは何年も続けたときの気分を追った研究"
+      }
+    ]
   },
   {
     "id": "nature-120-minutes-week",
@@ -6641,6 +6901,16 @@
         "id": "exercise-green-dose",
         "type": "あわせて読む",
         "why": "自然の効果は、短時間で大きく、ある量で頭打ちになる"
+      },
+      {
+        "id": "nature-blue-space-18-countries",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが、自然で過ごす時間の長さと健康の関係を調べた"
+      },
+      {
+        "id": "nature-pill-20-minutes",
+        "type": "あわせて読む",
+        "why": "1回の長さでなく、1週間に合計何分がよいかを調べた研究"
       }
     ]
   },
@@ -6793,6 +7063,11 @@
         "id": "nature-forest-bathing-cortisol",
         "type": "あわせて読む",
         "why": "森林浴に絞ったメタ分析でも、コルチゾールは森で低かった"
+      },
+      {
+        "id": "nature-greenspace-mortality",
+        "type": "あわせて読む",
+        "why": "緑と体の指標の関係を、死亡以外の約100の指標でまとめた研究"
       }
     ]
   },
@@ -6873,6 +7148,16 @@
         "id": "social-relationships-mortality-2010",
         "type": "あわせて読む",
         "why": "つながりの強さと、孤独・孤立の死亡リスクを両面から"
+      },
+      {
+        "id": "oya-social-contact-dementia",
+        "type": "あわせて読む",
+        "why": "孤独や孤立は寿命とも関係していた。同じく追跡研究をまとめたメタ分析"
+      },
+      {
+        "id": "kokoro-phone-call-loneliness",
+        "type": "あわせて読む",
+        "why": "孤独が健康とどう関係するかを、多くの研究でまとめたもの"
       }
     ]
   },
@@ -7011,7 +7296,14 @@
       "wrong": "ある年収で頭打ちになる"
     },
     "webUrl": "https://seadice.win/evidence/happiness/happy-income-conflict-resolved/",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "happy-lottery-wealth",
+        "type": "あわせて読む",
+        "why": "年収と幸せの関係を、毎日の気分で調べた研究"
+      }
+    ]
   },
   {
     "id": "happy-adaptation-marriage",
@@ -7042,7 +7334,19 @@
       "wrong": "全員がすぐ元に戻る"
     },
     "webUrl": "https://seadice.win/evidence/happiness/#happy-adaptation-marriage",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "love-satisfaction-decline",
+        "type": "あわせて読む",
+        "why": "結婚の喜びに慣れていくかを見た研究。満足度の長い変化とあわせて読める"
+      },
+      {
+        "id": "happy-lottery-wealth",
+        "type": "あわせて読む",
+        "why": "人は出来事に慣れて元に戻るのか。結婚で調べた研究"
+      }
+    ]
   },
   {
     "id": "happy-kindness-meta",
@@ -7081,6 +7385,11 @@
         "id": "money-prosocial-spending",
         "type": "あわせて読む",
         "why": "人のためにお金を使う実験と、親切の効果のまとめ"
+      },
+      {
+        "id": "kokoro-volunteering-health",
+        "type": "あわせて読む",
+        "why": "人に親切にすると自分も幸せになるか。親切の実験をまとめた研究"
       }
     ]
   },
@@ -7159,6 +7468,11 @@
         "id": "mindfulness-gratitude",
         "type": "あわせて読む",
         "why": "感謝の書き出しの実験と、幸せの練習全体のまとめ"
+      },
+      {
+        "id": "happy-valuing-happiness",
+        "type": "あわせて読む",
+        "why": "幸せになる練習そのものには、小さな効果が見られたというまとめ"
       }
     ]
   },
@@ -7301,6 +7615,11 @@
         "id": "hanzai-deepfake-fake-movie",
         "type": "あわせて読む",
         "why": "質問の言い方や偽の映像で、記憶は後から作り変わる"
+      },
+      {
+        "id": "hanzai-eyewitness-confidence",
+        "type": "あわせて読む",
+        "why": "質問の言い方で記憶は変わる。だから最初の1回の自信が大事になる"
       }
     ]
   },
@@ -7346,6 +7665,11 @@
         "id": "music-lyrics-reading",
         "type": "あわせて読む",
         "why": "BGMは読解に不利で、特に歌詞入りが成績を下げた"
+      },
+      {
+        "id": "music-bgm-difficult-tasks-review",
+        "type": "あわせて読む",
+        "why": "BGMの影響を数字でまとめた、少し前のメタ分析"
       }
     ]
   },
@@ -7384,6 +7708,11 @@
         "id": "kosodate-music-lessons-iq",
         "type": "あわせて読む",
         "why": "音楽で頭が良くなる説を、聴く・習うの両面で検証"
+      },
+      {
+        "id": "music-binaural-beats-brainwave",
+        "type": "あわせて読む",
+        "why": "「聴くだけで頭が変わる」という別の説を確かめた分析"
       }
     ]
   },
@@ -7424,6 +7753,16 @@
         "id": "posture-confidence",
         "type": "あわせて読む",
         "why": "姿勢で変わるのは気分の自己評価で、ホルモンは変わらず"
+      },
+      {
+        "id": "posture-contractive-vs-expansive-meta",
+        "type": "あわせて読む",
+        "why": "広げるポーズでホルモンは変わらなかった、大きな追試"
+      },
+      {
+        "id": "posture-power-pose-felt-power",
+        "type": "あわせて読む",
+        "why": "同じポーズで、気分は上がってもホルモンや行動は変わらなかった"
       }
     ]
   },
@@ -7609,6 +7948,11 @@
         "id": "exercise-hippocampus-volume",
         "type": "反対の結果",
         "why": "1年の運動で記憶が伸びた実験と、長期運動の効果は不明瞭というまとめ"
+      },
+      {
+        "id": "exercise-light-10min-hippocampus",
+        "type": "あわせて読む",
+        "why": "1回の運動で記憶が上がるというまとめと、その脳の中の仕組みを調べた実験"
       }
     ]
   },
@@ -7643,7 +7987,14 @@
     "articleUrl": "https://mentalai.seadice.win/caffeine-anxiety-sleep/",
     "articleSite": "AI時代のメンタルヘルス",
     "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-late-sleep-disruption",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "caffeine-crave-coffee-trial",
+        "type": "あわせて読む",
+        "why": "日常生活でも、コーヒーを飲んだ日は睡眠が短かった"
+      }
+    ]
   },
   {
     "id": "scent-odor-memory-childhood",
@@ -7846,7 +8197,14 @@
     "articleUrl": "https://mentalai.seadice.win/brain-training-focus-recover/",
     "articleSite": "AI時代のメンタルヘルス",
     "webUrl": "https://seadice.win/evidence/focus/#kokoro-brain-training-transfer",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "brain-use-it-or-lose-it",
+        "type": "あわせて読む",
+        "why": "頭を使う活動の話。こちらは脳トレで頭全体が鍛えられるかを数字で見た"
+      }
+    ]
   },
   {
     "id": "kokoro-sleep-loss-social-distance",
@@ -8317,7 +8675,14 @@
     "articleUrl": "https://mentalai.seadice.win/video-meeting-fatigue/",
     "articleSite": "AI時代のメンタルヘルス",
     "webUrl": "https://seadice.win/evidence/digital-detox/#kokoro-videoconference-fatigue-eeg",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "work-camera-fatigue",
+        "type": "あわせて読む",
+        "why": "ビデオ会議の疲れを脳波で見た実験と、職場で毎日記録した研究"
+      }
+    ]
   },
   {
     "id": "ai-gps-use-spatial-memory",
@@ -8536,7 +8901,14 @@
     "articleUrl": "https://umbra.seadice.win/relationship-boredom-novel-activities-research/",
     "articleSite": "しぐさと本音",
     "webUrl": "https://seadice.win/evidence/romance/#umbra-couple-exciting-activities",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "umbra-couple-touch-daily",
+        "type": "あわせて読む",
+        "why": "ふだんのふれあいに加えて、二人で何をすると関係が変わるかの研究"
+      }
+    ]
   },
   {
     "id": "umbra-partner-phubbing",
@@ -8926,6 +9298,11 @@
         "id": "bohan-crime-displacement",
         "type": "反対の結果",
         "why": "目の看板では他所の盗難が増えたが、まとめでは移動は一部"
+      },
+      {
+        "id": "bohan-cctv-meta",
+        "type": "あわせて読む",
+        "why": "本物のカメラでなく「目の絵」でも、見られている感覚が働くかを試した実験"
       }
     ]
   },
@@ -8993,7 +9370,14 @@
     "articleUrl": "https://bohan.seadice.win/neighborhood-watch-patrol-effect/",
     "articleSite": "防犯",
     "webUrl": "https://seadice.win/evidence/crime-prevention/#bohan-hotspot-foot-patrol",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "bohan-neighborhood-watch",
+        "type": "あわせて読む",
+        "why": "住民の見守りと、警察が危ない場所を歩いて回る対策を比べられる"
+      }
+    ]
   },
   {
     "id": "bohan-vacant-lot-cleanup",
@@ -9032,6 +9416,11 @@
         "id": "bohan-broken-windows",
         "type": "あわせて読む",
         "why": "割れ窓理論のメタ分析でも、効いたのは場所を直す取り組みだった"
+      },
+      {
+        "id": "bohan-street-lighting",
+        "type": "あわせて読む",
+        "why": "街灯も空き地の片づけも、場所を手入れすると犯罪が減っていた"
       }
     ]
   },
@@ -9608,7 +9997,14 @@
     "articleUrl": "https://oya.seadice.win/parent-hearing-aid-dementia-risk/",
     "articleSite": "親が年をとったら",
     "webUrl": "https://seadice.win/evidence/aging-parents/#oya-hearing-aid-achieve",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "oya-social-contact-dementia",
+        "type": "あわせて読む",
+        "why": "認知機能の低下を防げるかをくじ引きの試験で確かめた例。観察研究との違いがわかる"
+      }
+    ]
   },
   {
     "id": "oya-balance-exercise-falls",
@@ -9641,7 +10037,14 @@
     "articleUrl": "https://oya.seadice.win/parent-fall-prevention-home/",
     "articleSite": "親が年をとったら",
     "webUrl": "https://seadice.win/evidence/exercise-aging/#oya-balance-exercise-falls",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "aging-strength-training-older-cochrane",
+        "type": "あわせて読む",
+        "why": "筋トレで動作は楽になるが、筋トレだけで転倒が減るかははっきりしなかった"
+      }
+    ]
   },
   {
     "id": "oya-cold-house-temperature",
@@ -10329,7 +10732,14 @@
     "articleUrl": "https://kosodate.seadice.win/social-media-cognitive-performance-decline/",
     "articleSite": "AI時代の子育て",
     "webUrl": "https://seadice.win/evidence/smartphone-sns/#kosodate-social-media-test-scores",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "sns-adolescent-wellbeing-small",
+        "type": "あわせて読む",
+        "why": "心の調子との関係と、SNSの時間とテストの点の関係"
+      }
+    ]
   },
   {
     "id": "kosodate-punishment-lying",
@@ -10362,7 +10772,14 @@
     "articleUrl": "https://kosodate.seadice.win/children-lying-development-age/",
     "articleSite": "AI時代の子育て",
     "webUrl": "https://seadice.win/evidence/parenting/#kosodate-punishment-lying",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "kosodate-spanking-meta",
+        "type": "あわせて読む",
+        "why": "罰の厳しい環境の子どもほど嘘が上手だった。罰の別の面を調べた研究"
+      }
+    ]
   },
   {
     "id": "kosodate-tantrum-age-course",
@@ -10613,6 +11030,11 @@
         "id": "umbra-eye-direction-lie-myth",
         "type": "あわせて読む",
         "why": "嘘はほぼ見抜けず、目の動きの説も手がかりにならない"
+      },
+      {
+        "id": "hanzai-false-confession-interrogation",
+        "type": "あわせて読む",
+        "why": "人は嘘をほぼ見抜けない。だから「怪しい」と決めて責めると危うい"
       }
     ]
   },
@@ -10857,7 +11279,14 @@
     "articleUrl": "https://kosodate.seadice.win/toddler-tablet-learning-app-effect/",
     "articleSite": "AI時代の子育て",
     "webUrl": "https://seadice.win/evidence/parenting/#kosodate-toddler-tablet-passive",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "kosodate-shared-book-reading",
+        "type": "あわせて読む",
+        "why": "幼児が言葉を覚えるとき、受け身より関わりが大事かを画面で調べた実験"
+      }
+    ]
   },
   {
     "id": "kosodate-fantasy-video-ef",
@@ -11443,6 +11872,16 @@
         "id": "brain-game-brain-myth",
         "type": "反対の結果",
         "why": "アクションゲームに絞った別のメタ分析では、注意と空間の力が少し伸びた"
+      },
+      {
+        "id": "brain-bilingual-advantage",
+        "type": "あわせて読む",
+        "why": "「〇〇で頭全体が鍛えられる」かを確かめた別のメタ分析。こちらも差は小さかった"
+      },
+      {
+        "id": "oya-brain-training-active-10y",
+        "type": "反対の結果",
+        "why": "市販のゲームでは頭の力全体が伸びる証拠は見つからなかった。練習した力だけ残るのと合う"
       }
     ],
     "webUrl": "https://seadice.win/evidence/brain-myths/#brain-game-training-null"
@@ -11522,6 +11961,11 @@
         "id": "sleep-deep-sleep-aging-gh",
         "type": "あわせて読む",
         "why": "その深い眠りは中年までに大きく減り、成長ホルモンも一緒に減っていた"
+      },
+      {
+        "id": "japan-milk-height",
+        "type": "あわせて読む",
+        "why": "「育ち」にまつわるもう一つの説。成長ホルモンと寝る時間の関係を確かめた"
       }
     ]
   },
@@ -12103,6 +12547,11 @@
         "id": "appetite-sleep-energy-intake",
         "type": "あわせて読む",
         "why": "寝不足で食べる量が増えた実験の、逆向きを試した研究"
+      },
+      {
+        "id": "appetite-sleep-diet-fat-loss",
+        "type": "あわせて読む",
+        "why": "同じ研究者も加わり、逆に睡眠を延ばして食べる量の変化を見た"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-extension-intake"
@@ -12311,6 +12760,11 @@
         "id": "personality-mbti-types",
         "type": "あわせて読む",
         "why": "当たってると感じる16タイプ診断が、何を測っているのかを調べた研究"
+      },
+      {
+        "id": "personality-likes-computer-judgment",
+        "type": "あわせて読む",
+        "why": "誰が自分の性格をよく知るのか。当たってると感じるしくみとあわせて"
       }
     ],
     "webUrl": "https://seadice.win/evidence/personality/personality-barnum-effect/"
@@ -12360,6 +12814,11 @@
         "id": "personality-barnum-effect",
         "type": "あわせて読む",
         "why": "診断結果を当たってると感じるしくみを確かめた実験"
+      },
+      {
+        "id": "personality-big-five-job",
+        "type": "あわせて読む",
+        "why": "就活でも使われる16タイプ診断が、何を測っているのかを調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/personality/personality-mbti-types/"
@@ -13531,5 +13990,4132 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/nature/nature-negative-air-ions-mood/"
+  },
+  {
+    "id": "japan-daily-bath",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Ukai et al., \"Habitual tub bathing and risks of incident coronary heart disease and stroke\" (Heart, 2020)",
+    "sourceUrl": "https://doi.org/10.1136/heartjnl-2019-315752",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "毎日湯船につかると体にいい？",
+        "body": "日本では「シャワーだけじゃなく湯船につかった方が体にいい」とよく言うよね。お風呂好きの国ならではの説だけど、長い目で見た研究はあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "日本の3万人を約20年追った",
+        "body": "大阪大学などのチームが、心臓病やがんにかかったことのない40〜59歳の日本人30,076人に湯船につかる回数を聞き、1990年から2009年まで、心臓病や脳卒中になったかを追った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ほぼ毎日の人は、心臓病・脳卒中が少なめだった",
+        "body": "ほかの生活習慣などをそろえても、ほぼ毎日湯船につかる人は、週0〜2回の人に比べて心臓病と脳卒中を合わせたリスクが約28%低かった。ただ、突然死やくも膜下出血とは関係が見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "お風呂が原因かはわからない",
+        "body": "毎日お風呂に入れる人は、もともと元気で時間やお金に余裕があるのかもしれない。関係を見た追跡調査で、因果はわからない。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-daily-bath"
+  },
+  {
+    "id": "japan-milk-height",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "de Beer, \"Dairy products and physical stature: A systematic review and meta-analysis of controlled trials\" (Economics & Human Biology, 2012)",
+    "sourceUrl": "https://doi.org/10.1016/j.ehb.2011.08.003",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "牛乳を飲むと背が伸びる？",
+        "body": "「背を伸ばしたいなら牛乳を飲みなさい」。給食でも毎日出てくるし、日本ではおなじみの説だよね。実際に飲む量を変えて試した研究はあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "牛乳を足して育ちを比べた12の試験",
+        "body": "いつもの食事に牛乳や乳製品を足したグループと足さないグループで、子どもの背の伸びを比べた試験を集めてまとめた研究がある。ヨーロッパ、アメリカ、中国、ケニア、インドなどの試験が入っている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1日コップ1杯ほどで、1年に約0.4cm",
+        "body": "いちばんありそうな効果は、1日約245mlの牛乳を足すと、1年で約0.4cm多く伸びるくらいだった。もとの背が低めの子や10代の子で、効果が大きめに出ていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "古い試験が多く、質にばらつき",
+        "body": "12本のうち5本は1926〜1980年の研究で、くじで分けていない試験や、始めの時点で背や年齢がそろっていない試験もあった。今の日本のように食べ物が十分な子に同じだけ効くかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-golden-time-growth-hormone",
+        "type": "あわせて読む",
+        "why": "「育ち」にまつわるもう一つの説。成長ホルモンと寝る時間の関係を確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/japan-milk-height/"
+  },
+  {
+    "id": "brain-bilingual-advantage",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Lehtonen et al., \"Is bilingualism associated with enhanced executive functioning in adults? A meta-analytic review\" (Psychological Bulletin, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000142",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "バイリンガルは頭がいい？",
+        "body": "「2つの言葉を切りかえて使う人は、脳が鍛えられて頭の回転が速い」という話があるよね。バイリンガルの脳は、本当に特別なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "152の研究、891の結果をまとめた",
+        "body": "大人のバイリンガルと1つの言葉だけ話す人で、気をそらされない力・切りかえる力・覚えながら考える力など6つの力を比べた152の研究を集めた。発表されていないデータも探して入れた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "かたよりを直すと、差は見られなかった",
+        "body": "そのままだと、いくつかの力でごく小さな差があった。でも「差が出た研究ほど発表されやすい」かたよりを直すと、バイリンガルの有利さは残らなかった。言葉がすぐ出てくる力は、少し不利だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "子どもやお年寄りは別のまとめ",
+        "body": "対象は大人だけ。子どもや高齢者は入っていない。また、2つの言葉を話せることには、頭の回転とは別の良さ（人とつながる・文化を知る）がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-game-training-null",
+        "type": "あわせて読む",
+        "why": "「〇〇で頭全体が鍛えられる」かを確かめた別のメタ分析。こちらも差は小さかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/brain-bilingual-advantage/"
+  },
+  {
+    "id": "brain-use-it-or-lose-it",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Staff et al., \"Intellectual engagement and cognitive ability in later life (the “use it or lose it” conjecture): longitudinal, prospective study\" (BMJ, 2018)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.k4925",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "頭を使い続ければ、脳は衰えない？",
+        "body": "「脳は使わないと衰える。パズルや読書を続ければボケない」という話、よく聞くよね。頭をよく使う人は、年をとっても衰えにくいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1936年生まれの498人を15年追った",
+        "body": "スコットランドで1936年に生まれ、11歳でテストを受けた498人に、ふだん頭を使う活動をどれくらいするか聞き、処理の速さと記憶のテストを15年にわたってくり返した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "よく使う人は高め。でも、衰え方は同じ",
+        "body": "頭をよく使う人ほど、テストの点はもともと高かった。でも年とともに下がっていく速さは、頭をよく使う人もそうでない人も変わらなかった。頭を使う活動は、子どものころの能力や学歴とも関係していた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "活動は自己申告、対象は一つの地域",
+        "body": "頭を使う活動の量は本人の申告で、何をしたかは細かく見ていない。スコットランドの同じ年生まれの人だけの観察で、ほかの国や世代に当てはまるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-brain-training-transfer",
+        "type": "あわせて読む",
+        "why": "頭を使う活動の話。こちらは脳トレで頭全体が鍛えられるかを数字で見た"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/brain-use-it-or-lose-it/"
+  },
+  {
+    "id": "brain-size-intelligence",
+    "category": "脳の神話",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Pietschnig et al., \"Meta-analysis of associations between human brain volume and intelligence differences: How strong are they and what do they mean?\" (Neuroscience & Biobehavioral Reviews, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.neubiorev.2015.09.017",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "脳が大きい人ほど、頭がいい？",
+        "body": "「頭が大きい人は脳も大きくて賢い」なんて冗談、聞いたことあるよね。150年以上前から言われてきた話だけど、MRIで脳の大きさを測れる今、どうなっているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "88の研究、8,000人以上をまとめた",
+        "body": "MRIで測った脳の体積と、IQテストの点の関係を調べた88の研究（148のグループ、8,000人以上）をまとめた研究がある。発表されていない結果も研究者に問い合わせて集めた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係はあるけど、かなり弱い",
+        "body": "脳が大きい人ほどIQが少し高い傾向はあった（相関0.24）。でもIQの差のうち脳の大きさで説明できるのは約6%だけ。大人でも子どもでも、男女どちらでも同じ傾向だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "強い結果ばかり発表されてきた",
+        "body": "はっきりした結果ほど発表されやすく、これまでの研究は関係を大きく見積もっていた。年々、報告される関係は小さくなっている。脳の大きさを頭の良さのものさしにはできない、と著者たちは書いている。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-size-intelligence"
+  },
+  {
+    "id": "love-satisfaction-decline",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Bühler et al., \"Development of relationship satisfaction across the life span: A systematic review and meta-analysis\" (Psychological Bulletin, 2021)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000342",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "恋は3年で冷める？",
+        "body": "「恋愛のドキドキは3年まで」なんて話、聞いたことあるよね。付き合いや結婚生活の満足度は、時間がたつとどう変わっていくのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16万5千人分のデータをまとめた",
+        "body": "165のグループ、合わせて165,039人のデータから、パートナーとの関係への満足度が、年齢や付き合った年数でどう変わるかをまとめた研究がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "下がり続けるのではなく、10年で底",
+        "body": "付き合った年数で見ると、満足度は最初の10年で下がり、10年ごろが底、20年ごろまで上がって、その後また下がった。同じカップルを追うと、若いころと付き合いはじめの数年に下がりやすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "3年で冷めるとは言えない",
+        "body": "「3年」で区切れる結果ではなかった。平均の話なので、カップルごとの違いは大きい。子どもがいるかや測り方で数値は変わり、別れたカップルが途中で抜けている影響も残る。"
+      }
+    ],
+    "links": [
+      {
+        "id": "happy-adaptation-marriage",
+        "type": "あわせて読む",
+        "why": "結婚の喜びに慣れていくかを見た研究。満足度の長い変化とあわせて読める"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-satisfaction-decline"
+  },
+  {
+    "id": "love-spouse-faces",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Tea-makorn & Kosinski, \"Spouses’ faces are similar but do not become more similar with time\" (Scientific Reports, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-020-73971-8",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "夫婦は顔が似てくる？",
+        "body": "長年連れそった夫婦は顔が似てくる、ってよく言うよね。同じものを食べて、同じように笑っていると、顔までそっくりになるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "517組の、結婚当初と20〜69年後の写真",
+        "body": "スタンフォード大学の研究者が、517組の夫婦の結婚したころの写真と、20〜69年後の写真を集めた。人の目による判定と、顔認識のプログラムの2つの方法で、顔の似ている度合いを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "最初から似ていて、似てはこなかった",
+        "body": "夫婦の顔は結婚したころから似ている傾向があった。でも年月がたっても、さらに似ていくことはなかった。性格や価値観と同じで、「似た人どうしが結ばれる」のが先らしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "写真が手に入る夫婦だけ",
+        "body": "対象は、長く結婚が続いた夫婦だけ。表情のくせなど、写真に写らない「雰囲気」が似ていくかは調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-similarity-attraction",
+        "type": "あわせて読む",
+        "why": "似た者同士が惹かれあうかをまとめた研究。顔も最初から似ていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/love-spouse-faces/"
+  },
+  {
+    "id": "love-at-first-sight",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Zsok et al., \"What kind of love is love at first sight? An empirical investigation\" (Personal Relationships, 2017)",
+    "sourceUrl": "https://doi.org/10.1111/pere.12218",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "一目惚れって、本当に「恋」なの？",
+        "body": "会った瞬間に「この人だ」と思う一目惚れ。ドラマでもよく見るけど、そのときの気持ちは、付き合っている人の恋と同じものなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "初めて会った瞬間の気持ちを聞いた",
+        "body": "オランダのフローニンゲン大学のチームが、ネット調査・実験室・3回のお見合いイベントで、初めて相手に会った直後の気持ちを聞いた。あとから思い出してもらうのではなく、その場で記録したのがポイント。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "情熱より「見た目に強く惹かれた」に近い",
+        "body": "一目惚れと答えた場面で、情熱・親しさ・この人と続けたい気持ちが特に高いわけではなかった。一目惚れをいちばんよく予想したのは、相手の見た目に惹かれた度合いだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "その後の恋につながるかは別",
+        "body": "出会ったその場の気持ちを見た研究で、その後の関係がどうなるかまでは結論を出していない。カップルが「あのとき一目惚れだった」と、あとから思い出を作りかえている可能性も、著者たちは挙げている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-first-impression-100ms",
+        "type": "あわせて読む",
+        "why": "顔の印象は一瞬で決まるという研究。一目惚れの中身もまず見た目だった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-at-first-sight"
+  },
+  {
+    "id": "love-women-talkative",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Mehl et al., \"Are women really more talkative than men?\" (Science, 2007)",
+    "sourceUrl": "https://doi.org/10.1126/science.1139940",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "女性は男性よりおしゃべり？",
+        "body": "「女性は1日に男性の何倍も話す」なんて話、聞いたことあるよね。本や雑誌でもよく見るけど、実際に話した言葉を数えたらどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "396人に録音機をつけて数日すごしてもらった",
+        "body": "396人に、まわりの音をときどき自動で録音する機器をつけて数日すごしてもらい、録音された言葉の数から1日に話す言葉の数を見積もった研究がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "男女とも、1日約1万6千語",
+        "body": "女性も男性も、1日に話す言葉はどちらも約1万6千語で、ほぼ同じだった。「女性の方がずっとおしゃべり」という説は、このデータでは見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "対象は主に学生",
+        "body": "数日間の録音から1日分を見積もった値で、年齢・仕事・文化が違う人に当てはまるかはわからない。言葉の数が同じでも、何をどう話すかの違いは調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-male-female-mosaic",
+        "type": "あわせて読む",
+        "why": "男女の違いをめぐるもう一つの説。脳も男女で大きく重なっていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-women-talkative"
+  },
+  {
+    "id": "work-four-day-week",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Fan, Schor, Kelly & Gu, \"Work time reduction via a 4-day workweek finds improvements in workers' well-being\" (Nature Human Behaviour, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-025-02259-6",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "週休3日にすると、働く人は元気になる？",
+        "body": "給料はそのままで週4日勤務に、という話をよく聞くよね。休みが1日増えたら、本当に心や体は楽になるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "141の会社、2,896人の前と後を比べた",
+        "body": "アメリカのボストンカレッジなどのチームが、オーストラリア・カナダ・アイルランド・ニュージーランド・イギリス・アメリカの141の組織で、給料を下げずに週4日勤務を6か月試した前と後を調べた。週5日のままの12社とも比べている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "燃え尽き・仕事の満足・心と体の健康が良くなった",
+        "body": "週4日にした会社では、燃え尽きが減り、仕事の満足度と心と体の健康が良くなった。週5日のままの会社では同じ変化は見られなかった。働く時間が大きく減った人ほど良くなっていて、睡眠の問題や疲れが減ったことが関係していた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きで決めた実験ではない",
+        "body": "参加したのは自分から手を挙げた会社で、比べた週5日の会社は12社だけ。始める前に仕事のやり方も見直しているので、休みが増えたことだけの効果かはわからない。6か月より長く続くかもまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "work-long-hours-stroke",
+        "type": "あわせて読む",
+        "why": "働く時間を減らした試みと、長く働く人の健康を追った研究"
+      },
+      {
+        "id": "work-wellbeing-programs",
+        "type": "あわせて読む",
+        "why": "働き方そのものを変える試みと、個人向けの講座やアプリの比較"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/work-four-day-week/"
+  },
+  {
+    "id": "work-camera-fatigue",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Shockley et al., \"The fatiguing effects of camera use in virtual meetings: A within-person field experiment\" (Journal of Applied Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.1037/apl0000948",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "オンライン会議、カメラをオンにすると疲れる？",
+        "body": "オンライン会議が続くと、なんだかぐったりするよね。顔を映しっぱなしにしていることが、疲れの原因なのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "同じ人で、カメラありとなしを試した",
+        "body": "2021年、アメリカのジョージア大学などのチームが、働く人103人に4週間協力してもらった。会議でカメラをオンにする時期とオフにする時期を研究者が決めて、毎日の疲れを記録してもらった（合わせて1,408日分）。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "カメラをオンにした日のほうが疲れていた",
+        "body": "カメラをオンにした日は、オフの日より疲れを強く感じていた。疲れた日は会議で発言したり、話に入り込んだりすることも少なかった。疲れはその日だけでなく、次の日の会議の様子とも関係していた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は約100人、場面は1つの研究",
+        "body": "調べたのは約100人で、ほかの職場や国でも同じになるかはわからない。カメラなしだと相手の反応が見えにくいといった別の損があるかも、この研究だけでは比べきれない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-videoconference-fatigue-eeg",
+        "type": "あわせて読む",
+        "why": "ビデオ会議の疲れを脳波で見た実験と、職場で毎日記録した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/work-camera-fatigue/"
+  },
+  {
+    "id": "work-wellbeing-programs",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Fleming, \"Employee well-being outcomes from individual-level mental health interventions: Cross-sectional evidence from the United Kingdom\" (Industrial Relations Journal, 2024)",
+    "sourceUrl": "https://doi.org/10.1111/irj.12418",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "会社のメンタルケア講座、受けた人は元気？",
+        "body": "会社で、マインドフルネスやストレスに強くなる講座、心のケアのアプリが用意されることが増えたよね。受けた人は、受けていない人より元気なのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "イギリスの4万6千人の調査を比べた",
+        "body": "イギリスのオックスフォード大学の研究者が、233の職場で働く46,336人の調査を使い、こうした個人向けの取り組みに参加した人としなかった人を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "参加した人のほうが元気、とは言えなかった",
+        "body": "どの心の健康の指標で見ても、参加した人が参加しなかった人より良い状態とは言えなかった。研究者は、仕事の負担そのものに手をつけない取り組みでは足りないのでは、と考えている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の調査なので、効かないとまでは言えない",
+        "body": "参加した前と後を追ったわけではない。もともと調子の悪い人ほど参加した可能性もあり、その偏りは研究者も検討している。講座の中身や質のちがいも、この調査では分けきれない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "work-four-day-week",
+        "type": "あわせて読む",
+        "why": "個人向けの取り組みと、働く時間そのものを変える試み"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#work-wellbeing-programs"
+  },
+  {
+    "id": "work-long-hours-stroke",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Kivimäki et al., \"Long working hours and risk of coronary heart disease and stroke: a systematic review and meta-analysis of published and unpublished data for 603,838 individuals\" (The Lancet, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/S0140-6736(15)60295-1",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "長時間労働は、体に悪い？",
+        "body": "「働きすぎは体に毒」ってよく言うよね。気持ちの疲れはわかるけど、心臓や脳の病気まで関係があるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "60万人を何年も追った研究をまとめた",
+        "body": "イギリスのユニバーシティ・カレッジ・ロンドンなどのチームが、ヨーロッパ・アメリカ・オーストラリアの25件の研究をまとめた。心臓の病気では603,838人を平均8.5年追ったデータになる。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "週55時間以上だと、脳卒中が約1.3倍",
+        "body": "週35〜40時間の人と比べて、週55時間以上働く人は脳卒中になった割合が約1.33倍だった。働く時間が長いほど高くなる傾向もあった。心臓の病気との関係は、それより弱かった（約1.13倍）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く働くこと自体が原因かは、まだ言い切れない",
+        "body": "追いかけて調べた研究なので、長く働くこと自体が原因とまでは言えない。生活習慣など、ほかの事情も関係しているかもしれない。仕事の中身やストレスのちがいも、この研究では分けられていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "work-four-day-week",
+        "type": "あわせて読む",
+        "why": "長く働く人の健康の追跡と、働く時間を減らした試み"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/work-long-hours-stroke/"
+  },
+  {
+    "id": "digital-mobile-internet-block",
+    "category": "デジタルデトックス",
+    "kind": "研究紹介",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Castelo et al., \"Blocking mobile internet on smartphones improves sustained attention, mental health, and subjective well-being\" (PNAS Nexus, 2025)",
+    "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf017",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "研究",
+        "title": "スマホのネットだけ2週間止めてみたら？",
+        "body": "電話とメッセージは使えるけど、スマホからネットにはつながらない。そんな「ガラケー状態」を2週間続けたら、心や集中力はどう変わるのかを試した研究があるよ。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "アメリカとカナダの467人を2つに分けた",
+        "body": "カナダのアルバータ大学などのチームが、iPhoneを使う467人をくじで2組に分けた。片方は最初の2週間、もう片方は次の2週間、アプリでスマホのネットを止めた。パソコンからのネットは使ってよい。"
+      },
+      {
+        "stage": "結果",
+        "title": "気分・満足感・集中の続き方が良くなった",
+        "body": "ネットを止めると、心の状態と生活の満足感、集中を保つ力が良くなった。91%の人が、少なくとも1つで改善していた。人と直接会う、運動する、外で過ごす時間が増えたことが一部関係していた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "守れた人は4人に1人ほど",
+        "body": "決めたとおり止め続けられたのは、参加を約束した人の約4人に1人。参加者はスマホを減らしたいと思っていた人が多く、効果を期待した気持ちが答えに影響した可能性も研究者は書いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-sns-abstinence-meta",
+        "type": "あわせて読む",
+        "why": "スマホのネット全体を止めた実験と、SNSだけやめた研究のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-mobile-internet-block"
+  },
+  {
+    "id": "digital-sns-abstinence-meta",
+    "category": "デジタルデトックス",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Lemahieu et al., \"The effects of social media abstinence on affective well-being and life satisfaction: a systematic review and meta-analysis\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-90984-3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "SNSを休めば、気分は良くなる？",
+        "body": "「SNS断ちをしたらスッキリした」って話、よく聞くよね。でも研究によって、良くなったり変わらなかったりするらしい。まとめるとどうなるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "SNSを完全にやめる実験10件をまとめた",
+        "body": "2025年、ベルギーのアントワープ大学のチームが、SNSを完全にやめてもらった10件の研究（合わせて4,674人）をまとめて分析した。やめた期間は1〜28日で、7日がいちばん多かった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "まとめると、はっきりした差は出なかった",
+        "body": "良い気分、いやな気分、生活の満足感のどれにも、SNSを休んだことではっきりした効果は見られなかった。休む期間が長いほど良くなる、という関係も見えなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究ごとのやり方がばらばら",
+        "body": "研究の数は10件と少なく、どのアプリをやめるか、本当に守れたかの確かめ方も研究ごとにちがう。対象は大人だけで学生が多い。完全にやめるのでなく、使い方を変える方法はこのまとめの対象外。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-facebook-deactivation",
+        "type": "反対の結果",
+        "why": "1つの大きな実験では幸福感が上がったが、まとめると差は出なかった"
+      },
+      {
+        "id": "digital-mobile-internet-block",
+        "type": "あわせて読む",
+        "why": "SNSだけやめる研究と、スマホのネット全体を止めた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/digital-sns-abstinence-meta/"
+  },
+  {
+    "id": "digital-school-phone-ban",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Goodyear et al., \"School phone policies and their association with mental wellbeing, phone use, and social media use (SMART Schools): a cross-sectional observational study\" (The Lancet Regional Health - Europe, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.lanepe.2025.101211",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "学校でスマホを禁止すると、子どもは元気になる？",
+        "body": "学校でのスマホ禁止を決める国が増えているよね。禁止している学校の子は、心の調子が良かったり、スマホの時間が短かったりするのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "イギリスの中学・高校30校を比べた",
+        "body": "イギリスのバーミンガム大学などのチームが、イングランドの30校（遊びでのスマホを禁止する20校と、認める10校）の12〜15歳、1,227人を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "心の調子に差はなかった",
+        "body": "禁止している学校と認めている学校で、心の調子に差は見られなかった。禁止の学校では授業がある時間帯のスマホとSNSは短かったが、平日や週末の1日全体で見ると差はなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の調査で、禁止の前後は見ていない",
+        "body": "ある時点で比べた調査なので、禁止した前と後の変化はわからない。学校ごとの事情のちがいもありうる。研究者は、今の形の禁止だけでは足りず、やり方を練り直す必要があると書いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-smartphone-brain-drain",
+        "type": "あわせて読む",
+        "why": "学校での禁止の調査と、スマホがそばにあると頭の働きが落ちるかの研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/digital-school-phone-ban/"
+  },
+  {
+    "id": "digital-smartphone-brain-drain",
+    "category": "デジタルデトックス",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Böttger, Poschik & Zierer, \"Does the Brain Drain Effect Really Exist? A Meta-Analysis\" (Behavioral Sciences, 2023)",
+    "sourceUrl": "https://doi.org/10.3390/bs13090751",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スマホは、そばにあるだけで集中を奪う？",
+        "body": "「スマホは机に置いてあるだけで頭の働きが落ちる」という話があるよね。2017年のアメリカの研究で有名になって、「ブレインドレイン」と呼ばれている。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "22件の研究をまとめて確かめた",
+        "body": "2023年、ドイツのアウクスブルク大学のチームが、スマホを使う・そばに置くことと頭の働きを調べた22件の研究（43の結果）をまとめて分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "全体では小さなマイナス。記憶では見えたが注意では見えず",
+        "body": "全体ではスマホがあると成績が少し下がる、小さな効果が出た。分けて見ると、記憶でははっきり下がる傾向が出たが、注意や全体的な頭の働きでははっきりした差がなかった。アジアの研究だけで差がはっきりし、北米の研究では見えなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究ごとに結果がばらばら",
+        "body": "研究ごとに結果のばらつきが大きく、なぜ地域で差が出るのかも説明できていない。スマホを「使う」研究と「置くだけ」の研究が一緒に入っているので、置くだけの効果を取り出した答えではない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-notification-interruption",
+        "type": "あわせて読む",
+        "why": "スマホがそばにあるだけの影響と、通知が集中を切る影響"
+      },
+      {
+        "id": "digital-school-phone-ban",
+        "type": "あわせて読む",
+        "why": "スマホと頭の働きの研究と、学校での禁止の調査"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/digital-smartphone-brain-drain/"
+  },
+  {
+    "id": "sns-adolescent-wellbeing-small",
+    "category": "スマホとSNS",
+    "kind": "よくある説",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Orben & Przybylski, \"The association between adolescent well-being and digital technology use\" (Nature Human Behaviour, 2019)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-018-0506-1",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スマホを使うほど、子どもの心は弱る？",
+        "body": "「スマホやSNSのせいで10代の心が不安定になっている」って、よく聞くよね。大きな調査のデータで見ると、どのくらいの関係なのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "35万人分のデータを、あらゆる分け方で分析",
+        "body": "イギリスのオックスフォード大学の2人が、アメリカとイギリスの大きな調査3つ（合わせて355,358人の10代）を使った。分析のやり方次第で結果が変わらないよう、考えられる多くの分け方で試した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係はマイナスだけど、とても小さい",
+        "body": "デジタル機器を使うことと心の調子の関係はマイナスだったが、とても小さかった。心の調子のちがいのうち、説明できるのは多くても0.4%ほど。研究者は、これだけで対策を変えるほどの大きさではないと書いている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関係を見ただけで、原因はわからない",
+        "body": "ある時点の調査なので、スマホが原因か、つらい子がスマホを多く使うのかはわからない。使った時間は本人の申告で、何をして使ったかまでは分けていない。その後も研究者のあいだで議論が続いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sns-screen-time-self-report",
+        "type": "あわせて読む",
+        "why": "この研究も使った時間は自己申告。申告がどれだけずれるかのまとめ"
+      },
+      {
+        "id": "kosodate-social-media-test-scores",
+        "type": "あわせて読む",
+        "why": "心の調子との関係と、SNSの時間とテストの点の関係"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#sns-adolescent-wellbeing-small"
+  },
+  {
+    "id": "sns-screen-time-self-report",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Parry et al., \"A systematic review and meta-analysis of discrepancies between logged and self-reported digital media use\" (Nature Human Behaviour, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-021-01117-5",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分のスマホ時間、正しくわかってる？",
+        "body": "「1日どれくらいスマホ見てる？」と聞かれたら、だいたいで答えるよね。その答えは、スマホに残る記録とどのくらい合っているのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "申告と記録を比べた研究をまとめた",
+        "body": "南アフリカのステレンボッシュ大学などのチームが、自分で答えた使用時間と、端末に残った記録の両方を調べた研究を集め、106の結果をまとめて分析した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "申告と記録は、ほどほどにしか合わない",
+        "body": "自分で答えた時間と記録は、ほどほどにしか一致しなかった。申告が記録どおりだったことはまれだった。「スマホ依存ぎみ」かを測る質問票の点数は、実際の使用記録とさらに合わなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "多めに言うか少なめに言うかは人それぞれ",
+        "body": "この研究は、申告のずれが大きいことを示したもので、どんな人が多めや少なめに答えるかまでは言い切れない。研究者は、自己申告だけに頼った研究の結論は気をつけて読むべきだと書いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sns-adolescent-wellbeing-small",
+        "type": "あわせて読む",
+        "why": "自己申告の時間を使った大規模調査と、その申告のずれ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#sns-screen-time-self-report"
+  },
+  {
+    "id": "sns-likes-reward-learning",
+    "category": "スマホとSNS",
+    "kind": "よくある説",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Lindström et al., \"A computational reward learning account of social media engagement\" (Nature Communications, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-020-19607-x",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "SNSの「いいね」は、ごほうびのように働く？",
+        "body": "「SNSはいいねが欲しくてやめられない」ってよく言うよね。投稿の仕方を見ると、本当にごほうびを求める動きになっているのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "4,000人以上の100万件超の投稿を分析",
+        "body": "オランダのアムステルダム大学などのチームが、複数のSNSで4,000人以上が出した100万件を超える投稿を、ごほうびから学ぶしくみの計算モデルで分析した。176人のオンライン実験でも確かめている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いいねのもらえ方に合わせて、投稿のペースが変わった",
+        "body": "人は、もらえるいいねが多くなるように投稿の間隔を調整していて、ごほうびから学ぶしくみの予想どおりに動いていた。SNSに似せた実験でも、いいねが投稿の仕方を変えていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「やめられない」とまでは言えない",
+        "body": "わかったのは、いいねが投稿のペースを左右することまで。依存になるか、心の調子にどう影響するかは調べていない。実データは観察で、実験はSNSに似せた画面での短いものだった。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#sns-likes-reward-learning"
+  },
+  {
+    "id": "exercise-over50-cognition-meta",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Northey, Cherbuin, Pumpa et al., \"Exercise interventions for cognitive function in adults older than 50: a systematic review with meta-analysis\" (British Journal of Sports Medicine, 2018)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2016-096587",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "50歳を過ぎてからの運動でも、頭の働きは変わる？",
+        "body": "運動は体にいいのはわかる。でも、年をとってから始めて、記憶や判断のような頭の働きにまで効くのかな。くじで分けた試験を集めて確かめた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50歳以上のくじ引き試験を集めた",
+        "body": "地域で暮らす50歳以上を対象に、運動するグループとしないグループをくじで分けた試験を集めた。39件をレビューし、36件から333個の効果の数字をまとめて計算した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "運動した人の方が、頭の働きの成績がよかった",
+        "body": "全体の効果量は0.29で、小さめだけどはっきりした差。有酸素運動・筋トレ・組み合わせ・太極拳のどれでも効果が見られた。1回45〜60分、少なくとも中くらいの強さの運動で効果が見られた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果は小さめ、認知症の予防とは別の話",
+        "body": "測ったのは試験の期間中のテストの成績で、認知症になりにくくなるかを確かめたものではない。運動の種類や時間は試験ごとにばらばらで、どれが一番かまでは決められない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-resistance-executive",
+        "type": "あわせて読む",
+        "why": "筋トレ単独の1つの試験と、運動の種類をまとめて比べたメタ分析"
+      },
+      {
+        "id": "exercise-cognition-moderators-meta",
+        "type": "あわせて読む",
+        "why": "50歳以上に絞ったまとめと、健康な人全体で効き方の違いを調べたまとめ"
+      },
+      {
+        "id": "exercise-memory-complaints-older-rct",
+        "type": "あわせて読む",
+        "why": "まとめの中の代表的な試験の1つ。物忘れが気になる人での結果"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/exercise-over50-cognition-meta/"
+  },
+  {
+    "id": "exercise-cognition-moderators-meta",
+    "category": "運動と記憶",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Ludyga, Gerber, Pühse et al., \"Systematic review and meta-analysis investigating moderators of long-term effects of exercise on cognition in healthy individuals\" (Nature Human Behaviour, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-020-0851-8",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "問い",
+        "title": "頭のために運動するなら、どんな運動がいい？",
+        "body": "運動を続けると頭の働きによい、という話はよく聞くよね。でも、どんな種類を、どれくらいやればいいのか。健康な人を対象にした試験を集めて、効き方の違いを調べた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじ引き試験80件を集めて比べた",
+        "body": "健康な人に長い期間運動してもらった、くじ引きの試験80件をまとめた。運動の種類・期間・1回の長さ・性別などで、頭の働きへの効果がどう変わるかを調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果は小さく、協調系の運動でやや大きかった",
+        "body": "全体の効果は小さく、記憶・注意など分野による違いはなかった。球技やダンスのような体の協調を使う運動で効果が大きめだった。期間が長いときは1回の時間が長いほど効果が増えた。女性では男性より効果が小さかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ性別で違うのかは不明",
+        "body": "性別で差が出た理由は、この研究ではわからない。運動の種類ごとの試験数には差があり、協調系が一番とまで言い切れるかは今後の試験しだい。対象は健康な人で、病気の人の話ではない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-over50-cognition-meta",
+        "type": "あわせて読む",
+        "why": "健康な人全体のまとめと、50歳以上に絞ったまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-cognition-moderators-meta"
+  },
+  {
+    "id": "exercise-light-10min-hippocampus",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Suwabe, Byun, Hyodo et al., \"Rapid stimulation of human dentate gyrus function with acute mild exercise\" (PNAS, 2018)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1805668115",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "息が上がらないくらいの軽い運動でも、記憶に効く？",
+        "body": "記憶のために運動、と聞くと汗をかくほど動くイメージがあるよね。でも、ほんの軽い運動ならどうだろう。筑波大学のチームが、10分の軽い運動の直後の脳を調べた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10分こいだ日と、座っていた日を比べた",
+        "body": "健康な大学生くらいの若い人36人が参加。同じ人が、とても軽い強さで10分自転車をこぐ日と、座って休む日の両方を経験し、そのあと似た写真を見分ける記憶テストをした。一部はMRIで脳も調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "軽い運動の直後、似たものを見分ける力が上がった",
+        "body": "10分の軽い運動のあと、似た写真を区別する記憶の成績が上がった。記憶に関わる海馬の一部と、まわりの脳の領域のつながりが強まり、つながりが強まった人ほど成績も伸びていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、効果がどれだけ続くかは不明",
+        "body": "参加者は日本の若い人36人と少なく、高齢の人でも同じかはわからない。測ったのは運動の直後だけで、効果がどれくらい続くか、毎日続けたらどうなるかはこの研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-cardio-memory-metaanalysis",
+        "type": "あわせて読む",
+        "why": "1回の運動で記憶が上がるというまとめと、その脳の中の仕組みを調べた実験"
+      },
+      {
+        "id": "exercise-timing-encoding",
+        "type": "あわせて読む",
+        "why": "覚える前に体を動かす効果を、別の方法で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-light-10min-hippocampus"
+  },
+  {
+    "id": "exercise-memory-complaints-older-rct",
+    "category": "運動と記憶",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Lautenschlager, Cox, Flicker et al., \"Effect of Physical Activity on Cognitive Function in Older Adults at Risk for Alzheimer Disease: A Randomized Trial\" (JAMA, 2008)",
+    "sourceUrl": "https://doi.org/10.1001/jama.300.9.1027",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "問い",
+        "title": "物忘れが気になってきた人が運動すると、どうなる？",
+        "body": "年をとって物忘れが気になってきた。そんな人が体を動かす習慣をつけると、頭の働きに違いは出るのかな。オーストラリアで、くじで分けて確かめた試験がある。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "50歳以上の170人を、くじで2つに分けた",
+        "body": "物忘れの自覚はあるが認知症ではない50歳以上の170人を、24週間の自宅での運動プログラムを行う群と、情報提供だけの群に分けた。138人が18か月後の検査まで続けた。"
+      },
+      {
+        "stage": "結果",
+        "title": "運動した群の方が、検査の点数が少しよかった",
+        "body": "24週後、認知機能の検査で運動群は少し改善し、もう一方は少し悪化して、差は1.3点だった。18か月後も運動群で少しよい傾向が続いた。研究チームは「控えめな改善」とまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差は小さく、認知症を防ぐかは別の問題",
+        "body": "差は検査の点数でわずかで、認知症になる人が減るかは調べていない。1つの国の1つの試験で、他の頭の働きの検査では差が出なかったものも多い。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-hippocampus-volume",
+        "type": "あわせて読む",
+        "why": "同じく高齢の人が長く運動を続けた試験。こちらは脳の大きさを測った"
+      },
+      {
+        "id": "exercise-over50-cognition-meta",
+        "type": "あわせて読む",
+        "why": "1つの試験の結果と、50歳以上の試験をまとめた結果"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-memory-complaints-older-rct"
+  },
+  {
+    "id": "aging-strength-training-older-cochrane",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Liu & Latham, \"Progressive resistance strength training for improving physical function in older adults\" (Cochrane Database of Systematic Reviews, 2009)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD002759.pub2",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとってからの筋トレに、意味はある？",
+        "body": "筋トレは若い人のもの、と思っていない？ 年をとってから始めても筋肉はつくのか、日々の動作は楽になるのか。高齢者の筋トレの試験を集めた大きなまとめがある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "121の試験、6700人分をまとめた",
+        "body": "高齢者を、だんだん負荷を上げる筋トレをする群としない群にくじで分けた試験121件（6700人）を集めた。多くは週2〜3回、強めの負荷で行っていた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "筋力ははっきり上がり、立ち上がりも楽に",
+        "body": "筋力には大きな効果があった（効果量0.84）。いすから立ち上がる動作も大きく改善し、歩く速さも秒速0.08mほど上がった。体の動き全体の改善は、小さいがはっきりしていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "けがなどの記録が不十分",
+        "body": "関節の痛みや筋肉痛が報告された試験は多いが、副作用をきちんと記録していない試験も多く、安全性の判断には注意がいる。持病のある人にそのまま当てはめられるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-resistance-training-protein-synthesis",
+        "type": "あわせて読む",
+        "why": "筋トレで筋力が上がるまとめと、そのとき食事や補助食品は必要かを調べた研究"
+      },
+      {
+        "id": "oya-balance-exercise-falls",
+        "type": "あわせて読む",
+        "why": "筋トレで動作は楽になるが、筋トレだけで転倒が減るかははっきりしなかった"
+      },
+      {
+        "id": "aging-muscle-strengthening-mortality-meta",
+        "type": "あわせて読む",
+        "why": "体の機能への効果と、筋トレ習慣と寿命の関係を調べたまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/aging-strength-training-older-cochrane/"
+  },
+  {
+    "id": "aging-gait-speed-survival",
+    "category": "運動と老化",
+    "kind": "よく聞く説",
+    "themeColor": "#B45309",
+    "sourceLabel": "Studenski et al., \"Gait Speed and Survival in Older Adults\" (JAMA, 2011)",
+    "sourceUrl": "https://doi.org/10.1001/jama.2010.1923",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "歩く速さで寿命がわかる？",
+        "body": "歩くのが速い人は長生き、という話を聞いたことはある？ 高齢の人を何年も追いかけたデータを合わせて、歩く速さとその後の生存を調べた研究がある。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "65歳以上の3万4485人を6〜21年追跡",
+        "body": "1986〜2000年に集めた9つの追跡調査のデータを1人ずつ合わせた。地域で暮らす65歳以上（平均73.5歳）の3万4485人が、ふだんの速さで歩く速さを測られ、その後6〜21年追跡された。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "歩くのが速い人ほど、生存率が高かった",
+        "body": "歩く速さが秒速0.1m上がるごとに、死亡の危険は約12%低かった。9つの調査すべてで同じ傾向だった。秒速1.0m以上の人は、年齢と性別から見込まれるより長く生きていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "速く歩く練習で寿命が延びるとは言えない",
+        "body": "これは追跡調査で、歩く速さは体全体の健康の「目印」と考えられる。速く歩く練習をすれば長生きするかは、この研究では確かめていない。データは1986〜2000年に集めたもので、8割が白人だった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-grip-strength-mortality",
+        "type": "あわせて読む",
+        "why": "握力も歩く速さも、簡単に測れる体力の目印と寿命の関係を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/aging-gait-speed-survival/"
+  },
+  {
+    "id": "aging-muscle-strengthening-mortality-meta",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Momma, Kawakami, Honda et al., \"Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies\" (British Journal of Sports Medicine, 2022)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2021-105061",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "筋トレは、週にどれくらいやれば寿命と関係する？",
+        "body": "有酸素運動が体にいいのはよく聞くけど、筋トレはどうだろう。どれくらいやる人が長生きしているのか。追跡調査を集めて調べたまとめがある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大人を追いかけた調査16件をまとめた",
+        "body": "重い持病のない18歳以上の大人を追いかけた調査16件を集め、筋トレの習慣と、死亡・心臓や血管の病気・がん・糖尿病の起こりやすさを調べた。有酸素運動の影響は分けて計算した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "週30〜60分の人で、危険が一番低かった",
+        "body": "筋トレをする人は、死亡や心臓病などの危険が10〜17%低かった。死亡・心臓病・がんでは週30〜60分ほどで一番低く、それより多くても下がり続けなかった。筋トレと有酸素運動の両方をする人がさらに低かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関係はわかったが、原因かは不明",
+        "body": "追跡調査のまとめなので、筋トレが長生きの原因かはわからない。筋トレをする人はほかの生活習慣もよいのかもしれない。筋トレの時間は自己申告で、たくさんやりすぎるとどうなるかもはっきりしない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-strength-training-older-cochrane",
+        "type": "あわせて読む",
+        "why": "筋トレ習慣と寿命の関係と、高齢者の筋トレで体の動きが変わるかの試験のまとめ"
+      },
+      {
+        "id": "aging-grip-strength-mortality",
+        "type": "あわせて読む",
+        "why": "筋トレの習慣と寿命、筋力（握力）と寿命の関係をそれぞれ調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/aging-muscle-strengthening-mortality-meta/"
+  },
+  {
+    "id": "aging-fitness-no-upper-limit",
+    "category": "運動と老化",
+    "kind": "よく聞く説",
+    "themeColor": "#B45309",
+    "sourceLabel": "Mandsager, Harb, Cremer et al., \"Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults Undergoing Exercise Treadmill Testing\" (JAMA Network Open, 2018)",
+    "sourceUrl": "https://doi.org/10.1001/jamanetworkopen.2018.3605",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "体を鍛えすぎると、かえって寿命が縮む？",
+        "body": "激しい運動はやりすぎると体に悪い、という話もあるよね。持久力がとても高い人は長生きなのか、それとも逆なのか。12万人のデータで調べた研究がある。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "ランニングマシンの検査を受けた12万人",
+        "body": "アメリカのクリーブランド・クリニックで、1991〜2014年にランニングマシンの運動検査を受けた大人12万2007人（平均53歳）。持久力を年齢・性別ごとに5段階に分け、約8年追跡した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "持久力が高いほど死亡が少なく、上限は見られなかった",
+        "body": "持久力が最も低い群の死亡の危険は、最も高い上位2%余りの群の約5倍だった。最上位は上から2番目の群よりも低く、とくに70歳以上ではっきりしていた。「高すぎて悪くなる」点は見つからなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "体の不調で検査を受けた人のデータ",
+        "body": "対象は医師に検査を勧められた患者で、一般の人と同じとは限らない。追跡調査なので、鍛えたから長生きしたとまでは言えない。持久力は1回の検査で測っただけで、その後の変化はわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-exercise-telomere-ultramarathon",
+        "type": "あわせて読む",
+        "why": "鍛えている人の細胞の若さと、持久力の高さと寿命の関係を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/aging-fitness-no-upper-limit/"
+  },
+  {
+    "id": "posture-spine-posture-causality-umbrella",
+    "category": "姿勢と痛み",
+    "kind": "よく聞く説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Swain, Pan, Owen, Schmidt & Belavy, \"No consensus on causality of spine postures or physical exposure and low back pain: A systematic review of systematic reviews\" (Journal of Biomechanics, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.jbiomech.2019.08.006",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "悪い姿勢が腰痛の原因？",
+        "body": "猫背や前かがみ、長く座ること。腰痛は姿勢のせい、とよく言われるよね。でも研究のまとめどうしでも、結論がそろっていなかった。そこで「まとめのまとめ」をした研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "41本のまとめ論文を見直した",
+        "body": "1990〜2018年の、背骨の姿勢や座る・立つ・曲げる・ひねる・重労働と腰痛の関係を調べたまとめ論文41本を集めた。質を評価し、原因と言える条件がそろっているかを確かめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係ありも、なしもあり、原因とは言えなかった",
+        "body": "姿勢や長く座ること・立つこと・前かがみなどについて、関係ありとする結果と、関係なしとする結果の両方があった。痛みより先に姿勢があったか、量が多いほど痛むかの証拠は混ざっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「関係ない」とも言えない",
+        "body": "原因と言える証拠はそろっていないが、まったく関係がないと示されたわけでもない。もとの研究の多くは自己申告で姿勢を測っており、追跡した研究も少ない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-sedentary-low-back-pain",
+        "type": "あわせて読む",
+        "why": "座りすぎと腰痛の1つのテーマと、姿勢全体の研究をまとめ直した結果"
+      },
+      {
+        "id": "posture-lifting-flexion-back-pain",
+        "type": "あわせて読む",
+        "why": "姿勢全般のまとめと、物を持ち上げるときの腰の曲げ方に絞ったまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-spine-posture-causality-umbrella"
+  },
+  {
+    "id": "posture-text-neck-young-adults",
+    "category": "姿勢と痛み",
+    "kind": "よく聞く説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Damasceno, Ferreira, Nogueira et al., \"Text neck and neck pain in 18–21-year-old young adults\" (European Spine Journal, 2018)",
+    "sourceUrl": "https://doi.org/10.1007/s00586-017-5444-5",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スマホでうつむく人ほど、首が痛くなる？",
+        "body": "スマホを見るときの前かがみの首は「スマホ首」と呼ばれ、首の痛みの原因と言われるよね。でも実際に、うつむく姿勢の人ほど首が痛いのか。若い人で調べた研究がある。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "ブラジルの18〜21歳150人",
+        "body": "ブラジルのリオデジャネイロ州の公立高校に通う18〜21歳150人。スマホで文字を打つときの首の姿勢を、本人の感覚と理学療法士の目で判定し、首の痛みの質問票と比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "うつむく姿勢と首の痛みに、関係は見られなかった",
+        "body": "本人の判定でも、理学療法士の判定でも、うつむく姿勢と首の痛みのあいだに統計的にはっきりした関係はなかった。痛みの頻度とも関係は見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一度きりの調査で、人数も少ない",
+        "body": "ある時点で1回調べただけの調査で、150人と少なく、関係を見逃した可能性もある。首の姿勢は目で見た判定で、角度は測っていない。対象は若い人だけで、長年使い続けた大人の話ではない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-text-neck-hansraj",
+        "type": "反対の結果",
+        "why": "うつむくと首の負担が増えるという計算と、実際の痛みとは関係が見られなかった調査"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-text-neck-young-adults"
+  },
+  {
+    "id": "posture-lifting-flexion-back-pain",
+    "category": "姿勢と痛み",
+    "kind": "よく聞く説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Saraceni, Kent, Ng, Campbell, Straker & O'Sullivan, \"To Flex or Not to Flex? Is There a Relationship Between Lumbar Spine Flexion During Lifting and Low Back Pain? A Systematic Review With Meta-analysis\" (Journal of Orthopaedic & Sports Physical Therapy, 2020)",
+    "sourceUrl": "https://doi.org/10.2519/jospt.2020.9218",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "腰を丸めて物を持ち上げると、腰痛になる？",
+        "body": "重い物は膝を曲げて、背中をまっすぐにして持ち上げよう。よく聞くよね。でも、腰を丸めて持ち上げる人ほど腰痛になりやすいのか。研究を集めて確かめたまとめがある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "腰の曲がり具合を測った研究を集めた",
+        "body": "物を持ち上げるときの腰の曲がり具合を測り、腰痛のある人とない人、または後で腰痛になった人とならなかった人を比べた研究を集めた。数字をまとめられた研究は11件だった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "腰を丸める人ほど腰痛、という差は見られなかった",
+        "body": "11件のうち9件で、腰痛のある人とない人の腰の曲がり方に差はなかった。差が出た分析では、腰痛のある人の方がむしろ約6度曲げが少なかった。腰を丸めることが腰痛の危険因子という証拠は見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の質が低く、追跡はわずか",
+        "body": "集まった研究は質が低く、多くは一時点の比較だった。数字をまとめた中で、後で腰痛になるかを追跡した研究は1件だけ。持ち上げ方を変えれば腰痛が減るかを試した研究ではない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-spine-posture-causality-umbrella",
+        "type": "あわせて読む",
+        "why": "持ち上げ方に絞ったまとめと、姿勢全般のまとめを見直した結果"
+      },
+      {
+        "id": "posture-disc-pressure-sitting",
+        "type": "あわせて読む",
+        "why": "姿勢で椎間板の圧が変わるという測定と、姿勢と痛みの関係を調べたまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-lifting-flexion-back-pain"
+  },
+  {
+    "id": "scent-sleep-cue-metaanalysis",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Hu, Cheng, Chiu & Paller, \"Promoting memory consolidation during sleep: A meta-analysis of targeted memory reactivation\" (Psychological Bulletin, 2020)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000223",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "覚えたときの香りや音を寝ている間に流すと、記憶に残る？",
+        "body": "覚えるときに香りや音を一緒にしておき、眠っている間にもう一度流す。そんな「寝ながら復習」の方法があるけど、まとめて見るとどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "91の実験、2,004人分をまとめた",
+        "body": "研究チームが、睡眠中に手がかりを流す実験91件（効果量212個、参加者2,004人）を集めて、全体の効果をはじめて数字でまとめたメタ分析だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "深い眠りのあいだなら、小さめだけど効果あり",
+        "body": "全体では記憶が良くなる方向の効果（g=0.29）が出た。効いたのはノンレム睡眠（段階2と深い睡眠）のあいだで、レム睡眠中や起きているときに流しても効果は見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の話が中心",
+        "body": "多くは脳波で眠りの段階を確かめながら流す実験室の研究。家で一晩中流したらどうなるか、何週間も続くかは、この分析だけではわからない。出版の偏りも調べてはいるけど、効果の大きさは控えめに見たほうがよさそう。"
+      }
+    ],
+    "links": [
+      {
+        "id": "scent-odor-sleep-memory",
+        "type": "あわせて読む",
+        "why": "バラの香りで試した元の実験を、91件まとめて確かめた"
+      },
+      {
+        "id": "scent-school-sleep-odor-vocab",
+        "type": "あわせて読む",
+        "why": "実験室の結果を、学校と家で試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-sleep-cue-metaanalysis"
+  },
+  {
+    "id": "scent-school-sleep-odor-vocab",
+    "category": "香りと記憶",
+    "kind": "研究紹介",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Neumann, Oberhauser & Kornmeier, \"How odor cues help to optimize learning during sleep in a real life-setting\" (Scientific Reports, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-020-57613-7",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "バラの香りで英単語を覚えて、寝るときも同じ香り",
+        "body": "実験室では「覚えたときの香りを睡眠中に嗅ぐと記憶に残る」と言われている。じゃあ学校のふつうの勉強でも同じことが起きるのか、ドイツで試した研究だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6年生54人が家でも試した",
+        "body": "11〜12歳の6年生2クラス54人を、香りありとなしのグループに分けた。家で英単語を覚えるときと、その夜の睡眠中（一晩中、眠りの段階は測らない）にバラの香りを使い、その後の単語テストの成績を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "香りを使ったほうが、単語の成績が良かった",
+        "body": "香りを使ったほうが成績が良く、差の大きさ（d）は0.6〜1.2と実験室の研究と同じくらいだった。テスト中にも香りを置くとさらに上がりそうな傾向はあったけど、はっきりした差ではなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、1つの学校の話",
+        "body": "参加したのは2クラスだけで、香りに気づいているぶん本人の期待が影響した可能性も残る。大人や別の教科、長い期間でも同じかは、別の研究で確かめる必要がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "scent-odor-sleep-memory",
+        "type": "あわせて読む",
+        "why": "実験室の元の研究を、学校と家で試した"
+      },
+      {
+        "id": "scent-sleep-cue-metaanalysis",
+        "type": "あわせて読む",
+        "why": "同じ方法の実験91件をまとめた分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-school-sleep-odor-vocab"
+  },
+  {
+    "id": "scent-peppermint-ylang-memory",
+    "category": "香りと記憶",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Moss, Hewitt, Moss & Wesnes, \"Modulation of cognitive performance and mood by aromas of peppermint and ylang-ylang\" (International Journal of Neuroscience, 2008)",
+    "sourceUrl": "https://doi.org/10.1080/00207450601042094",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ペパーミントの香りで頭がすっきりする？",
+        "body": "「勉強のときはミントの香り」ってよく聞くよね。香りの種類で、記憶や気分の変わり方は違うんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "144人を3つの部屋に分けた",
+        "body": "健康な144人を、ペパーミントの香り・イランイランの香り・香りなしの3つの条件にランダムに分け、パソコンの認知テストと、テスト前後の気分の質問に答えてもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ミントは記憶が良く、イランイランは落ち着くが遅くなる",
+        "body": "ペパーミントの条件では記憶の成績が良く、気分の「さえている感じ」も上がった。イランイランでは記憶が下がり、反応も遅くなったけど、落ち着きは高まった。香りによって向きが逆だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の実験で、続けたときは不明",
+        "body": "香りを嗅いだのはテストの間だけ。毎日使い続けたらどうなるか、香りに慣れたら効果が残るかはわからない。本人が香りに気づくので、「ミントは目が覚める」という思い込みが影響した可能性も切り分けられていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "scent-rosemary-memory",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが同じ方法で、ローズマリーとラベンダーを比べた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/scent-peppermint-ylang-memory/"
+  },
+  {
+    "id": "scent-night-diffuser-older-adults",
+    "category": "香りと記憶",
+    "kind": "研究紹介",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Woo, Miranda, Sathishkumar, Dehkordi-Vakil, Yassa & Leon, \"Overnight olfactory enrichment using an odorant diffuser improves memory and modifies the uncinate fasciculus in older adults\" (Frontiers in Neuroscience, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fnins.2023.1200448",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "寝室で毎晩ちがう香りを流すと、記憶はどうなる？",
+        "body": "年をとると記憶が気になってくる。家でできる簡単なこととして、寝ているあいだに香りを流す方法を、健康な高齢の人で試した研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "60〜85歳の43人を半年間",
+        "body": "健康な60〜85歳の43人をくじで2つに分けた。一方は7種類の香りを1晩1種類ずつ、ディフューザーで2時間流した。もう一方はごく少量の香りだけ。始めと6か月後に記憶テストと脳のMRIを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "言葉を覚えるテストで差が出た",
+        "body": "香りを流したグループは、単語を覚えて思い出すテストで、もう一方より成績が伸びたと報告された（論文は226%の改善と表現）。記憶にかかわる脳の配線（左の鉤状束）にも変化が見られた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "43人の1つの研究だけ",
+        "body": "人数が少なく、ほかのチームによる追試はまだない。差が報告されたのは主に言葉を覚えるテストで、パーセントの数字も比べ方しだいで大きく見える。認知症の予防になるかは、この研究では調べていない。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-night-diffuser-older-adults"
+  },
+  {
+    "id": "color-emotion-30-nations",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Jonauskaite et al., \"Universal Patterns in Color-Emotion Associations Are Further Shaped by Linguistic and Geographic Proximity\" (Psychological Science, 2020)",
+    "sourceUrl": "https://doi.org/10.1177/0956797620948810",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「赤は怒り」「青は悲しみ」は世界共通？",
+        "body": "日本語でも英語でも、色と気持ちを結びつける言い方は多いよね。これって人類みんな同じなのか、それとも国や言葉ごとに違うのか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "30か国、4,598人に聞いた",
+        "body": "22の言語を話す30か国の4,598人に、12の色の名前それぞれから20種類の感情をどれだけ連想するかを答えてもらい、国どうしの答えの似かたを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "大部分は共通、でも国ごとの違いもある",
+        "body": "色と感情の結びつき方は国が違ってもよく似ていた（似かたの平均 r=0.88）。それでも、どの国の人かで答えを当てられるくらいの違いはあり、言葉や地理が近い国どうしほど似ていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "色の「名前」への連想を聞いた調査",
+        "body": "見せたのは色そのものではなく色の名前で、答えも本人の連想。だから「赤を見ると怒りっぽくなる」のように、色が気持ちを変えるかどうかはこの研究からは言えない。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-emotion-30-nations"
+  },
+  {
+    "id": "color-red-plate-snack-intake",
+    "category": "色彩心理",
+    "kind": "研究紹介",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Genschow, Reutner & Wänke, \"The color red reduces snack food and soft drink intake\" (Appetite, 2012)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2011.12.023",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "赤いお皿だと、食べる量が減る？",
+        "body": "赤は「止まれ」の色。食器の色だけで、なんとなく食べたり飲んだりする量が変わるのかを試した研究だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カップとお皿の色を変えた2つの実験",
+        "body": "1つ目は赤いラベルと青いラベルのカップで飲む量を比べた。2つ目は赤・青・白のお皿にのせたお菓子を食べる量を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "赤のときは量が少なかった",
+        "body": "赤いラベルのカップでは青より飲む量が少なく、赤いお皿では青や白のお皿よりお菓子を食べる量が少なかった。研究チームは、赤が気づかないうちに「止まれ」の合図として働いたと考えている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな実験室の研究で、追試は少ない",
+        "body": "実験室で1回ずつ量を測っただけで、ふだんの食事や体重が変わるかは調べていない。研究の前提にした「赤は避けたい気持ちを起こす」という説自体、別の課題では再現されなかったことがある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "color-red-blue-task",
+        "type": "あわせて読む",
+        "why": "前提にした「赤は避けたい気持ちを起こす」説は、別の課題で再現されなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-plate-snack-intake"
+  },
+  {
+    "id": "music-binaural-beats-brainwave",
+    "category": "音楽と集中力",
+    "kind": "よくある説",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Ingendoh, Posny & Heine, \"Binaural beats to entrain the brain? A systematic review of the effects of binaural beat stimulation on brain oscillatory activity, and the implications for psychological research and intervention\" (PLOS ONE, 2023)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0286023",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "バイノーラルビートで脳波が整う？",
+        "body": "左右の耳に少しだけ違う高さの音を流すと、差の分だけ揺れる音が聞こえる。これが「バイノーラルビート」で、脳波をその速さにそろえて集中できる、と言われることが多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "脳波を測った14の研究を整理",
+        "body": "研究チームが、バイノーラルビートを聞かせて脳波がその速さにそろうかを測った研究を探し、条件に合う14本をまとめて整理した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "結果はばらばらだった",
+        "body": "説どおりの結果は14本中5本、反対の結果が8本、混ざった結果が1本。脳波がそろうという考え方は、今のところ支えられているとは言えない、というのがまとめの結論だよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究のやり方がそろっていない",
+        "body": "音の高さや聞く時間、脳波の測り方が研究ごとに大きく違い、比べるのが難しい。集中や気分への影響を直接まとめた分析ではないので、「効かない」とも言い切れない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-mozart-effect-metaanalysis",
+        "type": "あわせて読む",
+        "why": "「聴くだけで頭が変わる」という別の説を確かめた分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/music-binaural-beats-brainwave/"
+  },
+  {
+    "id": "music-bgm-difficult-tasks-review",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Cheah, Wong, Spitzer & Coutinho, \"Background Music and Cognitive Task Performance: A Systematic Review of Task, Music, and Population Impact\" (Music & Science, 2022)",
+    "sourceUrl": "https://doi.org/10.1177/20592043221134392",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "BGMが邪魔になるのは、どんな作業でどんな人？",
+        "body": "作業用BGMが合う人もいれば、気が散る人もいるよね。どんな作業、どんな音楽、どんな人で違うのかを細かく見た研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "95本の論文、154の実験を整理",
+        "body": "記憶・言葉・考える力・注意など6つの分野の作業について、BGMの影響を調べた95本（154の実験）を集め、プラスかマイナスかの向きを数えて比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "多くは影響なし。記憶と言葉の作業では邪魔になりがち",
+        "body": "いちばん多かったのは「影響なし」。ただ記憶や言葉を使う作業ではマイナスが目立ち、歌詞ありは歌詞なしより邪魔になりやすかった。難しい作業と内向的な人でマイナスが出やすく、プラスは1つだけだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果の大きさまでは出していない",
+        "body": "向きを数えただけで、どのくらい下がるかの大きさは計算していない。研究の少ない組み合わせも多く、自分に合うかは作業の難しさと好みで試すしかなさそう。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-background-metaanalysis",
+        "type": "あわせて読む",
+        "why": "BGMの影響を数字でまとめた、少し前のメタ分析"
+      },
+      {
+        "id": "music-lyrics-reading",
+        "type": "あわせて読む",
+        "why": "歌詞ありの音楽と読解を1つの実験で確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/music-bgm-difficult-tasks-review/"
+  },
+  {
+    "id": "music-exercise-performance-metaanalysis",
+    "category": "音楽と集中力",
+    "kind": "よくある説",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Terry, Karageorghis, Curran, Martin & Parsons-Smith, \"Effects of music in exercise and sport: A meta-analytic review\" (Psychological Bulletin, 2020)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000216",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "音楽を聴きながらだと、運動がはかどる？",
+        "body": "走るときやジムでイヤホンをしている人は多いよね。気分だけじゃなく、体の動きや疲れ方まで変わるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "139の研究、3,599人分をまとめた",
+        "body": "運動やスポーツ中に音楽を聴く効果を調べた139本の研究（効果量598個、参加者3,599人）を集めて、気分・体の反応・きつさの感じ方・成績に分けてまとめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気分が上がり、きつさは下がり、成績も少し上がる",
+        "body": "音楽ありでは気分が良くなり（g=0.48）、成績が上がり（g=0.31）、きつさの感じ方が下がった（g=0.22）。酸素の使い方も少し効率的になったけど、心拍数には差がなかった。テンポが速い曲ほど成績への効果が大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "競技の本番では小さめ",
+        "body": "成績への効果は、ふだんの運動よりスポーツの場面のほうが小さかった。研究ごとに曲や運動の種類はばらばらで、自分の好きな曲で同じ効果が出るかまではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-tempo-exercise-oxygen",
+        "type": "あわせて読む",
+        "why": "テンポを動きに合わせる効果を、1つの実験で調べた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/music-exercise-performance-metaanalysis/"
+  },
+  {
+    "id": "posture-contractive-vs-expansive-meta",
+    "category": "姿勢と自信",
+    "kind": "よくある説",
+    "themeColor": "#F87171",
+    "sourceLabel": "Elkjær, Mikkelsen, Michalak, Mennin & O'Toole, \"Expansive and Contractive Postures and Movement: A Systematic Review and Meta-Analysis of the Effect of Motor Displays on Affective and Behavioral Responses\" (Perspectives on Psychological Science, 2022)",
+    "sourceUrl": "https://doi.org/10.1177/1745691620919358",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "胸を張って堂々とすると、前向きになれる？",
+        "body": "「胸を張って」とはよく言われるよね。体を大きく広げる姿勢をとると、気分や行動まで前向きになる、という話。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "73の実験を数字でまとめた",
+        "body": "エルキャルたちは5,819件の文献を探し、姿勢を「広げる」か「縮こまる」に変えて、気分・ホルモン・行動を測った73の実験を選んで、効果の大きさをまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "効いていたのは「縮こまらないこと」",
+        "body": "広げる姿勢と縮こまる姿勢の差は、はっきり出た。でも普通の姿勢と比べると、広げてもほぼ差はなかった。差を生んでいたのは、縮こまると気分や行動が下がるほうだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "普通の姿勢と比べた実験はまだ少ない",
+        "body": "著者たちは、普通の姿勢のグループを置いた実験をもっと増やすこと、ホルモンの測り方を見直すことを求めている。実験の場面での話で、毎日の暮らしで続くかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-power-pose-hormones-debunk",
+        "type": "あわせて読む",
+        "why": "広げるポーズでホルモンは変わらなかった、大きな追試"
+      },
+      {
+        "id": "posture-power-pose-felt-power",
+        "type": "あわせて読む",
+        "why": "事前登録の研究だけで「力がある感じ」を確かめたまとめ"
+      },
+      {
+        "id": "posture-stooped-mood-recovery",
+        "type": "あわせて読む",
+        "why": "縮こまる姿勢で、落ち込みから戻りにくかった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-contractive-vs-expansive-meta"
+  },
+  {
+    "id": "posture-power-pose-felt-power",
+    "category": "姿勢と自信",
+    "kind": "よくある説",
+    "themeColor": "#F87171",
+    "sourceLabel": "Gronau, Van Erp, Heck, Cesario, Jonas & Wagenmakers, \"A Bayesian model-averaged meta-analysis of the power pose effect with informed and default priors: the case of felt power\" (Comprehensive Results in Social Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.1080/23743603.2017.1326760",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "パワーポーズで、自信がわいてくる？",
+        "body": "腰に手を当てて胸を張る「パワーポーズ」。ホルモンが変わるという話は追試で崩れたけど、「力がわく感じ」のほうはどうなんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "事前に計画を登録した6つの研究だけで確かめた",
+        "body": "2017年、グローナウたちは、やり方を先に登録してから行った6つの研究だけを集め、ベイズ法でまとめた。都合のいい結果だけが世に出る心配を減らすためだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「力がある感じ」は強まっていた",
+        "body": "広げるポーズをとると「自分には力がある」と感じる効果には、強い証拠があった。ただ、パワーポーズのことを知らなかった人だけに絞ると、証拠は中くらいまで弱まった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "感じ方の話で、思い込みも混ざるかも",
+        "body": "測ったのは本人が答える「力がある感じ」だけ。知っている人ほど効果が出やすいなら、期待が混ざっている可能性がある。行動やホルモンが変わるかは、この分析からは言えない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-power-pose-hormones-debunk",
+        "type": "あわせて読む",
+        "why": "同じポーズで、気分は上がってもホルモンや行動は変わらなかった"
+      },
+      {
+        "id": "posture-contractive-vs-expansive-meta",
+        "type": "あわせて読む",
+        "why": "73の実験では、広げるより縮こまらないことが効いていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-power-pose-felt-power"
+  },
+  {
+    "id": "posture-upright-depressive-symptoms",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Wilkes, Kydd, Sagar & Broadbent, \"Upright posture improves affect and fatigue in people with depressive symptoms\" (Journal of Behavior Therapy and Experimental Psychiatry, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.jbtep.2016.07.015",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "気分が沈みがちな人も、背筋を伸ばすと違う？",
+        "body": "背筋を伸ばすと気分が保てる、という実験は健康な人で多い。じゃあ、気分の落ち込みが続いている人ではどうなんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "61人を2つの姿勢にくじで分けた",
+        "body": "2017年、ウィルクスたちは、軽〜中くらいのうつ症状がある地域の人61人を、いつもの姿勢か背筋を伸ばす姿勢にくじで分けた。テープで姿勢を保ち、人前でのスピーチ課題をしてもらった。"
+      },
+      {
+        "stage": "結果",
+        "title": "元気な気分が増え、自分のことばかり話さなくなった",
+        "body": "背筋を伸ばした人は、活気のある前向きな気分が高まり、疲れた感じは少なかった。話す言葉の数も多く、「私」という言葉が少なかった。肩の角度がまっすぐな人ほど不安も低かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い1回の実験で、診断を受けた人ではない",
+        "body": "著者たちも「予備的な研究」としている。姿勢を変えたのは短い時間だけで、参加者は診断を受けた患者ではない。長く続けたときや、治療の場面でどうかは調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-confidence",
+        "type": "あわせて読む",
+        "why": "同じスピーチ課題を、健康な74人で試した実験"
+      },
+      {
+        "id": "posture-gait-sadness",
+        "type": "あわせて読む",
+        "why": "逆向きに、気分の沈みが歩き方に表れることを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-upright-depressive-symptoms"
+  },
+  {
+    "id": "posture-stooped-mood-recovery",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Veenstra, Schneider & Koole, \"Embodied mood regulation: the impact of body posture on mood recovery, negative thoughts, and mood-congruent recall\" (Cognition and Emotion, 2017)",
+    "sourceUrl": "https://doi.org/10.1080/02699931.2016.1225003",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "落ち込んだとき、猫背だと立ち直りにくい？",
+        "body": "嫌なことがあると、つい背中が丸くなるよね。その姿勢のままだと、気分が戻るのも遅くなるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "わざと気分を下げてから、姿勢を変えた",
+        "body": "フェーンストラたちは、1つ目の実験で229人の気分を下げるか、そのままにした。そのあと猫背・まっすぐ・指示なしの姿勢にくじで分け、考えを書き出してもらった。2つ目の実験は122人。"
+      },
+      {
+        "stage": "結果",
+        "title": "猫背のほうが、気分が戻りにくかった",
+        "body": "猫背の人は、気分の戻りが小さく、嫌な考えも多かった。気分を下げていない人でも、猫背だと気分が下がった。2つ目の実験では、物事の見方を変える指示があってもなくても、猫背は戻りにくかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室で、少しの間だけの話",
+        "body": "実験室で人工的に気分を下げ、短い時間だけ姿勢を変えた結果。ふだんの落ち込みや、長く続く気分の不調で同じことが起きるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-contractive-vs-expansive-meta",
+        "type": "あわせて読む",
+        "why": "73の実験でも、縮こまる姿勢が気分を下げる側だった"
+      },
+      {
+        "id": "posture-gait-sadness",
+        "type": "あわせて読む",
+        "why": "気分と体の向きは逆方向にもつながる。沈んだ気分は歩き方に出た"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-stooped-mood-recovery"
+  },
+  {
+    "id": "umbra-flirting-detection",
+    "category": "恋愛としぐさ",
+    "kind": "よくある説",
+    "themeColor": "#F0ABFC",
+    "sourceLabel": "Hall, Xing & Brooks, \"Accurately Detecting Flirting: Error Management Theory, the Traditional Sexual Script, and Flirting Base Rate\" (Communication Research, 2015)",
+    "sourceUrl": "https://doi.org/10.1177/0093650214534972",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "相手が気があるかどうか、話していればわかる？",
+        "body": "「脈ありサイン」はよく話題になるよね。会話の雰囲気から、相手が好意を向けているかどうか、人はちゃんと見抜けているのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "初対面どうしの会話と、その映像で確かめた",
+        "body": "ホールたちは、初対面の男女52組に10〜12分話してもらい、自分が気を引こうとしたか、相手がそうだったと思うかを答えてもらった。次に261人に、その1分の映像26本を見て判断してもらった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "「気がない」はわかっても、「気がある」は見逃しやすい",
+        "body": "当人どうしでも見ている人でも、好意を向けていない会話は当てやすく、向けている会話は当てにくかった。見ている人は、女性の好意のほうを男性より正確に判断できていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "初対面の短い会話の話",
+        "body": "調べたのは、初対面の男女が実験で話した場面だけ。知り合いや恋人どうし、同性どうしでは違うかもしれない。好意があったかは本人の答えで決めている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "umbra-romantic-interest-thin-slice",
+        "type": "あわせて読む",
+        "why": "スピードデートの映像では、短い時間でも好意をある程度読めた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/romance/#umbra-flirting-detection"
+  },
+  {
+    "id": "umbra-romantic-interest-thin-slice",
+    "category": "恋愛としぐさ",
+    "kind": "研究紹介",
+    "themeColor": "#F0ABFC",
+    "sourceLabel": "Place, Todd, Penke & Asendorpf, \"The Ability to Judge the Romantic Interest of Others\" (Psychological Science, 2009)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-9280.2008.02248.x",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ほかの人のデートを見て、脈ありかわかる？",
+        "body": "友だちの恋の話を聞いて「それ、脈ありだよ」と言うことってあるよね。その場にいない人でも、しぐさから相手の好意を読み取れるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "スピードデートの映像を見てもらった",
+        "body": "2009年、プレイスたちは、スピードデート中の人の映像を男女の観察者に見せ、その人が相手にどれくらい好意を持っているかを予想してもらった。"
+      },
+      {
+        "stage": "結果",
+        "title": "10秒でも読めたが、女性の好意は読みにくかった",
+        "body": "10秒の映像でも、好意をある程度当てられた。男性の好意は当てやすく、女性の好意は偶然より少しいいくらい。読みやすい人もいれば、本心を見せない人もいて、差が大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "映像を外から見た話",
+        "body": "観察者が映像を見て判断した結果で、当事者が会話の中で読めるかとは別の話。デートは短いスピードデートだけで、長い付き合いの中でどうかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "umbra-flirting-detection",
+        "type": "あわせて読む",
+        "why": "当事者どうしでは、好意があるときほど見逃しやすかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/romance/#umbra-romantic-interest-thin-slice"
+  },
+  {
+    "id": "umbra-couple-touch-daily",
+    "category": "恋愛としぐさ",
+    "kind": "素朴な疑問",
+    "themeColor": "#F0ABFC",
+    "sourceLabel": "Debrot, Schoebi, Perrez & Horn, \"Touch as an Interpersonal Emotion Regulation Process in Couples' Daily Lives: The Mediating Role of Psychological Intimacy\" (Personality and Social Psychology Bulletin, 2013)",
+    "sourceUrl": "https://doi.org/10.1177/0146167213497592",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "恋人に触れると、気持ちは変わる？",
+        "body": "手をつなぐ、肩に触れる。恋人どうしのちょっとしたふれあいは、お互いの気分に関係しているのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "102組のカップルが1週間、毎日記録した",
+        "body": "2013年、デブロたちは、付き合っている102組のカップルの両方に、1日4回、1週間、スマホ型の日記で触れたかどうかと気分を記録してもらった。"
+      },
+      {
+        "stage": "結果",
+        "title": "触れた日は、二人とも気分がよかった",
+        "body": "触れられた側は気分がよく、それは「近くに感じる」気持ちを通していた。触れた側も、親密さや前向きな気分が高かった。この週によく触れられた人は、半年後の心の健康もよかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "記録を見た研究で、どちらが先かは不明",
+        "body": "日記の記録から関係を見た研究で、触れたから気分がよくなったのか、気分がいいから触れたのかは分けきれない。対象は付き合っている102組だけ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "umbra-couple-exciting-activities",
+        "type": "あわせて読む",
+        "why": "ふだんのふれあいに加えて、二人で何をすると関係が変わるかの研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/romance/#umbra-couple-touch-daily"
+  },
+  {
+    "id": "umbra-compatibility-prediction",
+    "category": "恋愛としぐさ",
+    "kind": "素朴な疑問",
+    "themeColor": "#F0ABFC",
+    "sourceLabel": "Joel, Eastwick & Finkel, \"Is Romantic Desire Predictable? Machine Learning Applied to Initial Romantic Attraction\" (Psychological Science, 2017)",
+    "sourceUrl": "https://doi.org/10.1177/0956797617714580",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "相性は、会う前のプロフィールでわかる？",
+        "body": "性格や好みを細かく答えれば、相性のいい相手が見つかる。そんな考え方はよく見かけるよね。会う前のデータで、誰と誰が惹かれ合うかはわかるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "100以上の質問と機械学習で予測した",
+        "body": "2017年、ジョエルたちは2つのスピードデートで、参加者に100を超える性格や好みの質問に答えてもらった。そのあと4分ずつ会い、誰に惹かれたかを機械学習で予測した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「この二人」の相性は予測できなかった",
+        "body": "誰にでも惹かれやすい人や、誰からも好かれやすい人は、ある程度予測できた。でも、特定の相手どうしの惹かれ合いは、どの組み合わせの質問を使っても予測できなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "4分の初対面での話",
+        "body": "調べたのは4分会ったときの惹かれ方で、付き合いが長く続くかは別の話。使ったのは本人が答えた質問だけで、会話や声など会ってわかることは入っていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-similarity-attraction",
+        "type": "あわせて読む",
+        "why": "似ている度合いと惹かれ方の関係を、多くの研究でまとめたもの"
+      },
+      {
+        "id": "love-ideal-partner-preferences",
+        "type": "あわせて読む",
+        "why": "口にする理想の条件も、実際に惹かれる理由とずれていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/romance/#umbra-compatibility-prediction"
+  },
+  {
+    "id": "face-makeup-vs-identity",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Jones & Kramer, \"Facial Cosmetics and Attractiveness: Comparing the Effect Sizes of Professionally-Applied Cosmetics and Identity\" (PLOS ONE, 2016)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0164218",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "メイクで、見た目の魅力はどれくらい変わる？",
+        "body": "メイクひとつで別人みたい、と言われることもあるよね。実際、メイクは見た目の魅力の評価をどれくらい動かすんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "プロのメイクの前と後を比べた",
+        "body": "2016年、ジョーンズとクレイマーは、YouTubeのモデル33人の、プロにメイクしてもらう前と後の写真を評価してもらった。2つ目の研究では、トップモデル45人で同じことを確かめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "メイクの効果は大きいが、顔の個人差のほうが大きい",
+        "body": "プロのメイクは、自分でするメイクを調べた以前の研究より効果が大きかった。でも評価の差は、メイクより「誰の顔か」でより多く説明された。もともと魅力的とされた人ほど、上がり幅は小さかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "モデルの写真と、魅力の評価だけ",
+        "body": "対象はモデル78人の写真で、ふだんの人や自分でするメイクではない。調べたのは魅力の評価だけで、信頼できそうか、仕事ができそうかといった印象は別に調べる必要がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "face-same-person-different-photos",
+        "type": "あわせて読む",
+        "why": "メイクがなくても、写真1枚の違いで印象は大きく動いた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-makeup-vs-identity"
+  },
+  {
+    "id": "face-same-person-different-photos",
+    "category": "顔と第一印象",
+    "kind": "研究紹介",
+    "themeColor": "#F97316",
+    "sourceLabel": "Todorov & Porter, \"Misleading First Impressions: Different for Different Facial Images of the Same Person\" (Psychological Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/0956797614532474",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "同じ人でも、写真によって第一印象は変わる？",
+        "body": "顔の印象の研究は、1人につき写真1枚で調べることが多かった。でも同じ人でも、写りのいい写真と悪い写真があるよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "同じ人の写真を何枚も使った",
+        "body": "2014年、トドロフとポーターは、同じ人の写真を何枚も見せ、信頼できそうかなどの印象を評価してもらった。婚活サイト用と選挙用で、選ぶ写真が変わるかも試した。"
+      },
+      {
+        "stage": "結果",
+        "title": "同じ人の写真どうしの差が、別人どうしの差に並んだ",
+        "body": "同じ人の写真どうしの印象の差は、別人どうしの差と同じか、それより大きかった。目的によって選ばれる写真も変わり、0.04秒見ただけでもその偏りが表れた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "写真の話で、会ったときは別",
+        "body": "写真を見ただけの評価で、実際に会って話したときにどこまで残るかは調べていない。ただ、写真1枚で「この人はこういう人」と決める研究や判断には、注意がいることを示した。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-first-impression-100ms",
+        "type": "あわせて読む",
+        "why": "印象は0.1秒で決まるが、その印象も写真1枚に左右される"
+      },
+      {
+        "id": "face-trustworthiness-detection",
+        "type": "あわせて読む",
+        "why": "写真の印象では、信用できる人かを見抜けなかった"
+      },
+      {
+        "id": "face-makeup-vs-identity",
+        "type": "あわせて読む",
+        "why": "メイクの前後でも印象は動くが、顔の個人差のほうが大きかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-same-person-different-photos"
+  },
+  {
+    "id": "food-omega3-depression-meta",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Liao et al., \"Efficacy of omega-3 PUFAs in depression: A meta-analysis\" (Translational Psychiatry, 2019)",
+    "sourceUrl": "https://doi.org/10.1038/s41398-019-0515-5",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "青魚の油（オメガ3）で気分が上向く？",
+        "body": "EPAやDHAは「脳にいい油」とよく聞くよね。落ち込みにも効くのか、気になる人は多いと思う。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "偽薬と比べた26件の試験をまとめた",
+        "body": "中国の研究チームが、オメガ3と偽薬を二重盲検で比べたランダム化比較試験26件、合わせて2160人分をまとめて分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "全体では小さな効果。EPAが多い場合だけ",
+        "body": "全体では、うつ症状がやや軽くなる方向の小さな効果が出た。EPAが6割以上の配合で1日1g以下のときに効果が見られ、DHAが中心の配合では見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "誰に効くのかは、まだこれから",
+        "body": "炎症のある人や症状の重さで違うのか、どの量がいいのかは今後の研究待ちと著者も書いている。この論文には後から訂正も出ている。治療の代わりになるという話ではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-smiles-diet-depression",
+        "type": "あわせて読む",
+        "why": "サプリ1つではなく、食事全体を見直した試験の結果"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-omega3-depression-meta"
+  },
+  {
+    "id": "food-mind-diet-cognition-rct",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Barnes et al., \"Trial of the MIND Diet for Prevention of Cognitive Decline in Older Persons\" (New England Journal of Medicine, 2023)",
+    "sourceUrl": "https://doi.org/10.1056/NEJMoa2302368",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「脳にいい食事」で物忘れを防げる？",
+        "body": "地中海食をもとにした「MIND食」は、認知症を防ぐ食事として話題になった。でもその根拠は、食べ方と病気の関係を追った観察研究が中心だったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "604人を3年間、くじ引きで2つに分けた",
+        "body": "アメリカの2か所で、家族に認知症の人がいる高齢者604人を、MIND食のグループと通常の食事のグループに分けた。どちらも軽くカロリーを減らし、3年後の認知機能と脳のMRIを比べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "差は出なかった",
+        "body": "3年で両方のグループとも認知機能のスコアが少し上がり、差ははっきりしなかった。脳の白質の変化や海馬の大きさなど、MRIの結果も同じくらいだったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "両方とも食事を見直していた",
+        "body": "どちらのグループも食事の相談と減量の支えを受けていたので、両方が良くなっただけかもしれない。3年は短いかもしれず、認知症そのものを防げるかは調べていないよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-mind-diet-cognition-rct"
+  },
+  {
+    "id": "food-cocoa-flavanol-cognition",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Baker et al., \"Effects of cocoa extract and a multivitamin on cognitive function: A randomized clinical trial\" (Alzheimer's & Dementia, 2022)",
+    "sourceUrl": "https://doi.org/10.1002/alz.12767",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "カカオ（チョコ）の成分は脳にいい？",
+        "body": "カカオに含まれるフラバノールが脳にいい、という話はよく聞くよね。高カカオのチョコを毎日食べている人もいると思う。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2262人が3年間、カカオ抽出物を飲んだ",
+        "body": "アメリカの大規模な試験で、平均73歳の2262人をくじ引きで分けた。フラバノール500mg入りのカカオ抽出物か偽薬、マルチビタミンか偽薬を毎日とり、電話で毎年記憶などを測ったんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "カカオ抽出物では差がなかった",
+        "body": "カカオ抽出物は、3年後の認知機能全体に効果が見られなかった。一方、マルチビタミンのグループでは小さな改善が見られ、これは別の追試で確かめる必要があると著者は書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "チョコそのものの試験ではない",
+        "body": "使ったのは抽出物でチョコではない。参加者の約9割が白人の高齢者で、ほかの人たちでも同じかはわからない。検査も電話でのテストだよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-cocoa-flavanol-cognition"
+  },
+  {
+    "id": "food-sugar-rush-mood-meta",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Mantantzis et al., \"Sugar rush or sugar crash? A meta-analysis of carbohydrate effects on mood\" (Neuroscience & Biobehavioral Reviews, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.neubiorev.2019.03.016",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "甘いものを食べると元気が出る？",
+        "body": "疲れたら甘いもの、と手が伸びることってあるよね。糖分をとると気分がシャキッとする「シュガーラッシュ」は、本当にあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "31件の実験、1259人分をまとめた",
+        "body": "ドイツとイギリスの研究チームが、糖質をとった直後の気分を偽薬と比べた31件の研究（1259人分）をまとめた。食べた後のどの時間で気分が変わるかも見たんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "気分は良くならず、1時間以内はむしろ疲れた",
+        "body": "どの時間で見ても、糖質で気分が良くなる効果は見られなかった。とった後1時間以内は、偽薬より疲れを感じやすく、目がさえにくかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回とった直後の話",
+        "body": "調べたのは糖質を1回とった直後の気分で、ふだんの食生活の影響ではない。実験室での研究が中心で、量や種類で違うかはまだはっきりしていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-sugar-mood-whitehall",
+        "type": "あわせて読む",
+        "why": "こちらは直後の気分、あちらは何年も続けたときの気分を追った研究"
+      },
+      {
+        "id": "myth-sugar-hyperactive",
+        "type": "あわせて読む",
+        "why": "糖で子どもがはしゃぐ説も、実験では支持されなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-sugar-rush-mood-meta"
+  },
+  {
+    "id": "foodmyth-egg-cholesterol-heart",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Drouin-Chartier et al., \"Egg consumption and risk of cardiovascular disease: three large prospective US cohort studies, systematic review, and updated meta-analysis\" (BMJ, 2020)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.m513",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "卵は1日1個まで？ 心臓に悪い？",
+        "body": "卵はコレステロールが多いから、食べすぎると心臓や血管に悪い。そう聞いて、卵の数を気にしている人もいるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約170万人分の追跡研究をまとめた",
+        "body": "アメリカの研究チームが、看護師や医療職の約21万人を最長32年追った。さらに世界の追跡研究をまとめ直し、合わせて約172万人分で、卵と心臓や脳の血管の病気の関係を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1日1個くらいでは、関係は見られなかった",
+        "body": "1日1個までの卵は、心臓や血管の病気の起こりやすさと関係していなかった。アジアの研究だけで見ると、少しリスクが低いほうとの関係も見られたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "追跡の研究なので原因はわからない",
+        "body": "もとは食べた量を聞いて追った観察研究で、卵が原因かどうかは確かめられない。研究ごとのばらつきも大きく、多くの人は週1〜4個ほどだった。持病がある人の話でもないよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-egg-cholesterol-heart/"
+  },
+  {
+    "id": "foodmyth-sweetener-weight-meta",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Rogers & Appleton, \"The effects of low-calorie sweeteners on energy intake and body weight: a systematic review and meta-analyses of sustained intervention studies\" (International Journal of Obesity, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41366-020-00704-2",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人工甘味料はかえって太る？",
+        "body": "ゼロカロリーでも甘さで食欲が増えて、結局太る。そんな話を聞いて、カロリーゼロの飲み物を避けている人もいるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1週間以上続けた試験88件をまとめた",
+        "body": "イギリスの研究チームが、低カロリー甘味料をとる介入研究88件をまとめた。砂糖と比べた場合、水や何もとらない場合と比べた場合、味のしないカプセルの場合に分けて分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "砂糖の代わりなら体重は少し減った",
+        "body": "砂糖の代わりに甘味料をとった試験（29件・2267人）では、体重が平均約1kg少なかった。水と比べると差はなかった。甘さで食べる量が増えるという結果は見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "種類ごとの違いと長い目での話",
+        "body": "甘味料の種類ごとの違いは、数が足りず調べきれなかった。水と比べた研究は結果のばらつきが大きい。体重以外の健康への長い目での影響も、この研究の対象外だよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-sweetener-weight-meta/"
+  },
+  {
+    "id": "foodmyth-detox-diet-review",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Klein & Kiat, \"Detox diets for toxin elimination and weight management: a critical review of the evidence\" (Journal of Human Nutrition and Dietetics, 2015)",
+    "sourceUrl": "https://doi.org/10.1111/jhn.12286",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "デトックスで体の毒が出ていく？",
+        "body": "ジュースだけの数日間や特別な食事で、たまった毒素を出してやせる。デトックスという言葉は、本当によく見かけるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "デトックス食の研究を集めて見直した",
+        "body": "オーストラリアの研究者が、デトックス食についての研究を集めて、効くのか、危険はないのかを見直したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "人で確かめた研究はほとんどない",
+        "body": "市販のデトックス食を人でくじ引きして試した研究は、見つからなかった。効果ありとした数少ない研究も、人数が少なく方法に問題があった。食材の話も多くは動物実験だよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効かないと決まったわけでもない",
+        "body": "これは「確かめた研究がない」という結論で、効かないと示したわけではない。2015年時点のまとめで、数字でまとめた分析でもないよ。著者はきちんとした試験が必要だと書いている。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-detox-diet-review/"
+  },
+  {
+    "id": "foodmyth-fruit-sugar-diabetes",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Muraki et al., \"Fruit consumption and risk of type 2 diabetes: results from three prospective longitudinal cohort studies\" (BMJ, 2013)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.f5001",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "果物は糖が多いから控えたほうがいい？",
+        "body": "果物は甘い＝糖が多いから、血糖値や糖尿病が心配。そう思って果物を控えている人もいるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約19万人を20年以上追った",
+        "body": "アメリカの医療職の男女、約19万人の食事と糖尿病の発症を20年以上追った。期間中に1万2198人が2型糖尿病になり、果物の種類やジュースごとに関係を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "丸ごとの果物はわずかに低い側、ジュースは高い側",
+        "body": "丸ごとの果物を週3回分多く食べる人は、糖尿病のリスクがわずかに低かった。ブルーベリーやぶどう、りんごで目立った。一方、フルーツジュースは同じ量でリスクが8%高かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "観察研究で、対象はアメリカの医療職",
+        "body": "食べた量を聞いて追った研究なので、果物が原因かはわからない。生活習慣の違いを調整しても残る差かもしれない。対象はアメリカの医療職で、日本の人で同じかは別の話だよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-fruit-sugar-diabetes/"
+  },
+  {
+    "id": "caffeine-exercise-umbrella",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Grgic et al., \"Wake up and smell the coffee: caffeine supplementation and exercise performance—an umbrella review of 21 published meta-analyses\" (British Journal of Sports Medicine, 2020)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2018-100278",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動の前にコーヒーを飲むと、速く走れる？",
+        "body": "試合や練習の前にコーヒーを飲む人もいるよね。カフェインで本当に体の力が上がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21のメタ分析をまとめ直した",
+        "body": "オーストラリアなどの研究チームが、カフェインと運動の成績についてのメタ分析21件（11本の論文）を集めて、まとめ直したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "持久力・筋力・瞬発力が上がる方向",
+        "body": "カフェインは持久力、筋力、筋持久力、パワー、ジャンプ、スピードを上げる方向の効果が見られた。効果は無酸素運動より有酸素運動で大きい傾向があったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "多くは若い男性の研究",
+        "body": "もとの研究の多くは若い男性が対象で、女性や中高年でも同じかはわからない。根拠の質は中くらいから低いものまであり、すべての結果で効果の向きがはっきりしたわけではないよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/"
+  },
+  {
+    "id": "caffeine-crave-coffee-trial",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Marcus et al., \"Acute Effects of Coffee Consumption on Health among Ambulatory Adults\" (New England Journal of Medicine, 2023)",
+    "sourceUrl": "https://doi.org/10.1056/NEJMoa2204737",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "コーヒーを飲んだ日は、体に何が起きてる？",
+        "body": "コーヒーを飲むと動悸がする、眠れない、なんて話も聞くよね。飲んだ日と飲まない日で、体にどんな違いが出るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "100人が「飲む日・飲まない日」をくじで決めた",
+        "body": "アメリカで、成人100人に心電図、歩数計、血糖計をつけてもらった。14日間、毎日のメッセージでコーヒーを飲む日と避ける日をランダムに決め、同じ人の中で比べたんだ。"
+      },
+      {
+        "stage": "結果",
+        "title": "歩数は増え、睡眠は36分減った",
+        "body": "心房の不整脈の一種（期外収縮）ははっきり増えなかった。一方、心室の期外収縮は飲んだ日に多く、歩数は約1000歩多く、夜の睡眠は約36分短かった。血糖は変わらなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "2週間の短い話",
+        "body": "見たのは2週間のその日ごとの変化で、長く飲んだときの健康への影響はわからない。参加者は平均39歳の健康な大人で、持病のある人や高齢者で同じかは別の話だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-late-sleep-disruption",
+        "type": "あわせて読む",
+        "why": "日常生活でも、コーヒーを飲んだ日は睡眠が短かった"
+      },
+      {
+        "id": "caffeine-coffee-health-umbrella",
+        "type": "あわせて読む",
+        "why": "長い目での健康との関係は、こちらの大きなまとめで"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-crave-coffee-trial"
+  },
+  {
+    "id": "caffeine-tolerance-alertness",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Rogers et al., \"Association of the Anxiogenic and Alerting Effects of Caffeine with ADORA2A and ADORA1 Polymorphisms and Habitual Level of Caffeine Consumption\" (Neuropsychopharmacology, 2010)",
+    "sourceUrl": "https://doi.org/10.1038/npp.2010.71",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "毎朝のコーヒー、本当に目を覚ましてる？",
+        "body": "朝のコーヒーがないと頭が働かない、という人は多いよね。でもそれは、カフェインで普段より冴えているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "379人に、カフェインか偽薬を飲んでもらった",
+        "body": "イギリスなどの研究チームが、ふだんあまり飲まない人162人と、よく飲む人217人を集めた。16時間カフェインを断ってから、カフェインか偽薬を二重盲検で飲んでもらい、眠気や不安を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ふだん飲む人は「元に戻った」だけ",
+        "body": "よく飲む人は、カフェインを断つと眠気が増え頭痛も出て、カフェインで元の状態に戻っただけだった。あまり飲まない人では、カフェインで目が冴える効果は見られなかったよ。不安の出やすさには体質の差もあった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の量と短い時間での話",
+        "body": "飲んだのは合計250mgまでを2回で、その日のうちの変化を見た研究。調べた遺伝子の型以外の体質の影響や、ほかの国の人で同じかは、まだはっきりしていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-withdrawal-symptoms",
+        "type": "あわせて読む",
+        "why": "断ったときの頭痛や眠気が、朝の一杯の効き目の正体かもしれない"
+      },
+      {
+        "id": "caffeine-gene",
+        "type": "あわせて読む",
+        "why": "カフェインの影響が人によって違う、体質の話"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/"
+  },
+  {
+    "id": "nature-greenspace-mortality",
+    "category": "自然と健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Rojas-Rueda, Nieuwenhuijsen, Gascon, Perez-Leon & Mudu, \"Green spaces and mortality: a systematic review and meta-analysis of cohort studies\" (The Lancet Planetary Health, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/S2542-5196(19)30215-3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "家のまわりに緑が多いと、長生きする？",
+        "body": "公園や木の多い街に住むと体に良さそう、というイメージはあるよね。でも実際に、亡くなる人の割合まで変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7か国、約832万人の追跡調査をまとめた",
+        "body": "2019年、WHOの支援を受けた研究で、住んでいる場所の緑の量を衛星データ（NDVI）で測り、その後の死亡を追った9本の研究をまとめた。対象は7か国の約832万人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "緑が一段多いと、死亡のリスクが約4%低かった",
+        "body": "家から500m以内の緑の指標が0.1増えるごとに、あらゆる原因による死亡のリスクは0.96倍だった。9本のうち7本で緑が多いほど死亡が少なく、2本では関連が見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "緑のせいなのかは、まだわからない",
+        "body": "追跡しただけの研究なので、緑の多い地域は豊かで空気がきれい、といった別の理由が混ざっている可能性がある。研究どうしの結果のばらつきも大きかった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nature-greenspace-metaanalysis",
+        "type": "あわせて読む",
+        "why": "緑と体の指標の関係を、死亡以外の約100の指標でまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#nature-greenspace-mortality"
+  },
+  {
+    "id": "nature-blue-space-18-countries",
+    "category": "自然と健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#16A34A",
+    "sourceLabel": "White et al., \"Associations between green/blue spaces and mental health across 18 countries\" (Scientific Reports, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-021-87675-0",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "海や川のそばは、心に良い？",
+        "body": "森や公園だけでなく、海や川、湖のような「水辺」も気分を落ち着かせる、とよく言われる。住んでいる場所と、実際に出かけることのどちらが大事なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18か国、約1万6千人に聞いた",
+        "body": "2021年、イギリスなどの研究チームが18か国の16,307人に調査した。家の近くの緑・水辺・海辺と、この4週間に遊びに行った回数、自然とのつながりの感じ方を、心の状態と比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "住む場所より「出かける回数」が効いていた",
+        "body": "緑や海辺の近くに住む人は幸福感が高かったが、遊びに行く回数をそろえると、その差はほぼ消えた。緑・川や湖・海辺に出かける回数が多い人ほど、幸福感が高く、心の苦しさが少なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "水辺の結果は、国や季節でばらついた",
+        "body": "緑に出かける効果は国や季節をまたいで似ていたが、水辺はばらつきが大きく、川や湖によく行く人は不安の薬を使う割合がむしろ高かった。1回の調査なので、どちらが原因かはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nature-120-minutes-week",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが、自然で過ごす時間の長さと健康の関係を調べた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#nature-blue-space-18-countries"
+  },
+  {
+    "id": "nature-pill-20-minutes",
+    "category": "自然と健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Hunter, Gillespie & Chen, \"Urban Nature Experiences Reduce Stress in the Context of Daily Life Based on Salivary Biomarkers\" (Frontiers in Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2019.00722",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "1回何分、自然の中にいればストレスが減る？",
+        "body": "遠くの森に行かなくても、近所の公園でいいのかな。それに、1回あたり何分くらい過ごすのがいちばん効率がいいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "都会に住む36人が、8週間ためした",
+        "body": "2019年、アメリカの研究で、都会に住む36人が、自然を感じられる屋外の場所で10分以上過ごすことを週3回以上、8週間続けた。時間や場所は自由。前後でだ液のストレスの目安を測った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "20〜30分がいちばん効率がよかった",
+        "body": "自然の中で過ごすと、コルチゾールは1日の自然な下がり方に加えて1時間あたり約21%下がった。時間あたりの効果は20〜30分で最も大きく、その後も効果は増えたが、増え方はゆるやかになった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べるグループがない小さな研究",
+        "body": "36人だけで、自然に行かないグループとくじで比べたわけではない。だ液の値が下がったことが、体調や気分がよくなることにどこまでつながるかも、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nature-120-minutes-week",
+        "type": "あわせて読む",
+        "why": "1回の長さでなく、1週間に合計何分がよいかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#nature-pill-20-minutes"
+  },
+  {
+    "id": "circadian-evening-light-sensitivity",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Phillips et al., \"High sensitivity and interindividual variability in the response of the human circadian system to evening light\" (PNAS, 2019)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1901824116",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜の光に弱い人と、平気な人がいる？",
+        "body": "寝る前に明るい部屋にいても平気な人もいれば、すぐ目がさえる人もいるよね。夜の光への反応って、人によってどれくらい違うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "55人に、いろいろな明るさの光を当てた",
+        "body": "2019年、オーストラリアの研究チームが18〜30歳の55人を対象に、夜に5時間、とても暗い光（1ルクス未満）と、10〜2,000ルクスのさまざまな明るさの光を当て、眠りのホルモン「メラトニン」の減り方を測った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ふつうの部屋の明るさでも、半分減った",
+        "body": "メラトニンが半分になる明るさは、全体で約25ルクスと、ふつうの室内より暗い明るさだった。10・30・50ルクスで、メラトニンが出始める時刻は約22・77・109分遅れた。半分になる明るさは人によって6〜350ルクスと、50倍以上違った。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ人によって違うのかは、まだわからない",
+        "body": "対象は18〜30歳の若い人だけで、研究室で5時間光を浴びた結果。年齢や体質によって違いが生まれる理由や、この差が眠りや健康にどう響くかは、これから調べる必要がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-room-light-melatonin",
+        "type": "あわせて読む",
+        "why": "室内灯でメラトニンが減ることに加え、何ルクスから効くか・人による差を測った"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-evening-light-sensitivity"
+  },
+  {
+    "id": "circadian-day-night-light-mental",
+    "category": "光と体内時計",
+    "kind": "研究紹介",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Burns et al., \"Day and night light exposure are associated with psychiatric disorders: an objective light study in >85,000 people\" (Nature Mental Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1038/s44220-023-00135-8",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "昼に明るく、夜に暗く過ごす人は心の不調が少ない？",
+        "body": "光は体内時計を合わせるいちばんの合図。昼の光は体のリズムを強くし、夜の光は乱すと考えられている。それなら、ふだん浴びている光の量は、心の健康とも関係しているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約8万7千人の光の量を、機械で測った",
+        "body": "2023年、イギリスの大規模データ（UKバイオバンク）に参加した86,772人（平均62歳、57%が女性）について、機械で測った昼と夜の光の量と、心の病気や自傷の記録を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "夜の光が多いほど、昼の光が少ないほど不調が多かった",
+        "body": "夜に浴びる光が多い人ほど、うつ病・不安症・PTSDなどや自傷のリスクが高かった。夜の光とは別に、昼に浴びる光が多い人ほど、うつ病やPTSDなどのリスクは低かった。睡眠の質や運動量をそろえても、結果は同じだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "光が原因かどうかは、まだわからない",
+        "body": "ある時点で比べただけなので、心の不調があるから夜に明かりをつけている、という逆向きの可能性もある。対象はイギリスの中高年が中心で、若い人や他の国で同じかもわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-light-on-insulin",
+        "type": "あわせて読む",
+        "why": "夜の光が体に与える影響を、実験で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-day-night-light-mental"
+  },
+  {
+    "id": "circadian-social-jetlag-obesity",
+    "category": "光と体内時計",
+    "kind": "よくある説",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Arab, Karimi, Garaulet & Scheer, \"Social jetlag and obesity: A systematic review and meta-analysis\" (Obesity Reviews, 2024)",
+    "sourceUrl": "https://doi.org/10.1111/obr.13664",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "「社会的時差ボケ」があると太りやすい？",
+        "body": "平日は早起きして、休日は昼まで寝る。この平日と休日の寝る時間のずれを「社会的時差ボケ」という。体内時計がずれると太りやすい、という話は本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "43本、約23万人の研究をまとめた",
+        "body": "アメリカなどの研究チームが477本の論文を調べ、条件に合った観察研究43本（合計231,648人）をまとめた。平日と休日の睡眠時間帯のずれと、体重や体脂肪との関係を見た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ずれが大きい人ほど、体脂肪が多めだった",
+        "body": "社会的時差ボケが大きい人ほど、BMI・体脂肪・腹囲が大きい傾向があり、太りすぎ・肥満のオッズは約1.2倍だった。ただしBMIとの関連の強さは相関0.12と小さめ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ずれが原因で太るのかは、まだわからない",
+        "body": "どれも観察しただけの研究で、研究どうしの結果のばらつきも大きい。寝る時間をそろえれば体重が減るのかは、著者も今後の研究で確かめる必要があると書いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-short-sleep-obesity-meta",
+        "type": "あわせて読む",
+        "why": "睡眠の「ずれ」でなく「短さ」と肥満の関係をまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/"
+  },
+  {
+    "id": "appetite-sleep-deprivation-meta",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Al Khatib, Harding, Darzi & Pot, \"The effects of partial sleep deprivation on energy balance: a systematic review and meta-analysis\" (European Journal of Clinical Nutrition, 2017)",
+    "sourceUrl": "https://doi.org/10.1038/ejcn.2016.201",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "寝不足だと太るって本当？",
+        "body": "「寝不足は太る」とよく聞くけれど、本当なのかな。食べる量が増えるのか、使うエネルギーが減るのか、それとも両方なのか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "睡眠を削った実験17本をまとめた",
+        "body": "2017年、ロンドンの研究チームが、人の睡眠をわざと短くした介入研究17本（496人）を集め、数字がそろう11本（172人）でメタ分析をした。食べた量と使ったエネルギーを比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1日約385kcal、食べる量が増えた",
+        "body": "睡眠を削ると、ふつうに寝たときより1日あたり約385kcal多く食べていた。一方で、1日に使うエネルギーや安静時の代謝は変わらなかった。食べる中身は脂質が増え、たんぱく質が減った。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続けると太るかは、まだ確かめられていない",
+        "body": "まとめた実験の多くは数日程度の短いもので、人数も少ない。食べる量が増えたぶんが長い目で体重増加につながるかは、この研究では直接わからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-sleep-energy-intake",
+        "type": "あわせて読む",
+        "why": "メタ分析にまとめられたような、寝不足で食べる量を測った1つの実験"
+      },
+      {
+        "id": "appetite-short-sleep-obesity-meta",
+        "type": "あわせて読む",
+        "why": "実験でなく、寝る時間が短い人と肥満の関係を多数の調査でまとめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/appetite-sleep-deprivation-meta/"
+  },
+  {
+    "id": "appetite-short-sleep-obesity-meta",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Cappuccio et al., \"Meta-Analysis of Short Sleep Duration and Obesity in Children and Adults\" (Sleep, 2008)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/31.5.619",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "睡眠時間が短い人は、太っている人が多い？",
+        "body": "実験で寝不足にすると食べる量が増える、という話はある。じゃあ世の中の人を広く見たとき、ふだんから睡眠が短い人には、太っている人が多いのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "子どもと大人、約63万人のデータをまとめた",
+        "body": "2008年、イギリスの研究チームが世界の調査30本をまとめた。対象は2〜102歳の634,511人（子ども30,002人、大人604,509人）。睡眠時間と肥満の関係を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "睡眠が短い子は約1.9倍、大人は約1.6倍",
+        "body": "睡眠が短い人が肥満であるオッズは、子どもで1.89倍、大人で1.55倍だった。大人では、睡眠が1時間短いごとにBMIが約0.35高かった。出版の偏りは見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝不足が原因かは、はっきりしない",
+        "body": "まとめたのは主にある時点で調べた研究で、ほかの要因を十分にそろえられていない。どちらが先に起きたかもはっきりせず、著者も因果を言うのは難しいとしている。2008年までの研究のまとめでもある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-sleep-deprivation-meta",
+        "type": "あわせて読む",
+        "why": "調査で見えた関連を、睡眠を削る実験で確かめたメタ分析"
+      },
+      {
+        "id": "circadian-social-jetlag-obesity",
+        "type": "あわせて読む",
+        "why": "睡眠の「短さ」でなく、平日と休日の「ずれ」と肥満の関係"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-short-sleep-obesity-meta"
+  },
+  {
+    "id": "appetite-sleep-diet-fat-loss",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Nedeltcheva, Kilkus, Imperial, Schoeller & Penev, \"Insufficient Sleep Undermines Dietary Efforts to Reduce Adiposity\" (Annals of Internal Medicine, 2010)",
+    "sourceUrl": "https://doi.org/10.7326/0003-4819-153-7-201010050-00006",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝不足のままダイエットすると、何が減る？",
+        "body": "食事を減らせば体重は落ちる。でも、そのとき寝不足だったら、落ちる中身は変わるのかな。脂肪が減るのか、それ以外が減るのか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人が2週間ずつ、寝る時間を変えた",
+        "body": "2010年、アメリカの研究で、太りぎみの大人10人（平均41歳）が、食事を控えめにした14日間を2回すごした。1回は寝床の時間を8.5時間、もう1回は5.5時間にして、順番はくじで決めた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "短く寝ると、落ちた脂肪が半分以下に",
+        "body": "落ちた脂肪は8.5時間で1.4kg、5.5時間では0.6kgと、約55%少なかった。かわりに脂肪以外（筋肉など）の減りが1.5kgから2.4kgに増えた。短く寝たときは空腹感も強かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "10人・2週間だけの結果",
+        "body": "対象は10人で、期間も2週間と短い。著者も規模と期間の小ささを限界に挙げている。もっと長いダイエットや、ほかの年齢・体格の人で同じになるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-sleep-extension-intake",
+        "type": "あわせて読む",
+        "why": "同じ研究者も加わり、逆に睡眠を延ばして食べる量の変化を見た"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-diet-fat-loss"
+  },
+  {
+    "id": "hanzai-eyewitness-confidence",
+    "category": "犯罪の心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#94A3B8",
+    "sourceLabel": "Wixted & Wells, \"The Relationship Between Eyewitness Confidence and Identification Accuracy: A New Synthesis\" (Psychological Science in the Public Interest, 2017)",
+    "sourceUrl": "https://doi.org/10.1177/1529100616686966",
+    "studyType": "レビュー",
+    "articleUrl": "https://hanzai.seadice.win/eyewitness-confidence-accuracy/",
+    "articleSite": "犯罪と心理",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「この人で間違いない」と言い切る目撃者は正しい？",
+        "body": "裁判のドラマでは、自信たっぷりの目撃者が決め手になるよね。でも人の記憶は変わりやすいとも聞く。目撃者の自信は、当てになるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "30年分の目撃研究をまとめ直した",
+        "body": "研究者2人が、模擬の事件を使った実験と、警察の実際の面通しのデータを整理したレビュー。どんな条件なら自信と正確さがつながるのかを調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "最初の1回の自信は当てになる。ただし条件つき",
+        "body": "公平な面通しで、係の人が答えを誘導せず、その場ですぐ自信を聞いた「最初の1回」なら、自信と正確さは強く結びついていた。自信の低い最初の指名は間違いやすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "条件がくずれると、自信は当てにならない",
+        "body": "不公平な面通しや、何度も聞き直したあとの自信は、高くても正確とは限らない。数字でまとめたメタ分析ではなく文献の整理で、対象は大人の目撃者。どの国の警察でも同じ条件がそろうわけではない。"
+      }
+    ],
+    "quiz": {
+      "q": "目撃者の自信が当てになりやすいのは？",
+      "correct": "公平な面通しでの最初の1回",
+      "wrong": "何度も聞き直した後"
+    },
+    "links": [
+      {
+        "id": "memory-loftus-palmer-verbs",
+        "type": "あわせて読む",
+        "why": "質問の言い方で記憶は変わる。だから最初の1回の自信が大事になる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/criminal-psychology/#hanzai-eyewitness-confidence"
+  },
+  {
+    "id": "hanzai-prison-reoffending",
+    "category": "犯罪の心理",
+    "kind": "よくある説",
+    "themeColor": "#94A3B8",
+    "sourceLabel": "Petrich, Pratt, Jonson & Cullen, \"Custodial Sanctions and Reoffending: A Meta-Analytic Review\" (Crime and Justice, 2021)",
+    "sourceUrl": "https://doi.org/10.1086/715100",
+    "studyType": "メタ分析",
+    "articleUrl": "https://hanzai.seadice.win/prison-and-recidivism/",
+    "articleSite": "犯罪と心理",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "刑務所に入れれば、もう罪を犯さなくなる？",
+        "body": "厳しい罰を受ければ懲りて、出てきたあとは罪を犯さなくなる。そう考えるのは自然だよね。実際のデータではどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "116の研究をまとめた",
+        "body": "刑務所に入った人と、保護観察など刑務所に入らない処分を受けた人で、その後の再犯を比べた116の研究をまとめたメタ分析。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "再犯は減らない。むしろ少し増えることも",
+        "body": "刑務所に入れても、入らない処分と比べて再犯は減らず、むしろ少し増える傾向だった。研究のやり方の厳しさや、処分の種類、対象者の属性を変えても、この結果は変わらなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「刑務所が要らない」という話ではない",
+        "body": "見たのは本人の再犯で、社会全体の犯罪を思いとどまらせる効果や、閉じ込めている間の効果は別の問題。研究は大量投獄を進めたアメリカが中心で、日本の刑務所に同じことが言えるかは確かめられていない。"
+      }
+    ],
+    "quiz": {
+      "q": "刑務所に入れると、入らない処分と比べて再犯は？",
+      "correct": "減らない（少し増えることも）",
+      "wrong": "半分に減る"
+    },
+    "links": [
+      {
+        "id": "hanzai-scared-straight",
+        "type": "あわせて読む",
+        "why": "怖さや厳しさで懲りさせる方法は、どちらも再犯を減らさなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/criminal-psychology/#hanzai-prison-reoffending"
+  },
+  {
+    "id": "hanzai-scared-straight",
+    "category": "犯罪の心理",
+    "kind": "よくある説",
+    "themeColor": "#94A3B8",
+    "sourceLabel": "Petrosino, Turpin-Petrosino, Hollis-Peel & Lavenberg, \"'Scared Straight' and other juvenile awareness programs for preventing juvenile delinquency\" (Cochrane Database of Systematic Reviews, 2013)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.cd002796.pub2",
+    "studyType": "メタ分析",
+    "articleUrl": "https://hanzai.seadice.win/scared-straight-programs/",
+    "articleSite": "犯罪と心理",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "刑務所を見せて怖がらせれば、非行は止まる？",
+        "body": "非行に走りかけた少年を刑務所に連れて行き、受刑者に厳しく話してもらう。「スケアード・ストレート」と呼ばれるやり方で、怖さを知れば立ち直るはず、と考えられてきた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじ引きなどで分けた9つの試験",
+        "body": "アメリカの8つの州で1967〜1992年に行われた9つの試験をまとめた。参加したのは946人で、ほぼ男性、平均年齢は15〜17歳。何もしないグループと、その後の犯罪を比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "何もしないより、非行が増えた",
+        "body": "公式の記録で比べられた7つの研究をまとめると、刑務所見学をした側の方がその後の犯罪が多かった（オッズ比1.68）。研究の質が低いものを外しても、同じ向きの結果だった。著者は非行を防ぐ方法としてすすめられないと結論している。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "古いアメリカの研究だけ",
+        "body": "新しい試験は見つからず、どれも30年以上前のアメリカの研究。なぜ逆効果になるのかは、このまとめでは確かめられていない。"
+      }
+    ],
+    "quiz": {
+      "q": "刑務所見学で怖がらせる方法の結果は？",
+      "correct": "何もしないより非行が増えた",
+      "wrong": "非行が半分に減った"
+    },
+    "links": [
+      {
+        "id": "hanzai-prison-reoffending",
+        "type": "あわせて読む",
+        "why": "刑務所そのものも、入らない処分と比べて再犯を減らさなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/criminal-psychology/hanzai-scared-straight/"
+  },
+  {
+    "id": "hanzai-false-confession-interrogation",
+    "category": "犯罪の心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#94A3B8",
+    "sourceLabel": "Catlin, Wilson, Redlich, Bettens, Meissner, Bhatt & Brandon, \"Interview and interrogation methods and their effects on true and false confessions: A systematic review update and extension\" (Campbell Systematic Reviews, 2024)",
+    "sourceUrl": "https://doi.org/10.1002/cl2.1441",
+    "studyType": "メタ分析",
+    "articleUrl": "https://hanzai.seadice.win/accusatorial-vs-information-gathering-interviews/",
+    "articleSite": "犯罪と心理",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "やっていないのに、なぜ「やりました」と言ってしまう？",
+        "body": "えん罪のニュースで、やっていない人が自白していたと聞くと不思議だよね。自白は、取り調べのやり方でどのくらい変わるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "模擬の取り調べ実験29件をまとめた",
+        "body": "本当にやったかどうかがわかる「模擬の容疑者」を、責めて自白を迫るやり方と、話を聞いて情報を集めるやり方などで取り調べた実験をまとめたメタ分析。多くはアメリカの大学生が対象。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "責めるやり方ほど、うその自白が増えた",
+        "body": "責めて迫るやり方は、話を聞いて情報を集めるやり方に比べて、うその自白が約4.4倍（オッズ比）起きやすかった。一方、情報を集めるやり方は、ただ質問するだけより本当の自白が多かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の話で、本物の事件ではない",
+        "body": "多くはアメリカの大学生が、模擬の疑いをかけられる場面での実験で、重い罪の本物の取り調べと同じとは限らない。やり方を細かく分けた分析では結果の一貫性に心配があると、著者自身も書いている。"
+      }
+    ],
+    "quiz": {
+      "q": "うその自白が起きやすかった取り調べは？",
+      "correct": "責めて自白を迫るやり方",
+      "wrong": "話を聞いて情報を集めるやり方"
+    },
+    "links": [
+      {
+        "id": "hanzai-lie-detection-54",
+        "type": "あわせて読む",
+        "why": "人は嘘をほぼ見抜けない。だから「怪しい」と決めて責めると危うい"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/criminal-psychology/hanzai-false-confession-interrogation/"
+  },
+  {
+    "id": "bohan-street-lighting",
+    "category": "防犯の心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDE047",
+    "sourceLabel": "Welsh & Farrington, \"Effects of Improved Street Lighting on Crime\" (Campbell Systematic Reviews, 2008)",
+    "sourceUrl": "https://doi.org/10.4073/csr.2008.13",
+    "studyType": "メタ分析",
+    "articleUrl": "https://bohan.seadice.win/street-lighting-crime-research/",
+    "articleSite": "防犯",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "街灯を明るくすると、犯罪は減る？",
+        "body": "暗い道は怖い。明るくすれば悪いことをする人も近づかない気がするよね。実際に街灯を良くした地域で、犯罪はどう変わったんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "街灯を良くした13の研究をまとめた",
+        "body": "街灯を良くした地域と、似た条件の比べる地域で、前後の犯罪を比べた13の研究をまとめたメタ分析。イギリスとアメリカの研究が含まれる。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "犯罪は減った。しかも夜だけでなく昼も",
+        "body": "街灯を良くした地域では、犯罪がはっきり減っていた。意外なのは、夜の犯罪が昼より大きく減ったわけではないこと。著者は「見られるから」より、地域が大事にされている感覚や住民の目が育つ効果の方がありそうだと考えている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効く理由はまだ確かめ途中",
+        "body": "効果はアメリカよりイギリスの方が大きく、場所によって差がある。なぜ効くのかを直接確かめた研究は少なく、長い期間の追跡も足りない。2008年までの研究のまとめでもある。"
+      }
+    ],
+    "quiz": {
+      "q": "街灯を良くした地域で、意外だったことは？",
+      "correct": "夜だけでなく昼の犯罪も減った",
+      "wrong": "犯罪が隣の町に全部移った"
+    },
+    "links": [
+      {
+        "id": "bohan-vacant-lot-cleanup",
+        "type": "あわせて読む",
+        "why": "街灯も空き地の片づけも、場所を手入れすると犯罪が減っていた"
+      },
+      {
+        "id": "bohan-cctv-meta",
+        "type": "あわせて読む",
+        "why": "街灯と防犯カメラ、場所に置く2つの対策の効き方を比べられる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/crime-prevention/bohan-street-lighting/"
+  },
+  {
+    "id": "bohan-cctv-meta",
+    "category": "防犯の心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDE047",
+    "sourceLabel": "Piza, Welsh, Farrington & Thomas, \"CCTV surveillance for crime prevention: A 40-year systematic review with meta-analysis\" (Criminology & Public Policy, 2019)",
+    "sourceUrl": "https://doi.org/10.1111/1745-9133.12419",
+    "studyType": "メタ分析",
+    "articleUrl": "https://bohan.seadice.win/cctv-crime-prevention-research/",
+    "articleSite": "防犯",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "防犯カメラをつけると、犯罪は減る？",
+        "body": "駅でも商店街でも、防犯カメラはどんどん増えているよね。映っているとわかれば悪いことはしにくそう。でも、本当に犯罪は減っているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40年分の評価研究をまとめた",
+        "body": "防犯カメラを置いた場所の犯罪がどう変わったかを調べた、40年分の研究をまとめたメタ分析。駐車場や住宅地など、場所ごとにも比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "減るのは「少し」。いちばん効いたのは駐車場",
+        "body": "防犯カメラのある場所では、犯罪がはっきりと、ただし控えめに減っていた。効果が大きく安定していたのは駐車場で、住宅地でも減っていた。人がリアルタイムで見ている仕組みや、ほかの対策と組み合わせたものほど効果が大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "カメラだけに頼る効果は小さい",
+        "body": "効きやすいのは車や物の犯罪で、カメラを置くだけの対策は効果が小さかった。研究ごとに場所や国、カメラの使い方が違い、新しい技術を使ったカメラの効果は、これからの評価が必要とされている。"
+      }
+    ],
+    "quiz": {
+      "q": "防犯カメラの効果がいちばん大きかった場所は？",
+      "correct": "駐車場",
+      "wrong": "繁華街の歩道"
+    },
+    "links": [
+      {
+        "id": "bohan-street-lighting",
+        "type": "あわせて読む",
+        "why": "防犯カメラと街灯、場所に置く2つの対策の効き方を比べられる"
+      },
+      {
+        "id": "bohan-watching-eyes-bike-theft",
+        "type": "あわせて読む",
+        "why": "本物のカメラでなく「目の絵」でも、見られている感覚が働くかを試した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/crime-prevention/bohan-cctv-meta/"
+  },
+  {
+    "id": "bohan-neighborhood-watch",
+    "category": "防犯の心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDE047",
+    "sourceLabel": "Bennett, Holloway & Farrington, \"The Effectiveness of Neighborhood Watch\" (Campbell Systematic Reviews, 2008)",
+    "sourceUrl": "https://doi.org/10.4073/csr.2008.18",
+    "studyType": "メタ分析",
+    "articleUrl": "https://bohan.seadice.win/neighborhood-watch-patrol-effect/",
+    "articleSite": "防犯",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ご近所の見守り活動で、犯罪は減る？",
+        "body": "町内会のパトロールや「見守り隊」のステッカー。住民どうしで気にかけ合うのは良さそうだけど、犯罪の数字にも表れるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見守り活動の研究をまとめた",
+        "body": "住民が地域を見守る活動（ネイバーフッド・ウォッチ）を調べた研究を集め、そのうち12の研究（18の評価）で数字をまとめた。警察の記録と、住民の被害の申告の両方を使っている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "犯罪が16〜26%少なかった",
+        "body": "見守り活動のある地域は、比べた地域より犯罪が16〜26%少なかった。数字でまとめなかった研究も含めると、多くの取り組みで効果ありという結果だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何が効いたのかは分けられていない",
+        "body": "見守りだけでなく、持ち物に名前を記す活動や防犯診断とセットの取り組みも含まれ、どれが効いたのかは分けられていない。くじ引きの研究だけでなく、前後と別の地域を比べた研究も含む、2008年までのまとめ。"
+      }
+    ],
+    "quiz": {
+      "q": "見守り活動のある地域の犯罪は？",
+      "correct": "16〜26%少なかった",
+      "wrong": "変わらなかった"
+    },
+    "links": [
+      {
+        "id": "bohan-hotspot-foot-patrol",
+        "type": "あわせて読む",
+        "why": "住民の見守りと、警察が危ない場所を歩いて回る対策を比べられる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/crime-prevention/bohan-neighborhood-watch/"
+  },
+  {
+    "id": "personality-big-five-job",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Barrick & Mount, \"The Big Five Personality Dimensions and Job Performance: A Meta-Analysis\" (Personnel Psychology, 1991)",
+    "sourceUrl": "https://doi.org/10.1111/j.1744-6570.1991.tb00688.x",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "性格で、仕事ができるかはわかる？",
+        "body": "就職の適性検査には性格の質問がよく出てくるよね。明るい人が向いている、慎重な人が向いている、なんて話もある。性格と仕事ぶりは本当に関係するのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5つの職種で性格と仕事ぶりを比べた",
+        "body": "専門職・警察官・管理職・営業・技能職の5つの職種で、5つの性格（ビッグファイブ）と仕事ぶり・研修の成績などの関係を調べた研究をまとめたメタ分析。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どの職種でも効いたのは「まじめさ」だけ",
+        "body": "どの職種でも、どの評価でも一貫して関係していたのは誠実性（まじめさ・きちんとさ）だけだった。外向性は管理職と営業で関係し、研修の成績には外向性と開放性が関係した。ほかは職種によってまちまちで、関係も小さかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1991年のまとめ",
+        "body": "30年以上前の研究をまとめたもので、今の働き方に同じことが言えるかはわからない。関係があっても、性格だけで1人ひとりの仕事ぶりを当てられるほど強くはない。"
+      }
+    ],
+    "quiz": {
+      "q": "どの職種でも仕事ぶりと関係した性格は？",
+      "correct": "誠実性（まじめさ）",
+      "wrong": "外向性（明るさ）"
+    },
+    "links": [
+      {
+        "id": "personality-mbti-types",
+        "type": "あわせて読む",
+        "why": "就活でも使われる16タイプ診断が、何を測っているのかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-big-five-job"
+  },
+  {
+    "id": "personality-likes-computer-judgment",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Youyou, Kosinski & Stillwell, \"Computer-based personality judgments are more accurate than those made by humans\" (PNAS, 2015)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1418680112",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "SNSの「いいね」で、性格はわかる？",
+        "body": "何気なく押している「いいね」。それだけで、友だちよりコンピューターの方が自分の性格をわかってしまう…なんてことはあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8万6千人の性格テストと「いいね」",
+        "body": "100問の性格テストに答えた86,220人のボランティアについて、Facebookの「いいね」から性格を当てるコンピューターの予測と、友だちが答えた評価を、本人の回答と比べた。"
+      },
+      {
+        "stage": "結果",
+        "title": "友だちより、コンピューターの方が近かった",
+        "body": "「いいね」からの予測は本人の回答と r=0.56 で一致し、友だちの評価（r=0.49）より近かった。お酒などの使用、政治の考え方、体の健康を当てる力でも上回り、項目によっては本人の自己評価より当たった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "Facebookを使う人での一時点の話",
+        "body": "対象は自分から参加したFacebook利用者で、今のSNSや日本の利用者に同じことが言えるかは確かめられていない。何気ない行動から性格が推測されうる、というプライバシーの課題も著者は指摘している。"
+      }
+    ],
+    "quiz": {
+      "q": "本人の性格テストにより近かったのは？",
+      "correct": "「いいね」からのコンピューター予測",
+      "wrong": "友だちの評価"
+    },
+    "links": [
+      {
+        "id": "personality-barnum-effect",
+        "type": "あわせて読む",
+        "why": "誰が自分の性格をよく知るのか。当たってると感じるしくみとあわせて"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-likes-computer-judgment"
+  },
+  {
+    "id": "oya-social-contact-dementia",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Kuiper et al., \"Social relationships and risk of dementia: A systematic review and meta-analysis of longitudinal cohort studies\" (Ageing Research Reviews, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.arr.2015.04.006",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人と会わない親は、認知症になりやすい？",
+        "body": "一人暮らしの親が誰とも話さない日が続くと、心配になるよね。人とのつながりと認知症には、本当に関係があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "19の追跡研究をまとめた",
+        "body": "ふつうに暮らす人たちを何年も追いかけ、人づきあいの様子と、その後の認知症の発症を調べた研究を19本集めて、数字でまとめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "会う回数が少ないと、約1.6倍",
+        "body": "人と会う回数が少ない人は認知症のリスクが約1.57倍、孤独を感じる人は約1.58倍、地域の活動への参加が少ない人は約1.41倍だった。知り合いの人数との関係ははっきりしなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "会わないから、とは限らない",
+        "body": "どれも追いかけて調べた観察研究。認知症の始まりで人に会うのがおっくうになった、という逆の向きもありえる。人と会う回数を増やせば防げるかは、この研究ではわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "人と会う回数が少ない人の認知症リスクは？",
+      "correct": "約1.6倍",
+      "wrong": "変わらない"
+    },
+    "links": [
+      {
+        "id": "social-loneliness-mortality-2015",
+        "type": "あわせて読む",
+        "why": "孤独や孤立は寿命とも関係していた。同じく追跡研究をまとめたメタ分析"
+      },
+      {
+        "id": "oya-hearing-aid-achieve",
+        "type": "あわせて読む",
+        "why": "認知機能の低下を防げるかをくじ引きの試験で確かめた例。観察研究との違いがわかる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-social-contact-dementia"
+  },
+  {
+    "id": "oya-brain-training-active-10y",
+    "category": "親の老いと介護",
+    "kind": "よくある説",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Rebok et al., \"Ten-Year Effects of the Advanced Cognitive Training for Independent and Vital Elderly Cognitive Training Trial on Cognition and Everyday Functioning in Older Adults\" (Journal of the American Geriatrics Society, 2014)",
+    "sourceUrl": "https://doi.org/10.1111/jgs.12607",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "脳トレをすると、頭の衰えを防げる？",
+        "body": "親に脳トレを勧めたくなること、あるよね。練習した力は何年も残るのか、ふだんの暮らしにも役立つのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2832人を10年追った",
+        "body": "アメリカ6都市の、自立して暮らす平均73.6歳の2832人を、記憶・推理・処理の速さの練習（10回＋追加の練習）をする3群と、何もしない群にくじで分けて10年追った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "推理と速さは10年残った",
+        "body": "推理と処理の速さの練習は、10年後も練習した力に効果が残っていた。記憶の練習は、記憶の成績では効果が消えていた。生活の困りごとが10年前より増えていない人は、練習した群で約6割、何もしない群で約5割。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "認知症を防げるかは別の話",
+        "body": "調べたのは練習した力と、本人が答えた生活の困りごと。認知症を防げるかはこの結果ではわからない。練習した力以外へどこまで広がるかも、はっきりしない。"
+      }
+    ],
+    "quiz": {
+      "q": "10年後も効果が残らなかったのは？",
+      "correct": "記憶の練習",
+      "wrong": "処理の速さの練習"
+    },
+    "links": [
+      {
+        "id": "brain-game-training-null",
+        "type": "反対の結果",
+        "why": "市販のゲームでは頭の力全体が伸びる証拠は見つからなかった。練習した力だけ残るのと合う"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/oya-brain-training-active-10y/"
+  },
+  {
+    "id": "oya-caregiver-reach2",
+    "category": "親の老いと介護",
+    "kind": "研究紹介",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Belle et al., \"Enhancing the Quality of Life of Dementia Caregivers from Different Ethnic or Racial Groups: A Randomized, Controlled Trial\" (Annals of Internal Medicine, 2006)",
+    "sourceUrl": "https://doi.org/10.7326/0003-4819-145-10-200611210-00005",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "介護する家族の心は、支えで軽くなる？",
+        "body": "認知症の親を家で介護していると、気持ちが沈む日が続くこともあるよね。家族を支える仕組みに効き目はあるのか、くじ引きで確かめた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "介護する家族642人で試した",
+        "body": "アメリカ5都市で、認知症の家族を自宅で介護する642人を、支援を受ける群と、短い電話2回だけの群にくじで分けた。支援は6か月で12回の訪問と電話で、気分・負担・自分の世話・困った行動への対応を扱った。"
+      },
+      {
+        "stage": "結果",
+        "title": "うつ状態の人が少なかった",
+        "body": "6か月後に、うつ状態だった人は支援を受けた群で12.6%、受けない群で22.7%。暮らしの質もよくなったが、黒人の介護者では、配偶者を介護する人でよくなった。施設入所の割合は差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "6か月の1回だけの測定",
+        "body": "結果を見たのは6か月の時点だけで、その後も続くかはわからない。専門家が手厚く関わった支援なので、日本の介護サービスで同じ効果が出るかも確かめられていない。"
+      }
+    ],
+    "quiz": {
+      "q": "支援を受けた群で、うつ状態だった人の割合は？",
+      "correct": "12.6%",
+      "wrong": "22.7%"
+    },
+    "links": [
+      {
+        "id": "oya-caregiving-mortality",
+        "type": "あわせて読む",
+        "why": "介護はつらいだけなのか。介護する人の寿命を大規模に調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-caregiver-reach2"
+  },
+  {
+    "id": "oya-caregiving-mortality",
+    "category": "親の老いと介護",
+    "kind": "よくある説",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Roth et al., \"Family Caregiving and All-Cause Mortality: Findings from a Population-based Propensity-matched Analysis\" (American Journal of Epidemiology, 2013)",
+    "sourceUrl": "https://doi.org/10.1093/aje/kwt225",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "介護をすると、自分の寿命が縮む？",
+        "body": "介護は体も心もすり減らすから、介護する側の寿命が縮む、と聞くよね。これまでの研究でも、増えるという結果と減るという結果が混ざっていた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "介護する人3503人と比べた",
+        "body": "アメリカの大規模な追跡調査で、家族を介護する3503人と、年齢や持病、生活習慣が近い介護していない3503人を組み合わせて、平均6年の死亡を比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "介護する人の方が少なかった",
+        "body": "6年で亡くなったのは介護する人で7.5%、しない人で9.0%。死亡の割合は介護する人の方が18%低かった。負担が強いと答えた人などで分けても、死亡が多いグループは見つからなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "元気な人が介護を担っているのかも",
+        "body": "くじで分けられない観察研究。そもそも体が元気な人が介護役になっている可能性は、条件をそろえても消しきれない。アメリカのデータで、負担が重い一人ひとりにも当てはまるとは限らない。"
+      }
+    ],
+    "quiz": {
+      "q": "6年で亡くなった割合が低かったのは？",
+      "correct": "介護する人",
+      "wrong": "介護しない人"
+    },
+    "links": [
+      {
+        "id": "oya-caregiver-reach2",
+        "type": "あわせて読む",
+        "why": "寿命は縮まなくても、心の負担は大きい。介護する家族を支える試験の結果"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-caregiving-mortality"
+  },
+  {
+    "id": "kosodate-spanking-meta",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Gershoff & Grogan-Kaylor, \"Spanking and child outcomes: Old controversies and new meta-analyses\" (Journal of Family Psychology, 2016)",
+    "sourceUrl": "https://doi.org/10.1037/fam0000191",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お尻を叩くしつけは、効き目がある？",
+        "body": "「軽く叩くくらいなら、しつけになる」と考える人もいるよね。叩かれた子どもがその後どうなるかを、たくさんの研究でまとめたものがある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16万人分の研究をまとめた",
+        "body": "お尻や手足を平手で叩くしつけと、子どもの様子の関係を調べた研究から、111の結果、合わせて16万927人の子どものデータを集めて、数字でまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "良い結果はひとつもなかった",
+        "body": "調べた17の項目のうち13で、叩かれた子どもの方が悪い結果と結びついていた。良い結果と結びついた項目はなかった。結びつきの強さは、虐待とされる体罰と大きく変わらなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじで分ける実験はできない",
+        "body": "叩くかどうかをくじで決める実験はできないので、多くは追跡や調査の研究。研究の作りで結果は大きく変わらなかったが、叩くことが原因だと言い切るには限りがある。"
+      }
+    ],
+    "quiz": {
+      "q": "叩くしつけと良い結果が結びついた項目は？",
+      "correct": "なかった",
+      "wrong": "半分以上"
+    },
+    "links": [
+      {
+        "id": "kosodate-punishment-lying",
+        "type": "あわせて読む",
+        "why": "罰の厳しい環境の子どもほど嘘が上手だった。罰の別の面を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/kosodate-spanking-meta/"
+  },
+  {
+    "id": "kosodate-shared-book-reading",
+    "category": "子育ての科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Dowdall et al., \"Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis\" (Child Development, 2020)",
+    "sourceUrl": "https://doi.org/10.1111/cdev.13225",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "絵本の読み聞かせで、言葉は伸びる？",
+        "body": "読み聞かせは大事と聞くけど、毎晩続けるのは大変だよね。親に絵本の読み方を教えると、子どもの言葉は本当に伸びるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじで分けた19の試験",
+        "body": "親に絵本の一緒の読み方を教える取り組みを、くじで分けて試した19の試験（1〜6歳、合わせて2594人）を集めて、数字でまとめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "話す言葉に小さめの効果",
+        "body": "子どもが話す言葉には小さめの効果（d=0.41）、聞いてわかる言葉にはさらに小さい効果（d=0.26）があった。親の読み方の上達は大きかった。回数や時間が少ない取り組みでは、効果はほとんど見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだんの読み聞かせとは別",
+        "body": "調べたのは、読み方を教わる取り組みの効果。ふつうに読み聞かせる家庭とそうでない家庭の差ではない。何年も後まで差が続くかも、この研究ではわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "効果がほとんど見られなかったのは？",
+      "correct": "回数や時間が少ない取り組み",
+      "wrong": "親の学歴が低い家庭"
+    },
+    "links": [
+      {
+        "id": "kosodate-toddler-tablet-passive",
+        "type": "あわせて読む",
+        "why": "幼児が言葉を覚えるとき、受け身より関わりが大事かを画面で調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/kosodate-shared-book-reading/"
+  },
+  {
+    "id": "kosodate-sleep-training-5y",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Price, Wake, Ukoumunne & Hiscock, \"Five-Year Follow-up of Harms and Benefits of Behavioral Infant Sleep Intervention: Randomized Trial\" (Pediatrics, 2012)",
+    "sourceUrl": "https://doi.org/10.1542/peds.2011-3467",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ねんトレは、子どもの心に悪い？",
+        "body": "赤ちゃんが一人で寝る練習（ねんトレ）は、泣かせるから心に傷が残る、という心配をよく聞くよね。何年も後まで追いかけた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6歳まで追いかけた",
+        "body": "オーストラリアで、生後7か月で寝つきの悩みがあった326人を、看護師から寝かしつけの方法を1〜3回教わる群と、ふだんどおりの群にくじで分け、6歳の時点で比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "良くも悪くも差はなかった",
+        "body": "6歳の時点で、心の様子、ストレス、親子の近さ、親のうつや不安など、どの項目も2つの群で差がなかった。害が残る証拠はなく、長く続く良い効果も見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "残ったのは7割の家庭",
+        "body": "6歳の調査に参加したのは225家庭（69%）。教わったのは決まった方法で、ほかのやり方や、もっと長く泣かせる方法にも当てはまるとは限らない。1つの国の1つの試験。"
+      }
+    ],
+    "quiz": {
+      "q": "6歳の時点で、2つの群の差は？",
+      "correct": "どの項目もなかった",
+      "wrong": "心の様子が悪かった"
+    },
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/parenting/kosodate-sleep-training-5y/"
+  },
+  {
+    "id": "pet-dog-guilty-look",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Horowitz, \"Disambiguating the 'guilty look': Salient prompts to a familiar dog behaviour\" (Behavioural Processes, 2009)",
+    "sourceUrl": "https://doi.org/10.1016/j.beproc.2009.03.014",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "いたずらした犬は、反省してるの？",
+        "body": "帰ったら部屋が荒れていて、犬が目をそらしてしっぽを下げている。「悪いことをしたってわかってる顔」に見えるよね。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "おやつを食べたかどうかを入れ替えた",
+        "body": "アメリカで14匹の犬に、飼い主が「食べちゃだめ」と言っておやつを置き、部屋を出た。食べたかどうかと、飼い主が知らされる内容を入れ替えて、戻ったときの犬の様子を撮影して比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "決め手は、飼い主に叱られたか",
+        "body": "「反省顔」は、犬が実際に食べたかどうかでは差がなかった。多く出たのは、飼い主に叱られたとき。しかも食べていない犬が叱られたときの方が強く出た。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "犬が何を感じているかは別",
+        "body": "わかったのは、あの顔が飼い主の態度への反応だということ。犬が罪悪感を持たないとまでは言えない。14匹と少なく、1回の実験の結果。"
+      }
+    ],
+    "quiz": {
+      "q": "「反省顔」が多く出たのは？",
+      "correct": "飼い主に叱られたとき",
+      "wrong": "おやつを食べたとき"
+    },
+    "links": [
+      {
+        "id": "pet-dog-faces",
+        "type": "あわせて読む",
+        "why": "犬は人の表情を見分けられる。反省顔が飼い主の態度への反応だという話とつながる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-guilty-look"
+  },
+  {
+    "id": "pet-dog-breed-behavior",
+    "category": "ペットの科学",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Morrill et al., \"Ancestry-inclusive dog genomics challenges popular breed stereotypes\" (Science, 2022)",
+    "sourceUrl": "https://doi.org/10.1126/science.abk0639",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "犬の性格は、犬種で決まる？",
+        "body": "「この犬種は人なつっこい」「あの犬種は気が強い」。犬を選ぶとき、犬種で性格を想像するよね。どこまで当たるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1万8千匹の犬を調べた",
+        "body": "純血種と雑種、合わせて1万8385匹の飼い主に犬の行動をたずね、そのうち2155匹の遺伝子を調べた。犬種や祖先の血筋と、行動の関係を比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "犬種で説明できるのは約9%",
+        "body": "多くの行動は遺伝の影響を受けていた。でも1匹ずつの行動の違いのうち、犬種で説明できたのは約9%だけ。犬種の特徴は、性格より見た目の違いが中心だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "行動は飼い主の答え",
+        "body": "行動は飼い主がアンケートで答えたもので、実際に観察したものではない。犬種ごとの傾向はわずかにあり、「犬種は関係ない」とまでは言えない。"
+      }
+    ],
+    "quiz": {
+      "q": "1匹ずつの行動の違いのうち、犬種で説明できたのは？",
+      "correct": "約9%",
+      "wrong": "約60%"
+    },
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-breed-behavior"
+  },
+  {
+    "id": "pet-dog-years-methylation",
+    "category": "ペットの科学",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Wang et al., \"Quantitative Translation of Dog-to-Human Aging by Conserved Remodeling of the DNA Methylome\" (Cell Systems, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.cels.2020.06.006",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "犬の1年は、人の7年？",
+        "body": "犬の年齢は7倍すると人の年齢になる、とよく聞くよね。体の中の変化から、犬と人の年齢を比べ直した研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "104匹の遺伝子の目印を比べた",
+        "body": "0〜16歳のラブラドール・レトリバー104匹の血液から、年とともに変わるDNAの目印（メチル化）を調べ、人のデータと照らし合わせた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "7倍ではなく、最初に一気に進む",
+        "body": "人の年齢＝16×ln（犬の年齢）＋31という式になった。計算すると1歳で約31歳、2歳で約42歳、10歳で約68歳。若いうちは7倍よりずっと速く、年をとると緩やかになる。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "調べたのはほぼ1つの犬種",
+        "body": "ほとんどがラブラドールで、小型犬や大型犬など寿命が違う犬種にも同じ式が合うかは確かめられていない。体の働きではなく、DNAの目印から見た年齢の比べ方。"
+      }
+    ],
+    "quiz": {
+      "q": "この式で、1歳の犬は人の何歳くらい？",
+      "correct": "約31歳",
+      "wrong": "7歳"
+    },
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-years-methylation"
+  },
+  {
+    "id": "laughter-cortisol-meta",
+    "category": "笑いと健康",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Kramer & Leitao, \"Laughter as medicine: A systematic review and meta-analysis of interventional studies evaluating the impact of spontaneous laughter on cortisol levels\" (PLOS ONE, 2023)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0286260",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "笑うとストレスが減る、って本当？",
+        "body": "「笑うとストレス解消になる」ってよく聞くよね。気分の話だけじゃなく、体の中のストレスの目印にも変化は出るのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "笑いの介入研究8本をまとめた",
+        "body": "2023年、クレイマーとレイタンは、お笑い動画を見る・笑いのセッションを受けるなどの介入と、ふだんどおり過ごす群を比べた研究を集めた。条件に合ったのは8本・315人（平均38.6歳）で、ストレスホルモンのコルチゾールを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "コルチゾールが約3割多く下がった",
+        "body": "笑った群は、比べた群よりコルチゾールの下がり方が平均で31.9%大きかった。1回だけの笑いでも下がり、くじ引きで分けた4本の試験だけでも同じ向きだった。出版の偏りの兆しも見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "8本・315人の小さな集まり",
+        "body": "研究の数も人数も少なく、半分はくじ引きで分けていない試験。コルチゾールが下がることと、病気になりにくいことは別の話。続けたときの長い目での効果も、まだわかっていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-immunity",
+        "type": "あわせて読む",
+        "why": "笑いとストレスホルモンを調べた1989年の小さな実験。こちらはその後の研究をまとめた"
+      },
+      {
+        "id": "laughter-yoga-cortisol",
+        "type": "あわせて読む",
+        "why": "つくり笑い（笑いヨガ）で、ストレスへの体の反応を見た試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/laughter-cortisol-meta/"
+  },
+  {
+    "id": "laughter-contagious-bad-jokes",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Cai et al., \"Modulation of humor ratings of bad jokes by other people's laughter\" (Current Biology, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.cub.2019.05.073",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人の笑い声がすると、ギャグが面白く感じる？",
+        "body": "テレビのバラエティで流れる笑い声。あれがあると、同じネタでも面白く感じるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "わざと「寒いダジャレ」で試した",
+        "body": "プロのコメディアンが読み上げる、わざとつまらないダジャレを用意した。まず20人に笑い声なしで面白さを1〜7で評価してもらい、別の参加者には、自然な笑い声か、つくった笑い声を後ろに足して聞かせた。自閉スペクトラムの大人も参加した。"
+      },
+      {
+        "stage": "結果",
+        "title": "笑い声があると面白く感じ、自然な笑いほど効いた",
+        "body": "笑い声を足すと、同じダジャレがより面白いと評価された。しかも、つくった笑い声より自然な笑い声の方が効果が大きかった。この傾向は、自閉スペクトラムの人でもそうでない人でも同じだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い実験室の話",
+        "body": "参加者は数十人規模で、聞いたのはダジャレの音声だけ。テレビ番組や、その場に人がいるときに同じことが起きるかは確かめていない。面白く感じることと、健康によいことも別の話。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-pain-threshold",
+        "type": "あわせて読む",
+        "why": "笑いは人と一緒だと起きやすい。みんなで笑ったときの体の変化を見た実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-contagious-bad-jokes"
+  },
+  {
+    "id": "laughter-humor-styles-meta",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Schneider, Voracek & Tran, \"'A joke a day keeps the doctor away?' Meta-analytical evidence of differential associations of habitual humor styles with mental health\" (Scandinavian Journal of Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.1111/sjop.12432",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ユーモアのある人は、心も元気？",
+        "body": "よく冗談を言う人は明るく見えるよね。でも、自虐ネタや人をいじる笑いもある。笑いの「種類」で、心の調子との関係は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "37本・約1万2700人のデータをまとめた",
+        "body": "2018年、シュナイダーらは、ユーモアを4つのスタイルに分ける質問紙を使った研究を集め、自尊心・人生の満足感・楽観性・落ち込みとの関係をメタ分析した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "笑いの種類で、関係が逆になる",
+        "body": "場を和ませる笑いや、つらいことを笑いに変える見方は、心の調子のよさと小〜中くらいの関係があった。自分を下げる自虐の笑いは逆に、調子の悪さと結びついていた。人をいじる攻撃的な笑いは、ほぼ関係なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かは不明",
+        "body": "質問紙で同時に聞いた研究のまとめなので、ユーモアが心を元気にするのか、元気だからユーモアが出るのかは区別できない。東洋と西洋、男女で結果が違う部分もあった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-humor-reappraisal",
+        "type": "あわせて読む",
+        "why": "つらい状況を笑える捉え方に変えられるかを、実際に試した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-humor-styles-meta"
+  },
+  {
+    "id": "mindfulness-school-myriad",
+    "category": "マインドフルネス",
+    "kind": "素朴な疑問",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Kuyken et al., \"Effectiveness and cost-effectiveness of universal school-based mindfulness training compared with normal school provision in reducing risk of mental health problems and promoting well-being in adolescence: the MYRIAD cluster randomised controlled trial\" (Evidence Based Mental Health, 2022)",
+    "sourceUrl": "https://doi.org/10.1136/ebmental-2021-300396",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "学校でマインドフルネスを教えると、子どもの心は守れる？",
+        "body": "授業にマインドフルネスを取り入れる学校が増えているらしい。クラス全員に教えたら、10代の心の不調を防げるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の84校・約8400人を学校ごとにくじ引き",
+        "body": "英国の学校をくじ引きで2つに分け、片方は10回のマインドフルネスの授業、もう片方はふだんの心の教育を続けた。対象は11〜14歳。1年後の、うつのなりやすさ・心と行動の調子・幸福感を比べた。"
+      },
+      {
+        "stage": "結果",
+        "title": "1年後、ふだんの授業と差はなかった",
+        "body": "どの指標でも、マインドフルネスの授業がふだんの授業より上回るという結果は出なかった。差はほぼゼロ。一方で、授業による悪い出来事も見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "誰に、どう届けると効くのか",
+        "body": "比べた相手は何もしない群ではなく、ふだんの心の教育だった。クラス全員向けの短い授業では差が出なかったけれど、困りごとを抱える子に絞る、教え方を変えるなどで違うかは、まだわかっていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-nonclinical-meta",
+        "type": "反対の結果",
+        "why": "大人のプログラムでは、何もしない群よりは改善した。対象と比べる相手で結果が違う"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-school-myriad"
+  },
+  {
+    "id": "mindfulness-nonclinical-meta",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Galante et al., \"Mindfulness-based programmes for mental health promotion in adults in nonclinical settings: A systematic review and meta-analysis of randomised controlled trials\" (PLOS Medicine, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pmed.1003481",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "マインドフルネスは、誰にでもストレスに効く？",
+        "body": "職場や大学でマインドフルネスの講座が広がっているよね。病気ではないふつうの大人が受けても、心の調子はよくなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "29か国・136本の試験をまとめた",
+        "body": "2021年、ガランテらは、病院以外の場で行った対面のマインドフルネス講座の試験を集めた。くじ引きで分けた136本・1万1605人分（18〜73歳、女性77%）をメタ分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "何もしないよりは改善。ほかの方法とは差がない",
+        "body": "何もしない群と比べると、不安・落ち込み・ストレス・幸福感は平均でよくなった。でも、運動など別の決まった方法と比べると、マインドフルネスが上回るという結果は出なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究によって結果がばらつく",
+        "body": "研究ごとの結果のばらつきが大きく、確からしさは中〜とても低いと評価された。米国の試験は効果が小さめで、全員向けより困りごとのある人向けの方が効果が大きかった。どの場面でも効くとは言えない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-school-myriad",
+        "type": "反対の結果",
+        "why": "10代にクラス全員で教えた大規模試験では、ふだんの授業と差がなかった"
+      },
+      {
+        "id": "mindfulness-meditation-meta-analysis",
+        "type": "あわせて読む",
+        "why": "不安やうつへの瞑想の効果を、別の観点からまとめた先行のメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-nonclinical-meta"
+  },
+  {
+    "id": "mindfulness-adverse-events",
+    "category": "マインドフルネス",
+    "kind": "素朴な疑問",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Farias et al., \"Adverse events in meditation practices and meditation-based therapies: a systematic review\" (Acta Psychiatrica Scandinavica, 2020)",
+    "sourceUrl": "https://doi.org/10.1111/acps.13225",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "瞑想で、かえって調子が悪くなることはある？",
+        "body": "瞑想はリラックスできる、いいことずくめ、というイメージがあるよね。でも「瞑想 危険」と調べる人も多い。悪い出来事はどのくらい報告されているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "83本・約6700人の報告を集めた",
+        "body": "2020年、ファリアスらは、瞑想をした大人の研究から、瞑想中や後に起きた好ましくない出来事の報告を集めた。実験・調査・事例報告をあわせて83本、6703人分を整理した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "全体で約8%に何らかの悪い出来事",
+        "body": "悪い出来事の割合は全体で8.3%だった。ただし実験では3.7%、調査では33.2%と、研究の種類で大きく違った。多かったのは不安、落ち込み、考え方や感じ方の違和感。心の不調の経験がない人にも起きていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "瞑想のせいかどうかは区別しにくい",
+        "body": "多くの研究は悪い出来事をきちんと記録していなかった。もともとの状態の悪化か、瞑想が原因かは見分けにくい。瞑想には良い面と悪い面の両方がありうる、というのが著者のまとめ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-meditation-meta-analysis",
+        "type": "あわせて読む",
+        "why": "効果の大きさをまとめた研究。こちらは悪い出来事の側を集めた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/mindfulness-adverse-events/"
+  },
+  {
+    "id": "happy-lottery-wealth",
+    "category": "幸福の科学",
+    "kind": "よくある説",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Lindqvist, Östling & Cesarini, \"Long-Run Effects of Lottery Wealth on Psychological Well-Being\" (The Review of Economic Studies, 2020)",
+    "sourceUrl": "https://doi.org/10.1093/restud/rdaa006",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "宝くじに当たっても、結局幸せにはならない？",
+        "body": "「宝くじの当選者は、しばらくすると元の幸福度に戻る」「むしろ不幸になる」という話をよく聞くよね。長い目で見ると、実際はどうなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "スウェーデンの当選者を最大22年後に調査",
+        "body": "研究チームは、スウェーデンの宝くじの大きな当選から5〜22年たった人たちに調査し、似た条件で当たらなかった人と比べた。くじで当たる人が決まるので、お金そのものの影響を見やすい。分析の手順は事前に登録した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "人生の満足度は上がったまま、10年以上続いた",
+        "body": "大きく当たった人は、人生の満足度が高いままで、10年以上たっても薄れる様子はなかった。主にお金の面の満足度が上がったことが効いていた。一方、ふだんの「幸せな気分」や心の健康への効果はずっと小さかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "宝くじを買う人だけの話",
+        "body": "対象はスウェーデンで宝くじを買っていた人で、調査に答えた人に限られる。ほかの国でも同じかはわからない。気分の面への効果がなぜ小さいのかも、まだ説明しきれていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "happy-adaptation-marriage",
+        "type": "あわせて読む",
+        "why": "人は出来事に慣れて元に戻るのか。結婚で調べた研究"
+      },
+      {
+        "id": "happy-income-conflict-resolved",
+        "type": "あわせて読む",
+        "why": "年収と幸せの関係を、毎日の気分で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/happy-lottery-wealth/"
+  },
+  {
+    "id": "happy-age-u-curve",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Blanchflower, \"Is happiness U-shaped everywhere? Age and subjective well-being in 145 countries\" (Journal of Population Economics, 2020)",
+    "sourceUrl": "https://doi.org/10.1007/s00148-020-00797-z",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "幸福度は、年齢でどう変わる？",
+        "body": "若いころが一番楽しい、年をとると寂しくなる。いろんなイメージがあるけど、年齢と幸福度の関係を世界中のデータで見るとどうなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "145か国のデータで年齢との関係を見た",
+        "body": "経済学者ブランチフラワーが、途上国109か国を含む145か国の調査データを分析した。学歴・結婚・仕事の状況などをそろえたうえで、70歳未満の人の年齢と幸福度の関係を見た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "50歳前後が底の「U字」が多くの国で見られた",
+        "body": "幸福度は若いころから下がり、50歳前後で底になって、また上がるU字の形が、先進国でも途上国でもアフリカでも見られた。欧米では、底の年齢が時代とともに上がっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追ったデータは少ない",
+        "body": "主にある時点の調査を年齢で比べたもので、同じ人を一生追ったデータはほとんどない。何をそろえて分析するかで形が変わるという反論もあり、U字が本当にどこでもあるかは議論が続いている。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/happiness/happy-age-u-curve/"
+  },
+  {
+    "id": "happy-valuing-happiness",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Mauss et al., \"Can seeking happiness make people unhappy? Paradoxical effects of valuing happiness\" (Emotion, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0022010",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "幸せになろうと頑張るほど、幸せから遠ざかる？",
+        "body": "「幸せになりたい」と強く思うのは、いいことのはず。でも、思えば思うほど「こんなものか」とがっかりすることってないかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "調査と実験の2つで確かめた",
+        "body": "2011年、マウスらは女性を対象に2つの研究をした。1つめは、幸せをどれだけ大事に思っているかと今の幸福度を聞いた。2つめは、幸せの大切さを説く文章を読ませた群と読ませない群に、楽しい映像か悲しい映像を見せた。"
+      },
+      {
+        "stage": "結果",
+        "title": "楽しい場面ほど、がっかりして喜びが減った",
+        "body": "幸せを大事に思う人ほど、ストレスの少ない時期に幸福度が低かった。実験でも、幸せの大切さを読んだ群は、楽しい映像を見たときの喜びが小さかった。自分の気持ちへのがっかりが、その間をつないでいた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "女性だけ、小さな研究",
+        "body": "参加者は女性だけ。実験は映像を見た直後の気分を測っただけ。幸せを求めることがいつも逆効果になるわけではなく、文化や求め方で違うかは、ほかの研究で確かめる必要がある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "happy-positive-psychology-meta",
+        "type": "あわせて読む",
+        "why": "幸せになる練習そのものには、小さな効果が見られたというまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-valuing-happiness"
+  },
+  {
+    "id": "kokoro-volunteering-health",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Jenkinson et al., \"Is volunteering a public health intervention? A systematic review and meta-analysis of the health and survival of volunteers\" (BMC Public Health, 2013)",
+    "sourceUrl": "https://doi.org/10.1186/1471-2458-13-773",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よくある説",
+        "title": "ボランティアをすると、心も元気になる？",
+        "body": "人の役に立つと自分も元気になる、ってよく言うよね。ボランティアをしている人は、本当に心の調子がいいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40本の研究をまとめた",
+        "body": "2013年、ジェンキンソンらは、ボランティアをする人としない人を比べた研究を集めた。くじ引きで分けた試験5本、そうでない比較試験4本、長く追跡した調査17本を整理し、死亡リスクはメタ分析した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "追跡調査では関係あり。試験では確かめられず",
+        "body": "追跡調査では、ボランティアをする人は落ち込みが少なく、人生の満足感や幸福感が高かった。死亡リスクも約2割低かった。でも、くじ引きで分けた試験では、この結果は確かめられなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "元気な人がボランティアをしているだけかも",
+        "body": "もともと元気で余裕のある人ほどボランティアをしている可能性がある。どんな活動を、どのくらいすると良いのかも、はっきりしなかった。著者は、きちんと設計した試験が必要だとまとめている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "happy-kindness-meta",
+        "type": "あわせて読む",
+        "why": "人に親切にすると自分も幸せになるか。親切の実験をまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-volunteering-health"
+  },
+  {
+    "id": "kokoro-phone-call-loneliness",
+    "category": "こころの不調",
+    "kind": "素朴な疑問",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Kahlon et al., \"Effect of Layperson-Delivered, Empathy-Focused Program of Telephone Calls on Loneliness, Depression, and Anxiety Among Adults During the COVID-19 Pandemic: A Randomized Clinical Trial\" (JAMA Psychiatry, 2021)",
+    "sourceUrl": "https://doi.org/10.1001/jamapsychiatry.2021.0113",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "話を聞いてもらう電話だけで、孤独はやわらぐ？",
+        "body": "家から出にくい人にとって、誰かと話す機会は貴重だよね。専門家ではなくふつうの人がかける電話でも、孤独な気持ちは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の240人を、電話あり・なしにくじ引き",
+        "body": "2020年、米国テキサス州で配食サービスを使う27〜101歳の240人を、くじ引きで2つに分けた。片方には、共感して聞く話し方を短く学んだ17〜23歳の若者16人が、4週間電話をかけ続けた。"
+      },
+      {
+        "stage": "結果",
+        "title": "4週間で孤独感・落ち込み・不安が軽くなった",
+        "body": "電話を受けた群は、受けなかった群より孤独感が軽くなり（主な尺度の1つで中くらいの差）、落ち込みと不安も軽くなった。心の健康の自己評価もよくなった。体の健康の評価は変わらなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "4週間のあと、どうなるか",
+        "body": "測ったのは4週間後までで、電話をやめた後に続くかはわからない。孤独感を測るもう1つの尺度では、はっきりした差は出なかった。コロナ禍の米国で、家から出にくい人が対象だった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "social-loneliness-mortality-2015",
+        "type": "あわせて読む",
+        "why": "孤独が健康とどう関係するかを、多くの研究でまとめたもの"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-phone-call-loneliness"
+  },
+  {
+    "id": "kokoro-sleep-improve-mental",
+    "category": "こころの不調",
+    "kind": "素朴な疑問",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Scott et al., \"Improving sleep quality leads to better mental health: A meta-analysis of randomised controlled trials\" (Sleep Medicine Reviews, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.smrv.2021.101556",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "眠りがよくなると、心の調子もよくなる？",
+        "body": "よく眠れない日は、気分も沈みがちだよね。でも、気分が沈むから眠れないのかもしれない。眠りをよくしたら心も変わるのか、試した研究をまとめたものがある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "65本の試験・8608人をまとめた",
+        "body": "2021年、スコットらは、眠りをよくする取り組みをくじ引きで試した研究を集め、心の調子への効果をメタ分析した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "眠りがよくなるほど、心の調子もよくなった",
+        "body": "眠りがよくなった群では、落ち込み・不安・くよくよ考えることが中くらい軽くなり、ストレスも軽くなった。しかも、眠りがよくなった度合いが大きいほど、心の改善も大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの取り組みが誰に向くか",
+        "body": "取り組みの中身も対象者もさまざまで、研究ごとの差が大きい。眠りがどんな仕組みで心に影響するのかも、まだわかっていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-emotion-amygdala",
+        "type": "あわせて読む",
+        "why": "寝不足だと、感情に関わる脳の反応が強くなることを見た実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/kokoro-sleep-improve-mental/"
   }
 ]
