@@ -17,6 +17,8 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 - [ ] 近いうちに | ツール | caffeine-cutoff の出典 Gardiner ら(2023, 24件の分析, 睡眠45分減・入眠9分延長)の DOI を、crossref か PubMed で確かめて教える — クラウドからは crossref に接続できず、確かめずに書けない（2026-10-12）
 
+- [ ] 近いうちに | アプリ | body-language-scan と lifeisrpg のプライバシーポリシーに書くべき事実を教える（端末内保存か・AI(Claude API等)へ送るデータ・広告なし・削除方法）— /privacy/ 一覧とアプリのフッターがリンクしているページが存在せず、審査・信頼に関わる。教えてもらえれば作る。あわせて哲人フレンド(id6809145872)が p/tools/tetsujin-chat と同じアプリか（2026-10-12）
+
 ## 終わったこと
 
 - 2026-10-12: /about/ に運営者名（Hidenori Nakamura、App Store 開発者ページへのリンク）と、AIを使って書いていることを明記（構造化データの founder・FAQ も）

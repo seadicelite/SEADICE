@@ -16,6 +16,7 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 2. 「良いアプリの基準」4つで、公開済みアプリを1本ずつ見る手順を /improve-app に足す
 
 ### ルールの変更履歴
+- 2026-10-12: 点検に「/privacy/ 一覧とアプリページのフッターが指すリンク先の実在」を追加（一覧が指す2ページが存在しなかったため）
 - 2026-10-12: docs/flutter-app.md のダークモード固定に例外の決め方を追記（恋愛の科学がライト固定で、決め方がなかったため）
 - 2026-10-12: 点検の項目に「公開済みなのに『準備中』のまま・CTAが空」を足す方針（下の点検に反映）。原因: 空の cta-box が13ページに残っていた
 - 2026-10-12: docs/flutter-app.md の最初に「良いアプリの基準」4つ（理念から）を追加。重複していた説明文1行を削除
@@ -29,7 +30,7 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 ## 点検
 - released-apps.json にあるのに、ページが「近日公開」「準備中」のまま・App Store リンクがない（空の cta-box に注意）・ct がないもの
 - 公開済みなのに「もとになった研究」欄がないアプリ
-- p/privacy/{appId}/ がないアプリ
+- p/privacy/{appId}/ がないアプリ、および p/privacy/index.html・アプリページのフッターが指す /privacy/…/ の実在
 
 ## すぐ直してよいこと
 - ct の付け忘れ、App Store リンクの追加（released-apps.json に ID があるもの）、プライバシーへのリンク切れ
@@ -40,9 +41,10 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 
 ## 次にやること
 1. **Google Play 候補の判断材料**: 公開済みアプリごとに、App Store アナリティクスの ct=seadice の数字を記録する表を作る（数字はユーザーから受け取る）
-2. **p/privacy/ がない body-language-scan・lifeisrpg、ページがない tetsujin-friends を確かめる**（released-apps.json の誤りか、ページ未作成か）
+2. **プライバシーページを作る（body-language-scan・lifeisrpg）**: /privacy/ 一覧と lifeisrpg のフッターから /privacy/body-language-scan/・/privacy/lifeisrpg/ にリンクしているが、ページが存在しない（git履歴にもなし）。収集データ（AI送信の有無など）をアプリ側で確かめてから read タイプで作る。tetsujin-friends は p/tools/tetsujin-chat（名前が哲人チャット）と同じアプリか確かめ、同じなら released-apps.json かページ名をそろえて App Store リンクを足す
 3. **公開済みアプリで「もとになった研究」欄がないもの（40件）を一覧にし、/evidence で足せるものから足す**
 
 ## やったこと
 - 2026-10-12: 点検。released-apps.json 46件のうち、App Store リンクなし 13件・ct なし 5件・「もとになった研究」欄なし 40件（欄があるのは5件）・プライバシーなし 2件（body-language-scan, lifeisrpg）・ページなし 1件（tetsujin-friends）
 - 2026-10-12: ct=seadice を 5ページに付け、リンクがなかった13ページ（book-quiz ほか）に App Storeで見る を追加。「準備中」の文言3ページを「公開中」に修正
+- 2026-10-12: 再点検（46件: App Storeリンクなし0・ctなし0・研究欄なし40・privacyなし2・ページ名違い1）。privacy 2件は /privacy/ 一覧とlifeisrpgフッターからリンクされているのに存在しない（リンク切れ）。内容の事実確認が要るため作らず manual.md へ
