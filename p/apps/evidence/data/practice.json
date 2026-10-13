@@ -14,7 +14,8 @@
     "right-left-brain": {"name": "右脳派・左脳派診断の答え合わせ", "catch": "右脳派・左脳派の診断が当たると感じる理由を確かめる", "url": "https://seadice.win/diagnosis/right-left-brain/", "type": "web"},
     "life-satisfaction": {"name": "人生満足度診断（5問）", "catch": "幸福研究で使われる尺度で、今の満足度を点数にする", "url": "https://seadice.win/diagnosis/life-satisfaction/", "type": "web"},
     "suimin-fusai": {"name": "睡眠負債チェック", "catch": "平日の睡眠不足と、寝だめで補えるかを計算する", "url": "https://seadice.win/tools/suimin-fusai/", "type": "web"},
-    "saki-ni-ugoku": {"name": "先に動く5分タイマー", "catch": "やる気を待たずに5分だけ動き、前後の気分を記録する", "url": "https://seadice.win/tools/saki-ni-ugoku/", "type": "web"}
+    "saki-ni-ugoku": {"name": "先に動く5分タイマー", "catch": "やる気を待たずに5分だけ動き、前後の気分を記録する", "url": "https://seadice.win/tools/saki-ni-ugoku/", "type": "web"},
+    "karada-meyasu": {"name": "1日の目安チェック", "catch": "歩数・タンパク質・水分を、研究でわかった目安とくらべる", "url": "https://seadice.win/tools/karada-meyasu/", "type": "web"}
   },
   "categories": {
     "睡眠": "hiru10",
@@ -45,6 +46,12 @@
     "japan-early-bird": "suimin-fusai",
     "appetite-sleep-deprivation-meta": "suimin-fusai",
     "kokoro-sleep-improve-mental": "suimin-fusai",
-    "replication-ego-depletion": "saki-ni-ugoku"
+    "replication-ego-depletion": "saki-ni-ugoku",
+    "myth-10000-steps": "karada-meyasu",
+    "body-steps-7000-meta": "karada-meyasu",
+    "myth-protein-golden-time": "karada-meyasu",
+    "body-protein-amount-1-6g": "karada-meyasu",
+    "myth-water-8-glasses": "karada-meyasu",
+    "myth-coffee-dehydration": "karada-meyasu"
   }
 }
