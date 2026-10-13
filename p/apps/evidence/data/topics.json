@@ -1,5 +1,176 @@
 [
   {
+    "id": "kokoro-best-possible-self-ai-future-optimism",
+    "category": "幸福の科学",
+    "kind": "研究紹介",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Carrillo A, et al., \"Effects of the Best Possible Self intervention: A systematic review and meta-analysis\" (PLoS One, 2019)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0222386",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/best-possible-self-ai-future/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よくある悩み",
+        "title": "将来のことを考えると悪い想像ばかり",
+        "body": "AIで仕事がどうなるか考え出すと、うまくいかない展開ばかり浮かぶ。前向きな見通しって、練習で育てられるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「うまくいった未来の自分」を書く練習",
+        "body": "努力を重ねて、すべてがうまくいった将来の自分を書く練習。前日の出来事など中立的なことを書く人と比べた29件の研究、合計2,909人分をまとめた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "楽観性や前向きな気分が少し高まった",
+        "body": "楽観性（d=0.33）や幸福感が高まり、前向きな気分（d=0.51）がいちばん大きく上がっていたらしい。書いたあとに思い描く時間があってもなくても、幸福感への効果に確かな差はなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "落ち込みが減るかははっきりしない",
+        "body": "落ち込みや否定的な気分への効果は小さく、落ち込みを測った研究は少なかった。29件のうち23件は大学生が対象で、働く大人やAIの不安が強い人で効くかはまだわからないよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-best-possible-self-ai-future-optimism"
+  },
+  {
+    "id": "kokoro-bath-soak-fatigue-recover-tub-vs-shower",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Goto Y, Hayasaka S, Kurihara S, Nakamura Y, \"Physical and Mental Effects of Bathing: A Randomized Intervention Study\" (Evidence-Based Complementary and Alternative Medicine, 2018)",
+    "sourceUrl": "https://doi.org/10.1155/2018/9521086",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/bath-soak-fatigue-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "疲れたら湯船につかるといい？",
+        "body": "「シャワーだけじゃ疲れが取れない」ってよく聞くよね。じゃあ実際、湯船とシャワーで何か違うのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人で2週間ずつ比べた",
+        "body": "日本の健康な大人38人が、40℃のお湯に10分つかる2週間と、シャワーだけの2週間を、順番を入れかえて両方やってみた実験があるんだ。最後まで答えたのは33人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "疲れとストレスの点数が低め",
+        "body": "湯船の期間は、疲れの点数（0〜100）が平均42.0、シャワーの期間は52.2。ストレスも39.2と50.7で、湯船のほうが低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな実験で、思い込みも混ざるかも",
+        "body": "人数が少なく、自分がどちらをしているか隠せない実験。別の質問票（気分の検査）では疲れの差は出なかった。参加者は健康に関心のあるサイトで集めた平均45.7歳の人たちで、ほかの人にも当てはまるかはわからないよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/body-myths/#kokoro-bath-soak-fatigue-recover-tub-vs-shower"
+  },
+  {
+    "id": "kokoro-touch-hug-stress-relief-robot-touch",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Packheiser J, Hartmann H, Fredriksen K, Gazzola V, Keysers C, Michon F, \"A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions\" (Nature Human Behaviour, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-024-01841-8",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/touch-hug-stress-relief/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ロボットになでられても癒やされる？",
+        "body": "人と触れ合う機会が減ると、ロボットやぬいぐるみで代わりになるのかな、って気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "137件の研究をまとめた分析",
+        "body": "マッサージやなでるなど「触れる」方法と、触れない方法を比べた研究137件をまとめた分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "人のほうが心には効いていた",
+        "body": "人に触れられると、大人の落ち込みは中くらい（効果の大きさ0.59）和らいでいた。心への効果は人からが0.58、ロボットや物からは0.34で、小さめだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "触れたかは隠せない",
+        "body": "触れたかどうかを参加者に隠せない研究ばかりで、小さな研究ほど効果が大きく出る偏りもあった。大人の研究の多くはマッサージで、心への効果は病気のある人（0.63）のほうが健康な人（0.37）より大きかったよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-touch-hug-stress-relief-robot-touch"
+  },
+  {
+    "id": "lang-foreign-language-effect-decision",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Circi R, Gatti D, Russo V, Vecchi T, \"The foreign language effect on decision-making: A meta-analysis\" (Psychonomic Bulletin & Review, 2021)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-020-01871-z",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "外国語で考えると、判断が変わる？",
+        "body": "英語で話していると、日本語のときよりさばさばした答えを出しちゃう気がする…。使う言葉で、選ぶ答えって変わるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "17本の論文、47の実験をまとめた",
+        "body": "母語と外国語で、同じ問題に答えてもらった実験をまとめた研究があるんだ。道徳のジレンマ（誰かを犠牲にするか）が38、損得の賭け（リスクを取るか）が9の実験。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "外国語だと選び方が変わっていた",
+        "body": "外国語で答えると、より多くを救うために害を受け入れやすくなり、リスクを避ける傾向は弱まっていたらしい。外国語の上手さで差はなく、母語と似た言葉かどうかで効果が変わっていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験の問題の外ではまだ不明",
+        "body": "まとめたのは、実験で出された問題への答え。仕事や買い物など、ふだんの大事な決断でも同じことが起きるかは、この分析だけではわからない。なぜ変わるのかの仕組みもまだ議論の途中だよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/language-learning/#lang-foreign-language-effect-decision"
+  },
+  {
+    "id": "game-prolonged-gaming-teen-sleep",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "King DL, Gradisar M, Drummond A, et al., \"The impact of prolonged violent video-gaming on adolescent sleep: an experimental study\" (Journal of Sleep Research, 2013)",
+    "sourceUrl": "https://doi.org/10.1111/j.1365-2869.2012.01060.x",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝る前にゲームを長くやると、眠りは悪くなる？",
+        "body": "「寝る前のゲームはやめなさい」ってよく言われるよね。いつもの時間に寝るなら、長めに遊んでも平気なのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "睡眠の実験室で2晩くらべた",
+        "body": "眠りに悩みのない16歳前後の男子17人が、寝る前に激しいアクションゲームを50分やった夜と150分やった夜を、睡眠の実験室で比べた研究があるんだ。寝る時間はどちらもいつもどおり。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "長く遊んだ夜は、睡眠が約27分短く",
+        "body": "150分の夜は、測った睡眠時間が平均27分短く、寝つくまでの時間は自己申告で17分長かったらしい。ぐっすり感も下がった。ただ、心拍数には差がなく、興奮が理由とは言えなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "17人・一晩ずつの小さな実験",
+        "body": "男子17人だけ、1種類の暴力的なゲームで、それぞれ一晩ずつの比較。比べたのは「50分と150分」で、ゲームをしない夜とは比べていない。女子や大人、穏やかなゲーム、毎晩続けた場合はまだわからないよ。"
+      }
+    ],
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/games/#game-prolonged-gaming-teen-sleep"
+  },
+  {
     "id": "kokoro-phone-always-bored-smartphone-break-boredom",
     "category": "スマホとSNS",
     "kind": "よくある説",
@@ -2844,6 +3015,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "音楽なしの時に、前向きな気分と作業の質がもっとも低く、作業時間がもっとも長かった。気分が上がることが仕事への好影響の理由と考えられている。業種は開発者に限られる。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人たちを週ごとに比べた研究",
+        "body": "対象はカナダの4社で働くソフトウェア開発者56人だけ。くじ引きで分けたのではなく、同じ人たちの週ごとの違いを比べた職場の研究で、音楽を止めたことを本人も知っていた。ほかの仕事や、自分で選んだ曲以外でも同じかはわからない。"
       }
     ],
     "quiz": {
@@ -2914,7 +3090,7 @@
     "category": "色彩心理",
     "themeColor": "#FACC15",
     "sourceLabel": "Lichtenfeld, Elliot, Maier & Pekrun, \"Fertile Green: Green Facilitates Creative Performance\" (Personality and Social Psychology Bulletin, 2012)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22427383/",
+    "sourceUrl": "https://doi.org/10.1177/0146167212436611",
     "cards": [
       {
         "stage": "結論",
@@ -2930,6 +3106,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "4つの実験すべてで緑の群は創造的な成績が高く、気分や活性化の自己評価には差がなかった。ただし色彩心理の効果は再現されないことも多く、慎重に見るべき結果。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一瞬見ただけの実験室の話",
+        "body": "どの実験も、課題の直前に色を一瞬見せた実験室の話。部屋や服が緑だと、ふだんの発想が豊かになるかは調べていない。気分には差がなく、なぜ緑で上がるのかもわからない。4つとも同じ研究チームの実験だよ。"
       }
     ],
     "quiz": {
