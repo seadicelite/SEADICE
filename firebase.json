@@ -3053,6 +3053,41 @@
     ],
     "redirects": [
       {
+        "source": "/evidence/money-life/moneylife-cash-transfer-work/**",
+        "destination": "/evidence/money/moneylife-cash-transfer-work/",
+        "type": 301
+      },
+      {
+        "source": "/evidence/money-life/moneylife-cashless-overspending/**",
+        "destination": "/evidence/money/moneylife-cashless-overspending/",
+        "type": 301
+      },
+      {
+        "source": "/evidence/money-life/**",
+        "destination": "/evidence/money/",
+        "type": 301
+      },
+      {
+        "source": "/evidence/kids-learning/kids-english-early-start/**",
+        "destination": "/evidence/parenting/kids-english-early-start/",
+        "type": 301
+      },
+      {
+        "source": "/evidence/kids-learning/kids-homework-achievement/**",
+        "destination": "/evidence/parenting/kids-homework-achievement/",
+        "type": 301
+      },
+      {
+        "source": "/evidence/kids-learning/kids-parent-homework-help/**",
+        "destination": "/evidence/parenting/kids-parent-homework-help/",
+        "type": 301
+      },
+      {
+        "source": "/evidence/kids-learning/**",
+        "destination": "/evidence/parenting/",
+        "type": 301
+      },
+      {
         "source": "/tools/ura-memo/**",
         "destination": "/tools/decoy-notes/",
         "type": 301

@@ -19911,9 +19911,9 @@
   },
   {
     "id": "moneylife-cashless-overspending",
-    "category": "お金とくらしの数字",
+    "category": "お金の心理学",
     "kind": "よく聞く説",
-    "themeColor": "#10B981",
+    "themeColor": "#65A30D",
     "sourceLabel": "Schomburgk, Belli & Hoffmann, \"Less cash, more splash? A meta-analysis on the cashless effect\" (Journal of Retailing, 2024)",
     "sourceUrl": "https://doi.org/10.1016/j.jretai.2024.05.003",
     "studyType": "メタ分析",
@@ -19948,13 +19948,13 @@
         "why": "メタ分析のもとになった種類の実験。カード払いだと入札額がほぼ2倍になった"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/money-life/moneylife-cashless-overspending/"
+    "webUrl": "https://seadice.win/evidence/money/moneylife-cashless-overspending/"
   },
   {
     "id": "moneylife-scarcity-cognition",
-    "category": "お金とくらしの数字",
+    "category": "お金の心理学",
     "kind": "よく聞く説",
-    "themeColor": "#10B981",
+    "themeColor": "#65A30D",
     "sourceLabel": "de Almeida et al., \"Financial scarcity and cognitive performance: A meta-analysis\" (Journal of Economic Psychology, 2024)",
     "sourceUrl": "https://doi.org/10.1016/j.joep.2024.102702",
     "studyType": "メタ分析",
@@ -19980,13 +19980,13 @@
         "body": "このまとめには、関係を見ただけの調査も多い。お金の心配を思い出させると成績が下がるかを試した実験だけをまとめた2024年の別の分析では、効果はないか、あってもごく小さく、データが少なすぎて強くは言えないとされた。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/money-life/#moneylife-scarcity-cognition"
+    "webUrl": "https://seadice.win/evidence/money/#moneylife-scarcity-cognition"
   },
   {
     "id": "moneylife-cash-transfer-work",
-    "category": "お金とくらしの数字",
+    "category": "お金の心理学",
     "kind": "よく聞く説",
-    "themeColor": "#10B981",
+    "themeColor": "#65A30D",
     "sourceLabel": "Banerjee, Hanna, Kreindler & Olken, \"Debunking the Stereotype of the Lazy Welfare Recipient: Evidence from Cash Transfer Programs\" (The World Bank Research Observer, 2017)",
     "sourceUrl": "https://doi.org/10.1093/wbro/lkx002",
     "studyType": "メタ分析",
@@ -20012,13 +20012,13 @@
         "body": "対象は途上国の貧しい家庭への給付。アメリカで低所得の1000人に月1000ドルを3年配った2024年の実験では、働く時間が週1〜2時間減ったと報告されている。国や金額、配り方で結果は変わりうる。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/money-life/moneylife-cash-transfer-work/"
+    "webUrl": "https://seadice.win/evidence/money/moneylife-cash-transfer-work/"
   },
   {
     "id": "kids-english-early-start",
-    "category": "子どもの学び",
+    "category": "子育ての科学",
     "kind": "よく聞く説",
-    "themeColor": "#A855F7",
+    "themeColor": "#FCA5A5",
     "sourceLabel": "Jaekel, Schurig, Florian & Ritter, \"From Early Starters to Late Finishers? A Longitudinal Study of Early Foreign Language Learning in School\" (Language Learning, 2017)",
     "sourceUrl": "https://doi.org/10.1111/lang.12242",
     "studyType": "観察研究",
@@ -20044,13 +20044,13 @@
         "body": "比べたのはドイツの2つの集団で、くじで分けた実験ではない。測ったのは聞く・読む力で、話す力は見ていない。授業のやり方や家での英語など、学校の外の事情で結果が変わることもありうる。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/kids-learning/kids-english-early-start/"
+    "webUrl": "https://seadice.win/evidence/parenting/kids-english-early-start/"
   },
   {
     "id": "kids-homework-achievement",
-    "category": "子どもの学び",
+    "category": "子育ての科学",
     "kind": "素朴な疑問",
-    "themeColor": "#A855F7",
+    "themeColor": "#FCA5A5",
     "sourceLabel": "Cooper, Robinson & Patall, \"Does Homework Improve Academic Achievement? A Synthesis of Research, 1987–2003\" (Review of Educational Research, 2006)",
     "sourceUrl": "https://doi.org/10.3102/00346543076001001",
     "studyType": "メタ分析",
@@ -20083,13 +20083,13 @@
         "why": "宿題そのものの効果に続けて、親がどう関わるとよいかを調べたメタ分析"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/kids-learning/kids-homework-achievement/"
+    "webUrl": "https://seadice.win/evidence/parenting/kids-homework-achievement/"
   },
   {
     "id": "kids-parent-homework-help",
-    "category": "子どもの学び",
+    "category": "子育ての科学",
     "kind": "素朴な疑問",
-    "themeColor": "#A855F7",
+    "themeColor": "#FCA5A5",
     "sourceLabel": "Patall, Cooper & Robinson, \"Parent Involvement in Homework: A Research Synthesis\" (Review of Educational Research, 2008)",
     "sourceUrl": "https://doi.org/10.3102/0034654308325185",
     "studyType": "メタ分析",
@@ -20122,6 +20122,6 @@
         "why": "同じ研究チームによる、宿題そのものが成績に効くかをまとめた研究"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/kids-learning/kids-parent-homework-help/"
+    "webUrl": "https://seadice.win/evidence/parenting/kids-parent-homework-help/"
   }
 ]
