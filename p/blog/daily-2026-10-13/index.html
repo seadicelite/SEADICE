@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10月13日の開発日誌 — 公開中のアプリの説明を実態に合わせ直し、メディアを19件足した日 | SEADICE</title>
+<meta name="description" content="SEADICEの2026年10月13日の作業記録。公開中アプリのプライバシーポリシー29本を実態に合わせ、sitemapの漏れ16件を検査で止め、安心QRを端末内で完結する形に戻した。メディア側では記事・柱ページ・出典照合など19件を追加した日と、そこから学んだ5つのこと。">
+<link rel="canonical" href="https://seadice.win/blog/daily-2026-10-13/">
+<meta property="og:title" content="10月13日の開発日誌 — 公開中のアプリの説明を実態に合わせ直し、メディアを19件足した日 | SEADICE">
+<meta property="og:description" content="SEADICEの2026年10月13日の作業記録。公開中アプリのプライバシーポリシー29本を実態に合わせ、sitemapの漏れ16件を検査で止め、安心QRを端末内で完結する形に戻した。メディア側では記事・柱ページ・出典照合など19件を追加した日と、そこから学んだ5つのこと。">
+<meta property="og:url" content="https://seadice.win/blog/daily-2026-10-13/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="10月13日の開発日誌 — 公開中のアプリの説明を実態に合わせ直し、メディアを19件足した日 | SEADICE">
+<meta name="twitter:description" content="SEADICEの2026年10月13日の作業記録。公開中アプリのプライバシーポリシー29本を実態に合わせ、sitemapの漏れ16件を検査で止め、安心QRを端末内で完結する形に戻した。メディア側では記事・柱ページ・出典照合など19件を追加した日と、そこから学んだ5つのこと。">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "10月13日の開発日誌 — 公開中のアプリの説明を実態に合わせ直し、メディアを19件足した日", "datePublished": "2026-10-14", "dateModified": "2026-10-14", "author": {"@type": "Organization", "name": "SEADICE"}, "publisher": {"@id":"https://seadice.win/#organization","@type": "Organization", "name": "SEADICE", "url": "https://seadice.win"}, "url": "https://seadice.win/blog/daily-2026-10-13/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SEADICE", "item": "https://seadice.win/"}, {"@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://seadice.win/blog/"}, {"@type": "ListItem", "position": 3, "name": "10月13日の開発日誌", "item": "https://seadice.win/blog/daily-2026-10-13/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:12px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:12px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+<style id="blog-theme">/*blog-theme:v1*/body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;font-feature-settings:"palt" 1}::selection{background:rgba(0,255,209,.28);color:#fff}article{max-width:720px;padding:112px 24px 88px}.breadcrumb{font-size:12px;letter-spacing:.04em;margin-bottom:28px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tag{border-radius:999px;padding:3px 12px;font-weight:700;letter-spacing:.12em;background:rgba(0,255,209,.06);margin-bottom:18px}h1{font-size:clamp(25px,5.2vw,38px);line-height:1.45;letter-spacing:.01em;margin-bottom:20px}.meta{display:flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:.04em;margin-bottom:48px;padding-bottom:28px}.meta::before{content:"";width:24px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--accent2))}.body{font-size:16.5px;letter-spacing:.03em}.body>p:first-child{font-size:17.5px;line-height:2;color:#e2e8f0;margin-top:0}.body p{margin:0 0 1.5em;font-size:16.5px;line-height:2;color:#cfd8e3}.body h2{position:relative;font-size:clamp(20px,3.6vw,24px);line-height:1.5;letter-spacing:.02em;color:#f1f5f9;margin:64px 0 20px;padding:0 0 14px;border-bottom:1px solid var(--border)}.body h2::after{content:"";position:absolute;left:0;bottom:-1px;width:56px;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent2))}.body h3{font-size:18px;line-height:1.6;color:#f1f5f9;margin:40px 0 12px;padding-left:14px;border-left:3px solid var(--accent)}.body ul,.body ol{margin:0 0 1.6em;padding-left:1.4em}.body li{font-size:16px;line-height:1.9;color:#cfd8e3;margin:.5em 0;padding-left:.2em}.body ul li::marker{color:var(--accent)}.body ol li::marker{color:var(--accent);font-weight:700}.body strong{color:#fff;background:linear-gradient(transparent 62%,rgba(0,255,209,.2) 62%)}.body a:not(.tool-cta):not(.back){color:#7dd3fc;text-decoration:underline;text-decoration-color:rgba(125,211,252,.4);text-underline-offset:3px;transition:text-decoration-color .2s}.body a:not(.tool-cta):not(.back):hover{text-decoration-color:#7dd3fc}.body code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:#12122a;border:1px solid #23234a;border-radius:6px;padding:.12em .45em;color:#e2e8f0;word-break:break-all}.body pre{background:#0a0a18;border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin:0 0 1.6em;overflow-x:auto;font-size:13.5px;line-height:1.7}.body pre code{background:none;border:0;padding:0;word-break:normal}.body blockquote{margin:0 0 1.6em;padding:4px 0 4px 20px;border-left:3px solid var(--accent2);color:#94a3b8}.body hr{margin:56px auto;width:56px;border-top:2px solid var(--border)}.body img{max-width:100%;height:auto;border-radius:12px}.note{background:linear-gradient(135deg,rgba(0,255,209,.07),rgba(56,189,248,.04));border:1px solid rgba(0,255,209,.18);border-left:3px solid var(--accent);border-radius:12px;padding:18px 22px;margin:0 0 1.6em}.note p{font-size:15px;line-height:1.9;color:#b6c2d1;margin:0}.table-wrap{margin:0 0 1.8em;border:1px solid var(--border);border-radius:12px}.table-wrap table{font-size:14.5px}.table-wrap th{font-size:13px;letter-spacing:.04em;padding:12px 16px;white-space:nowrap}.table-wrap td{padding:12px 16px;line-height:1.7}.table-wrap tbody tr:nth-child(even) td{background:rgba(255,255,255,.015)}.tool-cta{position:relative;border:1px solid rgba(0,255,209,.35);border-radius:16px;padding:22px 26px;margin:48px 0 8px;background:linear-gradient(135deg,rgba(0,255,209,.08),rgba(56,189,248,.05)),var(--card);transition:border-color .2s,transform .2s}.tool-cta:hover{border-color:var(--accent);transform:translateY(-2px)}.tool-cta p{margin:0}.tool-cta p:last-child{line-height:1.7}.back{margin-top:40px;border:1px solid var(--border);border-radius:999px;padding:10px 18px;transition:border-color .2s,color .2s}.back:hover{border-color:var(--muted)}@supports (animation-timeline:scroll()){body::after{content:"";position:fixed;top:56px;left:0;right:0;height:2px;z-index:101;background:linear-gradient(90deg,var(--accent),var(--accent2));transform-origin:0 50%;transform:scaleX(0);animation:blog-progress linear both;animation-timeline:scroll(root)}@keyframes blog-progress{to{transform:scaleX(1)}}}@media (max-width:600px){article{padding:96px 20px 72px}.body,.body p{font-size:16px;line-height:1.95}.body>p:first-child{font-size:16.5px}.body li{font-size:15.5px}.body h2{margin-top:52px}}@media (prefers-reduced-motion:reduce){body::after{display:none}.tool-cta:hover{transform:none}}</style>
+<style id="sd-design">:root{--sd-bg:#05050C;--sd-surface:#0C0C1A;--sd-surface2:#11112a;--sd-line:#1a1a2e;--sd-line2:#2a2a44;--sd-text:#e2e8f0;--sd-text2:#b6c0cf;--sd-muted:#7c8aa0;--sd-accent:#00FFD1;--sd-accent2:#38BDF8;--sd-link:#7dd3fc;--sd-g:16px}@media(min-width:600px){:root{--sd-g:24px}}@media(min-width:960px){:root{--sd-g:32px}}html{-webkit-text-size-adjust:100%}html,body{overflow-x:clip}body{overflow-wrap:break-word}img,video{max-width:100%;height:auto}:focus-visible{outline:2px solid var(--sd-accent);outline-offset:3px}body:is(.t-read,.t-show,.t-use) .nav-logo,body:is(.t-read,.t-show,.t-use) .logo-text{background:none;-webkit-text-fill-color:currentColor;color:var(--sd-accent)}body:is(.t-read,.t-show,.t-use) :is(.tool-cta a,.btn,.cta a,.add){background:var(--sd-accent);color:#05050C;box-shadow:none;border-radius:6px}body:is(.t-read,.t-show,.t-use) :is(.card,.tool-cta,.info-box,.evidence,.ev-media,.cta,.stat-box,.app,.sd-tool){border-radius:8px;box-shadow:none}body:is(.t-read,.t-show,.t-use) :is(.badge,.tag,.app-badge){border-radius:4px}body:is(.t-read,.t-show,.t-use) h1 span{color:inherit}body.t-read article,body.t-read main.read{max-width:calc(660px + var(--sd-g)*2);margin:0 auto;padding-left:var(--sd-g);padding-right:var(--sd-g)}body.t-read h1{line-height:1.4;letter-spacing:.01em}body.t-read .body p,body.t-read .body li{font-size:16px;line-height:1.95;letter-spacing:.02em;color:#d5dce6}body.t-read .body p{margin:1.1em 0}body.t-read .body ul,body.t-read .body ol{padding-left:1.4em;margin:1em 0}body.t-read .body li{margin:.4em 0}body.t-read .body h2{font-size:clamp(20px,4.8vw,24px);line-height:1.5;color:var(--sd-text);margin:2.6em 0 .6em;padding-left:12px;border-left:3px solid var(--sd-accent)}body.t-read .body h3{font-size:18px;line-height:1.5;margin:2em 0 .4em}body.t-read .body a{color:var(--sd-link)}body.t-read .body table{display:block;overflow-x:auto;max-width:100%}@media(min-width:600px){body.t-read .body p,body.t-read .body li{font-size:17px}}</style></head>
+<body class="t-read">
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 10月13日の開発日誌</p>
+  <span class="tag">日誌</span>
+  <h1>10月13日の開発日誌<br>— 公開中のアプリの説明を実態に合わせ直し、メディアを19件足した日</h1>
+  <p class="meta"><time datetime="2026-10-13">2026-10-13</time> · SEADICE</p>
+  <div class="body">
+
+<p>2026年10月13日のSEADICEは、公開中のアプリの説明を、実際のアプリの中身に合わせて直した日だった。広告を載せていないのにプライバシーポリシーが広告配信と書いていた27件と、AIを外したのにAIへ送ると書いていた4件を直した。ほかに、sitemapの漏れを防ぐ検査と、<a href="/tools/qr-guard/">安心QR</a>の作り直しがあった。</p>
+
+<h2>やったこと</h2>
+<p>SEADICE本体で47件、メディア側で19件のコミットがあった。主なものは次のとおり。</p>
+<div class="table-wrap"><table>
+<thead><tr><th>分野</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td>プライバシー</td><td>コードに広告がないのに「AdMobで広告を配信する」と書いていたポリシー27件と、AIを外したのに「Claude APIに送る」と書いていた4件を実態に合わせた（詳しくは<a href="/blog/privacy-mismatch-admob-27-claude-4/">プライバシーポリシー29本、消したAdMobと送っていないClaude APIをまだ書いていた</a>）。あわせて<a href="/privacy/">ポリシーの一覧</a>と照合し、コードのない171件などを次にやることに記録した</td></tr>
+<tr><td>サイトの土台</td><td>sitemapに入っていなかった公開済みアプリのページ16件を追加し、漏れがあるとデプロイ前の検査で止まるようにした。1つの&lt;url&gt;に&lt;loc&gt;が2つあった2か所も直した。削除済みアプリのページを指していたrewrite 228件を外し、<code>/apps/{id}/</code> を <code>/tools/{id}/</code> へ301で移した</td></tr>
+<tr><td>安心QR</td><td>QRコードのアプリの名前を「安心QR」にし、見出しを「AI時代の詐欺QRを、開く前にチェック」に変えた。Googleの危険サイト情報に問い合わせる案はやめ、端末の中で「よく見られているサイトか」を照合する形に戻し、ページにも「どこにも送らない」と書いた。審査担当が各チェックを試せるテスト用ページ（noindex）も作った</td></tr>
+<tr><td>診断・アプリ</td><td><a href="/diagnosis/attachment-style/">愛着スタイル診断</a>を、日本語版ECR-RSの9問で新設した。アプリ側は1.1.0（AIなし）に合わせ、紹介ページとポリシーを更新して申請を手動タスクに入れた。やめラボ1.1.0の申請済みも反映した</td></tr>
+<tr><td>トップとルール</td><td>トップの特徴を「AI時代に安心して使える」を加えた4つにし、3つの特徴と7ヶ条をヒーローの直下に移した。7ヶ条は第1・5・6条の文言を直した。CLAUDE.mdには、悩みの検索語で1位を取る価値を明記した</td></tr>
+<tr><td>EVIDENCE</td><td>5本ずつ追加する作業を3回行い、「まだわからないこと」の点検を2回目まで進めた（40本にカード追加、18か所修正）。同じ論文の重複4組を1本にまとめ、出典をDOIにそろえるルールを足した</td></tr>
+<tr><td>メディア</td><td>AI時代のメンタルヘルス（kokoro）が7件、AI時代の困りごと（ai）が5件、research 3件、子育て・独学がそれぞれ2件。子育てには、よく聞く7つの説を記事の出典で判定する柱ページ <code>/ai-era-parenting/</code> を作った。aiでは公開後の出典照合6本で訂正30件を記録した</td></tr>
+</tbody></table></div>
+
+<h2>なぜ公開中のポリシーを一斉に直したのか</h2>
+<p>プライバシーポリシーは、アプリの中身と食い違った時点で、読んだ人をだます文章になるからだ。新しいことを足すより先に、すでに公開しているものを正しくする方を優先した。</p>
+<ul>
+<li><strong>広告は載せない</strong>のがSEADICEの約束なのに、ポリシーだけが広告配信と書いていた</li>
+<li><strong>AIを外した</strong>公開中の1.1.0が何も送っていないのに、ポリシーは送ると書いていた</li>
+</ul>
+
+<h2>学んだこと</h2>
+<ol>
+<li><strong>説明は、コードを見て書き直す</strong>。ポリシーの食い違いは、コードに広告がないことを確かめて初めて見つかった。前に書いた文章は、アプリを変えたあとも残る</li>
+<li><strong>漏れは、検査で止める</strong>。sitemapから公開済みページ16件が抜けていた。直すだけでなく、漏れがあるとデプロイが止まる検査を足した</li>
+<li><strong>「どこにも送らない」は、機能より先に守る</strong>。安心QRは、Googleの危険サイト情報に問い合わせる案を試したあと、端末の中で照合する形に戻した。信頼できる説明を保つため、精度よりも送らないことを残した</li>
+<li><strong>同じ論文は、1本にまとめる</strong>。EVIDENCEに、同じ論文を別のトピックとして載せたものが4組あった。重複は数字を水増しするので、1本にして出典をDOIにそろえた</li>
+<li><strong>公開後に出典を照合すると、直す所が出る</strong>。ai側の6本の照合で訂正が30件あった。書いた時点で確かめても、公開後にもう一度当たる価値がある</li>
+</ol>
+
+<h2>次にやること</h2>
+<ul>
+<li>プライバシーポリシーのうち、コードが見当たらない171件を、公開中かどうかから確かめる</li>
+<li>フィードバック送信を使うアプリで、ポリシーに送信の説明が抜けていないか確かめる</li>
+<li>EVIDENCEで、「まだわからないこと」が未記入のトピックを埋める</li>
+<li>11月の数字（アプリへの送客）をもとに、Life's RPGの行き先を決める</li>
+</ul>
+
+<a class="tool-cta" href="/tools/qr-guard/">
+  <p>Tool</p>
+  <p>開く前に、詐欺QRかどうかを端末の中でチェックする 安心QR を見る →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE · <a href="/about/">運営者情報</a></p></footer>
+</body>
+</html>
