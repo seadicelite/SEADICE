@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10月11日の開発日誌 — 研究と比べる診断を3本足し、SEADICEの7ヶ条を公開した日 | SEADICE</title>
+<meta name="description" content="SEADICEの2026年10月11日の作業記録。認知反射テスト・トロッコ問題・損失回避度チェックの3診断を研究の数字と比べられる形で追加し、運営の約束を10ヶ条から7ヶ条に整理して公開した。Decoy Notes・Spendology・防犯フィルター、そこから学んだ5つのこと。">
+<link rel="canonical" href="https://seadice.win/blog/daily-2026-10-11/">
+<meta property="og:title" content="10月11日の開発日誌 — 研究と比べる診断を3本足し、SEADICEの7ヶ条を公開した日 | SEADICE">
+<meta property="og:description" content="SEADICEの2026年10月11日の作業記録。認知反射テスト・トロッコ問題・損失回避度チェックの3診断を研究の数字と比べられる形で追加し、運営の約束を10ヶ条から7ヶ条に整理して公開した。Decoy Notes・Spendology・防犯フィルター、そこから学んだ5つのこと。">
+<meta property="og:url" content="https://seadice.win/blog/daily-2026-10-11/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="10月11日の開発日誌 — 研究と比べる診断を3本足し、SEADICEの7ヶ条を公開した日 | SEADICE">
+<meta name="twitter:description" content="SEADICEの2026年10月11日の作業記録。認知反射テスト・トロッコ問題・損失回避度チェックの3診断を研究の数字と比べられる形で追加し、運営の約束を10ヶ条から7ヶ条に整理して公開した。Decoy Notes・Spendology・防犯フィルター、そこから学んだ5つのこと。">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "10月11日の開発日誌 — 研究と比べる診断を3本足し、SEADICEの7ヶ条を公開した日", "datePublished": "2026-10-13", "dateModified": "2026-10-13", "author": {"@type": "Organization", "name": "SEADICE"}, "publisher": {"@id":"https://seadice.win/#organization","@type": "Organization", "name": "SEADICE", "url": "https://seadice.win"}, "url": "https://seadice.win/blog/daily-2026-10-11/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SEADICE", "item": "https://seadice.win/"}, {"@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://seadice.win/blog/"}, {"@type": "ListItem", "position": 3, "name": "10月11日の開発日誌", "item": "https://seadice.win/blog/daily-2026-10-11/"}]}]}</script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.8);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}article{max-width:680px;margin:0 auto;padding:96px 24px 80px}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:24px}.breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--text)}.tag{display:inline-block;font-size:12px;letter-spacing:.1em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 8px;margin-bottom:12px}h1{font-size:clamp(24px,5vw,36px);font-weight:800;line-height:1.2;margin-bottom:16px}.meta{font-size:12px;color:var(--muted);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border)}.body h2{font-size:22px;font-weight:800;margin:40px 0 12px;color:var(--accent)}.body h3{font-size:17px;font-weight:700;margin:28px 0 8px}.body p{margin:14px 0;font-size:15px;color:#cbd5e1;line-height:1.8}.body ul,.body ol{padding-left:24px;margin:10px 0}.body li{margin:6px 0;font-size:15px;color:#cbd5e1}.body strong{color:var(--text);font-weight:700}.body hr{border:none;border-top:1px solid var(--border);margin:32px 0}.note{background:rgba(0,255,209,.05);border:1px solid rgba(0,255,209,.2);border-radius:10px;padding:16px 20px;margin:20px 0}.note p{margin:0;font-size:14px;color:#94a3b8}.table-wrap{overflow-x:auto;margin:20px 0}.table-wrap table{width:100%;border-collapse:collapse;font-size:14px}.table-wrap th{background:var(--card);color:var(--accent);font-weight:700;padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}.table-wrap td{padding:10px 14px;border-bottom:1px solid var(--border);color:#cbd5e1;vertical-align:top}.table-wrap tr:last-child td{border-bottom:none}.tool-cta{display:block;background:var(--card);border:1px solid var(--accent);border-radius:12px;padding:20px 24px;margin:32px 0;text-decoration:none}.tool-cta p:first-child{font-size:12px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}.tool-cta p:last-child{font-size:15px;color:var(--text);font-weight:700}.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;margin-top:48px;padding:10px 0}.back:hover{color:var(--text)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}</style>
+<style id="blog-theme">/*blog-theme:v1*/body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;font-feature-settings:"palt" 1}::selection{background:rgba(0,255,209,.28);color:#fff}article{max-width:720px;padding:112px 24px 88px}.breadcrumb{font-size:12px;letter-spacing:.04em;margin-bottom:28px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tag{border-radius:999px;padding:3px 12px;font-weight:700;letter-spacing:.12em;background:rgba(0,255,209,.06);margin-bottom:18px}h1{font-size:clamp(25px,5.2vw,38px);line-height:1.45;letter-spacing:.01em;margin-bottom:20px}.meta{display:flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:.04em;margin-bottom:48px;padding-bottom:28px}.meta::before{content:"";width:24px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--accent2))}.body{font-size:16.5px;letter-spacing:.03em}.body>p:first-child{font-size:17.5px;line-height:2;color:#e2e8f0;margin-top:0}.body p{margin:0 0 1.5em;font-size:16.5px;line-height:2;color:#cfd8e3}.body h2{position:relative;font-size:clamp(20px,3.6vw,24px);line-height:1.5;letter-spacing:.02em;color:#f1f5f9;margin:64px 0 20px;padding:0 0 14px;border-bottom:1px solid var(--border)}.body h2::after{content:"";position:absolute;left:0;bottom:-1px;width:56px;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent2))}.body h3{font-size:18px;line-height:1.6;color:#f1f5f9;margin:40px 0 12px;padding-left:14px;border-left:3px solid var(--accent)}.body ul,.body ol{margin:0 0 1.6em;padding-left:1.4em}.body li{font-size:16px;line-height:1.9;color:#cfd8e3;margin:.5em 0;padding-left:.2em}.body ul li::marker{color:var(--accent)}.body ol li::marker{color:var(--accent);font-weight:700}.body strong{color:#fff;background:linear-gradient(transparent 62%,rgba(0,255,209,.2) 62%)}.body a:not(.tool-cta):not(.back){color:#7dd3fc;text-decoration:underline;text-decoration-color:rgba(125,211,252,.4);text-underline-offset:3px;transition:text-decoration-color .2s}.body a:not(.tool-cta):not(.back):hover{text-decoration-color:#7dd3fc}.body code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:#12122a;border:1px solid #23234a;border-radius:6px;padding:.12em .45em;color:#e2e8f0;word-break:break-all}.body pre{background:#0a0a18;border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin:0 0 1.6em;overflow-x:auto;font-size:13.5px;line-height:1.7}.body pre code{background:none;border:0;padding:0;word-break:normal}.body blockquote{margin:0 0 1.6em;padding:4px 0 4px 20px;border-left:3px solid var(--accent2);color:#94a3b8}.body hr{margin:56px auto;width:56px;border-top:2px solid var(--border)}.body img{max-width:100%;height:auto;border-radius:12px}.note{background:linear-gradient(135deg,rgba(0,255,209,.07),rgba(56,189,248,.04));border:1px solid rgba(0,255,209,.18);border-left:3px solid var(--accent);border-radius:12px;padding:18px 22px;margin:0 0 1.6em}.note p{font-size:15px;line-height:1.9;color:#b6c2d1;margin:0}.table-wrap{margin:0 0 1.8em;border:1px solid var(--border);border-radius:12px}.table-wrap table{font-size:14.5px}.table-wrap th{font-size:13px;letter-spacing:.04em;padding:12px 16px;white-space:nowrap}.table-wrap td{padding:12px 16px;line-height:1.7}.table-wrap tbody tr:nth-child(even) td{background:rgba(255,255,255,.015)}.tool-cta{position:relative;border:1px solid rgba(0,255,209,.35);border-radius:16px;padding:22px 26px;margin:48px 0 8px;background:linear-gradient(135deg,rgba(0,255,209,.08),rgba(56,189,248,.05)),var(--card);transition:border-color .2s,transform .2s}.tool-cta:hover{border-color:var(--accent);transform:translateY(-2px)}.tool-cta p{margin:0}.tool-cta p:last-child{line-height:1.7}.back{margin-top:40px;border:1px solid var(--border);border-radius:999px;padding:10px 18px;transition:border-color .2s,color .2s}.back:hover{border-color:var(--muted)}@supports (animation-timeline:scroll()){body::after{content:"";position:fixed;top:56px;left:0;right:0;height:2px;z-index:101;background:linear-gradient(90deg,var(--accent),var(--accent2));transform-origin:0 50%;transform:scaleX(0);animation:blog-progress linear both;animation-timeline:scroll(root)}@keyframes blog-progress{to{transform:scaleX(1)}}}@media (max-width:600px){article{padding:96px 20px 72px}.body,.body p{font-size:16px;line-height:1.95}.body>p:first-child{font-size:16.5px}.body li{font-size:15.5px}.body h2{margin-top:52px}}@media (prefers-reduced-motion:reduce){body::after{display:none}.tool-cta:hover{transform:none}}</style>
+<style id="sd-design">:root{--sd-bg:#05050C;--sd-surface:#0C0C1A;--sd-surface2:#11112a;--sd-line:#1a1a2e;--sd-line2:#2a2a44;--sd-text:#e2e8f0;--sd-text2:#b6c0cf;--sd-muted:#7c8aa0;--sd-accent:#00FFD1;--sd-accent2:#38BDF8;--sd-link:#7dd3fc;--sd-g:16px}@media(min-width:600px){:root{--sd-g:24px}}@media(min-width:960px){:root{--sd-g:32px}}html{-webkit-text-size-adjust:100%}html,body{overflow-x:clip}body{overflow-wrap:break-word}img,video{max-width:100%;height:auto}:focus-visible{outline:2px solid var(--sd-accent);outline-offset:3px}body:is(.t-read,.t-show,.t-use) .nav-logo,body:is(.t-read,.t-show,.t-use) .logo-text{background:none;-webkit-text-fill-color:currentColor;color:var(--sd-accent)}body:is(.t-read,.t-show,.t-use) :is(.tool-cta a,.btn,.cta a,.add){background:var(--sd-accent);color:#05050C;box-shadow:none;border-radius:6px}body:is(.t-read,.t-show,.t-use) :is(.card,.tool-cta,.info-box,.evidence,.ev-media,.cta,.stat-box,.app,.sd-tool){border-radius:8px;box-shadow:none}body:is(.t-read,.t-show,.t-use) :is(.badge,.tag,.app-badge){border-radius:4px}body:is(.t-read,.t-show,.t-use) h1 span{color:inherit}body.t-read article,body.t-read main.read{max-width:calc(660px + var(--sd-g)*2);margin:0 auto;padding-left:var(--sd-g);padding-right:var(--sd-g)}body.t-read h1{line-height:1.4;letter-spacing:.01em}body.t-read .body p,body.t-read .body li{font-size:16px;line-height:1.95;letter-spacing:.02em;color:#d5dce6}body.t-read .body p{margin:1.1em 0}body.t-read .body ul,body.t-read .body ol{padding-left:1.4em;margin:1em 0}body.t-read .body li{margin:.4em 0}body.t-read .body h2{font-size:clamp(20px,4.8vw,24px);line-height:1.5;color:var(--sd-text);margin:2.6em 0 .6em;padding-left:12px;border-left:3px solid var(--sd-accent)}body.t-read .body h3{font-size:18px;line-height:1.5;margin:2em 0 .4em}body.t-read .body a{color:var(--sd-link)}body.t-read .body table{display:block;overflow-x:auto;max-width:100%}@media(min-width:600px){body.t-read .body p,body.t-read .body li{font-size:17px}}</style></head>
+<body class="t-read">
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="/blog/" style="font-size:13px;color:var(--muted);text-decoration:none">Blog</a>
+</nav>
+<article>
+  <p class="breadcrumb"><a href="/">HOME</a> / <a href="/blog/">BLOG</a> / 10月11日の開発日誌</p>
+  <span class="tag">日誌</span>
+  <h1>10月11日の開発日誌<br>— 研究と比べる診断を3本足し、SEADICEの7ヶ条を公開した日</h1>
+  <p class="meta"><time datetime="2026-10-11">2026-10-11</time> · SEADICE</p>
+  <div class="body">
+
+<p>2026年10月11日のSEADICEは、研究の数字と比べられる診断を3本足し、運営の約束を<a href="/promise/">SEADICEの7ヶ条</a>として公開した日だった。約束は最初10ヶ条で出し、その日のうちに重なる条を統合して7ヶ条にした。メディアでは、お金と心理とAI時代のメンタルヘルスが100本を超えたので、記事の自動執筆を止めた。</p>
+
+<h2>やったこと</h2>
+<p>SEADICE本体で34件、メディア側で90件のコミットがあった。主なものは次のとおり。</p>
+<div class="table-wrap"><table>
+<thead><tr><th>分野</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td>診断</td><td><a href="/diagnosis/crt/">認知反射テスト</a>（バットとボール問題）、<a href="/diagnosis/trolley/">トロッコ問題</a>（42か国・約7万人の回答と比較）、<a href="/diagnosis/loss-aversion/">損失回避度チェック</a>（150論文の平均と比較）を追加した。全診断にSNS共有用の画像を付け、古い画像を1枚0.7〜1.5MBから約70KBにした。<a href="/diagnosis/profile/">診断プロフィール帳</a>の画像が10本目で切れる不具合も直した</td></tr>
+<tr><td>約束</td><td><a href="/promise/">SEADICEの7ヶ条</a>を公開した。1条目は「ユーザーに誠実である」で、できないこと・根拠の弱さ・間違いを隠さず書く。トップページ・アプリ一覧・EVIDENCE一覧から入れるようにし、JSON-LDの運営方針にもつないだ</td></tr>
+<tr><td>ツール</td><td><a href="/tools/decoy-notes/">Decoy Notes</a>を公開した。正しい合言葉で本物、違う合言葉でダミーのメモが開くメモ帳で、本物は暗号化してブラウザの中だけに保存する。ホーム画面に追加でき、自動ロックとバックアップの書き出しも付けた</td></tr>
+<tr><td>アプリ</td><td>衝動買い対策アプリを<a href="/tools/spendology/">Spendology</a>に改名し、旧URLは301で転送した。家族のための防犯フィルター（Safari拡張）の紹介ページと、ブロックリストを毎日配信する仕組みを作った。恋愛の科学・EVIDENCE・好奇心タイプ診断の紹介ページも更新した</td></tr>
+<tr><td>メディア</td><td>お金と心理が35件で最も多く、用語集を4語から31語にし、ツール一覧をトップの最上部に置いた。全メディアで、ツールとアプリを記事の冒頭とトップの目立つ場所に出すようにした。独学の科学に「悩み13行×段階5列」の表を入れ、デジタル探偵に匿名の相談窓口を作った</td></tr>
+<tr><td>自動執筆</td><td>AI時代のメンタルヘルスとお金と心理が100本を超えたので、記事の自動執筆を止めた。出典の点検は続ける</td></tr>
+</tbody></table></div>
+
+<h2>なぜ診断に研究の数字を並べたのか</h2>
+<p>自分の結果だけでは、それが多いのか少ないのか分からないからだ。研究の数字と並べると、診断が「当たった・外れた」で終わらず、人と比べた位置が分かる。</p>
+<ul>
+<li><strong>認知反射テスト</strong>: 直感で出しやすい答えも表示し、行動経済学講座の「速い思考と遅い思考」へつなぐ</li>
+<li><strong>トロッコ問題</strong>: 3つの場面ごとに、レバーを引く81%・回り込み72%・突き落とし51%（Awadら, 2020）と比べる</li>
+<li><strong>損失回避度チェック</strong>: 損を得の何倍に感じるかを出し、150論文の平均1.955（Brownら, 2024）と比べる。この数字に反論するレビューがあることも書いた</li>
+</ul>
+
+<h2>学んだこと</h2>
+<p>今日は、約束の書き方と、名前を変えるときの手順で学びがあった。</p>
+<ol>
+<li><strong>約束は、守り方まで書けないなら条にしない</strong>。10ヶ条は似た条が重なっていて、守り方を書くと同じ文になった。統合して7ヶ条にした。いきさつは<a href="/blog/promise-10-to-7-same-day/">SEADICEの10ヶ条、公開から6時間で7ヶ条に減った</a>に書いた</li>
+<li><strong>「すべて無料」とは書かない</strong>。将来の有料機能と矛盾するので、「基本の機能は無料」に直した。約束は、あとで破らずに済む言い方で書く</li>
+<li><strong>名前を変えたら、旧URLは必ず転送する</strong>。Spendology と Decoy Notes は公開後に改名したが、どちらも旧URLを301で新しいURLへ送った。リンクやアプリに埋め込んだURLが切れない</li>
+<li><strong>SNS画像は小さくできる</strong>。1枚1MB前後あった画像を約70KBにしても、見た目は変わらなかった。容量と読み込みの両方に効く</li>
+<li><strong>記事は100本で一区切りにする</strong>。本数を増やし続けるより、テーマ×段階の表の空いたマスを埋め、出典の点検を続けるほうが読む人の役に立つ</li>
+</ol>
+
+<h2>次にやること</h2>
+<ul>
+<li>診断を、信ぴょう性AやBで研究の数字と比べられるものから増やす</li>
+<li>防犯フィルターと恋愛の科学の申請を進める</li>
+<li>自動執筆を止めたメディアは、表の空いたマスと古い記事の手入れに切り替える</li>
+</ul>
+
+<a class="tool-cta" href="/diagnosis/loss-aversion/">
+  <p>Diagnosis</p>
+  <p>損失回避度チェック（150論文の平均と比べる）を試す →</p>
+</a>
+
+    <a class="back" href="/blog/">← ブログ一覧に戻る</a>
+  </div>
+</article>
+<footer><p>&copy; 2026 SEADICE · <a href="/about/">運営者情報</a></p></footer>
+</body>
+</html>
