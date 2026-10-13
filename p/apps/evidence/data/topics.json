@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-why-similar-words-get-mixed-up-semantic-sets",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Nakata & Suzuki, \"Effects of massing and spacing on the learning of semantically related and unrelated words\" (Studies in Second Language Acquisition, 2019)",
+    "sourceUrl": "https://doi.org/10.1017/S0272263118000219",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-similar-words-get-mixed-up/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "果物の単語をまとめて覚えると混ざる？",
+        "body": "単語帳の「果物」のページをまとめて覚えたら、梨とぶどうがごっちゃに。似た単語は一緒に覚えた方が整理できそうなのに、なぜだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "似た単語とばらばらの単語を比べた",
+        "body": "日本の大学生133人が英単語と日本語訳48組を覚えた実験。半分は意味の近い単語、半分はばらばらの単語にして、テストの結果を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "点数は同じ、でも取り違えが多い",
+        "body": "最後のテストの正答数には差がなかった。でも意味の近い単語では、同じグループの別の単語と取り違える誤りが多かった。間をあけて復習する効果は、ばらばらの単語の方で大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何千語も覚える独学でも同じか",
+        "body": "日本の大学生が48組の単語を覚えた実験の話。何か月もかけて何千語も覚えていく独学で同じになるかは、まだはっきりしていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-similar-words-get-mixed-up-semantic-sets"
+  },
+  {
+    "id": "kokoro-work-confidence-recover-praise-fades",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Peifer C, Schönfeld P, Wolters G, Aust F, Margraf J, \"Well Done! Effects of Positive Feedback on Perceived Self-Efficacy, Flow and Performance in a Mental Arithmetic Task\" (Frontiers in Psychology, 2020)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2020.01008",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/work-confidence-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "褒めれば自信がつく",
+        "body": "「褒めて伸ばす」ってよく言うよね。実際、褒め言葉で自信はどれくらい上がって、どれくらい続くんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5分間の暗算の実験",
+        "body": "ドイツの大学生を中心とした102人に暗算をしてもらい、半分の人にだけ「平均より成績がよかった」と伝えた。実は成績とは関係なく、決まった文だったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "上がったけれど、差は縮んだ",
+        "body": "何も言われなかった人は自信が100点中約55点から約49点に下がり、褒められた人は約54点から約57点に上がった。でも次の暗算のあとは、約49点と約51点まで差が縮んでいたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の暗算の話",
+        "body": "課題は5分間の暗算で、仕事の場面とは違う。褒め言葉も実際の成績にもとづいたものではなかったから、本当の仕事ぶりを認められたときと同じかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-work-confidence-recover-ai-praise",
+        "type": "あわせて読む",
+        "why": "人からの褒め言葉の実験と、AIとの対話で仕事の自信が変わるかを見た実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-work-confidence-recover-praise-fades"
+  },
+  {
+    "id": "research-affect-labeling-name-your-feelings-research-predict",
+    "category": "こころの不調",
+    "kind": "素朴な疑問",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Lieberman et al., \"Subjective responses to emotional stimuli during labeling, reappraisal, and distraction\" (Emotion, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0023503",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/affect-labeling-name-your-feelings-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "気持ちを言葉にすると楽になる？",
+        "body": "嫌な気持ちを「不安」「イライラ」と言葉にしたら、かえってつらくなりそうな気がするよね。実際どうなのか、4つの実験で調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "嫌な写真に言葉を選ぶ",
+        "body": "嫌な写真を見ながら、写真の下の2つの言葉から気持ちに合うほうを選んでもらったよ。ただ見るだけのときと、苦痛の感じ方を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "苦痛は小さくなったのに",
+        "body": "言葉を選んだほうが苦痛は小さくて、気持ちをとらえ直す方法と同じくらいだったらしい。でも参加者は、体験した後でも「言葉にするとつらくなる」と予想していたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の2択の話",
+        "body": "2択の言葉を選ぶ実験室の課題で、日常で自分の言葉にする場合と同じかはわからないんだ。楽しい写真では、楽しさも小さくなったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#research-affect-labeling-name-your-feelings-research-predict"
+  },
+  {
+    "id": "speech-filler-uh-recall",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Fraundorf & Watson, \"The disfluent discourse: Effects of filled pauses on recall\" (Journal of Memory and Language, 2011)",
+    "sourceUrl": "https://doi.org/10.1016/j.jml.2011.03.004",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「えーと」が多いと、話は伝わらない？",
+        "body": "話し方のコツでは「えー」「あのー」は減らそう、とよく言われるよね。でも聞く側の記憶にはどう響くのか、実際に試した研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "物語の録音に「えー」を差し込んだ",
+        "body": "『不思議の国のアリス』をもとにした話の録音に、英語の「えー」にあたる uh や um、または同じ長さの咳を編集で差し込んで、聞いた人がどれだけ思い出せるかを2つの実験で比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「えー」があると、むしろよく覚えていた",
+        "body": "「えー」が入ると話の中身をよく思い出せて、同じ長さの咳では逆に思い出しにくくなったらしい。間ができたからではなく、「えー」が話に注意を向けさせるのでは、と研究者は考えているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "印象や日本語は別の話",
+        "body": "調べたのは録音した物語の覚えやすさだけ。話し手が自信なさそうに聞こえるかなどの印象は測っていないし、英語の実験なので、日本語の「えーと」で同じかもわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-filler-uh-recall"
+  },
+  {
+    "id": "net-fake-news-sharing-age",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Guess, Nagler & Tucker, \"Less than you think: Prevalence and predictors of fake news dissemination on Facebook\" (Science Advances, 2019)",
+    "sourceUrl": "https://doi.org/10.1126/sciadv.aau4586",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "フェイクニュースを広めるのは若い人？",
+        "body": "ネットにどっぷりの若い人ほどデマをシェアしそう、と思うことってあるよね。アンケートの答えではなく、実際のシェアの記録で調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アンケートとFacebookの記録をつなげた",
+        "body": "2016年のアメリカ大統領選のとき、アンケートに答えた3500人のうち、同意した1331人のFacebookの記録を見て、偽ニュースを流すサイトの記事をシェアしたかを数えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "シェアは少数、多かったのは65歳以上",
+        "body": "偽ニュースのサイトの記事を1本でもシェアした人は8.5%で、9割以上は0本だった。学歴や政治的な立場などをそろえても、65歳以上はいちばん若い世代の約7倍シェアしていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ年配の人に多いのかは未解明",
+        "body": "2016年のアメリカのFacebookだけを見た観察研究で、理由はわからない。ネットの情報を見分ける力の差か、見ているニュースの違いかは確かめられていないし、別の数え方では3〜4倍だったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#net-fake-news-sharing-age"
+  },
+  {
     "id": "research-procrastination-self-help-not-working-research-single-advice",
     "category": "先延ばし対策",
     "kind": "よくある説",
@@ -480,7 +653,14 @@
         "body": "測ったのは1回の対話の直後だけで、効果が続くかはわからない。何も対話しないグループとは比べていないし、職場の支えは実験で変えたものではないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/ai/#kokoro-work-confidence-recover-ai-praise"
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-work-confidence-recover-ai-praise",
+    "links": [
+      {
+        "id": "kokoro-work-confidence-recover-praise-fades",
+        "type": "あわせて読む",
+        "why": "AIとの対話の実験と、人からの褒め言葉で自信がどう変わり、どう薄れるかを見た実験"
+      }
+    ]
   },
   {
     "id": "exercise-runners-high-endorphin",
@@ -5023,7 +5203,12 @@
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "どちらの筋トレ群も対照群よりストループ課題の成績が有意に向上した。頻度による明確な差は、この研究では示されなかった。"
+        "body": "どちらの筋トレ群も、対照群よりストループ課題の成績がはっきりよくなった（週1回で12.6%、週2回で10.9%、対照群は0.5%低下）。頻度による明確な差は、この研究では示されなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "高齢女性155人の1つの試験",
+        "body": "対象はバンクーバーに住む65〜75歳の女性155人だけで、男性や若い人で同じかはわからない。筋トレ群では脳全体の体積が対照群より小さくなっていて、その意味もまだはっきりしていないんだ。"
       }
     ],
     "quiz": {
@@ -5402,6 +5587,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "6つの実験を通じて、笑ったあとの痛みの閾値は対照条件より有意に高かった。気分が良くなっただけでは説明できない効果だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "エンドルフィンは仮説のまま",
+        "body": "痛みへの強さを、エンドルフィンが出たかどうかの目安として測っただけで、エンドルフィンそのものは測っていない。論文の題も「関連がある」で、笑いが痛みを和らげる仕組みはまだ仮説の段階だよ。"
       }
     ],
     "quiz": {
