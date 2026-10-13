@@ -414,7 +414,13 @@
       "name": "やめラボ",
       "genre": "digital-wellbeing",
       "appStoreId": "6796585558",
-      "appStoreUrl": "https://apps.apple.com/app/id6796585558"
+      "appStoreUrl": "https://apps.apple.com/app/id6796585558",
+      "media": [
+        {
+          "site": "research",
+          "hub": "https://research.seadice.win/apps/yame-lab/"
+        }
+      ]
     }
   ]
 }
