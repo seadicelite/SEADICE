@@ -30,7 +30,7 @@
     block.className = 'q-block';
     var lead = document.createElement('p');
     lead.className = 'q-lead';
-    lead.textContent = data.lead;
+    lead.textContent = pickLabel ? data.pick.lead.replace('{label}', pickLabel) : data.lead;
     block.appendChild(lead);
     var title = document.createElement('p');
     title.className = 'q-title';
@@ -78,6 +78,8 @@
   var NORM_KEY = 'seadice_diag_norm_v1';
   var HIST_KEY = 'seadice_diag_history_v1';
   var norms = data.norms, normSel = null, scores = null;
+  // pick: 答える前に「誰について答えるか」などを選ぶ（norms の軸と連動。履歴も選んだもの別）
+  var pickLabel = '';
   if (norms) {
     normSel = norms.default.split('|');
     try { var ns = (JSON.parse(localStorage.getItem(NORM_KEY)) || {})[slug]; if (ns && norms.groups[ns]) normSel = ns.split('|'); } catch (e) {}
@@ -120,10 +122,11 @@
     // 前回の結果（端末内の履歴）とくらべてから、今回を足す
     var prevScores = null, prevAt = '';
     try {
-      var h = loadHist(), list = h[slug] || [];
+      var hk = slug + (pickLabel ? '|' + normSel[data.pick.axis] : '');
+      var h = loadHist(), list = h[hk] || [];
       if (list.length) { prevScores = list[list.length - 1].scores; prevAt = list[list.length - 1].at; }
       list.push({at: today(), scores: scores});
-      h[slug] = list.slice(-20);
+      h[hk] = list.slice(-20);
       localStorage.setItem(HIST_KEY, JSON.stringify(h));
     } catch (e) {}
     var diffEl = resultEl.querySelector('.sc-diff');
@@ -157,6 +160,7 @@
       note.parentNode.insertBefore(box, note);
     }
     box.innerHTML = '<p class="norm-title">くらべる相手</p>' + norms.axes.map(function(ax, ai){
+      if (data.pick && ai === data.pick.axis) return '';
       return '<div class="norm-row" role="group" aria-label="' + ax.label + '"><span class="norm-ax">' + ax.label + '</span>' + ax.options.map(function(o){
         return '<button type="button" class="norm-chip" data-ax="' + ai + '" data-id="' + o[0] + '" aria-pressed="' + (normSel[ai] === o[0]) + '">' + o[1] + '</button>';
       }).join('') + '</div>';
@@ -194,7 +198,9 @@
       if (t.tori) tori.push(t.tori);
     });
 
-    if (ng) {
+    if (ng && norms.who) {
+      resultEl.querySelector('.sc-note').textContent = 'バーの縦線は' + norms.who.replace('{0}', labelOf(0, normSel[0])).replace('{1}', labelOf(1, normSel[1])) + 'です。';
+    } else if (ng) {
       var who = normSel[0] === norms.studentId ? norms.studentLabel : labelOf(0, normSel[0]) + (ng.fallback || normSel[1] === norms.axes[1].options[0][0] ? '' : 'の' + labelOf(1, normSel[1])) + 'の平均（' + norms.adultSource + '）';
       resultEl.querySelector('.sc-note').textContent = '各' + data.keys[Object.keys(data.keys)[0]].min + '〜' + data.keys[Object.keys(data.keys)[0]].max + '点。バーの縦線は' + who + 'です。' + (ng.fallback ? '大学生は男女別の平均がないため、男女あわせた平均とくらべています。' : '');
     }
@@ -204,6 +210,26 @@
     if (toriBox) toriBox.style.display = tori.length ? '' : 'none';
 
     var summary = data.summary(top, data.keys);
+    var color = data.keys[top.k].color;
+    // quadrant: 2つの尺度の高低で4つの型に分ける（区切りは cut × 項目数）
+    var q = data.quadrant;
+    if (q) {
+      var xs = scores[q.x], ys = scores[q.y], kx = data.keys[q.x], ky = data.keys[q.y];
+      var cx = q.cut * kx.min, cy = q.cut * ky.min;
+      var t = q.types[(ys > cy ? '1' : '0') + (xs > cx ? '1' : '0')];
+      summary = t.name + (pickLabel ? '（' + pickLabel + '）' : '');
+      color = t.color;
+      var px = (xs - kx.min) / (kx.max - kx.min) * 100, py = (ys - ky.min) / (ky.max - ky.min) * 100;
+      var mx = (cx - kx.min) / (kx.max - kx.min) * 100, my = (cy - ky.min) / (ky.max - ky.min) * 100;
+      resultEl.querySelector('.quad').innerHTML = '<p class="quad-name" style="color:' + t.color + '">' + t.name + '</p><p class="quad-desc">' + t.desc + '</p>' +
+        '<p class="quad-ylab">↑ ' + ky.name + ' 高い</p><div class="quad-map" role="img" aria-label="' + kx.name + ' ' + xs + '点、' + ky.name + ' ' + ys + '点。' + t.name + 'の位置">' +
+        Object.keys(q.types).map(function(c){ return '<span class="quad-cell quad-' + c + '"' + (q.types[c] === t ? ' data-on' : '') + '>' + q.types[c].name + '</span>'; }).join('') +
+        '<i class="quad-vx" style="left:' + mx + '%"></i><i class="quad-hy" style="bottom:' + my + '%"></i><b class="quad-dot" style="left:' + px + '%;bottom:' + py + '%;background:' + t.color + '"></b></div>' +
+        '<p class="quad-axis"><span>← ' + kx.name + ' 低い</span><span>高い →</span></p>';
+      if (t.tori) tori.unshift(t.tori);
+      resultEl.querySelector('.tori-list').innerHTML = tori.map(function(x){ return '<li>' + x + '</li>'; }).join('');
+      if (toriBox) toriBox.style.display = '';
+    }
     var shareText = encodeURIComponent(data.shareTitle + ' → ' + summary);
     var url = encodeURIComponent(location.href);
     resultEl.querySelector('.share-twitter').href = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + url;
@@ -212,7 +238,7 @@
     var saved = false;
     try {
       var p = loadProfile();
-      p[slug] = {key: top.k, name: summary, color: data.keys[top.k].color, at: today(), scores: scores};
+      p[slug] = {key: top.k, name: summary, color: color, at: today(), scores: scores};
       localStorage.setItem(PROFILE_KEY, JSON.stringify(p));
       saved = true;
     } catch (e) {}
@@ -239,6 +265,21 @@
       prevEl.innerHTML = '前回の結果: <b style="color:' + prev.color + '">' + prev.name + '</b>（' + prev.at + '）';
       startBtn.parentNode.insertBefore(prevEl, startBtn.nextSibling);
     }
+  }
+
+  if (data.pick && norms) {
+    var chips = document.querySelectorAll('.pick-chip');
+    var setPick = function(btn){
+      chips.forEach(function(c){ c.setAttribute('aria-pressed', c === btn); });
+      normSel[data.pick.axis] = btn.dataset.id;
+      pickLabel = btn.textContent;
+      renderQuestion();
+    };
+    chips.forEach(function(btn){
+      btn.addEventListener('click', function(){ setPick(btn); });
+      if (btn.dataset.id === normSel[data.pick.axis]) setPick(btn);
+    });
+    if (!pickLabel && chips.length) setPick(chips[0]);
   }
 
   startBtn.addEventListener('click', function(){
