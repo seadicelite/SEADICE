@@ -1,5 +1,192 @@
 [
   {
+    "id": "research-procrastination-self-forgiveness-recovery-research-treatment-meta",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Rozental A et al., \"Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis\" (Frontiers in Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2018.01588",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/procrastination-self-forgiveness-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "先延ばしは性格だから、どうにもならない？",
+        "body": "「先延ばしぐせは直らない」ってよく聞くよね。でも実は、先延ばしを減らすための心理的な支援が、ランダム化比較試験でいくつも試されているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12件の試験、718人をまとめた",
+        "body": "先延ばしへの心理的な支援を、何もしない群などと比べた試験を集めて分析した研究。12件の試験、合わせて718人のデータをまとめているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "全体では小さめ、認知行動療法は中くらい",
+        "body": "支援全体の効果の大きさは g＝0.34で小さめ。認知行動療法の試験だけにしぼると g＝0.55で、中くらいの効果だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "認知行動療法の試験はまだ3件だけ",
+        "body": "中くらいの効果が出た認知行動療法の分析は3件の試験だけがもと。全体では試験ごとの結果のばらつきが大きく、効果はどれも本人の答え（自己申告）で測っていた。"
+      }
+    ],
+    "links": [
+      {
+        "id": "procrastination-self-forgiveness",
+        "type": "あわせて読む",
+        "why": "先延ばしへの支援の効果と、先延ばしした自分を許すことの研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-self-forgiveness-recovery-research-treatment-meta"
+  },
+  {
+    "id": "dokugaku-adult-relearning-plan-sheet-public-goal",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Epton et al., \"Unique effects of setting goals on behavior change: Systematic review and meta-analysis\" (Journal of Consulting and Clinical Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/ccp0000260",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/adult-relearning-plan-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "目標は人に言わない方が叶う？",
+        "body": "「目標は口に出すと満足して達成できなくなる」って聞いたことがあるよね。じゃあ、黙っておいた方がいいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "141本の論文をまとめた",
+        "body": "目標を決めることの効果を調べたランダム化比較試験を集めたメタ分析があるよ。141本の論文、1万6523人分のデータをまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "公表した目標の方が効果が大きかった",
+        "body": "目標を決めることには小さいながら効果があった（d=0.34）。しかも、目標がむずかしいとき、人に公表したとき、グループの目標のときに効果が大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強の目標でも同じ？",
+        "body": "いろいろな行動を変える研究をまとめた分析で、勉強だけを調べたものではないよ。誰にどう伝えるのが一番いいかも、この分析だけではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "habit-implementation-intentions",
+        "type": "あわせて読む",
+        "why": "目標を決める効果と、「もし〜したら」と実行の計画まで決める効果"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#dokugaku-adult-relearning-plan-sheet-public-goal"
+  },
+  {
+    "id": "dokugaku-changing-answers-exam-review-first-instinct",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Bauer et al., \"Answer changing in multiple choice assessment: change that answer when in doubt – and spread the word!\" (BMC Medical Education, 2007)",
+    "sourceUrl": "https://doi.org/10.1186/1472-6920-7-28",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/changing-answers-exam-review/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "最初の答えを信じろ？",
+        "body": "選択式の試験で迷ったら、最初に選んだ答えを変えない方がいい。そう聞いたことがあるよね。本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "医学生79人の答案を見た",
+        "body": "ドイツの医学生79人が期末試験（78問）で答えを変えた跡を、全部記録して調べた研究がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "変えると誤り→正解が多かった",
+        "body": "変えた答えは平均で48.2%が誤り→正解、21.6%が正解→誤り。変えた学生は平均1.4点上がった。でも2回目以降の変更ではほとんど上がらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの試験でも同じ？",
+        "body": "ドイツの1つの大学で、1回の選択式の試験を調べた結果。答えを変えた跡は学生が自分で印をつけたもの。記述式や、ほかの試験でも同じかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-changing-answers-exam-review-first-instinct"
+  },
+  {
+    "id": "weather-moon-phase-sleep",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Casiraghi L et al., \"Moonstruck sleep: Synchronization of human sleep with the moon cycle under field conditions\" (Science Advances, 2021)",
+    "sourceUrl": "https://doi.org/10.1126/sciadv.abe0465",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "満月の夜は眠れない？",
+        "body": "「満月の夜は寝つきが悪い」って聞いたことあるよね。月の満ち欠けと眠りの関係は、研究者のあいだでも意見が分かれてきたテーマなんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "手首の計測器で眠りを記録",
+        "body": "アルゼンチンの先住民トバ/コムの3つの地域（電気のない所も含む）の98人と、アメリカ・シアトルの大学生464人の眠りを、手首につける計測器で記録して月の周期と比べたんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "満月の数日前は、寝るのが遅く短くなった",
+        "body": "日が暮れた後に月が明るい満月前の夜は、寝つく時刻が遅く、睡眠も短かった。トバ/コムの地域では、月明かりのある夜はない夜より11〜25分ほど短かったらしい。都会の大学生にも似た周期があった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "月明かりが原因とは言い切れない",
+        "body": "観察研究なので原因まではわからない。明かりの多い都会の大学生で同じ周期が出た理由も、まだ説明がついていない。眠りは手首の動きから推定したもので、脳波は測っていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-full-moon-births",
+        "type": "あわせて読む",
+        "why": "満月の言い伝えを、睡眠ではなく出産の数で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-moon-phase-sleep"
+  },
+  {
+    "id": "game-online-meeting-marriage",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Cacioppo JT et al., \"Marital satisfaction and break-ups differ across on-line and off-line meeting venues\" (PNAS, 2013)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1222447110",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ネットで出会った夫婦は長続きしない？",
+        "body": "「ネットの出会いは軽い」「すぐ別れる」って言う人もいるよね。実際、ネットで出会って結婚した人たちはどうなっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカで結婚した1万9131人に聞いた",
+        "body": "2005〜2012年に結婚したアメリカの1万9131人に、相手とどこで出会ったか、別居・離婚したか、結婚の満足度をたずねた全国調査だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ネットで出会った方が、少しだけ別れにくかった",
+        "body": "結婚の3分の1以上がネットで始まっていた。別居・離婚はネットで出会った人が5.96%、それ以外が7.67%。年齢などの違いをそろえても差は残り、満足度も少し高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一度きりの調査で、依頼主は出会い系の会社",
+        "body": "結婚して長くて7年ほどの時点で一度聞いただけなので、長い目で見た離婚率はわからない。調査は結婚相談サイトの会社が依頼したもので、著者の一人はその会社の顧問だった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-online-meeting-marriage"
+  },
+  {
     "id": "research-wrong-answer-review-memory-research-feedback",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -3437,7 +3624,14 @@
     "articleUrl": "https://research.seadice.win/if-then-planning-habit-research/",
     "articleSite": "悩みの科学",
     "webUrl": "https://seadice.win/evidence/habits/#habit-implementation-intentions",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "dokugaku-adult-relearning-plan-sheet-public-goal",
+        "type": "あわせて読む",
+        "why": "目標を決める効果と、「もし〜したら」と実行の計画まで決める効果"
+      }
+    ]
   },
   {
     "id": "habit-context-cue",
@@ -3538,6 +3732,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "端末で読んだ夜は、寝つくまでが長く、夕方の眠気とメラトニン分泌が減り、体内時計が遅れ、翌朝の注意力も低下した。少人数の実験室での研究である。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室で、明るさ最大のiPadを4時間",
+        "body": "健康な若い大人12人が施設に泊まり、夕方6時から4時間、明るさ最大のiPadか紙の本で読んだ実験。ふだんの短い使い方や、子ども・年配の人でも同じくらいの影響かはわからない。"
       }
     ],
     "quiz": {
@@ -3588,6 +3787,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "ピンクノイズはレム睡眠を有意に減らし、騒音に足すと睡眠構造は全体として悪化した。耳栓はほとんどの騒音の影響を防いだ。短期の少人数研究で、長期使用の影響は未検証。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "25人が実験室で7晩眠った結果",
+        "body": "健康な成人25人（平均28.5歳）が実験室で眠った短い研究。何か月も使い続けたときや、子ども・眠りに悩む人、ほかの音量や音の種類で同じかは、まだ調べられていない。"
       }
     ],
     "quiz": {
@@ -5412,6 +5616,11 @@
         "id": "procrastination-self-compassion",
         "type": "あわせて読む",
         "why": "自分を許す・思いやることが先延ばしを減らす理由がわかる"
+      },
+      {
+        "id": "research-procrastination-self-forgiveness-recovery-research-treatment-meta",
+        "type": "あわせて読む",
+        "why": "先延ばしへの支援の効果と、先延ばしした自分を許すことの研究"
       }
     ]
   },
@@ -19472,7 +19681,14 @@
         "body": "調べたのはアメリカの1つの州の5年分で、出生証明書の記録をあとから数えた研究。ほかの国や時代で同じかは、別のデータで確かめる必要がある。「満月の夜は事件が増える」という説は、この研究では扱っていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/weather-mood/weather-full-moon-births/"
+    "webUrl": "https://seadice.win/evidence/weather-mood/weather-full-moon-births/",
+    "links": [
+      {
+        "id": "weather-moon-phase-sleep",
+        "type": "あわせて読む",
+        "why": "満月の言い伝えを、睡眠ではなく出産の数で確かめた研究"
+      }
+    ]
   },
   {
     "id": "weather-daily-mood",
