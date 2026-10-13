@@ -142,6 +142,18 @@ def main():
     app = a.app.resolve()
     md = (app / "APPSTORE_SUBMISSION.md").read_text()
     m = meta(md)
+    # 更新用の提出ファイル（変わった項目だけ）は、見出しのアプリ名と「ja:」のサブタイトルから読み、
+    # 足りない項目は APPSTORE_DRAFT.md（初回の下書き）から補う
+    if not m["name"]:
+        h = re.search(r"^#\s+(.+?)\s+\d+\.\d+", md, re.M)
+        m["name"] = h.group(1).strip() if h else ""
+    if not m["subtitle"]:
+        sub = re.search(r"^##\s*サブタイトル[^\n]*\n(?:.*\n)*?\s*ja\s*[:：]\s*(.+)$", md, re.M)
+        m["subtitle"] = sub.group(1).strip() if sub else ""
+    draft = app / "APPSTORE_DRAFT.md"
+    if draft.exists():
+        for k, v in meta(draft.read_text()).items():
+            m[k] = m[k] or v
     if not m["name"]:
         sys.exit("APPSTORE_SUBMISSION.md にアプリ名が見つかりません")
     icon_path = app / "assets/icon/icon.png"
