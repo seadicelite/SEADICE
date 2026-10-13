@@ -880,7 +880,9 @@
         "why": "行き詰まったら離れる効果のまとめと、歩きながら考える効果の実験"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/insight/#insight-walking-creativity"
+    "webUrl": "https://seadice.win/evidence/insight/#insight-walking-creativity",
+    "articleUrl": "https://research.seadice.win/walking-boosts-creativity/",
+    "articleSite": "悩みの科学"
   },
   {
     "id": "sleep-light-on-insulin",
@@ -3690,44 +3692,6 @@
         "why": "自然の効果は、短時間で大きく、ある量で頭打ちになる"
       }
     ]
-  },
-  {
-    "id": "exercise-walking-creativity",
-    "category": "運動と気分",
-    "themeColor": "#4ADE80",
-    "sourceLabel": "Oppezzo & Schwartz, \"Give Your Ideas Some Legs: The Positive Effect of Walking on Creative Thinking\" (Journal of Experimental Psychology: Learning, Memory, and Cognition, 2014)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24749966/",
-    "cards": [
-      {
-        "stage": "結論",
-        "title": "歩くとアイデアが出やすくなる？",
-        "body": "座っている時より歩いている時の方が、発想の広がりを測る課題の成績が高く、歩いた直後に座っても少し効果が残った。"
-      },
-      {
-        "stage": "研究",
-        "title": "どんな研究？",
-        "body": "スタンフォード大学の研究チームが、4つの実験で、座る・トレッドミルを歩く・屋外を歩く・車いすで屋外に出る条件で、創造的な発想を測る課題の成績を比べた。"
-      },
-      {
-        "stage": "結果",
-        "title": "分かったこと",
-        "body": "実験1では、歩くと発想課題の成績が上がった人が81%だった。屋外を歩くと、もっとも新しく質の高い類推が出た。ただし一つの答えを導く課題では効果が小さかった。"
-      },
-      {
-        "stage": "まだわからないこと",
-        "title": "仕事のアイデアも増える？",
-        "body": "大人が参加した短い発想課題の結果だよ。「たくさん思いつく」課題では上がったが、答えが1つに決まる課題で上がった人は23%だけ。仕事の成果や長い期間の創造性まで変わるかは調べていない。"
-      }
-    ],
-    "quiz": {
-      "q": "発想課題の成績が高かったのは？",
-      "correct": "座っている時より歩いている時",
-      "wrong": "歩いている時より座っている時"
-    },
-    "articleUrl": "https://research.seadice.win/walking-boosts-creativity/",
-    "articleSite": "悩みの科学",
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-walking-creativity",
-    "studyType": "実験"
   },
   {
     "id": "digital-facebook-deactivation",
@@ -8400,12 +8364,12 @@
       {
         "stage": "研究",
         "title": "どんな研究？",
-        "body": "大学生45人が交通事故の短い映像を7本見て、その後「車が(smashed/hit/contacted など)したとき、どれくらいの速度だったか」を推定しました。"
+        "body": "参加者が交通事故の短い映像を見て、そのあと「車が(smashed/hit/contacted など)したとき、どれくらいの速度だったか」と、動詞だけを変えた質問で速度を答えました。"
       },
       {
         "stage": "結果",
-        "title": "数字で見ると",
-        "body": "「激突(smashed)」と尋ねられた群の平均は時速40.8マイル、「接触(contacted)」は31.8マイルでした。映像は同じなのに差が出ました。"
+        "title": "強い言葉ほど、速く答えた",
+        "body": "「激突(smashed)」のような強い動詞で尋ねられた人ほど、車の速度を速く答えたと報告されています。映像は同じでした。なお原典の要旨と本文は確かめられておらず、人数や速度の数字は載せていません。"
       },
       {
         "stage": "まだわからないこと",
@@ -8432,6 +8396,11 @@
         "id": "hanzai-eyewitness-confidence",
         "type": "あわせて読む",
         "why": "質問の言い方で記憶は変わる。だから最初の1回の自信が大事になる"
+      },
+      {
+        "id": "memory-loftus-replication-hockey",
+        "type": "反対の結果",
+        "why": "ホッケー映像の追試では、後から言い方を変えても差が出なかった"
       }
     ]
   },
@@ -21158,46 +21127,6 @@
     "webUrl": "https://seadice.win/evidence/breakups/#letting-go-barlow"
   },
   {
-    "id": "letting-go-spielmann-fear-single",
-    "category": "別れと復縁",
-    "kind": "素朴な疑問",
-    "themeColor": "#C084FC",
-    "sourceLabel": "Spielmann, MacDonald, Joel, & Impett (2016). Longing for ex-partners out of fear of being single. Journal of Personality",
-    "sourceUrl": "https://doi.org/10.1111/jopy.12222",
-    "studyType": "観察研究",
-    "cards": [
-      {
-        "stage": "結論",
-        "title": "元恋人が恋しくなる日の正体は？",
-        "body": "「ひとりになるのが怖い」気持ちが強い日ほど、元恋人を恋しく思い、よりを戻そうとする行動が増えていました。"
-      },
-      {
-        "stage": "研究",
-        "title": "どんな研究？",
-        "body": "209人の調査と、別れたばかりの117人に1か月間、毎日の気持ちと行動を記録してもらう日記式の研究です。"
-      },
-      {
-        "stage": "結果",
-        "title": "数字で見ると",
-        "body": "ひとりへの不安が強い日ほど、恋しさとよりを戻そうとする行動が増えました。時間の流れを追うと、不安が先で行動が後でした。本人の自己報告にもとづく研究です。"
-      },
-      {
-        "stage": "まだわからないこと",
-        "title": "ここはまだ不確か",
-        "body": "本人の自己報告による調査です。1か月の日記で時間の順番は追えていますが、くじ引きで条件を分けた実験ではないので、因果ははっきりしません。"
-      }
-    ],
-    "quiz": {
-      "q": "よりを戻す行動が増えたのはどんな日？",
-      "correct": "ひとりが怖い日",
-      "wrong": "愛情が強まった日"
-    },
-    "articleUrl": "https://umbra.seadice.win/letting-go-after-failed-reconciliation-research/",
-    "articleSite": "しぐさと本音",
-    "links": [],
-    "webUrl": "https://seadice.win/evidence/breakups/#letting-go-spielmann-fear-single"
-  },
-  {
     "id": "texting-less-starr-reassurance",
     "category": "LINEと駆け引き",
     "kind": "素朴な疑問",
@@ -26116,46 +26045,6 @@
     "articleSite": "しぐさと本音",
     "links": [],
     "webUrl": "https://seadice.win/evidence/messaging/#line-reply-dai-hard-to-get"
-  },
-  {
-    "id": "line-reply-holtzman",
-    "category": "LINEと駆け引き",
-    "kind": "素朴な疑問",
-    "themeColor": "#E879F9",
-    "sourceLabel": "Holtzman, S., Kushlev, K., Wozny, A., & Godard, R. (2021). Long-distance texting: Text messaging is linked with higher relationship satisfaction in long-distance relationships. Journal of Social and Personal Relationships",
-    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8669216/",
-    "studyType": "観察研究",
-    "cards": [
-      {
-        "stage": "結論",
-        "title": "メッセージの多さと満足度は関係ある？",
-        "body": "遠距離のカップルでは関係がありましたが、近くに住むカップルでは関連が見られませんでした。"
-      },
-      {
-        "stage": "研究",
-        "title": "どんな研究？",
-        "body": "遠距離・近距離で交際中の18〜25歳の学生647人（平均19.75歳）に、メッセージの頻度と、相手が応じてくれる感覚を聞きました。"
-      },
-      {
-        "stage": "結果",
-        "title": "数字で見ると",
-        "body": "遠距離ではメッセージが多いほど、また応じてくれる感覚が強いほど満足度が高めでした。近距離ではどちらも関連なし。返信の速さそのものは測っておらず、因果はわかりません。"
-      },
-      {
-        "stage": "まだわからないこと",
-        "title": "まだわからないこと",
-        "body": "カナダの心理学の授業を受ける大学生が中心で、約4分の3が女性です。一時点の調査なので、連絡が多いから満足なのか、その逆かはわかりません。"
-      }
-    ],
-    "quiz": {
-      "q": "近距離カップルの連絡頻度と満足度は？",
-      "correct": "関連なし",
-      "wrong": "多いほど満足"
-    },
-    "articleUrl": "https://umbra.seadice.win/line-reply-speed-research/",
-    "articleSite": "しぐさと本音",
-    "links": [],
-    "webUrl": "https://seadice.win/evidence/messaging/#line-reply-holtzman"
   },
   {
     "id": "letgo-wrosch-unattainable",
@@ -31198,46 +31087,6 @@
     "webUrl": "https://seadice.win/evidence/romance/#nodding-osugi"
   },
   {
-    "id": "nodding-weger",
-    "category": "恋愛としぐさ",
-    "kind": "素朴な疑問",
-    "themeColor": "#F0ABFC",
-    "sourceLabel": "Weger, Bell, Minei, & Robinson (2014). The relative effectiveness of active listening in initial interactions. International Journal of Listening",
-    "sourceUrl": "https://doi.org/10.1080/10904018.2013.813234",
-    "studyType": "実験",
-    "cards": [
-      {
-        "stage": "結論",
-        "title": "「わかってもらえた」と感じる聞き方は？",
-        "body": "相づち中心で受け止めるだけより、相手の話を言い換えて詳しく尋ねる聞き方の方が、話し手は「理解された」と強く感じていました。"
-      },
-      {
-        "stage": "研究",
-        "title": "どんな研究？",
-        "body": "115人が、訓練を受けた10人の聞き手のどれかと初対面で話し、聞き手の返し方による受け止め方の違いを比べた研究です。"
-      },
-      {
-        "stage": "結果",
-        "title": "数字で見ると",
-        "body": "返し方は「受け止めるだけ」「アクティブリスニング」「アドバイス」の3通り。満足度と聞き手の人としての魅力は、受け止めるだけの群が低めでした（差は小さめ）。アドバイスとの差はありませんでした。"
-      },
-      {
-        "stage": "まだわからないこと",
-        "title": "まだわからないこと",
-        "body": "115人の、訓練された聞き手との1回きりの初対面の会話です。差は小さめで、恋人や友人のように関係がある相手との会話でも同じかはわかりません。"
-      }
-    ],
-    "quiz": {
-      "q": "最も「理解された」と感じた聞き方は？",
-      "correct": "言い換えて尋ねる",
-      "wrong": "相づちだけ"
-    },
-    "articleUrl": "https://umbra.seadice.win/nodding-backchannel-listening-likeability-research/",
-    "articleSite": "しぐさと本音",
-    "links": [],
-    "webUrl": "https://seadice.win/evidence/romance/#nodding-weger"
-  },
-  {
     "id": "eyebrow-grammer",
     "category": "恋愛としぐさ",
     "kind": "よくある説",
@@ -32476,5 +32325,44 @@
     "articleSite": "しぐさと本音",
     "links": [],
     "webUrl": "https://seadice.win/evidence/romance/#eye-bolmont-love-gaze"
+  },
+  {
+    "id": "memory-loftus-replication-hockey",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Goldschmied, Sheptock, Kim & Galily, \"Appraising Loftus and Palmer (1974) Post-Event Information versus Concurrent Commentary in the Context of Sport\" (Quarterly Journal of Experimental Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.1080/17470218.2016.1237980",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "質問の言い方で記憶が変わる、は今も起きる？",
+        "body": "「激突した」と聞かれると、車の速度を速く思い出す——1974年のロフタスたちの有名な実験だよね。目撃証言の危うさの例として、今もよく紹介される。じゃあ、別の場面で試しても同じになるのかな。"
+      },
+      {
+        "stage": "試したこと",
+        "title": "ホッケーの衝突映像で、2つの実験をした",
+        "body": "2017年、ゴールドシュミードたちは、選手どうしがぶつかるホッケーの映像を見せた。実験1は、見たあとに文字で「接触」「衝突」「激突」と言い方を変えた。実験2は、映像を見ている最中の実況の言い方を変えた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "後から言い方を変えても、差は出なかった",
+        "body": "見たあとに言い方を変えた実験1では、滑る速さの見積もりにも、ぶつかった結果の判断にも差はなかった。実況を変えた実験2では差が出たけど、「接触」と聞いた人の方が速いと答える、予想と逆の向きだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "場面によって違うのかもしれない",
+        "body": "著者たちは、言葉の強さの受け取り方は分野によって違うのかもしれないと考えている。調べたのはスポーツの映像だけで、交通事故の場面でもう一度試したものではない。元の実験がまるごと否定されたわけでもない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "memory-loftus-palmer-verbs",
+        "type": "反対の結果",
+        "why": "もとの実験では、強い動詞で尋ねるほど速く答えたと報告されている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#memory-loftus-replication-hockey"
   }
 ]
