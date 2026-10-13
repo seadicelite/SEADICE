@@ -7,7 +7,7 @@
   scam.json      詐欺サイトを止める（Phishing.Database, MIT）
   ads.json       広告を減らす（AdGuard Japanese: GPL-3.0 + EasyList: CC BY-SA 3.0）
   trackers.json  あとをつけられないようにする（EasyPrivacy, CC BY-SA 3.0）
-  scam-domains.txt  scam.json と同じ詐欺ドメインを1行1件で（QRガードが端末内で照らし合わせる用。軽い）
+  scam-domains.txt  scam.json と同じ詐欺ドメインを1行1件で（安心QRが端末内で照らし合わせる用。軽い）
   meta.json      件数・更新日時・出典
   state/scam-firstseen.json.gz  詐欺ドメインを最初に見た日（新しい順に選ぶため。次回の --state に渡す）
 
@@ -261,7 +261,7 @@ def main():
             f.write(body)
         counts[name] = len(rules)
         hashes[name] = hashlib.sha256(body).hexdigest()[:16]  # アプリは変わったファイルだけ取り直す
-    # QRガード用: 同じ詐欺ドメインを1行1件で（Safari用のJSONより軽い）
+    # 安心QR用: 同じ詐欺ドメインを1行1件で（Safari用のJSONより軽い）
     scam_domains = [m.group(1).replace("\\.", ".") for r in outputs["scam"][1:]
                     if (m := re.search(r"\)\?(.+)\[:/\]$", r["trigger"]["url-filter"]))]
     body = ("\n".join(scam_domains) + "\n").encode()
