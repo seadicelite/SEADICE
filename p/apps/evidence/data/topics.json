@@ -1,5 +1,211 @@
 [
   {
+    "id": "research-procrastination-self-help-not-working-research-single-advice",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Åsberg et al., \"Effects of a single session low-threshold digital intervention for procrastination behaviors among university students (Focus)\" (Internet Interventions, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.invent.2024.100741",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/procrastination-self-help-not-working-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "先延ばしは、コツを知れば直る？",
+        "body": "先延ばし対策のコツって、ネットにたくさんあるよね。読んだ瞬間は「これでいける」と思うけど、本当に変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2209人の大学生で試した",
+        "body": "スウェーデンの大学生2209人を2つに分けて、一方には自分の先延ばしの結果へのフィードバックと行動のアドバイスを1回だけウェブで届けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2か月後、差ははっきりしなかった",
+        "body": "2か月後の先延ばしは、アドバイスを受けなかった人とはっきりした差がなかったらしい。続けて支えてくれるものがないと、行動に移すのが難しいという声もあったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "答えてくれた人は半分ほど",
+        "body": "2か月後に答えたのは45〜55％ほどで、答えなかった人の変化はわからないんだ。最初に自分の先延ばしを測ること自体が影響した可能性も、著者は挙げているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-procrastination-self-help-not-working-research-icbt",
+        "type": "あわせて読む",
+        "why": "1回のアドバイスでは差がなく、数週間のプログラムでは減った"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-self-help-not-working-research-single-advice"
+  },
+  {
+    "id": "research-procrastination-self-help-not-working-research-icbt",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Rozental et al., \"Internet-based cognitive-behavior therapy for procrastination: A randomized controlled trial\" (Journal of Consulting and Clinical Psychology, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/ccp0000023",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/procrastination-self-help-not-working-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "先延ばしって、治療の対象になるの？",
+        "body": "先延ばしは性格の問題と思われがちだけど、実は認知行動療法で減らせるかを確かめた試験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "150人を3つのグループに",
+        "body": "先延ばしに悩む150人を、セラピストの支援つきのオンラインのプログラム、支援なしの同じプログラム、順番待ちの3つに分けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "支援なしでも先延ばしは減った",
+        "body": "どちらのプログラムも、順番待ちの人より先延ばしが中程度に減ったらしい。支援つきと支援なしの間に、統計的な差は見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自分で答えるアンケートの結果",
+        "body": "先延ばしは本人が答えるアンケートで測っていて、実際の作業の速さを測ったわけではないよ。比べた相手は順番待ちの人で、対象も150人だけなんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-procrastination-self-help-not-working-research-single-advice",
+        "type": "あわせて読む",
+        "why": "1回だけのウェブのアドバイスでは、2か月後に差がなかった"
+      },
+      {
+        "id": "research-procrastination-self-forgiveness-recovery-research-treatment-meta",
+        "type": "あわせて読む",
+        "why": "先延ばしへの心理的な治療を、たくさんの研究でまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-self-help-not-working-research-icbt"
+  },
+  {
+    "id": "research-interleaved-practice-mixed-study-research-math",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Rohrer et al., \"The benefit of interleaved mathematics practice is not limited to superficially similar kinds of problems\" (Psychonomic Bulletin & Review, 2014)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-014-0588-3",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/interleaved-practice-mixed-study-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ドリルは同じ種類を続けて解くもの？",
+        "body": "問題集って、同じ解き方の問題がずらっと並んでるよね。でも種類を混ぜて解いたほうが身につくか、教室で確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7年生140人の9週間",
+        "body": "7年生（日本の中学1年生くらい）140人が9週間、数学の練習問題を、種類ごとにまとめる形か、混ぜる形で解いたよ。そして2週間後に、予告なしのテストをしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "72％と38％",
+        "body": "混ぜて練習した内容の平均点は72％、まとめて練習した内容は38％だったらしい。見た目が似ていない種類の問題どうしでも差が出たよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "数学以外でも同じ？",
+        "body": "調べたのは数学の問題だけ。59件の研究をまとめた別の分析では、数学での効果は小さめで、単語の学習ではむしろまとめたほうが良い結果だったんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "learning-interleaving",
+        "type": "あわせて読む",
+        "why": "同じ研究者による、混ぜて解く練習の別の実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-interleaved-practice-mixed-study-research-math"
+  },
+  {
+    "id": "exercise-steps-depression-meta",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Bizzozero-Peroni et al., \"Daily Step Count and Depression in Adults: A Systematic Review and Meta-Analysis\" (JAMA Network Open, 2024)",
+    "sourceUrl": "https://doi.org/10.1001/jamanetworkopen.2024.51208",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "1日に何歩歩くと、気分の落ち込みは減る？",
+        "body": "歩くと気分がすっきりするってよく言うよね。じゃあ毎日の歩数と、うつっぽさの関係を、たくさんの研究でまとめるとどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "33の研究、約9万6千人",
+        "body": "歩数計などの機器で測った歩数と、うつの症状を調べた33の研究をまとめたよ。対象は18歳以上の大人96,173人なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "7000歩以上で、うつのリスクが31%低め",
+        "body": "追いかけた研究では、1日7000歩以上の人は7000歩未満の人より、うつになるリスクが31%低かったらしい。1日1000歩多いごとに、リスクは9%低かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "歩いたから元気、とはまだ言えない",
+        "body": "33件のうち27件は1回だけ調べた研究で、時間を追った研究は6件だけ。もともと元気な人がよく歩いているだけかもしれない。著者も、追跡研究がもっと必要と書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "body-steps-7000-meta",
+        "type": "あわせて読む",
+        "why": "同じ7000歩の目安で、死亡リスクとの関係をまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-steps-depression-meta"
+  },
+  {
+    "id": "sleep-bath-before-bed-meta",
+    "category": "睡眠環境",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Haghayegh et al., \"Before-bedtime passive body heating by warm shower or bath to improve sleep: A systematic review and meta-analysis\" (Sleep Medicine Reviews, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.smrv.2019.04.008",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る90分前のお風呂で、寝つきがよくなる？",
+        "body": "「お風呂は寝る90分前に」ってよく聞くよね。温まった体が冷えていくときに眠くなるという話だけど、研究をまとめるとどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "17の研究を集めた",
+        "body": "寝る前のお風呂やシャワーと睡眠を調べた研究を、5322件の候補から探して17件を集めたよ。そのうち13件で数字をまとめたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1〜2時間前の40〜42.5℃で、寝つきが早まった",
+        "body": "40〜42.5℃のお湯に寝る1〜2時間前に入ると、10分ほどでも寝つくまでの時間が短くなっていたらしい。眠りの質の自己評価や睡眠効率も良くなっていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "いちばんいい時間と長さは、まだ不明",
+        "body": "研究の数がまだ少なく、何分前に何分入るのがいちばんいいかや、しくみも確かめきれていないと著者は書いているよ。「90分」ぴったりが最適と示されたわけではないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-bath-soak-fatigue-recover-tub-vs-shower",
+        "type": "あわせて読む",
+        "why": "湯船とシャワーで、疲れとストレスを比べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-bath-before-bed-meta"
+  },
+  {
     "id": "alcohol-liver-holiday",
     "category": "お酒の常識",
     "kind": "よくある説",
@@ -377,6 +583,11 @@
         "id": "procrastination-self-forgiveness",
         "type": "あわせて読む",
         "why": "先延ばしへの支援の効果と、先延ばしした自分を許すことの研究"
+      },
+      {
+        "id": "research-procrastination-self-help-not-working-research-icbt",
+        "type": "あわせて読む",
+        "why": "同じ研究者による、オンラインの認知行動療法の試験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-self-forgiveness-recovery-research-treatment-meta"
@@ -784,7 +995,13 @@
         "body": "人数が少なく、自分がどちらをしているか隠せない実験。別の質問票（気分の検査）では疲れの差は出なかった。参加者は健康に関心のあるサイトで集めた平均45.7歳の人たちで、ほかの人にも当てはまるかはわからないよ。"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "id": "sleep-bath-before-bed-meta",
+        "type": "あわせて読む",
+        "why": "寝る前のお風呂と寝つきの関係を、17の研究でまとめた"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/body-myths/#kokoro-bath-soak-fatigue-recover-tub-vs-shower"
   },
   {
@@ -4472,6 +4689,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "両群とも気分は改善したが、疲労と不安が減り、視空間処理・作業記憶・実行機能が有意に向上したのは瞑想群だけだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "4日間の直後に測った話",
+        "body": "瞑想の経験がない人が4回練習した直後に測った結果で、効果がどれくらい続くかはわからないんだ。ふだんの仕事や勉強での集中まで変わるかも、この研究では調べていないよ。"
       }
     ],
     "quiz": {
@@ -4752,6 +4974,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "覚える前に歩いた日は、他のどの日より短期記憶が高く、24時間後の記憶でも同様の傾向だった。覚えた後や最中の運動には明確な効果がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "24人の1つの実験",
+        "body": "参加したのは24人だけで、測ったのは単語リストの記憶。予定を覚えておく記憶には効果が見られなかったよ。ふだんの勉強で同じ差が出るかは、まだわからないんだ。"
       }
     ],
     "quiz": {
@@ -5425,6 +5652,11 @@
         "id": "dokugaku-flashcards-one-deck",
         "type": "あわせて読む",
         "why": "練習中の手応えと、あとの成績は逆になりやすい"
+      },
+      {
+        "id": "research-interleaved-practice-mixed-study-research-math",
+        "type": "あわせて読む",
+        "why": "中学の教室で9週間、混ぜて解く練習を試した実験"
       }
     ]
   },
@@ -13777,6 +14009,11 @@
         "id": "myth-10000-steps",
         "type": "あわせて読む",
         "why": "高齢女性1万6千人の追跡で、7,500歩あたりで横ばいになった研究"
+      },
+      {
+        "id": "exercise-steps-depression-meta",
+        "type": "あわせて読む",
+        "why": "同じ7000歩の目安で、うつのリスクとの関係をまとめたメタ分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/body-myths/#body-steps-7000-meta"
