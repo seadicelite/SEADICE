@@ -15,7 +15,8 @@
     "life-satisfaction": {"name": "人生満足度診断（5問）", "catch": "幸福研究で使われる尺度で、今の満足度を点数にする", "url": "https://seadice.win/diagnosis/life-satisfaction/", "type": "web"},
     "suimin-fusai": {"name": "睡眠負債チェック", "catch": "平日の睡眠不足と、寝だめで補えるかを計算する", "url": "https://seadice.win/tools/suimin-fusai/", "type": "web"},
     "saki-ni-ugoku": {"name": "先に動く5分タイマー", "catch": "やる気を待たずに5分だけ動き、前後の気分を記録する", "url": "https://seadice.win/tools/saki-ni-ugoku/", "type": "web"},
-    "karada-meyasu": {"name": "1日の目安チェック", "catch": "歩数・タンパク質・水分を、研究でわかった目安とくらべる", "url": "https://seadice.win/tools/karada-meyasu/", "type": "web"}
+    "karada-meyasu": {"name": "1日の目安チェック", "catch": "歩数・タンパク質・水分を、研究でわかった目安とくらべる", "url": "https://seadice.win/tools/karada-meyasu/", "type": "web"},
+    "alcohol-gram": {"name": "純アルコール量の計算", "catch": "飲んだお酒が何gかを計算し、ガイドラインと研究にくらべる", "url": "https://seadice.win/tools/alcohol-gram/", "type": "web"}
   },
   "categories": {
     "睡眠": "hiru10",
@@ -52,6 +53,9 @@
     "myth-protein-golden-time": "karada-meyasu",
     "body-protein-amount-1-6g": "karada-meyasu",
     "myth-water-8-glasses": "karada-meyasu",
-    "myth-coffee-dehydration": "karada-meyasu"
+    "myth-coffee-dehydration": "karada-meyasu",
+    "alcohol-hyakuyaku-mortality": "alcohol-gram",
+    "alcohol-flushing-aldh2": "alcohol-gram",
+    "alcohol-beer-belly": "alcohol-gram"
   }
 }
