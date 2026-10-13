@@ -1,5 +1,192 @@
 [
   {
+    "id": "kokoro-phone-always-bored-smartphone-break-boredom",
+    "category": "スマホとSNS",
+    "kind": "よくある説",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Dora J et al., \"Fatigue, boredom and objectively measured smartphone use at work\" (Royal Society Open Science, 2021)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.201915",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/phone-always-bored/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "退屈したらスマホで気分転換？",
+        "body": "仕事中に退屈したら、ちょっとスマホを見てリフレッシュ。よくやるよね。でも、本当に退屈は減ってるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "83人の職場のスマホを自動記録",
+        "body": "オランダの大学で働く大学院生83人が、3日間、1時間ごとに疲れと退屈を答えたんだ。その間のスマホの使用はアプリで自動記録。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "使ったあと、退屈は少し高かった",
+        "body": "退屈や疲れが強いときほどスマホを手に取りやすかった。でも使ったあとの退屈は、使わなかったときより少し高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "スマホのせいとは言い切れない",
+        "body": "記録の関連を見た研究なので、スマホが退屈を高めたとまでは言えない。対象も大学院生だけで、ほかの職場で同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-phone-always-bored-smartphone-break-boredom"
+  },
+  {
+    "id": "kokoro-stuffy-room-ventilation-focus-co2-office",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Allen JG et al., \"Associations of Cognitive Function Scores with Carbon Dioxide, Ventilation, and Volatile Organic Compound Exposures in Office Workers\" (Environmental Health Perspectives, 2016)",
+    "sourceUrl": "https://doi.org/10.1289/ehp.1510037",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/stuffy-room-ventilation-focus/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "閉めきった部屋で頭がぼんやりするのはなぜ？",
+        "body": "会議室に長くいると、午後には頭が重くなる。自分の集中力のせい？それとも部屋の空気のせい？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "24人がオフィスを再現した部屋で6日間",
+        "body": "米国の会社員など24人が、空気の条件を知らされないまま、換気や二酸化炭素の量を日ごとに変えた部屋で働いて、頭を使う課題を受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "二酸化炭素が多い日は点が低め",
+        "body": "約550ppmの日と比べて、約945ppmの日は課題の点が15%、約1,400ppmの日は50%低かったらしい。外の空気を2倍に増やした日は、点が平均25%高かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "24人の、研究用の部屋での結果",
+        "body": "24人が6日間、オフィスをまねた研究用の部屋で働いた結果だよ。実際のオフィスやほかの人たちで同じ差が出るかは、まだ確かめが必要なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-heatwave-thinking",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが、熱波の暑さと頭の働きを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-stuffy-room-ventilation-focus-co2-office"
+  },
+  {
+    "id": "kokoro-sns-appearance-mindfulness-before-10min",
+    "category": "マインドフルネス",
+    "kind": "研究紹介",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Zhang X, Zhang Z, \"Brief Mindfulness Meditation Protects Chinese Young Women's Body Image from Appearance-Focused Social Media Exposure\" (Healthcare, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/healthcare14010120",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/sns-appearance-mindfulness-before/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よくある悩み",
+        "title": "SNSの写真と比べて落ち込む",
+        "body": "整った見た目の投稿を見ると、つい自分と比べて気分が沈む。見る前に、何かできることはないのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見る前に10分の音声を聞く実験",
+        "body": "中国の18〜35歳の女性168人を、10分の瞑想の音声か、自然の朗読を聞くグループにくじで分けて、そのあと理想的な体型の写真12枚と自分を比べてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "瞑想のグループは気分が悪化しにくかった",
+        "body": "写真を見たあと、朗読のグループは気分がはっきり悪化したけど、瞑想のグループは大きく変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの実験の話",
+        "body": "体への不満の差は統計的に確かとは言えなかった。研究用のページで1回見ただけの結果で、毎日のSNSで続くかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#kokoro-sns-appearance-mindfulness-before-10min"
+  },
+  {
+    "id": "alcohol-water-hangover",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Mackus, Stock, Garssen, Scholey & Verster, \"Alcohol hangover versus dehydration revisited: The effect of drinking water to prevent or alleviate the alcohol hangover\" (Alcohol, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.alcohol.2024.07.006",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "水を飲めば、二日酔いにならない？",
+        "body": "二日酔いは脱水のせい。だから合間に水をたくさん飲めば防げる。よく聞く話だよね。じゃあ、二日酔いと水の関係を調べた研究をまとめると、どうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "二日酔い・のどの渇き・水の量の研究を整理",
+        "body": "2024年、オランダのユトレヒト大学などの研究者が、二日酔いのつらさ、のどの渇き、飲んだ水の量の関係を調べた研究をまとめ直したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "水で防げる効果は控えめだった",
+        "body": "飲んでいる最中や直後に水を飲んでも、翌日の二日酔いを防ぐ効果は控えめ。二日酔いの最中に飲んだ水の量も、つらさの変化とは関係がなかったらしい。脱水と二日酔いは、同時に起きるけど別のものみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "多くはアンケートの話",
+        "body": "もとになったデータの多くは、飲んだ人に答えてもらう調査。水の量を決めて試した実験ではないので、原因と結果ははっきりしない。研究を整理したもので、数字でまとめる分析はしていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-hangover-remedies",
+        "type": "あわせて読む",
+        "why": "二日酔いに効くと言われる成分を、偽物と比べた試験のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-water-hangover"
+  },
+  {
+    "id": "weather-heatwave-thinking",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Cedeño Laurent, Williams, Oulhote, Zanobetti, Allen & Spengler, \"Reduced cognitive function during a heat wave among residents of non-air-conditioned buildings: An observational study of young adults in the summer of 2016\" (PLOS Medicine, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pmed.1002605",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "暑い日は、頭が働かなくなる？",
+        "body": "暑い夜のあと、朝からぼんやりして考えがまとまらない。気のせい？ それとも本当に頭の働きが落ちてるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "熱波の前後12日間、学生44人が毎朝テスト",
+        "body": "米国ボストン近くの大学で、冷房のある寮の24人と、ない寮の20人が、2016年夏の熱波の前・最中・後に、起きてすぐスマホで色と文字のテストと2けたの計算テストを受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "冷房のない寮では、反応が13%ほど遅く",
+        "body": "冷房のない寮の部屋は平均26.3℃、ある寮は21.4℃。熱波のあいだ、冷房のない寮の学生は、ある寮の学生と比べて、反応時間が両方のテストで約13%長くなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い学生44人、起きてすぐの1回",
+        "body": "対象は平均20歳の学生44人だけで、テストは起きてすぐの1回。日中ずっと続くかはわからない。くじで寮を分けたわけではなく、暑さの少ない土地での研究なので、ほかの地域で同じかも未確認だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-stuffy-room-ventilation-focus-co2-office",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが、部屋の空気と頭の働きを調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-heatwave-thinking"
+  },
+  {
     "id": "dokugaku-why-procrastinate-studying-temporal-discounting",
     "category": "先延ばし対策",
     "kind": "素朴な疑問",
@@ -2618,7 +2805,12 @@
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "対象研究では、心拍変動などの副交感神経系の指標が上がり、脳波ではアルファ波が増えた。快適さやリラックス感が増し、不安や怒りなどが減った。ただし15件と少なく手法も多様。"
+        "body": "対象研究では、心拍変動などの副交感神経の指標が上がり、脳波ではアルファ波が増えた。快適さやリラックス感が増して、不安や怒りなどは減ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "健康な人の、ばらばらな15本の研究",
+        "body": "集まったのは健康な人を対象にした15本だけで、呼吸法も参加者の選び方もばらばら。そのため数字でまとめる分析はできなかった。体の変化と気分の変化を直接結びつける証拠も、まだ少ないんだ。"
       }
     ],
     "quiz": {
@@ -2629,7 +2821,7 @@
     "articleUrl": "https://research.seadice.win/slow-breathing-stress-research/",
     "articleSite": "悩みの科学",
     "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-slow-review",
-    "studyType": "メタ分析"
+    "studyType": "レビュー"
   },
   {
     "id": "music-work-performance",
@@ -2674,22 +2866,27 @@
     "category": "色彩心理",
     "themeColor": "#FACC15",
     "sourceLabel": "Steele, \"Failure to Replicate the Mehta and Zhu (2009) Color-Priming Effect on Anagram Solution Times\" (Psychonomic Bulletin & Review, 2014)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24222366/",
+    "sourceUrl": "https://doi.org/10.3758/s13423-013-0548-3",
     "cards": [
       {
         "stage": "結論",
         "title": "「赤は注意力、青は創造力」は本当に再現された？",
-        "body": "有名な「赤で注意力、青で創造力」説は、同じ手順で3倍以上の人数を集めた再現実験で、効果が確認されなかった。"
+        "body": "有名な「赤は注意力、青は創造力」の論文には、背景の色で言葉の並べかえ問題の解きやすさが変わるという実験もあった。その実験を3倍以上の人数でやり直したら、効果は見られなかったんだ。"
       },
       {
         "stage": "研究",
         "title": "どんな研究？",
-        "body": "2009年にScienceで報告された、赤い背景ではミス発見、青い背景では発想が得意になるという説のうち、アナグラム課題を同じ条件で、元研究の3倍超の人数で再現した実験。"
+        "body": "2009年にScienceで、赤い背景では「避ける」系の言葉、青い背景では「近づく」系の言葉のアナグラム（文字の並べかえ）が速く解けると報告された。同じ言葉・説明・色を使い、3倍以上の人数でやり直した実験だよ。"
       },
       {
         "stage": "結果",
         "title": "分かったこと",
-        "body": "再現実験では、赤と青の背景色によるアナグラムの解答時間の差は示されず、元の効果は確認されなかった。色の効果をそのまま信じるのは危うい、という教訓になる。"
+        "body": "効果を見つけるのに十分な人数だったのに、赤と青の背景によるアナグラムの解答時間の差は出なかった。元の論文の色の効果があるのか、疑問が残る結果になった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "やり直したのは1つの実験だけ",
+        "body": "確かめたのはアナグラムの実験1つだけで、元の論文の「赤でミス探し、青で発想」という別の実験は、この研究では試していない。画面の色以外の場面で色が効くかも、ここからはわからないよ。"
       }
     ],
     "quiz": {
@@ -2698,7 +2895,7 @@
       "wrong": "赤で解答が速くなった"
     },
     "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-blue-task",
-    "studyType": "レビュー",
+    "studyType": "実験",
     "links": [
       {
         "id": "color-baker-miller-pink",
@@ -18591,6 +18788,11 @@
         "id": "alcohol-chanpon-hangover",
         "type": "あわせて読む",
         "why": "二日酔いの重さを左右したのは、飲み方の順番ではなく酔いの深さだった実験"
+      },
+      {
+        "id": "alcohol-water-hangover",
+        "type": "あわせて読む",
+        "why": "成分ではなく、水を飲むことで二日酔いが防げるかのまとめ"
       }
     ],
     "webUrl": "https://seadice.win/evidence/alcohol/alcohol-hangover-remedies/"
