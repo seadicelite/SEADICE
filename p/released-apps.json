@@ -282,7 +282,13 @@
       "name": "愛着スタイル診断",
       "genre": "",
       "appStoreId": "6793424764",
-      "appStoreUrl": "https://apps.apple.com/app/id6793424764"
+      "appStoreUrl": "https://apps.apple.com/app/id6793424764",
+      "media": [
+        {
+          "site": "umbra",
+          "hub": "https://umbra.seadice.win/apps/attachment-style/"
+        }
+      ]
     },
     {
       "id": "cognitive-bias-guide",
