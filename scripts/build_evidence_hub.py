@@ -44,6 +44,7 @@ SLUGS = {
     "親の老いと介護": "aging-parents", "仕事と働き方": "work", "ペットの科学": "pets", "恋愛と人間関係": "love", "心理学の再現性": "replication", "日本でよく聞く説": "japan", "脳の神話": "brain-myths", "防犯の心理": "crime-prevention", "犯罪の心理": "criminal-psychology",
     "性格と性格診断": "personality", "顔と第一印象": "face-impression", "食べ物の常識": "food-myths",
     "お酒の常識": "alcohol", "天気と気分": "weather-mood", "話し方と伝わり方": "speaking", "ゲームとネット": "games", "言葉と外国語": "language-learning",
+    "相性と結婚": "compatibility", "脈ありと好意": "romantic-interest", "LINEと駆け引き": "messaging", "危険な相手": "dangerous-partners", "別れと復縁": "breakups",
 }
 
 e = lambda s: html.escape(str(s), quote=True)

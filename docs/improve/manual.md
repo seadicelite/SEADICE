@@ -3,7 +3,7 @@
 Claude やルーティンではできないこと（アカウントにログインして数字を見る、外のAIに聞く、PRのマージ、方針の判断、App Store の作業など）をここにためる。会話を始めると、未対応の件数と上のほうの項目を Claude が知らせる。
 
 - 終わったら `- [x]` にするか、Claude に「〇〇やった」「結果は〜」と伝える（Claude が記録して、次の改善に使う）
-- [ ] 1.5.0 申請前 | アプリ | App Store Connect で EVIDENCE のアプリ内課金を4つ作る（すべて非消耗型）: `win.seadice.evidence.pack01`「からだと暮らしの常識」160円、`pack02`「人と心」320円、`pack03`「脳と学びと毎日の習慣」540円、`win.seadice.evidence.ultra`「ULTRA」1,500円（今あるパックも今後のパックも全部）。説明は p/apps/evidence/data/access.json の description。審査用スクショ＝パックのトピックを開いた購入画面。1.5.0 のバージョンに4つとも追加して一緒に提出。値段がその金額で選べなければ近い価格で（2026-10-13）
+- [ ] 1.5.0 申請前 | アプリ | App Store Connect で EVIDENCE のアプリ内課金を5つ作る（すべて非消耗型）: `win.seadice.evidence.pack01`「からだと暮らしの常識」160円、`pack02`「人と心」320円、`pack03`「脳と学びと毎日の習慣」540円、`win.seadice.evidence.pack04`「恋愛の科学」320円、`win.seadice.evidence.ultra`「ULTRA」1,500円（今あるパックも今後のパックも全部）。説明は p/apps/evidence/data/access.json の description。審査用スクショ＝パックのトピックを開いた購入画面。1.5.0 のバージョンに5つとも追加して一緒に提出。値段がその金額で選べなければ近い価格で（2026-10-13）
 - [ ] 期限か頻度 | 分野 | やること — なぜ必要か（追加日）`。上ほど急ぐ・効くもの
 
 ## 未対応

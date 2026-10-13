@@ -58,7 +58,7 @@
 ## 主要ページ
 
 - [アプリ一覧](https://seadice.win/apps/): 公開中のアプリ
-- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など53分野・500本の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
+- [EVIDENCE（研究の出典つきで読む情報サイト）](https://seadice.win/evidence/): 睡眠・習慣・心理学など58分野・800本以上の研究を、元の論文（DOI）つきで分野別にまとめたページ。研究の種類（メタ分析・ランダム化比較試験など）、わかったことと「まだわからないこと」、結果が分かれた研究どうしのつながりを示す。編集方針 https://seadice.win/evidence/policy/ ・訂正履歴 https://seadice.win/evidence/corrections/
   よく聞く説を確かめる（1問1ページ、結論・研究の種類・論文DOIつき）:
   - [習慣化は21日？66日？ 論文でわかったこと](https://seadice.win/evidence/habits/habit-66days/)
   - [意志力は使うと減る？ 23の研究室の追試でわかったこと](https://seadice.win/evidence/replication/replication-ego-depletion/)
