@@ -84,7 +84,7 @@ CSS = (
     ".src{font-size:13px;color:var(--muted);margin-top:16px;word-break:break-word}"
     ".links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}"
     ".links a{font-size:13px;border:1px solid var(--border);border-radius:6px;padding:8px 14px;text-decoration:none}"
-    ".grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:8px 0 32px}"
+    ".grid{margin:8px 0 32px}"
     ".grid a{display:block;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;text-decoration:none;color:var(--text);font-size:14px;font-weight:700}"
     ".grid span{display:block;font-size:12px;color:var(--muted);font-weight:400;margin-top:2px}"
     ".box{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin:24px 0}"

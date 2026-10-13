@@ -14,9 +14,11 @@ design/README.md・design/*.css
 
 ### ルールの次にやること
 1. 生成スクリプトは書き出し時に必ず apply_page_type.apply を通す（build_apps_page.py と build_evidence_hub.py は対応済み。新しい生成スクリプトにも）
-2. 3タイプそれぞれに「ユーザーの用事がいちばん早く済む形か」の基準を1行ずつ足す
+2. 新しいページは公開前に `grep -rL '<body class="t-'` で適用漏れを確かめる（同じ漏れが2回出たら、公開手順のチェックに入れる）
+3. 3タイプそれぞれに「ユーザーの用事がいちばん早く済む形か」の基準を1行ずつ足す
 
 ### ルールの変更履歴
+- 2026-10-13: 適用漏れの確認コマンドをルールの次にやることに追加（t- クラスなし 18ページのうち、公開中の5ページ[dopamine-detox・cognitive-bias-guide のアプリ紹介とプライバシー、apps/evidence]が未適用だったため）
 - 2026-10-12: 「生成スクリプトも、角丸8px以下・グラデーションなしを守る。可能なら apply_page_type.py を通す」を『良い状態』に追加（build_evidence_hub.py が独自CSSで角丸14px・グラデーションを使っていたため）
 
 ### ルールの変更履歴（追記）
@@ -42,7 +44,7 @@ design/README.md・design/*.css
 - 3タイプの形・色・文字の大きさを大きく変えること、ヘッダー・フッターの作り直し
 
 ## 次にやること
-1. **EVIDENCE 生成ページの独自CSS（build_evidence_hub.py の CSS）を、show と重複する部分から削る**（show を当てたので上書きで効いていない宣言がある）
+1. **EVIDENCE 生成ページの独自CSS（build_evidence_hub.py の CSS）を、show と重複する部分から削る**（続き。`.grid` は削った。残りは `.cta`・`.topic` など show が上書きする宣言を1つずつ）
 2. **ヘッダー・フッターを全ページ共通にする**（design/README.md「これから」1）
 3. **ページ内に残る旧CSSの装飾宣言（694ページ）を一括で削る**: 上書きで無効のため見た目は変わらず容量だけ減る。スクリプトで安全に除去できるか試す
 4. **ページの中身の並び順を型にする**（design/README.md「これから」2。使うページから）
@@ -51,3 +53,4 @@ design/README.md・design/*.css
 - 2026-10-12: 3タイプ（read/show/use）を公開（design/README.md）
 - 2026-10-12: build_evidence_hub.py の独自CSSから角丸14/12/10/999px とグラデーションを除去（67ページ再生成）。点検: body に t- クラスなし 86/780 ページ、グラデーション等の旧宣言が残るページ 694（design/ の上書きで無効化済み。旧CSS自体の削減は次の課題）
 - 2026-10-12: build_evidence_hub.py が書き出し時に show を当てるようにし、67ページに適用。t- クラスなし 85→18（残りは Flutter SPA・404・旧アプリ・未適用の2ツールと2privacy）
+- 2026-10-13: 点検: t- クラスなし 19→14（残りは Flutter SPA・404・旧アプリ・トップ）、旧装飾宣言が残るページ 894（上書きで無効）、sitemap にファイルなし 0・noindex 混入 0。未適用だった公開中の5ページに show/read を適用。build_evidence_hub.py の `.grid` 重複を削り192ページ再生成
