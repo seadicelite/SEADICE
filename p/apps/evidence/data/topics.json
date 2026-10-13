@@ -1,5 +1,195 @@
 [
   {
+    "id": "research-wrong-answer-review-memory-research-feedback",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Pashler H, Cepeda NJ, Wixted JT & Rohrer D, \"When does feedback facilitate learning of words?\" (Journal of Experimental Psychology: Learning, Memory, and Cognition, 2005)",
+    "sourceUrl": "https://doi.org/10.1037/0278-7393.31.1.3",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/wrong-answer-review-memory-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "間違えた問題、答えを見るだけで変わる？",
+        "body": "テストで間違えると落ち込むし、丸つけもつい後回しにしがちだよね。でも、間違えた後にすぐ正解を見るかどうかで、記憶ってどれくらい変わるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "258人がアフリカの言語の単語を覚えた",
+        "body": "ルガンダ語と英語の単語ペアを覚えて、何度かテストした実験。間違えた後に正解を見せるかどうかなど、答えの見せ方を人ごとに変えて、1週間後にもう一度テストしたんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "間違いの後に正解を見ると、494%伸びた",
+        "body": "間違えた後に正しい答えを見せると、1週間後の成績が494%伸びた。逆に、正解した問題に答えを見せても、成績はほとんど変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語以外でも同じかは別の話",
+        "body": "これは外国語の単語ペアという単純な材料での結果。文章の理解や計算問題でも同じくらい効くかは、この実験だけではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "learning-testing-effect",
+        "type": "あわせて読む",
+        "why": "自分でテストする勉強法と、間違えた後に正解を見ることを組み合わせられる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-wrong-answer-review-memory-research-feedback"
+  },
+  {
+    "id": "research-sleep-timing-after-learning-memory-research-napdelay",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Alger SE, Lau H & Fishbein W, \"Delayed onset of a daytime nap facilitates retention of declarative memory\" (PLoS ONE, 2010)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0012131",
+    "articleUrl": "https://research.seadice.win/sleep-timing-after-learning-memory-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "覚えたらすぐ寝るのが一番いいんでしょ？",
+        "body": "「覚えた直後に眠ると忘れにくい」ってよく聞くよね。だから眠くなくても、覚えたらすぐ昼寝した方がいいと思っている人も多いはず。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "昼寝までの時間を0・2・4時間で比較",
+        "body": "150枚の画像を覚えてもらった後、「直後」「2時間後」「4時間後」に90分の昼寝をとる3グループと、起きたままのグループを比べた実験なんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "4時間空けた方が、記憶の残り方が良かった",
+        "body": "6時間後のテストでは、4時間空けて昼寝したグループが、直後に寝たグループや起きていたグループより成績が良かった。空けた時間が長いほど、昼寝中の深い睡眠（徐波睡眠）も増えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "夜の本格的な睡眠や高齢者ではどうかは不明",
+        "body": "この実験は日中の90分の昼寝に限った話で、参加者は18〜29歳の大学生、1グループ9人と少ない。夜しっかり眠る場合や高齢者で同じことが言えるかは、まだわかっていない。"
+      }
+    ],
+    "studyType": "実験",
+    "links": [],
+    "webUrl": "https://seadice.win/evidence/memory/#research-sleep-timing-after-learning-memory-research-napdelay"
+  },
+  {
+    "id": "research-habit-same-place-context-research-automaticity",
+    "category": "習慣形成",
+    "kind": "研究紹介",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Stojanovic M et al., \"Context Stability in Habit Building Increases Automaticity and Goal Attainment\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.883795",
+    "articleUrl": "https://research.seadice.win/habit-same-place-context-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "場所と時間、バラバラにする人 vs 固定する人",
+        "body": "大学生95人に新しい勉強の習慣を6週間続けてもらう実験。半分には毎回部屋と時間を変えてもらい、もう半分には同じ部屋・同じ時間を守ってもらったんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "固定したグループは「自動的」にできた",
+        "body": "場所と時間を一定にしたグループほど、考えなくても自然に体が動く感覚（オートマティシティ）が強く、決めていた回数の達成率も高かった。習慣アプリの利用者218人・習慣308件のデータでも同じ傾向が出たらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "場所と時間、どっちが効いたかは分けきれない",
+        "body": "この実験は場所と時間をセットで変えたので、どちらが効いたかは分けられない。参加者は単位などで参加した若い大学生が中心で、アプリのデータは条件を割り振らずに測っただけなので、因果まではわからない。"
+      }
+    ],
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "habit-context-cue",
+        "type": "あわせて読む",
+        "why": "同じ場所というきっかけが、好みより強く行動を動かしていた映画館の実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-same-place-context-research-automaticity"
+  },
+  {
+    "id": "alcohol-foreign-language-pronunciation",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Renner F, Kersbergen I, Field M & Werthmann J, \"Dutch courage? Effects of acute alcohol consumption on self-ratings and observer ratings of foreign language skills\" (Journal of Psychopharmacology, 2018)",
+    "sourceUrl": "https://doi.org/10.1177/0269881117735687",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お酒を飲むと、外国語がうまく話せる？",
+        "body": "「ちょっと飲んだ方が英語がスラスラ出る」って話、聞いたことあるよね。緊張がほぐれるからと言われるけど、本当に上手になっているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "オランダ語を習ったばかりの50人で実験",
+        "body": "最近オランダ語を覚えたドイツ語が母語の50人を、くじで少量のお酒を飲む組と、お酒の入っていない飲み物の組に分けた。そのあとオランダ語で話し合ってもらい、録音したんだって。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "聞き手の評価は上がり、本人の手ごたえは同じ",
+        "body": "どちらの組か知らないオランダ語の話し手2人が録音を採点すると、お酒の組の方が評価が高く、特に発音が良かった。でも本人の自己評価は、お酒の有無で変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "少量・1回・50人だけの話",
+        "body": "試したのは少量のお酒を1回だけで、量を増やしたらどうなるかは調べていない。人数も50人で、ドイツ語の話し手がオランダ語を話す場面に限った結果。外国語のために飲むことをすすめる研究ではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "insight-alcohol-creativity",
+        "type": "あわせて読む",
+        "why": "少しのお酒で発想が変わるかを調べた、もう1つの実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-foreign-language-pronunciation"
+  },
+  {
+    "id": "lang-bilingual-toddler-vocabulary",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Hoff E, Core C, Place S, Rumiche R, Señor M & Parra M, \"Dual language exposure and early bilingual development\" (Journal of Child Language, 2012)",
+    "sourceUrl": "https://doi.org/10.1017/S0305000910000759",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "2つの言葉で育てると、言葉が遅れる？",
+        "body": "子どもを2か国語で育てると「どっちつかずになる」「言葉が遅れる」って心配、よく聞くよね。実際に小さい子の言葉の育ち方を比べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1歳10か月から2歳半まで追いかけた",
+        "body": "アメリカのフロリダ南部で、英語とスペイン語を聞いて育つ子47人と、英語だけの子56人を比べた研究。1歳10か月から2歳半までに3回、親の記入で話せる単語や文法を調べたんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1つずつだと遅れ、2つ合わせると同じ",
+        "body": "英語だけ・スペイン語だけで比べると、1つの言葉で育つ子の方が単語も文法も進んでいた。でも2つの言葉の単語を合わせた数では差がなかった。それぞれの言葉は、その言葉を聞く割合が多いほど伸びていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "2歳半までの「話す力」だけの話",
+        "body": "調べたのは1歳10か月〜2歳半の短い期間で、親が記入する1種類の質問票で話せる言葉だけを見ている。家庭は経済的に恵まれた層で、ほかの家庭や、もっと大きくなってからどうなるかはこの研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-bilingual-advantage",
+        "type": "あわせて読む",
+        "why": "2つの言葉を使う大人は頭がいいのか、を確かめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#lang-bilingual-toddler-vocabulary"
+  },
+  {
     "id": "kokoro-best-possible-self-ai-future-optimism",
     "category": "幸福の科学",
     "kind": "研究紹介",
@@ -3142,6 +3332,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "アナグラムと知識テストでは差がほぼゼロで、初期の研究ほど効果が大きかった。出版バイアスを補正すると、赤が知的成績を下げる証拠は残らなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "推論テストの結果と、人数の少なさ",
+        "body": "推論テストだけは、補正前に赤の方が成績が低い結果（d=-0.34）が出ていた。集めた研究の参加者は主にアメリカ・ドイツ・イギリスの若い人で、1つの比較の人数は中央値76人と少なめだった。"
       }
     ],
     "quiz": {
@@ -3262,7 +3457,12 @@
       {
         "stage": "結果",
         "title": "分かったこと",
-        "body": "習慣が強い人は、古いポップコーンも新鮮なものと同量食べたが、映画館以外の場所では食べる量が減った。習慣が弱い人は味の好みに応じて食べた。"
+        "body": "習慣が強い人は、古いポップコーンも新鮮なものと同じくらい食べた。でも映画館以外の場所では、古いものは食べる量が減った。習慣が弱い人は、どこでも味の好みに応じて食べていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ポップコーン1つの習慣での話",
+        "body": "調べたのは映画館でポップコーンを食べるという1つの習慣だけ。実験はその場で食べた量を測ったもので、場所を変えると長く続いた習慣まで変えられるかは調べていない。運動や勉強のような習慣で同じかもわからない。"
       }
     ],
     "quiz": {
@@ -3273,7 +3473,14 @@
     "articleUrl": "https://dokugaku.seadice.win/willpower-self-control-study-environment/",
     "articleSite": "独学の科学",
     "webUrl": "https://seadice.win/evidence/habits/#habit-context-cue",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "research-habit-same-place-context-research-automaticity",
+        "type": "あわせて読む",
+        "why": "場所と時間を固定すると、新しい習慣が自動的になりやすかった実験"
+      }
+    ]
   },
   {
     "id": "habit-fresh-start",
@@ -4567,6 +4774,11 @@
         "id": "dokugaku-font-size-illusion",
         "type": "あわせて読む",
         "why": "覚えた気になる感覚と、実際の記憶はずれやすい"
+      },
+      {
+        "id": "research-wrong-answer-review-memory-research-feedback",
+        "type": "あわせて読む",
+        "why": "テストで間違えた後に正解を見ると、1週間後の記憶が大きく伸びた"
       }
     ]
   },
@@ -12853,7 +13065,14 @@
         "body": "見たのはほろ酔いの1回だけで、実験室の言葉の課題の話。もっと飲んだらどうか、仕事の企画のような実際のアイデアにも当てはまるかは、この研究ではわからない。飲みすぎの害は別の話として残る。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/insight/#insight-alcohol-creativity"
+    "webUrl": "https://seadice.win/evidence/insight/#insight-alcohol-creativity",
+    "links": [
+      {
+        "id": "alcohol-foreign-language-pronunciation",
+        "type": "あわせて読む",
+        "why": "少量のお酒で、外国語の発音の評価が上がった実験"
+      }
+    ]
   },
   {
     "id": "insight-brainstorming-groups",
@@ -14767,6 +14986,11 @@
         "id": "lang-critical-period-age",
         "type": "あわせて読む",
         "why": "2つの言葉を話せると頭も良くなるのか、という別の「言葉の神話」を確かめたメタ分析"
+      },
+      {
+        "id": "lang-bilingual-toddler-vocabulary",
+        "type": "あわせて読む",
+        "why": "2つの言葉で育つ幼い子の、言葉の育ち方を比べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/brain-myths/brain-bilingual-advantage/"
