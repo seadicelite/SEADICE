@@ -1,5 +1,173 @@
 [
   {
+    "id": "research-music-cortisol-stress-research-concert",
+    "category": "音楽と集中力",
+    "kind": "研究紹介",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Fancourt D & Williamon A, \"Attending a concert reduces glucocorticoids, progesterone and the cortisol/DHEA ratio\" (Public Health, 2016)",
+    "sourceUrl": "https://doi.org/10.1016/j.puhe.2015.12.005",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/music-cortisol-stress-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "コンサート会場で唾液を採取",
+        "body": "イギリスの研究チームが、落ち着いたクラシックの生演奏のコンサートに来た117人から、開演前と60分後の休憩中に唾液を採って比べたんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ストレスに関わるホルモンが下がった",
+        "body": "コルチゾールやコルチゾン、プロゲステロン、コルチゾールとDHEAの比などに意味のある変化が見られた。著者らは、ストレスの反応が和らいだしるしと見ているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べる相手のいない前後の比較",
+        "body": "コンサートに行かなかった人とは比べず、同じ人の前後を見ただけ。落ち着いたクラシックの生演奏の話で、録音やほかのジャンルでも同じかはこの研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-music-cortisol-stress-research-meta104",
+        "type": "あわせて読む",
+        "why": "音楽とストレスの研究のまとめと、生演奏の会場で測った1つの研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#research-music-cortisol-stress-research-concert"
+  },
+  {
+    "id": "dokugaku-why-screen-reading-harder-to-understand-self-paced",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Ackerman & Goldsmith, \"Metacognitive regulation of text learning: On screen versus on paper\" (Journal of Experimental Psychology: Applied, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0022086",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-screen-reading-harder-to-understand/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "画面だと頭に入らないのはなぜ？",
+        "body": "PDFで読んだのに内容が残っていない。紙ならもう少し覚えている気がする。画面だと読む力そのものが落ちるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "時間を決める・決めないで比べた",
+        "body": "1,000〜1,200語の説明文を紙か画面で学んで、選択式のテストを受ける実験。読む時間を決めた場合と、自分で決めた場合を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差が出たのは時間を自分で決めたとき",
+        "body": "時間を決めると紙と画面で成績は同じだった。時間を自分で決めると画面の方が低かった。著者らは、画面では理解できたかの予想が不正確で、時間の使い方が乱れやすいとまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "今の画面や別の文章でも同じか",
+        "body": "2011年の実験で、端末や読み方は今と違う。決まった長さの説明文と選択式テストで調べた話なので、ほかの文章や学び方でも同じになるかは、この研究だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-screen-reading-harder-to-understand-self-paced"
+  },
+  {
+    "id": "kokoro-work-confidence-recover-ai-praise",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Watanabe Y, Nakayama M, Takemura K, Uchida Y, \"AI feedback and workplace social support in enhancing occupational self-efficacy: a randomized controlled trial in Japan\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-94985-0",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/work-confidence-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIに褒められても自信はつく？",
+        "body": "相手が機械だと、褒められても意味がない気がするよね。仕事の自信は、AIとの対話で変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "日本の働く人102人の実験",
+        "body": "25〜59歳の働く人を2つに分けて、AIと15〜30分、その日か前日の仕事を振り返ってもらった。片方は強みとできたこと、もう片方は改善点に目を向ける対話だったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「できたこと」の対話で自信が上がった",
+        "body": "強みとできたことの対話では、仕事の自信が5段階で約0.3点上がっていた。改善点の対話は、職場で気持ちを受け止めてもらえていると感じる人でだけ、自信を上げていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の対話の直後の話",
+        "body": "測ったのは1回の対話の直後だけで、効果が続くかはわからない。何も対話しないグループとは比べていないし、職場の支えは実験で変えたものではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-work-confidence-recover-ai-praise"
+  },
+  {
+    "id": "exercise-runners-high-endorphin",
+    "category": "運動と気分",
+    "kind": "よくある説",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Siebers M et al., \"Exercise-induced euphoria and anxiolysis do not depend on endogenous opioids in humans\" (Psychoneuroendocrinology, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.psyneuen.2021.105173",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ランナーズハイはエンドルフィンのおかげ？",
+        "body": "走っていると気分が高まるのは「脳内麻薬のエンドルフィンが出るから」ってよく聞くよね。実は、これを人で確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "エンドルフィンの働きを止めて走った",
+        "body": "63人が、45分の中くらいの強さのランニングと歩くのを比べた。エンドルフィンなどの働きを止める薬か偽の薬を、本人も研究者も知らないまま飲んでもらったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "働きを止めても気分は上がった",
+        "body": "走ると歩くより高揚感が増え、不安が減った。でも薬で働きを止めても同じように起きた。代わりに、走ると血中のエンドカンナビノイドという物質が増えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当の主役はまだ候補の段階",
+        "body": "63人の小さな実験で、ルームランナーでの45分のランニングだけを調べた。エンドカンナビノイドは「有力な候補」とされた段階で、これが原因だと人で確かめたわけではない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-runners-high-endorphin"
+  },
+  {
+    "id": "speech-gestures-comprehension",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Hostetter AB, \"When do gestures communicate? A meta-analysis\" (Psychological Bulletin, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0022128",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "身ぶり手ぶりをつけると、話は伝わりやすい？",
+        "body": "「プレゼンでは手を動かしたほうが伝わる」ってよく聞くよね。でも35年ほど研究が続いても、答えははっきりしていなかったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "63の研究をまとめた",
+        "body": "話だけを聞いたときと、話に身ぶりがついたときで、聞き手がどれだけ内容をわかったかを比べた63のデータをまとめて分析したよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "中くらいの助けになる。ただし場面しだい",
+        "body": "身ぶりは理解を中くらい助けていた。動きを表す身ぶりは抽象的な話より効き、言葉と同じことをくり返すだけの身ぶりは効果が小さく、大人より子どもでよく効いたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "好感や説得力は別の問い",
+        "body": "調べたのは内容をどれだけ理解したかで、話し手の印象や説得力が上がるかではない。大人が抽象的な話を聞く場面では効果が小さめ。2011年までの研究のまとめだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-gestures-comprehension"
+  },
+  {
     "id": "research-procrastination-self-forgiveness-recovery-research-treatment-meta",
     "category": "先延ばし対策",
     "kind": "よくある説",
@@ -946,7 +1114,14 @@
       }
     ],
     "studyType": "メタ分析",
-    "webUrl": "https://seadice.win/evidence/music-focus/#research-music-cortisol-stress-research-meta104"
+    "webUrl": "https://seadice.win/evidence/music-focus/#research-music-cortisol-stress-research-meta104",
+    "links": [
+      {
+        "id": "research-music-cortisol-stress-research-concert",
+        "type": "あわせて読む",
+        "why": "研究のまとめに対して、生演奏の会場でホルモンを測った1つの研究"
+      }
+    ]
   },
   {
     "id": "research-room-temperature-concentration-research-hotcold",
@@ -3686,7 +3861,7 @@
     "sourceUrl": "https://doi.org/10.1287/mnsc.2014.1901",
     "cards": [
       {
-        "stage": "結論",
+        "stage": "わかったこと",
         "title": "「月曜日から」と思うのはなぜ？",
         "body": "週や月の始まり、誕生日などの「節目」の直後は、新しい目標に取り組む人が増えることが、実際のデータで示された。"
       },
@@ -3699,6 +3874,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "ダイエットの検索は週の初め・月の初め・祝日の翌日に増え、ジムは新学期や誕生日の後に増え、目標の誓約も節目の直後に増えた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "節目でやる気が出る理由は仮説",
+        "body": "使ったのは検索数・ジムの来館・目標の誓約の記録で、節目を実験で作ったわけではない。「過去の自分と区切れるから」などの理由は著者らの提案で、このデータで直接確かめたものではないよ。"
       }
     ],
     "quiz": {
@@ -3709,7 +3889,7 @@
     "articleUrl": "https://research.seadice.win/fresh-start-effect-habit-timing-research/",
     "articleSite": "悩みの科学",
     "webUrl": "https://seadice.win/evidence/habits/#habit-fresh-start",
-    "studyType": "実験"
+    "studyType": "観察研究"
   },
   {
     "id": "sleep-ereader-blue-light",
@@ -4061,7 +4241,7 @@
     "sourceUrl": "https://doi.org/10.1037/0033-2909.133.1.65",
     "cards": [
       {
-        "stage": "結論",
+        "stage": "わかったこと",
         "title": "先延ばしと強く結びつく要因は何か？",
         "body": "先延ばしと強く関係したのは、作業の不快さ、自信のなさ、衝動性、自制心の低さ。神経質さとの関係は弱かった。"
       },
@@ -4074,6 +4254,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "作業の不快さ・先送りの長さ・自己効力感・衝動性・誠実性（自制心や整理力など）が強く安定した関連を示し、神経質さ・反抗心・刺激希求は弱かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因か結果かは決められない",
+        "body": "まとめたのは691件の「一緒に見られるか」の相関。作業の不快さが先延ばしを生むのか、その逆なのかはこの分析だけでは決められない。著者自身も、先延ばしはまだ十分わかっていないと書いているよ。"
       }
     ],
     "quiz": {
