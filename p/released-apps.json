@@ -408,6 +408,13 @@
           "hub": "https://oya.seadice.win/apps/kiroku-nou-training/"
         }
       ]
+    },
+    {
+      "id": "yame-lab",
+      "name": "やめラボ",
+      "genre": "digital-wellbeing",
+      "appStoreId": "6796585558",
+      "appStoreUrl": "https://apps.apple.com/app/id6796585558"
     }
   ]
 }

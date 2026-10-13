@@ -8,6 +8,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
+- [ ] 近いうちに | アプリ | やめラボ 1.1.0 を申請する: ターミナルで `cd ~/Developer/依存症対策系/yame-lab && flutter build ipa --release` → Transporter でアップロード。「このバージョンの新機能」は会話に出した文面。スクリーンショットに「衝動が来た」の画面を1枚足すと伝わりやすい — 新機能「衝動が来た」と、iPad で共有が無反応になる恐れ（share_plus 10）の修正が入る（2026-10-13）
 - [x] 近いうちに | アプリ | エニアグラム性格診断 1.1.0（AIなし版）を申請する: ターミナルで `flutter build ipa` → アップロード。App Store Connect でアプリ名を「エニアグラム性格診断」（AIを外す）、新機能・審査メモ・App Privacy（AdMob と診断回答を「収集しない」に）を差し替える。中身は 心理学系/enneagram/APPSTORE_SUBMISSION.md の先頭の節 — 今のストア表記は「AI」「Claude API に送信」のままで、実態と合わなくなる（2026-10-13） → 2026-10-13 申請済み（ユーザー）。審査通過の連絡でサイトのAI表記を外す（docs/improve/apps.md）
 - [ ] 近いうちに | アプリ | Life's RPG 1.1.2（ビルド9）を申請する: 寄付リンクの削除・共有を share_plus 11 の新しい書き方に・Deployment Target 15.0 は Claude が済ませ、署名なしビルドも通った（2026-10-13）。ターミナルで `cd ~/Developer/生産性系/life_is_rpg && flutter build ipa` → アップロード。新機能の文面は「設定画面を整理しました。iPad でアプリの共有が開かないことがある問題を直しました。」— 寄付リンクは審査 3.1.1 で却下された実例があるため
 - [x] 近いうちに | 全体 | firestore.rules に足した belief_counts（一次データ用の匿名カウンター）を本番に反映する: ターミナルで `firebase deploy --only firestore:rules` — Claude からは本番への反映が止められたため（2026-10-12） → 2026-10-13 取り下げ（ユーザーが「データを取りたくない」と判断。belief_counts をルールから消して本番に反映）

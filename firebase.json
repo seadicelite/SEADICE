@@ -3118,6 +3118,11 @@
         "type": 301
       },
       {
+        "source": "/apps/yame-lab/**",
+        "destination": "/tools/yame-lab/",
+        "type": 301
+      },
+      {
         "source": "/apps/body-language-scan/**",
         "destination": "/tools/body-language-scan/",
         "type": 301
