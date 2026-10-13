@@ -1,5 +1,178 @@
 [
   {
+    "id": "alcohol-liver-holiday",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Marugame T et al., \"Patterns of Alcohol Drinking and All-cause Mortality: Results from a Large-scale Population-based Cohort Study in Japan\" (American Journal of Epidemiology, 2007)",
+    "sourceUrl": "https://doi.org/10.1093/aje/kwk112",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "休肝日って、本当に意味がある？",
+        "body": "「週に2日はお酒を休もう」ってよく言われるよね。同じ量を飲むなら、毎日飲むのと、間をあけて飲むのとで、体への影響は変わるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "日本の約8万9千人を追いかけた",
+        "body": "日本の大規模な追跡調査（JPHC研究）で、1990年から2003年まで、40〜69歳の88,746人（男性41,702人・女性47,044人）を追跡。飲む量・日数と、亡くなるリスクの関係を調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "たくさん飲む男性は、毎日飲むとリスクが高かった",
+        "body": "週300g以上（純アルコール）飲む男性は、週5〜7日飲むと死亡リスクが月1〜3日の人の1.29〜1.55倍。週4日以下でははっきりした上昇がなかった。週300g未満なら頻度によらず上昇なし。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "休肝日そのものの効果かは、まだわからない",
+        "body": "アンケートをもとに追いかけた研究で、くじ引きで分けた実験ではない。飲む日数が少ない人は、ほかの暮らし方も違うかもしれない。結果が示されたのは日本の40〜69歳の男性。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-liver-holiday"
+  },
+  {
+    "id": "weather-sunny-life-satisfaction",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Lucas RE & Lawless NM, \"Does Life Seem Better on a Sunny Day? Examining the Association Between Daily Weather Conditions and Life Satisfaction Judgments\" (Journal of Personality and Social Psychology, 2013)",
+    "sourceUrl": "https://doi.org/10.1037/a0032124",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "晴れた日は、人生に満足しやすい？",
+        "body": "晴れの日に聞くと人生の満足度が高く、雨の日は低い。1983年の有名な実験で言われた話だよ。でもその実験は全部で84人、1グループ14人ほどの小さなものだったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの100万人以上で確かめた",
+        "body": "アメリカの研究者が、全50州で2005〜2009年に行われた健康調査（BRFSS）の約107万人の答えと、答えた日の天気を照らし合わせた。満足度は4段階で答えてもらっている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "天気と満足度は、ほぼ関係なかった",
+        "body": "雲の量や雨など、ほとんどの天気は満足度と関係がなかった。意味のある差が出たものも、人数がとても多いから見つかったほどの小ささ。著者らは「天気は満足度の判断を確かには変えない」とまとめているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一部の人には影響があるかも",
+        "body": "対象はアメリカの人だけで、同じ人を追った調査でもない。天気によって調査に答える人が変わる可能性や、一部の人では影響が大きい可能性は、著者らも否定できないと書いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-daily-mood",
+        "type": "あわせて読む",
+        "why": "天気と毎日の気分を調べた研究と、人生全体の満足度を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-sunny-life-satisfaction"
+  },
+  {
+    "id": "research-why-habits-run-on-autopilot-research-overtraining",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "de Wit S et al., \"Shifting the Balance Between Goals and Habits: Five Failures in Experimental Habit Induction\" (Journal of Experimental Psychology: General, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000402",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/why-habits-run-on-autopilot-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "くり返すほど「勝手に動く」習慣になる？",
+        "body": "同じ行動を何度もくり返すと、目的と関係なく体が動く習慣になる。よく聞く話だし、2009年には人で確かめたという実験も出ていたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5回の実験で確かめ直した",
+        "body": "オランダやアメリカなどの研究者が、4種類の方法で合計5回の実験をした。2009年の実験も、アメリカ（64人）とオランダで別々に同じ手順でやり直している。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "練習を長くしても差が出なかった",
+        "body": "練習を長くした人も短い人も、ごほうびの価値が下がると同じように行動を変えた。著者らは、健康な人で実験的に習慣を作るのは難しいと結論づけているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日常の習慣とは別の話かも",
+        "body": "これは実験室での数日の練習の話。何年も続いた毎日の習慣が「勝手に動く」かどうかは、この実験だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-why-habits-run-on-autopilot-research-overtraining"
+  },
+  {
+    "id": "research-stop-ruminating-after-bad-day-research-worry-time",
+    "category": "こころの不調",
+    "kind": "素朴な疑問",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "McGowan SK & Behar E, \"A Preliminary Investigation of Stimulus Control Training for Worry: Effects on Anxiety and Insomnia\" (Behavior Modification, 2013)",
+    "sourceUrl": "https://doi.org/10.1177/0145445512455661",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/stop-ruminating-after-bad-day-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "心配ごとは「後で考える」と決めていい？",
+        "body": "考えないようにしても、心配ってつい浮かんでくるよね。じゃあ「考える時間を決めて、それまで先送りする」のはどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "心配しやすい53人で比べた",
+        "body": "心配しやすい53人を2つに分けて2週間。片方は毎日決まった時間と場所で30分だけ心配する。もう片方は、心配を避けないように言われただけ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "心配・不安・不眠が減った",
+        "body": "心配の時間を決めたグループのほうが、心配・不安・ネガティブな気分・不眠が減った。ただ、落ち込みの度合いには差が出なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さく短い試験だった",
+        "body": "人数は53人、期間は2週間で、著者ら自身も「予備的な結果」と書いている。長く続けたときの効果や、心配しやすくない人に効くかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#research-stop-ruminating-after-bad-day-research-worry-time"
+  },
+  {
+    "id": "research-exercise-habit-lapse-restart-research-lapse-rate",
+    "category": "習慣形成",
+    "kind": "研究紹介",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Mendoza-Vasconez AS et al., \"Lapse, Relapse, and Recovery in Physical Activity Interventions for Latinas: a Survival Analysis\" (International Journal of Behavioral Medicine, 2021)",
+    "sourceUrl": "https://doi.org/10.1007/s12529-020-09943-z",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/exercise-habit-lapse-restart-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "運動が途切れるのは意志が弱いから？",
+        "body": "せっかく始めた運動が止まると、自分はだめだと思いがち。でも実際、どのくらいの人が途中で止まるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "運動を始めた176人を追跡",
+        "body": "2つの運動プログラムに参加した176人のデータをまとめて、いつ運動が途切れるかを追いかけた研究がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "4か月で3人に1人が中断",
+        "body": "始めて1か月で途切れている確率は18％、4か月後には34％。早く途切れるかは、自信などの心理面と関係していて、測った環境の要素とは関係がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "対象が限られていて、回復の話はまだ",
+        "body": "対象は米国のラテン系女性だけ。途切れた後にどうすれば戻れるかについては、著者ら自身も結果ははっきりしないと書いている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-exercise-habit-lapse-restart-research-lapse-rate"
+  },
+  {
     "id": "research-music-cortisol-stress-research-concert",
     "category": "音楽と集中力",
     "kind": "研究紹介",
@@ -4492,7 +4665,12 @@
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "レム睡眠をとった群は午後の成績が午前より約40%向上。安静やノンレム睡眠の群では同じ向上は見られなかった。"
+        "body": "事前にヒントに触れていた問題で、レム睡眠をとった群は午後の成績が午前より約40%向上。安静やノンレム睡眠の群では同じ向上は見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな昼寝実験で、課題も1種類",
+        "body": "対象は18〜35歳の77人で、レム睡眠の群は10人と18人、ノンレム睡眠の群は6人ずつと少ない。実験室の昼寝で、言葉の連想課題1種類だけの話。仕組みの説明も著者らの仮説の段階だよ。"
       }
     ],
     "quiz": {
@@ -4523,7 +4701,12 @@
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "運動群の前部海馬は体積が約2%増え、加齢による1〜2年分の減少を取り戻した。空間記憶も向上し、体積増加は血中BDNFの高さと関連した。"
+        "body": "運動群の海馬は体積が約2%増え、加齢による1〜2年分の減少を取り戻した。ストレッチ群は約1.4%減った。体積の増加は血中BDNFの高さと関連していた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "記憶の伸びは、ストレッチ群と同じだった",
+        "body": "空間記憶は両方の群で良くなり、運動群がストレッチ群を上回ったわけではなかった。対象は運動習慣のない55〜80歳で、BDNFとの関係は相関。海馬が増えた仕組みもまだはっきりしない。"
       }
     ],
     "quiz": {
@@ -19915,6 +20098,11 @@
         "id": "weather-sunshine-stock-returns",
         "type": "あわせて読む",
         "why": "晴れで気分が上がるという考えを、株価のデータで確かめた研究"
+      },
+      {
+        "id": "weather-sunny-life-satisfaction",
+        "type": "あわせて読む",
+        "why": "毎日の気分ではなく、人生全体の満足度と天気の関係を調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/weather-daily-mood/"
