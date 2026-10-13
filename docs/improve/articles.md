@@ -42,6 +42,7 @@ docs/writing.md
 2. **既存のレビュー記事24件を docs/writing.md の新しい条件で点検**: 実際に使った結果・一次データがない記事を一覧にする（直さず報告）
 
 ## やったこと
+- 2026-10-14: kosodate の全ページのタイトルを「〜 | AI時代の子育て（SEADICE）」に。名前がよくある言葉のメディアは、設定に titleName を書くと build.py が <title>・og:title の末尾を差し替える（他のメディアでも使える）
 - 2026-10-13: 「AI時代の子育て」でGoogle AIモードに聞いてもSEADICEが出ない（同名のYouTubeチャンネルが出る）とユーザーから。広い問いに1ページで答える柱ページ kosodate /ai-era-parenting/ を新設（AIの要約に出る7つの説を記事の出典で判定・わかっている度・FAQPage・道具4つへ。ナビとトップに追加）。足りなかった記事 /child-ai-critical-thinking-fact-check/（AIを疑う力は育てられるか。研究8本）も追加。型: AIの要約で出なかった問い → 要約の説を1つずつ確かめる柱ページ＋足りない記事
 - 2026-10-13: AI時代の困りごと（ai.seadice.win）をA案「取扱説明書」のデザインに（白×黒罫線×青、分類に01〜10の番号）。症状と対処の表を新設（/symptoms/ に全件、トップに「よくある症状と対処」6件。番号は分類-分類内の古い順で固定。設定 symptomTable で他メディアにも使える）。3本追加（AI面接の準備・AIが自分について誤情報・AIチャット依存）で69本。注意: mastheadHtml を差し替えるときは末尾に `<!--mastend-->` を入れる（無いと extraNav の入口が消える）
 - 2026-10-12: 点検（blog+reviews 116。publisher/tool-cta/BreadcrumbList 漏れ0、過去年タイトル0、sitemap漏れ1）。privacy-pages-noindex-audit を sitemap に追加。削除済み /apps/kateisaien-app*・pet-health-app1,2・koreisha-mimamori-kiki-hikaku へのリンク（記事33本、サイト全体で33ファイル）を /tools/ のハブへ張り替え。残: /apps/fitness-app1/（jitaku-dumbbell-hikaku）は行き先のハブなし
