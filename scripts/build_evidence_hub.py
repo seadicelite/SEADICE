@@ -159,6 +159,14 @@ def answer_of(t):
 INDEX = {}
 
 
+def try_box(practice):
+    """1問1ページの結論の下に置く「この場で試す」。ブラウザで使える道具（type=web）があるときだけ"""
+    if not practice or practice.get("type") != "web":
+        return ""
+    return (f'<div class="box try"><p class="stage">この場で試す</p><p>{e(practice["catch"])}。登録なし・無料で、ブラウザだけで使えます。</p>'
+            f'<a class="cta" href="{e(practice["url"])}">{e(practice["name"])}を使う</a></div>')
+
+
 def topic_html(t, practice, focus_url=None, heading="h2"):
     cards = t["cards"]
     first, rest = cards[0], cards[1:]
@@ -263,8 +271,9 @@ def main():
         same = [o for o in by_cat[cat] if o["id"] != t["id"]][:6]
         rel = "".join(f'<a href="{topic_link(o)}">{e(o["cards"][0]["title"])}</a>' for o in same)
         body = (f'<p class="label">EVIDENCE / {e(cat)}</p><h1>{e(f["title"])}</h1>'
-                f'<p class="lead"><strong>結論:</strong> {e(concl)}</p>'
+                f'<p class="lead"><strong>SEADICE が元の論文で確かめた結論:</strong> {e(concl)}</p>'
                 f'<p class="lead">「{e(f["kw"])}」について、元の論文でわかったことと、まだわかっていないことをまとめました。研究の種類と出典の論文は下にあります。</p>'
+                + try_box(practice_of(t))
                 + topic_html(t, practice_of(t), heading="h2")
                 + f'<section><h2>{e(cat)}のほかの研究</h2><div class="grid">{rel}</div>'
                 f'<p><a href="/evidence/{slug}/">{e(cat)}の研究まとめ（{len(by_cat[cat])}本）を読む</a></p></section>'
@@ -272,7 +281,7 @@ def main():
         art = {"@type": "Article", "headline": f["title"], "about": f["kw"], "inLanguage": "ja", "publisher": ORG,
                "citation": {"@type": "ScholarlyArticle", "name": t["sourceLabel"], "url": t["sourceUrl"]}}
         faq = {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": first["title"],
-               "acceptedAnswer": {"@type": "Answer", "text": concl}}]}
+               "acceptedAnswer": {"@type": "Answer", "text": f"{concl}（SEADICE が元の論文で確認）"}}]}
         urls.append(page(fp, f'{f["title"]} | EVIDENCE', desc, body,
                          [*top_crumbs, (cat, f"/evidence/{slug}/"), (f["kw"], "/" + fp)], [art, faq]))
         focus_links.append(f'<a href="/{fp}">{e(f["kw"])}<span>{e(f["title"].split("？")[0])}？</span></a>')

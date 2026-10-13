@@ -8,7 +8,13 @@
     "notify-mindfulness": {"name": "通知deマインドフルネス", "catch": "1日数回の通知で、ひと呼吸おく習慣をつくる", "url": "https://apps.apple.com/app/id6799487711?ct=evidence", "type": "app"},
     "hikaku-tomeru": {"name": "SNS比較疲れ対策", "catch": "SNSを見たあとのモヤモヤをその場で整理する", "url": "https://apps.apple.com/app/id6802040116?ct=evidence", "type": "app"},
     "dopamine-detox": {"name": "ドーパミンハック", "catch": "5分の小さな一歩から始めて、行動をつなげる", "url": "https://apps.apple.com/app/id6801960694?ct=evidence", "type": "app"},
-    "hitori-time": {"name": "ひとりじかんノート", "catch": "ひとりの時間の過ごし方を記録して、質を上げる", "url": "https://apps.apple.com/app/id6797715532?ct=evidence", "type": "app"}
+    "hitori-time": {"name": "ひとりじかんノート", "catch": "ひとりの時間の過ごし方を記録して、質を上げる", "url": "https://apps.apple.com/app/id6797715532?ct=evidence", "type": "app"},
+    "bigfive-tipi": {"name": "ビッグファイブ性格診断（10問）", "catch": "5つの性格の特性を測り、同じ年代・性別の平均とくらべる", "url": "https://seadice.win/diagnosis/bigfive-tipi/", "type": "web"},
+    "blood-type": {"name": "血液型性格診断の答え合わせ", "catch": "血液型の性格イメージが自分に当たるかを確かめる", "url": "https://seadice.win/diagnosis/blood-type/", "type": "web"},
+    "right-left-brain": {"name": "右脳派・左脳派診断の答え合わせ", "catch": "右脳派・左脳派の診断が当たると感じる理由を確かめる", "url": "https://seadice.win/diagnosis/right-left-brain/", "type": "web"},
+    "life-satisfaction": {"name": "人生満足度診断（5問）", "catch": "幸福研究で使われる尺度で、今の満足度を点数にする", "url": "https://seadice.win/diagnosis/life-satisfaction/", "type": "web"},
+    "suimin-fusai": {"name": "睡眠負債チェック", "catch": "平日の睡眠不足と、寝だめで補えるかを計算する", "url": "https://seadice.win/tools/suimin-fusai/", "type": "web"},
+    "saki-ni-ugoku": {"name": "先に動く5分タイマー", "catch": "やる気を待たずに5分だけ動き、前後の気分を記録する", "url": "https://seadice.win/tools/saki-ni-ugoku/", "type": "web"}
   },
   "categories": {
     "睡眠": "hiru10",
@@ -24,5 +30,21 @@
     "先延ばし対策": "dopamine-detox",
     "孤独とつながり": "hitori-time"
   },
-  "topics": {}
+  "topics": {
+    "personality-change-adulthood": "bigfive-tipi",
+    "personality-change-intervention": "bigfive-tipi",
+    "personality-big-five-life-outcomes": "bigfive-tipi",
+    "personality-heritability": "bigfive-tipi",
+    "personality-conscientiousness-longevity": "bigfive-tipi",
+    "japan-blood-type": "blood-type",
+    "brain-left-right-type": "right-left-brain",
+    "happy-income-conflict-resolved": "life-satisfaction",
+    "happy-lottery-wealth": "life-satisfaction",
+    "happy-age-u-curve": "life-satisfaction",
+    "circadian-social-jetlag-obesity": "suimin-fusai",
+    "japan-early-bird": "suimin-fusai",
+    "appetite-sleep-deprivation-meta": "suimin-fusai",
+    "kokoro-sleep-improve-mental": "suimin-fusai",
+    "replication-ego-depletion": "saki-ni-ugoku"
+  }
 }
