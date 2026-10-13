@@ -2141,6 +2141,16 @@
     ],
     "redirects": [
       {
+        "source": "/apps/tetsujin-friends/**",
+        "destination": "https://tetsugaku.seadice.win/apps/tetsujin-friends/",
+        "type": 301
+      },
+      {
+        "source": "/tools/tetsujin-friends/**",
+        "destination": "https://tetsugaku.seadice.win/apps/tetsujin-friends/",
+        "type": 301
+      },
+      {
         "source": "/apps/omikuji-zodiac/**",
         "destination": "/tools/omikuji-zodiac/",
         "type": 301
