@@ -594,6 +594,11 @@ sips -s format png -z 512 512 "$ICON_SRC" --out web/icons/Icon-maskable-512.png
 
 ---
 
+## スクリーンショットとApp Storeでの見え方の確認（2026-10-13〜）
+
+- **スクリーンショット**: アプリに `test_screenshots/shots_test.dart` を置き、`flutter test test_screenshots/shots_test.dart --update-goldens` で `screenshots/{6.9,duo-outer,duo-inner}/1〜5.png` に書き出す（本物のフォントとサンプルデータで描く）。見本は Spendology（`ファイナンス系/spendology/test_screenshots/`）。6.9インチ（1320×2868）がApp Storeの必須サイズ。`duo-*` は折りたたみの iPhone Duo（2026-10-23発売）の外側・開いた内側の目安で、公式の寸法ではない
+- **ヘッダと検索結果**: `python3 scripts/appstore_preview.py {アプリのフォルダ}` で `store_preview/header.png`（アイコン・名前・サブタイトル・年齢/カテゴリ/価格）と `search.png`（検索結果の1行とスクリーンショット3枚）を作る。名前・サブタイトルは APPSTORE_SUBMISSION.md から読む。申請前に、サブタイトルが切れていないか・1〜3枚目で何のアプリか伝わるかを見る
+
 ## App Storeリリース時の出力ルール
 
 `/release`スキル実行時やApp Store Connect登録の準備をするときは、`APPSTORE_SUBMISSION.md`をファイルに書いて終わりにせず、**毎回その内容をチャット上にも直接出力する**こと。ユーザーはファイルを開かず、チャット上でそのままコピペして使いたいため。
