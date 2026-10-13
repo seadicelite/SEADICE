@@ -4,6 +4,7 @@
 1つの <url> に <loc> が2つ入るなど規格外の書き方があると、Search Console は
 サイトマップ全体を「読み込めませんでした」にする（2026-10-13 に実例）。
 """
+import json
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -45,6 +46,15 @@ for i, url in enumerate(urls, 1):
         errors.append(f"{loc}: p/ にファイルがない")
     elif target.suffix == ".html" and NOINDEX.search(target.read_text(errors="ignore")):
         errors.append(f"{loc}: noindex のページ")
+
+# 公開済みアプリのページ（審査通過時に noindex が外れる）が載っているか
+apps = json.loads((ROOT / "released-apps.json").read_text())
+for app in apps if isinstance(apps, list) else apps.get("apps", []):
+    app_id = app.get("id") or app.get("appId")
+    page = ROOT / "tools" / str(app_id) / "index.html"
+    loc = f"{HOST}tools/{app_id}/"
+    if page.exists() and loc not in seen and not NOINDEX.search(page.read_text(errors="ignore")):
+        errors.append(f"{loc}: 公開済みアプリのページが載っていない")
 
 if errors:
     print("\n".join(errors))

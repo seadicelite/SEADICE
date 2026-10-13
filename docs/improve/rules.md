@@ -18,6 +18,7 @@
 3. docs/flutter-app.md の設定画面の標準構成に「もっと知る（SEADICEのメディア）」を足し、CLAUDE.md の書き方と揃える
 
 ### ルールの変更履歴
+- 2026-10-13: check_sitemap.py に「公開済みアプリ（released-apps.json）の /tools/{appId}/ が sitemap にない」も足し、CLAUDE.md の審査通過時の手順に書いた（habit-quit など16件が漏れていたため）
 - 2026-10-13: sitemap の検査 `scripts/check_sitemap.py` を作り、main への push と PR のデプロイ前に Actions で必ず実行するようにした（1つの <url> に <loc> が2つ・ファイルなし・noindex・重複・別ホストを止める）。8月の手作業の追記で2か所が壊れ、Search Console が約2週間「読み込めませんでした」のままだったため
 - 2026-10-12: docs/flutter-app.md の「良いアプリの基準」に「目標とのつなぎ」を追加（アプリ→メディアの戻り口・根拠の画面・端末内保存。CLAUDE.md にしかなく、アプリ作成時に読まれず抜ける恐れがあったため）
 
@@ -45,6 +46,7 @@
 2. docs/flutter-app.md を「アプリも AIが補えない部分になっているか」で見直す（基準3は反映済み。残りは設定画面・オンボーディングの各節）
 
 ## やったこと
+- 2026-10-13: sitemap に公開済みアプリのページ16件を追加（habit-quit・renshu-sns など。560→576件）。未公開の tetsujin-chat に noindex。サブドメイン18本のサイトマップは本番で全部正常を確認。載っていない privacy ページ51件・Flutter Web 9件は検索の対象にしないため据え置き
 - 2026-10-13: sitemap の壊れた2か所（1つの <url> に <loc> が2つ。2026-07-24・08-12 の手作業の追記）を直す。558→560件。Search Console の「サイトマップを読み込めませんでした」の原因
 - 2026-10-12: sitemap から、ファイルが存在しない31件と noindex の1件（計32件、451→419件）を外す。点検: 内部パス参照の欠落0件
 - 2026-10-12: 効かないルール（Search Console再送信・Critical CSS・HTTPS・テキスト圧縮・ドメイン設定手順）を削除。docs/writing.md を目標基準で書き直し
