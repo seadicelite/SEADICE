@@ -417,6 +417,10 @@
       "appStoreUrl": "https://apps.apple.com/app/id6796585558",
       "media": [
         {
+          "site": "ledger",
+          "hub": "https://ledger.seadice.win/apps/yame-lab/"
+        },
+        {
           "site": "research",
           "hub": "https://research.seadice.win/apps/yame-lab/"
         }
