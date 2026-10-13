@@ -19145,6 +19145,11 @@
         "id": "speech-voice-vs-text-disagreement",
         "type": "あわせて読む",
         "why": "言葉の中身が同じでも、声で聞くと相手の印象が変わった実験"
+      },
+      {
+        "id": "speech-nonverbal-relationship-audio",
+        "type": "あわせて読む",
+        "why": "ふつうの会話で、言葉を消すとどこまで伝わるかを試した実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/speaking/speech-mehrabian-7-percent/"
@@ -20325,5 +20330,186 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/parenting/kids-parent-homework-help/"
+  },
+  {
+    "id": "speech-nonverbal-relationship-audio",
+    "category": "話し方と伝わり方",
+    "kind": "よく聞く説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Dunbar et al., \"Nonverbal Auditory Cues Allow Relationship Quality to be Inferred During Conversations\" (Journal of Nonverbal Behavior, 2021)",
+    "sourceUrl": "https://doi.org/10.1007/s10919-021-00386-y",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "言葉より声の調子のほうが伝わる？",
+        "body": "「言葉より声や表情のほうが多くを伝える」というメラビアンの説。ただ、これを確かめた実験の多くは、役者が気持ちをこめて読んだ単語や短い言葉を使っていた。ふだんの会話でも同じなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "言葉を消した会話から、2人の関係を当てた",
+        "body": "ダンバーたちは、イギリスの199人とスペインの139人に、実際の会話の録音を聞いてもらった。元の音声と、言葉を聞き取れなくした音声などで、話している2人の関係が良いか悪いかを当ててもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "良い・悪いは、声だけでもかなり当たった",
+        "body": "言葉がない音声でも、関係の良し悪しは元の音声の75〜90%の正確さで当てられた。ただ8種類の関係を見分けるときは45〜53%にとどまった。大まかな空気は声で伝わり、細かく見分けるには言葉もかなり効いていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "声だけの実験で、顔は見ていない",
+        "body": "音声だけを使ったネット上の実験で、表情や身ぶりは調べていない。参加者は18〜30歳が多く、聞いたのは他人どうしの短い会話。自分が話している相手の気持ちを読む場面でも同じかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-mehrabian-7-percent",
+        "type": "あわせて読む",
+        "why": "「言葉は7%」の数字の元になった、1語の実験を読み直したレビュー"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-nonverbal-relationship-audio"
+  },
+  {
+    "id": "replication-dunning-kruger-artifact",
+    "category": "心理学の再現性",
+    "kind": "よく聞く説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Gignac & Zajenkowski, \"The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis with individual differences data\" (Intelligence, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.intell.2020.101449",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "できない人ほど、自分を高く見積もる？",
+        "body": "能力の低い人ほど自分を過大評価する、というダニング＝クルーガー効果。1999年の論文から広まり、成績で4つのグループに分けて自己評価と実力を並べたグラフがよく紹介されるよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "929人で、グラフの落とし穴を避けて確かめた",
+        "body": "ギニャックたちは、4グループのグラフは「自分は平均より上と思いがち」な傾向と「平均への回帰」で似た形になりうると指摘。929人に知能の自己評価と知能検査を受けてもらい、別の統計の方法で確かめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "効果はほぼ見えず、あっても小さそう",
+        "body": "能力の低い人ほど自己評価が外れやすい、という形は見られず、実際の知能と自己評価の関係はほぼまっすぐだった。著者たちは、技能によってはありうるが、言われてきたよりずっと小さいかもしれないとしている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "調べたのは知能の自己評価だけ",
+        "body": "見たのは知能の自己評価だけで、文法や仕事の技能など他の分野でも同じかはわからない。1回の調査のデータで、介入はしていない。別の方法で、低い点の人に見分けにくさがあるとした大きな追試もあり、議論は続いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-dunning-kruger-rational-model",
+        "type": "反対の結果",
+        "why": "約4000人ずつの追試では、点の低い人は答えの正しさを見分けにくかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/replication-dunning-kruger-artifact/"
+  },
+  {
+    "id": "replication-dunning-kruger-rational-model",
+    "category": "心理学の再現性",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Jansen, Rafferty & Griffiths, \"A rational model of the Dunning–Kruger effect supports insensitivity to evidence in low performers\" (Nature Human Behaviour, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-021-01057-0",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "点の低い人は、自分の答えが合っているかもわかりにくい？",
+        "body": "ダニング＝クルーガー効果には「グラフの見え方のくせでは」という批判もある。では、点数の低い人は本当に、自分の答えが正しいかを見抜くのが苦手なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "計算モデルを作り、約4000人ずつで追試",
+        "body": "ヤンセンたちは、自己評価のずれを2つの仕組みで説明するモデルを作った。もとからの「自分の力」への思い込みと、1問ごとに正解かを見分ける力の差だ。有名な元の研究を、約4000人ずつの2つの研究で追試した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "点の低い人は、正解かを見分けにくかった",
+        "body": "2つのモデルの予測を比べると、文法と論理的な推論のテストでは「点の低い人ほど、自分の答えが合っているかを見分けにくい」という説明が支持された。グラフのくせだけの話ではなさそうだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "文法と論理の2分野だけ",
+        "body": "調べたのは文法と論理的な推論のテストだけで、仕事や運転など日常の技能でも同じかはわからない。結論はモデルどうしを比べて出したもので、別の統計の方法では効果がほとんど見えなかった研究もある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-dunning-kruger-artifact",
+        "type": "反対の結果",
+        "why": "929人の調査では、効果はほぼ統計のくせで説明できるとされた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#replication-dunning-kruger-rational-model"
+  },
+  {
+    "id": "sleep-90-minute-cycle",
+    "category": "睡眠",
+    "kind": "よく聞く説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Cajochen, Reichert, Münch, Gabel, Stefani, Chellappa & Schmidt, \"Ultradian sleep cycles: Frequency, duration, and associations with individual and environmental factors—A retrospective study\" (Sleep Health, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.sleh.2023.09.002",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "90分の倍数で寝ると、すっきり起きられる？",
+        "body": "「眠りは90分ごとのサイクルだから、4時間半や6時間、7時間半で起きるとすっきりする」——よく聞く話だよね。でも、そもそも1サイクルは本当にみんな90分なのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "369人・6000サイクル以上の眠りを数えた",
+        "body": "スイスのバーゼル大学のチームが、1994〜2020年に研究室で眠った健康な369人のデータを集め直した。いつもの時間に8時間眠れる条件で、脳波などで測った6064回のサイクルの長さを調べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "長さは人によってかなりばらばらだった",
+        "body": "サイクルの長さの真ん中の値は96分。ただ、人による差が大きく、最初のサイクルはいつも後より短かった。年齢や性別でも中身が変わっていた。「誰でもきっちり90分」で計算できるものではなさそうだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "サイクルに合わせて起きると楽になるかは別の話",
+        "body": "この研究が見たのはサイクルの長さまでで、合わせて起きると目覚めがよくなるかは調べていない。また研究室で眠った、よく眠れる健康な人のデータを後から見直したもので、家での眠りや不眠の人に当てはまるかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/sleep-90-minute-cycle/"
+  },
+  {
+    "id": "pet-fish-memory-three-seconds",
+    "category": "ペットの科学",
+    "kind": "よく聞く説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Ingraham, Anderson, Hurd & Hamilton, \"Twelve-Day Reinforcement-Based Memory Retention in African Cichlids (Labidochromis caeruleus)\" (Frontiers in Behavioral Neuroscience, 2016)",
+    "sourceUrl": "https://doi.org/10.3389/fnbeh.2016.00157",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "金魚の記憶は3秒しかもたない？",
+        "body": "「金魚の記憶は3秒だから、水槽の中でも退屈しない」——冗談まじりによく聞く話だよね。でも、エサの時間になると寄ってくる魚を見ると、ちょっと怪しく感じない？"
+      },
+      {
+        "stage": "試したこと",
+        "title": "エサで覚えさせて、12日あけてテストした",
+        "body": "カナダのマキューアン大学のチームが、アフリカン・シクリッド（ラビドクロミス）という魚で実験。上に流れる縞模様に近づくとエサがもらえる練習をさせ、12日休ませてから、どちらの模様を選ぶかを見た。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "12日たっても、覚えた模様を選んだ",
+        "body": "12日あいても、魚はエサと結びついた模様をはっきり選んだ。逆向きの模様で覚え直させることもでき、少なくとも12日は覚えていられると研究者はまとめている。3秒で忘れる、という話とはだいぶ違う。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "金魚そのもので、どこまでもつかは別",
+        "body": "調べたのは金魚ではなくシクリッドで、研究室の1つの実験。覚え直しのテストでは、12日後に差が出ず、もう一度練習してから選べるようになった。金魚や他の魚で、何週間・何か月もつかは別の研究で確かめる必要がある。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/pet-fish-memory-three-seconds/"
   }
 ]
