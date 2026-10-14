@@ -101,5 +101,30 @@
   ],
   "media": "AI時代の困りごと",
   "url": "ai.seadice.win"
+ },
+ "evidence": {
+  "theme": [
+   "研究ベースのアプリ、",
+   "ほしい？"
+  ],
+  "items": [
+   {
+    "name": "EVIDENCE",
+    "icon": "/Users/hidenori/Developer/SEADICE/p/icons/apps/evidence.webp",
+    "tag": "アプリ"
+   },
+   {
+    "name": "やめラボ",
+    "icon": "/Users/hidenori/Developer/SEADICE/p/icons/apps/yame-lab.webp",
+    "tag": "アプリ"
+   },
+   {
+    "name": "思い出しトレーニング",
+    "icon": "/Users/hidenori/Developer/SEADICE/p/icons/apps/active-recall.webp",
+    "tag": "アプリ"
+   }
+  ],
+  "media": "EVIDENCEシリーズ",
+  "url": "seadice.win/evidence-series/"
  }
 }
