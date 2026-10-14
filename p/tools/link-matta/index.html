@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>そのリンクちょっと待った｜届いたリンク・QRコードの危険度をAIが開く前にチェック｜SEADICE</title>
+<meta name="description" content="SMS・LINE・メールで届いたリンクやQRコードを、開く前にAIが確かめるiPhoneアプリ「そのリンクちょっと待った」。危険度を0〜100で出し、「開いて大丈夫そう」「ちょっと待った」「開かないで」をひと目で伝えます。無料・広告なし・登録なし。">
+<link rel="canonical" href="https://seadice.win/tools/link-matta/">
+<link rel="icon" href="/favicon.png">
+<meta property="og:title" content="そのリンクちょっと待った｜届いたリンクの危険度を、AIが開く前にチェック">
+<meta property="og:description" content="SMS・LINE・メールで届いたリンクやQRコードを、開く前にAIが確かめるiPhoneアプリ「そのリンクちょっと待った」。危険度を0〜100で出し、「開いて大丈夫そう」「ちょっと待った」「開かないで」をひと目で伝えます。無料・広告なし・登録なし。">
+<meta property="og:url" content="https://seadice.win/tools/link-matta/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"そのリンクちょっと待った","url":"https://seadice.win/tools/link-matta/","dateModified":"2026-10-14"},{"@type":"SoftwareApplication","name":"そのリンクちょっと待った","operatingSystem":"iOS","applicationCategory":"UtilitiesApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","@id":"https://seadice.win/#organization","name":"SEADICE"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"アプリ","item":"https://seadice.win/apps/"},{"@type":"ListItem","position":3,"name":"そのリンクちょっと待った","item":"https://seadice.win/tools/link-matta/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"そのリンクちょっと待ったとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"SEADICEが作っている無料のiPhoneアプリです。SMS・LINE・メールで届いたリンクや、駐車場・飲食店のQRコードを、開く前にAIが確かめます。危険度を0〜100で出し、「開いて大丈夫そうです」「ちょっと待った」「開かないで」のどれかで伝えます。"}},{"@type":"Question","name":"どうやって危険度を決めているのですか？","acceptedAnswer":{"@type":"Answer","text":"3つをあわせて決めています。1つ目は端末の中の点検（詐欺の報告があるサイト5万件、日本でよく見られているサイト約7万件、会社名を借りた偽ドメインや短縮URLなどの書き方）。2つ目はGoogleの危険サイト情報（Web Risk）。3つ目はAI（Claude）で、行き先と、貼ったメッセージの言い方（「至急」「お荷物を持ち帰りました」など）を読んで判断します。"}},{"@type":"Question","name":"送った内容は保存されますか？","acceptedAnswer":{"@type":"Answer","text":"保存しません。確かめるURLと、貼ったメッセージの文だけを判定サーバーに送ります。文の中の電話番号・メールアドレス・8けた以上の数字は、送る前に伏せます。サーバーは結果を返すだけで、記録も残しません。AIを使わない設定にすると、端末の中の点検だけで判断します。"}},{"@type":"Question","name":"「開いて大丈夫そうです」なら安全ですか？","acceptedAnswer":{"@type":"Answer","text":"安全の保証ではありません。新しく作られたばかりの詐欺サイトを見逃すことがあります。ログインや支払いは、公式アプリや自分で開いた公式サイトから入るのが確実です。"}},{"@type":"Question","name":"料金はかかりますか？","acceptedAnswer":{"@type":"Answer","text":"無料です。広告もアプリ内課金もなく、登録やログインもありません。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#070D1A;--card:#0F1A2E;--accent:#14D3B4;--accent2:#7dd3fc;--border:#22314A;--text:#E8EEF6;--muted:#93A3B8}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(7,13,26,.88);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;color:var(--accent);text-decoration:none}.nav-home{color:var(--muted);text-decoration:none;font-size:14px;padding:8px 0}main{max-width:720px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:16px}.crumb a{color:var(--muted)}.section-label{font-size:12px;letter-spacing:.2em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(24px,5vw,32px);font-weight:800;margin-bottom:16px;line-height:1.45}.lead{font-size:15px;color:#c9d4e2;margin-bottom:28px}.badge{display:inline-block;font-size:12px;font-weight:800;color:#070D1A;background:var(--accent);border-radius:999px;padding:3px 12px;margin-bottom:14px}.stat{display:flex;gap:12px;margin:0 0 24px}.stat-box{flex:1;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;text-align:center}.stat-num{font-size:24px;font-weight:800;color:var(--accent2)}.stat-label{font-size:12px;color:var(--muted);margin-top:4px}.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px 22px;margin-bottom:18px}h2{font-size:18px;font-weight:700;margin-bottom:10px;color:var(--accent)}p{font-size:14px;margin-bottom:8px}ul,ol{padding-left:20px;font-size:14px}li{margin-bottom:6px}.feat{display:grid;gap:12px;margin-bottom:18px}@media(min-width:600px){.feat{grid-template-columns:1fr 1fr}}.f{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px}.f svg{display:block;margin-bottom:8px}.f b{display:block;font-size:15px;margin-bottom:4px}.f span{font-size:14px;color:#c9d4e2}.note{font-size:12px;color:var(--muted)}a.inl{color:#7dd3fc}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);display:inline-block;padding:8px 4px}.hero{display:flex;gap:18px;align-items:center;margin-bottom:6px}.hero img{border-radius:18px;flex:none}h3{font-size:15px;margin:14px 0 4px}.btn{display:inline-block;margin-top:6px;padding:12px 18px;border:1px solid var(--accent);border-radius:10px;color:var(--accent);text-decoration:none;font-weight:700;font-size:14px}</style>
+<style id="sd-design">:root{--sd-bg:#05050C;--sd-surface:#0C0C1A;--sd-surface2:#11112a;--sd-line:#1a1a2e;--sd-line2:#2a2a44;--sd-text:#e2e8f0;--sd-text2:#b6c0cf;--sd-muted:#7c8aa0;--sd-accent:#00FFD1;--sd-accent2:#38BDF8;--sd-link:#7dd3fc;--sd-g:16px}@media(min-width:600px){:root{--sd-g:24px}}@media(min-width:960px){:root{--sd-g:32px}}html{-webkit-text-size-adjust:100%}html,body{overflow-x:clip}body{overflow-wrap:break-word}img,video{max-width:100%;height:auto}:focus-visible{outline:2px solid var(--sd-accent);outline-offset:3px}body:is(.t-read,.t-show,.t-use) .nav-logo,body:is(.t-read,.t-show,.t-use) .logo-text{background:none;-webkit-text-fill-color:currentColor;color:var(--sd-accent)}body:is(.t-read,.t-show,.t-use) :is(.tool-cta a,.btn,.cta a,.add){background:var(--sd-accent);color:#05050C;box-shadow:none;border-radius:6px}body:is(.t-read,.t-show,.t-use) :is(.card,.tool-cta,.info-box,.evidence,.ev-media,.cta,.stat-box,.app,.sd-tool){border-radius:8px;box-shadow:none}body:is(.t-read,.t-show,.t-use) :is(.badge,.tag,.app-badge){border-radius:4px}body:is(.t-read,.t-show,.t-use) h1 span{color:inherit}body.t-show .wrap,body.t-show main{max-width:calc(1080px + var(--sd-g)*2);padding-left:var(--sd-g);padding-right:var(--sd-g)}body.t-show main{padding-top:clamp(96px,12vw,140px)}body.t-show .wrap main{padding-left:0;padding-right:0}body.t-show h1{font-size:clamp(30px,6.4vw,56px);line-height:1.25;letter-spacing:.01em;margin-bottom:20px}body.t-show :is(.hero p,main>.sub,main>.lead){font-size:clamp(15px,2vw,18px);line-height:1.9;max-width:36em;color:var(--sd-text2)}body.t-show .hero{padding:clamp(56px,10vw,120px) 0 clamp(40px,7vw,80px)}body.t-show .hero p{margin-left:auto;margin-right:auto}body.t-show main>.sub,body.t-show main>.lead{margin-bottom:clamp(40px,7vw,72px)}body.t-show :is(.section,main>section:not(.cta)){padding:clamp(40px,7vw,80px) 0;margin:0;border-top:1px solid var(--sd-line)}body.t-show :is(.section-title,main>section>h2){font-size:clamp(20px,3.2vw,28px);line-height:1.4;letter-spacing:.02em;text-transform:none;color:var(--sd-text);margin-bottom:20px}body.t-show :is(p.body-text,.card p,.feature p){font-size:15px;line-height:1.85;color:var(--sd-text2)}body.t-show :is(.features,.cards,.grid,.apps-grid){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}body.t-show :is(.feature,.card,.app-card){border-radius:8px;padding:20px;margin:0}body.t-show .stat-row,body.t-show .stat{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:760px;margin:0 auto}body.t-show .stat-box{padding:20px 12px}body.t-show .stat-num{font-size:clamp(17px,2.6vw,24px);white-space:nowrap;line-height:1.4}body.t-show :is(.cta,.cta-box){background:var(--sd-surface);border:1px solid var(--sd-line2);padding:clamp(32px,6vw,56px) var(--sd-g);border-radius:8px;margin:clamp(40px,7vw,80px) 0 0;text-align:center}body.t-show .cta h2{font-size:clamp(20px,3.6vw,30px);text-transform:none;letter-spacing:.02em;color:var(--sd-text)}body.t-show :is(.btn,.cta a,.cta-box a){display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 36px;font-size:16px}@media(min-width:600px){body.t-show :is(.features,.cards,.grid,.apps-grid){grid-template-columns:repeat(2,minmax(0,1fr))}}@media(min-width:960px){body.t-show :is(.features,.cards,.grid,.apps-grid){grid-template-columns:repeat(3,minmax(0,1fr))}body.t-show :is(.section,main>section:not(.cta)):has(>:is(.section-title,h2)){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);column-gap:56px;align-items:start}body.t-show :is(.section,main>section:not(.cta)):has(>:is(.section-title,h2))>*{grid-column:2}body.t-show :is(.section,main>section:not(.cta))>:is(.section-title,h2){grid-column:1;grid-row:1 / span 30;position:sticky;top:88px;margin:0}body.t-show :is(.evidence,.ev-media){max-width:760px;margin-left:auto;margin-right:auto}}@media(max-width:599px){body.t-show .filters{margin-left:calc(var(--sd-g)*-1);margin-right:calc(var(--sd-g)*-1);padding-left:var(--sd-g);padding-right:var(--sd-g)}}</style></head>
+<body class="t-show">
+<nav>
+  <a href="/" class="nav-logo">SEADICE</a>
+  <a href="https://seadice.win/" class="nav-home">← ホーム</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/apps/">APPS</a> / そのリンクちょっと待った</p>
+  <p class="section-label">SAFETY / LINK CHECK</p>
+  <span class="badge">App Store近日公開</span>
+  <div class="hero">
+    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#14D3B4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8a8 8 0 0 0 16 0v-3a2 2 0 0 0-4 0"/></svg>
+    <h1>そのリンクちょっと待った<br>届いたリンクの危険度を、AIが開く前にチェック</h1>
+  </div>
+  <p class="lead">「お荷物を持ち帰りました」「未払いがあります」。そんなSMSのリンクを押す前に、ちょっと待った。そのリンクちょっと待ったは、SEADICEが作っている無料のiPhoneアプリです。届いたリンクやQRコードを貼るか読むと、AIが行き先とメッセージの言い方を確かめ、危険度と「開いて大丈夫か」をひと目で伝えます。</p>
+
+  <div class="stat">
+    <div class="stat-box"><div class="stat-num">0-100</div><div class="stat-label">危険度でひと目でわかる</div></div>
+    <div class="stat-box"><div class="stat-num">3</div><div class="stat-label">判定のもと（AI・Google・端末内）</div></div>
+    <div class="stat-box"><div class="stat-num">0</div><div class="stat-label">保存・広告・登録</div></div>
+  </div>
+
+  <div class="feat">
+    <div class="f"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14D3B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8a8 8 0 0 0 16 0v-3a2 2 0 0 0-4 0"/></svg><b>開く前に、ちょっと待った</b><span>リンクやQRコードはすぐに開きません。AIが確かめてから、開くかどうかを選べます。</span></div>
+    <div class="f"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14D3B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 18h16"/><path d="M4 18a8 8 0 0 1 16 0"/><path d="M12 18l4-6"/></svg><b>危険度をひと目で</b><span>危険度を0〜100のメーターで出し、「開いて大丈夫そうです」「ちょっと待った」「開かないで」で伝えます。</span></div>
+    <div class="f"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14D3B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><b>メッセージごと貼れる</b><span>「お荷物を持ち帰りました」のようなSMSを文ごと貼ると、AIが言い方の怪しさまで読みます。</span></div>
+    <div class="f"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14D3B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7V4h3M21 7V4h-3M3 17v3h3M21 17v3h-3"/><rect x="8" y="8" width="8" height="8"/></svg><b>QRコードも</b><span>駐車場や飲食店のQRコードを、カメラか写真から読んで確かめます。</span></div>
+    <div class="f"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14D3B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h12"/><path d="M12 6l6 6-6 6"/></svg><b>短縮URLの行き先</b><span>bit.ly などの短縮URLは、ページを開かずに最後の行き先までたどってから判断します。</span></div>
+    <div class="f"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14D3B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg><b>履歴は端末の中</b><span>確かめたリンクは、このiPhoneの中だけに残ります。</span></div>
+  </div>
+
+  <div class="card">
+    <h2>3つの判定のあわせ技</h2>
+    <p>AIだけに任せず、確かな情報とあわせて危険度を決めます。</p>
+    <ul>
+      <li><b>端末の中の点検</b>: 詐欺の報告があるサイト5万件（毎日更新）、日本でよく見られているサイト約7万件、会社名（amazon・rakuten・sagawa など）を借りた偽ドメインや1文字だけ変えたつづり、短縮URL・番号だけのURL・「@」入りのURL・http・日本の会社がまず使わない末尾（.top・.cn など）</li>
+      <li><b>Googleの危険サイト情報</b>（Web Risk）: マルウェアやフィッシングとして報告されたサイトか</li>
+      <li><b>AI</b>（Claude）: 行き先と、貼ったメッセージの言い方を読んで、急がせる・不安にさせる手口かを判断し、ひとことで理由を伝えます</li>
+    </ul>
+    <p>詐欺の報告があるサイトは、AIが低く言っても危険度90以上にします。AIに聞けないとき（圏外など）は、端末の中の点検だけで判断し、そのことを画面に書きます。</p>
+    <p>端末の中の点検は、JPCERT/CCが公開した日本のフィッシングURL 7,600件（2026年3〜5月）で、約5割に「危険」か「注意」、残りもすべて「初めて見るサイト」と出ました。「よく見られているサイト」と出たものは0件です（SEADICE調べ）。</p>
+    <p class="note">試しに読めるコードは<a class="inl" href="/tools/link-matta/test/">テスト用のQRコード</a>にあります。</p>
+  </div>
+
+  <div class="card">
+    <h2>できないこと</h2>
+    <ul>
+      <li>「開いて大丈夫そうです」は安全の保証ではありません。新しく作られたばかりの詐欺サイトを見逃すことがあります</li>
+      <li>開いた先のページの中身（入力欄など）までは調べません</li>
+      <li>メッセージやメールを自動で見張ることはできません（自分で貼るか、QRコードを読みます）</li>
+    </ul>
+    <p class="note">詐欺の手口と見分け方は、SEADICEの<a class="inl" href="https://bohan.seadice.win/" target="_blank" rel="noopener">防犯メディア</a>で読めます。</p>
+  </div>
+
+  <div class="card">
+    <h2>こんな人におすすめ</h2>
+    <ul>
+      <li>宅配業者・カード会社・携帯会社を名乗るSMSが届いて、本物か迷う</li>
+      <li>離れて暮らす親に「変なリンクは、開く前にこれで確かめて」と渡したい</li>
+      <li>駐車場や飲食店のQRコードで支払う前に、本物か確かめたい</li>
+      <li>仕組みはよくわからないけれど、AIに見てもらえると安心できる</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>料金とプライバシー</h2>
+    <ul>
+      <li>無料です。広告もアプリ内課金もありません。登録・ログインもありません</li>
+      <li>確かめるURLと貼った文だけを判定サーバーに送ります。電話番号・メールアドレス・8けた以上の数字は送る前に伏せ、サーバーでは保存しません</li>
+      <li>設定で「AIで確かめる」をオフにすると、何も送らずに端末の中だけで判断します</li>
+      <li>履歴と設定は端末の中だけに保存されます。カメラの映像は保存も送信もしません</li>
+    </ul>
+    <a class="btn" href="/privacy/link-matta/">プライバシーポリシーを読む</a>
+  </div>
+
+  <div class="card">
+    <h2>よくある質問</h2>
+    <h3>そのリンクちょっと待ったとは何ですか？</h3>
+    <p>SEADICEが作っている無料のiPhoneアプリです。SMS・LINE・メールで届いたリンクや、駐車場・飲食店のQRコードを、開く前にAIが確かめます。危険度を0〜100で出し、「開いて大丈夫そうです」「ちょっと待った」「開かないで」のどれかで伝えます。</p>
+    <h3>どうやって危険度を決めているのですか？</h3>
+    <p>3つをあわせて決めています。1つ目は端末の中の点検（詐欺の報告があるサイト5万件、日本でよく見られているサイト約7万件、会社名を借りた偽ドメインや短縮URLなどの書き方）。2つ目はGoogleの危険サイト情報（Web Risk）。3つ目はAI（Claude）で、行き先と、貼ったメッセージの言い方（「至急」「お荷物を持ち帰りました」など）を読んで判断します。</p>
+    <h3>送った内容は保存されますか？</h3>
+    <p>保存しません。確かめるURLと、貼ったメッセージの文だけを判定サーバーに送ります。文の中の電話番号・メールアドレス・8けた以上の数字は、送る前に伏せます。サーバーは結果を返すだけで、記録も残しません。AIを使わない設定にすると、端末の中の点検だけで判断します。</p>
+    <h3>「開いて大丈夫そうです」なら安全ですか？</h3>
+    <p>安全の保証ではありません。新しく作られたばかりの詐欺サイトを見逃すことがあります。ログインや支払いは、公式アプリや自分で開いた公式サイトから入るのが確実です。</p>
+    <h3>料金はかかりますか？</h3>
+    <p>無料です。広告もアプリ内課金もなく、登録やログインもありません。</p>
+  </div>
+
+  <div class="card">
+    <h2>あわせて使える防犯アプリ</h2>
+    <p><a class="inl" href="/tools/bohan-filter/">家族のための防犯フィルター</a>は、Safariで詐欺サイトそのものを開けなくする拡張機能です。開く前に確かめるのがこのアプリ、開いてしまったときに止めるのが防犯フィルターです。</p>
+  </div>
+</main>
+<footer>
+  <p>© SEADICE &nbsp;|&nbsp; <a href="/privacy/link-matta/">プライバシーポリシー</a> &nbsp;|&nbsp; <a href="/promise/">SEADICEの7ヶ条</a> &nbsp;|&nbsp; <a href="/">ホーム</a> · <a href="/about/">運営者情報</a></p>
+</footer>
+</body>
+</html>

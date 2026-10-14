@@ -2142,17 +2142,22 @@
     "redirects": [
       {
         "source": "/tools/qr-guard/test{,/**}",
-        "destination": "/tools/bohan-filter/test/",
+        "destination": "/tools/link-matta/test/",
+        "type": 301
+      },
+      {
+        "source": "/tools/bohan-filter/test{,/**}",
+        "destination": "/tools/link-matta/test/",
         "type": 301
       },
       {
         "source": "/tools/qr-guard{,/**}",
-        "destination": "/tools/bohan-filter/",
+        "destination": "/tools/link-matta/",
         "type": 301
       },
       {
         "source": "/privacy/qr-guard{,/**}",
-        "destination": "/privacy/bohan-filter/",
+        "destination": "/privacy/link-matta/",
         "type": 301
       },
       {
