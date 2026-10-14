@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-behavioral-activation-low-mood-steps-research-wellbeing",
+    "category": "幸福の科学",
+    "kind": "よくある説",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Mazzucchelli et al., \"Behavioral activation interventions for well-being: A meta-analysis\" (The Journal of Positive Psychology, 2010)",
+    "sourceUrl": "https://doi.org/10.1080/17439760903569154",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/behavioral-activation-low-mood-steps-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "やる気が出るまで待つべき？",
+        "body": "落ち込んだ日は、元気が戻ってから動こう。そう思うよね。でも「先に動く」ほうを調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20件の試験をまとめた",
+        "body": "楽しいことや大事なことを予定に入れて実行する「行動活性化」。幸福感への効果を、20件のランダム化比較試験（計1,353人）でまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "幸福感が中くらい上がった",
+        "body": "何もしない組などと比べて、終わった直後の幸福感は効果量0.52の差で高かったよ。落ち込みがほとんどない人でも、強めの人でも同じくらいの効果だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続くかは不明",
+        "body": "あとまで続くかを比べられたのは3件・78人だけで、差ははっきりしなかったよ。質が高いとされた試験は1件で、そこでは効果がほとんどなかったんだ。ほかの心理的な方法との差も見られなかったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#research-behavioral-activation-low-mood-steps-research-wellbeing"
+  },
+  {
+    "id": "research-pretesting-before-study-memory-research-pretest",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Pan & Rivers, \"Metacognitive awareness of the pretesting effect improves with self-regulation support\" (Memory & Cognition, 2023)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-022-01392-1",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/pretesting-before-study-memory-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "習う前に解いて意味ある？",
+        "body": "まだ知らない問題を解いても、どうせ間違えるだけ。読んでから解くほうが効率的、と思うよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "読む vs 先に答えを考える",
+        "body": "単語のペアを「そのまま読む」か「片方を見て答えを考えてから正解を見る」かで覚えてもらう実験を、5回くり返したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ほぼ全問まちがえても勝った",
+        "body": "先に考えた問題の正解率は3〜5%ほど。それでも後のテストでは、5つの実験すべてで、読んだだけのペアより多く思い出せたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "教科書や授業でも効く？",
+        "body": "覚えたのは単語のペア。大学の授業で試した別の研究では、効果が見られない例もあったよ。長い文章や本番の試験で同じように効くかは、まだはっきりしないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-pretesting-guess-first",
+        "type": "あわせて読む",
+        "why": "文章で確かめた元の研究と、単語のペアで5回くり返した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-pretesting-before-study-memory-research-pretest"
+  },
+  {
+    "id": "research-task-time-estimate-planning-fallacy-research-surgeons",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Katt et al., \"The Planning Fallacy in the Orthopedic Operating Room\" (Cureus, 2021)",
+    "sourceUrl": "https://doi.org/10.7759/cureus.12433",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/task-time-estimate-planning-fallacy-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "プロなら時間を読める？",
+        "body": "毎日同じ仕事をしている専門家なら、かかる時間はぴったり当てられそうだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "外科医9人・759件の手術",
+        "body": "整形外科医9人に、3か月間、手術の時間と、患者が部屋に入ってから出るまでの時間を予測してもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ずれたのは「本体以外」",
+        "body": "手術そのものは予測56.4分・実際55.4分でほぼ一致。でも入室から退室までは、予測78.2分に対して実際は82.7分。全体の時間は短く見積もっていたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの仕事でも同じ？",
+        "body": "1つの医療機関の9人だけの記録で、比べるグループもないんだ。予測と実際の差を知らされながら続けると、手術時間の予測は少し正確になったけど、全体の時間のずれは縮まらなかったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "procrastination-planning-fallacy",
+        "type": "あわせて読む",
+        "why": "学生は大きく短く見積もったが、慣れた手術の本体はほぼ予測どおりだった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-task-time-estimate-planning-fallacy-research-surgeons"
+  },
+  {
+    "id": "game-pokemon-go-steps",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Howe et al., \"Gotta catch'em all! Pokémon GO and physical activity among young adults: difference in differences study\" (BMJ, 2016)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.i6270",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ポケモンGOで運動不足は解消する？",
+        "body": "歩きながら遊ぶゲームなら、自然と歩く量が増えそうだよね。実際にどれくらい歩いたのか、iPhoneの歩数の記録で調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の若い大人1,182人の歩数",
+        "body": "18〜35歳の1,182人に、iPhoneのヘルスケアに残った毎日の歩数を報告してもらったよ。遊んだ560人と遊ばなかった人で、インストール前の4週と後の6週を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "最初の週は1日955歩増えた",
+        "body": "遊び始めた1週目は、遊ばなかった人と比べて1日955歩多かったよ。でもその差は少しずつ小さくなって、6週目にはインストール前と同じくらいに戻ったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの人や長い目で見ると？",
+        "body": "対象は米国のiPhone利用者で、ネットの調査に集まった人たち。スマホを持たずにした運動は数えられず、ゲーム以外の理由で歩数が変わった可能性も残るよ。6週より先のことは、この研究ではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-pokemon-go-steps"
+  },
+  {
+    "id": "posture-back-pain-bed-rest",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Dahm et al., \"Advice to rest in bed versus advice to stay active for acute low-back pain and sciatica\" (Cochrane Database of Systematic Reviews, 2010)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD007612.pub2",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "腰が痛いときは、寝て安静にするべき？",
+        "body": "急に腰が痛くなると、横になってじっとしていたくなるよね。「安静に」と「なるべくふだん通りに動く」、どちらがいいのかを比べた研究をまとめたレビューがあるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10件のランダム化試験をまとめた",
+        "body": "急な腰痛や坐骨神経痛の人に「ベッドで安静に」と「動けるだけ動いて」のどちらを助言するかを比べた、10件のランダム化比較試験を整理したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "動くほうが、少しだけよかった",
+        "body": "急な腰痛では、2件の試験（401人）で、動くよう助言された人のほうが痛みと動きやすさが少しだけよかったよ。坐骨神経痛では、ほとんど差がなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差は小さく、研究も少ない",
+        "body": "腰痛で比べられたのは2件だけで、差は小さかったよ。試験ごとに偏りの心配の度合いも違い、著者は今後の研究で結果が変わる可能性が高いと書いているんだ。助言の伝え方を比べた試験もなかったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-back-pain-bed-rest"
+  },
+  {
     "id": "research-read-but-cant-remember-illusion-why-research-zipper",
     "category": "記憶のしくみ",
     "kind": "素朴な疑問",
@@ -5826,6 +6006,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "停止した群は、ネット利用が減り、家族や友人との交流が増え、主観的な幸福感が上がった。政治的な分極や時事知識も減り、実験後のFacebook利用も減った。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どこでも同じことが起きる？",
+        "body": "対象は米国で、Facebookの広告で集まった人。やめた組にはお金が払われ、期間は2018年の中間選挙前の4週間だけだったよ。ほかの国やSNS、もっと長い期間で同じかは、この研究だけでは言えないんだ。"
       }
     ],
     "quiz": {
@@ -5871,6 +6056,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "制限群は孤独感と抑うつ症状が対照群より有意に減った。両群とも不安とFOMO（取り残される不安）は減り、利用状況を意識するだけでも効果があった。学部生が対象。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "だれにでも当てはまる？",
+        "body": "対象は米国の1つの大学の学部生143人で、期間は3週間だけ。調べたのもFacebook・Instagram・Snapchatの3つだよ。ほかの年代やSNS、もっと長い期間で同じかは、まだわからないんだ。"
       }
     ],
     "quiz": {
@@ -9299,7 +9489,14 @@
     "articleUrl": "https://dokugaku.seadice.win/planning-fallacy-study-plans/",
     "articleSite": "独学の科学",
     "webUrl": "https://seadice.win/evidence/procrastination/#procrastination-planning-fallacy",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "research-task-time-estimate-planning-fallacy-research-surgeons",
+        "type": "あわせて読む",
+        "why": "慣れた外科医でも、手術の前後を含む全体の時間は短く見積もっていた"
+      }
+    ]
   },
   {
     "id": "money-save-more-tomorrow",
@@ -13332,7 +13529,14 @@
     "articleUrl": "https://dokugaku.seadice.win/pretesting-before-reading/",
     "articleSite": "独学の科学",
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-pretesting-guess-first",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "research-pretesting-before-study-memory-research-pretest",
+        "type": "あわせて読む",
+        "why": "単語のペアでも効き、本人は効果に気づきにくいとわかった実験"
+      }
+    ]
   },
   {
     "id": "dokugaku-cramming-one-week",
