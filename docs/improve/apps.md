@@ -54,7 +54,7 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 
 ## 次にやること
 1. **通知de人生改善の保留テーマ**（2026-10-14）: 笑う・40秒の休憩・朝の光・つながる・思い出す・ふれる。研究が1本だけか、届くと嬉しいが弱い。EVIDENCE にメタ分析か複数の比較試験を足せたら（/evidence-topics）、テーマに入れる。「思い出す」「お風呂」の時間を決めた通知はもう作れる
-1. **通知de人生改善 1.1.0 が審査を通ったら、サイトを新しい名前と中身に合わせる**（2026-10-14）: p/tools/notify-mindfulness/ の見出し・説明・FAQ・JSON-LD を「7テーマ（呼吸・姿勢・目標・感謝と親切・好きな曲・未来の自分・1分の筋トレ）、どれも届いたらすぐできる、テーマごとに届く時刻、通知から始めるまでの時間の記録」に、p/privacy/notify-mindfulness/ に記録（気分・目標と1歩・ありがとう帳・未来ノート、端末内のみ）を、released-apps.json・アプリ一覧・llms.txt の名前を「通知de人生改善」に。EVIDENCE の practice.json で「姿勢と自信」をアプリにも向けるか（今は /tools/shisei-reset/）を決める。「もとになった研究」欄は `/evidence notify-mindfulness`（アプリの研究タブと同じ assets/research.json の研究から）
+1. **通知de人生改善 1.1.0 が審査を通ったら、サイトを新しい名前と中身に合わせる**（2026-10-14）: p/tools/notify-mindfulness/ の見出し・説明・FAQ・JSON-LD を「7テーマ（呼吸・姿勢・目標・感謝と親切・好きな曲・未来の自分・1分の筋トレ）、どれも届いたらすぐできる、テーマごとに届く時刻、通知から始めるまでの時間の記録」に、p/privacy/notify-mindfulness/ に記録（気分・目標と1歩・ありがとう帳・未来ノート、端末内のみ）を、released-apps.json・アプリ一覧・llms.txt の名前を「通知de人生改善」に。EVIDENCE の practice.json で「姿勢と自信」をアプリにも向けるか（今は /tools/shisei-reset/）を決める。「もとになった研究」欄は `/evidence notify-mindfulness`（アプリの研究タブと同じ assets/research.json の研究から）。アイコンは1.1.0で「ベルから芽・上向きの矢印」（元絵 ~/Developer/Images/jinsei.png）に変えたので、サイトのアイコン（p/icons/apps/ の notify-mindfulness）も build_apps_page で取り直すか、元絵から作り直す。/tools/shisei-reset/ からこのアプリへ案内する
 1. **HSPナビ 1.1.0 が審査を通ったら、サイトとメディアからAIの表記を外す**（2026-10-14）: p/tools/hsp-relationship-check/ の title・description・og・JSON-LD・ラベル「Relationship AI」・説明文・特徴02（AIがHSP視点で分析→気持ちの整理）・特徴05（AI相談は1日3回→通信なし）、p/apps/index.html の説明（build_apps_page.py で作り直し）、seadice-media の media/research.json の HSPナビの catch（「人間関係の悩みのAI相談」→「タップで気持ちの整理」）。プライバシーポリシーは版ごとの書き方にしてあるので触らなくてよい
 1. **AIに文章を送る公開済みアプリ66本は、改修のついでに1本ずつAIを外す**（2026-10-14、ユーザー判断。一括ではやらない）: 方針は「まずAPIなしで利用者を増やす」。AIの機能は通信なしの道具に置き換える（見本: HSPナビ 1.1.0 の「気持ちの整理」）。外したら同じ作業でプライバシーポリシー（版ごとの書き方）・提出文書・審査通過後にサイトとメディアの紹介文も直す。残り: `grep -rl claude-proxy ~/Developer --include=main.dart | grep -v /build/`
 1. **夢とき（yumetoki）・MBTIコンパスの日付キーを2桁にそろえる**（2026-10-14）: `${now.year}${now.month}${now.day}` のままで、1月11日と11月1日が同じキーになる。次の改修のついでに
@@ -75,6 +75,7 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 5. **公開済みアプリで「もとになった研究」欄がないもの（40件）を一覧にし、/evidence で足せるものから足す**
 
 ## やったこと
+- 2026-10-15: 通知de人生改善のアイコンを、ユーザーが作った「ベルから芽・上向きの矢印」（~/Developer/Images/jinsei.png、1024px・透過なし）に差し替え。flutter_launcher_icons で全サイズ、最初の案内画面の絵もこのアイコンに。ストアの見え方の画像も作り直した
 - 2026-10-14: 通知de人生改善 1.1.0 のストア画像を作った（見出しはユーザーが選択、1枚目「通知だけで、人生の質を高める」、背景ティール、日本語だけ）。実画面は test_screenshots/shots_test.dart（サンプルの記録で6画面×iPhone/iPad）、合成は screenshots/make.py（EVIDENCE の見本を流用、明るい背景なので2行目は濃いティール）。全サイズ（6.3・duo・iPad 各2サイズ×6枚、ヘッダー、検索結果）。scripts/appstore_preview.py が「## サブタイトル」の次の行に値を書く形を読めずサブタイトルが空になったので、読めるように直した。サイトのプライバシーポリシーを1.1.0に合わせて更新（申請前に必要）。「きょう」に今日の回数・5分以内・続いた日数
 - 2026-10-14: 通知de人生改善に4つ追加（ユーザー「他に追加する機能ある？」、案は全部入れる方針）。①通知の長押しボタン「やった」（アプリを開かずに記録、通知から押すまでの時間も。目標は1歩として数える）と「10分後に」（同じテーマをもう一度）。アプリが閉じていても動くよう、別のisolateで処理（onDidReceiveBackgroundNotificationResponse、AppDelegate に setPluginRegistrantCallback）、記録は読むたびに prefs.reload ②週のふりかえり（日曜20時、この7日のテーマ別回数・先週との差・5分以内の割合を具体的な言葉で。オフにできる）③通知しない時間（全テーマ共通、日をまたいでよい）④色を7色から選べる（kAccent を選べる値にし、選んだら画面全体を描き直す）。テスト16本・署名なし iOS ビルドOK
 - 2026-10-14: 通知de人生改善の軸を「人生の質を高めるためのアプリ」と決めた（ユーザー）。最初の案内・共有文・サブタイトル（通知だけで人生の質を高めるアプリ）・説明文の書き出し・プロモーションテキストをこの言葉から始まる形に。審査通過後のサイトのページも同じ軸で書く
