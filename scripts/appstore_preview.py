@@ -150,6 +150,11 @@ def main():
     if not m["subtitle"]:
         sub = re.search(r"^##\s*サブタイトル[^\n]*\n(?:.*\n)*?\s*ja\s*[:：]\s*(.+)$", md, re.M)
         m["subtitle"] = sub.group(1).strip() if sub else ""
+    # 「## サブタイトル（30字まで）」の次の行に値だけを書く形にも対応する（通知de人生改善 1.1.0 で読めなかった）
+    for key, head in (("subtitle", "サブタイトル"), ("name", "アプリ名")):
+        if not m[key]:
+            v = re.search(rf"^##\s*{head}[^\n]*\n\s*([^\n#|\-][^\n]*)$", md, re.M)
+            m[key] = v.group(1).strip() if v else m[key]
     draft = app / "APPSTORE_DRAFT.md"
     if draft.exists():
         for k, v in meta(draft.read_text()).items():
