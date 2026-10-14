@@ -157,6 +157,8 @@ def main():
     if not m["name"]:
         sys.exit("APPSTORE_SUBMISSION.md にアプリ名が見つかりません")
     icon_path = app / "assets/icon/icon.png"
+    if not icon_path.exists():  # assets/icon がないアプリは iOS のアイコン（1024px）を使う
+        icon_path = app / "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png"
     shots_dir = a.shots if a.shots and a.shots.is_absolute() else app / (a.shots or "")
     if not a.shots:
         shots_dir = next((p for p in (app / "screenshots/6.9", app / "screenshots") if (p / "1.png").exists()), None)
