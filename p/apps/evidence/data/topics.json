@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-trying-hard-to-sleep-awake-research-sleep-urgency",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Ansfield, Wegner & Bowser, \"Ironic effects of sleep urgency\" (Behaviour Research and Therapy, 1996)",
+    "sourceUrl": "https://doi.org/10.1016/0005-7967(96)00031-9",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/trying-hard-to-sleep-awake-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "早く寝ようとすると眠れない？",
+        "body": "明日早いから早く寝なきゃ、と思うほど目が冴える夜ってあるよね。実は、これを実験で確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "音楽と「早く眠れ」の組み合わせ",
+        "body": "よく眠れる人に「できるだけ早く眠る」か「好きなときに眠る」かを指示したよ。同時に、にぎやかなマーチか、静かな音楽を聴いてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頭が忙しいと逆効果",
+        "body": "静かな音楽なら、早く眠ろうとした人のほうが早く寝ついた。でもマーチを聴いていると逆に、早く眠ろうとした人のほうが寝つきが遅れたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "不眠の人でも同じ？",
+        "body": "調べたのはふだんよく眠れる人で、不眠に悩む人ではないんだ。実験室での1つの実験なので、同じ結果がくり返し確かめられたかもまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-trying-hard-to-sleep-awake-research-sleep-urgency"
+  },
+  {
+    "id": "dokugaku-read-recite-review-sheet-whole-vs-section",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Stern & Halamish, \"Free-recall retrieval practice tasks for students with ADHD: whole-text versus section recall\" (Frontiers in Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2023.1301726",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/read-recite-review-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "思い出すのは節ごと？最後？",
+        "body": "読んだ後に本を閉じて思い出すと覚えやすいらしい。でも、1段落ごとに思い出すのと、全部読んでからまとめて思い出すの、どっちがいいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生72人で比べた",
+        "body": "イスラエルの大学生72人（ADHDのある人とない人が半分ずつ）が短い文章を3つ学習。段落ごとに思い出す、最後にまとめて思い出す、読み直す、の3通りを試して2日後にテストした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "その場の手応えと逆になった",
+        "body": "練習中は段落ごとの方が多く書けた（81%対54%）。でも2日後に思い出せたのは、まとめて思い出した方が多かった（45%対37%）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "読み直しとの差は出なかった",
+        "body": "この実験では、どちらの思い出し方も読み直し（42%）と比べてはっきりした差が出なかった。文章は200語ほどと短く、長い本でも同じかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-read-recite-review-sheet-whole-vs-section"
+  },
+  {
+    "id": "research-negative-events-memory-why-research-fading-affect",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Ritchie et al., \"A pancultural perspective on the fading affect bias in autobiographical memory\" (Memory, 2015)",
+    "sourceUrl": "https://doi.org/10.1080/09658211.2014.884138",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/negative-events-memory-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "嫌な記憶はずっとつらい？",
+        "body": "嫌なことって、いつまでも覚えている気がするよね。でも、そのつらさまでずっと同じ強さなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10の文化で思い出を集めた",
+        "body": "世界の10の文化の562人から、2400件以上の思い出を集めたよ。当時の感情と、思い出したときの感情の強さを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "つらさのほうが早く薄れる",
+        "body": "どの集団でも、嫌な出来事のつらさのほうが、良い出来事の喜びより早く薄れていたらしい。「感情が薄れる偏り」と呼ばれているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "思い出は本人が選んだもの",
+        "body": "思い出は本人が選んで書いたもので、国ごとに調べ方も少しずつ違う。つらさが薄れたのが記憶のせいか、時間がたって状況が変わったせいかは、この研究だけでは分けられないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-negative-events-memory-why-research-fading-affect"
+  },
+  {
+    "id": "weather-headache-temperature-er",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Mukamal, Wellenius, Suh & Mittleman, \"Weather and air pollution as triggers of severe headaches\" (Neurology, 2009)",
+    "sourceUrl": "https://doi.org/10.1212/01.wnl.0000344152.56020.94",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "低気圧が来ると頭痛が増える？",
+        "body": "天気が崩れると頭が痛い、って言う人は多いよね。気圧のせいとよく聞くけど、気温や大気汚染と並べて調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "救急外来の7,054人を調べた",
+        "body": "アメリカ・ボストンの1つの病院で、2000〜2007年に頭痛で救急外来に来た7,054人について、受診前3日間の気温・気圧・湿度・大気汚染を、同じ月の同じ曜日の値と比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気圧より気温のほうがはっきり",
+        "body": "いちばん関係していたのは気温。前の24時間の気温が5℃高いと、受診のリスクが約7.5%高かった。低い気圧は片頭痛以外の頭痛で2〜3日前に少し関係し、大気汚染とははっきりしなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "救急に来るほどの頭痛だけ",
+        "body": "調べたのは1つの病院の救急外来に来た頭痛だけで、家で我慢できる頭痛はわからない。天気と受診の関係を見た観察研究で、なぜ頭痛が起きるのかまでは示していないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "japan-weather-headache",
+        "type": "あわせて読む",
+        "why": "救急外来の7千人の記録と、片頭痛のある28人の1年分の日記"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-headache-temperature-er"
+  },
+  {
+    "id": "insight-mind-wandering-writers-physicists",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Gable, Hopper & Schooler, \"When the Muses Strike: Creative Ideas of Physicists and Writers Routinely Occur During Mind Wandering\" (Psychological Science, 2019)",
+    "sourceUrl": "https://doi.org/10.1177/0956797618820626",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "いいアイデアは、仕事以外の時間に浮かぶ？",
+        "body": "シャワーや散歩のときにふっと思いつく、ってよく聞くよね。じゃあプロのアイデアは、実際どれくらい「仕事以外」の時間に生まれているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "作家と物理学者が毎日記録",
+        "body": "プロの作家と物理学者に、その日いちばん創造的だったアイデアと、浮かんだときに何をして何を考えていたかを記録してもらったよ。調査は2回で、98人と87人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5つに1つは、ぼんやり中",
+        "body": "大事なアイデアの約5分の1は、仕事以外のことをしながら関係ないことを考えていたときに浮かんだ。そういうアイデアは行き詰まりを抜ける「ひらめいた！」になりやすく、質は仕事中のものと同じくらいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ぼんやりすれば増えるとは言えない",
+        "body": "裏を返すと、5つのうち4つは別の場面で生まれていた。記録は本人の自己申告で、ぼんやりするとアイデアが増えるという因果を試した実験でもない。対象も作家と物理学者だけだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "question-shower-idea",
+        "type": "あわせて読む",
+        "why": "実験室で心のさまよいを試した実験と、プロの毎日のアイデアの記録"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-mind-wandering-writers-physicists"
+  },
+  {
     "id": "research-affect-labeling-name-your-feelings-research-spider",
     "category": "こころの不調",
     "kind": "研究紹介",
@@ -3162,6 +3342,11 @@
         "id": "weather-pain-humidity",
         "type": "あわせて読む",
         "why": "関節の痛みではなく片頭痛と気圧の関係を、日本の28人の日記で調べた研究"
+      },
+      {
+        "id": "weather-headache-temperature-er",
+        "type": "あわせて読む",
+        "why": "片頭痛のある28人の日記と、救急外来の7千人の記録で気温も比べた研究"
       }
     ]
   },
@@ -4076,6 +4261,11 @@
         "id": "insight-incubation-meta",
         "type": "あわせて読む",
         "why": "同じ問いを多くの実験でまとめた研究と、その中の1つの実験"
+      },
+      {
+        "id": "insight-mind-wandering-writers-physicists",
+        "type": "あわせて読む",
+        "why": "実験室の実験と、プロの作家・物理学者が毎日つけたアイデアの記録"
       }
     ]
   },
@@ -5860,6 +6050,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "ローズマリー群は無香群より、記憶全体の質と二次記憶が有意に高かったが、記憶の速さは低下した。ラベンダー群は作業記憶が低下し、反応も遅くなった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの実験の話",
+        "body": "香りをかいだのはテスト中の1回だけで、144人を3つに分けた実験。続けてかぐと効くのか、ふだんの勉強や暮らしで同じことが起きるのかは、この研究ではわからないよ。記憶の速さは逆に遅くなっていた。"
       }
     ],
     "quiz": {
@@ -6034,6 +6229,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "笑いヨガ群だけがコルチゾールの上昇が小さかった。呼吸リラックス群と何もしない群は変わらず、主観的ストレスも3群で差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "11人の小さな実験",
+        "body": "笑いヨガの組は11人だけで、試したのは30分を1回だけ。続けるとどうなるか、ストレスで不調のある人でも同じかはわからない。ストレスを感じる強さは、どの組も変わらなかったよ。"
       }
     ],
     "quiz": {
