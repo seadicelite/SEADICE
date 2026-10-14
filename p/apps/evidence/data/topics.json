@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-why-practice-success-fails-on-exam-jargon-quiz",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Pan et al., \"Online and Clicker Quizzing on Jargon Terms Enhances Definition-Focused but Not Conceptually Focused Biology Exam Performance\" (CBE—Life Sciences Education, 2019)",
+    "sourceUrl": "https://doi.org/10.1187/cbe.18-12-0248",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-practice-success-fails-on-exam/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "用語を覚えれば応用問題も解ける？",
+        "body": "まずは専門用語を小テストで固めれば、考え方を問う問題も解けるようになる。そう思って用語の暗記から始める人は多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "授業前に10分の用語テスト",
+        "body": "米国の大学院生85人の授業で、専門用語の意味を問う10分の小テストを授業前に受けてもらった。後の試験で、テストした用語としなかった用語の成績を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "意味は上がる、考え方は別",
+        "body": "用語の意味を問う問題は53%対43%で、テストした用語の方が高かった。でも考え方を問う問題は41%対37%で、はっきりした差にはならなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "他の科目や社会人でも同じか",
+        "body": "神経解剖学と生理学の2つの授業での結果。資格試験の独学のように、長期間ひとりで学ぶ場合にも同じ形になるかはわかっていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-practice-success-fails-on-exam-jargon-quiz"
+  },
+  {
+    "id": "dokugaku-why-cafe-noise-feels-focused-white-noise",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Nigg et al., \"Systematic Review and Meta-Analysis: Do White Noise or Pink Noise Help With Task Performance in Youth With Attention-Deficit/Hyperactivity Disorder or With Elevated Attention Problems?\" (Journal of the American Academy of Child & Adolescent Psychiatry, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.jaac.2023.12.014",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/why-cafe-noise-feels-focused/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ホワイトノイズで集中できる？",
+        "body": "ザーッという雑音（ホワイトノイズ）を流すと集中できる、という話をよく聞くよね。勉強用の雑音の動画もたくさんある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "実験をまとめて比べた",
+        "body": "白い雑音やピンクノイズの中で注意の課題を解いた研究をまとめたメタ分析。ADHDやその傾向が強い子どもと若い大人（13件・335人）と、そうでない人（11件・335人）を分けて見た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "人によって逆向きだった",
+        "body": "ADHDやその傾向が強い人では、成績が小さく上がった（g=0.249）。そうでない人では、逆に小さく下がった（g=−0.212）。全員に効く方法ではなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の短い課題の話",
+        "body": "どれも実験室での短い課題の結果。長時間の勉強にどう効くか、安全で適切な音量はどのくらいかは、著者らも今後の研究が必要としている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-why-cafe-noise-feels-focused-white-noise"
+  },
+  {
+    "id": "dokugaku-vocab-review-schedule-recall-log-review-gap",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Cepeda et al., \"Spacing effects in learning: a temporal ridgeline of optimal retention\" (Psychological Science, 2008)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/vocab-review-schedule-recall-log/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "復習は何日後がいい？",
+        "body": "「復習は早めに」とよく言うけど、翌日がいいのか1か月後がいいのか、実は決めにくいよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,350人以上で試した",
+        "body": "1,350人以上にいくつかの事実を覚えてもらい、最長3.5か月の間をあけて1回復習。さらに最長1年後にテストして、どの間隔がいちばん残るかを調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いつ使うかで変わる",
+        "body": "最もよい間隔は、テストまでの期間の20〜40%（1週間後のテスト）から5〜10%（1年後のテスト）へ。先のテストほど、復習の間隔は長い方がよかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何度も復習するときは？",
+        "body": "この実験の復習は1回だけで、覚えたのは単語ではなく事実。何度も復習する独学で最もよい間隔は、この研究からはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "learning-spacing-effect",
+        "type": "あわせて読む",
+        "why": "分けて勉強すると残りやすいというまとめと、何日あければよいかを調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-vocab-review-schedule-recall-log-review-gap"
+  },
+  {
+    "id": "insight-bilingual-creativity",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Lange, Hopman, Zemla & Austerweil, \"Evidence against a relation between bilingualism and creativity\" (PLoS ONE, 2020)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0234928",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "バイリンガルはアイデアが豊か？",
+        "body": "「2つの言葉を話せる人は頭が柔らかくて、発想が豊か」とよく聞くよね。でも実は、これまでの研究は結果が分かれていて、はっきりしていなかったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「鉛筆の別の使い道」で比べた",
+        "body": "米ウィスコンシン大学の学生92人のうち、英語だけを話す25人と、英語とスペイン語を話す41人を比べた。鉛筆などの別の使い道を、時間内にできるだけ多く考える課題を使った。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "差は見られなかった",
+        "body": "ベイズ統計で分析すると、「バイリンガルの方が発想が豊か」ではなく「差はない」という見方を支持する結果だった。母語で答えた人と、2つ目の言葉で答えた人の間でも差はなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの大学、1つの課題の話",
+        "body": "対象は平均18歳の米国の大学生で、スペイン語と英語の組み合わせだけ。英語を先に覚えたバイリンガルは13人と少ない。他の言葉や年代、別の発想の課題でも同じかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-bilingual-creativity"
+  },
+  {
+    "id": "breathing-478-young-adults",
+    "category": "呼吸とストレス",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Vierra, Boonla & Prasertsri, \"Effects of sleep deprivation and 4-7-8 breathing control on heart rate variability, blood pressure, blood glucose, and endothelial function in healthy young adults\" (Physiological Reports, 2022)",
+    "sourceUrl": "https://doi.org/10.14814/phy2.15389",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "4-7-8呼吸法でリラックスできる？",
+        "body": "4秒吸って、7秒止めて、8秒かけて吐く「4-7-8呼吸法」。寝る前や緊張したときに良いとよく紹介されるよね。でも、実際に測った研究は意外と少ないんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6回×3セットの前後で測った",
+        "body": "タイの大学の研究チームが、19〜25歳の健康な43人に4-7-8呼吸を6回×3セットしてもらい、直前と直後の心拍・血圧・心拍のゆらぎを測った。うち22人はふだんの睡眠が7時間未満だった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "直後に心拍と血圧が少し下がった",
+        "body": "呼吸のあと、心拍は1分あたり約3〜5回、上の血圧は約3〜4mmHg下がった。睡眠が足りている人では、リラックスに関わる心拍のゆらぎの成分も増えた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふつうに休むのと比べていない",
+        "body": "呼吸の前後を比べただけで、静かに座って休む場合や他の呼吸法とは比べていない。43人中36人が女性で、測ったのは直後だけ。寝つきが良くなるかは調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "breathing-breathwork-meta",
+        "type": "あわせて読む",
+        "why": "1つの呼吸法を前後で測った小さな実験と、呼吸法の研究全体をまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-478-young-adults"
+  },
+  {
     "id": "dokugaku-why-similar-words-get-mixed-up-semantic-sets",
     "category": "言葉と外国語",
     "kind": "素朴な疑問",
@@ -5278,6 +5458,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "運転中のミスの回数は、組み合わせでプラセボ条件の9%、カフェインのみで34%まで減った。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "12人、模擬運転での話",
+        "body": "眠気のある12人が、午後に運転シミュレーターで2時間走った結果。仮眠だけの条件はなく、実際の道路や夜の運転、ほかの人でも同じになるかは、この研究からはわからない。"
       }
     ],
     "quiz": {
@@ -5316,6 +5501,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "実験研究での頭痛の発生率は50%、日常生活に支障が出る強い症状は13%。症状は中止の12〜24時間後に始まり、20〜51時間後にピークになった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自分に出るかは人それぞれ",
+        "body": "頭痛が出たのは実験研究で半分ほどで、出ない人も多い。症状の出方はふだんの量で変わり、自分に出るかは予測できない。数字を1つにまとめたメタ分析ではなく、2004年までの研究の整理。"
       }
     ],
     "quiz": {
@@ -5797,6 +5987,11 @@
         "id": "dokugaku-flashcards-one-deck",
         "type": "あわせて読む",
         "why": "暗記カードでも、間をあける方がよく覚えられた"
+      },
+      {
+        "id": "dokugaku-vocab-review-schedule-recall-log-review-gap",
+        "type": "あわせて読む",
+        "why": "分けて勉強する効果のまとめと、復習まで何日あければよいかを調べた実験"
       }
     ]
   },
@@ -21599,6 +21794,11 @@
         "id": "breathing-cyclic-sighing-rct",
         "type": "あわせて読む",
         "why": "呼吸法どうしを比べた1つのランダム化比較試験"
+      },
+      {
+        "id": "breathing-478-young-adults",
+        "type": "あわせて読む",
+        "why": "呼吸法全体のメタ分析と、よく紹介される4-7-8呼吸法を前後で測った小さな実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/breathing-stress/breathing-breathwork-meta/"
