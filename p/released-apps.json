@@ -330,7 +330,13 @@
       "name": "HSPナビ",
       "genre": "",
       "appStoreId": "6791561869",
-      "appStoreUrl": "https://apps.apple.com/app/id6791561869"
+      "appStoreUrl": "https://apps.apple.com/app/id6791561869",
+      "media": [
+        {
+          "site": "research",
+          "hub": "https://research.seadice.win/apps/hsp-relationship-check/"
+        }
+      ]
     },
     {
       "id": "kateisaien-app10",
