@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>プライバシーポリシー - HSPナビ｜SEADICE</title>
-<meta name="description" content="HSPナビのプライバシーポリシー。収集するデータ、AI送信内容、第三者サービス、データ削除の方法について説明します。">
+<meta name="description" content="HSPナビのプライバシーポリシー。端末内に保存する情報、送信する情報、データ削除の方法について説明します。1.1.0 から AI と広告を使っていません。">
 <link rel="canonical" href="https://seadice.win/privacy/hsp-relationship-check/">
 <link rel="icon" type="image/png" href="/favicon.png">
 <meta name="robots" content="noindex">
@@ -35,16 +35,12 @@
 <p>本アプリは、次の情報を端末の中（SharedPreferences）にだけ保存します。当開発者のサーバーには保存しません。</p>
 <ul>
 <li>ライフハックの「試した」と、接し方ガイドの「参考になった」の印</li>
-<li>選んだ表示言語</li>
-<li>その日のAI相談の利用回数（1日の上限を数えるため）</li>
-<li>はじめての案内を表示したか、セルフチェックやAI相談を使った回数（評価のお願いや解説記事のリンクを出す時期を決めるため）</li>
+<li>はじめての案内を表示したか、セルフチェックや気持ちの整理を使った回数（評価のお願いや解説記事のリンクを出す時期を決めるため）</li>
 </ul>
-<p>セルフチェックの回答と結果、AI相談に入力した文章とAIの回答は、保存しません。画面を閉じると消えます。</p>
+<p>セルフチェックの回答と結果、気持ちの整理で選んだ内容は、保存しません。画面を閉じると消えます。</p>
 
 <h2>2. 送信する情報</h2>
-<h3>AI相談（使ったときだけ）</h3>
-<p>AI相談で「相談する」を押したときに限り、選んだ場面と入力した文章を、Cloudflare Workers を経由して Anthropic 社の Claude API に送り、回答を作ります。送った内容は当開発者のサーバーには保存しません。氏名・連絡先など、ご自身や第三者を特定できる情報は入力しないでください。</p>
-<p>Anthropic 社のプライバシーポリシー: <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">https://www.anthropic.com/legal/privacy</a></p>
+<p>本アプリ（1.1.0 以降）は、AI を使っていません。送信するのは、次の2つだけです。</p>
 <h3>要望・不具合の報告（送ったときだけ）</h3>
 <p>設定画面の要望フォーム・不具合報告から文章を送った場合に限り、その文章と、どのアプリから送られたかを示す識別名（hsp-relationship-check）を、Google の Firebase（Cloud Firestore）に送ります。氏名・メールアドレス・端末の識別子などは送りません。送られた内容は、アプリの改善と不具合の調査だけに使います。</p>
 <p>Google のプライバシーポリシー: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
@@ -62,10 +58,14 @@
 <li>アプリを削除すると、端末の中のデータはすべて消えます</li>
 <li>送った要望・不具合の報告を消したい場合は、下のお問い合わせ先までご連絡ください</li>
 </ul>
-<p>以前のバージョン（1.0）は、広告の仕組み（Google AdMob）を含み、広告の配信のために端末の識別子と利用状況のデータを扱っていました。1.1.0 から広告の仕組みを外しました。</p>
+<p>以前のバージョン（1.0）には、次の仕組みがありました。1.1.0 からどちらも外しました。</p>
+<ul>
+<li>AI相談: 相談で「相談する」を押したときに、選んだ場面と入力した文章を、Cloudflare Workers を経由して Anthropic 社の Claude API に送り、回答を作っていました（当開発者のサーバーには保存していません）。Anthropic 社のプライバシーポリシー: <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">https://www.anthropic.com/legal/privacy</a></li>
+<li>広告: 広告の仕組み（Google AdMob）を含み、広告の配信のために端末の識別子と利用状況のデータを扱っていました。</li>
+</ul>
 
 <h2>6. 診断結果について</h2>
-<p>本アプリが提供するセルフチェック結果およびAIによる分析・アドバイスは、一般的な心理学的知見を参考にした参考情報であり、医学的診断や専門的なカウンセリングに代わるものではありません。深刻な悩みがある場合は専門機関にご相談ください。</p>
+<p>本アプリが提供するセルフチェックの結果、気持ちの整理の内容、ライフハックは、一般的な心理学的知見を参考にした参考情報であり、医学的診断や専門的なカウンセリングに代わるものではありません。深刻な悩みがある場合は専門機関にご相談ください。</p>
 
 <h2>7. 子どものプライバシー</h2>
 <p>本アプリは13歳未満の子どもを対象としていません。13歳未満の方は保護者の同意のもとでご利用ください。</p>
