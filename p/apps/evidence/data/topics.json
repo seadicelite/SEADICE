@@ -1,5 +1,197 @@
 [
   {
+    "id": "research-affect-labeling-name-your-feelings-research-spider",
+    "category": "こころの不調",
+    "kind": "研究紹介",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Kircanski et al., \"Feelings into words: Contributions of language to exposure therapy\" (Psychological Science, 2012)",
+    "sourceUrl": "https://doi.org/10.1177/0956797612443830",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/affect-labeling-name-your-feelings-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "クモが苦手な人の実験",
+        "body": "クモが苦手な人が、本物のクモに少しずつ近づく練習をした研究があるよ。そのときの「心の中の扱い方」を4つのグループで変えたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "言葉にする・とらえ直す・気をそらす",
+        "body": "88人を4グループにくじで分けたよ。気持ちを言葉にする、とらえ直す、関係ないことを話して気をそらす、ただ近づくだけ。1週間後、別の場所で別のクモに近づいてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体の反応がいちばん小さかった",
+        "body": "言葉にしたグループは、皮膚の汗の反応がほかのグループより小さかったらしい。不安や恐怖の言葉を多く使った人ほど、恐怖反応がよく下がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "怖さの感じ方は同じ",
+        "body": "本人が答えた「怖さ」は、グループで差がなかったんだ。対象はクモが苦手な88人（多くは大学生）だけ。言葉の量との関係も相関で、原因かどうかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-affect-labeling-name-your-feelings-research-predict",
+        "type": "あわせて読む",
+        "why": "気持ちを言葉にする方法を、いやな写真とクモへの練習で確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#research-affect-labeling-name-your-feelings-research-spider"
+  },
+  {
+    "id": "research-interleaved-practice-mixed-study-research-meta",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Brunmair & Richter, \"Similarity matters: A meta-analysis of interleaved learning and its moderators\" (Psychological Bulletin, 2019)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000209",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/interleaved-practice-mixed-study-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "混ぜて勉強すると覚えやすい？",
+        "body": "「いろんな種類を混ぜて練習すると身につく」という勉強法、聞いたことあるよね。どんな教材にも効くのか、まとめて調べた分析があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "59件の研究をまとめた",
+        "body": "59件の研究、238の効果量をまとめて、混ぜる練習とまとめる練習を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "絵で大きく、単語では逆",
+        "body": "全体では中くらいの効果（g=0.42）。絵の見分けでは大きく（0.67）、数学では小さめ（0.34）。単語の学習では、まとめたほうが良かったらしい（-0.39）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "文章の読解は不明",
+        "body": "説明文の読解や味の見分けでは、はっきりした効果が出なかったんだ。どの教材に向くかは、まだ研究が足りないところもあるよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "learning-interleaving",
+        "type": "あわせて読む",
+        "why": "1つの実験で効いた混ぜる練習を、59件まとめて教材ごとに確かめた"
+      },
+      {
+        "id": "research-interleaved-practice-mixed-study-research-math",
+        "type": "あわせて読む",
+        "why": "数学の問題で混ぜて練習した実験と、教材ごとの効果をまとめた分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-interleaved-practice-mixed-study-research-meta"
+  },
+  {
+    "id": "research-break-task-small-steps-procrastination-research-subtask",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Garg et al., \"Now I feel like I'm going to get to it soon: a brief, scalable intervention for state procrastination\" (BMC Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s40359-025-03388-3",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/break-task-small-steps-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "小さく分ければ手をつけられる？",
+        "body": "「大きな作業は小さく分けると始めやすい」ってよく言うよね。7つの質問に答えるだけの短い方法で、試した実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,035人に7つの質問",
+        "body": "ネットで集めた1,035人をくじで3つに分けたよ。1つは先延ばし中の作業の「いやなところ」「やるといいこと」「すぐできる一部分と、その時間とご褒美」を答える7問。ほかは中身の薄い似た質問に答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "取りかかる見込みが少し上がった",
+        "body": "24時間以内に取りかかれそうかを0〜9で聞くと、平均5.38対4.88。差は小さめ（d=0.2）。作業へのいやな気持ちは変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際にやったかは不明",
+        "body": "測ったのは「やれそう」という本人の見込みだけで、本当に作業したかは調べていないんだ。ネットで答えた1回きりの調査で、7つの質問のどれが効いたのかも、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-break-task-small-steps-procrastination-research-subtask"
+  },
+  {
+    "id": "sleep-bed-socks-warm-feet",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Ko & Lee, \"Effects of feet warming using bed socks on sleep quality and thermoregulatory responses in a cool environment\" (Journal of Physiological Anthropology, 2018)",
+    "sourceUrl": "https://doi.org/10.1186/s40101-018-0172-z",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "靴下をはいて寝るとよく眠れる？",
+        "body": "冬の夜、足が冷えて眠れないとき、靴下をはいて寝る人は多いよね。韓国の研究チームが、ちょっと涼しい部屋で、寝るときの靴下が眠りを変えるか試したんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "23℃の部屋で7時間",
+        "body": "若い男性6人が、靴下ありと靴下なしの2晩を、順番をランダムにして過ごしたよ。眠りは手首につける計測器で記録して、体の中の温度や皮膚の温度も測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "寝つきが早く、夜中に起きにくい",
+        "body": "靴下ありの夜は、寝つくまでが平均7.5分早く、眠った時間は32分長かったらしい。夜中に目覚めた回数も8.8回で、なしの16.3回より少なかったよ。体の中の温度は変わらなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "6人の若い男性だけ",
+        "body": "調べたのは韓国の若い男性6人だけ。本人が感じた眠りのよさには差が出なかったよ。女性や高齢の人、寒い部屋や毎晩続けたときにどうなるかは、まだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-bath-before-bed-meta",
+        "type": "あわせて読む",
+        "why": "寝る前のお風呂と寝るときの靴下。どちらも体を温めて寝つきを見た研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-bed-socks-warm-feet"
+  },
+  {
+    "id": "foodmyth-five-second-rule",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Miranda & Schaffner, \"Longer Contact Times Increase Cross-Contamination of Enterobacter aerogenes from Surfaces to Food\" (Applied and Environmental Microbiology, 2016)",
+    "sourceUrl": "https://doi.org/10.1128/AEM.01838-16",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "落としても「3秒ルール」ならセーフ？",
+        "body": "食べ物を床に落としても、すぐ拾えば菌はつかない。日本では「3秒ルール」、アメリカでは「5秒ルール」と呼ばれる説だよね。これを本気で確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "床4種類×食べ物4種類",
+        "body": "ステンレス・タイル・木・カーペットに菌を塗って、スイカ・パン・バターつきパン・グミを落としたよ。置いた時間は1秒未満・5秒・30秒・300秒。128通りを20回ずつ、計2,560回測ったんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1秒未満でも菌はうつる",
+        "body": "長く置くほど菌は多くうつったけど、1秒未満でもうつっていたらしい。うつりやすさは時間と同じかそれ以上に、食べ物と床で変わったよ。水分の多いスイカは多く、カーペットは少なめだったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の話で、人での検証ではない",
+        "body": "使ったのは病気を起こさない菌1種類で、実験室で塗った床の話だよ。落とす勢いや床の菌の量は変えていないんだ。実際におなかをこわすかどうかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-five-second-rule"
+  },
+  {
     "id": "dokugaku-why-practice-success-fails-on-exam-jargon-quiz",
     "category": "学習法",
     "kind": "よくある説",
@@ -286,7 +478,14 @@
         "body": "2択の言葉を選ぶ実験室の課題で、日常で自分の言葉にする場合と同じかはわからないんだ。楽しい写真では、楽しさも小さくなったよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/mental-health/#research-affect-labeling-name-your-feelings-research-predict"
+    "webUrl": "https://seadice.win/evidence/mental-health/#research-affect-labeling-name-your-feelings-research-predict",
+    "links": [
+      {
+        "id": "research-affect-labeling-name-your-feelings-research-spider",
+        "type": "あわせて読む",
+        "why": "気持ちを言葉にする方法を、いやな写真とクモへの練習で確かめた"
+      }
+    ]
   },
   {
     "id": "speech-filler-uh-recall",
@@ -476,6 +675,11 @@
         "id": "learning-interleaving",
         "type": "あわせて読む",
         "why": "同じ研究者による、混ぜて解く練習の別の実験"
+      },
+      {
+        "id": "research-interleaved-practice-mixed-study-research-meta",
+        "type": "あわせて読む",
+        "why": "数学の問題で混ぜて練習した実験と、教材ごとの効果をまとめた分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#research-interleaved-practice-mixed-study-research-math"
@@ -554,6 +758,11 @@
         "id": "kokoro-bath-soak-fatigue-recover-tub-vs-shower",
         "type": "あわせて読む",
         "why": "湯船とシャワーで、疲れとストレスを比べた実験"
+      },
+      {
+        "id": "sleep-bed-socks-warm-feet",
+        "type": "あわせて読む",
+        "why": "寝る前のお風呂と寝るときの靴下。どちらも体を温めて寝つきを見た研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-bath-before-bed-meta"
@@ -5427,6 +5636,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "カフェイン200mgの群は、プラセボ群より24時間後の成績が有意に高かった。効果は用量との関係が逆U字型で、多ければ良いわけではなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだん飲まない若い人だけ",
+        "body": "調べたのは18〜30歳の、ふだんカフェインをほとんどとらない人だけ。毎日コーヒーを飲む人や、ふつうの勉強でも同じかは、まだわからないよ。なぜ記憶が残りやすくなるのかも、はっきりしていないんだ。"
       }
     ],
     "quiz": {
@@ -5868,6 +6082,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "ほぼ全員が笑える捉え直しを思いついた。抑うつ気分や高い脅威の認知があっても作れた。使われた仕組みはメトニミー（連想による意味の言い換え）が最多だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "楽になるかは測っていない",
+        "body": "調べたのはオーストリアの17〜64歳の101人（平均23.5歳）。文章で読んだ4つの不安な場面を、3分ずつ考えただけだよ。笑える見方で気持ちが本当に楽になるのか、実生活でも使えるのかは、まだわからないんだ。"
       }
     ],
     "quiz": {
@@ -5876,7 +6095,7 @@
       "wrong": "ごく一部の人"
     },
     "webUrl": "https://seadice.win/evidence/laughter/#laughter-humor-reappraisal",
-    "studyType": "実験",
+    "studyType": "観察研究",
     "links": [
       {
         "id": "laughter-humor-styles-meta",
@@ -6042,6 +6261,11 @@
         "id": "research-interleaved-practice-mixed-study-research-math",
         "type": "あわせて読む",
         "why": "中学の教室で9週間、混ぜて解く練習を試した実験"
+      },
+      {
+        "id": "research-interleaved-practice-mixed-study-research-meta",
+        "type": "あわせて読む",
+        "why": "1つの実験で効いた混ぜる練習を、59件まとめて教材ごとに確かめた"
       }
     ]
   },
