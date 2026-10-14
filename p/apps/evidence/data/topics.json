@@ -1,5 +1,171 @@
 [
   {
+    "id": "research-read-but-cant-remember-illusion-why-research-zipper",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Rozenblit & Keil, \"The misunderstood limits of folk science: an illusion of explanatory depth\" (Cognitive Science, 2002)",
+    "sourceUrl": "https://doi.org/10.1207/s15516709cog2605_1",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/read-but-cant-remember-illusion-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ファスナーの仕組み、説明できる？",
+        "body": "毎日使っているファスナーやトイレ。仕組みは「だいたいわかってる」と思うよね。実はその感覚、説明しようとすると崩れるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "説明を書く前と後で比べた",
+        "body": "大学生に、ファスナーやミシンなどの仕組みをどのくらい理解しているか7段階で答えてもらったよ。そのあと仕組みを順を追って書いてもらい、もう一度答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3.89から3.10に下がった",
+        "body": "33人の平均は3.89から、説明を書いたあと3.10、具体的な質問に答えたあと2.49まで下がったんだ。仕組みの知識ほど、わかったつもりが強かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんな知識でも起きる？",
+        "body": "国の首都のような事実では下がり方が小さく、手順や物語のあらすじでは下がらなかったんだ。調べたのは米国の大学生などで、ほかの人でも同じかは、まだはっきりしないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-read-but-cant-remember-illusion-why-research-zipper"
+  },
+  {
+    "id": "research-group-work-procrastination-research-indispensable",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Koppenborg et al., \"Is procrastination among students lower in group work? Evidence from a registered field experiment\" (British Journal of Educational Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/bjep.70069",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/group-work-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人と一緒なら先延ばししない？",
+        "body": "ひとりだと手がつかないけど、誰かとやるなら動ける。よく聞く話だよね。実は、グループの「組み方」で結果が変わるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10日間の課題で3つに分けた",
+        "body": "先延ばししがちなドイツの大学生218人に、参考文献リストづくりを出したよ。ひとり／成績が一番低い人で決まる3人組／平均で決まる3人組に分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「自分が欠かせない」組だけ少なめ",
+        "body": "先延ばしの程度（1〜5）は、ひとり3.04、一番低い人で決まる組2.69、平均で決まる組3.00。誰かが補える形だと、ひとりと変わらなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "事前の分析では差が出なかった",
+        "body": "事前に決めた分析では有意な差にならず、著者も結論は出ていないとしているよ。仲間は実在せず、作業前のいやな気持ちはグループのほうが強かったんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-group-work-procrastination-research-indispensable"
+  },
+  {
+    "id": "research-habit-forgetting-reminder-cue-research-text-reminder",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Thakkar et al., \"Mobile Telephone Text Messaging for Medication Adherence in Chronic Disease: A Meta-analysis\" (JAMA Internal Medicine, 2016)",
+    "sourceUrl": "https://doi.org/10.1001/jamainternmed.2015.7667",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/habit-forgetting-reminder-cue-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "リマインダーって本当に効く？",
+        "body": "スマホの通知で思い出させるのって、ただの気休めじゃない？と思うよね。薬の飲み忘れで、ちゃんと調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16件の試験をまとめた",
+        "body": "慢性の病気がある大人2,742人が参加した、16件のランダム化比較試験をまとめたよ。携帯のメッセージで、薬を指示どおり飲めるかを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見込みが約2倍に",
+        "body": "メッセージを受け取った人は、指示どおり飲めている見込み（オッズ）が約2.1倍だったよ。出版の偏りを補正しても1.68倍で、効果は残ったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自己申告が多い",
+        "body": "多くの研究は、飲んだかどうかを本人の申告で測っていたんだ。期間の中央値は12週で、薬以外の習慣でも同じくらい効くかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-forgetting-reminder-cue-research-text-reminder"
+  },
+  {
+    "id": "caffeine-painkiller-adjuvant",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Derry, Derry & Moore, \"Caffeine as an analgesic adjuvant for acute pain in adults\" (Cochrane Database of Systematic Reviews, 2014)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD009281.pub3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "痛み止めにカフェインが入っているのはなぜ？",
+        "body": "痛み止めの成分表を見ると、カフェインが入っているものがあるよね。眠気覚まし？と思うけど、実は効き目を助けると考えられて足されているらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "足したものと足さないものを比べた",
+        "body": "同じ量の痛み止めに、カフェインを足したものと足さないものを比べた二重盲検の試験をまとめたよ。主に歯の手術後の痛み、出産後の痛み、頭痛の試験で、薬はアセトアミノフェンやイブプロフェンが中心。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "よく効いた人が5〜10%ほど増えた",
+        "body": "カフェインを100mg以上足すと、痛みが半分以上やわらいだ人が5〜10%ほど増えたんだ。約14人に1人が追加で楽になる計算。痛みや薬の種類によらなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回飲んだときの話",
+        "body": "比べたのは1回飲んだときの効き目だけ。約25件・約1万2,500人分の試験はデータが手に入らず入っていないし、手術後の痛みの試験は小さいものが多かったんだ。著者は差を「小さいが意味がある」とまとめているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-painkiller-adjuvant"
+  },
+  {
+    "id": "loneliness-solitude-time-balance",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Weinstein, Vuorre, Adams & Nguyen, \"Balance between solitude and socializing: everyday solitude time both benefits and harms well-being\" (Scientific Reports, 2023)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-023-44507-7",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ひとりの時間が長いと、孤独になる？",
+        "body": "ひとりの時間は大事って聞くけど、長すぎると寂しくなりそう。じゃあ、ちょうどいいバランスってあるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21日間、毎日ふり返った",
+        "body": "イギリスとアメリカの35歳以上の大人178人が、21日間、その日の出来事をふり返って、ひとりで過ごした時間と、孤独感・ストレス・満足度などを記録したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いい面と悪い面の両方があった",
+        "body": "誰にでも合う「ちょうどいい割合」は見つからなかった。ひとりが長い日は孤独を感じやすく満足度も低めだけど、ストレスは少なく、自由な感じは強かったよ。自分で選んだひとり時間なら、孤独とのつながりは消えるか弱まったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ひとりの時間が原因？",
+        "body": "記録を見比べた研究なので、ひとりの時間が原因かはわからないと著者も書いているよ。会う人や予定がなくて、ひとりになった日もありそう。調べたのは英米の35歳以上の人だけなんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#loneliness-solitude-time-balance"
+  },
+  {
     "id": "dokugaku-why-sleep-organizes-memory-deep-sleep",
     "category": "記憶のしくみ",
     "kind": "よくある説",
@@ -7158,6 +7324,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "暑さ・寒さの曝露で覚醒が増え、徐波睡眠とレム睡眠が減ることが示された。薄着の人では暑さより寒さの方が睡眠段階に影響しやすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寒さは平気ってこと？",
+        "body": "ふとんや服を使う実生活に近い条件では、寒さで睡眠の段階は変わらなかった。でも心臓の自律神経の反応は変わっていて、著者は寒さの影響をもっと調べる必要があるとしているよ。数字でまとめたメタ分析ではなく、著者自身の研究を含めて整理したレビューなんだ。"
       }
     ],
     "quiz": {
@@ -7166,7 +7337,7 @@
       "wrong": "深い眠りが増えた"
     },
     "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-room-temperature",
-    "studyType": "実験"
+    "studyType": "レビュー"
   },
   {
     "id": "sleep-white-noise-icu",
@@ -7301,6 +7472,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "当初の来館回数は、完全に縛った群が対照群より51%、勧めただけの群が29%多かった。効果は感謝祭以降に低下した。研究後は61%が有料で同じ仕組みを望んだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの人でも、長く続く？",
+        "body": "調べたのは米国の1つの大学で、運動の研究に自分から応募した学生・教職員226人。10週間ほどの研究で、効果は感謝祭の休みのあとに弱まったんだ。ほかの人や長い期間でも続くかは、まだわからないよ。"
       }
     ],
     "quiz": {
