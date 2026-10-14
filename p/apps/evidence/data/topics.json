@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-why-study-method-works-differently-extra-text",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Rey & Buchwald, \"The expertise reversal effect: Cognitive load and motivational explanations\" (Journal of Experimental Psychology: Applied, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0022243",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-study-method-works-differently/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "丁寧な説明は、いつでもありがたい？",
+        "body": "説明が多い教材ほどわかりやすい気がするよね。でも、慣れた人にとっても同じなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "説明文を足す・足さないで比べた",
+        "body": "学生104人が、数学の手法をアニメーションで約30分学んだ実験があるよ。初めての人と、事前に学んで慣れた人に、説明文ありとなしの教材を割り当てたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "初心者には効き、慣れた人では逆に",
+        "body": "説明文があると初心者は記憶と応用のテストの成績が上がった。でも慣れた人では結果が逆になったらしい。やる気より頭の負担の違いで説明できたそう。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い独学でも同じ？",
+        "body": "約30分の実験室の課題での結果。何か月も続く独学で、どの時点で説明の多い教材から切り替えるのがよいかは、まだわかっていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-study-method-works-differently-extra-text"
+  },
+  {
+    "id": "dokugaku-ai-wrong-answer-unlearn-correct-known-facts",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Fazio et al., \"Creating illusions of knowledge: Learning errors that contradict prior knowledge\" (Journal of Experimental Psychology: General, 2013)",
+    "sourceUrl": "https://doi.org/10.1037/a0028649",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/ai-wrong-answer-unlearn-correct/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "知ってることなら騙されない？",
+        "body": "もう正しく知っていることなら、文章に間違いが書いてあってもすぐ気づけるはず。そう思うよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2週間後に誤りのある物語を読む",
+        "body": "一般常識の問題に答えてもらい、2週間後に誤りを含む物語を読ませ、その後もう一度テストをした実験がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "正解していた問題でも誤りを答えた",
+        "body": "最初のテストで正しく答えた問題でも、物語の誤りをそのまま答えることがあった。一番自信を持って正解していた問題でも起きたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強の場面でも同じ？",
+        "body": "使ったのは物語の中の一般常識。AIの説明や教科書で学ぶときにどれくらい起きるかは、この実験だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-ai-wrong-answer-unlearn-correct-known-facts"
+  },
+  {
+    "id": "dokugaku-generate-questions-while-reading-make-own-test",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Weinstein et al., \"A comparison of study strategies for passages: Rereading, answering questions, and generating questions\" (Journal of Experimental Psychology: Applied, 2010)",
+    "sourceUrl": "https://doi.org/10.1037/a0020992",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/generate-questions-while-reading/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分で問題を作るのが最強？",
+        "body": "テスト問題を自分で作って答えると、一番よく覚えられる。勉強法の本でもよく見かける話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つのやり方を比べた実験",
+        "body": "短い文章を読んだあと、読み直す・用意された問題に答える・自分で問題を作って答える、の3つを比べた実験が3回行われたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "答えるのと同じくらい",
+        "body": "作るのも答えるのも読み直しよりは成績が高かった。でも作る方が答えるより上ということはなく、時間は少なくとも2倍かかった。本人たちは作ったあとが一番できると予想していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い独学でも同じ？",
+        "body": "使われたのは短い文章で、テストは直後か2日後。何か月もかける資格の勉強で同じになるかは、まだはっきりしない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "memory-generation-effect-metaanalysis",
+        "type": "あわせて読む",
+        "why": "自分で作ると覚えやすい効果のまとめと、問題作りを時間も含めて比べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-generate-questions-while-reading-make-own-test"
+  },
+  {
+    "id": "alcohol-light-drinking-heart-genetics",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Biddinger et al., \"Association of Habitual Alcohol Intake With Risk of Cardiovascular Disease\" (JAMA Network Open, 2022)",
+    "sourceUrl": "https://doi.org/10.1001/jamanetworkopen.2022.3849",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "少しのお酒は心臓にいい？",
+        "body": "「軽く飲む人のほうが心臓病が少ない」って話、聞いたことあるよね。じゃあ、お酒そのものが心臓を守ってくれているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "37万人のデータと遺伝子で確かめた",
+        "body": "イギリスの約37万人（平均57歳）で、飲む量と高血圧・心臓病の関係を調べた研究があるよ。生活習慣のちがいにまどわされにくいよう、お酒を飲みやすい体質に関わる遺伝子も使って分析したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "飲む量が増えるほど、リスクは上がっていた",
+        "body": "軽く飲む人は運動や食事などの生活習慣が健康的な人が多く、そこをそろえると「少しなら心臓にいい」差は小さくなった。遺伝子の分析では、どの量でも飲むほど高血圧と心臓病のリスクが上がり、少量ではわずか、多いほど急に上がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "遺伝子の分析にも限界がある",
+        "body": "使った遺伝子が、お酒とは別の道すじで心臓に影響している可能性は残る、と著者たちも書いている。遺伝子はアルコール依存の診断との関係で選んだもので、ふだんの飲む量そのものの指標ではない。ほかの大きなデータでの確認が必要だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-red-wine-resveratrol",
+        "type": "あわせて読む",
+        "why": "「赤ワインは心臓にいい」と、お酒の量と心臓病のリスク"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-light-drinking-heart-genetics"
+  },
+  {
+    "id": "aging-weekend-warrior-mortality",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "O'Donovan et al., \"Associations of the 'weekend warrior' physical activity pattern with all-cause, cardiovascular disease and cancer mortality: the Mexico City Prospective Study\" (British Journal of Sports Medicine, 2024)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2023-107612",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動が週末だけでも、意味はある？",
+        "body": "平日は忙しくて、体を動かせるのは週末だけ。それでも健康にいいのかな、って気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "メキシコ市の15万人を約18年追った",
+        "body": "メキシコ市の大人154,882人（平均52歳）に運動の習慣を聞いて、約18年追いかけた研究があるよ。週1〜2回だけ運動する人を「週末戦士」と呼んで、運動しない人、もっとよく運動する人と比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "週1〜2回でも、死亡リスクは低めだった",
+        "body": "運動しない人と比べて、亡くなるリスクは週末戦士もよく運動する人も同じくらい低かった（どちらも約12%低い）。ただ、はっきり下がったのは1回の運動が30〜60分以上のときだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運動のおかげとは言い切れない",
+        "body": "運動は本人の答えで、追いかけて関係を見た研究だから、元気な人ほど運動していただけかもしれない。参加者の67%は女性。約1万人を2回調べた分析では、差がはっきりしなかったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-muscle-strengthening-mortality-meta",
+        "type": "あわせて読む",
+        "why": "運動の回数の分け方と、筋トレの量それぞれと寿命の関係"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-weekend-warrior-mortality"
+  },
+  {
     "id": "research-behavioral-activation-low-mood-steps-research-wellbeing",
     "category": "幸福の科学",
     "kind": "よくある説",
@@ -7407,6 +7594,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "動きと同期した音楽の条件の酸素消費量は毎分1.80リットルで、遅いテンポの条件の1.94リットルより低かった。約7%少ない計算になる。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "10人・12分だけの実験",
+        "body": "調べたのは運動習慣のない若い男性10人（平均約22歳）が、自転車を12分こいだときだけ。きつさの感じ方や心拍数には差がなかった。女性や運動に慣れた人、長い運動でも同じかはわからない。"
       }
     ],
     "quiz": {
@@ -7467,7 +7659,7 @@
     "category": "呼吸とストレス",
     "themeColor": "#38BDF8",
     "sourceLabel": "Weitzberg & Lundberg, \"Humming Greatly Increases Nasal Nitric Oxide\" (American Journal of Respiratory and Critical Care Medicine, 2002)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12119224/",
+    "sourceUrl": "https://doi.org/10.1164/rccm.200202-138bc",
     "cards": [
       {
         "stage": "結論",
@@ -7483,6 +7675,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "ハミング中の鼻腔の一酸化窒素は、静かな呼気に比べて15倍に増えた。ただしこの研究は測定のみで、健康への効果までは調べていない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "健康にいいかは調べていない",
+        "body": "健康な10人で、一度の測定をしただけの研究。空気が入れ替わる仕組みは、鼻と副鼻腔の模型で確かめた話だよ。ハミングで病気を防げるかなど体への効果は、著者たちも「これから調べるべき」としている。"
       }
     ],
     "quiz": {
@@ -11066,6 +11263,11 @@
         "id": "memory-drawing-effect",
         "type": "あわせて読む",
         "why": "自分で作る・描くなど、手を動かすほど記憶に残る"
+      },
+      {
+        "id": "dokugaku-generate-questions-while-reading-make-own-test",
+        "type": "あわせて読む",
+        "why": "自分で作ると覚えやすい効果のまとめと、問題作りを時間も含めて比べた実験"
       }
     ]
   },
@@ -18597,6 +18799,11 @@
         "id": "aging-grip-strength-mortality",
         "type": "あわせて読む",
         "why": "筋トレの習慣と寿命、筋力（握力）と寿命の関係をそれぞれ調べた研究"
+      },
+      {
+        "id": "aging-weekend-warrior-mortality",
+        "type": "あわせて読む",
+        "why": "運動の回数の分け方と、筋トレの量それぞれと寿命の関係"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-aging/aging-muscle-strengthening-mortality-meta/"
@@ -21737,6 +21944,11 @@
         "id": "alcohol-hyakuyaku-mortality",
         "type": "あわせて読む",
         "why": "お酒そのものについて、少量なら長生きかを107の研究で確かめたまとめ"
+      },
+      {
+        "id": "alcohol-light-drinking-heart-genetics",
+        "type": "あわせて読む",
+        "why": "「赤ワインは心臓にいい」と、お酒の量と心臓病のリスク"
       }
     ],
     "webUrl": "https://seadice.win/evidence/alcohol/alcohol-red-wine-resveratrol/"
