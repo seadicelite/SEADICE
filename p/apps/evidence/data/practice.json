@@ -1,5 +1,6 @@
 {
   "items": {
+    "shisei-reset": {"name": "姿勢で自信をつける1分リセット", "catch": "縮こまった姿勢を1分ほどいて、前後の自信を記録する", "url": "https://seadice.win/tools/shisei-reset/", "type": "web"},
     "hiru10": {"name": "ひる10", "catch": "研究にもとづく10分の昼寝をセットする", "url": "https://apps.apple.com/app/id6814377156?ct=evidence", "type": "app"},
     "caffeine-cutoff": {"name": "カフェインの締め切り計算", "catch": "寝る時刻から、最後に飲んでいい時刻を出す", "url": "https://seadice.win/tools/caffeine-cutoff/", "type": "web"},
     "habit-quit": {"name": "科学で断つ 悪習慣ログ", "catch": "やめたい習慣を記録して、きっかけを見つける", "url": "https://apps.apple.com/app/id6798075879?ct=evidence", "type": "app"},
@@ -19,6 +20,7 @@
     "alcohol-gram": {"name": "純アルコール量の計算", "catch": "飲んだお酒が何gかを計算し、ガイドラインと研究にくらべる", "url": "https://seadice.win/tools/alcohol-gram/", "type": "web"}
   },
   "categories": {
+    "姿勢と自信": "shisei-reset",
     "睡眠": "hiru10",
     "カフェイン": "caffeine-cutoff",
     "習慣形成": "habit-quit",
