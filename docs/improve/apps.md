@@ -51,7 +51,7 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 
 ## 次にやること
 1. **HSPナビ 1.1.0 が審査を通ったら、サイトとメディアからAIの表記を外す**（2026-10-14）: p/tools/hsp-relationship-check/ の title・description・og・JSON-LD・ラベル「Relationship AI」・説明文・特徴02（AIがHSP視点で分析→気持ちの整理）・特徴05（AI相談は1日3回→通信なし）、p/apps/index.html の説明（build_apps_page.py で作り直し）、seadice-media の media/research.json の HSPナビの catch（「人間関係の悩みのAI相談」→「タップで気持ちの整理」）。プライバシーポリシーは版ごとの書き方にしてあるので触らなくてよい
-1. **AIに文章を送る公開済みアプリ66本の扱い**（2026-10-14、Guideline 5.1.2）: ユーザー方針は「まずAPIなしで利用者を増やす」。同意を足すより、AIを外して通信なしの道具に置き換える（見本: HSPナビ 1.1.0 の「気持ちの整理」）。`grep -rl claude-proxy ~/Developer --include=main.dart | grep -v /build/`。一括でやるか改修のついでにやるかは要確認
+1. **AIに文章を送る公開済みアプリ66本は、改修のついでに1本ずつAIを外す**（2026-10-14、ユーザー判断。一括ではやらない）: 方針は「まずAPIなしで利用者を増やす」。AIの機能は通信なしの道具に置き換える（見本: HSPナビ 1.1.0 の「気持ちの整理」）。外したら同じ作業でプライバシーポリシー（版ごとの書き方）・提出文書・審査通過後にサイトとメディアの紹介文も直す。残り: `grep -rl claude-proxy ~/Developer --include=main.dart | grep -v /build/`
 1. **夢とき（yumetoki）・MBTIコンパスの日付キーを2桁にそろえる**（2026-10-14）: `${now.year}${now.month}${now.day}` のままで、1月11日と11月1日が同じキーになる。次の改修のついでに
 1. **HSPナビ 1.1.0 が審査を通ったら、EVIDENCEシリーズに入れるか決める**（2026-10-14）: 悩みの科学のHSPの記事ができたので `/evidence hsp-relationship-check` で「もとになった研究」欄を作れる。ただしセルフチェックは自作の質問なので、欄に書けるのは「3つの面の分け方は髙橋（2016）にならった」までで、尺度そのものを研究にもとづくとは書かない。HSP-J10 の許諾が取れて差し替えた後のほうが筋がよい
 1. **HSPナビ: 作者の許諾が届いたら、セルフチェックを HSP-J10 に差し替える**（2026-10-14）: 10問・7件法・平均点、日本の成人1,626人の平均 4.24（SD 0.96）とくらべる位置と3つの面の点を出す。3群の区切り（HSP-J10）は論文で未確認なので使わない。依頼文は ~/Developer/心理学系/hsp-relationship-check/PERMISSION_REQUEST.md。許諾がとれたらサイトの /diagnosis/ にも同じチェックを置く（「HSP 診断」は悩みの検索語として大きい）
