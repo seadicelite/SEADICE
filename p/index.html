@@ -228,6 +228,8 @@
     .goal-period { font-size: 12px; letter-spacing: 0.15em; color: var(--accent); margin-bottom: 10px; }
     .goal-card ul, .goal-card ol { padding-left: 20px; display: grid; gap: 8px; }
     .goal-card li { font-size: 14px; line-height: 1.7; }
+.goal-more { margin-top: 16px; font-size: 14px; }
+.goal-more a { color: var(--accent); display: inline-block; padding: 8px 0; }
     @media (max-width: 600px) { section { padding: 56px 16px; } .hero { padding: 88px 16px 48px; } }
 
     .faq-list { list-style: none; display: grid; gap: 14px; }
@@ -367,7 +369,7 @@
     </div>
   </section>
 
-  <!-- ===== 目標（毎月末に「今月の目標」を書き換える） ===== -->
+  <!-- ===== 目標（毎月末に「今月の目標」を書き換える。書き換える前に、結果を /goals/ の「これまでの目標と結果」へ移す） ===== -->
   <section id="goals" class="reveal" aria-labelledby="goals-heading">
     <p class="section-label">Goals</p>
     <h2 class="section-title" id="goals-heading">SEADICEの目標</h2>
@@ -388,6 +390,7 @@
         </ol>
       </div>
     </div>
+    <p class="goal-more"><a href="/goals/">これまでの目標と結果を見る</a></p>
   </section>
 
   <section id="study" class="reveal" aria-labelledby="study-heading">
