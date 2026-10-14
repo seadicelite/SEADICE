@@ -55,3 +55,4 @@ design/README.md・design/*.css
 - 2026-10-12: build_evidence_hub.py が書き出し時に show を当てるようにし、67ページに適用。t- クラスなし 85→18（残りは Flutter SPA・404・旧アプリ・未適用の2ツールと2privacy）
 - 2026-10-13: 点検: t- クラスなし 19→14（残りは Flutter SPA・404・旧アプリ・トップ）、旧装飾宣言が残るページ 894（上書きで無効）、sitemap にファイルなし 0・noindex 混入 0。未適用だった公開中の5ページに show/read を適用。build_evidence_hub.py の `.grid` 重複を削り192ページ再生成
 - 2026-10-14: メディアの「ツールとアプリ」欄（seadice-media/media/toolbox.py）で Webツールが全部同じ記号、アプリだけ本物の画像で目立っていたのを、名前から種類を見分ける線画アイコン17種に（同じページ内で重なりにくいよう防犯系は家・鍵・錠・盾に分けた）。設定の glyph で指定も可
+- 2026-10-14: メディア・講座サイト22件のファビコンを「丸＋頭文字」（AI時代の〜3サイトが同じ「A」）から、トップと同じピクトグラムをテーマ色の角丸四角に置く形に。data URI では Google 検索結果にアイコンが出ないので各サイトの /favicon.svg に。形は seadice-media/media/favicon.py の PICTO、新メディアはそこに1行足す
