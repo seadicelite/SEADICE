@@ -8,7 +8,7 @@
 |---|---|---|---|
 | 月 | 全体のルール | [rules.md](rules.md) | CLAUDE.md（理念・目標・共通の規則）・この仕組み自体 |
 | 火 | デザイン | [design.md](design.md) | design/*.css・3タイプ・共通部品 |
-| 水 | 記事 | [articles.md](articles.md) | p/blog/・p/reviews/ |
+| 水 | 記事 | [articles.md](articles.md) | p/blog/ |
 | 木 | ツール | [tools.md](tools.md) | p/tools/ のブラウザツール・p/diagnosis/、ルールは docs/tools.md |
 | 金 | アプリ | [apps.md](apps.md) | アプリ紹介ページ・p/apps/・released-apps.json・アプリ本体の改善案 |
 | 土 | EVIDENCE | [evidence.md](evidence.md) | p/evidence/・EVIDENCEアプリのデータ・攻めているテーマ |

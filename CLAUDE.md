@@ -87,7 +87,7 @@ python3 scripts/indexnow.py p/…/index.html                           # IndexNo
 - トップページ: `p/index.html`（**頼まれない限り触らない**。デザイン注入の対象外）
 - アプリ紹介: `p/tools/{appId}/`（`p/apps/` はアプリ一覧 `p/apps/index.html` と一部の旧ページ）／ブラウザツール: `p/tools/{toolId}/` ほか
 - ジャンル別ハブ: `p/tools/{ジャンル}/` ／ 診断: `p/diagnosis/` ／ EVIDENCE: `p/evidence-series/`
-- ブログ: `p/blog/` ／ 商品比較: `p/reviews/` ／ プライバシー: `p/privacy/{appId}/` ／ 運営者情報: `p/about/` ／ 7ヶ条: `p/promise/` ／ 寄付: `p/support/`（アプリからはリンクしない）
+- ブログ: `p/blog/` ／ プライバシー: `p/privacy/{appId}/` ／ 運営者情報: `p/about/` ／ 7ヶ条: `p/promise/` ／ 寄付: `p/support/`（アプリからはリンクしない）
 - 公開済みアプリ一覧（関連アプリ選定の唯一の正）: `p/released-apps.json`
 - AI向けの案内: `p/llms.txt` ／ 404: `p/404.html`
 

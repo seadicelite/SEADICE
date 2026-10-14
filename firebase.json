@@ -2141,6 +2141,16 @@
     ],
     "redirects": [
       {
+        "source": "/reviews/denki-moufu-hikaku",
+        "destination": "/tools/denki-moufu-denkidai/",
+        "type": 301
+      },
+      {
+        "source": "/reviews/denki-moufu-hikaku/**",
+        "destination": "/tools/denki-moufu-denkidai/",
+        "type": 301
+      },
+      {
         "source": "/apps/tetsujin-friends/**",
         "destination": "https://tetsugaku.seadice.win/apps/tetsujin-friends/",
         "type": 301
