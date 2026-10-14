@@ -1,5 +1,221 @@
 [
   {
+    "id": "research-mind-wandering-why-research-unaware",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Christoff et al., \"Experience sampling during fMRI reveals default network and executive system contributions to mind wandering\" (PNAS, 2009)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.0900234106",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/mind-wandering-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "気づくと別のこと考えてない？",
+        "body": "資料を読んでいたはずが、気づくと週末の予定を考えてた。こういう「心のさまよい」、実はどれくらい起きてるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "脳を撮りながら聞いてみた",
+        "body": "大学生15人に、数字を見てボタンを押す単調な作業をしてもらったよ。脳の画像を撮りながら、ときどき「今何を考えてた？」と尋ねたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "43%で心はよそへ",
+        "body": "尋ねた回の43%で、心は作業から離れていた。しかもその約45%は、本人も気づいていないうちだったらしい。気づいていないときほど脳の活動は強かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日常でも同じ？",
+        "body": "調べたのはカナダの大学生15人で、実験室の単調な作業だけ。日常生活でどのくらい心がよそへ行くかは、この研究だけではわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-wandering-mind",
+        "type": "あわせて読む",
+        "why": "スマホで日常生活中の心のさまよいと幸福度を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-mind-wandering-why-research-unaware"
+  },
+  {
+    "id": "research-negative-events-memory-why-research-listener",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Muir, Brown & Madill, \"The fading affect bias: Effects of social disclosure to an interactive versus non-responsive listener\" (Memory, 2015)",
+    "sourceUrl": "https://doi.org/10.1080/09658211.2014.931435",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/negative-events-memory-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "嫌なことは話せば楽になる？",
+        "body": "嫌なことは誰かに話すとすっきりする、ってよく言うよね。実は「誰に話すか」で結果が変わるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "話し方を3つに分けた",
+        "body": "良い思い出と嫌な思い出を、話さない、ひとりで声に出す、ほかの参加者に話す、に割り当てたよ。聞き手の反応も実験で変えて、1週間後にもう一度感情の強さを聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "反応しない相手だと逆効果",
+        "body": "ひとりで声に出すだけでは変わらなかった。反応を返してくれる相手だと嫌な記憶のつらさが下がり、反応しない相手だと逆に強まったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "親しい人でも同じ？",
+        "body": "話した相手は、実験室で会ったほかの参加者。友だちや家族に話す場合に同じ結果になるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-negative-events-memory-why-research-fading-affect",
+        "type": "あわせて読む",
+        "why": "嫌な記憶のつらさは時間とともに薄れやすい、という土台の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-negative-events-memory-why-research-listener"
+  },
+  {
+    "id": "research-new-habit-three-day-quit-why-research-gym",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Kaushal & Rhodes, \"Exercise habit formation in new gym members: a longitudinal study\" (Journal of Behavioral Medicine, 2015)",
+    "sourceUrl": "https://doi.org/10.1007/s10865-015-9640-7",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/new-habit-three-day-quit-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "習慣は21日でできる？",
+        "body": "新しいことは3週間続ければ習慣になる、ってよく聞くよね。運動の場合はどうなのか、ジムに入ったばかりの人を追いかけた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "新入会員111人を12週間",
+        "body": "ジムに入会したばかりの111人に、12週間アンケートに答えてもらったよ。運動の回数と、運動が「考えなくても出る」感じがどう育つかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "週4回を6週間が最低ライン",
+        "body": "運動が習慣になるには、少なくとも週4回を6週間続けることが必要だったらしい。毎回同じように続けること、簡単であること、楽しいと感じることも習慣の育ちやすさと関係していたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの人にも当てはまる？",
+        "body": "運動も習慣も本人の申告で、ジムの新入会員だけを調べた1つの研究なんだ。「週4回6週間」がほかの人や運動以外の習慣にも当てはまるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "habit-66days",
+        "type": "あわせて読む",
+        "why": "運動以外も含めて、習慣になるまでの日数を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-new-habit-three-day-quit-why-research-gym"
+  },
+  {
+    "id": "laughter-nk-cell-comedy",
+    "category": "笑いと健康",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Takahashi et al., \"The elevation of natural killer cell activity induced by laughter in a crossover designed study\" (International Journal of Molecular Medicine, 2001)",
+    "sourceUrl": "https://doi.org/10.3892/ijmm.8.6.645",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "笑うと免疫力が上がる？",
+        "body": "「笑うと体を守るNK細胞が元気になる」って、テレビなどでよく聞くよね。実は、ちゃんと比べる相手を置いた実験は少なかったらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人がお笑いとふつうの映画を見た",
+        "body": "大阪大学の研究チームが、健康な男性21人に、75分のお笑い映画と感情を動かさない映画を別の日に見てもらったよ。前後で血液のNK細胞の働き（NK活性）を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "お笑いのあとは少し上がった",
+        "body": "お笑い映画のあとはNK活性が26.5%から29.4%に上がった。ふつうの映画では27.1%から24.8%で、はっきりした変化はなかった。どれだけ大きく笑ったかとは関係がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "病気になりにくくなるかは別",
+        "body": "調べたのは健康な男性21人で、映画を1回見た直後の血液だけ。病気になりにくくなるかは調べていないよ。落ち込みや怒りが強い人では、上がりにくかったんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "お笑い映画のあと、NK活性は？",
+      "correct": "少し上がった",
+      "wrong": "下がった"
+    },
+    "links": [
+      {
+        "id": "laughter-immunity",
+        "type": "あわせて読む",
+        "why": "笑いとストレスホルモンを調べた小さな実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-nk-cell-comedy"
+  },
+  {
+    "id": "food-glucose-willpower",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Vadillo, Gold & Osman, \"The Bitter Truth About Sugar and Willpower: The Limited Evidential Value of the Glucose Model of Ego Depletion\" (Psychological Science, 2016)",
+    "sourceUrl": "https://doi.org/10.1177/0956797616654911",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "我慢で疲れた頭は、甘いもので回復する？",
+        "body": "我慢に使う「意志の力」の正体は脳のブドウ糖で、甘いものをとれば戻る。そんな説を研究者が出して、広く知られるようになったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "これまでの実験をまとめて見直した",
+        "body": "研究チームが、ブドウ糖と自制心の関係を調べた実験を集めて、「pカーブ分析」という新しい方法で、結果がどれくらい信頼できるかを確かめたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "証拠はかなり弱かった",
+        "body": "報告された効果は、効果が出た結果ほど発表されやすい偏りの影響を受けている可能性があった。有意な結果の研究でも、証拠としての力は弱かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「関係ない」と決まったわけでもない",
+        "body": "過去の実験を見直した研究で、新しく実験したわけではないんだ。著者らは、さらに証拠が出るまでブドウ糖の役割について結論を出すのは控えるべき、と書いているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "「甘いもので意志の力が戻る」説の証拠は？",
+      "correct": "弱かった",
+      "wrong": "強かった"
+    },
+    "links": [
+      {
+        "id": "replication-ego-depletion",
+        "type": "あわせて読む",
+        "why": "「意志の力は使うと減る」という説そのものの大規模な追試"
+      },
+      {
+        "id": "food-sugar-rush-mood-meta",
+        "type": "あわせて読む",
+        "why": "甘いもので気分や元気が上がるかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-glucose-willpower"
+  },
+  {
     "id": "research-trying-hard-to-sleep-awake-research-sleep-urgency",
     "category": "睡眠",
     "kind": "素朴な疑問",
@@ -99,7 +315,14 @@
         "body": "思い出は本人が選んで書いたもので、国ごとに調べ方も少しずつ違う。つらさが薄れたのが記憶のせいか、時間がたって状況が変わったせいかは、この研究だけでは分けられないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/memory/#research-negative-events-memory-why-research-fading-affect"
+    "webUrl": "https://seadice.win/evidence/memory/#research-negative-events-memory-why-research-fading-affect",
+    "links": [
+      {
+        "id": "research-negative-events-memory-why-research-listener",
+        "type": "あわせて読む",
+        "why": "嫌な記憶を誰かに話すと薄れ方が変わるかを確かめた実験"
+      }
+    ]
   },
   {
     "id": "weather-headache-temperature-er",
@@ -2860,7 +3083,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/replication-ego-depletion/",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "food-glucose-willpower",
+        "type": "あわせて読む",
+        "why": "その説の仕組みとされた「ブドウ糖」の証拠を見直した研究"
+      }
+    ]
   },
   {
     "id": "replication-marshmallow",
@@ -4561,6 +4791,11 @@
         "id": "laughter-cortisol-meta",
         "type": "あわせて読む",
         "why": "笑いとストレスホルモンを調べた1989年の小さな実験。こちらはその後の研究をまとめた"
+      },
+      {
+        "id": "laughter-nk-cell-comedy",
+        "type": "あわせて読む",
+        "why": "笑いと免疫（NK細胞の働き）を、同じ人で比べた実験"
       }
     ]
   },
@@ -4914,6 +5149,11 @@
         "id": "dokugaku-study-routine-after-life-change-routine-vs-time-cue",
         "type": "あわせて読む",
         "why": "習慣になるまでの日数を、きっかけの決め方で比べたくじ引きの実験"
+      },
+      {
+        "id": "research-new-habit-three-day-quit-why-research-gym",
+        "type": "あわせて読む",
+        "why": "運動に絞って、ジムの新入会員で習慣の育ち方を追った研究"
       }
     ]
   },
@@ -5494,7 +5734,14 @@
       "wrong": "高かった"
     },
     "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-wandering-mind",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "research-mind-wandering-why-research-unaware",
+        "type": "あわせて読む",
+        "why": "脳を撮りながら、本人も気づかない心のさまよいを調べた実験"
+      }
+    ]
   },
   {
     "id": "mindfulness-gratitude",
@@ -6100,6 +6347,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "オレンジとラベンダーのどちらの香りの群も、何もない群より不安が低く、気分が良かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "待合室の、その場の気分の話",
+        "body": "調べたのは歯科医院で治療を待つ患者200人。不安や気分は待っている間に本人が答えたもので、治療中や治療後まで続いたかは調べていないよ。"
       }
     ],
     "quiz": {
@@ -6474,7 +6726,7 @@
     "category": "姿勢と自信",
     "themeColor": "#F87171",
     "sourceLabel": "Michalak, Troje, Fischer, Vollmar, Heidenreich & Schulte, \"Embodiment of Sadness and Depression: Gait Patterns Associated With Dysphoric Mood\" (Psychosomatic Medicine, 2009)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19414617/",
+    "sourceUrl": "https://doi.org/10.1097/psy.0b013e3181a2515c",
     "cards": [
       {
         "stage": "結論",
@@ -6490,6 +6742,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "うつ状態や悲しい気分の人は、歩行速度、腕の振り、頭の上下動が小さく、上半身の横揺れと猫背が大きかった。歩き方が気分を変えるかは別の検証が必要。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は少なめ、向きも一方だけ",
+        "body": "調べたのはドイツのうつ病の入院患者14人と、大学生23人。気分が歩き方に出ることを見た研究で、歩き方を変えると気分が変わるかは調べていないんだ。"
       }
     ],
     "quiz": {
@@ -18881,6 +19138,11 @@
         "id": "myth-sugar-hyperactive",
         "type": "あわせて読む",
         "why": "糖で子どもがはしゃぐ説も、実験では支持されなかった"
+      },
+      {
+        "id": "food-glucose-willpower",
+        "type": "あわせて読む",
+        "why": "甘いもので自制心が戻るかをまとめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/food-brain/#food-sugar-rush-mood-meta"
