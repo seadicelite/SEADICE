@@ -41,7 +41,7 @@ docs/writing.md
 
 ## 次にやること
 1. **日誌（daily-YYYY-MM-DD）の扱いを決める**: 6件が sitemap・blog 一覧にある。検索から外す（noindex＋sitemap 除外）か残すかを、Search Console の表示回数を見て判断する（2026-11上旬のCSVと一緒に）
-2. **既存のレビュー記事23件の扱い**: 2026-10-14 点検で全23件が「AIが通販サイトを比べた4選比較」で、実測・一次データはなし（アフィリエイトリンクは各4件）。残す／統合する／noindex にするかの判断を、Search Console のCSV（2026-11上旬）で表示回数を見てから manual.md に出す。それまで新規は作らない
+2. **既存のレビュー記事23件の扱い**: 2026-10-14 点検で全23件が「AIが通販サイトを比べた4選比較」で、実測・一次データはなし（Amazon へのリンクは計92件。アソシエイトIDつきは mimamori-camera-hikaku の4件だけで、19件はIDなしの商品リンク、3件は商品リンクなし。出典リンク・道具も0件で、価格は2026-07〜09時点のまま。手元の点検で数え直して訂正）。残す／統合する／noindex にするかの判断を、Search Console のCSV（2026-11上旬）で表示回数を見てから manual.md に出す。それまで新規は作らない
 
 ## やったこと
 - 2026-10-14: 点検（blog+reviews 121。publisher/tool-cta/BreadcrumbList 漏れ0、noindexなのにsitemap掲載0、sitemap漏れ0、内部リンク切れ1）。jitaku-dumbbell-hikaku の削除済み /apps/fitness-app1/ へのリンク2か所を、実在する /tools/karada-meyasu/（タンパク質の目安）に張り替え、存在しないアプリの機能説明も削除。レビュー23件を一覧化して次にやることに書いた
