@@ -23,7 +23,8 @@ description: シーダイスが出る短い広告動画（YouTube Shorts 縦・1
 3. アプリ紹介（約15秒）: `python3 scripts/video/make_app_ad.py {appId}`。apps.json に1件（hook: アプリの中にある問いかけ2行 / screens: 素の画面 `{アプリ}/screenshots/raw/*.png` と説明3つ / icon / name / lead / promise / store）。説明の数字はアプリのデータ（assets/topics.json 等）で確かめたものだけ。画面の件数表示など変わりうる数字は説明に書かない。出力は app-{appId}.mp4
 4. SEADICE 全体の広告（15秒）は `make_ad.py`、チャンネル用の素材（アイコン・バナー・透かし等）は `make_assets.py`。台本を変えるときだけ中の `CARDS` を直す
 5. 確認は1回だけ: 各動画から 1.5秒・8秒・11.5秒の3コマを取り出し、全テーマを1枚に並べて見る（文字のはみ出し・重なりだけ）。動画を1コマずつ何度も見ない
-6. 報告: 作ったファイルと、入れた道具3つを表で。再生と音はユーザーに見てもらう
+6. 作った動画を `open ~/Developer/Images/seadice-character/youtube/{ファイル名}.mp4` で開く（何本も作ったときは `open ~/Developer/Images/seadice-character/youtube/` でフォルダを開く）。ユーザーにファイルを探させない
+7. 報告: 作ったファイルと、入れた道具3つを表で。再生と音はユーザーに見てもらう
 
 ## 守ること
 
