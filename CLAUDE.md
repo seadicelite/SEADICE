@@ -62,6 +62,7 @@ SEADICE（シーダイス）のリポジトリ。中身は **seadice.win の静�
 | サイト（`p/`）のページを作る・直す | このファイル ＋ [design/README.md](design/README.md)（3タイプのデザイン・これからの設計） |
 | ブラウザツール・診断を作る・直す | [docs/tools.md](docs/tools.md)（1タップ・話し言葉、記録はブラウザ内だけ、根拠と出典） |
 | ブログ・レビュー記事を書く | [docs/writing.md](docs/writing.md)（書く前に「AIが補えない部分」と狙う検索語を決める。AIで比べただけのレビューは新規に作らない） |
+| YouTube の短い広告動画を作る・作り直す | [.claude/commands/video.md](.claude/commands/video.md)（`/video {テーマ}`。サイトに道具・アプリが増えたら作り直す） |
 | App Store のスクリーンショット（モックアップ）を作る | [docs/mockup.md](docs/mockup.md)（見出しを先に選んでもらう・枠ごとのサイズと枚数） |
 | Flutterアプリを作る・改修する・申請する | [docs/flutter-app.md](docs/flutter-app.md)（設定画面・広告なし・利用回数・オンボーディング・フォント・Deployment Target など） |
 | アプリをサイトに載せる・審査通過時の更新 | このファイルの「アプリをサイトに載せるとき」 |

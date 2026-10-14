@@ -1,0 +1,105 @@
+{
+ "kosodate": {
+  "theme": [
+   "AI時代の子育て、",
+   "知りたい？"
+  ],
+  "items": [
+   {
+    "name": "スクリーンタイム判定"
+   },
+   {
+    "name": "声かけの言いかえ帳"
+   },
+   {
+    "name": "れんしゅうSNS",
+    "icon": "/Users/hidenori/Developer/SEADICE/p/icons/apps/renshu-sns.webp",
+    "tag": "アプリ"
+   }
+  ],
+  "media": "AI時代の子育て",
+  "url": "kosodate.seadice.win"
+ },
+ "bohan": {
+  "theme": [
+   "家の防犯、",
+   "知りたい？"
+  ],
+  "items": [
+   {
+    "name": "空き巣の目で、わが家を点検"
+   },
+   {
+    "name": "この連絡、詐欺かも？チェック"
+   },
+   {
+    "name": "家族の合言葉カード"
+   }
+  ],
+  "media": "防犯",
+  "url": "bohan.seadice.win"
+ },
+ "dokugaku": {
+  "theme": [
+   "独学のコツ、",
+   "知りたい？"
+  ],
+  "items": [
+   {
+    "name": "復習日の計算機"
+   },
+   {
+    "name": "こまめ休憩タイマー"
+   },
+   {
+    "name": "思い出しトレーニング",
+    "icon": "/Users/hidenori/Developer/SEADICE/p/icons/apps/active-recall.webp",
+    "tag": "アプリ"
+   }
+  ],
+  "media": "独学の科学",
+  "url": "dokugaku.seadice.win"
+ },
+ "oya": {
+  "theme": [
+   "親が年をとったら、",
+   "知りたい？"
+  ],
+  "items": [
+   {
+    "name": "30秒いす立ち上がりテスト"
+   },
+   {
+    "name": "帰省チェックリスト"
+   },
+   {
+    "name": "実家じまいノート",
+    "icon": "/Users/hidenori/Developer/SEADICE/p/icons/apps/jikka-jimai.webp",
+    "tag": "アプリ"
+   }
+  ],
+  "media": "親が年をとったら",
+  "url": "oya.seadice.win"
+ },
+ "ai": {
+  "theme": [
+   "AI時代の困りごと、",
+   "知りたい？"
+  ],
+  "items": [
+   {
+    "name": "詐欺チェッカー"
+   },
+   {
+    "name": "こまめ休憩タイマー"
+   },
+   {
+    "name": "SNS比較疲れ対策",
+    "icon": "/Users/hidenori/Developer/SEADICE/p/icons/apps/hikaku-tomeru.webp",
+    "tag": "アプリ"
+   }
+  ],
+  "media": "AI時代の困りごと",
+  "url": "ai.seadice.win"
+ }
+}
