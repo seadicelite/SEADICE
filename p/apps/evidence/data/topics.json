@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-why-sleep-organizes-memory-deep-sleep",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Cordi & Rasch, \"No evidence for intra-individual correlations between sleep-mediated declarative memory consolidation and slow-wave sleep\" (Sleep, 2021)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/zsab034",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/why-sleep-organizes-memory/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "深く眠るほど記憶に残る？",
+        "body": "「深い眠りの間に記憶が整理される」ってよく聞くよね。じゃあ、深い眠りが多いほど覚えたことがよく残るはず…と思いたくなる。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人で2回の昼寝を比べた",
+        "body": "スイスの159人が、別の日に2回、午後に90分の昼寝。その前に単語のペアを覚えて、昼寝の後に思い出した。深い眠りが多かった日と少なかった日を同じ人の中で比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係はほぼゼロだった",
+        "body": "深い眠りの量の差と、記憶の残り方の差の相関はほぼゼロ（r=−0.023）。人どうしを比べても関係は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "深い眠りは無関係？",
+        "body": "研究者も「深い眠りが記憶に関わらない」とは言っていない。「多ければよい」わけではない、という結論。昼寝の研究で、参加者の94%が女性だった点も注意。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-sleep-organizes-memory-deep-sleep"
+  },
+  {
+    "id": "dokugaku-distraction-checklist-interruption-log-phone-checks",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Andrews et al., \"Beyond Self-Report: Tools to Compare Estimated and Real-World Smartphone Use\" (PLOS ONE, 2015)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0139004",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/distraction-checklist-interruption-log/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スマホ、1日に何回さわってる？",
+        "body": "「自分はそんなに見てないし」と思っている人は多いよね。でも、その感覚ってどのくらい当たってるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アプリで2週間、実際の回数を記録",
+        "body": "イギリスの大学の職員と学生23人のスマホに記録用アプリを入れて、2週間の実際の使い方と、本人の見積もりを比べた研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "平均84回、しかも半分以上は30秒未満",
+        "body": "実際は1日平均84.68回、合計5.05時間。使った回のうち55%は30秒未満の短い利用だった。回数の見積もりと実際の相関は0.11で、ほぼ当たっていなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "23人だけの研究",
+        "body": "人数が少なく、勉強中の使い方を調べたものでもない。時間の長さの見積もりは、回数よりは当たっていた（相関0.47）。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#dokugaku-distraction-checklist-interruption-log-phone-checks"
+  },
+  {
+    "id": "dokugaku-why-ai-explanations-feel-understood-fluent-lecturer",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Carpenter et al., \"Appearances can be deceiving: instructor fluency increases perceptions of learning without increasing actual learning\" (Psychonomic Bulletin & Review, 2013)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-013-0442-z",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-ai-explanations-feel-understood/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "説明がうまい先生ほど身につく？",
+        "body": "話がなめらかで自信たっぷりの先生だと「よくわかった！」って感じるよね。じゃあ、その分しっかり覚えられているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ内容を、話し方だけ変えた",
+        "body": "同じ科学の説明を、すらすら話す講師と、たどたどしくメモを見ながら話す講師の短い動画にして見せた実験があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「学べた感じ」だけが上がった",
+        "body": "すらすら話す講師を見た人の方が「あとで思い出せる」と予想したし、講師の評価も高かった。でも、実際に覚えていた量には差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い講義やAIの説明でも同じ？",
+        "body": "見たのは科学の説明をする短い動画1本だけ。長い講義や、何度も見返したときに同じになるかは、この研究ではわからない。AIのなめらかな説明で同じことが起きるかも、調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-ai-explanations-feel-understood-fluent-lecturer"
+  },
+  {
+    "id": "breathing-sigh-happiness-escape",
+    "category": "呼吸とストレス",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Vlemincx, Severs & Ramirez, \"The psychophysiology of the sigh: II: The sigh from the psychological perspective\" (Biological Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.biopsycho.2022.108386",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ため息をつくと幸せが逃げる？",
+        "body": "「ため息をつくと幸せが逃げるよ」ってよく言われるよね。つい出てしまうと、なんだか悪いことをした気分になる。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ため息の研究をまとめた",
+        "body": "ため息の心の働きについての研究を整理したレビューがあるよ。どんな場面でため息が増えて、ため息のあとに体や気分がどう変わるかを見ている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "ほっとしたときにも出る",
+        "body": "ため息はストレス中にも増えるけど、「もう嫌なことは来ない」とわかった安心の場面でも増える。人でもラットでも同じだった。自然に出たため息のあとは、筋肉の緊張が下がるという結果もあるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "多ければいいわけではない",
+        "body": "著者自身「ため息の心理の研究は少なく、多くはまだ仮説」と書いている。不安の強い人はため息がとても多いことも知られている。幸せが逃げるかを直接調べた研究ではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "breathing-cyclic-sighing-rct",
+        "type": "あわせて読む",
+        "why": "自然に出るため息ではなく、ため息のような呼吸を毎日わざと続けた試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-sigh-happiness-escape"
+  },
+  {
+    "id": "lang-bilingual-dementia-delay",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Brini et al., \"Bilingualism Is Associated with a Delayed Onset of Dementia but Not with a Lower Risk of Developing it: a Systematic Review with Meta-Analyses\" (Neuropsychology Review, 2020)",
+    "sourceUrl": "https://doi.org/10.1007/s11065-020-09426-8",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "2つの言葉を話す人は認知症になりにくい？",
+        "body": "「外国語を話せるとボケにくい」って聞いたことあるよね。2つの言葉を使い分けると、脳が守られるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "たくさんの研究をまとめた",
+        "body": "2つの言葉を話す人と1つだけの人を比べた研究をまとめたメタ分析。発症や診断の年齢は、ある時点で比べた16本の研究、認知症になるリスクは追跡した5本の研究で見たよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "遅れてはいたが、減ってはいない",
+        "body": "2つの言葉を話す人は、認知症と診断された年齢が平均3.3年遅く、アルツハイマー型の症状が出た年齢は4.7年遅かった。でも追跡した研究では、認知症になるリスク自体ははっきり下がっていなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "学べば遅れるかは別の話",
+        "body": "遅れの大きさは研究ごとにばらばら。症状が出た年齢は本人や家族の思い出しで、移住の有無などの違いも混ざりうる。大人になって外国語を学べば発症が遅れるかは、この研究ではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#lang-bilingual-dementia-delay"
+  },
+  {
     "id": "research-mind-wandering-why-research-unaware",
     "category": "集中力",
     "kind": "素朴な疑問",
@@ -6774,7 +6947,7 @@
     "category": "姿勢と自信",
     "themeColor": "#F87171",
     "sourceLabel": "Finch, Tomiyama & Ward, \"Taking a Stand: The Effects of Standing Desks on Task Performance and Engagement\" (International Journal of Environmental Research and Public Health, 2017)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28825655/",
+    "sourceUrl": "https://doi.org/10.3390/ijerph14080939",
     "cards": [
       {
         "stage": "結論",
@@ -6790,6 +6963,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "成績や、課題の難しさ・努力感の評価は座位と立位で差がなかった。一方、立位では関心・熱意・覚醒度が高く、快適さはやや低かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "毎日使ったらどうなる？",
+        "body": "参加したのは主に体をよく動かす若い大学生で、立ち机を使ったことのない人がほとんど。1回約30分の作業だけなので、毎日長く使ったときの成績や集中はわからない。"
       }
     ],
     "quiz": {
@@ -6895,7 +7073,7 @@
     "category": "呼吸とストレス",
     "themeColor": "#38BDF8",
     "sourceLabel": "Chaitanya, Datta, Bhandari & Sharma, \"Effect of Resonance Breathing on Heart Rate Variability and Cognitive Functions in Young Adults: A Randomised Controlled Study\" (Cureus, 2022)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35308668/",
+    "sourceUrl": "https://doi.org/10.7759/cureus.22187",
     "cards": [
       {
         "stage": "結論",
@@ -6911,6 +7089,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "対照群は心拍変動に変化がなかったが、呼吸群は副交感神経の働きが高まった。トレイルメイキング課題の成績とストレス度も改善した。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "女性や他の年代でも同じ？",
+        "body": "調べたのはインドの18〜30歳の健康な男性50人（25人ずつ）だけ。著者も女性や他の年代に当てはまるかはわからないとしている。対照群は何もしない群で、4週間より後に続くかも不明。"
       }
     ],
     "quiz": {
@@ -9110,6 +9293,11 @@
         "id": "breathing-breathwork-meta",
         "type": "あわせて読む",
         "why": "呼吸法のランダム化比較試験を12本まとめたメタ分析"
+      },
+      {
+        "id": "breathing-sigh-happiness-escape",
+        "type": "あわせて読む",
+        "why": "わざとではなく自然に出るため息が、どんな場面で増えるかをまとめたレビュー"
       }
     ]
   },
