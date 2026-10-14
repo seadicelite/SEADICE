@@ -1,0 +1,62 @@
+{
+ "evidence": {
+  "hook": [
+   "「21日で習慣になる」",
+   "って本当？"
+  ],
+  "screens": [
+   {
+    "img": "evidence/screenshots/raw/home.png",
+    "caption": [
+     [
+      "研究では",
+      false
+     ],
+     [
+      "中央値66日",
+      true
+     ],
+     [
+      "人によって大きく違う",
+      false
+     ]
+    ]
+   },
+   {
+    "img": "evidence/screenshots/raw/source.png",
+    "caption": [
+     [
+      "元の論文まで",
+      false
+     ],
+     [
+      "確かめられる",
+      true
+     ],
+     [
+      "わからないことも書く",
+      false
+     ]
+    ]
+   },
+   {
+    "img": "evidence/screenshots/raw/explore.png",
+    "caption": [
+     [
+      "よくある説の「本当？」を",
+      false
+     ],
+     [
+      "まとめて探せる",
+      true
+     ]
+    ]
+   }
+  ],
+  "icon": "p/icons/apps/evidence.webp",
+  "name": "EVIDENCE",
+  "lead": "研究にもとづくアプリ",
+  "promise": "無料・広告なし・登録不要",
+  "store": "App Storeで「EVIDENCE」"
+ }
+}
