@@ -2141,6 +2141,21 @@
     ],
     "redirects": [
       {
+        "source": "/tools/qr-guard/test{,/**}",
+        "destination": "/tools/bohan-filter/test/",
+        "type": 301
+      },
+      {
+        "source": "/tools/qr-guard{,/**}",
+        "destination": "/tools/bohan-filter/",
+        "type": 301
+      },
+      {
+        "source": "/privacy/qr-guard{,/**}",
+        "destination": "/privacy/bohan-filter/",
+        "type": 301
+      },
+      {
         "source": "/reviews/denki-moufu-hikaku",
         "destination": "/tools/denki-moufu-denkidai/",
         "type": 301
