@@ -1,4 +1,4 @@
-"""ブランドの1秒動画（縦・サイトと同じ黒地＋方眼＋アクセント色）。使い方: python3 make_brand_sting.py <出力mp4> <最後のコマpng>"""
+"""ブランドの1秒動画（縦・サイトと同じ黒地＋方眼＋アクセント色）。使い方: python3 make_brand_sting.py <出力mp4> <最後のコマpng> [キャラの元画像]"""
 import subprocess, tempfile, sys
 from PIL import Image, ImageDraw, ImageFont
 W,H,FPS,T=1080,1920,30,1.0
@@ -9,6 +9,10 @@ base=Image.new("RGB",(W,H),BG);d=ImageDraw.Draw(base)
 for x in range(0,W,72): d.line((x,0,x,H),fill=GRID)
 for y in range(0,H,72): d.line((0,y,W,y),fill=GRID)
 d.rectangle((60,560,W-60,1420),outline=FRAME,width=2)
+CH=None
+if len(sys.argv)>3:
+    c=Image.open(sys.argv[3]).convert("RGBA"); c=c.crop(c.getbbox()); r=330/max(c.size)
+    CH=c.resize((round(c.width*r),round(c.height*r)),Image.LANCZOS)
 def ease(x): x=max(0,min(1,x)); return 1-(1-x)**3
 def frame(t):
     im=base.copy(); L=Image.new("RGBA",(W,H)); dd=ImageDraw.Draw(L)
@@ -21,6 +25,9 @@ def frame(t):
     txt((120,1050),"信頼に応える。",FH,ACC,k2,0)
     txt((120,1230),"研究ベースで、AI時代の問題を",FS,MUT,k2,0)
     txt((120,1290),"解決するサービスを提供中。",FS,MUT,k2,0)
+    if CH is not None:
+        k=ease(t/0.3); c=CH.copy(); c.putalpha(c.split()[3].point(lambda v: round(v*k)))
+        L.alpha_composite(c,((W-c.width)//2,round(520-c.height+(1-k)*30)))
     im.paste(L,(0,0),L); return im
 with tempfile.TemporaryDirectory() as tmp:
     for i in range(round(T*FPS)): frame(i/FPS).save(f"{tmp}/{i:03d}.png")
