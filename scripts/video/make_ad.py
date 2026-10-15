@@ -1,6 +1,6 @@
 """SEADICEの広告動画（縦 1080x1920・15秒）を作る。
-使い方: python3 make_ad.py <キャラの元画像> <BGMのmp3> <出力mp4>
-台本は CARDS を直す。Shorts の右側（ボタン）と下（題名）に隠れないよう、文字は中央の上寄りに置く。"""
+使い方: python3 make_ad.py <キャラの元画像> <BGMのmp3> <出力mp4> [brand]
+台本は CARDS を直す。brand を付けると、スローガンだけの約5秒版（BRAND_CARDS）になる。Shorts の右側（ボタン）と下（題名）に隠れないよう、文字は中央の上寄りに置く。"""
 import math
 import subprocess
 import sys
@@ -27,6 +27,13 @@ CARDS = [
     (2.8, "promise", [("無料", False), ("広告なし", False), ("登録なし", False)]),
     (3.3, "end", []),
 ]
+# ブランド動画（約5秒）。end に行を渡すと、ロゴの下に小さく出す
+BRAND_CARDS = [
+    (2.3, "lines", [("誠実なサービスで、", False), ("信頼に応える。", True)]),
+    (2.9, "end", [("研究ベースで、AI時代の問題を", False), ("解決するサービスを提供中。", False)]),
+]
+if len(sys.argv) > 4 and sys.argv[4] == "brand":
+    CARDS = BRAND_CARDS
 
 ch = Image.open(SRC).convert("RGBA")
 ch = ch.crop(ch.getbbox())
@@ -39,11 +46,13 @@ def fit(im, w, h):
 
 SMALL = fit(ch, 230, 230)
 BIG = fit(ch, 620, 620)
+MIDC = fit(ch, 460, 460)
 F_H = ImageFont.truetype(BOLD, 92)
 F_TOOL = ImageFont.truetype(BOLD, 54)
 F_PROM = ImageFont.truetype(BOLD, 110)
 F_LOGO = ImageFont.truetype(BOLD, 150)
 F_URL = ImageFont.truetype(MID, 58)
+F_SUB = ImageFont.truetype(MID, 50)
 
 
 def ease(x):
@@ -120,15 +129,18 @@ def frame(t):
                 im.alpha_composite(text_layer(prom, a, dy))
             elif kind == "end":
                 k = ease(lt / 0.6)
-                c = BIG
+                base, cy, ly = (MIDC, 640, 1010) if lines else (BIG, 700, 1150)
+                c = base
                 if k < 1:
                     s = 0.85 + 0.15 * k
-                    c = BIG.resize((round(BIG.width * s), round(BIG.height * s)), Image.LANCZOS)
+                    c = base.resize((round(base.width * s), round(base.height * s)), Image.LANCZOS)
                     c.putalpha(c.split()[3].point(lambda v: round(v * k)))
-                im.alpha_composite(c, ((W - c.width) // 2, round(700 - c.height / 2 + bob)))
+                im.alpha_composite(c, ((W - c.width) // 2, round(cy - c.height / 2 + bob)))
                 def logo(dd):
-                    dd.text((W / 2, 1150), "SEADICE", font=F_LOGO, fill=NAVY, anchor="mm")
-                    dd.text((W / 2, 1270), "seadice.win", font=F_URL, fill=NAVY, anchor="mm")
+                    dd.text((W / 2, ly), "SEADICE", font=F_LOGO, fill=NAVY, anchor="mm")
+                    for i, (s, _) in enumerate(lines):
+                        dd.text((W / 2, ly + 125 + i * 66), s, font=F_SUB, fill=INK, anchor="mm")
+                    dd.text((W / 2, ly + 120 + len(lines) * 66 + (40 if lines else 0)), "seadice.win", font=F_URL, fill=NAVY, anchor="mm")
                 im.alpha_composite(text_layer(logo, ease((lt - 0.4) / 0.5), (1 - ease((lt - 0.4) / 0.5)) * 30))
             break
         start += dur
