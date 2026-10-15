@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-write-why-study-matters-motivation-teach-dont-preach",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Canning & Harackiewicz, \"Teach it, don't preach it: The differential effects of directly-communicated and self-generated utility value information\" (Motivation Science, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/mot0000015",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/write-why-study-matters-motivation/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「役に立つよ」と言われたら頑張れる？",
+        "body": "この勉強は将来きっと役に立つ。そう教えてもらえば、やる気が出そうな気がするよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "言われる人と自分で書く人",
+        "body": "大学生88人が暗算のコツを学んだ実験。役立ち方の説明を読む人と、8分で自分の生活にどう役立つかを書く人を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自分で書いた方が解けた",
+        "body": "自分で書いた人は平均30.36問、説明を読んだ人は26.48問を解いた。自信のない人では、一方的に説明されると、自分で書いた場合より成績も興味も低くなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1時間の実験室の話",
+        "body": "アメリカの1つの大学の学生が、1時間ほどの実験室で暗算のコツを学んだだけの結果だよ。学期を通した授業や長い独学でも同じことが起きるかは、論文自身もわからないと書いている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-write-why-study-matters-motivation-teach-dont-preach"
+  },
+  {
+    "id": "kokoro-stress-focus-recover-exam-stress",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Liston C, McEwen BS, Casey BJ, \"Psychosocial stress reversibly disrupts prefrontal processing and attentional control\" (Proceedings of the National Academy of Sciences, 2009)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.0807041106",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/stress-focus-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ストレスで頭が回らないのは戻る？",
+        "body": "忙しい時期が続くと、前より頭が回らなくなった気がするよね。これって能力が落ちたのか、一時的なものなのか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "試験前の医学生を比べた",
+        "body": "大事な試験の準備で約1か月ストレスが続いた医学生20人と、年齢・性別・職業をそろえたストレスの少ない20人を比べた。色と動きのどちらに注目するかを切り替える課題をしてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1か月後には差がなくなった",
+        "body": "ストレスの続いた学生は切り替えに手間取っていた。でもストレスが減って1か月後に15人を調べ直すと、ストレスの少ない学生と差がなくなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "終わりのあるストレスの話",
+        "body": "対象は若い医学生で、人数も少ない。試験という終わりの決まったストレスだったから、何か月も続く仕事のストレスでも同じように戻るかはわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-stress-focus-recover-exam-stress"
+  },
+  {
+    "id": "kokoro-perfectionism-ai-standards-online-cbt",
+    "category": "こころの不調",
+    "kind": "研究紹介",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Oh S, Cha JH, Joo J, Lee JH, Lee Y, Lee HJ, Yoon DU, Lee J, \"Efficacy of Internet-based cognitive behavioral therapy for reducing perfectionistic strivings in the Republic of Korea: A randomized controlled trial\" (Internet Interventions, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.invent.2025.100851",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/perfectionism-ai-standards/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "完璧主義はゆるめられる？",
+        "body": "自分の仕事にずっとOKが出せない。そういう性格だから仕方ない、と思いがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "韓国の101人の実験",
+        "body": "完璧主義の傾向が強い19〜65歳を2つに分けた。片方は1回約30分の単元を5つ、基準の見直しやミスの捉え直しを学ぶネットの練習。もう片方は5週間待ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ミスへのとらわれが減った",
+        "body": "練習したグループでは、ミスを気にしすぎる傾向の得点が平均32.6点から28.3点に下がった。待っていたグループは33.4点から32.9点で、ほとんど変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "終わった直後までの話",
+        "body": "練習したグループの41%は最後の調査に答えていない。測ったのは終了直後までで、比べたのは待っていたグループだけ。参加者の多くは精神科の外来からの紹介だったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-perfectionism-ai-standards-online-cbt"
+  },
+  {
+    "id": "digital-grayscale-screen-time",
+    "category": "デジタルデトックス",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Hagerty et al., \"A cross-over feasibility trial of smartphone grayscale mode in medical students\" (Frontiers in Digital Health, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fdgth.2026.1816095",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スマホを白黒にすると、使いすぎが減る？",
+        "body": "画面を白黒（グレースケール）にすると、スマホをだらだら見なくなるってよく聞くよね。色がなくなると、つい開きたくなる気持ちが弱まるらしい。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "医学生51人が1週間ずつ試した",
+        "body": "アメリカの医学部1年生が、1週間は白黒、もう1週間はいつものカラーで過ごした（順番は人によって逆）。スマホの「スクリーンタイム」で毎日の使用時間を記録したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1日あたり約28分減った",
+        "body": "白黒の週は、カラーの週より1日の使用時間が平均で約28分短かった（約347分と約319分）。どちらの順番でも減っていたよ。ただ、眠りの質や勉強のはかどり具合の自己評価には、はっきりした差は出なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "2週間・51人だけの試し",
+        "body": "1つの医学部の51人を1週間ずつ調べた小さな試験で、くじ引きで分けたわけでもない。使用時間は本人が書き写した数字で、白黒を長く続けても減ったままかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-grayscale-screen-time"
+  },
+  {
+    "id": "exercise-school-activity-grades-meta",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "He et al., \"Effects of school-based physical activity on academic achievement in children and adolescents: a systematic review and meta-analysis\" (Frontiers in Public Health, 2025)",
+    "sourceUrl": "https://doi.org/10.3389/fpubh.2025.1651883",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "学校で体を動かすと、成績も上がる？",
+        "body": "運動の時間を増やすと勉強の時間が減りそう。でも体を動かすと頭が冴えるとも聞くよね。子どもの成績にはどっちに働くんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "17の研究をまとめた",
+        "body": "6〜18歳を対象に、体育や休み時間の運動、体を動かしながらの授業などを学校で増やした17の研究（ランダム化比較試験など）を、2025年にまとめて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "算数には小さく効き、国語は差なし",
+        "body": "算数・数学の成績は少し上がり（効果の大きさ0.11）、総合的な成績も上がった（0.22）。でも読解（0.07）や作文・つづり（-0.06）には、はっきりした差は出なかったんだ。結果は混ざっている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究ごとのばらつきが大きい",
+        "body": "研究の数が少なく、結果のばらつきも大きい。総合的な成績を調べたのは6研究だけで、テストの種類も研究ごとに違う。どんな運動をどれくらいやれば効くのかは、まだはっきり言えないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-cognition-moderators-meta",
+        "type": "あわせて読む",
+        "why": "成績ではなく、運動の種類と頭の働きの関係を別のメタ分析で調べたもの"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-school-activity-grades-meta"
+  },
+  {
     "id": "research-exercise-before-study-focus-research-duration",
     "category": "集中力",
     "kind": "素朴な疑問",
@@ -9249,6 +9422,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "ランナーのテロメアは対照群より約11%長く、生物学的年齢に換算すると約16年の差だった。これは推定上の換算値で、もともとテロメアが長い人が走り続けている可能性も残る。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "走ったから長いのかは不明",
+        "body": "ポーランドの白人男性だけを、一時点で比べた研究だよ。食事や心のストレスは記録しておらず、走ったからテロメアが長くなったのか、もともと長い人が走り続けているのかは、論文自身も区別できないと書いている。"
       }
     ],
     "quiz": {
@@ -9330,6 +9508,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "筋トレをした脚は、していない脚より1日あたりの筋原線維タンパク質の合成速度が有意に高かった。この差は食事のタンパク源によって変わらなかった。参加者は27人と少人数。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "10日間だけの短い実験",
+        "body": "イギリスの研究チームが、50〜70歳の27人を10日間だけ調べた実験だよ。測ったのは筋肉をつくる速さで、筋力や筋肉の形には10日では変化が見られなかった。何か月も続けたときに筋肉の量や力の差になるかは、この研究ではわからない。"
       }
     ],
     "quiz": {
@@ -19041,6 +19224,11 @@
         "id": "research-exercise-before-study-focus-research-duration",
         "type": "あわせて読む",
         "why": "運動の直後の集中について、運動の長さごとに比べたまとめ"
+      },
+      {
+        "id": "exercise-school-activity-grades-meta",
+        "type": "あわせて読む",
+        "why": "学校で体を動かす時間を増やすと、成績がどう変わるかを調べたメタ分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-cognition-moderators-meta"
