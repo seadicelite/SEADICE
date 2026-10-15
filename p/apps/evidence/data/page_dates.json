@@ -1,23 +1,23 @@
 {
  "evidence/": {
   "date": "2026-10-15",
-  "hash": "e1d0f27a26457ce2"
+  "hash": "a01b52f5bddbea1b"
  },
  "evidence/aging-parents/": {
   "date": "2026-10-15",
-  "hash": "7eb5fd46254a5b6e"
+  "hash": "66c598966a8c618e"
  },
  "evidence/aging-parents/oya-brain-training-active-10y/": {
-  "date": "2026-10-13",
-  "hash": "8db727a45024af49"
+  "date": "2026-10-15",
+  "hash": "b1ca7079a5443326"
  },
  "evidence/ai/": {
   "date": "2026-10-15",
-  "hash": "ee1c53a47343b992"
+  "hash": "ea1d817a3b063f63"
  },
  "evidence/alcohol/": {
   "date": "2026-10-15",
-  "hash": "888a8c6887f5b76d"
+  "hash": "1b77e57450bb684e"
  },
  "evidence/alcohol/alcohol-beer-belly/": {
   "date": "2026-10-14",
@@ -45,7 +45,7 @@
  },
  "evidence/body-myths/": {
   "date": "2026-10-15",
-  "hash": "050c63e6c64fd995"
+  "hash": "a61362675f9633b1"
  },
  "evidence/body-myths/myth-10000-steps/": {
   "date": "2026-10-13",
@@ -81,7 +81,7 @@
  },
  "evidence/brain-myths/": {
   "date": "2026-10-15",
-  "hash": "389a0f89af8eaf8f"
+  "hash": "ab67a2f876865fe5"
  },
  "evidence/brain-myths/brain-bilingual-advantage/": {
   "date": "2026-10-15",
@@ -105,11 +105,11 @@
  },
  "evidence/breakups/": {
   "date": "2026-10-15",
-  "hash": "5e859e62690934ff"
+  "hash": "27eeaee193df40c9"
  },
  "evidence/breathing-stress/": {
   "date": "2026-10-15",
-  "hash": "5358711df079cb8c"
+  "hash": "d8abbbaad4c3343d"
  },
  "evidence/breathing-stress/breathing-breathwork-meta/": {
   "date": "2026-10-14",
@@ -117,7 +117,7 @@
  },
  "evidence/caffeine/": {
   "date": "2026-10-15",
-  "hash": "57e41c4c0145eefe"
+  "hash": "fdea80f92da8a8cc"
  },
  "evidence/caffeine/caffeine-exercise-umbrella/": {
   "date": "2026-10-14",
@@ -129,7 +129,7 @@
  },
  "evidence/color-psychology/": {
   "date": "2026-10-15",
-  "hash": "139430b331a663a2"
+  "hash": "86d032021d9102a8"
  },
  "evidence/color-psychology/color-baker-miller-pink/": {
   "date": "2026-10-13",
@@ -145,15 +145,15 @@
  },
  "evidence/compatibility/": {
   "date": "2026-10-15",
-  "hash": "cac897a52960d010"
+  "hash": "4af483e2bcb95b39"
  },
  "evidence/corrections/": {
   "date": "2026-10-15",
-  "hash": "d1aa7f8230f1cb54"
+  "hash": "0dae1eb6ce0aed61"
  },
  "evidence/crime-prevention/": {
   "date": "2026-10-15",
-  "hash": "efd935a7a738891a"
+  "hash": "9d84e0b1d8d17574"
  },
  "evidence/crime-prevention/bohan-broken-windows/": {
   "date": "2026-10-13",
@@ -173,7 +173,7 @@
  },
  "evidence/criminal-psychology/": {
   "date": "2026-10-15",
-  "hash": "989f799f189a0d38"
+  "hash": "c5e07a9fa70f97d9"
  },
  "evidence/criminal-psychology/hanzai-bystander-effect-meta/": {
   "date": "2026-10-13",
@@ -189,11 +189,11 @@
  },
  "evidence/dangerous-partners/": {
   "date": "2026-10-15",
-  "hash": "ffb586a32cc3eca5"
+  "hash": "90911fdd6b4c5985"
  },
  "evidence/decision-bias/": {
   "date": "2026-10-15",
-  "hash": "817245d28fd0783e"
+  "hash": "751539d86b597556"
  },
  "evidence/decision-bias/bias-mere-exposure/": {
   "date": "2026-10-13",
@@ -201,7 +201,7 @@
  },
  "evidence/digital-detox/": {
   "date": "2026-10-15",
-  "hash": "befd384ea97b1077"
+  "hash": "949c6e48b5fe1bdc"
  },
  "evidence/digital-detox/digital-school-phone-ban/": {
   "date": "2026-10-15",
@@ -217,7 +217,7 @@
  },
  "evidence/exercise-aging/": {
   "date": "2026-10-15",
-  "hash": "3722bc803574d4d1"
+  "hash": "920703a63ee25763"
  },
  "evidence/exercise-aging/aging-fitness-no-upper-limit/": {
   "date": "2026-10-14",
@@ -237,7 +237,7 @@
  },
  "evidence/exercise-memory/": {
   "date": "2026-10-15",
-  "hash": "96e73f3eb966daf4"
+  "hash": "4db0c80e7bfff86b"
  },
  "evidence/exercise-memory/exercise-over50-cognition-meta/": {
   "date": "2026-10-15",
@@ -245,11 +245,11 @@
  },
  "evidence/exercise-mood/": {
   "date": "2026-10-15",
-  "hash": "ccd4ce89616f7493"
+  "hash": "007cbf6f2ce9da9e"
  },
  "evidence/face-impression/": {
   "date": "2026-10-15",
-  "hash": "6786bcfbef848c19"
+  "hash": "fbfbe0db4679b073"
  },
  "evidence/face-impression/face-ai-personality/": {
   "date": "2026-10-13",
@@ -269,7 +269,7 @@
  },
  "evidence/focus/": {
   "date": "2026-10-15",
-  "hash": "faf1e2de1a657bdb"
+  "hash": "4036e25413f282d1"
  },
  "evidence/focus/focus-multitask-gender/": {
   "date": "2026-10-15",
@@ -277,7 +277,7 @@
  },
  "evidence/food-brain/": {
   "date": "2026-10-15",
-  "hash": "8f86694de07e5b08"
+  "hash": "bdf19476489010ba"
  },
  "evidence/food-brain/food-breakfast-weight/": {
   "date": "2026-10-14",
@@ -285,7 +285,7 @@
  },
  "evidence/food-myths/": {
   "date": "2026-10-15",
-  "hash": "a5a7f3732b6e5053"
+  "hash": "f2126433721abb7b"
  },
  "evidence/food-myths/foodmyth-detox-diet-review/": {
   "date": "2026-10-14",
@@ -317,7 +317,7 @@
  },
  "evidence/games/": {
   "date": "2026-10-15",
-  "hash": "dbdb253d7b23eeba"
+  "hash": "03ae0e20b1997105"
  },
  "evidence/games/game-children-intelligence/": {
   "date": "2026-10-14",
@@ -333,7 +333,7 @@
  },
  "evidence/habits/": {
   "date": "2026-10-15",
-  "hash": "24f9d49d278a1d57"
+  "hash": "38c1b1422329aa0c"
  },
  "evidence/habits/habit-66days/": {
   "date": "2026-10-14",
@@ -341,7 +341,7 @@
  },
  "evidence/happiness/": {
   "date": "2026-10-15",
-  "hash": "31b9d70c7623af92"
+  "hash": "12250866f77e99ce"
  },
  "evidence/happiness/happy-age-u-curve/": {
   "date": "2026-10-14",
@@ -357,7 +357,7 @@
  },
  "evidence/insight/": {
   "date": "2026-10-15",
-  "hash": "acc225a6c77a4904"
+  "hash": "bb51a0ff59e2932a"
  },
  "evidence/insight/insight-background-music/": {
   "date": "2026-10-14",
@@ -365,7 +365,7 @@
  },
  "evidence/japan/": {
   "date": "2026-10-15",
-  "hash": "4d3a97c592fb3eaa"
+  "hash": "a29a953e4f02ac6b"
  },
  "evidence/japan/japan-blood-type/": {
   "date": "2026-10-13",
@@ -405,31 +405,31 @@
  },
  "evidence/language-learning/": {
   "date": "2026-10-15",
-  "hash": "641e14a1d444f4cd"
+  "hash": "25e65c901419ab43"
  },
  "evidence/language-learning/lang-captioned-video/": {
-  "date": "2026-10-14",
-  "hash": "bf69d60328da7573"
+  "date": "2026-10-15",
+  "hash": "b2337f6cf59aacd2"
  },
  "evidence/language-learning/lang-critical-period-age/": {
-  "date": "2026-10-14",
-  "hash": "50044a63987f7db8"
+  "date": "2026-10-15",
+  "hash": "9a7f4e7c23264caa"
  },
  "evidence/language-learning/lang-extensive-reading/": {
-  "date": "2026-10-14",
-  "hash": "b7dcabdc5e7e3be3"
+  "date": "2026-10-15",
+  "hash": "dbbbe4e7fbb8f2c2"
  },
  "evidence/language-learning/lang-language-apps/": {
-  "date": "2026-10-14",
-  "hash": "07fcf33172e98f17"
+  "date": "2026-10-15",
+  "hash": "a5c717c660224b39"
  },
  "evidence/language-learning/lang-listening-incidental-vocab/": {
-  "date": "2026-10-14",
-  "hash": "35a8646f7c92683f"
+  "date": "2026-10-15",
+  "hash": "357a851b09dfe676"
  },
  "evidence/laughter/": {
   "date": "2026-10-15",
-  "hash": "4edf1e02e41d0842"
+  "hash": "b9a4a4f9bddbed37"
  },
  "evidence/laughter/laughter-cortisol-meta/": {
   "date": "2026-10-14",
@@ -437,7 +437,7 @@
  },
  "evidence/learning/": {
   "date": "2026-10-15",
-  "hash": "881a93a3e3089ace"
+  "hash": "c6e915ef0d1e34e4"
  },
  "evidence/learning/learning-10000-hours/": {
   "date": "2026-10-15",
@@ -449,7 +449,7 @@
  },
  "evidence/light-circadian/": {
   "date": "2026-10-15",
-  "hash": "98c7982edeabc248"
+  "hash": "ba9f52d6f0fa5069"
  },
  "evidence/light-circadian/circadian-social-jetlag-obesity/": {
   "date": "2026-10-15",
@@ -457,7 +457,7 @@
  },
  "evidence/loneliness/": {
   "date": "2026-10-15",
-  "hash": "3e0176926afd9be3"
+  "hash": "15c34a3425b72b13"
  },
  "evidence/loneliness/social-loneliness-interventions-meta/": {
   "date": "2026-10-14",
@@ -465,7 +465,7 @@
  },
  "evidence/love/": {
   "date": "2026-10-15",
-  "hash": "33f3586759338321"
+  "hash": "a34078a5e6011561"
  },
  "evidence/love/love-first-impression-100ms/": {
   "date": "2026-10-13",
@@ -481,27 +481,27 @@
  },
  "evidence/memory/": {
   "date": "2026-10-15",
-  "hash": "94118e8ba59abb5e"
+  "hash": "52af7f3fc4a48b55"
  },
  "evidence/memory/memory-ebbinghaus-replication/": {
-  "date": "2026-10-14",
-  "hash": "62c4c509fd0ddd78"
+  "date": "2026-10-15",
+  "hash": "93fa3bb5cb7b7b3b"
  },
  "evidence/mental-health/": {
   "date": "2026-10-15",
-  "hash": "069b0b6edd56daeb"
+  "hash": "04ba8bb5ddf9a8f9"
  },
  "evidence/mental-health/kokoro-sleep-improve-mental/": {
   "date": "2026-10-15",
-  "hash": "adfcbb6bb41a9e79"
+  "hash": "e4faaffdfd905823"
  },
  "evidence/messaging/": {
   "date": "2026-10-15",
-  "hash": "19c016d050ba3cce"
+  "hash": "b3f88081d20b6f87"
  },
  "evidence/mindfulness/": {
   "date": "2026-10-15",
-  "hash": "ba0a538319b9eea8"
+  "hash": "ecde94f63758a382"
  },
  "evidence/mindfulness/mindfulness-adverse-events/": {
   "date": "2026-10-13",
@@ -521,7 +521,7 @@
  },
  "evidence/money/": {
   "date": "2026-10-15",
-  "hash": "8a887517f287603a"
+  "hash": "6183a5651f4c4d92"
  },
  "evidence/money/moneylife-cash-transfer-work/": {
   "date": "2026-10-13",
@@ -533,7 +533,7 @@
  },
  "evidence/music-focus/": {
   "date": "2026-10-15",
-  "hash": "0329a5648e71eff8"
+  "hash": "74b1d156e144d2fe"
  },
  "evidence/music-focus/music-bgm-difficult-tasks-review/": {
   "date": "2026-10-13",
@@ -553,7 +553,7 @@
  },
  "evidence/nature/": {
   "date": "2026-10-15",
-  "hash": "9bd58c1ef5fdc676"
+  "hash": "5135c4cd6aba06a9"
  },
  "evidence/nature/nature-forest-bathing-cortisol/": {
   "date": "2026-10-13",
@@ -569,7 +569,7 @@
  },
  "evidence/parenting/": {
   "date": "2026-10-15",
-  "hash": "c3e81a90ebd0b93c"
+  "hash": "f011e8a1fdaa5145"
  },
  "evidence/parenting/kids-english-early-start/": {
   "date": "2026-10-13",
@@ -597,7 +597,7 @@
  },
  "evidence/personality/": {
   "date": "2026-10-15",
-  "hash": "8f7c6ef4cf1c30ad"
+  "hash": "885cdb47c7a3d32f"
  },
  "evidence/personality/personality-barnum-effect/": {
   "date": "2026-10-13",
@@ -633,7 +633,7 @@
  },
  "evidence/pets/": {
   "date": "2026-10-15",
-  "hash": "b9448747f0f2ee64"
+  "hash": "5c1be5d8b7b92bc6"
  },
  "evidence/pets/pet-fish-memory-three-seconds/": {
   "date": "2026-10-13",
@@ -645,7 +645,7 @@
  },
  "evidence/posture-confidence/": {
   "date": "2026-10-15",
-  "hash": "6f7fd70582ba94c7"
+  "hash": "9e58a99b46002880"
  },
  "evidence/posture-confidence/posture-power-pose-hormones-debunk/": {
   "date": "2026-10-14",
@@ -653,11 +653,11 @@
  },
  "evidence/posture-pain/": {
   "date": "2026-10-15",
-  "hash": "ba190ed48075816b"
+  "hash": "89722f617f53de89"
  },
  "evidence/procrastination/": {
   "date": "2026-10-15",
-  "hash": "5948b2b60e4eca28"
+  "hash": "08e9869d61c441d2"
  },
  "evidence/procrastination/procrastination-pomodoro-breaks/": {
   "date": "2026-10-14",
@@ -665,7 +665,7 @@
  },
  "evidence/relationships/": {
   "date": "2026-10-15",
-  "hash": "f55bab2960f8ebdd"
+  "hash": "f1a04a0ac8cec231"
  },
  "evidence/relationships/hanzai-milgram-replication/": {
   "date": "2026-10-13",
@@ -673,7 +673,7 @@
  },
  "evidence/replication/": {
   "date": "2026-10-15",
-  "hash": "3dbe68a127f05819"
+  "hash": "5256cb626872173c"
  },
  "evidence/replication/replication-dunning-kruger-artifact/": {
   "date": "2026-10-13",
@@ -705,15 +705,15 @@
  },
  "evidence/romance/": {
   "date": "2026-10-15",
-  "hash": "aa4b80507039f373"
+  "hash": "9d894aa1464a6875"
  },
  "evidence/romantic-interest/": {
   "date": "2026-10-15",
-  "hash": "f54bcd8e4b12872d"
+  "hash": "177ed52b0f82b907"
  },
  "evidence/scent-memory/": {
   "date": "2026-10-15",
-  "hash": "9f134ec2fc4a7418"
+  "hash": "21ae6f66bfec7dc2"
  },
  "evidence/scent-memory/scent-aromatherapy-sleep/": {
   "date": "2026-10-13",
@@ -733,7 +733,7 @@
  },
  "evidence/sleep-appetite/": {
   "date": "2026-10-15",
-  "hash": "ad54ce85b8dcf907"
+  "hash": "72ac6ce7e5b18261"
  },
  "evidence/sleep-appetite/appetite-sleep-deprivation-meta/": {
   "date": "2026-10-15",
@@ -741,7 +741,7 @@
  },
  "evidence/sleep-environment/": {
   "date": "2026-10-15",
-  "hash": "25bbbb7080d641e8"
+  "hash": "85dbc12f9d5ce711"
  },
  "evidence/sleep-environment/sleep-eye-mask-memory/": {
   "date": "2026-10-14",
@@ -749,7 +749,7 @@
  },
  "evidence/sleep/": {
   "date": "2026-10-15",
-  "hash": "4e1fb8235c65108b"
+  "hash": "d380a20308ed7fff"
  },
  "evidence/sleep/sleep-90-minute-cycle/": {
   "date": "2026-10-14",
@@ -765,23 +765,23 @@
  },
  "evidence/smartphone-sns/": {
   "date": "2026-10-15",
-  "hash": "507a710b5487855e"
+  "hash": "9cb7d0300401697a"
  },
  "evidence/speaking/": {
   "date": "2026-10-15",
-  "hash": "b94703d9aa4e5ddc"
+  "hash": "74f68c716d9f7cd9"
  },
  "evidence/speaking/speech-get-excited-anxiety/": {
   "date": "2026-10-15",
-  "hash": "93ff66cd09c6df01"
+  "hash": "7fa0c98e0d3646d1"
  },
  "evidence/speaking/speech-mehrabian-7-percent/": {
-  "date": "2026-10-13",
-  "hash": "6e1a8d2a66e76caf"
+  "date": "2026-10-15",
+  "hash": "1c5a97b465856a1d"
  },
  "evidence/weather-mood/": {
   "date": "2026-10-15",
-  "hash": "5ce2524d78c95b37"
+  "hash": "6aa29e540a70a3ac"
  },
  "evidence/weather-mood/weather-daily-mood/": {
   "date": "2026-10-14",
@@ -805,7 +805,7 @@
  },
  "evidence/work/": {
   "date": "2026-10-15",
-  "hash": "7c16c9d7cc32fe65"
+  "hash": "e62d1f779ae43a2f"
  },
  "evidence/work/work-camera-fatigue/": {
   "date": "2026-10-15",

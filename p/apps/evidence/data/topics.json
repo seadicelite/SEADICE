@@ -1,5 +1,199 @@
 [
   {
+    "id": "speech-eye-contact-persuasion",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Chen et al., \"In the Eye of the Beholder: Eye Contact Increases Resistance to Persuasion\" (Psychological Science, 2013)",
+    "sourceUrl": "https://doi.org/10.1177/0956797613491968",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "目を見て話すと、説得力が増す？",
+        "body": "「相手の目を見て話せ」ってよく言われるよね。じっと目を見て話すほど、相手は納得してくれるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見る場所と、意見の変わり方をくらべた",
+        "body": "社会問題について意見を語る話し手の動画を見てもらい、どこを見ていたかを測った研究と、話し手の目か口のどちらかを見るよう指示した研究の2つがあるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "目を見るほど、意見は変わりにくかった",
+        "body": "話し手の目をよく見た人ほど、話し手の言う方向に意見が変わりにくかった。自分と反対の意見を聞くとき、目を見続けた人は、口を見た人より説得されにくかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "動画の話で、対面ではわからない",
+        "body": "調べたのは、録画した話し手の動画を見る場面。目か口かを指示した研究は、自分と反対の意見を聞くときだけ。顔を合わせた会話や、もともと賛成の相手でも同じかは、この研究ではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-eye-contact-persuasion"
+  },
+  {
+    "id": "oya-sleep-aging-meta",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Ohayon et al., \"Meta-Analysis of Quantitative Sleep Parameters From Childhood to Old Age in Healthy Individuals: Developing Normative Sleep Values Across the Human Lifespan\" (Sleep, 2004)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/27.7.1255",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとるほど、眠りはずっと浅くなっていく？",
+        "body": "親が「夜中に何度も目が覚める」と言うこと、あるよね。眠りは年とともに、どこまでも悪くなっていくのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5〜102歳、3,577人の眠りをまとめた",
+        "body": "1960〜2003年に発表された65の研究をまとめたメタ分析。ひと晩の眠りを、脳波などを測る検査や腕につける機器で記録した健康な人のデータだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "60歳を過ぎて下がり続けたのは1つだけ",
+        "body": "大人では年とともに、眠る時間・深い眠り・レム睡眠が減り、寝つくまでの時間や夜中に起きている時間が増えた。でも60歳を過ぎても下がり続けたのは、眠りの効率（床にいる時間のうち眠れた割合）だけだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "健康な人の選び方で、差が変わる",
+        "body": "病気・薬・お酒・睡眠時無呼吸などをきちんと除いた研究かどうかで、年齢との関係の大きさが変わり、見えなくなることもあった。人種による違いを調べた研究も、とても少ないそうだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-deep-sleep-aging-gh",
+        "type": "あわせて読む",
+        "why": "深い眠りの減り方を、男性149人のデータで詳しく見た研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-sleep-aging-meta"
+  },
+  {
+    "id": "dokugaku-extensive-reading-graded-readers-hamada-overestimate",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Hamada, \"Using meta-analysis and propensity score methods to assess treatment effects toward evidence-based practice in extensive reading\" (Frontiers in Psychology, 2020)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2020.00617",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/extensive-reading-graded-readers/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "多読の効果、大きく見積もられすぎ？",
+        "body": "やさしい本を辞書なしでどんどん読む「多読」。英語が伸びる方法としてよく勧められるけど、その効果の大きさは正しく測れているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "33件のデータをまとめ直した",
+        "body": "多読をしたグループとしなかったグループをくらべた研究のデータ33件（約6,800人）を、日本の研究者がまとめ直した研究がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効くけど、思ったより小さめ",
+        "body": "全体の効果量は0.55。でも、始める前の英語力がそろっていた研究だけだと0.37に下がった。1学期だと0.25、1年を超えると0.92だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一人で読む社会人にも効く？",
+        "body": "多くは学校の授業での多読。長く続けた研究は人数の多い研究が中心で、期間だけで差が決まったとは言い切れない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "lang-extensive-reading",
+        "type": "あわせて読む",
+        "why": "同じ多読の効果を、まとめ直したメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-extensive-reading-graded-readers-hamada-overestimate"
+  },
+  {
+    "id": "dokugaku-adult-memory-confidence-age-belief-stereotype",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Lamont, Swift & Abrams, \"A review and meta-analysis of age-based stereotype threat: Negative stereotypes, not facts, do the damage\" (Psychology and Aging, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/a0038586",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/adult-memory-confidence-age-belief/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「年だから覚えられない」は本当？",
+        "body": "大人になってから勉強すると、つい言いたくなるよね。でも実は、その「年だから」という思い込み自体が、成績に影響するかもしれないらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "32本の論文をまとめて分析",
+        "body": "平均69.5歳、合わせて3,882人の実験をまとめたメタ分析。年齢の決めつけを意識させたときに、記憶や頭を使う課題の成績がどう変わるかを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "決めつけは効く、事実の説明は効かない",
+        "body": "決めつけを意識させると成績は下がった（d = .52）。一方で「記憶は年齢で落ちる」という事実として伝えたときは、はっきりした差がなかった（d = .09）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当の効果はもっと小さいかも",
+        "body": "公表された研究では効果が大きく（d = .42）、未公表の研究ではほぼゼロ（d = −.03）。結果が出た研究ほど世に出やすい偏りがあるみたい。対象も高齢者の実験室の課題が中心だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-stereotype-threat",
+        "type": "反対の結果",
+        "why": "同じ「決めつけ」の効果を、オランダの中高生で確かめると点は下がらなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-adult-memory-confidence-age-belief-stereotype"
+  },
+  {
+    "id": "kokoro-perfectionism-ai-standards-self-compassion",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Borgdorf KSA, Aguilar-Raab C, Holt DV, \"Effects of a brief online self-compassion training on perfectionism, self-criticism, and social anxiety: A randomized controlled trial\" (Internet Interventions, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.invent.2025.100870",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/perfectionism-ai-standards/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "完璧主義には、自分へのやさしさが特に効く？",
+        "body": "完璧主義でつらいなら、自分にやさしくする練習がいい、ってよく聞くよね。ほかの練習と比べても特別なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2つの練習をくらべた",
+        "body": "ドイツ語が話せる健康な大人を、くじで2つに分けた。自分へのやさしさを育てる練習と、リラックス法などのストレスを減らす練習。どちらも6回のネットの練習なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらでも下がった",
+        "body": "自分へのやさしさの練習で、完璧主義は中くらい下がった（効果の大きさ0.41）。でもストレスを減らす練習とくらべると、練習の直後も4週間後も、差は小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "4週間後までの話",
+        "body": "測ったのは4週間後まで。何もしないグループはないし、分析したのは6回中3回以上取り組んだ200人。参加者の85.5%は女性だったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-perfectionism-ai-standards-online-cbt",
+        "type": "あわせて読む",
+        "why": "完璧主義をゆるめる、別の方法を確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-perfectionism-ai-standards-self-compassion"
+  },
+  {
     "id": "dokugaku-write-why-study-matters-motivation-teach-dont-preach",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -99,7 +293,14 @@
         "body": "練習したグループの41%は最後の調査に答えていない。測ったのは終了直後までで、比べたのは待っていたグループだけ。参加者の多くは精神科の外来からの紹介だったよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-perfectionism-ai-standards-online-cbt"
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-perfectionism-ai-standards-online-cbt",
+    "links": [
+      {
+        "id": "kokoro-perfectionism-ai-standards-self-compassion",
+        "type": "あわせて読む",
+        "why": "自分へのやさしさの練習を、ストレスを減らす練習とくらべた研究"
+      }
+    ]
   },
   {
     "id": "digital-grayscale-screen-time",
@@ -4693,7 +4894,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/#replication-stereotype-threat",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "dokugaku-adult-memory-confidence-age-belief-stereotype",
+        "type": "反対の結果",
+        "why": "高齢者では決めつけで成績が下がったが、公表の偏りもあったメタ分析"
+      }
+    ]
   },
   {
     "id": "japan-blood-type",
@@ -9286,8 +9494,8 @@
     "id": "circadian-morning-light-bmi",
     "category": "光と体内時計",
     "themeColor": "#0891B2",
-    "sourceLabel": "Reid et al., \"Timing and Intensity of Light Correlate with Body Weight in Adults\"",
-    "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0092251",
+    "sourceLabel": "Reid et al., \"Timing and Intensity of Light Correlate with Body Weight in Adults\" (PLOS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0092251",
     "cards": [
       {
         "stage": "結論",
@@ -9302,7 +9510,12 @@
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "500ルクス以上の光を浴びる平均時刻が遅いほどBMIが高く、相関は0.51だった。睡眠のタイミングや食事量を調整しても関連は残り、BMIのばらつきの約20%を追加で説明した。"
+        "body": "500ルクス以上の光を浴びる平均時刻が遅いほどBMIが高く、相関は0.51だった。年齢・性別・季節・活動量・睡眠の長さとタイミングを調整しても関連は残り、BMIのばらつきの約20%を追加で説明した。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "光が体重を変えたのかは、まだわからない",
+        "body": "ある時点だけを調べた研究で、光が体重を左右したのか、その逆かは決められない。対象は無作為に選んでいない54人（平均約31歳）で、身長・体重と食事は自己申告。著者たちも、因果関係を確かめる研究が必要としている。"
       }
     ],
     "quiz": {
@@ -9659,7 +9872,7 @@
     "category": "睡眠と食欲",
     "themeColor": "#9333EA",
     "sourceLabel": "Tajiri et al., \"Acute Sleep Curtailment Increases Sweet Taste Preference, Appetite and Food Intake in Healthy Young Adults: A Randomized Crossover Trial\" (Behavioral Sciences, 2020)",
-    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7071396/",
+    "sourceUrl": "https://doi.org/10.3390/bs10020047",
     "cards": [
       {
         "stage": "結論",
@@ -9675,6 +9888,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "5時間睡眠の後は、8時間睡眠の後より甘味の好みが高く、空腹時の活性型グレリンも高く、朝食の摂取エネルギーが多かった。レプチンには差がなく、甘味の好みと摂取量に相関は見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "3晩の夜ふかしだけの話",
+        "body": "調べたのは、寝る時間を遅らせて3晩5時間にした場合だけ。長く続く寝不足や、早起きで短くなる場合はわからない。対象は熊本の大学の研究に参加した平均21歳・平均BMI19.8の健康な24人。食べる量の変化には、人によって大きな差があった。"
       }
     ],
     "quiz": {
@@ -16368,6 +16586,11 @@
         "id": "sleep-golden-time-growth-hormone",
         "type": "あわせて読む",
         "why": "成長ホルモンは時刻ではなく深い眠りについてくる、とわかった実験"
+      },
+      {
+        "id": "oya-sleep-aging-meta",
+        "type": "あわせて読む",
+        "why": "子どもから102歳まで、65の研究で眠りの変化をまとめたメタ分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep/#sleep-deep-sleep-aging-gh"
@@ -23656,6 +23879,11 @@
         "id": "lang-listening-incidental-vocab",
         "type": "あわせて読む",
         "why": "読むだけで単語がどれだけ覚えられるかを、聞く・見ると比べた別のメタ分析"
+      },
+      {
+        "id": "dokugaku-extensive-reading-graded-readers-hamada-overestimate",
+        "type": "あわせて読む",
+        "why": "多読の効果を、始める前の英語力をそろえて計算し直すと小さくなった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/language-learning/lang-extensive-reading/"
