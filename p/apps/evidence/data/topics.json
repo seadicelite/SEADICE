@@ -1,5 +1,211 @@
 [
   {
+    "id": "research-exam-mind-blank-test-anxiety-recovery-research-reappraisal",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Thormodsæter et al., \"Can we Mitigate the Impacts of Test Anxiety Through Reappraisal Interventions? A Replication Study in Science Courses Across Multiple Institution Types in the United States\" (CBE—Life Sciences Education, 2026)",
+    "sourceUrl": "https://doi.org/10.1187/cbe.25-04-0055",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/exam-mind-blank-test-anxiety-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "緊張は味方だと思えば強くなる？",
+        "body": "「ドキドキは体が本番に備えているサイン」と考え直すと、テストで実力を出せる。そんな話を聞いたことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7つの大学でやり直した",
+        "body": "アメリカの7つの大学・12の生物と化学の授業で、試験の前に「ストレスは役に立つ」という文章を読むグループと、別の文章を読むグループに分けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不安も点数も変わらなかった",
+        "body": "テスト不安が強い学生ほど成績が低い、という関係は確認できた。でも考え直す文章を読んでも、不安にも試験の点数にも差は出なかったんだ。成績を比べた771人全体でも同じだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんな人なら効くの？",
+        "body": "調査に最後まで答えたのは93人だけで、成績の良い学生が多く参加していた。以前は効いたという研究もあって、どんな条件なら効くのかはまだわかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-exam-mind-blank-test-anxiety-recovery-research-writing",
+        "type": "あわせて読む",
+        "why": "同じ試験不安に、捉え直しと書き出しという別の方法を試した検証"
+      },
+      {
+        "id": "speech-get-excited-anxiety",
+        "type": "反対の結果",
+        "why": "緊張を前向きに捉え直す方法で、大学の試験でのやり直しでは差が出なかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-exam-mind-blank-test-anxiety-recovery-research-reappraisal"
+  },
+  {
+    "id": "research-exam-mind-blank-test-anxiety-recovery-research-writing",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "O'Meara & Lovett, \"Single-session expressive writing interventions for test anxiety: a meta-analysis\" (Anxiety, Stress, & Coping, 2026)",
+    "sourceUrl": "https://doi.org/10.1080/10615806.2025.2552857",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/exam-mind-blank-test-anxiety-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "試験前に不安を書くと点が上がる？",
+        "body": "テストの直前に、心配なことを紙に書き出すと点数が上がる。有名な研究があって、勉強法としてよく紹介されているよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21件の研究をまとめた",
+        "body": "テストの直前に1回だけ不安を書き出す方法を調べた研究を、21件・合計1,457人分まとめて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果ははっきりしなかった",
+        "body": "不安を下げる効果はほぼゼロ（r=-0.05）。点数への効果も最初は小さくあるように見えたけど、極端な1件を除くと意味のある差ではなくなったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効く人もいるの？",
+        "body": "研究ごとの結果のばらつきは大きいのに、どんな条件なら効くのかは見つからなかった。テスト不安には、ほかにもっと根拠のある方法があると著者は書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-exam-mind-blank-test-anxiety-recovery-research-reappraisal",
+        "type": "あわせて読む",
+        "why": "同じ試験不安に、捉え直しと書き出しという別の方法を試した検証"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-exam-mind-blank-test-anxiety-recovery-research-writing"
+  },
+  {
+    "id": "research-exercise-before-study-focus-research-young-adults",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Garrett et al., \"A systematic review and Bayesian meta-analysis provide evidence for an effect of acute physical activity on cognition in young adults\" (Communications Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s44271-024-00124-2",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/exercise-before-study-focus-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "勉強の前に運動すると頭が冴える？",
+        "body": "テスト勉強の前にひと走りすると集中できる、ってよく聞くよね。1回運動するだけで、本当に頭の働きは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "113件の研究をまとめた",
+        "body": "18〜45歳の健康な大人を対象にした113件、合計4,390人分の研究をまとめて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果はあるけど小さい",
+        "body": "1回の運動のあと、頭の働きは小さく上がっていた（効果の大きさ0.13）。反応が速くなって、覚えておく力や余計なものを抑える力も上がっていたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "結果は少し割り引いて",
+        "body": "効果が出た研究ほど論文になりやすい偏りがはっきり見つかって、補正したうえでの数字なんだ。証拠の強さも「中くらい」にとどまっているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-cardio-memory-metaanalysis",
+        "type": "あわせて読む",
+        "why": "1回の運動と頭の働きを、記憶と若い大人全体の2つのまとめで"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-exercise-before-study-focus-research-young-adults"
+  },
+  {
+    "id": "circadian-blue-light-glasses",
+    "category": "光と体内時計",
+    "kind": "よくある説",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Singh et al., \"Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults\" (Cochrane Database of Systematic Reviews, 2023)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD013244.pub2",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ブルーライトカットのメガネは効く？",
+        "body": "パソコンやスマホの青い光をカットするメガネで、目の疲れが減って、よく眠れるようになる。お店でもよく見かけるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "17件のくじ引き試験を整理した",
+        "body": "カットするレンズと、カットしないふつうのレンズをくじで比べた17件の試験を、コクランという国際チームが整理したよ。1件の人数は5〜156人だった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "目の疲れは変わらないかも",
+        "body": "短い期間では、目の疲れはふつうのレンズとほとんど変わらない可能性がある（確かさは低め）。視力もおそらく差なし。睡眠は6件で「良くなった」3件と「差なし」3件に分かれたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く使うとどうなる？",
+        "body": "試験の期間は1日未満〜5週間と短く、どの試験にも何かしら偏りの心配があった。網膜を守るか、眠りのホルモンが変わるかを調べた試験はなく、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-blue-light-melatonin",
+        "type": "あわせて読む",
+        "why": "青い光が体内時計を遅らせる実験と、カットするメガネの試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-blue-light-glasses"
+  },
+  {
+    "id": "exercise-strength-training-depression",
+    "category": "運動と気分",
+    "kind": "よくある説",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Gordon et al., \"Association of Efficacy of Resistance Exercise Training With Depressive Symptoms: Meta-analysis and Meta-regression Analysis of Randomized Clinical Trials\" (JAMA Psychiatry, 2018)",
+    "sourceUrl": "https://doi.org/10.1001/jamapsychiatry.2018.0572",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "筋トレすると気分が晴れる？",
+        "body": "「落ち込んだら筋トレ」ってよく聞くよね。ダンベルやマシンで筋肉を鍛える運動で、本当に気持ちは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "33件のくじ引き試験をまとめた",
+        "body": "筋トレをするグループと、運動しないグループをくじで分けた33件の試験、合計1,877人分をまとめて分析したよ。落ち込みの症状は質問票で測っているんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "落ち込みの症状が中くらい減った",
+        "body": "筋トレをした人は、落ち込みの症状が中くらいの大きさで減っていた（効果の大きさ0.66）。健康な人でも病気のある人でも、筋トレの量や筋力が伸びたかに関係なく見られたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験の質で結果が違う",
+        "body": "研究ごとのばらつきが大きく、誰がどちらのグループかを伏せた試験ほど効果は小さかった。効果が確かめられたほかの治療と比べた試験も足りないと、著者は書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-mental-health-umbrella",
+        "type": "あわせて読む",
+        "why": "運動全体のまとめと、筋トレだけに絞ったまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-strength-training-depression"
+  },
+  {
     "id": "dokugaku-why-study-method-works-differently-extra-text",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -8079,7 +8285,7 @@
     "category": "マインドフルネス",
     "themeColor": "#2DD4BF",
     "sourceLabel": "Zeidan, Emerson, Farris, Ray, Jung, McHaffie & Coghill, \"Mindfulness Meditation-Based Pain Relief Employs Different Neural Mechanisms Than Placebo and Sham Mindfulness Meditation-Induced Analgesia\" (Journal of Neuroscience, 2015)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/26586819/",
+    "sourceUrl": "https://doi.org/10.1523/JNEUROSCI.2542-15.2015",
     "cards": [
       {
         "stage": "結論",
@@ -8095,6 +8301,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "3つの介入はいずれも対照より痛みを減らしたが、瞑想はプラセボや偽の瞑想より痛みの強さと不快感を下げた。関わる脳領域も異なっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだんの痛みでも同じ？",
+        "body": "対象は健康な75人で、4日間の練習のあと、実験で与えた痛みを測った結果。慢性の痛みがある人や、長く続けたときにどうなるかは、この研究からはわからないよ。"
       }
     ],
     "quiz": {
@@ -8110,7 +8321,7 @@
     "category": "マインドフルネス",
     "themeColor": "#2DD4BF",
     "sourceLabel": "Kuyken, Warren, Taylor, Whalley, Crane, Bondolfi et al., \"Efficacy of Mindfulness-Based Cognitive Therapy in Prevention of Depressive Relapse: An Individual Patient Data Meta-analysis From Randomized Trials\" (JAMA Psychiatry, 2016)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/27119968/",
+    "sourceUrl": "https://doi.org/10.1001/jamapsychiatry.2016.0076",
     "cards": [
       {
         "stage": "結論",
@@ -8126,6 +8337,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "MBCTを受けた人は、受けなかった人より60週間以内の再発リスクが低く、ハザード比は0.69だった。再発リスクが約3割低い計算になる。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "誰にでも当てはまる？",
+        "body": "対象は症状がおさまった状態の、うつを繰り返す人。平均47歳で75%が女性、英語の論文だけを集めた。比べた相手は通常のケアや薬などさまざまで、残る疑問は今後の試験の課題と著者も書いているよ。"
       }
     ],
     "quiz": {
@@ -8669,6 +8885,11 @@
         "id": "color-blue-light-melatonin",
         "type": "あわせて読む",
         "why": "青い光がメラトニンを減らし、体内時計も遅らせる"
+      },
+      {
+        "id": "circadian-blue-light-glasses",
+        "type": "あわせて読む",
+        "why": "青い光が体内時計を遅らせる実験と、カットするメガネの試験"
       }
     ]
   },
@@ -9571,6 +9792,11 @@
         "id": "exercise-mood-metaanalysis",
         "type": "あわせて読む",
         "why": "1回の運動の気分効果と、うつや不安への効果のまとめ"
+      },
+      {
+        "id": "exercise-strength-training-depression",
+        "type": "あわせて読む",
+        "why": "運動全体のまとめと、筋トレだけに絞ったまとめ"
       }
     ]
   },
@@ -11397,6 +11623,11 @@
         "id": "exercise-light-10min-hippocampus",
         "type": "あわせて読む",
         "why": "1回の運動で記憶が上がるというまとめと、その脳の中の仕組みを調べた実験"
+      },
+      {
+        "id": "research-exercise-before-study-focus-research-young-adults",
+        "type": "あわせて読む",
+        "why": "1回の運動と頭の働きを、記憶と若い大人全体の2つのまとめで"
       }
     ]
   },
@@ -22582,6 +22813,11 @@
         "id": "posture-power-pose-felt-power",
         "type": "あわせて読む",
         "why": "本番前の気持ちの整え方として、姿勢で自信が変わるかを調べた研究"
+      },
+      {
+        "id": "research-exam-mind-blank-test-anxiety-recovery-research-reappraisal",
+        "type": "反対の結果",
+        "why": "緊張を前向きに捉え直す方法で、大学の試験でのやり直しでは差が出なかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/speaking/speech-get-excited-anxiety/"
