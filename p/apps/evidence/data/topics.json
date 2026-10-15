@@ -1,5 +1,181 @@
 [
   {
+    "id": "kokoro-sns-happy-for-others-social-savoring",
+    "category": "スマホとSNS",
+    "kind": "研究紹介",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Andrade FC et al., \"Intervening on Social Comparisons on Social Media: Electronic Daily Diary Pilot Study\" (JMIR Mental Health, 2023)",
+    "sourceUrl": "https://doi.org/10.2196/42024",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/sns-happy-for-others/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "比べずに一緒に喜べたら？",
+        "body": "SNSで友達の幸せな投稿を見ると、つい自分と比べてしまうよね。「その人のために喜ぶ」見方に切り替えたら、何か変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "比べやすい大学生55人で試した",
+        "body": "米国の大学生55人が2週間、毎日SNSの使い方を記録した。半分は8日目に、相手の喜びを想像して一緒に味わう方法の動画を見て、1日5分ほど練習したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "能力への自信が少し上がった",
+        "body": "練習した人は「うまくやれている」という自信が1〜5点で3.21から3.52に上がり、練習しなかった人は3.32から3.35でほぼ同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "変わらなかったことも多い",
+        "body": "落ち込みの症状や取り残される不安、日々の比べたあとの気分には差が出なかった。人数も少ない試行の研究で、大人や長く続けた場合はまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-happy-for-others-social-savoring"
+  },
+  {
+    "id": "kokoro-nature-sounds-stress-fountain-birds",
+    "category": "自然と健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Alvarsson JJ et al., \"Stress Recovery during Exposure to Nature Sound and Environmental Noise\" (International Journal of Environmental Research and Public Health, 2010)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph7031036",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/nature-sounds-stress/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "鳥の声で、本当に落ち着く？",
+        "body": "疲れたときに川の音や鳥の声を流す人、いるよね。気分の問題だけじゃなく、体の反応も変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "暗算のあとに4種類の音を聞いた",
+        "body": "スウェーデンの大学生40人が、2分間の速さを競う暗算のあと4分休む流れを4回くり返した。休むたびに、噴水と鳥の声、大きな交通騒音、小さな交通騒音、換気音のする静かな裏庭の音を、順番を変えてヘッドホンで聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自然の音で、体の緊張が早く戻った",
+        "body": "緊張すると上がる汗腺の指標が半分に戻るまで、自然の音では約101秒、大きな交通騒音では約160秒だったらしい。自然の音は騒音より9〜37%速く落ち着いていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差がはっきりしたのは一部だけ",
+        "body": "平均の値で差がはっきりしたのは大きな騒音との比較だけで、休むときに働く神経の指標には差がなかった。短い実験室の研究で、毎日聞いたときの効果はまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#kokoro-nature-sounds-stress-fountain-birds"
+  },
+  {
+    "id": "kokoro-sns-upward-comparison-why-ability-posts",
+    "category": "スマホとSNS",
+    "kind": "研究紹介",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Ozimek P, Brandenberg G, Rohmann E, Bierhoff HW, \"The Impact of Social Comparisons More Related to Ability vs. More Related to Opinion on Well-Being: An Instagram Study\" (Behavioral Sciences, 2023)",
+    "sourceUrl": "https://doi.org/10.3390/bs13100850",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/sns-upward-comparison-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "どんな投稿で落ち込みやすい？",
+        "body": "SNSを見て、なんとなく気分が沈む日があるよね。でも、どの投稿でも同じように落ち込むのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "409人に2種類の投稿を見せた",
+        "body": "ドイツの研究チームが、Instagram風の投稿を見せる実験をしたよ。くじで半分に分けて、片方には何かが「できる」ことを見せる投稿を、もう片方には意見を伝える投稿を見せたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「できること」の投稿で気分が下がった",
+        "body": "「できること」の投稿を見た人は、嫌な気分が強く、人生の満足度と自尊心が低めだった。前向きな気分の差ははっきりしなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "投稿を見ない人との比較はない",
+        "body": "投稿を見ないグループがなく、2種類の投稿どうしの比較だけ。参加者は平均24.3歳で、8割以上が女性だった。ほかの年代でも同じかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-upward-comparison-why-ability-posts"
+  },
+  {
+    "id": "alcohol-empty-stomach-blood-alcohol",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Jones, Jönsson & Kechagias, \"Effect of high-fat, high-protein, and high-carbohydrate meals on the pharmacokinetics of a small dose of ethanol\" (British Journal of Clinical Pharmacology, 1997)",
+    "sourceUrl": "https://doi.org/10.1046/j.1365-2125.1997.t01-1-00620.x",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "空きっ腹で飲むと酔いやすい？",
+        "body": "「何か食べてから飲みなさい」ってよく言われるよね。空きっ腹のお酒は回りやすいって、本当なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ量を、食後と空腹で比べた",
+        "body": "スウェーデンの研究で、健康な男性9人が同じ少しの量のお酒（体重1kgあたり0.3g）を、条件を変えて5回とった。脂質・炭水化物・たんぱく質の多い朝食のあと、何も食べていないとき、そして点滴だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "食後は、血中濃度のピークが約半分",
+        "body": "血中アルコール濃度のいちばん高い値は、空腹だと30.8mg/dl、食後は13.3〜17.7mg/dlだった。食事の中身に関係なく低く、体から抜けるまでの時間も1〜2時間短かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "男性9人・少しの量の話",
+        "body": "調べたのは健康な男性9人が少しの量を飲んだときだけで、人によるばらつきも大きかった。女性や、たくさん飲んだとき、酔いの感じ方や翌日の体調がどう変わるかは、この研究ではわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "食後に飲んだときの血中アルコール濃度のピークは？",
+      "correct": "空腹のときの約半分",
+      "wrong": "空腹のときとほぼ同じ"
+    },
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-empty-stomach-blood-alcohol"
+  },
+  {
+    "id": "folk-cold-feet-common-cold",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Johnson & Eccles, \"Acute cooling of the feet and the onset of common cold symptoms\" (Family Practice, 2005)",
+    "sourceUrl": "https://doi.org/10.1093/fampra/cmi072",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "体を冷やすと風邪をひく？",
+        "body": "「体を冷やすと風邪をひくよ」って、子どものころ言われたよね。昔からの言い伝えだけど、実際に試した研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "足を冷やす人と冷やさない人に分けた",
+        "body": "イギリスの風邪の研究センターで、健康な180人をくじで2つに分けた。片方は足を冷やし、もう片方は冷やさない手順を受けて、そのあと4〜5日、風邪の症状を1日2回記録したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "冷やした人の方が「風邪をひいた」と答えた",
+        "body": "足を冷やしたグループでは90人中13人が「風邪をひいた」と答え、冷やさなかったグループの90人中5人より多かった。冷やした直後ではなく、その後の数日で症状が増えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当にウイルスに感染した？",
+        "body": "風邪かどうかは本人の申告で、ウイルスは調べていない。研究者も、本当の感染との関係はこれから調べる必要があると書いているよ。差は8人分で、統計的にもぎりぎりの結果だった。"
+      }
+    ],
+    "quiz": {
+      "q": "足を冷やしたグループで「風邪をひいた」と答えた人は？",
+      "correct": "90人中13人",
+      "wrong": "90人中1人"
+    },
+    "webUrl": "https://seadice.win/evidence/japan/#folk-cold-feet-common-cold"
+  },
+  {
     "id": "dokugaku-exam-nerves-choked-next-time-reappraisal",
     "category": "学習法",
     "kind": "よくある説",
@@ -10358,7 +10534,7 @@
     "category": "運動と老化",
     "themeColor": "#B45309",
     "sourceLabel": "Leong et al., \"Prognostic Value of Grip Strength: Findings from the Prospective Urban Rural Epidemiology (PURE) Study\" (The Lancet, 2015)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25982160/",
+    "sourceUrl": "https://doi.org/10.1016/s0140-6736(14)62000-6",
     "cards": [
       {
         "stage": "結論",
@@ -10374,6 +10550,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "握力が5kg低いごとに、全死亡のリスクが約16%、心血管死のリスクが約17%高かった。握力は収縮期血圧より、全死亡と心血管死の予測力が強かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "鍛えれば長生きできる？",
+        "body": "対象は17カ国の35〜70歳で、握力を測ってから中央値4年だけ追った観察研究。握力の弱さが死亡の原因とは言えず、握力を鍛えると死亡が減るかは、研究者自身がこれから確かめる課題としているよ。"
       }
     ],
     "quiz": {
@@ -10401,7 +10582,7 @@
     "category": "睡眠と食欲",
     "themeColor": "#9333EA",
     "sourceLabel": "Spiegel, Tasali, Penev & Van Cauter, \"Brief Communication: Sleep Curtailment in Healthy Young Men Is Associated with Decreased Leptin Levels, Elevated Ghrelin Levels, and Increased Hunger and Appetite\" (Annals of Internal Medicine, 2004)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15583226/",
+    "sourceUrl": "https://doi.org/10.7326/0003-4819-141-11-200412070-00008",
     "cards": [
       {
         "stage": "結論",
@@ -10416,7 +10597,12 @@
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "睡眠制限の時はレプチンが18%低く、グレリンが28%高く、空腹感は24%、食欲は23%高かった。参加者は12人の若い男性のみで、2晩という短期間の結果。"
+        "body": "睡眠制限の時はレプチンが18%低く、グレリンが28%高く、空腹感は24%、食欲は23%高かった。とくに炭水化物の多い高カロリーな食べ物への食欲が上がっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い男性12人・2日間の話",
+        "body": "対象は健康な若い男性12人だけで、寝不足は2日間。使ったエネルギーは測っておらず、実際に食べる量や体重が増えるかはこの研究ではわからない。女性や、寝不足が長く続く場合もまだわからないよ。"
       }
     ],
     "quiz": {
