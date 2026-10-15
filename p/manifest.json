@@ -1,12 +1,12 @@
 {
-    "name": "SEADICE — Flutter アプリ個人開発者",
+    "name": "SEADICE（シーダイス）",
     "short_name": "SEADICE",
     "start_url": "/",
     "id": "https://seadice.win/",
     "display": "standalone",
     "background_color": "#05050C",
     "theme_color": "#05050C",
-    "description": "Flutter × デザイン × アイデア。iOSとAndroidを横断する個人アプリ開発者 SEADICE のポートフォリオ。",
+    "description": "誠実なサービスで、信頼に応える。研究ベースで、悩みを解決する道具やアプリを作ります。",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
