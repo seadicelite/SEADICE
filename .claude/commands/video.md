@@ -12,6 +12,7 @@ description: シーダイスが出る短い広告動画（YouTube Shorts 縦・1
 |---|---|
 | スクリプト・設定 | `scripts/video/`（make_theme_ad.py＋themes.json・make_app_ad.py＋apps.json・make_ad.py・make_assets.py） |
 | 元絵・書き出し先 | `~/Developer/Images/seadice-character/`（元絵 seadice-original.png、動画は youtube/ad-{キー}.mp4） |
+| ポーズ違い | `~/Developer/Images/seadice-character/poses/`（bow お辞儀・search 虫眼鏡・book 本・point 指さし・wave 手を振る・think 考える。透明PNG・約300px）。キャラクターシートを足したら `scripts/video/split_poses.py` で切り分ける |
 | BGM | `~/Developer/youtube-auto/shorts/Linen_and_Slow_Light.mp3`（既定） |
 | 道具・アプリの候補 | seadice-media の `media/{slug}.json` の `toolbox`（共有リポジトリなので pull しない。`git show origin/main:media/{slug}.json` で読む） |
 | アプリのアイコン | `p/icons/apps/{appId}.webp` |
@@ -31,7 +32,7 @@ description: シーダイスが出る短い広告動画（YouTube Shorts 縦・1
 - 文言は「研究をもとにした」まで。「科学的に証明された」「証明済み」は使わない（7ヶ条）
 - 見た目は白地・黒の細い罫線・青1色（#1A44C2）。絵文字なし。青い文字には下線も付ける
 - 文字は中央の上寄り（y 700〜1350）。Shorts の右のボタンと下の題名に隠れる位置に置かない
-- 新しい絵（ポーズ違い）は作れない。元絵を切り抜く・動かす・並べるだけ
+- 新しい絵（ポーズ違い）は Claude には描けない。poses/ にある絵と元絵を、切り抜く・動かす・並べるだけ。足りないポーズはユーザーに生成AIで作ってもらう（背景は透明か白以外の1色、キャラ同士の間をあける）
 
 ## 作り直しどき
 
