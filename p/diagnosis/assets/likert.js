@@ -110,6 +110,8 @@
     try { return JSON.parse(localStorage.getItem(HIST_KEY)) || {}; } catch (e) { return {}; }
   }
 
+  function sumOf(sc){ return Object.keys(data.keys).reduce(function(t, k){ return t + (sc[k] || 0); }, 0); }
+
   function showResult(){
     var keys = Object.keys(data.keys);
     scores = {};
@@ -136,10 +138,12 @@
       resultEl.querySelector('.sc-list').insertAdjacentElement('afterend', diffEl);
     }
     if (prevScores) {
-      diffEl.innerHTML = '<b>前回（' + prevAt + '）とくらべて</b>' + keys.filter(function(k){ return prevScores[k] != null; }).map(function(k){
-        var d = scores[k] - prevScores[k];
-        return data.keys[k].name + ' ' + (d > 0 ? '+' + d : d < 0 ? '−' + (-d) : '±0');
-      }).join('、');
+      var fmt = function(d){ return d > 0 ? '+' + d : d < 0 ? '−' + (-d) : '±0'; };
+      // total: 合計の差と、変わった項目だけを出す（項目が多い診断で長くならないように）
+      var dk = keys.filter(function(k){ return prevScores[k] != null && (!data.total || scores[k] !== prevScores[k]); });
+      var parts = dk.map(function(k){ return data.keys[k].name + ' ' + fmt(scores[k] - prevScores[k]); });
+      if (data.total) parts.unshift(data.total.name + ' ' + fmt(sumOf(scores) - sumOf(prevScores)));
+      diffEl.innerHTML = '<b>前回（' + prevAt + '）とくらべて</b>' + parts.join('、');
       diffEl.style.display = '';
     } else diffEl.style.display = 'none';
 
@@ -211,6 +215,16 @@
 
     var summary = data.summary(top, data.keys);
     var color = data.keys[top.k].color;
+    // total: 全項目の合計点を bands で1つの段階に分け、結果のいちばん上に出す
+    var tb = data.total && resultEl.querySelector('.total-box');
+    if (tb) {
+      var tot = sumOf(scores), tl = levelOf(tot, data.total), band = tl.band;
+      tb.innerHTML = '<p class="total-name">' + band.label + '</p>' +
+        '<p class="total-score">' + data.total.name + ' ' + tot + '点（' + data.total.min + '〜' + data.total.max + '点）</p>' +
+        '<p class="total-desc">' + band.desc + '</p>';
+      summary = data.total.name + '：' + band.label;
+      if (band.color) color = band.color;
+    }
     // quadrant: 2つの尺度の高低で4つの型に分ける（区切りは cut × 項目数）
     var q = data.quadrant;
     if (q) {
