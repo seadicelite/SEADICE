@@ -1,5 +1,190 @@
 [
   {
+    "id": "kokoro-ai-comfort-self-coping-response-style",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Wang C, \"How emotional response styles of generative AI companions shape adaptive emotion regulation and short-term AI reliance\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1950163",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-comfort-self-coping/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "AIの慰め方を2通りにした",
+        "body": "いやな出来事を思い出した380人が、AIと3往復話した。半分は慰めて「またいつでも話してね」と寄り添い続けるAI、もう半分は気持ちの名前・別の見方・自分でできる一歩を一緒に考えるAIだったんだ。"
+      },
+      {
+        "stage": "わかったこと1",
+        "title": "その場の楽さは同じ",
+        "body": "どちらのAIでも、いやな気分は同じくらい下がった（1〜7点で1.67点と1.61点）。慰め方の違いは、その場では見えなかったらしい。"
+      },
+      {
+        "stage": "わかったこと2",
+        "title": "差はAIなしの場面で出た",
+        "body": "そのあとAIなしで別のいやな場面に向き合うと、コツを示すAIと話した人のほうが気分の下がり幅が大きかった（0.99点と0.71点）。「AIが必要」と感じる度合いも低めだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の会話の話",
+        "body": "調べたのは1回の短い会話と、同じ日の課題だけ。対象は中国・広州で集めた18〜48歳（平均25歳）の大人で、何週間も続けたらどうなるか、依存につながるのかはまだわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-comfort-self-coping-response-style"
+  },
+  {
+    "id": "kokoro-symptom-search-ai-anxiety-cyberchondria",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Schenkel SK et al., \"Conceptualizations of Cyberchondria and Relations to the Anxiety Spectrum: Systematic Review and Meta-analysis\" (Journal of Medical Internet Research, 2021)",
+    "sourceUrl": "https://doi.org/10.2196/27835",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/symptom-search-ai-anxiety/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "症状を調べるほど不安になるのはなぜ？",
+        "body": "ちょっとした体の不調をネットやAIで調べていたら、重い病気の名前ばかり目に入って眠れなくなった。そんな経験、あるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7件の研究をまとめて見ると",
+        "body": "ドイツの研究チームが、健康のことをネットで調べすぎる傾向と健康への不安の関係を調べた25件の研究を整理。そのうち7件・3,069人分を統合したら、相関は0.63で、かなり強い結びつきだったらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「安心したい」がくり返しを生む",
+        "body": "著者たちは、調べることを不安をその場で下げるための「確認」だと考えている。ときどき安心できるからこそ、またくり返したくなる、という見方だよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "調べるから不安になるのか？",
+        "body": "まとめた研究は質問紙の調査が中心で、調べることが不安の原因なのか、不安な人ほど調べるのかは区別できていない。調べたのはネット検索の話で、AIに聞いたときも同じかは確かめていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#kokoro-symptom-search-ai-anxiety-cyberchondria"
+  },
+  {
+    "id": "kokoro-lonely-only-me-148-countries",
+    "category": "孤独とつながり",
+    "kind": "よくある説",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Leblang D, Wesselbaum D, \"Loneliness around the world: patterns, predictors, and well-being implications\" (European Journal of Epidemiology, 2026)",
+    "sourceUrl": "https://doi.org/10.1007/s10654-026-01424-z",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/lonely-only-me/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "孤独を感じるのは一部の人だけ？",
+        "body": "孤独って、友達が少ない人や年を取った人の悩みだと思われがち。周りはみんな楽しそうで、自分だけが寂しい気がする日もあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "148か国・21万人に聞いてみた",
+        "body": "ギャラップ世界世論調査の2023〜2024年のデータで、148か国の15歳以上21万8,048人の答えを分析。「昨日、一日の多くの時間に孤独を感じた？」という質問だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5人に1人以上が「はい」",
+        "body": "「はい」と答えた人は21.3%。アジアでは18.6%だった。ほかの条件をそろえると、年齢では50歳ごろまで増えて、そこから下がる形。孤独は年齢や国を問わない、ありふれた気持ちらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「昨日」の1問だけの調査",
+        "body": "昨日のことを1問で聞いているので、長く続く孤独よりその日の気分を拾っている可能性がある。毎年ちがう人に聞く調査で、2年分を比べた範囲では、世界全体で増えている証拠は見られなかった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-lonely-only-me-148-countries"
+  },
+  {
+    "id": "love-couples-personality-convergence",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "van Scheppingen, Olaru & Leopold, \"Personality trait similarity in recently cohabiting couples: Partner choice, convergence, or selective breakup?\" (Journal of Personality and Social Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1037/pspp0000527",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "一緒に暮らすと、性格が似てくる？",
+        "body": "「似た者夫婦」ってよく言うよね。長く一緒に暮らしているうちに、性格までだんだん似てくるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,180組を最長16年追った",
+        "body": "ドイツで、一緒に暮らし始めて0〜4年のカップル1,180組（2,360人、17〜82歳）を、最長16年追いかけた研究があるよ。性格の特徴が年月とともにどう変わるかを、2人で比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "似ているのは最初から",
+        "body": "開放性・誠実性・外向性・協調性は、暮らし始めのころからすでに似ていた。年月がたっても、さらに似てくることはなかった。性格の違いと別れやすさにも、全体として関係は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ドイツの、本人の答えの話",
+        "body": "性格は本人が答えた質問紙で測ったもの。調べたのはドイツで同居を始めたカップルで、一緒に暮らす前の時期の変化や、ほかの国でも同じかは、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-spouse-faces",
+        "type": "あわせて読む",
+        "why": "顔も性格も、年月で似てくるのではなく最初から似ていた"
+      },
+      {
+        "id": "love-similarity-attraction",
+        "type": "あわせて読む",
+        "why": "似た人に惹かれるかをまとめた研究と、実際に似た人を選んでいた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-couples-personality-convergence"
+  },
+  {
+    "id": "posture-happy-walk-memory",
+    "category": "姿勢と自信",
+    "kind": "よくある説",
+    "themeColor": "#F87171",
+    "sourceLabel": "Michalak, Rohde & Troje, \"How we walk affects what we remember: Gait modifications through biofeedback change negative affective memory bias\" (Journal of Behavior Therapy and Experimental Psychiatry, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.jbtep.2014.09.004",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "元気に歩くと、気分も変わる？",
+        "body": "「胸を張ってさっそうと歩けば、気持ちも前向きになる」ってよく聞くよね。歩き方を変えるだけで、心の中まで変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "歩き方だけを変えて、言葉を覚えた",
+        "body": "大学生39人に、本人が気づきにくい画面の合図で、うつの人に多い歩き方か、楽しそうな歩き方をしてもらった。歩く速さは同じにそろえて、歩きながら気持ちのこもった言葉を覚え、あとで思い出してもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "沈んだ歩き方だと、明るい言葉が残りにくい",
+        "body": "思い出した明るい言葉と暗い言葉の差は、沈んだ歩き方の人のほうが、楽しそうに歩いた人よりずっと小さかった。歩く量や速さではなく、歩き方そのものが記憶のかたよりに関わったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "測ったのは気分ではなく記憶",
+        "body": "対象はうつ病ではない大学生39人で、実験室での1回だけ。調べたのは思い出す言葉のかたよりで、気分そのものや、毎日の歩き方を変え続けたらどうなるかは、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-gait-sadness",
+        "type": "あわせて読む",
+        "why": "気分が歩き方に出る研究と、歩き方を変えて心の動きを見た研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-happy-walk-memory"
+  },
+  {
     "id": "speech-eye-contact-persuasion",
     "category": "話し方と伝わり方",
     "kind": "よくある説",
@@ -5799,6 +5984,11 @@
         "id": "umbra-compatibility-prediction",
         "type": "あわせて読む",
         "why": "似ている度合いと惹かれ方の関係を、多くの研究でまとめたもの"
+      },
+      {
+        "id": "love-couples-personality-convergence",
+        "type": "あわせて読む",
+        "why": "似た人に惹かれるかをまとめた研究と、実際に似た人を選んでいた研究"
       }
     ]
   },
@@ -7245,6 +7435,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "目の前のこと以外を考えていた時間は46.9%。何を考えていても、さまよっているときは幸福度が低く、時間差の分析は、心の迷走が不幸感に先行することを示唆した。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かは、まだ決めきれない",
+        "body": "スマホのアプリで、その場の気持ちを本人に答えてもらった調査で、実験で心をさまよわせたわけではない。時間差の分析は「さまよいが先」を示すだけで、原因とまでは言えない。答えたのはこのアプリを使った人たちだよ。"
       }
     ],
     "quiz": {
@@ -7909,6 +8104,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "香りを深いノンレム睡眠中に嗅いだ人は保持が改善し、海馬が活動した。レム睡眠中や起きている間、学習時に香りがなかった場合は効果がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の、決まった課題での話",
+        "body": "調べたのは実験室で、香りを流すタイミングを眠りの深さに合わせた条件。手順を覚えるタイプの記憶には効かなかった。家で毎晩アロマをたいて、勉強の記憶がよくなるかはこの研究ではわからない。"
       }
     ],
     "quiz": {
@@ -8285,6 +8485,11 @@
         "id": "posture-stooped-mood-recovery",
         "type": "あわせて読む",
         "why": "気分と体の向きは逆方向にもつながる。沈んだ気分は歩き方に出た"
+      },
+      {
+        "id": "posture-happy-walk-memory",
+        "type": "あわせて読む",
+        "why": "気分が歩き方に出る研究と、歩き方を変えて心の動きを見た研究"
       }
     ]
   },
@@ -18823,6 +19028,11 @@
         "id": "love-similarity-attraction",
         "type": "あわせて読む",
         "why": "似た者同士が惹かれあうかをまとめた研究。顔も最初から似ていた"
+      },
+      {
+        "id": "love-couples-personality-convergence",
+        "type": "あわせて読む",
+        "why": "顔も性格も、年月で似てくるのではなく最初から似ていた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/love/love-spouse-faces/"
