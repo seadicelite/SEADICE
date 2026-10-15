@@ -1,5 +1,209 @@
 [
   {
+    "id": "research-exercise-before-study-focus-research-duration",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Oberste et al., \"Effects and Moderators of Acute Aerobic Exercise on Subsequent Interference Control: A Systematic Review and Meta-Analysis\" (Frontiers in Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2019.02616",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/exercise-before-study-focus-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動は長いほど頭に効く？",
+        "body": "集中したい作業の前に運動するなら、長くやったほうが効きそうな気がするよね。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50件・2,366人分の研究",
+        "body": "運動の後に「気が散るものを抑える」課題をした50件の研究、合計2,366人分をまとめて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "20分以内がいちばん大きかった",
+        "body": "運動後は反応が速くなった。効果の大きさは20分以内の運動で0.32、21〜40分で0.18、40分超で0.07だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長さの差は確定じゃない",
+        "body": "運動時間による差は、統計的にははっきりしなかった。若い大人での効果は0.18で、子どもや高齢者より小さめだったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-cognition-moderators-meta",
+        "type": "あわせて読む",
+        "why": "運動の種類や強さと頭の働きを、別のメタ分析で広く調べたもの"
+      },
+      {
+        "id": "research-exercise-before-study-focus-research-young-adults",
+        "type": "あわせて読む",
+        "why": "若い大人に絞って、運動後の集中を確かめた別のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-exercise-before-study-focus-research-duration"
+  },
+  {
+    "id": "research-rest-not-recovering-stress-research-vacation-fade",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "de Bloom et al., \"Do we recover from vacation? Meta-analysis of vacation effects on health and well-being\" (Journal of Occupational Health, 2009)",
+    "sourceUrl": "https://doi.org/10.1539/joh.k8004",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/rest-not-recovering-stress-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "長い休みでストレスはリセット？",
+        "body": "疲れがたまったら、まとまった休暇をとればリセットできる。そう思って連休を楽しみにしている人は多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "休暇の研究7件をまとめた",
+        "body": "休暇が健康や幸福感にどう効くかを調べた研究から、方法の基準で厳しく選んだ7件をまとめて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果はあるけど、すぐ薄れる",
+        "body": "休暇で健康や幸福感は上がった（効果の大きさ0.43）。でも仕事に戻ると、その効果はまもなく薄れていた（-0.38）んだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何をすれば長持ちする？",
+        "body": "研究の数が少なくて、休暇中に何をすると効果が長続きするかは、まだよくわかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-rest-not-recovering-stress-research-detachment-training",
+        "type": "あわせて読む",
+        "why": "休暇の効果はすぐ薄れる。ふだんから仕事を切り離す練習の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#research-rest-not-recovering-stress-research-vacation-fade"
+  },
+  {
+    "id": "research-rest-not-recovering-stress-research-detachment-training",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Karabinski et al., \"Interventions for improving psychological detachment from work: A meta-analysis\" (Journal of Occupational Health Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.1037/ocp0000280",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/rest-not-recovering-stress-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "休みに仕事を忘れるのは才能？",
+        "body": "休みの日も仕事のことが頭から離れない人と、さっと切り替えられる人がいるよね。切り替える力って、練習で伸ばせるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "30件・3,725人分の研究",
+        "body": "仕事から頭を切り離す力を伸ばすプログラムを調べた30件の研究（34のプログラム、合計3,725人）をまとめて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "練習で伸ばせた",
+        "body": "プログラムには平均して効果があった（効果の大きさ0.36）。期間が長くて量が多いプログラムほど、効果が大きかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "誰にでも同じだけ効く？",
+        "body": "もともと回復がうまくいっていない人や年齢の高い人で、より効いていた。働く人が対象で、学生などにも当てはまるかは別の話だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-rest-not-recovering-stress-research-vacation-fade",
+        "type": "あわせて読む",
+        "why": "休暇でリセットしても、仕事に戻ると効果がすぐ薄れるという研究"
+      },
+      {
+        "id": "work-detachment",
+        "type": "あわせて読む",
+        "why": "切り離せる人ほど元気という関係と、その力を練習で伸ばす研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#research-rest-not-recovering-stress-research-detachment-training"
+  },
+  {
+    "id": "brain-sleep-learning",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Ataei et al., \"Learning during sleep in humans - A historical review\" (Sleep Medicine Reviews, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/j.smrv.2023.101852",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝ながら聞くだけで、英語が覚えられる？",
+        "body": "寝ている間に単語や外国語を流しておけば、起きたら覚えている。そんな「睡眠学習」の話、一度は聞いたことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "80年分・51本の研究を整理",
+        "body": "研究チームが、1940年代から今までに人で行われた睡眠学習の研究51本を集めて、何がわかっていて何がわかっていないかを整理したよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "単純なことはできても、外国語は別",
+        "body": "音に慣れる・音どうしを結びつけるといった単純な学習は、眠っている間にもできることを支持する研究がいくつかあった。でも外国語のような複雑な学習は、結果がばらばらだったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "起きたあとに使えるかは不明",
+        "body": "脳の反応を見ると、眠っている間に何かを処理している様子はあった。でも新しい知識が起きたあとまで残って使えるかは、まだはっきりしないよ。研究ごとに目的や方法が違うのも、結論を出しにくい理由なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "scent-sleep-cue-metaanalysis",
+        "type": "あわせて読む",
+        "why": "新しく覚えるのは難しくても、起きている間に覚えたことの定着の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-sleep-learning"
+  },
+  {
+    "id": "appetite-time-restricted-eating-sleep",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Jin, Li, Xu & Rong, \"The Effect of Time-Restricted Eating on Sleep: A Systematic Review and Meta-analysis\" (Nutrition Reviews, 2026)",
+    "sourceUrl": "https://doi.org/10.1093/nutrit/nuaf051",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "食べる時間を区切ると、よく眠れる？",
+        "body": "1日のうち食べる時間を決めて、それ以外は食べない「時間制限食」。体内時計が整って眠りも良くなる、という話もあるけど、本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "13件・638人分の研究",
+        "body": "時間制限食で睡眠がどう変わるかを調べた13件の研究、合計638人分をまとめて分析したよ。睡眠時間や、睡眠の質の質問票（PSQI）の点数を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "比べる相手がいると、差は消えた",
+        "body": "始める前と比べると、睡眠時間はわずかに伸び、睡眠の質の点数も少し良くなった。でも、しないグループと比べた試験だけで見ると差はなく、寝る時刻・起きる時刻も変わらなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果があっても小さそう",
+        "body": "著者のまとめは「小さな効果があるかもしれないが、確かめるには研究がまだ足りない」。早い時間に食べる人で点数が良かったという結果もあるけど、これも追加の検証が必要だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-time-restricted-eating-sleep"
+  },
+  {
     "id": "research-exam-mind-blank-test-anxiety-recovery-research-reappraisal",
     "category": "学習法",
     "kind": "よくある説",
@@ -123,6 +327,11 @@
         "id": "exercise-cardio-memory-metaanalysis",
         "type": "あわせて読む",
         "why": "1回の運動と頭の働きを、記憶と若い大人全体の2つのまとめで"
+      },
+      {
+        "id": "research-exercise-before-study-focus-research-duration",
+        "type": "あわせて読む",
+        "why": "運動の長さごとに、運動後の集中への効果を比べたまとめ"
       }
     ],
     "webUrl": "https://seadice.win/evidence/focus/#research-exercise-before-study-focus-research-young-adults"
@@ -4760,7 +4969,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/work/#work-detachment",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "research-rest-not-recovering-stress-research-detachment-training",
+        "type": "あわせて読む",
+        "why": "仕事を切り離す力は、練習のプログラムで伸ばせるかを調べた研究"
+      }
+    ]
   },
   {
     "id": "myth-stretch-soreness",
@@ -8929,7 +9145,7 @@
     "category": "光と体内時計",
     "themeColor": "#0891B2",
     "sourceLabel": "Crowley & Eastman, \"Phase Advancing Human Circadian Rhythms with Morning Bright Light, Afternoon Melatonin, and Gradually Shifted Sleep: Can We Reduce Morning Bright-Light Duration?\" (Sleep Medicine, 2015)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25620199/",
+    "sourceUrl": "https://doi.org/10.1016/j.sleep.2014.12.004",
     "cards": [
       {
         "stage": "結論",
@@ -8945,6 +9161,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "2時間グループの体内時計は平均2.4時間前進した。30分グループの前進幅は2時間グループの約75%で、1時間を分散して浴びたグループと同程度だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若くて健康な人の、研究室での話",
+        "body": "対象は健康な若い大人50人（平均25.9歳）だけで、光の長さごとに別の人を比べた。光は研究室の光箱で、午後のメラトニンとセットだった。高齢の人や睡眠リズムの病気の人で同じかは、まだ調べられていないよ。"
       }
     ],
     "quiz": {
@@ -8985,6 +9206,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "窓のある職場の人は、勤務中の光の量が多く、身体活動が多い傾向があり、睡眠時間も長かった。窓のない職場の人は睡眠の質と活力の自己評価が低かった。参加者は計49人。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "窓が原因かは、まだわからない",
+        "body": "窓のある職場とない職場の人を比べただけで、窓が原因とは言えない。睡眠を機械で測ったのは21人だけ。よく動くから光を浴びるのか、その逆かも区別できないと著者は書いているよ。アメリカの小さな町の予備的な研究なんだ。"
       }
     ],
     "quiz": {
@@ -8993,7 +9219,7 @@
       "wrong": "睡眠の質と活力が高かった"
     },
     "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-daylight-office-sleep",
-    "studyType": "実験",
+    "studyType": "観察研究",
     "links": [
       {
         "id": "kokoro-daylight-outdoors-mood",
@@ -18810,6 +19036,11 @@
         "id": "exercise-over50-cognition-meta",
         "type": "あわせて読む",
         "why": "健康な人全体のまとめと、50歳以上に絞ったまとめ"
+      },
+      {
+        "id": "research-exercise-before-study-focus-research-duration",
+        "type": "あわせて読む",
+        "why": "運動の直後の集中について、運動の長さごとに比べたまとめ"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-cognition-moderators-meta"
@@ -19245,6 +19476,11 @@
         "id": "scent-school-sleep-odor-vocab",
         "type": "あわせて読む",
         "why": "実験室の結果を、学校と家で試した研究"
+      },
+      {
+        "id": "brain-sleep-learning",
+        "type": "あわせて読む",
+        "why": "眠っている間に「新しく」覚えられるかを、80年分の研究で整理"
       }
     ],
     "webUrl": "https://seadice.win/evidence/scent-memory/#scent-sleep-cue-metaanalysis"
