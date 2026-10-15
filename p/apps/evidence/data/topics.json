@@ -1,5 +1,183 @@
 [
   {
+    "id": "dokugaku-exam-nerves-choked-next-time-reappraisal",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Bosshard & Gomez, \"Effectiveness of stress arousal reappraisal and stress-is-enhancing mindset interventions on task performance outcomes: a meta-analysis of randomized controlled trials\" (Scientific Reports, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-024-58408-w",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/exam-nerves-choked-next-time/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「緊張は味方」と思えば本番に強くなる？",
+        "body": "試験の前にドキドキしたら「これは力になる」と思えばいい、ってよく聞くよね。本当に成績は上がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ランダム化比較試験をまとめて分析",
+        "body": "ストレスのドキドキを前向きにとらえ直す方法を試した33本の論文、44の結果、合わせて5,638人をまとめたメタ分析だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果はあるけど、小さい",
+        "body": "成績の改善は d = 0.23 と小さめ。まだ公表されていない研究を補う計算をすると d = 0.14 まで下がった。著者たちも「万能薬ではない」と書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続くのか、本番でも効くのか",
+        "body": "多くの研究は短い期間の効果しか見ていない。数か月続いた研究もあるけど、そうでない研究もあった。別の分析では、効果があるともないとも言い切れなかったんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-get-excited-anxiety",
+        "type": "あわせて読む",
+        "why": "緊張を「ワクワク」と捉え直す1つの実験と、その方法をまとめたメタ分析"
+      },
+      {
+        "id": "research-exam-mind-blank-test-anxiety-recovery-research-reappraisal",
+        "type": "反対の結果",
+        "why": "同じ捉え直しの方法で、大学の試験では差が出なかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-nerves-choked-next-time-reappraisal"
+  },
+  {
+    "id": "kokoro-ai-chat-boredom-prevent-boredom-ai-chat",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Yuan J, Zhou K, Zhang C, \"From boredom to problematic AI chatbot use: a three-wave half-longitudinal mediation study of loneliness and dual-system self-control\" (Australian Journal of Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1080/00049530.2026.2737094",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-chat-boredom-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "暇だとAIに話しかけちゃう",
+        "body": "やることがないとき、なんとなくAIのチャットを開いてしまう。これって、退屈しやすい性格と関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生551人を3回調査",
+        "body": "中国の大学生551人に、2024年の10月・11月・12月の3回、退屈しやすさ、さびしさ、衝動の強さ、AIチャットの使い方を聞いた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "さびしさと衝動がつないでいた",
+        "body": "退屈しやすい人ほど、さびしさと衝動が強く、約2か月後にAIチャットをコントロールしにくい傾向があったらしい。自分を抑える力を通る道は確かめられなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "退屈が原因とは言えない",
+        "body": "各項目を1回しか測っていないので、最初からAIの使い方に問題があった可能性は除けない。働く大人や日本の人で同じかもわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-chat-boredom-prevent-boredom-ai-chat"
+  },
+  {
+    "id": "kokoro-ai-human-like-uncanny-repeated-interactions",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Złotowski JA et al., \"Persistence of the uncanny valley: the influence of repeated interactions and a robot's attitude on its perception\" (Frontiers in Psychology, 2015)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2015.00883",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-human-like-uncanny/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人そっくりのロボット、慣れる？",
+        "body": "人にそっくりなのに、どこか違う。そんなロボットやAIを見ると、ちょっとゾッとすることがあるよね。この「不気味さ」って、会ううちに薄れるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アンドロイドと3回話してみた",
+        "body": "日本の大学生58人に、実在の人をもとに作ったアンドロイドか、機械らしい見た目のロボットと、就職の面接という設定で短い会話を3回してもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3回で不気味さが下がった",
+        "body": "どちらのロボットでも、やりとりを重ねるだけで不気味さが下がったらしい。一方、好ましいと感じるかは、見た目よりロボットが友好的かどうかに左右されていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何日も続けたら？画面のAIなら？",
+        "body": "1回の実験の中の短いやりとりで、何日も続けた場合はわからない。目の前のロボットの研究で、ロボットは別の部屋の人が操作していた。画面の中のAIでも同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-human-like-uncanny-repeated-interactions"
+  },
+  {
+    "id": "love-newlywed-weight-gain",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Meltzer AL et al., \"Marital satisfaction predicts weight gain in early marriage\" (Health Psychology, 2013)",
+    "sourceUrl": "https://doi.org/10.1037/a0031593",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "結婚すると「幸せ太り」する？",
+        "body": "結婚して満たされると太る、いわゆる「幸せ太り」。よく聞く話だけど、関係がうまくいっている夫婦ほど太りやすいなんて、本当にあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "新婚169組を4年間",
+        "body": "新婚の夫婦169組に、4年間、半年ごとに身長と体重、結婚への満足度、ストレス、離婚に向けて動いたかどうかなどを答えてもらった研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "満足している時期ほど、体重が増えやすかった",
+        "body": "自分や相手の満足度がふだんより高い時期ほど、体重が増えやすかった。満足度が下がると離婚を考えやすくなり、そのぶん体重は増えにくかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "満足が原因とまでは言えない",
+        "body": "夫婦を追った観察研究なので、満足が体重を増やした原因とまでは言えない。「相手を引きつける必要が薄れるから」という説明も著者たちの解釈。新婚から4年間の話で、ほかのカップルで同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-newlywed-weight-gain"
+  },
+  {
+    "id": "caffeine-coffee-bowel-colon",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Rao SS et al., \"Is coffee a colonic stimulant?\" (European Journal of Gastroenterology & Hepatology, 1998)",
+    "sourceUrl": "https://doi.org/10.1097/00042737-199802000-00003",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "コーヒーを飲むと、お通じがくるのはなぜ？",
+        "body": "朝のコーヒーのあと、なんだかトイレに行きたくなる。気のせいかな、それともコーヒーに腸を動かす力があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大腸の動きを直接測った",
+        "body": "健康な12人の大腸にセンサーを入れて、コーヒー、カフェインを抜いたコーヒー、お湯（各240mL）、1000kcalの食事のあとに、大腸がどれだけ動くかを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "コーヒーは食事並みに大腸を動かした",
+        "body": "ふつうのコーヒーを飲むと、大腸の動きは食事をしたときと同じくらい活発になった。お湯より60%、カフェインを抜いたコーヒーより23%強かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "カフェインのせい？ 12人の実験",
+        "body": "カフェインを抜いたコーヒーは、お湯ともふつうのコーヒーともはっきりした差がなく、カフェインだけの働きかは決めきれない。12人の小さな実験で、測ったのは大腸の動き。トイレに行きたい感覚そのものではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-bowel-colon"
+  },
+  {
     "id": "dokugaku-study-place-time-log-sheet-background-music",
     "category": "音楽と集中力",
     "kind": "よくある説",
@@ -996,6 +1174,11 @@
         "id": "speech-get-excited-anxiety",
         "type": "反対の結果",
         "why": "緊張を前向きに捉え直す方法で、大学の試験でのやり直しでは差が出なかった"
+      },
+      {
+        "id": "dokugaku-exam-nerves-choked-next-time-reappraisal",
+        "type": "反対の結果",
+        "why": "捉え直しの研究をまとめると、成績への効果は小さいがあった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#research-exam-mind-blank-test-anxiety-recovery-research-reappraisal"
@@ -7675,6 +7858,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "感謝を書いた群は、複数の指標で比較群より幸福感が高かった（全ての指標ではない）。特にポジティブな感情への効果が最も安定していた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べた相手と、測り方に注意",
+        "body": "研究1・2で比べた相手は「イライラしたこと」や「ふつうの出来事」を書いた人で、何も書かない人ではない。気分や体調は本人がつけた記録で、効果が出たのも一部の指標だけだったよ。"
       }
     ],
     "quiz": {
@@ -9869,7 +10057,7 @@
     "category": "光と体内時計",
     "themeColor": "#0891B2",
     "sourceLabel": "Lockley, Brainard & Czeisler, \"High Sensitivity of the Human Circadian Melatonin Rhythm to Resetting by Short Wavelength Light\" (Journal of Clinical Endocrinology & Metabolism, 2003)",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12970330/",
+    "sourceUrl": "https://doi.org/10.1210/jc.2003-030570",
     "cards": [
       {
         "stage": "結論",
@@ -9885,6 +10073,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "青色光の方が、緑色光の6.5時間の照射より約2倍大きな体内時計の位相の遅れを起こした。単色光を使った実験室の結果で、スマホ画面で同じ影響が出るとは限らない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の単色光を6.5時間",
+        "body": "使ったのは一色だけの特別な光を6.5時間浴びる、実験室の条件。部屋の照明やスマホの画面のように、いろいろな色が混ざった光を短く浴びるときに同じ差が出るかは、この研究ではわからない。"
       }
     ],
     "quiz": {
@@ -23887,6 +24080,11 @@
         "id": "research-exam-mind-blank-test-anxiety-recovery-research-reappraisal",
         "type": "反対の結果",
         "why": "緊張を前向きに捉え直す方法で、大学の試験でのやり直しでは差が出なかった"
+      },
+      {
+        "id": "dokugaku-exam-nerves-choked-next-time-reappraisal",
+        "type": "あわせて読む",
+        "why": "同じ捉え直しの方法を試した研究を、まとめて分析したメタ分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/speaking/speech-get-excited-anxiety/"
