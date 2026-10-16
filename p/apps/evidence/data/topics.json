@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-textbook-too-hard-to-understand-rereading",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Callender & McDaniel, \"The limited benefits of rereading educational texts\" (Contemporary Educational Psychology, 2009)",
+    "sourceUrl": "https://doi.org/10.1016/j.cedpsych.2008.07.001",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/textbook-too-hard-to-understand/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "わかるまで何度も読め？",
+        "body": "難しい教科書は、わかるまで繰り返し読めばいい。よく言われるよね。でも、読み直すだけで本当に身につくのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1回読みと2回読みを比べた",
+        "body": "教科書の章や科学雑誌の記事を使って、1回だけ読む人と、続けてもう一度読む人を比べた実験が4つある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績はほとんど変わらなかった",
+        "body": "いくつかの例外を除いて、選択式・記述式・要約のテストの成績は、読み直しても上がらなかった。読解力が高い人でも低い人でも同じ傾向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "時間をあけたら？",
+        "body": "調べたのは「すぐに」読み直す場合だけ。日をあけた読み直しや、読み直しながら説明してみる方法の効果は、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-cramming-one-week",
+        "type": "あわせて読む",
+        "why": "すぐ読み直す効果と、続けて読み直した1週間後の記憶"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-textbook-too-hard-to-understand-rereading"
+  },
+  {
+    "id": "kokoro-sitting-breaks-focus-move-breaks",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Huang Z, Yin M, Li G, et al., \"Effect of breaking up prolonged sitting with physical activity on executive function: a three-level meta-analysis\" (International Journal of Behavioral Nutrition and Physical Activity, 2026)",
+    "sourceUrl": "https://doi.org/10.1186/s12966-026-01942-9",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/sitting-breaks-focus/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "座りっぱなしは頭にも悪い？",
+        "body": "ずっと座っていると、午後には頭がぼんやりしてくる気がするよね。途中で立って歩くと、考える力は戻るのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22件の試験をまとめた",
+        "body": "同じ人が「座り続ける日」と「運動で区切る日」の両方を体験する試験22件、13.6〜78歳の418人分をまとめた研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "区切ると少しだけ成績アップ",
+        "body": "運動で区切った日は、考える力のテストが少し上がっていた（効果の大きさ0.13）。軽い運動でも結果が出ていて、1回3〜5分の運動でも差が出ていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "確かさはまだ低め",
+        "body": "研究者自身が証拠の確かさを「低い」と評価しているよ。テストは運動の直後だけで、効果がどれくらい続くかや、実際の仕事ぶりが変わるかはわかっていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-sitting-breaks-focus-move-breaks"
+  },
+  {
+    "id": "kokoro-tech-stress-age-older-workers-age-myth",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Hauk N, Göritz AS, Krumm S., \"The mediating role of coping behavior on the age-technostress relationship: A longitudinal multilevel mediation model\" (PLoS ONE, 2019)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0213349",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/tech-stress-age-older-workers/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "年をとると新しい技術でへとへとになる？",
+        "body": "「年配の人ほどパソコンや新しいシステムに疲れる」ってよく言われるよね。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,216人を8か月追いかけた",
+        "body": "ドイツ語圏の働く人1,216人（17〜75歳）に、仕事での情報技術による疲れと、困ったときの対処を4か月おきに3回聞いた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "年齢が上の人ほど疲れは少なめ",
+        "body": "実は、年齢が上の人ほど技術による疲れは少なかったらしい。年齢が上の人ほど「お手上げだと努力をやめる」対処が少なく、それが差を説明していたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差は小さく、生成AI以前の話",
+        "body": "関連は小さく、オンラインで答えられる人に偏っている可能性も。生成AIが広まる前の研究なので、AIでも同じかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-tech-stress-age-older-workers-age-myth"
+  },
+  {
+    "id": "posture-stooped-processing-speed",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Awad, Debatin & Ziegler, \"Embodiment: I sat, I felt, I performed - Posture effects on mood and cognitive performance\" (Acta Psychologica, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.actpsy.2021.103353",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "猫背で座ると、作業も遅くなる？",
+        "body": "背中を丸めて座っていると、なんだか頭まで重くなる気がするよね。姿勢で気分や作業のはやさって変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "姿勢を意識させずに比べた",
+        "body": "平均23歳の82人を、背筋の伸びた姿勢と、前かがみの姿勢になるグループに分けた実験があるよ。姿勢を変えていることは、本人に意識させないやり方にしたんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気分とはやさに差が出た",
+        "body": "背筋が伸びたグループのほうが気分がよく（効果の大きさ0.50）、問題を処理するはやさも上だった（0.42）。でも、正確さには差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "気分のせいかは不明",
+        "body": "研究者は「姿勢→気分→はやさ」の流れを予想したけど、気分が差を説明している証拠は出なかった。若い82人の1回の実験で、毎日の仕事や勉強で同じかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-stooped-processing-speed"
+  },
+  {
+    "id": "pet-dog-jealousy",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Harris & Prouvost, \"Jealousy in dogs\" (PLoS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0094597",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬も、やきもちをやくの？",
+        "body": "ほかの犬をなでていると、うちの犬が割り込んでくる…そんな経験あるよね。やきもちって、人だけの気持ちじゃないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ぬいぐるみの犬で試した",
+        "body": "36匹の犬の前で、飼い主が①吠えてしっぽを振る犬のぬいぐるみ②かぼちゃのランタン③しかけ絵本を、犬を無視してかわいがったり読み聞かせたりした実験があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "相手が「犬」のときだけ割り込んだ",
+        "body": "ぬいぐるみの犬のときに、飼い主を押す・間に割り込むといった行動がいちばん多かった。ぬいぐるみの犬にかみつこうとした犬は36%いて、ほかの条件では1匹だけだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "気持ちそのものは見えない",
+        "body": "見たのは行動だけで、犬が人と同じ「やきもち」を感じているかまではわからない。36匹の1つの実験で、ぬいぐるみを本物の犬と思ったかも研究者自身が言い切れないとしているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-jealousy"
+  },
+  {
     "id": "kokoro-sns-happy-for-others-social-savoring",
     "category": "スマホとSNS",
     "kind": "研究紹介",
@@ -10710,23 +10883,28 @@
     "id": "appetite-sleep-energy-intake",
     "category": "睡眠と食欲",
     "themeColor": "#9333EA",
-    "sourceLabel": "St-Onge et al., \"Short Sleep Duration Increases Energy Intakes but Does Not Change Energy Expenditure in Normal-Weight Individuals\"",
-    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21715510/",
+    "sourceLabel": "St-Onge et al., \"Short sleep duration increases energy intakes but does not change energy expenditure in normal-weight individuals\" (American Journal of Clinical Nutrition, 2011)",
+    "sourceUrl": "https://doi.org/10.3945/ajcn.111.013904",
     "cards": [
       {
-        "stage": "結論",
+        "stage": "わかったこと",
         "title": "寝不足だと「消費」ではなく「摂取」の方が増える？",
-        "body": "睡眠を削ると、1日の消費エネルギーはほぼ変わらない一方で、食べる量（特に脂質）が増えた。体重増加につながる条件が生まれることが示された。"
+        "body": "睡眠を削っても、1日に使うエネルギーはほぼ変わらなかった。なのに食べる量（特に脂質）は増えていたんだ。続けば太りやすい条件になる、と研究者は考えているよ。"
       },
       {
         "stage": "研究",
         "title": "どんな研究？",
-        "body": "米コロンビア大学の研究チームが、30〜49歳の男女30人を入院させ、4時間睡眠と9時間睡眠を5晩ずつ体験させて、5日目の食事摂取と、二重標識水法による総エネルギー消費を比べた。"
+        "body": "30〜49歳の普通体重の男女30人が入院して、4時間睡眠と9時間睡眠を5晩ずつ体験。5日目の食事と、二重標識水法で測った総エネルギー消費を比べたんだ。"
       },
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "5日目の摂取エネルギーは、短時間睡眠で約2814kcal、通常睡眠で約2518kcalと有意に多く、主に脂質の増加によるものだった。総エネルギー消費には有意な差がなかった。"
+        "body": "5日目に食べたエネルギーは、短い睡眠で約2814kcal、ふだんの睡眠で約2518kcalと多かった。増えたのは主に脂質で、総エネルギー消費には差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "5日間・30人の話",
+        "body": "対象は普通体重の30〜49歳の30人で、病院の中での5晩ずつの実験。食事を測ったのは5日目だけで、この状態が長く続いたときに本当に体重が増えるかは、この研究では確かめていないよ。"
       }
     ],
     "quiz": {
@@ -10752,7 +10930,8 @@
         "type": "あわせて読む",
         "why": "メタ分析にまとめられたような、寝不足で食べる量を測った1つの実験"
       }
-    ]
+    ],
+    "kind": "研究紹介"
   },
   {
     "id": "posture-text-neck-hansraj",
@@ -10953,19 +11132,24 @@
     "sourceUrl": "https://doi.org/10.5665/sleep.4968",
     "cards": [
       {
-        "stage": "結論",
+        "stage": "わかったこと",
         "title": "睡眠が短いほど、風邪をひきやすくなる？",
-        "body": "平均睡眠が6時間未満の人は、7時間以上の人より風邪をひきやすいことが、ウイルスを実際にうつす実験で示されました。睡眠時間は風邪予防の目安になります。"
+        "body": "ふだんの睡眠が6時間より短い人は、7時間より長い人より風邪をひきやすかった。風邪ウイルスを実際に鼻に入れて確かめた研究なんだ。"
       },
       {
         "stage": "研究",
         "title": "どんな研究？",
-        "body": "健康な成人164人が1週間、腕時計型センサーで睡眠を計測。その後、隔離された環境で風邪ウイルス（ライノウイルス）を鼻に投与し、5日間の発症を観察しました。"
+        "body": "18〜55歳の健康な164人が1週間、腕時計型のセンサーで睡眠を計測。そのあと隔離された環境で風邪ウイルス（ライノウイルス）を鼻に入れて、5日間ようすを見たよ。"
       },
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "睡眠6時間未満の人は、7時間超の人に比べて風邪の発症リスクが約4.2倍でした。睡眠の質の指標よりも、睡眠の短さが発症をよく予測しました。"
+        "body": "7時間より長く寝ていた人に比べて、5〜6時間の人は風邪になるオッズが約4.2倍、5時間未満の人は約4.5倍だった。6〜7時間の人は差がなく、眠りの途切れぐあいは関係なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関係はわかっても原因かは別",
+        "body": "睡眠は自然なまま測っただけで、睡眠を短くさせたわけではないから、睡眠の短さが原因とまでは言えない。対象は健康な164人で、倍率の幅もかなり広いよ。"
       }
     ],
     "quiz": {
@@ -10974,7 +11158,8 @@
       "wrong": "睡眠7時間超の人"
     },
     "webUrl": "https://seadice.win/evidence/sleep/#sleep-short-sleep-common-cold",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "kind": "研究紹介"
   },
   {
     "id": "learning-dunlosky-techniques",
@@ -15436,6 +15621,11 @@
         "id": "learning-spacing-effect",
         "type": "あわせて読む",
         "why": "分散学習の優位と、続けて読み直した時の1週間後の差"
+      },
+      {
+        "id": "dokugaku-textbook-too-hard-to-understand-rereading",
+        "type": "あわせて読む",
+        "why": "続けて読み直した1週間後の記憶と、教科書の読み直しを試した4つの実験"
       }
     ]
   },
