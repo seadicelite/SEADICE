@@ -71,10 +71,11 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 1. **ほかの公開済みアプリにも寄付ページ（seadice.win/support/）へのリンクが残っている**（2026-10-13 に判明、~/Developer 配下の72本の lib/main.dart。`grep -rl "seadice.win/support" --include='*.dart' ~/Developer | grep -v /build/`）。審査 3.1.1 の却下例があるので、各アプリを次に改修するときに必ず外す（docs/flutter-app.md の決まり）。Life's RPG は 1.1.2 で済み。改修のついでに share_plus 11 の新APIと Deployment Target 15.0（Podfile の post_install も）も確かめる
 2. **カスタマイズを他のアプリにも**: ユーザーは「デザイン・カラー・機能のオン/オフを自分で変えられるアプリ」を強く好む（2026-10-13）。EVIDENCE の lib/customize.dart を型にして、次に改修する公開済みアプリから入れる
 3. **Google Play 候補の判断材料**: 公開済みアプリごとに、App Store アナリティクスの ct=seadice の数字を記録する表を作る（数字はユーザーから受け取る）
-4. **tetsujin-friends のページ名をそろえる**: tetsujin-friends は p/tools/tetsujin-chat（名前が哲人チャット）と同じアプリか確かめ、同じなら released-apps.json かページ名をそろえて App Store リンクを足す
+4. **p/tools/tetsujin-chat/ を削除して 301 にする（判断が必要、manual.md に記載）**（2026-10-16 点検）: 同じアプリ（哲人フレンド、released-apps.json の tetsujin-friends）の旧ページで、noindex・「準備中」のまま・App Store リンクなし・sitemap と他ページからのリンクなし。公開側の /tools/tetsujin-friends/ と /apps/tetsujin-friends/ はすでに tetsugaku.seadice.win へ rewrite 済み
 5. **公開済みアプリで「もとになった研究」欄がないもの（40件）を一覧にし、/evidence で足せるものから足す**
 
 ## やったこと
+- 2026-10-16: 点検（released-apps.json 47本）: 「近日公開」残り 0・ct 抜け 0・プライバシー欠け 0。ページが p/tools/ にない10本は p/apps/ にある旧ページ。tetsujin-chat は tetsujin-friends と同じアプリの孤立した noindex ページと判明し、削除の判断を manual.md へ
 - 2026-10-15: そのリンクちょっと待ったに「中身を見てくる」（ユーザー提案「開く前に検索してどんなサイトか把握」）。結果画面のボタンを押したときだけ、判定サーバー（/inspect）がページを文字だけ読み（300KBまで・リダイレクト5回・外から見えないアドレスは読まない・ページ本体は返さない）、RDAPでドメインの作成日（.jp は取れない）を調べ、AIが「どんなサイトか」とパスワード・カード欄・別サイトへの送信をまとめる。判定は前より下げないが、端末内の点検で何もなく・ページを読めて・入力欄も別サイト送信もないときだけ下げてよい（seadice.win が「ちょっと待った32」→「開いて大丈夫そう15」になり、AIの言葉と判定がそろった）。自動にしないのは、一人ずつ違うリンクでは「開かれた」と相手に伝わるため。あわせて AIの判定の精度を測った（JPCERT/CC フィッシング200件で「開いて大丈夫そう」0件・「開かないで」31件（端末内だけは5件）、正規100件で「開かないで」0件、URLだけ・Web Riskなし。手順は link_matta/tool/measure_ai/、ページに掲載）。シミュレーターで実際のAIを通して画面を確認し、メッセージを貼ったときの見出し「テキスト」→「メッセージのリンク」、初回案内にアプリのアイコン
 - 2026-10-15: 通知de人生改善のアイコンを、ユーザーが作った「ベルから芽・上向きの矢印」（~/Developer/Images/jinsei.png、1024px・透過なし）に差し替え。flutter_launcher_icons で全サイズ、最初の案内画面の絵もこのアイコンに。ストアの見え方の画像も作り直した
 - 2026-10-14: 通知de人生改善 1.1.0 のストア画像を作った（見出しはユーザーが選択、1枚目「通知だけで、人生の質を高める」、背景ティール、日本語だけ）。実画面は test_screenshots/shots_test.dart（サンプルの記録で6画面×iPhone/iPad）、合成は screenshots/make.py（EVIDENCE の見本を流用、明るい背景なので2行目は濃いティール）。全サイズ（6.3・duo・iPad 各2サイズ×6枚、ヘッダー、検索結果）。scripts/appstore_preview.py が「## サブタイトル」の次の行に値を書く形を読めずサブタイトルが空になったので、読めるように直した。サイトのプライバシーポリシーを1.1.0に合わせて更新（申請前に必要）。「きょう」に今日の回数・5分以内・続いた日数
