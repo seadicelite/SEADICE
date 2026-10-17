@@ -10867,8 +10867,8 @@
     "id": "appetite-sleep-fmri-junkfood",
     "category": "睡眠と食欲",
     "themeColor": "#9333EA",
-    "sourceLabel": "Greer, Goldstein & Walker, \"The Impact of Sleep Deprivation on Food Desire in the Human Brain\"",
-    "sourceUrl": "https://www.nature.com/articles/ncomms3259",
+    "sourceLabel": "Greer, Goldstein & Walker, \"The Impact of Sleep Deprivation on Food Desire in the Human Brain\" (Nature Communications, 2013)",
+    "sourceUrl": "https://doi.org/10.1038/ncomms3259",
     "cards": [
       {
         "stage": "結論",
@@ -10884,6 +10884,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "徹夜明けは、前頭葉と島皮質の活動が低下し、扁桃体の活動が上昇した。その変化と並んで、高カロリー食への欲求が強まった。参加者は23人と少人数。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "食べる量までは測っていない",
+        "body": "調べたのは、平均20歳くらいのやせ型で健康な23人が、一晩完全に徹夜したあと。写真の食べ物を「今どれくらい食べたいか」答えただけで、実際に食べた量は測っていない。年配の人や軽い寝不足でも同じかはわからないよ。"
       }
     ],
     "quiz": {
@@ -11019,6 +11024,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "頭がまっすぐな時の負担を約5kg相当とすると、30度で約18kg、45度で約22kg、60度で約27kgと試算された。この数値はモデルの推定で、追試による検証は十分でない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人の首を測った数字ではない",
+        "body": "これは頭と首のモデルで計算した数字で、人の首で測ったものではないよ。うつむく姿勢が実際の首の痛みにつながるかは、この研究ではわからない。別の研究での確かめもまだ十分ではないんだ。"
       }
     ],
     "quiz": {
