@@ -1,5 +1,192 @@
 [
   {
+    "id": "speech-conversation-end-timing",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Mastroianni AM, Gilbert DT, Cooney G, Wilson TD, \"Do conversations end when people want them to?\" (PNAS, 2021)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2011809118",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "会話って、ちょうどいいところで終わってる？",
+        "body": "もっと話したいときも、そろそろ切り上げたいときも、なかなか言い出せないよね。会話は、ふたりが終えたいときに終わっているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "身近な人との会話と、初対面の会話",
+        "body": "オンラインで集めた806人には家族や友達などとの最近の会話を、米国の大学の研究室では初対面どうし252人の会話を調べた。どちらも「本当はいつ終えたかったか」を聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ふたりの希望どおりに終わったのは1.59%",
+        "body": "初対面の会話で、ふたりとも終えたいときに終われたのはたった1.59%。希望の長さと実際の長さは、平均で会話の長さの半分くらいずれていた。相手がいつ終えたいかも、ほとんど当てられなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長すぎ？ 短すぎ？",
+        "body": "ずれは「もっと短く」も「もっと長く」もあって、向きは一つじゃない。終えたい時点は本人に後から聞いたもので、45分の上限まで話した組は除かれている。ほかの国や電話・チャットでも同じかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "social-liking-gap",
+        "type": "あわせて読む",
+        "why": "初対面の会話で、相手の気持ちを読み違える別の例"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-conversation-end-timing"
+  },
+  {
+    "id": "digital-screen-time-2h-rct",
+    "category": "デジタルデトックス",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Pieh C et al., \"Smartphone screen time reduction improves mental health: a randomized controlled trial\" (BMC Medicine, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s12916-025-03944-z",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スマホを減らすと、心が元気になる？",
+        "body": "スマホの見すぎは心によくない、ってよく聞くよね。でも、見る時間を減らしたら本当に気分は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1日2時間までを3週間",
+        "body": "オーストリアの研究で、健康な学生111人をくじで2組に分け、片方だけスマホの画面時間を3週間、1日2時間以下にしてもらったんだ。もとは平均で1日約4.6時間使っていた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気分・眠り・ストレスが少し良くなった",
+        "body": "減らした組は、落ち込みの症状・眠りの質・ストレス・心の元気さが、減らさなかった組より良くなった。効果の大きさは小〜中くらい。ただ、期間が終わると使う時間はすぐ元に戻りはじめたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若くて健康な学生の話",
+        "body": "人数は少なめで、対象は若くて健康な学生。気分は自己申告で、パソコンなどほかの画面に移った可能性も消しきれない。追跡の時期には途中でやめた人が多く、長く続く効果はまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-mobile-internet-block",
+        "type": "あわせて読む",
+        "why": "画面時間そのものを減らす実験と、スマホのネットだけ止める実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-screen-time-2h-rct"
+  },
+  {
+    "id": "kokoro-friends-drifting-apart-prevent-friendship-decay",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Roberts SBG, Dunbar RIM, \"Managing Relationship Decay: Network, Gender, and Contextual Effects\" (Human Nature, 2015)",
+    "sourceUrl": "https://doi.org/10.1007/s12110-015-9242-7",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/friends-drifting-apart-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "親友なら、会わなくても平気？",
+        "body": "本当に仲のいい友達なら、しばらく会わなくても関係は変わらない。そう思いたいよね。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "高校生25人を18か月追跡",
+        "body": "英国の研究で、進学や就職をはさむ18か月、高校3年生25人の人間関係を追いかけたんだ。名前が挙がった相手は1,291人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "近い輪に残った友達は48.6%",
+        "body": "実は、いちばん近い輪にいた友達のうち、18か月後も残ったのは48.6%。家族・親戚は70.3%だった。連絡や一緒の活動が増えた友達ほど、親しさは下がりにくかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人でも同じ？",
+        "body": "25人の若者の研究で、連絡が親しさを保ったのか、親しいから連絡したのかは区別できていない。大人の転職や引っ越しでも同じかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-reach-out-old-friends",
+        "type": "あわせて読む",
+        "why": "友達との距離が開く研究と、昔の友達に連絡し直す研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-friends-drifting-apart-prevent-friendship-decay"
+  },
+  {
+    "id": "kokoro-ai-job-worry-workplace-support-social-capital",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Inoue A, Kawakami N, Eguchi H, Tsutsumi A, \"Buffering effect of workplace social capital on the association of job insecurity with psychological distress in Japanese employees: a cross-sectional study\" (Journal of Occupational Health, 2016)",
+    "sourceUrl": "https://doi.org/10.1539/joh.16-0129-OA",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-job-worry-workplace-support/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "雇用の不安、職場で変わる？",
+        "body": "仕事がなくなるかも、という不安。ひとりで抱えるのと、職場に助け合いがあるのとでは、心の負担は違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "日本の工場の2,971人",
+        "body": "2011年、日本の製造業1社の2工場で働く2,971人に、雇用の不安・職場の助け合い・心の負担をまとめて聞いた調査があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "77.3%と65.4%",
+        "body": "雇用の不安が強い人のうち心の負担があった割合は、助け合いが弱いと感じる人で77.3%、強いと感じる人で65.4%だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIの不安でも同じ？",
+        "body": "1時点の調査で因果はわからないし、AIではなく雇用全般の不安の話。男女別では正社員の男性でしか同じ結果が出ていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-job-worry-workplace-support-social-capital"
+  },
+  {
+    "id": "kokoro-ai-job-worry-lasting-isolation-young-workers-slosh",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Lindberg Y et al., \"Reciprocal longitudinal associations between job insecurity and depressive symptoms in young working women: the SLOSH study 2010–2020\" (International Archives of Occupational and Environmental Health, 2026)",
+    "sourceUrl": "https://doi.org/10.1007/s00420-026-02230-6",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-job-worry-lasting-isolation/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "仕事を失う不安は、若い人ほどこたえる？",
+        "body": "「クビになるかも」という不安、年齢で受け止め方が違うのかな。スウェーデンで働く人を10年間追った調査があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1万4千人を2年おきに",
+        "body": "2010〜2020年の調査に続けて答えた14,827人で、仕事を失う不安と、2年後の落ち込みの症状の結びつきを、35歳以下と36歳以上で比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "35歳以下で結びつきが強め",
+        "body": "35歳以下は不安そのものが強く、不安が2年後の落ち込みと結びつく関連も中くらいだった。36歳以上では、落ち込みが後の不安と結びつく逆向きの関連も見られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかは別の話",
+        "body": "観察研究なので因果はわからない。調査時点で働いていた人が対象で、いちばん不安定な立場の人は少なめだったんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-job-worry-lasting-isolation-young-workers-slosh"
+  },
+  {
     "id": "dokugaku-textbook-too-hard-to-understand-rereading",
     "category": "学習法",
     "kind": "よくある説",
@@ -11360,6 +11547,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "習慣的な行動中は、その行動と無関係なことを考えている割合が高く、ストレスの報告も少なめでした。習慣でない行動中は、考えが行動に向いていました。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "習慣のおかげでラク、とまでは言えない",
+        "body": "大学生が自分でつけた日記を集めた観察の研究で、習慣とストレスの少なさが一緒に見られただけ。習慣がストレスを減らしたのか、働く人や年齢の違う人でも同じかは、この研究ではわからないよ。"
       }
     ],
     "quiz": {
@@ -11391,6 +11583,11 @@
         "stage": "結果",
         "title": "分かったこと",
         "body": "報酬期間が終わった後も、報酬グループは対照グループより利用回数が増えていました。この効果は、もともと定期的に通っていない人が中心でした。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ずっと続くかはわからない",
+        "body": "見たのは、報酬が終わってからしばらくの間のジムの利用回数。何年も続くのか、もともと通っていた人ではなぜ変わらなかったのか、ほかの国や年代でも同じかは、この研究だけではわからないよ。"
       }
     ],
     "quiz": {
@@ -11399,7 +11596,7 @@
       "wrong": "報酬が終わると元に戻った"
     },
     "webUrl": "https://seadice.win/evidence/habits/#habit-paid-gym-attendance",
-    "studyType": "観察研究",
+    "studyType": "実験",
     "links": [
       {
         "id": "dokugaku-money-reward-undermining",
@@ -12577,6 +12774,11 @@
         "id": "social-loneliness-interventions-meta",
         "type": "あわせて読む",
         "why": "思い込みを見直す方法が、孤独を減らすのにいちばん効いていた"
+      },
+      {
+        "id": "speech-conversation-end-timing",
+        "type": "あわせて読む",
+        "why": "初対面の会話で、相手がいつ終えたいかも読み違える"
       }
     ]
   },
@@ -14037,7 +14239,14 @@
     "articleUrl": "https://mentalai.seadice.win/old-friend-reach-out/",
     "articleSite": "AI時代のメンタルヘルス",
     "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-reach-out-old-friends",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "kokoro-friends-drifting-apart-prevent-friendship-decay",
+        "type": "あわせて読む",
+        "why": "昔の友達に連絡する研究と、友達との距離が開いていく研究"
+      }
+    ]
   },
   {
     "id": "kokoro-doomscrolling-mood",
@@ -20187,6 +20396,11 @@
         "id": "digital-sns-abstinence-meta",
         "type": "あわせて読む",
         "why": "スマホのネット全体を止めた実験と、SNSだけやめた研究のまとめ"
+      },
+      {
+        "id": "digital-screen-time-2h-rct",
+        "type": "あわせて読む",
+        "why": "ネットだけ止める実験と、画面時間を1日2時間に減らす実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/digital-detox/#digital-mobile-internet-block"
