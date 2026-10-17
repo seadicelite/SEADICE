@@ -11051,7 +11051,7 @@
     "category": "姿勢と痛み",
     "themeColor": "#64748B",
     "sourceLabel": "Mahdavi, Riahi, Vahdatpour & Kelishadi, \"Association Between Sedentary Behavior and Low Back Pain: A Systematic Review and Meta-Analysis\" (Health Promotion Perspectives, 2021)",
-    "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8767074/",
+    "sourceUrl": "https://doi.org/10.34172/hpp.2021.50",
     "cards": [
       {
         "stage": "結論",
@@ -11067,6 +11067,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "座位中心の生活習慣はオッズ比1.24、長時間の座位は1.42、長時間の運転は2.03で、いずれも腰痛と関連した。ただし多くが横断研究で、因果までは分からない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "座ることが原因かはまだ不明",
+        "body": "まとめた27本は、ある時点で聞いた調査ばかり。座りすぎが腰痛を招いたのか、腰が痛いから座りがちなのかは区別できないんだ。英語の論文だけを集めていて、強い腰痛との関係を調べた研究も少なく、はっきりしていないよ。"
       }
     ],
     "quiz": {
@@ -11099,7 +11104,7 @@
     "category": "姿勢と痛み",
     "themeColor": "#64748B",
     "sourceLabel": "Park, Lee, Yoon, Yoon, Kim & Kim, \"Factors Associated with Increased Risk for Pain Catastrophizing in Patients with Chronic Neck Pain: A Retrospective Cross-Sectional Study\" (Medicine, 2016)",
-    "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5402560/",
+    "sourceUrl": "https://doi.org/10.1097/md.0000000000004698",
     "cards": [
       {
         "stage": "結論",
@@ -11109,12 +11114,17 @@
       {
         "stage": "研究",
         "title": "どんな研究？",
-        "body": "韓国の延世大学の研究チームが、慢性的な首の痛みで通院した患者331人の診療データから、痛みの強さ・不眠・抑うつ不安と、痛みの破局的思考の強さとの関連を調べた。"
+        "body": "韓国の延世大学の研究チームが、慢性的な首の痛みで通院した患者331人の診療データのうち、条件を満たした256人について、痛みの強さ・不眠・抑うつ不安と、痛みの破局的思考の強さとの関連を調べた。"
       },
       {
         "stage": "結果",
         "title": "数字で見ると",
         "body": "強い痛み、臨床的な不眠、強い抑うつ・不安は、いずれも高い破局的思考と強く関連し、中でも抑うつが最も強い予測因子だった。一時点の調査で、原因と結果の向きは分からない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かはわからない",
+        "body": "1つのクリニックに首の痛みで通った256人の、過去の診療記録を一時点で見た研究なんだ。考え込むから痛むのか、痛むから考え込むのかは区別できない。ほかの国や、首以外の痛みでも同じかはまだわからないよ。"
       }
     ],
     "quiz": {
