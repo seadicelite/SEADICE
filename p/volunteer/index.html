@@ -7,6 +7,7 @@
 <meta name="description" content="SEADICEのボランティア事業。NPO・ボランティア団体と、個人で社会貢献活動をしている人に、人件費なし・必要な実費だけで伴走し、課題の整理から活動紹介の文章・チラシ・Webサイト・小さなツールづくりまで一緒に進めます。">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#05050C">
+<link rel="preload" as="image" href="/icons/volunteer.webp" type="image/webp">
 <link rel="canonical" href="https://seadice.win/volunteer/">
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -14,7 +15,7 @@
 <meta property="og:site_name" content="SEADICE">
 <meta property="og:title" content="SEADICEのボランティア事業">
 <meta property="og:description" content="社会貢献活動をしている団体・個人に人件費なしで伴走し、活動を伝える文章・Webサイト・小さなツールを一緒に作ります。">
-<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:image" content="https://seadice.win/icons/volunteer_ogp.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://seadice.win/volunteer/">
@@ -24,7 +25,7 @@
 <style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7}nav{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;color:var(--accent);text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}
 .ticker{margin-top:56px;display:flex;align-items:center;border-bottom:1px solid var(--border);background:var(--card);height:40px;overflow:hidden}.ticker .lb{flex:none;height:100%;display:flex;align-items:center;padding:0 14px;background:var(--accent);color:#05050C;font-size:13px;font-weight:800}.ticker .tr{flex:1;overflow:hidden}.ticker .tk{display:flex;width:max-content;animation:tk 28s linear infinite}.ticker .tr:hover .tk{animation-play-state:paused}.ticker .tk span{font-size:13px;white-space:nowrap;padding-right:40px}@keyframes tk{to{transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){.ticker .tk{animation:none}.ticker .tk span[aria-hidden]{display:none}.ticker .tr{overflow-x:auto}}
 body.t-show main.vol{padding-top:24px;margin:0 auto;padding-bottom:64px}.breadcrumb{font-size:12px;color:var(--muted)}.breadcrumb a{color:var(--muted);text-decoration:none}
-.vhero{padding:40px 0 48px}.vhero .label{font-size:12px;letter-spacing:.2em;color:var(--accent);margin-bottom:12px}.vhero .lead{font-size:clamp(16px,2.2vw,19px);line-height:1.9;color:var(--sd-text2);max-width:34em}.vhero .acts{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:28px}.vhero .acts a{background:var(--accent);color:#05050C;font-weight:700;text-decoration:none;border-radius:6px}.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none}.tags li{font-size:13px;color:var(--sd-text2);border:1px solid var(--sd-line2);border-radius:4px;padding:4px 10px}
+.vhero{padding:40px 0 48px}.vimg{display:block;width:100%;height:auto;border-radius:8px;margin-bottom:32px}.vhero .label{font-size:12px;letter-spacing:.2em;color:var(--accent);margin-bottom:12px}.vhero .lead{font-size:clamp(16px,2.2vw,19px);line-height:1.9;color:var(--sd-text2);max-width:34em}.vhero .acts{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:28px}.vhero .acts a{background:var(--accent);color:#05050C;font-weight:700;text-decoration:none;border-radius:6px}.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none}.tags li{font-size:13px;color:var(--sd-text2);border:1px solid var(--sd-line2);border-radius:4px;padding:4px 10px}
 @media(min-width:960px){body.t-show .cards.c2{grid-template-columns:repeat(2,minmax(0,1fr))}}.card{background:var(--card);border:1px solid var(--border)}.card svg{width:32px;height:32px;fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;margin-bottom:12px}.card h3{font-size:17px;margin-bottom:6px}
 ul.list{list-style:none;display:grid;gap:10px}ul.list li{font-size:15px;line-height:1.8;color:var(--sd-text2);padding-left:18px;position:relative}ul.list li::before{content:"";position:absolute;left:0;top:.75em;width:6px;height:6px;background:var(--accent)}ul.list strong{color:var(--text)}ul.no li::before{background:none;border:1px solid var(--muted)}
 ol.steps{list-style:none;counter-reset:s;display:grid;gap:10px}ol.steps li{counter-increment:s;display:flex;gap:14px;align-items:baseline;font-size:15px;color:var(--sd-text2);padding:14px 16px;border:1px solid var(--border);border-radius:8px;background:var(--card)}ol.steps li::before{content:counter(s,decimal-leading-zero);color:var(--accent);font-weight:700;font-size:14px}ol.steps strong{color:var(--text);min-width:5.5em}.note{font-size:14px;color:var(--muted);margin-top:16px;line-height:1.8}
@@ -38,6 +39,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <main class="vol">
 <p class="breadcrumb"><a href="/">HOME</a> / ボランティア事業</p>
 <div class="vhero">
+<img class="vimg" src="/icons/volunteer.webp" width="1200" height="670" alt="SEADICE ボランティア活動（水の中を泳ぐキャラクターのシーダイス）" fetchpriority="high">
 <p class="label">VOLUNTEER</p>
 <h1>社会貢献活動の<br>デジタル支援</h1>
 <p class="lead">SEADICE（シーダイス）が、NPO・ボランティア団体・個人の活動に伴走し、サイト・アプリ・運営のしくみを人件費なしで一緒につくります。始めたばかりの取り組みで、まだ支援の実績はありません。</p>
