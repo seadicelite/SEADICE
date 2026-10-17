@@ -437,6 +437,13 @@
           "hub": "https://research.seadice.win/apps/yame-lab/"
         }
       ]
+    },
+    {
+      "id": "kateisaien-app3",
+      "name": "野菜まるごと検定",
+      "genre": "",
+      "appStoreId": "6784865342",
+      "appStoreUrl": "https://apps.apple.com/app/id6784865342"
     }
   ]
 }

@@ -6,7 +6,8 @@ p/apps/ と p/tools/ 配下の全アプリについて、App Store公開済み�
 
 bundle idは `win.seadice.{slug}` を基本形とし、Flutterの
 プロジェクト名がDartパッケージ命名規則（アンダースコア）に
-変換されている場合に備えて camelCase 版も試す。
+変換されている場合に備えて camelCase 版も試す。初期のアプリは
+`com.seadice.{camelCase}`（例: 野菜まるごと検定）なので、それも試す。
 
 使い方:
     python3 scripts/check_released_apps.py            # チェックして released-apps.json を更新
@@ -61,7 +62,9 @@ def main():
 
     found = []
     for slug in slugs:
-        candidates = {f"win.seadice.{slug}", f"win.seadice.{to_camel(slug)}"}
+        candidates = {f"win.seadice.{slug}", f"win.seadice.{to_camel(slug)}",
+                      # 初期のアプリは com.seadice.{camelCase}（例: 野菜まるごと検定 = com.seadice.kateisaienApp3）
+                      f"com.seadice.{to_camel(slug)}"}
         for bundle_id in candidates:
             result = lookup_bundle(bundle_id)
             if result:
