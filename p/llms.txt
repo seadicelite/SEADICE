@@ -228,6 +228,7 @@
 - [画像リサイザー](https://seadice.win/image-resizer/): サーバー送信なしでブラウザ内で変換
 - [SEADICEと話す](https://seadice.win/talk/): 音声つきAIチャット
 - [ブログ](https://seadice.win/blog/): 開発ブログ。アプリとサイトの運用で起きた障害・数字・設計判断の記録と、Claude AI・Flutter・自動化の入門記事
+- [ボランティア事業](https://seadice.win/volunteer/): NPO・ボランティア団体と個人の社会貢献活動に無料で伴走し、活動紹介の文章・Webサイト・小さなツールを一緒に作る
 - [活動を支援する](https://seadice.win/support/): 開発活動への支援
 - [プライバシーポリシー](https://seadice.win/privacy/): 各アプリのプライバシーポリシー
 
