@@ -50,7 +50,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 
 <section><h2>基本方針</h2>
 <div class="cards">
-<div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M9 8l3 4 3-4M12 12v5M9.5 13.5h5"/></svg><h3>必要経費のみ</h3><p>人件費も利益もいただきません。かかるのは、ドメイン代などの実費だけです。</p></div>
+<div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M9 8l3 4 3-4M12 12v5M9.5 13.5h5"/></svg><h3>必要経費のみ</h3><p>人件費も利益もいただきません。ドメイン代などの実費だけを、団体に負担してもらいます。</p></div>
 <div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="5.5" r="2"/><circle cx="16" cy="5.5" r="2"/><path d="M8 9v5l-2 6M8 14l2 6M16 9v5l-2 6M16 14l2 6M10 11h4"/></svg><h3>伴走型</h3><p>作る前に、何に困っているかを一緒に整理します。</p></div>
 <div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h16M4 17.5h16"/><circle cx="9" cy="6.5" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="7" cy="17.5" r="2"/></svg><h3>適切な技術</h3><p>無料の道具で済むなら、新しく作りません。</p></div>
 </div></section>
@@ -121,11 +121,11 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <p>次の3つを書いて、メールで送ってください。相談は無料です。</p>
 <ul class="list"><li>団体名か活動名</li><li>どんな活動か</li><li>困っていること</li></ul>
 <a class="btn" href="mailto:hi@seadice.win?subject=%E3%80%90%E3%83%9C%E3%83%A9%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2%E6%94%AF%E6%8F%B4%E3%81%AE%E7%9B%B8%E8%AB%87%E3%80%91">メールで相談する</a>
-<div class="addr"><code>hi@seadice.win</code><button type="button" id="copy">アドレスをコピー</button><span id="copied" aria-live="polite"></span></div>
+<div class="addr"><code>hi@seadice.win</code><button type="button" id="copy" hidden>アドレスをコピー</button><span id="copied" aria-live="polite"></span></div>
 <p class="small">参加者の名前などの個人情報は書かないでください。メールは返信と支援のためだけに使い、ほかの目的には使いません。</p>
 </div></section>
 </main>
 <footer><p>&copy; 2026 SEADICE ・ <a href="/">トップページ</a> ・ <a href="/about/">運営者情報</a> ・ <a href="/promise/">7ヶ条</a> ・ <a href="/privacy/">プライバシーポリシー</a></p></footer>
-<script>document.getElementById('copy').onclick=function(){var m=document.getElementById('copied');navigator.clipboard.writeText('hi@seadice.win').then(function(){m.textContent='コピーしました'},function(){m.textContent='コピーできませんでした。長押しで選んでください'})}</script>
+<script>var b=document.getElementById('copy');if(navigator.clipboard){b.hidden=false}b.onclick=function(){var m=document.getElementById('copied');navigator.clipboard.writeText('hi@seadice.win').then(function(){m.textContent='コピーしました'},function(){m.textContent='コピーできませんでした。長押しで選んでください'})}</script>
 </body>
 </html>
