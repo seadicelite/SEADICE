@@ -10361,6 +10361,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "交互に自己開示し合った条件の参加者は、役割を分けた条件より、相手への好意・親密さ・類似の感覚・会話の楽しさをより高く報告した。大学生が対象で、日常の人間関係への一般化には注意が必要。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どこまで言える？",
+        "body": "対象はアメリカの大学生156人で、Skype越しに1回だけ話した直後の気持ちを聞いた実験。何度も会う中で仲が深まるか、友だちや職場など実際の関係でも同じになるかは、この研究だけではわからないんだ。"
       }
     ],
     "quiz": {
@@ -10681,7 +10686,7 @@
     "category": "運動と老化",
     "themeColor": "#B45309",
     "sourceLabel": "Ryall & Denham, \"A Systematic Review and Meta-analysis Highlights a Link Between Aerobic Fitness and Telomere Maintenance\" (The Journals of Gerontology: Series A, 2025)",
-    "sourceUrl": "https://academic.oup.com/biomedgerontology/article/80/6/glaf068/8115838",
+    "sourceUrl": "https://doi.org/10.1093/gerona/glaf068",
     "cards": [
       {
         "stage": "結論",
@@ -10696,7 +10701,12 @@
       {
         "stage": "結果",
         "title": "数字で見ると",
-        "body": "VO2maxが上位70パーセンタイル以上の人は、平均以下の人よりテロメアが長かった。中程度の運動量でも届く水準のVO2maxで差が見られたが、因果関係までは示せない。"
+        "body": "VO2maxが同じ年齢・性別の70パーセンタイル以上（上位30%）の人は、平均以下の人よりテロメアが長かった。中程度の運動量でも届く水準のVO2maxで差が見られたが、因果関係までは示せない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運動するとテロメアが伸びるの？",
+        "body": "実は、集めたのは体力の高い人と低い人のテロメアの長さを比べた研究。体力が先かテロメアが先か、ほかの生活習慣の影響かは区別できない。70〜90パーセンタイルの人と、それより上の人の間では差が見られなかったので、「鍛えるほど長くなる」とも言えないんだ。"
       }
     ],
     "quiz": {
