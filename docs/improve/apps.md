@@ -16,6 +16,7 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 2. 「良いアプリの基準」4つで、公開済みアプリを1本ずつ見る手順を /improve-app に足す
 
 ### ルールの変更履歴
+- 2026-10-17: 例外: 無事ボタンはアプリからメディアへの戻り口を2本（oya の見守り・BOHAN の災害）にした（ユーザー判断。用途が見守りと災害の2つにまたがるため）。原則の「1本だけ」は変えない
 - 2026-10-14: docs/mockup.md に「画面が日本語だけのアプリは日本語のスクショだけ」「明るい背景では2行目を白にしない」を追加
 - 2026-10-14: 「通知で行動をうながすテーマの選び方」に「届いたその場で、1〜2分でできる」を足して3つにした（お風呂のテーマを作ったが、ユーザーが「お風呂は通知入れてやれるもんでもない」と指摘）
 - 2026-10-14: docs/flutter-app.md に「通知で行動をうながすテーマの選び方」を追加（研究が強い＝メタ分析か複数の比較試験、届くと嬉しい＝注意型にしない）。ユーザーが「論文とか研究が大事なんじゃないの？」「リマインドして嬉しいのがいいね」と指摘し、手軽さで選んだ候補に1本だけの実験が混ざっていたため
@@ -53,7 +54,7 @@ docs/flutter-app.md（アプリ本体）、CLAUDE.md「アプリをサイトに�
 - アプリページの削除・統合
 
 ## 次にやること
-- 無事ボタン（buji-button）が審査を通ったら、メディア側の相互送客を設定する: `seadice-media/media/oya.json` の `apps` に1件（id buji-button / name 無事ボタン / appStoreId / icon /img/apps/buji-button.webp（128px）/ articles: parent-living-alone-found-late, parent-living-apart-call-visit-frequency, parent-living-alone-isolation-health / theme: 離れて暮らす親の見守り・孤立の記事だけ。認知症・運転・介護費用には付けない）→ `python3 media/build.py oya`。アプリは oya.seadice.win/apps/buji-button/ が200を返したときだけリンクを出す作りなので、ページができれば再申請なしでリンクが出る（2026-10-17。審査前に作らなかったのは、oya に別作業の未コミット変更があったため）
+- 無事ボタン（buji-button）が審査を通ったら、メディア側の相互送客を設定する: `seadice-media/media/oya.json` の `apps` に1件（id buji-button / name 無事ボタン / appStoreId / icon /img/apps/buji-button.webp（128px）/ articles: parent-living-alone-found-late, parent-living-apart-call-visit-frequency, parent-living-alone-isolation-health / theme: 離れて暮らす親の見守り・孤立の記事だけ。認知症・運転・介護費用には付けない）→ `python3 media/build.py oya`。BOHAN にも同じく `media/bohan.json` の `apps` に1件（articles: disaster-evacuation-crime-myth-research / theme: 災害の後・避難の記事だけ）→ `python3 media/build.py bohan`。アプリは oya・bohan の /apps/buji-button/ がそれぞれ200を返したときだけリンクを出す作りなので、ページができれば再申請なしでリンクが出る（2026-10-17。審査前に作らなかったのは、oya に別作業の未コミット変更があったため）
 1. **通知de人生改善の保留テーマ**（2026-10-14）: 笑う・40秒の休憩・朝の光・つながる・思い出す・ふれる。研究が1本だけか、届くと嬉しいが弱い。EVIDENCE にメタ分析か複数の比較試験を足せたら（/evidence-topics）、テーマに入れる。「思い出す」「お風呂」の時間を決めた通知はもう作れる
 1. **通知de人生改善 1.1.0 が審査を通ったら、サイトを新しい名前と中身に合わせる**（2026-10-14）: p/tools/notify-mindfulness/ の見出し・説明・FAQ・JSON-LD を「7テーマ（呼吸・姿勢・目標・感謝と親切・好きな曲・未来の自分・1分の筋トレ）、どれも届いたらすぐできる、テーマごとに届く時刻、通知から始めるまでの時間の記録」に、p/privacy/notify-mindfulness/ に記録（気分・目標と1歩・ありがとう帳・未来ノート、端末内のみ）を、released-apps.json・アプリ一覧・llms.txt の名前を「通知de人生改善」に。EVIDENCE の practice.json で「姿勢と自信」をアプリにも向けるか（今は /tools/shisei-reset/）を決める。「もとになった研究」欄は `/evidence notify-mindfulness`（アプリの研究タブと同じ assets/research.json の研究から）。アイコンは1.1.0で「ベルから芽・上向きの矢印」（元絵 ~/Developer/Images/jinsei.png）に変えたので、サイトのアイコン（p/icons/apps/ の notify-mindfulness）も build_apps_page で取り直すか、元絵から作り直す。/tools/shisei-reset/ からこのアプリへ案内する
 1. **HSPナビ 1.1.0 が審査を通ったら、サイトとメディアからAIの表記を外す**（2026-10-14）: p/tools/hsp-relationship-check/ の title・description・og・JSON-LD・ラベル「Relationship AI」・説明文・特徴02（AIがHSP視点で分析→気持ちの整理）・特徴05（AI相談は1日3回→通信なし）、p/apps/index.html の説明（build_apps_page.py で作り直し）、seadice-media の media/research.json の HSPナビの catch（「人間関係の悩みのAI相談」→「タップで気持ちの整理」）。プライバシーポリシーは版ごとの書き方にしてあるので触らなくてよい
