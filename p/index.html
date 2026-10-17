@@ -275,8 +275,11 @@
     .picto-grid svg { width: 36px; height: 36px; color: var(--accent); }
     .picto-grid .mono { font-size: 12px; color: var(--muted); }
     .picto-grid strong { font-size: 16px; font-weight: 700; line-height: 1.4; }
-    .wwd-grid .wwd-wide { grid-column: 1 / -1; flex-direction: row; align-items: center; gap: 16px; }
-    .wwd-wide > span { display: flex; flex-direction: column; gap: 4px; }
+    .vol-box { border: 1px solid rgba(232,236,242,.12); border-left: 3px solid var(--accent); padding: 24px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; }
+    .vol-box p { font-size: 16px; font-weight: 700; }
+    .vol-btn { display: inline-block; background: var(--accent); color: #05050C; font-weight: 700; font-size: 15px; padding: 14px 24px; border-radius: 8px; text-decoration: none; }
+    .vol-btn:hover { opacity: .85; }
+    .vol-btn:focus-visible { outline: 2px solid var(--text); outline-offset: 3px; }
     @media (min-width: 900px) { .wwd-grid { grid-template-columns: repeat(4, 1fr); } .wwd-grid a { padding: 32px 24px; } .wwd-grid svg { width: 44px; height: 44px; } }
     .media-grid a { flex-direction: row; align-items: center; gap: 14px; padding: 20px 18px; }
     .media-grid svg { width: 30px; height: 30px; flex-shrink: 0; color: #aab4c3; transition: color .2s; }
@@ -360,6 +363,15 @@
     </ul>
   </section>
 
+  <section id="volunteer" class="reveal" aria-labelledby="volunteer-heading">
+    <p class="section-label">Volunteer</p>
+    <h2 class="section-title" id="volunteer-heading">社会貢献活動のデジタル支援</h2>
+    <div class="vol-box">
+      <p>サイトやアプリづくりを、人件費なしで手伝います。</p>
+      <a class="vol-btn" href="/volunteer/">くわしく見る</a>
+    </div>
+  </section>
+
   <section id="what-we-do" class="reveal" aria-labelledby="wwd-heading">
     <p class="section-label">What we do</p>
     <h2 class="section-title" id="wwd-heading">SEADICEがつくっているもの</h2>
@@ -368,7 +380,6 @@
       <a href="#media"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 3.5h9l4 4v13h-13z"/><path d="M14.5 3.5v4h4M8.5 12h7M8.5 15.5h7M8.5 9h3"/></svg><span class="mono">Media</span><strong>メディア</strong></a>
       <a href="#study"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5h4.5V16h4.5v-4.5h4.5V7h3.5"/></svg><span class="mono">Study</span><strong>独学講座</strong></a>
       <a href="#tools"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h16M4 17.5h16"/><circle cx="9" cy="6.5" r="2" fill="#05050C"/><circle cx="15" cy="12" r="2" fill="#05050C"/><circle cx="7" cy="17.5" r="2" fill="#05050C"/></svg><span class="mono">Tools</span><strong>無料Webツール</strong></a>
-      <a href="/volunteer/" class="wwd-wide"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7.5-4.5-7.5-10A4 4 0 0 1 12 7.5 4 4 0 0 1 19.5 10c0 5.5-7.5 10-7.5 10z"/></svg><span><span class="mono">Volunteer</span><strong>ボランティア事業（社会貢献活動のデジタル支援）</strong></span></a>
     </div>
   </section>
 
