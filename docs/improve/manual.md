@@ -7,7 +7,6 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
-- [ ] 申請前 | アプリ | 孤独チャレンジ（kodoku-challenge）の申請準備: ①アプリアイコン（1024×1024）を決める（希望を Claude に。今は Flutter の標準アイコン）②スクリーンショットの見出しを選ぶ（Claude が案を出す）③実機で通知の許可→決めた時刻に仲間の声かけが届くか確認 ④App Store Connect に新規登録（Bundle ID `win.seadice.kodokuChallenge`、文面は `~/Developer/目標達成系/kodoku-challenge/APPSTORE_SUBMISSION.md`）— 同じアカウントの IJIN と似ていると見られる心配があるので、審査メモに違いを書いてある（2026-10-18）
 - [ ] すぐ | アプリ | 無事ボタンの通知を通す準備: ①Apple Developer の「Keys」で APNs のキー（.p8）を作り、Firebase コンソール（seadiceweb）→ プロジェクトの設定 → Cloud Messaging → Apple アプリ「無事ボタン iOS」にアップロード（キーID・チームID S5SK25MHJG を入れる）②終わったら Claude に「APNsキー入れた」— 中継から iPhone に通知を届けるのに要る（2026-10-17）
 - [ ] すぐ | アプリ | IJIN（旧 哲人フレンド）1.2.0（ビルド5）を提出する: ipa はできている（`~/Developer/哲学系/tetsujin-friends/build/ios/ipa/tetsujin_friends.ipa`）。①Transporter でアップロード ②App Store Connect で 1.2.0 を作り、日本語ページのアプリ名「IJIN - 偉人が話しかけてくる友達」・キーワード・What's New・審査メモを `APPSTORE_SUBMISSION.md` のとおりにする（英語ページは触らない）③スクショに「哲人フレンド」の文字があれば差し替え ④通ったら Claude に「IJIN 審査通った」— 友達がいない人向けに改名し、待たせる演出の撤去・同梱文1,575文・本音の強さを入れた（2026-10-17）
 - [ ] すぐ | アプリ | 財布の紐（旧 Spendology、1.0.0+6）を再提出する: ipa はできている（`~/Developer/ファイナンス系/spendology/build/ios/ipa/財布の紐.ipa`。共有メニュー・Safari拡張・App Group 入りを確認済み）。①実機で、Safari の共有 →「財布の紐」と、設定 → アプリ → Safari → 機能拡張でオンにして商品ページ下の帯 →「待つリストに入れる」→ アプリに入るかを試す ②Transporter でアップロード ③App Store Connect でアプリ名（財布の紐／Purse Strings）・サブタイトル・説明・キーワード・審査メモを `APPSTORE_SUBMISSION.md` のとおりに差し替え、スクリーンショットを `screenshots/`（日本語）と `screenshots/en/`（英語）の 6.3・duo・ipad に入れ替え、却下への返信文も送る — 同じアカウントの似たアプリと区別できず却下されたため、仕掛けを見抜くアプリに作り替えた（2026-10-15）
