@@ -208,16 +208,14 @@ flutter:
         - asset: assets/fonts/NotoSansJP-VariableFont_wght.ttf
 ```
 
-**assets/i18n/** に**まず ja.json のみ**作成する（en.json は作らない）：
+**assets/i18n/** に **ja.json だけ**を作る（翻訳はしない）：
 
 ```
 assets/i18n/
   ja.json
 ```
 
-> **開発中はja.jsonのみを更新する。** 機能追加・修正のたびに全言語を訳すのはトークンの無駄で、開発中は仕様も頻繁に変わるため二度手間になる。
-> 残り9言語（en, zh-Hans, zh-Hant, ko, fr, de, es, it, pt）は**リリース直前に1回だけ**、ja.jsonの最終版から一括生成する（Step 6.5参照）。
-> 多言語対応は2026-07〜08頃に翻訳ファイルの同期コストを理由に日英2言語へ縮小していたが、2026-08-02に方針転換し**App Store主要市場をカバーする10言語（ja, en, zh-Hans, zh-Hant, ko, fr, de, es, it, pt）に戻した**。翻訳自体はリリース直前の一括生成に限定することで同期コストを抑える。
+> **翻訳はしない（2026-10-18〜、ユーザー判断「日本語だけでいい」）**。アプリは日本語だけで作り、リリース時にも他言語のjsonは作らない。日本語以外の端末でも日本語で表示する。多言語化は、伸びたアプリだけをユーザーが国を絞って決めたときに行う（以前の「リリース直前に10言語へ一括翻訳」はやめた）。
 > 1ニッチ1アプリなので、このアプリのmain.dartで使うキーを決めてから書けばよい（他アプリとキーを共有する必要はない）。
 
 共通で必要なキー：
@@ -230,7 +228,6 @@ assets/i18n/
   "version": "バージョン 1.0.0",
   "privacy_policy": "プライバシーポリシー",
   "contact": "お問い合わせ",
-  "language": "言語",
   "error_occurred": "エラーが発生しました",
   "no_data": "まだデータがありません",
   "loading": "読み込み中...",
@@ -241,7 +238,7 @@ assets/i18n/
 ```
 
 アプリ固有のキー（タブ名・機能テキスト等）は各アプリの内容に合わせて追加する。
-**10言語すべてに同じキーセットを揃えること**（キーの過不足があると `L.t()` が key をそのまま表示する）。
+ja.json に、コードで使うキーをすべて入れること（キーがないと `L.t()` が key をそのまま表示する）。
 
 `pubspec.yaml` のassetsに追加：
 ```yaml
@@ -250,35 +247,24 @@ assets/i18n/
     - assets/i18n/
 ```
 
-**多言語の実装（`easy_localization`不使用、自前実装）**：
+**文言の読み込み（`easy_localization`不使用、自前実装。日本語だけ）**：
 
 ```dart
 // main.dartの上部に定義
 class L {
   static Map<String, dynamic> _strings = {};
-  static final _supported = ['ja','en','zh-Hans','zh-Hant','ko','fr','de','es','it','pt'];
-
-  static Future<void> load(String code) async {
-    final key = _supported.contains(code) ? code : 'en';
-    final data = await rootBundle.loadString('assets/i18n/$key.json');
+  static Future<void> load() async {
+    final data = await rootBundle.loadString('assets/i18n/ja.json');
     _strings = jsonDecode(data);
   }
 
   static String t(String key) => _strings[key]?.toString() ?? key;
 }
 
-// main()内でロード（SharedPreferences優先、なければ端末のlocale）
-final prefs = await SharedPreferences.getInstance();
-final savedLang = prefs.getString('language');
-if (savedLang != null) {
-  await L.load(savedLang);
-} else {
-  final locale = WidgetsBinding.instance.platformDispatcher.locale;
-  await L.load(locale.languageCode);
-}
+// main()内でロード
+await L.load();
 ```
 
-> `_supported`が10言語のままだと、他言語のjsonがまだ存在しない開発中にロケールが日本語以外の実機・シミュレーターで起動するとクラッシュする。**開発中は`_supported = ['ja']`にしておき、Step 6.6で全言語jsonを生成するタイミングで10言語構成に戻す。**
 
 **lib/main.dart**: 動くFlutterアプリを実装する。
 - MaterialApp + ダークテーマ、絵文字禁止
@@ -343,7 +329,6 @@ class SettingsPage extends StatelessWidget {
   ).toString()),
   ```
   > 過去に `seadice.home@gmail.com` を使っていたが `hi@seadice.win` に統一した。新規アプリは必ず新しい方を使う。
-- **言語選択**: DropdownButtonまたはListTileで対応10言語（日本語・英語・簡体字中国語・繁体字中国語・韓国語・フランス語・ドイツ語・スペイン語・イタリア語・ポルトガル語）から選択し `SharedPreferences` に保存、即座にUIに反映
 
 ルール：
 - `Scaffold` + `ListView` でシンプルに実装する
@@ -467,17 +452,6 @@ Flutterアプリのスケルトン（Step 6）が動く状態になったら、�
 3周終えたら、各周で何を追加・修正したか・各周の自己採点を箇条書きで報告する。この工程はコード生成の中で自動的に行うものであり、ユーザーに毎周確認を取る必要はない。
 
 > Why: ユメトキアプリでこのループを行った際、各周1機能ずつに絞って提案していたが、ユーザーから「候補が出たら全部追加していい」とフィードバックがあった。取捨選択に時間をかけず、思いついた良い候補は全部実装する方針。過去にこのステップ自体を飛ばしてリリース直前まで来てしまったことがあるため、gachaスキルの標準ステップとして明記する。
-
-## Step 6.6: 多言語一括生成（リリース直前・1回だけ）
-
-機能追加・修正のイテレーション中はja.jsonのみを更新し続ける。**リリース準備が整った最終段階になってはじめて**、以下を行う：
-
-1. `assets/i18n/ja.json` の最終版を読み、全キーを英語(en)・簡体字中国語(zh-Hans)・繁体字中国語(zh-Hant)・韓国語(ko)・フランス語(fr)・ドイツ語(de)・スペイン語(es)・イタリア語(it)・ポルトガル語(pt)に翻訳し、`assets/i18n/{code}.json`を9本新規作成する
-2. `class L` の `_supported` を `['ja']` → `['ja','en','zh-Hans','zh-Hant','ko','fr','de','es','it','pt']` に戻す
-3. App Store登録用テキスト（Step 1で作成した日本語版）もこのタイミングで10言語分（日本語含む）翻訳する
-4. `flutter run` でロケールを各言語に切り替えて（シミュレーターの設定変更、または`savedLang`を一時的に切り替えて）文字化け・キー欠落がないか代表的に数言語を確認する
-
-> このステップを毎回の機能追加のたびに行わないこと。ja.jsonのキーが変わるたびに9言語訳し直すのはトークンの無駄であり、リリース前の1回にまとめることで無駄な二度手間を避けられる。
 
 ## Step 7: firebase.json は触らない
 
