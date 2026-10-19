@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>写真の位置情報を消す — SNSに上げる前に撮影場所を削除 | SEADICE</title>
+<meta name="description" content="スマホの写真に残った撮影場所（緯度・経度）を、SNSに上げる前に消す無料ツール。写真を選ぶだけで、残っている位置情報を見せてから消し、消えたことを読み直して確かめます。写真はどこにも送らず、端末の中だけで処理します。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/shashin-ichijoho-keshi/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="写真の位置情報けし | SEADICE">
+<meta property="og:description" content="SNSに上げる前に、写真に残った撮影場所を消す。写真はどこにも送らず、端末の中だけで処理します。">
+<meta property="og:url" content="https://seadice.win/tools/shashin-ichijoho-keshi/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"写真の位置情報けし","url":"https://seadice.win/tools/shashin-ichijoho-keshi/","description":"写真のExif情報に残った撮影場所（GPSの緯度・経度）を表示して削除し、削除後のファイルを読み直して位置情報が残っていないことを確かめるブラウザツール。写真は外部に送信せず端末内で処理する。SEADICEが作成。","applicationCategory":"UtilitiesApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@id":"https://seadice.win/#organization","@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-20","dateModified":"2026-10-20"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"HOME","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"TOOLS","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"写真の位置情報けし","item":"https://seadice.win/tools/shashin-ichijoho-keshi/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"写真の位置情報はSNSが自動で消してくれるのでは？","acceptedAnswer":{"@type":"Answer","text":"投稿時に位置情報を消すと説明しているSNSもありますが、消すかどうかはサービスごとに違い、仕様が変わることもあります。メールの添付、クラウドの共有リンク、ブログ、フリマ、チャットで元の画質のまま送る場合などは、写真のファイルがそのまま相手に届くことがあります。上げる前に自分で消しておけば、どこに出すかを気にせずに済みます。"}},{"@type":"Question","name":"位置情報を消すと画質は落ちますか？","acceptedAnswer":{"@type":"Answer","text":"JPEG（拡張子が .jpg）の写真は、画像の部分には手を付けず、撮影情報の部分だけを取り除くので画質は変わりません。HEIC・PNG・WebPなどの写真は画像を描き直して保存するため、HEIC・WebPはJPEGに変わり、画質がわずかに変わることがあります。透明な部分は白になり、動く画像は1コマになります。"}},{"@type":"Question","name":"iPhoneで撮るときから位置情報を付けない方法は？","acceptedAnswer":{"@type":"Answer","text":"「設定」→「プライバシーとセキュリティ」→「位置情報サービス」→「カメラ」で「なし」を選ぶと、これから撮る写真に撮影場所が記録されなくなります。共有するときに1枚ずつ外したいときは、共有画面の上にある「オプション」で「位置情報」をオフにします。"}},{"@type":"Question","name":"Androidでは？","acceptedAnswer":{"@type":"Answer","text":"カメラアプリの設定に「位置情報タグ」「位置情報を保存」などの項目があり、オフにすると記録されなくなります。名前と場所は機種やカメラアプリによって違います。"}},{"@type":"Question","name":"写真はどこかに送信されますか？","acceptedAnswer":{"@type":"Answer","text":"送信しません。写真の読み込み・位置情報の削除・確認はすべて、開いているブラウザの中だけで行います。ページを開いたままなら、通信を切っても使えます。"}},{"@type":"Question","name":"保存した写真はどこに入りますか？","acceptedAnswer":{"@type":"Answer","text":"スマホでは「保存する」を押すと共有画面が開きます。iPhoneは「画像を保存」を選ぶと写真アプリに入ります。Androidは機種によって項目の名前が違うので、共有画面に保存の項目がないときは、下の「ファイルとして保存」を押してください（「ダウンロード」に入ります）。パソコンではダウンロードフォルダに入ります。ファイル名の最後に「_noloc」が付きます。元の写真はそのまま残るので、上げるときは「_noloc」の付いたほうを選んでください。"}}]}]}</script>
+<style>.lead b{color:var(--sd-text)}.app{padding:20px 18px;margin-bottom:40px}.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}.seg button{font:inherit;font-size:13px;color:var(--sd-muted);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:10px 12px;cursor:pointer;line-height:1.5;text-align:left}.seg button b{display:block;font-size:15px;color:var(--sd-text)}.seg button[aria-pressed=true]{border-color:var(--sd-accent);border-width:2px;padding:9px 11px}.seg button[aria-pressed=true] b{color:var(--sd-accent)}.drop{border:1px dashed var(--sd-line2);border-radius:8px;padding:18px 14px;text-align:center}.drop.over{border-color:var(--sd-accent)}.btn{display:block;width:100%;min-height:52px;font:inherit;font-size:16px;font-weight:800;color:var(--sd-bg);background:var(--sd-accent);border:0;border-radius:8px;padding:14px;cursor:pointer}.btn2{display:block;width:100%;min-height:48px;font:inherit;font-size:15px;font-weight:700;color:var(--sd-text);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:12px;cursor:pointer;margin-top:10px}.hint{font-size:13px;color:var(--sd-text2);margin-top:10px}.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}#list{margin-top:16px}.item{border:1px solid var(--sd-line2);border-radius:8px;padding:14px;margin-top:12px;background:var(--sd-bg)}.fn{font-size:13px;color:var(--sd-muted);word-break:break-all;margin-bottom:6px}.st{font-size:15px;font-weight:800;padding-left:10px;border-left:4px solid var(--sd-line2);margin:8px 0}.st.warn{border-color:#F2A65A;color:#F2C79A}.st.ok{border-color:var(--sd-accent);color:var(--sd-accent)}.st.err{border-color:#F2A65A}.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:14px;margin:6px 0 4px}.kv dt{color:var(--sd-muted)}.kv dd{word-break:break-all;font-variant-numeric:tabular-nums}.small{font-size:13px;color:var(--sd-text2);margin-top:4px}.item .btn{margin-top:12px}.dl{display:inline-block;font-size:13px;color:var(--sd-link);padding:10px 0}section.s{margin-bottom:44px}section.s>h2{font-size:19px;margin-bottom:10px}section.s>p{font-size:15px;margin-bottom:12px}.tbl{width:100%;border-collapse:collapse;font-size:14px}.tbl th,.tbl td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--sd-line);vertical-align:top}.tbl th{font-size:12px;color:var(--sd-muted);font-weight:700}ul.why{padding-left:1.4em;font-size:15px}ul.why li{margin-bottom:8px}details.q{border-bottom:1px solid var(--sd-line);padding:12px 0}details.q summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details.q p,details.q ul{font-size:14px;color:var(--sd-text2);margin-top:8px}details.q ul{padding-left:1.4em}.src{display:block;background:var(--sd-surface);border:1px solid var(--sd-line);border-radius:8px;padding:14px 16px;text-decoration:none;color:var(--sd-text);margin-top:10px}.src:hover{border-color:var(--sd-accent)}.src small{display:block;font-size:12px;color:var(--sd-accent);margin-bottom:2px}.src b{font-size:14px}.note{font-size:13px;color:var(--sd-muted)}</style>
+<style id="sd-design">:root{--sd-bg:#05050C;--sd-surface:#0C0C1A;--sd-surface2:#11112a;--sd-line:#1a1a2e;--sd-line2:#2a2a44;--sd-text:#e2e8f0;--sd-text2:#b6c0cf;--sd-muted:#7c8aa0;--sd-accent:#00FFD1;--sd-accent2:#38BDF8;--sd-link:#7dd3fc;--sd-g:16px}@media(min-width:600px){:root{--sd-g:24px}}@media(min-width:960px){:root{--sd-g:32px}}html{-webkit-text-size-adjust:100%}html,body{overflow-x:clip}body{overflow-wrap:break-word}img,video{max-width:100%;height:auto}:focus-visible{outline:2px solid var(--sd-accent);outline-offset:3px}body:is(.t-read,.t-show,.t-use) .nav-logo,body:is(.t-read,.t-show,.t-use) .logo-text{background:none;-webkit-text-fill-color:currentColor;color:var(--sd-accent)}body:is(.t-read,.t-show,.t-use) :is(.tool-cta a,.btn,.cta a,.add){background:var(--sd-accent);color:#05050C;box-shadow:none;border-radius:6px}body:is(.t-read,.t-show,.t-use) :is(.card,.tool-cta,.info-box,.evidence,.ev-media,.cta,.stat-box,.app,.sd-tool){border-radius:8px;box-shadow:none}body:is(.t-read,.t-show,.t-use) :is(.badge,.tag,.app-badge){border-radius:4px}body:is(.t-read,.t-show,.t-use) h1 span{color:inherit}body.t-use main{max-width:calc(640px + var(--sd-g)*2);padding-left:var(--sd-g);padding-right:var(--sd-g)}body.t-use h1{font-size:clamp(24px,5.4vw,32px);line-height:1.35}body.t-use .lead{font-size:14px;line-height:1.8}body.t-use .sd-tool{background:var(--sd-surface2);border:1px solid var(--sd-line2);border-radius:8px}body.t-use input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=file]),body.t-use select,body.t-use textarea{min-height:48px;font-size:max(16px,1em)}body.t-use button{min-height:44px}@media(min-width:960px){body.t-use main:has(>.sd-tool){max-width:calc(1120px + var(--sd-g)*2);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);column-gap:56px;align-items:start}body.t-use main:has(>.sd-tool)>*{grid-column:1}body.t-use main>.sd-tool{grid-column:2;grid-row:1 / span 40;position:sticky;top:80px;margin-bottom:0}}</style></head>
+<body class="t-use">
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / 写真の位置情報けし</p>
+  <p class="label">TOOL</p>
+  <h1>写真の位置情報けし</h1>
+  <p class="lead">スマホで撮った写真には、<b>撮った場所の緯度・経度</b>がファイルの中に記録されていることがあります。自宅で撮った写真をそのまま載せると、住所の手がかりになります。SNSに上げる前に写真を選ぶだけで、残っている位置情報を見せてから消し、消えたことを確かめます。写真はどこにも送りません。</p>
+
+  <div class="app sd-tool" id="app">
+    <div class="seg" role="group" aria-label="消す範囲">
+      <button type="button" id="mAll" aria-pressed="true"><b>ぜんぶ消す</b>場所・日時・機種・縮小画像</button>
+      <button type="button" id="mGps" aria-pressed="false"><b>場所だけ消す</b>日時・機種などは残す</button>
+    </div>
+    <div class="drop" id="drop">
+      <button type="button" class="btn" id="pick">写真を選んで位置情報を消す</button>
+      <input type="file" id="file" class="vh" accept="image/*" multiple tabindex="-1" aria-hidden="true">
+      <p class="hint">何枚かまとめて選べます。写真はこの端末の中だけで処理し、外には送りません。</p>
+    </div>
+    <div id="list" aria-live="polite"></div>
+    <button type="button" class="btn2" id="saveAll" hidden>まとめて保存する</button>
+    <button type="button" class="btn2" id="clear" hidden>選んだ写真を消してやり直す</button>
+  </div>
+
+  <section class="s" aria-labelledby="h-read">
+    <h2 id="h-read">結果の読み方</h2>
+    <table class="tbl">
+      <tr><th scope="col">表示</th><th scope="col">意味</th></tr>
+      <tr><td>撮影場所</td><td>写真に記録されていた緯度・経度です。地図アプリに入れると、撮った場所が数メートルから数十メートルの範囲でわかります。</td></tr>
+      <tr><td>撮影日時・機種</td><td>いつ、どのスマホで撮ったか。「ぜんぶ消す」ではこれも消します。</td></tr>
+      <tr><td>縮小画像</td><td>ファイルの中に入っている小さな写真です。編集アプリによっては、切り抜きやモザイクをかける前の写真がここに残ることがあります。「ぜんぶ消す」で消えます。</td></tr>
+      <tr><td>消しました</td><td>保存する写真を、このページがもう一度読み直して、撮影場所が残っていないことを確かめた印です。</td></tr>
+    </table>
+    <p class="note">「ぜんぶ消す」でも、写真の向きと色の情報だけは残します（消すと横向きに表示されたり、色が変わったりするため）。</p>
+  </section>
+
+  <section class="s" aria-labelledby="h-look">
+    <h2 id="h-look">写っているものからも場所はわかる</h2>
+    <p>位置情報を消しても、写真に写っているものから場所がわかることがあります。上げる前に、次のものが写っていないか見てください。</p>
+    <ul class="why">
+      <li>窓やベランダから見える景色・建物・看板</li>
+      <li>電柱や街区表示板の住所、表札、マンション名</li>
+      <li>宅配の伝票、郵便物、学校や会社の名前が入った物</li>
+      <li>最寄り駅や近所のお店など、毎回同じ場所</li>
+      <li>鏡・窓ガラス・瞳への映り込み</li>
+    </ul>
+  </section>
+
+  <section class="s" aria-labelledby="h-src">
+    <h2 id="h-src">しくみと出典</h2>
+    <p>スマホやデジカメの写真は、撮影情報を「Exif（イグジフ）」という決まった形でファイルの中に書き込みます。撮影場所はその中の「GPS」の欄に、緯度・経度・高度などとして入ります。このツールは、JPEG写真ではExifの欄を読んで、GPSの欄（「場所だけ消す」）またはExif全体（「ぜんぶ消す」）を取り除きます。あわせて、編集アプリが書き込む別の情報（XMP・IPTC）と、写真の後ろに付いている深度・HDR用の画像も取り除きます（動く写真の動画部分も外れ、静止画になります）。「場所だけ消す」は撮影場所の欄だけを空にするので、日時・機種・縮小画像・カメラの設定などの撮影情報は残ります。HEIC・PNG・WebPの写真は、画像だけを描き直して保存するので、撮影情報は何も残りません。</p>
+    <p class="note">出典: Exif の規格（CIPA DC-008 / JEITA CP-3451「デジタルスチルカメラ用画像ファイルフォーマット規格」）。規格の公開ページに接続できず未確認のため、リンクはしていません。</p>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <details class="q"><summary>写真の位置情報はSNSが自動で消してくれるのでは？</summary><p>投稿時に位置情報を消すと説明しているSNSもありますが、消すかどうかはサービスごとに違い、仕様が変わることもあります。メールの添付、クラウドの共有リンク、ブログ、フリマ、チャットで元の画質のまま送る場合などは、写真のファイルがそのまま相手に届くことがあります。上げる前に自分で消しておけば、どこに出すかを気にせずに済みます。</p></details>
+    <details class="q"><summary>位置情報を消すと画質は落ちますか？</summary><p>JPEG（拡張子が .jpg）の写真は、画像の部分には手を付けず、撮影情報の部分だけを取り除くので画質は変わりません。HEIC・PNG・WebPなどの写真は画像を描き直して保存するため、HEIC・WebPはJPEGに変わり、画質がわずかに変わることがあります。透明な部分は白になり、動く画像は1コマになります。</p></details>
+    <details class="q"><summary>iPhoneで撮るときから位置情報を付けない方法は？</summary><p>「設定」→「プライバシーとセキュリティ」→「位置情報サービス」→「カメラ」で「なし」を選ぶと、これから撮る写真に撮影場所が記録されなくなります。共有するときに1枚ずつ外したいときは、共有画面の上にある「オプション」で「位置情報」をオフにします。</p></details>
+    <details class="q"><summary>Androidでは？</summary><p>カメラアプリの設定に「位置情報タグ」「位置情報を保存」などの項目があり、オフにすると記録されなくなります。名前と場所は機種やカメラアプリによって違います。</p></details>
+    <details class="q"><summary>写真はどこかに送信されますか？</summary><p>送信しません。写真の読み込み・位置情報の削除・確認はすべて、開いているブラウザの中だけで行います。ページを開いたままなら、通信を切っても使えます。</p></details>
+    <details class="q"><summary>保存した写真はどこに入りますか？</summary><p>スマホでは「保存する」を押すと共有画面が開きます。iPhoneは「画像を保存」を選ぶと写真アプリに入ります。Androidは機種によって項目の名前が違うので、共有画面に保存の項目がないときは、下の「ファイルとして保存」を押してください（「ダウンロード」に入ります）。パソコンではダウンロードフォルダに入ります。ファイル名の最後に「_noloc」が付きます。元の写真はそのまま残るので、上げるときは「_noloc」の付いたほうを選んでください。</p></details>
+  </section>
+
+  <section class="s" aria-labelledby="h-rel">
+    <h2 id="h-rel">関連</h2>
+    <a class="src" href="https://bohan.seadice.win/"><small>防犯メディア</small><b>BOHAN — 身近な犯罪を研究と統計で読み解く</b></a>
+    <a class="src" href="/image-resizer/"><small>ツール</small><b>画像リサイザー — 送信なしで写真を縮小・変換</b></a>
+  </section>
+  <p class="note">更新日: 2026年10月20日。写真はこのブラウザの中だけで処理し、保存も記録もしません。</p>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE · <a href="/about/">運営者情報</a></p>
+</footer>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)},mode='all',files=[],outs=[],urls=[];
+var TS={1:1,2:1,3:2,4:4,5:8,6:1,7:1,8:2,9:4,10:8,11:4,12:8};
+function u16(d,o,le){return le?d[o]|d[o+1]<<8:d[o]<<8|d[o+1]}
+function u32(d,o,le){return(le?d[o]|d[o+1]<<8|d[o+2]<<16|d[o+3]<<24:d[o]<<24|d[o+1]<<16|d[o+2]<<8|d[o+3])>>>0}
+/* Exif（TIFF）を読む。t はTIFFヘッダーの位置 */
+function tiff(d,t,end){
+  var le=d[t]===0x49;if(!(d[t]===d[t+1]&&(le||d[t]===0x4D))||u16(d,t+2,le)!==42)return null;
+  var r={ori:1,gps:null,gpsIfd:null,date:'',model:'',thumb:false};
+  function ifd(off){var p=t+off;if(off<8||p+2>end)return null;var n=u16(d,p,le);if(p+6+n*12>end)return null;var es=[];for(var i=0;i<n;i++){var e=p+2+i*12,ty=u16(d,e+2,le),c=u32(d,e+4,le),sz=(TS[ty]||1)*c;es.push({tag:u16(d,e,le),c:c,sz:sz,e:e,v:sz>4?t+u32(d,e+8,le):e+8})}return{p:p,n:n,es:es,next:u32(d,p+2+n*12,le)}}
+  function str(x){var s='';for(var i=0;i<x.c&&x.v+i<end;i++){var c=d[x.v+i];if(!c)break;s+=String.fromCharCode(c)}return s.trim()}
+  function rat(o){var b=u32(d,o+4,le);return b?u32(d,o,le)/b:0}
+  function dms(x){return x.c===3&&x.v+24<=end?rat(x.v)+rat(x.v+8)/60+rat(x.v+16)/3600:null}
+  var i0=ifd(u32(d,t+4,le));if(!i0){r.bad=true;return r}
+  i0.es.forEach(function(x){
+    if(x.tag===0x112)r.ori=u16(d,x.v,le);
+    else if(x.tag===0x110)r.model=str(x);
+    else if(x.tag===0x8769){var ex=ifd(u32(d,x.e+8,le));if(ex)ex.es.forEach(function(y){if(y.tag===0x9003)r.date=str(y)})}
+    else if(x.tag===0x8825){r.gpsTag=true;var g=ifd(u32(d,x.e+8,le));if(!g)return;r.gpsIfd=g;var la=null,lo=null,ns='N',ew='E';
+      g.es.forEach(function(y){if(y.tag===1)ns=String.fromCharCode(d[y.v]);else if(y.tag===3)ew=String.fromCharCode(d[y.v]);else if(y.tag===2)la=dms(y);else if(y.tag===4)lo=dms(y)});
+      if(la!==null&&lo!==null&&(la||lo))r.gps=[ns==='S'?-la:la,ew==='W'?-lo:lo]}
+  });
+  r.thumb=!!i0.next;return r;
+}
+/* ファイルのどこかにあるExifを探す（JPEG・HEIC・WebPは "Exif\0\0"、PNGは eXIf チャンク） */
+function findExif(d){
+  for(var i=0;i+10<d.length;i++){
+    if(d[i+3]!==0x66)continue;
+    if(d[i]===0x45&&d[i+1]===0x78&&d[i+2]===0x69&&d[i+4]===0&&d[i+5]===0){var r=tiff(d,i+6,d.length);if(r)return r}
+    else if(d[i]===0x65&&d[i+1]===0x58&&d[i+2]===0x49){var r2=tiff(d,i+4,d.length);if(r2)return r2}
+  }
+  return null;
+}
+function has(d,s){var n=s.length;outer:for(var i=0;i+n<=d.length;i++){for(var j=0;j<n;j++)if(d[i+j]!==s.charCodeAt(j))continue outer;return true}return false}
+function idIs(d,a,s){for(var j=0;j<s.length;j++)if(d[a+4+j]!==s.charCodeAt(j))return false;return true}
+/* JPEGを区切りに分ける。最初の画像の終わり（EOI）で止め、後ろに付いた画像は捨てる */
+function segs(d){
+  if(d[0]!==0xFF||d[1]!==0xD8)return null;
+  var p=2,s=[],L=d.length;
+  while(p+1<L){
+    if(d[p]!==0xFF)return null;var m=d[p+1];
+    if(m===0xFF){p++;continue}
+    if(m===0xD9){s.push({m:m,a:p,b:p+2});return s}
+    if((m>=0xD0&&m<=0xD7)||m===0x01){s.push({m:m,a:p,b:p+2});p+=2;continue}
+    if(p+3>=L)return null;var b=p+2+(d[p+2]<<8|d[p+3]);
+    if(m===0xDA){var q=b;while(q+1<L){if(d[q]===0xFF){var n=d[q+1];if(n===0||(n>=0xD0&&n<=0xD7)){q+=2;continue}if(n===0xFF){q++;continue}break}q++}
+      s.push({m:m,a:p,b:Math.min(q,L)});p=q;continue}
+    s.push({m:m,a:p,b:b});p=b;
+  }
+  s.push({m:0xD9,eoi:true});return s;
+}
+function oriSeg(o){return new Uint8Array([0xFF,0xE1,0,34,0x45,0x78,0x69,0x66,0,0,0x4D,0x4D,0,42,0,0,0,8,0,1,0x01,0x12,0,3,0,0,0,1,0,o,0,0,0,0,0,0])}
+function cleanJpeg(src,info){
+  var d=src.slice(),s=segs(d);if(!s)return null;
+  /* GPSの欄を読めない壊れたExifは、場所だけ消すモードでもExifごと捨てる */
+  var md=mode==='gps'&&(!info||info.bad||(info.gpsTag&&!info.gpsIfd))?'all':mode,seen=false;
+  if(md==='gps'&&info&&info.gpsIfd){var g=info.gpsIfd;g.es.forEach(function(x){if(x.sz>4&&x.v+x.sz<=d.length)d.fill(0,x.v,x.v+x.sz);d.fill(0,x.e,x.e+12)});d[g.p]=0;d[g.p+1]=0}
+  var parts=[new Uint8Array([0xFF,0xD8])],putOri=md==='all'&&info&&info.ori>1&&info.ori<9,done=false;
+  function ori(){if(putOri&&!done){parts.push(oriSeg(info.ori));done=true}}
+  s.forEach(function(x){
+    if(x.eoi){parts.push(new Uint8Array([0xFF,0xD9]));return}
+    var m=x.m,keep=true;
+    if(m>=0xE1&&m<=0xEF||m===0xFE){
+      var exif=m===0xE1&&idIs(d,x.a,'Exif'),icc=m===0xE2&&idIs(d,x.a,'ICC_PROFILE'),adobe=m===0xEE;
+      if(exif&&seen)exif=false;else if(exif)seen=true;
+      keep=md==='all'?(icc||adobe):(exif||icc||adobe||m===0xFE);
+    }
+    if(m!==0xE0)ori();
+    if(keep)parts.push(d.subarray(x.a,x.b));
+  });
+  return new Blob(parts,{type:'image/jpeg'});
+}
+function redraw(file){
+  return new Promise(function(ok,ng){
+    var u=URL.createObjectURL(file),img=new Image();
+    img.onload=function(){try{var w=img.naturalWidth,h=img.naturalHeight,k=Math.min(1,Math.sqrt(16e6/(w*h)));w=Math.round(w*k);h=Math.round(h*k);
+      var c=document.createElement('canvas');c.width=w;c.height=h;var png=file.type==='image/png',x=c.getContext('2d');if(!png){x.fillStyle='#fff';x.fillRect(0,0,w,h)}x.drawImage(img,0,0,w,h);URL.revokeObjectURL(u);
+      c.toBlob(function(b){b?ok({blob:b,scaled:k<1}):ng()},png?'image/png':'image/jpeg',.92)}catch(e){URL.revokeObjectURL(u);ng(e)}};
+    img.onerror=function(){URL.revokeObjectURL(u);ng()};img.src=u;
+  });
+}
+function fmtDate(s){var m=/^(\d{4}):(\d\d):(\d\d) (\d\d):(\d\d)/.exec(s);return m?m[1]+'/'+m[2]+'/'+m[3]+' '+m[4]+':'+m[5]:s}
+function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function kv(dl,k,v){dl.appendChild(el('dt',null,k));dl.appendChild(el('dd',null,v))}
+function outName(n,type){var b=n.replace(/\.[^.]+$/,'');return b+'_noloc.'+(type==='image/png'?'png':'jpg')}
+var mobile=window.matchMedia&&matchMedia('(pointer:coarse)').matches;
+function canShare(fs){try{return mobile&&navigator.canShare&&navigator.canShare({files:fs})}catch(e){return false}}
+function download(f){var u=URL.createObjectURL(f);urls.push(u);var a=document.createElement('a');a.href=u;a.download=f.name;document.body.appendChild(a);a.click();a.remove()}
+function save(fs){if(canShare(fs)){navigator.share({files:fs}).catch(function(){})}else fs.forEach(function(f,i){setTimeout(function(){download(f)},i*300)})}
+async function one(file,my){
+  var box=el('div','item');box.appendChild(el('p','fn',file.name));$('list').appendChild(box);
+  var d;try{d=new Uint8Array(await file.arrayBuffer())}catch(e){box.appendChild(el('p','st err','この写真を開けませんでした'));return}
+  var info=findExif(d),xmpGps=has(d,'GPSLatitude')||has(d,'GPSLongitude');
+  if(info&&info.gps){box.appendChild(el('p','st warn','撮影場所が残っていました'))}
+  else if(xmpGps||(info&&info.gpsIfd&&info.gpsIfd.n)){box.appendChild(el('p','st warn','位置の情報が残っていました'))}
+  else box.appendChild(el('p','st',info?'撮影場所は入っていませんでした':(d[0]===0xFF&&d[1]===0xD8?'撮影情報は見つかりませんでした':'この形式は撮影情報を読み取れないことがあります（描き直すので残りません）')));
+  var dl=el('dl','kv');
+  if(info&&info.gps)kv(dl,'撮影場所','緯度 '+info.gps[0].toFixed(5)+' / 経度 '+info.gps[1].toFixed(5));
+  if(info&&info.date)kv(dl,'撮影日時',fmtDate(info.date));
+  if(info&&info.model)kv(dl,'機種',info.model);
+  if(info&&info.thumb)kv(dl,'縮小画像','あり');
+  if(dl.childNodes.length)box.appendChild(dl);
+  var blob=null,note='';
+  if(d[0]===0xFF&&d[1]===0xD8){blob=cleanJpeg(d,info);if(blob)note='画質はそのままです。'}
+  if(!blob){
+    try{var r=await redraw(file);blob=r.blob;note=(mode==='gps'?'この形式は撮影情報をすべて消して描き直しました。':'画像を描き直して保存しました。')+(r.scaled?'大きい写真なので、少し小さくしています。':'')}
+    catch(e){box.appendChild(el('p','small','このブラウザではこの形式の写真を開けませんでした。iPhoneなら写真アプリの共有画面の「オプション」で「位置情報」をオフにして共有できます。Androidなら、カメラの設定で写真の形式をJPEGにして撮り直すか、別のブラウザで開いてみてください。'));return}
+  }
+  var od=new Uint8Array(await blob.arrayBuffer()),oi=findExif(od);
+  var left=(oi&&(oi.gps||(oi.gpsIfd&&oi.gpsIfd.n)||(oi.gpsTag&&!oi.gpsIfd)||oi.bad))||has(od,'GPSLatitude')||has(od,'GPSLongitude');
+  if(left){box.appendChild(el('p','st err','位置情報を消しきれませんでした。この写真は上げないでください'));return}
+  var kept=mode==='gps'&&oi?'場所以外の撮影情報（日時・機種など）は残しています。':'';
+  box.appendChild(el('p','st ok','消しました（保存する写真を読み直して確かめました）'));
+  box.appendChild(el('p','small',note+kept));
+  var f=new File([blob],outName(file.name,blob.type),{type:blob.type});if(my===token)outs.push(f);
+  var b=el('button','btn',mobile?'この写真を保存する':'この写真をダウンロード');b.type='button';b.addEventListener('click',function(){save([f])});box.appendChild(b);
+  if(mobile){var a=el('button','dl','ファイルとして保存');a.type='button';a.style.cssText='background:none;border:0;font:inherit;font-size:13px;cursor:pointer';a.addEventListener('click',function(){download(f)});box.appendChild(a)}
+}
+var token=0;
+async function run(){
+  var my=++token;
+  $('list').textContent='';outs=[];urls.forEach(function(u){URL.revokeObjectURL(u)});urls=[];
+  for(var i=0;i<files.length;i++){await one(files[i],my);if(my!==token)return}
+  $('saveAll').hidden=outs.length<2;$('clear').hidden=!files.length;
+}
+function take(list){files=Array.prototype.filter.call(list,function(f){return/^image\//.test(f.type)||/\.(heic|heif|jpe?g|png|webp)$/i.test(f.name)});if(files.length)run()}
+$('pick').addEventListener('click',function(){$('file').click()});
+$('file').addEventListener('change',function(){take(this.files);this.value=''});
+var dz=$('drop');
+dz.addEventListener('dragover',function(e){e.preventDefault();dz.classList.add('over')});
+dz.addEventListener('dragleave',function(){dz.classList.remove('over')});
+dz.addEventListener('drop',function(e){e.preventDefault();dz.classList.remove('over');take(e.dataTransfer.files)});
+$('saveAll').addEventListener('click',function(){save(outs.slice())});
+$('clear').addEventListener('click',function(){files=[];outs=[];$('list').textContent='';$('saveAll').hidden=true;$('clear').hidden=true});
+function setMode(m){mode=m;$('mAll').setAttribute('aria-pressed',String(m==='all'));$('mGps').setAttribute('aria-pressed',String(m==='gps'));if(files.length)run()}
+$('mAll').addEventListener('click',function(){setMode('all')});$('mGps').addEventListener('click',function(){setMode('gps')});
+})();
+</script>
+</body>
+</html>
