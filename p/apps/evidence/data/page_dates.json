@@ -149,7 +149,7 @@
  },
  "evidence/corrections/": {
   "date": "2026-10-19",
-  "hash": "909a9d26c13b6910"
+  "hash": "9aaedeb186e275e4"
  },
  "evidence/crime-prevention/": {
   "date": "2026-10-17",
@@ -488,8 +488,8 @@
   "hash": "93fa3bb5cb7b7b3b"
  },
  "evidence/mental-health/": {
-  "date": "2026-10-17",
-  "hash": "f3ea836e77486949"
+  "date": "2026-10-19",
+  "hash": "b0165f495b894f41"
  },
  "evidence/mental-health/kokoro-sleep-improve-mental/": {
   "date": "2026-10-15",
@@ -712,8 +712,8 @@
   "hash": "c1fb308a4ee3c1e6"
  },
  "evidence/scent-memory/": {
-  "date": "2026-10-17",
-  "hash": "82825df7644da70c"
+  "date": "2026-10-19",
+  "hash": "778b78e73eafd1b6"
  },
  "evidence/scent-memory/scent-aromatherapy-sleep/": {
   "date": "2026-10-13",
