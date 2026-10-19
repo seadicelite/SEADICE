@@ -148,8 +148,8 @@
   "hash": "cf4c8107b0f77512"
  },
  "evidence/corrections/": {
-  "date": "2026-10-17",
-  "hash": "c865326e10b2bcb7"
+  "date": "2026-10-19",
+  "hash": "43d8428a5ca12c58"
  },
  "evidence/crime-prevention/": {
   "date": "2026-10-17",
@@ -341,7 +341,7 @@
  },
  "evidence/happiness/": {
   "date": "2026-10-19",
-  "hash": "1852d900dfdb8cc7"
+  "hash": "8b017dd5819feb5a"
  },
  "evidence/happiness/happy-age-u-curve/": {
   "date": "2026-10-14",
