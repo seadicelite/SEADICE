@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>暗証番号のバレやすさ診断 — 誕生日・1234はすぐ当たる？ | SEADICE</title>
+<meta name="description" content="その暗証番号、誕生日や1234になっていませんか。入れた4桁・6桁の番号が、誕生日・西暦・連番・キーパッドの形など、推測されやすい形かをその場で判定する無料ツールです。番号は送信も保存もしません。使い回しチェックと、親といっしょに見る手順つき。">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05050C">
+<link rel="canonical" href="https://seadice.win/tools/pin-check/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEADICE">
+<meta property="og:title" content="暗証番号のバレやすさ診断 | SEADICE">
+<meta property="og:description" content="誕生日・1234・2580はすぐ当たる？ 暗証番号が推測されやすい形かを、研究をもとにその場で判定。番号は送信も保存もしません。">
+<meta property="og:url" content="https://seadice.win/tools/pin-check/">
+<meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"暗証番号のバレやすさ診断","url":"https://seadice.win/tools/pin-check/","description":"4桁・6桁の暗証番号が、誕生日・西暦・連番・くり返し・キーパッドの形・よく使われる番号など推測されやすい形かを判定するツール。番号は送信も保存もしない。キャッシュカードの暗証番号の推測しやすさを調べた研究（Bonneau ら 2012）とスマホのPINの研究（Markert ら 2020）をもとにSEADICEが作成。","applicationCategory":"SecurityApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@id":"https://seadice.win/#organization","@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-20","dateModified":"2026-10-20"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SEADICE","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"ツール","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"暗証番号のバレやすさ診断","item":"https://seadice.win/tools/pin-check/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"暗証番号を誕生日にすると、どのくらい危ないですか？","acceptedAnswer":{"@type":"Answer","text":"キャッシュカードの暗証番号を調べたBonneauらの研究（2012）では、財布に入った免許証などで誕生日を知った人が6回試すと、約8.2%のカードで当たると推定されています（財布12個に1個ほど）。誕生日を知らない場合の約1.9%より4倍ほど高く、誕生日（家族の誕生日や記念日も）は暗証番号に使わないのが安全です。"}},{"@type":"Question","name":"いちばん推測されやすい暗証番号は何ですか？","acceptedAnswer":{"@type":"Answer","text":"4桁では1234、6桁では123456です。Bonneauらの研究では、推測する側が最初に試すのが1234で、その次が1990〜1986などの西暦でした。スマホのPINを調べたMarkertらの研究（2020）では、6桁の123456は2番目に多い番号の21倍も選ばれていました。"}},{"@type":"Question","name":"4桁より6桁のほうが安全ですか？","acceptedAnswer":{"@type":"Answer","text":"形しだいです。Markertらの研究では、10回まで試せる場合に当たったのは4桁で4.6%、6桁で6.5%で、6桁にしても安全になるとは言えませんでした。123456のような単純な形が6桁に集まりやすいためです。6桁にするなら、誕生日やくり返しでない番号にしてください。"}},{"@type":"Question","name":"入れた暗証番号はどこかに送られますか？","acceptedAnswer":{"@type":"Answer","text":"送られません。判定はすべてお使いのブラウザの中で行い、番号を保存もしません。ページを閉じると消えます。それでも気になる場合は、本物と同じ作り方の別の番号（例: 誕生日なら別の人の誕生日）で試すと、近い判定になります。"}}]}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--hi:#FF7A6B;--mid:#F2B45A;--lo:#8FD18C}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;background:#05050C;border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;color:var(--accent);text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}.app{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:18px 16px;margin-bottom:40px}.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:18px}.tabs button{font:inherit;font-size:13px;font-weight:700;color:var(--muted);background:transparent;border:1px solid var(--border);border-radius:6px;padding:8px 4px;cursor:pointer;line-height:1.4}.tabs button[aria-selected=true]{color:var(--accent);border-color:var(--accent)}.q{font-size:15px;font-weight:700;margin-bottom:8px}.row{display:flex;gap:8px;margin-bottom:12px}.row input{flex:1;min-width:0;font:inherit;font-size:22px;letter-spacing:.3em;background:#05050C;color:var(--text);border:1px solid #2a2a44;border-radius:6px;padding:8px 12px}.row button,.sub button{font:inherit;font-size:13px;color:var(--text);background:transparent;border:1px solid #2a2a44;border-radius:6px;padding:8px 12px;cursor:pointer;white-space:nowrap}.opt{border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin-bottom:14px;font-size:14px}.opt summary{cursor:pointer;color:var(--text);padding:4px 0}.opt p{font-size:13px;color:var(--muted);margin:6px 0 10px}.bd{display:grid;grid-template-columns:2fr 1fr 1fr;gap:6px;margin-bottom:10px}.bd select,.opt input{font:inherit;background:#05050C;color:var(--text);border:1px solid #2a2a44;border-radius:6px;padding:8px;width:100%}.opt label{display:block;font-size:13px;color:var(--muted);margin-bottom:4px}.btn{display:block;width:100%;font:inherit;font-size:16px;font-weight:800;color:var(--bg);background:var(--accent);border:0;border-radius:6px;padding:14px;cursor:pointer}.note{font-size:12px;color:var(--muted);margin-top:10px}.res{margin-top:18px}.res:not(:empty){border-top:1px solid var(--border);padding-top:16px}.lv{display:inline-block;font-size:14px;font-weight:800;border-radius:4px;padding:3px 10px;margin-bottom:8px;color:#05050C}.lv3{background:var(--hi)}.lv2{background:var(--mid)}.lv1{background:var(--lo)}.lv0{background:var(--accent)}.guess{font-size:18px;font-weight:800;line-height:1.5;margin-bottom:12px}.reasons{list-style:none}.reasons li{border-left:3px solid var(--border);padding:6px 0 6px 12px;margin-bottom:8px;font-size:14px}.reasons li b{display:block;font-size:15px}.reasons li.r3{border-color:var(--hi)}.reasons li.r2{border-color:var(--mid)}.reasons li.r1{border-color:var(--lo)}.reasons li span{color:#b6c0cf}.fix{background:#05050C;border:1px solid var(--border);border-radius:6px;padding:12px;margin-top:12px;font-size:14px}.fix b{color:var(--accent)}.chk{list-style:none}.chk li{margin-bottom:6px}.chk label{display:flex;align-items:center;gap:10px;border:1px solid var(--border);border-radius:6px;padding:10px 12px;cursor:pointer;font-size:15px;min-height:48px}.chk input{accent-color:var(--accent);width:20px;height:20px;flex:none}.steps{padding-left:1.4em;font-size:15px}.steps li{margin-bottom:10px}.steps small{display:block;font-size:13px;color:var(--muted)}.big .steps,.big .q{font-size:19px}.big .steps small{font-size:16px}.sub{display:flex;justify-content:flex-end;margin-bottom:10px}details.ev{border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin-bottom:10px}details.ev summary{cursor:pointer;font-size:15px;font-weight:700;list-style:none}details.ev summary::-webkit-details-marker{display:none}details.ev summary small{display:block;font-weight:400;font-size:14px;color:#b6c0cf;margin-top:4px}details.ev summary::after{content:"くわしく見る";display:block;font-size:12px;font-weight:400;color:var(--accent2);margin-top:6px}details.ev[open] summary::after{content:"閉じる"}details.ev dl{font-size:14px;margin-top:10px}details.ev dt{font-weight:700;color:var(--accent);margin-top:8px}details.ev dd{color:#d4dbe6}section.s{margin-bottom:40px}section.s>h2{font-size:19px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border)}section.s>p,section.s li{font-size:15px}section.s ul,section.s ol{padding-left:1.4em}section.s li{margin-bottom:8px}.faq dt{font-weight:700;font-size:15px;margin-top:14px}.faq dd{font-size:15px;color:#d4dbe6}.rel a{display:block;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin-bottom:10px;text-decoration:none;color:var(--text);font-weight:700}.rel a small{display:block;font-weight:400;font-size:13px;color:var(--muted)}footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}[hidden]{display:none!important}</style>
+<style id="sd-design">:root{--sd-bg:#05050C;--sd-surface:#0C0C1A;--sd-surface2:#11112a;--sd-line:#1a1a2e;--sd-line2:#2a2a44;--sd-text:#e2e8f0;--sd-text2:#b6c0cf;--sd-muted:#7c8aa0;--sd-accent:#00FFD1;--sd-accent2:#38BDF8;--sd-link:#7dd3fc;--sd-g:16px}@media(min-width:600px){:root{--sd-g:24px}}@media(min-width:960px){:root{--sd-g:32px}}html{-webkit-text-size-adjust:100%}html,body{overflow-x:clip}body{overflow-wrap:break-word}img,video{max-width:100%;height:auto}:focus-visible{outline:2px solid var(--sd-accent);outline-offset:3px}body:is(.t-read,.t-show,.t-use) .nav-logo,body:is(.t-read,.t-show,.t-use) .logo-text{background:none;-webkit-text-fill-color:currentColor;color:var(--sd-accent)}body:is(.t-read,.t-show,.t-use) :is(.tool-cta a,.btn,.cta a,.add){background:var(--sd-accent);color:#05050C;box-shadow:none;border-radius:6px}body:is(.t-read,.t-show,.t-use) :is(.card,.tool-cta,.info-box,.evidence,.ev-media,.cta,.stat-box,.app,.sd-tool){border-radius:8px;box-shadow:none}body:is(.t-read,.t-show,.t-use) :is(.badge,.tag,.app-badge){border-radius:4px}body:is(.t-read,.t-show,.t-use) h1 span{color:inherit}body.t-use main{max-width:calc(640px + var(--sd-g)*2);padding-left:var(--sd-g);padding-right:var(--sd-g)}body.t-use h1{font-size:clamp(24px,5.4vw,32px);line-height:1.35}body.t-use .lead{font-size:14px;line-height:1.8}body.t-use .sd-tool{background:var(--sd-surface2);border:1px solid var(--sd-line2);border-radius:8px}body.t-use input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=file]),body.t-use select,body.t-use textarea{min-height:48px;font-size:max(16px,1em)}body.t-use button{min-height:44px}@media(min-width:960px){body.t-use main:has(>.sd-tool){max-width:calc(1120px + var(--sd-g)*2);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);column-gap:56px;align-items:start}body.t-use main:has(>.sd-tool)>*{grid-column:1}body.t-use main>.sd-tool{grid-column:2;grid-row:1 / span 40;position:sticky;top:80px;margin-bottom:0}}</style></head>
+<body class="t-use">
+<nav class="top" aria-label="サイトナビゲーション">
+  <a href="https://seadice.win/" class="nav-logo">SEADICE</a>
+  <a href="/tools/" class="nav-home">ツール一覧</a>
+</nav>
+<main>
+  <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / 暗証番号のバレやすさ診断</p>
+  <p class="label">TOOL</p>
+  <h1>暗証番号のバレやすさ診断</h1>
+  <p class="lead">誕生日を暗証番号にしていると、財布を落としたときに免許証から当てられやすくなります。研究では、誕生日を知った人が6回試すと約12枚に1枚のカードが当たると推定されています。番号を入れると、推測されやすい形かどうかをその場で判定します。番号は送信も保存もしません。</p>
+
+  <div class="app sd-tool" id="app">
+    <div class="tabs" role="tablist" aria-label="ツールの切り替え">
+      <button type="button" role="tab" id="t-dx" aria-controls="p-dx" aria-selected="true">診断</button>
+      <button type="button" role="tab" id="t-re" aria-controls="p-re" aria-selected="false" tabindex="-1">使い回し</button>
+      <button type="button" role="tab" id="t-oya" aria-controls="p-oya" aria-selected="false" tabindex="-1">親と見る</button>
+      <button type="button" role="tab" id="t-ev" aria-controls="p-ev" aria-selected="false" tabindex="-1">研究 2本</button>
+    </div>
+
+    <div role="tabpanel" id="p-dx" aria-labelledby="t-dx">
+      <p class="q"><label for="pin">暗証番号（4桁か6桁）</label></p>
+      <div class="row">
+        <input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="off" spellcheck="false" aria-describedby="pin-note">
+        <button type="button" id="eye">表示</button>
+      </div>
+      <details class="opt">
+        <summary>誕生日・電話番号ともくらべる（入れなくても使えます）</summary>
+        <p>免許証や名刺から知られやすい数字と同じ形になっていないかを調べます。ここに入れたものも保存しません。</p>
+        <label for="by">誕生日（ご本人・家族・記念日でも）</label>
+        <div class="bd">
+          <select id="by" aria-label="年"><option value="">年</option></select>
+          <select id="bm" aria-label="月"><option value="">月</option></select>
+          <select id="bdd" aria-label="日"><option value="">日</option></select>
+        </div>
+        <label for="tel">電話番号の下4桁</label>
+        <input id="tel" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="off">
+      </details>
+      <button type="button" class="btn" id="go">バレやすさを見る</button>
+      <p class="note" id="pin-note">番号はこのページの中だけで判定し、どこにも送りません。人前では入れないでください。気になるときは、本物と同じ作り方の別の番号（誕生日なら家族以外の人の誕生日、くり返しなら別の数字のくり返し）で試すと、近い結果になります。</p>
+      <div class="res" id="res" aria-live="polite"></div>
+    </div>
+
+    <div role="tabpanel" id="p-re" aria-labelledby="t-re">
+      <p class="q">同じ暗証番号を使っているものをタップしてください（番号は入れません）</p>
+      <ul class="chk" id="reuse">
+        <li><label><input type="checkbox" value="cash">キャッシュカード</label></li>
+        <li><label><input type="checkbox" value="credit">クレジットカード</label></li>
+        <li><label><input type="checkbox" value="phone">スマホの画面ロック</label></li>
+        <li><label><input type="checkbox" value="app">ネット銀行・決済アプリ</label></li>
+        <li><label><input type="checkbox" value="home">家・オートロック・宅配ボックス</label></li>
+        <li><label><input type="checkbox" value="work">職場の入館・パソコン</label></li>
+        <li><label><input type="checkbox" value="other">留守電・SIM・その他</label></li>
+      </ul>
+      <div class="res" id="reres" aria-live="polite"></div>
+    </div>
+
+    <div role="tabpanel" id="p-oya" aria-labelledby="t-oya">
+      <div class="sub"><button type="button" id="bigbtn" aria-pressed="false">文字を大きく</button></div>
+      <p class="q">帰省したときに、親といっしょに5分で見る手順です</p>
+      <ol class="steps">
+        <li>番号は聞かずに、スマホを渡して親に自分で入れてもらう<small>家族でも、番号は本人だけが知っている形にしておくと、もしものときに疑い合わずに済みます。この画面の「診断」で、親が自分で確かめます。</small></li>
+        <li>「誕生日・家族の誕生日・電話番号になっていない？」と聞く<small>研究では、日付を暗証番号にした人のうち、自分の誕生日が29%、家族やパートナーの誕生日が26%でした。</small></li>
+        <li>カードに番号を書いたメモを、財布にいっしょに入れていないか見る<small>財布ごと盗まれると、メモがあれば番号を当てる必要もありません。</small></li>
+        <li>いくつものカードやスマホで同じ番号を使っていないか、「使い回し」でタップしてもらう<small>1つ知られると全部開いてしまいます。</small></li>
+        <li>変えるときは、銀行のATMか窓口で（手順は銀行によって違います）<small>新しい番号は、親だけが覚えていれば十分です。</small></li>
+        <li>最後にひとこと：「銀行や警察が電話で暗証番号を聞いてきたら詐欺」<small>電話や訪問で暗証番号を聞き、カードを預かろうとするのは、警察が注意を呼びかけている詐欺の手口です。<a href="/tools/tokushu-sagi-sim/">特殊詐欺シミュレーター</a>で、実際の流れを一度見ておくと安心です。</small></li>
+      </ol>
+    </div>
+
+    <div role="tabpanel" id="p-ev" aria-labelledby="t-ev">
+      <div class="sub"><button type="button" id="openall">すべて開く</button></div>
+      <details class="ev" id="ev-bonneau">
+        <summary>誕生日を暗証番号にすると、どれくらい当てられる？<small>誕生日を知った人が6回試すと、約8.2%のキャッシュカードが当たると推定（財布12個に1個ほど）。</small></summary>
+        <dl>
+          <dt>どんな研究</dt>
+          <dd>ケンブリッジ大学のBonneauらが、パスワードの流出データ（RockYou）とiPhoneの画面ロックの番号から、人が4桁の番号をどう選ぶかをモデルにし、銀行のカード利用者1,177人へのアンケート（Amazon Mechanical Turk、主に米国）と合わせて、キャッシュカードの暗証番号の推測しやすさを推定しました。</dd>
+          <dt>わかったこと（数字）</dt>
+          <dd>誕生日を知らずに試す場合、3回で約1.4%、6回で約1.9%が当たる。最初に試すべき番号は1234、次が1990〜1986の西暦。<br>誕生日（推定の例は1983年6月3日）を知っていると、1983・6383・0306・0603・1234・0683の順に試すのが最もよく、6回で約8.2%が当たる。<br>よく使われる100個を「使えない番号」にすると、6回で当たる割合は約0.2%に下がる。ただし誕生日を知られている場合は約5.6%までしか下がらない。<br>日付を選んだ人のうち、自分の誕生日29%、家族やパートナーの誕生日26%、記念日25%。カードを2枚以上持つ人の34%が全部同じ番号、34%が銀行の暗証番号を別のものにも使い回していた。財布に誕生日がわかるものを入れている人は99%（415人中）。</dd>
+          <dt>まだわからないこと</dt>
+          <dd>実際の暗証番号を集めたのではなく、ほかのデータとアンケートから推定した値です。対象は主に米国の人で、2012年の研究です。日本の人が同じように選ぶかは確かめられていません。和暦（昭和・平成など）を使う選び方も、この研究には入っていません。</dd>
+          <dt>出典</dt>
+          <dd>Bonneau J, Preibusch S, Anderson R. A Birthday Present Every Eleven Wallets? The Security of Customer-Chosen Banking PINs. Financial Cryptography and Data Security 2012, LNCS 7397, pp.25–40. <a href="https://doi.org/10.1007/978-3-642-32946-3_3" rel="noopener">doi:10.1007/978-3-642-32946-3_3</a></dd>
+        </dl>
+      </details>
+      <details class="ev" id="ev-markert">
+        <summary>スマホのPINは、4桁より6桁のほうが安全？<small>10回まで試せる場合、当たったのは4桁4.6%・6桁6.5%。6桁にしても安全とは言えなかった。</small></summary>
+        <dl>
+          <dt>どんな研究</dt>
+          <dd>ルール大学ボーフムなどのMarkertらが、スマホの画面ロック用だと伝えたうえで1,220人（Amazon Mechanical Turk）に4桁か6桁のPINを選んでもらい、推測のしやすさと、iPhoneが使わせない番号のリスト（ブロックリスト）の効果を調べました。</dd>
+          <dt>わかったこと（数字）</dt>
+          <dd>10回まで試せる場合（iPhoneの上限）、当たったのは4桁で4.6%、6桁で6.5%。30回では7.6%と8.9%、100回では16.2%と13.3%。最初の40回くらいまでは6桁のほうが当たりやすかった。<br>6桁で最も多い123456は、2番目に多い番号の21倍も選ばれていた。<br>iPhoneのブロックリストは4桁で274個、6桁で2,910個。この大きさでは、試せる回数が少ない相手にはほとんど効果がなく、番号全体の10%ほどを使えなくすると、使いやすさと安全のバランスがよいと考えられる。</dd>
+          <dt>まだわからないこと</dt>
+          <dd>実験のために選んだ番号で、本当に使っている番号ではありません。参加者はオンラインで集めた人で、日本の人は対象ではありません。</dd>
+          <dt>出典</dt>
+          <dd>Markert P, Bailey DV, Golla M, Dürmuth M, Aviv AJ. This PIN Can Be Easily Guessed: Analyzing the Security of Smartphone Unlock PINs. IEEE Symposium on Security and Privacy 2020. <a href="https://doi.org/10.1109/SP40000.2020.00100" rel="noopener">doi:10.1109/SP40000.2020.00100</a>（<a href="https://arxiv.org/abs/2003.04868" rel="noopener">arXiv版</a>）</dd>
+        </dl>
+      </details>
+    </div>
+  </div>
+
+  <section class="s" aria-labelledby="h-read">
+    <h2 id="h-read">結果の読み方</h2>
+    <ul>
+      <li><b>とても危ない</b>：1234・0000・誕生日など、推測する人が最初の数回で試す番号です。すぐに変えてください。</li>
+      <li><b>危ない</b>：西暦・月日・くり返し・キーパッドの縦一列など、推測する人が先に試す形です。</li>
+      <li><b>少し注意</b>：番号は当てにくいものの、指の動きが図形になり、後ろから見られると覚えられやすい形です。</li>
+      <li><b>目立った弱点なし</b>：調べた形には当たりませんでした。誕生日や電話番号を入れていない場合は、それらと同じでないかも確かめてください。</li>
+    </ul>
+    <p>「最初の数回で試される」などの目安は、研究で示された試す順番（1234が最初、誕生日を知っていれば西暦・月日などの誕生日の形が最初の6回）をもとにした目安です。判定の区切りはSEADICEが決めました。番号の安全をこのツールが保証するものではありません。</p>
+  </section>
+
+  <section class="s" aria-labelledby="h-why">
+    <h2 id="h-why">根拠と出典</h2>
+    <ul>
+      <li>「よく使われる100個」は、Bonneauらが「使えない番号にすべき」とした100個（0000、0101〜0103、1212、1234、2580、1956〜2015 など）をそのまま使っています。</li>
+      <li>誕生日の形は、研究で示された試し方（西暦・月日・日月・月+年など）に、日本でよく使う和暦（昭和・平成・令和の年）を足して調べます。和暦はSEADICEが足したもので、研究では調べられていません。</li>
+      <li>キーパッドの形は、数字の並び（1 2 3 / 4 5 6 / 7 8 9 / 0）で縦・横一列、隣どうしをなぞる、四隅だけ、を調べます。</li>
+    </ul>
+    <p>出典：Bonneau ら（2012）<a href="https://doi.org/10.1007/978-3-642-32946-3_3" rel="noopener">doi:10.1007/978-3-642-32946-3_3</a>／Markert ら（2020）<a href="https://doi.org/10.1109/SP40000.2020.00100" rel="noopener">doi:10.1109/SP40000.2020.00100</a>。数字と限界は上の「研究 2本」に省略せずに載せています。</p>
+  </section>
+
+  <section class="s" aria-labelledby="h-faq">
+    <h2 id="h-faq">よくある質問</h2>
+    <dl class="faq">
+      <dt>暗証番号を誕生日にすると、どのくらい危ないですか？</dt>
+      <dd>Bonneauらの研究では、免許証などで誕生日を知った人が6回試すと約8.2%のカードで当たると推定されています（財布12個に1個ほど）。誕生日を知らない場合の約1.9%の4倍ほどです。家族の誕生日や記念日も同じように避けてください。</dd>
+      <dt>いちばん推測されやすい暗証番号は何ですか？</dt>
+      <dd>4桁では1234、6桁では123456です。1234の次に試されるのは1990〜1986などの西暦でした。6桁の123456は、2番目に多い番号の21倍も選ばれていました。</dd>
+      <dt>4桁より6桁のほうが安全ですか？</dt>
+      <dd>形しだいです。10回まで試せる場合、当たったのは4桁で4.6%、6桁で6.5%でした。6桁にするなら、くり返しや年月日でない番号にしてください。</dd>
+      <dt>入れた暗証番号はどこかに送られますか？</dt>
+      <dd>送られません。判定はブラウザの中だけで行い、保存もしません。気になる場合は、本物と同じ作り方の別の番号で試すと、近い判定になります。</dd>
+    </dl>
+  </section>
+
+  <section class="s rel" aria-labelledby="h-rel">
+    <h2 id="h-rel">あわせて使う</h2>
+    <a href="/tools/dekakeru-mae-tenken/">出かける前の30秒点検<small>玄関・窓・郵便受け・SNSをタップで点検</small></a>
+    <a href="/tools/shashin-ichijoho-keshi/">写真の位置情報けし<small>SNSに上げる前に、写真に残った撮影場所を消す</small></a>
+    <a href="/tools/tokushu-sagi-sim/">特殊詐欺シミュレーター<small>「暗証番号を教えて」と言われる流れを体験しておく</small></a>
+    <a href="https://bohan.seadice.win/">BOHAN（防犯メディア）<small>売らない防犯。犯罪の統計と研究で考える</small></a>
+  </section>
+</main>
+<footer>
+  <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
+  <p>&copy; 2026 SEADICE · <a href="/about/">運営者情報</a></p>
+</footer>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+// タブ
+var tabs=[].slice.call(document.querySelectorAll('[role=tab]'));
+function sel(t){tabs.forEach(function(b){var on=b===t;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1;$(b.getAttribute('aria-controls')).hidden=!on});}
+sel(tabs[0]);
+tabs.forEach(function(b,i){b.onclick=function(){sel(b)};b.onkeydown=function(e){var d=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0,n=e.key==='Home'?tabs[0]:e.key==='End'?tabs[tabs.length-1]:d?tabs[(i+d+tabs.length)%tabs.length]:null;if(n){e.preventDefault();sel(n);n.focus()}}});
+// 誕生日の選択肢
+var y0=new Date().getFullYear(),h='';for(var y=y0;y>=1920;y--)h+='<option>'+y+'</option>';$('by').insertAdjacentHTML('beforeend',h);
+h='';for(var m=1;m<=12;m++)h+='<option>'+m+'</option>';$('bm').insertAdjacentHTML('beforeend',h);
+h='';for(var d=1;d<=31;d++)h+='<option>'+d+'</option>';$('bdd').insertAdjacentHTML('beforeend',h);
+// 判定
+var TOP='0000 0101 0102 0103 0110 0111 0123 0202 0303 0404 0505 0606 0707 0808 0909 1010 1101 1102 1103 1110 1111 1112 1123 1201 1202 1203 1210 1211 1212 1234 2222 2229 2580 3333 4444 5252 5683 6666 7465 7667'.split(' ');
+for(var t=1956;t<=2015;t++)TOP.push(''+t);
+var K={1:[0,0],2:[1,0],3:[2,0],4:[0,1],5:[1,1],6:[2,1],7:[0,2],8:[1,2],9:[2,2],0:[1,3]};
+function p2(n){return(n<10?'0':'')+n}
+function okDate(mm,dd){return mm>=1&&mm<=12&&dd>=1&&dd<=[31,29,31,30,31,30,31,31,30,31,30,31][mm-1]}
+function wareki(y,m,d){var v=y*10000+m*100+d;if(v>=20190501)return y-2018;if(v>=19890108)return y-1988;if(v>=19261225)return y-1925;return null}
+function bdForms(y,m,d,n){var Y=''+y,yy=Y.slice(2),MM=p2(m),DD=p2(d),w=wareki(y,m,d),ww=w===null?null:p2(w),f;
+ if(n===4){f=[Y,MM+DD,DD+MM,yy+MM,MM+yy,''+m+d+yy,''+d+m+yy];if(ww)f.push(ww+MM,MM+ww)}
+ else{f=[yy+MM+DD,DD+MM+yy,MM+DD+yy,Y+MM,MM+Y];if(ww)f.push(ww+MM+DD)}
+ return f.filter(function(s){return s.length===n})}
+function analyze(p,bd,tel){
+ var n=p.length,r=[],g=null,a=p.split('').map(Number);
+ function add(lv,t,d){r.push({lv:lv,t:t,d:d})}
+ if(p==='1234'||p==='123456'){add(3,'いちばん最初に試される番号',n===4?'推測する人が最初に試すのが1234です（Bonneau ら 2012）。':'6桁で最も多い番号で、2番目に多い番号の21倍も選ばれていました（Markert ら 2020）。');g='1回目で試されます'}
+ if(/^(\d)\1+$/.test(p)){add(3,'同じ数字のくり返し','0000・1111のような番号は、真っ先に試される番号の1つです。');g=g||'最初の数回で試されます'}
+ else if('01234567890'.indexOf(p)>=0||'09876543210'.indexOf(p)>=0){if(p!=='1234'&&p!=='123456')add(3,'連番','数字を順に並べた番号は、推測する人が早い段階で試します。');g=g||'最初の数回で試されます'}
+ if(bd){var f=bdForms(bd[0],bd[1],bd[2],n);if(f.indexOf(p)>=0){add(3,'誕生日から作れる番号','免許証や保険証で誕生日を知られると、最初の数回で試される形です。研究では、誕生日を知った人が6回試すと、誕生日を使っていない人も含めた全体で約8.2%のカードが当たると推定されています（この番号が当たる確率ではありません）。');g=g||'誕生日を知られたら、最初の数回で試される形です'}}
+ if(n===4&&TOP.indexOf(p)>=0&&p!=='1234'){add(3,'よく使われる100個に入っています','研究が「使えない番号にすべき」とした100個の1つです。推測する人が早い段階で試す番号の集まりです。');g=g||'よく使われる100個の中です'}
+ if(tel&&tel.length===4&&p.indexOf(tel)>=0){add(2,'電話番号の下4桁と同じ','名刺・年賀状・連絡網などで、まわりの人が知っている数字です。')}
+ var pat=false;
+ if(n===4){var yr=+p;if(yr>=1930&&yr<=y0+1){add(2,'西暦の年の形','生まれ年や記念の年は、1234の次に試される形です（1990〜1986が上位）。');pat=true}
+  if(okDate(+p.slice(0,2),+p.slice(2))||okDate(+p.slice(2),+p.slice(0,2))){add(2,'月日の形（誕生日・記念日）','日付は、暗証番号にいちばん多く使われる意味のある数字です。家族の誕生日や記念日も同じように試されます。');pat=true}}
+ else{var A=+p.slice(0,2),B=+p.slice(2,4),C=+p.slice(4),Y4=+p.slice(0,4);if(okDate(B,C)||okDate(B,A)||okDate(A,B)||(Y4>=1930&&Y4<=y0+1&&C>=1&&C<=12)){add(2,'年月日の形','年・月・日を並べた形は、誕生日を知る人に当てられやすく、知らない人にも先に試されます。');pat=true}}
+ if(!/^(\d)\1+$/.test(p)){
+  if(/^(\d\d)\1+$/.test(p)||/^(\d\d\d)\1$/.test(p)){add(2,'くり返しの形','1212・123123のように、短い並びをくり返す番号は推測されやすい形です。');pat=true}
+  else if(/^(\d)\1(\d)\2((\d)\4)?$/.test(p)){add(2,'2つずつ同じ数字','1122のような番号は、くり返しの仲間として先に試されます。');pat=true}
+  else if(p===p.split('').reverse().join('')){add(1,'左右対称の形','1221のような左右対称の番号は、覚えやすいぶん選ばれやすい形です。')}
+ }
+ var col=a.every(function(x){return K[x][0]===K[a[0]][0]}),row=a.every(function(x){return K[x][1]===K[a[0]][1]});
+ if((col||row)&&!pat&&!/^(\d)\1+$/.test(p)&&r.every(function(x){return x.t!=='連番'})){add(2,'キーパッドの'+(col?'縦':'横')+'一列','2580のように一列に押す番号は、よく使われる番号の1つです。指の動きも見られやすくなります。');pat=true}
+ else{var adj=a.every(function(x,i){if(!i)return true;var u=K[a[i-1]],v=K[x];var dx=Math.abs(u[0]-v[0]),dy=Math.abs(u[1]-v[1]);return Math.max(dx,dy)===1});
+  var cor=a.every(function(x){return[1,3,7,9].indexOf(x)>=0})&&new Set(a).size===n;
+  if(adj&&r.length===0)add(1,'隣どうしをなぞる形','指の動きが小さな図形になり、後ろから見られると覚えられやすい形です。');
+  else if(cor)add(1,'四隅だけの形','1397のように四隅を押す番号は、指の動きが目立ちます。')}
+ var lv=r.reduce(function(m,x){return Math.max(m,x.lv)},0);
+ if(!g)g=lv===2?'推測する人が先に試す形です':lv===1?'当てにくい番号です。入力を見られないように':'調べた形には当たりませんでした';
+ return{lv:lv,g:g,r:r}}
+var LV=['目立った弱点なし','少し注意','危ない','とても危ない'];
+function esc(s){return s.replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+$('eye').onclick=function(){var s=$('pin').type==='password';$('pin').type=s?'text':'password';this.textContent=s?'隠す':'表示'};
+$('pin').addEventListener('keydown',function(e){if(e.key==='Enter')$('go').click()});
+$('go').onclick=function(){
+ var z=function(v){return v.replace(/[０-９]/g,function(c){return String.fromCharCode(c.charCodeAt(0)-65248)}).replace(/\D/g,'')},p=z($('pin').value),out=$('res');
+ if(p.length!==4&&p.length!==6){out.innerHTML='<p class="guess">4桁か6桁の数字を入れてください</p>';return}
+ var by=+$('by').value,bm=+$('bm').value,bdv=+$('bdd').value,bd=null;
+ if(by&&bm&&bdv){if(!okDate(bm,bdv)||new Date(by,bm-1,bdv).getDate()!==bdv){out.innerHTML='<p class="guess">誕生日の日付を確かめてください</p>';return}bd=[by,bm,bdv]}
+ var tel=z($('tel').value);
+ var x=analyze(p,bd,tel),h='<span class="lv lv'+x.lv+'">'+LV[x.lv]+'</span><p class="guess">'+esc(x.g)+'</p>';
+ if(x.r.length){h+='<ul class="reasons">';x.r.sort(function(a,b){return b.lv-a.lv}).forEach(function(i){h+='<li class="r'+i.lv+'"><b>'+esc(i.t)+'</b><span>'+esc(i.d)+'</span></li>'});h+='</ul>'}
+ if(x.lv>=2)h+='<div class="fix"><b>変えるなら</b>：誕生日・電話番号・くり返し・一列を避け、ほかのカードやスマホとも違う番号に。覚えにくければ、自分しか知らない数字（昔の出席番号＋好きな数字など）を組み合わせると覚えやすくなります。'+(p.length===6?'6桁でも、単純な形なら4桁より安全とは言えません。':'')+'</div>';
+ else if(x.lv===0&&!bd)h+='<div class="fix"><b>もう一歩</b>：上の「誕生日・電話番号ともくらべる」を開いて入れると、知られやすい数字と同じでないかも確かめられます。ほかのカードと同じ番号でないかは「使い回し」タブで。</div>';
+ else h+='<div class="fix"><b>もう一歩</b>：ほかのカードやスマホと同じ番号でないかを「使い回し」タブで確かめてください。</div>';
+ h+='<p class="note">区切りと文言はSEADICEが研究をもとに決めた目安で、番号の安全を保証するものではありません。</p>';
+ out.innerHTML=h};
+// 使い回し
+var NAME={cash:'キャッシュカード',credit:'クレジットカード',phone:'スマホの画面ロック',app:'ネット銀行・決済アプリ',home:'家・オートロック・宅配ボックス',work:'職場の入館・パソコン',other:'留守電・SIM・その他'};
+$('reuse').onchange=function(){var c=[].slice.call(this.querySelectorAll('input:checked')).map(function(i){return i.value}),o=$('reres');if(!c.length){o.innerHTML='';return}
+ var h;if(c.length===1)h='<span class="lv lv0">使い回しなし</span><p class="guess">1つだけなら、使い回しの心配はありません</p>';
+ else{h='<span class="lv lv3">'+c.length+'か所で同じ番号</span><p class="guess">1つ知られると、'+c.length+'か所がまとめて開きます</p><ul class="reasons">';
+  if(c.indexOf('phone')>=0&&(c.indexOf('cash')>=0||c.indexOf('credit')>=0))h+='<li class="r3"><b>スマホとカードが同じ番号</b><span>スマホの画面ロックは人前で何度も入力するので、のぞき見で知られやすい番号です。スマホを先に別の番号にしてください。</span></li>';
+  if(c.indexOf('home')>=0)h+='<li class="r3"><b>家の番号とも同じ</b><span>オートロックや宅配ボックスの番号は家族や業者も知りやすく、そこから財布のカードまで開いてしまいます。</span></li>';
+  if(c.indexOf('cash')>=0&&c.indexOf('credit')>=0)h+='<li class="r2"><b>カードどうしが同じ番号</b><span>研究では、カードを2枚以上持つ人の34%が全部同じ番号でした。財布ごと盗まれると、全部のカードが1つの番号で使われます。</span></li>';
+  var money=['cash','credit','app'],rest=c.filter(function(k){return money.indexOf(k)<0}),mc=c.filter(function(k){return money.indexOf(k)>=0});
+  h+='</ul><div class="fix"><b>変える順番</b>：'+(rest.length&&mc.length?rest.map(function(k){return NAME[k]}).join('、')+' を先に別の番号にしてください。人前や家族の前で入力する番号を、お金に直結するカードの番号と分けられます。'+(mc.length>1?'そのうえで、'+mc.map(function(k){return NAME[k]}).join('・')+' もそれぞれ別の番号にするとさらに安全です。':''):'それぞれ別の番号にしてください。まず、いちばんよく人前で入力するものから変えると、のぞき見で知られた番号がほかに広がりません。')+'</div>'}
+ o.innerHTML=h};
+// 親と見る・研究
+$('bigbtn').onclick=function(){var on=$('p-oya').classList.toggle('big');this.setAttribute('aria-pressed',on);this.textContent=on?'文字をもとに戻す':'文字を大きく'};
+$('openall').onclick=function(){var ds=document.querySelectorAll('details.ev'),open=[].some.call(ds,function(d){return!d.open});[].forEach.call(ds,function(d){d.open=open});this.textContent=open?'すべて閉じる':'すべて開く'};
+})();
+</script>
+</body>
+</html>
