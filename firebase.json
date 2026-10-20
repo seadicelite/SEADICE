@@ -2152,7 +2152,12 @@
       },
       {
         "source": "/tools/qr-guard{,/**}",
-        "destination": "/tools/link-matta/",
+        "destination": "https://bohan.seadice.win/link-check/",
+        "type": 301
+      },
+      {
+        "source": "/tools/link-matta{,/}",
+        "destination": "https://bohan.seadice.win/link-check/",
         "type": 301
       },
       {
