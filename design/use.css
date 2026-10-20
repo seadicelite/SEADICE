@@ -10,3 +10,6 @@ body.t-use main:has(>.sd-tool){max-width:calc(1120px + var(--sd-g)*2);display:gr
 body.t-use main:has(>.sd-tool)>*{grid-column:1}
 body.t-use main>.sd-tool{grid-column:2;grid-row:1 / span 40;position:sticky;top:80px;margin-bottom:0}
 }
+
+/* 更新日（フッター先頭。誠実なデザイン1: 隠さない） */
+.sd-updated{font-size:14px;margin:0 0 8px}
