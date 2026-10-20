@@ -7,6 +7,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
+- [ ] すぐ | 記事 | 宇宙メディア「宇宙の研究」に独自ドメインをつなぐ: Firebase コンソール（seadiceweb）→ Hosting → サイト seadice-uchu →「カスタムドメインを追加」で `uchu.seadice.win` → 出てきた DNS レコードを Cloudflare の seadice.win に追加（プロキシはオフ）→ つながったら Claude に「uchu つないだ」（ホームページのメディア欄・フッター・sameAs・llms.txt に載せる）— 今は https://seadice-uchu.web.app/ でだけ見られる（2026-10-20）
 - [ ] すぐ | アプリ | ソロチャレンジ（ひとりじかんノートのアップデート 2.0.0、ビルド3）を提出する: ipa は `~/Developer/ひとり時間系/hitori-time/build/ios/ipa/ソロチャレンジ.ipa`（古い hitori_time.ipa は ipa-old に移した）。①Transporter でアップロード ②App Store Connect で 2.0.0 を作り、日本語ページのアプリ名「ソロチャレンジ」・サブタイトル・最新情報・審査メモなどを `APPSTORE_SUBMISSION.md` のとおりに（英語ページは触らない）③スクショを `screenshots/6.3`・`duo`・`ipad` に差し替え ④App のプライバシーに「その他のユーザーコンテンツ（アプリの機能・紐付けなし・トラッキングなし）」⑤通ったら Claude に「ソロチャレンジ審査通った」（サイトのアプリページ・一覧・llms.txt を新しい名前に）— ひとり時間のアプリを、習慣とソロ活をAIの仲間がほめてくれるアプリに作り替えた（2026-10-18）
 - [ ] すぐ | アプリ | 無事ボタンの通知を通す準備: ①Apple Developer の「Keys」で APNs のキー（.p8）を作り、Firebase コンソール（seadiceweb）→ プロジェクトの設定 → Cloud Messaging → Apple アプリ「無事ボタン iOS」にアップロード（キーID・チームID S5SK25MHJG を入れる）②終わったら Claude に「APNsキー入れた」— 中継から iPhone に通知を届けるのに要る（2026-10-17）
 - [ ] すぐ | アプリ | IJIN（旧 哲人フレンド）1.2.0（ビルド5）を提出する: ipa はできている（`~/Developer/哲学系/tetsujin-friends/build/ios/ipa/tetsujin_friends.ipa`）。①Transporter でアップロード ②App Store Connect で 1.2.0 を作り、日本語ページのアプリ名「IJIN - 偉人が話しかけてくる友達」・キーワード・What's New・審査メモを `APPSTORE_SUBMISSION.md` のとおりにする（英語ページは触らない）③スクショに「哲人フレンド」の文字があれば差し替え ④通ったら Claude に「IJIN 審査通った」— 友達がいない人向けに改名し、待たせる演出の撤去・同梱文1,575文・本音の強さを入れた（2026-10-17）
