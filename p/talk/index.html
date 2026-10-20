@@ -163,7 +163,7 @@
 
   <p class="eyebrow">Voice Chat</p>
   <h1>SEADICEと話す</h1>
-  <p class="lede">サイコロのマスコットに話しかけると、声で返事してくれます。ブラウザの読み上げ機能を使うので、追加のアプリは不要です。</p>
+  <p class="lede">サイコロのマスコットに話しかけると、声で返事してくれます。声はずんだもん（VOICEVOX）です。追加のアプリは不要です。</p>
 
   <div class="stage">
     <canvas id="stage-canvas" width="220" height="220" aria-hidden="true"></canvas>
@@ -190,7 +190,7 @@
     <button class="send" id="sendBtn" type="submit">送る</button>
   </form>
 
-  <p class="note">Claude APIを使ってお返事しています。不具合や感想は<a href="mailto:hi@seadice.win?subject=SEADICEと話すへのお問い合わせ">こちら</a>まで。</p>
+  <p class="note">Claude APIを使ってお返事しています。声は VOICEVOX:ずんだもん（<a href="https://voicevox.su-shiki.com/su-shikiapis/" target="_blank" rel="noopener">WEB版VOICEVOX API</a>で作成。返事の文章だけを送ります。混んでいるときはブラウザの読み上げに切り替わります）。不具合や感想は<a href="mailto:hi@seadice.win?subject=SEADICEと話すへのお問い合わせ">こちら</a>まで。</p>
 </main>
 
 <footer>
@@ -398,7 +398,7 @@
   muteBtn.addEventListener('click', function(){
     muted = !muted;
     try { localStorage.setItem('seadice_talk_muted', muted ? '1' : '0'); } catch(e){}
-    if (muted && window.speechSynthesis) window.speechSynthesis.cancel();
+    if (muted) { stopVoice(); setStatus('待機中', false); }
     syncMuteUI();
   });
 
@@ -414,7 +414,27 @@
     voiceDot.className = 'dot' + (on ? ' on' : '');
   }
 
-  // ---------- Speech synthesis (TTS only, no cost) ----------
+  // ---------- Voice: VOICEVOX ずんだもん (WEB版VOICEVOX API), fallback to browser TTS ----------
+  var TTS_URL = 'https://api.tts.quest/v3/voicevox/synthesis';
+  var ZUNDAMON = 3; // ずんだもん（ノーマル）
+  var SILENT_WAV = 'data:audio/wav;base64,UklGRjQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YRAAAAAAAAAAAAAAAAAAAAAAAAAA';
+  var player = new Audio();
+  var speakSeq = 0;
+  player.onplay = function(){ speaking = true; setStatus('話しています', true); };
+  player.onended = player.onerror = function(){ speaking = false; setStatus('待機中', false); };
+
+  // iOS Safari only lets audio play from a user gesture, so unlock the player on submit
+  function unlockAudio(){
+    if (muted) return;
+    try { player.src = SILENT_WAV; var p = player.play(); if (p) p.catch(function(){}); } catch(e){}
+  }
+  function stopVoice(){
+    speakSeq++;
+    try { player.pause(); } catch(e){}
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    speaking = false;
+  }
+
   var jaVoice = null;
   function pickVoice(){
     if (!window.speechSynthesis) return;
@@ -426,11 +446,8 @@
     pickVoice();
     window.speechSynthesis.onvoiceschanged = pickVoice;
   }
-  function speak(text){
-    bubble.textContent = text;
-    bubble.classList.add('live');
-    if (muted || !window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
+  function speakBrowser(text){
+    if (!window.speechSynthesis) { setStatus('待機中', false); return; }
     var utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'ja-JP';
     if (jaVoice) utter.voice = jaVoice;
@@ -440,6 +457,37 @@
     utter.onend = function(){ speaking = false; setStatus('待機中', false); };
     utter.onerror = function(){ speaking = false; setStatus('待機中', false); };
     window.speechSynthesis.speak(utter);
+  }
+  function wait(ms){ return new Promise(function(r){ setTimeout(r, ms); }); }
+  async function zundamonUrl(text){
+    var res = await fetch(TTS_URL + '?speaker=' + ZUNDAMON + '&text=' + encodeURIComponent(text));
+    var data = await res.json();
+    if (!data.success) throw new Error('tts');
+    var start = Date.now();
+    while (Date.now() - start < 15000){
+      var st = await (await fetch(data.audioStatusUrl, { cache: 'no-store' })).json();
+      if (st.isAudioError) throw new Error('tts');
+      if (st.isAudioReady) return data.mp3DownloadUrl;
+      await wait(700);
+    }
+    throw new Error('tts timeout');
+  }
+  async function speak(text){
+    bubble.textContent = text;
+    bubble.classList.add('live');
+    if (muted) return;
+    stopVoice();
+    var seq = speakSeq;
+    setStatus('声を作っています', false);
+    try {
+      var url = await zundamonUrl(text);
+      if (seq !== speakSeq || muted) return;
+      player.src = url;
+      await player.play();
+    } catch(err){
+      if (seq !== speakSeq || muted) return;
+      speakBrowser(text);
+    }
   }
 
   // ---------- Claude API via Cloudflare Workers proxy ----------
@@ -452,6 +500,7 @@
 
     busy = true;
     sendBtn.disabled = true;
+    unlockAudio();
     consumeOne();
     refreshQuotaUI();
     addMessage('user', text);
