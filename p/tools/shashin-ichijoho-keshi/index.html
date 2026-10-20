@@ -18,7 +18,7 @@
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"写真の位置情報けし","url":"https://seadice.win/tools/shashin-ichijoho-keshi/","description":"写真のExif情報に残った撮影場所（GPSの緯度・経度）を表示して削除し、削除後のファイルを読み直して位置情報が残っていないことを確かめるブラウザツール。写真は外部に送信せず端末内で処理する。SEADICEが作成。","applicationCategory":"UtilitiesApplication","operatingSystem":"Any (Web browser)","inLanguage":"ja","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@id":"https://seadice.win/#organization","@type":"Organization","name":"SEADICE","url":"https://seadice.win/"},"datePublished":"2026-10-20","dateModified":"2026-10-20"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"HOME","item":"https://seadice.win/"},{"@type":"ListItem","position":2,"name":"TOOLS","item":"https://seadice.win/tools/"},{"@type":"ListItem","position":3,"name":"写真の位置情報けし","item":"https://seadice.win/tools/shashin-ichijoho-keshi/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"写真の位置情報はSNSが自動で消してくれるのでは？","acceptedAnswer":{"@type":"Answer","text":"投稿時に位置情報を消すと説明しているSNSもありますが、消すかどうかはサービスごとに違い、仕様が変わることもあります。メールの添付、クラウドの共有リンク、ブログ、フリマ、チャットで元の画質のまま送る場合などは、写真のファイルがそのまま相手に届くことがあります。上げる前に自分で消しておけば、どこに出すかを気にせずに済みます。"}},{"@type":"Question","name":"位置情報を消すと画質は落ちますか？","acceptedAnswer":{"@type":"Answer","text":"JPEG（拡張子が .jpg）の写真は、画像の部分には手を付けず、撮影情報の部分だけを取り除くので画質は変わりません。HEIC・PNG・WebPなどの写真は画像を描き直して保存するため、HEIC・WebPはJPEGに変わり、画質がわずかに変わることがあります。透明な部分は白になり、動く画像は1コマになります。"}},{"@type":"Question","name":"iPhoneで撮るときから位置情報を付けない方法は？","acceptedAnswer":{"@type":"Answer","text":"「設定」→「プライバシーとセキュリティ」→「位置情報サービス」→「カメラ」で「なし」を選ぶと、これから撮る写真に撮影場所が記録されなくなります。共有するときに1枚ずつ外したいときは、共有画面の上にある「オプション」で「位置情報」をオフにします。"}},{"@type":"Question","name":"Androidでは？","acceptedAnswer":{"@type":"Answer","text":"カメラアプリの設定に「位置情報タグ」「位置情報を保存」などの項目があり、オフにすると記録されなくなります。名前と場所は機種やカメラアプリによって違います。"}},{"@type":"Question","name":"写真はどこかに送信されますか？","acceptedAnswer":{"@type":"Answer","text":"送信しません。写真の読み込み・位置情報の削除・確認はすべて、開いているブラウザの中だけで行います。ページを開いたままなら、通信を切っても使えます。"}},{"@type":"Question","name":"保存した写真はどこに入りますか？","acceptedAnswer":{"@type":"Answer","text":"スマホでは「保存する」を押すと共有画面が開きます。iPhoneは「画像を保存」を選ぶと写真アプリに入ります。Androidは機種によって項目の名前が違うので、共有画面に保存の項目がないときは、下の「ファイルとして保存」を押してください（「ダウンロード」に入ります）。パソコンではダウンロードフォルダに入ります。ファイル名の最後に「_noloc」が付きます。元の写真はそのまま残るので、上げるときは「_noloc」の付いたほうを選んでください。"}}]}]}</script>
-<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--rest:#F2A65A}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}footer{border-top:1px solid var(--border);padding:24px 20px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}.lead b{color:var(--sd-text)}.app{padding:20px 18px;margin-bottom:40px}.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}.seg button{font:inherit;font-size:13px;color:var(--sd-muted);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:10px 12px;cursor:pointer;line-height:1.5;text-align:left}.seg button b{display:block;font-size:15px;color:var(--sd-text)}.seg button[aria-pressed=true]{border-color:var(--sd-accent);border-width:2px;padding:9px 11px}.seg button[aria-pressed=true] b{color:var(--sd-accent)}.drop{border:1px dashed var(--sd-line2);border-radius:8px;padding:18px 14px;text-align:center}.drop.over{border-color:var(--sd-accent)}.btn{display:block;width:100%;min-height:52px;font:inherit;font-size:16px;font-weight:800;color:var(--sd-bg);background:var(--sd-accent);border:0;border-radius:8px;padding:14px;cursor:pointer}.btn2{display:block;width:100%;min-height:48px;font:inherit;font-size:15px;font-weight:700;color:var(--sd-text);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:12px;cursor:pointer;margin-top:10px}.hint{font-size:13px;color:var(--sd-text2);margin-top:10px}.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}#list{margin-top:16px}.item{border:1px solid var(--sd-line2);border-radius:8px;padding:14px;margin-top:12px;background:var(--sd-bg)}.fn{font-size:13px;color:var(--sd-muted);word-break:break-all;margin-bottom:6px}.st{font-size:15px;font-weight:800;padding-left:10px;border-left:4px solid var(--sd-line2);margin:8px 0}.st.warn{border-color:#F2A65A;color:#F2C79A}.st.ok{border-color:var(--sd-accent);color:var(--sd-accent)}.st.err{border-color:#F2A65A}.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:14px;margin:6px 0 4px}.kv dt{color:var(--sd-muted)}.kv dd{word-break:break-all;font-variant-numeric:tabular-nums}.small{font-size:13px;color:var(--sd-text2);margin-top:4px}.item .btn{margin-top:12px}.dl{display:inline-block;font-size:13px;color:var(--sd-link);padding:10px 0}section.s{margin-bottom:44px}section.s>h2{font-size:19px;margin-bottom:10px}section.s>p{font-size:15px;margin-bottom:12px}.tbl{width:100%;border-collapse:collapse;font-size:14px}.tbl th,.tbl td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--sd-line);vertical-align:top}.tbl th{font-size:12px;color:var(--sd-muted);font-weight:700}ul.why{padding-left:1.4em;font-size:15px}ul.why li{margin-bottom:8px}details.q{border-bottom:1px solid var(--sd-line);padding:12px 0}details.q summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details.q p,details.q ul{font-size:14px;color:var(--sd-text2);margin-top:8px}details.q ul{padding-left:1.4em}.src{display:block;background:var(--sd-surface);border:1px solid var(--sd-line);border-radius:8px;padding:14px 16px;text-decoration:none;color:var(--sd-text);margin-top:10px}.src:hover{border-color:var(--sd-accent)}.src small{display:block;font-size:12px;color:var(--sd-accent);margin-bottom:2px}.src b{font-size:14px}.note{font-size:13px;color:var(--sd-muted)}.pv{display:block;width:100%;max-height:240px;object-fit:contain;background:var(--sd-surface);border:1px solid var(--sd-line);border-radius:6px;margin-top:10px;cursor:zoom-in}.pv.big{max-height:none;cursor:zoom-out}.look{margin-top:16px;border-top:1px solid var(--sd-line2);padding-top:14px}.look h3{font-size:15px;margin-bottom:4px}.chk{display:flex;flex-direction:column;gap:8px;margin-top:10px}.chk button{font:inherit;font-size:14px;color:var(--sd-text);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:10px 12px;text-align:left;cursor:pointer;min-height:48px}.chk button::before{content:"未";display:inline-block;width:2.2em;font-size:12px;font-weight:800;color:var(--sd-muted)}.chk button[aria-pressed=true]{border-color:var(--sd-accent)}.chk button[aria-pressed=true]::before{content:"見た";color:var(--sd-accent)}#lookSt{font-size:14px;font-weight:700;margin-top:10px}.tabs{display:flex;gap:8px;margin-bottom:12px}.tabs button{font:inherit;font-size:14px;font-weight:700;color:var(--sd-muted);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:8px 18px;cursor:pointer}.tabs button[aria-selected=true]{color:var(--sd-accent);border-color:var(--sd-accent)}.steps h3{font-size:15px;margin:14px 0 4px}.steps ol{padding-left:1.4em;font-size:15px}.steps li{margin-bottom:4px}</style>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--bg:#05050C;--card:#0C0C1A;--accent:#00FFD1;--accent2:#38BDF8;--border:#1a1a2e;--text:#e2e8f0;--muted:#7c8aa0;--rest:#F2A65A}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:-apple-system,'Helvetica Neue',sans-serif;line-height:1.7;-webkit-text-size-adjust:100%}a{color:#7dd3fc}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}nav.top{position:fixed;top:0;left:0;right:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(5,5,12,.85);border-bottom:1px solid var(--border);padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-size:15px;font-weight:800;letter-spacing:.15em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;padding:10px 0}.nav-home{color:var(--muted);text-decoration:none;font-size:13px;padding:10px 0}main{max-width:640px;margin:0 auto;padding:80px 20px 72px}.crumb{font-size:12px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--muted);text-decoration:none}.label{font-size:12px;letter-spacing:.25em;color:var(--accent);margin-bottom:10px}h1{font-size:clamp(26px,6vw,36px);font-weight:800;line-height:1.35;margin-bottom:12px}.lead{font-size:15px;color:#b6c0cf;margin-bottom:28px}footer{border-top:1px solid var(--border);padding:24px 20px;text-align:center;font-size:12px;color:var(--muted)}footer a{color:var(--muted);text-decoration:none;display:inline-block;padding:8px 6px}.lead b{color:var(--sd-text)}.app{padding:20px 18px;margin-bottom:40px}.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}.seg button{font:inherit;font-size:13px;color:var(--sd-muted);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:10px 12px;cursor:pointer;line-height:1.5;text-align:left}.seg button b{display:block;font-size:15px;color:var(--sd-text)}.seg button[aria-pressed=true]{border-color:var(--sd-accent);border-width:2px;padding:9px 11px}.seg button[aria-pressed=true] b{color:var(--sd-accent)}.drop{border:1px dashed var(--sd-line2);border-radius:8px;padding:18px 14px;text-align:center}.drop.over{border-color:var(--sd-accent)}.btn{display:block;width:100%;min-height:52px;font:inherit;font-size:16px;font-weight:800;color:var(--sd-bg);background:var(--sd-accent);border:0;border-radius:8px;padding:14px;cursor:pointer}.btn2{display:block;width:100%;min-height:48px;font:inherit;font-size:15px;font-weight:700;color:var(--sd-text);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:12px;cursor:pointer;margin-top:10px}.hint{font-size:13px;color:var(--sd-text2);margin-top:10px}.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}#list{margin-top:16px}.item{border:1px solid var(--sd-line2);border-radius:8px;padding:14px;margin-top:12px;background:var(--sd-bg)}.fn{font-size:13px;color:var(--sd-muted);word-break:break-all;margin-bottom:6px}.st{font-size:15px;font-weight:800;padding-left:10px;border-left:4px solid var(--sd-line2);margin:8px 0}.st.warn{border-color:#F2A65A;color:#F2C79A}.st.ok{border-color:var(--sd-accent);color:var(--sd-accent)}.st.err{border-color:#F2A65A}.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:14px;margin:6px 0 4px}.kv dt{color:var(--sd-muted)}.kv dd{word-break:break-all;font-variant-numeric:tabular-nums}.small{font-size:13px;color:var(--sd-text2);margin-top:4px}.item .btn{margin-top:12px}.dl{display:inline-block;font-size:13px;color:var(--sd-link);padding:10px 0}section.s{margin-bottom:44px}section.s>h2{font-size:19px;margin-bottom:10px}section.s>p{font-size:15px;margin-bottom:12px}.tbl{width:100%;border-collapse:collapse;font-size:14px}.tbl th,.tbl td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--sd-line);vertical-align:top}.tbl th{font-size:12px;color:var(--sd-muted);font-weight:700}ul.why{padding-left:1.4em;font-size:15px}ul.why li{margin-bottom:8px}details.q{border-bottom:1px solid var(--sd-line);padding:12px 0}details.q summary{font-size:15px;font-weight:700;cursor:pointer;padding:4px 0}details.q p,details.q ul{font-size:14px;color:var(--sd-text2);margin-top:8px}details.q ul{padding-left:1.4em}.src{display:block;background:var(--sd-surface);border:1px solid var(--sd-line);border-radius:8px;padding:14px 16px;text-decoration:none;color:var(--sd-text);margin-top:10px}.src:hover{border-color:var(--sd-accent)}.src small{display:block;font-size:12px;color:var(--sd-accent);margin-bottom:2px}.src b{font-size:14px}.note{font-size:13px;color:var(--sd-muted)}.pv{display:block;width:100%;max-height:240px;object-fit:contain;background:var(--sd-surface);border:1px solid var(--sd-line);border-radius:6px;margin-top:10px;cursor:zoom-in}.pv.big{max-height:none;cursor:zoom-out}.look{margin-top:16px;border-top:1px solid var(--sd-line2);padding-top:14px}.look h3{font-size:15px;margin-bottom:4px}.chk{display:flex;flex-direction:column;gap:8px;margin-top:10px}.chk button{font:inherit;font-size:14px;color:var(--sd-text);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:10px 12px;text-align:left;cursor:pointer;min-height:48px}.chk button::before{content:"未";display:inline-block;width:2.2em;font-size:12px;font-weight:800;color:var(--sd-muted)}.chk button[aria-pressed=true]{border-color:var(--sd-accent)}.chk button[aria-pressed=true]::before{content:"見た";color:var(--sd-accent)}#lookSt{font-size:14px;font-weight:700;margin-top:10px}.tabs{display:flex;gap:8px;margin-bottom:12px}.tabs button{font:inherit;font-size:14px;font-weight:700;color:var(--sd-muted);background:transparent;border:1px solid var(--sd-line2);border-radius:8px;padding:8px 18px;cursor:pointer}.tabs button[aria-selected=true]{color:var(--sd-accent);border-color:var(--sd-accent)}.steps h3{font-size:15px;margin:14px 0 4px}.steps ol{padding-left:1.4em;font-size:15px}.steps li{margin-bottom:4px}.i{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:-4px}.pts{list-style:none;display:flex;flex-wrap:wrap;gap:8px 16px;margin:-12px 0 24px;font-size:14px;color:var(--sd-text2)}.pts li{display:flex;align-items:center;gap:6px}.pts .i{color:var(--sd-accent)}.seg button .i{float:right;color:var(--sd-muted)}.seg button[aria-pressed=true] .i{color:var(--sd-accent)}.btn .i{margin-right:8px;vertical-align:-5px}.st{display:flex;align-items:center;gap:8px}.st .i{margin:0}.kv dt{display:flex;align-items:center;gap:6px}.kv dt .i{width:16px;height:16px}.look h3{display:flex;align-items:center;gap:8px}.chk{display:grid;grid-template-columns:1fr 1fr;gap:8px}.chk button{display:flex;align-items:center;gap:8px}.chk button::before{display:none!important}.chk button .i{color:var(--sd-muted)}.chk button[aria-pressed=true]{color:var(--sd-accent)}.chk button[aria-pressed=true] .i{color:var(--sd-accent)}.chk button[aria-pressed=true]::after{content:"見た";margin-left:auto;font-size:12px;font-weight:800}section.s>h2{display:flex;align-items:center;gap:10px}section.s>h2 .i{color:var(--sd-accent);width:22px;height:22px}.st3{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--sd-line)}.st3>.i{color:var(--sd-accent);margin-top:3px}.st3 b{font-size:15px}.st3 p{font-size:14px;color:var(--sd-text2);margin-top:2px}details.q li{list-style:none;margin-bottom:6px}details.q li .i{width:16px;height:16px;margin-right:4px;color:var(--sd-accent)}details.q ul{padding-left:0}</style>
 <style id="sd-design">:root{--sd-bg:#05050C;--sd-surface:#0C0C1A;--sd-surface2:#11112a;--sd-line:#1a1a2e;--sd-line2:#2a2a44;--sd-text:#e2e8f0;--sd-text2:#b6c0cf;--sd-muted:#7c8aa0;--sd-accent:#00FFD1;--sd-accent2:#38BDF8;--sd-link:#7dd3fc;--sd-g:16px}@media(min-width:600px){:root{--sd-g:24px}}@media(min-width:960px){:root{--sd-g:32px}}html{-webkit-text-size-adjust:100%}html,body{overflow-x:clip}body{overflow-wrap:break-word}img,video{max-width:100%;height:auto}:focus-visible{outline:2px solid var(--sd-accent);outline-offset:3px}body:is(.t-read,.t-show,.t-use) .nav-logo,body:is(.t-read,.t-show,.t-use) .logo-text{background:none;-webkit-text-fill-color:currentColor;color:var(--sd-accent)}body:is(.t-read,.t-show,.t-use) :is(.tool-cta a,.btn,.cta a,.add){background:var(--sd-accent);color:#05050C;box-shadow:none;border-radius:6px}body:is(.t-read,.t-show,.t-use) :is(.card,.tool-cta,.info-box,.evidence,.ev-media,.cta,.stat-box,.app,.sd-tool){border-radius:8px;box-shadow:none}body:is(.t-read,.t-show,.t-use) :is(.badge,.tag,.app-badge){border-radius:4px}body:is(.t-read,.t-show,.t-use) h1 span{color:inherit}body.t-use main{max-width:calc(640px + var(--sd-g)*2);padding-left:var(--sd-g);padding-right:var(--sd-g)}body.t-use h1{font-size:clamp(24px,5.4vw,32px);line-height:1.35}body.t-use .lead{font-size:14px;line-height:1.8}body.t-use .sd-tool{background:var(--sd-surface2);border:1px solid var(--sd-line2);border-radius:8px}body.t-use input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=file]),body.t-use select,body.t-use textarea{min-height:48px;font-size:max(16px,1em)}body.t-use button{min-height:44px}@media(min-width:960px){body.t-use main:has(>.sd-tool){max-width:calc(1120px + var(--sd-g)*2);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);column-gap:56px;align-items:start}body.t-use main:has(>.sd-tool)>*{grid-column:1}body.t-use main>.sd-tool{grid-column:2;grid-row:1 / span 40;position:sticky;top:80px;margin-bottom:0}}.sd-updated{font-size:14px;margin:0 0 8px}</style></head>
 <body class="t-use">
 <nav class="top" aria-label="サイトナビゲーション">
@@ -26,94 +26,97 @@
   <a href="/tools/" class="nav-home">ツール一覧</a>
 </nav>
 <main>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6-5.6-6-11a6 6 0 0 1 12 0c0 5.4-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/></symbol>
+    <symbol id="i-pinoff" viewBox="0 0 24 24"><path d="M12 21s-6-5.6-6-11a6 6 0 0 1 12 0c0 5.4-6 11-6 11z"/><path d="M4 4l16 16"/></symbol>
+    <symbol id="i-erase" viewBox="0 0 24 24"><path d="M14 4l6 6-9 9H7l-3-3z"/><path d="M9 9l6 6M4 20h16"/></symbol>
+    <symbol id="i-photo" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 8"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-thumb" viewBox="0 0 24 24"><rect x="3" y="3" width="11" height="11" rx="1"/><rect x="10" y="10" width="11" height="11" rx="1"/></symbol>
+    <symbol id="i-window" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M12 3v18M4 12h16"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="M3 7l9 4 9-4M12 11v10"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7l2-3h4l2 3"/><circle cx="12" cy="13" r="3.2"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></symbol>
+    <symbol id="i-q" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5v.7M12 17v.5"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+  </defs></svg>
   <p class="crumb"><a href="/">HOME</a> / <a href="/tools/">TOOLS</a> / 写真の位置情報けし</p>
   <p class="label">TOOL</p>
   <h1>写真の位置情報けし</h1>
-  <p class="lead">スマホで撮った写真には、<b>撮った場所の緯度・経度</b>がファイルの中に記録されていることがあります。自宅で撮った写真をそのまま載せると、住所の手がかりになります。SNSに上げる前に写真を選ぶだけで、残っている位置情報を見せてから消し、消えたことを確かめます。写真はどこにも送りません。</p>
+  <p class="lead">SNSに上げる前に、写真に残った<b>撮影場所</b>を消します。</p>
+  <ul class="pts">
+    <li><svg class="i"><use href="#i-pin"/></svg>残っている場所を見せる</li>
+    <li><svg class="i"><use href="#i-pinoff"/></svg>消して、消えたか確かめる</li>
+    <li><svg class="i"><use href="#i-lock"/></svg>写真はどこにも送らない</li>
+  </ul>
 
   <div class="app sd-tool" id="app">
     <div class="seg" role="group" aria-label="消す範囲">
-      <button type="button" id="mAll" aria-pressed="true"><b>ぜんぶ消す</b>場所・日時・機種・縮小画像</button>
-      <button type="button" id="mGps" aria-pressed="false"><b>場所だけ消す</b>日時・機種などは残す</button>
+      <button type="button" id="mAll" aria-pressed="true"><svg class="i"><use href="#i-erase"/></svg><b>ぜんぶ消す</b>おすすめ</button>
+      <button type="button" id="mGps" aria-pressed="false"><svg class="i"><use href="#i-pinoff"/></svg><b>場所だけ消す</b>日時などは残す</button>
     </div>
     <div class="drop" id="drop">
-      <button type="button" class="btn" id="pick">写真を選んで位置情報を消す</button>
+      <button type="button" class="btn" id="pick"><svg class="i"><use href="#i-photo"/></svg>写真を選ぶ</button>
       <input type="file" id="file" class="vh" accept="image/*" multiple tabindex="-1" aria-hidden="true">
-      <p class="hint">何枚かまとめて選べます。写真はこの端末の中だけで処理し、外には送りません。</p>
     </div>
     <div id="list" aria-live="polite"></div>
     <div class="look" id="look" hidden>
-      <h3>上げる前に、写真を見て確かめる</h3>
-      <p class="small">位置情報を消しても、写っているものから場所がわかることがあります。写真を押すと大きく見られます。見たものを押してください。</p>
+      <h3><svg class="i"><use href="#i-eye"/></svg>写っているものも見てください</h3>
+      <p class="small">見たら押す（写真を押すと拡大）</p>
       <div class="chk" id="chk">
-        <button type="button" aria-pressed="false">窓やベランダの外の景色・建物・看板</button>
-        <button type="button" aria-pressed="false">電柱の住所、表札、マンション名</button>
-        <button type="button" aria-pressed="false">宅配の伝票、郵便物、学校や会社の名前</button>
-        <button type="button" aria-pressed="false">最寄り駅や近所のお店など、いつもの場所</button>
-        <button type="button" aria-pressed="false">鏡・窓ガラス・瞳への映り込み</button>
+        <button type="button" aria-pressed="false"><svg class="i"><use href="#i-window"/></svg>窓の外の景色</button>
+        <button type="button" aria-pressed="false"><svg class="i"><use href="#i-home"/></svg>表札・住所の表示</button>
+        <button type="button" aria-pressed="false"><svg class="i"><use href="#i-box"/></svg>伝票・郵便物</button>
+        <button type="button" aria-pressed="false"><svg class="i"><use href="#i-map"/></svg>いつもの場所</button>
+        <button type="button" aria-pressed="false"><svg class="i"><use href="#i-eye"/></svg>鏡・窓への映り込み</button>
       </div>
       <p id="lookSt" aria-live="polite">あと5つ</p>
     </div>
     <button type="button" class="btn2" id="saveAll" hidden>まとめて保存する</button>
-    <button type="button" class="btn2" id="clear" hidden>選んだ写真を消してやり直す</button>
+    <button type="button" class="btn2" id="clear" hidden>やり直す</button>
   </div>
 
-  <section class="s" aria-labelledby="h-read">
-    <h2 id="h-read">結果の読み方</h2>
-    <table class="tbl">
-      <tr><th scope="col">表示</th><th scope="col">意味</th></tr>
-      <tr><td>撮影場所</td><td>写真に記録されていた緯度・経度です。地図アプリに入れると、撮った場所が数メートルから数十メートルの範囲でわかります。</td></tr>
-      <tr><td>撮影日時・機種</td><td>いつ、どのスマホで撮ったか。「ぜんぶ消す」ではこれも消します。</td></tr>
-      <tr><td>縮小画像</td><td>ファイルの中に入っている小さな写真です。編集アプリによっては、切り抜きやモザイクをかける前の写真がここに残ることがあります。「ぜんぶ消す」で消えます。</td></tr>
-      <tr><td>消しました</td><td>保存する写真を、このページがもう一度読み直して、撮影場所が残っていないことを確かめた印です。</td></tr>
-    </table>
-    <p class="note">「ぜんぶ消す」でも、写真の向きと色の情報だけは残します（消すと横向きに表示されたり、色が変わったりするため）。</p>
-  </section>
-
-  <section class="s" aria-labelledby="h-look">
-    <h2 id="h-look">写っているものからも場所はわかる</h2>
-    <p>位置情報を消しても、写真に写っているものから場所がわかることがあります。上げる前に、次のものが写っていないか見てください。</p>
-    <ul class="why">
-      <li>窓やベランダから見える景色・建物・看板</li>
-      <li>電柱や街区表示板の住所、表札、マンション名</li>
-      <li>宅配の伝票、郵便物、学校や会社の名前が入った物</li>
-      <li>最寄り駅や近所のお店など、毎回同じ場所</li>
-      <li>鏡・窓ガラス・瞳への映り込み</li>
-    </ul>
-  </section>
-
   <section class="s steps" aria-labelledby="h-pre">
-    <h2 id="h-pre">撮る前から位置情報を付けない</h2>
-    <p>スマホの設定を変えておくと、これから撮る写真に撮影場所が記録されなくなります。</p>
+    <h2 id="h-pre"><svg class="i"><use href="#i-camera"/></svg>撮る前から付けない</h2>
     <div class="tabs" role="tablist" aria-label="スマホの種類">
       <button type="button" role="tab" id="tI" aria-selected="true" aria-controls="pI">iPhone</button>
       <button type="button" role="tab" id="tA" aria-selected="false" aria-controls="pA">Android</button>
     </div>
     <div id="pI" role="tabpanel" aria-labelledby="tI">
-      <h3>これから撮る写真に付けない</h3>
-      <ol><li>「設定」を開く</li><li>「プライバシーとセキュリティ」→「位置情報サービス」</li><li>「カメラ」を選び、「なし」にする</li></ol>
-      <h3>撮った写真から消す</h3>
-      <ol><li>写真アプリで写真を開き、上にスワイプする</li><li>地図の横の「調整」を押す</li><li>「位置情報なし」を選ぶ</li></ol>
-      <h3>送るときだけ外す</h3>
-      <ol><li>写真を選んで共有を押す</li><li>上に出る「オプション」を押す</li><li>「位置情報」をオフにして送る</li></ol>
+      <div class="st3"><svg class="i"><use href="#i-camera"/></svg><div><b>これから撮る写真</b><p>設定 → プライバシーとセキュリティ → 位置情報サービス → カメラ →「なし」</p></div></div>
+      <div class="st3"><svg class="i"><use href="#i-photo"/></svg><div><b>撮った写真</b><p>写真を開いて上にスワイプ →「調整」→「位置情報なし」</p></div></div>
+      <div class="st3"><svg class="i"><use href="#i-link"/></svg><div><b>送るときだけ</b><p>共有 → 上の「オプション」→「位置情報」をオフ</p></div></div>
     </div>
     <div id="pA" role="tabpanel" aria-labelledby="tA" hidden>
-      <h3>これから撮る写真に付けない</h3>
-      <ol><li>カメラアプリを開き、設定（歯車）を押す</li><li>「位置情報を保存」（Pixel）、「位置タグ」（Galaxy）などの項目をオフにする</li></ol>
-      <h3>撮った写真から消す</h3>
-      <ol><li>このページの上の道具で写真を選ぶ</li><li>「消しました」が出たら、保存して、保存したほうを上げる</li></ol>
+      <div class="st3"><svg class="i"><use href="#i-camera"/></svg><div><b>これから撮る写真</b><p>カメラの設定 →「位置情報を保存」（Pixel）・「位置タグ」（Galaxy）などをオフ</p></div></div>
+      <div class="st3"><svg class="i"><use href="#i-photo"/></svg><div><b>撮った写真</b><p>このページで消して、保存したほうを上げる</p></div></div>
     </div>
-    <p class="note">項目の名前は iOS 18 などのものです。OSの版や機種によって違うことがあります。</p>
+    <p class="note">表記は iOS 18 などのもの。版や機種で違うことがあります。</p>
   </section>
 
-  <section class="s" aria-labelledby="h-src">
-    <h2 id="h-src">しくみと出典</h2>
-    <p>スマホやデジカメの写真は、撮影情報を「Exif（イグジフ）」という決まった形でファイルの中に書き込みます。撮影場所はその中の「GPS」の欄に、緯度・経度・高度などとして入ります。このツールは、JPEG写真ではExifの欄を読んで、GPSの欄（「場所だけ消す」）またはExif全体（「ぜんぶ消す」）を取り除きます。あわせて、編集アプリが書き込む別の情報（XMP・IPTC）と、写真の後ろに付いている深度・HDR用の画像も取り除きます（動く写真の動画部分も外れ、静止画になります）。「場所だけ消す」は撮影場所の欄だけを空にするので、日時・機種・縮小画像・カメラの設定などの撮影情報は残ります。HEIC・PNG・WebPの写真は、画像だけを描き直して保存するので、撮影情報は何も残りません。</p>
-    <p class="note">出典: Exif の規格（CIPA DC-008 / JEITA CP-3451「デジタルスチルカメラ用画像ファイルフォーマット規格」）。規格の公開ページに接続できず未確認のため、リンクはしていません。</p>
+  <section class="s" aria-labelledby="h-more">
+    <h2 id="h-more"><svg class="i"><use href="#i-info"/></svg>くわしく</h2>
+    <details class="q"><summary>何が消える？</summary>
+      <ul>
+        <li><svg class="i"><use href="#i-pin"/></svg><b>撮影場所</b>: 緯度・経度。地図に入れると数メートル〜数十メートルの範囲で場所がわかる</li>
+        <li><svg class="i"><use href="#i-clock"/></svg><b>撮影日時</b>・<svg class="i"><use href="#i-phone"/></svg><b>機種</b>: 「ぜんぶ消す」で消える</li>
+        <li><svg class="i"><use href="#i-thumb"/></svg><b>縮小画像</b>: ファイルの中の小さな写真。切り抜きやモザイクの前の写真が残っていることがある。「ぜんぶ消す」で消える</li>
+      </ul>
+      <p>写真の向きと色の情報だけは残します。「場所だけ消す」は場所の欄だけを空にし、日時・機種・縮小画像などは残します。</p>
+    </details>
+    <details class="q"><summary>しくみと出典</summary>
+      <p>写真の撮影情報は「Exif」という形でファイルに入っていて、撮影場所はその中のGPSの欄にあります。JPEGはこの欄（または撮影情報全体）を取り除くだけなので、画質は変わりません。編集アプリの情報（XMP・IPTC）と、後ろに付いた深度・HDR・動く写真の部分も外します。HEIC・PNG・WebPは描き直して保存するので、何も残りません。</p>
+      <p class="note">出典: Exif の規格（CIPA DC-008 / JEITA CP-3451）。公開ページに接続できず未確認のため、リンクしていません。</p>
+    </details>
   </section>
 
   <section class="s" aria-labelledby="h-faq">
-    <h2 id="h-faq">よくある質問</h2>
+    <h2 id="h-faq"><svg class="i"><use href="#i-q"/></svg>よくある質問</h2>
     <details class="q"><summary>写真の位置情報はSNSが自動で消してくれるのでは？</summary><p>投稿時に位置情報を消すと説明しているSNSもありますが、消すかどうかはサービスごとに違い、仕様が変わることもあります。メールの添付、クラウドの共有リンク、ブログ、フリマ、チャットで元の画質のまま送る場合などは、写真のファイルがそのまま相手に届くことがあります。上げる前に自分で消しておけば、どこに出すかを気にせずに済みます。</p></details>
     <details class="q"><summary>位置情報を消すと画質は落ちますか？</summary><p>JPEG（拡張子が .jpg）の写真は、画像の部分には手を付けず、撮影情報の部分だけを取り除くので画質は変わりません。HEIC・PNG・WebPなどの写真は画像を描き直して保存するため、HEIC・WebPはJPEGに変わり、画質がわずかに変わることがあります。透明な部分は白になり、動く画像は1コマになります。</p></details>
     <details class="q"><summary>iPhoneで撮るときから位置情報を付けない方法は？</summary><p>「設定」→「プライバシーとセキュリティ」→「位置情報サービス」→「カメラ」で「なし」を選ぶと、これから撮る写真に撮影場所が記録されなくなります。共有するときに1枚ずつ外したいときは、共有画面の上にある「オプション」で「位置情報」をオフにします。</p></details>
@@ -123,12 +126,12 @@
   </section>
 
   <section class="s" aria-labelledby="h-rel">
-    <h2 id="h-rel">関連</h2>
+    <h2 id="h-rel"><svg class="i"><use href="#i-link"/></svg>関連</h2>
     <a class="src" href="https://bohan.seadice.win/sns-photo-location-home/"><small>防犯メディアの記事</small><b>SNSの写真1枚から家がわかる。AIが撮影場所を当てる時代の投稿のコツ</b></a>
     <a class="src" href="https://bohan.seadice.win/"><small>防犯メディア</small><b>BOHAN — 身近な犯罪を研究と統計で読み解く</b></a>
     <a class="src" href="/image-resizer/"><small>ツール</small><b>画像リサイザー — 送信なしで写真を縮小・変換</b></a>
   </section>
-  <p class="note">更新日: 2026年10月20日。写真はこのブラウザの中だけで処理し、保存も記録もしません。</p>
+  <p class="note">更新日: 2026年10月20日</p>
 </main>
 <footer>
   <a href="https://seadice.win/">SEADICE</a> <a href="/tools/">ツール一覧</a> <a href="/privacy/">プライバシーポリシー</a> <a href="mailto:hi@seadice.win">お問い合わせ</a>
@@ -218,7 +221,9 @@ function redraw(file){
 }
 function fmtDate(s){var m=/^(\d{4}):(\d\d):(\d\d) (\d\d):(\d\d)/.exec(s);return m?m[1]+'/'+m[2]+'/'+m[3]+' '+m[4]+':'+m[5]:s}
 function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
-function kv(dl,k,v){dl.appendChild(el('dt',null,k));dl.appendChild(el('dd',null,v))}
+function ic(n){var s=document.createElementNS('http://www.w3.org/2000/svg','svg'),u=document.createElementNS('http://www.w3.org/2000/svg','use');s.setAttribute('class','i');s.setAttribute('aria-hidden','true');u.setAttribute('href','#i-'+n);s.appendChild(u);return s}
+function kv(dl,n,k,v){var t=el('dt');t.appendChild(ic(n));t.appendChild(document.createTextNode(k));dl.appendChild(t);dl.appendChild(el('dd',null,v))}
+function st(c,n,t){var p=el('p','st '+c);p.appendChild(ic(n));p.appendChild(document.createTextNode(t));return p}
 function outName(n,type){var b=n.replace(/\.[^.]+$/,'');return b+'_noloc.'+(type==='image/png'?'png':'jpg')}
 var mobile=window.matchMedia&&matchMedia('(pointer:coarse)').matches;
 function canShare(fs){try{return mobile&&navigator.canShare&&navigator.canShare({files:fs})}catch(e){return false}}
@@ -226,16 +231,16 @@ function download(f){var u=URL.createObjectURL(f);urls.push(u);var a=document.cr
 function save(fs){if(canShare(fs)){navigator.share({files:fs}).catch(function(){})}else fs.forEach(function(f,i){setTimeout(function(){download(f)},i*300)})}
 async function one(file,my){
   var box=el('div','item');box.appendChild(el('p','fn',file.name));$('list').appendChild(box);
-  var d;try{d=new Uint8Array(await file.arrayBuffer())}catch(e){box.appendChild(el('p','st err','この写真を開けませんでした'));return}
+  var d;try{d=new Uint8Array(await file.arrayBuffer())}catch(e){box.appendChild(st('err','photo','この写真を開けませんでした'));return}
   var info=findExif(d),xmpGps=has(d,'GPSLatitude')||has(d,'GPSLongitude');
-  if(info&&info.gps){box.appendChild(el('p','st warn','撮影場所が残っていました'))}
-  else if(xmpGps||(info&&info.gpsIfd&&info.gpsIfd.n)){box.appendChild(el('p','st warn','位置の情報が残っていました'))}
-  else box.appendChild(el('p','st',info?'撮影場所は入っていませんでした':(d[0]===0xFF&&d[1]===0xD8?'撮影情報は見つかりませんでした':'この形式は撮影情報を読み取れないことがあります（描き直すので残りません）')));
+  if(info&&info.gps){box.appendChild(st('warn','pin','撮影場所が残っていました'))}
+  else if(xmpGps||(info&&info.gpsIfd&&info.gpsIfd.n)){box.appendChild(st('warn','pin','位置の情報が残っていました'))}
+  else box.appendChild(st('','pinoff',info?'撮影場所は入っていませんでした':(d[0]===0xFF&&d[1]===0xD8?'撮影情報は見つかりませんでした':'この形式は中身を読めないことがあります（描き直すので残りません）')));
   var dl=el('dl','kv');
-  if(info&&info.gps)kv(dl,'撮影場所','緯度 '+info.gps[0].toFixed(5)+' / 経度 '+info.gps[1].toFixed(5));
-  if(info&&info.date)kv(dl,'撮影日時',fmtDate(info.date));
-  if(info&&info.model)kv(dl,'機種',info.model);
-  if(info&&info.thumb)kv(dl,'縮小画像','あり');
+  if(info&&info.gps)kv(dl,'pin','場所','緯度 '+info.gps[0].toFixed(5)+' / 経度 '+info.gps[1].toFixed(5));
+  if(info&&info.date)kv(dl,'clock','日時',fmtDate(info.date));
+  if(info&&info.model)kv(dl,'phone','機種',info.model);
+  if(info&&info.thumb)kv(dl,'thumb','縮小画像','あり');
   if(dl.childNodes.length)box.appendChild(dl);
   var blob=null,note='';
   if(d[0]===0xFF&&d[1]===0xD8){blob=cleanJpeg(d,info);if(blob)note='画質はそのままです。'}
@@ -245,13 +250,13 @@ async function one(file,my){
   }
   var od=new Uint8Array(await blob.arrayBuffer()),oi=findExif(od);
   var left=(oi&&(oi.gps||(oi.gpsIfd&&oi.gpsIfd.n)||(oi.gpsTag&&!oi.gpsIfd)||oi.bad))||has(od,'GPSLatitude')||has(od,'GPSLongitude');
-  if(left){box.appendChild(el('p','st err','位置情報を消しきれませんでした。この写真は上げないでください'));return}
+  if(left){box.appendChild(st('err','pin','消しきれませんでした。この写真は上げないでください'));return}
   var kept=mode==='gps'&&oi?'場所以外の撮影情報（日時・機種など）は残しています。':'';
-  box.appendChild(el('p','st ok','消しました（保存する写真を読み直して確かめました）'));
+  box.appendChild(st('ok','pinoff','消しました（読み直して確認済み）'));
   box.appendChild(el('p','small',note+kept));
   var pu=URL.createObjectURL(blob);urls.push(pu);var im=el('img','pv');im.src=pu;im.alt='位置情報を消した写真（押すと大きく表示）';im.addEventListener('click',function(){im.classList.toggle('big')});box.appendChild(im);
   var f=new File([blob],outName(file.name,blob.type),{type:blob.type});if(my===token)outs.push(f);
-  var b=el('button','btn',mobile?'この写真を保存する':'この写真をダウンロード');b.type='button';b.addEventListener('click',function(){save([f])});box.appendChild(b);
+  var b=el('button','btn',mobile?'保存する':'ダウンロード');b.type='button';b.addEventListener('click',function(){save([f])});box.appendChild(b);
   if(mobile){var a=el('button','dl','ファイルとして保存');a.type='button';a.style.cssText='background:none;border:0;font:inherit;font-size:13px;cursor:pointer';a.addEventListener('click',function(){download(f)});box.appendChild(a)}
 }
 var token=0;
@@ -272,7 +277,7 @@ dz.addEventListener('drop',function(e){e.preventDefault();dz.classList.remove('o
 $('saveAll').addEventListener('click',function(){save(outs.slice())});
 $('clear').addEventListener('click',function(){files=[];outs=[];$('list').textContent='';$('saveAll').hidden=true;$('clear').hidden=true;$('look').hidden=true;resetLook()});
 var cb=$('chk').querySelectorAll('button');
-function lookSt(){var n=0;cb.forEach(function(b){if(b.getAttribute('aria-pressed')==='true')n++});$('lookSt').textContent=n<cb.length?'あと'+(cb.length-n)+'つ':'点検おわり。写っていなければ、保存したほうを上げてください'}
+function lookSt(){var n=0;cb.forEach(function(b){if(b.getAttribute('aria-pressed')==='true')n++});$('lookSt').textContent=n<cb.length?'あと'+(cb.length-n)+'つ':'点検おわり'}
 function resetLook(){cb.forEach(function(b){b.setAttribute('aria-pressed','false')});lookSt()}
 cb.forEach(function(b){b.addEventListener('click',function(){b.setAttribute('aria-pressed',String(b.getAttribute('aria-pressed')!=='true'));lookSt()})});
 function tab(i){$('tI').setAttribute('aria-selected',String(i));$('tA').setAttribute('aria-selected',String(!i));$('pI').hidden=!i;$('pA').hidden=i}
