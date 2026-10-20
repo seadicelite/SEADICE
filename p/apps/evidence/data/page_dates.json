@@ -340,8 +340,8 @@
   "hash": "b43daaec2471dea7"
  },
  "evidence/happiness/": {
-  "date": "2026-10-19",
-  "hash": "8b017dd5819feb5a"
+  "date": "2026-10-20",
+  "hash": "299b940eaf54034e"
  },
  "evidence/happiness/happy-age-u-curve/": {
   "date": "2026-10-14",
@@ -705,7 +705,7 @@
  },
  "evidence/romance/": {
   "date": "2026-10-20",
-  "hash": "82ef06624a24da05"
+  "hash": "654bcb48c6b9c616"
  },
  "evidence/romantic-interest/": {
   "date": "2026-10-17",
