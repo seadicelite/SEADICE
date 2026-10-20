@@ -17,8 +17,7 @@
       "Bash(rsync *)",
       "Bash(cp *)",
       "Bash(cwebp *)",
-      "Bash(sips *)",
-      "Read(//private/tmp/**)"
+      "Bash(sips *)"
     ]
   }
 }

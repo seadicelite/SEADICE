@@ -22,7 +22,6 @@ description: シーダイスが出る短い広告動画（YouTube Shorts 縦・1
 1. テーマ別（12.5秒）: `python3 scripts/video/make_theme_ad.py {キー}`。全部は themes.json のキーを順に回す
 2. 新しいテーマ: themes.json に1件足してから1.を実行。書くのは `theme`（問いかけ2行。1行目が青）・`items`（道具・アプリ3つ。アプリは `icon` と `"tag": "アプリ"`）・`media`（メディア名）・`url`。道具は toolbox から、そのテーマの悩みに一番効くもの2つ＋公開済みアプリ1つを選ぶ（未公開アプリは入れない）
 3. アプリ紹介（約15秒）: `python3 scripts/video/make_app_ad.py {appId}`。apps.json に1件（hook: アプリの中にある問いかけ2行 / screens: 素の画面 `{アプリ}/screenshots/raw/*.png` と説明3つ / icon / name / lead / promise / store）。説明の数字はアプリのデータ（assets/topics.json 等）で確かめたものだけ。画面の件数表示など変わりうる数字は説明に書かない。出力は app-{appId}.mp4
-3b. 読み上げつきの解説動画（横・約1分）: `python3 scripts/video/make_narrated.py {キー} --full`（VOICEVOX を起動しておく。規約の画面は閉じない）。台本は narrated.json（EVIDENCE なら `{"evidence": ID, "images": [[場面ごとの絵…]]}`、メディアの記事なら scenes を直に書き、`media`・`url` で最後の画面を変える）。絵は `scenes/切り出し/` の名前だけ書く。`--full` は左に正方形の絵（上下いっぱい）、右に札・見出し・字幕・出典。絵の一覧と生成AIへの指示文は `make_scene_list.py`（足したら再実行）。文字入りの絵・話と合わない絵は使わない
 4. SEADICE 全体の広告（15秒）は `make_ad.py`、チャンネル用の素材（アイコン・バナー・透かし等）は `make_assets.py`。台本を変えるときだけ中の `CARDS` を直す
 5. 確認は1回だけ: 各動画から 1.5秒・8秒・11.5秒の3コマを取り出し、全テーマを1枚に並べて見る（文字のはみ出し・重なりだけ）。動画を1コマずつ何度も見ない
 6. 作った動画を `open ~/Developer/Images/seadice-character/youtube/{ファイル名}.mp4` で開く（何本も作ったときは `open ~/Developer/Images/seadice-character/youtube/` でフォルダを開く）。ユーザーにファイルを探させない
