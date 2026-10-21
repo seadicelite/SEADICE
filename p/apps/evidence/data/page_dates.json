@@ -149,11 +149,11 @@
  },
  "evidence/corrections/": {
   "date": "2026-10-21",
-  "hash": "1d2eee8badc159f9"
+  "hash": "8916f94f74a3ef81"
  },
  "evidence/crime-prevention/": {
   "date": "2026-10-21",
-  "hash": "e747fe89fc03c4c7"
+  "hash": "905bbbdea410ebe6"
  },
  "evidence/crime-prevention/bohan-broken-windows/": {
   "date": "2026-10-13",
@@ -665,7 +665,7 @@
  },
  "evidence/relationships/": {
   "date": "2026-10-21",
-  "hash": "8adcf6a33dad73ee"
+  "hash": "484b3469581214ad"
  },
  "evidence/relationships/hanzai-milgram-replication/": {
   "date": "2026-10-13",
