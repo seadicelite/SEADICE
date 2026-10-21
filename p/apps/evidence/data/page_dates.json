@@ -148,12 +148,12 @@
   "hash": "cf4c8107b0f77512"
  },
  "evidence/corrections/": {
-  "date": "2026-10-20",
-  "hash": "930fba7303a75a92"
+  "date": "2026-10-21",
+  "hash": "1d2eee8badc159f9"
  },
  "evidence/crime-prevention/": {
   "date": "2026-10-21",
-  "hash": "94eca6ad13924e4c"
+  "hash": "e747fe89fc03c4c7"
  },
  "evidence/crime-prevention/bohan-broken-windows/": {
   "date": "2026-10-13",
@@ -172,8 +172,8 @@
   "hash": "81c514cab6e6e42d"
  },
  "evidence/criminal-psychology/": {
-  "date": "2026-10-17",
-  "hash": "b788c729b14e759b"
+  "date": "2026-10-21",
+  "hash": "f904c065bc78f519"
  },
  "evidence/criminal-psychology/hanzai-bystander-effect-meta/": {
   "date": "2026-10-13",
