@@ -59,7 +59,7 @@ AIはユーザーの質問に対して、見出し直下の短い答えを引用
 | tool-cta | 記事末尾にツールかアプリへのリンク |
 | JSON-LD | BlogPosting + BreadcrumbList、日付は `YYYY-MM-DD` |
 | デザイン | `python3 scripts/apply_page_type.py read p/…/index.html` を実行済み |
-| 配線 | sitemap.xml と一覧ページに追加 → `firebase deploy --only hosting` |
+| 配線 | sitemap.xml と一覧ページに追加 → `python3 scripts/check_blog.py`（漏れ・リンク切れ・sitemapのずれ・題名の重複候補を一度に出す）。デプロイは main への push で Actions が行う |
 
 **リンク先は実在するページだけ**: アプリ・ツールへのリンクは `p/tools/` か `p/released-apps.json` にあるものにする。`/apps/` のアプリ個別ページは大半が削除済み（書いた後に `ls` で確かめる）。
 
