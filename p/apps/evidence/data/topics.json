@@ -16976,7 +16976,7 @@
     "id": "kosodate-daycare-return-distress",
     "category": "子育ての科学",
     "themeColor": "#FCA5A5",
-    "sourceLabel": "de Vet et al., \"Parent and Child Distress at Reopening of Childcare Centers After COVID-19 Closures\" (Frontiers in Psychology, 2021)",
+    "sourceLabel": "de Vet SM et al., \"Child Care in Times of COVID-19: Predictors of Distress in Dutch Children and Parents When Re-entering Center-Based Child Care After a 2-Month Lockdown\" (Frontiers in Psychology, 2021)",
     "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.718898",
     "cards": [
       {
@@ -16993,6 +16993,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "再登園時に苦痛を示した子は29.1%、苦痛を感じた親は31.6%。年齢が低いほど苦痛が強い関連があった。親の回答のみの振り返り調査。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "休園明けという特別な場面",
+        "body": "親が答えた振り返りの調査で、子どもを直接見てはいない。玄関での短い受け渡しなどコロナ対策も重なっていて、ふだんの入園の慣らし保育でも同じかはわからないよ。"
       }
     ],
     "quiz": {
@@ -17109,6 +17114,11 @@
         "stage": "結果",
         "title": "数字で見ると",
         "body": "別人の写真の正答率は「別人」表示で70%、「同一人物」表示で48%。判定を無視するよう指示しても下がった。対象は学生で、審査官ではない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "学生30人ずつの実験室の話",
+        "body": "英国の1つの大学の学生、30人ずつの実験で、本物の審査官ではない。画面の判定も機械をまねた表示なので、実際の空港のゲートで同じになるかはまだわからないよ。"
       }
     ],
     "quiz": {
