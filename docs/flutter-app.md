@@ -441,6 +441,7 @@ bool _isNewer(String latest, String current) {
 利用者どうしが投稿を見せあうアプリ（栽エンサーが見本、`~/Developer/ライフスタイル系/saiencer`）は、「登録なし」を守ったまま審査 1.2・2.1・5.1.1(v) を通す形にする。
 
 - **ログインは Firebase の匿名ログインだけ**（Sign in with Apple・Google は入れない）。開いた瞬間に全機能が使えるので、審査のデモアカウントも要らない。審査メモに「サインイン不要」と書き、App Review の「サインインが必要」はオフ
+- **匿名アカウントの自動クリーンアップ（30日で削除）は必ずオフ**（Authentication → 設定）。オンだと使っている人でもIDが作成から30日で消え、自分の投稿を操作できなくなる。匿名ログインを有効にしたときに一緒にオンになっていた実例あり（栽エンサー 2026-10-25）。確認: `curl -s https://identitytoolkit.googleapis.com/admin/v2/projects/{id}/config -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "x-goog-user-project: {id}"` の `autodeleteAnonymousUsers` が false
 - 初回に「みんなの約束」（禁止事項と、通報を24時間以内に確認して削除・投稿を止めること）への同意を取る。投稿・ひとこと・名前には最低限の言葉のフィルターをかける（「イエロー」「〜ばかり」のような普通の言葉に部分一致しない、はっきりした語だけ）
 - 投稿・ひとこと・プロフィールのどれからも「通報」「ブロック」ができる。通報は1人1件だけ数え（`reports/{対象}_{uid}` とルールで対にする）、3人から通報された投稿は自動で隠す。通報は seadiceweb の feedback（source `{appId}-report`）にも送り、運営が気づけるようにする
 - 投稿停止は `bans/{uid}`（運営だけが作る）に置き、本人のデータ削除では外れないようにする。ブロック一覧などは `users/{uid}/private/` に置き、ほかの人から読めないようにする
