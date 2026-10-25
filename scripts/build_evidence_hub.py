@@ -87,6 +87,8 @@ CSS = (
     ".grid{margin:8px 0 32px}"
     ".grid a{display:block;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;text-decoration:none;color:var(--text);font-size:14px;font-weight:700}"
     ".grid span{display:block;font-size:12px;color:var(--muted);font-weight:400;margin-top:2px}"
+    ".worry{border-left:3px solid var(--accent);padding:2px 0 2px 14px;margin:18px 0}.worry h3{margin-top:0;font-size:16px}.worry p{font-size:14px;color:#cbd5e1}.worry .try{margin-top:6px}.worry .try b{color:var(--accent)}"
+    ".worry .jump{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px;font-size:13px}.worry .jump a{padding:6px 0}"
     ".box{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin:24px 0}"
     ".box p,.box li{font-size:14px;color:#cbd5e1}.box ul{padding-left:20px}"
     ".cta{display:inline-block;margin-top:12px;padding:12px 22px;border-radius:8px;font-weight:700;text-decoration:none;color:#05050C;background:var(--accent)}"
@@ -168,6 +170,19 @@ def try_box(practice):
             f'<a class="cta" href="{e(practice["url"])}">{e(practice["name"])}を使う</a></div>')
 
 
+def worries_html(items, slug):
+    """分野ページの冒頭の「悩み別の答え」。検索してきた悩みへの結論と今日できる1つを先に出し、関係するカードへ飛ばす"""
+    if not items:
+        return ""
+    parts = ['<section><h2>悩み別の答え</h2>']
+    for w in items:
+        jump = "".join(f'<a href="/evidence/{slug}/#{e(i)}">{e(INDEX[i]["cards"][0]["title"])}</a>' for i in w["ids"] if i in INDEX)
+        parts.append(f'<div class="worry"><h3>{e(w["q"])}</h3><p>{e(w["a"])}</p>'
+                     f'<p class="try"><b>試すなら:</b> {e(w["try"])}（SEADICEの提案で、効くかは研究で確かめていません）</p><div class="jump">{jump}</div></div>')
+    parts.append("</section>")
+    return "".join(parts)
+
+
 def topic_html(t, practice, focus_url=None, heading="h2"):
     cards = t["cards"]
     first, rest = cards[0], cards[1:]
@@ -220,7 +235,20 @@ def main():
         key = pr.get("topics", {}).get(t["id"]) or pr.get("categories", {}).get(t["category"])
         return pr["items"].get(key) if key else None
 
+    def own_practice(t):
+        """トピック自身に結んだ道具だけ（分野単位の道具は分野ページに1回だけ出す）"""
+        key = pr.get("topics", {}).get(t["id"])
+        return pr["items"].get(key) if key else None
+
+    wpath = DATA / "worries.json"
+    worries = {k: v for k, v in json.loads(wpath.read_text()).items() if not k.startswith("_")} if wpath.exists() else {}
+
     INDEX.update({t["id"]: t for t in topics})
+    for cat, items in worries.items():
+        for w in items:
+            for i in w["ids"]:
+                if i not in INDEX or INDEX[i]["category"] != cat:
+                    print(f"警告: worries.json の「{w['q']}」の {i} は分野「{cat}」のトピックにありません")
     by_cat = {}
     for t in topics:
         by_cat.setdefault(t["category"], []).append(t)
@@ -248,13 +276,18 @@ def main():
         title = f"{cat}の研究まとめ｜出典つきで読む{n}本 | EVIDENCE"
         desc = f"{cat}について、研究でわかったこととまだわかっていないことを、出典（論文）つきで{n}本まとめました。例:「{ts[0]['cards'][0]['title']}」"[:120]
         faq = {"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": w["q"], "acceptedAnswer": {"@type": "Answer", "text": f'{w["a"]} 試すなら: {w["try"]}（SEADICEの提案で、効くかは研究で確かめていません）'}} for w in worries.get(cat, [])] + [
             {"@type": "Question", "name": t["cards"][0]["title"],
              "acceptedAnswer": {"@type": "Answer", "text": f'{answer_of(t)["title"]}。{answer_of(t)["body"]}' if t["cards"][0]["stage"] != "結論" else answer_of(t)["body"]}} for t in ts]}
         others = "".join(f'<a href="/evidence/{slug_of(c)}/">{e(c)}<span>{len(by_cat[c])}本</span></a>' for c in cats if c != cat)
         body = (f'<p class="label">EVIDENCE / {e(cat)}</p><h1>{e(cat)}の研究まとめ</h1>'
                 f'<p class="lead">{e(cat)}について、研究でわかったことを{n}本、元の論文の出典つきでまとめています。'
                 f'わかったことだけでなく、研究の限界や「まだわからないこと」も書いています。</p>'
-                + "".join(topic_html(t, practice_of(t), "/" + focus_path(t) if focus_path(t) else None) for t in ts)
+                + worries_html(worries.get(cat), slug)
+                + (f'<div class="box"><p>この分野で使える道具: {e(cp["catch"])}</p><a class="cta" href="{e(cp["url"])}" rel="noopener">{e(cp["name"])}</a></div>'
+                   if (cp := pr["items"].get(pr.get("categories", {}).get(cat, ""))) else "")
+                + (f'<h2>研究{n}本</h2>' if worries.get(cat) else "")
+                + "".join(topic_html(t, own_practice(t), "/" + focus_path(t) if focus_path(t) else None) for t in ts)
                 + f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。気になった話は、出典つきで友だちに送れます。</p><a class="cta" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>'
                 f'<section><h2>ほかの分野</h2><div class="grid">{others}</div></section>')
         urls.append(page(f"evidence/{slug}/", title, desc, body, [*top_crumbs, (cat, f"/evidence/{slug}/")], [faq]))
