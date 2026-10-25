@@ -35,7 +35,7 @@ CATEGORIES = [
                          "teishutsu-switch", "body-language-scan"]),
     ("habit", "習慣と行動", ["dopa-quest", "dopamine-detox", "habit-quit", "hiru10"]),
     ("learn", "学びと記憶", ["active-recall", "memory-palace", "book-quiz", "dokugaku-schedule",
-                        "evidence", "tetsujin-friends", "boueki", "boueki-eigo"]),
+                        "evidence", "tetsujin-friends", "boueki", "boueki-eigo", "drone-cbt"]),
     ("life", "暮らし", ["danshari-app3", "jikka-jimai", "coffee-taste"]),
     ("japan", "日本文化（英語）", ["yokai-mirror"]),
 ]

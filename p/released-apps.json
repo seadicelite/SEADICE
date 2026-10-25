@@ -444,6 +444,13 @@
       "genre": "",
       "appStoreId": "6784865342",
       "appStoreUrl": "https://apps.apple.com/app/id6784865342"
+    },
+    {
+      "id": "drone-cbt",
+      "name": "ドローン学科試験CBT対策",
+      "genre": "study",
+      "appStoreId": "6783136612",
+      "appStoreUrl": "https://apps.apple.com/app/id6783136612"
     }
   ]
 }
