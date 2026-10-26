@@ -72,7 +72,7 @@ SEADICE（シーダイス）のリポジトリ。中身は **seadice.win の静�
 | YouTube の短い広告動画を作る・作り直す | [.claude/commands/video.md](.claude/commands/video.md)（`/video {テーマ}`。サイトに道具・アプリが増えたら作り直す） |
 | App Store のスクリーンショット（モックアップ）を作る | [docs/mockup.md](docs/mockup.md)（見出しを先に選んでもらう・枠ごとのサイズと枚数） |
 | Flutterアプリを作る・改修する・申請する | [docs/flutter-app.md](docs/flutter-app.md)（設定画面・広告なし・利用回数・オンボーディング・フォント・Deployment Target など） |
-| アプリをサイトに載せる・審査通過時の更新 | このファイルの「アプリをサイトに載せるとき」 |
+| アプリをサイトに載せる・審査通過時の更新 | [docs/app-publish.md](docs/app-publish.md) |
 
 **稼ぐ（2026-10-25〜）**: SEADICEは事業なので、稼げるかを先に考える。アプリは作る前に、狙う検索語の需要（App Storeの上位アプリの評価数）と、お金を払う理由があるかを確かめる。道具は無料で出してよいが、続けて使う機能やAIはサブスクで売る。信条は「嘘をつかない・盛らない・言い切らない」を最低限守る。
 
@@ -211,47 +211,8 @@ cwebp -q 85 input.png -o output.webp
 
 ## アプリをサイトに載せるとき（新規・審査通過時）
 
-新しいアプリを `seadice.win` に公開する際は、以下を必ず対応すること。
-（`firebase.json` の rewrite 追加は不要。静的ディレクトリは index.html があれば自動で配信される。レガシー Flutter SPA パス（`toite`, `rakuraku`, `boueki-hub/*` 等）を新設する場合のみ rewrite が必要）
+新規公開・審査通過時の手順（ファビコン・置き場所の判断基準・プライバシーポリシー・`check_released_apps.py`/`build_apps_page.py`・相互送客・「もとになった研究」欄）は [docs/app-publish.md](docs/app-publish.md) にまとめた。「〇〇審査通った」と言われたら読む。EVIDENCEシリーズへの追加は `/evidence {appId}` の一言。
 
-### 1. ファビコン・PWA アイコン
-
-Flutter Web 版を置く場合だけ。手順は [docs/flutter-app.md](docs/flutter-app.md) の「Flutter Web 版のファビコン・PWA アイコン」。
-
-### 2. どこに追加するかの判断基準（重要）
-
-`p/index.html` のトップページには「Apps」（主力アプリ）と「Explore」（ジャンル別）の2つの入口があり、新しいアプリはどちらか一方にしか追加しない。
-
-- **既存ジャンル（kateisaien / fitness / pet-health / danshari / black-psychology）の量産アプリ**
-  → トップページは触らない。該当する `p/tools/該当ジャンル/index.html` のグリッドにカードを追加するだけ。Explore 経由で自動的に辿れる。
-- **既存ジャンルに当たらない単独の主力アプリ**
-  → `p/index.html` の `#apps` セクション（`.apps-grid`）にカードを追加。
-- **新しいジャンルそのもの**
-  → 新しい `p/tools/新ジャンル/index.html` ハブページを作り、`p/index.html` の `#tools`（Explore）セクションに chip を1つ追加。
-
-### 3. プライバシーポリシーの追加
-
-- `p/privacy/新アプリ名/index.html` を作成（read タイプを適用）
-- `p/privacy/index.html` の一覧にリンクを追加
-
-### 4. デプロイ
-
-- `firebase deploy --only hosting`
-
-### 5. 審査通過後のアプリページ更新（ユーザーからの一言トリガー）
-
-新規アプリ作成時点ではアプリページ（`p/tools/{appId}/`。`p/apps/` は大半が削除済み）は `App Store近日公開` のまま据え置いてよい（App Store IDが未定のため）。**ユーザーが「〇〇（アプリ名）審査通った」と伝えてきたタイミングで**、以下をまとめて対応する。
-
-- App Store IDは**ユーザーに聞かない**。`python3 scripts/check_released_apps.py` を実行すると、Bundle ID（`win.seadice.{appId}` / camelCase版）から iTunes Lookup API で公開済みアプリを総当たりで見つけ、`p/released-apps.json` に追加する（今後作る他アプリの「関連アプリ」欄の選定元になるため必須）。Bundle IDが命名規則と違う場合は `curl "https://itunes.apple.com/lookup?bundleId={Bundle ID}"` で直接引く
-- 続けて `python3 scripts/build_apps_page.py` を実行し、アプリ一覧 `p/apps/index.html` を作り直す（アイコンも自動取得。未公開の間に付けていた `noindex` もこのとき自動で外れる。`p/sitemap.xml` への `/tools/{appId}/` の追加は手動で、漏れると `scripts/check_sitemap.py` がデプロイを止める）。新しいアプリが「その他」に入ったら、スクリプト内の `CATEGORIES` に追記して再実行する。`/tools/` の一覧（ブラウザで動くツールだけを載せる）にはアプリを追加しない
-- アプリページの「近日公開」を公開表記に変え、「App Storeで見る」ボタン（`https://apps.apple.com/app/id{ID}?ct=seadice`）を付ける
-- **メディアとの相互送客**（下記「アプリとメディアの相互送客」）を設定する
-- **「もとになった研究」欄**（下記7）をアプリページに入れる（相互送客の設定後に `/evidence {appId}`）
-- `firebase deploy --only hosting` でデプロイ
-
-### 6. アプリとメディアの相互送客 / 7. 「もとになった研究」欄
-
-審査通過時に必ず行う。手順・書き方・禁止表現は [docs/app-publish.md](docs/app-publish.md)（EVIDENCEシリーズへの追加は `/evidence {appId}` の一言）。
 
 ## App Store 提出情報はチャットにも出す
 

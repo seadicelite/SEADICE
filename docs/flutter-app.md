@@ -38,7 +38,7 @@ const _cardBg  = Color(0xFF0C0C1A);   // カード背景
 - `Color.withOpacity()` は非推奨。`withValues(alpha: x)` を使うこと（Flutter 3.27+）
 - `AnimatedBuilder` の未使用パラメーターは `(_, _)` と書く（Dart 3.7+ のワイルドカード）
 - Flutterアプリのデータ永続化は SharedPreferences
-- アプリのプライバシーポリシーは `p/privacy/{appId}/index.html`（静的HTML）で管理する（サイト側の手順は CLAUDE.md の「アプリをサイトに載せるとき」）
+- アプリのプライバシーポリシーは `p/privacy/{appId}/index.html`（静的HTML）で管理する（サイト側の手順は docs/app-publish.md）
 - 共通のデザイン定数・開発者情報は `~/Desktop/CLAUDE.md` を参照
 
 ## Claude API プロキシ（Cloudflare Workers）
