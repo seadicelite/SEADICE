@@ -2175,1237 +2175,1237 @@
         "type": 301
       },
       {
-        "source": "/reviews/denki-moufu-hikaku/**",
+        "source": "/reviews/denki-moufu-hikaku{,/**}",
         "destination": "/tools/denki-moufu-denkidai/",
         "type": 301
       },
       {
-        "source": "/apps/tetsujin-friends/**",
+        "source": "/apps/tetsujin-friends{,/**}",
         "destination": "https://tetsugaku.seadice.win/apps/tetsujin-friends/",
         "type": 301
       },
       {
-        "source": "/tools/tetsujin-friends/**",
+        "source": "/tools/tetsujin-friends{,/**}",
         "destination": "https://tetsugaku.seadice.win/apps/tetsujin-friends/",
         "type": 301
       },
       {
-        "source": "/apps/omikuji-zodiac/**",
+        "source": "/apps/omikuji-zodiac{,/**}",
         "destination": "/tools/omikuji-zodiac/",
         "type": 301
       },
       {
-        "source": "/apps/yokai-mirror/**",
+        "source": "/apps/yokai-mirror{,/**}",
         "destination": "/tools/yokai-mirror/",
         "type": 301
       },
       {
-        "source": "/apps/yumetoki/**",
+        "source": "/apps/yumetoki{,/**}",
         "destination": "/tools/yumetoki/",
         "type": 301
       },
       {
-        "source": "/apps/mbti-compass/**",
+        "source": "/apps/mbti-compass{,/**}",
         "destination": "/tools/mbti-compass/",
         "type": 301
       },
       {
-        "source": "/apps/hsp-relationship-check/**",
+        "source": "/apps/hsp-relationship-check{,/**}",
         "destination": "/tools/hsp-relationship-check/",
         "type": 301
       },
       {
-        "source": "/apps/cognitive-bias-guide/**",
+        "source": "/apps/cognitive-bias-guide{,/**}",
         "destination": "/tools/cognitive-bias-guide/",
         "type": 301
       },
       {
-        "source": "/apps/kanyou-shindan/**",
+        "source": "/apps/kanyou-shindan{,/**}",
         "destination": "/tools/kanyou-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/fbi-bodylanguage/**",
+        "source": "/apps/fbi-bodylanguage{,/**}",
         "destination": "/tools/fbi-bodylanguage/",
         "type": 301
       },
       {
-        "source": "/apps/procrastination-type/**",
+        "source": "/apps/procrastination-type{,/**}",
         "destination": "/tools/procrastination-type/",
         "type": 301
       },
       {
-        "source": "/apps/omamori-guide/**",
+        "source": "/apps/omamori-guide{,/**}",
         "destination": "/tools/omamori-guide/",
         "type": 301
       },
       {
-        "source": "/apps/japanglish/**",
+        "source": "/apps/japanglish{,/**}",
         "destination": "/tools/japanglish/",
         "type": 301
       },
       {
-        "source": "/apps/wagashi-muse/**",
+        "source": "/apps/wagashi-muse{,/**}",
         "destination": "/tools/wagashi-muse/",
         "type": 301
       },
       {
-        "source": "/apps/chado-sensei/**",
+        "source": "/apps/chado-sensei{,/**}",
         "destination": "/tools/chado-sensei/",
         "type": 301
       },
       {
-        "source": "/apps/matsuri-compass/**",
+        "source": "/apps/matsuri-compass{,/**}",
         "destination": "/tools/matsuri-compass/",
         "type": 301
       },
       {
-        "source": "/apps/dohyo-quiz/**",
+        "source": "/apps/dohyo-quiz{,/**}",
         "destination": "/tools/dohyo-quiz/",
         "type": 301
       },
       {
-        "source": "/apps/kanji-kokoro/**",
+        "source": "/apps/kanji-kokoro{,/**}",
         "destination": "/tools/kanji-kokoro/",
         "type": 301
       },
       {
-        "source": "/apps/kaidan-nights/**",
+        "source": "/apps/kaidan-nights{,/**}",
         "destination": "/tools/kaidan-nights/",
         "type": 301
       },
       {
-        "source": "/apps/bushido-way/**",
+        "source": "/apps/bushido-way{,/**}",
         "destination": "/tools/bushido-way/",
         "type": 301
       },
       {
-        "source": "/apps/shinobi-scroll/**",
+        "source": "/apps/shinobi-scroll{,/**}",
         "destination": "/tools/shinobi-scroll/",
         "type": 301
       },
       {
-        "source": "/apps/kamon-crest/**",
+        "source": "/apps/kamon-crest{,/**}",
         "destination": "/tools/kamon-crest/",
         "type": 301
       },
       {
-        "source": "/apps/giongo-echo/**",
+        "source": "/apps/giongo-echo{,/**}",
         "destination": "/tools/giongo-echo/",
         "type": 301
       },
       {
-        "source": "/apps/ekiben-journey/**",
+        "source": "/apps/ekiben-journey{,/**}",
         "destination": "/tools/ekiben-journey/",
         "type": 301
       },
       {
-        "source": "/apps/furoshiki-wrap/**",
+        "source": "/apps/furoshiki-wrap{,/**}",
         "destination": "/tools/furoshiki-wrap/",
         "type": 301
       },
       {
-        "source": "/apps/kintsugi-mend/**",
+        "source": "/apps/kintsugi-mend{,/**}",
         "destination": "/tools/kintsugi-mend/",
         "type": 301
       },
       {
-        "source": "/apps/kakeibo-log/**",
+        "source": "/apps/kakeibo-log{,/**}",
         "destination": "/tools/kakeibo-log/",
         "type": 301
       },
       {
-        "source": "/apps/digital-shukatsu/**",
+        "source": "/apps/digital-shukatsu{,/**}",
         "destination": "/tools/digital-shukatsu/",
         "type": 301
       },
       {
-        "source": "/apps/sns-soudan-chat/**",
+        "source": "/apps/sns-soudan-chat{,/**}",
         "destination": "/tools/sns-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/shodo-brush/**",
+        "source": "/apps/shodo-brush{,/**}",
         "destination": "/tools/shodo-brush/",
         "type": 301
       },
       {
-        "source": "/apps/shikaku-compass/**",
+        "source": "/apps/shikaku-compass{,/**}",
         "destination": "/tools/shikaku-compass/",
         "type": 301
       },
       {
-        "source": "/apps/bousai-sim/**",
+        "source": "/apps/bousai-sim{,/**}",
         "destination": "/tools/bousai-sim/",
         "type": 301
       },
       {
-        "source": "/apps/setsuden-hikaku/**",
+        "source": "/apps/setsuden-hikaku{,/**}",
         "destination": "/tools/setsuden-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/kokeshi-craft/**",
+        "source": "/apps/kokeshi-craft{,/**}",
         "destination": "/tools/kokeshi-craft/",
         "type": 301
       },
       {
-        "source": "/apps/fukugyou-quest/**",
+        "source": "/apps/fukugyou-quest{,/**}",
         "destination": "/tools/fukugyou-quest/",
         "type": 301
       },
       {
-        "source": "/apps/nihongo-log/**",
+        "source": "/apps/nihongo-log{,/**}",
         "destination": "/tools/nihongo-log/",
         "type": 301
       },
       {
-        "source": "/apps/akiya-diag/**",
+        "source": "/apps/akiya-diag{,/**}",
         "destination": "/tools/akiya-diag/",
         "type": 301
       },
       {
-        "source": "/apps/karesansui-zen/**",
+        "source": "/apps/karesansui-zen{,/**}",
         "destination": "/tools/karesansui-zen/",
         "type": 301
       },
       {
-        "source": "/apps/kaigo-soudan-chat/**",
+        "source": "/apps/kaigo-soudan-chat{,/**}",
         "destination": "/tools/kaigo-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/ibasho-sim/**",
+        "source": "/apps/ibasho-sim{,/**}",
         "destination": "/tools/ibasho-sim/",
         "type": 301
       },
       {
-        "source": "/apps/kyufukin-jiten/**",
+        "source": "/apps/kyufukin-jiten{,/**}",
         "destination": "/tools/kyufukin-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/ukiyoe-vision/**",
+        "source": "/apps/ukiyoe-vision{,/**}",
         "destination": "/tools/ukiyoe-vision/",
         "type": 301
       },
       {
-        "source": "/apps/shokuhin-loss-log/**",
+        "source": "/apps/shokuhin-loss-log{,/**}",
         "destination": "/tools/shokuhin-loss-log/",
         "type": 301
       },
       {
-        "source": "/apps/manabinaoshi-hikaku/**",
+        "source": "/apps/manabinaoshi-hikaku{,/**}",
         "destination": "/tools/manabinaoshi-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/volunteer-quest100/**",
+        "source": "/apps/volunteer-quest100{,/**}",
         "destination": "/tools/volunteer-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/origami-muse/**",
+        "source": "/apps/origami-muse{,/**}",
         "destination": "/tools/origami-muse/",
         "type": 301
       },
       {
-        "source": "/apps/shakai-fukki-navi/**",
+        "source": "/apps/shakai-fukki-navi{,/**}",
         "destination": "/tools/shakai-fukki-navi/",
         "type": 301
       },
       {
-        "source": "/apps/zairyu-seikatsu-chat/**",
+        "source": "/apps/zairyu-seikatsu-chat{,/**}",
         "destination": "/tools/zairyu-seikatsu-chat/",
         "type": 301
       },
       {
-        "source": "/apps/gomi-bunbetsu-jiten/**",
+        "source": "/apps/gomi-bunbetsu-jiten{,/**}",
         "destination": "/tools/gomi-bunbetsu-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/ikebana-flow/**",
+        "source": "/apps/ikebana-flow{,/**}",
         "destination": "/tools/ikebana-flow/",
         "type": 301
       },
       {
-        "source": "/apps/tokushu-sagi-sim/**",
+        "source": "/apps/tokushu-sagi-sim{,/**}",
         "destination": "/tools/tokushu-sagi-sim/",
         "type": 301
       },
       {
-        "source": "/apps/benkyo-shukan-log/**",
+        "source": "/apps/benkyo-shukan-log{,/**}",
         "destination": "/tools/benkyo-shukan-log/",
         "type": 301
       },
       {
-        "source": "/apps/shakkin-seiri-hikaku/**",
+        "source": "/apps/shakkin-seiri-hikaku{,/**}",
         "destination": "/tools/shakkin-seiri-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/bonsai-spirit/**",
+        "source": "/apps/bonsai-spirit{,/**}",
         "destination": "/tools/bonsai-spirit/",
         "type": 301
       },
       {
-        "source": "/apps/hayaoki-quest/**",
+        "source": "/apps/hayaoki-quest{,/**}",
         "destination": "/tools/hayaoki-quest/",
         "type": 301
       },
       {
-        "source": "/apps/shinro-shindan/**",
+        "source": "/apps/shinro-shindan{,/**}",
         "destination": "/tools/shinro-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/chiiki-tasukeai-jiten/**",
+        "source": "/apps/chiiki-tasukeai-jiten{,/**}",
         "destination": "/tools/chiiki-tasukeai-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/netsuke-charm/**",
+        "source": "/apps/netsuke-charm{,/**}",
         "destination": "/tools/netsuke-charm/",
         "type": 301
       },
       {
-        "source": "/apps/tenshoku-soudan-chat/**",
+        "source": "/apps/tenshoku-soudan-chat{,/**}",
         "destination": "/tools/tenshoku-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/gaikokujin-tetsuzuki-sim/**",
+        "source": "/apps/gaikokujin-tetsuzuki-sim{,/**}",
         "destination": "/tools/gaikokujin-tetsuzuki-sim/",
         "type": 301
       },
       {
-        "source": "/apps/gomi-genryo-log/**",
+        "source": "/apps/gomi-genryo-log{,/**}",
         "destination": "/tools/gomi-genryo-log/",
         "type": 301
       },
       {
-        "source": "/apps/daruma-goal/**",
+        "source": "/apps/daruma-goal{,/**}",
         "destination": "/tools/daruma-goal/",
         "type": 301
       },
       {
-        "source": "/apps/monowasure-check/**",
+        "source": "/apps/monowasure-check{,/**}",
         "destination": "/tools/monowasure-check/",
         "type": 301
       },
       {
-        "source": "/apps/sns-seigen-hikaku/**",
+        "source": "/apps/sns-seigen-hikaku{,/**}",
         "destination": "/tools/sns-seigen-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/kinyu-quest100/**",
+        "source": "/apps/kinyu-quest100{,/**}",
         "destination": "/tools/kinyu-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/temari-thread/**",
+        "source": "/apps/temari-thread{,/**}",
         "destination": "/tools/temari-thread/",
         "type": 301
       },
       {
-        "source": "/apps/kaji-share-log/**",
+        "source": "/apps/kaji-share-log{,/**}",
         "destination": "/tools/kaji-share-log/",
         "type": 301
       },
       {
-        "source": "/apps/benkyoho-jiten/**",
+        "source": "/apps/benkyoho-jiten{,/**}",
         "destination": "/tools/benkyoho-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/ijuu-teiju-sim/**",
+        "source": "/apps/ijuu-teiju-sim{,/**}",
         "destination": "/tools/ijuu-teiju-sim/",
         "type": 301
       },
       {
-        "source": "/apps/furin-chime/**",
+        "source": "/apps/furin-chime{,/**}",
         "destination": "/tools/furin-chime/",
         "type": 301
       },
       {
-        "source": "/apps/koreisha-sumaho-chat/**",
+        "source": "/apps/koreisha-sumaho-chat{,/**}",
         "destination": "/tools/koreisha-sumaho-chat/",
         "type": 301
       },
       {
-        "source": "/apps/futoko-manabi-hikaku/**",
+        "source": "/apps/futoko-manabi-hikaku{,/**}",
         "destination": "/tools/futoko-manabi-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/rouhi-kuse-quest100/**",
+        "source": "/apps/rouhi-kuse-quest100{,/**}",
         "destination": "/tools/rouhi-kuse-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/sumie-ink/**",
+        "source": "/apps/sumie-ink{,/**}",
         "destination": "/tools/sumie-ink/",
         "type": 301
       },
       {
-        "source": "/apps/bousai-bichiku-jiten/**",
+        "source": "/apps/bousai-bichiku-jiten{,/**}",
         "destination": "/tools/bousai-bichiku-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/shikaku-plan-sim/**",
+        "source": "/apps/shikaku-plan-sim{,/**}",
         "destination": "/tools/shikaku-plan-sim/",
         "type": 301
       },
       {
-        "source": "/apps/skill-gap-shindan/**",
+        "source": "/apps/skill-gap-shindan{,/**}",
         "destination": "/tools/skill-gap-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/mizuhiki-knot/**",
+        "source": "/apps/mizuhiki-knot{,/**}",
         "destination": "/tools/mizuhiki-knot/",
         "type": 301
       },
       {
-        "source": "/apps/kaigo-futan-log/**",
+        "source": "/apps/kaigo-futan-log{,/**}",
         "destination": "/tools/kaigo-futan-log/",
         "type": 301
       },
       {
-        "source": "/apps/kodomo-shien-seido-hikaku/**",
+        "source": "/apps/kodomo-shien-seido-hikaku{,/**}",
         "destination": "/tools/kodomo-shien-seido-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/nihon-seikatsu-quest100/**",
+        "source": "/apps/nihon-seikatsu-quest100{,/**}",
         "destination": "/tools/nihon-seikatsu-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/ema-wish/**",
+        "source": "/apps/ema-wish{,/**}",
         "destination": "/tools/ema-wish/",
         "type": 301
       },
       {
-        "source": "/apps/konposuto-soudan-chat/**",
+        "source": "/apps/konposuto-soudan-chat{,/**}",
         "destination": "/tools/konposuto-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/roudou-mondai-jiten/**",
+        "source": "/apps/roudou-mondai-jiten{,/**}",
         "destination": "/tools/roudou-mondai-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/genkai-shuraku-sim/**",
+        "source": "/apps/genkai-shuraku-sim{,/**}",
         "destination": "/tools/genkai-shuraku-sim/",
         "type": 301
       },
       {
-        "source": "/apps/goshuin-quest/**",
+        "source": "/apps/goshuin-quest{,/**}",
         "destination": "/tools/goshuin-quest/",
         "type": 301
       },
       {
-        "source": "/apps/seikatsu-rhythm-log/**",
+        "source": "/apps/seikatsu-rhythm-log{,/**}",
         "destination": "/tools/seikatsu-rhythm-log/",
         "type": 301
       },
       {
-        "source": "/apps/gakushu-type-shindan/**",
+        "source": "/apps/gakushu-type-shindan{,/**}",
         "destination": "/tools/gakushu-type-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/nisa-ideco-hikaku/**",
+        "source": "/apps/nisa-ideco-hikaku{,/**}",
         "destination": "/tools/nisa-ideco-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/haiku-muse/**",
+        "source": "/apps/haiku-muse{,/**}",
         "destination": "/tools/haiku-muse/",
         "type": 301
       },
       {
-        "source": "/apps/shokuba-ningenkankei-soudan-chat/**",
+        "source": "/apps/shokuba-ningenkankei-soudan-chat{,/**}",
         "destination": "/tools/shokuba-ningenkankei-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/kaigo-hoken-service-jiten/**",
+        "source": "/apps/kaigo-hoken-service-jiten{,/**}",
         "destination": "/tools/kaigo-hoken-service-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/setsuden-setsusui-sim/**",
+        "source": "/apps/setsuden-setsusui-sim{,/**}",
         "destination": "/tools/setsuden-setsusui-sim/",
         "type": 301
       },
       {
-        "source": "/apps/hanko-seal/**",
+        "source": "/apps/hanko-seal{,/**}",
         "destination": "/tools/hanko-seal/",
         "type": 301
       },
       {
-        "source": "/apps/kodomo-yousu-log/**",
+        "source": "/apps/kodomo-yousu-log{,/**}",
         "destination": "/tools/kodomo-yousu-log/",
         "type": 301
       },
       {
-        "source": "/apps/zairyu-shikaku-hikaku/**",
+        "source": "/apps/zairyu-shikaku-hikaku{,/**}",
         "destination": "/tools/zairyu-shikaku-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/gokinjo-kizuna-quest100/**",
+        "source": "/apps/gokinjo-kizuna-quest100{,/**}",
         "destination": "/tools/gokinjo-kizuna-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/chochin-glow/**",
+        "source": "/apps/chochin-glow{,/**}",
         "destination": "/tools/chochin-glow/",
         "type": 301
       },
       {
-        "source": "/apps/bousai-kit-shindan/**",
+        "source": "/apps/bousai-kit-shindan{,/**}",
         "destination": "/tools/bousai-kit-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/gakushu-shien-hikaku/**",
+        "source": "/apps/gakushu-shien-hikaku{,/**}",
         "destination": "/tools/gakushu-shien-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/sabusuku-shishutsu-log/**",
+        "source": "/apps/sabusuku-shishutsu-log{,/**}",
         "destination": "/tools/sabusuku-shishutsu-log/",
         "type": 301
       },
       {
-        "source": "/apps/maneki-fortune/**",
+        "source": "/apps/maneki-fortune{,/**}",
         "destination": "/tools/maneki-fortune/",
         "type": 301
       },
       {
-        "source": "/apps/fukugyou-zeikin-chat/**",
+        "source": "/apps/fukugyou-zeikin-chat{,/**}",
         "destination": "/tools/fukugyou-zeikin-chat/",
         "type": 301
       },
       {
-        "source": "/apps/koreisha-mimamori-jiten/**",
+        "source": "/apps/koreisha-mimamori-jiten{,/**}",
         "destination": "/tools/koreisha-mimamori-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/compost-koka-sim/**",
+        "source": "/apps/compost-koka-sim{,/**}",
         "destination": "/tools/compost-koka-sim/",
         "type": 301
       },
       {
-        "source": "/apps/noren-curtain/**",
+        "source": "/apps/noren-curtain{,/**}",
         "destination": "/tools/noren-curtain/",
         "type": 301
       },
       {
-        "source": "/apps/shorui-seiri-log/**",
+        "source": "/apps/shorui-seiri-log{,/**}",
         "destination": "/tools/shorui-seiri-log/",
         "type": 301
       },
       {
-        "source": "/apps/ijime-taiou-shindan/**",
+        "source": "/apps/ijime-taiou-shindan{,/**}",
         "destination": "/tools/ijime-taiou-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/shougakukin-hikaku/**",
+        "source": "/apps/shougakukin-hikaku{,/**}",
         "destination": "/tools/shougakukin-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/tsuba-crest/**",
+        "source": "/apps/tsuba-crest{,/**}",
         "destination": "/tools/tsuba-crest/",
         "type": 301
       },
       {
-        "source": "/apps/shikaku-quest100/**",
+        "source": "/apps/shikaku-quest100{,/**}",
         "destination": "/tools/shikaku-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/nihon-manner-jiten/**",
+        "source": "/apps/nihon-manner-jiten{,/**}",
         "destination": "/tools/nihon-manner-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/saigai-tasukeai-sim/**",
+        "source": "/apps/saigai-tasukeai-sim{,/**}",
         "destination": "/tools/saigai-tasukeai-sim/",
         "type": 301
       },
       {
-        "source": "/apps/koma-inu-guardian/**",
+        "source": "/apps/koma-inu-guardian{,/**}",
         "destination": "/tools/koma-inu-guardian/",
         "type": 301
       },
       {
-        "source": "/apps/souji-shukan-log/**",
+        "source": "/apps/souji-shukan-log{,/**}",
         "destination": "/tools/souji-shukan-log/",
         "type": 301
       },
       {
-        "source": "/apps/koreisha-kodoku-chat/**",
+        "source": "/apps/koreisha-kodoku-chat{,/**}",
         "destination": "/tools/koreisha-kodoku-chat/",
         "type": 301
       },
       {
-        "source": "/apps/cashless-hikaku/**",
+        "source": "/apps/cashless-hikaku{,/**}",
         "destination": "/tools/cashless-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/kumihimo-braid/**",
+        "source": "/apps/kumihimo-braid{,/**}",
         "destination": "/tools/kumihimo-braid/",
         "type": 301
       },
       {
-        "source": "/apps/hatarakikata-seido-jiten/**",
+        "source": "/apps/hatarakikata-seido-jiten{,/**}",
         "destination": "/tools/hatarakikata-seido-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/kyoiku-kakusa-sim/**",
+        "source": "/apps/kyoiku-kakusa-sim{,/**}",
         "destination": "/tools/kyoiku-kakusa-sim/",
         "type": 301
       },
       {
-        "source": "/apps/eco-seikatsu-shindan/**",
+        "source": "/apps/eco-seikatsu-shindan{,/**}",
         "destination": "/tools/eco-seikatsu-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/hina-doll/**",
+        "source": "/apps/hina-doll{,/**}",
         "destination": "/tools/hina-doll/",
         "type": 301
       },
       {
-        "source": "/apps/koreisha-sagi-quest100/**",
+        "source": "/apps/koreisha-sagi-quest100{,/**}",
         "destination": "/tools/koreisha-sagi-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/yakuba-tetsuzuki-hikaku/**",
+        "source": "/apps/yakuba-tetsuzuki-hikaku{,/**}",
         "destination": "/tools/yakuba-tetsuzuki-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/chiiki-borantia-log/**",
+        "source": "/apps/chiiki-borantia-log{,/**}",
         "destination": "/tools/chiiki-borantia-log/",
         "type": 301
       },
       {
-        "source": "/apps/himitsu-box/**",
+        "source": "/apps/himitsu-box{,/**}",
         "destination": "/tools/himitsu-box/",
         "type": 301
       },
       {
-        "source": "/apps/katei-kankyo-kakusa-sim/**",
+        "source": "/apps/katei-kankyo-kakusa-sim{,/**}",
         "destination": "/tools/katei-kankyo-kakusa-sim/",
         "type": 301
       },
       {
-        "source": "/apps/bousai-junbi-chat/**",
+        "source": "/apps/bousai-junbi-chat{,/**}",
         "destination": "/tools/bousai-junbi-chat/",
         "type": 301
       },
       {
-        "source": "/apps/kinyu-literacy-shindan/**",
+        "source": "/apps/kinyu-literacy-shindan{,/**}",
         "destination": "/tools/kinyu-literacy-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/koinobori-sky/**",
+        "source": "/apps/koinobori-sky{,/**}",
         "destination": "/tools/koinobori-sky/",
         "type": 301
       },
       {
-        "source": "/apps/shikaku-benkyo-log/**",
+        "source": "/apps/shikaku-benkyo-log{,/**}",
         "destination": "/tools/shikaku-benkyo-log/",
         "type": 301
       },
       {
-        "source": "/apps/kaigo-yougo-jiten/**",
+        "source": "/apps/kaigo-yougo-jiten{,/**}",
         "destination": "/tools/kaigo-yougo-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/recycle-hikaku/**",
+        "source": "/apps/recycle-hikaku{,/**}",
         "destination": "/tools/recycle-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/onsen-manner/**",
+        "source": "/apps/onsen-manner{,/**}",
         "destination": "/tools/onsen-manner/",
         "type": 301
       },
       {
-        "source": "/apps/risukiringu-soudan-chat/**",
+        "source": "/apps/risukiringu-soudan-chat{,/**}",
         "destination": "/tools/risukiringu-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/sns-enjou-sim/**",
+        "source": "/apps/sns-enjou-sim{,/**}",
         "destination": "/tools/sns-enjou-sim/",
         "type": 301
       },
       {
-        "source": "/apps/kakure-kotei-hi-shindan/**",
+        "source": "/apps/kakure-kotei-hi-shindan{,/**}",
         "destination": "/tools/kakure-kotei-hi-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/sashiko-stitch/**",
+        "source": "/apps/sashiko-stitch{,/**}",
         "destination": "/tools/sashiko-stitch/",
         "type": 301
       },
       {
-        "source": "/apps/fukuyaku-kanri-log/**",
+        "source": "/apps/fukuyaku-kanri-log{,/**}",
         "destination": "/tools/fukuyaku-kanri-log/",
         "type": 301
       },
       {
-        "source": "/apps/shikaku-jiten/**",
+        "source": "/apps/shikaku-jiten{,/**}",
         "destination": "/tools/shikaku-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/koreisha-mimamori-kiki-hikaku/**",
+        "source": "/apps/koreisha-mimamori-kiki-hikaku{,/**}",
         "destination": "/tools/koreisha-mimamori-kiki-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/kanzashi-bloom/**",
+        "source": "/apps/kanzashi-bloom{,/**}",
         "destination": "/tools/kanzashi-bloom/",
         "type": 301
       },
       {
-        "source": "/apps/bousai-kunren-quest100/**",
+        "source": "/apps/bousai-kunren-quest100{,/**}",
         "destination": "/tools/bousai-kunren-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/gaikokujin-shigoto-soudan-chat/**",
+        "source": "/apps/gaikokujin-shigoto-soudan-chat{,/**}",
         "destination": "/tools/gaikokujin-shigoto-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/plastic-gomi-herasu-sim/**",
+        "source": "/apps/plastic-gomi-herasu-sim{,/**}",
         "destination": "/tools/plastic-gomi-herasu-sim/",
         "type": 301
       },
       {
-        "source": "/apps/washi-craft/**",
+        "source": "/apps/washi-craft{,/**}",
         "destination": "/tools/washi-craft/",
         "type": 301
       },
       {
-        "source": "/apps/manabinaoshi-kiroku-log/**",
+        "source": "/apps/manabinaoshi-kiroku-log{,/**}",
         "destination": "/tools/manabinaoshi-kiroku-log/",
         "type": 301
       },
       {
-        "source": "/apps/ijime-taiou-jiten/**",
+        "source": "/apps/ijime-taiou-jiten{,/**}",
         "destination": "/tools/ijime-taiou-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/furusato-nozei-hikaku/**",
+        "source": "/apps/furusato-nozei-hikaku{,/**}",
         "destination": "/tools/furusato-nozei-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/chindogu-lab/**",
+        "source": "/apps/chindogu-lab{,/**}",
         "destination": "/tools/chindogu-lab/",
         "type": 301
       },
       {
-        "source": "/apps/kaigo-hiyo-sim/**",
+        "source": "/apps/kaigo-hiyo-sim{,/**}",
         "destination": "/tools/kaigo-hiyo-sim/",
         "type": 301
       },
       {
-        "source": "/apps/chiiki-bika-quest100/**",
+        "source": "/apps/chiiki-bika-quest100{,/**}",
         "destination": "/tools/chiiki-bika-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/jichikai-sanka-shindan/**",
+        "source": "/apps/jichikai-sanka-shindan{,/**}",
         "destination": "/tools/jichikai-sanka-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/suiseki-stone/**",
+        "source": "/apps/suiseki-stone{,/**}",
         "destination": "/tools/suiseki-stone/",
         "type": 301
       },
       {
-        "source": "/apps/kaji-daikou-hikaku/**",
+        "source": "/apps/kaji-daikou-hikaku{,/**}",
         "destination": "/tools/kaji-daikou-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/freelance-dokuritsu-soudan-chat/**",
+        "source": "/apps/freelance-dokuritsu-soudan-chat{,/**}",
         "destination": "/tools/freelance-dokuritsu-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/gaikokujin-kodoku-log/**",
+        "source": "/apps/gaikokujin-kodoku-log{,/**}",
         "destination": "/tools/gaikokujin-kodoku-log/",
         "type": 301
       },
       {
-        "source": "/apps/torii-gate/**",
+        "source": "/apps/torii-gate{,/**}",
         "destination": "/tools/torii-gate/",
         "type": 301
       },
       {
-        "source": "/apps/futoko-kaifuku-quest100/**",
+        "source": "/apps/futoko-kaifuku-quest100{,/**}",
         "destination": "/tools/futoko-kaifuku-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/kaigo-futan-yosoku-sim/**",
+        "source": "/apps/kaigo-futan-yosoku-sim{,/**}",
         "destination": "/tools/kaigo-futan-yosoku-sim/",
         "type": 301
       },
       {
-        "source": "/apps/shakkin-fukamido-shindan/**",
+        "source": "/apps/shakkin-fukamido-shindan{,/**}",
         "destination": "/tools/shakkin-fukamido-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/kadomatsu-craft/**",
+        "source": "/apps/kadomatsu-craft{,/**}",
         "destination": "/tools/kadomatsu-craft/",
         "type": 301
       },
       {
-        "source": "/apps/katazuke-progress-log/**",
+        "source": "/apps/katazuke-progress-log{,/**}",
         "destination": "/tools/katazuke-progress-log/",
         "type": 301
       },
       {
-        "source": "/apps/manabinaoshi-jiten/**",
+        "source": "/apps/manabinaoshi-jiten{,/**}",
         "destination": "/tools/manabinaoshi-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/tsumekae-eco-hikaku/**",
+        "source": "/apps/tsumekae-eco-hikaku{,/**}",
         "destination": "/tools/tsumekae-eco-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/tanabata-wish/**",
+        "source": "/apps/tanabata-wish{,/**}",
         "destination": "/tools/tanabata-wish/",
         "type": 301
       },
       {
-        "source": "/apps/shukatsu-mensetsu-chat/**",
+        "source": "/apps/shukatsu-mensetsu-chat{,/**}",
         "destination": "/tools/shukatsu-mensetsu-chat/",
         "type": 301
       },
       {
-        "source": "/apps/bunka-gap-sim/**",
+        "source": "/apps/bunka-gap-sim{,/**}",
         "destination": "/tools/bunka-gap-sim/",
         "type": 301
       },
       {
-        "source": "/apps/chiiki-kodoku-shindan/**",
+        "source": "/apps/chiiki-kodoku-shindan{,/**}",
         "destination": "/tools/chiiki-kodoku-shindan/",
         "type": 301
       },
       {
-        "source": "/apps/tengu-mountain/**",
+        "source": "/apps/tengu-mountain{,/**}",
         "destination": "/tools/tengu-mountain/",
         "type": 301
       },
       {
-        "source": "/apps/bichiku-kigen-log/**",
+        "source": "/apps/bichiku-kigen-log{,/**}",
         "destination": "/tools/bichiku-kigen-log/",
         "type": 301
       },
       {
-        "source": "/apps/shikaku-koza-hikaku/**",
+        "source": "/apps/shikaku-koza-hikaku{,/**}",
         "destination": "/tools/shikaku-koza-hikaku/",
         "type": 301
       },
       {
-        "source": "/apps/ninchi-kunren-quest100/**",
+        "source": "/apps/ninchi-kunren-quest100{,/**}",
         "destination": "/tools/ninchi-kunren-quest100/",
         "type": 301
       },
       {
-        "source": "/apps/kendama-trick/**",
+        "source": "/apps/kendama-trick{,/**}",
         "destination": "/tools/kendama-trick/",
         "type": 301
       },
       {
-        "source": "/apps/nigate-kamoku-jiten/**",
+        "source": "/apps/nigate-kamoku-jiten{,/**}",
         "destination": "/tools/nigate-kamoku-jiten/",
         "type": 301
       },
       {
-        "source": "/apps/futoko-hogosha-soudan-chat/**",
+        "source": "/apps/futoko-hogosha-soudan-chat{,/**}",
         "destination": "/tools/futoko-hogosha-soudan-chat/",
         "type": 301
       },
       {
-        "source": "/apps/nenkin-mitsumori-sim/**",
+        "source": "/apps/nenkin-mitsumori-sim{,/**}",
         "destination": "/tools/nenkin-mitsumori-sim/",
         "type": 301
       },
       {
-        "source": "/apps/tesukatsu-log/**",
+        "source": "/apps/tesukatsu-log{,/**}",
         "destination": "/tools/tesukatsu-log/",
         "type": 301
       },
       {
-        "source": "/apps/holmes-deduction/**",
+        "source": "/apps/holmes-deduction{,/**}",
         "destination": "/tools/holmes-deduction/",
         "type": 301
       },
       {
-        "source": "/apps/yaritai-100/**",
+        "source": "/apps/yaritai-100{,/**}",
         "destination": "/tools/yaritai-100/",
         "type": 301
       },
       {
-        "source": "/apps/attachment-style/**",
+        "source": "/apps/attachment-style{,/**}",
         "destination": "/tools/attachment-style/",
         "type": 301
       },
       {
-        "source": "/apps/enneagram/**",
+        "source": "/apps/enneagram{,/**}",
         "destination": "/tools/enneagram/",
         "type": 301
       },
       {
-        "source": "/apps/trauma-response-type/**",
+        "source": "/apps/trauma-response-type{,/**}",
         "destination": "/tools/trauma-response-type/",
         "type": 301
       },
       {
-        "source": "/apps/coping-type/**",
+        "source": "/apps/coping-type{,/**}",
         "destination": "/tools/coping-type/",
         "type": 301
       },
       {
-        "source": "/apps/perfectionism-type/**",
+        "source": "/apps/perfectionism-type{,/**}",
         "destination": "/tools/perfectionism-type/",
         "type": 301
       },
       {
-        "source": "/apps/approval-type/**",
+        "source": "/apps/approval-type{,/**}",
         "destination": "/tools/approval-type/",
         "type": 301
       },
       {
-        "source": "/apps/self-esteem-type/**",
+        "source": "/apps/self-esteem-type{,/**}",
         "destination": "/tools/self-esteem-type/",
         "type": 301
       },
       {
-        "source": "/apps/coffee-taste/**",
+        "source": "/apps/coffee-taste{,/**}",
         "destination": "/tools/coffee-taste/",
         "type": 301
       },
       {
-        "source": "/apps/mood-forecast/**",
+        "source": "/apps/mood-forecast{,/**}",
         "destination": "/tools/mood-forecast/",
         "type": 301
       },
       {
-        "source": "/apps/jikka-jimai/**",
+        "source": "/apps/jikka-jimai{,/**}",
         "destination": "/tools/jikka-jimai/",
         "type": 301
       },
       {
-        "source": "/apps/hitori-time/**",
+        "source": "/apps/hitori-time{,/**}",
         "destination": "/tools/hitori-time/",
         "type": 301
       },
       {
-        "source": "/apps/fake-check/**",
+        "source": "/apps/fake-check{,/**}",
         "destination": "/tools/fake-check/",
         "type": 301
       },
       {
-        "source": "/apps/jibun-torisetsu/**",
+        "source": "/apps/jibun-torisetsu{,/**}",
         "destination": "/tools/jibun-torisetsu/",
         "type": 301
       },
       {
-        "source": "/apps/study-quest/**",
+        "source": "/apps/study-quest{,/**}",
         "destination": "/tools/study-quest/",
         "type": 301
       },
       {
-        "source": "/apps/bousai-plan/**",
+        "source": "/apps/bousai-plan{,/**}",
         "destination": "/tools/bousai-plan/",
         "type": 301
       },
       {
-        "source": "/apps/scam-guard/**",
+        "source": "/apps/scam-guard{,/**}",
         "destination": "/tools/scam-guard/",
         "type": 301
       },
       {
-        "source": "/apps/japan-life-guide/**",
+        "source": "/apps/japan-life-guide{,/**}",
         "destination": "/tools/japan-life-guide/",
         "type": 301
       },
       {
-        "source": "/apps/nlp-mindshift/**",
+        "source": "/apps/nlp-mindshift{,/**}",
         "destination": "/tools/nlp-mindshift/",
         "type": 301
       },
       {
-        "source": "/apps/habit-quit/**",
+        "source": "/apps/habit-quit{,/**}",
         "destination": "/tools/habit-quit/",
         "type": 301
       },
       {
-        "source": "/apps/munashisa-note/**",
+        "source": "/apps/munashisa-note{,/**}",
         "destination": "/tools/munashisa-note/",
         "type": 301
       },
       {
-        "source": "/apps/stoicism/**",
+        "source": "/apps/stoicism{,/**}",
         "destination": "/tools/stoicism/",
         "type": 301
       },
       {
-        "source": "/apps/self-compassion/**",
+        "source": "/apps/self-compassion{,/**}",
         "destination": "/tools/self-compassion/",
         "type": 301
       },
       {
-        "source": "/apps/yofukashi-quest/**",
+        "source": "/apps/yofukashi-quest{,/**}",
         "destination": "/tools/yofukashi-quest/",
         "type": 301
       },
       {
-        "source": "/apps/iiwake-stop/**",
+        "source": "/apps/iiwake-stop{,/**}",
         "destination": "/tools/iiwake-stop/",
         "type": 301
       },
       {
-        "source": "/apps/kanjou-reset/**",
+        "source": "/apps/kanjou-reset{,/**}",
         "destination": "/tools/kanjou-reset/",
         "type": 301
       },
       {
-        "source": "/apps/muchu-switch/**",
+        "source": "/apps/muchu-switch{,/**}",
         "destination": "/tools/muchu-switch/",
         "type": 301
       },
       {
-        "source": "/apps/jibun-koe/**",
+        "source": "/apps/jibun-koe{,/**}",
         "destination": "/tools/jibun-koe/",
         "type": 301
       },
       {
-        "source": "/apps/shakitto-switch/**",
+        "source": "/apps/shakitto-switch{,/**}",
         "destination": "/tools/shakitto-switch/",
         "type": 301
       },
       {
-        "source": "/apps/bunkai-note/**",
+        "source": "/apps/bunkai-note{,/**}",
         "destination": "/tools/bunkai-note/",
         "type": 301
       },
       {
-        "source": "/apps/procrastination-log/**",
+        "source": "/apps/procrastination-log{,/**}",
         "destination": "/tools/procrastination-log/",
         "type": 301
       },
       {
-        "source": "/apps/hanashikake-lab/**",
+        "source": "/apps/hanashikake-lab{,/**}",
         "destination": "/tools/hanashikake-lab/",
         "type": 301
       },
       {
-        "source": "/apps/kodo-challenge100/**",
+        "source": "/apps/kodo-challenge100{,/**}",
         "destination": "/tools/kodo-challenge100/",
         "type": 301
       },
       {
-        "source": "/apps/kininaru-memo/**",
+        "source": "/apps/kininaru-memo{,/**}",
         "destination": "/tools/kininaru-memo/",
         "type": 301
       },
       {
-        "source": "/apps/curiosity-type/**",
+        "source": "/apps/curiosity-type{,/**}",
         "destination": "/tools/curiosity-type/",
         "type": 301
       },
       {
-        "source": "/apps/toikake-card/**",
+        "source": "/apps/toikake-card{,/**}",
         "destination": "/tools/toikake-card/",
         "type": 301
       },
       {
-        "source": "/apps/dopagaki-reset/**",
+        "source": "/apps/dopagaki-reset{,/**}",
         "destination": "/tools/dopagaki-reset/",
         "type": 301
       },
       {
-        "source": "/apps/shoudou-surf/**",
+        "source": "/apps/shoudou-surf{,/**}",
         "destination": "/tools/shoudou-surf/",
         "type": 301
       },
       {
-        "source": "/apps/mirai-kakei-note/**",
+        "source": "/apps/mirai-kakei-note{,/**}",
         "destination": "/tools/mirai-kakei-note/",
         "type": 301
       },
       {
-        "source": "/apps/hikaku-tomeru/**",
+        "source": "/apps/hikaku-tomeru{,/**}",
         "destination": "/tools/hikaku-tomeru/",
         "type": 301
       },
       {
-        "source": "/apps/teishutsu-switch/**",
+        "source": "/apps/teishutsu-switch{,/**}",
         "destination": "/tools/teishutsu-switch/",
         "type": 301
       },
       {
-        "source": "/apps/gofun-switch/**",
+        "source": "/apps/gofun-switch{,/**}",
         "destination": "/tools/gofun-switch/",
         "type": 301
       },
       {
-        "source": "/apps/chakuchi-note/**",
+        "source": "/apps/chakuchi-note{,/**}",
         "destination": "/tools/chakuchi-note/",
         "type": 301
       },
       {
-        "source": "/apps/kincho-stop/**",
+        "source": "/apps/kincho-stop{,/**}",
         "destination": "/tools/kincho-stop/",
         "type": 301
       },
       {
-        "source": "/apps/dopamine-detox/**",
+        "source": "/apps/dopamine-detox{,/**}",
         "destination": "/tools/dopamine-detox/",
         "type": 301
       },
       {
-        "source": "/apps/tebanashi-note/**",
+        "source": "/apps/tebanashi-note{,/**}",
         "destination": "/tools/tebanashi-note/",
         "type": 301
       },
       {
-        "source": "/apps/honshitsu-type/**",
+        "source": "/apps/honshitsu-type{,/**}",
         "destination": "/tools/honshitsu-type/",
         "type": 301
       },
       {
-        "source": "/apps/hitokoto-eigocho/**",
+        "source": "/apps/hitokoto-eigocho{,/**}",
         "destination": "/tools/hitokoto-eigocho/",
         "type": 301
       },
       {
-        "source": "/apps/life-map/**",
+        "source": "/apps/life-map{,/**}",
         "destination": "/tools/life-map/",
         "type": 301
       },
       {
-        "source": "/apps/dokugaku-schedule/**",
+        "source": "/apps/dokugaku-schedule{,/**}",
         "destination": "/tools/dokugaku-schedule/",
         "type": 301
       },
       {
-        "source": "/apps/kotowaru-lab/**",
+        "source": "/apps/kotowaru-lab{,/**}",
         "destination": "/tools/kotowaru-lab/",
         "type": 301
       },
       {
-        "source": "/evidence/money-life/moneylife-cash-transfer-work/**",
+        "source": "/evidence/money-life/moneylife-cash-transfer-work{,/**}",
         "destination": "/evidence/money/moneylife-cash-transfer-work/",
         "type": 301
       },
       {
-        "source": "/evidence/money-life/moneylife-cashless-overspending/**",
+        "source": "/evidence/money-life/moneylife-cashless-overspending{,/**}",
         "destination": "/evidence/money/moneylife-cashless-overspending/",
         "type": 301
       },
       {
-        "source": "/evidence/money-life/**",
+        "source": "/evidence/money-life{,/**}",
         "destination": "/evidence/money/",
         "type": 301
       },
       {
-        "source": "/evidence/kids-learning/kids-english-early-start/**",
+        "source": "/evidence/kids-learning/kids-english-early-start{,/**}",
         "destination": "/evidence/parenting/kids-english-early-start/",
         "type": 301
       },
       {
-        "source": "/evidence/kids-learning/kids-homework-achievement/**",
+        "source": "/evidence/kids-learning/kids-homework-achievement{,/**}",
         "destination": "/evidence/parenting/kids-homework-achievement/",
         "type": 301
       },
       {
-        "source": "/evidence/kids-learning/kids-parent-homework-help/**",
+        "source": "/evidence/kids-learning/kids-parent-homework-help{,/**}",
         "destination": "/evidence/parenting/kids-parent-homework-help/",
         "type": 301
       },
       {
-        "source": "/evidence/kids-learning/**",
+        "source": "/evidence/kids-learning{,/**}",
         "destination": "/evidence/parenting/",
         "type": 301
       },
       {
-        "source": "/tools/ura-memo/**",
+        "source": "/tools/ura-memo{,/**}",
         "destination": "/tools/decoy-notes/",
         "type": 301
       },
       {
-        "source": "/tools/kaumae/**",
+        "source": "/tools/kaumae{,/**}",
         "destination": "/tools/spendology/",
         "type": 301
       },
       {
-        "source": "/privacy/kaumae/**",
+        "source": "/privacy/kaumae{,/**}",
         "destination": "/privacy/spendology/",
         "type": 301
       },
       {
-        "source": "/tools/choudogai-stop/**",
+        "source": "/tools/choudogai-stop{,/**}",
         "destination": "/tools/spendology/",
         "type": 301
       },
       {
-        "source": "/apps/choudogai-stop/**",
+        "source": "/apps/choudogai-stop{,/**}",
         "destination": "/tools/spendology/",
         "type": 301
       },
       {
-        "source": "/privacy/choudogai-stop/**",
+        "source": "/privacy/choudogai-stop{,/**}",
         "destination": "/privacy/spendology/",
         "type": 301
       },
       {
-        "source": "/apps/yame-lab/**",
+        "source": "/apps/yame-lab{,/**}",
         "destination": "/tools/yame-lab/",
         "type": 301
       },
       {
-        "source": "/apps/body-language-scan/**",
+        "source": "/apps/body-language-scan{,/**}",
         "destination": "/tools/body-language-scan/",
         "type": 301
       },
       {
-        "source": "/tools/kankaku-kabin/**",
+        "source": "/tools/kankaku-kabin{,/**}",
         "destination": "https://research.seadice.win/kankaku-kabin/",
         "type": 301
       },
