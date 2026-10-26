@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["S5SK25MHJG.win.seadice.minnanoloveletter"],
+        "components": [
+          { "/": "/l/", "comment": "みんなのラブレターの招待リンク" },
+          { "/": "/l/*" }
+        ]
+      }
+    ]
+  }
+}
