@@ -72,7 +72,7 @@ SEADICE（シーダイス）のリポジトリ。中身は **seadice.win の静�
 | ブログ・レビュー記事を書く | [docs/writing.md](docs/writing.md)（書く前に「AIが補えない部分」と狙う検索語を決める。AIで比べただけのレビューは新規に作らない） |
 | YouTube の短い広告動画を作る・作り直す | [.claude/commands/video.md](.claude/commands/video.md)（`/video {テーマ}`。サイトに道具・アプリが増えたら作り直す） |
 | App Store のスクリーンショット（モックアップ）を作る | [docs/mockup.md](docs/mockup.md)（見出しを先に選んでもらう・枠ごとのサイズと枚数） |
-| Flutterアプリを作る・改修する・申請する | [docs/flutter-app.md](docs/flutter-app.md)（最初に「アプリ開発の流れと役」: 新規は月1本・企画の関門・費用は抑える・迷ったらユーザーファースト。設定画面・広告なし・利用回数・オンボーディング・フォント・Deployment Target など） |
+| Flutterアプリを作る・改修する・申請する | [docs/flutter-app.md](docs/flutter-app.md)（最初に「アプリ開発の流れと役」: 新規は月1本・企画の関門・費用は抑える・迷ったらユーザーファースト。設定画面・広告なし・利用回数・最初の一歩と離脱しにくい画面・フォント・Deployment Target など） |
 | アプリをサイトに載せる・審査通過時の更新 | [docs/app-publish.md](docs/app-publish.md) |
 
 **稼ぐ（2026-10-25〜）**: SEADICEは事業なので、稼げるかを先に考える。アプリは作る前に、狙う検索語の需要（App Storeの上位アプリの評価数）と、お金を払う理由があるかを確かめる。道具は無料で出してよいが、続けて使う機能やAIはサブスクで売る。信条は「嘘をつかない・盛らない・言い切らない」を最低限守る。
