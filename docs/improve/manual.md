@@ -7,6 +7,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
+- [ ] すぐ | アプリ | AIBOU（AI時代の防犯掲示板）の匿名ログインを有効にする: https://console.firebase.google.com/project/seadice-bohan-bbs/authentication を開き「始める」→「ログイン方法」→「匿名」を有効にして保存 → 続けて「App Check」→ アプリ AIBOU（win.seadice.aibou）に App Attest を登録（Team ID が要る）→ Claude に「AIBOUの匿名ログインとApp Checkできた」 — コマンドからは有効にできず、匿名ログインが無いとアプリが起動時に「つながりませんでした」で止まる。App Check はアプリを通さない書き込み（荒らし）を止めるため。Firestore での「適用（enforce）」は審査を通った後に Claude が頼む（2026-10-27）
 - [ ] すぐ | アプリ | App Store アナリティクスで `ct=seadice` からのダウンロード数が多いアプリの上位5本を Claude に伝える — 既存アプリは伸びている数本に集中して、体験・ウィジェット・課金を入れる。Google Play の1本もこの中から選ぶ（2026-10-27）
 - [ ] 毎週 | アプリ | Firebase コンソール（seadiceweb）→ Firestore → feedback で、前の週に届いた要望・不具合（source が `{appId}-bug` なら不具合）を見て、Claude に伝える — 書き込み専用でルーティンからは読めない。課金した人の不具合を放っておくと星1と解約につながる（2026-10-27）
 - [ ] 毎月 | 全体 | App Store Connect の「売上とトレンド」で、アプリ別の売上と課金した人の数、あわせて Firebase（Google Cloud の請求）と Anthropic の今月の費用を Claude に伝える — 見る数字の4つ目と、1アプリ月1,000円の目安を超えていないかの確認（2026-10-27）
