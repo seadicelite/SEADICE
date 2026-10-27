@@ -7,6 +7,9 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
+- [ ] すぐ | アプリ | App Store アナリティクスで `ct=seadice` からのダウンロード数が多いアプリの上位5本を Claude に伝える — 既存アプリは伸びている数本に集中して、体験・ウィジェット・課金を入れる。Google Play の1本もこの中から選ぶ（2026-10-27）
+- [ ] 毎週 | アプリ | Firebase コンソール（seadiceweb）→ Firestore → feedback で、前の週に届いた要望・不具合（source が `{appId}-bug` なら不具合）を見て、Claude に伝える — 書き込み専用でルーティンからは読めない。課金した人の不具合を放っておくと星1と解約につながる（2026-10-27）
+- [ ] 毎月 | 全体 | App Store Connect の「売上とトレンド」で、アプリ別の売上と課金した人の数、あわせて Firebase（Google Cloud の請求）と Anthropic の今月の費用を Claude に伝える — 見る数字の4つ目と、1アプリ月1,000円の目安を超えていないかの確認（2026-10-27）
 - [ ] すぐ | 全体 | 本番に残っている Cloud Function「generateExcuse」（言い訳メーカーの名残）を消す: ①ターミナルで `firebase functions:delete generateExcuse --region asia-northeast1 --project seadiceweb --force` を実行（Claude の権限では止められた）②Anthropic のコンソールで、このプロジェクトに入れていた API キーの使用量に覚えのない分がないか見る。使っていないキーなら無効にする — 誰でも・回数無制限であなたの Claude API キーを使える入口が開いていた。サイトからは呼ばれていない（2026-10-27）
 - [ ] すぐ | アプリ | 新規アプリ「怪しい人チェック」（`~/Developer/詐欺予防系/ayashii_check`、Bundle ID win.seadice.ayashiiCheck）の準備: ①アイコン画像を `/Users/hidenori/Developer/Images/` に置く（濃紺 #1F3A5F の地に白い線の盾かチェック印。ハート・吹き出し・顔は使わない。届いたら Claude が組み込む）②App Store Connect で新規アプリと App内課金2つ（消耗型「この人を詳しく確かめる」480円 `win.seadice.ayashiiCheck.meet`、自動更新グループ「プラン」の月額980円 `…plus.monthly`）を作る（名前「怪しい人チェック｜マッチングアプリの業者・詐欺」ほか中身は `APPSTORE_SUBMISSION.md`、チャットにも出した）③アイコンが入ったら Claude が ipa・スクショを作る — 稼ぐ方針の1本目で、長く育てるアプリ（犯罪を許さない）。scam-guard は単体で出さない（2026-10-25）
 - [ ] すぐ | アプリ | ドローン学科試験CBT対策 1.1.0（ビルド8）を提出する: ipa は `~/Developer/学習系/drone_cbt/build/ios/ipa/ドローンCBT対策.ipa`（Transporter で開いてある）。①Transporter でアップロード ②App Store Connect で 1.1.0 を作り、新機能の文（会話に出した）を貼る ③App のプライバシーは変更なし（フィードバックは匿名の文章だけ・追跡なし） ④審査に提出。通ったら Claude に「ドローン審査通った」（2026-10-25）

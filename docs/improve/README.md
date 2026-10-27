@@ -66,9 +66,9 @@ Claude やルーティンにできないことは [manual.md](manual.md) にた�
 
 ## 数字の記録（月1回）
 
-| 月 | AIでの言及（evidence.md の10問中） | ct=seadice ダウンロード | Search Console クリック |
-|---|---|---|---|
-| 2026-10 | 0/10と推定（ユーザー判断。1問1ページ公開前） | | |
+| 月 | AIでの言及（evidence.md の10問中） | ct=seadice ダウンロード | Search Console クリック | 売上・課金した人（アプリ別、2026-10-27〜） |
+|---|---|---|---|---|
+| 2026-10 | 0/10と推定（ユーザー判断。1問1ページ公開前） | | | |
 
 - 2026-10-17 メモ: Google の AI による概要で「SEADICE」と聞くと、SEADICE が出なくなった（出たのは Google Play の海賊ダイスゲーム「Sea Dice」と、東南アジアの気候経済モデル「SEADICEモデル」）。本番を確かめると index・title・JSON-LD（Organization・alternateName）は正常だった。App Store の販売元名が個人名のため、アプリ側から「SEADICE」という名前の裏付けが取れていないのが弱点
 
