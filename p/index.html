@@ -188,6 +188,14 @@
     @media (max-width: 599px) { .sec-in { padding: 64px var(--g); } .hero-in { padding: 56px var(--g) 56px; gap: 40px; } }
     .more { display: inline-flex; gap: 8px; margin-top: 32px; font-size: 14px; font-weight: 700; color: var(--accent); text-decoration: none; padding: 8px 0; border-bottom: 1px solid currentColor; }
 
+    /* 注目 */
+    .pick { border-bottom: 1px solid var(--line); background: var(--bg2); }
+    .pick-in { max-width: var(--w); margin: 0 auto; padding: 40px var(--g); display: grid; gap: 20px; align-items: center; }
+    @media (min-width: 960px) { .pick-in { grid-template-columns: 140px 1fr auto; gap: 40px; padding: 44px var(--g); } }
+    .pick h2 { font-size: clamp(20px, 3vw, 26px); font-weight: 800; line-height: 1.4; margin-top: 6px; }
+    .pick-in > div p { font-size: 15px; color: var(--sub); line-height: 1.8; margin-top: 8px; }
+    .pick small { display: block; font-size: 13px; color: var(--muted); margin-top: 6px; }
+
     /* 事業 */
     .biz { display: grid; border-top: 1px solid var(--line2); }
     .biz a { display: grid; grid-template-columns: 40px 1fr; gap: 6px 20px; padding: 32px 0; border-bottom: 1px solid var(--line2); text-decoration: none; color: var(--text); }
@@ -340,6 +348,18 @@
       </div>
     </div>
   </div>
+
+  <section class="pick" aria-labelledby="pick-heading">
+    <div class="pick-in">
+      <p class="sec-label">Pickup</p>
+      <div>
+        <h2 id="pick-heading">生写真プロフィール帳</h2>
+        <p>推しの生写真の交換プロフィールを作れます。譲・求の交換リストと取引の方法、SNSを1ページにまとめて、Xのプロフィール欄に貼れます。</p>
+        <small>作るにはGoogleログインが必要です。見るだけならログインは要りません。</small>
+      </div>
+      <a class="btn primary" href="https://namashashin.seadice.win/" target="_blank" rel="noopener">プロフィール帳を作る <span class="arr" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </section>
 
   <section class="sec" id="business" aria-labelledby="business-heading">
     <div class="sec-in">
