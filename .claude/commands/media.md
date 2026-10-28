@@ -38,8 +38,8 @@ argument-hint: <slug 例: research> [--draft] [トピック]
 
 `media/{新slug}.json` を `research.json` と同じ形で作るだけ。`template` `rulesFrom` は共有してよい（見た目やルールを変えたいときだけ別ファイルにする）。新しいテンプレート(`{新slug}-template.html`)を作る場合は、`quality.md`の余白・カード構造・画像必須のルールを土台にする（ジャンルが変わっても読みやすさの基準は共通）。
 
-公開したら、SEADICEリポジトリのホームページ（`/Users/hidenori/Developer/SEADICE/p/index.html`）の次の3か所にも追加する（メディア一覧はここが正。「もっと見る」リンクは置かずカードだけで並べる）:
-- `#media` セクションの `.hub-grid` にカード1枚（`blog-tag` にメディア名、`blog-meta` に1行説明）。グリッドは自動折り返しなので件数が増えてもCSS変更は不要
-- フッターのメディアリンク列（`LEDGER` の後ろ、`Webツール` の前）
+公開したら、SEADICEリポジトリのホームページ（`/Users/hidenori/Developer/SEADICE/p/index.html`）の次の3か所にも追加する（メディア一覧はここが正。2026-10-28 に企業サイト型へ作り直した）:
+- `#media` セクションの `.dir` の中で、テーマに合う列（SI時代の問題 / くらしと心 / 防犯と犯罪 / 好奇心）の `<ul>` に `<li>` を1行（`<strong>` にメディア名、`<span>` にサブドメイン、`title` に1行説明）。どの列にも合わなければ列（`<div><h3>…</h3><ul>…</ul></div>`）を1つ足す
+- フッターの「メディア」列の `<ul>` に1行（同じテーマの近くに）
 - JSON-LD の Organization `sameAs` 配列にメディアのURL
 - `p/llms.txt` の「## メディア」にも1行追加
