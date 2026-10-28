@@ -30,7 +30,7 @@ CARDS = [
 # ブランド動画（約5秒）。end に行を渡すと、ロゴの下に小さく出す
 BRAND_CARDS = [
     (2.3, "lines", [("誠実なサービスで、", False), ("信頼に応える。", True)]),
-    (2.9, "end", [("研究ベースで、AI時代の問題を", False), ("解決するサービスを提供中。", False)]),
+    (2.9, "end", [("研究ベースで、SI時代の問題を", False), ("解決するサービスを提供中。", False)]),
 ]
 if len(sys.argv) > 4 and sys.argv[4] == "brand":
     CARDS = BRAND_CARDS

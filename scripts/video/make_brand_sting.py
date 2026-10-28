@@ -23,7 +23,7 @@ def frame(t):
         layer=Image.new("RGBA",(W,H)); ImageDraw.Draw(layer).text((xy[0],xy[1]+round((1-k)*24)),s,font=f,fill=c+(round(255*k),)); L.alpha_composite(layer)
     txt((120,930),"誠実なサービスで、",FH,TEXT,k1,0)
     txt((120,1050),"信頼に応える。",FH,ACC,k2,0)
-    txt((120,1230),"研究ベースで、AI時代の問題を",FS,MUT,k2,0)
+    txt((120,1230),"研究ベースで、SI時代の問題を",FS,MUT,k2,0)
     txt((120,1290),"解決するサービスを提供中。",FS,MUT,k2,0)
     if CH is not None:
         k=ease(t/0.3); c=CH.copy(); c.putalpha(c.split()[3].point(lambda v: round(v*k)))
