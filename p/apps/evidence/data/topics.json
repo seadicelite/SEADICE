@@ -1,5 +1,199 @@
 [
   {
+    "id": "kokoro-short-video-time-perception-time-sense",
+    "category": "スマホとSNS",
+    "kind": "よくある説",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Jiang Y, Yan Z, Yang Z., \"Losing Track of Time on TikTok? An Experimental Study of Short Video Users' Time Distortion\" (Behavioral Sciences, 2025)",
+    "sourceUrl": "https://doi.org/10.3390/bs15070930",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/short-video-time-perception/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ショート動画で時間の感覚が狂う？",
+        "body": "気づいたら1時間たってた、ってよくあるよね。ショート動画は時間の感覚をおかしくする、とも言われるけど本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "動画と読書で見積もりを比べた",
+        "body": "中国の大学生56人が、約16分か約5分、ショート動画を見る時間と記事を読む時間を過ごして、それぞれ何分だったかを答えた実験があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "動画も読書も、ずれ方は同じくらい",
+        "body": "実は、約16分の動画はほぼ正確に見積もれていて、読書と差はなかったらしい。1週間の視聴時間はむしろ記録より多めに見積もっていたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝る前の長時間はまだ不明",
+        "body": "56人の小さな実験で、16分までの話。疲れた夜や1時間を超える視聴でも同じかは、まだわかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sns-screen-time-self-report",
+        "type": "あわせて読む",
+        "why": "同じく、自分のスマホ時間を本人がどれだけ正しく見積もれるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-short-video-time-perception-time-sense"
+  },
+  {
+    "id": "kokoro-sns-post-looking-good-tired-authentic-posting",
+    "category": "スマホとSNS",
+    "kind": "よくある説",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Bailey ER, Matz SC, Youyou W, Iyengar SS, \"Authentic self-expression on social media is associated with greater subjective well-being\" (Nature Communications, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-020-18539-w",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/sns-post-looking-good-tired/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "SNSは盛ったほうが得？",
+        "body": "SNSには、よく見える写真や言葉を選んで載せるのが当たり前。でも、それって自分の気分にはどう響くんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1週間ずつ投稿を変えた",
+        "body": "米国の大学で募集した90人が、「ありのまま」の投稿と「よく見せる」投稿を、順番をくじで決めて1週間ずつ続けた実験があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ありのままの週のほうが気分がよかった",
+        "body": "ありのままに投稿した週のあとのほうが、気分と前向きな感情が高かったらしい。ただ、生活の満足度には差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は予定より少なめ",
+        "body": "予定の200人に届かず90人の小さな実験で、最初の1週間だけで比べると差は出ていない。年代や国が違うと結果が変わるかもわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-post-looking-good-tired-authentic-posting"
+  },
+  {
+    "id": "kokoro-loneliness-low-mood-reconnect-young-adults-connection",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Vazquez Alvarez C, Mirza L, Das-Munshi J, Oswald TK, \"Social connection interventions and depression in young adults: a systematic review and meta-analysis\" (Social Psychiatry and Psychiatric Epidemiology, 2025)",
+    "sourceUrl": "https://doi.org/10.1007/s00127-024-02722-1",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/loneliness-low-mood-reconnect/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人とつながると、気分は戻る？",
+        "body": "孤独な時期が続くと、気持ちまで沈みがち。じゃあ、人とのつながりを増やせば、落ち込みは軽くなるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18〜24歳の6件の研究をまとめた",
+        "body": "大学の少人数の集まりや、人との関係づくりを練習するプログラムなど、つながりを増やす取り組みを調べた6件の研究をまとめた論文があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "落ち込みは少しだけ軽く",
+        "body": "取り組みを受けた人は、落ち込みの点数が少し下がっていたらしい。効果の大きさは「小さい」くらい。多くは週1回の集まりを数週間続ける形だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究はまだ6件だけ",
+        "body": "5件は大学生の研究で、働く若い人のデータはほとんどない。孤独の点数そのものは、まとめた3件でははっきり下がっていなかったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "social-loneliness-interventions-meta",
+        "type": "あわせて読む",
+        "why": "孤独感を減らす取り組みのうち、どの形が効いたかを比べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-loneliness-low-mood-reconnect-young-adults-connection"
+  },
+  {
+    "id": "circadian-chronotype-genes-gwas",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Jones SE et al., \"Genome-wide association analyses of chronotype in 697,828 individuals provides insights into circadian rhythms\" (Nature Communications, 2019)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-018-08259-7",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "朝型・夜型って生まれつき？",
+        "body": "朝にめっぽう強い人もいれば、夜になると元気が出る人もいるよね。これって努力や性格の問題じゃなくて、生まれつき決まっているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約70万人の遺伝子と照らし合わせた",
+        "body": "イギリスのUKバイオバンクと遺伝子検査サービス23andMeの参加者、合わせて69万7828人の遺伝子と「朝型か夜型か」の答えを照らし合わせた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係する遺伝子は多いけど、差は25分ほど",
+        "body": "朝型に関わる遺伝子の場所は、それまでの24か所から351か所に増えたらしい。ただ、朝型の遺伝子をいちばん多く持つ5%の人でも、いちばん少ない5%より眠る時間帯は平均25分早いだけ。遺伝子の違いで説明できたのは約14%だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "残りをどこまで変えられるか",
+        "body": "対象はヨーロッパ系の人だけで、朝型か夜型かは本人の答え。遺伝で決まるのは一部とわかっても、残りを光や生活でどこまで動かせるかは、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-camping-natural-light",
+        "type": "あわせて読む",
+        "why": "夜型の体内時計は、光の浴び方で早められるという実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-chronotype-genes-gwas"
+  },
+  {
+    "id": "weather-winter-sleep-longer-clinic",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Seidler A et al., \"Seasonality of human sleep: Polysomnographic data of a neuropsychiatric sleep clinic\" (Frontiers in Neuroscience, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fnins.2023.1105233",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "冬は眠くなるって本当？",
+        "body": "冬の朝って、なかなか布団から出られないよね。冬は体がたくさん眠りたがる、なんて話も聞くけど本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "検査した月ごとに眠りを比べた",
+        "body": "ドイツ・ベルリンの睡眠クリニックで、2019年に眠りの悩みで検査を受けた188人のデータを、検査した月ごとにまとめて比べた研究があるんだ。目覚まし時計は使わずに寝てもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "冬はレム睡眠が長めだった",
+        "body": "夢を見ることが多いレム睡眠は、冬は春より約30分長かったらしい。全体の睡眠時間も冬は夏より最大60分ほど長かったけど、こちらははっきりした差とは言えなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "眠りに悩む人のデータ",
+        "body": "不眠やうつなどで受診した人のデータで、同じ人を1年追ったわけでもない。健康な人でも同じ結果になるかは、確かめる必要があると著者も書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-seasonal-depression-population",
+        "type": "あわせて読む",
+        "why": "冬に気分が沈む人が本当に多いのかを、大人数で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-winter-sleep-longer-clinic"
+  },
+  {
     "id": "speech-conversation-end-timing",
     "category": "話し方と伝わり方",
     "kind": "素朴な疑問",
@@ -12100,6 +12294,11 @@
         "id": "japan-early-bird",
         "type": "あわせて読む",
         "why": "はっきりした夜型は、43万人の追跡で死亡リスクが約10%高かった"
+      },
+      {
+        "id": "circadian-chronotype-genes-gwas",
+        "type": "あわせて読む",
+        "why": "朝型・夜型は遺伝で決まる部分が一部だけ、という約70万人の研究"
       }
     ]
   },
@@ -21056,6 +21255,11 @@
         "id": "game-smart-device-myopia",
         "type": "あわせて読む",
         "why": "自分で答えるスマホ時間は、実際の時間とずれやすい"
+      },
+      {
+        "id": "kokoro-short-video-time-perception-time-sense",
+        "type": "あわせて読む",
+        "why": "ショート動画を見た時間を、人がどれだけ正しく見積もれるかを試した実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/smartphone-sns/#sns-screen-time-self-report"
@@ -24965,6 +25169,11 @@
         "id": "kokoro-daylight-outdoors-mood",
         "type": "反対の結果",
         "why": "外で光を浴びる時間が長い人ほど、気分の落ち込みが少ないという関係が見られた研究"
+      },
+      {
+        "id": "weather-winter-sleep-longer-clinic",
+        "type": "あわせて読む",
+        "why": "冬は眠り方も変わるのかを、睡眠検査のデータで見た研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/#weather-seasonal-depression-population"
@@ -25932,6 +26141,11 @@
         "id": "social-liking-gap",
         "type": "あわせて読む",
         "why": "相手の好意を低く見積もる「思い込み」の具体例"
+      },
+      {
+        "id": "kokoro-loneliness-low-mood-reconnect-young-adults-connection",
+        "type": "あわせて読む",
+        "why": "18〜24歳でつながりを増やす取り組みが、落ち込みに効いたかをまとめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/loneliness/social-loneliness-interventions-meta/"
