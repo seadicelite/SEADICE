@@ -103,7 +103,7 @@ python3 scripts/indexnow.py p/…/index.html                           # IndexNo
 
 - `firebase.json` の `public` は `"p"`。静的ディレクトリは `index.html` を置けば配信される（rewrite 不要。全体を `/index.html` に飛ばす rewrite はソフト404になるので入れない）
 - **main は手元とクラウドの2か所から更新される**。作業前に `git pull`、手元でデプロイしたら必ず push する（push しないと Actions のデプロイで本番が巻き戻る）。作業ツリーに他の作業の未コミット変更があるときは、自分の変更だけコミットし、きれいな worktree からデプロイする
-- 個別の Flutter Web アプリ（`toite`, `rakuraku`, `boueki-hub/*` など）は各アプリ側で `flutter build web --release` して `p/該当ディレクトリ/` に置く
+- 個別の Flutter Web アプリ（`toite`, `rakuraku`, `boueki-hub/*` など）は各アプリ側で `flutter build web --release` して `p/該当ディレクトリ/` に置く。置くときは `canvaskit/` フォルダを消す（ビルドは canvaskit を Google の配信元から読むので使われない。13本で約400MBの重複だった、2026-10-28）
 
 ## サイトの構成（seadice.win）
 
