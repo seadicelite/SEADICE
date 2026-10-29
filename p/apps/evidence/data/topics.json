@@ -1,5 +1,199 @@
 [
   {
+    "id": "dokugaku-lecture-video-how-to-watch-in-lecture-quizzes",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Chan et al., \"In-lecture quizzes improve online learning for university and community college students\" (Communications Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s44271-025-00234-5",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/lecture-video-how-to-watch/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "動画の途中で止めるのは意味ある？",
+        "body": "オンライン講座の動画、最後まで流して見たのに何も覚えていない。途中で止めて確かめた方がいいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "703人で比べた",
+        "body": "アメリカとカナダの大学生と2年制大学の学生703人が、約20分の講義動画を5分ずつ4つに区切って見た。最初の3つの区切りのあとに短い問題4問に答える人と、要点のスライドを見直す人に分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "翌日のテストで差が出た",
+        "body": "問題に答えた人は、翌日の総まとめのテストで正答率62%。要点を見直した人は54%だった。思い出す一手間が効いたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "横で動画が流れると消えた",
+        "body": "画面の横に短い動画が次々流れる条件では、最後の区切りのテストでの差がなくなった。何か月も続く講座で同じ効果があるかも、まだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-lecture-video-how-to-watch-playback-speed",
+        "type": "あわせて読む",
+        "why": "同じ講義動画の学び方で、倍速で見たときの影響をまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-lecture-video-how-to-watch-in-lecture-quizzes"
+  },
+  {
+    "id": "dokugaku-review-backlog-catch-up-drop-from-testing",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Karpicke & Roediger, \"The critical importance of retrieval for learning\" (Science, 2008)",
+    "sourceUrl": "https://doi.org/10.1126/science.1152408",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/review-backlog-catch-up/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "覚えた単語は外していい？",
+        "body": "一度正しく答えられた単語は、もう覚えたもの。復習から外して、まだの単語に時間を回す方が効率的、と考えがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "外し方を変えて比べた",
+        "body": "大学生が外国語の単語を学ぶ実験で、正しく答えられた単語を、その後は読むだけ・テストだけ・どちらからも外す、などに分けて比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "テストを続けた方が残った",
+        "body": "答えられた後に読み直しを続けても、後の記憶は変わらなかった。でもテストを続けると大きくよくなった。学生の自己予想は、実際の成績と関係がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語以外でも同じ？",
+        "body": "外国語の単語を覚える実験室の研究で、文章の理解や問題を解く力で同じ大きさの差が出るかは、この研究だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-review-backlog-catch-up-drop-from-testing"
+  },
+  {
+    "id": "dokugaku-review-backlog-catch-up-expanding-schedule",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Karpicke & Bauernschmidt, \"Spaced retrieval: Absolute spacing enhances learning regardless of relative spacing\" (Journal of Experimental Psychology: Learning, Memory, and Cognition, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0023436",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/review-backlog-catch-up/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "復習の間隔は少しずつ広げるべき？",
+        "body": "1日後、3日後、1週間後…と復習の間隔を少しずつ広げるのが一番、とよく言われるよね。予定がずれると全部台無しな気もする。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "間隔の組み方を比べた",
+        "body": "思い出せるまで学んだあと、3回のテストを、間隔を広げる・同じにする・狭めるなど、いろいろな組み方でくり返す実験をしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "大事なのは間をあけること",
+        "body": "間隔を長くとるほど記憶はよく、間をあけない場合より200%向上した。でも、広げる・同じ・狭めるの違いでは、はっきりした差は出なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い独学でも同じ？",
+        "body": "実験室で項目を覚えた研究で、何か月も続く資格や語学の勉強に、そのまま当てはまるかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-vocab-review-schedule-recall-log-review-gap",
+        "type": "あわせて読む",
+        "why": "何日後に復習するかの研究と、間隔の広げ方を比べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-review-backlog-catch-up-expanding-schedule"
+  },
+  {
+    "id": "exercise-daily-steps-dementia-uk-biobank",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Del Pozo Cruz, Ahmadi, Naismith & Stamatakis, \"Association of Daily Step Count and Intensity With Incident Dementia in 78 430 Adults Living in the UK\" (JAMA Neurology, 2022)",
+    "sourceUrl": "https://doi.org/10.1001/jamaneurol.2022.2672",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "認知症を遠ざけるには、1日何歩？",
+        "body": "「歩くと頭にいい」とはよく聞くけど、何歩くらいが目安なんだろう。毎日1万歩はきつい、という人も多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イギリスの7万8千人の歩数を追った",
+        "body": "イギリスの40〜79歳の7万8430人が手首に計測器をつけて歩数を測り、その後およそ7年、認知症と診断されたかを医療記録で追ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1万歩弱でいちばん低く、約3800歩でも",
+        "body": "歩数が多い人ほど認知症になる割合が低く、いちばん低かったのは1日約9800歩で、危険度はおよそ半分。約3800歩でも、その効果の半分ほどが見られた。早足で歩く人ほど関連は強かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "歩いたから防げたかは別",
+        "body": "歩数を測っただけの観察研究で、歩いたから防げたのかはわからない。認知症の前ぶれで歩かなくなっていた可能性も残る。参加者の約97%が白人で、誘いに応じたのは5.5%と偏りもある。"
+      }
+    ],
+    "links": [
+      {
+        "id": "body-steps-7000-meta",
+        "type": "あわせて読む",
+        "why": "歩数と健康をまとめたメタ分析で、認知症も含めて7000歩前後を調べている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-daily-steps-dementia-uk-biobank"
+  },
+  {
+    "id": "appetite-bedtime-eating-sleep-atus",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Iao et al., \"Associations between bedtime eating or drinking, sleep duration and wake after sleep onset: findings from the American time use survey\" (British Journal of Nutrition, 2022)",
+    "sourceUrl": "https://doi.org/10.1017/s0007114521003597",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る前に食べると眠りが浅くなる？",
+        "body": "寝る直前に食べると胃が働いて眠りが浅くなるから、寝る3時間前までに食べ終えよう、とよく言われるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの約12万人の1日の記録",
+        "body": "アメリカの時間の使い方調査（2003〜2018年）で、15歳以上の約12万4千人が平日1日の行動を答えた。寝る前1〜3時間に食べたり飲んだりしたかと、睡眠を比べたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "長く寝るけど、夜中に起きやすい",
+        "body": "寝る前1時間以内に食べたり飲んだりした人は、睡眠が女性で35分、男性で25分長かった。一方で、夜中に30分を超えて起きているオッズは女性で約2倍、男性で約2.6倍。結果は混ざっているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何を食べたかは記録なし",
+        "body": "1日分の自己申告で、何を食べ飲んだか（お酒やカフェインを含む）は記録されていない。食べたせいで眠りが乱れたのか、別の理由かは、この調査からはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "japan-eat-then-sleep",
+        "type": "あわせて読む",
+        "why": "夕食から寝るまでの時間を、胃の不調の面から調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-bedtime-eating-sleep-atus"
+  },
+  {
     "id": "laughter-calories-energy-expenditure",
     "category": "笑いと健康",
     "kind": "素朴な疑問",
@@ -163,7 +357,14 @@
         "body": "研究ごとに違う速さを「速い」の1つにまとめて分析していて、何倍から下がるのかはわからない。著者ら自身、発表の偏りの可能性も指摘している。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-lecture-video-how-to-watch-playback-speed"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-lecture-video-how-to-watch-playback-speed",
+    "links": [
+      {
+        "id": "dokugaku-lecture-video-how-to-watch-in-lecture-quizzes",
+        "type": "あわせて読む",
+        "why": "同じ講義動画の学び方で、途中の小テストの効果を比べた実験"
+      }
+    ]
   },
   {
     "id": "dokugaku-vocab-recognize-but-cannot-produce-translation-direction",
@@ -4169,6 +4370,11 @@
         "id": "learning-spacing-effect",
         "type": "あわせて読む",
         "why": "分けて勉強すると残りやすいというまとめと、何日あければよいかを調べた実験"
+      },
+      {
+        "id": "dokugaku-review-backlog-catch-up-expanding-schedule",
+        "type": "あわせて読む",
+        "why": "間隔の広げ方より、間をあけること自体が効いた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-vocab-review-schedule-recall-log-review-gap"
@@ -19327,6 +19533,11 @@
         "id": "exercise-steps-depression-meta",
         "type": "あわせて読む",
         "why": "同じ7000歩の目安で、うつのリスクとの関係をまとめたメタ分析"
+      },
+      {
+        "id": "exercise-daily-steps-dementia-uk-biobank",
+        "type": "あわせて読む",
+        "why": "同じ歩数の問いを、認知症に絞って7万8千人で追った研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/body-myths/#body-steps-7000-meta"
@@ -20840,6 +21051,11 @@
         "id": "foodmyth-late-eating-hunger",
         "type": "あわせて読む",
         "why": "食べる時間を遅らせると空腹や消費がどう変わるかの実験。太るかの話はこちら"
+      },
+      {
+        "id": "appetite-bedtime-eating-sleep-atus",
+        "type": "あわせて読む",
+        "why": "寝る前に食べた日の睡眠の長さと夜中の目覚めを12万人で調べた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/japan/japan-eat-then-sleep/"
