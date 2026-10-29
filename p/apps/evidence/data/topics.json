@@ -1,5 +1,171 @@
 [
   {
+    "id": "dokugaku-nature-break-restore-focus-nature-walk",
+    "category": "自然と健康",
+    "kind": "よくある説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Stenfors et al., \"Positive Effects of Nature on Cognitive Performance Across Multiple Experiments: Test Order but Not Affect Modulates the Cognitive Effects\" (Frontiers in Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2019.01413",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/nature-break-restore-focus/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自然の中を歩くと集中力が戻る？",
+        "body": "疲れたら公園を散歩すると頭がすっきりする、ってよく聞くよね。集中する力は本当に戻るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "13の実験、528人分をまとめて分析",
+        "body": "自然の中と街なかで過ごした前後に、聞いた数字を逆の順に言うテストをした実験を、ひとつの研究グループがまとめて分析したんだ。散歩のほか、写真や音、VRで自然にふれた実験も入っているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "慣れを除くと、自然の後だけ伸びた",
+        "body": "1回目のテストは、テストに慣れるだけで自然でも街なかでも点が上がった。慣れの影響がない2回目では、自然の後は平均0.51点伸びて、街なかの後は0.23点下がっていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強の成果につながるかは不明",
+        "body": "どれも同じ研究グループの実験で、多くは北米の大学で行われたもの。測ったのは短い数字のテストだけで、気分の変化では説明できなかったけど、勉強の成績まで良くなるかは調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#dokugaku-nature-break-restore-focus-nature-walk"
+  },
+  {
+    "id": "dokugaku-study-hours-not-improving-scores-study-longer-or-effectively",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Theobald, \"Study longer or study effectively? Better study strategies can compensate for less study time and predict goal achievement and lower negative affect\" (British Journal of Educational Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1111/bjep.12725",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/study-hours-not-improving-scores/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "点が伸びないのは、勉強時間が足りないから？",
+        "body": "伸びないなら、もっと机に向かえばいい。そう思って勉強時間を増やす人は多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生231人の30日間の記録",
+        "body": "ドイツの大学生231人が、30日間、毎日の勉強時間と、計画・進み具合の確認・集中・先延ばしを記録して、その日の目標をどこまで達成できたかを答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やり方が良い日は、少ない時間で届いた",
+        "body": "勉強時間が長い日も、やり方が良い日も目標を達成しやすかった。やり方が良い日は少ない時間で高い達成に届き、集中できないまま長時間やった日は嫌な気分が特に強かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の報告で、点数ではない",
+        "body": "勉強時間も達成度も本人の申告で、テストの点そのものではないよ。関係を見た研究なので、やり方を変えれば必ず伸びるとまでは言えないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-study-hours-not-improving-scores-study-longer-or-effectively"
+  },
+  {
+    "id": "dokugaku-vocab-recognize-but-cannot-produce-listening-speed",
+    "category": "言葉と外国語",
+    "kind": "研究紹介",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Allal-Sumoto, Miyoshi & Mizuhara, \"The effect of productive vocabulary knowledge on second language comprehension\" (Frontiers in Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2023.1049885",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/vocab-recognize-but-cannot-produce/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "話せる単語は、聞き取りにも役立つ？",
+        "body": "話すための練習は、リスニングには関係ないと思われがち。本当にそうなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「言える」「わかるだけ」で分けて聞かせた",
+        "body": "京都大学の学生37人が、英語の200の言い回しを「自分で言える」「わかるだけ」「わからない」に分けて、1週間以上あとに、それを含む英文を聞いて理解したらすぐキーを押したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "言える言い回しは約430ミリ秒速く理解",
+        "body": "分析した30人では、自分で言える言い回しを含む文は、わかるだけの言い回しを含む文より約430ミリ秒速く理解できたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "速さだけで、人数も少ない",
+        "body": "本番で測ったのは理解の速さだけで、正しく理解できたかまでは確かめていないよ。対象は京都大学の学生で、分析できたのは30人。なぜ速くなるのかも、まだわかっていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-vocab-recognize-but-cannot-produce-listening-speed"
+  },
+  {
+    "id": "food-breakfast-school-performance",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Adolphus, Lawton & Dye, \"The effects of breakfast on behavior and academic performance in children and adolescents\" (Frontiers in Human Neuroscience, 2013)",
+    "sourceUrl": "https://doi.org/10.3389/fnhum.2013.00425",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "朝ごはんを食べる子は、成績がいい？",
+        "body": "「朝ごはんを食べないと勉強に集中できない」って、学校でもよく言われるよね。成績との関係は、研究で確かめられているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "子どもと10代の36本の研究を整理",
+        "body": "1950年から2013年までの研究から、朝ごはんと授業中の様子・学校の成績を調べた36本を集めて整理したレビューだよ。栄養が足りている子も足りていない子も、学校の朝食の取り組みも含めているんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "授業への集中はおおむね良い方向",
+        "body": "朝ごはんは、授業中に課題に向かう様子におおむね良い影響があった。よく食べる子ほど成績が良いという関係も一貫していて、算数・数学の成績で、特に栄養が足りていない子で効果がいちばんはっきりしていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "家庭の豊かさの影響が混ざる",
+        "body": "成績との関係の一部は、家庭の経済状況など別の要因で説明できてしまうよ。授業中の様子は観察する人の主観に頼る研究も多い。食べれば必ず成績が上がる、とまではまだ言えないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-breakfast-school-performance"
+  },
+  {
+    "id": "face-mask-attractiveness",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Hies & Lewis, \"Beyond the beauty of occlusion: medical masks increase facial attractiveness more than other face coverings\" (Cognitive Research: Principles and Implications, 2022)",
+    "sourceUrl": "https://doi.org/10.1186/s41235-021-00351-9",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "マスクをすると、魅力的に見える？",
+        "body": "「マスク美人」って言葉があるくらい、マスクをすると顔が良く見えるって聞くよね。実は、コロナ前の日本の実験では、逆に魅力が下がるという結果も出ていたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ顔を4通りで見せて採点",
+        "body": "イギリスのカーディフ大学の女子学生が、男性40人の顔写真を、医療用マスク・布マスク・本で隠す・隠さないの4通りで見て、魅力を1〜7点でつけたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばん魅力的なのは医療用マスク",
+        "body": "医療用マスクの顔がいちばん魅力的と評価され、布マスクも隠さない顔より高かったよ。もともとの顔の魅力が高くても低くても、マスクの効果は同じくらいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "女性が男性を見た、コロナ下の実験",
+        "body": "分析したのは42人で、女性が男性の写真を見た場合だけ。コロナ下のイギリスでの結果で、女性の顔を使ったコロナ前の日本の実験とは逆だった。マスクの受け止め方で変わるのかもしれず、実際の対面でも同じかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-mask-attractiveness"
+  },
+  {
     "id": "kokoro-stress-thinking-values-writing-affirmation-problem-solving",
     "category": "ひらめき",
     "kind": "素朴な疑問",
