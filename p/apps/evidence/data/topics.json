@@ -1,5 +1,171 @@
 [
   {
+    "id": "kokoro-stress-thinking-values-writing-affirmation-problem-solving",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Creswell JD et al., \"Self-affirmation improves problem-solving under stress\" (PLoS ONE, 2013)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0062593",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/stress-thinking-values-writing/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ストレスで頭が回らないとき、何かできる？",
+        "body": "忙しい日が続くと、ひらめきが出てこなくなるよね。米国と英国の研究者たちが、ストレスの高い人の「考える力」を守る方法を実験で調べたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大切な価値を短く書いてもらった",
+        "body": "大学生に11個の価値に順位をつけてもらい、半分は1位の価値がなぜ大事かを書いた。そのあと評価役の前で、3つの言葉に共通する言葉を12秒以内に答える難問を30問解いたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ストレスが高くても成績が落ちにくかった",
+        "body": "この1か月のストレスが高い人ほど成績は低めだった。でも1位の価値を書いたグループでは、ストレスの高い人もストレスの低い人と同じくらい解けていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1本の小さな実験",
+        "body": "分析したのは大学生73人だけで、評価役に急かされる特殊な場面だった。効果が何日続くかや、働く大人で同じになるかはまだわかっていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#kokoro-stress-thinking-values-writing-affirmation-problem-solving"
+  },
+  {
+    "id": "kokoro-gardening-screen-fatigue-recover-community-garden-rct",
+    "category": "自然と健康",
+    "kind": "よくある説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Litt JS et al., \"Effects of a community gardening intervention on diet, physical activity, and anthropometry outcomes in the USA (CAPS): an observer-blind, randomised controlled trial\" (The Lancet Planetary Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/S2542-5196(22)00303-5",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/gardening-screen-fatigue-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "土いじりでストレスが減る？",
+        "body": "家庭菜園や庭仕事で気持ちが落ち着く、ってよく聞くよね。でもそれ、園芸好きの人がもともと元気なだけかもしれない。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじで区画をもらう人を決めた",
+        "body": "米国デンバーで市民農園の順番を待っていた、最近2年は園芸をしていない大人291人を、区画をもらう人と待ち続ける人にくじで分けた試験があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "区画をもらった人はストレスが下がった",
+        "body": "春から秋にかけて、区画をもらった人のほうが、ストレスと不安の点数がより大きく下がっていたらしい。主な目的だった食事や運動とは別に調べた項目の結果だよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの要素が効いたかは不明",
+        "body": "畑仕事・外で過ごす時間・人との交流のどれが効いたのかは分けられない。ストレスは自己申告で、参加者の8割以上は女性だったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#kokoro-gardening-screen-fatigue-recover-community-garden-rct"
+  },
+  {
+    "id": "research-phone-break-focus-not-recovering-research-phone-break",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Kang & Kurtzberg, \"Reach for your cell phone at your own risk: The cognitive costs of media choice for breaks\" (Journal of Behavioral Addictions, 2019)",
+    "sourceUrl": "https://doi.org/10.1556/2006.8.2019.21",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/phone-break-focus-not-recovering-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "休憩にスマホは息抜きになる？",
+        "body": "疲れたらちょっとスマホを見て休憩。気分転換になる気がするよね。でも、頭はちゃんと休めているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生414人の実験",
+        "body": "難しい単語パズルの途中で、同じ「買い物リスト作り」の休憩を、スマホ・紙・パソコンのどれかでやってもらい、後半の成績を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "スマホ休憩は回復が小さかった",
+        "body": "後半に解けた数は10問中、スマホ休憩で平均6.38問、紙とパソコンは8.13問。休憩なしは5.32問だったから、スマホでも休まないよりはましらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の実験の話",
+        "body": "大学生が対象の、1回の実験室の実験だよ。休憩の中身はみんな同じ作業で、SNSを自由に見たときにどうなるかは調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-phone-break-focus-not-recovering-research-phone-break"
+  },
+  {
+    "id": "red-blue-light-room-warmth-hue-heat",
+    "category": "色彩心理",
+    "kind": "よくある説",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Battistel L et al., \"Investigating the validity of the hue-heat effect on thermal sensitivity\" (Scientific Reports, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-024-71784-7",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "赤い部屋は暖かく、青い部屋は涼しく感じる？",
+        "body": "赤やオレンジは「暖色」、青は「寒色」って言うよね。色で暖かさの感じ方まで変わるという説は、hue-heat（色と熱）仮説と呼ばれて、昔から研究されてきたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "赤と青の光の部屋で温度を比べた",
+        "body": "イタリアの研究で、23〜63歳の26人が、赤か青の光で照らした部屋に入り、どちらが暖かいかを答えた。暖かい部屋を赤にした条件と、わざと青にした条件を比べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "色が合っていても、見分けやすくはならなかった",
+        "body": "「暖かい部屋が赤」の条件でも逆の条件でも、温度の差を見分ける成績は同じくらいだった。逆の傾向の人もいて、色の光がない前の実験より、むしろ見分けにくくなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "26人の実験室の話",
+        "body": "対象は26人で、特別な部屋での短い判断を調べた実験だよ。「心地よさ」を答えてもらう研究では結果が分かれていて、壁紙の色や毎日の暮らしで同じかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#red-blue-light-room-warmth-hue-heat"
+  },
+  {
+    "id": "memory-complaints-dementia-risk",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Mitchell AJ et al., \"Risk of dementia and mild cognitive impairment in older people with subjective memory complaints: meta-analysis\" (Acta Psychiatrica Scandinavica, 2014)",
+    "sourceUrl": "https://doi.org/10.1111/acps.12336",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "物忘れが増えたら、認知症のはじまり？",
+        "body": "親が「最近物忘れがひどくて」と言うと、心配になるよね。検査では問題がないのに、本人が物忘れを気にしている人は、その後どうなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "28の研究、約3万人を追った",
+        "body": "平均71.6歳の29,723人を平均4.8年追った28の研究をまとめた分析があるんだ。物忘れを自覚している人と、していない人を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "なりやすさは約2倍、でも1年で約2%",
+        "body": "物忘れを自覚している人は、認知症になるリスクが約2倍だった。ただ、1年で認知症に進んだのは約2.3%。4年以上追った研究でも、認知症になったのは14.1%だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自覚が原因というわけではない",
+        "body": "人を追いかけて観察した研究のまとめなので、物忘れの自覚が認知症を起こすわけではないよ。なぜ約2倍になるのかや、どんな物忘れに気をつけるべきかまでは、この分析ではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#memory-complaints-dementia-risk"
+  },
+  {
     "id": "kokoro-short-video-time-perception-time-sense",
     "category": "スマホとSNS",
     "kind": "よくある説",
