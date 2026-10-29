@@ -1,5 +1,171 @@
 [
   {
+    "id": "laughter-calories-energy-expenditure",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Buchowski et al., \"Energy expenditure of genuine laughter\" (International Journal of Obesity, 2007)",
+    "sourceUrl": "https://doi.org/10.1038/sj.ijo.0803353",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "笑うとカロリーを使う？",
+        "body": "大笑いするとおなかが痛くなるし、「笑うだけでやせる」なんて話も聞くよね。実際どれくらいエネルギーを使うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "部屋ごと測れる装置の中で笑った",
+        "body": "アメリカの大学で、18〜34歳の友だち同士の2人組が、使ったエネルギーを部屋全体で測れる部屋に入り、お笑いの映像とそうでない映像を見たんだ。笑った時間は録音から数えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "使うけど、ほんの少し",
+        "body": "笑っている間は、休んでいるときより1分あたり平均0.19kcal多く使い、心拍も上がった。1日10〜15分笑って増えるのは、2014年に訂正された論文の計算で2〜10kcalほどらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の実験室の話",
+        "body": "若い大人が映像を見て笑ったときの1回の測定で、使ったエネルギーは2人分まとめて測っている。笑う習慣を続けて体重が変わるかは、この研究では確かめていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-calories-energy-expenditure"
+  },
+  {
+    "id": "personality-self-vs-friends-accuracy",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Vazire, \"Who knows what about a person? The self-other knowledge asymmetry (SOKA) model\" (Journal of Personality and Social Psychology, 2010)",
+    "sourceUrl": "https://doi.org/10.1037/a0017908",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分の性格は、自分がいちばんわかってる？",
+        "body": "性格診断は自分で答えるものが多いよね。でも、友だちの方が自分のことをよく見ている気がするときもある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "本人・友だち・初対面の人を比べた",
+        "body": "165人が自分の性格を答え、友だち4人と初対面の人（最大4人）にも評価してもらった。そのあと行動のテストを受けて、誰の評価がいちばん当たっていたかを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "当てるのが得意な所が分かれていた",
+        "body": "不安になりやすさなどは本人がいちばん当たり、知性に関わる面は友だちがいちばん当たった。外向性は、本人・友だち・初対面の人で同じくらいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "165人の1つの研究",
+        "body": "1つの研究の165人の結果で、行動のテストを「正解」として比べている。ほかの性格の面や、ほかの国・年代の人でも同じになるかは、この研究だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-self-vs-friends-accuracy"
+  },
+  {
+    "id": "dokugaku-backward-study-plan-from-exam-date-time-memory",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Hart et al., \"Time-on-task estimation for tasks lasting hours spread over multiple days\" (PLOS ONE, 2025)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0330758",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/backward-study-plan-from-exam-date/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "勉強した時間、覚えてる？",
+        "body": "「昨日は3時間やった」って、後から思い出した時間はどれくらい正確なんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "キー入力の記録と比べた",
+        "body": "プログラミング入門の授業の学生33人が、何日かに分けた課題の作業時間を振り返って答え、キー入力の記録から測った実際の時間と比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "多くは長めに覚えていた",
+        "body": "78%で実際より長く答えていて、実際の1時間を中央値で1.45時間と答えていたらしい。多くの学生は、自分は正確に覚えていると思っていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの授業の33人の話",
+        "body": "1つの大学の1つの授業で、人数も少ない。ほかの科目や社会人の勉強でも同じかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-backward-study-plan-from-exam-date-time-memory"
+  },
+  {
+    "id": "dokugaku-todo-thoughts-while-studying-refocus-bedtime-todo",
+    "category": "睡眠",
+    "kind": "研究紹介",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Scullin et al., \"The effects of bedtime writing on difficulty falling asleep: A polysomnographic study comparing to-do lists and completed activity lists\" (Journal of Experimental Psychology: General, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000374",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/todo-thoughts-while-studying-refocus/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝る前に何を書く？",
+        "body": "明日やることが気になって眠れない夜。やることを書き出すと、かえって目がさえそうな気もするよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "睡眠検査室で比べた",
+        "body": "18〜30歳の57人が、寝る前の5分間に「これからやること」か「もう終えたこと」を書き、睡眠検査室で眠るまでの時間を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やることリストの方が早く眠った",
+        "body": "やることを書いた人は平均15.8分、終えたことを書いた人は25.1分で眠った。やることを具体的に書いた人ほど早く眠ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ効くのかは未確認",
+        "body": "57人の小さな研究で、心配が減ったから早く眠れたのかは測っていない。誰にでも効くかも、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#dokugaku-todo-thoughts-while-studying-refocus-bedtime-todo"
+  },
+  {
+    "id": "dokugaku-lecture-video-how-to-watch-playback-speed",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Huang et al., \"Facilitating or hindering learning - a meta-analysis of acceleration on video learning\" (Frontiers in Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2025.1427609",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/lecture-video-how-to-watch/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "倍速でも同じだけ学べる？",
+        "body": "講義動画は倍速で見れば時間が半分。内容はちゃんと頭に入るし、むしろ集中できる、という声もよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12件の研究をまとめた",
+        "body": "学習用の動画を速く再生した場合と、元の速さで再生した場合を比べた12件の実験をまとめて分析した研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "覚えた内容のテストは下がった",
+        "body": "速く再生すると頭の負担が増え（g=0.59）、覚えた内容を問うテストの成績が下がり（g=−0.41）、学習への満足度も少し下がっていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何倍までなら平気かは不明",
+        "body": "研究ごとに違う速さを「速い」の1つにまとめて分析していて、何倍から下がるのかはわからない。著者ら自身、発表の偏りの可能性も指摘している。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-lecture-video-how-to-watch-playback-speed"
+  },
+  {
     "id": "dokugaku-vocab-recognize-but-cannot-produce-translation-direction",
     "category": "学習法",
     "kind": "よくある説",
