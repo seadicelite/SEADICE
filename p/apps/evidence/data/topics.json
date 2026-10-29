@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-vocab-recognize-but-cannot-produce-translation-direction",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Healy, Schneider & Kole, \"Exploring whether making second-language vocabulary learning difficult enhances retention and transfer\" (Behavioral Sciences, 2025)",
+    "sourceUrl": "https://doi.org/10.3390/bs15050692",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/vocab-recognize-but-cannot-produce/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "難しい向きで覚えた単語ほど長く残る？",
+        "body": "単語は母語から外国語を思い出す方が難しい。難しく覚えた方が長く残る、という話を聞いたことがあるかも。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ研究室が自分たちの結果を確かめ直した",
+        "body": "難しい向きで学ぶ効果を2002年にも調べた研究室が、フランス語を知らない米国の大学生48人に、フランス語の単語36組を2つの向きのどちらかで学ばせ、1週間後にテストと覚え直しをしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1週間後は一部で上回ったが、差は続かなかった",
+        "body": "学習中と直後のテストは易しい向きの方がよくできた。1週間後のテストでは、学んだ単語に限って難しい向きの人が上回ったけど、覚え直しでは差がなくなり、最後のテストではどちらも一貫しては上回らなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、初心者の短い実験",
+        "body": "フランス語を知らない大学生48人の短い単語リストの実験だよ。外国語の力が高い人ほど母語→外国語の練習が有利だったという別の研究もあって、条件しだいなんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-vocab-recognize-but-cannot-produce-translation-direction"
+  },
+  {
+    "id": "dokugaku-study-boredom-restart-bored-high-achievers",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Schwartze et al., \"Boredom due to being over- or under-challenged in mathematics: A latent profile analysis\" (British Journal of Educational Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.1111/bjep.12695",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/study-boredom-restart/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "勉強に飽きるのは、できない人？",
+        "body": "授業や勉強がつまらないのは、ついていけない人だけ。そう思われがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5〜9年生1,407人の退屈と成績",
+        "body": "ドイツ・バイエルン州の5〜9年生1,407人に、数学の退屈を聞いて、数学のテストの成績と合わせてグループに分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績が高くて退屈な生徒も21%",
+        "body": "退屈が強いグループは2つ。成績が低い「難しすぎ」が13%、成績が高い「易しすぎ」が21%だったらしい。実は、できる人も退屈しているんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1教科・1回の調査",
+        "body": "数学だけ、1回の調査の結果だよ。大人の独学でも同じ割合になるかや、難しさを変えれば退屈が減るかまでは、この研究ではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-study-boredom-restart-bored-high-achievers"
+  },
+  {
+    "id": "dokugaku-exam-close-not-enough-time-medium-difficulty",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Metcalfe & Kornell, \"The dynamics of learning and allocation of study time to a region of proximal learning\" (Journal of Experimental Psychology: General, 2003)",
+    "sourceUrl": "https://doi.org/10.1037/0096-3445.132.4.530",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/exam-close-not-enough-time/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "勉強は一番の苦手から？",
+        "body": "時間が足りないときこそ、一番難しい所から片づけるべき。よく聞く助言だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "どの難しさに時間を使うか",
+        "body": "Metcalfeらは、自由に選ばせたときの勉強時間の使い方と、勉強時間を実験者が割り振ったときの成績を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "中くらいの難しさが一番得",
+        "body": "人は易しい項目を先に済ませ、中くらいの難しさに一番時間を使った。割り振った実験でも、中くらいの項目に多く時間を使ったときの成績が最もよかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の研究の話",
+        "body": "項目を覚える実験室の研究だよ。理解が積み上がる科目や、配点のある本番の試験で同じになるかは確かめられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-close-not-enough-time-medium-difficulty"
+  },
+  {
+    "id": "posture-back-pain-heat-or-cold",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "French et al., \"Superficial heat or cold for low back pain\" (Cochrane Database of Systematic Reviews, 2006)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD004750.pub2",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "腰が痛いとき、温める？冷やす？",
+        "body": "カイロで温めるか、保冷剤で冷やすか。腰が痛いとき、どっちがいいのか迷うよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9つの試験・1,117人をまとめた",
+        "body": "コクランのレビューが、腰痛の人に温める・冷やす方法を試した9つの試験（合わせて1,117人）を集めて比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "温めるのは少し効いた。冷やすのはわからない",
+        "body": "急な腰痛と少し長引く腰痛の人258人の2試験では、温めるシートで5日後の痛みが偽薬より少し軽かった。運動を足すとさらに軽くなったよ。冷やす効果は、判断できるだけの研究がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究が少なく、2005年までのまとめ",
+        "body": "試験の数が少なく、質も十分ではない。冷やす研究は質の低い3つだけ。温めるのと冷やすのでどちらがいいかも、結果が食い違っていてわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-back-pain-bed-rest",
+        "type": "あわせて読む",
+        "why": "腰が痛いときの過ごし方。安静にするべきかを調べたレビュー"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-back-pain-heat-or-cold"
+  },
+  {
+    "id": "sleep-music-insomnia-cochrane",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Jespersen et al., \"Listening to music for insomnia in adults\" (Cochrane Database of Systematic Reviews, 2022)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD010459.pub3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "音楽を聴きながら寝ると、よく眠れる？",
+        "body": "眠れない夜に、ゆったりした音楽を流す人は多いよね。実際に眠りはよくなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "13の試験・1,007人をまとめた",
+        "body": "眠りに悩む大人が、録音された音楽を毎日25〜60分、3日〜3か月聴いた13の試験（合わせて1,007人）を、コクランのレビューがまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「よく眠れた」という感じは上がった",
+        "body": "睡眠の質の自己評価（PSQI、0〜21点で低いほどよい）は、音楽なしより約2.8点よくなった（10試験・708人）。寝つくまでの時間なども少しよくなったらしいけど、確かさは低めだよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "機械で測ると差ははっきりしない",
+        "body": "機械で眠りを測った3つの試験（136人）では、はっきりした改善は見られなかった。参加者は音楽を聴いたと分かるので、思い込みの影響も外せないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-pink-noise-rem",
+        "type": "あわせて読む",
+        "why": "寝るときに流す音の話。ピンクノイズを流すと眠りはどうなるか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-music-insomnia-cochrane"
+  },
+  {
     "id": "dokugaku-nature-break-restore-focus-nature-walk",
     "category": "自然と健康",
     "kind": "よくある説",
@@ -2775,7 +2955,14 @@
         "body": "腰痛で比べられたのは2件だけで、差は小さかったよ。試験ごとに偏りの心配の度合いも違い、著者は今後の研究で結果が変わる可能性が高いと書いているんだ。助言の伝え方を比べた試験もなかったよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-back-pain-bed-rest"
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-back-pain-bed-rest",
+    "links": [
+      {
+        "id": "posture-back-pain-heat-or-cold",
+        "type": "あわせて読む",
+        "why": "腰が痛いときに温めるか冷やすかを調べたレビュー"
+      }
+    ]
   },
   {
     "id": "research-read-but-cant-remember-illusion-why-research-zipper",
@@ -8521,6 +8708,11 @@
         "id": "sleep-white-noise-icu",
         "type": "反対の結果",
         "why": "ノイズは眠りを悪くした研究と、騒音下で眠りを守った研究"
+      },
+      {
+        "id": "sleep-music-insomnia-cochrane",
+        "type": "あわせて読む",
+        "why": "寝るときに流す音の話。音楽を聴くと眠りはよくなるか"
       }
     ]
   },
