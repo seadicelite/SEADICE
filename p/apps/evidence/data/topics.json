@@ -1,5 +1,171 @@
 [
   {
+    "id": "kokoro-comparison-lost-sense-of-self-rumination",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Kang S et al., \"Do College Freshmen Who Engage More in Online Social Comparison Tend to Be More Confused About Themselves? The Roles of Rumination and Self-Compassion\" (Behavioral Sciences, 2025)",
+    "sourceUrl": "https://doi.org/10.3390/bs15070849",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/comparison-lost-sense-of-self/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "比べてると、自分がわからなくなる？",
+        "body": "SNSで人と比べてばかりいたら、自分が何をしたいのか見えなくなってきた。そんな感覚、心当たりあるよね。研究ではどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学1年生975人に聞いた",
+        "body": "中国・湖北省の3つの大学の1年生975人に、ネットで人と比べる頻度、くよくよ考え込む傾向、「自分はこういう人」という感覚のはっきりさを質問紙で聞いた調査なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "間にあったのは考え込み",
+        "body": "ネットで比べる人ほど、自分の感覚があいまいだった。その結びつきの約43%は、比べたあとの考え込みを通じた部分。自分より下の人と比べるのも、同じ方向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "1回きりの調査だから、比べるせいで自分がぼやけるのか、ぼやけているから比べるのかはわからない。対象も中国の大学1年生だけ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-comparison-lost-sense-of-self-rumination"
+  },
+  {
+    "id": "kokoro-study-break-phone-memory-sns-after-reading",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Seban P, Šikl R, Prošek T, Urban K, \"Wakeful rest and memory consolidation in an ecologically valid educational setting: no benefit over distractor tasks\" (Psychological Research, 2026)",
+    "sourceUrl": "https://doi.org/10.1007/s00426-026-02265-x",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/study-break-phone-memory/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "勉強の直後にスマホを見ると忘れる？",
+        "body": "覚えたあとは静かに休むほうがいい、ってよく聞くよね。読み終えてすぐSNSを開くと、せっかく覚えたことが消えちゃう気がする。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "読んだ後の8分を4通りで比べた",
+        "body": "大学生161人が説明文を読んだあと、8分間「言葉の指示に従ってリラックス」「自分のSNSを見る」「計算問題」「別の文章を読む」のどれかに、くじで分けられて過ごしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "休んだ組が勝つことはなかった",
+        "body": "直後と1週間後のテストで、休んだ組がほかの組より成績が良いことはなかったらしい。1週間後の事実の問題の正答率は、休んだ組が約15%、SNSの組が約18%で、はっきりした差はなし。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語の暗記や、ただ座る休みなら？",
+        "body": "これまでの研究は単語の暗記が中心で、文章の理解とは学び方が違う。今回の休み方も言葉の指示に従うリラックス法の1種類だけ。ただ静かに座る休み方でも同じかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#kokoro-study-break-phone-memory-sns-after-reading"
+  },
+  {
+    "id": "kokoro-anxiety-put-into-words-labeling-intensity",
+    "category": "呼吸とストレス",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Levy-Gigi E, Shamay-Tsoory SG, \"Affect labeling: The role of timing and intensity\" (PLoS One, 2022)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0279303",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/anxiety-put-into-words/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "モヤモヤは言葉にすると楽になる？",
+        "body": "気持ちを言語化すると落ち着く、ってよく聞くよね。「いま不安」と名前をつけるだけでいいなら手軽だけど、本当にいつでも効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "不快な写真を見ながら気持ちを選ぶ",
+        "body": "イスラエルの実験。不快な写真を見ながら、自分の気持ちを2つの言葉から選んでもらったんだ。写真は不快感が強いものと弱いものを用意したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "強いときは下がり、弱いときは上がった",
+        "body": "79人の実験では、強い不快感の写真では名前をつけると苦痛が下がった。でも弱い不快感の写真では、逆に苦痛が上がったらしい。名前をつけるのが10秒後でも効果は同じだった（63人の実験）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日常の不安でも同じ？",
+        "body": "パソコンで写真を見る実験室の研究で、日常の気持ちで確かめたわけではないよ。気持ちも2つの言葉から選ぶだけで、自分で言葉を考えたわけでもない。著者も、実際の場面での研究が必要だと書いているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-anxiety-put-into-words-labeling-intensity"
+  },
+  {
+    "id": "aging-start-exercise-midlife-mortality",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Saint-Maurice PF et al., \"Association of Leisure-Time Physical Activity Across the Adult Life Course With All-Cause and Cause-Specific Mortality\" (JAMA Network Open, 2019)",
+    "sourceUrl": "https://doi.org/10.1001/jamanetworkopen.2019.0355",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動、40代から始めても遅くない？",
+        "body": "若いころからずっと運動してきた人にはかなわない気がするよね。運動不足のまま中年になってから始めても、意味はあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの31万人を追いかけた",
+        "body": "50〜71歳のアメリカの大人315,059人に、10代・20代・30代後半・40〜61歳の運動量を思い出して答えてもらい、その後の死亡を2011年まで追ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "後から始めた人も、ずっと続けた人と同じくらい",
+        "body": "ずっと運動しなかった人と比べて、40〜61歳で運動を増やした人は死亡のリスクが約35%低かった。ずっと運動を続けた人（約36%低い）とほぼ同じくらいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運動のおかげとは言い切れない",
+        "body": "見守っただけの調査だから、運動のせいか、もともと健康な人が運動を始めたのかは分けられない。昔の運動量は本人の記憶だし、対象もアメリカの会員組織の人たちだけだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-start-exercise-midlife-mortality"
+  },
+  {
+    "id": "mindfulness-meditation-sleep-quality-meta",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Rusch HL et al., \"The effect of mindfulness meditation on sleep quality: a systematic review and meta-analysis of randomized controlled trials\" (Annals of the New York Academy of Sciences, 2019)",
+    "sourceUrl": "https://doi.org/10.1111/nyas.13996",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "瞑想するとよく眠れる？",
+        "body": "寝る前の瞑想で眠りが深くなる、ってよく聞くよね。アプリもたくさんあるけど、研究ではどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18の試験、1654人をまとめた",
+        "body": "くじで組を分けた18の試験（合わせて1654人）をまとめた研究。瞑想を、睡眠の治療として根拠のある方法や、同じ時間だけ別のことをする組と比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "別のことをするよりは良いけど、治療並みではない",
+        "body": "同じ時間だけ別のことをした組よりは、瞑想した組の睡眠の質が良かった。でも睡眠の治療として根拠のある方法と比べると、差は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "根拠の強さはまだ中くらい",
+        "body": "根拠の強さは「中くらい」から「低い」と判定されていて、著者も「予備的な結果」と書いている。試験は18件と多くなく、どんな人にどの瞑想が効くかはこれからだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-meditation-sleep-quality-meta"
+  },
+  {
     "id": "dokugaku-why-sleepy-after-lunch-studying-meal",
     "category": "睡眠",
     "kind": "よくある説",
