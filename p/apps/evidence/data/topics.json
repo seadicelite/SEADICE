@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-evening-study-after-work-fatigue-test-time",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Sievertsen et al., \"Cognitive fatigue influences students' performance on standardized tests\" (PNAS, 2016)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1516947113",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/evening-study-after-work-fatigue/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "テストは遅い時間ほど不利？",
+        "body": "同じ人でも、朝に受けるテストと昼すぎに受けるテストで点は変わるのかな。1日の疲れって、どのくらい響くんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "200万回分のテストを分析",
+        "body": "デンマークの公立学校で受けられた全国テスト約200万回分（8〜15歳、57万人あまり）を調べた研究があるんだ。テストの時刻は時間割とパソコン室の空きで決まっていた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "遅いほど少し下がり、休憩で戻る",
+        "body": "時刻が1時間遅くなるごとに点は標準偏差の0.9%下がり、20〜30分の休憩の直後には1.7%上がっていたらしい。差はとても小さいけれど、1日の疲れの影響と考えられている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人の夜の勉強でも同じ？",
+        "body": "これは子どもの学校のテストで、時刻は朝8時から13時台まで。仕事のあとに夜勉強する大人で同じ大きさの差が出るかは、わかっていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-evening-study-after-work-fatigue-test-time"
+  },
+  {
+    "id": "dokugaku-exam-study-strategy-three-questions-strategic-resource-use",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Chen et al., \"Strategic Resource Use for Learning: A Self-Administered Intervention That Guides Self-Reflection on Effective Resource Use Enhances Academic Performance\" (Psychological Science, 2017)",
+    "sourceUrl": "https://doi.org/10.1177/0956797617696456",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/exam-study-strategy-three-questions/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "試験勉強、作戦を立ててる？",
+        "body": "試験が近づくと、とりあえずテキストを開いて読み始める人は多いよね。勉強の前に「どう勉強するか」を考えるだけで、結果は変わるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つの問いに答えるだけの実験",
+        "body": "大学の統計学の入門授業で、くじで選ばれた学生が試験の前に3つのことを考えた。「何を使って勉強する？」「なぜ役立つ？」「どう使う？」。2回の授業でためした実験だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績が約3分の1段階上がった",
+        "body": "考えた学生は、自分の学び方をふり返るようになり、教材もうまく使えていた。授業の成績は、考えなかった学生より平均で成績評価の約3分の1段階分高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どこでも効くとは限らない",
+        "body": "1つの授業の、くじで分けた学生どうしの結果なんだ。試験のある大学の授業で、教材が用意されている場面での話。教材を自分で探す独学の社会人でも効くかは、まだ確かめられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-study-strategy-three-questions-strategic-resource-use"
+  },
+  {
+    "id": "dokugaku-movement-breaks-long-study-sessions-micro-walks",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Bergouignan et al., \"Effect of frequent interruptions of prolonged sitting on self-perceived levels of energy, mood, food cravings and cognitive function\" (International Journal of Behavioral Nutrition and Physical Activity, 2016)",
+    "sourceUrl": "https://doi.org/10.1186/s12966-016-0437-z",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/movement-breaks-long-study-sessions/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "朝に運動すれば、あとは座りっぱなしでOK？",
+        "body": "朝にしっかり運動しておけば、その日は一日座って勉強や仕事をしても大丈夫。そう思っている人は多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つの1日をくらべた実験",
+        "body": "ふだん座っている時間が長い25〜50歳の30人が、6時間座りっぱなしの日、朝に30分歩いてから座る日、1時間ごとに5分歩く日の3つを体験した実験があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "こまめに歩いた日だけ、夕方の疲れが減った",
+        "body": "朝の30分も1時間ごとの5分も、活力は高めた。でも気分がよくなり、夕方の疲れが減ったのは1時間ごとに歩いた日だけだったらしい。注意などの頭の働きの成績は、3つの日で差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自分でそう感じただけ？",
+        "body": "気分や疲れは本人の自己評価で、どの日かは本人にもわかっていた。人数も30人と少なく、勉強の成果を測ったわけでもない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-sitting-breaks-focus-move-breaks",
+        "type": "あわせて読む",
+        "why": "こちらは気分と疲れ、あちらは座りっぱなしを区切ったときの頭の働きのまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-movement-breaks-long-study-sessions-micro-walks"
+  },
+  {
+    "id": "exercise-dance-mood-meta",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Koch et al., \"Effects of Dance Movement Therapy and Dance on Health-Related Psychological Outcomes. A Meta-Analysis Update\" (Frontiers in Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2019.01806",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ダンスをすると気持ちは明るくなる？",
+        "body": "体を動かして踊ると、なんだか気分が晴れる気がするよね。研究ではどうなっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "41件の試験をまとめた",
+        "body": "2012〜2018年の、ダンスをする人としない人を比べた試験41件（2374人）をまとめた研究があるよ。半分は病院などで行うダンスセラピー、半分はふつうのダンス教室のような取り組みだった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果はあったけど、中身は混ざっている",
+        "body": "全体では中くらいの良い効果が見られた。ただ、落ち込みや不安が減るはっきりした効果はダンスセラピーの方で、ダンス教室の方は主に体の動かし方がうまくなる効果だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究ごとの差が大きい",
+        "body": "結果のばらつきが大きく、方法に弱い点がある研究も多かった。人が観察して測った研究ほど効果が大きく出ていて、かたよりの可能性もある。好きで踊る人の気分まで同じかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-mood-metaanalysis",
+        "type": "あわせて読む",
+        "why": "ダンスに限らず、1回の運動の直後の気分の変化をまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-dance-mood-meta"
+  },
+  {
+    "id": "breathing-slow-blood-pressure-meta",
+    "category": "呼吸とストレス",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Chaddha et al., \"Device and non-device-guided slow breathing to reduce blood pressure: A systematic review and meta-analysis\" (Complementary Therapies in Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.ctim.2019.03.005",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ゆっくり呼吸すると血圧が下がる？",
+        "body": "深呼吸すると血圧が下がる、ってよく聞くよね。測る前に深呼吸する人もいるかも。続けたら本当に下がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "17件の試験をまとめた",
+        "body": "血圧が高め、または血圧の薬をのんでいる人が、1分間に10回以下のゆっくり呼吸を1回5分以上・週3日以上、4週間以上続けた試験17件をまとめた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少しだけ下がっていた",
+        "body": "ゆっくり呼吸を続けた人は、比べた人より上の血圧が平均約5.6、下の血圧が約3.0（mmHg）下がっていた。研究者は「控えめな下がり方」と書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "結果のばらつきが大きい",
+        "body": "どの比べ方でも研究ごとの差が大きかった。対象は血圧が高めの人で、何週間も続けた場合の話。1回の深呼吸ですぐ下がるかとは別の話だし、治療をどうするかはお医者さんと決めることだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "breathing-six-per-minute-prayer",
+        "type": "あわせて読む",
+        "why": "こちらは続けたときの血圧、あちらはゆっくり呼吸の最中に起きる変化"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-slow-blood-pressure-meta"
+  },
+  {
     "id": "dokugaku-lecture-video-how-to-watch-in-lecture-quizzes",
     "category": "学習法",
     "kind": "研究紹介",
@@ -1332,7 +1519,14 @@
         "body": "研究者自身が証拠の確かさを「低い」と評価しているよ。テストは運動の直後だけで、効果がどれくらい続くかや、実際の仕事ぶりが変わるかはわかっていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/focus/#kokoro-sitting-breaks-focus-move-breaks"
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-sitting-breaks-focus-move-breaks",
+    "links": [
+      {
+        "id": "dokugaku-movement-breaks-long-study-sessions-micro-walks",
+        "type": "あわせて読む",
+        "why": "こちらは頭の働き、あちらはこまめに歩いた日の気分と疲れの実験"
+      }
+    ]
   },
   {
     "id": "kokoro-tech-stress-age-older-workers-age-myth",
@@ -9130,6 +9324,11 @@
         "id": "exercise-mental-health-umbrella",
         "type": "あわせて読む",
         "why": "1回の運動の気分効果と、うつや不安への効果のまとめ"
+      },
+      {
+        "id": "exercise-dance-mood-meta",
+        "type": "あわせて読む",
+        "why": "続けてダンスをしたときの心への効果をまとめた研究"
       }
     ]
   },
@@ -13141,7 +13340,14 @@
       "wrong": "リズムが乱れた"
     },
     "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-six-per-minute-prayer",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "breathing-slow-blood-pressure-meta",
+        "type": "あわせて読む",
+        "why": "ゆっくり呼吸を何週間も続けたときの血圧の変化をまとめた研究"
+      }
+    ]
   },
   {
     "id": "circadian-camping-natural-light",
