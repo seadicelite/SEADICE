@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-why-urge-to-check-phone-while-studying-notification-cost",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Stothart et al., \"The attentional cost of receiving a cell phone notification\" (Journal of Experimental Psychology: Human Perception and Performance, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/xhp0000100",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-urge-to-check-phone-while-studying/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "通知は見なければ平気？",
+        "body": "勉強中にスマホが鳴っても、画面を見なければ集中は保てる。そう思って、通知をそのままにしている人は多いよね。本当に見なければ大丈夫なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "課題の最中に通知を送った",
+        "body": "集中が必要な注意の課題をしてもらい、その最中に参加者のスマホへ電話やメッセージの通知を送った実験。参加者は課題中、スマホに触れなかったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "鳴るだけで成績が下がった",
+        "body": "通知を受けただけで、課題の成績ははっきり下がった。下がり方は、実際に電話やメッセージをしたときと同じくらいだったらしい。通知が、課題と関係ない考えを呼び起こすためと考えられているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強の成果では未確認",
+        "body": "調べたのは実験室の短い注意の課題。何か月も続く勉強で、通知が成績をどれだけ下げるかを直接測ったわけではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-notification-interruption",
+        "type": "あわせて読む",
+        "why": "通知が鳴るだけの短い実験と、通知を切って1週間過ごした実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-urge-to-check-phone-while-studying-notification-cost"
+  },
+  {
+    "id": "dokugaku-why-difficult-books-make-you-sleepy-hard-text-mind-wandering",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Kahmann et al., \"Mind wandering increases linearly with text difficulty\" (Psychological Research, 2022)",
+    "sourceUrl": "https://doi.org/10.1007/s00426-021-01483-9",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-difficult-books-make-you-sleepy/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "難しい本だと気が散るのはなぜ？",
+        "body": "専門書を読んでいると、いつの間にか別のことを考えてる。難しい文章ほど集中できるはず、という気もするけど、実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5段階の難しさで読んでもらった",
+        "body": "オランダの大学で、大学生89人に、易しいものから難しいものまで5段階、計10本の説明文を読んでもらい、途中で「いま何を考えてた？」とたずねた実験だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "難しいほど心が離れた",
+        "body": "全体では38.9%の場面で心が本から離れていた。難しさが1段上がるごとに、心がさまよう見込み（オッズ）は約1.29倍に。興味が持てない文章ほど、さまよいやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い読書でも同じ？",
+        "body": "1本3分で前のページに戻れない条件の、大学生の実験。社会人が専門書を何十分も読む場面で同じになるかは不明。難しさと興味の組み合わせの分析は、著者も慎重に読むよう書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-difficult-books-make-you-sleepy-hard-text-mind-wandering"
+  },
+  {
+    "id": "dokugaku-why-comparing-study-progress-on-sns-hurts-person-specific",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Beyens et al., \"The effect of social media on well-being differs from adolescent to adolescent\" (Scientific Reports, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-020-67727-7",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/why-comparing-study-progress-on-sns-hurts/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "SNSを見ると、みんな落ち込む？",
+        "body": "他人のキラキラした投稿を見ると気分が下がる、ってよく言われるよね。勉強垢を見て焦った経験がある人も多いはず。でも、本当に誰でもそうなるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1週間、1日6回の記録",
+        "body": "オランダの学校に通う平均15歳の63人に、1週間、1日6回、SNSの使い方とその時の気分を答えてもらった研究だよ。記録は全部で2,155回分。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "悪くなったのは10%",
+        "body": "投稿を見るだけの使い方をした後、44%は気分が変わらず、46%は良くなり、悪くなったのは10%だったらしい。SNSの影響は、人によってかなり違うということ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "63人の10代だけの話",
+        "body": "対象は1つの学校の10代63人だけ。大人の独学者で同じ割合になるかはわからないし、どんな投稿を見たかまでは分けていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-sns-upward-comparison-why-ability-posts",
+        "type": "あわせて読む",
+        "why": "誰でも落ち込むわけではない話と、どんな投稿で落ち込みやすいかの実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-comparing-study-progress-on-sns-hurts-person-specific"
+  },
+  {
+    "id": "pet-dog-contagious-yawn-empathy",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Neilands et al., \"Contagious yawning is not a signal of empathy: no evidence of familiarity, gender or prosociality biases in dogs\" (Proceedings of the Royal Society B, 2020)",
+    "sourceUrl": "https://doi.org/10.1098/rspb.2019.2236",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬にもあくびはうつる？",
+        "body": "人があくびをすると、そばの犬もつられてあくび。仲良しだからうつる、つまり共感のしるしだ、という話を聞いたことがあるよね。本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6つの研究をまとめ直した",
+        "body": "犬のあくびがうつるかを調べた6つの研究のデータを、まとめて分析し直した研究だよ。さらに、親切にふるまう人と意地悪にふるまう人のあくびを犬に見せる実験もしたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "うつる。でも共感とは別かも",
+        "body": "犬にもあくびがうつることは、はっきり支持された。でも、知っている人の方がうつりやすい、性別で違う、親切な人の方がうつる、という差はどれも見つからなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜうつるのかは不明",
+        "body": "飼い主のあくびの方がうつりやすいとした2013年の研究もあって、結果は分かれてきた。共感のしるしという説は支持されなかったけど、ではなぜうつるのかは、まだわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-contagious-yawn-empathy"
+  },
+  {
+    "id": "posture-schoolbag-back-pain-children",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Yamato et al., \"Do schoolbags cause back pain in children and adolescents? A systematic review\" (British Journal of Sports Medicine, 2018)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2017-098927",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "重いランドセルは腰痛のもと？",
+        "body": "教科書でぱんぱんのランドセルやリュック。重いかばんを毎日背負うと、子どもの腰や背中を痛める、って心配になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "69件・7万人分の研究を整理",
+        "body": "子どもや10代の通学かばんと、背中や腰の痛みの関係を調べた69件（計72,627人）を集めた系統的レビュー。時間を追って調べた5件の研究を、いちばん重く見たよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "重さで痛みが増えるとは言えない",
+        "body": "追跡した5件では、かばんの重さ・形・背負い方は、痛みが起きる危険を高めていなかった。その時点だけを調べた研究でも、決まった関係は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の質はまちまち",
+        "body": "含まれた研究は、かたよりの危険が中くらいから高め。結果がばらばらで、数字を1つにまとめることはできなかった。2016年4月までの研究の整理で、「重くても平気」と言い切れるわけではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-schoolbag-back-pain-children"
+  },
+  {
     "id": "dokugaku-study-habit-after-course-ends-megastudy",
     "category": "学習法",
     "kind": "研究紹介",
@@ -1920,7 +2100,14 @@
         "body": "投稿を見ないグループがなく、2種類の投稿どうしの比較だけ。参加者は平均24.3歳で、8割以上が女性だった。ほかの年代でも同じかはわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-upward-comparison-why-ability-posts"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-upward-comparison-why-ability-posts",
+    "links": [
+      {
+        "id": "dokugaku-why-comparing-study-progress-on-sns-hurts-person-specific",
+        "type": "あわせて読む",
+        "why": "どんな投稿で落ち込むかの実験と、影響は人によって違うという記録"
+      }
+    ]
   },
   {
     "id": "alcohol-empty-stomach-blood-alcohol",
@@ -9716,6 +9903,11 @@
         "id": "digital-smartphone-brain-drain",
         "type": "あわせて読む",
         "why": "スマホがそばにあるだけの影響と、通知が集中を切る影響"
+      },
+      {
+        "id": "dokugaku-why-urge-to-check-phone-while-studying-notification-cost",
+        "type": "あわせて読む",
+        "why": "通知を切って1週間過ごした実験と、通知が鳴るだけの短い実験"
       }
     ]
   },
