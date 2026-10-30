@@ -1,5 +1,199 @@
 [
   {
+    "id": "dokugaku-study-habit-after-course-ends-megastudy",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Milkman et al., \"Megastudies improve the impact of applied behavioural science\" (Nature, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41586-021-04128-4",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/study-habit-after-course-ends/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "後押しが終わっても続く？",
+        "body": "講座やアプリのごほうびがある間は続くのに、終わるとやめてしまう。後押しの効果って、終わった後も残るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "54通りの後押しを一斉に試した",
+        "body": "米国のジム会員6万1,293人に、研究者30人が考えた54通りの4週間のプログラムを割り当てて、ジムに行く回数をくらべた大規模な実験があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "終わった後も残ったのは8%",
+        "body": "期間中に回数を増やしたのは45%のプログラム。いちばん効いたのは、休んだ後に戻ったら小さなポイントを出す方法だった。でも終了後の4週間も効果が残ったのは8%だけだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強でも同じ？",
+        "body": "これは運動の研究で、勉強の習慣を測ったわけではない。成績のよかった方法ほど偶然で大きく見えている可能性も、著者ら自身が書いている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-study-habit-after-course-ends-megastudy"
+  },
+  {
+    "id": "dokugaku-stale-air-study-room-ventilation-pure-co2",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Zhang et al., \"Effects of exposure to carbon dioxide and bioeffluents on perceived air quality, self-assessed acute health symptoms, and cognitive performance\" (Indoor Air, 2017)",
+    "sourceUrl": "https://doi.org/10.1111/ina.12284",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/stale-air-study-room-ventilation/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "二酸化炭素が増えると頭が鈍る？",
+        "body": "閉めきった部屋で眠くなるのは、二酸化炭素が増えるからだ、とよく言われるよね。じゃあ二酸化炭素だけを増やしたら、本当に頭の働きは落ちるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "25人が4時間あまり過ごした実験",
+        "body": "25人が各条件で255分過ごした実験。純粋な二酸化炭素を足して1,000ppmや3,000ppmにした部屋と、換気を減らして人から出る物質がたまった部屋をくらべたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差が出たのは「こもった空気」の方",
+        "body": "二酸化炭素を足しただけでは、空気の感じ方も体調も成績も変わらなかった。換気を減らした3,000ppmの部屋では、頭痛や眠気が強まり、計算も遅くなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの成分が効いているのか",
+        "body": "影響が出たのはかなり換気の悪い条件で、人数も25人。人から出るどの物質が効いているのかは、この研究ではわからない。二酸化炭素だけを足して点が下がった別の実験もあって、結果はまだそろっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-stuffy-room-ventilation-focus-co2-office",
+        "type": "反対の結果",
+        "why": "二酸化炭素だけを足した条件で、こちらは差がなく、あちらは点が下がった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-stale-air-study-room-ventilation-pure-co2"
+  },
+  {
+    "id": "dokugaku-exam-time-allocation-sheet-same-task-estimate",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Thomas & König, \"Knowledge of Previous Tasks: Task Similarity Influences Bias in Task Duration Predictions\" (Frontiers in Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2018.00760",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/exam-time-allocation-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "かかる時間、なぜ読み違える？",
+        "body": "「20分あれば終わる」と思った作業が、気づけば1時間。時間の見積もりって、どうすれば当たるようになるんだろう。前回の時間を知っていれば、正確になる？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ作業を1週間あけて2回",
+        "body": "イギリスの大学生が、1週間あけて2回作業をした実験。2回とも同じ文書の修正をした人と、1回目はおもちゃの城づくりをした人で、2回目の見積もりを比べたよ。3つの実験で合計200人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一度やると読みが当たる",
+        "body": "同じ作業を一度やった人の方が、2回目の見積もりのずれが小さかった。一方で、1回目にかかった正確な時間を教えても、ずれは減らなかったらしい。数字を知るより、やってみることが効くみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験の時間配分では未確認",
+        "body": "実験室での短い作業の結果で、参加者は心理学の学生だけ。試験の大問ごとの時間配分でも同じように当たるようになるかは、まだ確かめられていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "procrastination-planning-fallacy",
+        "type": "あわせて読む",
+        "why": "見積もりが甘くなる計画の誤りと、同じ作業を一度やると読みが当たる実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-time-allocation-sheet-same-task-estimate"
+  },
+  {
+    "id": "aging-sitting-time-activity-mortality",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Ekelund et al., \"Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women\" (The Lancet, 2016)",
+    "sourceUrl": "https://doi.org/10.1016/S0140-6736(16)30370-1",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "座りすぎの害、運動で帳消しになる？",
+        "body": "仕事で1日8時間以上座りっぱなし。でも運動もしていれば、座りすぎの害は消えるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "100万人以上の追跡データ",
+        "body": "16の追跡研究のデータを同じ基準でそろえたメタ分析。座る時間がわかる13研究の100万5,791人を2〜18年追って、運動量と座る時間の組み合わせで亡くなった割合をくらべたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "よく動く人では差が見えなかった",
+        "body": "いちばん活動的なグループ（中くらいの強さの運動を1日60〜75分ほど）では、8時間以上座っていても死亡のリスクは上がっていなかった。テレビを1日3時間以上見る人は、このグループ以外でリスクが高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "必要な運動はかなり多め",
+        "body": "これは観察研究のまとめで、運動が害を消したという因果までは言えない。座る時間や運動量は本人の答えにもとづくもの。帳消しに見えたのは、1日60〜75分ほど動く人だけだったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-weekend-warrior-mortality",
+        "type": "あわせて読む",
+        "why": "こちらは座る時間と運動量、あちらは運動を週末にまとめても寿命と関係するか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-sitting-time-activity-mortality"
+  },
+  {
+    "id": "mindfulness-apps-depression-anxiety-meta",
+    "category": "マインドフルネス",
+    "kind": "素朴な疑問",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Linardon et al., \"The efficacy of mindfulness apps on symptoms of depression and anxiety: An updated meta-analysis of randomized controlled trials\" (Clinical Psychology Review, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.cpr.2023.102370",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "瞑想アプリって、本当に効く？",
+        "body": "スマホで音声を聞きながらする瞑想アプリは手軽だよね。でも気分の落ち込みや不安に、本当に意味があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "45件のくじ引き試験をまとめた",
+        "body": "マインドフルネスのアプリを使う人と使わない人を、くじ引きで分けた試験45件をまとめた2024年のメタ分析。落ち込みは約5,800人、不安は約6,100人分のデータだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果はあるけど、小さめ",
+        "body": "アプリを使った人は、使わなかった人より落ち込みと不安の症状が少し軽かった。効果の大きさは小さい部類で、質の高い試験や大きな試験に絞っても同じ傾向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続くかは、まだこれから",
+        "body": "ほかの心理的な方法とくらべた試験は少なく、差は見られなかった。謝礼を出した試験ほど落ち込みへの効果が大きく、長く追った質の高い試験も足りないと著者らは書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-nonclinical-meta",
+        "type": "あわせて読む",
+        "why": "こちらはアプリだけ、あちらは教室などを含む瞑想プログラム全体の効果のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-apps-depression-anxiety-meta"
+  },
+  {
     "id": "dokugaku-evening-study-after-work-fatigue-test-time",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -3334,6 +3528,11 @@
         "id": "aging-muscle-strengthening-mortality-meta",
         "type": "あわせて読む",
         "why": "運動の回数の分け方と、筋トレの量それぞれと寿命の関係"
+      },
+      {
+        "id": "aging-sitting-time-activity-mortality",
+        "type": "あわせて読む",
+        "why": "こちらは運動の分け方、あちらは座る時間と運動量の組み合わせと寿命"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-weekend-warrior-mortality"
@@ -6023,6 +6222,11 @@
         "id": "weather-heatwave-thinking",
         "type": "あわせて読む",
         "why": "同じ研究チームが、熱波の暑さと頭の働きを調べた研究"
+      },
+      {
+        "id": "dokugaku-stale-air-study-room-ventilation-pure-co2",
+        "type": "反対の結果",
+        "why": "二酸化炭素だけを足した条件で、こちらは差がなく、あちらは点が下がった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/focus/#kokoro-stuffy-room-ventilation-focus-co2-office"
@@ -13122,6 +13326,11 @@
         "id": "research-task-time-estimate-planning-fallacy-research-surgeons",
         "type": "あわせて読む",
         "why": "慣れた外科医でも、手術の前後を含む全体の時間は短く見積もっていた"
+      },
+      {
+        "id": "dokugaku-exam-time-allocation-sheet-same-task-estimate",
+        "type": "あわせて読む",
+        "why": "見積もりが甘くなる計画の誤りと、同じ作業を一度やると読みが当たる実験"
       }
     ]
   },
@@ -25513,6 +25722,11 @@
         "id": "mindfulness-meditation-meta-analysis",
         "type": "あわせて読む",
         "why": "不安やうつへの瞑想の効果を、別の観点からまとめた先行のメタ分析"
+      },
+      {
+        "id": "mindfulness-apps-depression-anxiety-meta",
+        "type": "あわせて読む",
+        "why": "瞑想プログラム全体のまとめと、アプリだけに絞った新しいメタ分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-nonclinical-meta"
