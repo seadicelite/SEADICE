@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-why-sleepy-after-lunch-studying-meal",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Stahl et al., \"Postprandial sleepiness: objective documentation via polysomnography\" (Sleep, 1983)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/6.1.29",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-sleepy-after-lunch-studying/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "昼過ぎに眠いのは昼ごはんのせい？",
+        "body": "お昼を食べた後に眠くなるのは、食べたせいだってよく言われるよね。じゃあ、食べなければ眠くならないんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "食べた日と食べない日",
+        "body": "健康な15人で、食事をした日としない日を比べて、脳波で寝つくまでの時間を測った実験があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "全体では差がなかった",
+        "body": "全体では、食事の有無で寝つくまでの時間に差がなかったらしい。食後に寝つきが早くなったのは15人中5人だけ。著者たちは、食後の眠気は食べれば必ず起きるものではない、とまとめているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "15人だけの古い研究",
+        "body": "健康な15人だけの、1983年の実験室の研究。著者たちは空腹の度合いや食事の量・中身が関わりそうだと考えているけど、この実験ではそこまで確かめていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#dokugaku-why-sleepy-after-lunch-studying-meal"
+  },
+  {
+    "id": "kokoro-ai-confide-people-again-beautiful-mess",
+    "category": "対人関係の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Bruk A et al., \"You and I Both: Self-Compassion Reduces Self–Other Differences in Evaluation of Showing Vulnerability\" (Personality and Social Psychology Bulletin, 2022)",
+    "sourceUrl": "https://doi.org/10.1177/01461672211031080",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-confide-people-again/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "弱みを見せるのって、そんなに危ない？",
+        "body": "失敗を認める、気持ちを伝える。言ったら引かれそうで、つい黙っちゃうよね。でも、その怖さは本当に正確なんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "自分と他人、同じ場面で比べた",
+        "body": "ドイツの大学生340人の4つの実験。好きな人への告白、見た目の気になるところを見せる、ミスを認める場面を、自分のことと他人のこととして想像して評価してもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自分にだけ厳しかった",
+        "body": "4つの実験すべてで、他人が弱みを見せるほうを好意的に評価していた。ミスを認める場面では、7点満点で他人4.92点、自分4.65点。自分への思いやりが強い人ほど、この差は小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本番の反応は測っていない",
+        "body": "想像した場面での評価で、実際に話したときの相手の反応は測っていない。対象はドイツの大学生で、自分への思いやりも性格として測っただけ。練習で差が縮まるかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-ai-confide-people-again-beautiful-mess"
+  },
+  {
+    "id": "kokoro-ai-comfort-feels-empty-empathy-paradox",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Wenger JD, Cameron CD, Inzlicht M, \"People choose to receive human empathy despite rating AI empathy higher\" (Communications Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s44271-025-00387-3",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-comfort-feels-empty/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "慰めてくれるなら、人とAIどっちがいい？",
+        "body": "つらいとき、やさしい言葉をくれる相手を選べるとしたら、人とAI、どっちを選ぶ？AIの言葉、けっこう上手だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つの実験で何度も選んでもらった",
+        "body": "米国とカナダの研究チームが、4つの実験で合計691人に、つらい場面の話を読んでもらい、「人」か「AI」の返事を何度も選んでもらったんだ。最後の実験では、自分に本当にあった出来事で選んでもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "選ぶのは人、評価が高いのはAI",
+        "body": "人の返事が選ばれたのは、実験ごとに平均57〜62%の回。なのに、選んで受け取った返事は、AIのほうが「共感的」「わかってもらえた」と高く評価されていた。研究者はこれを「AIの共感の選択のパラドックス」と呼んでいるよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "家族や友達だとどうなる？",
+        "body": "人の返事を書いたのは知らないオンラインの参加者などで、家族や友達の言葉とは比べていないんだ。参加者は米国の大学生と英語ができるオンラインの参加者で、日本で同じかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-comfort-feels-empty-empathy-paradox"
+  },
+  {
+    "id": "alcohol-food-intake-meta",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Kwok et al., \"Effect of alcohol consumption on food energy intake: a systematic review and meta-analysis\" (British Journal of Nutrition, 2019)",
+    "sourceUrl": "https://doi.org/10.1017/s0007114518003677",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お酒を飲むと、つい食べすぎる？",
+        "body": "飲み会だと、おつまみがどんどん進むよね。それとも、お酒のカロリーの分だけ、体が自然とごはんを控えて帳尻を合わせてくれるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22の実験・701人をまとめた",
+        "body": "お酒を飲む条件と、アルコールなしの飲み物の条件を比べた実験22件・701人を集めたまとめ研究だよ。そのうち12件で数字を合わせたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "食事は減らず、むしろ増えた",
+        "body": "お酒の分だけ食事が減ることは、研究をまたいで見られなかった。むしろ食事からのエネルギーは平均343kJ（約82kcal）増え、お酒も足した合計では1072kJ（約256kcal）多くなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い人の、その場の食事の話",
+        "body": "対象はおもに18〜37歳の大人で、実験の場での食事を測ったもの。研究ごとのばらつきが大きい項目や、小さな研究ほど効果が出やすい偏りもあった。飲む習慣で体重が増えるかまでは、ここからはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-beer-belly",
+        "type": "あわせて読む",
+        "why": "その場の食事が増える実験と、ビールとお腹まわりの研究のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-food-intake-meta"
+  },
+  {
+    "id": "laugh-smile-chopsticks-stress-recovery",
+    "category": "笑いと健康",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Kraft & Pressman, \"Grin and bear it: the influence of manipulated facial expression on the stress response\" (Psychological Science, 2012)",
+    "sourceUrl": "https://doi.org/10.1177/0956797612445312",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "つらいときこそ笑顔、は本当？",
+        "body": "しんどいときこそ笑っていよう、ってよく言うよね。形だけの笑顔でも、体のストレス反応って変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "箸をくわえて笑顔をつくった",
+        "body": "目的を知らない170人に、箸を口にくわえて笑顔か普通の顔をつくってもらい、そのままストレスのかかる課題を2つ。笑顔のグループの半分にだけ、はっきり「笑って」と頼んだよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "課題のあとの心拍が低かった",
+        "body": "笑顔のグループは、笑っている自覚があってもなくても、課題のあとの心拍が普通の顔のグループより低かった。目じりまで動く笑顔のほうが、少しだけ有利だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの実験室の短い実験",
+        "body": "箸でつくった短い笑顔の、1つの実験。気分の落ち込みが小さかったのは「笑って」と頼まれなかった人たちだけ。毎日の暮らしのストレスや健康まで変わるかは調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-facial-feedback",
+        "type": "あわせて読む",
+        "why": "笑顔の形で気分が変わるかを、19か国の大人数で確かめ直した追試"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laugh-smile-chopsticks-stress-recovery"
+  },
+  {
     "id": "dokugaku-why-urge-to-check-phone-while-studying-notification-cost",
     "category": "学習法",
     "kind": "よくある説",
@@ -7420,7 +7600,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/replication-facial-feedback/",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "laugh-smile-chopsticks-stress-recovery",
+        "type": "あわせて読む",
+        "why": "箸で笑顔をつくり、ストレスのあとの心拍を比べた実験"
+      }
+    ]
   },
   {
     "id": "replication-stanford-prison",
@@ -26440,7 +26627,14 @@
         "body": "実験は質の低いものが多く、お酒をまったく飲まない場合と比べた実験では体重の増加は見られなかった。女性では結果がそろっていない。観察研究は、一緒に食べるものや生活の違いを分けきれない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/alcohol/alcohol-beer-belly/"
+    "webUrl": "https://seadice.win/evidence/alcohol/alcohol-beer-belly/",
+    "links": [
+      {
+        "id": "alcohol-food-intake-meta",
+        "type": "あわせて読む",
+        "why": "お酒を飲むと、その場の食事が減らずに増えた実験のまとめ"
+      }
+    ]
   },
   {
     "id": "weather-full-moon-births",
