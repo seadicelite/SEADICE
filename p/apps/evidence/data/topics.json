@@ -1,5 +1,192 @@
 [
   {
+    "id": "kokoro-sns-scrolling-comparison-prevent-content-appraisal",
+    "category": "スマホとSNS",
+    "kind": "よくある説",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Evans O, Hardacre S, Rubin M, Tran M, \"Content appraisal and age moderate the relationship between passive social media use and mental ill-being\" (Frontiers in Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2023.1181233",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/sns-scrolling-comparison-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "見るだけのSNSは心に悪い？",
+        "body": "SNSは投稿せずに眺めるだけだと、心に悪いって言われるよね。でも、何を見ているかは関係ないのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "962人にアンケート",
+        "body": "オーストラリアと米国のFacebook利用者962人（17〜97歳）に、投稿せずに眺める使い方の頻度と、うつ・不安・ストレスの強さを尋ねた調査があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "大事なのは受け止め方",
+        "body": "見るだけの使い方の多さそのものは、心の不調と関係がなかった。見ている投稿を「励まされる」「ためになる」と感じる人ほど、よく眺めていても不調が多くならず、とても強くそう感じる人では関係が逆向きになったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかは不明",
+        "body": "1回きりのアンケートなので、どちらが原因かはわからない。この分析の仮説も、データを集めたあとに立てたものなんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-comparing-study-progress-on-sns-hurts-person-specific",
+        "type": "あわせて読む",
+        "why": "見るだけのSNSで落ち込むかは人によって違う、という別の調べ方の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-scrolling-comparison-prevent-content-appraisal"
+  },
+  {
+    "id": "kokoro-job-loss-health-recover-voluntary",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Paul KI, Hollederer A, \"The Effectiveness of Health-Oriented Interventions and Health Promotion for Unemployed People—A Meta-Analysis\" (International Journal of Environmental Research and Public Health, 2023)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph20116028",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/job-loss-health-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "失業したあとの健康づくり、意味ある？",
+        "body": "仕事を失うと、心も体も重くなりがち。じゃあ失業した人向けの健康づくりの講座って、本当に効くんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "34件の研究をまとめた",
+        "body": "ドイツの研究者が、失業した人向けの健康づくりの取り組みを比べるグループと比べた34件の研究をまとめたんだ。典型的には3週間・計20時間ほどの取り組みだった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いたのは「自分から参加」したとき",
+        "body": "心の健康は少しよくなっていた（効果量0.22）。でも効果が見られたのは自分の意思で参加したときで、参加が義務に近かったときは効果が見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの方法が一番かは不明",
+        "body": "考え方の練習、リラックス法、運動のどれが特にいいかは差が見つからなかった。研究ごとのばらつきも大きい。まとめたのは1989〜2020年の研究で、AIで仕事を失った人を調べたものは含まれていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-job-loss-health-recover-voluntary"
+  },
+  {
+    "id": "kokoro-appearance-comparison-exercise-body-image-nma",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Luo J, Lyu C, Niu J, Lin Z, Shi Y, Ma Z, \"Effects of different exercise types on body image in females: a systematic review and network meta-analysis\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1942447",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/appearance-comparison-exercise-body-image/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動すると体を好きになれる？",
+        "body": "見た目を人と比べて、自分の体に自信がなくなることってあるよね。体を動かすと、自分の体の見方は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "女性1,914人・23件の試験",
+        "body": "4週間以上の運動の効果を、ふだんどおり過ごした人などと比べたランダム化比較試験23件をまとめた研究があるんだ。思春期前の女の子から高齢の女性まで、13か国が対象。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "有酸素運動やダンスで改善",
+        "body": "有酸素運動（効果量0.61）、ダンス（0.57）、組み合わせた運動（0.39）で、体の受け止め方がよくなっていた。種類どうしの差ははっきりせず、続けやすさや好みで選べばよいらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果は大きく見えているかも",
+        "body": "公表されていない研究を補う補正をすると、全体の効果は0.33から0.06に縮んだ。偏りの心配がない試験もなく、見た目を比べて落ち込む人だけを調べた試験でもないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-sns-appearance-mindfulness-before-10min",
+        "type": "あわせて読む",
+        "why": "見た目を比べて落ち込むとき、見る前の10分の瞑想を試した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#kokoro-appearance-comparison-exercise-body-image-nma"
+  },
+  {
+    "id": "personality-acting-extraverted-introverts",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Jacques-Hamilton R, Sun J, Smillie LD, \"Costs and benefits of acting extraverted: A randomized controlled trial\" (Journal of Experimental Psychology: General, 2019)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000516",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "内向的な人も、明るくふるまえば元気になる？",
+        "body": "「明るくふるまえば気分も上がる」ってよく聞くよね。でも、もともと内向的な人が無理に外向的にふるまったら、かえって疲れないのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "147人が1週間ためした",
+        "body": "147人をくじで2つに分けて、片方は1週間、ふだんの生活で大胆で積極的にふるまってもらい、もう片方には効果がないはずの別の課題をしてもらったんだ。気分・疲れ・自分らしさを記録したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "全体では上向き、内向的な人は別",
+        "body": "全体では、外向的にふるまったほうが前向きな気分と「自分らしい」感覚が高まった。ただ内向的な人ほど気分の上がり方が小さく、いやな気分や疲れが増えて、自分らしさも下がったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1週間だけの話",
+        "body": "期間は1週間、参加者は147人。気分も疲れも本人が答えたものだよ。何か月も続けたらどうなるか、仕事や人づきあいにどう響くかは、この研究ではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-acting-extraverted-introverts"
+  },
+  {
+    "id": "face-self-enhancement-own-face",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Epley N, Whitchurch E, \"Mirror, mirror on the wall: enhancement in self-recognition\" (Personality and Social Psychology Bulletin, 2008)",
+    "sourceUrl": "https://doi.org/10.1177/0146167208318601",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分の顔、ちゃんとわかってる？",
+        "body": "写真の自分を見て「こんな顔だっけ？」と思うことあるよね。そもそも人は、自分の顔をありのままに覚えているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "加工した顔から本物を選ぶ",
+        "body": "参加者の顔写真を、魅力的に加工したものと魅力を下げたものに作りかえて並べ、「本当の自分の顔はどれ？」と選んでもらう実験を何回かしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少し美しくした顔を「自分」と選びがち",
+        "body": "人は、実物より魅力的に加工した顔を自分の顔として選びやすく、見つけるのも速かった。同じことは友だちの顔でも起きたけど、よく知らない人の顔では起きなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "加工写真を使った実験の話",
+        "body": "使ったのは作りかえた顔写真で、鏡やふだんの写真での見え方を直接調べたわけじゃない。2008年の1本の論文の実験で、この傾向は本人が答える自己評価とは関係がなかったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "face-same-person-different-photos",
+        "type": "あわせて読む",
+        "why": "自分の顔の見え方と、写真1枚で他人からの印象が変わる話"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-self-enhancement-own-face"
+  },
+  {
     "id": "dokugaku-draw-to-remember-study-definitions",
     "category": "学習法",
     "kind": "研究紹介",
@@ -1538,6 +1725,11 @@
         "id": "kokoro-sns-upward-comparison-why-ability-posts",
         "type": "あわせて読む",
         "why": "誰でも落ち込むわけではない話と、どんな投稿で落ち込みやすいかの実験"
+      },
+      {
+        "id": "kokoro-sns-scrolling-comparison-prevent-content-appraisal",
+        "type": "あわせて読む",
+        "why": "見るだけのSNSの影響は、投稿の受け止め方で変わるという調査"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-comparing-study-progress-on-sns-hurts-person-specific"
@@ -7899,7 +8091,14 @@
         "body": "体への不満の差は統計的に確かとは言えなかった。研究用のページで1回見ただけの結果で、毎日のSNSで続くかはわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/mindfulness/#kokoro-sns-appearance-mindfulness-before-10min"
+    "webUrl": "https://seadice.win/evidence/mindfulness/#kokoro-sns-appearance-mindfulness-before-10min",
+    "links": [
+      {
+        "id": "kokoro-appearance-comparison-exercise-body-image-nma",
+        "type": "あわせて読む",
+        "why": "体の受け止め方を、運動で長く変えられるかをまとめた研究"
+      }
+    ]
   },
   {
     "id": "alcohol-water-hangover",
@@ -25586,6 +25785,11 @@
         "id": "face-makeup-vs-identity",
         "type": "あわせて読む",
         "why": "メイクの前後でも印象は動くが、顔の個人差のほうが大きかった"
+      },
+      {
+        "id": "face-self-enhancement-own-face",
+        "type": "あわせて読む",
+        "why": "写真の印象の話と、自分の顔を実物よりよく覚えている実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/face-impression/#face-same-person-different-photos"

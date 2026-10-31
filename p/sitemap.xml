@@ -2007,9 +2007,12 @@
   <url><loc>https://seadice.win/evidence/mental-health/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/procrastination/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/money/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/exercise-mood/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/breathing-stress/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/face-impression/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-brain/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-memory/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/brain-myths/</loc><lastmod>2026-10-31</lastmod></url>
@@ -2021,7 +2024,6 @@
   <url><loc>https://seadice.win/evidence/food-myths/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-environment/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/games/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/exercise-mood/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-appetite/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/japan/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/aging-parents/</loc><lastmod>2026-10-31</lastmod></url>
@@ -2034,8 +2036,6 @@
   <url><loc>https://seadice.win/evidence/music-focus/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/scent-memory/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/parenting/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/face-impression/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/insight/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/color-psychology/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/speaking/</loc><lastmod>2026-10-31</lastmod></url>
@@ -2077,21 +2077,21 @@
   <url><loc>https://seadice.win/evidence/crime-prevention/bohan-broken-windows/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/body-myths/myth-protein-golden-time/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep/sleep-golden-time-growth-hormone/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/personality-zodiac-sign/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/personality-barnum-effect/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/personality-mbti-types/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/personality-change-adulthood/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/personality-heritability/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/face-impression/face-trustworthiness-detection/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/face-impression/face-averageness-beauty/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/personality-zodiac-sign/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/personality-barnum-effect/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/personality-mbti-types/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/personality-change-adulthood/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/personality-heritability/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/face-impression/face-trustworthiness-detection/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/face-impression/face-averageness-beauty/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-late-eating-hunger/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-lowcarb-vs-lowfat/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-msg-headache/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/personality-change-intervention/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/personality-big-five-life-outcomes/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/personality/personality-conscientiousness-longevity/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/face-impression/face-beauty-advantage/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/face-impression/face-ai-personality/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/personality-change-intervention/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/personality-big-five-life-outcomes/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/personality/personality-conscientiousness-longevity/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/face-impression/face-beauty-advantage/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/face-impression/face-ai-personality/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/japan/japan-illness-from-mind/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/japan/japan-early-bird/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/japan/japan-eat-then-sleep/</loc><lastmod>2026-10-31</lastmod></url>
