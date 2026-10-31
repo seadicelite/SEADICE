@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-ai-dependence-recovery-course-natural-course",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Konkolÿ Thege B, Woodin EM, Hodgins DC, Williams RJ, \"Natural course of behavioral addictions: a 5-year longitudinal study\" (BMC Psychiatry, 2015)",
+    "sourceUrl": "https://doi.org/10.1186/s12888-015-0383-3",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-dependence-recovery-course/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "のめり込みは一度なったらずっと？",
+        "body": "ネットやゲームに一度のめり込むと、ずっと抜け出せないってよく聞くよね。実際に何年も追いかけた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カナダの大人4,121人を5年追跡",
+        "body": "2006年から毎年、「のめり込みすぎて、この1年に大きな問題が起きた活動はある？」と聞いて、ネットのチャットやゲーム、買い物などの6つを追ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "7割以上は1年だけだった",
+        "body": "ネットのチャットで困ったと答えた144人のうち、73.6%は5年で1回だけの報告。1年目に答えた62人の困りごとの点数も、平均3.48から5年目は0.73に下がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIでも同じかは不明",
+        "body": "調査はAIが広まる前で、のめり込みは本人の自己申告。点数の分析は少人数で、10代や治療中の人に当てはまるか、別の行動に移っていないかもわかっていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#kokoro-ai-dependence-recovery-course-natural-course"
+  },
+  {
+    "id": "kokoro-ai-faster-but-not-easier-expectations",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Huang R, \"Transforming work or eroding social capital? How reliance on artificial intelligence drives workplace involution\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1842907",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-faster-but-not-easier/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIで速くなったのに忙しいのはなぜ？",
+        "body": "AIで資料もメールも速く作れるようになったのに、なぜか仕事はラクにならない。そんな感覚、ないかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中国の会社員550人に聞いた",
+        "body": "2025年後半、中国の会社員550人に、仕事でAIに頼る度合い、上司の期待の感じ方、仕事の不安、職場の競争の感覚をアンケートで聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "期待と不安を通じてつながっていた",
+        "body": "AIに頼る人ほど「上司に高い成果を期待されている」と感じ、不安も強かった。それが「周りが必要以上に頑張り続けている」という競争の感覚とつながっていたらしい。AIに頼ること自体との直接のつながりははっきりしなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIが原因とは言えない",
+        "body": "1回きりのアンケートだから、AIに頼るから不安になるのか、不安な人がAIに頼るのかはわからないよ。期待も本人の感じ方で、上司が実際に求めた量ではないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-faster-but-not-easier-expectations"
+  },
+  {
+    "id": "kokoro-ai-job-worry-adaptability-career-resilience",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Chung YW, Im S, Kim JE, Yun JK, \"Artificial intelligence awareness, career resilience, job insecurity and behavioural outcomes\" (Australian Journal of Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1080/00049530.2025.2559910",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-job-worry-adaptability/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIのニュースで不安になる人、ならない人",
+        "body": "「AIに仕事を取られるかも」と聞いて、すごく不安になる人もいれば、わりと平気な人もいるよね。その違いって何なんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "韓国の会社員209人に3回アンケート",
+        "body": "2024年、韓国の会社員に5週間おきに3回聞いた研究。「AIに置きかえられるかも」という考えと、「変化に合わせられる」という感覚、仕事の不安を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「合わせられる」感覚が強いと、不安が強まりにくい",
+        "body": "AIに置きかえられるかもと考える人ほど、5週間後の仕事の不安が強かった。でも「変化に合わせられる」と思える人では、その結びつきが弱めだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "その感覚を育てれば効く？",
+        "body": "アンケートで関係を見ただけで、感覚を育てて不安が減るかを試した実験じゃないよ。韓国の会社員で、不安が全体に低めの集団だった点も注意。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-job-worry-adaptability-career-resilience"
+  },
+  {
+    "id": "exercise-stop-one-week-mood",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Edwards & Loprinzi, \"Effects of a Sedentary Behavior-Inducing Randomized Controlled Intervention on Depression and Mood Profile in Active Young Adults\" (Mayo Clinic Proceedings, 2016)",
+    "sourceUrl": "https://doi.org/10.1016/j.mayocp.2016.03.021",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動をやめると、気分も落ちる？",
+        "body": "忙しくて運動をサボった週、なんだか気分がどんより。これって気のせいなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "運動している人に1週間やめてもらった",
+        "body": "ふだん運動している若い大人39人を、くじで2組に分けた実験。26人は1週間運動をやめて1日5000歩以下に、13人はいつもどおり動いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やめた組は、落ち込みの点数が上がった",
+        "body": "運動をやめた組は、1週間で落ち込みと気分の点数が悪くなった。運動を再開した1週間後には、どちらも元の方向へ戻っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな実験で、期間も1週間",
+        "body": "39人だけの実験で、比べたのは1週間だけ。気分は本人の答えで測っていて、もともと運動していない人に当てはまるかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-mood-metaanalysis",
+        "type": "あわせて読む",
+        "why": "1回の運動で気分が上がるかのまとめ。こちらは運動をやめたときの変化"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-stop-one-week-mood"
+  },
+  {
+    "id": "appetite-chamomile-sleep-meta",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Hieu et al., \"Therapeutic efficacy and safety of chamomile for state anxiety, generalized anxiety disorder, insomnia, and sleep quality: A systematic review and meta-analysis of randomized trials and quasi-randomized trials\" (Phytotherapy Research, 2019)",
+    "sourceUrl": "https://doi.org/10.1002/ptr.6349",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "カモミールで、よく眠れる？",
+        "body": "寝る前のカモミールティーはよく眠れる、ってよく聞くよね。研究ではどうなっているんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12の試験をまとめた",
+        "body": "カモミールを使った群と使わない群をくじなどで分けた試験を11のデータベースから探して、12本をまとめた2019年のメタ分析だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "睡眠の質は良くなったが、不眠は1本だけ",
+        "body": "まとめると、睡眠の質の点数は良くなっていた。ただ、不眠の重さを調べた試験は1本だけで、差は出なかった。一時的な不安の強さも、3本をまとめて差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "もっと大きな試験が必要",
+        "body": "まとめた試験はどれも数が少なく、著者も大きな試験が必要と書いている。不安や不眠への効果は、根拠がまだ少ないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-chamomile-sleep-meta"
+  },
+  {
     "id": "kokoro-listen-when-someone-confides-feel-heard",
     "category": "AIとのつきあい方",
     "kind": "素朴な疑問",
@@ -10246,6 +10419,11 @@
         "id": "exercise-dance-mood-meta",
         "type": "あわせて読む",
         "why": "続けてダンスをしたときの心への効果をまとめた研究"
+      },
+      {
+        "id": "exercise-stop-one-week-mood",
+        "type": "あわせて読む",
+        "why": "運動をやめると気分がどう変わるかを試した実験"
       }
     ]
   },
