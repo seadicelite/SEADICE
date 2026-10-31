@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-draw-to-remember-study-definitions",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Wammes, Meade & Fernandes, \"Learning terms and definitions: Drawing and the role of elaborative encoding\" (Acta Psychologica, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.actpsy.2017.07.008",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/draw-to-remember-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "用語は書き写すより絵に描く方が覚える？",
+        "body": "ノートに何度書き写しても、用語の意味が出てこない。絵にしたら違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "教科書の用語と定義で3つの実験",
+        "body": "大学の教科書から取った用語と定義を、そのまま書き写すか、意味を絵に描くかで覚えてもらい、後でどれだけ思い出せるかを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "描いた方が残った。でも言い換えも同じくらい",
+        "body": "描いた方が書き写すよりよく思い出せた。架空の用語でも同じだったよ。ただ、自分の言葉で言い換えた場合も、描いたのと同じくらい残ったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "描くことだけが特別とは言えない",
+        "body": "実験室での課題で、比べた相手は「そのまま書き写す」という弱い覚え方。言い換えでも同じくらい残ったので、効いたのは意味を考え直す作業かもしれない。長い独学で効くかは、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "memory-drawing-effect",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが、単語のリストで描く効果を7つの実験で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-draw-to-remember-study-definitions"
+  },
+  {
+    "id": "kokoro-learning-new-skill-focus-recover-gaelic",
+    "category": "集中力",
+    "kind": "研究紹介",
+    "themeColor": "#34D399",
+    "sourceLabel": "Bak TH, Long MR, Vega-Mendoza M, Sorace A, \"Novelty, Challenge, and Practice: The Impact of Intensive Language Learning on Attentional Functions\" (PLoS ONE, 2016)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0153485",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/learning-new-skill-focus-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "新しいことを学ぶと頭は冴える？",
+        "body": "大人になってから語学を始めると、頭の切り替えがよくなるって本当？スコットランドでこれを確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1週間のゲール語の集中講座",
+        "body": "18〜78歳の33人が1週間のゲール語の講座（授業は平均14時間ほど）を受けて、講座の前後で注意を切り替える課題の成績を測ったよ。ほかの講座の人とふだんどおりの人、計34人とも比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "切り替えの課題の点が59.7から78.5に",
+        "body": "講座を受けた人は成績が上がり、ふだんどおり過ごした人は変わらなかった。9か月後も、週5時間以上ゲール語を続けた8人は全員、講座前より成績がよかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "語学だけの効果とは限らない",
+        "body": "美術など語学以外の集中講座を受けた人も、中間くらい成績が上がっていた。参加者はくじ引きで分けられておらず、9か月後に測れたのも17人だけなんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-learning-new-skill-focus-recover-gaelic"
+  },
+  {
+    "id": "kokoro-sleep-debt-extend-bedtime-earlier-bed",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Stegman AP, Kubicki M, Mallender Z, et al., \"From yawn to dawn: the effects of a sleep extension intervention on objective and subjective dimensions of sleep health in adults with habitual short sleep duration\" (Sleep Advances, 2026)",
+    "sourceUrl": "https://doi.org/10.1093/sleepadvances/zpag003",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/sleep-debt-extend-bedtime/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝不足って、寝る時間を増やせばラクになる？",
+        "body": "毎晩寝るのが遅くて、昼間ずっと眠い。睡眠を増やしたら、本当にラクになるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "寝床の時間を2時間延ばす4週間",
+        "body": "米国の研究チームが、ふだん6.5時間未満しか寝ていない18〜35歳の健康な30人に、寝床の時間を2時間増やすことを目標に、30分ずつ少しずつ延ばしてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "47分増えて眠気が減った",
+        "body": "睡眠は平均5.5時間から6.3時間へ、約47分増えた。寝つく時刻は平均52分早まっていて、日中の眠気の点数は8.3から3.4に下がったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べる群がない実験",
+        "body": "延ばさなかった人たちと比べていないので、記録をつけたことや研究に参加したこと自体の影響かもしれない。健康な若者30人だけの、4週間の結果なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-weekend-catchup-debt",
+        "type": "あわせて読む",
+        "why": "週末にまとめて寝る方法では、寝不足の影響が消えなかった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#kokoro-sleep-debt-extend-bedtime-earlier-bed"
+  },
+  {
+    "id": "food-hunger-anger-hangry",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Swami V, Hochstöger S, Kargl E, Stieger S, \"Hangry in the field: An experience sampling study on the impact of hunger on anger, irritability, and affect\" (PLoS ONE, 2022)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0269629",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お腹がすくとイライラする？",
+        "body": "お腹がすくと怒りっぽくなる。英語では「hangry（ハングリー＋アングリー）」って言葉まであるよね。ふだんの生活でも本当にそうなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "64人が21日間、1日5回記録",
+        "body": "オーストリアなど中欧の18〜60歳の64人が、21日間、1日5回スマホで空腹・怒り・イライラ・楽しさを答えたよ。答えは全部で9,142回分あったんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "お腹がすいている時ほど、イライラしていた",
+        "body": "空腹が強い時ほど、怒りやイライラが強く、楽しさは低かった。性別・年齢・体格・食べ方・もともとの怒りっぽさを考えに入れても、この関係は残ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "空腹が原因とまでは言えない",
+        "body": "ふだんの記録から見た関係で、空腹がイライラを起こしたとは確かめていない。参加者の8割が女性で、どんな場面にいたかも聞いていない。怒りやイライラは1問ずつで測ったんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-hunger-anger-hangry"
+  },
+  {
+    "id": "exercise-dance-vs-other-exercise-cognition",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Fong Yan A, Nicholson LL, Ward RE, et al., \"The Effectiveness of Dance Interventions on Psychological and Cognitive Health Outcomes Compared with Other Forms of Physical Activity: A Systematic Review with Meta-analysis\" (Sports Medicine, 2024)",
+    "sourceUrl": "https://doi.org/10.1007/s40279-023-01990-2",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ダンスはほかの運動より頭にいい？",
+        "body": "振り付けを覚えたり音楽に合わせたり、ダンスは頭も使うよね。じゃあウォーキングや筋トレより、記憶や気持ちにいいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ダンスと別の運動を比べた27件",
+        "body": "4週間以上のダンスを、決まった運動のプログラムと比べた27件の研究（計1,392人）を集めたよ。子どもから高齢の人まで、病気のある人も含まれていたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "だいたい同じくらい、ときどきダンスが上",
+        "body": "不安や落ち込みを減らす効果は、ほかの運動と差がなかった。記憶の一部ややる気ではダンスが上という結果、ストレスや言葉の流ちょうさではほかの運動が上という結果もあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「上」の結果はまだ下調べの段階",
+        "body": "数字でまとめられたのは3つの項目だけで、研究どうしのばらつきも大きかった。ダンスが上・下という結果は数件の研究からの予備的なものなんだ。決まった振り付けのダンスの話で、自由に踊る場合はわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-dance-mood-meta",
+        "type": "あわせて読む",
+        "why": "何もしない人と比べると、ダンスで気持ちが明るくなるかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-dance-vs-other-exercise-cognition"
+  },
+  {
     "id": "kokoro-ai-praise-feels-hollow-ai-feedback",
     "category": "AIとのつきあい方",
     "kind": "素朴な疑問",
@@ -1757,6 +1944,11 @@
         "id": "exercise-mood-metaanalysis",
         "type": "あわせて読む",
         "why": "ダンスに限らず、1回の運動の直後の気分の変化をまとめた研究"
+      },
+      {
+        "id": "exercise-dance-vs-other-exercise-cognition",
+        "type": "あわせて読む",
+        "why": "ダンスをウォーキングなど別の運動と比べた研究のまとめ"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-dance-mood-meta"
@@ -11479,6 +11671,11 @@
         "id": "kokoro-bedtime-procrastination-sleep",
         "type": "あわせて読む",
         "why": "夜更かしの不足分は、寝だめや朝寝坊では取り返せない"
+      },
+      {
+        "id": "kokoro-sleep-debt-extend-bedtime-earlier-bed",
+        "type": "あわせて読む",
+        "why": "毎晩の寝床の時間を少しずつ延ばして、眠気が減るかを見た実験"
       }
     ]
   },
@@ -16180,6 +16377,11 @@
         "id": "memory-generation-effect-metaanalysis",
         "type": "あわせて読む",
         "why": "自分で作る・描くなど、手を動かすほど記憶に残る"
+      },
+      {
+        "id": "dokugaku-draw-to-remember-study-definitions",
+        "type": "あわせて読む",
+        "why": "教科書の用語と定義でも描く効果が出て、言い換えも同じくらい効いた"
       }
     ]
   },
