@@ -1,5 +1,192 @@
 [
   {
+    "id": "caffeine-coffee-stomach-ulcer-japan",
+    "category": "カフェイン",
+    "kind": "よくある説",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Shimamoto T et al., \"No association of coffee consumption with gastric ulcer, duodenal ulcer, reflux esophagitis, and non-erosive reflux disease: a cross-sectional study of 8,013 healthy subjects in Japan\" (PLoS One, 2013)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0065996",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーは胃に悪い？",
+        "body": "コーヒーは胃酸を増やすから、胃潰瘍や胸やけのもと…ってよく聞くよね。でも、たくさんの人を調べると本当にそうなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "人間ドックの8,013人",
+        "body": "千葉の病院で人間ドックを受けた日本の大人8,013人を調べたんだ。胃カメラで胃潰瘍・十二指腸潰瘍・逆流性食道炎を、質問票で胸やけの症状を確かめて、コーヒーを飲む量と比べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "飲む量と、4つの病気に関連なし",
+        "body": "ピロリ菌・たばこ・年齢などを考えに入れると、コーヒーの量と4つの病気のどれにも、はっきりした関連は見つからなかった。過去の研究をまとめた分析でも、胃や十二指腸の潰瘍との関連は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飲んだ後の胃もたれは別の話",
+        "body": "ある時点で一度に調べた研究だから、因果まではわからない。豆の種類、ミルクや砂糖、飲む時間も調べていないと論文は書いている。飲んだ後に胃が重く感じるかどうかは、この研究では見ていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-stomach-ulcer-japan"
+  },
+  {
+    "id": "weather-hot-night-insufficient-sleep",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Obradovich N et al., \"Nighttime temperature and human sleep loss in a changing climate\" (Science Advances, 2017)",
+    "sourceUrl": "https://doi.org/10.1126/sciadv.1601555",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "暑い夜って、やっぱり眠れない？",
+        "body": "蒸し暑い夜は寝苦しいよね。でも、それは気のせい？ それとも、たくさんの人で見ても本当に眠れなくなっているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の76万人の調査と、夜の気温",
+        "body": "2002〜2011年の米国の健康調査で「この30日で、休息や睡眠が足りないと感じた日は何日？」と答えた約76万5千人のデータを、その土地の夜の気温と照らし合わせたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いつもより1度暑いと、寝不足の夜が増えた",
+        "body": "夜の気温が平年より1度高いと、睡眠不足の夜が100人あたり月に約3晩増えていた。夏に目立ち、収入の低い人や65歳以上の人で特に大きかったらしい。冷房を使えるかどうかが関わるのかも、と研究者は考えているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の感じ方の調査",
+        "body": "眠った時間を測ったのではなく「足りないと感じた日数」の自己申告。暑さによる疲れなど、睡眠以外の理由で増えた可能性もあると論文は書いている。米国のデータで、日本の夏にそのまま当てはまるかもわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-room-temperature",
+        "type": "あわせて読む",
+        "why": "寝室の温度で眠りを測った実験と、夜の気温と寝不足の大規模な調査"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-hot-night-insufficient-sleep"
+  },
+  {
+    "id": "kokoro-everyone-seems-happier-misery-company",
+    "category": "孤独とつながり",
+    "kind": "よくある説",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Jordan AH et al., \"Misery has more company than people think: Underestimating the prevalence of others' negative emotions\" (Personality and Social Psychology Bulletin, 2011)",
+    "sourceUrl": "https://doi.org/10.1177/0146167210390822",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/everyone-seems-happier/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "つらいのは自分だけ？",
+        "body": "周りはみんな楽しそうで、しんどいのは自分だけ。そんなふうに感じること、あるよね。でも本当にそうなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "周りのつらさを見積もってもらった",
+        "body": "米国の研究チームが4つの研究で、自分のいやな気持ちをどれだけ人に見せているか、周りの人がどれくらいいやな経験をしているかを予想してもらい、実際と比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "他人のつらさは少なく見えていた",
+        "body": "いやな気持ちは、いい気持ちより人前で隠されがち。そのせいか、周りのいやな経験は少なく、いい気持ちは多く見積もられていた。よく知る友だちが相手でも同じ。少なく見積もる人ほど、孤独を感じやすい関連もあったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "孤独との関係は一度に測った相関だから、見積もりのずれが孤独を生むのか、孤独な人が少なく見積もるのかはわからない。2011年の論文で、SNSが今ほど広がる前のデータなんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-lonely-only-me-148-countries",
+        "type": "あわせて読む",
+        "why": "自分だけと感じるずれの研究と、孤独が世界でどれくらいあるかの調査"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-everyone-seems-happier-misery-company"
+  },
+  {
+    "id": "kokoro-irregular-sleep-schedule-focus-sleep-regularity",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Phillips AJK et al., \"Irregular sleep/wake patterns are associated with poorer academic performance and delayed circadian and sleep/wake timing\" (Scientific Reports, 2017)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-017-03171-4",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/irregular-sleep-schedule-focus/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "時間さえ寝ていればOK？",
+        "body": "睡眠って「何時間寝たか」で考えがちだよね。でも、寝る時刻と起きる時刻が毎日バラバラなのは、関係ないのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生61人の30日間",
+        "body": "ハーバード大学の学部生61人が30日間、睡眠日誌をつけたんだ。毎日の寝起きのそろい方を0〜100の指標にして、成績や体内時計と比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不規則だと体内時計が2時間半遅い",
+        "body": "最も不規則な12人は、最も規則的な12人より、眠りを促すホルモンが出始める時刻が平均2時間半ほど遅かった。そろっている人ほど成績も高い関連があって、睡眠時間の長さとは関連がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "そろえれば良くなるかは不明",
+        "body": "少人数の相関の研究だから、寝起きをそろえれば成績が上がるかはわからない。ずれは、生活全体の不規則さの目印かもしれないと研究者も書いているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#kokoro-irregular-sleep-schedule-focus-sleep-regularity"
+  },
+  {
+    "id": "kokoro-night-phone-blue-light-sleep-filter-melatonin",
+    "category": "光と体内時計",
+    "kind": "よくある説",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Höhn C et al., \"Effects of evening smartphone use on sleep and declarative memory consolidation in male adolescents and young adults\" (Brain Communications, 2024)",
+    "sourceUrl": "https://doi.org/10.1093/braincomms/fcae173",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/night-phone-blue-light-sleep/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "夜間モードなら寝る前も平気？",
+        "body": "寝る前のスマホはブルーライトが悪い、だから夜間モードにしておけば大丈夫…ってよく聞くよね。実際に実験室で確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "68人が3晩、寝る前に90分読書",
+        "body": "オーストリアの14〜25歳の男性68人が、設定なしのスマホ、ブルーライトを抑える設定のスマホ、紙の本で、寝る前に90分読書。読み終えて約50分後に寝たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "大人は設定ありでもホルモンが低め",
+        "body": "眠りを促すホルモンは、スマホで読むと減った。10代は寝るまでに戻ったけど、18〜25歳は設定ありでも紙の本の夜より少ないままだった。ただ一晩の睡眠の構造は、おおむね変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝る直前まで見た場合は不明",
+        "body": "この実験は寝る約50分前にやめる条件だけで、参加者も男性だけ。ベッドで寝る直前まで見続けたときにどうなるかは、まだ確かめられていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-blue-light-glasses",
+        "type": "あわせて読む",
+        "why": "スマホの夜間モードの実験と、ブルーライトカットのメガネの試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#kokoro-night-phone-blue-light-sleep-filter-melatonin"
+  },
+  {
     "id": "dokugaku-why-japanese-hard-to-hear-l-and-r-adult-training",
     "category": "言葉と外国語",
     "kind": "よくある説",
@@ -3512,7 +3699,14 @@
         "body": "昨日のことを1問で聞いているので、長く続く孤独よりその日の気分を拾っている可能性がある。毎年ちがう人に聞く調査で、2年分を比べた範囲では、世界全体で増えている証拠は見られなかった。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-lonely-only-me-148-countries"
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-lonely-only-me-148-countries",
+    "links": [
+      {
+        "id": "kokoro-everyone-seems-happier-misery-company",
+        "type": "あわせて読む",
+        "why": "孤独が世界でどれくらいあるかの調査と、自分だけと感じるずれの研究"
+      }
+    ]
   },
   {
     "id": "love-couples-personality-convergence",
@@ -4348,6 +4542,11 @@
         "id": "circadian-blue-light-melatonin",
         "type": "あわせて読む",
         "why": "青い光が体内時計を遅らせる実験と、カットするメガネの試験"
+      },
+      {
+        "id": "kokoro-night-phone-blue-light-sleep-filter-melatonin",
+        "type": "あわせて読む",
+        "why": "ブルーライトカットのメガネの試験と、スマホの夜間モードの実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-blue-light-glasses"
@@ -12254,7 +12453,14 @@
       "wrong": "深い眠りが増えた"
     },
     "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-room-temperature",
-    "studyType": "レビュー"
+    "studyType": "レビュー",
+    "links": [
+      {
+        "id": "weather-hot-night-insufficient-sleep",
+        "type": "あわせて読む",
+        "why": "寝室の温度で眠りを測った実験と、夜の気温と寝不足の大規模な調査"
+      }
+    ]
   },
   {
     "id": "sleep-white-noise-icu",

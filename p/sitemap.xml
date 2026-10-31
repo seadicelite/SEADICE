@@ -1996,9 +1996,9 @@
   <url><loc>https://seadice.win/evidence/relationships/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/habits/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/decision-bias/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/body-myths/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/loneliness/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/body-myths/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/nature/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/procrastination/</loc><lastmod>2026-10-31</lastmod></url>
@@ -2006,6 +2006,9 @@
   <url><loc>https://seadice.win/evidence/language-learning/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/breathing-stress/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/caffeine/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/weather-mood/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/light-circadian/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/love/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-environment/</loc><lastmod>2026-10-31</lastmod></url>
@@ -2029,12 +2032,9 @@
   <url><loc>https://seadice.win/evidence/face-impression/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/insight/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/color-psychology/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/light-circadian/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/weather-mood/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/speaking/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/digital-detox/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/posture-confidence/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/caffeine/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/brain-myths/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/crime-prevention/</loc><lastmod>2026-10-31</lastmod></url>
@@ -2055,7 +2055,7 @@
   <url><loc>https://seadice.win/evidence/body-myths/myth-water-8-glasses/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/body-myths/myth-10000-steps/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/habits/habit-66days/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://seadice.win/evidence/sleep/sleep-weekend-catchup-debt/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://seadice.win/evidence/sleep/sleep-weekend-catchup-debt/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/color-psychology/color-blue-light-melatonin/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://seadice.win/evidence/decision-bias/bias-mere-exposure/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-brain/food-breakfast-weight/</loc><lastmod>2026-10-29</lastmod></url>
@@ -2072,7 +2072,7 @@
   <url><loc>https://seadice.win/evidence/body-myths/myth-lactate-fatigue/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/crime-prevention/bohan-broken-windows/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/body-myths/myth-protein-golden-time/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://seadice.win/evidence/sleep/sleep-golden-time-growth-hormone/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://seadice.win/evidence/sleep/sleep-golden-time-growth-hormone/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/personality/personality-zodiac-sign/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://seadice.win/evidence/personality/personality-barnum-effect/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://seadice.win/evidence/personality/personality-mbti-types/</loc><lastmod>2026-10-29</lastmod></url>
@@ -2122,9 +2122,9 @@
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-sweetener-weight-meta/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-detox-diet-review/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-fruit-sugar-diabetes/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-appetite/appetite-sleep-deprivation-meta/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/hanzai-scared-straight/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/hanzai-false-confession-interrogation/</loc><lastmod>2026-10-13</lastmod></url>
@@ -2146,11 +2146,11 @@
   <url><loc>https://seadice.win/evidence/alcohol/alcohol-hangover-remedies/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://seadice.win/evidence/alcohol/alcohol-chanpon-hangover/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://seadice.win/evidence/alcohol/alcohol-beer-belly/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://seadice.win/evidence/weather-mood/weather-full-moon-births/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/weather-mood/weather-daily-mood/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/weather-mood/weather-social-media-sentiment/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/weather-mood/weather-pain-humidity/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://seadice.win/evidence/weather-mood/weather-sunshine-stock-returns/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://seadice.win/evidence/weather-mood/weather-full-moon-births/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/weather-mood/weather-daily-mood/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/weather-mood/weather-social-media-sentiment/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/weather-mood/weather-pain-humidity/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://seadice.win/evidence/weather-mood/weather-sunshine-stock-returns/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/speaking/speech-mehrabian-7-percent/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://seadice.win/evidence/speaking/speech-get-excited-anxiety/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://seadice.win/evidence/games/game-violent-aggression-longitudinal/</loc><lastmod>2026-10-31</lastmod></url>
@@ -2174,7 +2174,7 @@
   <url><loc>https://seadice.win/evidence/parenting/kids-homework-achievement/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/parenting/kids-parent-homework-help/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/replication-dunning-kruger-artifact/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://seadice.win/evidence/sleep/sleep-90-minute-cycle/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://seadice.win/evidence/sleep/sleep-90-minute-cycle/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/pets/pet-fish-memory-three-seconds/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://seadice.win/evidence/policy/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/corrections/</loc><lastmod>2026-10-22</lastmod></url>
