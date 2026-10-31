@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-listen-when-someone-confides-feel-heard",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Yin Y, Jia N, Wakslak CJ, \"AI can help people feel heard, but an AI label diminishes this impact\" (PNAS, 2024)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2319112121",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/listen-when-someone-confides/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "悩み相談、何て返せばいい？",
+        "body": "友達に悩みを打ち明けられると、役に立つアドバイスをしなきゃって焦るよね。でも、相手が求めているのは本当に答えなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "AIと人が同じ悩みに返事",
+        "body": "米国の大人455人が自分の悩みを話して、翌日その返事を読んだんだ。返事はネットで集めた別の人か、AIが「わかってもらえたと感じるように」書いたもの。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "助言より、気持ちを受け止める返事",
+        "body": "AIの返事は気持ちの支えが多く、助言は少なめ。「わかってもらえた」感覚と結びついていたのは気持ちの支えで、助言の多さとは結びついていなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIと知ると下がる、親しい人なら？",
+        "body": "同じ返事でもAIが書いたと知ると「わかってもらえた」感覚は下がった。返事を書いた人は知らない相手で、家族や友人の返事と比べたわけではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-listen-when-someone-confides-feel-heard"
+  },
+  {
+    "id": "kokoro-self-soothing-touch-fatigue-hand-on-heart",
+    "category": "呼吸とストレス",
+    "kind": "研究紹介",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Maier F et al., \"Self-Soothing Touch Reduces Momentary Stress, Fatigue, and Loneliness Comparable to Brief Meditation: A Randomised Controlled Trial\" (Stress and Health, 2026)",
+    "sourceUrl": "https://doi.org/10.1002/smi.70145",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/self-soothing-touch-fatigue/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "胸に手を当てると落ち着く？",
+        "body": "疲れたとき、なんとなく胸に手を当てて深呼吸すること、あるよね。あれって本当に効いてるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "78人が14日間、毎日5分",
+        "body": "ストレスを感じているオーストリアの大学生78人を2組に分けたんだ。片方は胸とお腹に手を当てて呼吸、もう片方は目を閉じて深呼吸するだけの短い瞑想。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "直後のストレスと疲れが下がった",
+        "body": "どちらの組でも、練習の直後にストレス・疲れ・孤独感が下がっていた。手を当てる方法と瞑想の差はなかったらしい。手を当てた組だけ、練習前の疲れも日ごとに少しずつ下がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い目で見たストレスは？",
+        "body": "「この4週間のストレス」を答える質問票は、どちらの組も変わらなかった。対象は8割が女性の若い大学生で、追跡は試験期間と重なっていた。長く続けたときの効果もまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-self-soothing-touch-fatigue-hand-on-heart"
+  },
+  {
+    "id": "kokoro-sns-career-comparison-frustration-career-posts",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Fukubayashi N & Fuji K, \"Social Comparison on Social Media Increases Career Frustration: A Focus on the Mitigating Effect of Companionship\" (Frontiers in Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.720960",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/sns-career-comparison-frustration/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "同期の昇進投稿で焦るのはなぜ？",
+        "body": "SNSで同年代の転職や昇進の報告を見ると、なんだか自分の仕事に焦ることってあるよね。あれって何が起きてるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "日本の会社員の7日間の記録",
+        "body": "筑波大学の研究で、日本の会社員111人が7日間、1日2回、SNSで見た仕事の投稿と気持ちを記録したんだ。記録は全部で1,254回分。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "焦りは「上と比べた」とき",
+        "body": "投稿を見ると上とも下とも同じくらい比べていたけど、焦りが強まったのは上と比べて自信をなくしたときだけ。仕事と関係ない楽しい雑談があると、焦りは小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "雑談をすれば焦りは減る？",
+        "body": "これは記録から見えた関連で、雑談を増やす実験ではないよ。対象はFacebookを使う20〜40代の日本の正社員で、ほかのSNSや年代でも同じかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-career-comparison-frustration-career-posts"
+  },
+  {
+    "id": "japan-hara-hachibu-calorie-restriction-calerie",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Kraus WE et al., \"2 years of calorie restriction and cardiometabolic risk (CALERIE): exploratory outcomes of a multicentre, phase 2, randomised controlled trial\" (The Lancet Diabetes & Endocrinology, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/S2213-8587(19)30151-2",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「腹八分目に医者いらず」って本当？",
+        "body": "お腹いっぱいまで食べずに、少し控えめにしておくと健康でいられる。昔からよく言われるよね。太っていない人でも意味があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "太っていない218人で2年間",
+        "body": "米国の3つの施設で、21〜50歳の太っていない健康な218人をくじ引きで分けた試験。片方は食べる量を25%減らすよう指導され、もう片方はふだんどおり食べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "約12%減らして、血圧や悪玉コレステロールが下がった",
+        "body": "実際に減らせたのは平均11.9%で、体重は平均7.5kg減った。2年後、血圧・LDLコレステロール・炎症の値・インスリンの効きなど、測った心臓や代謝の目安がそろって良くなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "病気や寿命まではわからない",
+        "body": "見たのは血圧などの目安で、病気が減るか、長生きするかは調べていないよ。対象は米国の若めの健康な大人で、目標の25%には届かなかった。高齢の人や日本の食事でどうかもわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-hara-hachibu-calorie-restriction-calerie"
+  },
+  {
+    "id": "oya-driving-cessation-health-depression",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Chihuri S et al., \"Driving Cessation and Health Outcomes in Older Adults\" (Journal of the American Geriatrics Society, 2016)",
+    "sourceUrl": "https://doi.org/10.1111/jgs.13931",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "親が運転をやめると、元気がなくなる？",
+        "body": "免許を返したら安心、と思う一方で、出かけなくなって元気がなくなるんじゃないかと心配になるよね。運転をやめた人は、その後どうなっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16本の研究をまとめた",
+        "body": "55歳以上で運転をやめた人と、続けている人を比べた研究16本を集めたレビュー。そのうち5本のデータを合わせて、気分の落ち込みとの関係を数字で出したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "落ち込みの症状が約1.9倍",
+        "body": "運転をやめた人は、気分の落ち込みの症状が出る割合が約1.9倍だった。体や頭の働き、人づきあいの低下や、施設への入所・死亡の多さとも結びついていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "やめたせいか、弱ったからやめたのか",
+        "body": "どれも観察研究で、体が弱ったから運転をやめた面と切り分けるのは難しいと論文も書いているよ。落ち込みはほとんどが質問票の点数で、データは主に米国。日本で同じかはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "oya-older-driver-insight",
+        "type": "あわせて読む",
+        "why": "運転を続けるか迷うとき、危ない運転を本人が自覚しているかもあわせて知っておきたい"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-driving-cessation-health-depression"
+  },
+  {
     "id": "kokoro-comparison-lost-sense-of-self-rumination",
     "category": "スマホとSNS",
     "kind": "素朴な疑問",
@@ -18216,7 +18389,14 @@
     "articleUrl": "https://oya.seadice.win/older-driver-self-assessment-gap/",
     "articleSite": "親が年をとったら",
     "webUrl": "https://seadice.win/evidence/aging-parents/#oya-older-driver-insight",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "oya-driving-cessation-health-depression",
+        "type": "あわせて読む",
+        "why": "運転をやめた後の心と体の変化を調べたメタ分析。やめるかどうかの判断の両面がわかる"
+      }
+    ]
   },
   {
     "id": "dokugaku-pretesting-guess-first",
