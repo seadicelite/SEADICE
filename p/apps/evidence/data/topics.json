@@ -1,5 +1,199 @@
 [
   {
+    "id": "kokoro-ai-praise-feels-hollow-ai-feedback",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Hein I, Cecil J, Lermer E, \"Acceptance and motivational effect of AI-driven feedback in the workplace: an experimental study with direct replication\" (Frontiers in Organizational Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/forgp.2024.1468907",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-praise-feels-hollow/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIに褒められても、なんか響かない",
+        "body": "AIに「よくできています」って言われても、素直に喜べないこと、あるよね。これって自分がひねくれてるだけなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "上司とAI、評価する側を入れかえた実験",
+        "body": "ドイツの実験。参加者は仕事の評価を受ける社員の立場を想像して、評価するのが人の上司かAIかをランダムに変えたんだ。2回目は449人でくり返したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "同じ場面でも、AIからだと受け入れにくい",
+        "body": "2回目の実験では、評価をくれた相手としてAIは人より受け入れられにくかった。「またこの相手から評価をもらいたい」は7段階でAIが3.1、人が5.0。AIを遠い存在と感じることが関わっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "毎日AIに褒められたら？",
+        "body": "場面を想像して答える実験で、参加者は20代中心のドイツの人。厳しい評価では、AIからのほうがわずかに受け入れられた場面もあったよ。実際に毎日AIに褒められる生活でどうなるかは、まだわかっていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-work-confidence-recover-ai-praise",
+        "type": "あわせて読む",
+        "why": "AIからの評価の受け止めにくさと、AIとの対話で自信が上がるかを見た実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-praise-feels-hollow-ai-feedback"
+  },
+  {
+    "id": "kokoro-ai-reliance-self-efficacy-prevent-draft-first",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Lee EH, Yin Y, Jia N, Wakslak CJ, \"Relying on AI at work reduces self-efficacy, ownership, and meaning while active collaboration mitigates the effects\" (Scientific Reports, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-026-42312-6",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/ai-reliance-self-efficacy-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIに頼ると自信がなくなる？",
+        "body": "AIに書いてもらうと楽だけど、「自分ひとりだと、もうできないかも」って不安になること、あるよね。使い方で違いはあるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つの使い方を比べた",
+        "body": "米国の研究チームが269人に仕事の文章を書いてもらったんだ。「AIを使わない」「AIの文章をそのまま使う」「先に自分で下書きしてAIで直す」にランダムに分けて比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "そのまま使うと自信が下がった",
+        "body": "そのまま使った人は「AIなしでもできる」自信が低め（7段階で5.16対5.63）。あとでAIなしで書いても差は残った。先に下書きした人は、AIなしの人と差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く使ったらどうなる？",
+        "body": "1回の短い作業での実験なので、何か月も使い続けたときの変化はわからない。自信は本人の感じ方で、実際の力が落ちたかは別の話なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-ai-answers-crutch",
+        "type": "あわせて読む",
+        "why": "AIに任せきりにすると、AIなしで取り組むときに響きやすい"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-reliance-self-efficacy-prevent-draft-first"
+  },
+  {
+    "id": "kokoro-breakup-cant-move-on-self-blame",
+    "category": "別れと復縁",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Gehl K, Brassard A, Dugal C, et al., \"Attachment and Breakup Distress: The Mediating Role of Coping Strategies\" (Emerging Adulthood, 2024)",
+    "sourceUrl": "https://doi.org/10.1177/21676968231209232",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/breakup-cant-move-on/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "失恋が長引く人の違いは？",
+        "body": "失恋して、すぐ元気になる人もいれば、何か月も引きずる人もいるよね。その違いって、どこから来るんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "別れる前から追いかけた",
+        "body": "カナダの研究チームが、交際中の18〜25歳1,385人を1年間追ったんだ。その間に別れた196人について、別れの1か月後の向き合い方と、1か月後・3か月後の気分を調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自分を責めるほど長引いた",
+        "body": "「自分を責める・自分のことばかり考え込む」対処が多い人ほど、1か月後も3か月後も落ち込みと不安が強かった。受け入れる・見方を変える対処が多い人は、落ち込みが少なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "落ち込んでいるから自分を責めやすいのか、責めるから落ち込むのか、向きはわからない。参加者の8割以上が女性で、対処を変えたら回復が早まるかを試した実験でもないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "breakup-apostolou-coping",
+        "type": "あわせて読む",
+        "why": "別れの乗り切り方の種類と、どの乗り切り方で落ち込みが長引くか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breakups/#kokoro-breakup-cant-move-on-self-blame"
+  },
+  {
+    "id": "brain-myth-60000-thoughts-a-day",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Tseng & Poppenk, \"Brain meta-state transitions demarcate thoughts across task contexts exposing the mental noise of trait neuroticism\" (Nature Communications, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-020-17255-9",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人は1日に6万回も考えている？",
+        "body": "「人は1日に6万回考えていて、その多くはネガティブ」ってよく聞くよね。でも、考えた回数なんて、どうやって数えたんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "脳の画像から「考えの切り替わり」を数えた",
+        "body": "カナダのクイーンズ大学の研究。米国の脳画像データ（平均29歳の184人）で、映画を見ているときと休んでいるときの脳の活動パターンが切り替わる瞬間を数えたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "見積もりは「6千回あまり」",
+        "body": "切り替わりは1分あたり約6.5回。起きている時間に当てはめると、1日6千回あまりという見積もりだった。6万回ではなく、その10分の1くらい。この研究は、考えがネガティブかどうかは数えていないよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "切り替わり＝1つの考え、とは限らない",
+        "body": "脳の切り替わりを「考えの区切り」とみなした仮の数え方で、著者も自信をもって使うにはさらに検証が要るとしている。若い大人の映画と安静時のデータからの外挿で、年齢や日常の場面で同じかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-myth-60000-thoughts-a-day"
+  },
+  {
+    "id": "happiness-longevity-million-women",
+    "category": "幸福の科学",
+    "kind": "よくある説",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Liu et al., \"Does happiness itself directly affect mortality? The prospective UK Million Women Study\" (Lancet, 2016)",
+    "sourceUrl": "https://doi.org/10.1016/S0140-6736(15)01087-9",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "幸せな人は長生きする？",
+        "body": "「幸せな人ほど長生き」ってよく聞くよね。でも、体の調子が悪いと幸せを感じにくい気もする。どっちが先なんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の女性約72万人を約10年追った",
+        "body": "英国の大規模調査で、心臓病・脳卒中・がんなどのない女性71万9,671人（年齢の中央値59歳）に、どれくらい幸せかを聞いて、その後の死亡を約10年追いかけたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "体調をそろえると、差は消えた",
+        "body": "年齢だけそろえると、幸せでないと答えた人の死亡は1.29倍だった。でも、自分で感じる健康状態や持病の治療、たばこ・体格などをそろえると0.98倍になり、差は見られなくなった。体調が悪いと幸せを感じにくい、という関係が大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "女性だけ、幸せは1回きりの質問",
+        "body": "対象は中年以降の英国の女性だけで、幸せは1回の質問で聞いた。追いかけただけの研究なので、幸せを高めたら寿命がどうなるかを試したわけではない。男性や若い人で同じかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-frequency-mortality-yamagata",
+        "type": "あわせて読む",
+        "why": "気持ちと寿命の関係は、体調の影響をどこまで除くかで見え方が変わる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#happiness-longevity-million-women"
+  },
+  {
     "id": "caffeine-coffee-stomach-ulcer-japan",
     "category": "カフェイン",
     "kind": "よくある説",
@@ -6765,6 +6959,11 @@
         "id": "kokoro-work-confidence-recover-praise-fades",
         "type": "あわせて読む",
         "why": "AIとの対話の実験と、人からの褒め言葉で自信がどう変わり、どう薄れるかを見た実験"
+      },
+      {
+        "id": "kokoro-ai-praise-feels-hollow-ai-feedback",
+        "type": "あわせて読む",
+        "why": "AIからの評価の受け止めにくさと、AIとの対話で自信が上がるかを見た実験"
       }
     ]
   },
@@ -19423,6 +19622,11 @@
         "id": "kokoro-llm-vs-search-learning-depth",
         "type": "あわせて読む",
         "why": "AIに答えをもらう学び方は、身につきにくくなりやすい"
+      },
+      {
+        "id": "kokoro-ai-reliance-self-efficacy-prevent-draft-first",
+        "type": "あわせて読む",
+        "why": "AIに任せきりにすると、AIなしで取り組むときに響きやすい"
       }
     ]
   },
@@ -21481,7 +21685,14 @@
         "body": "笑う回数は本人の申告で、追いかけただけの研究なので、原因かどうかは分けられない。体調が悪い人がもともと笑わなくなっていた可能性もある。笑う回数を増やせば寿命が延びるかは試されていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/laughter/#laughter-frequency-mortality-yamagata"
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-frequency-mortality-yamagata",
+    "links": [
+      {
+        "id": "happiness-longevity-million-women",
+        "type": "あわせて読む",
+        "why": "気持ちと寿命の関係は、体調の影響をどこまで除くかで見え方が変わる"
+      }
+    ]
   },
   {
     "id": "laughter-therapy-meta-depression",
@@ -36207,7 +36418,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/breakup-recovery-actions-reappraisal-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "kokoro-breakup-cant-move-on-self-blame",
+        "type": "あわせて読む",
+        "why": "別れの乗り切り方の種類と、どの乗り切り方で落ち込みが長引くか"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/breakups/#breakup-apostolou-coping"
   },
   {
