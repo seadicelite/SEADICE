@@ -1,5 +1,172 @@
 [
   {
+    "id": "dokugaku-why-japanese-hard-to-hear-l-and-r-adult-training",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Bradlow et al., \"Training Japanese listeners to identify English /r/ and /l/: Long-term retention of learning in perception and production\" (Perception & Psychophysics, 1999)",
+    "sourceUrl": "https://doi.org/10.3758/BF03206911",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "大人はもうLとRを聞き分けられない？",
+        "body": "日本人の大人には英語のLとRは聞き分けられない、ってよく言われるよね。子どものころに身につかなかったら、もう手遅れなんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3〜4週間、45回の練習",
+        "body": "海外に住んだことのない京都の大学生11人が、いろいろな話し手の声でLとRを聞き分ける練習を、3〜4週間で計45回（1回20〜30分）やった実験だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "65%から81%へ",
+        "body": "2択の正答率は平均65.1%から81.4%に上がって、3か月後も78.1%だった。練習しなかった組は変わらず、練習した人は発音も「前より良い」と判断されやすくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、個人差も大きい",
+        "body": "練習した人は11人だけで、3か月後に戻ってきたのは9人。伸び方は人によって差があった。実験室で決まった単語を聞き分ける練習なので、独学やふだんの会話でも同じだけ伸びるかはわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-japanese-hard-to-hear-l-and-r-adult-training"
+  },
+  {
+    "id": "kokoro-sns-friends-few-to-rely-on-support-clique",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Dunbar RIM, \"Do online social media cut through the constraints that limit the size of offline social networks?\" (Royal Society Open Science, 2016)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.150292",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "SNSの友達、何人が頼れる？",
+        "body": "SNSの友達は何百人もいるのに、本当に困ったとき連絡できる人は思い浮かばない。それってちょっと変なのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の2,000人に聞いた",
+        "body": "英国の18〜65歳でふだんSNSを使う2,000人に、Facebookの友達の数と、強い苦しみのときに助言や慰めを求めに行ける人の数を答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "友達155人、頼れる人は4人",
+        "body": "Facebookの友達は平均155.2人。でも頼れる人は平均4.1人、親しい友達は平均13.6人で、対面のつながりを調べた研究とほぼ同じ人数だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関係の中身は測っていない",
+        "body": "人数は自己申告で、一人ひとりの関係の質は聞いていない。2015年のFacebook中心の調査だから、今のSNSで同じかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-sns-friends-few-to-rely-on-support-clique"
+  },
+  {
+    "id": "kokoro-partner-thanks-unsaid-gratitude-underestimate",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Tissera H et al., \"Understanding the Links Between Perceiving Gratitude and Romantic Relationship Satisfaction Using an Accuracy and Bias Framework\" (Social Psychological and Personality Science, 2023)",
+    "sourceUrl": "https://doi.org/10.1177/19485506221137958",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "感謝は言わなくても伝わる？",
+        "body": "長く一緒にいると「ありがとう」って言わなくなるよね。心の中で思っていれば、相手にも伝わっている…と思いたいけど、実際はどうなんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カナダのカップル205組",
+        "body": "カナダの大学の周りで集めた18〜35歳（平均21歳）のカップル205組に、自分が相手に感じる感謝と、相手が自分に感じていると思う感謝を、5段階で答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "相手の感謝は少なめに見える",
+        "body": "自分の感謝は平均4.43、相手の感謝の見積もりは平均4.14。分析でも、人は相手の感謝を実際より少なく見積もっていた。少なく見積もる人ほど、関係への満足も低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かは不明",
+        "body": "アンケートの相関だから、少なく見積もるせいで不満になるのか、不満だから少なく見えるのかはわからない。研究者も、因果を確かめるには実験が必要と書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "gratitude-gordon",
+        "type": "あわせて読む",
+        "why": "相手の感謝をどう受け取るかと、感謝が関係を続けるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#kokoro-partner-thanks-unsaid-gratitude-underestimate"
+  },
+  {
+    "id": "foodmyth-vitamin-c-common-cold",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Hemilä & Chalker, \"Vitamin C for preventing and treating the common cold\" (Cochrane Database of Systematic Reviews, 2013)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD000980.pub4",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ビタミンCで風邪を予防できる？",
+        "body": "「風邪っぽいときはビタミンC」ってよく聞くよね。毎日とっていれば、風邪をひかなくなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "偽薬と比べた試験をまとめた",
+        "body": "コクランのレビューが、1日0.2g以上のビタミンCと偽薬を比べた試験を集めたんだ。毎日とり続ける試験29件（11,306人）で、風邪をひく人の割合を比べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "ひく割合はほぼ変わらない",
+        "body": "ふつうの人（10,708人）では、ひく割合は0.97倍でほぼ同じ。ただ毎日とっていた人の風邪は、大人で8%、子どもで14%短かった。マラソン選手や寒い地域で訓練する兵士など598人では、ひく人が約半分（0.48倍）だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ひいてから飲むのは効く？",
+        "body": "ひき始めてから飲む試験（7件）では、長さや重さに一貫した効果は見られなかった。こうした試験は少なく、著者もさらに試験が必要と書いている。2013年時点のまとめだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-vitamin-c-common-cold"
+  },
+  {
+    "id": "sleep-dog-in-bedroom",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Patel et al., \"The Effect of Dogs on Human Sleep in the Home Sleep Environment\" (Mayo Clinic Proceedings, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.mayocp.2017.06.014",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬と一緒に寝ると、眠りが浅くなる？",
+        "body": "愛犬と同じ部屋で寝たい。でも夜中に動かれて、眠りが浅くなっていないか気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40人と犬が7晩、計測器をつけた",
+        "body": "アメリカのメイヨー・クリニックの研究。睡眠の病気がない大人40人（88%が女性、平均44歳）と、寝室にいる犬1頭ずつが、7晩それぞれ動きを測る計測器をつけて寝たんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "寝室ならOK、ベッドの上だと下がる",
+        "body": "人の睡眠効率（ベッドにいた時間のうち眠っていた割合）は平均81%で、著者は「よい睡眠効率を保てていた」と書いている。ただ、犬がベッドの上にいると、部屋にいるだけのときより睡眠効率が低かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "犬がいない夜とは比べていない",
+        "body": "測ったのは犬が寝室にいる夜だけで、犬がいなければもっと眠れたのかはわからない。40人と少なく、ほとんどが女性。猫や2頭以上の場合も調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-dog-in-bedroom"
+  },
+  {
     "id": "kokoro-ai-dependence-recovery-course-natural-course",
     "category": "ゲームとネット",
     "kind": "よくある説",
@@ -33348,7 +33515,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/gratitude-relationship-maintenance-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "kokoro-partner-thanks-unsaid-gratitude-underestimate",
+        "type": "あわせて読む",
+        "why": "相手の感謝は少なめに見積もられやすく、それが満足と関係していた"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/compatibility/#gratitude-gordon"
   },
   {
