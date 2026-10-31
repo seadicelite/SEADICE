@@ -248,8 +248,8 @@
   "hash": "ea4810c120803e9d"
  },
  "evidence/face-impression/": {
-  "date": "2026-10-30",
-  "hash": "8fb8a430fe4c3cf0"
+  "date": "2026-10-31",
+  "hash": "f30f8ddf734bc2af"
  },
  "evidence/face-impression/face-ai-personality/": {
   "date": "2026-10-29",
@@ -316,12 +316,12 @@
   "hash": "f6979b4e4de1c007"
  },
  "evidence/games/": {
-  "date": "2026-10-30",
-  "hash": "bd92bdd4030fc6ad"
+  "date": "2026-10-31",
+  "hash": "b756248c99dd714a"
  },
  "evidence/games/game-children-intelligence/": {
-  "date": "2026-10-15",
-  "hash": "20c04d2a5faa763a"
+  "date": "2026-10-31",
+  "hash": "0f1b1e9c88e3ee6c"
  },
  "evidence/games/game-smart-device-myopia/": {
   "date": "2026-10-15",
@@ -768,8 +768,8 @@
   "hash": "62b4d4f77b388224"
  },
  "evidence/speaking/": {
-  "date": "2026-10-30",
-  "hash": "3cb8e55a78e7d075"
+  "date": "2026-10-31",
+  "hash": "043deb8629fa560e"
  },
  "evidence/speaking/speech-get-excited-anxiety/": {
   "date": "2026-10-17",

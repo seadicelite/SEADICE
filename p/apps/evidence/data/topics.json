@@ -24439,11 +24439,6 @@
         "why": "印象は0.1秒で決まるが、その印象も写真1枚に左右される"
       },
       {
-        "id": "face-trustworthiness-detection",
-        "type": "あわせて読む",
-        "why": "写真の印象では、信用できる人かを見抜けなかった"
-      },
-      {
         "id": "face-makeup-vs-identity",
         "type": "あわせて読む",
         "why": "メイクの前後でも印象は動くが、顔の個人差のほうが大きかった"
@@ -27189,11 +27184,6 @@
         "id": "speech-certain-prosody",
         "type": "あわせて読む",
         "why": "声の高さのほか、話す速さや語尾で受け取られ方が変わるかを調べた研究"
-      },
-      {
-        "id": "face-trustworthiness-detection",
-        "type": "あわせて読む",
-        "why": "声ではなく顔の印象で、本当に信用できる人がわかるかを調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/speaking/#speech-low-voice-leader"
@@ -27496,11 +27486,6 @@
         "id": "brain-game-brain-myth",
         "type": "あわせて読む",
         "why": "アクションゲームと注意力などの関係を、たくさんの研究でまとめた"
-      },
-      {
-        "id": "brain-game-training-null",
-        "type": "反対の結果",
-        "why": "ゲームの実験をまとめた別の研究では、頭の力全体が伸びる証拠はなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/games/game-children-intelligence/"
