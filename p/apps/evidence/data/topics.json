@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-night-waking-why-research-one-in-three",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Ohayon, \"Nocturnal awakenings and comorbid disorders in the American general population\" (Journal of Psychiatric Research, 2008)",
+    "sourceUrl": "https://doi.org/10.1016/j.jpsychires.2008.02.001",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/night-waking-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜中に目が覚めるのは自分だけ？",
+        "body": "夜中にふと目が覚めて、もしかして体がおかしいのかなと不安になること、あるよね。実はかなり多くの人に起きているらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの8937人に電話調査",
+        "body": "3つの州に住む18歳以上の8937人に、夜中に目が覚める頻度や長さ、理由を聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "週3日以上が35.5%",
+        "body": "週3日以上夜中に目が覚める人は35.5%、毎晩の人は23%だった。毎晩目が覚める人では、体や心の病気が多く見られたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因か結果かはわからない",
+        "body": "本人の申告による調査で、病気が目覚めの原因なのか、目覚めが病気につながるのかは区別できないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-night-waking-why-research-one-in-three"
+  },
+  {
+    "id": "research-sunday-night-blues-why-research-morning-anticipation",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Hyun, Sliwinski & Smyth, \"Waking Up on the Wrong Side of the Bed: The Effects of Stress Anticipation on Working Memory in Daily Life\" (The Journals of Gerontology: Series B, 2019)",
+    "sourceUrl": "https://doi.org/10.1093/geronb/gby042",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/sunday-night-blues-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「今日はきつそう」と思うだけで疲れる？",
+        "body": "朝起きて「今日は大変な日になりそう」と思うと、まだ何も起きていないのに気が重くなるよね。その予想、頭の働きにも影響しているらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "240人が2週間スマホで記録",
+        "body": "ニューヨークのブロンクスに住む25〜65歳の240人が、朝に「今日はどれくらいストレスがありそうか」を答え、日中に何度も短い記憶テストを受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "朝の予想が重い日ほど記憶テストが不調",
+        "body": "朝にストレスを強く予想した日ほど、その日の記憶テストの成績が悪かった。実際に起きたストレスとは別の影響だったよ。前の晩の予想とは関係がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜそうなるのかは未確認",
+        "body": "日常の記録から見えた関係で、原因と結果は決めきれない。予想のあとにくよくよ考えていたかや、ストレスホルモンなど体の反応は調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-sunday-night-blues-why-research-morning-anticipation"
+  },
+  {
+    "id": "research-habit-breaks-after-change-why-research-easter-gym",
+    "category": "習慣形成",
+    "kind": "研究紹介",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Fredslund & Leppin, \"Can the Easter break induce a long-term break of exercise routines? An analysis of Danish gym data using a regression discontinuity design\" (BMJ Open, 2019)",
+    "sourceUrl": "https://doi.org/10.1136/bmjopen-2018-024043",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/habit-breaks-after-change-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よくある悩み",
+        "title": "連休明け、ジムに行かなくなる",
+        "body": "休み前は通えていたのに、連休が明けたらなぜか足が向かない。そんな経験がある人は多いよね。実はこれ、ジムの入館記録にもはっきり表れていたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,210人の入館記録を分析",
+        "body": "デンマークの研究者が、ジム会員1,210人の自動で記録された入館データを、イースター休暇の前後10週ずつ比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "休み明けに約12%減って、戻らなかった",
+        "body": "休暇明けの週から通う回数が週0.24回（約12%）落ちて、その後も取り戻されなかった。休み前に週2回以上通っていた人ほど、落ち込みが大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "習慣の強さは測っていない",
+        "body": "参加者は自分から調査に応じた人たちで、会員全体の代表とはいえない。習慣の強さそのものも測っていないから、なぜ落ちたのかは推測の部分もあるよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-breaks-after-change-why-research-easter-gym"
+  },
+  {
+    "id": "posture-desk-height-risk-taking",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Wainio-Theberge & Armony, \"Manipulating posture implicitly through environmental constraints influences mood and risk-taking behaviour\" (British Journal of Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/bjop.70083",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "低い机で前かがみだと、気持ちも縮む？",
+        "body": "姿勢の実験は「このポーズをして」と頼むものが多くて、狙いに気づくせいでは？という疑問があったんだ。じゃあ、机の高さで自然に姿勢が変わったらどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "机とタブレットの高さだけを変えた",
+        "body": "カナダの18〜33歳の198人を2組に分けたよ。片方は目の高さのタブレットで背すじが伸び、もう片方は膝の上くらいの低い机で前かがみになる。姿勢の指示はしなかったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "背すじが伸びた組は、少し攻めるようになった",
+        "body": "風船をふくらませて点をためるゲームで、背すじが伸びた組は回を追うごとに多くふくらませた。ただ全体の平均の差ははっきりしなかった。首が起きている人ほど、誇らしい気持ちが上がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い女性の学生が中心で、1回だけの実験",
+        "body": "198人のうち172人が女性で、多くは学生。事前登録のない研究で、この分野は追試で消えた結果も多いと著者自身が書いているよ。見たのは1回の実験の中だけなんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-stooped-processing-speed",
+        "type": "あわせて読む",
+        "why": "座る姿勢で気分と作業が変わるかを、指示して座ってもらう形で調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-desk-height-risk-taking"
+  },
+  {
+    "id": "foodmyth-ice-cream-headache-ice-water",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Mages, Hensel, Zierz, Kraya & Zierz, \"Experimental provocation of 'ice-cream headache' by ice cubes and ice water\" (Cephalalgia, 2017)",
+    "sourceUrl": "https://doi.org/10.1177/0333102416650704",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "かき氷で頭がキーンとなるのはなぜ？",
+        "body": "冷たいものを急いで食べると、頭がキーンと痛くなるよね。どうすると起きやすいのか、わざと起こして確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "77人に、氷と氷水で試した",
+        "body": "ドイツの大学の研究者が、77人に2つの方法を試したよ。氷のかたまりを上あごに押し当てる方法と、氷水を一気に飲む方法だ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一気飲みのほうが、早く強く起きた",
+        "body": "頭痛が起きたのは、氷水の一気飲みで39人、氷を当てただけでは9人。氷水のほうが早く（中央値15秒、氷は68秒）、痛みも強かった。頭痛が起きた人は涙が出ることも多かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "かき氷そのものでは試していない",
+        "body": "使ったのは氷と氷水で、かき氷やアイスではないんだ。対象は77人と少なめ。涙が出ることから顔の神経の反射が関わると考えられているけど、仕組みを直接測ったわけではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-ice-cream-headache-ice-water"
+  },
+  {
     "id": "research-procrastination-if-only-reflection-research-should-have",
     "category": "先延ばし対策",
     "kind": "研究紹介",
@@ -3976,7 +4149,14 @@
         "body": "研究者は「姿勢→気分→はやさ」の流れを予想したけど、気分が差を説明している証拠は出なかった。若い82人の1回の実験で、毎日の仕事や勉強で同じかはまだわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-stooped-processing-speed"
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-stooped-processing-speed",
+    "links": [
+      {
+        "id": "posture-desk-height-risk-taking",
+        "type": "あわせて読む",
+        "why": "指示せず、机の高さで自然に姿勢を変えたときの気分と行動を調べた実験"
+      }
+    ]
   },
   {
     "id": "pet-dog-jealousy",
