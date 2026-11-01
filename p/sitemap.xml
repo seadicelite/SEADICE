@@ -1999,10 +1999,10 @@
   <url><loc>https://seadice.win/evidence/memory/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/focus/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/ai/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://seadice.win/evidence/work/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://seadice.win/evidence/smartphone-sns/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/work/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/habits/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/smartphone-sns/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/procrastination/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/relationships/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/decision-bias/</loc><lastmod>2026-11-01</lastmod></url>
@@ -2011,6 +2011,8 @@
   <url><loc>https://seadice.win/evidence/nature/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/money/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/pets/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/alcohol/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-mood/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/</loc><lastmod>2026-11-01</lastmod></url>
@@ -2038,9 +2040,7 @@
   <url><loc>https://seadice.win/evidence/aging-parents/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-aging/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/mindfulness/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://seadice.win/evidence/alcohol/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/laughter/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://seadice.win/evidence/pets/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/posture-pain/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/scent-memory/</loc><lastmod>2026-11-01</lastmod></url>
@@ -2148,12 +2148,12 @@
   <url><loc>https://seadice.win/evidence/happiness/happy-lottery-wealth/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/happy-age-u-curve/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/kokoro-sleep-improve-mental/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://seadice.win/evidence/alcohol/alcohol-hyakuyaku-mortality/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://seadice.win/evidence/alcohol/alcohol-red-wine-resveratrol/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://seadice.win/evidence/alcohol/alcohol-flushing-aldh2/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://seadice.win/evidence/alcohol/alcohol-hangover-remedies/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://seadice.win/evidence/alcohol/alcohol-chanpon-hangover/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://seadice.win/evidence/alcohol/alcohol-beer-belly/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://seadice.win/evidence/alcohol/alcohol-hyakuyaku-mortality/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/alcohol/alcohol-red-wine-resveratrol/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/alcohol/alcohol-flushing-aldh2/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/alcohol/alcohol-hangover-remedies/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/alcohol/alcohol-chanpon-hangover/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/alcohol/alcohol-beer-belly/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/weather-mood/weather-full-moon-births/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/weather-mood/weather-daily-mood/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://seadice.win/evidence/weather-mood/weather-social-media-sentiment/</loc><lastmod>2026-10-31</lastmod></url>
@@ -2183,7 +2183,7 @@
   <url><loc>https://seadice.win/evidence/parenting/kids-parent-homework-help/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/replication-dunning-kruger-artifact/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep/sleep-90-minute-cycle/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://seadice.win/evidence/pets/pet-fish-memory-three-seconds/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://seadice.win/evidence/pets/pet-fish-memory-three-seconds/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://seadice.win/evidence/policy/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/corrections/</loc><lastmod>2026-10-22</lastmod></url>
 </urlset>

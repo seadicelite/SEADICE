@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-work-better-under-pressure-procrastination-research-health-cohort",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Johansson et al., \"Associations Between Procrastination and Subsequent Health Outcomes Among University Students in Sweden\" (JAMA Network Open, 2023)",
+    "sourceUrl": "https://doi.org/10.1001/jamanetworkopen.2022.49346",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/work-better-under-pressure-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "先延ばしは気分の問題だけ？",
+        "body": "ギリギリまでやらないのは性格の問題で、体や心の健康とは関係ない。そう思っている人は多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生3,525人を追跡",
+        "body": "スウェーデンの8つの大学の学生3,525人の先延ばしの度合いを測って、9か月後の心と体の状態を調べた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "9か月後の不調と小さく結びついた",
+        "body": "先延ばしが強い人ほど、9か月後の抑うつ・不安・ストレスがやや高く、睡眠の悪さや運動不足、孤独感も少し多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかは不明",
+        "body": "観察研究なので、先延ばしが不調を生んだとは言えない。結びつきは小さく、測っていない性格の違いで説明できる可能性を著者自身が挙げているよ。スウェーデンの大学生だけの話でもあるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-work-better-under-pressure-procrastination-research-health-cohort"
+  },
+  {
+    "id": "research-small-rewards-habit-research-rewards-intrinsic-motivation",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Deci, Koestner & Ryan, \"A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation\" (Psychological Bulletin, 1999)",
+    "sourceUrl": "https://doi.org/10.1037/0033-2909.125.6.627",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/small-rewards-habit-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ご褒美でやる気がなくなる？",
+        "body": "ご褒美をあげると、好きだったことまでご褒美のためにやるようになる。そんな話を聞いたことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "128件の実験をまとめた",
+        "body": "ご褒美と「自分からやる気持ち」の関係を調べた128件の実験をまとめた分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ご褒美は下げ、ほめ言葉は上げた",
+        "body": "やるだけ・やり終えるだけでもらえるご褒美は、その後に自分から取り組む行動を減らしていた。反対に前向きなほめ言葉は、行動も興味も高めていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "毎日の習慣でも同じ？",
+        "body": "まとめたのは条件を決めた実験で、物のご褒美は大学生より子どもで下がりやすかった。毎日の習慣でご褒美を長く続けたときどうなるかは、この分析だけではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-money-reward-undermining",
+        "type": "あわせて読む",
+        "why": "128件の実験のまとめと、お金のご褒美でやる気が下がるときの脳を調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-small-rewards-habit-research-rewards-intrinsic-motivation"
+  },
+  {
+    "id": "research-night-awake-get-out-of-bed-stimulus-control-research-cbti-components",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Furukawa et al., \"Components and Delivery Formats of Cognitive Behavioral Therapy for Chronic Insomnia in Adults: A Systematic Review and Component Network Meta-Analysis\" (JAMA Psychiatry, 2024)",
+    "sourceUrl": "https://doi.org/10.1001/jamapsychiatry.2023.5060",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/night-awake-get-out-of-bed-stimulus-control-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "眠れないなら、寝る前の習慣を整えよう？",
+        "body": "眠れないときは、寝る前のカフェインや部屋の明るさなど「睡眠衛生」を整えよう。よく聞くアドバイスだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "241件の試験をまとめた",
+        "body": "不眠の認知行動療法の241件の試験、3万1452人をまとめて、どの要素が効いているかを調べた分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いたのは別の要素だった",
+        "body": "考え方の見直し、睡眠時間の調整、眠れないとき布団を出る方法などが効く要素だった。睡眠衛生の説明は効果にほぼ寄与せず、リラクセーションは逆効果の可能性もあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "要素の組み合わせの影響",
+        "body": "慢性の不眠の大人の研究で、要素どうしの相互作用は見落としているかもしれないと著者たちも書いている。睡眠衛生が無意味という意味でもないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-night-awake-get-out-of-bed-stimulus-control-research-cbti-components"
+  },
+  {
+    "id": "pets-dog-directed-speech",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Benjamin & Slocombe, \"'Who's a good boy?!' Dogs prefer naturalistic dog-directed speech\" (Animal Cognition, 2018)",
+    "sourceUrl": "https://doi.org/10.1007/s10071-018-1172-4",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬に赤ちゃん言葉で話しかけるのは意味ある？",
+        "body": "「いい子だね〜」って、高い声で犬に話しかけちゃう人は多いよね。犬にとって、ふつうの話し方と何か違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "成犬37匹に2人の声を聞かせた",
+        "body": "イギリス・ヨークの犬の預かり施設で、平均6歳の犬37匹に、知らない女性2人の声を同時に聞かせた。片方は犬向けの話し方と言葉、もう片方は大人どうしの会話だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "犬向けに話す人を長く見た",
+        "body": "犬は犬向けに話した人の方を長く見て、そのあと近くにいる時間も長かった。ただ別の32匹で、声の調子と話の中身を入れ替えると、差は出なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差は小さく、飼い主の声でもない",
+        "body": "見ていた時間の差は小さいと著者も書いている。話したのは知らない人で、飼い主ではない。台本を読んだ声を使った別の研究では、成犬に差は出なかったんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pets-dog-directed-speech"
+  },
+  {
+    "id": "alcohol-blackout-who",
+    "category": "お酒の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#D97706",
+    "sourceLabel": "Wetherill & Fromme, \"Alcohol-Induced Blackouts: A Review of Recent Clinical Research with Practical Implications and Recommendations for Future Studies\" (Alcoholism: Clinical and Experimental Research, 2016)",
+    "sourceUrl": "https://doi.org/10.1111/acer.13051",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お酒で記憶をなくすのは、飲みすぎた人だけ？",
+        "body": "飲み会の途中から覚えていない。そんな経験は、よほど飲んだ人だけの話だと思われがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5年分の研究26件を整理",
+        "body": "飲んでいた間の出来事を思い出せなくなる「ブラックアウト」について、2010年から2015年8月までに出た研究を集めて整理したレビューがあるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "飲む人のおよそ半分が経験",
+        "body": "お酒を飲む人のおよそ50%が経験したと答えていた。なりやすさは飲んだ量だけでなく人による違いも関わっていて、けがなどの危ない出来事とも結びついていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "測り方がそろっていない",
+        "body": "研究ごとにブラックアウトの聞き方がちがう。どんな人がなりやすいかを確かめるには、同じ人を追いかける研究と共通の測り方が必要だと著者たちは書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-blackout-who"
+  },
+  {
     "id": "research-night-waking-why-research-one-in-three",
     "category": "睡眠",
     "kind": "素朴な疑問",
@@ -20390,6 +20563,11 @@
         "id": "habit-paid-gym-attendance",
         "type": "反対の結果",
         "why": "お金の報酬で習慣が続いた研究と、やる気が下がった研究"
+      },
+      {
+        "id": "research-small-rewards-habit-research-rewards-intrinsic-motivation",
+        "type": "あわせて読む",
+        "why": "お金のご褒美の脳の実験と、128件の実験をまとめた分析"
       }
     ]
   },
