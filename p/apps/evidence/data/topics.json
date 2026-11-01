@@ -1,5 +1,192 @@
 [
   {
+    "id": "research-procrastination-if-only-reflection-research-should-have",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Smallman & Roese, \"Counterfactual thinking facilitates behavioral intentions\" (Journal of Experimental Social Psychology, 2009)",
+    "sourceUrl": "https://doi.org/10.1016/j.jesp.2009.03.002",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/procrastination-if-only-reflection-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「〜すればよかった」は無駄な後悔？",
+        "body": "失敗した後に「あのとき〜すればよかった」と考えるのは、ただの後悔に思えるよね。でも、次の行動とつながっているらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生30人の反応時間の実験",
+        "body": "「服に食べ物をこぼした」などの失敗を見せ、「〜すべきだった」と判断した直後に「次は〜する」という判断をしてもらい、その速さを測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "次の計画の判断が速くなった",
+        "body": "「すべきだった」と判断した直後は平均726ミリ秒で、何も判断しなかった場合の1122ミリ秒より速かった。別の実験では、振り返りと同じ行動のときだけ速くなったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当に行動が変わるかは別",
+        "body": "測ったのは画面上の判断の速さで、実際の行動が変わったかは調べていないんだ。対象も大学生の少人数だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-procrastination-if-only-reflection-research-downward",
+        "type": "あわせて読む",
+        "why": "同じ「もしも」の振り返りでも、悪い方と比べると先延ばしと結びついていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-if-only-reflection-research-should-have"
+  },
+  {
+    "id": "research-procrastination-if-only-reflection-research-downward",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Sirois, \"Procrastination and counterfactual thinking: Avoiding what might have been\" (British Journal of Social Psychology, 2004)",
+    "sourceUrl": "https://doi.org/10.1348/0144666041501660",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/procrastination-if-only-reflection-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「もっと悪くなってたかも」で済ませてない？",
+        "body": "失敗の後、「まあ、もっとひどくなってたかも」と考えるとほっとするよね。先延ばししやすい人ほど、この考え方を選びやすいらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "80人に不安な場面を想像してもらった",
+        "body": "先延ばしに関係する場面と一般的な場面、2つの不安な場面を想像してもらい、頭に浮かんだ「もしも」を挙げてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「もっと良くできた」を避けていた",
+        "body": "先延ばし傾向が強い人ほど「もっと悪くなり得た」が多く、「もっと良くできた」が相対的に少なかった。先延ばしの場面で特に強く出たよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "想像の場面での話",
+        "body": "想像の場面での回答で、実際に締め切りを落とした後の行動は測っていないよ。先延ばし傾向との関係を見たもので、気分を守りたい気持ちが働くというのは著者の解釈なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-procrastination-if-only-reflection-research-should-have",
+        "type": "あわせて読む",
+        "why": "「〜すべきだった」と良い方を考えると、次の計画の判断が速くなった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-if-only-reflection-research-downward"
+  },
+  {
+    "id": "research-night-waking-why-research-clock-watching",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Tang, Schmidt & Harvey, \"Sleeping with the enemy: Clock monitoring in the maintenance of insomnia\" (Journal of Behavior Therapy and Experimental Psychiatry, 2007)",
+    "sourceUrl": "https://doi.org/10.1016/j.jbtep.2005.07.004",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/night-waking-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "眠れない夜、つい時計を見ちゃう",
+        "body": "眠れないとき、時計を見て「あと何時間眠れる」と計算しがちだよね。でも、それがかえって眠りを遠ざけるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "時計を見る人と見ない人を比べた",
+        "body": "よく眠れる人30人と眠れない人30人に、眠ろうとする間に時計を見るか見ないかを指示して、心配の強さと寝つきを測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "時計を見ると心配が増えた",
+        "body": "時計を見た人は、寝る前の心配が多く、寝つくまでの時間も長かった。よく眠れる人でも同じだったよ。不眠症の38人の実験でも、時計を見ると寝つきを実際より長く感じやすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "夜中に起きたときの話ではない",
+        "body": "調べたのは寝つきの場面で、夜中に目が覚めた後に時計を見たらどうなるかを直接確かめた実験ではないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-trying-hard-to-sleep-awake-research-sleep-urgency",
+        "type": "あわせて読む",
+        "why": "眠ろうと焦る気持ちと寝つきの関係を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-night-waking-why-research-clock-watching"
+  },
+  {
+    "id": "speech-compliment-underestimate",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Zhao & Epley, \"Insufficiently complimentary?: Underestimating the positive impact of compliments creates a barrier to expressing them\" (Journal of Personality and Social Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.1037/pspa0000277",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "褒めたら、相手を気まずくさせる？",
+        "body": "「いいなと思ったけど、口に出したら変に思われそう」。そう考えて、褒め言葉を飲みこんだことはないかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9つの実験で、予想と実際を比べた",
+        "body": "参加者に本心からの褒め言葉を書いてもらい、受け取った人がどれくらいうれしいか、気まずいかを予想してもらった。それを受け取った人の実際の気持ちと比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "相手は思ったより喜んでいた",
+        "body": "褒める側は、相手のうれしさを低く、気まずさを高く見積もっていた。この読み違いが、褒めるのをためらう理由の一部になっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の褒め言葉での話",
+        "body": "調べたのは、本心から書いた褒め言葉を1回伝える場面。何度も褒めたときや、お世辞と受け取られたとき、関係が長く良くなるかはわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-compliment-underestimate"
+  },
+  {
+    "id": "digital-phantom-vibration",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Rothberg et al., \"Phantom vibration syndrome among medical staff: a cross sectional survey\" (BMJ, 2010)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.c6914",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "鳴っていないのに、スマホが震えた気がする",
+        "body": "ポケットがブルッとした気がして見たら、通知は何もない。そんな経験、あるよね。実はかなり多くの人に起きているらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "病院の職員176人にアンケート",
+        "body": "大学病院で、ポケベルや携帯電話を持ち歩く医師などの職員176人に、震えていないのに震えたと感じる「幻の振動」について聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "答えた人の68%が経験していた",
+        "body": "169人中115人（68%）が経験していた。胸ポケットに入れる人、長い時間持ち歩く人、振動モードをよく使う人ほど多かったよ。経験した人の39%は、振動を切るなどして止められた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの病院の、思い出しての回答",
+        "body": "1つの大学病院の医療職だけに聞いた調査で、ポケベルも含んでいる。今のスマホ利用者に同じくらい起きるか、なぜ起きるのかはわからない。止め方どうしの差もはっきりしなかったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-phantom-vibration"
+  },
+  {
     "id": "research-background-talk-distraction-why-research-changing-speech",
     "category": "集中力",
     "kind": "素朴な疑問",
@@ -6338,7 +6525,14 @@
         "body": "調べたのはふだんよく眠れる人で、不眠に悩む人ではないんだ。実験室での1つの実験なので、同じ結果がくり返し確かめられたかもまだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/sleep/#research-trying-hard-to-sleep-awake-research-sleep-urgency"
+    "webUrl": "https://seadice.win/evidence/sleep/#research-trying-hard-to-sleep-awake-research-sleep-urgency",
+    "links": [
+      {
+        "id": "research-night-waking-why-research-clock-watching",
+        "type": "あわせて読む",
+        "why": "時計を見ると寝る前の心配が増え、寝つきが長くなった実験"
+      }
+    ]
   },
   {
     "id": "dokugaku-read-recite-review-sheet-whole-vs-section",
