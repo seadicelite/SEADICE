@@ -1,5 +1,204 @@
 [
   {
+    "id": "research-background-talk-distraction-why-research-changing-speech",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Leist L et al., \"Irrelevant speech impairs serial recall of verbal but not spatial items in children and adults\" (Memory & Cognition, 2023)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-022-01359-2",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/background-talk-distraction-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "話し声があると覚えられないのはなぜ？",
+        "body": "隣で誰かがしゃべっていると、メモした番号がなかなか頭に入らないよね。これは「無関係な話し声の効果」と呼ばれて、長く研究されてきたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大人と小学生で比べた",
+        "body": "ドイツの研究で、大人83人と小学3年生81人に、絵で見せたものの名前や、画面の点の位置の順番を覚えてもらった。そのあいだ、無音・同じ音節のくり返し・次々に変わる音節を流したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "変わり続ける声が邪魔をする",
+        "body": "ものの名前の順番は、音節が次々に変わる声で成績が下がった。大人では同じ音節のくり返しは無音と差がなかったよ。子どもは大人より大きく落ちた。でも点の位置の順番では、話し声の影響は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本物の会話ではない",
+        "body": "流したのは意味のない音節で、実際のおしゃべりではない。場所を覚える作業も話し声で下がるとした昔の研究もあり、追試では結果がそろっていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-background-talk-distraction-why-research-own-name-cafe",
+        "type": "あわせて読む",
+        "why": "同じ問い。覚える成績が落ちる実験と、聞いていない声の意味まで脳が拾う実験"
+      },
+      {
+        "id": "dokugaku-study-place-time-log-sheet-background-music",
+        "type": "あわせて読む",
+        "why": "話し声が覚える力をじゃまする実験と、音楽や雑音が読解をじゃまするかの研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-background-talk-distraction-why-research-changing-speech"
+  },
+  {
+    "id": "research-background-talk-distraction-why-research-own-name-cafe",
+    "category": "集中力",
+    "kind": "研究紹介",
+    "themeColor": "#34D399",
+    "sourceLabel": "Brown A et al., \"Neurophysiological Evidence for Semantic Processing of Irrelevant Speech and Own-Name Detection in a Virtual Café\" (Journal of Neuroscience, 2023)",
+    "sourceUrl": "https://doi.org/10.1523/JNEUROSCI.1731-22.2023",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/background-talk-distraction-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "聞いていない声は耳に入らない？",
+        "body": "誰かと話しているとき、周りの声は聞き流しているつもりだよね。でも、騒がしい場所で自分の名前だけ聞こえる「カクテルパーティー効果」という話もあるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "仮想カフェで50人を測った",
+        "body": "仮想現実のカフェで、同じテーブルの人の話を聞いてもらった。そのあいだ奥の店員が注文を読み上げ、ときどき参加者の名前や意味のおかしい単語を混ぜたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "脳は名前を拾っていた",
+        "body": "聞く必要のない店員の声なのに、名前や変な単語が出ると脳波や皮膚の反応が変わった。脳は注意していない声からも意味を拾っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人は気づいていない",
+        "body": "反応は表に出ない「隠れた」もので、視線の動きとは結びついていなかった。仮想空間での50人の実験で、作業の成績がどう変わるかまでは別の話なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-background-talk-distraction-why-research-changing-speech",
+        "type": "あわせて読む",
+        "why": "同じ問い。覚える成績が落ちる実験と、聞いていない声の意味まで脳が拾う実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-background-talk-distraction-why-research-own-name-cafe"
+  },
+  {
+    "id": "research-doorway-forgetting-why-research-replication",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "McFadyen et al., \"Doorways do not always cause forgetting: a multimodal investigation\" (BMC Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.1186/s40359-021-00536-3",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/doorway-forgetting-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ドアをくぐると忘れる？",
+        "body": "部屋に入ったとたん「何しに来たんだっけ」となるのは、ドアをくぐったせい。そんな「ドアの効果」を示した実験が、これまでいくつも報告されてきたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つの方法で確かめ直した",
+        "body": "オーストラリアの研究チームが、VR、数を数えながらのVR、廊下を歩く動画、実際の廊下の4つの実験で、合わせて126人を調べ直したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ほとんどの条件で忘れなかった",
+        "body": "ドアを通っても、ほとんどの条件で物忘れは増えなかった。VRで数を数えながら進んだ条件だけ、記憶の取り違えが増えたんだ。頭がいっぱいのときに出やすいのかもしれない。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何が結果を分けたのか",
+        "body": "前の研究で効果が出て、今回出なかった理由ははっきりしない。課題が簡単すぎた可能性や、実験のやり方の細かな違いが考えられているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-two-rooms-study",
+        "type": "あわせて読む",
+        "why": "場所が変わると記憶はどうなるか。ドアで忘れる説と、部屋を変えると覚えやすい説"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-doorway-forgetting-why-research-replication"
+  },
+  {
+    "id": "color-pink-girls-culture",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Davis JTM et al., \"Cultural Components of Sex Differences in Color Preference\" (Child Development, 2021)",
+    "sourceUrl": "https://doi.org/10.1111/cdev.13528",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "女の子がピンク好きなのは生まれつき？",
+        "body": "女の子はピンク、男の子は青。おもちゃ売り場でもよく見る分け方だよね。でも、女の子がピンクを好むのは生まれつきなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つの地域の子ども232人",
+        "body": "ペルーのアマゾンの村、バヌアツの島の村、コンゴの狩猟採集の暮らしの子どもと、オーストラリアの大都市ブリスベンの子ども（4〜11歳、合わせて232人）に、ピンクと青のどちらが好きか指さしで選んでもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "男女の差は都会の子だけ",
+        "body": "世界の流行が届きにくい3つの村では、ピンクの好みに男女の差は見られなかった。差がはっきり出たのはブリスベンだけで、女の子がピンクを選び、男の子はピンクを避けていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一度きりの比べっこ",
+        "body": "調べたのは一度きりで、育ちの中で好みが変わる様子を追ったわけではない。現地では照明をそろえられず、色の見え方が少し違った可能性もある。大人の好みまではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-pink-girls-culture"
+  },
+  {
+    "id": "insight-sleep-nap-insight-problems",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Schönauer M et al., \"Sleep Does Not Promote Solving Classical Insight Problems and Magic Tricks\" (Frontiers in Human Neuroscience, 2018)",
+    "sourceUrl": "https://doi.org/10.3389/fnhum.2018.00072",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝て起きたら、解けなかった問題が解ける？",
+        "body": "行き詰まったら一度寝ると、起きたときに答えがひらめく。そんな話、聞いたことあるよね。2004年には、眠ったあとに隠れた法則に気づく人が2倍以上になった実験も報告されたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "なぞなぞと手品で77人",
+        "body": "ドイツの研究で、77人に有名なひらめき問題と、手品のタネ明かしに挑んでもらった。1回目と2回目のあいだを、3時間あけて昼寝する・3時間起きている・すぐ続ける、などの組に分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "寝ても解ける数は増えなかった",
+        "body": "昼寝をした組でも、解けた問題の数は増えなかった。「あっ、わかった」と急にひらめいた答えの数も変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一晩の眠りはまた別",
+        "body": "調べたのは3時間の昼寝で、夜にぐっすり眠った場合とは違う。行き詰まるまでの時間が短すぎたかもしれないと、研究チームも書いている。2004年の実験も、その後の追試では一部しか再現されていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "insight-sleep-onset-n1",
+        "type": "反対の結果",
+        "why": "同じ問い。3時間の昼寝では増えず、寝入りばなの浅い眠りでは近道に気づく人が増えた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-sleep-nap-insight-problems"
+  },
+  {
     "id": "kokoro-sns-scrolling-comparison-prevent-content-appraisal",
     "category": "スマホとSNS",
     "kind": "よくある説",
@@ -4027,6 +4226,11 @@
         "id": "kokoro-background-music-focus-preferred-music-boring-task",
         "type": "あわせて読む",
         "why": "読解では歌詞がじゃまになり、単調な作業では好きな曲で集中が続いた"
+      },
+      {
+        "id": "research-background-talk-distraction-why-research-changing-speech",
+        "type": "あわせて読む",
+        "why": "話し声が覚える力をじゃまする実験と、音楽や雑音が読解をじゃまするかの研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/music-focus/#dokugaku-study-place-time-log-sheet-background-music"
@@ -8606,6 +8810,11 @@
         "id": "insight-incubation-meta",
         "type": "あわせて読む",
         "why": "「いったん離れる」効果のまとめと、離れている間の浅い眠りを調べた1つの実験"
+      },
+      {
+        "id": "insight-sleep-nap-insight-problems",
+        "type": "反対の結果",
+        "why": "同じ問い。3時間の昼寝では増えず、寝入りばなの浅い眠りでは近道に気づく人が増えた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/insight/#insight-sleep-onset-n1"
@@ -19756,7 +19965,14 @@
     "articleUrl": "https://dokugaku.seadice.win/study-location-context-dependent-memory/",
     "articleSite": "独学の科学",
     "webUrl": "https://seadice.win/evidence/memory/#dokugaku-two-rooms-study",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "research-doorway-forgetting-why-research-replication",
+        "type": "あわせて読む",
+        "why": "場所が変わると記憶はどうなるか。ドアで忘れる説と、部屋を変えると覚えやすい説"
+      }
+    ]
   },
   {
     "id": "dokugaku-money-reward-undermining",
