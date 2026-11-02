@@ -9,7 +9,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 - [ ] 近いうちに | アプリ | Flutter Web ビルドの日本語フォント（NotoSansJP の .ttf）が p/ に47ファイル・計約181MB（p/ 全体303MB）ある。同じフォントが `fonts/` と `assets/assets/fonts/` に二重に入っているアプリ（rakuraku・lifeisrpg・drone/anki・boueki ほか）を、手元の `flutter build web` で重複なしにするか、使う字だけのサブセットにして削る — デプロイと読み込みを軽くする（9MBのファイルが9本）。クラウドからは動作確認できないので手元で（2026-10-30）
 - [ ] すぐ | アプリ | 通知de人生改善 1.2.0: シミュレータ（DeviceHub）か iPhone で、ホーム画面を長押し →「+」→ 通知de人生改善 で「すぐ始める」（小）と「テーマを選んで始める」（中）を置き、タップでそのテーマがすぐ始まるかを見て Claude に伝える（よければ ipa を書き出して提出の準備をする。課金なし）
-- [ ] すぐ | 記事 | 進化の研究（seadice-shinka.web.app、10-28公開）に shinka.seadice.win をつなぐ: Firebase コンソール → Hosting → seadice-shinka → カスタムドメインを追加 → 出た DNS レコードをドメインの管理画面に入れる。つながったら Claude に「shinka つながった」（トップのメディア欄・フッター・llms.txt に足す） — ドメインがないと検索とAIに正しい住所で載らないため（2026-10-28）
+- [ ] すぐ | 記事 | 進化の研究に shinka.seadice.win をつなぐ（11月の目標「メディア16種類」）: Firebase 側の登録は Claude が済ませた（2026-11-02）。残りは Cloudflare → seadice.win → DNS → レコードを追加 で「タイプ CNAME・名前 shinka・ターゲット seadice-shinka.web.app・プロキシは オフ（灰色の雲）」を入れるだけ。入れたら Claude に「shinka つながった」（証明書の発行を確かめ、トップのメディア欄・フッター・llms.txt・/goals/ に足す）
 - [ ] 審査の前 | アプリ | AIBOU の App Check を登録する: https://console.firebase.google.com/project/seadice-bohan-bbs/appcheck を開き、アプリ AIBOU（win.seadice.aibou）に App Attest を登録（Team ID が要る）→ Claude に「AIBOUのApp Checkできた」 — アプリを通さない書き込み（荒らし）を止めるため。Firestore での「適用（enforce）」は審査を通った後に Claude が頼む。匿名ログインは 10-27 に有効化済み（2026-10-27）
 - [ ] すぐ | アプリ | App Store アナリティクスで `ct=seadice` からのダウンロード数が多いアプリの上位5本を Claude に伝える — 既存アプリは伸びている数本に集中して、体験・ウィジェット・課金を入れる。Google Play の1本もこの中から選ぶ（2026-10-27）
 - [ ] 毎週 | アプリ | Firebase コンソール（seadiceweb）→ Firestore → feedback で、前の週に届いた要望・不具合（source が `{appId}-bug` なら不具合）を見て、Claude に伝える — 書き込み専用でルーティンからは読めない。課金した人の不具合を放っておくと星1と解約につながる（2026-10-27）
