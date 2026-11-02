@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-start-time-plan-procrastination-research-time-plan",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Milkman et al., \"Using implementation intentions prompts to enhance influenza vaccination rates\" (PNAS, 2011)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1103170108",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/start-time-plan-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「いつかやる」は、いつまでもやらない",
+        "body": "予定はあるのに後回し、ってよくあるよね。実は「何時にやるか」まで書くだけで、行動が変わるという実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "予防接種の案内に、書く欄をつけた",
+        "body": "アメリカの大きな会社が社内で開く無料のインフルエンザ予防接種で、社員に案内を送った。くじ引きで分けた一部の人には「接種する日付」や「日付と時刻」を書く欄をつけたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "時刻まで書くと4.2ポイントアップ",
+        "body": "案内だけの人の接種率は33.1%。日付と時刻を書く欄があると4.2ポイント高く、はっきりした差だった。日付だけの欄は1.5ポイント高かったけど、偶然の差と区別できなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの会社の、1回きりの行動",
+        "body": "調べたのは1つの会社の社員で、予防接種という1回で終わる行動だけ。欄に書いた人が本当にその時刻に行ったかや、勉強や運動のように何度も続ける行動でも同じかは、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "habit-implementation-intentions",
+        "type": "あわせて読む",
+        "why": "「いつ・どこで」を決める効果のまとめと、時刻を書くだけの大きな実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-start-time-plan-procrastination-research-time-plan"
+  },
+  {
+    "id": "research-keyword-mnemonic-vocabulary-how-research-keyword-retrieval",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Qu K et al., \"The facilitative effect of the keyword mnemonic on L2 vocabulary retrieval practice\" (Heliyon, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.heliyon.2024.e25212",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/keyword-mnemonic-vocabulary-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "語呂合わせで単語は覚えられる？",
+        "body": "英単語を語呂合わせで覚える人は多いよね。でも「語呂合わせはすぐ忘れる」という声もある。どう使えば残りやすいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "110人で4つの覚え方を比較",
+        "body": "中国の大学生110人が、知らない英単語20語を4つの方法で覚えた。眺めて覚え直す・2回テストする・用意された語呂合わせ＋2回テスト・自分で作った語呂合わせ＋2回テスト。後日テストを受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "語呂合わせ＋テストが強かった",
+        "body": "後日思い出せたのは、自分で作った語呂合わせ＋テストが平均11.4語、用意された語呂合わせ＋テストが9.3語、覚え直しが6.5語、テストだけが4.6語。語呂合わせ2つの差ははっきりしなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの大学、20語だけの実験",
+        "body": "1つの大学の学生で、女性が多かった。覚えたのは物の名前20語だけで、テストも2回に限った条件。もっと長い期間や、抽象的な単語でも同じかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#research-keyword-mnemonic-vocabulary-how-research-keyword-retrieval"
+  },
+  {
+    "id": "research-stressful-period-procrastination-recovery-research-depression-direction",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Zhang R et al., \"Directional Asymmetry Without Timescale Dependence: Longitudinal Associations Between Procrastination and Depressive Symptoms\" (Depression and Anxiety, 2026)",
+    "sourceUrl": "https://doi.org/10.1155/da/3056943",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/stressful-period-procrastination-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "落ち込むから先延ばしする？ その逆？",
+        "body": "気分が沈んでいると何も手につかない。でも先延ばしした後も落ち込むよね。どっちが先なんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生2,490人を3つの間隔で追跡",
+        "body": "中国の研究グループが、大学生の3つの調査（毎日・1か月ごと・半年ごと）をまとめて、先延ばしと落ち込みの症状のどちらが先に来るかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "先延ばし→落ち込み、が少しだけ",
+        "body": "どの間隔でも、先延ばしはその後の落ち込みの一部の症状（失敗した気持ち・食欲など）をわずかに強めていた。逆に、落ち込みが後の先延ばしを増やす影響はほとんど見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果はとても小さく、因果も未確定",
+        "body": "観察研究なので原因とは言い切れないし、効果も小さい。著者も「先延ばしを直せば落ち込みもよくなる」と考えるのは慎重に、と書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-work-better-under-pressure-procrastination-research-health-cohort",
+        "type": "あわせて読む",
+        "why": "先延ばしの後に落ち込みが増えるかを、別の国の大学生でも追った研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-stressful-period-procrastination-recovery-research-depression-direction"
+  },
+  {
+    "id": "appetite-warm-milk-before-bed-sleep",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Komada, Okajima & Kuwata, \"The Effects of Milk and Dairy Products on Sleep: A Systematic Review\" (International Journal of Environmental Research and Public Health, 2020)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph17249440",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る前のホットミルクで、ぐっすり眠れる？",
+        "body": "眠れない夜は温かい牛乳、ってよく聞くよね。牛乳のトリプトファンが眠りのホルモンの材料になるから、という説明もセットで語られることが多いんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "牛乳と睡眠の研究14本を整理",
+        "body": "2020年の系統的レビューが、1972〜2019年の牛乳・乳製品と睡眠の研究14本をまとめた。ランダム化比較試験が8本。対象は高齢者・幼児・子ども・大学生を含む大人とばらばらだったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "結果は混ざっている",
+        "body": "トリプトファンを増やしたミルクで赤ちゃんの寝つきが早まった研究がある一方、高齢者が夜に牛乳を飲んだ研究では結果がそろわなかった。著者は「乳製品を含むバランスのよい食事」が眠りによさそう、とまとめているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "牛乳1杯だけの効果は分けにくい",
+        "body": "ホットミルクの研究は麦芽飲料を混ぜたものなどで、牛乳だけの効果は分けにくい。著者自身も、人数の少なさと研究の質の低さで結論は限られると書いているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-warm-milk-before-bed-sleep"
+  },
+  {
+    "id": "music-pleasure-dopamine-levodopa",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Ferreri et al., \"Dopamine modulates the reward experiences elicited by music\" (PNAS, 2019)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1811878116",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "好きな曲で気持ちよくなるのは、脳のドーパミンのせい？",
+        "body": "好きな曲を聴くとぞくっとする、ってあるよね。食べ物やごほうびと同じ脳のしくみが働いている、という話を聞くけど、本当に関係しているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "27人に3種類の薬で音楽を聴いてもらった",
+        "body": "スペインの研究グループの実験で、健康な27人が3回に分けて音楽を聴いた。ドーパミンを増やす薬、働きを弱める薬、偽の薬（乳糖）のどれを飲んだかは、本人にも実験者にも伏せたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ドーパミンで、音楽の楽しさが上下した",
+        "body": "偽の薬と比べて、ドーパミンを増やす薬では音楽の気持ちよさと「もっと聴きたい」反応が強まり、弱める薬では両方が下がった。ドーパミンが音楽の楽しさに関わっていることを、薬で直接確かめた研究らしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "27人の実験室での話",
+        "body": "人数は27人で、薬を飲んで実験室で聴いた条件。ふだんの生活で曲を聴くときの脳の中を測ったわけではないし、別の人たちで同じ結果が出るかも、まだ確かめが必要だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-pleasure-dopamine-levodopa"
+  },
+  {
     "id": "dokugaku-why-adult-pronunciation-accent-stays-japanese-rl",
     "category": "言葉と外国語",
     "kind": "よくある説",
@@ -420,7 +600,14 @@
         "body": "観察研究なので、先延ばしが不調を生んだとは言えない。結びつきは小さく、測っていない性格の違いで説明できる可能性を著者自身が挙げているよ。スウェーデンの大学生だけの話でもあるんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/procrastination/#research-work-better-under-pressure-procrastination-research-health-cohort"
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-work-better-under-pressure-procrastination-research-health-cohort",
+    "links": [
+      {
+        "id": "research-stressful-period-procrastination-recovery-research-depression-direction",
+        "type": "あわせて読む",
+        "why": "中国の大学生でも、先延ばしの後に落ち込みが少し増えていた"
+      }
+    ]
   },
   {
     "id": "research-small-rewards-habit-research-rewards-intrinsic-motivation",
@@ -12306,6 +12493,11 @@
         "id": "dokugaku-adult-relearning-plan-sheet-public-goal",
         "type": "あわせて読む",
         "why": "目標を決める効果と、「もし〜したら」と実行の計画まで決める効果"
+      },
+      {
+        "id": "research-start-time-plan-procrastination-research-time-plan",
+        "type": "あわせて読む",
+        "why": "「いつ・どこで」を決める効果を、時刻を書くだけの大きな実験で確かめた"
       }
     ]
   },
