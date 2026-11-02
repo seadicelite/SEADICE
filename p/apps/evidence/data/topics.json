@@ -1,5 +1,199 @@
 [
   {
+    "id": "research-stressful-period-procrastination-recovery-research-self-rated-health",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Sirois FM & Monaghan C, \"Procrastination, stress, and self-rated health: A multi-sample meta-analysis\" (British Journal of Health Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/bjhp.70099",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/stressful-period-procrastination-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "先延ばしは体にも悪い？",
+        "body": "「後回しにするとストレスで体調を崩す」って聞くことがあるよね。本当に健康と関係があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "36の調査・8,603人をまとめた",
+        "body": "先延ばしの研究者Siroisたちが、36のグループ（合計8,603人）のデータをまとめて、先延ばししやすさと「自分の健康をどう感じているか」の関係を分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "相関は0.21、ストレスが一部を説明",
+        "body": "先延ばししやすい人ほど、自分の健康をよくないと感じていた（r=0.21）。感じているストレスの影響を除くと関係は弱まったけど、残ったらしい。ストレスが一部を説明していると著者たちは書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが原因かは不明",
+        "body": "どれも1回きりの調査なので、先延ばしが体調を悪くしたのか、体調が悪いから先延ばしするのかはわからない。健康も本人の自己評価だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "procrastination-self-compassion",
+        "type": "あわせて読む",
+        "why": "同じ研究者が、先延ばしとストレスを自分への厳しさから調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-stressful-period-procrastination-recovery-research-self-rated-health"
+  },
+  {
+    "id": "research-hard-work-time-of-day-chronotype-research-night-owl-morning",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Facer-Childs ER et al., \"The effects of time of day and chronotype on cognitive and physical performance in healthy volunteers\" (Sports Medicine - Open, 2018)",
+    "sourceUrl": "https://doi.org/10.1186/s40798-018-0162-z",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/hard-work-time-of-day-chronotype-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "難しい仕事は午前中にやるべき？",
+        "body": "「頭が冴えている朝に大事な仕事を」ってよく言うよね。でも朝はぼんやりする人もいる。みんなに当てはまるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "朝型25人と夜型31人で比べた",
+        "body": "イギリスのバーミンガム大学で、平均21.8歳の健康な56人に、午後2時・夜8時・翌朝8時の3回、反応の速さ（注意力）や考える力の検査をしてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "朝8時は朝型が8.4%上",
+        "body": "朝8時の注意力の検査では、朝型の人が夜型の人より8.4%よい成績だった。考える力の検査でも朝は5.9%の差。夜型の人は、朝の注意力が夜より明らかに落ちていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "夜に夜型が勝つかは不明",
+        "body": "注意力と考える力では、夜に夜型が朝型を上回ったとは書かれていない（握力だけは夜8時に夜型が3.7%上）。参加者ははっきりした朝型か夜型の若い人だけで、中間タイプは入っていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-chronotype-genes-gwas",
+        "type": "あわせて読む",
+        "why": "朝型・夜型がどこまで生まれつきかを、遺伝子で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-hard-work-time-of-day-chronotype-research-night-owl-morning"
+  },
+  {
+    "id": "dokugaku-adult-relearning-starting-point-check-self-assessment",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Davis et al., \"Accuracy of physician self-assessment compared with observed measures of competence: a systematic review\" (JAMA, 2006)",
+    "sourceUrl": "https://doi.org/10.1001/jama.296.9.1094",
+    "studyType": "レビュー",
+    "articleUrl": "https://dokugaku.seadice.win/adult-relearning-starting-point-check/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分の実力は、自分が一番わかっている？",
+        "body": "「この分野はだいたいわかってる」って感覚、けっこう信じちゃうよね。学び直しで、どこを飛ばすか決めるときもそう。でも、その感覚って当たるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "医師の自己評価を調べた研究をまとめた",
+        "body": "2006年のレビューは、725本の論文から17本を選び、医師などの自己評価と、外から測った実際の力を比べた。比べた組み合わせは全部で20あったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "20のうち13は、ほぼ一致しなかった",
+        "body": "関係が弱い、ない、逆向きだったのが13。一致する方向だったのは7。力が低い人や自信が強い人ほど、自己評価が一番ずれていた研究もあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "医師の話で、研究の質もまちまち",
+        "body": "対象はイギリス・カナダ・アメリカなどの医師や研修医で、著者たち自身が研究の質は十分ではないと書いている。勉強の単元を自己評価する場面で同じかは、別に確かめる必要があるよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-dunning-kruger-artifact",
+        "type": "反対の結果",
+        "why": "力の低い人ほど自己評価がずれる、という見方には統計からの反論がある"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-adult-relearning-starting-point-check-self-assessment"
+  },
+  {
+    "id": "posture-pride-display-blind-athletes",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Tracy & Matsumoto, \"The spontaneous expression of pride and shame: evidence for biologically innate nonverbal displays\" (PNAS, 2008)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.0802686105",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "勝ったときのガッツポーズは、見て覚えたもの？",
+        "body": "勝った選手が胸を張ったり、両手を上げたりするよね。あれってテレビや周りの人を見てまねしたものなのかな。それとも、もともと体に備わっているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "目の見えない選手の勝ち負けを見た",
+        "body": "カナダとアメリカの研究者が、オリンピックとパラリンピックで勝った・負けた直後の選手のしぐさを調べた。目が見える選手、見えない選手、生まれつき見えない選手で比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "生まれつき見えない人も同じしぐさ",
+        "body": "30か国以上の選手で、生まれつき目が見えない人も、勝つと「誇り」のしぐさをしていた。人のまねで覚えたのではなく、生まれつきの反応かもしれないらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試合の場面だけの話",
+        "body": "見たのは大きな大会の勝ち負けの瞬間だけで、ふだんの生活でも同じかはわからない。観察の研究なので、「生まれつき」は結果と合う説明の1つで、確かめきれてはいないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-pride-display-blind-athletes"
+  },
+  {
+    "id": "speech-phone-vs-email-old-friend",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Kumar & Epley, \"It's surprisingly nice to hear you: Misunderstanding the impact of communication media can lead to suboptimal choices of how to connect with others\" (Journal of Experimental Psychology: General, 2021)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000962",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "久しぶりの友だち、電話だと気まずい？",
+        "body": "しばらく話していない友だちに連絡するなら、電話よりメールの方が気楽だよね。急に電話したら気まずくなりそうって思っちゃう。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "電話とメール、声と文字で比べた",
+        "body": "研究者たちが、昔の友だちに電話かメールで連絡してもらう実験と、知らない人とビデオ・声・文字のどれかで話してもらう実験をしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "声の方が仲は深まり、気まずさは同じ",
+        "body": "電話やビデオなど声が入るやり取りの方が、文字より相手とのつながりを強く感じた。気まずさは増えていなかった。なのに人は気まずさを心配して、文字を選びがちらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "誰でも、どんな話でも？",
+        "body": "実験の場面での結果で、相手との関係や話の中身によっては違うかもしれない。長い目で仲がどうなるかも、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-voice-vs-text-disagreement",
+        "type": "あわせて読む",
+        "why": "同じ研究室が、声で聞くと相手を人間らしく感じるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-phone-vs-email-old-friend"
+  },
+  {
     "id": "research-start-time-plan-procrastination-research-time-plan",
     "category": "先延ばし対策",
     "kind": "研究紹介",
@@ -4534,6 +4728,11 @@
         "id": "circadian-camping-natural-light",
         "type": "あわせて読む",
         "why": "夜型の体内時計は、光の浴び方で早められるという実験"
+      },
+      {
+        "id": "research-hard-work-time-of-day-chronotype-research-night-owl-morning",
+        "type": "あわせて読む",
+        "why": "朝型と夜型で、朝の注意力にどれだけ差が出るかを測った研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-chronotype-genes-gwas"
@@ -14786,6 +14985,11 @@
         "id": "procrastination-self-forgiveness",
         "type": "あわせて読む",
         "why": "自分を許す・思いやることが先延ばしを減らす理由がわかる"
+      },
+      {
+        "id": "research-stressful-period-procrastination-recovery-research-self-rated-health",
+        "type": "あわせて読む",
+        "why": "同じ研究者が、先延ばしと健康の感じ方を36の調査でまとめた研究"
       }
     ]
   },
@@ -30050,6 +30254,11 @@
         "id": "speech-mehrabian-7-percent",
         "type": "あわせて読む",
         "why": "「話の中身は7%」という有名な数字が、本当は何の実験だったか"
+      },
+      {
+        "id": "speech-phone-vs-email-old-friend",
+        "type": "あわせて読む",
+        "why": "同じ研究室が、昔の友だちに電話とメールのどちらで連絡するとよいかを調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/speaking/#speech-voice-vs-text-disagreement"
@@ -31100,6 +31309,11 @@
         "id": "replication-dunning-kruger-rational-model",
         "type": "反対の結果",
         "why": "約4000人ずつの追試では、点の低い人は答えの正しさを見分けにくかった"
+      },
+      {
+        "id": "dokugaku-adult-relearning-starting-point-check-self-assessment",
+        "type": "反対の結果",
+        "why": "医師の研究では、力の低い人ほど自己評価がずれていたという報告がある"
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/replication-dunning-kruger-artifact/"
