@@ -1,5 +1,183 @@
 [
   {
+    "id": "research-exam-score-low-after-studying-review-strategy-research-strategic-resource-use",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Chen et al., \"Real-world effectiveness of a social-psychological intervention translated from controlled trials to classrooms\" (npj Science of Learning, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41539-022-00135-w",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/exam-score-low-after-studying-review-strategy-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "試験前に「教材の使い方」を書く",
+        "body": "試験の前に、使う教材とその理由、いつどう使うかを書き出すオンラインの課題がある。アメリカのミシガン大学で、14クラス1万2,065人が自由に使えるようにして成績を追ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "使った人は2.17点高かった",
+        "body": "使った学生は、使わなかった学生より試験の平均点が2.17点（100点満点換算）高かった。入試の点をそろえて比べると1.65点。14クラス中13クラスでプラスだったらしい。"
+      },
+      {
+        "stage": "意外だったこと",
+        "title": "元の実験より効果は小さめ",
+        "body": "もとの2つのランダム化比較試験（計361人）では、成績が平均で3分の1段階上がっていた。大勢が自由に使う形に広げると、効果は小さくなったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "使った人がもともと熱心だった？",
+        "body": "使うかどうかは学生が自分で選んでいた。だから、もともと計画的な学生が使っただけ、という可能性は完全には消せないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-exam-score-low-after-studying-review-strategy-research-strategic-resource-use"
+  },
+  {
+    "id": "research-far-deadline-procrastination-why-research-effort-later",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Le Bouc R & Pessiglione M, \"A neuro-computational account of procrastination behavior\" (Nature Communications, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-022-33119-w",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/far-deadline-procrastination-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "明日やる方が楽に見えるのはなぜ？",
+        "body": "面倒な書類、「明日やればいいか」って思うよね。でも明日になっても同じくらい面倒なはず。なぜ先の自分なら楽にできる気がするんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "51人に今か明日かを選ばせた",
+        "body": "フランスの研究で、健康な大人51人に「今やるか明日やるか」を選ぶ課題をしてもらい、27人は脳の活動も測った。さらに10枚の書類を30日以内に書いて送ってもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "苦労だけが大きく割り引かれる",
+        "body": "先延ばしする人ほど、明日やる場合の苦労を大きく割り引いていた。ごほうびより苦労の方が大きく割り引かれて見えるから、あとが楽に見えるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数はまだ少なめ",
+        "body": "脳を測ったのは27人で、書類を返さなかった6人は一部の分析から外れている。このくせを変えれば先延ばしが減るかは、まだ確かめられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-far-deadline-procrastination-why-research-effort-later"
+  },
+  {
+    "id": "research-habit-goal-lower-after-missed-days-research-goal-failure",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Höpfner & Keith, \"Goal Missed, Self Hit: Goal-Setting, Goal-Failure, and Their Affective, Motivational, and Behavioral Consequences\" (Frontiers in Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.704790",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/habit-goal-lower-after-missed-days-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "高い目標に届かないと、どうなる？",
+        "body": "目標は高く具体的なほどいい、ってよく聞くよね。でも届かなかったときの心への影響は、あまり調べられてこなかったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "わざと届かない難しさにした",
+        "body": "ドイツの研究で86人に高い目標を出し、課題の難しさで「届いた組」と「届かなかった組」を作った。そのあと、次に解く課題を選んでもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "届かなかった人は易しい方へ",
+        "body": "届かなかった45人のうち40人（88.9%）が、ふつうの難しさの課題を選んだ。届いた組は63.4%が難しい課題を選んだ。届かなかった組は、気分や自尊心も届いた組より下がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の実験室の話",
+        "body": "調べたのはドイツの86人による1回きりのパズル課題。毎日の習慣で失敗が続いたときに同じことが起きるかは、この研究だけではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-goal-lower-after-missed-days-research-goal-failure"
+  },
+  {
+    "id": "weather-warm-day-mood-lausanne",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Bundo et al., \"How ambient temperature affects mood: an ecological momentary assessment study in Switzerland\" (Environmental Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1186/s12940-023-01003-9",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "暖かい日の方が、機嫌がいい？",
+        "body": "寒い日はなんだか気分が沈む、暖かいと機嫌がいい、って感じることあるよね。それって本当に気温のせいなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "906人が1週間、1日4回記録",
+        "body": "スイスのローザンヌの住民を長く追う研究で、906人が2015〜2017年に、1週間スマホで1日4回気分を記録。直前の最高気温と照らし合わせたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5度暖かいと、不機嫌な日が7%減った",
+        "body": "最高気温が5度上がるごとに、1日中気分が悪い確率が7%低かった。ただ日照時間をそろえると3%に縮み、差ははっきりしなくなった。日差しの効き目も混ざっているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "猛暑の日の話ではない",
+        "body": "期間中の気温の中央値は11.1度で、猛暑はほとんど入っていない。気温は街の1か所の観測所の値で、相関の研究なので気温が原因とまでは言えないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-sunny-life-satisfaction",
+        "type": "あわせて読む",
+        "why": "毎日の気分ではなく、晴れの日に答えた人生の満足度を調べた研究"
+      },
+      {
+        "id": "weather-social-media-sentiment",
+        "type": "あわせて読む",
+        "why": "SNSの投稿で、とても暑い日に言葉が沈むかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-warm-day-mood-lausanne"
+  },
+  {
+    "id": "laughter-funny-video-before-study",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Wang & Chen, \"Laugh before You Study: Does Watching Funny Videos before Study Facilitate Learning?\" (International Journal of Environmental Research and Public Health, 2022)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph19084434",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "勉強の前に笑うと、頭に入りやすい？",
+        "body": "勉強の前に面白い動画を見てから始めたら、気分よく覚えられそうだよね。それとも、ただの寄り道になっちゃうのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "小学5年生81人を2組に",
+        "body": "中国の小学5年生81人を2組に分けて、片方には面白い動画、もう片方にはふつうの動画を見せてから、岩石について学ぶ動画の授業を受けてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "応用問題は上、覚えた量は同じ",
+        "body": "面白い動画の組は、学んだことを使って考える問題の点が高かった。でも、覚えた量・やる気・満足度は差がなかった。授業のあとの気分は、むしろ下がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの短い授業",
+        "body": "1つの学校の81人で、短い授業1回の話。気分は自己申告だけで測っていた。ほかの年齢や教科、長い勉強でも同じかは、論文もまだわからないとしているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-funny-video-before-study"
+  },
+  {
     "id": "research-work-better-under-pressure-procrastination-research-health-cohort",
     "category": "先延ばし対策",
     "kind": "よくある説",
@@ -7880,6 +8058,11 @@
         "id": "weather-daily-mood",
         "type": "あわせて読む",
         "why": "天気と毎日の気分を調べた研究と、人生全体の満足度を調べた研究"
+      },
+      {
+        "id": "weather-warm-day-mood-lausanne",
+        "type": "あわせて読む",
+        "why": "晴れや暖かさと毎日の気分を、1日4回の記録で調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/#weather-sunny-life-satisfaction"
@@ -29041,6 +29224,11 @@
         "id": "bohan-heat-violent-crime",
         "type": "あわせて読む",
         "why": "暑さと言葉の次は、暑さと暴力犯罪の関係を83の研究でまとめたもの"
+      },
+      {
+        "id": "weather-warm-day-mood-lausanne",
+        "type": "あわせて読む",
+        "why": "ふつうの気温の範囲では、暖かい日ほど気分がよかった研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/weather-social-media-sentiment/"
