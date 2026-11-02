@@ -1,5 +1,394 @@
 [
   {
+    "id": "dokugaku-why-adult-pronunciation-accent-stays-japanese-rl",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Flege et al., \"Japanese adults can learn to produce English /r/ and /l/ accurately\" (Language and Speech, 1995)",
+    "sourceUrl": "https://doi.org/10.1177/002383099503800102",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/why-adult-pronunciation-accent-stays/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "日本人にLとRの発音は無理？",
+        "body": "大人になってから英語を始めた日本人は、LとRを正しく発音できるようにならない。そんなふうに言われることがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカ暮らし2年と21年",
+        "body": "アメリカに平均2年住んだ日本人12人と、平均21年住んだ日本人12人のLとRを、英語の母語話者に聞いてもらった研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "21年組は正しく聞き取られた",
+        "body": "2年組のLとRはよく聞き間違えられたけど、21年組のLとRは2択のテストで正しく聞き取られたらしい。21年組の12人中10人は、発音の評価が母語話者12人と同じ範囲に入ったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "英語の中で長く暮らした人の話",
+        "body": "12人ずつの少人数で、アメリカで長く英語を使ってきた人の結果。日本で独学する大人が同じように伸びるかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "lang-critical-period-age",
+        "type": "あわせて読む",
+        "why": "大人から始めた外国語がどこまで身につくかを、文法で大人数を調べた研究"
+      },
+      {
+        "id": "dokugaku-l-r-listening-practice-log-sheet-listen-to-speak",
+        "type": "あわせて読む",
+        "why": "こちらは長く暮らした人、あちらは聞き分けの練習でLとRの発音が変わるか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-adult-pronunciation-accent-stays-japanese-rl"
+  },
+  {
+    "id": "dokugaku-why-adult-pronunciation-accent-stays-accent-comprehension",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Munro & Derwing, \"Processing time, accent, and comprehensibility in the perception of native and foreign-accented speech\" (Language and Speech, 1995)",
+    "sourceUrl": "https://doi.org/10.1177/002383099503800305",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-adult-pronunciation-accent-stays/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "なまりが強いと伝わらない？",
+        "body": "英語を話すとき、なまりが強いと相手に伝わらないんじゃないかって心配になるよね。実はなまりと伝わりやすさは別物かもしれない。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "聞いて正しいかを判断",
+        "body": "英語の母語話者20人が、英語母語の10人と中国語母語の10人の英文を聞いて、内容が正しいかを判断した実験があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "時間に関係したのは「わかりやすさ」",
+        "body": "中国語なまりの文は、全体として判断に時間がかかった。ただ、なまりの強さそのものと時間には関係が見られず、時間がかかったのは「わかりにくい」と評価された発話だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い文での実験",
+        "body": "短い文を聞く実験室の結果で、聞き手は20人。実際の会話での伝わりやすさまで同じかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "lang-accent-impression",
+        "type": "あわせて読む",
+        "why": "なまりが伝わりやすさでなく、聞き手の印象をどう変えるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-adult-pronunciation-accent-stays-accent-comprehension"
+  },
+  {
+    "id": "dokugaku-l-r-listening-practice-log-sheet-listen-to-speak",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Bradlow et al., \"Training Japanese listeners to identify English /r/ and /l/: IV. Some effects of perceptual learning on speech production\" (The Journal of the Acoustical Society of America, 1997)",
+    "sourceUrl": "https://doi.org/10.1121/1.418276",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/l-r-listening-practice-log-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "聞く練習で、話す力も伸びる？",
+        "body": "発音を良くしたいなら、口を動かす練習をするしかない。そう思いがちだけど、聞き分けの練習だけで発音が変わることってあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "聞き分けだけを練習した日本人",
+        "body": "日本人の大人11人が、いろいろな声でLとRを聞き分ける練習を3〜4週間で45回受けた研究があるよ。発音の練習はしていなくて、練習の前と後に発音を録音したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "発音も聞き取られやすくなった",
+        "body": "全員の聞き分けが伸びて、知らない人の声にも広がった。訓練後の発音は英語の母語話者に「良くなった」と評価され、11人中7人はLとRの言い分けが前より正しく聞き取られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究室での集中的な訓練",
+        "body": "練習した人は11人だけで、伸びなかった人もいた（もともと上手だった2人など）。研究室で集中して練習した結果なので、独学で同じように発音が変わるかは確かめられていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-japanese-hard-to-hear-l-and-r-adult-training",
+        "type": "あわせて読む",
+        "why": "同じ練習で、聞き分けの正答率がどれだけ上がり3か月後も残ったか"
+      },
+      {
+        "id": "dokugaku-why-adult-pronunciation-accent-stays-japanese-rl",
+        "type": "あわせて読む",
+        "why": "こちらは練習の効果、あちらはアメリカで長く暮らした人のLとRの発音"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-l-r-listening-practice-log-sheet-listen-to-speak"
+  },
+  {
+    "id": "sleep-bedroom-ventilation-co2",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Strøm-Tejsen et al., \"The effects of bedroom air quality on sleep and next-day performance\" (Indoor Air, 2016)",
+    "sourceUrl": "https://doi.org/10.1111/ina.12254",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝室の換気で、眠りは変わる？",
+        "body": "冬は窓を閉め切って寝ることが多いよね。でも朝、部屋の空気がこもっている感じがする。寝ている間の空気って、眠りに関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "学生寮で1週間ずつ比べた",
+        "body": "学生寮の1人部屋で換気をする週としない週を1週間ずつ順番を入れ替えて比べたよ。最初は窓の開け閉めで14人、次は音のしない換気扇で16人。眠りは腕時計型の機械で測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "空気が入れ替わると、よく眠れた",
+        "body": "二酸化炭素の平均は換気なしで約2400〜2600ppm、換気ありで約660〜840ppm。換気した週は測った眠りの質が良く、翌日の眠気が少なく、集中しやすいと答え、論理のテストの成績も良かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "少人数の学生の話",
+        "body": "2つの実験で14人と16人、学生寮の1人部屋での結果。効いたのが二酸化炭素なのか、空気の他の成分なのかもわからない。家族と寝る家や、子ども・高齢者で同じかは確かめられていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-stuffy-room-ventilation-focus-co2-office",
+        "type": "あわせて読む",
+        "why": "こちらは寝ている間の換気、あちらは起きて作業するときのこもった空気を調べた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-bedroom-ventilation-co2"
+  },
+  {
+    "id": "aging-fidgeting-sitting-mortality",
+    "category": "運動と老化",
+    "kind": "よくある説",
+    "themeColor": "#B45309",
+    "sourceLabel": "Hagger-Johnson et al., \"Sitting Time, Fidgeting, and All-Cause Mortality in the UK Women's Cohort Study\" (American Journal of Preventive Medicine, 2016)",
+    "sourceUrl": "https://doi.org/10.1016/j.amepre.2015.06.025",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "そわそわ体を動かすのは体にいい？",
+        "body": "貧乏ゆすりのように、じっとしていられず体を動かすのは行儀が悪いと言われがち。でも「実は健康にいい」という話も聞くよね。座りっぱなしの害を減らしてくれるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イギリスの女性1万2千人を追跡",
+        "body": "37〜78歳のイギリスの女性12,778人に、1日に座る時間と、ふだん体をそわそわ動かす度合い（座っているときに限らない）を答えてもらい、平均12年間追跡した研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "そわそわ少ない人だけ、座りすぎで高め",
+        "body": "体をあまり動かさない人では、1日7時間以上座る人は5時間未満の人より亡くなるリスクが約30%高かった。よく動かす人や中くらいの人では、長く座ってもリスクは高くならなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関係が見えただけ",
+        "body": "女性だけの観察研究で、座る時間もそわそわも本人の答え。30%高いという差も誤差の幅が大きい。貧乏ゆすりそのものを測ったわけではなく、寿命をのばすという因果もわからない。研究者も別の研究での確認が必要だと書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-sitting-time-activity-mortality",
+        "type": "あわせて読む",
+        "why": "こちらは座りすぎと「そわそわ」、あちらは座りすぎと運動の量を調べた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-fidgeting-sitting-mortality"
+  },
+  {
+    "id": "research-exam-score-low-after-studying-review-strategy-research-strategic-resource-use",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Chen et al., \"Real-world effectiveness of a social-psychological intervention translated from controlled trials to classrooms\" (npj Science of Learning, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41539-022-00135-w",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/exam-score-low-after-studying-review-strategy-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "試験前に「教材の使い方」を書く",
+        "body": "試験の前に、使う教材とその理由、いつどう使うかを書き出すオンラインの課題がある。アメリカのミシガン大学で、14クラス1万2,065人が自由に使えるようにして成績を追ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "使った人は2.17点高かった",
+        "body": "使った学生は、使わなかった学生より試験の平均点が2.17点（100点満点換算）高かった。入試の点をそろえて比べると1.65点。14クラス中13クラスでプラスだったらしい。"
+      },
+      {
+        "stage": "意外だったこと",
+        "title": "元の実験より効果は小さめ",
+        "body": "もとの2つのランダム化比較試験（計361人）では、成績が平均で3分の1段階上がっていた。大勢が自由に使う形に広げると、効果は小さくなったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "使った人がもともと熱心だった？",
+        "body": "使うかどうかは学生が自分で選んでいた。だから、もともと計画的な学生が使っただけ、という可能性は完全には消せないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-exam-score-low-after-studying-review-strategy-research-strategic-resource-use"
+  },
+  {
+    "id": "research-far-deadline-procrastination-why-research-effort-later",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Le Bouc R & Pessiglione M, \"A neuro-computational account of procrastination behavior\" (Nature Communications, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-022-33119-w",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/far-deadline-procrastination-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "明日やる方が楽に見えるのはなぜ？",
+        "body": "面倒な書類、「明日やればいいか」って思うよね。でも明日になっても同じくらい面倒なはず。なぜ先の自分なら楽にできる気がするんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "51人に今か明日かを選ばせた",
+        "body": "フランスの研究で、健康な大人51人に「今やるか明日やるか」を選ぶ課題をしてもらい、27人は脳の活動も測った。さらに10枚の書類を30日以内に書いて送ってもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "苦労だけが大きく割り引かれる",
+        "body": "先延ばしする人ほど、明日やる場合の苦労を大きく割り引いていた。ごほうびより苦労の方が大きく割り引かれて見えるから、あとが楽に見えるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数はまだ少なめ",
+        "body": "脳を測ったのは27人で、書類を返さなかった6人は一部の分析から外れている。このくせを変えれば先延ばしが減るかは、まだ確かめられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-far-deadline-procrastination-why-research-effort-later"
+  },
+  {
+    "id": "research-habit-goal-lower-after-missed-days-research-goal-failure",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Höpfner & Keith, \"Goal Missed, Self Hit: Goal-Setting, Goal-Failure, and Their Affective, Motivational, and Behavioral Consequences\" (Frontiers in Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.704790",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/habit-goal-lower-after-missed-days-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "高い目標に届かないと、どうなる？",
+        "body": "目標は高く具体的なほどいい、ってよく聞くよね。でも届かなかったときの心への影響は、あまり調べられてこなかったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "わざと届かない難しさにした",
+        "body": "ドイツの研究で86人に高い目標を出し、課題の難しさで「届いた組」と「届かなかった組」を作った。そのあと、次に解く課題を選んでもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "届かなかった人は易しい方へ",
+        "body": "届かなかった45人のうち40人（88.9%）が、ふつうの難しさの課題を選んだ。届いた組は63.4%が難しい課題を選んだ。届かなかった組は、気分や自尊心も届いた組より下がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の実験室の話",
+        "body": "調べたのはドイツの86人による1回きりのパズル課題。毎日の習慣で失敗が続いたときに同じことが起きるかは、この研究だけではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-goal-lower-after-missed-days-research-goal-failure"
+  },
+  {
+    "id": "weather-warm-day-mood-lausanne",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Bundo et al., \"How ambient temperature affects mood: an ecological momentary assessment study in Switzerland\" (Environmental Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1186/s12940-023-01003-9",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "暖かい日の方が、機嫌がいい？",
+        "body": "寒い日はなんだか気分が沈む、暖かいと機嫌がいい、って感じることあるよね。それって本当に気温のせいなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "906人が1週間、1日4回記録",
+        "body": "スイスのローザンヌの住民を長く追う研究で、906人が2015〜2017年に、1週間スマホで1日4回気分を記録。直前の最高気温と照らし合わせたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5度暖かいと、不機嫌な日が7%減った",
+        "body": "最高気温が5度上がるごとに、1日中気分が悪い確率が7%低かった。ただ日照時間をそろえると3%に縮み、差ははっきりしなくなった。日差しの効き目も混ざっているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "猛暑の日の話ではない",
+        "body": "期間中の気温の中央値は11.1度で、猛暑はほとんど入っていない。気温は街の1か所の観測所の値で、相関の研究なので気温が原因とまでは言えないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-sunny-life-satisfaction",
+        "type": "あわせて読む",
+        "why": "毎日の気分ではなく、晴れの日に答えた人生の満足度を調べた研究"
+      },
+      {
+        "id": "weather-social-media-sentiment",
+        "type": "あわせて読む",
+        "why": "SNSの投稿で、とても暑い日に言葉が沈むかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-warm-day-mood-lausanne"
+  },
+  {
+    "id": "laughter-funny-video-before-study",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Wang & Chen, \"Laugh before You Study: Does Watching Funny Videos before Study Facilitate Learning?\" (International Journal of Environmental Research and Public Health, 2022)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph19084434",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "勉強の前に笑うと、頭に入りやすい？",
+        "body": "勉強の前に面白い動画を見てから始めたら、気分よく覚えられそうだよね。それとも、ただの寄り道になっちゃうのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "小学5年生81人を2組に",
+        "body": "中国の小学5年生81人を2組に分けて、片方には面白い動画、もう片方にはふつうの動画を見せてから、岩石について学ぶ動画の授業を受けてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "応用問題は上、覚えた量は同じ",
+        "body": "面白い動画の組は、学んだことを使って考える問題の点が高かった。でも、覚えた量・やる気・満足度は差がなかった。授業のあとの気分は、むしろ下がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの短い授業",
+        "body": "1つの学校の81人で、短い授業1回の話。気分は自己申告だけで測っていた。ほかの年齢や教科、長い勉強でも同じかは、論文もまだわからないとしているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-funny-video-before-study"
+  },
+  {
     "id": "research-work-better-under-pressure-procrastination-research-health-cohort",
     "category": "先延ばし対策",
     "kind": "よくある説",
@@ -1516,7 +1905,14 @@
         "body": "練習した人は11人だけで、3か月後に戻ってきたのは9人。伸び方は人によって差があった。実験室で決まった単語を聞き分ける練習なので、独学やふだんの会話でも同じだけ伸びるかはわかっていないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-japanese-hard-to-hear-l-and-r-adult-training"
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-japanese-hard-to-hear-l-and-r-adult-training",
+    "links": [
+      {
+        "id": "dokugaku-l-r-listening-practice-log-sheet-listen-to-speak",
+        "type": "あわせて読む",
+        "why": "同じ練習で、話すときのLとRの発音も良くなったかを調べた研究"
+      }
+    ]
   },
   {
     "id": "kokoro-sns-friends-few-to-rely-on-support-clique",
@@ -2681,6 +3077,11 @@
         "id": "aging-weekend-warrior-mortality",
         "type": "あわせて読む",
         "why": "こちらは座る時間と運動量、あちらは運動を週末にまとめても寿命と関係するか"
+      },
+      {
+        "id": "aging-fidgeting-sitting-mortality",
+        "type": "あわせて読む",
+        "why": "座りすぎの害が、ふだん体をそわそわ動かす人では見られなかった研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-sitting-time-activity-mortality"
@@ -7880,6 +8281,11 @@
         "id": "weather-daily-mood",
         "type": "あわせて読む",
         "why": "天気と毎日の気分を調べた研究と、人生全体の満足度を調べた研究"
+      },
+      {
+        "id": "weather-warm-day-mood-lausanne",
+        "type": "あわせて読む",
+        "why": "晴れや暖かさと毎日の気分を、1日4回の記録で調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/#weather-sunny-life-satisfaction"
@@ -8806,6 +9212,11 @@
         "id": "dokugaku-stale-air-study-room-ventilation-pure-co2",
         "type": "反対の結果",
         "why": "二酸化炭素だけを足した条件で、こちらは差がなく、あちらは点が下がった"
+      },
+      {
+        "id": "sleep-bedroom-ventilation-co2",
+        "type": "あわせて読む",
+        "why": "寝ている間の寝室の換気が、眠りと翌日の頭に関係するかを調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/focus/#kokoro-stuffy-room-ventilation-focus-co2-office"
@@ -29041,6 +29452,11 @@
         "id": "bohan-heat-violent-crime",
         "type": "あわせて読む",
         "why": "暑さと言葉の次は、暑さと暴力犯罪の関係を83の研究でまとめたもの"
+      },
+      {
+        "id": "weather-warm-day-mood-lausanne",
+        "type": "あわせて読む",
+        "why": "ふつうの気温の範囲では、暖かい日ほど気分がよかった研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/weather-social-media-sentiment/"
@@ -29729,6 +30145,11 @@
         "id": "dokugaku-forgotten-language-relearning-permastore",
         "type": "あわせて読む",
         "why": "大人になってから学んだ語学が、何十年たってどれだけ残るかを調べた研究"
+      },
+      {
+        "id": "dokugaku-why-adult-pronunciation-accent-stays-japanese-rl",
+        "type": "あわせて読む",
+        "why": "大人になってから学んでも、LとRの発音が母語話者並みになった日本人の研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/language-learning/lang-critical-period-age/"
@@ -29927,6 +30348,11 @@
         "id": "ai-detector-nonnative-bias",
         "type": "あわせて読む",
         "why": "母語でない人の英語が、AI判定ツールでも不利に扱われていたという研究"
+      },
+      {
+        "id": "dokugaku-why-adult-pronunciation-accent-stays-accent-comprehension",
+        "type": "あわせて読む",
+        "why": "なまりの強さと、実際の伝わりやすさは別物かを調べた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/language-learning/#lang-accent-impression"
