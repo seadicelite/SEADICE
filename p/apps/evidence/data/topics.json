@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-first-night-effect-sleep-why-research-night-watch",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Tamaki M et al., \"Night Watch in One Brain Hemisphere during Sleep Associated with the First-Night Effect in Humans\" (Current Biology, 2016)",
+    "sourceUrl": "https://doi.org/10.1016/j.cub.2016.02.063",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/first-night-effect-sleep-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "旅行先だと眠れないのはなぜ？",
+        "body": "ホテルの1晩目って、なぜか寝つけないし何度も目が覚めるよね。睡眠の研究では「初夜効果」と呼ばれて、昔から知られているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "35人の脳を2回測った",
+        "body": "アメリカのブラウン大学のグループが、若くて健康な計35人に、1週間ほどあけて2回、検査室で眠ってもらい、深い眠りの間の脳の左右を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1回目だけ左側が浅く眠る",
+        "body": "1回目は脳の左側の一部が右側より浅く眠り、聞き慣れない音に強く反応した。音で目覚めて合図するのも速かったらしい。2回目には左右差は消えていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "少人数の、検査室での話",
+        "body": "35人を3つの実験に分けていて、1つの実験は十数人。調べたのは検査室で、最初の眠りのひと区切りだけ。左側だけが見張り役になる理由は、著者たちもまだ推測だと書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-first-night-effect-sleep-why-research-night-watch"
+  },
+  {
+    "id": "research-habit-goal-lower-after-missed-days-research-adaptive-goals",
+    "category": "習慣形成",
+    "kind": "研究紹介",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Adams et al., \"Adaptive Goals and Reinforcement Timing to Increase Physical Activity in Adults: A Factorial Randomized Trial\" (American Journal of Preventive Medicine, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.amepre.2021.09.014",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/habit-goal-lower-after-missed-days-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "目標は一度決めたら下げない？",
+        "body": "目標を下げるのは甘え、と感じる人は多いよね。じゃあ、毎日の実績に合わせて目標を上げ下げしたらどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "512人を1年間追った",
+        "body": "アリゾナ州で運動不足の18〜60歳の512人を、「1日30分を週5日以上」の固定の目標と、直近9日分の記録から1日3〜60分で毎日変わる目標に分け、1年間、歩く量を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "運動する日が増えやすかった",
+        "body": "毎日変わる目標の組は、少しでも運動した日の増え方が大きかった（オッズ比2.34と1.66）。ただ、1日の運動の分数の伸びは、目標の決め方では差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "アリゾナの、体重多めの人が中心",
+        "body": "参加者は体重多めの人が中心で、1つの地域だけ。ごほうびの出し方の条件も組み合わせていて、本人も研究者もどの組か知っていた。運動以外の習慣でも同じかは、まだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-habit-goal-lower-after-missed-days-research-goal-failure",
+        "type": "あわせて読む",
+        "why": "高すぎる目標に届かないと易しい方へ流れる、という実験室の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-goal-lower-after-missed-days-research-adaptive-goals"
+  },
+  {
+    "id": "dokugaku-ai-study-prompt-templates-ai-tutor-rct",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Kestin et al., \"AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-97652-6",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/ai-study-prompt-templates/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIの家庭教師で、本当に学べる？",
+        "body": "AIに聞けば答えはすぐ出るよね。でも、それで力がつくかは別の話。授業とAIの家庭教師で、どっちがよく学べるかを比べた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "物理の授業の194人で比べた",
+        "body": "米国ハーバード大学の物理の授業で、194人が続けて2回の授業のうち1回を教室の参加型の授業、もう1回をAIの家庭教師で学んだ。AIには先生が書いた解き方を渡し、1問ずつ導くように作ってあった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "学んだ量が2倍以上に",
+        "body": "AIで学んだときの方が、テストで伸びた量（中央値）が授業の2倍以上だった。かかった時間の中央値は49分で、授業の60分より短かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふつうのチャットAIでも同じ？",
+        "body": "使ったのは先生が問題ごとに作り込んだAIで、ふつうのチャットAIとは違う。対象は1つの大学の2回の授業だけで、著者たちも、どんな場面でも授業より上とは考えていないと書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-ai-study-prompt-templates-ai-tutor-rct"
+  },
+  {
+    "id": "posture-weather-back-pain-onset",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Beilken et al., \"Acute Low Back Pain? Do Not Blame the Weather-A Case-Crossover Study\" (Pain Medicine, 2017)",
+    "sourceUrl": "https://doi.org/10.1093/pm/pnw126",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "雨の日や低気圧で、腰痛になる？",
+        "body": "「天気が崩れると腰が痛くなる」ってよく聞くよね。じゃあ、急な腰痛が起きる前の日の天気には、何か特徴があるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "急な腰痛の981人の天気を比べた",
+        "body": "オーストラリアのシドニーで、急な腰痛でかかりつけの診療所に来た981人について、痛み始める前日の天気を、その1週間前・1か月前の天気と比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "雨・湿度・気圧とは関係がなかった",
+        "body": "雨の量・湿度・風・気圧は、腰痛の起こりやすさと関係がなかった。4つの分析のうち1つだけ、気温が高いとわずかに起こりやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "痛み始めの話で、持病の痛みは別",
+        "body": "調べたのは急な腰痛が始まるかどうかで、もともとある痛みが天気で強まるかではない。シドニー1か所の研究で、天気は気象台の記録を使っていて、本人がいた場所の天気ではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-pain-humidity",
+        "type": "反対の結果",
+        "why": "関節などの持病の痛みでは、湿気や低い気圧と小さな関係が見られた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-weather-back-pain-onset"
+  },
+  {
+    "id": "light-jet-lag-east-west-baseball",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Song et al., \"How jet lag impairs Major League Baseball performance\" (PNAS, 2017)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1608847114",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "時差ボケは、東へ行く方がつらい？",
+        "body": "ハワイ帰りより、ヨーロッパ帰りの方がきつい、なんて話を聞くよね。行く向きで時差ボケの重さは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大リーグ20年分・4万6535試合",
+        "body": "アメリカの研究グループが、1992〜2011年の大リーグの試合を使い、2時間以上の時差がある移動の後のチームの成績を、東向きと西向きで比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "影響は東向きの後に目立った",
+        "body": "成績への影響は主に東へ移動した後に見られ、西向きの後はかなり限られていた。人の体内時計は24時間より少し長いので、それと合う結果だとしている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "記録から見た話で、選手の体は測っていない",
+        "body": "試合の記録を分析した研究で、選手の眠りや体内時計を測ったわけではない。移動の時間も「前の試合の直後に動いた」と仮定していて、一般の旅行者にも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#light-jet-lag-east-west-baseball"
+  },
+  {
     "id": "research-stressful-period-procrastination-recovery-research-self-rated-health",
     "category": "先延ばし対策",
     "kind": "研究紹介",
@@ -684,7 +864,14 @@
         "body": "調べたのはドイツの86人による1回きりのパズル課題。毎日の習慣で失敗が続いたときに同じことが起きるかは、この研究だけではわからないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/habits/#research-habit-goal-lower-after-missed-days-research-goal-failure"
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-goal-lower-after-missed-days-research-goal-failure",
+    "links": [
+      {
+        "id": "research-habit-goal-lower-after-missed-days-research-adaptive-goals",
+        "type": "あわせて読む",
+        "why": "実績に合わせて毎日変わる目標を、1年間のくじ引きの試験で試した研究"
+      }
+    ]
   },
   {
     "id": "weather-warm-day-mood-lausanne",
@@ -29892,6 +30079,11 @@
         "id": "japan-weather-headache",
         "type": "あわせて読む",
         "why": "関節の痛みではなく片頭痛と気圧の関係を、日本の28人の日記で調べた研究"
+      },
+      {
+        "id": "posture-weather-back-pain-onset",
+        "type": "反対の結果",
+        "why": "急な腰痛の起こり始めでは、雨・湿度・気圧との関係が見られなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/weather-pain-humidity/"
