@@ -164,7 +164,7 @@ def main():
             {"@type": "ListItem", "position": 1, "name": "HOME", "item": "https://seadice.win/"},
             {"@type": "ListItem", "position": 2, "name": "アプリ一覧", "item": "https://seadice.win/apps/"}]}]}
     count = len(apps)
-    desc = f"SEADICE（シーダイス）がApp Storeで公開しているiPhoneアプリ{count}本の一覧。心とメンタル・習慣・学び・暮らしのアプリを、すべて無料・広告なしで提供しています。"
+    desc = f"SEADICE（シーダイス）がApp Storeで公開しているiPhoneアプリ{count}本の一覧。心とメンタル・習慣・学び・暮らしのアプリを、広告なしで提供しています（基本の機能は無料）。"
     out = TEMPLATE.format(count=count, desc=desc, ld=json.dumps(ld, ensure_ascii=False),
                           sections="\n\n".join(sections), year=date.today().year)
     OUT.write_text(out, encoding="utf-8")
@@ -241,7 +241,7 @@ footer a{{text-decoration:none;margin:0 6px}}
   <p class="label">Apps</p>
   <h1>iPhoneアプリ一覧</h1>
   <p class="lead"><strong>SEADICE（シーダイス）は、App StoreでiPhoneアプリを{count}本公開しています。</strong>夜更かし・先延ばし・SNS疲れ・片付けなど、暮らしの「ちょっと困った」に効くアプリです。</p>
-  <ul class="facts"><li>すべて無料</li><li>広告なし</li><li>iPhone・iPad対応</li></ul>
+  <ul class="facts"><li>基本の機能は無料</li><li>広告なし</li><li>iPhone・iPad対応</li></ul>
   <a class="series" href="/evidence-series/"><img src="/icons/evidence-mark.webp" width="40" height="40" alt=""><span><strong>EVIDENCEシリーズ｜研究にもとづくアプリ</strong><span>機能のもとになった論文と解説記事を公開しているアプリをまとめて見る</span></span></a>
 
 {sections}
