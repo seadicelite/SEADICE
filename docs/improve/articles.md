@@ -45,9 +45,11 @@ docs/writing.md
 - 記事の中身の書き換え、記事の統合・削除・noindex
 
 ## 次にやること
+1. **ai.seadice.win の分野「Web・検索の変化」を続けるか決める（2026-12-31）**: 11-03に3本公開＋既存2本を移した。Search Console でこの5本のクリックが出ているか、月1回のAIへの質問（「検索がAI記事だらけなのはなぜ」「AI要約でブログのアクセスが減った」）で ai.seadice.win が出るかを見る。どちらもなければ増やさない。出ていれば残りのマス（立て直す・起きた/知るの2本目）を埋める
 1. **日誌（daily-YYYY-MM-DD）の扱いを決める**: 6件が sitemap・blog 一覧にある。検索から外す（noindex＋sitemap 除外）か残すかを、Search Console の表示回数を見て判断する（2026-11上旬のCSVと一緒に）
 
 ## やったこと
+- 2026-11-03: ai.seadice.win に分野「Web・検索の変化」を追加（AIでWeb自体に起きる変化を、読む人・サイトを持つ人の悩みとして書く）。3本公開（search-results-ai-written-articles・web-article-human-or-ai-how-to-trust・ai-overview-site-traffic-drop）、既存の ai-generated-web-content-share・ai-search-summary-accuracy を移した。目的は悩みの検索語での1位とAI検索の出典
 - 2026-10-28: 点検（blog 117。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemapのずれ0、内部リンク切れ0）。外部リンクは6本のみ（appsfinboard・techcrunch・apptweak・businessofapps 2・hottolink）で、環境から届かず HEAD は確かめられなかった。次にやることの一番上（日誌の扱い）は Search Console の数字待ちのため据え置き
 - 2026-10-21: 点検（blog 107。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemapのずれ0、題名の重複候補0、内部リンク切れ0。/tools/link-matta/ は firebase.json の301で bohan へ行くので切れではない）。検査を scripts/check_blog.py にした。次にやることの一番上（日誌の扱い）は Search Console の数字待ちのため据え置き
 - 2026-10-18: /about/ を短く書き直し（ユーザー「SEADICEについてのところを改善したい」「すっきり短く」）。冒頭をブランド（AI時代の問題・知る→解決する）に合わせ、表の重複（姿勢と運営の約束）をまとめ、訂正の節を編集方針に統合、メディア12件の説明を1行にそろえて AI時代のテーマから並べる。アプリ数47→48（本数は表の1か所だけに書く）。FAQ は重複の1問を外して5問、JSON-LD・meta・llms.txt 冒頭も同じ言葉に。トップの「4つの特徴」は誠実を先頭にし、古い「1テーマ1アプリ」を「AI時代の問題に」に替える
