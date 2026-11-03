@@ -872,12 +872,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seadice.win/tools/tokushu-sagi-sim/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://seadice.win/tools/shakkin-seiri-hikaku/</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -1185,12 +1179,6 @@
   </url>
   <url>
     <loc>https://seadice.win/tools/hina-doll/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://seadice.win/tools/koreisha-sagi-quest100/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
