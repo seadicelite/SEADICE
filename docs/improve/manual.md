@@ -7,6 +7,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
+- [ ] 2026-12-01ごろ | EVIDENCE | Search Console（bohan.seadice.win）で、投資詐欺の記事（/sns-investment-scam-line/）・ロマンス詐欺の記事（/romance-scam-matching-app/）・詐欺かもチェックの、「ロマンス詐欺 見分け方」「投資詐欺 見分け方」などの表示回数とクリック数（10〜11月）を Claude に伝える — 事業データベース 002 で「追う」になった問題に需要があるかを、アプリを作る前に確かめるため。Claude は同じ頃に App Store の新しい詐欺チェックアプリの評価数が増えたかを見直す（2026-11-03）
 - [ ] 近いうちに | アプリ | Flutter Web ビルドの日本語フォント（NotoSansJP の .ttf）が p/ に47ファイル・計約181MB（p/ 全体303MB）ある。同じフォントが `fonts/` と `assets/assets/fonts/` に二重に入っているアプリ（rakuraku・lifeisrpg・drone/anki・boueki ほか）を、手元の `flutter build web` で重複なしにするか、使う字だけのサブセットにして削る — デプロイと読み込みを軽くする（9MBのファイルが9本）。クラウドからは動作確認できないので手元で（2026-10-30）
 - [ ] すぐ | アプリ | 通知de人生改善 1.2.0: シミュレータ（DeviceHub）か iPhone で、ホーム画面を長押し →「+」→ 通知de人生改善 で「すぐ始める」（小）と「テーマを選んで始める」（中）を置き、タップでそのテーマがすぐ始まるかを見て Claude に伝える（よければ ipa を書き出して提出の準備をする。課金なし）
 - [ ] すぐ | 記事 | 進化の研究に shinka.seadice.win をつなぐ（11月の目標「メディア16種類」）: Firebase 側の登録は Claude が済ませた（2026-11-02）。残りは Cloudflare → seadice.win → DNS → レコードを追加 で「タイプ CNAME・名前 shinka・ターゲット seadice-shinka.web.app・プロキシは オフ（灰色の雲）」を入れるだけ。入れたら Claude に「shinka つながった」（証明書の発行を確かめ、トップのメディア欄・フッター・llms.txt・/goals/ に足す）
