@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-exam-eve-morning-checklist-study-or-sleep",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Gillen-O'Neel et al., \"To study or to sleep? The academic costs of extra studying at the expense of sleep\" (Child Development, 2013)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-8624.2012.01834.x",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/exam-eve-morning-checklist/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る時間を削れば点が上がる？",
+        "body": "テスト前は「寝る時間を削ってでも勉強した方が点が取れる」と思いがち。1時間でも多く勉強した方が得な気がするよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "高校生535人の毎日の日誌",
+        "body": "高校生535人が、9・10・12年生の各学年で14日間、毎日の勉強時間と睡眠時間、翌日に授業や課題で困ったかを日誌に書いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "削った翌日ほどつまずいた",
+        "body": "ふだんどれだけ勉強する生徒かに関係なく、いつもより睡眠を削って勉強した翌日は、授業がわかりにくく、課題やテストで苦労しやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日誌の自己報告の研究",
+        "body": "くじで睡眠を分けた実験ではなく、生徒本人の日誌の研究。成績そのものではなく「困ったか」を聞いている。大人の独学でも同じかはわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#dokugaku-exam-eve-morning-checklist-study-or-sleep"
+  },
+  {
+    "id": "dokugaku-online-vs-classroom-adult-learning-elearning",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Vaona et al., \"E-learning for health professionals\" (Cochrane Database of Systematic Reviews, 2018)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD011736.pub2",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/online-vs-classroom-adult-learning/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "オンライン講座は身につかない？",
+        "body": "画面越しの講座は、教室で受けるより頭に入らない。社会人の学び直しで、そう感じている人は多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "働く医療職のランダム化試験を集めた",
+        "body": "コクラン・レビューが、資格を持って働く医療職5,679人を含む16件のランダム化比較試験をまとめて、オンライン学習と従来の学び方を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "知識の差はほとんどなかった",
+        "body": "知識を比べた11件（3,236人）では、オンライン学習でもほとんど差はないかもしれない、という結果だった。技能については、良くなるか悪くなるか判断できなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "証拠の確かさは低め",
+        "body": "証拠の確かさは「低い」と評価されていて、対象は医療職だけ。語学や資格の勉強を一人で進める社会人で同じかは、直接確かめられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-online-vs-classroom-adult-learning-elearning"
+  },
+  {
+    "id": "dokugaku-l-r-listening-practice-log-sheet-one-voice",
+    "category": "言葉と外国語",
+    "kind": "研究紹介",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Lively et al., \"Training Japanese listeners to identify English /r/ and /l/. II: The role of phonetic environment and talker variability in learning new perceptual categories\" (The Journal of the Acoustical Society of America, 1993)",
+    "sourceUrl": "https://doi.org/10.1121/1.408177",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/l-r-listening-practice-log-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "1人の声だけで練習すると？",
+        "body": "LとRの聞き分けを、いろいろな人の声で練習する場合と、1人の声だけで練習する場合。日本人で比べた実験があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "知らない声には広がらなかった",
+        "body": "複数の声で練習した人は、新しい単語や知らない人の声でも成績が伸びた。1人の声だけの人も練習中は伸びたけど、新しい人の声には広がらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "声の数だけを比べた実験ではない",
+        "body": "2つの実験は別の人たちで、練習した単語の種類もちがった。だから声の数だけで差が出たとは言い切れない。実験室で、日本人がLとRを聞き分ける練習をした話だよ。"
+      },
+      {
+        "stage": "使い方のヒント",
+        "title": "知らない声で確かめる",
+        "body": "練習で伸びたかは、練習に使っていない単語と声で確かめると安心。同じ声だけで判断すると、伸びを大きく見てしまうかもしれないね。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-japanese-hard-to-hear-l-and-r-adult-training",
+        "type": "あわせて読む",
+        "why": "同じ練習で正答率がどれだけ上がり、3か月後も残ったかを調べた続きの研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-l-r-listening-practice-log-sheet-one-voice"
+  },
+  {
+    "id": "mindfulness-mbsr-brain-structure-rct",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Kral et al., \"Absence of structural brain changes from mindfulness-based stress reduction: Two combined randomized controlled trials\" (Science Advances, 2022)",
+    "sourceUrl": "https://doi.org/10.1126/sciadv.abk3316",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "瞑想で脳の形が変わる？",
+        "body": "「8週間の瞑想で脳の灰白質が増えた」という話、聞いたことがあるかも。瞑想は脳そのものを変える、とよく紹介されているよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "218人をくじで3組に分けた",
+        "body": "アメリカのウィスコンシン大学のチームが、瞑想経験のない18〜65歳の218人を、8週間の瞑想講座（MBSR）、運動・音楽・栄養の講座、順番待ちの3組にくじで分け、前後で脳をMRIで撮ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "脳の形の変化は見られなかった",
+        "body": "灰白質の量・密度・皮質の厚さのどれも、瞑想の組とほかの2組で変化に差がなかった。以前の研究で変化が報告された場所に絞っても同じで、前の結果は再現されなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "8週間・健康な人での話",
+        "body": "調べたのは8週間の講座だけで、何年も続けた場合はわからない。薬を飲んでいる人や最近心の病気と診断された人は除いたので、とても健康な人たちだった。調べたのは脳の形で、気分への効果は別の問いだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-mbsr-brain-structure-rct"
+  },
+  {
+    "id": "happy-vacation-anticipation-nawijn",
+    "category": "幸福の科学",
+    "kind": "よくある説",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Nawijn et al., \"Vacationers Happier, but Most not Happier After a Holiday\" (Applied Research in Quality of Life, 2010)",
+    "sourceUrl": "https://doi.org/10.1007/s11482-009-9091-9",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "旅行は行く前がいちばん楽しい？",
+        "body": "「旅行は計画しているときが一番楽しい」ってよく言うよね。行ってしまうと、あっという間に終わる気もする。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "オランダの1,530人を比べた",
+        "body": "オランダの研究者が、ふだんからネットの調査に答えている1,530人のデータを使った。夏に旅行した974人と、旅行しなかった556人の幸福感を、旅行の前と後で比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差が出たのは旅行の前",
+        "body": "旅行する人は、旅行前の幸福感が旅行しない人より少し高かった。でも帰ってきた後は、多くの人で差がなくなった。「とてもリラックスできた」人だけ、帰ってから2週間ほど高めだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "楽しみのせいかは確かめていない",
+        "body": "旅行前に高いのは「楽しみにしているからかもしれない」と著者は書いているけど、楽しみの気持ちを直接測ってはいない。くじで旅行を決めた実験ではなく、2006年のオランダで気分を3問で聞いた調査だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-rest-not-recovering-stress-research-vacation-fade",
+        "type": "あわせて読む",
+        "why": "休暇で減ったストレスが、帰ってからどのくらいで戻るかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-vacation-anticipation-nawijn"
+  },
+  {
     "id": "research-first-night-effect-sleep-why-research-night-watch",
     "category": "睡眠",
     "kind": "素朴な疑問",
@@ -2479,6 +2659,11 @@
         "id": "dokugaku-l-r-listening-practice-log-sheet-listen-to-speak",
         "type": "あわせて読む",
         "why": "同じ練習で、話すときのLとRの発音も良くなったかを調べた研究"
+      },
+      {
+        "id": "dokugaku-l-r-listening-practice-log-sheet-one-voice",
+        "type": "あわせて読む",
+        "why": "練習に使う声を1人だけにすると、知らない声に広がらなかった実験"
       }
     ]
   },
@@ -6544,6 +6729,11 @@
         "id": "research-rest-not-recovering-stress-research-detachment-training",
         "type": "あわせて読む",
         "why": "休暇の効果はすぐ薄れる。ふだんから仕事を切り離す練習の研究"
+      },
+      {
+        "id": "happy-vacation-anticipation-nawijn",
+        "type": "あわせて読む",
+        "why": "休暇の前と後で、幸福感がどう変わるかを旅行しない人と比べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/work/#research-rest-not-recovering-stress-research-vacation-fade"
