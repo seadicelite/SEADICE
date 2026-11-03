@@ -96,7 +96,7 @@ SEADICE（シーダイス）のリポジトリ。中身は **seadice.win の静�
 |---|---|
 | 新しいページ・ツール・診断 | `critic`（中身・前提）＋ `design`（見た目・使い心地） |
 | 使う人の用事が1ページで済むか見たいとき | ＋ `user`（なりきる人と用事を渡す） |
-| ログイン・投稿・Firebase・外部API・firebase.json | ＋ `security` |
+| ログイン・投稿・課金・Firebase・外部API・firebase.json | ＋ `security`（作る前にリスクを洗い出し、仕上げ前にもう一度。2026-11-03） |
 | 研究・統計を引くページ（EVIDENCE・記事・もとになった研究） | ＋ `source-check` |
 | アプリを作る・改修する・申請する | [docs/flutter-app.md](docs/flutter-app.md) の「アプリ開発の流れと役」の表（`business`・`appstore-review` の関門 → `experience`（体験・ウィジェット・課金の設計）→ `device-check`（シミュレーターで全画面）→ `user`・`design` → 申請前に必ず `appstore-review`） |
 | 次に何をやるか迷ったとき | `growth`（打ち手を効く順に） |
