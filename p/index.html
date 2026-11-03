@@ -87,6 +87,7 @@
         "@type": "FAQPage",
         "@id": "https://seadice.win/#faq",
         "mainEntity": [
+          {"@type": "Question", "name": "怪しい電話やメッセージが来たら、どこに相談すればいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "その場で払わず、教えず、リンクを押さずに確かめます。詐欺かどうか確かめたいときは警察相談専用電話（#9110）、請求や契約・勧誘の相談は消費者ホットライン（188）、身の危険を感じたときやお金を渡してしまったときは110番です。SEADICEのトップページと防犯メディアに、手口別の見分け方をまとめています。"}},
           {"@type": "Question", "name": "SEADICE（シーダイス）とは何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "SEADICE（シーダイス）は「誠実なサービスで、信頼に応える。」を掲げ、AIを活用して社会の問題を見つけ、独自のデータとアプリで解決する日本のスタジオです。論文と公的データまで確かめたメディアと無料講座、登録不要の無料Webツール、iPhoneアプリを運営しています。"}},
           {"@type": "Question", "name": "SEADICEは誰が運営していますか？", "acceptedAnswer": {"@type": "Answer", "text": "SEADICEは、日本の個人開発者が運営しているスタジオです。企画・開発・メディア運営をAIを活用して行っています。連絡先は hi@seadice.win です。"}},
           {"@type": "Question", "name": "SEADICEの読み方は？", "acceptedAnswer": {"@type": "Answer", "text": "「シーダイス」と読みます。"}},
@@ -225,9 +226,23 @@
     @media (min-width: 960px) { .dir { grid-template-columns: repeat(3, 1fr); row-gap: 56px; } }
     .dir h3 { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: .06em; padding-bottom: 12px; border-bottom: 1px solid var(--line2); }
     .dir ul { list-style: none; }
-    .dir li a { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 14px 0; border-bottom: 1px solid var(--line); text-decoration: none; }
+    .dir li a { display: block; padding: 14px 0; border-bottom: 1px solid var(--line); text-decoration: none; }
     .dir li strong { font-size: 16px; font-weight: 700; }
-    .dir li span { font: 500 12px var(--mono); color: var(--muted); letter-spacing: .06em; flex-shrink: 0; }
+    .dir li span { display: block; font-size: 13px; color: var(--sub); line-height: 1.7; margin-top: 4px; }
+    .worry { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 32px; }
+    @media (min-width: 960px) { .worry { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    .worry a { display: block; min-height: 56px; padding: 14px 16px; border: 1px solid var(--line2); border-radius: 6px; background: var(--bg); color: var(--text); text-decoration: none; font-size: 15px; font-weight: 700; line-height: 1.5; }
+    .worry a:hover { border-color: var(--text); }
+    .worry a.urgent { border-color: var(--accent); color: var(--accent); }
+    .worry-label { margin-top: 32px; font-size: 14px; font-weight: 700; color: var(--sub); }
+    .tel { display: grid; gap: 8px; margin-top: 24px; }
+    @media (min-width: 600px) { .tel { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    .tel a { display: block; padding: 14px 16px; border: 1px solid var(--line2); border-radius: 6px; text-decoration: none; color: var(--text); }
+    .tel b { display: block; font-size: 22px; font-weight: 800; color: var(--accent); }
+    .tel span { font-size: 13px; color: var(--sub); }
+    .note { margin-top: 16px; font-size: 13px; color: var(--sub); line-height: 1.8; }
+    .sub-h { margin: 32px 0 12px; font-size: 15px; font-weight: 700; }
+    .steps { margin-top: 24px; padding-left: 1.4em; display: grid; gap: 8px; font-size: 15px; line-height: 1.8; }
     .dir li a:hover strong { color: var(--accent); }
 
     /* 研究と約束 */
@@ -323,10 +338,10 @@
   <nav aria-label="メインナビゲーション">
     <a class="logo" href="./">SEADICE</a>
     <div class="nav-links">
-      <a href="#business">事業</a>
-      <a href="#media">メディア</a>
-      <a href="#research">研究と約束</a>
-      <a href="#news">お知らせ</a>
+      <a href="#sagi">詐欺かも</a>
+      <a href="#media">読む</a>
+      <a href="/tools/">道具</a>
+      <a href="/apps/">アプリ</a>
       <a href="/about/">運営者</a>
     </div>
     <a class="nav-cta" href="#contact">お問い合わせ</a>
@@ -338,33 +353,61 @@
   <div class="hero">
     <div class="hero-in">
       <div>
-        <p class="eyebrow">Data &amp; apps studio / Japan</p>
+        <p class="eyebrow">AI時代の問題を、データとアプリで</p>
         <h1><span class="sr-only">SEADICE（シーダイス）— </span>誠実なサービスで、<br><span class="ac">信頼に応える。</span></h1>
         <p class="hero-desc"><strong>SEADICE（シーダイス）</strong>は、AIを活用して社会の問題を見つけ、独自のデータとアプリで解決するスタジオです。論文と公的データまで確かめて伝え、その場で使える道具とアプリにします。</p>
-        <div class="btns">
-          <a class="btn primary" href="#business">事業を見る <span class="arr" aria-hidden="true">&rarr;</span></a>
-          <a class="btn" href="/promise/">7ヶ条を読む</a>
+        <p class="worry-label">困っていることから選ぶ</p>
+        <div class="worry">
+          <a class="urgent" href="#sagi">怪しい電話・連絡</a>
+          <a href="https://oya.seadice.win/">親のことが心配</a>
+          <a href="https://kosodate.seadice.win/">子どものAI・スマホ</a>
+          <a href="https://ai.seadice.win/">AIが不安・困った</a>
+          <a href="https://ledger.seadice.win/">お金の使い方</a>
+          <a href="https://research.seadice.win/">眠れない・続かない</a>
         </div>
       </div>
     </div>
   </div>
 
-  <section class="pick" aria-labelledby="pick-heading">
-    <div class="pick-in">
-      <p class="sec-label">Pickup</p>
-      <div>
-        <h2 id="pick-heading">生写真プロフィール帳</h2>
-        <p>推しの生写真の交換プロフィールを作れます。譲・求の交換リストと取引の方法、SNSを1ページにまとめて、Xのプロフィール欄に貼れます。</p>
-        <small>作るにはGoogleログインが必要です。見るだけならログインは要りません。</small>
+  <section class="sec" id="sagi" aria-labelledby="sagi-heading">
+    <div class="sec-in">
+      <div class="sec-head">
+        <h2 class="sec-title" id="sagi-heading">怪しい電話・メッセージが来たら</h2>
+        <p class="sec-lead">家族の声でも、警察や会社を名乗っても、お金・暗証番号・個人情報・急ぎの話が出たら、その場で応じずに確かめます。</p>
       </div>
-      <a class="btn primary" href="https://namashashin.seadice.win/" target="_blank" rel="noopener">プロフィール帳を作る <span class="arr" aria-hidden="true">&rarr;</span></a>
+      <div class="tel">
+        <a href="tel:110"><b>110</b><span>身の危険を感じた・お金を渡してしまった</span></a>
+        <a href="tel:%239110"><b>#9110</b><span>警察相談専用電話。詐欺かどうか確かめたい・相談したい</span></a>
+        <a href="tel:188"><b>188</b><span>消費者ホットライン。請求・契約・「お金を取り戻します」などの勧誘の相談</span></a>
+      </div>
+      <ol class="steps">
+        <li>その場で払わない・教えない・リンクを押さない。電話なら、いったん切ります</li>
+        <li>言われた番号やメッセージのリンクではなく、自分で調べた番号・いつもの連絡先から確かめます</li>
+        <li>家族の声でも本物とは限りません。AIで声をまねる手口が報告されているので、家族で「合言葉」を決めておきます</li>
+      </ol>
+      <p class="note">電話番号と使い分けは、警察庁・消費者庁の案内を出典にした下の記事に合わせています（2026-11-03 確認）。</p>
+      <h3 class="sub-h">くわしく読む（出典つき）</h3>
+      <div class="dir">
+        <div><ul>
+          <li><a href="https://bohan.seadice.win/ai-era-scam-checklist/"><strong>AI時代の詐欺の見分け方</strong><span>声・動画・メール・SNSの手口別チェックリスト</span></a></li>
+          <li><a href="https://bohan.seadice.win/ai-voice-clone-family-scam/"><strong>家族の声でも本物とは限らない</strong><span>AI音声のなりすまし詐欺と「合言葉」の備え</span></a></li>
+        </ul></div>
+        <div><ul>
+          <li><a href="https://bohan.seadice.win/fake-police-call-scam/"><strong>「警察です」の電話は疑っていい</strong><span>ニセ警察詐欺が増えた理由と、だまされる心の流れ</span></a></li>
+          <li><a href="https://ai.seadice.win/ai-voice-scam-after-transfer/"><strong>振り込んでしまったら</strong><span>すぐやることと、お金が戻る可能性がある制度</span></a></li>
+        </ul></div>
+        <div><ul>
+          <li><a href="https://bohan.seadice.win/international-call-block-scam/"><strong>「+」で始まる電話を止める</strong><span>詐欺の電話番号の多くは国際電話。お金のかからない対策</span></a></li>
+          <li><a href="/tools/pin-check/"><strong>暗証番号のバレやすさ診断</strong><span>親と一緒に、その場で確かめる道具</span></a></li>
+        </ul></div>
+      </div>
     </div>
   </section>
 
   <section class="sec" id="business" aria-labelledby="business-heading">
     <div class="sec-in">
       <div class="sec-head">
-        <p class="sec-label">Business</p>
+        <p class="sec-label">しくみ</p>
         <h2 class="sec-title" id="business-heading">知る、試す、続ける。</h2>
         <p class="sec-lead">ひとつの悩みを、研究で調べたメディアで知り、ブラウザの道具でその場で試し、アプリで続けられるようにします。</p>
       </div>
@@ -372,21 +415,21 @@
         <a href="#media">
           <span class="no">01</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 3.5h9l4 4v13h-13z"/><path d="M14.5 3.5v4h4M8.5 12h7M8.5 15.5h7M8.5 9h3"/></svg>
-          <h3>知る <small>Media &amp; Study</small></h3>
+          <h3>知る</h3>
           <p>悩みや疑問を、論文と公的データまで当たって答えるメディアと、順番に学べる無料講座。</p>
           <span class="go">メディアと講座 &rarr;</span>
         </a>
         <a href="/tools/">
           <span class="no">02</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h16M4 17.5h16"/><circle cx="9" cy="6.5" r="2" fill="#05050C"/><circle cx="15" cy="12" r="2" fill="#05050C"/><circle cx="7" cy="17.5" r="2" fill="#05050C"/></svg>
-          <h3>試す <small>Tools</small></h3>
+          <h3>試す</h3>
           <p>計算・チェック・診断・タイマー。インストールも登録もなしで、ブラウザの中だけで動く道具。</p>
           <span class="go">Webツールと診断 &rarr;</span>
         </a>
         <a href="/apps/">
           <span class="no">03</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
-          <h3>続ける <small>Apps</small></h3>
+          <h3>続ける</h3>
           <p>毎日の記録や習慣を、研究にもとづいて続けるiPhoneアプリ。広告なし、記録は端末の中だけ。</p>
           <span class="go">アプリ一覧 &rarr;</span>
         </a>
@@ -398,7 +441,6 @@
   <section class="sec" id="media" aria-labelledby="media-heading">
     <div class="sec-in">
       <div class="sec-head">
-        <p class="sec-label">Media &amp; Study</p>
         <h2 class="sec-title" id="media-heading">メディアと講座</h2>
         <p class="sec-lead">テーマごとのサイトで、研究でわかっていることと、まだわからないことを分けて書いています。どれも無料・登録なしです。</p>
       </div>
@@ -406,74 +448,85 @@
         <div>
           <h3>SI時代の問題</h3>
           <ul>
-            <li><a href="https://ai.seadice.win/" target="_blank" rel="noopener" title="AIへの不安・AI疲れ・AI音声の詐欺・ディープフェイクなど、AIで起きる困りごとに研究と公的資料で答えるメディア"><strong>AI時代の困りごと</strong><span>ai</span></a></li>
-            <li><a href="https://kosodate.seadice.win/" target="_blank" rel="noopener" title="AI時代の子育ての疑問に、研究と公的データで答えるメディア"><strong>AI時代の子育て</strong><span>kosodate</span></a></li>
-            <li><a href="https://mentalai.seadice.win/" target="_blank" rel="noopener" title="AI疲れ・仕事の不安・AI依存を、研究と公的データで考えるメディア"><strong>AI時代のメンタルヘルス</strong><span>mentalai</span></a></li>
+            <li><a href="https://ai.seadice.win/"><strong>AI時代の困りごと</strong><span>AIへの不安・AI疲れ・AI音声の詐欺・ディープフェイクなど、AIで起きる困りごとに研究と公的資料で答えるメディア</span></a></li>
+            <li><a href="https://kosodate.seadice.win/"><strong>AI時代の子育て</strong><span>AI時代の子育ての疑問に、研究と公的データで答えるメディア</span></a></li>
+            <li><a href="https://mentalai.seadice.win/"><strong>AI時代のメンタルヘルス</strong><span>AI疲れ・仕事の不安・AI依存を、研究と公的データで考えるメディア</span></a></li>
           </ul>
         </div>
         <div>
           <h3>くらしと心</h3>
           <ul>
-            <li><a href="https://research.seadice.win/" target="_blank" rel="noopener" title="悩みを科学で調べる、AIメディア"><strong>悩みの科学</strong><span>research</span></a></li>
-            <li><a href="https://umbra.seadice.win/" target="_blank" rel="noopener" title="恋愛心理学としぐさの通説を研究論文で検証するメディア"><strong>しぐさと本音</strong><span>umbra</span></a></li>
-            <li><a href="https://ledger.seadice.win/" target="_blank" rel="noopener" title="お金の使い方を行動経済学で読み解くメディア"><strong>お金と心理</strong><span>ledger</span></a></li>
-            <li><a href="https://oya.seadice.win/" target="_blank" rel="noopener" title="親の物忘れ・運転・介護の疑問に、研究と公的データで答えるメディア"><strong>親が年をとったら</strong><span>oya</span></a></li>
-            <li><a href="https://dokugaku.seadice.win/" target="_blank" rel="noopener" title="覚え方・勉強法・続け方を研究で確かめ、効く勉強法と当てにならない通説を切り分けるメディア"><strong>独学の科学</strong><span>dokugaku</span></a></li>
+            <li><a href="https://research.seadice.win/"><strong>悩みの科学</strong><span>悩みを科学で調べる、AIメディア</span></a></li>
+            <li><a href="https://umbra.seadice.win/"><strong>しぐさと本音</strong><span>恋愛心理学としぐさの通説を研究論文で検証するメディア</span></a></li>
+            <li><a href="https://ledger.seadice.win/"><strong>お金と心理</strong><span>お金の使い方を行動経済学で読み解くメディア</span></a></li>
+            <li><a href="https://oya.seadice.win/"><strong>親が年をとったら</strong><span>親の物忘れ・運転・介護の疑問に、研究と公的データで答えるメディア</span></a></li>
+            <li><a href="https://dokugaku.seadice.win/"><strong>独学の科学</strong><span>覚え方・勉強法・続け方を研究で確かめ、効く勉強法と当てにならない通説を切り分けるメディア</span></a></li>
           </ul>
         </div>
         <div>
           <h3>防犯と犯罪</h3>
           <ul>
-            <li><a href="https://bohan.seadice.win/" target="_blank" rel="noopener" title="身近な犯罪を研究と統計で読み解く、何も売らない防犯メディア"><strong>防犯</strong><span>bohan</span></a></li>
-            <li><a href="https://hanzai.seadice.win/" target="_blank" rel="noopener" title="犯罪をめぐる人の心の仕組みを心理学の研究で読み解くメディア"><strong>犯罪と心理</strong><span>hanzai</span></a></li>
+            <li><a href="https://bohan.seadice.win/"><strong>防犯</strong><span>身近な犯罪を研究と統計で読み解く、何も売らない防犯メディア</span></a></li>
+            <li><a href="https://hanzai.seadice.win/"><strong>犯罪と心理</strong><span>犯罪をめぐる人の心の仕組みを心理学の研究で読み解くメディア</span></a></li>
           </ul>
         </div>
         <div>
           <h3>好奇心</h3>
           <ul>
-            <li><a href="https://uchu.seadice.win/" target="_blank" rel="noopener" title="ブラックホール・ビッグバン・星座などを、論文と観測でわかっていることとまだわからないことに分けて書く宇宙メディア"><strong>宇宙の研究</strong><span>uchu</span></a></li>
-            <li><a href="https://tetsugaku.seadice.win/" target="_blank" rel="noopener" title="哲学者・概念を専門用語なしで解説する入門百科"><strong>哲学</strong><span>tetsugaku</span></a></li>
-            <li><a href="https://kogei.seadice.win/" target="_blank" rel="noopener" title="日本の伝統工芸と、3Dプリンタ・EC・デジタル記録との交差点をレポート"><strong>工芸</strong><span>kogei</span></a></li>
-            <li><a href="https://senbei.seadice.win/" target="_blank" rel="noopener" title="煎餅の美味しさを研究で確かめ、材料と焼き方の組み合わせを試せるメディア"><strong>お煎餅ラボ</strong><span>senbei</span></a></li>
-            <li><a href="https://choco.seadice.win/" target="_blank" rel="noopener" title="チョコ製品の開発者向けに、焙煎・テンパリング・配合・官能評価の研究を原典で確かめるメディア"><strong>チョコの研究</strong><span>choco</span></a></li>
+            <li><a href="https://uchu.seadice.win/"><strong>宇宙の研究</strong><span>ブラックホール・ビッグバン・星座などを、論文と観測でわかっていることとまだわからないことに分けて書く宇宙メディア</span></a></li>
+            <li><a href="https://tetsugaku.seadice.win/"><strong>哲学</strong><span>哲学者・概念を専門用語なしで解説する入門百科</span></a></li>
+            <li><a href="https://kogei.seadice.win/"><strong>工芸</strong><span>日本の伝統工芸と、3Dプリンタ・EC・デジタル記録との交差点をレポート</span></a></li>
+            <li><a href="https://senbei.seadice.win/"><strong>お煎餅ラボ</strong><span>煎餅の美味しさを研究で確かめ、材料と焼き方の組み合わせを試せるメディア</span></a></li>
+            <li><a href="https://choco.seadice.win/"><strong>チョコの研究</strong><span>チョコ製品の開発者向けに、焙煎・テンパリング・配合・官能評価の研究を原典で確かめるメディア</span></a></li>
           </ul>
         </div>
         <div id="study">
           <h3>無料講座</h3>
           <ul>
-            <li><a href="https://shinri.seadice.win/" target="_blank" rel="noopener" title="心理学を無料で独学できるサイト。全16章の無料講座と心理学用語辞典"><strong>ゼロから学ぶ心理学</strong><span>shinri</span></a></li>
-            <li><a href="https://hanzaigaku.seadice.win/" target="_blank" rel="noopener" title="犯罪学を無料で学べるサイト。全14章47レッスンの講座、用語辞典、章末テスト"><strong>ゼロから学ぶ犯罪学</strong><span>hanzaigaku</span></a></li>
-            <li><a href="https://kodokeizai.seadice.win/" target="_blank" rel="noopener" title="行動経済学を無料で学べるサイト。全14章58レッスンの講座と用語辞典"><strong>ゼロから学ぶ行動経済学</strong><span>kodokeizai</span></a></li>
-            <li><a href="https://boueki.seadice.win/" target="_blank" rel="noopener" title="貿易実務を無料で学べるサイト。全14章の講座、用語辞典、C級の模擬試験"><strong>ゼロから学ぶ貿易実務</strong><span>boueki</span></a></li>
-            <li><a href="https://hoikushi.seadice.win/" target="_blank" rel="noopener" title="保育士試験の9科目を無料で学べるサイト。全12章44レッスンの講座、用語辞典、章末テスト"><strong>ゼロから学ぶ保育士</strong><span>hoikushi</span></a></li>
-            <li><a href="https://kaigofukushi.seadice.win/" target="_blank" rel="noopener" title="介護福祉士国家試験を無料で学べるサイト。全12章53レッスンの講座、用語辞典、模擬試験"><strong>ゼロから学ぶ介護福祉士</strong><span>kaigofukushi</span></a></li>
+            <li><a href="https://shinri.seadice.win/"><strong>ゼロから学ぶ心理学</strong><span>心理学を無料で独学できるサイト。全16章の無料講座と心理学用語辞典</span></a></li>
+            <li><a href="https://hanzaigaku.seadice.win/"><strong>ゼロから学ぶ犯罪学</strong><span>犯罪学を無料で学べるサイト。全14章47レッスンの講座、用語辞典、章末テスト</span></a></li>
+            <li><a href="https://kodokeizai.seadice.win/"><strong>ゼロから学ぶ行動経済学</strong><span>行動経済学を無料で学べるサイト。全14章58レッスンの講座と用語辞典</span></a></li>
+            <li><a href="https://boueki.seadice.win/"><strong>ゼロから学ぶ貿易実務</strong><span>貿易実務を無料で学べるサイト。全14章の講座、用語辞典、C級の模擬試験</span></a></li>
+            <li><a href="https://hoikushi.seadice.win/"><strong>ゼロから学ぶ保育士</strong><span>保育士試験の9科目を無料で学べるサイト。全12章44レッスンの講座、用語辞典、章末テスト</span></a></li>
+            <li><a href="https://kaigofukushi.seadice.win/"><strong>ゼロから学ぶ介護福祉士</strong><span>介護福祉士国家試験を無料で学べるサイト。全12章53レッスンの講座、用語辞典、模擬試験</span></a></li>
           </ul>
         </div>
         <div id="tools">
           <h3>Webツール・診断</h3>
           <ul>
-            <li><a href="/tools/"><strong>Webツール一覧</strong><span>tools</span></a></li>
-            <li><a href="/diagnosis/"><strong>研究にもとづく診断</strong><span>diagnosis</span></a></li>
-            <li><a href="/pomodoro/"><strong>ポモドーロタイマー</strong><span>timer</span></a></li>
-            <li><a href="/image-resizer/"><strong>画像リサイザー</strong><span>image</span></a></li>
-            <li><a href="/tools/decoy-notes/"><strong>Decoy Notes</strong><span>notes</span></a></li>
-            <li><a href="https://qr-room-3c54d.web.app/" target="_blank" rel="noopener" title="登録不要。QRコードで集まる匿名チャット。投稿は期限まで保存し、期限が来たら部屋ごと削除"><strong>QR匿名ルーム</strong><span>qr room</span></a></li>
+            <li><a href="/tools/"><strong>Webツール一覧</strong><span>計算・チェック・タイマー。登録なしでブラウザの中だけで動く</span></a></li>
+            <li><a href="/diagnosis/"><strong>研究にもとづく診断</strong><span>研究でどこまで確かめられているかをランクで示す診断</span></a></li>
+            <li><a href="/pomodoro/"><strong>ポモドーロタイマー</strong><span>25分集中と5分休憩をくり返すタイマー</span></a></li>
+            <li><a href="/image-resizer/"><strong>画像リサイザー</strong><span>画像の大きさをブラウザの中で変える</span></a></li>
+            <li><a href="/tools/decoy-notes/"><strong>Decoy Notes</strong><span>のぞき見されたくないメモを、ふつうのメモ帳の裏に隠す</span></a></li>
+            <li><a href="https://qr-room-3c54d.web.app/"><strong>QR匿名ルーム</strong><span>登録不要。QRコードで集まる匿名チャット。投稿は期限まで保存し、期限が来たら部屋ごと削除</span></a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
+  <section class="pick" aria-labelledby="pick-heading">
+    <div class="pick-in">
+      <p class="sec-label">注目</p>
+      <div>
+        <h2 id="pick-heading">生写真プロフィール帳</h2>
+        <p>推しの生写真の交換プロフィールを作れます。譲・求の交換リストと取引の方法、SNSを1ページにまとめて、Xのプロフィール欄に貼れます。</p>
+        <small>作るにはGoogleログインが必要です。見るだけならログインは要りません。</small>
+      </div>
+      <a class="btn primary" href="https://namashashin.seadice.win/" target="_blank" rel="noopener">プロフィール帳を作る <span class="arr" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </section>
+
   <section class="sec" id="research" aria-labelledby="research-heading">
     <div class="sec-in">
       <div class="sec-head">
-        <p class="sec-label">Research &amp; Promise</p>
         <h2 class="sec-title" id="research-heading">研究と約束</h2>
         <p class="sec-lead">誠実さは言葉でなく、行動で示します。出典を確かめ、盛らず、売らず、集めず、間違いは直します。</p>
       </div>
       <div class="split">
         <div>
-          <p class="sec-label">Evidence</p>
+          <p class="sec-label">研究</p>
           <h3>よく聞く説を、論文まで確かめる。</h3>
           <p>EVIDENCE は、生活の常識や心理学の通説を、元の研究まで当たってまとめたシリーズです。結論と一緒に「まだわからないこと」も書きます。</p>
           <div class="btns">
@@ -481,7 +534,7 @@
           </div>
         </div>
         <div>
-          <p class="sec-label">Promise</p>
+          <p class="sec-label">約束</p>
           <h3>SEADICEの約束</h3>
           <ul class="vals">
             <li><strong>確かめる</strong><span>出典は論文まで確かめ、数字を盛らない。</span></li>
@@ -498,7 +551,6 @@
   <section class="sec" id="news" aria-labelledby="news-heading">
     <div class="sec-in">
       <div class="sec-head">
-        <p class="sec-label">News</p>
         <h2 class="sec-title" id="news-heading">お知らせ</h2>
         <p class="sec-lead">開発日誌とブログで、作ったもの・直したこと・学んだことを毎日書いています。</p>
       </div>
@@ -539,10 +591,13 @@
   <section class="sec" id="faq" aria-labelledby="faq-heading">
     <div class="sec-in">
       <div class="sec-head">
-        <p class="sec-label">FAQ</p>
         <h2 class="sec-title" id="faq-heading">よくある質問</h2>
       </div>
       <div class="faq-list">
+        <details class="faq-item">
+        <summary><h3 class="faq-q">怪しい電話やメッセージが来たら、どこに相談すればいいですか？</h3></summary>
+        <p>その場で払わず、教えず、リンクを押さずに確かめます。詐欺かどうか確かめたいときは警察相談専用電話（#9110）、請求や契約・勧誘の相談は消費者ホットライン（188）、身の危険を感じたときやお金を渡してしまったときは110番です。SEADICEのトップページと防犯メディアに、手口別の見分け方をまとめています。</p>
+        </details>
         <details class="faq-item">
         <summary><h3 class="faq-q">SEADICE（シーダイス）とは何ですか？</h3></summary>
         <p>SEADICE（シーダイス）は「誠実なサービスで、信頼に応える。」を掲げ、AIを活用して社会の問題を見つけ、独自のデータとアプリで解決する日本のスタジオです。論文と公的データまで確かめたメディアと無料講座、登録不要の無料Webツール、iPhoneアプリを運営しています。</p>
@@ -618,8 +673,7 @@
     <div class="sec-in">
       <div class="contact">
         <div>
-          <p class="sec-label">Contact</p>
-          <h2 class="sec-title" id="contact-heading" style="margin-top:16px">お問い合わせ</h2>
+          <h2 class="sec-title" id="contact-heading">お問い合わせ</h2>
           <p class="contact-note" style="margin-top:24px">欲しいアプリや機能、日常の悩み、気づいた間違いなど、なんでも送ってください。このフォームは匿名で届き、返信はできません。お名前や連絡先などの個人情報は書かないでください。</p>
           <p class="contact-note">返信が必要な方は <a href="mailto:hi@seadice.win">hi@seadice.win</a> へ。</p>
         </div>
