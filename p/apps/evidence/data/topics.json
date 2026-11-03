@@ -1,5 +1,214 @@
 [
   {
+    "id": "dokugaku-reading-comprehension-check-sheet-restudy-choice",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Thiede et al., \"How restudy decisions affect overall comprehension for seventh-grade students\" (British Journal of Educational Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.1111/bjep.12166",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/reading-comprehension-check-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "読み直す文章、どう選ぶ？",
+        "body": "いくつか文章を読んだ後、1つだけ読み直せるとしたら。自分で選ぶのと、確認テストの点で選ぶのと、どちらが伸びるか比べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "480人を3つに分けた",
+        "body": "7年生（中学1年生ごろ）480人を、自分で選ぶ・自分の「わかった度」が一番低いものを読み直す・確認問題の点が一番低いものを読み直す、の3つのグループにランダムに分けた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "テストの点で選ぶと一番伸びた",
+        "body": "理解が一番伸びたのは、確認問題の点で選んだグループ。自分の判定で選んだグループと、自分で選んだグループには差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人の独学でも同じ？",
+        "body": "対象は中学1年生ごろの子ども。大人が長いテキストを独学するときに、同じくらいの差が出るかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-adult-relearning-starting-point-check-self-assessment",
+        "type": "あわせて読む",
+        "why": "自分の見積もりが当てにならないことを医師で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-reading-comprehension-check-sheet-restudy-choice"
+  },
+  {
+    "id": "dokugaku-rest-or-repeat-right-after-studying-wakeful-rest",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Parra et al., \"Should we all just take 10? A meta-analysis of wakeful rest\" (Psychonomic Bulletin & Review, 2026)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-025-02778-3",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/rest-or-repeat-right-after-studying/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "覚えたらぼんやり休むと残る？",
+        "body": "覚えた直後に数分、目を閉じて静かにしていると記憶に残りやすい。そんな「休む効果」の研究、聞いたことあるかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "51件の研究をまとめた",
+        "body": "覚えた後に休む人と、別の作業をする人をくらべた51件の研究（142の結果）をまとめたメタ分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果はあるけど、人によって大きさが違う",
+        "body": "全体の効果はg＝0.34。記憶障害のある人ではg＝1.18と大きく、健康な高齢者は0.57、健康な大人（若い人〜中年）は0.20と小さかった。この大人の研究では、休んだ後に別の作業を入れると、ほぼ差が出なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだんの勉強で効くか",
+        "body": "研究ごとのばらつきが大きく、これからの研究で逆の結果が出る可能性も否定できないと著者は書いている。大人の研究では、読んで覚えた研究の効果（0.13）は聞いて覚えた研究（0.38）より小さく、教科書の勉強で役立つかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-rest-or-repeat-right-after-studying-repetition",
+        "type": "あわせて読む",
+        "why": "同じ問いで、休むとくり返すを直接くらべた実験"
+      },
+      {
+        "id": "kokoro-study-break-phone-memory-sns-after-reading",
+        "type": "あわせて読む",
+        "why": "文章を読んだ後に休む効果を確かめた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-rest-or-repeat-right-after-studying-wakeful-rest"
+  },
+  {
+    "id": "dokugaku-rest-or-repeat-right-after-studying-repetition",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Martini et al., \"Resting after learning or repeating the learned?\" (Psychonomic Bulletin & Review, 2025)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-025-02820-4",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/rest-or-repeat-right-after-studying/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "覚えた直後の7分、何に使う？",
+        "body": "覚えた後は休むのがいいのか、もう一度くり返すのがいいのか。くらべてみた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くり返す・休む・別のこと",
+        "body": "45人と68人の2つの実験で、聞いて覚えた単語のリストの直後の約7分に、くり返し聞く、目を閉じて休む、別の課題（実験2ではSNS）をする、の3つをくらべたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばん残ったのは、くり返す",
+        "body": "よく残った順は、くり返す、休む、別の課題やSNSだった。12分後も1日後も同じ順だったらしい。休むことは、別の作業よりは良かったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語以外でも同じ？",
+        "body": "覚えたのは単語のリストで、参加者も数十人ずつ。教科書のような長い文章でも同じ順になるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-rest-or-repeat-right-after-studying-wakeful-rest",
+        "type": "あわせて読む",
+        "why": "休む効果を51件の研究でまとめたメタ分析"
+      },
+      {
+        "id": "kokoro-study-break-phone-memory-sns-after-reading",
+        "type": "反対の結果",
+        "why": "文章を読んだ後では、休んでもSNSと差がなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-rest-or-repeat-right-after-studying-repetition"
+  },
+  {
+    "id": "kosodate-breastfeeding-iq-probit",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Kramer et al., \"Breastfeeding and child cognitive development: new evidence from a large randomized trial\" (Archives of General Psychiatry, 2008)",
+    "sourceUrl": "https://doi.org/10.1001/archpsyc.65.5.578",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "母乳で育てると、頭がよくなる？",
+        "body": "「母乳の子は頭がよくなる」って聞くよね。でもこれまでの研究の多くは観察研究で、母乳を選ぶ家庭のほかの違いが混ざっているかもしれなかったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "産院ごとにくじで分けた大きな試験",
+        "body": "ベラルーシの31の産院を、母乳をすすめる取り組みをする所としない所にくじで分けた。母乳で育て始めた健康な赤ちゃん17,046人のうち、13,889人を6歳半まで追ったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "言葉のIQは高かった。全体は、はっきりしない",
+        "body": "3か月で母乳だけの子は、取り組みの組で43.3%（しない組は6.4%）。6歳半の言葉のIQは平均7.5高く、先生の読み書きの評価も高かった。全体のIQは5.9高かったけど、誤差を考えるとはっきりした差とは言えなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじで分けたのは産院",
+        "body": "くじで分けたのは母乳そのものでなく、母乳をすすめる取り組み。調べたのはベラルーシの、母乳で育て始めた赤ちゃんだけで、ほかの国や粉ミルクだけの子とくらべて同じかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-breastfeeding-iq-probit"
+  },
+  {
+    "id": "japan-rain-joint-back-pain",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Jena et al., \"Association between rainfall and diagnoses of joint or back pain: retrospective claims analysis\" (BMJ, 2017)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.j5326",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "雨の日は、ひざや腰が痛む？",
+        "body": "「古傷が痛むと雨が降る」なんて言うよね。雨の日は関節や腰が痛くなるという話、本当なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,167万回の受診を、雨の日とくらべた",
+        "body": "アメリカの65歳以上の約155万人が内科にかかった1,167万回の受診で、関節や腰の痛みで来た人の割合を、同じ地域の雨の日と雨でない日でくらべたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "雨の日に増えてはいなかった",
+        "body": "関節や腰の痛みの受診は、調整後で雨の日6.35%、雨でない日6.39%。差はごくわずかで、しかも予想と逆向き。関節リウマチの人だけで見ても関係はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "数えたのは「受診」で、痛みではない",
+        "body": "痛くても市販薬ですませた人は数えられず、痛みの強さのデータもない。アメリカの高齢者の保険の記録で、関係がまだあるかもしれないと著者も書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-pain-humidity",
+        "type": "反対の結果",
+        "why": "痛みを毎日記録した研究では、湿気や低い気圧と小さな関係があった"
+      },
+      {
+        "id": "posture-weather-back-pain-onset",
+        "type": "あわせて読む",
+        "why": "急な腰痛の始まりも、雨や気圧と関係がなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-rain-joint-back-pain"
+  },
+  {
     "id": "dokugaku-exam-eve-morning-checklist-study-or-sleep",
     "category": "睡眠",
     "kind": "よくある説",
@@ -323,6 +532,11 @@
         "id": "weather-pain-humidity",
         "type": "反対の結果",
         "why": "関節などの持病の痛みでは、湿気や低い気圧と小さな関係が見られた"
+      },
+      {
+        "id": "japan-rain-joint-back-pain",
+        "type": "あわせて読む",
+        "why": "高齢者の受診記録でも、雨の日に痛みの受診は増えていなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-pain/#posture-weather-back-pain-onset"
@@ -478,6 +692,11 @@
         "id": "replication-dunning-kruger-artifact",
         "type": "反対の結果",
         "why": "力の低い人ほど自己評価がずれる、という見方には統計からの反論がある"
+      },
+      {
+        "id": "dokugaku-reading-comprehension-check-sheet-restudy-choice",
+        "type": "あわせて読む",
+        "why": "自分の判断より、テストの点で読み直す文章を選ぶと伸びた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-adult-relearning-starting-point-check-self-assessment"
@@ -3214,7 +3433,19 @@
         "body": "これまでの研究は単語の暗記が中心で、文章の理解とは学び方が違う。今回の休み方も言葉の指示に従うリラックス法の1種類だけ。ただ静かに座る休み方でも同じかは、まだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/memory/#kokoro-study-break-phone-memory-sns-after-reading"
+    "webUrl": "https://seadice.win/evidence/memory/#kokoro-study-break-phone-memory-sns-after-reading",
+    "links": [
+      {
+        "id": "dokugaku-rest-or-repeat-right-after-studying-repetition",
+        "type": "反対の結果",
+        "why": "単語のリストでは、SNSより休むほうがよく残った"
+      },
+      {
+        "id": "dokugaku-rest-or-repeat-right-after-studying-wakeful-rest",
+        "type": "あわせて読む",
+        "why": "休む効果を51件の研究でまとめたメタ分析"
+      }
+    ]
   },
   {
     "id": "kokoro-anxiety-put-into-words-labeling-intensity",
@@ -30274,6 +30505,11 @@
         "id": "posture-weather-back-pain-onset",
         "type": "反対の結果",
         "why": "急な腰痛の起こり始めでは、雨・湿度・気圧との関係が見られなかった"
+      },
+      {
+        "id": "japan-rain-joint-back-pain",
+        "type": "反対の結果",
+        "why": "雨の日の受診で見ると、関節や腰の痛みは増えていなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/weather-pain-humidity/"
