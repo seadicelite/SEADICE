@@ -49,6 +49,7 @@ docs/writing.md
 1. **日誌（daily-YYYY-MM-DD）の扱いを決める**: 6件が sitemap・blog 一覧にある。検索から外す（noindex＋sitemap 除外）か残すかを、Search Console の表示回数を見て判断する（2026-11上旬のCSVと一緒に）
 
 ## やったこと
+- 2026-11-04: 点検（blog 125。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemapのずれ0、内部リンク切れ0、check_blog.py 出力なし）。削ぎ: 古い著作権表示「© 2025 SEADICE」が残る11ファイル（blog 10・apps/chozubora）を 2026 に直した（ほかの580ファイルは2026で、年が混在していたため）。次にやることの1・2番は Search Console／AIへの質問の数字待ちのため据え置き
 - 2026-11-03: ai.seadice.win に分野「Web・検索の変化」を追加（AIでWeb自体に起きる変化を、読む人・サイトを持つ人の悩みとして書く）。3本公開（search-results-ai-written-articles・web-article-human-or-ai-how-to-trust・ai-overview-site-traffic-drop）、既存の ai-generated-web-content-share・ai-search-summary-accuracy を移した。目的は悩みの検索語での1位とAI検索の出典
 - 2026-10-28: 点検（blog 117。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemapのずれ0、内部リンク切れ0）。外部リンクは6本のみ（appsfinboard・techcrunch・apptweak・businessofapps 2・hottolink）で、環境から届かず HEAD は確かめられなかった。次にやることの一番上（日誌の扱い）は Search Console の数字待ちのため据え置き
 - 2026-10-21: 点検（blog 107。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemapのずれ0、題名の重複候補0、内部リンク切れ0。/tools/link-matta/ は firebase.json の301で bohan へ行くので切れではない）。検査を scripts/check_blog.py にした。次にやることの一番上（日誌の扱い）は Search Console の数字待ちのため据え置き
