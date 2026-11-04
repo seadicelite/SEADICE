@@ -1,5 +1,185 @@
 [
   {
+    "id": "digital-dementia-technology-use-cognitive-aging",
+    "category": "デジタルデトックス",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Benge & Scullin, \"A meta-analysis of technology use and cognitive aging\" (Nature Human Behaviour, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-025-02159-9",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スマホやパソコンを使うと、ボケやすくなる？",
+        "body": "「スマホ認知症」なんて言葉もあるよね。デジタル機器に頼りきりだと、年をとってから頭が衰えやすくなる、という説。でも、これを確かめた研究をまとめると、話はちょっと違うらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50歳以上、41万人のデータをまとめた",
+        "body": "パソコン・ネット・スマホの使い方と、物忘れや認知症との関係を調べた研究136本を集め、そのうち57本、50歳以上の約41万人分を数字でまとめたんだ。平均は68.7歳だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "使う人のほうが衰えにくかった",
+        "body": "デジタル機器を使う人は、認知機能が落ちた状態になるリスクが低く（オッズ比0.42）、時間とともに衰える速さもゆるやかだった（ハザード比0.74）。学歴や収入、健康状態を考えに入れても、この関係は残ったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "使ったから衰えなかった、とは言い切れない",
+        "body": "まとめたのは観察研究だけ。使い方は本人の思い出しで、いつから使ったかもわからない研究が多い。元気な人ほど使えている、という逆向きの説明も残るし、データは中〜高所得の国が中心だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-dementia-technology-use-cognitive-aging"
+  },
+  {
+    "id": "colored-overlays-reading-review",
+    "category": "色彩心理",
+    "kind": "よくある説",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Griffiths et al., \"The effect of coloured overlays and lenses on reading: a systematic review of the literature\" (Ophthalmic & Physiological Optics, 2016)",
+    "sourceUrl": "https://doi.org/10.1111/opo.12316",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "色つきのフィルムを重ねると、文字が読みやすくなる？",
+        "body": "読むのが苦手な人に、色つきの透明シートやレンズを使うと読みやすくなる、という話があるよね。実際に効くのか、これまでの研究をまとめて確かめた人たちがいるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "51本の研究を、質ごとに見直した",
+        "body": "色つきのシートやレンズで読む力が変わるかを調べた51本（データは54組）を集めた。色の選び方の方式ごとに分け、研究のやり方にかたよりがないかを1本ずつ評価したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果は小さく、偽物と同じくらいのことが多い",
+        "body": "よくなったと報告する研究は多いけど、差はたいてい小さいか、効果のない偽物を使ったときと同じくらいだった。やり方のしっかりした研究ほど、効果を支持しなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "きちんとした比べ方の研究が少ない",
+        "body": "多くの研究に、かたよりが大きいか、判断できない点があった。数字をまとめて計算したわけではなく、研究の質を見て整理したまとめだよ。著者たちも、よい試験の組み方を今後の課題にしているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#colored-overlays-reading-review"
+  },
+  {
+    "id": "dokugaku-exam-eve-morning-checklist-retrieval-under-stress",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Smith et al., \"Retrieval practice protects memory against acute stress\" (Science, 2016)",
+    "sourceUrl": "https://doi.org/10.1126/science.aah5067",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/exam-eve-morning-checklist/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "本番で頭が真っ白になるのは防げる？",
+        "body": "緊張すると、覚えたはずのことが出てこない。ストレスが思い出す力を下げることは、多くの研究で知られているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "読み直しと「思い出す練習」",
+        "body": "参加者に、読み直す方法か、自分でテストする「思い出す練習」で覚えてもらった。24時間後、半数にストレスをかけてから、どれだけ思い出せるかを調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "思い出す練習の組は落ちなかった",
+        "body": "読み直した人はストレスで思い出せる量が減ったけど、思い出す練習をした人は減らなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "記憶が強かっただけかもしれない",
+        "body": "思い出す練習の組は、全体として成績が高かった。練習のやり方のおかげか、記憶が強かっただけかは区別できない、と別の研究者が指摘している。ストレスホルモンを測っていない点も指摘されているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-eve-morning-checklist-retrieval-under-stress"
+  },
+  {
+    "id": "dokugaku-self-imposed-deadlines-study-replication",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Hyndman & Bisin, \"Replication of 'Procrastination, Deadlines, and Performance: Self-Control by Precommitment'\" (Psychological Science, 2026)",
+    "sourceUrl": "https://doi.org/10.1177/09567976261460772",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/self-imposed-deadlines-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分で締め切りを決めると、はかどる？",
+        "body": "「人は自分に締め切りを課すと先延ばしが減る。でも外から等間隔に決められた締め切りの方がもっと効く」。2002年の有名な実験の話で、勉強法や時間管理の本でよく紹介されてきたよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ実験をやり直してみた",
+        "body": "2026年、研究者たちがこの実験の研究2を、米国の大きな公立大学の大人の参加者で確かめ直したんだ。締め切りの決め方を変えて、元の研究と同じ成績の指標を比べたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差はほとんど出なかった",
+        "body": "締め切りの決め方を変えても、3つの成績の指標にはほとんど差が出なかった。等間隔の締め切りも目立たなかった。そして同じ年の9月、雑誌は元の論文を撤回したんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "締め切りが無意味とまでは言えない",
+        "body": "確かめ直したのは研究2の1つだけで、1つの大学での結果。社会人が一人で続ける勉強で、自分で決めた締め切りがどう働くかを直接調べた研究は、SEADICEが調べた範囲ではまだ見つかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-procrastinate-studying-temporal-discounting",
+        "type": "あわせて読む",
+        "why": "なぜ先延ばしするのかを、先の得を小さく見る心のくせから調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-self-imposed-deadlines-study-replication"
+  },
+  {
+    "id": "dokugaku-screen-eye-strain-study-recovery-20-20-20",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Johnson & Rosenfield, \"20-20-20 Rule: Are These Numbers Justified?\" (Optometry and Vision Science, 2023)",
+    "sourceUrl": "https://doi.org/10.1097/OPX.0000000000001971",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/screen-eye-strain-study-recovery/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "20分ごとに20秒、遠くを見れば目は疲れない？",
+        "body": "画面を見るときは「20分ごとに20秒、6m先を見る」といい、という20-20-20ルール。よく聞くけど、実は確かめた研究はあまり多くないらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "休憩の間隔を変えてくらべた",
+        "body": "若い30人が、タブレットで40分、頭を使う読む課題をしたよ。20秒の休憩を5分・10分・20分ごとに入れる回と、休憩なしの回をくらべたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "20秒の休憩では差が出なかった",
+        "body": "どの回でも課題の後に目の疲れは増えた。でも休憩の入れ方で、目の疲れにも、読む速さや正確さにも差はなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い休憩や長い期間なら？",
+        "body": "1回40分の短い実験で、30人だけ。毎日何時間も画面を見る場合や、もっと長い休憩ならどうなるかは、この実験からはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-blue-light-glasses",
+        "type": "あわせて読む",
+        "why": "画面で目が疲れる対策のもう1つ、ブルーライトカットのメガネを確かめたまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#dokugaku-screen-eye-strain-study-recovery-20-20-20"
+  },
+  {
     "id": "dokugaku-reading-comprehension-check-sheet-restudy-choice",
     "category": "学習法",
     "kind": "研究紹介",
@@ -7264,6 +7444,11 @@
         "id": "kokoro-night-phone-blue-light-sleep-filter-melatonin",
         "type": "あわせて読む",
         "why": "ブルーライトカットのメガネの試験と、スマホの夜間モードの実験"
+      },
+      {
+        "id": "dokugaku-screen-eye-strain-study-recovery-20-20-20",
+        "type": "あわせて読む",
+        "why": "画面で目が疲れる対策の20-20-20ルールを実験で確かめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-blue-light-glasses"
@@ -10366,7 +10551,14 @@
         "body": "「終えた日」や質問票で後回しを測ると、はっきりした関係は出なかった。対象は1つの大学の学生で、勉強そのものではない課題。相関なので原因とまでは言えない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-why-procrastinate-studying-temporal-discounting"
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-why-procrastinate-studying-temporal-discounting",
+    "links": [
+      {
+        "id": "dokugaku-self-imposed-deadlines-study-replication",
+        "type": "あわせて読む",
+        "why": "自分で決めた締め切りが先延ばしに効くかを確かめ直した追試"
+      }
+    ]
   },
   {
     "id": "dokugaku-sleep-log-checklist-for-learners-night-before-exam",
