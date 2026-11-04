@@ -1,5 +1,199 @@
 [
   {
+    "id": "dokugaku-why-hot-room-hard-to-study-comfortable-warm",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Lan et al., \"Cognitive performance was reduced by higher air temperature even when thermal comfort was maintained over the 24-28°C range\" (Indoor Air, 2022)",
+    "sourceUrl": "https://doi.org/10.1111/ina.12916",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-hot-room-hard-to-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "暑くても、慣れれば平気？",
+        "body": "「暑いのには慣れてるから、勉強には関係ない」。そう思っている人は多いよね。でも、快適と感じていても頭の働きが落ちていた、という実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "24℃・26℃・28℃で比べた",
+        "body": "36人が、服装や風で3つの温度とも快適に感じる状態にして、それぞれ4.5時間ずつ頭の働きを測るテストを受けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "本人は気づかないまま低下",
+        "body": "14の指標のうち12で、24℃より高い温度のほうが成績が下がった。平均で26℃は10%、28℃は6%低かったらしい。なのに本人の「はかどり具合」の評価は変わらなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い勉強でも同じ？",
+        "body": "実験室での短い課題の結果で、人数も36人。何時間も続く自宅の勉強で同じくらいの差が出るかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-room-temperature-concentration-research-optimal",
+        "type": "あわせて読む",
+        "why": "快適でも24℃より暖かいと成績が落ちた実験と、ちょうどいい室温の目安"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-why-hot-room-hard-to-study-comfortable-warm"
+  },
+  {
+    "id": "dokugaku-study-method-plan-vs-actual-check-sheet-follow-through",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Hazlett et al., \"Self-Testing and Follow-Through of Learning Strategies Supports Student Success\" (CBE—Life Sciences Education, 2025)",
+    "sourceUrl": "https://doi.org/10.1187/cbe.24-04-0128",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/study-method-plan-vs-actual-check-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "決めた勉強法、続いてる？",
+        "body": "「次は問題を解いて覚えよう」と決めても、いつもの読み返しに戻っちゃう。大学生の調査で、決めた勉強法がどれくらい続くかを調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "小テストのたびに聞いた",
+        "body": "米国の遺伝学の授業の学生に、小テストのたびに使った勉強法と、次に使うつもりの勉強法を答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "続いたのは平均34%",
+        "body": "決めた勉強法のうち、次の回答でも使ったと答えたのは平均34%。全部続けたのは102人中1人だけだった。続けた割合が高い学生ほど、小テストの点が上がる傾向があったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "続けたから上がった？",
+        "body": "くじで分けた実験じゃなく、関係を見た調査なんだ。続けたかは本人の答えで、対象も米国の1つの大学の遺伝学の授業だけ。続けたから点が上がったのかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-study-method-plan-vs-actual-check-sheet-follow-through"
+  },
+  {
+    "id": "dokugaku-why-ai-confidently-wrong-hallucination-ask-again",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Farquhar et al., \"Detecting hallucinations in large language models using semantic entropy\" (Nature, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41586-024-07421-0",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-ai-confidently-wrong-hallucination/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "AIのまちがいを見分けたい",
+        "body": "AIは自信ありげにまちがえることがあるよね。じゃあ、どの答えが怪しいかを見分ける手がかりはあるのか。それを調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ質問を何度も聞く",
+        "body": "同じ質問にAIを何度か答えさせて、答えの「意味」がぶれるかを測る方法を作った。薬の標的を聞くと、同じ指示でも正しい答えとまちがった答えを行ったり来たりしたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ぶれる所は怪しい",
+        "body": "意味のぶれが大きい答えほど、まちがいが多かった。見分ける力の指標は30の組み合わせの平均で0.790（0.5が当てずっぽう、1が完全）。人ではなくAIの答えを集めて評価した研究だよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ぶれない誤りは見えない",
+        "body": "毎回同じようにまちがえる場合は、この方法では見つけられないと著者ら自身が書いている。人が手で何度か聞き直す使い方は、この研究では試していないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "ai-chatgpt-fake-citations",
+        "type": "あわせて読む",
+        "why": "AIがまちがえる様子と、怪しい答えを見分ける手がかりをあわせて"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#dokugaku-why-ai-confidently-wrong-hallucination-ask-again"
+  },
+  {
+    "id": "food-ginkgo-dementia-prevention-rct",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "DeKosky et al., \"Ginkgo biloba for prevention of dementia: a randomized controlled trial\" (JAMA, 2008)",
+    "sourceUrl": "https://doi.org/10.1001/jama.2008.683",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "イチョウ葉エキスで物忘れを防げる？",
+        "body": "記憶力のサプリといえばイチョウ葉エキス、ってイメージがあるよね。じゃあ飲み続けると、認知症になりにくくなるのかな。大きな実験で確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3069人を6年ほど追った",
+        "body": "米国の5つの医療機関で、75歳以上の3069人をくじで2組に分けた。片方はイチョウ葉エキス120mgを1日2回、もう片方は偽の錠剤（プラセボ）。中央値6.1年、半年ごとに認知症かを調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "認知症の減り方に差はなかった",
+        "body": "認知症になったのはイチョウ葉の組で277人、偽の錠剤の組で246人。100人を1年見たときの割合は3.3と2.9で、はっきりした差はなかった。軽度認知障害（MCI）だった人でも、進み方は変わらなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い人や別の量では？",
+        "body": "対象は米国の75歳以上のボランティアで、調べたのは認知症になるかどうか。もっと若い人の毎日の物忘れや、別の量・別の製品で同じかは、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-mind-diet-cognition-rct",
+        "type": "あわせて読む",
+        "why": "サプリと食事、どちらも大きなくじ引き実験で物忘れの予防効果ははっきりしなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-ginkgo-dementia-prevention-rct"
+  },
+  {
+    "id": "personality-morning-type-conscientiousness",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Lipnevich et al., \"How distinctive are morningness and eveningness from the Big Five factors of personality? A meta-analytic investigation\" (Journal of Personality and Social Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/pspp0000099",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "朝型の人は真面目って本当？",
+        "body": "早起きの人ってきちんとしてそう、夜型はルーズそう。そんなイメージ、なんとなくあるよね。朝型・夜型と性格の関係を、たくさんの研究でまとめた分析があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "44のグループ、1万6647人",
+        "body": "朝型・夜型の度合いと、ビッグファイブ（性格の5つの軸）の関係を調べた研究を集めた。44のグループ、合わせて1万6647人分、620の相関をまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "真面目さとの関係がいちばん強い",
+        "body": "5つのうち、朝型といちばん関係が強かったのは真面目さ（誠実性）で、相関は0.37。夜型は外向性や開放性とも少し関係があり、協調性はほぼ無関係。性格で説明できたのは朝型・夜型の違いの11〜16%ほどだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "朝型だから真面目、ではない",
+        "body": "関係を集めた分析なので、早起きすると真面目になるのか、真面目な人が早起きするのかはわからない。性格で説明できない部分も大きいから、朝型か夜型かで人を決めつけることはできないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-chronotype-genes-gwas",
+        "type": "あわせて読む",
+        "why": "朝型・夜型の生まれつきの部分と、性格との関係をあわせて見られる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-morning-type-conscientiousness"
+  },
+  {
     "id": "research-suppressing-urges-rebound-why-research-chocolate-rebound",
     "category": "習慣形成",
     "kind": "よくある説",
@@ -5710,6 +5904,11 @@
         "id": "research-hard-work-time-of-day-chronotype-research-night-owl-morning",
         "type": "あわせて読む",
         "why": "朝型と夜型で、朝の注意力にどれだけ差が出るかを測った研究"
+      },
+      {
+        "id": "personality-morning-type-conscientiousness",
+        "type": "あわせて読む",
+        "why": "朝型・夜型の生まれつきの部分と、性格との関係をあわせて見られる"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-chronotype-genes-gwas"
@@ -11026,6 +11225,11 @@
         "id": "research-room-temperature-concentration-research-hotcold",
         "type": "あわせて読む",
         "why": "ちょうどいい室温の目安と、極端な暑さ寒さで成績がどれだけ落ちるか"
+      },
+      {
+        "id": "dokugaku-why-hot-room-hard-to-study-comfortable-warm",
+        "type": "あわせて読む",
+        "why": "快適でも24℃より暖かいと成績が落ちた実験と、ちょうどいい室温の目安"
       }
     ],
     "webUrl": "https://seadice.win/evidence/focus/#research-room-temperature-concentration-research-optimal"
@@ -23728,7 +23932,14 @@
     "articleUrl": "https://ai.seadice.win/ai-work-output-check/",
     "articleSite": "AI時代の困りごと",
     "webUrl": "https://seadice.win/evidence/ai/#ai-chatgpt-fake-citations",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "dokugaku-why-ai-confidently-wrong-hallucination-ask-again",
+        "type": "あわせて読む",
+        "why": "AIがまちがえる様子と、怪しい答えを見分ける手がかりをあわせて"
+      }
+    ]
   },
   {
     "id": "bohan-ai-voice-detect",
@@ -28449,7 +28660,13 @@
         "body": "どちらのグループも食事の相談と減量の支えを受けていたので、両方が良くなっただけかもしれない。3年は短いかもしれず、認知症そのものを防げるかは調べていないよ。"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "id": "food-ginkgo-dementia-prevention-rct",
+        "type": "あわせて読む",
+        "why": "サプリと食事、どちらも大きなくじ引き実験で物忘れの予防効果ははっきりしなかった"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/food-brain/#food-mind-diet-cognition-rct"
   },
   {
