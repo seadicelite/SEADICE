@@ -1,5 +1,199 @@
 [
   {
+    "id": "research-suppressing-urges-rebound-why-research-chocolate-rebound",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Erskine JA, \"Resistance can be futile: investigating behavioural rebound\" (Appetite, 2008)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2007.09.006",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/suppressing-urges-rebound-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "食べたいなら、考えなければいい？",
+        "body": "お菓子をやめたいとき、「チョコのことは考えない」って決めるよね。考えなければ食べたくならない、と思いがち。でも本当にそうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5分間、チョコを考えないようにした",
+        "body": "ダイエット中ではない134人が、5分間チョコを食べることを考えないようにするか、あえて考えるか、自由に話した。そのあと味比べと称して、食べた量をこっそり測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "考えないようにした人ほど食べた",
+        "body": "考えないようにした人は、男女とも、自由に話した人よりチョコを多く食べていた。押さえ込んだ欲求が、行動になって跳ね返ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの実験の話",
+        "body": "ダイエットしていない人が、1回だけ5分間がまんした直後の結果なんだ。あえて考えた組では男性だけがいちばん多く食べていて、男女で違いもあった。長くがまんを続けたときや、チョコ以外でも同じかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-suppressing-urges-rebound-why-research-chocolate-rebound"
+  },
+  {
+    "id": "research-similar-words-mix-up-interference-why-research-semantic-sets",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Pérez-Serrano M et al., \"Effects of semantic clustering and repetition on incidental vocabulary learning\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.997951",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/similar-words-mix-up-interference-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "単語はジャンルごとに覚えるとラク？",
+        "body": "色の名前、体の部分、果物。単語帳ってジャンルごとにまとまっていることが多いよね。仲間で覚えた方が整理されて覚えやすい気がする。でも実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "102人が動画で新しい単語を覚えた",
+        "body": "スペインの大学生102人が、字幕つきの動画を見ながら架空の外国語の単語を覚えた。単語は意味の近いまとまりか、ばらばらで出てきて、出てくる回数は1回・4回・8回だったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "まとまりの単語は伸びにくかった",
+        "body": "ばらばらの単語は、出てくる回数が増えるほど思い出せるようになった。でも意味の近いまとまりの単語は、4回から8回に増やしても伸びなかった。似た単語どうしが混ざって邪魔し合うらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "時間がたってからは不明",
+        "body": "テストは動画を見た直後だけで、時間がたつと差が消えるかは今後の課題だと著者も書いている。意識して覚える場面では、これまでの研究も結果が分かれていて、まとめて覚えるのが必ず不利とまでは言えないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-similar-words-get-mixed-up-semantic-sets",
+        "type": "反対の結果",
+        "why": "同じ問いで、正答数には差が出ず取り違えが増えた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#research-similar-words-mix-up-interference-why-research-semantic-sets"
+  },
+  {
+    "id": "research-morning-habit-time-of-day-research-cortisol",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Fournier M et al., \"Effects of circadian cortisol on the development of a health habit\" (Health Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/hea0000510",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/morning-habit-time-of-day-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "習慣は朝につくるといい？",
+        "body": "新しい習慣は朝にやると身につきやすい、ってよく聞くよね。朝はストレスホルモンのコルチゾールが多くて、それが覚えやすさに関わるという説があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "朝と夜をくじ引きで比べた",
+        "body": "大学生48人に、腰まわりのストレッチを90日間続けてもらった実験がある。くじ引きで「起きてすぐ」と「寝る前」に分けて、毎日どれだけ自動的にできるかを記録したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "朝のほうが早く身につく予測",
+        "body": "曲線から予測すると、朝の組は約106日、夜の組は約154日で「考えずにできる」状態に届くという結果。ストレッチ中のコルチゾールの量が、この差を説明していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日数は先を伸ばした予測",
+        "body": "106日・154日は、90日分の記録から曲線を先に伸ばして出した予測で、実際にその日まで追ったわけではないんだ。48人・ストレッチ1種類の実験だから、ほかの習慣や大人全般に当てはまるかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "habit-66days",
+        "type": "あわせて読む",
+        "why": "習慣になるまでの日数を、ふだんの暮らしで測った元の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-morning-habit-time-of-day-research-cortisol"
+  },
+  {
+    "id": "caffeine-decaf-expectancy",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Dawkins et al., \"Expectation of having consumed caffeine can improve performance and mood\" (Appetite, 2011)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2011.07.011",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "デカフェでも、飲むとシャキッとするのはなぜ？",
+        "body": "カフェインレスのコーヒーでも、飲むと目が覚めた気がすることってあるよね。あれはただの気のせいなのか、「飲んだ」と思うだけで何か変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中身も、伝えることも入れ替えた",
+        "body": "88人をくじ引きで分けて、カフェイン入りかデカフェのコーヒーを飲んでもらった。そのとき「カフェイン入り」か「デカフェ」と伝える方も入れ替えて、注意力や気分を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「入ってる」と思うだけでも注意力が上がった",
+        "body": "本物のカフェインでも、入っていると思って飲んだだけでも、注意力と反応の速さがよくなった。思い込みは「元気が出た」という気分も上げていた。ただ、両方そろっても効果が足し算で大きくなるわけではなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "88人が1回飲んだ直後の話",
+        "body": "1回飲んだ直後の変化を見た実験なんだ。毎日飲む暮らしの中でも思い込みが同じように効くのか、どれくらい続くのかは、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-tolerance-alertness",
+        "type": "あわせて読む",
+        "why": "コーヒーで目が覚める感じの正体を、離脱の面から見た研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-decaf-expectancy"
+  },
+  {
+    "id": "brain-iq-fixed-education",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Ritchie & Tucker-Drob, \"How Much Does Education Improve Intelligence? A Meta-Analysis\" (Psychological Science, 2018)",
+    "sourceUrl": "https://doi.org/10.1177/0956797618774253",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "IQは生まれつきで、勉強しても変わらない？",
+        "body": "頭の良さは生まれつき決まっていて、あとから努力しても変わらない、という話を聞くよね。長く学校に通う人ほどIQが高いのも、もともと頭がいいからなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "60万人以上で、学校に通う年数を比べた",
+        "body": "もとのIQをそろえて比べた研究、義務教育が延びた前後を比べた研究、誕生日の区切りで入学の年が分かれた子を比べた研究。この3種類、42のデータ・60万人以上をまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1年長く学ぶと、IQは1〜5点ほど上がる",
+        "body": "どの方法でも、教育を1年多く受けるとIQのテストの点が約1〜5点高くなっていた。効果は大人になっても続き、調べたどの種類の頭の働きにも見られた。IQは生まれつきだけで決まるわけではないらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きで分けた実験ではない",
+        "body": "どれも制度や誕生日の違いを利用した研究で、人をくじ引きで分けたわけではない。1〜5点と幅もあって、何をどう学ぶと伸びるのかは、この研究ではわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-use-it-or-lose-it",
+        "type": "あわせて読む",
+        "why": "学歴と頭の働きの話。こちらは頭を使う活動が老化の速さを変えるかを見た"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-iq-fixed-education"
+  },
+  {
     "id": "digital-dementia-technology-use-cognitive-aging",
     "category": "デジタルデトックス",
     "kind": "よくある説",
@@ -9029,7 +9223,14 @@
         "body": "日本の大学生が48組の単語を覚えた実験の話。何か月もかけて何千語も覚えていく独学で同じになるかは、まだはっきりしていないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-similar-words-get-mixed-up-semantic-sets"
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-similar-words-get-mixed-up-semantic-sets",
+    "links": [
+      {
+        "id": "research-similar-words-mix-up-interference-why-research-semantic-sets",
+        "type": "反対の結果",
+        "why": "同じ問いで、意味の近い単語は思い出しにくかった研究"
+      }
+    ]
   },
   {
     "id": "kokoro-work-confidence-recover-praise-fades",
@@ -13447,6 +13648,11 @@
         "id": "research-new-habit-three-day-quit-why-research-gym",
         "type": "あわせて読む",
         "why": "運動に絞って、ジムの新入会員で習慣の育ち方を追った研究"
+      },
+      {
+        "id": "research-morning-habit-time-of-day-research-cortisol",
+        "type": "あわせて読む",
+        "why": "朝と夜のどちらで習慣が早く身につくかを、くじ引きで比べた"
       }
     ]
   },
@@ -26220,6 +26426,11 @@
         "id": "kokoro-brain-training-transfer",
         "type": "あわせて読む",
         "why": "頭を使う活動の話。こちらは脳トレで頭全体が鍛えられるかを数字で見た"
+      },
+      {
+        "id": "brain-iq-fixed-education",
+        "type": "あわせて読む",
+        "why": "学校で学ぶ年数がIQを上げるかを、60万人以上でまとめた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/brain-myths/brain-use-it-or-lose-it/"
@@ -28572,6 +28783,11 @@
         "id": "caffeine-gene",
         "type": "あわせて読む",
         "why": "カフェインの影響が人によって違う、体質の話"
+      },
+      {
+        "id": "caffeine-decaf-expectancy",
+        "type": "あわせて読む",
+        "why": "カフェインが入っていると思うだけで、注意力が上がった実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/"
