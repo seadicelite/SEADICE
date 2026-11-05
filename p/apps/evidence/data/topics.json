@@ -1,5 +1,204 @@
 [
   {
+    "id": "dokugaku-sleep-learning-vocabulary-audio-tmr-teens",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Wilhelm et al., \"No effect of targeted memory reactivation during sleep on retention of vocabulary in adolescents\" (Scientific Reports, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-020-61183-z",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/sleep-learning-vocabulary-audio/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝ている間に単語を流せば、覚えられる？",
+        "body": "覚えた単語を寝ている間に聞かせると、記憶が強まる。大人の実験ではそんな結果が出ていて、「睡眠学習」として気になる人も多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "11〜13歳の18人で試してみた",
+        "body": "寝る前にオランダ語とドイツ語の単語92組を覚えて、そのうち46語を夜の眠りの間にスピーカーで流した。脳波を見ながら、眠りの段階に合わせて流したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "流しても効果は見られなかった",
+        "body": "寝る前の成績を100%とすると、翌朝は流した単語が97.12%、流さなかった単語が102.81%。差ははっきりせず、流した効果は見られなかった。1週間後も差はなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ効かなかったのかは、まだ仮説",
+        "body": "18人の小さな実験。研究者たちは、寝る前に覚えられた量が少なかったことが関係しているかもと考えているけど、確かめられてはいない。高齢の人の実験でも効果は出なかったらしい。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-sleep-learning",
+        "type": "あわせて読む",
+        "why": "寝る前に覚えた単語を眠りの間に流す方法を、11〜13歳で試した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-sleep-learning-vocabulary-audio-tmr-teens"
+  },
+  {
+    "id": "kokoro-ai-answers-differ-confusion-same-question-10x",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Qiu J, Zhou Y, \"Assessing the accuracy and consistency of answers by ChatGPT to questions regarding carbon monoxide poisoning\" (PLoS One, 2024)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0311937",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-answers-differ-confusion/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "同じ質問、同じ答え？",
+        "body": "AIにさっきと同じことを聞いたら、答えが変わっていた。そんな経験ない？じゃあ同じ質問を10回聞いたら、何回同じ答えが返ってくるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "44問を10回ずつ聞いた",
+        "body": "中国の研究者が、一酸化炭素中毒についての医学の選択問題44問を、ChatGPT（GPT-3.5）に英語と中国語で10回ずつ聞いた。2023年12月のことだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "そろっても正解とは限らない",
+        "body": "英語では24問が10回とも同じ答え、15問は答えが大きく割れた。しかも10回とも同じ答えだった24問のうち9問は、10回とも不正解だったんだ（論文の表から数えた数）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "今のAIでも同じ？",
+        "body": "調べたのは古い無料版の1つのモデルと、1つの医学の分野だけ。今のAIや、日常のふつうの質問でも同じくらい答えが揺れるかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-ai-confidently-wrong-hallucination-ask-again",
+        "type": "あわせて読む",
+        "why": "答えの揺れは誤りの手がかりになるけど、そろっても正解とは限らない"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-answers-differ-confusion-same-question-10x"
+  },
+  {
+    "id": "kokoro-ai-chat-attachment-why-five-days-friendlike",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Ho JQH, Hu M, Goh AYH, Pragasam EJ, Hartanto A, \"How Consistent Friendlike Conversation with AI Companions Influences Our Attitudes and Perceptions Toward AI: An Exploratory Experiment\" (Behavioral Sciences, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/bs16020278",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-chat-attachment-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIに情が移るのはなぜ？",
+        "body": "寝る前にAIと話すのが日課になって、なんだか情が移ってきた。そんな人、意外と多いかも。毎日話すと、AIの感じ方って変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5日間、毎晩5分",
+        "body": "シンガポールの大学生52人が、5日間は毎晩AIと友だちのように話して、別の5日間は毎晩日記を書いたんだ。どっちが先かはくじで決めたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「わかってくれる」が上がった",
+        "body": "AIと話した週のあとは「AIはわかってくれる」が100点中67.8点で、日記の週の51.6点より高かったらしい。でも、AIに頼る気持ちや孤独感は2つの週で差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続けたらどうなる？",
+        "body": "52人・5日間の小さな実験だから、何か月も毎日話したときのことはわからない。実験前の状態も測っていないので、2つの週の比べ合いにとどまるよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-chat-attachment-why-five-days-friendlike"
+  },
+  {
+    "id": "insight-nature-hiking-creativity",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Atchley et al., \"Creativity in the wild: improving creative reasoning through immersion in natural settings\" (PLoS ONE, 2012)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0051474",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自然の中にいると、アイデアが出る？",
+        "body": "山や森に行くと頭がすっきりして、いい考えが浮かぶ気がするよね。スマホから離れて自然の中で何日か過ごすと、ひらめく力は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "山歩きの前と4日目で比べた",
+        "body": "アメリカの野外学校で山歩きの旅に出た大人56人が、関係なさそうな3つの言葉をつなぐ言葉を探す問題を10問解いた。24人は出発前、32人は旅の4日目の朝に解いたよ。旅の間は電子機器は使えなかった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "4日目の組の方が正解が多かった",
+        "body": "10問中の正解は、出発前の組が平均4.14問、4日目の組が6.08問。研究者たちは、成績がおよそ50%上がったと書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自然のおかげかはわからない",
+        "body": "自然に触れたからか、スマホなどから離れたからか、旅のほかの何かのせいなのかは分けられない。同じ人の前後ではなく別の人どうしの比べで、2つの組は年齢も違った。56人の小さな研究だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "insight-walking-creativity",
+        "type": "あわせて読む",
+        "why": "こちらは何日も自然の中で過ごした研究、あちらは歩くこと自体の効果を試した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-nature-hiking-creativity"
+  },
+  {
+    "id": "exercise-sitting-hours-memory-region-thickness",
+    "category": "運動と記憶",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Siddarth et al., \"Sedentary behavior associated with reduced medial temporal lobe thickness in middle-aged and older adults\" (PLoS ONE, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0195549",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "座りすぎると、記憶に関わる脳が薄くなる？",
+        "body": "「座りっぱなしは脳に悪い」ってニュースを見たことあるかも。実は、そのもとになった研究のひとつは、とても小さな調査なんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "45〜75歳の35人の脳を撮った",
+        "body": "アメリカの大学で、認知症ではない45〜75歳の35人に、平日に1日何時間座っているかをアンケートで聞き、記憶に関わる脳の部分（内側側頭葉）の厚さをMRIで測ったよ。座る時間は平均1日7.2時間だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "座る時間が長い人ほど、少し薄かった",
+        "body": "年齢をそろえて比べると、座る時間が長い人ほど、その部分が薄い傾向があった（r=-0.37）。一方、運動している量と厚さには、はっきりした関係は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "座ったせいで薄くなったとは言えない",
+        "body": "1回だけ測った調査なので、原因か結果かはわからない。35人と少なく、座る時間は本人の申告。血圧や喫煙、お酒なども測っていない。研究者たち自身も「予備的な結果」と書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-hippocampus-volume",
+        "type": "あわせて読む",
+        "why": "こちらは座る時間と脳の厚さの調査、あちらは運動を1年続けて記憶の中枢を測った試験"
+      },
+      {
+        "id": "kokoro-sitting-breaks-focus-move-breaks",
+        "type": "あわせて読む",
+        "why": "こちらは脳の形の調査、あちらは座りっぱなしと頭の働きを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-sitting-hours-memory-region-thickness"
+  },
+  {
     "id": "dokugaku-why-study-methods-differ-icap-question-vs-lecture",
     "category": "学習法",
     "kind": "研究紹介",
@@ -305,6 +504,11 @@
         "id": "ai-chatgpt-fake-citations",
         "type": "あわせて読む",
         "why": "AIがまちがえる様子と、怪しい答えを見分ける手がかりをあわせて"
+      },
+      {
+        "id": "kokoro-ai-answers-differ-confusion-same-question-10x",
+        "type": "あわせて読む",
+        "why": "同じ質問を10回聞くと、そろって同じまちがいを返すこともあった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/ai/#dokugaku-why-ai-confidently-wrong-hallucination-ask-again"
@@ -6412,6 +6616,11 @@
         "id": "dokugaku-movement-breaks-long-study-sessions-micro-walks",
         "type": "あわせて読む",
         "why": "こちらは頭の働き、あちらはこまめに歩いた日の気分と疲れの実験"
+      },
+      {
+        "id": "exercise-sitting-hours-memory-region-thickness",
+        "type": "あわせて読む",
+        "why": "こちらは頭の働き、あちらは座る時間と脳の形の調査"
       }
     ]
   },
@@ -7817,6 +8026,11 @@
         "id": "scent-sleep-cue-metaanalysis",
         "type": "あわせて読む",
         "why": "新しく覚えるのは難しくても、起きている間に覚えたことの定着の研究"
+      },
+      {
+        "id": "dokugaku-sleep-learning-vocabulary-audio-tmr-teens",
+        "type": "あわせて読む",
+        "why": "覚えた単語を眠りの間に流す方法を、子どもで試したら効果は出なかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/brain-myths/#brain-sleep-learning"
@@ -11463,6 +11677,11 @@
         "id": "insight-incubation-meta",
         "type": "あわせて読む",
         "why": "行き詰まったら離れる効果のまとめと、歩きながら考える効果の実験"
+      },
+      {
+        "id": "insight-nature-hiking-creativity",
+        "type": "あわせて読む",
+        "why": "歩く効果の実験と、何日も自然の中で過ごした研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/insight/#insight-walking-creativity",
@@ -14928,6 +15147,11 @@
         "id": "exercise-memory-complaints-older-rct",
         "type": "あわせて読む",
         "why": "同じく高齢の人が長く運動を続けた試験。こちらは脳の大きさを測った"
+      },
+      {
+        "id": "exercise-sitting-hours-memory-region-thickness",
+        "type": "あわせて読む",
+        "why": "運動を続けた試験と、座る時間と記憶の脳の厚さの調査"
       }
     ]
   },
