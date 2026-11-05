@@ -1,5 +1,200 @@
 [
   {
+    "id": "kokoro-upward-comparison-motivation-backfire-diary",
+    "category": "幸福の科学",
+    "kind": "研究紹介",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Meyer T, Sickinghe M, Matera V, Morina N, \"Comparison standards shape everyday judgments of low and high wellbeing in individuals with and without psychopathology: a diary-based investigation\" (Scientific Reports, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-024-54681-x",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/upward-comparison-motivation-backfire/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "最悪な場面、何と比べてる？",
+        "body": "今日いちばん嫌だった場面を思い出すと、頭のどこかで誰かや「こうあるべき」と比べていたりしない？その比べ方、よかった場面とは違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50人が1週間、日記を書いた",
+        "body": "ドイツの50人（半分は心理療法の外来に来た人）が1週間、毎晩その日のいちばんよかった場面と悪かった場面の気分と理由を書いた。研究者は、理由の中に出てきた「比較」を数えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "悪い場面には上との比較",
+        "body": "悪かった場面には「上との比較」が1週間・1人あたり平均1.30回、よかった場面では0.14回。よかった場面には、前の自分との比較が多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "50人と小さな研究で、気分が悪いから上と比べたのか、上と比べたから悪くなったのかはわからない。ここでの「上」には、人だけでなく理想や前の自分も入っているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-upward-comparison-motivation-backfire-diary"
+  },
+  {
+    "id": "kokoro-ai-help-overconfidence-wrong-advice",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Ren S, \"College students' metacognitive awareness of generative-AI reliance: an experimental study of decision confidence and attribution bias\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1926110",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-help-overconfidence/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "AIと解くと賢くなった気がする",
+        "body": "AIに相談しながら問題を解くと、すっきり納得できる感じがするよね。でもその手応え、どこまで自分の力なんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生342人を3組に",
+        "body": "中国の大学生を「AIなし」「ChatGPTに相談」「相談後に3つの問いに答えてから決める」の3組に分けて、論理やグラフ読み取りなど24問を解いてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自信は上がり、間違いにも乗る",
+        "body": "相談した組は自信が100点満点で76.1点と、AIなしの68.4点より高かった。でもAIの答えが間違っていた問題でも、平均62.4%でその答えに乗っていたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3つの問いで39.7%に",
+        "body": "「自分の理由は？」「根拠はどこ？」「何があれば反対する？」に答えた組は、間違いに乗る割合が39.7%に下がった。正答率は下がっていなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く使うとどうなる？",
+        "body": "1つの大学の学生が短い問題を解いたその場の結果。仕事や長い学習で同じことが起きるかは、まだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-ai-help-overconfidence-think-first",
+        "type": "あわせて読む",
+        "why": "同じAIの使い方でも、乗りすぎを防ぐ問いと、使う順番の差をあわせて"
+      },
+      {
+        "id": "dokugaku-why-ai-confidently-wrong-hallucination-ask-again",
+        "type": "あわせて読む",
+        "why": "AIが自信ありげにまちがえる仕組みと、その答えに乗らないための問い"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-help-overconfidence-wrong-advice"
+  },
+  {
+    "id": "kokoro-ai-help-overconfidence-think-first",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Liu C, Guo J, Gao R, Chen X, Zhu Q, Chang P, \"Borrowed or kept? How self-generation-first and direct-adoption AI workflows shape immediate unaided reasoning\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1910545",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-help-overconfidence/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIで書くと、書く力は落ちる？",
+        "body": "AIに文章を書いてもらうのが当たり前になると、自分で書くときに困らないか心配になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "659人で書き方を比べた",
+        "body": "意見文を「先に自分の立場と骨組みを書いてからAIに聞く」「AIの文章をほぼそのまま使う」「AIなし」の3組で書き、15〜20分後に全員がAIなしで別の文章を書いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差が出たのは使う順番",
+        "body": "ほぼそのまま使った組は、AIなしで書いた次の文章の論理の評価が、AIを使わなかった組より7点満点で0.38点低かった。先に自分で書いた組は下回らなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "直後の1回だけの話",
+        "body": "測ったのは直後の1回で、差も小さめ。長く続く力の低下かどうかはわからないし、先に書く組は手間も多くて何が効いたかは切り分けられていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-ai-help-overconfidence-wrong-advice",
+        "type": "あわせて読む",
+        "why": "同じAIの使い方でも、乗りすぎを防ぐ問いと、使う順番の差をあわせて"
+      },
+      {
+        "id": "dokugaku-ai-answers-crutch",
+        "type": "あわせて読む",
+        "why": "数学でも、答えをそのまま使うとAIなしの試験で点が下がった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-help-overconfidence-think-first"
+  },
+  {
+    "id": "foodmyth-nuts-weight-meta",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Nishi et al., \"Are fatty nuts a weighty concern? A systematic review and meta-analysis and dose-response meta-regression of prospective cohorts and randomized controlled trials\" (Obesity Reviews, 2021)",
+    "sourceUrl": "https://doi.org/10.1111/obr.13330",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ナッツは太る？",
+        "body": "ナッツは体にいいって聞くけど、脂が多くてカロリーも高い。食べすぎたら太りそうで、つい気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "追跡研究と試験をまとめた",
+        "body": "2021年のメタ分析が、約57万人を追いかけた6つの追跡研究と、くじ引きで分けた86本の試験（計5,873人）を集めて、ナッツと体重の関係を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "食べても体重は増えなかった",
+        "body": "試験では、ナッツを食べた組の体重は増えていなかった（差は平均0.09kgで、はっきりした差ではない）。追跡研究では、よく食べる人の方が太りすぎになりにくい傾向があったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い試験と業界の資金",
+        "body": "試験の期間は中央値8週間と短めで、約4割は業界の資金だけで行われていた。追跡研究は食べる人と食べない人を比べただけなので、ナッツのおかげかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-nuts-weight-meta"
+  },
+  {
+    "id": "alcohol-diuretic-dehydration-beer-wine",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Polhuis et al., \"The Diuretic Action of Weak and Strong Alcoholic Beverages in Elderly Men: A Randomized Diet-Controlled Crossover Trial\" (Nutrients, 2017)",
+    "sourceUrl": "https://doi.org/10.3390/nu9070660",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お酒を飲むと脱水になる？",
+        "body": "「ビールは飲んだ量より多く水が出ていく」ってよく聞くよね。たしかにトイレは近くなる。でも本当に、体の水が減っているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人が6種類を飲み比べた",
+        "body": "オランダの60〜75歳の男性20人が、ビール・ワイン・蒸留酒と、ノンアルのビール・ワイン・水を日を変えて飲んだ。お酒はアルコール30g分で、比べる飲み物も同じ量にして尿を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "増えたのは強いお酒の最初だけ",
+        "body": "ワインと蒸留酒は、最初の4時間の尿がノンアルのワインや水より少し多かった。でも24時間の合計では差がなかった。ビールはノンアルビールとどの時点でも差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "高齢の男性20人の話",
+        "body": "調べたのはオランダの高齢男性20人だけで、女性や若い人、たくさん飲んだときのことはわからない。著者の3人はオランダのビール研究所に勤めていて、資金の一部もそこから出ているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-diuretic-dehydration-beer-wine"
+  },
+  {
     "id": "research-future-self-procrastination-how-research-eft-meta",
     "category": "先延ばし対策",
     "kind": "研究紹介",
@@ -855,6 +1050,11 @@
         "id": "kokoro-ai-answers-differ-confusion-same-question-10x",
         "type": "あわせて読む",
         "why": "同じ質問を10回聞くと、そろって同じまちがいを返すこともあった"
+      },
+      {
+        "id": "kokoro-ai-help-overconfidence-wrong-advice",
+        "type": "あわせて読む",
+        "why": "AIが自信ありげにまちがえる仕組みと、その答えに乗らないための問い"
       }
     ],
     "webUrl": "https://seadice.win/evidence/ai/#dokugaku-why-ai-confidently-wrong-hallucination-ask-again"
@@ -23588,6 +23788,11 @@
         "id": "kokoro-ai-reliance-self-efficacy-prevent-draft-first",
         "type": "あわせて読む",
         "why": "AIに任せきりにすると、AIなしで取り組むときに響きやすい"
+      },
+      {
+        "id": "kokoro-ai-help-overconfidence-think-first",
+        "type": "あわせて読む",
+        "why": "数学でも、答えをそのまま使うとAIなしの試験で点が下がった"
       }
     ]
   },
