@@ -22,7 +22,7 @@
   <meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="SEADICE（シーダイス）— 独自のデータとアプリで、AI時代の問題を解決する">
+  <meta property="og:image:alt" content="SEADICE — 誠実なサービスで、信頼に応える。">
   <meta property="og:url" content="https://seadice.win/">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
@@ -54,7 +54,7 @@
         "isPartOf": { "@id": "https://seadice.win/#website" },
         "about": { "@id": "https://seadice.win/#organization" },
         "breadcrumb": { "@id": "https://seadice.win/#breadcrumb" },
-        "dateModified": "2026-11-03"
+        "dateModified": "2026-11-06"
       },
       {
         "@type": "BreadcrumbList",
@@ -143,7 +143,10 @@
     /* ヘッダー */
     header { position: sticky; top: 0; z-index: 50; background: var(--bg); border-bottom: 1px solid var(--line); }
     header nav { max-width: var(--w); margin: 0 auto; padding: 0 var(--g); height: 60px; display: flex; align-items: center; gap: 24px; }
-    .logo { font-weight: 800; font-size: 16px; letter-spacing: .2em; color: var(--text); text-decoration: none; margin-right: auto; padding: 8px 0; }
+    .logo { font-weight: 800; font-size: 16px; letter-spacing: .2em; color: var(--text); text-decoration: none; margin-right: auto; padding: 8px 0; display: flex; align-items: center; gap: 10px; }
+    .logo-mark { flex: none; width: 26px; height: 26px; }
+    .logo-mark path { fill: none; stroke: var(--text); stroke-width: 14; stroke-linejoin: round; }
+    .logo-mark ellipse, .logo-mark circle { fill: var(--accent); }
     .nav-links { display: flex; gap: 28px; }
     .nav-links a { font-size: 14px; color: var(--sub); text-decoration: none; padding: 8px 0; }
     .nav-links a:hover { color: var(--text); }
@@ -158,10 +161,14 @@
     }
 
     /* ヒーロー */
-    .hero { border-bottom: 1px solid var(--line); background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 64px 64px; background-position: -1px -1px; }
-    .hero-in { max-width: var(--w); margin: 0 auto; padding: 88px var(--g) 80px; display: grid; gap: 56px; }
-    .eyebrow { font: 500 12px var(--mono); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
-    .eyebrow::before { content: ""; width: 24px; height: 1px; background: var(--accent); }
+    .hero { border-bottom: 1px solid var(--line); }
+    .hero-in { max-width: var(--w); margin: 0 auto; padding: 72px var(--g) 72px; display: grid; gap: 40px; align-items: center; }
+    .hero-art { order: -1; width: 112px; height: auto; }
+    .hero-art .cube path { fill: var(--bg); stroke: var(--text); stroke-width: 2; stroke-linejoin: round; }
+    .hero-art .pip { fill: var(--accent); }
+    .hero-art .sea path { fill: none; stroke: var(--sub); stroke-width: 2; stroke-linecap: round; }
+    .hero-art .sea circle { fill: var(--sub); }
+    @media (min-width: 960px) { .hero-in { grid-template-columns: 1fr 340px; gap: 72px; } .hero-art { order: 0; width: 340px; } }
     .hero h1 { font-size: clamp(34px, 6.2vw, 60px); font-weight: 800; line-height: 1.18; letter-spacing: -.01em; }
     .hero h1 .ac { color: var(--accent); }
     .hero-desc { margin-top: 28px; max-width: 560px; font-size: clamp(15px, 1.8vw, 18px); color: var(--sub); line-height: 1.9; }
@@ -172,7 +179,7 @@
     .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
     .btn.primary:hover { opacity: .88; }
     .btn .arr { font-family: var(--mono); }
-    @media (min-width: 960px) { .hero-in { padding: 136px var(--g) 120px; } }
+    @media (min-width: 960px) { .hero-in { padding: 104px var(--g) 104px; } }
 
     /* セクション共通 */
     .sec { border-bottom: 1px solid var(--line); }
@@ -186,7 +193,7 @@
       .sec-head .sec-label { grid-column: 1 / -1; }
       .sec-lead { justify-self: end; }
     }
-    @media (max-width: 599px) { .sec-in { padding: 64px var(--g); } .hero-in { padding: 56px var(--g) 56px; gap: 40px; } }
+    @media (max-width: 599px) { .sec-in { padding: 64px var(--g); } .hero-in { padding: 40px var(--g) 48px; gap: 24px; } }
     .more { display: inline-flex; gap: 8px; margin-top: 32px; font-size: 14px; font-weight: 700; color: var(--accent); text-decoration: none; padding: 8px 0; border-bottom: 1px solid currentColor; }
 
     /* 注目 */
@@ -217,8 +224,6 @@
       .biz .go { margin-top: 24px; }
       .biz a:hover { background: var(--bg2); }
     }
-    .flow { margin-top: 28px; font: 500 13px var(--mono); letter-spacing: .08em; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
-    .flow i { font-style: normal; color: var(--accent); }
 
     /* メディア・講座の一覧 */
     .dir { display: grid; gap: 40px; }
@@ -231,9 +236,11 @@
     .dir li span { display: block; font-size: 13px; color: var(--sub); line-height: 1.7; margin-top: 4px; }
     .worry { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 32px; }
     @media (min-width: 960px) { .worry { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-    .worry a { display: block; min-height: 56px; padding: 14px 16px; border: 1px solid var(--line2); border-radius: 6px; background: var(--bg); color: var(--text); text-decoration: none; font-size: 15px; font-weight: 700; line-height: 1.5; }
+    .worry a { display: flex; align-items: center; gap: 10px; min-height: 56px; padding: 14px 16px; border: 1px solid var(--line2); border-radius: 6px; background: var(--bg); color: var(--text); text-decoration: none; font-size: 15px; font-weight: 700; line-height: 1.5; }
     .worry a:hover { border-color: var(--text); }
     .worry a.urgent { border-color: var(--accent); color: var(--accent); }
+    .worry .picto { flex: none; width: 22px; height: 22px; color: var(--sub); }
+    .worry a.urgent .picto { color: var(--accent); }
     .worry-label { margin-top: 32px; font-size: 14px; font-weight: 700; color: var(--sub); }
     .tel { display: grid; gap: 8px; margin-top: 24px; }
     @media (min-width: 600px) { .tel { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
@@ -242,8 +249,16 @@
     .tel span { font-size: 13px; color: var(--sub); }
     .note { margin-top: 16px; font-size: 13px; color: var(--sub); line-height: 1.8; }
     .sub-h { margin: 32px 0 12px; font-size: 15px; font-weight: 700; }
-    .steps { margin-top: 24px; padding-left: 1.4em; display: grid; gap: 8px; font-size: 15px; line-height: 1.8; }
+    .steps { margin-top: 24px; list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; counter-reset: st; }
+    .steps li { counter-increment: st; display: grid; justify-items: start; gap: 4px; padding: 16px 14px; border: 1px solid var(--line2); border-radius: 6px; }
+    .steps .picto { width: 28px; height: 28px; color: var(--text); margin-bottom: 6px; }
+    .steps b { font-size: 15px; }
+    .steps b::before { content: counter(st) ". "; color: var(--muted); font-weight: 500; }
+    .steps span { font-size: 13px; color: var(--sub); line-height: 1.6; }
+    @media (max-width: 599px) { .steps { grid-template-columns: 1fr; } .steps li { grid-template-columns: 28px 1fr; column-gap: 14px; align-items: center; } .steps .picto { grid-row: span 2; margin: 0; } }
     .dir li a:hover strong { color: var(--accent); }
+    #media .dir li a { display: grid; grid-template-columns: 24px 1fr; column-gap: 14px; align-items: center; }
+    #media .dir li .picto { width: 24px; height: 24px; color: var(--sub); grid-row: span 2; }
 
     /* 研究と約束 */
     .split { display: grid; gap: 1px; background: var(--line2); border: 1px solid var(--line2); }
@@ -253,9 +268,9 @@
     .split h3 { font-size: 22px; font-weight: 800; line-height: 1.4; margin-top: 14px; }
     .split p { font-size: 15px; color: var(--sub); line-height: 1.9; margin-top: 14px; }
     .split .btns { margin-top: 28px; }
-    .vals { list-style: none; margin-top: 24px; counter-reset: v; }
-    .vals li { display: grid; grid-template-columns: 36px 1fr; padding: 14px 0; border-top: 1px solid var(--line); counter-increment: v; }
-    .vals li::before { content: counter(v, decimal-leading-zero); font: 500 13px var(--mono); color: var(--accent); padding-top: 3px; }
+    .vals { list-style: none; margin-top: 24px; }
+    .vals li { display: grid; grid-template-columns: 36px 1fr; align-items: center; padding: 14px 0; border-top: 1px solid var(--line); }
+    .vals .picto { width: 24px; height: 24px; color: var(--sub); grid-row: span 2; }
     .vals strong { font-size: 16px; }
     .vals span { grid-column: 2; font-size: 14px; color: var(--sub); line-height: 1.7; }
 
@@ -318,7 +333,7 @@
     @media (min-width: 960px) { .foot-top { grid-template-columns: 1.3fr repeat(4, 1fr); } }
     .foot-brand { grid-column: 1 / -1; }
     @media (min-width: 960px) { .foot-brand { grid-column: auto; } }
-    .foot-brand .logo { display: inline-block; padding: 0; }
+    .foot-brand .logo { display: inline-flex; padding: 0; }
     .foot-brand p { margin-top: 14px; font-size: 13px; color: var(--muted); line-height: 1.8; max-width: 260px; }
     .foot h2 { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
     .foot ul { list-style: none; }
@@ -336,7 +351,7 @@
 
 <header>
   <nav aria-label="メインナビゲーション">
-    <a class="logo" href="./">SEADICE</a>
+    <a class="logo" href="./"><svg class="logo-mark" viewBox="0 0 300 300" aria-hidden="true"><path d="M150 40l95 55-95 55-95-55z M55 95l95 55v110l-95-55z M245 95l-95 55v110l95-55z"/><ellipse cx="150" cy="95" rx="30" ry="17"/><circle cx="102" cy="178" r="20"/><circle cx="198" cy="178" r="20"/></svg>SEADICE</a>
     <div class="nav-links">
       <a href="#sagi">詐欺かも</a>
       <a href="#media">読む</a>
@@ -352,20 +367,24 @@
 
   <div class="hero">
     <div class="hero-in">
-      <div>
-        <p class="eyebrow">AI時代の問題を、データとアプリで</p>
+      <div class="hero-text">
         <h1><span class="sr-only">SEADICE（シーダイス）— </span>誠実なサービスで、<br><span class="ac">信頼に応える。</span></h1>
-        <p class="hero-desc"><strong>SEADICE（シーダイス）</strong>は、AIを活用して社会の問題を見つけ、独自のデータとアプリで解決するスタジオです。論文と公的データまで確かめて伝え、その場で使える道具とアプリにします。</p>
+        <p class="hero-desc"><strong>SEADICE（シーダイス）</strong>は、AIを活用して社会の問題を見つけ、独自のデータとアプリで解決するスタジオです。</p>
         <p class="worry-label">困っていることから選ぶ</p>
         <div class="worry">
-          <a class="urgent" href="#sagi">怪しい電話・連絡</a>
-          <a href="https://oya.seadice.win/">親のことが心配</a>
-          <a href="https://kosodate.seadice.win/">子どものAI・スマホ</a>
-          <a href="https://ai.seadice.win/">AIが不安・困った</a>
-          <a href="https://ledger.seadice.win/">お金の使い方</a>
-          <a href="https://research.seadice.win/">眠れない・続かない</a>
+          <a class="urgent" href="#sagi"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/></svg><span>怪しい電話・連絡</span></a>
+          <a href="https://oya.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="5" r="2"/><path d="M11 8v6l-3 6.5M11 14l3 6.5M8 10.5l3-1.5 3 2.5M17.5 11v9.5"/></svg><span>親のことが心配</span></a>
+          <a href="https://kosodate.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="3.5"/><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0"/></svg><span>子どものAI・スマホ</span></a>
+          <a href="https://ai.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9.5 3v3M14.5 3v3M9.5 18v3M14.5 18v3M3 9.5h3M3 14.5h3M18 9.5h3M18 14.5h3M10 10h4v4h-4z"/></svg><span>AIが不安・困った</span></a>
+          <a href="https://ledger.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 7.5l3.5 5 3.5-5M12 12.5v5M9 12.5h6M9 15h6"/></svg><span>お金の使い方</span></a>
+          <a href="https://research.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"/></svg><span>眠れない・続かない</span></a>
         </div>
       </div>
+      <svg class="hero-art" viewBox="0 0 300 330" aria-hidden="true">
+        <g class="cube"><path d="M150 40l95 55-95 55-95-55z"/><path d="M55 95l95 55v110l-95-55z"/><path d="M245 95l-95 55v110l95-55z"/></g>
+        <g class="pip"><ellipse cx="150" cy="95" rx="13" ry="7.5"/><circle cx="81.6" cy="141.2" r="8"/><circle cx="123.4" cy="213.8" r="8"/><circle cx="173.8" cy="163.8" r="8"/><circle cx="197.5" cy="177.5" r="8"/><circle cx="221.3" cy="191.3" r="8"/></g>
+        <g class="sea"><path d="M10 292q17.5-10 35 0t35 0t35 0t35 0t35 0t35 0t35 0t35 0"/><path d="M45 314q17.5-10 35 0t35 0t35 0t35 0t35 0t35 0"/><circle cx="34" cy="262" r="3"/><circle cx="22" cy="246" r="2"/><circle cx="268" cy="258" r="3"/><circle cx="280" cy="242" r="2"/></g>
+      </svg>
     </div>
   </div>
 
@@ -373,32 +392,32 @@
     <div class="sec-in">
       <div class="sec-head">
         <h2 class="sec-title" id="sagi-heading">怪しい電話・メッセージが来たら</h2>
-        <p class="sec-lead">家族の声でも、警察や会社を名乗っても、お金・暗証番号・個人情報・急ぎの話が出たら、その場で応じずに確かめます。</p>
+        <p class="sec-lead">お金・暗証番号・急ぎの話が出たら、その場で応じずに確かめる。</p>
       </div>
       <div class="tel">
-        <a href="tel:110"><b>110</b><span>身の危険を感じた・お金を渡してしまった</span></a>
-        <a href="tel:%239110"><b>#9110</b><span>警察相談専用電話。詐欺かどうか確かめたい・相談したい</span></a>
-        <a href="tel:188"><b>188</b><span>消費者ホットライン。請求・契約・「お金を取り戻します」などの勧誘の相談</span></a>
+        <a href="tel:110"><b>110</b><span>身の危険・お金を渡してしまった</span></a>
+        <a href="tel:%239110"><b>#9110</b><span>詐欺か確かめたい（警察相談）</span></a>
+        <a href="tel:188"><b>188</b><span>請求・契約・勧誘（消費者ホットライン）</span></a>
       </div>
       <ol class="steps">
-        <li>その場で払わない・教えない・リンクを押さない。電話なら、いったん切ります</li>
-        <li>言われた番号やメッセージのリンクではなく、自分で調べた番号・いつもの連絡先から確かめます</li>
-        <li>家族の声でも本物とは限りません。AIで声をまねる手口が報告されているので、家族で「合言葉」を決めておきます</li>
+        <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/><path d="M3 3l18 18"/></svg><b>切る</b><span>払わない・教えない</span></li>
+        <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 7.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6"/><path d="M14 3.5h6.5V10M20.5 3.5l-6.5 6.5"/></svg><b>かけ直す</b><span>言われた番号でなく、いつもの番号へ</span></li>
+        <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v10H10l-4 3.5v-3.5H4z"/><circle cx="9.5" cy="10.5" r="1.8"/><path d="M11.3 10.5h4.5M14.5 10.5v2"/></svg><b>合言葉</b><span>家族で決めておく（AIは声をまねる）</span></li>
       </ol>
-      <p class="note">電話番号と使い分けは、警察庁・消費者庁の案内を出典にした下の記事に合わせています（2026-11-03 確認）。</p>
+      <p class="note">出典: 警察庁・消費者庁の案内（2026-11-03 確認）</p>
       <h3 class="sub-h">くわしく読む（出典つき）</h3>
       <div class="dir">
         <div><ul>
-          <li><a href="https://bohan.seadice.win/ai-era-scam-checklist/"><strong>AI時代の詐欺の見分け方</strong><span>声・動画・メール・SNSの手口別チェックリスト</span></a></li>
-          <li><a href="https://bohan.seadice.win/ai-voice-clone-family-scam/"><strong>家族の声でも本物とは限らない</strong><span>AI音声のなりすまし詐欺と「合言葉」の備え</span></a></li>
+          <li><a href="https://bohan.seadice.win/ai-era-scam-checklist/"><strong>AI時代の詐欺の見分け方</strong></a></li>
+          <li><a href="https://bohan.seadice.win/ai-voice-clone-family-scam/"><strong>家族の声でも本物とは限らない</strong></a></li>
         </ul></div>
         <div><ul>
-          <li><a href="https://bohan.seadice.win/fake-police-call-scam/"><strong>「警察です」の電話は疑っていい</strong><span>ニセ警察詐欺が増えた理由と、だまされる心の流れ</span></a></li>
-          <li><a href="https://ai.seadice.win/ai-voice-scam-after-transfer/"><strong>振り込んでしまったら</strong><span>すぐやることと、お金が戻る可能性がある制度</span></a></li>
+          <li><a href="https://bohan.seadice.win/fake-police-call-scam/"><strong>「警察です」の電話は疑っていい</strong></a></li>
+          <li><a href="https://ai.seadice.win/ai-voice-scam-after-transfer/"><strong>振り込んでしまったら</strong></a></li>
         </ul></div>
         <div><ul>
-          <li><a href="https://bohan.seadice.win/international-call-block-scam/"><strong>「+」で始まる電話を止める</strong><span>詐欺の電話番号の多くは国際電話。お金のかからない対策</span></a></li>
-          <li><a href="/tools/pin-check/"><strong>暗証番号のバレやすさ診断</strong><span>親と一緒に、その場で確かめる道具</span></a></li>
+          <li><a href="https://bohan.seadice.win/international-call-block-scam/"><strong>「+」で始まる電話を止める</strong></a></li>
+          <li><a href="/tools/pin-check/"><strong>暗証番号のバレやすさ診断</strong></a></li>
         </ul></div>
       </div>
     </div>
@@ -409,32 +428,30 @@
       <div class="sec-head">
         <p class="sec-label">しくみ</p>
         <h2 class="sec-title" id="business-heading">知る、試す、続ける。</h2>
-        <p class="sec-lead">ひとつの悩みを、研究で調べたメディアで知り、ブラウザの道具でその場で試し、アプリで続けられるようにします。</p>
-      </div>
+              </div>
       <div class="biz">
         <a href="#media">
           <span class="no">01</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 3.5h9l4 4v13h-13z"/><path d="M14.5 3.5v4h4M8.5 12h7M8.5 15.5h7M8.5 9h3"/></svg>
           <h3>知る</h3>
-          <p>悩みや疑問を、論文と公的データまで当たって答えるメディアと、順番に学べる無料講座。</p>
+          <p>論文まで確かめたメディアと講座</p>
           <span class="go">メディアと講座 &rarr;</span>
         </a>
         <a href="/tools/">
           <span class="no">02</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h16M4 17.5h16"/><circle cx="9" cy="6.5" r="2" fill="#05050C"/><circle cx="15" cy="12" r="2" fill="#05050C"/><circle cx="7" cy="17.5" r="2" fill="#05050C"/></svg>
           <h3>試す</h3>
-          <p>計算・チェック・診断・タイマー。インストールも登録もなしで、ブラウザの中だけで動く道具。</p>
+          <p>登録なしで動くWebの道具</p>
           <span class="go">Webツールと診断 &rarr;</span>
         </a>
         <a href="/apps/">
           <span class="no">03</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
           <h3>続ける</h3>
-          <p>毎日の記録や習慣を、研究にもとづいて続けるiPhoneアプリ。広告なし、記録は端末の中だけ。</p>
+          <p>広告なしのiPhoneアプリ</p>
           <span class="go">アプリ一覧 &rarr;</span>
         </a>
       </div>
-      <p class="flow" aria-hidden="true">悩み <i>&rarr;</i> 知る <i>&rarr;</i> 試す <i>&rarr;</i> 続ける <i>&rarr;</i> 毎日が良くなる</p>
     </div>
   </section>
 
@@ -442,64 +459,64 @@
     <div class="sec-in">
       <div class="sec-head">
         <h2 class="sec-title" id="media-heading">メディアと講座</h2>
-        <p class="sec-lead">テーマごとのサイトで、研究でわかっていることと、まだわからないことを分けて書いています。どれも無料・登録なしです。</p>
+        <p class="sec-lead">わかっていることと、まだわからないことを分けて書く。</p>
       </div>
       <div class="dir">
         <div>
           <h3>SI時代の問題</h3>
           <ul>
-            <li><a href="https://ai.seadice.win/"><strong>AI時代の困りごと</strong><span>AIへの不安・AI疲れ・AI音声の詐欺・ディープフェイクなど、AIで起きる困りごとに研究と公的資料で答えるメディア</span></a></li>
-            <li><a href="https://kosodate.seadice.win/"><strong>AI時代の子育て</strong><span>AI時代の子育ての疑問に、研究と公的データで答えるメディア</span></a></li>
-            <li><a href="https://mentalai.seadice.win/"><strong>AI時代のメンタルヘルス</strong><span>AI疲れ・仕事の不安・AI依存を、研究と公的データで考えるメディア</span></a></li>
+            <li><a href="https://ai.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9.5 3v3M14.5 3v3M9.5 18v3M14.5 18v3M3 9.5h3M3 14.5h3M18 9.5h3M18 14.5h3"/></svg><strong>AI時代の困りごと</strong><span>AIで起きる困りごと</span></a></li>
+            <li><a href="https://kosodate.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="3.5"/><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0"/></svg><strong>AI時代の子育て</strong><span>子どものAI・スマホ</span></a></li>
+            <li><a href="https://mentalai.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7.5-4.5-7.5-10A4 4 0 0 1 12 7.5 4 4 0 0 1 19.5 10c0 5.5-7.5 10-7.5 10z"/></svg><strong>AI時代のメンタルヘルス</strong><span>AI疲れ・AI依存</span></a></li>
           </ul>
         </div>
         <div>
           <h3>くらしと心</h3>
           <ul>
-            <li><a href="https://research.seadice.win/"><strong>悩みの科学</strong><span>悩みを科学で調べる、AIメディア</span></a></li>
-            <li><a href="https://umbra.seadice.win/"><strong>しぐさと本音</strong><span>恋愛心理学としぐさの通説を研究論文で検証するメディア</span></a></li>
-            <li><a href="https://ledger.seadice.win/"><strong>お金と心理</strong><span>お金の使い方を行動経済学で読み解くメディア</span></a></li>
-            <li><a href="https://oya.seadice.win/"><strong>親が年をとったら</strong><span>親の物忘れ・運転・介護の疑問に、研究と公的データで答えるメディア</span></a></li>
-            <li><a href="https://dokugaku.seadice.win/"><strong>独学の科学</strong><span>覚え方・勉強法・続け方を研究で確かめ、効く勉強法と当てにならない通説を切り分けるメディア</span></a></li>
+            <li><a href="https://research.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3.5h6M10 3.5v6l-5 9a1.5 1.5 0 0 0 1.3 2h11.4a1.5 1.5 0 0 0 1.3-2l-5-9v-6"/><path d="M7.5 15h9"/></svg><strong>悩みの科学</strong><span>悩みを研究で調べる</span></a></li>
+            <li><a href="https://umbra.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></svg><strong>しぐさと本音</strong><span>しぐさの通説を検証</span></a></li>
+            <li><a href="https://ledger.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 7.5l3.5 5 3.5-5M12 12.5v5M9 12.5h6M9 15h6"/></svg><strong>お金と心理</strong><span>お金を行動経済学で</span></a></li>
+            <li><a href="https://oya.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="5" r="2"/><path d="M11 8v6l-3 6.5M11 14l3 6.5M8 10.5l3-1.5 3 2.5M17.5 11v9.5"/></svg><strong>親が年をとったら</strong><span>物忘れ・運転・介護</span></a></li>
+            <li><a href="https://dokugaku.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h6a2.5 2.5 0 0 1 2.5 2.5v12a2 2 0 0 0-2-2H3.5zM20.5 5.5h-6A2.5 2.5 0 0 0 12 8v12a2 2 0 0 1 2-2h6.5z"/></svg><strong>独学の科学</strong><span>効く勉強法</span></a></li>
           </ul>
         </div>
         <div>
           <h3>防犯と犯罪</h3>
           <ul>
-            <li><a href="https://bohan.seadice.win/"><strong>防犯</strong><span>身近な犯罪を研究と統計で読み解く、何も売らない防犯メディア</span></a></li>
-            <li><a href="https://hanzai.seadice.win/"><strong>犯罪と心理</strong><span>犯罪をめぐる人の心の仕組みを心理学の研究で読み解くメディア</span></a></li>
+            <li><a href="https://bohan.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="1.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3M12 14.5v2.5"/></svg><strong>防犯</strong><span>何も売らない防犯</span></a></li>
+            <li><a href="https://hanzai.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="M14.5 14.5l6 6"/><circle cx="10" cy="9" r="1.8"/><path d="M7 13.5a3.5 3.5 0 0 1 6 0"/></svg><strong>犯罪と心理</strong><span>犯罪の心の仕組み</span></a></li>
           </ul>
         </div>
         <div>
           <h3>好奇心</h3>
           <ul>
-            <li><a href="https://uchu.seadice.win/"><strong>宇宙の研究</strong><span>ブラックホール・ビッグバン・星座などを、論文と観測でわかっていることとまだわからないことに分けて書く宇宙メディア</span></a></li>
-            <li><a href="https://tetsugaku.seadice.win/"><strong>哲学</strong><span>哲学者・概念を専門用語なしで解説する入門百科</span></a></li>
-            <li><a href="https://kogei.seadice.win/"><strong>工芸</strong><span>日本の伝統工芸と、3Dプリンタ・EC・デジタル記録との交差点をレポート</span></a></li>
-            <li><a href="https://senbei.seadice.win/"><strong>お煎餅ラボ</strong><span>煎餅の美味しさを研究で確かめ、材料と焼き方の組み合わせを試せるメディア</span></a></li>
-            <li><a href="https://choco.seadice.win/"><strong>チョコの研究</strong><span>チョコ製品の開発者向けに、焙煎・テンパリング・配合・官能評価の研究を原典で確かめるメディア</span></a></li>
+            <li><a href="https://uchu.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><ellipse cx="12" cy="12" rx="10" ry="3.5" transform="rotate(-20 12 12)"/></svg><strong>宇宙の研究</strong><span>宇宙のわかっていること・いないこと</span></a></li>
+            <li><a href="https://tetsugaku.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a6 6 0 0 0-3.5 10.9V17h7v-2.6A6 6 0 0 0 12 3.5zM9.5 20.5h5"/></svg><strong>哲学</strong><span>専門用語なしの入門</span></a></li>
+            <li><a href="https://kogei.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9.5h12l-1.5 10h-9zM8 9.5a4 4 0 0 1 8 0M4.5 9.5h15"/></svg><strong>工芸</strong><span>伝統工芸とデジタル</span></a></li>
+            <li><a href="https://senbei.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8 10l1 1M14 8.5l.5 1M15 14l1 .5M10 15l.5 1"/></svg><strong>お煎餅ラボ</strong><span>煎餅の美味しさを研究</span></a></li>
+            <li><a href="https://choco.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="4.5" width="14" height="15" rx="1.5"/><path d="M5 9.5h14M5 14.5h14M12 4.5v15"/></svg><strong>チョコの研究</strong><span>チョコ開発者向け</span></a></li>
           </ul>
         </div>
         <div id="study">
           <h3>無料講座</h3>
           <ul>
-            <li><a href="https://shinri.seadice.win/"><strong>ゼロから学ぶ心理学</strong><span>心理学を無料で独学できるサイト。全16章の無料講座と心理学用語辞典</span></a></li>
-            <li><a href="https://hanzaigaku.seadice.win/"><strong>ゼロから学ぶ犯罪学</strong><span>犯罪学を無料で学べるサイト。全14章47レッスンの講座、用語辞典、章末テスト</span></a></li>
-            <li><a href="https://kodokeizai.seadice.win/"><strong>ゼロから学ぶ行動経済学</strong><span>行動経済学を無料で学べるサイト。全14章58レッスンの講座と用語辞典</span></a></li>
-            <li><a href="https://boueki.seadice.win/"><strong>ゼロから学ぶ貿易実務</strong><span>貿易実務を無料で学べるサイト。全14章の講座、用語辞典、C級の模擬試験</span></a></li>
-            <li><a href="https://hoikushi.seadice.win/"><strong>ゼロから学ぶ保育士</strong><span>保育士試験の9科目を無料で学べるサイト。全12章44レッスンの講座、用語辞典、章末テスト</span></a></li>
-            <li><a href="https://kaigofukushi.seadice.win/"><strong>ゼロから学ぶ介護福祉士</strong><span>介護福祉士国家試験を無料で学べるサイト。全12章53レッスンの講座、用語辞典、模擬試験</span></a></li>
+            <li><a href="https://shinri.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v5c3 2.5 8 2.5 11 0v-5"/></svg><strong>ゼロから学ぶ心理学</strong><span>全16章＋用語辞典</span></a></li>
+            <li><a href="https://hanzaigaku.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v5c3 2.5 8 2.5 11 0v-5"/></svg><strong>ゼロから学ぶ犯罪学</strong><span>全14章47レッスン</span></a></li>
+            <li><a href="https://kodokeizai.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v5c3 2.5 8 2.5 11 0v-5"/></svg><strong>ゼロから学ぶ行動経済学</strong><span>全14章58レッスン</span></a></li>
+            <li><a href="https://boueki.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v5c3 2.5 8 2.5 11 0v-5"/></svg><strong>ゼロから学ぶ貿易実務</strong><span>全14章＋C級模試</span></a></li>
+            <li><a href="https://hoikushi.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v5c3 2.5 8 2.5 11 0v-5"/></svg><strong>ゼロから学ぶ保育士</strong><span>9科目・全12章</span></a></li>
+            <li><a href="https://kaigofukushi.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v5c3 2.5 8 2.5 11 0v-5"/></svg><strong>ゼロから学ぶ介護福祉士</strong><span>全12章＋模擬試験</span></a></li>
           </ul>
         </div>
         <div id="tools">
           <h3>Webツール・診断</h3>
           <ul>
-            <li><a href="/tools/"><strong>Webツール一覧</strong><span>計算・チェック・タイマー。登録なしでブラウザの中だけで動く</span></a></li>
-            <li><a href="/diagnosis/"><strong>研究にもとづく診断</strong><span>研究でどこまで確かめられているかをランクで示す診断</span></a></li>
-            <li><a href="/pomodoro/"><strong>ポモドーロタイマー</strong><span>25分集中と5分休憩をくり返すタイマー</span></a></li>
-            <li><a href="/image-resizer/"><strong>画像リサイザー</strong><span>画像の大きさをブラウザの中で変える</span></a></li>
-            <li><a href="/tools/decoy-notes/"><strong>Decoy Notes</strong><span>のぞき見されたくないメモを、ふつうのメモ帳の裏に隠す</span></a></li>
-            <li><a href="https://qr-room-3c54d.web.app/"><strong>QR匿名ルーム</strong><span>登録不要。QRコードで集まる匿名チャット。投稿は期限まで保存し、期限が来たら部屋ごと削除</span></a></li>
+            <li><a href="/tools/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 0 5 5L12 19a2 2 0 0 1-3-3l7.5-7.5"/><path d="M4 4l5 5"/></svg><strong>Webツール一覧</strong><span>計算・チェック・タイマー</span></a></li>
+            <li><a href="/diagnosis/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19.5V13M10 19.5V9M15 19.5v-4M20 19.5V5"/></svg><strong>研究にもとづく診断</strong><span>確かさをランクで表示</span></a></li>
+            <li><a href="/pomodoro/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="7.5"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg><strong>ポモドーロタイマー</strong><span>25分集中＋5分休憩</span></a></li>
+            <li><a href="/image-resizer/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="1.5"/><path d="M3.5 15.5l5-4.5 4 3.5 3-2.5 5 4"/></svg><strong>画像リサイザー</strong><span>端末の中で縮小（送信なし）</span></a></li>
+            <li><a href="/tools/decoy-notes/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 3.5h9l4 4v13h-13z"/><path d="M9 13h6M9 16.5h4"/></svg><strong>Decoy Notes</strong><span>メモ帳の裏に隠すメモ</span></a></li>
+            <li><a href="https://qr-room-3c54d.web.app/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2.5v2.5H14zM18 18h2"/></svg><strong>QR匿名ルーム</strong><span>QRで集まる匿名チャット</span></a></li>
           </ul>
         </div>
       </div>
@@ -511,8 +528,8 @@
       <p class="sec-label">注目</p>
       <div>
         <h2 id="pick-heading">生写真プロフィール帳</h2>
-        <p>推しの生写真の交換プロフィールを作れます。譲・求の交換リストと取引の方法、SNSを1ページにまとめて、Xのプロフィール欄に貼れます。</p>
-        <small>作るにはGoogleログインが必要です。見るだけならログインは要りません。</small>
+        <p>譲・求リストを1ページにまとめて、Xに貼る。</p>
+        <small>作るときだけGoogleログイン</small>
       </div>
       <a class="btn primary" href="https://namashashin.seadice.win/" target="_blank" rel="noopener">プロフィール帳を作る <span class="arr" aria-hidden="true">&rarr;</span></a>
     </div>
@@ -522,13 +539,13 @@
     <div class="sec-in">
       <div class="sec-head">
         <h2 class="sec-title" id="research-heading">研究と約束</h2>
-        <p class="sec-lead">誠実さは言葉でなく、行動で示します。出典を確かめ、盛らず、売らず、集めず、間違いは直します。</p>
+        <p class="sec-lead">誠実さは、言葉でなく行動で示す。</p>
       </div>
       <div class="split">
         <div>
           <p class="sec-label">研究</p>
           <h3>よく聞く説を、論文まで確かめる。</h3>
-          <p>EVIDENCE は、生活の常識や心理学の通説を、元の研究まで当たってまとめたシリーズです。結論と一緒に「まだわからないこと」も書きます。</p>
+          <p>結論と「まだわからないこと」をセットで。</p>
           <div class="btns">
             <a class="btn primary" href="/evidence/">EVIDENCE を見る <span class="arr" aria-hidden="true">&rarr;</span></a>
           </div>
@@ -537,10 +554,10 @@
           <p class="sec-label">約束</p>
           <h3>SEADICEの約束</h3>
           <ul class="vals">
-            <li><strong>確かめる</strong><span>出典は論文まで確かめ、数字を盛らない。</span></li>
-            <li><strong>売らない</strong><span>広告・アフィリエイトは載せない。</span></li>
-            <li><strong>集めない</strong><span>登録なし。記録は端末の中だけ。</span></li>
-            <li><strong>直す</strong><span>間違いは認めて直し、記録を残す。</span></li>
+            <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5l5 5M7.5 10.5l2 2 3.5-3.5"/></svg><strong>確かめる</strong><span>出典は論文まで</span></li>
+            <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M6 6l12 12"/></svg><strong>売らない</strong><span>広告・アフィリエイトなし</span></li>
+            <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><strong>集めない</strong><span>登録なし・記録は端末だけ</span></li>
+            <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1-4L16 5l3 3L8 19z"/><path d="M14 7l3 3"/></svg><strong>直す</strong><span>間違いは直して記録</span></li>
           </ul>
           <a class="more" href="/promise/">7ヶ条を読む &rarr;</a>
         </div>
@@ -552,7 +569,7 @@
     <div class="sec-in">
       <div class="sec-head">
         <h2 class="sec-title" id="news-heading">お知らせ</h2>
-        <p class="sec-lead">開発日誌とブログで、作ったもの・直したこと・学んだことを毎日書いています。</p>
+        <p class="sec-lead">作ったこと・直したことを毎日書く。</p>
       </div>
       <div class="blog-list">
       <a class="blog-card" href="/blog/daily-2026-11-04/">
@@ -582,8 +599,8 @@
 </div>
       <a class="blog-more" href="/blog/">お知らせをすべて見る &rarr;</a>
       <div class="bands">
-        <a href="/volunteer/"><strong>社会貢献活動のデジタル支援<span class="tag">受付中</span></strong><span>団体のサイトやアプリづくりを、人件費なしで手伝います。</span><b aria-hidden="true">&rarr;</b></a>
-        <a href="/goals/"><strong>SEADICEの目標</strong><span>毎月の目標と、その結果を公開しています。</span><b aria-hidden="true">&rarr;</b></a>
+        <a href="/volunteer/"><strong>社会貢献活動のデジタル支援<span class="tag">受付中</span></strong><span>団体のサイト・アプリを無償で</span><b aria-hidden="true">&rarr;</b></a>
+        <a href="/goals/"><strong>SEADICEの目標</strong><span>毎月の目標と結果</span><b aria-hidden="true">&rarr;</b></a>
       </div>
     </div>
   </section>
@@ -695,7 +712,7 @@
   <div class="foot">
     <div class="foot-top">
       <div class="foot-brand">
-        <a class="logo" href="./">SEADICE</a>
+        <a class="logo" href="./"><svg class="logo-mark" viewBox="0 0 300 300" aria-hidden="true"><path d="M150 40l95 55-95 55-95-55z M55 95l95 55v110l-95-55z M245 95l-95 55v110l95-55z"/><ellipse cx="150" cy="95" rx="30" ry="17"/><circle cx="102" cy="178" r="20"/><circle cx="198" cy="178" r="20"/></svg>SEADICE</a>
         <p>誠実なサービスで、信頼に応える。AIを活用して社会の問題を見つけ、独自のデータとアプリで解決する。</p>
       </div>
       <div>

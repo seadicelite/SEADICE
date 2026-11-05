@@ -149,6 +149,7 @@ python3 scripts/indexnow.py p/…/index.html                           # IndexNo
 | show（魅せる） | アプリ紹介・各種一覧・EVIDENCE | 幅1080px、大見出し、カード1→2→3列、PCは見出し左/中身右の2段 |
 | use（使う） | ブラウザツール・診断 | 見出し小さめ、操作部は `.sd-tool` の1枚パネル、入力48px以上。PCは説明左/道具右に固定 |
 
+- **文字はできる限り減らす**（2026-11-05〜）: 説明は1文まで、伝えられる所はアイコン・図にする。出典・FAQ・JSON-LD は削らない（詳しくは design/README.md「文字を減らす」）
 - ブレークポイントは **600px / 960px** の2つだけ。左右余白は `--sd-g`（16/24/32px）
 - **ページを新しく作ったら必ず** `python3 scripts/apply_page_type.py {read|show|use} p/…/index.html` を実行する（`<head>` 末尾にインラインCSSを差し込み、`<body class="t-…">` を付ける。外部CSSは使わない）。ツールは操作パネルの要素に `sd-tool` クラスを付けてから実行する
 - デザインを直すときは `design/*.css` を編集し、`python3 scripts/apply_page_type.py --refresh` で適用済みの全ページに反映する（`p/index.html` のトップページと Flutter SPA は対象外）
