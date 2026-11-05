@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-future-self-procrastination-how-research-eft-meta",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Rösch SA et al., \"Promoting farsighted decisions via episodic future thinking: A meta-analysis\" (Journal of Experimental Psychology: General, 2022)",
+    "sourceUrl": "https://doi.org/10.1037/xge0001148",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/future-self-procrastination-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "未来を想像すると我慢できる？",
+        "body": "目の前の楽しさに負けそうなとき、未来の自分を思い浮かべるといいって聞くよね。ほんとに選び方は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "48本の論文をまとめた",
+        "body": "未来の出来事を具体的に想像する練習の実験を集めた分析がある。48本の論文の174の結果を合わせて、すぐの小さな得と後の大きな得、どちらを選ぶかを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "中くらいの効果があった",
+        "body": "想像する練習をすると、後の大きな得を選びやすくなった（g=0.44）。良い出来事を鮮明に、目の前の選択に関係する形で想像したときほど効果が大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "先延ばしにも効く？",
+        "body": "測ったのはお金や健康に関わる選択で、作業の先延ばしそのものじゃない。想像の練習で先延ばしが減るかは、まだはっきり確かめられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-future-self-procrastination-how-research-eft-meta"
+  },
+  {
+    "id": "research-all-nighter-study-forgot-recovery-research-nap-vs-cram",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Cousins JN et al., \"The long-term memory benefits of a daytime nap compared with cramming\" (Sleep, 2019)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/zsy207",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/all-nighter-study-forgot-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る間を惜しんで詰め込むべき？",
+        "body": "テスト前は1時間でも多く勉強した方がいい、って思いがちだよね。じゃあ1時間の昼寝と1時間の詰め込み、どっちが残るんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "昼寝・休憩・詰め込みを比べた",
+        "body": "シンガポールの大学生84人が、5時間かけてカニやアリの細かい知識を学んだ。途中の1時間を、昼寝・映画で休憩・詰め込みの3組に分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1週間後は昼寝だけが有利",
+        "body": "30分後のテストでは、昼寝と詰め込みがどちらも休憩より良かった。でも1週間後には、昼寝の組だけが有利さを保っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝不足の人でも同じ？",
+        "body": "参加者は、実験前の3日間に毎晩6.5〜9時間眠るよう決められていた人たち。徹夜明けやいつも寝不足の人で同じ結果になるかは、まだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-sleep-timing-after-learning-memory-research-napdelay",
+        "type": "あわせて読む",
+        "why": "覚えた後、いつ昼寝をすると記憶に残りやすいかを調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-all-nighter-study-forgot-recovery-research-nap-vs-cram"
+  },
+  {
+    "id": "research-missed-deadline-ask-extension-apology-research-ask-for-time",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Whillans et al., \"Extension request avoidance predicts greater time stress among women\" (PNAS, 2021)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2105622118",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/missed-deadline-ask-extension-apology-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "延長を頼むと評価が下がる？",
+        "body": "締め切りに間に合わなそうでも「延長してください」って言いにくいよね。頼んだら評価が下がりそうで、つい無理をしてしまう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "延長OKと伝えた授業で比べた",
+        "body": "米国の大学の授業で、学生103人に「必要ならメールで延長を頼んでいい、減点なし」と伝えて課題を出し、誰が頼んだかと点数を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頼んだ学生は予想より高得点",
+        "body": "延長を頼んだ学生は、それまでの成績から予想される点数より平均8.2%高い点を取った。頼んだのは女子学生の15.3%、男子学生の36.4%だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "頼んだから点が上がった？",
+        "body": "これは観察したデータで、延長そのものが点数を上げたとは言い切れない。延長してよいとはっきり言われた授業での結果でもあるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-missed-deadline-ask-extension-apology-research-ask-for-time"
+  },
+  {
+    "id": "scent-women-better-smell-meta",
+    "category": "香りと記憶",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Sorokowski et al., \"Sex Differences in Human Olfaction: A Meta-Analysis\" (Frontiers in Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2019.00242",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "女性の方が鼻がいい？",
+        "body": "「女の人は匂いに敏感」ってよく言われるよね。家族の中で、焦げた匂いに先に気づくのはお母さん、なんて話も聞く。実際はどのくらい違うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "嗅覚テストの結果をまとめた",
+        "body": "2019年のメタ分析が、よく使われる2種類の嗅覚テストの研究を集めた。匂いの名前を当てるテストだけでも、女性7,501人・男性6,169人ぶんのデータがあるんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "女性が上。でも差はごく小さい",
+        "body": "薄い匂いに気づく・かぎ分ける・名前を当てる、のどれでも女性の方が少し良かった。ただ差の大きさは g=0.08〜0.30 と小さく、名前を当てる力の差は「ささいな差」と著者は書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ差があるのかは仮説だけ",
+        "body": "まとめたのは英語の論文と2種類のテストだけ。性別で説明できる違いは成績のばらつきの0.15〜2.26%ほど。ホルモンなど差が生まれる理由は、著者も仮説の段階としているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-women-better-smell-meta"
+  },
+  {
+    "id": "pet-dog-color-vision-black-white",
+    "category": "ペットの科学",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Kasparson, Badridze & Maximov, \"Colour cues proved to be more informative for dogs than brightness\" (Proceedings of the Royal Society B, 2013)",
+    "sourceUrl": "https://doi.org/10.1098/rspb.2013.1356",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "犬の世界は白黒？",
+        "body": "「犬は白黒の世界で生きている」って聞いたことあるよね。昔の研究から、犬にとって色はふだんあまり役に立っていないと考えられていたらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "色と明るさ、どっちで選ぶ？",
+        "body": "訓練を受けたことのない犬8頭に、明るい・暗い黄色と青の紙を見せ、えさがある方を覚えてもらった。そのあと色と明るさの組み合わせを入れ替えて、どちらを手がかりに選ぶかを見たんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "犬は色で選んでいた",
+        "body": "8頭とも明るさより色で選ぶ傾向があり、7頭ははっきりした差が出た。テスト全体では90回中81回が色どおり。犬の目の色を感じる細胞は2種類だけど、色をちゃんと使っているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんな場面でも色が先？",
+        "body": "調べたのは8頭だけで、屋外の自然光の下、黄色と青という違いの大きな色での実験。色の差が小さいときや場面が変わったときも色を優先するかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-color-vision-black-white"
+  },
+  {
     "id": "kokoro-third-person-self-talk-work-panic-name",
     "category": "呼吸とストレス",
     "kind": "素朴な疑問",
@@ -11002,7 +11175,13 @@
       }
     ],
     "studyType": "実験",
-    "links": [],
+    "links": [
+      {
+        "id": "research-all-nighter-study-forgot-recovery-research-nap-vs-cram",
+        "type": "あわせて読む",
+        "why": "昼寝の効果について、詰め込みと比べた実験も読める"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/memory/#research-sleep-timing-after-learning-memory-research-napdelay"
   },
   {
