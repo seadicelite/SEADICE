@@ -242,20 +242,6 @@
     .worry .picto { flex: none; width: 22px; height: 22px; color: var(--sub); }
     .worry a.urgent .picto { color: var(--accent); }
     .worry-label { margin-top: 32px; font-size: 14px; font-weight: 700; color: var(--sub); }
-    .tel { display: grid; gap: 8px; margin-top: 24px; }
-    @media (min-width: 600px) { .tel { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-    .tel a { display: block; padding: 14px 16px; border: 1px solid var(--line2); border-radius: 6px; text-decoration: none; color: var(--text); }
-    .tel b { display: block; font-size: 22px; font-weight: 800; color: var(--accent); }
-    .tel span { font-size: 13px; color: var(--sub); }
-    .note { margin-top: 16px; font-size: 13px; color: var(--sub); line-height: 1.8; }
-    .sub-h { margin: 32px 0 12px; font-size: 15px; font-weight: 700; }
-    .steps { margin-top: 24px; list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; counter-reset: st; }
-    .steps li { counter-increment: st; display: grid; justify-items: start; gap: 4px; padding: 16px 14px; border: 1px solid var(--line2); border-radius: 6px; }
-    .steps .picto { width: 28px; height: 28px; color: var(--text); margin-bottom: 6px; }
-    .steps b { font-size: 15px; }
-    .steps b::before { content: counter(st) ". "; color: var(--muted); font-weight: 500; }
-    .steps span { font-size: 13px; color: var(--sub); line-height: 1.6; }
-    @media (max-width: 599px) { .steps { grid-template-columns: 1fr; } .steps li { grid-template-columns: 28px 1fr; column-gap: 14px; align-items: center; } .steps .picto { grid-row: span 2; margin: 0; } }
     .dir li a:hover strong { color: var(--accent); }
     #media .dir li a { display: grid; grid-template-columns: 24px 1fr; column-gap: 14px; align-items: center; }
     #media .dir li .picto { width: 24px; height: 24px; color: var(--sub); grid-row: span 2; }
@@ -392,20 +378,8 @@
     <div class="sec-in">
       <div class="sec-head">
         <h2 class="sec-title" id="sagi-heading">怪しい電話・メッセージが来たら</h2>
-        <p class="sec-lead">お金・暗証番号・急ぎの話が出たら、その場で応じずに確かめる。</p>
+        <p class="sec-lead">手口と対策を、出典つきで。</p>
       </div>
-      <div class="tel">
-        <a href="tel:110"><b>110</b><span>身の危険・お金を渡してしまった</span></a>
-        <a href="tel:%239110"><b>#9110</b><span>詐欺か確かめたい（警察相談）</span></a>
-        <a href="tel:188"><b>188</b><span>請求・契約・勧誘（消費者ホットライン）</span></a>
-      </div>
-      <ol class="steps">
-        <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/><path d="M3 3l18 18"/></svg><b>切る</b><span>払わない・教えない</span></li>
-        <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 7.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6"/><path d="M14 3.5h6.5V10M20.5 3.5l-6.5 6.5"/></svg><b>かけ直す</b><span>言われた番号でなく、いつもの番号へ</span></li>
-        <li><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v10H10l-4 3.5v-3.5H4z"/><circle cx="9.5" cy="10.5" r="1.8"/><path d="M11.3 10.5h4.5M14.5 10.5v2"/></svg><b>合言葉</b><span>家族で決めておく（AIは声をまねる）</span></li>
-      </ol>
-      <p class="note">出典: 警察庁・消費者庁の案内（2026-11-03 確認）</p>
-      <h3 class="sub-h">くわしく読む（出典つき）</h3>
       <div class="dir">
         <div><ul>
           <li><a href="https://bohan.seadice.win/ai-era-scam-checklist/"><strong>AI時代の詐欺の見分け方</strong></a></li>

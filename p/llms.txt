@@ -6,7 +6,7 @@
 
 - その場で払わない・教えない・リンクを押さない。言われた番号でなく、自分で調べた番号・いつもの連絡先で確かめる。家族の声でもAIでまねる手口がある
 - 相談先: 詐欺かどうか確かめたい → 警察相談専用電話 #9110／請求・契約・勧誘 → 消費者ホットライン 188／身の危険・お金を渡してしまった → 110番
-- まとめ: [トップページの「怪しい電話・メッセージが来たら」](https://seadice.win/#sagi)、[AI時代の詐欺の見分け方](https://bohan.seadice.win/ai-era-scam-checklist/)、[AI音声のなりすまし詐欺と合言葉](https://bohan.seadice.win/ai-voice-clone-family-scam/)、[振り込んでしまったら](https://ai.seadice.win/ai-voice-scam-after-transfer/)
+- まとめ: [AI時代の詐欺の見分け方](https://bohan.seadice.win/ai-era-scam-checklist/)、[AI音声のなりすまし詐欺と合言葉](https://bohan.seadice.win/ai-voice-clone-family-scam/)、[振り込んでしまったら](https://ai.seadice.win/ai-voice-scam-after-transfer/)
 
 ## 基本情報
 
