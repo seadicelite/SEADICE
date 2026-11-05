@@ -11,7 +11,7 @@ App Store に出すスクリーンショット・ヘッダー・検索結果の�
 3. 実画面を撮る（下の「5. 実画面の撮り方」）
 4. 共通の形（「3. 形」）で合成し、**下の表の枠ごとに1サイズ・枚数どおり**書き出す
 5. `python3 scripts/appstore_preview.py {アプリのフォルダ} --shots screenshots/6.3`（`--shots` はアプリのフォルダからの相対パス） で、ヘッダーと検索結果での見え方を確かめる（サブタイトルが切れていないか、1〜3枚目で何のアプリか伝わるか）
-6. アプリのフォルダの `screenshots/` に、枠ごとのフォルダで置く（例: `screenshots/6.3/1.png`。ヘッダーと検索結果は `header/3840x1646.png` のようにファイル名をサイズにする。`make.py` は表の全枠を1回で書き出す）。書き出したら `open screenshots/6.3` で、一番使う枠のフォルダを Finder で開く（ユーザーがファイルを探さずに見られるように）。チャットにはフォルダの場所と、1枚ずつの見出しを出す
+6. アプリのフォルダの `screenshots/` に、枠ごとのフォルダで置く（例: `screenshots/6.3/1.png`。ヘッダーと検索結果は `header/3840x1646.png` のようにファイル名をサイズにする。`make.py` は表の全枠を1回で書き出す）。書き出したら `open screenshots && open -a Preview screenshots/{6.3,duo,ipad}/*.png screenshots/header/*.png screenshots/search/*.png` で、`screenshots/` フォルダを Finder で開き、書き出した全部の画像をプレビューで開く（ユーザーがファイルを探さずに見られるように。2026-11-05、一番使う枠のフォルダだけでなく全部開くよう指示）。チャットにはフォルダの場所と、1枚ずつの見出しを出す
 
 ## 2. サイズと枚数
 
@@ -62,7 +62,7 @@ App Store Connect の表示（2026-10-13 時点）。枠が増えたり変わっ
 ## 5. 実画面の撮り方
 
 - 背景が明るい色（ティールなど）のときは、2行目を白にしない（読めない）。濃い同系色にする（見本: 通知de人生改善の screenshots/make.py）
-- 既定: アプリに `test_screenshots/shots_test.dart` を置いて `flutter test test_screenshots/shots_test.dart --update-goldens`（本物のフォントとサンプルデータで描ける。見本は Spendology）。Cupertino のタブの文字とアイコンにもフォントを読み込ませる（読み込まないと□になる）
+- 既定: アプリに `test_screenshots/shots_test.dart` を置いて `flutter test test_screenshots/shots_test.dart --update-goldens`（本物のフォントとサンプルデータで描ける。見本は Spendology）。Cupertino のタブの文字とアイコンにもフォントを読み込ませる（読み込まないと□になる）。`appBarTheme.titleTextStyle` に `fontFamily` がないアプリは、テストではタイトルが□になる（どの名前でフォントを読ませても直らない）。テスト側でアプリのテーマを写し、タイトルにだけフォントを足す（見本: 貿易実務英単語の test_screenshots/shots_test.dart、2026-10-20）。問題や単語がシャッフルされるアプリは、`flutter/assets` をモックして写す問題だけを差し込む（同じ見本。50KBを超えるJSONは別のisolateで読まれるので `tester.runAsync` で本物の時間を待つ）
 - 実画面にも価格の言葉を映さない。サンプルの文章・例文・AIの返事に「無料」が出ないものを選ぶ（AIにサイトを調べさせる画面で seadice.win を使うと説明に「無料」が出る。気象庁などの公的サイトを使う）
 - テストで描きにくい画面は、Web版（`flutter build web`）をブラウザで動かして撮ってもよい。どちらも、最後に共通の形で合成する
 
