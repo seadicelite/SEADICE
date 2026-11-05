@@ -2003,10 +2003,10 @@
   <url><loc>https://seadice.win/evidence/dangerous-partners/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/breakups/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/memory/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://seadice.win/evidence/procrastination/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/focus/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/ai/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/habits/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/procrastination/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/work/</loc><lastmod>2026-11-05</lastmod></url>
@@ -2015,11 +2015,13 @@
   <url><loc>https://seadice.win/evidence/body-myths/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/relationships/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/decision-bias/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://seadice.win/evidence/pets/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/breathing-stress/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/nature/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/money/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://seadice.win/evidence/scent-memory/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/aging-parents/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/love/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/insight/</loc><lastmod>2026-11-05</lastmod></url>
@@ -2045,12 +2047,10 @@
   <url><loc>https://seadice.win/evidence/exercise-aging/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/weather-mood/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/laughter/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/pets/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/alcohol/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-mood/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/scent-memory/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/crime-prevention/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/brain-myths/brain-game-brain-myth/</loc><lastmod>2026-11-05</lastmod></url>
@@ -2074,7 +2074,7 @@
   <url><loc>https://seadice.win/evidence/decision-bias/bias-mere-exposure/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-brain/food-breakfast-weight/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/happy-income-conflict-resolved/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://seadice.win/evidence/memory/memory-ebbinghaus-replication/</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://seadice.win/evidence/memory/memory-ebbinghaus-replication/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/music-mozart-effect-metaanalysis/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/posture-confidence/posture-power-pose-hormones-debunk/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://seadice.win/evidence/relationships/hanzai-milgram-replication/</loc><lastmod>2026-10-30</lastmod></url>
@@ -2107,9 +2107,9 @@
   <url><loc>https://seadice.win/evidence/japan/japan-eat-then-sleep/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://seadice.win/evidence/color-psychology/color-blue-appetite/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://seadice.win/evidence/color-psychology/color-baker-miller-pink/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://seadice.win/evidence/scent-memory/scent-aromatherapy-sleep/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://seadice.win/evidence/scent-memory/scent-human-pheromones/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://seadice.win/evidence/scent-memory/scent-smell-loss-dementia/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://seadice.win/evidence/scent-memory/scent-aromatherapy-sleep/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://seadice.win/evidence/scent-memory/scent-human-pheromones/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://seadice.win/evidence/scent-memory/scent-smell-loss-dementia/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/nature/nature-forest-bathing-cortisol/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://seadice.win/evidence/nature/nature-houseplants-air-quality/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://seadice.win/evidence/nature/nature-negative-air-ions-mood/</loc><lastmod>2026-10-29</lastmod></url>
@@ -2128,7 +2128,7 @@
   <url><loc>https://seadice.win/evidence/exercise-aging/aging-gait-speed-survival/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-aging/aging-muscle-strengthening-mortality-meta/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-aging/aging-fitness-no-upper-limit/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://seadice.win/evidence/scent-memory/scent-peppermint-ylang-memory/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://seadice.win/evidence/scent-memory/scent-peppermint-ylang-memory/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/music-binaural-beats-brainwave/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/music-bgm-difficult-tasks-review/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/music-exercise-performance-metaanalysis/</loc><lastmod>2026-11-05</lastmod></url>
@@ -2175,7 +2175,7 @@
   <url><loc>https://seadice.win/evidence/language-learning/lang-extensive-reading/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/lang-listening-incidental-vocab/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/lang-language-apps/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://seadice.win/evidence/procrastination/procrastination-pomodoro-breaks/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https://seadice.win/evidence/procrastination/procrastination-pomodoro-breaks/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/insight/insight-background-music/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-environment/sleep-eye-mask-memory/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://seadice.win/evidence/breathing-stress/breathing-breathwork-meta/</loc><lastmod>2026-11-05</lastmod></url>
@@ -2189,7 +2189,7 @@
   <url><loc>https://seadice.win/evidence/parenting/kids-parent-homework-help/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/replication-dunning-kruger-artifact/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep/sleep-90-minute-cycle/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://seadice.win/evidence/pets/pet-fish-memory-three-seconds/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://seadice.win/evidence/pets/pet-fish-memory-three-seconds/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/policy/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://seadice.win/evidence/corrections/</loc><lastmod>2026-10-22</lastmod></url>
 </urlset>
