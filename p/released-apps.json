@@ -451,6 +451,13 @@
       "genre": "study",
       "appStoreId": "6783136612",
       "appStoreUrl": "https://apps.apple.com/app/id6783136612"
+    },
+    {
+      "id": "shakai-fukki-quest100",
+      "name": "ニートクエスト100",
+      "genre": "",
+      "appStoreId": "6794806797",
+      "appStoreUrl": "https://apps.apple.com/app/id6794806797"
     }
   ]
 }
