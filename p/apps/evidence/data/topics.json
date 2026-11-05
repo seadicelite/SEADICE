@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-third-person-self-talk-work-panic-name",
+    "category": "呼吸とストレス",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Moser JS, Kross E, et al., \"Third-person self-talk facilitates emotion regulation without engaging cognitive control: Converging evidence from ERP and fMRI\" (Scientific Reports, 2017)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-017-04047-3",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/third-person-self-talk-work-panic/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分を名前で呼ぶと落ち着く？",
+        "body": "焦ると「私はどうしよう」が頭を回るよね。じゃあ心の中で「〇〇は今、何を感じてる？」と自分を名前で呼んだら、何か変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "いやな記憶で比べた実験",
+        "body": "米国の50人（平均20歳）が、いやな体験を思い出して、その気持ちを「私」か自分の名前で振り返った。脳の画像も撮りながらの実験だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "つらさの評価が下がった",
+        "body": "5段階のつらさは、「私」で平均3.82、名前で3.24。名前のときは、気持ちを抑え込む脳の働きが強まっていなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事の焦りにも効く？",
+        "body": "実験室で、いやな記憶を思い出して1回ずつ比べた結果で、参加者は平均20歳くらいの若い人たち。職場で焦ったときや、毎日続けたときに効くかは、この研究では確かめていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-third-person-self-talk-work-panic-name"
+  },
+  {
+    "id": "kokoro-binaural-beats-focus-home-test",
+    "category": "音楽と集中力",
+    "kind": "よくある説",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Klichowski M, Wicher A, Kruszwicka A, Golebiewski R, \"Reverse effect of home-use binaural beats brain stimulation\" (Scientific Reports, 2023)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-023-38313-4",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/binaural-beats-focus/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "集中できる音、本当に効く？",
+        "body": "左右の耳に少し違う高さの音を流す「バイノーラルビート」。勉強や仕事のおともに聴く人も多いよね。家で聴きながら作業すると、はかどるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "家で920人が試した",
+        "body": "ポーランドの18〜81歳の920人（2つの研究の合計）が、家でヘッドホンをつけて図形の推理課題を2回解いた。2回目だけ、無音・クラシック・ただの音・ビートなどを聴いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ビートの組だけ下がった",
+        "body": "2つ目の研究では、ビートを聴いた組だけ正答率が約5〜7ポイント下がった。無音や音楽の組でははっきり変わらず、1つ目の研究で「頭を助ける音」と説明しても下がり方は同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室では逆の結果も",
+        "body": "これまでの研究は、実験室で数秒〜数分だけ聴かせたものが多く、家での使い方とは違う。課題は図形の推理で仕事や勉強そのものではないし、聴いている間の脳の働きも測っていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-binaural-beats-brainwave",
+        "type": "あわせて読む",
+        "why": "「脳波がそろう」という仕組みのほうを、14の研究で確かめたまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#kokoro-binaural-beats-focus-home-test"
+  },
+  {
+    "id": "kokoro-social-fatigue-after-meeting-delayed-tiredness",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Leikas S, \"Sociable behavior is related to later fatigue: moment-to-moment patterns of behavior and tiredness\" (Heliyon, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.heliyon.2020.e04033",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/social-fatigue-after-meeting/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "楽しかったのに、どっと疲れる",
+        "body": "友達との食事は楽しかったのに、帰るころにどっと疲れが出る。人と会うと疲れるのは、気のせいなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "74人が4日間、記録した",
+        "body": "フィンランドの大学生74人が、4日間、1日4回スマホで気分と疲れ、直前1時間のふるまいを答えた。答えた回数は合わせて1,046回だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "疲れは2〜3時間後に来た",
+        "body": "直前の1時間に社交的にふるまった回ほど、2〜3時間後の疲れが強かった。その場の気分はむしろよかったらしい。人と会ったかどうかだけでは、あとの疲れと結びついていなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかは未確認",
+        "body": "答えた内容の結びつきを見た研究で、社交的なふるまいが疲れの原因とまでは言えない。対象は大学生で4日間だけ。内向的な人と外向的な人の違いを調べるには人数が足りなかったんだって。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-social-fatigue-after-meeting-delayed-tiredness"
+  },
+  {
+    "id": "parents-emotion-improves-with-age-carstensen",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Carstensen LL, Turan B, Scheibe S, et al., \"Emotional experience improves with age: evidence based on over 10 years of experience sampling\" (Psychology and Aging, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0021285",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとると、気持ちは沈みがちになる？",
+        "body": "体が弱って、できないことが増えていく。だから年をとった親は、毎日さみしく沈んだ気持ちで過ごしているんじゃないか、と心配になるよね。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人を10年追いかけた",
+        "body": "米国サンフランシスコ周辺の18〜94歳の約180人が、1週間、1日5回ランダムな時刻にそのときの気持ちを記録した。同じことを5年後と10年後にもくり返したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "年とともに気持ちは安定した",
+        "body": "年をとるほど、いい気持ちの割合が多く、気分の波も小さくなっていた。いい気持ちの多さは60代後半ごろまで増えて、そこで頭打ち。いい気持ちが多い人ほど、13年後に生きている人が多かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "健康な人が中心の研究",
+        "body": "参加者は「同じ年の人より健康」と答えた人に限られ、人種も2つの集団だけ。今の高齢の世代がもともと気持ちの安定した世代なだけ、という可能性も著者は挙げている。病気や介護が必要な親にも同じかは不明だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#parents-emotion-improves-with-age-carstensen"
+  },
+  {
+    "id": "relationship-happy-wife-happy-life-carr",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Carr D, Freedman VA, Cornman JC, Schwarz N, \"Happy Marriage, Happy Life? Marital Quality and Subjective Well-Being in Later Life\" (Journal of Marriage and Family, 2014)",
+    "sourceUrl": "https://doi.org/10.1111/jomf.12133",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "妻が幸せなら、夫も幸せ？",
+        "body": "「妻が幸せなら家庭はうまくいく」ってよく聞くよね。じゃあ、結婚生活に満足している妻がいると、夫の人生の満足度まで上がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "年配の夫婦361組に聞いた",
+        "body": "米国の、2人とも50歳以上（片方は60歳以上）の夫婦361組が、夫と妻それぞれ別に、結婚の満足度・人生の満足度・前の日のその時々の気分を答えた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "効くのは自分の満足、ただし夫は妻次第",
+        "body": "人生の満足や幸せな気分といちばん結びついていたのは、自分自身の結婚の満足で、男女の差はなかった。相手の満足だけでは結びつきはなし。ただ夫は、妻も満足しているときほど、自分の満足と人生の満足のつながりが強かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かは不明",
+        "body": "1回の調査なので、結婚に満足するから幸せなのか、もともと幸せな人が結婚を良く見るのかはわからない、と著者も書いている。対象は米国の年配の夫婦だけで、若い夫婦にも同じかは別の話だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#relationship-happy-wife-happy-life-carr"
+  },
+  {
     "id": "dokugaku-sleep-learning-vocabulary-audio-tmr-teens",
     "category": "学習法",
     "kind": "よくある説",
@@ -28487,6 +28660,11 @@
         "id": "music-mozart-effect-metaanalysis",
         "type": "あわせて読む",
         "why": "「聴くだけで頭が変わる」という別の説を確かめた分析"
+      },
+      {
+        "id": "kokoro-binaural-beats-focus-home-test",
+        "type": "あわせて読む",
+        "why": "家で920人がビートを聴いて課題を解いたら、正答率が下がった実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/music-focus/music-binaural-beats-brainwave/"
