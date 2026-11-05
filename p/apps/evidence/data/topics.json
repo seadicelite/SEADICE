@@ -1,5 +1,199 @@
 [
   {
+    "id": "dokugaku-why-study-methods-differ-icap-question-vs-lecture",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Lim et al., \"Active learning through discussion: ICAP framework for education in health professions\" (BMC Medical Education, 2019)",
+    "sourceUrl": "https://doi.org/10.1186/s12909-019-1901-7",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/why-study-methods-differ-icap/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "講義を聞くか、自分で読むか",
+        "body": "同じ教材でも、講義を聞くのと自分で読んで問いを作るのとでは、身につき方が違うのかな。韓国の大学で、医療系の学生を4つの組に分けて試した実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18分学んで、5分で問いか要約",
+        "body": "18分間、講義を聞くか自分で読むか。そのあと5分で問いを3つ作るか、3文に要約するか。話し合ったあと、25点満点のテストを受けたよ。分析したのは108人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自分で読んで問いを作った組が最高",
+        "body": "平均点は、自分で読んで問いを作った組が17.19点、講義を聞いて要約した組が12.52点。自分で読んで問いを作った組は、講義を聞いた2つの組より点が高かったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "問いと要約の差ははっきりしない",
+        "body": "自分で読んだあと、問いを作った組と要約した組の差は統計的にはっきりしなかった。慣れない法律の教材を使った1回きりの短い実験で、長く独学する場面でも同じかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-study-methods-differ-icap-lecture-myth",
+        "type": "あわせて読む",
+        "why": "1つの実験と、225の研究をまとめたメタ分析。どちらも講義を聞くだけより手と頭を動かす方が良かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-study-methods-differ-icap-question-vs-lecture"
+  },
+  {
+    "id": "dokugaku-why-study-methods-differ-icap-lecture-myth",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Freeman et al., \"Active learning increases student performance in science, engineering, and mathematics\" (PNAS, 2014)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1319030111",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/why-study-methods-differ-icap/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "講義をしっかり聞くのが一番？",
+        "body": "わかりやすい講義をじっと聞くのが、いちばん効率のいい学び方だと思われがちだよね。でも大学の理系の授業を調べた研究をまとめると、違う結果が出ているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "225の研究をまとめた",
+        "body": "講義だけの授業と、学生が問題を解いたり話し合ったりして手と頭を動かす授業をくらべた225の研究を、メタ分析という方法でまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績が上がり、単位を落としにくい",
+        "body": "手と頭を動かす授業では、試験などの成績が平均0.47標準偏差高かった。単位を落とす割合は、手と頭を動かす授業で21.8%、講義だけの授業で33.8%だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きの実験ばかりではない",
+        "body": "学生が自分で授業を選んだ研究も含まれていて、2つの組で先生が違う研究もある。大学の理系の授業の話で、一人で独学する場面にそのまま当てはまるかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-study-methods-differ-icap-question-vs-lecture",
+        "type": "あわせて読む",
+        "why": "メタ分析の結論を、自分で読んで問いを作る1つの実験で確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-study-methods-differ-icap-lecture-myth"
+  },
+  {
+    "id": "dokugaku-spare-time-study-menu-table-spaced-questions",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Kerfoot et al., \"An online spaced-education game among clinicians improves their patients' time to blood pressure control: a randomized controlled trial\" (Circulation: Cardiovascular Quality and Outcomes, 2014)",
+    "sourceUrl": "https://doi.org/10.1161/CIRCOUTCOMES.113.000814",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/spare-time-study-menu-table/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "数日に1問で、身につく？",
+        "body": "忙しい社会人は、まとまった勉強時間がとりにくいよね。数日に1〜2問だけ解く勉強で知識が残るのかを、医療者で試した研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "医療者111人をくじで2組に",
+        "body": "米国の8つの病院の医師や診療看護師など111人。一方には高血圧の治療の問題を3日ごとに1〜2問メールで送り、間違えたら12日後、正解なら24日後にまた届くしくみにした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "52週後のテストで90%対78%",
+        "body": "同じ内容をウェブで読めるようにした組は78%、問題を受け取った組は90%だった。担当した患者さんの血圧が目標に届くまでの日数も、少し短くなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効いたのは問題？メール？",
+        "body": "問題を受け取った組にはメールが多く届いていて、中身ではなくメールの多さが効いた可能性を著者自身が挙げている。参加したのは声をかけた人の37%だけだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-spare-time-study-menu-table-spaced-questions"
+  },
+  {
+    "id": "face-smile-perceived-age",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Ganel & Goodale, \"The effect of smiling on the perceived age of male and female faces across the lifespan\" (Scientific Reports, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-021-02380-2",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "笑顔だと若く見える？",
+        "body": "「笑うと若く見える」ってよく聞くよね。でも同じ人の笑顔と真顔の写真を比べると、笑顔のほうが年上に見積もられる、という実験が出ているんだ。年代によって違うのかを調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20〜79歳の240人の写真で",
+        "body": "イスラエルの大学生30人が、20〜79歳の男女240人の写真を見て年齢を当てた。同じ人の笑顔と真顔を入れ替えて比べたよ。中年の21人が見る実験もしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "若い人の笑顔は年上に見えた",
+        "body": "20〜39歳の顔では、笑顔のほうが真顔より年上に見積もられた。60〜79歳の顔ではこの差が消え、40〜59歳では男性の顔だけに出たらしい。研究者は目の周りの笑いじわが原因と考えているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "会って話すときも同じ？",
+        "body": "写真を見て年齢を当てる実験で、見る人はイスラエルの数十人。動く顔や実際に会ったとき、ほかの国の人が見ても同じかはまだわからない。笑顔が感じよく見えるかは、また別の話だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "fakesmile-girard",
+        "type": "あわせて読む",
+        "why": "笑顔を年上に見せる目じりのシワは、本物の笑顔の証と言われるけど、その説を確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-smile-perceived-age"
+  },
+  {
+    "id": "game-video-games-surgeon-skill",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Rosser et al., \"The impact of video games on training surgeons in the 21st century\" (Archives of Surgery, 2007)",
+    "sourceUrl": "https://doi.org/10.1001/archsurg.142.2.181",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ゲームが得意だと、手術もうまい？",
+        "body": "画面を見ながら細い器具を動かす腹腔鏡（ふくくうきょう）手術。ゲームで慣れた指先や目の使い方が役に立つのかな。外科医で調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "外科医33人の腕前とゲーム歴",
+        "body": "研修中の医師と指導医33人が、腹腔鏡の操作と縫合の練習コースに挑戦。ゲーム歴をアンケートで聞き、ゲーム3種のスコアも測って比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "週3時間以上の人はミスが37%少ない",
+        "body": "過去に週3時間をこえてゲームをしていた人は、ミスが37%少なく、作業も27%速かった。ゲームのスコアが上位3分の1の人は、ミスが47%少なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ゲームをすれば上達する？",
+        "body": "一度に測って比べた33人の観察で、ゲームのおかげなのか、もともと器用な人がゲーム好きなのかは区別できない。ゲームで練習させて手術が上達するかは、この研究では試していないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-game-brain-myth",
+        "type": "あわせて読む",
+        "why": "アクションゲームで注意力や空間の力が伸びるかを、多くの研究でまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-video-games-surgeon-skill"
+  },
+  {
     "id": "dokugaku-why-hot-room-hard-to-study-comfortable-warm",
     "category": "集中力",
     "kind": "よくある説",
@@ -11613,6 +11807,11 @@
         "id": "game-children-intelligence",
         "type": "あわせて読む",
         "why": "アクションゲームと注意力などの関係を、たくさんの研究でまとめた"
+      },
+      {
+        "id": "game-video-games-surgeon-skill",
+        "type": "あわせて読む",
+        "why": "ゲームが得意な外科医ほど、腹腔鏡手術の練習でミスが少なかった観察研究"
       }
     ]
   },
@@ -42233,7 +42432,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/fake-smile-duchenne-detection-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "face-smile-perceived-age",
+        "type": "あわせて読む",
+        "why": "目じりのシワのせいで、若い人の笑顔は年上に見えるという実験"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/romance/#fakesmile-girard"
   },
   {
