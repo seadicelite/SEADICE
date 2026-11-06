@@ -1,5 +1,206 @@
 [
   {
+    "id": "kokoro-ai-dependency-impulsivity-prevent-drivers",
+    "category": "AIとのつきあい方",
+    "kind": "よくある説",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Jiang B, Wang Z, \"Addicted to AI? Prevalence and psychological drivers of generative AI dependency among pre-service teachers\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1922716",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-dependency-impulsivity-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "AIに頼りすぎるのは信じすぎるから？",
+        "body": "AIの答えを信じすぎるから頼っちゃう、ってよく言われるよね。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "教員志望の学生565人のアンケート",
+        "body": "中国の教員を目指す学生に聞くと、79%が「AIは学びに欠かせない」、54%が「まずAIに聞く」と答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "強く結びついていたのは「すぐ楽したい」",
+        "body": "頼りすぎと強く結びついていたのは、すぐ楽なほうに手が伸びる傾向と、AIを人のように感じる気持ち。信頼は、ほかの要因をそろえるとはっきりした結びつきがなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因なのか、結果なのか",
+        "body": "1回のアンケートで、頼るうちに愛着が深まった可能性もある。地域や学年にも偏りがあって、ほかの人でも同じかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-ai-reliance-resilience-support-social-support",
+        "type": "あわせて読む",
+        "why": "AIに頼りすぎる理由と、頼ることと立ち直る力の関係"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-dependency-impulsivity-prevent-drivers"
+  },
+  {
+    "id": "kokoro-ai-reliance-resilience-support-social-support",
+    "category": "AIとのつきあい方",
+    "kind": "よくある説",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Shen X, Liu C & Yan J, \"AI Chatbot Dependence as an Indirect Link Between Social Anxiety and Psychological Resilience: The Moderating Role of Perceived Social Support\" (Behavioral Sciences, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/bs16091505",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-reliance-resilience-support/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "AIに頼ると心が弱くなる？",
+        "body": "悩みをすぐAIに話していると、自分で立ち直る力が落ちるんじゃないかって心配になるよね。実際にAIを使う人を調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中国の395人に聞いた",
+        "body": "AIチャットを使う中国の大人395人に、情報集めや気持ちの支え、決めごとをどれだけAIに頼っているかと、立ち直る力をアンケートで聞いたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "強かったのは「人の支え」との関係",
+        "body": "AIに頼る人ほど立ち直る力は低めだった。でも人づきあいの不安を考えに入れると、その結びつきは小さくなった。立ち直る力ともっと強く関係していたのは、周りに支えてくれる人がいる感覚だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが原因かは不明",
+        "body": "1回きりのアンケートだから、AIに頼ったせいで弱くなったのか、もともと立ち直りにくい人がAIに頼りやすいのかはわからない。中国のネット調査の結果だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-ai-dependency-impulsivity-prevent-drivers",
+        "type": "あわせて読む",
+        "why": "AIに頼りすぎる理由を調べた、別の国内調査"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-reliance-resilience-support-social-support"
+  },
+  {
+    "id": "kokoro-comparison-meaning-in-life-brag-post",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Huh YE, Scopelliti I & Myaeng SY, \"Meaning in life improves response to others’ self-promotion\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-30505-4",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/comparison-meaning-in-life/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "友だちの自慢、モヤッとしない方法は？",
+        "body": "友だちの昇進や成功の投稿を見ると、ついモヤッとするよね。見る前にちょっとした文章を書くだけで、その気持ちが変わるかを試した実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "人生の意味を3文ほど書いた",
+        "body": "米国の大人約400人をくじで分けて、一部の人に「自分の人生で見つけてきた意味」を書いてもらったよ。平均45語、3文くらいの短い文章。そのあと全員が友だちの自慢の投稿を見たんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ねたみが少し小さかった",
+        "body": "書いた人は、書かなかった人よりねたみ（7段階で2.53対3.17）やいらだちが小さく、うれしい気持ちは大きめだった。よく書かれたのは家族との関係だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果は小さく、続くかも不明",
+        "body": "差は小さめで、測ったのは書いた直後だけ。比べた相手は「何も書かない」組だから、何かを書くこと自体の効果とも分けきれていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-sns-happy-for-others-social-savoring",
+        "type": "あわせて読む",
+        "why": "人の投稿でモヤッとしないための、別のやり方を試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-comparison-meaning-in-life-brag-post"
+  },
+  {
+    "id": "love-postpartum-marital-satisfaction-meta",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Bogdan I, Turliuc MN & Candel OS, \"Transition to Parenthood and Marital Satisfaction: A Meta-Analysis\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.901362",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "子どもが生まれると夫婦仲は冷める？",
+        "body": "「産後クライシス」という言葉があるくらい、出産のあとは夫婦の仲が冷えやすいって言われるよね。研究をまとめると、実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "49の研究をまとめた分析",
+        "body": "出産の前後で夫婦の満足度を追いかけた49の研究をまとめたメタ分析があるよ。親の集団97と、比べるための子どもがいない夫婦の集団9が入っているんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "下がるけど、子どもがいなくても少し下がる",
+        "body": "妊娠中から産後1年で満足度は下がっていて、下がり方は母親も父親も同じくらい。子どもがいない夫婦も同じ時期に少し下がったけど、親のほうが大きかった。2年目もゆるやかに下がり続けたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんな夫婦が下がりにくいか",
+        "body": "平均の下がり幅は大きくはなく、研究ごとのばらつきも大きかった。比べた子どもがいない夫婦は9集団だけで、未発表の研究は入っていない。年齢や性別で差は見つからず、何が守ってくれるかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-satisfaction-decline",
+        "type": "あわせて読む",
+        "why": "出産前後の変化と、交際や結婚の満足度が長い年月でどう変わるか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-postpartum-marital-satisfaction-meta"
+  },
+  {
+    "id": "insight-white-noise-45db-creativity",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Awada M, Becerik-Gerber B, Lucas G & Roll S, \"Cognitive performance, creativity and stress levels of neurotypical young adults under different white noise levels\" (Scientific Reports, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-022-18862-w",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "少し雑音があるほうがアイデアが出る？",
+        "body": "静かすぎる部屋より、少しザワザワしているほうが考えが進む、って言う人がいるよね。小さなホワイトノイズで試した実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つの音で同じ人が試した",
+        "body": "アメリカの大学院生40人が、ふつうのオフィスの音（約42デシベル）、ヘッドホンで小さめのホワイトノイズ（45デシベル）、大きめ（65デシベル）の3つで、言葉の連想で答えを探す問題を解いたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "小さめのノイズで正解が増えた",
+        "body": "小さめのホワイトノイズのときの正解率は平均約65%で、ふつうのオフィスの音の約51%より高かった。大きめの65デシベルは、ほかの2つとはっきりした差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "40人の1回の実験",
+        "body": "大学院生40人の1つの実験で、ひらめきは1種類のテストで測っただけ。年齢や性別の幅も小さかった。カフェの話し声のような音でも同じか、ほかの人でもくり返されるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-cafe-noise-feels-focused-white-noise",
+        "type": "あわせて読む",
+        "why": "ホワイトノイズと集中の研究をまとめた分析と、ひらめきで試した1つの実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-white-noise-45db-creativity"
+  },
+  {
     "id": "dokugaku-why-exam-stress-blocks-recall-retrieval-stress",
     "category": "記憶のしくみ",
     "kind": "素朴な疑問",
@@ -8108,7 +8309,14 @@
         "body": "落ち込みの症状や取り残される不安、日々の比べたあとの気分には差が出なかった。人数も少ない試行の研究で、大人や長く続けた場合はまだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-happy-for-others-social-savoring"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-happy-for-others-social-savoring",
+    "links": [
+      {
+        "id": "kokoro-comparison-meaning-in-life-brag-post",
+        "type": "あわせて読む",
+        "why": "人の自慢の投稿を見る前に、人生の意味を書くと試した研究"
+      }
+    ]
   },
   {
     "id": "kokoro-nature-sounds-stress-fountain-birds",
@@ -11026,7 +11234,14 @@
         "body": "どれも実験室での短い課題の結果。長時間の勉強にどう効くか、安全で適切な音量はどのくらいかは、著者らも今後の研究が必要としている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-why-cafe-noise-feels-focused-white-noise"
+    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-why-cafe-noise-feels-focused-white-noise",
+    "links": [
+      {
+        "id": "insight-white-noise-45db-creativity",
+        "type": "あわせて読む",
+        "why": "小さなホワイトノイズで、ひらめきの問題を試した実験"
+      }
+    ]
   },
   {
     "id": "dokugaku-vocab-review-schedule-recall-log-review-gap",
@@ -28505,6 +28720,11 @@
         "id": "happy-adaptation-marriage",
         "type": "あわせて読む",
         "why": "結婚の喜びに慣れていくかを見た研究。満足度の長い変化とあわせて読める"
+      },
+      {
+        "id": "love-postpartum-marital-satisfaction-meta",
+        "type": "あわせて読む",
+        "why": "出産の前後で夫婦の満足度がどう変わるかをまとめた分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/love/#love-satisfaction-decline"
