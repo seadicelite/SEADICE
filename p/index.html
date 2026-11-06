@@ -149,7 +149,7 @@
     .nav-links { display: flex; gap: 28px; }
     .nav-links a { font-size: 14px; color: var(--sub); text-decoration: none; padding: 8px 0; }
     .nav-links a:hover { color: var(--text); }
-    .nav-cta { font-size: 13px; font-weight: 700; color: var(--bg); background: var(--accent); text-decoration: none; padding: 9px 16px; border-radius: 6px; white-space: nowrap; }
+    .nav-cta { font-size: 14px; font-weight: 700; color: var(--bg); background: var(--accent); text-decoration: none; padding: 0 18px; min-height: 44px; display: inline-flex; align-items: center; border-radius: 6px; white-space: nowrap; }
     .nav-cta:hover { opacity: .88; }
     @media (max-width: 759px) {
       header nav { height: auto; flex-wrap: wrap; gap: 0 16px; padding-top: 6px; }
@@ -377,29 +377,6 @@
     </div>
   </div>
 
-  <section class="sec" id="sagi" aria-labelledby="sagi-heading">
-    <div class="sec-in">
-      <div class="sec-head">
-        <h2 class="sec-title" id="sagi-heading">怪しい電話・メッセージが来たら</h2>
-        <p class="sec-lead">手口と対策を、出典つきで。</p>
-      </div>
-      <div class="dir">
-        <div><ul>
-          <li><a href="https://bohan.seadice.win/ai-era-scam-checklist/"><strong>AI時代の詐欺の見分け方</strong></a></li>
-          <li><a href="https://bohan.seadice.win/ai-voice-clone-family-scam/"><strong>家族の声でも本物とは限らない</strong></a></li>
-        </ul></div>
-        <div><ul>
-          <li><a href="https://bohan.seadice.win/fake-police-call-scam/"><strong>「警察です」の電話は疑っていい</strong></a></li>
-          <li><a href="https://ai.seadice.win/ai-voice-scam-after-transfer/"><strong>振り込んでしまったら</strong></a></li>
-        </ul></div>
-        <div><ul>
-          <li><a href="https://bohan.seadice.win/international-call-block-scam/"><strong>「+」で始まる電話を止める</strong></a></li>
-          <li><a href="/tools/pin-check/"><strong>暗証番号のバレやすさ診断</strong></a></li>
-        </ul></div>
-      </div>
-    </div>
-  </section>
-
   <section class="sec" id="business" aria-labelledby="business-heading">
     <div class="sec-in">
       <div class="sec-head">
@@ -428,6 +405,29 @@
           <p>広告なしのiPhoneアプリ</p>
           <span class="go">アプリ一覧 &rarr;</span>
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="sagi" aria-labelledby="sagi-heading">
+    <div class="sec-in">
+      <div class="sec-head">
+        <h2 class="sec-title" id="sagi-heading">怪しい電話・メッセージが来たら</h2>
+        <p class="sec-lead">手口と対策を、出典つきで。</p>
+      </div>
+      <div class="dir">
+        <div><ul>
+          <li><a href="https://bohan.seadice.win/ai-era-scam-checklist/"><strong>AI時代の詐欺の見分け方</strong></a></li>
+          <li><a href="https://bohan.seadice.win/ai-voice-clone-family-scam/"><strong>家族の声でも本物とは限らない</strong></a></li>
+        </ul></div>
+        <div><ul>
+          <li><a href="https://bohan.seadice.win/fake-police-call-scam/"><strong>「警察です」の電話は疑っていい</strong></a></li>
+          <li><a href="https://ai.seadice.win/ai-voice-scam-after-transfer/"><strong>振り込んでしまったら</strong></a></li>
+        </ul></div>
+        <div><ul>
+          <li><a href="https://bohan.seadice.win/international-call-block-scam/"><strong>「+」で始まる電話を止める</strong></a></li>
+          <li><a href="/tools/pin-check/"><strong>暗証番号のバレやすさ診断</strong></a></li>
+        </ul></div>
       </div>
     </div>
   </section>
@@ -542,46 +542,6 @@
     </div>
   </section>
 
-  <section class="sec" id="news" aria-labelledby="news-heading">
-    <div class="sec-in">
-      <div class="sec-head">
-        <h2 class="sec-title" id="news-heading">お知らせ</h2>
-        <p class="sec-lead">作ったこと・直したことを毎日書く。</p>
-      </div>
-      <div class="blog-list">
-      <a class="blog-card" href="/blog/daily-2026-11-05/">
-        <span class="blog-card-body">
-          <span class="blog-tag">日誌</span>
-          <span class="blog-title">11月5日の開発日誌 — 公開中のアプリ4本を開けたら、今の約束とずれた所が次々に出てきた日</span>
-          <span class="blog-meta">2026-11-05 · SEADICE</span>
-        </span>
-        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="blog-card" href="/blog/daily-2026-11-04/">
-        <span class="blog-card-body">
-          <span class="blog-tag">日誌</span>
-          <span class="blog-title">11月4日の開発日誌 — AI詐欺を一度「追う」と判定し、同じ日に自分の基準で「保留」に戻した日</span>
-          <span class="blog-meta">2026-11-04 · SEADICE</span>
-        </span>
-        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="blog-card" href="/blog/daily-2026-11-03/">
-        <span class="blog-card-body">
-          <span class="blog-tag">日誌</span>
-          <span class="blog-title">11月3日の開発日誌 — サイトの定義を「AIで社会の問題を見つけ、データとアプリで解決する」に改め、最初のテーマを詐欺に決めた日</span>
-          <span class="blog-meta">2026-11-03 · SEADICE</span>
-        </span>
-        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-</div>
-      <a class="blog-more" href="/blog/">お知らせをすべて見る &rarr;</a>
-      <div class="bands">
-        <a href="/volunteer/"><strong>社会貢献活動のデジタル支援<span class="tag">受付中</span></strong><span>団体のサイト・アプリを無償で</span><b aria-hidden="true">&rarr;</b></a>
-        <a href="/goals/"><strong>SEADICEの目標</strong><span>毎月の目標と結果</span><b aria-hidden="true">&rarr;</b></a>
-      </div>
-    </div>
-  </section>
-
   <section class="sec" id="faq" aria-labelledby="faq-heading">
     <div class="sec-in">
       <div class="sec-head">
@@ -655,6 +615,46 @@
           <p>このページ下部のフィードバックフォームか、メール（<a href="mailto:hi@seadice.win">hi@seadice.win</a>）で受け付けています。アプリ内の設定画面からも要望・不具合報告を送れます。</p>
           </details>
         </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="news" aria-labelledby="news-heading">
+    <div class="sec-in">
+      <div class="sec-head">
+        <h2 class="sec-title" id="news-heading">お知らせ</h2>
+        <p class="sec-lead">作ったこと・直したことを毎日書く。</p>
+      </div>
+      <div class="blog-list">
+      <a class="blog-card" href="/blog/daily-2026-11-05/">
+        <span class="blog-card-body">
+          <span class="blog-tag">日誌</span>
+          <span class="blog-title">11月5日の開発日誌 — 公開中のアプリ4本を開けたら、今の約束とずれた所が次々に出てきた日</span>
+          <span class="blog-meta">2026-11-05 · SEADICE</span>
+        </span>
+        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <a class="blog-card" href="/blog/daily-2026-11-04/">
+        <span class="blog-card-body">
+          <span class="blog-tag">日誌</span>
+          <span class="blog-title">11月4日の開発日誌 — AI詐欺を一度「追う」と判定し、同じ日に自分の基準で「保留」に戻した日</span>
+          <span class="blog-meta">2026-11-04 · SEADICE</span>
+        </span>
+        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <a class="blog-card" href="/blog/daily-2026-11-03/">
+        <span class="blog-card-body">
+          <span class="blog-tag">日誌</span>
+          <span class="blog-title">11月3日の開発日誌 — サイトの定義を「AIで社会の問題を見つけ、データとアプリで解決する」に改め、最初のテーマを詐欺に決めた日</span>
+          <span class="blog-meta">2026-11-03 · SEADICE</span>
+        </span>
+        <span class="blog-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+</div>
+      <a class="blog-more" href="/blog/">お知らせをすべて見る &rarr;</a>
+      <div class="bands">
+        <a href="/volunteer/"><strong>社会貢献活動のデジタル支援<span class="tag">受付中</span></strong><span>団体のサイト・アプリを無償で</span><b aria-hidden="true">&rarr;</b></a>
+        <a href="/goals/"><strong>SEADICEの目標</strong><span>毎月の目標と結果</span><b aria-hidden="true">&rarr;</b></a>
       </div>
     </div>
   </section>

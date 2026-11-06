@@ -232,7 +232,7 @@ def update_top_page(articles: list[dict]):
     </a>\n'''
     new_list = f'<div class="blog-list">\n{cards}  </div>'
     content = re.sub(
-        r'<div class="blog-list">.*?</div>',
+        r'<div class="blog-list">.*?</div>(?=\s*<a class="blog-more")',
         new_list, content, flags=re.DOTALL
     )
     index_path.write_text(content, encoding='utf-8')
