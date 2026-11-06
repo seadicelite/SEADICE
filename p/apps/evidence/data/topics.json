@@ -1,5 +1,204 @@
 [
   {
+    "id": "dokugaku-why-exam-stress-blocks-recall-retrieval-stress",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Shields et al., \"The effects of acute stress on episodic memory: A meta-analysis and integrative review\" (Psychological Bulletin, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000100",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/why-exam-stress-blocks-recall/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "本番で答えが出てこないのはなぜ？",
+        "body": "家では言えたのに、試験の本番で出てこない。帰り道にふっと思い出す。覚えていなかったわけじゃないのに、なぜだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "113の研究をまとめた分析",
+        "body": "ストレスと記憶を調べた113の研究（6,216人）をまとめた分析があるよ。そのうち31の研究（1,410人）は、思い出す直前や最中にストレスをかけていた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "取り出す力が少し下がる",
+        "body": "思い出す直前や最中のストレスで、記憶の取り出しは下がっていた。ただ効果の大きさは小さめ。逆に、学んだ直後のストレスは記憶を良くする方向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の話であること",
+        "body": "多くは人前で話す課題などでストレスを与え、単語などを思い出させた実験。数か月準備する本番の試験で同じだけ影響するかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-exam-eve-morning-checklist-retrieval-under-stress",
+        "type": "あわせて読む",
+        "why": "本番のストレスで思い出せなくなる仕組みと、その対策"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-exam-stress-blocks-recall-retrieval-stress"
+  },
+  {
+    "id": "kokoro-pet-loneliness-prevent-which-loneliness",
+    "category": "ペットの科学",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Ogata N, Weng HY, McV Messam L, \"Temporal patterns of owner-pet relationship, stress, and loneliness during the COVID-19 pandemic, and the effect of pet ownership on mental health: A longitudinal survey\" (PLoS ONE, 2023)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0284101",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/pet-loneliness-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ペットがいれば寂しくない？",
+        "body": "一人暮らしでも犬や猫がいれば孤独にならない、ってよく聞くよね。実際のところはどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の4,237人を追跡",
+        "body": "米国の研究者が、米国に住むペットを飼っていない人・犬の飼い主・猫の飼い主あわせて4,237人に、新型コロナの流行中に1〜6回アンケートをしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "和らいだのは一部の寂しさ",
+        "body": "ほかの条件をそろえると、友人や家族に関わる孤独やストレスは、飼い主と飼っていない人で差がなかった。恋人やパートナーに関わる孤独だけは、飼い主のほうが低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "流行後も同じ？",
+        "body": "流行前の気持ちは後から思い出して答えていて、参加者はネットで集めた人。流行が落ち着いた今も同じ結果になるかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#kokoro-pet-loneliness-prevent-which-loneliness"
+  },
+  {
+    "id": "kokoro-lonely-even-with-others-company-not-cure",
+    "category": "孤独とつながり",
+    "kind": "よくある説",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Stavrova O, Ren D, \"Alone in a Crowd: Is Social Contact Associated with Less Psychological Pain of Loneliness in Everyday Life?\" (Journal of Happiness Studies, 2023)",
+    "sourceUrl": "https://doi.org/10.1007/s10902-023-00661-3",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/lonely-even-with-others/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寂しいなら人に会えばいい？",
+        "body": "寂しいときは誰かと会えば元気になる、ってよく言われるよね。でも、人といるのに余計に寂しくなること、ない？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3,035人の日常を記録",
+        "body": "オランダの研究者が、ドイツと英国の3,035人が「そのとき一人か」「どれくらい孤独か」「気分」を日常の場面ごとに答えたデータ（3つの調査）を分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "孤独が強い時は差が消えた",
+        "body": "孤独をほとんど感じていない時は、人と一緒のほうが気分がよかった。でも孤独が強い瞬間は、人と一緒でもひとりの時より気分がよいとは言えなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "観察した研究だから、孤独が気分を下げるのか、気分が低いと孤独を感じるのかはわからない。寂しい時にどう過ごすといいかは、実験で確かめる必要があるよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "social-loneliness-interventions-meta",
+        "type": "あわせて読む",
+        "why": "人と会う機会を増やす対策は、孤独感を減らす効果が小さかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-lonely-even-with-others-company-not-cure"
+  },
+  {
+    "id": "food-omega3-supplement-cognitive-decline-cochrane",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Sydenham, Dangour & Lim, \"Omega 3 fatty acid for the prevention of cognitive decline and dementia\" (Cochrane Database of Systematic Reviews, 2012)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD005379.pub3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "DHAのサプリで物忘れを防げる？",
+        "body": "青魚に多いDHAやEPA（オメガ3）を飲むと、頭の衰えを防げるってよく聞くよね。魚をよく食べる人ほど物忘れが少ない、という調査が元になっているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじ引き実験3つをまとめた",
+        "body": "60歳以上で物忘れのない人に、オメガ3か、オリーブ油などの偽物を6〜40か月とってもらった3つの試験をまとめた分析だよ。最後まで測れたのは3,536人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頭の働きに差はなかった",
+        "body": "認知機能のテストの点は、オメガ3の組と偽物の組で差がなかった。言葉を覚える・数字を覚えるなどのテストでも、良くなる効果は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "認知症になるかは測っていない",
+        "body": "どの試験も認知症になる人の数は調べていないし、長くて40か月だけ。両方の組ともほとんど衰えなかったので差が出にくかった可能性もある。魚を食べること自体の話でもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-mind-diet-cognition-rct",
+        "type": "あわせて読む",
+        "why": "サプリと食事、どちらも大きなくじ引き実験で物忘れの予防効果ははっきりしなかった"
+      },
+      {
+        "id": "food-ginkgo-dementia-prevention-rct",
+        "type": "あわせて読む",
+        "why": "同じくサプリで物忘れを防げるかを、くじ引き実験で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-omega3-supplement-cognitive-decline-cochrane"
+  },
+  {
+    "id": "exercise-aerobic-older-cognition-cochrane",
+    "category": "運動と老化",
+    "kind": "よくある説",
+    "themeColor": "#B45309",
+    "sourceLabel": "Young, Angevaren, Rusted & Tabet, \"Aerobic exercise to improve cognitive function in older people without known cognitive impairment\" (Cochrane Database of Systematic Reviews, 2015)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD005381.pub4",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ウォーキングを続ければ頭は衰えない？",
+        "body": "歩く・走るなどの有酸素運動を続けると、年をとっても頭がしっかりする、ってよく聞くよね。体にいいのは確かだけど、頭の働きはどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12の試験、754人",
+        "body": "物忘れなどのない55歳以上の人を、有酸素運動をする組としない組（ほかの運動などを含む）にくじで分けた12の試験をまとめた分析だよ。期間は8〜26週。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頭の働きに差は見られなかった",
+        "body": "記憶・注意・判断の速さなど、どの分野でも有酸素運動の効果は見られなかった。体力がちゃんと上がった試験だけで見ても、頭の働きは良くならなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短くて小さい試験ばかり",
+        "body": "どれも半年以内で人数も少なく、試験の質にも弱い所があった。何年も続けた場合や筋トレは別の話。ほかのまとめでは効果ありとした結果もあり、結論は混ざっているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-memory-complaints-older-rct",
+        "type": "反対の結果",
+        "why": "こちらは効果なし。物忘れが気になる人が半年運動した試験では、少し良くなった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#exercise-aerobic-older-cognition-cochrane"
+  },
+  {
     "id": "research-rainy-day-low-mood-weather-why-research-rain-haters",
     "category": "天気と気分",
     "kind": "よくある説",
@@ -1679,6 +1878,11 @@
         "id": "food-mind-diet-cognition-rct",
         "type": "あわせて読む",
         "why": "サプリと食事、どちらも大きなくじ引き実験で物忘れの予防効果ははっきりしなかった"
+      },
+      {
+        "id": "food-omega3-supplement-cognitive-decline-cochrane",
+        "type": "あわせて読む",
+        "why": "同じくサプリで物忘れを防げるかを、くじ引き実験で確かめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/food-brain/#food-ginkgo-dementia-prevention-rct"
@@ -2012,7 +2216,14 @@
         "body": "思い出す練習の組は、全体として成績が高かった。練習のやり方のおかげか、記憶が強かっただけかは区別できない、と別の研究者が指摘している。ストレスホルモンを測っていない点も指摘されているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-eve-morning-checklist-retrieval-under-stress"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-eve-morning-checklist-retrieval-under-stress",
+    "links": [
+      {
+        "id": "dokugaku-why-exam-stress-blocks-recall-retrieval-stress",
+        "type": "あわせて読む",
+        "why": "113の研究をまとめると、思い出す直前のストレスで取り出す力が少し下がっていた"
+      }
+    ]
   },
   {
     "id": "dokugaku-self-imposed-deadlines-study-replication",
@@ -29065,6 +29276,11 @@
         "id": "exercise-over50-cognition-meta",
         "type": "あわせて読む",
         "why": "1つの試験の結果と、50歳以上の試験をまとめた結果"
+      },
+      {
+        "id": "exercise-aerobic-older-cognition-cochrane",
+        "type": "反対の結果",
+        "why": "健康な55歳以上の12の試験をまとめると、有酸素運動で頭の働きは変わらなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-memory-complaints-older-rct"
@@ -30250,6 +30466,11 @@
         "id": "food-ginkgo-dementia-prevention-rct",
         "type": "あわせて読む",
         "why": "サプリと食事、どちらも大きなくじ引き実験で物忘れの予防効果ははっきりしなかった"
+      },
+      {
+        "id": "food-omega3-supplement-cognitive-decline-cochrane",
+        "type": "あわせて読む",
+        "why": "オメガ3のサプリでも、高齢者の頭の働きに差はなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/food-brain/#food-mind-diet-cognition-rct"
@@ -33780,6 +34001,11 @@
         "id": "kokoro-loneliness-low-mood-reconnect-young-adults-connection",
         "type": "あわせて読む",
         "why": "18〜24歳でつながりを増やす取り組みが、落ち込みに効いたかをまとめた研究"
+      },
+      {
+        "id": "kokoro-lonely-even-with-others-company-not-cure",
+        "type": "あわせて読む",
+        "why": "孤独が強い瞬間は、人と一緒でも気分がよいとは言えなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/loneliness/social-loneliness-interventions-meta/"
