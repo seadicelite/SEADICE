@@ -22,7 +22,7 @@
   <meta property="og:image" content="https://seadice.win/icons/seadice_ogp.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="SEADICE — 誠実なサービスで、信頼に応える。">
+  <meta property="og:image:alt" content="SEADICE — ASIの時代を、乗り越える。誠実なサービスで、信頼に応える。">
   <meta property="og:url" content="https://seadice.win/">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
@@ -170,6 +170,8 @@
     @media (min-width: 960px) { .hero-in { grid-template-columns: 1fr 340px; gap: 72px; } .hero-art { order: 0; width: 340px; } }
     .hero h1 { font-size: clamp(34px, 6.2vw, 60px); font-weight: 800; line-height: 1.18; letter-spacing: -.01em; }
     .hero h1 .ac { color: var(--accent); }
+    .hero h1 abbr { text-decoration: none; }
+    .hero-slogan { margin-top: 16px; font-size: clamp(16px, 2vw, 20px); font-weight: 700; }
     .hero-desc { margin-top: 28px; max-width: 560px; font-size: clamp(15px, 1.8vw, 18px); color: var(--sub); line-height: 1.9; }
     .hero-desc strong { color: var(--text); font-weight: 700; }
     .btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
@@ -199,9 +201,14 @@
     .pick { border-bottom: 1px solid var(--line); background: var(--bg2); }
     .pick-in { max-width: var(--w); margin: 0 auto; padding: 40px var(--g); display: grid; gap: 20px; align-items: center; }
     @media (min-width: 960px) { .pick-in { grid-template-columns: 140px 1fr auto; gap: 40px; padding: 44px var(--g); } }
-    .pick h2 { font-size: clamp(20px, 3vw, 26px); font-weight: 800; line-height: 1.4; margin-top: 6px; }
-    .pick-in > div p { font-size: 15px; color: var(--sub); line-height: 1.8; margin-top: 8px; }
-    .pick small { display: block; font-size: 13px; color: var(--muted); margin-top: 6px; }
+    .pick-apps { display: grid; gap: 8px; }
+    @media (min-width: 600px) { .pick-apps { grid-template-columns: 1fr 1fr; } }
+    .pick-apps > a { display: grid; grid-template-columns: 56px 1fr auto; gap: 16px; align-items: center; padding: 16px; border: 1px solid var(--line2); border-radius: 8px; background: var(--bg); color: var(--text); text-decoration: none; }
+    .pick-apps img { border-radius: 8px; }
+    .pick-apps strong { display: block; font-size: 17px; font-weight: 800; }
+    .pick-apps a > span > span { font-size: 13px; color: var(--sub); }
+    .pick-apps b { font-size: 13px; color: var(--accent); white-space: nowrap; }
+    .pick-apps > a:hover { border-color: var(--text); }
 
     /* 事業 */
     .biz { display: grid; border-top: 1px solid var(--line2); }
@@ -356,7 +363,8 @@
   <div class="hero">
     <div class="hero-in">
       <div class="hero-text">
-        <h1><span class="sr-only">SEADICE（シーダイス）— </span>誠実なサービスで、<br><span class="ac">信頼に応える。</span></h1>
+        <h1><span class="sr-only">SEADICE（シーダイス）— </span><abbr title="人工超知能">ASI</abbr>の時代を、<br><span class="ac">乗り越える。</span></h1>
+        <p class="hero-slogan">誠実なサービスで、信頼に応える。</p>
         <p class="hero-desc"><strong>SEADICE（シーダイス）</strong>は、AIを活用して社会の問題を見つけ、独自のデータとアプリで解決するスタジオです。</p>
         <ul class="facts"><li><b data-count="evidence">1120</b>本<span>確かめた研究</span></li><li><b data-count="apps">51</b>本<span>iPhoneアプリ</span></li><li><b>0</b><span>広告</span></li></ul>
         <p class="worry-label">困っていることから選ぶ</p>
@@ -502,13 +510,11 @@
 
   <section class="pick" aria-labelledby="pick-heading">
     <div class="pick-in">
-      <p class="sec-label">注目</p>
-      <div>
-        <h2 id="pick-heading">生写真プロフィール帳</h2>
-        <p>譲・求リストを1ページにまとめて、Xに貼る。</p>
-        <small>作るときだけGoogleログイン</small>
+      <h2 class="sec-label" id="pick-heading">注目のアプリ</h2>
+      <div class="pick-apps">
+        <a href="https://apps.apple.com/jp/app/id6809145872?ct=seadice" rel="noopener"><img src="/icons/apps/tetsujin-friends.webp" width="56" height="56" alt="" loading="lazy"><span><strong>IJIN</strong><span>偉人が話しかけてくる友達</span></span><b>App Store &rarr;</b></a>
+        <a href="https://apps.apple.com/jp/app/id6814862760?ct=seadice" rel="noopener"><img src="/icons/apps/evidence.webp" width="56" height="56" alt="" loading="lazy"><span><strong>EVIDENCE</strong><span>よく聞く説を、論文の出典つきで</span></span><b>App Store &rarr;</b></a>
       </div>
-      <a class="btn primary" href="https://namashashin.seadice.win/" target="_blank" rel="noopener">プロフィール帳を作る <span class="arr" aria-hidden="true">&rarr;</span></a>
     </div>
   </section>
 
