@@ -42,9 +42,59 @@ CATEGORIES = [
 ]
 
 
-# 紹介ページが無い・説明が取れないアプリの説明文
+# カードの一言（10〜25字。design/README.md「文字を減らす」）。新しいアプリはここに1行足す
 DESC_OVERRIDE = {
-    "tetsujin-friends": "歴史上の哲学者を「友達」に追加して、チャット感覚で対話するアプリ。ソクラテスやニーチェなど15人と話せます。",
+    "black-psychology": "しぐさや行動から、相手の気持ちをAIで読む",
+    "hikaku-tomeru": "SNS疲れを、その場でAIに話して整える",
+    "hitori-time": "ひとり時間の過ごし方を提案し、記録する",
+    "mood-forecast": "気分の記録から、崩れやすい曜日や流れを知る",
+    "notify-mindfulness": "呼吸・姿勢など7つのテーマを通知で届ける",
+    "honshitsu-type": "ビッグファイブで、自分の取扱説明書を作る",
+    "curiosity-type": "20問で好奇心のタイプと、今日の小さな挑戦",
+    "nlp-mindshift": "NLPの技法を1日1つ、30日間で試す",
+    "teishutsu-switch": "完璧主義を、4週間のCBTプログラムでゆるめる",
+    "body-language-scan": "表情・姿勢・しぐさから、相手の心理をAIで読む",
+    "dopa-quest": "現実の行動で育つ、RPG型の習慣アプリ",
+    "dopamine-detox": "5分の小さな一歩で、行動をつなげる",
+    "habit-quit": "やめたい習慣を、代わりの行動と記録で減らす",
+    "hiru10": "研究にもとづく10分の昼寝タイマー",
+    "active-recall": "覚えたい範囲から、AIが思い出しクイズを作る",
+    "memory-palace": "記憶の宮殿で、リストや原稿を覚える",
+    "book-quiz": "読んだ本から、AIがクイズを作る",
+    "dokugaku-schedule": "参考書の目次から、学習スケジュールを作る",
+    "evidence": "よく聞く説を、論文の出典つきで読む",
+    "tetsujin-friends": "偉人が話しかけてくる、話し相手のアプリ",
+    "boueki": "貿易実務検定C級の模擬試験と演習",
+    "boueki-eigo": "貿易実務の英単語を覚える",
+    "drone-cbt": "ドローン二等の学科試験、解説つき200問",
+    "danshari-app3": "手放すか迷う物を、AIが理由つきで判定",
+    "jikka-jimai": "親の家の片付け・相続・空き家に備える",
+    "coffee-taste": "好みから、合うコーヒー豆と淹れ方を診断",
+    "yokai-mirror": "日本の妖怪伝承で遊ぶ診断（英語）",
+    "nlp-lab": "NLPの技法を、試す前後で比べて確かめる",
+    "renshu-sns": "子どもがSNSの危ない場面を練習する",
+    "tesukatsu-log": "テストステロンを増やす習慣を記録する",
+    "attachment-style": "16問で、4つの愛着スタイルを判定",
+    "cognitive-bias-guide": "80種類の認知バイアスを、例と研究つきで",
+    "dark-triad": "27問で、ダークトライアドの傾向を測る",
+    "enneagram": "36問で、エニアグラムの9タイプを判定",
+    "fbi-bodylanguage": "元FBI捜査官の観察法を、辞典で引く",
+    "holmes-deduction": "日常の一場面で、観察と推理を練習する",
+    "hsp-relationship-check": "HSPのセルフチェックと、人づきあいの工夫",
+    "kateisaien-app10": "土のpHを測って記録し、土づくりに使う",
+    "lifeisrpg": "習慣をこなすとキャラが育つ、RPG型管理",
+    "line-honne-scan": "LINEの会話から、相手の温度感をAIで読む",
+    "mbti-compass": "MBTIの16タイプと、友だちとの相関図",
+    "nlp-goal-coach": "NLPの枠組みで、目標を明確にする",
+    "pet-health-app3": "犬・猫の病気と予防を、毎日1問のクイズで",
+    "procrastination-type": "先延ばしのタイプと、タイプ別の対策",
+    "trauma-response-type": "4Fモデルで、ストレスへの反応を知る",
+    "yaritai-100": "やりたいこと100個と、次の一歩",
+    "yumetoki": "夢の内容から、夢占いと記号辞典",
+    "kiroku-nou-training": "離れて暮らす親に入れる、脳トレ記録",
+    "yame-lab": "やめたいことの仕組みを知り、記録で続ける",
+    "kateisaien-app3": "家庭菜園の知識を、4択クイズで",
+    "shakai-fukki-quest100": "外に出るまでを、100の小さなクエストに",
 }
 
 
@@ -107,7 +157,7 @@ def ensure_icon(app):
 
 
 def card(app):
-    name = re.split(r"[　ー]", app["name"].strip())[0].strip() if app["id"] == "tetsujin-friends" else app["name"].strip().split("　")[0].strip()
+    name = re.split(r"　|\s*-\s*", app["name"].strip())[0].strip()
     href, page = page_for(app["id"])
     m = re.search(r'<meta name="description" content="([^"]*)"', page)
     desc = DESC_OVERRIDE.get(app["id"]) or (short_desc(m.group(1)) if m else "")
@@ -238,11 +288,11 @@ footer a{{text-decoration:none;margin:0 6px}}
 </style>
 </head>
 <body>
-<header><div class="bar"><a class="logo" href="/">SEADICE</a><nav class="crumb" aria-label="パンくずリスト"><a href="/">HOME</a> / アプリ一覧</nav></div></header>
+<header><div class="bar"><a class="logo nav-logo" href="/">SEADICE</a><nav class="crumb" aria-label="パンくずリスト"><a href="/">HOME</a> / アプリ一覧</nav></div></header>
 <main>
   <p class="label">Apps</p>
   <h1>iPhoneアプリ一覧</h1>
-  <p class="lead"><strong>SEADICE（シーダイス）は、App StoreでiPhoneアプリを{count}本公開しています。</strong>夜更かし・先延ばし・SNS疲れ・片付けなど、暮らしの「ちょっと困った」に効くアプリです。</p>
+  <p class="lead"><strong>SEADICE（シーダイス）のiPhoneアプリ{count}本。</strong>暮らしの「ちょっと困った」に。</p>
   <ul class="facts"><li>基本の機能は無料</li><li>広告なし</li><li>iPhone・iPad対応</li></ul>
   <a class="series" href="/evidence-series/"><img src="/icons/evidence-mark.webp" width="40" height="40" alt=""><span><strong>EVIDENCEシリーズ｜研究にもとづくアプリ</strong><span>機能のもとになった論文と解説記事を公開しているアプリをまとめて見る</span></span></a>
 

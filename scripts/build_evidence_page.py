@@ -234,7 +234,7 @@ footer a{{text-decoration:none;margin:0 6px;padding:8px 0}}
 </style>
 </head>
 <body>
-<header><div class="bar"><a class="logo" href="/">SEADICE</a><nav class="crumb" aria-label="パンくずリスト"><a href="/">HOME</a> / <a href="/apps/">アプリ一覧</a> / EVIDENCE</nav></div></header>
+<header><div class="bar"><a class="logo nav-logo" href="/">SEADICE</a><nav class="crumb" aria-label="パンくずリスト"><a href="/">HOME</a> / <a href="/apps/">アプリ一覧</a> / EVIDENCE</nav></div></header>
 <main>
   <div class="hero"><img src="/icons/evidence-mark.webp" width="48" height="48" alt=""><div><p class="label">Evidence Series</p><h1>研究にもとづくアプリ</h1></div></div>
   <p class="lead"><strong>EVIDENCEシリーズは、機能のもとになった研究の論文と解説記事をすべて公開しているSEADICEのアプリです。</strong>「なぜこの機能があるのか」を、元の論文とやさしい解説記事で確かめてから使えます。入口は、研究そのものを3枚のカードで読めるアプリ「EVIDENCE」です。</p>
