@@ -67,7 +67,7 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 - アプリページの削除・統合
 
 ## 次にやること
-- LUCK UNLUCK 1.1 のウィジェット（widget 役の案、2026-11-06）: ①ホーム中サイズに瓶＋LUCK/UNLUCK の2ボタン（iOS 17 App Intent で開かずに+1、取り消し1つ、満ちたら「ふたを閉める」でアプリを開く）②iOS 18 の Control（コントロールセンター・ロック画面下・アクションボタン）③小（スタンバイ兼用）④ロック画面の円形ゲージ ⑤大（棚、課金候補）。正のデータは SharedPreferences のまま、App Group `group.win.seadice.kizukiLuck` に表示用の写し `luck_snapshot` と、ウィジェットで押した分の `luck_pending` を置き、アプリが起動時に取り込む。瓶の規則は Swift に写さない。型は minna_loveletter の ios/LetterWidget。1.0 の審査を通ってから
+- LUCK UNLUCK のウィジェットは 2026-11-06 に widget 役が 1.0(2) に実装済み（ホーム中・小、ロック画面の円形、Control）。残り: 実機での配置確認、課金を入れるときに大（棚）。拡張機能の版は pbxproj に固定なので、版を上げるたびに LuckWidget の MARKETING_VERSION・CURRENT_PROJECT_VERSION も合わせる
 - 公開中なのにサイトに載っていないアプリを見つける点検を作る: 各アプリのフォルダの Bundle ID（ios/Runner.xcodeproj の PRODUCT_BUNDLE_IDENTIFIER）を集めて iTunes Lookup に当て、released-apps.json にないものを出す。`check_released_apps.py` は nlp-lab を拾えなかった（11-05 のニートクエスト100・11-06 のNLPラボで同じ問題が2回）
 1. **手元の全アプリを一度に突き合わせるスクリプトを作る**（2026-11-06）: 点検の「公開済みなのに released-apps.json・アプリページがないアプリ」は /improve-app したアプリでしか確かめないため、触っていないアプリが漏れる。やめラボ（10-13）に続きニートクエスト100（11-05、ポリシー・共有URL・一覧が404）で2回目。~/Developer 配下の pubspec のある全フォルダから Bundle ID を集めて iTunes Lookup で引き、公開中なのに released-apps.json・p/tools/{appId}/・p/privacy/{appId}/ のどれかがないものを出す（scripts/check_released_apps.py に足すか別スクリプト）。手元専用
 1. **独学スケジュールメーカー 1.1.0 が審査を通ったら、サイトとメディアからAIの表記を外す**（2026-11-05）: p/tools/dokugaku-schedule/（description・og・JSON-LD・ラベル「AI Planning」・リード・特徴「AIが計画を組む」）を、目次の撮影は端末内で読み取り・章の数や貼り付けでも作れる・休む曜日と調整日・残りを組み直す、に。サポートURL（/apps/dokugaku-schedule/ はこのページへ飛ぶ）なので審査員も見る。p/apps/index.html（build_apps_page.py）と dokugaku.seadice.win/apps/dokugaku-schedule/ と記事6本の紹介文も。プライバシーポリシーは版ごとの書き方にしたので触らなくてよい
