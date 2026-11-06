@@ -210,6 +210,13 @@
       "appStoreUrl": "https://apps.apple.com/app/id6798104619"
     },
     {
+      "id": "nlp-lab",
+      "name": "NLPラボ",
+      "genre": "psychology",
+      "appStoreId": "6791000031",
+      "appStoreUrl": "https://apps.apple.com/app/id6791000031"
+    },
+    {
       "id": "notify-mindfulness",
       "name": "通知de人生改善",
       "genre": "mental-health",
