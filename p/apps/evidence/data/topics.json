@@ -1,5 +1,199 @@
 [
   {
+    "id": "research-habit-no-results-yet-want-to-quit-research-acceptable-goal",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Dalle Grave et al., \"Weight loss expectations and attrition in treatment-seeking obese women\" (Obesity Facts, 2015)",
+    "sourceUrl": "https://doi.org/10.1159/000441366",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/habit-no-results-yet-want-to-quit-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "目標が高すぎると、途中で挫折する？",
+        "body": "大きすぎる夢を持つと、届かなくてやめてしまう。よく聞く話だよね。でも実際に調べると、話は少し違ったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "減量を始めた634人を1年追った",
+        "body": "イタリアの8施設で減量を始めた女性634人に、「夢の体重」から「これだとがっかりする体重」まで4段階の目標を聞いて、1年後まで追ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やめる引き金は「合格ライン」",
+        "body": "1年以内に32.3%がやめた。やめることと結びついたのは夢の目標ではなく、「これなら受け入れられる」「これだとがっかり」というラインの高さだったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの習慣でも同じ？",
+        "body": "観察研究なので原因とは言い切れないし、対象は減量中の女性だけ。費用のかからない臨床試験では、目標とやめることの関係は見つかっていないらしい。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-habit-goal-lower-after-missed-days-research-goal-failure",
+        "type": "あわせて読む",
+        "why": "高い目標に届かなかったとき、気持ちと次の行動がどう変わるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-no-results-yet-want-to-quit-research-acceptable-goal"
+  },
+  {
+    "id": "research-mind-map-memory-how-to-use-research-concept-map-artifact",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Mayrhofer et al., \"Re-examining the testing effect as a learning strategy: the advantage of retrieval practice over concept mapping as a methodological artifact\" (Frontiers in Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2023.1258359",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/mind-map-memory-how-to-use-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "マップを描くより、思い出す練習が勝つ？",
+        "body": "「図にまとめるより、本を閉じて思い出すほうが覚えられる」。2011年の有名な実験から広まった話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "230人で条件をそろえ直した",
+        "body": "ドイツの大学で集めた230人で同じ実験をやり直した。実は元の実験では、思い出す組だけ文章を覚え直す5分があったんだ。そこで、マップの組にも描いた後にマップを5分覚える時間を足した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5分足すと、差が消えた",
+        "body": "1週間後、文章どおりに答える問題の正答率は、思い出す組73%、描いた後に5分覚えた組70%で、はっきりした差はなかった。描いて終わりの組は59%だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い教科書でも同じ？",
+        "body": "使ったのはラッコについての短い文章1つで、考えて答える問題は2問だけ。教科書1冊分のような長い範囲でも同じになるかは、まだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-self-explanation-own-words-memory-why-research-medstudents",
+        "type": "あわせて読む",
+        "why": "思い出す練習を、自分の言葉で説明する学び方と半年後の記憶で比べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-mind-map-memory-how-to-use-research-concept-map-artifact"
+  },
+  {
+    "id": "research-self-explanation-own-words-memory-why-research-medstudents",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Larsen et al., \"Comparative effects of test-enhanced learning and self-explanation on long-term retention\" (Medical Education, 2013)",
+    "sourceUrl": "https://doi.org/10.1111/medu.12141",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/self-explanation-own-words-memory-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分の言葉で説明すると覚えられる",
+        "body": "「説明しながら読むと頭に入る」ってよく言うよね。じゃあ、半年たっても覚えているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "医学生47人の4週間",
+        "body": "医学部1年生47人が、4つのテーマを毎週1回、4週間復習した研究があるんだ。読むだけ、説明しながら読む、自分にテスト、テスト＋説明の4つの学び方を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "半年後、20%→29%",
+        "body": "半年後のテストで、読むだけは20%、説明しながら読むと29%だった。でも自分にテストすると36%、テスト＋説明だと40%で、もっと高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どのテーマでも同じ？",
+        "body": "医学部1年生47人での研究で、テーマによって効き方に違いがあったんだ。医学以外の勉強や、ほかの年齢でも同じ差になるかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-mind-map-memory-how-to-use-research-concept-map-artifact",
+        "type": "あわせて読む",
+        "why": "思い出す練習の有利さが、時間をそろえると消えたという再検証"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-self-explanation-own-words-memory-why-research-medstudents"
+  },
+  {
+    "id": "sleep-env-couple-bed-sharing-rem",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Drews et al., \"Bed-Sharing in Couples Is Associated With Increased and Stabilized REM Sleep and Sleep-Stage Synchronization\" (Frontiers in Psychiatry, 2020)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyt.2020.00583",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "パートナーと一緒に寝ると、眠りは浅くなる？",
+        "body": "隣で寝返りを打たれると目が覚めそうだし、別々に寝た方がよく眠れる気もするよね。実際のところはどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12組のカップルを睡眠ラボで測った",
+        "body": "ドイツの研究チームが、ふだん一緒に寝ている18〜29歳の健康なカップル12組（24人）に、一緒に寝る週末と1人で寝る週末を2晩ずつラボで過ごしてもらい、脳波で眠りを測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "動きは増えても、レム睡眠は長く続いた",
+        "body": "一緒に寝ると手足の動きは増えたけど、レム睡眠（夢を見やすい眠り）が約10%多く、途切れにくくなった。ほかの眠りの段階に差はなく、2人の眠りのリズムもそろいやすかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い12組の、ラボでの話",
+        "body": "対象は子どものいない若い健康なカップル12組だけで、場所は睡眠ラボ。年を重ねた夫婦や、いびきなど睡眠の悩みがある人、自宅でも同じかはわからない。レム睡眠が増えることの意味も、まだ考察の段階なんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-env-couple-bed-sharing-rem"
+  },
+  {
+    "id": "color-room-interior-study",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Costa et al., \"Interior Color and Psychological Functioning in a University Residence Hall\" (Frontiers in Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2018.01580",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "勉強部屋は何色がいい？",
+        "body": "「青は集中できる」「赤は落ち着かない」ってよく聞くよね。部屋の色って、本当に勉強のしやすさに関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "色だけが違う6棟の学生寮",
+        "body": "イタリアの研究チームが、壁も天井も床も紫・青・緑・黄・オレンジ・赤のどれか1色で、作りは同じ6棟の寮に住む学生443人に聞いたんだ。平均13か月ほど住んでいた人たちだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "青い寮の人が「勉強しやすい」と答えた",
+        "body": "寮の色が勉強を助けるかを−2〜+2で聞くと、青は平均0.34、オレンジと赤は0.01。はっきり差が出たのは、青とオレンジ・赤の間だけだった。好きな色も青がいちばん人気だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "成績を測ったわけではない",
+        "body": "わかったのは本人の感じ方で、テストの点や勉強時間は測っていない。差も小さい。1つの大学の寮での調査なので、ほかの国や自宅の部屋でも同じかはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "color-red-blue-task",
+        "type": "あわせて読む",
+        "why": "色で頭の働きが変わるかを、実験で確かめ直した追試"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-room-interior-study"
+  },
+  {
     "id": "research-bad-night-sleep-next-night-recovery-research-acute-insomnia-recovery",
     "category": "睡眠",
     "kind": "素朴な疑問",
@@ -2975,6 +3169,11 @@
         "id": "research-habit-goal-lower-after-missed-days-research-adaptive-goals",
         "type": "あわせて読む",
         "why": "実績に合わせて毎日変わる目標を、1年間のくじ引きの試験で試した研究"
+      },
+      {
+        "id": "research-habit-no-results-yet-want-to-quit-research-acceptable-goal",
+        "type": "あわせて読む",
+        "why": "目標の高さと、途中でやめることの関係を1年追った研究"
       }
     ]
   },
@@ -14882,6 +15081,11 @@
         "id": "color-red-plate-snack-intake",
         "type": "あわせて読む",
         "why": "前提にした「赤は避けたい気持ちを起こす」説は、別の課題で再現されなかった"
+      },
+      {
+        "id": "color-room-interior-study",
+        "type": "あわせて読む",
+        "why": "部屋の色と勉強のしやすさを、実際の学生寮で聞いた調査"
       }
     ]
   },
