@@ -115,6 +115,7 @@ SEADICE（シーダイス）のリポジトリ。中身は **seadice.win の静�
 | アプリを作る・改修する・申請する | [docs/flutter-app.md](docs/flutter-app.md) の「アプリ開発の流れと役」の表（`business`・`appstore-review` の関門 → `experience`（体験・ウィジェット・課金の設計）→ `device-check`（シミュレーターで全画面）→ `user`・`design` → 申請前に必ず `appstore-review`） |
 | 次に何をやるか迷ったとき | `growth`（打ち手を効く順に） |
 | 何で稼ぐか・値段・課金の形を決めるとき、新しいアプリの企画の前 | `business`（利益の大きい順に） |
+| デザイン・機能・課金の見せ方を、脳と心の仕組みから良くしたいとき | `neuro`（脳科学・認知心理学・行動経済学の研究に確かさA〜Dを付けて。操る仕掛けは出さない、2026-11-06） |
 
 ## コマンドと運用
 
