@@ -1,5 +1,190 @@
 [
   {
+    "id": "research-rainy-day-low-mood-weather-why-research-rain-haters",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Klimstra et al., \"Come rain or come shine: Individual differences in how weather affects mood\" (Emotion, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0024649",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/rainy-day-low-mood-weather-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "雨の日はみんな気分が沈む",
+        "body": "「雨の日は気分が上がらない」ってよく聞くよね。でも大勢を平均すると、天気が気分に与える影響は小さいっていう研究が多いんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10代497人の30日間の記録",
+        "body": "10代の497人が30日間つけた毎日の気分を、実際の天気と照らし合わせた研究があるよ。母親たちの記録でも同じように調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「雨ぎらい」タイプがいた",
+        "body": "晴れると気分が上がる「夏好き」、ほぼ変わらない「影響なし」、晴れて暑いと下がる「夏ぎらい」、雨の日に特に下がる「雨ぎらい」の4タイプが見つかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜタイプが分かれる？",
+        "body": "2つのタイプは親子で一致しやすかったけど、遺伝なのか暮らし方なのかはわからないんだ。気分は本人の記録で、天気が原因だと決められる研究でもないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#research-rainy-day-low-mood-weather-why-research-rain-haters"
+  },
+  {
+    "id": "research-early-bedtime-cant-sleep-forbidden-zone-why-research-teen-forbidden-zone",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Monterastelli et al., \"The forbidden zone for sleep is more robust in adolescents compared to adults\" (Frontiers in Sleep, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/frsle.2023.1304647",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/early-bedtime-cant-sleep-forbidden-zone-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「早く寝なさい」で寝られない10代",
+        "body": "10代に早く寝なさいと言っても、なかなか寝つけないことってあるよね。実は寝る数時間前には、体内時計が「起きていろ」と信号を強める「睡眠禁止帯」があるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2時間起きて2時間横になる",
+        "body": "14〜17歳の44人と30〜45歳の44人に、2時間起きる・2時間暗い部屋で横になるを3日以上くり返してもらい、どの時間帯に眠れるかを比べた研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "10代は禁止帯がはっきり",
+        "body": "眠りのホルモン、メラトニンが出はじめる前の2時間で眠れた時間は、10代が平均47.9分、大人が69.1分。10代のほうが夜の早い時間に眠りにくかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "家の寝室でも同じ？",
+        "body": "眠りは腕時計型の機器で推定していて、10代は思春期の後半の人だけ。実験室の特別なスケジュールなので、ふだんの家の生活でどのくらい差が出るかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-early-bedtime-cant-sleep-forbidden-zone-why-research-teen-forbidden-zone"
+  },
+  {
+    "id": "research-self-explanation-own-words-memory-why-research-pupil",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Grudzien & Unsworth, \"Investigating a mental effort explanation of the generation effect using pupillometry\" (Memory & Cognition, 2026)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-025-01791-0",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/self-explanation-own-words-memory-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分で考えた答えはなぜ忘れにくい？",
+        "body": "答えを読むより、自分で考えて出した答えのほうが覚えている気がしない？ これは「生成効果」と呼ばれていて、昔から知られているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "瞳孔で「頭の使い方」を測った",
+        "body": "アメリカの大学で集めた人に単語のペアを覚えてもらい、答えを読む場合と自分で考える場合で、瞳孔の開き方を測った実験があるよ。瞳孔は頭を使うほど大きく開くんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "考えると瞳孔が開き、記憶も上がる",
+        "body": "41人の実験では、自分で考えた単語の正答率は54%、読んだ単語は49%。考えるときは瞳孔が大きく開いていて、この頭の使い方の差が記憶の差の一部を説明していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "グループを分けると差が消えた",
+        "body": "「読むだけ」の人と「考えるだけ」の人を別々にした実験（各41人）では、正答率はどちらも56%で差が出なかったんだ。どんな条件で効くのかは、まだ調べている途中だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "memory-generation-effect-metaanalysis",
+        "type": "あわせて読む",
+        "why": "たくさんの実験をまとめて、自分で作ると覚えやすいことを確かめたメタ分析"
+      },
+      {
+        "id": "research-self-explanation-own-words-memory-why-research-medstudents",
+        "type": "あわせて読む",
+        "why": "同じ「自分で考える」効果を、医学生の勉強の場面で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-self-explanation-own-words-memory-why-research-pupil"
+  },
+  {
+    "id": "oya-personality-change-aging-big5",
+    "category": "親の老いと介護",
+    "kind": "よくある説",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Graham et al., \"Trajectories of Big Five Personality Traits: A Coordinated Analysis of 16 Longitudinal Samples\" (European Journal of Personality, 2020)",
+    "sourceUrl": "https://doi.org/10.1002/per.2259",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "年をとると、性格は頑固になる？",
+        "body": "親が年をとって、新しいことを嫌がるようになった気がする…ってよく聞くよね。性格は年とともに変わるのか、同じ人を長く追いかけた調査をまとめて調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16の長期調査、6万人以上",
+        "body": "アメリカやヨーロッパの16の長期調査（合計6万人以上）で、同じ人に3回以上たずねた性格のデータを、そろえた同じ方法で分析したよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "新しいことへの興味は、少しずつ下がる傾向",
+        "body": "全体では、新しいことへの興味（開放性）・まじめさ・外向性が、年とともにゆるやかに下がる傾向だった。人あたりの良さは上がるかもしれないけど、調査によって結果がばらばらだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「頑固さ」を測ったわけではない",
+        "body": "性格は本人の答えだけで測っていて、対象はほぼ欧米の人。調査ごとの差も大きく、変わり方には個人差があった。「頑固さ」そのものや、日本の親に当てはまるかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "parents-emotion-improves-with-age-carstensen",
+        "type": "あわせて読む",
+        "why": "性格ではなく、年をとると気持ちの浮き沈みがどう変わるかを追った研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-personality-change-aging-big5"
+  },
+  {
+    "id": "scent-covid-smell-loss-recovery",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Tan et al., \"Prognosis and persistence of smell and taste dysfunction in patients with covid-19: meta-analysis with parametric cure modelling of recovery curves\" (BMJ, 2022)",
+    "sourceUrl": "https://doi.org/10.1136/bmj-2021-069503",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "コロナで匂いがしなくなったら、戻る？",
+        "body": "コロナにかかって、匂いや味がわからなくなった人は多いよね。いつか戻るのか、ずっと続くのか。回復までの日数をまとめて調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18の研究、3699人の回復の記録",
+        "body": "コロナで匂いや味がわかりにくくなった大人について、回復までの日数を追った18の研究（3699人）をまとめ、回復の曲線を作り直したよ。2021年10月までに出た研究が対象。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "半年でほとんどの人が戻った",
+        "body": "匂いが戻った人は30日で74.1%、90日で90.0%、180日で95.7%。ただ、最初に匂いが落ちた人の約5.6%は長く続くかもしれないと推定された。女性は男性より戻りにくい傾向もあったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "戻ったかは本人の感じ方",
+        "body": "匂いを調べた18の研究のうち、検査も使ったのは1つだけで、ほかは本人の申告。著者も長く続く人の割合は少なめの見積もりかもしれないと書いている。2021年秋までの研究なので、その後の型でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-covid-smell-loss-recovery"
+  },
+  {
     "id": "research-habit-no-results-yet-want-to-quit-research-acceptable-goal",
     "category": "習慣形成",
     "kind": "よくある説",
@@ -118,6 +303,11 @@
         "id": "research-mind-map-memory-how-to-use-research-concept-map-artifact",
         "type": "あわせて読む",
         "why": "思い出す練習の有利さが、時間をそろえると消えたという再検証"
+      },
+      {
+        "id": "research-self-explanation-own-words-memory-why-research-pupil",
+        "type": "あわせて読む",
+        "why": "自分で考えると覚えやすい理由を、瞳孔で頭の使い方を測って確かめた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#research-self-explanation-own-words-memory-why-research-medstudents"
@@ -894,7 +1084,14 @@
         "body": "参加者は「同じ年の人より健康」と答えた人に限られ、人種も2つの集団だけ。今の高齢の世代がもともと気持ちの安定した世代なだけ、という可能性も著者は挙げている。病気や介護が必要な親にも同じかは不明だよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/aging-parents/#parents-emotion-improves-with-age-carstensen"
+    "webUrl": "https://seadice.win/evidence/aging-parents/#parents-emotion-improves-with-age-carstensen",
+    "links": [
+      {
+        "id": "oya-personality-change-aging-big5",
+        "type": "あわせて読む",
+        "why": "気持ちではなく、性格が年とともにどう変わるかを6万人以上で追った研究"
+      }
+    ]
   },
   {
     "id": "relationship-happy-wife-happy-life-carr",
@@ -21064,6 +21261,11 @@
         "id": "dokugaku-generate-questions-while-reading-make-own-test",
         "type": "あわせて読む",
         "why": "自分で作ると覚えやすい効果のまとめと、問題作りを時間も含めて比べた実験"
+      },
+      {
+        "id": "research-self-explanation-own-words-memory-why-research-pupil",
+        "type": "あわせて読む",
+        "why": "自分で考えると覚えやすい理由を、瞳孔で頭の使い方を測って確かめた実験"
       }
     ]
   },
