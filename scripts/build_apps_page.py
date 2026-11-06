@@ -17,6 +17,7 @@ import apply_page_type
 import json
 import re
 import subprocess
+import top_counts
 import sys
 import tempfile
 import urllib.request
@@ -164,6 +165,7 @@ def main():
             {"@type": "ListItem", "position": 1, "name": "HOME", "item": "https://seadice.win/"},
             {"@type": "ListItem", "position": 2, "name": "アプリ一覧", "item": "https://seadice.win/apps/"}]}]}
     count = len(apps)
+    top_counts.set_count("apps", count)
     desc = f"SEADICE（シーダイス）がApp Storeで公開しているiPhoneアプリ{count}本の一覧。心とメンタル・習慣・学び・暮らしのアプリを、広告なしで提供しています（基本の機能は無料）。"
     out = TEMPLATE.format(count=count, desc=desc, ld=json.dumps(ld, ensure_ascii=False),
                           sections="\n\n".join(sections), year=date.today().year)

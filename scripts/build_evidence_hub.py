@@ -8,6 +8,7 @@
 更新日は中身が変わったページだけ今日になる（page_dates.json に中身のハッシュを記録）
 トピックを増やしたら、データを更新してからこれを実行するだけでページも増える。
 """
+import top_counts
 import datetime
 import hashlib
 import html
@@ -386,6 +387,7 @@ def main():
     sm = sm.replace("\n</urlset>", add + "\n</urlset>")
     sm_path.write_text(sm)
     DATES_PATH.write_text(json.dumps(DATES, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
+    top_counts.set_count("evidence", len(topics))
     print(f"{len(cats)}分野・{len(topics)}本 → {len(urls)}ページを書き出しました")
 
 
