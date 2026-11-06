@@ -1,5 +1,192 @@
 [
   {
+    "id": "research-bad-night-sleep-next-night-recovery-research-acute-insomnia-recovery",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Perlis et al., \"The Natural History of Insomnia: the incidence of acute insomnia and subsequent progression to chronic insomnia or recovery in good sleeper subjects\" (Sleep, 2020)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/zsz299",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/bad-night-sleep-next-night-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "眠れない日が続くと、不眠症になる？",
+        "body": "何日か眠れないと「このままずっと眠れなかったら」と不安になるよね。実際どのくらいの人が、長く続く不眠になるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "よく眠れていた1,248人を1年追った",
+        "body": "アメリカの研究で、もともとよく眠れていた35歳以上の1,248人に、1年間毎日、睡眠日記をつけてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一時的な不眠の72.4%は自然に回復",
+        "body": "1年で27.0%が数週間の不眠を経験した。でもそのうち72.4%は元の眠りに戻り、長く続く不眠になったのは全体の1.8%だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い人にも当てはまる？",
+        "body": "対象は35歳以上で、日記は自己申告。若い人や、もともと眠りが浅い人に同じ割合が当てはまるかはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-bad-night-sleep-next-night-recovery-research-sleep-extension-myth",
+        "type": "あわせて読む",
+        "why": "同じ1年間の睡眠日記から、眠れなかった翌晩に長く布団にいるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-bad-night-sleep-next-night-recovery-research-acute-insomnia-recovery"
+  },
+  {
+    "id": "research-bad-night-sleep-next-night-recovery-research-sleep-extension-myth",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Boyle et al., \"The Natural History of Insomnia: Sleep Opportunity Extension Following a Poor Night of Sleep Is Not Related to the Transition From Acute to Chronic Insomnia\" (Journal of Sleep Research, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/jsr.70304",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/bad-night-sleep-next-night-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "眠れなかった分を取り返すと、不眠が長引く？",
+        "body": "眠れなかった次の夜に長く布団に入ると、かえって不眠が続く。不眠の研究では、そう考えられてきたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,243人の日記で確かめた",
+        "body": "最長1年分の毎晩の睡眠日記から、眠れなかった翌晩に布団にいる時間が本当に増えているかを調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "翌晩の布団の時間はほぼ増えていなかった",
+        "body": "平日は、眠れなかった翌晩に布団にいる時間はほぼ増えず（5分未満）、週末はむしろ、どの組でも減る傾向だった。この説だけでは不眠が長引く理由を説明しにくい、と著者たちは言っている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "昼寝や数晩後の変化は？",
+        "body": "昼寝や、布団に入ってから眠ろうとするまでの時間は数えていない。数晩続いた後の変化も見落としているかもしれないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-bad-night-sleep-next-night-recovery-research-acute-insomnia-recovery",
+        "type": "あわせて読む",
+        "why": "同じ人たちの1年間で、一時的な不眠がどれだけ自然に治ったかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-bad-night-sleep-next-night-recovery-research-sleep-extension-myth"
+  },
+  {
+    "id": "research-morning-grogginess-sleep-inertia-focus-recovery-research-light-at-home",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Hilditch et al., \"An at-home evaluation of a light intervention to mitigate sleep inertia symptoms\" (Sleep Health, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.sleh.2023.07.015",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/morning-grogginess-sleep-inertia-focus-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "起きてすぐ光を浴びれば、頭が冴える？",
+        "body": "寝起きのぼんやりには光がいい、とよく聞くよね。実験室の研究では、起きた後の光でぼんやりが軽くなる結果もあったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "自宅で光るメガネを試した",
+        "body": "36人に、寝てから45分後に起きてもらい、光るメガネをつけた夜とつけない夜を比べた。同じ人が両方を試すやり方だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「目が覚めた感じ」は上がった",
+        "body": "光のある夜は、目が覚めた感じと元気さの自己評価が上がった。でも反応の速さの検査では、むしろ光なしの夜の方が速く、見逃しも少なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "朝の目覚めでも同じ？",
+        "body": "夜中に起こされた条件の実験で、人数も36人。朝ふつうに起きたときに、光でどこまで頭が働くようになるかはまだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-morning-grogginess-sleep-inertia-focus-recovery-research-light-at-home"
+  },
+  {
+    "id": "caffeine-coffee-dehydration-crossover",
+    "category": "カフェイン",
+    "kind": "よくある説",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Killer et al., \"No evidence of dehydration with moderate daily coffee intake: a counterbalanced cross-over study in a free-living population\" (PLoS One, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0084154",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーを飲むと脱水になる？",
+        "body": "コーヒーはおしっこが近くなるから、水分補給にはならない。そんな話、よく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50人がコーヒーと水を3日ずつ",
+        "body": "イギリスで、ふだん1日3〜6杯飲む18〜46歳の男性50人が、1日4杯（200mLずつ）のコーヒーの3日間と、同じ量の水の3日間を両方試した。どちらが先かはランダムに決めたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体の水分は水のときと変わらなかった",
+        "body": "体の水分の総量も、血液や尿の指標も、1日の尿の量（どちらも約2.4L）も、コーヒーと水で差がなかった。違ったのは尿のナトリウムが少し多かったことくらいらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "女性や、飲み慣れない人は？",
+        "body": "対象は飲み慣れた男性だけで、量は1日4杯まで。女性やふだん飲まない人、もっと多く飲む人に同じかはわからない。資金はコーヒーの研究団体ISICで、著者の1人はPepsiCo勤務だったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-diuretic-dehydration-beer-wine",
+        "type": "あわせて読む",
+        "why": "同じ「飲むと脱水になる」という説を、お酒で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-dehydration-crossover"
+  },
+  {
+    "id": "posture-disc-degeneration-no-pain-mri",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Brinjikji et al., \"Systematic literature review of imaging features of spinal degeneration in asymptomatic populations\" (AJNR Am J Neuroradiol, 2015)",
+    "sourceUrl": "https://doi.org/10.3174/ajnr.A4173",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "椎間板がすり減っていたら、腰が痛くなる？",
+        "body": "画像で「椎間板がすり減ってますね」と言われると、それが痛みのもとだと思うよね。でも、腰が痛くない人の背骨はどうなっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "腰が痛くない3,110人の画像",
+        "body": "腰の痛みがない人の背骨をMRIやCTで撮った33本の研究、合わせて3,110人分をまとめて、年代ごとの割合を出したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "痛くなくても、よくある変化だった",
+        "body": "椎間板のすり減りは20歳で37%、80歳で96%に見られた。椎間板のふくらみも20歳30%から80歳84%へ。多くは年をとるとふつうに起きる変化で、痛みとは結びつかないらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "痛む変化との見分け方は？",
+        "body": "参加者の多くはボランティアで、研究は25年以上にわたり、呼び方や読み方もそろっていない。変化の重さは分けておらず、痛い人の方が重い可能性もある。変化が痛みのもとにならない、という意味ではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-disc-degeneration-no-pain-mri"
+  },
+  {
     "id": "kokoro-upward-comparison-motivation-backfire-diary",
     "category": "幸福の科学",
     "kind": "研究紹介",
@@ -192,7 +379,14 @@
         "body": "調べたのはオランダの高齢男性20人だけで、女性や若い人、たくさん飲んだときのことはわからない。著者の3人はオランダのビール研究所に勤めていて、資金の一部もそこから出ているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-diuretic-dehydration-beer-wine"
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-diuretic-dehydration-beer-wine",
+    "links": [
+      {
+        "id": "caffeine-coffee-dehydration-crossover",
+        "type": "あわせて読む",
+        "why": "同じ「飲むと脱水になる」という説を、コーヒーで確かめた研究"
+      }
+    ]
   },
   {
     "id": "research-future-self-procrastination-how-research-eft-meta",
