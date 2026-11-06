@@ -1,5 +1,204 @@
 [
   {
+    "id": "brain-alcohol-light-drinking-brain-volume",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Daviet R et al., \"Associations between alcohol consumption and gray and white matter volumes in the UK Biobank\" (Nature Communications, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-022-28735-5",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "少しのお酒なら、脳は平気？",
+        "body": "大酒が脳に悪いのは有名だけど、晩酌に1〜2杯くらいなら関係ない、と思っている人は多いよね。イギリスの大きなデータで確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "36,678人の脳の画像",
+        "body": "UKバイオバンクに参加したヨーロッパ系の中高年36,678人の脳のMRIと、自分で答えた飲酒量を比べたよ。年齢などほかの条件も、できるだけそろえて分析したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1日1〜2単位でも、脳の体積は小さめ",
+        "body": "1日平均1〜2単位（1単位は純アルコール8g）の人から脳の体積が小さい傾向が見え始め、量が増えるほど強くなった。50歳で1日1単位から2単位になる差は、脳が2年分年をとるのと同じくらいらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "お酒が原因かは決められない",
+        "body": "ある時点の画像を比べた研究なので、お酒が脳を小さくしたのか、別の理由なのかは区別できない。飲酒量は自己申告で直近1年分だけ。対象はイギリスのヨーロッパ系の中高年だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-light-drinking-heart-genetics",
+        "type": "あわせて読む",
+        "why": "「少しのお酒は体にいい」説を、心臓の側から確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-alcohol-light-drinking-brain-volume"
+  },
+  {
+    "id": "japan-eat-fast-weight-meta",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Ohkuma T et al., \"Association between eating rate and obesity: a systematic review and meta-analysis\" (International Journal of Obesity, 2015)",
+    "sourceUrl": "https://doi.org/10.1038/ijo.2015.96",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「早食いは太る」って本当？",
+        "body": "「ゆっくりよく噛んで食べなさい」って、子どものころ言われたよね。早食いの人は本当に太りやすいのか、23の研究をまとめた分析があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大人の23研究をまとめた",
+        "body": "食べる速さと体重を調べた疫学の研究23本を集めて、数字をまとめたメタ分析だよ。子どもの研究と、食べ方を変えてもらう介入の研究は入れていないんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "早食いの人はBMIが1.78高い",
+        "body": "早食いの人は、ゆっくり食べる人よりBMIが平均1.78高く、肥満である見込み（オッズ）は2.15倍だった。ただ、研究によって差の大きさはかなりばらついていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ゆっくり食べればやせる？",
+        "body": "集めたのは観察の研究なので、早食いが太る原因とまでは言えない。食べる速さを落とすと体重が減るのかは、これから確かめる必要があると著者たちも書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "foodmyth-chewing-appetite",
+        "type": "あわせて読む",
+        "why": "よく噛むと食べる量や満腹感が変わるかを、実験でまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-eat-fast-weight-meta"
+  },
+  {
+    "id": "kokoro-ai-job-worry-sleep-protect-presleep-arousal",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Min J, Ryu H, Cho SS, Kang MY, \"Association between work stress and sleep disturbances: the mediating role of pre-sleep arousal symptoms\" (Industrial Health, 2025)",
+    "sourceUrl": "https://doi.org/10.2486/indhealth.2024-0158",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-job-worry-sleep-protect/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "仕事の不安で眠れなくなる？",
+        "body": "この先の仕事はどうなるんだろう、と布団の中で考えはじめると止まらない夜、あるよね。仕事の先行き不安って、本当に眠りに響くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "韓国の働く人4,393人",
+        "body": "韓国の研究チームが、働く人4,393人に仕事のストレス、不眠の症状、寝る前に頭や体がどれだけ興奮しているかをまとめて尋ねたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不眠の症状は約2倍",
+        "body": "仕事を失う不安が強い人の32.2%に不眠の症状があって、強くない人は17.0%。寝る前の考えごとと体の緊張が、その関係の一部を説明していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "一度だけの調査だから、不安で眠れないのか、眠れないから不安が強まるのかは区別できない。AIに限った不安を測ったわけでもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-ai-job-worry-lasting-isolation-young-workers-slosh",
+        "type": "あわせて読む",
+        "why": "仕事を失う不安が、心の健康とどう関わり続けるかを追った研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-job-worry-sleep-protect-presleep-arousal"
+  },
+  {
+    "id": "kokoro-burnout-memory-focus-recover-seven-years",
+    "category": "こころの不調",
+    "kind": "素朴な疑問",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Glise K et al., \"Long-term follow-up of residual symptoms in patients treated for stress-related exhaustion\" (BMC Psychology, 2020)",
+    "sourceUrl": "https://doi.org/10.1186/s40359-020-0395-8",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/burnout-memory-focus-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "燃え尽きのあと、頭は戻る？",
+        "body": "ストレスで消耗しきって休んだあと、物忘れや集中しにくさが続くと「もう戻らないのかも」って不安になるよね。何年も追った研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "217人を7年後まで追った",
+        "body": "スウェーデンで燃え尽き（疲弊障害）の治療を受けた217人に、7年後の体調と、残っている症状をたずねたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "96%が「よくなった」",
+        "body": "当時よりよくなったと答えた人は合わせて96%。でも完全に回復したと答えたのは16%で、物忘れが残る人は42%、集中しにくさは36%だった。回復は年単位みたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "年齢の影響は分けられていない",
+        "body": "症状は「ある・ない」の1問ずつで聞いていて、物忘れの一部は年をとったせいかもしれない。追跡に答えなかった人も35%いて、スウェーデンの専門の診療所の話だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-burnout-memory-focus-recover-seven-years"
+  },
+  {
+    "id": "kokoro-decision-fatigue-real-antibiotics-time-of-day",
+    "category": "意思決定バイアス",
+    "kind": "素朴な疑問",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Linder JA, Doctor JN, Friedberg MW, Reyes Nieva H, Birks C, Meeker D, Fox CR, \"Time of day and the decision to prescribe antibiotics\" (JAMA Internal Medicine, 2014)",
+    "sourceUrl": "https://doi.org/10.1001/jamainternmed.2014.5225",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/decision-fatigue-real/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "診察の後半は判断が変わる？",
+        "body": "お医者さんも、診察が続くと疲れてくるはず。じゃあ、時間がたつと判断も変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21,867回の受診を調べた",
+        "body": "アメリカのある医療グループの23の診療所で、かぜなど呼吸器の感染症の受診21,867回を調べたよ。4時間の診療枠のうち、何時間目に予約された受診かで比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "4時間目は1.26倍",
+        "body": "抗菌薬を出すオッズは、1時間目に比べて3時間目で1.14倍、4時間目で1.26倍だったらしい。研究者は、決め続けると出さない判断を保ちにくくなる可能性を挙げているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当に決断疲れのせい？",
+        "body": "記録を見た観察の研究だから、原因は確かめられていない。予約の時刻を診察時刻の代わりに使っていて、ほかの理由が影響した可能性もあると研究者自身が書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "hanzai-hungry-judge",
+        "type": "あわせて読む",
+        "why": "決め続けると判断が変わる説を、裁判官の記録で調べた研究"
+      },
+      {
+        "id": "replication-ego-depletion",
+        "type": "反対の結果",
+        "why": "決め疲れのもとになった「意志力が減る」実験は、多施設の追試で見られなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/decision-bias/#kokoro-decision-fatigue-real-antibiotics-time-of-day"
+  },
+  {
     "id": "kokoro-ai-dependency-impulsivity-prevent-drivers",
     "category": "AIとのつきあい方",
     "kind": "よくある説",
@@ -8083,7 +8282,14 @@
         "body": "観察研究なので因果はわからない。調査時点で働いていた人が対象で、いちばん不安定な立場の人は少なめだったんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-job-worry-lasting-isolation-young-workers-slosh"
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-job-worry-lasting-isolation-young-workers-slosh",
+    "links": [
+      {
+        "id": "kokoro-ai-job-worry-sleep-protect-presleep-arousal",
+        "type": "あわせて読む",
+        "why": "仕事を失う不安と、眠りの関係を調べた研究"
+      }
+    ]
   },
   {
     "id": "dokugaku-textbook-too-hard-to-understand-rereading",
@@ -9992,6 +10198,11 @@
         "id": "alcohol-red-wine-resveratrol",
         "type": "あわせて読む",
         "why": "「赤ワインは心臓にいい」と、お酒の量と心臓病のリスク"
+      },
+      {
+        "id": "brain-alcohol-light-drinking-brain-volume",
+        "type": "あわせて読む",
+        "why": "少しのお酒と脳の体積の関係を、3万人の画像で見た研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-light-drinking-heart-genetics"
@@ -13747,6 +13958,11 @@
         "id": "food-glucose-willpower",
         "type": "あわせて読む",
         "why": "その説の仕組みとされた「ブドウ糖」の証拠を見直した研究"
+      },
+      {
+        "id": "kokoro-decision-fatigue-real-antibiotics-time-of-day",
+        "type": "反対の結果",
+        "why": "現場の記録では、診療の後半ほど判断が変わっていた"
       }
     ]
   },
@@ -25356,7 +25572,14 @@
     "articleUrl": "https://hanzai.seadice.win/hungry-judge-effect/",
     "articleSite": "犯罪と心理",
     "webUrl": "https://seadice.win/evidence/criminal-psychology/#hanzai-hungry-judge",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "kokoro-decision-fatigue-real-antibiotics-time-of-day",
+        "type": "あわせて読む",
+        "why": "同じ説を、医師が抗菌薬を出す判断で調べた研究"
+      }
+    ]
   },
   {
     "id": "hanzai-lie-detection-54",
@@ -27824,7 +28047,14 @@
         "body": "見たのは1回の食事の前後で、続けると体重が減るかは調べていない。試験ごとのやり方がばらばらで、効果が出た研究ほど発表されやすい偏りも見つかった。著者も「まだ予備的」としている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-chewing-appetite"
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-chewing-appetite",
+    "links": [
+      {
+        "id": "japan-eat-fast-weight-meta",
+        "type": "あわせて読む",
+        "why": "早食いの人ほど太っているかを、23の研究でまとめた分析"
+      }
+    ]
   },
   {
     "id": "personality-change-intervention",
