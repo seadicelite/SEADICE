@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>プライバシーポリシー | LUCK UNLUCK</title>
-<meta name="description" content="LUCK UNLUCKのプライバシーポリシー。収集する情報、Claude API（Anthropic）へのデータ送信、Firestoreへのフィードバック送信、データ削除方法について説明します。">
+<meta name="description" content="LUCK UNLUCKのプライバシーポリシー。収集する情報、Firestoreへのフィードバック送信、データ削除方法について説明します。">
 <link rel="canonical" href="https://seadice.win/privacy/kizuki-luck/">
 <link rel="icon" href="/favicon.png">
 <meta property="og:title" content="プライバシーポリシー | LUCK UNLUCK">
@@ -25,21 +25,17 @@
 
   <h2>収集する情報</h2>
   <ul>
-    <li>AI相談機能に入力したテキスト（相談内容）</li>
     <li>行動クエストの完了記録</li>
     <li>運の瓶（LUCK / UNLUCK）を押した数と日付</li>
     <li>フィードバック・不具合報告フォームに入力したテキスト</li>
   </ul>
   <p>氏名・メールアドレス等の個人を特定する情報は、お問い合わせ（メール）を除き取得しません。</p>
 
-  <h2>Claude API（Anthropic）へのデータ送信について</h2>
-  <p>AI相談機能では、入力内容をSEADICEが管理するCloudflare Workersのプロキシサーバーを経由して、Anthropic社が提供するClaude APIに送信し、回答を生成します。送信内容は回答生成のみに利用され、APIキーはアプリ内に含まれません。Anthropic社におけるデータの取り扱いについては、Anthropic社のプライバシーポリシーをご確認ください。</p>
-
   <h2>Firestoreへのフィードバック送信について</h2>
   <p>フィードバック・不具合報告フォームから送信された内容は、Google Cloud Firestore（プロジェクト: seadiceweb）の feedback コレクションに保存されます。これはアプリ改善の目的のみに利用されます。</p>
 
   <h2>データの保存場所</h2>
-  <p>行動クエストの記録・運の瓶の記録・相談履歴は端末内（SharedPreferences）にのみ保存され、開発者のサーバーには送信されません。</p>
+  <p>行動クエストの記録・運の瓶の記録は端末内（SharedPreferences）にのみ保存され、開発者のサーバーには送信されません。</p>
 
   <h2>広告について</h2>
   <p>本アプリは広告を一切表示しません。</p>
