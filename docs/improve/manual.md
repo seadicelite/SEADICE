@@ -7,6 +7,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
+- [ ] すぐ | 記事 | 脳科学マーケティングの研究（neuro）を公開する: ①ターミナルで `firebase hosting:sites:create seadice-neuro --project seadiceweb` を実行（Claude の権限では止められた）→ Claude に「neuro のサイト作った」（記事4本はコミット済みで未push。Claude が push して Actions でデプロイし、カスタムドメインを Firebase に登録する）②そのあと Cloudflare → seadice.win → DNS で「CNAME・名前 neuro・ターゲット seadice-neuro.web.app・プロキシ オフ」を入れる — 作り手向けに脳科学マーケティングを論文で確かめるメディア。サイトがないまま push すると Actions のデプロイが落ちるため止めている（2026-11-07）
 - [ ] 近いうちに | EVIDENCE | 同じ論文の重複2組を1本にまとめてよいか判断: 水8杯（food-water-eight-glasses／myth-water-8-glasses）とコーヒー脱水（caffeine-coffee-dehydration-crossover／myth-coffee-dehydration）。1問1ページ・記事リンクのある方を残す案（2026-11-07）
 
 - [ ] 審査中に | アプリ | EVIDENCE 1.6.0 のウィジェットを実機で確かめる（App Group は Xcode の自動署名で作られ ipa は署名できた、2026-11-07）: ホームの小・中・大、ロック画面の長方形・1行、「保存した研究」、スタンバイを置き、次へ・戻るボタンとタップで正しいトピックが開くか、中サイズで長い結論が2行で切れる読み味。あわせて初回の指の実演と、カードが勝手に縦へ動かないか
