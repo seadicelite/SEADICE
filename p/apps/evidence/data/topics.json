@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-early-bedtime-cant-sleep-forbidden-zone-why-research-4h-early",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Revell et al., \"Effects of the selective orexin-2 receptor antagonist JNJ-48816274 on sleep initiated in the circadian wake maintenance zone: a randomised trial\" (Neuropsychopharmacology, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41386-021-01175-3",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/early-bedtime-cant-sleep-forbidden-zone-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "明日早いなら早く寝ればいい",
+        "body": "早起きの前の日は、早めに布団に入れば大丈夫って思うよね。でも、ふだんより何時間も早い時刻は、体内時計が「起きていろ」の信号を強めている時間帯らしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4時間早く消灯してみた",
+        "body": "健康な男性18人に、ふだんより4時間早い時刻に消灯してもらった研究があるよ。睡眠薬の試験の一部で、ここでは偽薬の夜と、ふだんの時刻に寝た夜を比べた数字を見てみるね。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "眠りに入るまで約2.5倍",
+        "body": "眠りが続くまでの時間は6.5分から16.1分に、夜中に起きている時間は21.8分から53.7分に増えて、合計の睡眠は444分から396分に減ったんだ。乱れは夜の最初のほうに集中していたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだんの生活でも同じ？",
+        "body": "薬の試験のための実験室の条件で、対象は男性だけ。女性や、2時間くらい早めるだけのときにどうなるかは、この研究からはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-early-bedtime-cant-sleep-forbidden-zone-why-research-4h-early"
+  },
+  {
+    "id": "research-worry-cant-concentrate-why-research-verbal-worry",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Leigh & Hirsch, \"Worry in imagery and verbal form: Effect on residual working memory capacity\" (Behaviour Research and Therapy, 2011)",
+    "sourceUrl": "https://doi.org/10.1016/j.brat.2010.11.005",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/worry-cant-concentrate-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "心配ごとがあると頭に入らない",
+        "body": "気がかりなことがあると、資料を読んでも全然頭に入らないことってあるよね。実は心配は、作業と同じ「頭の作業スペース」を取り合っているらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "言葉で心配するか、イメージで心配するか",
+        "body": "心配が多い24人と少ない24人に、でたらめな間隔でキーを押してもらいながら、心配ごとを「言葉」か「イメージ」で考えてもらった研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "言葉の心配が余裕を奪う",
+        "body": "心配が多い人は、言葉で心配しているときのほうが、でたらめに押す作業の余裕が減っていたんだ。心配が少ない人では差がなかったし、心配していないときは両グループに差はなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "学生48人の実験室の話",
+        "body": "対象はロンドンの大学で集めた48人。指示どおりに考えられなかった人など30人は分析から外している。仕事や勉強の集中そのものを測ったわけではないから、日常でどのくらい効くかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-worry-cant-concentrate-why-research-verbal-worry"
+  },
+  {
+    "id": "research-stress-tired-old-habits-why-research-stress-habit",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Schwabe & Wolf, \"Stress prompts habit behavior in humans\" (Journal of Neuroscience, 2009)",
+    "sourceUrl": "https://doi.org/10.1523/JNEUROSCI.0979-09.2009",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/stress-tired-old-habits-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ストレスの日は、いつものクセが出る？",
+        "body": "疲れた日に、やめたはずのお菓子に手が伸びることってあるよね。ストレスで「考えて選ぶ」より「いつもの行動」が出やすくなる、という説を確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "氷水に3分、手を入れてもらった",
+        "body": "0〜2℃の氷水に3分間手を入れ、知らない人に見られるストレスを受けてから、2つの行動でチョコミルクかオレンジジュースがもらえることを学んでもらった。そのあと片方をおなかいっぱい食べてもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いらなくなった物の行動も続けた",
+        "body": "ストレスなしの人は、まだ欲しい方の行動を多く選んだ。ストレスありの人は、欲しくなくなった方の行動も同じくらい続けていたんだ。行動と結果のつながりを言えた人も28%と、ストレスなし（58%）より少なかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "追試では確認できなかった",
+        "body": "分析できたのは60人で、1回きりの実験室の課題。2023年の2つの追試（80人・95人）では、ストレスのない人でも欲しい方を選び分けなかったため、ストレスの影響は確かめられなかった。日常の習慣にどこまで当てはまるかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-stress-tired-old-habits-why-research-stress-habit"
+  },
+  {
+    "id": "exercise-tai-chi-older-cognition-meta",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Wayne et al., \"Effect of Tai Chi on cognitive performance in older adults: systematic review and meta-analysis\" (Journal of the American Geriatrics Society, 2014)",
+    "sourceUrl": "https://doi.org/10.1111/jgs.12611",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "太極拳って、頭の働きにもいい？",
+        "body": "公園でゆっくり太極拳をしているお年寄り、見かけるよね。体にいいのはなんとなくわかるけど、頭の働きにも関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20の研究、2553人をまとめた",
+        "body": "60歳以上（1つの研究だけ例外）を対象にした20の研究をまとめた分析があるよ。そのうち11がくじ引きでグループを分けた試験で、数字のまとめはその試験を中心に行ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "とくに「段取りする力」に差",
+        "body": "健康な高齢者では、何もしない人より計画や切り替えの力（実行機能）の成績が大きく上回り（効果量0.90）、ほかの運動と比べても中くらいの差（0.51）があった。物忘れや認知症のある人では、差は小さめ（0.30〜0.35）だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験の数も質も、まだ足りない",
+        "body": "試験の質はそこそこで、11のうち3つは偏りの心配が大きかった。研究者も、もっと大きくて長く追う試験が必要だと書いている。太極拳で認知症を防げるかは、この研究からは言えないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-tai-chi-older-cognition-meta"
+  },
+  {
+    "id": "circadian-daylight-saving-heart-attack-meta",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Manfredini et al., \"Daylight Saving Time and Acute Myocardial Infarction: A Meta-Analysis\" (Journal of Clinical Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.3390/jcm8030404",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "サマータイムは体に悪い？",
+        "body": "時計を1時間ずらすサマータイム。日本でも導入が話題になったことがあるよね。時計が急にずれると、体に負担はあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7つの研究、11万人以上をまとめた",
+        "body": "時計を切りかえた後の数週間に心筋梗塞がどれだけ起きたかを、ふだんの時期と比べた7つの研究（11万5千人以上）を、数字でまとめた分析があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "春の切りかえの後に少し増えた",
+        "body": "切りかえの後の2週間は、心筋梗塞のリスクがふだんより約3%高かった。春（時計を進める）の後は約5%高く、秋（戻す）の後の1週間はふだんと変わらなかった。年齢や男女で大きな違いはなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの理由は除けている？",
+        "body": "もとは記録を後から調べた観察研究で、くじ引きの実験ではない。研究者も、ほかの要因をきちんと調整した研究がもっと必要だと書いている。増え方も数%と小さく、一人ひとりへの影響はわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-social-jetlag-obesity",
+        "type": "あわせて読む",
+        "why": "時計の1回の切りかえと、毎週の平日と休日のずれ。体内時計のずれの2つの形"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-daylight-saving-heart-attack-meta"
+  },
+  {
     "id": "kokoro-new-group-slow-to-bond-icebreaker",
     "category": "孤独とつながり",
     "kind": "素朴な疑問",
@@ -31927,6 +32100,11 @@
         "id": "appetite-short-sleep-obesity-meta",
         "type": "あわせて読む",
         "why": "睡眠の「ずれ」でなく「短さ」と肥満の関係をまとめたメタ分析"
+      },
+      {
+        "id": "circadian-daylight-saving-heart-attack-meta",
+        "type": "あわせて読む",
+        "why": "時計の1回の切りかえと、毎週の平日と休日のずれ。体内時計のずれの2つの形"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/"
