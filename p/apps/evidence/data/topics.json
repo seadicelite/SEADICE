@@ -1,5 +1,216 @@
 [
   {
+    "id": "kokoro-edited-selfie-real-face-satisfaction-up",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Hung K, Feldborg M, Moseley R, Peng K, Sui J, \"Digital selfie editing shows sex specific associations between processing biases and life satisfaction\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-99056-y",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/edited-selfie-real-face/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "加工した自撮りのほうが好き？",
+        "body": "自撮りを加工すると、なんだか加工後のほうが気に入っちゃう。そう感じるのは自分だけかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "研究室で撮って、加工した",
+        "body": "中国の100人が研究室で自撮りをして、加工アプリで目・鼻・口を整えたんだ。加工の前と後で、写真への満足度を0〜100の線の上でつけたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "54.8点→66.1点",
+        "body": "満足度は加工前の54.8点から、加工後は66.1点に上がったらしい。上がり方に男女の差はなかった。加工した写真を気に入るのは、ごく自然な反応みたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "続けるとどうなる？",
+        "body": "100人で、加工も研究室での1回だけ。女性では生活への満足度と関わる結果もあったけど相関で、加工を続けると気持ちがどう変わるかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-edited-selfie-real-face-beauty-filter-halo",
+        "type": "あわせて読む",
+        "why": "自分でなく他人が見たとき、加工した顔の印象がどう変わるかの実験"
+      },
+      {
+        "id": "face-self-enhancement-own-face",
+        "type": "あわせて読む",
+        "why": "人は加工しなくても、自分の顔を実物より魅力的な方に覚えているという実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-edited-selfie-real-face-satisfaction-up"
+  },
+  {
+    "id": "kokoro-edited-selfie-real-face-beauty-filter-halo",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Gulati A, Martínez-Garcia M, Fernández D, Lozano MA, Lepri B, Oliver N, \"What is beautiful is still good: the attractiveness halo effect in the era of beauty filters\" (Royal Society Open Science, 2024)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.240882",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/edited-selfie-real-face/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "美肌フィルターで印象は変わる？",
+        "body": "写真に美肌フィルターをかけると、きれいに見えるだけじゃなく、人柄の印象まで変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "462人分の顔を2,748人が評価",
+        "body": "462人分の顔写真に人気の美肌フィルターをかけて、加工前と加工後を、主に米国・英国の2,748人に評価してもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "賢そう・信頼できそうにも",
+        "body": "同じ人でも、加工後のほうが魅力的と評価されて、知的さや信頼できる感じの評価も高くなったらしい。魅力の評価が下がった写真は1枚もなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自分の写真だとどう感じる？",
+        "body": "他人の写真を見た評価で、自分の写真を加工したときの気持ちは調べていない。評価した人の多くは白人で、ほかの国や文化で同じかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-edited-selfie-real-face-satisfaction-up",
+        "type": "あわせて読む",
+        "why": "自撮りを自分で加工すると、自分の写真への満足度がどう変わるかの実験"
+      },
+      {
+        "id": "face-beauty-advantage",
+        "type": "あわせて読む",
+        "why": "加工しない顔でも、見た目がいい人が得をするかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-edited-selfie-real-face-beauty-filter-halo"
+  },
+  {
+    "id": "kokoro-job-rejection-self-compassion-writing",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Kreemers LM et al., \"Testing a Self-Compassion Intervention Among Job Seekers: Self-Compassion Beneficially Impacts Affect Through Reduced Self-Criticism\" (Frontiers in Psychology, 2020)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2020.01371",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/job-rejection-self-compassion/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よくある悩み",
+        "title": "不採用が続くと自分を責めちゃう",
+        "body": "仕事探しで断られ続けると、「自分には価値がないのかも」って思っちゃうよね。そんなときの振り返り方を試した研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "求職者180人に書いてもらった",
+        "body": "オランダの求職者に、いちばんつらかった出来事を書いてもらい、半分には「ほかの人も同じ経験をしている」「友だちに話すように自分に書く」「気持ちは一時的と距離を置く」の3つで振り返ってもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "直後の落ち込みが軽くなった",
+        "body": "3つの問いで書いた人は、自由に書いた人より、直後の沈んだ気分が低く、落ち着きが高かった。自分を責める気持ちが減ったことが一部関わっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1週間後には差が消えた",
+        "body": "差が出たのは書いた直後だけで、1週間後には両方の組とも気分がよくなり、差はなくなっていた。書くのは1回だけで、就職できたかも調べていないよ。くり返すとどうなるかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-self-compassion-after-study-setback-study-time",
+        "type": "あわせて読む",
+        "why": "勉強の失敗のあと、自分にやさしくすると努力が増えるかを調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-job-rejection-self-compassion-writing"
+  },
+  {
+    "id": "appetite-carbs-sleep-meta",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Vlahoyiannis A, Giannaki CD, Sakkas GK, Aphamis G, Andreou E, \"A Systematic Review, Meta-Analysis and Meta-Regression on the Effects of Carbohydrates on Sleep\" (Nutrients, 2021)",
+    "sourceUrl": "https://doi.org/10.3390/nu13041283",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ご飯をしっかり食べると、よく眠れる？",
+        "body": "夕飯にご飯やパンをたっぷり食べると眠くなる。だから炭水化物は眠りにいい、と聞くことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "11の研究、179人をまとめた",
+        "body": "炭水化物を多くした食事と少なくした食事などで、夜の眠りを機器で測った11の研究をまとめたメタ分析だよ。対象は持病のない8〜45歳の179人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "寝つきや睡眠時間は変わらず",
+        "body": "炭水化物の量で、寝つくまでの時間や眠った時間にはっきりした差はなかった。ただ中身は違って、少なめだと深い眠りが、多めだとレム睡眠が長くなったらしい。GI値の高い低いでは、眠りの段階は変わらなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "続けたらどうなる？",
+        "body": "どの研究も1回の食事か数日だけで、長く続けた研究はまだない。人数も少なく、寝つきは研究ごとの差が大きかった。食べる時間を比べた研究は1本だけ。対象は健康な人で、眠りに悩む人で同じかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-bedtime-eating-sleep-atus",
+        "type": "あわせて読む",
+        "why": "食べる中身でなく、寝る前に食べるかどうかと眠りの関係を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-carbs-sleep-meta"
+  },
+  {
+    "id": "kosodate-screen-time-language-meta",
+    "category": "子育ての科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Madigan S, McArthur BA, Anhorn C, Eirich R, Christakis DA, \"Associations Between Screen Use and Child Language Skills: A Systematic Review and Meta-analysis\" (JAMA Pediatrics, 2020)",
+    "sourceUrl": "https://doi.org/10.1001/jamapediatrics.2020.0327",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "テレビやスマホで、言葉は遅れる？",
+        "body": "小さい子に動画を見せていると、言葉が遅れないか心配になるよね。画面と言葉の力の関係を、たくさんの研究でまとめた論文があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "42の研究、18,905人",
+        "body": "12歳までの子ども18,905人が参加した42の研究をまとめたメタ分析だよ。画面を見る時間、つけっぱなしのテレビ、番組の中身、親と一緒に見るか、見始めた年齢と、言葉の力の関係を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "長いほど低め、一緒に見ると高め",
+        "body": "画面の時間が長い子ほど言葉の力は少し低く（相関r=-0.14）、つけっぱなしのテレビも同じ傾向。一方、教育番組を見る子や親と一緒に見る子は少し高く、見始めが遅い子も高めだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "画面が原因かは別の話",
+        "body": "まとめたのは画面と言葉の「関係」の強さで、画面が言葉を遅らせたのか、言葉がゆっくりな子が画面を多く見るのかは区別できない。関係はどれも小さめで、見始めの年齢を調べたのは4研究だけだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kosodate-toddler-tablet-passive",
+        "type": "あわせて読む",
+        "why": "画面でも、見るだけより自分で触るほうが言葉を覚えるかを試した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-screen-time-language-meta"
+  },
+  {
     "id": "brain-alcohol-light-drinking-brain-volume",
     "category": "脳の神話",
     "kind": "よくある説",
@@ -4983,6 +5194,11 @@
         "id": "face-same-person-different-photos",
         "type": "あわせて読む",
         "why": "自分の顔の見え方と、写真1枚で他人からの印象が変わる話"
+      },
+      {
+        "id": "kokoro-edited-selfie-real-face-satisfaction-up",
+        "type": "あわせて読む",
+        "why": "自撮りを加工すると、自分の写真への満足度がどう変わるかの実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/face-impression/#face-self-enhancement-own-face"
@@ -7204,6 +7420,11 @@
         "id": "japan-eat-then-sleep",
         "type": "あわせて読む",
         "why": "夕食から寝るまでの時間を、胃の不調の面から調べた研究"
+      },
+      {
+        "id": "appetite-carbs-sleep-meta",
+        "type": "あわせて読む",
+        "why": "寝る前に食べるかではなく、炭水化物の量や質と眠りの関係をまとめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-bedtime-eating-sleep-atus"
@@ -13845,7 +14066,14 @@
       }
     ],
     "studyType": "実験",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-self-compassion-after-study-setback-study-time"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-self-compassion-after-study-setback-study-time",
+    "links": [
+      {
+        "id": "kokoro-job-rejection-self-compassion-writing",
+        "type": "あわせて読む",
+        "why": "不採用が続く求職者に、自分にやさしく振り返る書き方を試した研究"
+      }
+    ]
   },
   {
     "id": "dokugaku-study-burnout-recovery-interventions",
@@ -25913,6 +26141,11 @@
         "id": "kosodate-shared-book-reading",
         "type": "あわせて読む",
         "why": "幼児が言葉を覚えるとき、受け身より関わりが大事かを画面で調べた実験"
+      },
+      {
+        "id": "kosodate-screen-time-language-meta",
+        "type": "あわせて読む",
+        "why": "画面を見る時間や見方と、子どもの言葉の力の関係をまとめたメタ分析"
       }
     ]
   },
@@ -28208,6 +28441,11 @@
         "id": "face-averageness-beauty",
         "type": "あわせて読む",
         "why": "そもそも、どんな顔が魅力的に見えるのかをまとめた研究"
+      },
+      {
+        "id": "kokoro-edited-selfie-real-face-beauty-filter-halo",
+        "type": "あわせて読む",
+        "why": "同じ人の写真に美肌フィルターをかけると、印象がどう変わるかの実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/face-impression/face-beauty-advantage/"
