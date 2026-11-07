@@ -7,6 +7,8 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
+- [ ] 近いうちに | EVIDENCE | 同じ論文の重複2組を1本にまとめてよいか判断: 水8杯（food-water-eight-glasses／myth-water-8-glasses）とコーヒー脱水（caffeine-coffee-dehydration-crossover／myth-coffee-dehydration）。1問1ページ・記事リンクのある方を残す案（2026-11-07）
+
 - [ ] 1.5.0 申請前 | アプリ | EVIDENCE 1.5.0 のウィジェット: Apple Developer で App Group `group.win.seadice.evidence` を作り、`win.seadice.evidence` と `win.seadice.evidence.EvidenceWidget` の両方に付ける（Xcode の自動署名で作られることもある。ないと ipa が署名できない）。そのあと実機でウィジェット（ホームの小・中・大、ロック画面の長方形・1行、「保存した研究」、スタンバイ）を置き、次へ・戻るボタンとタップで正しいトピックが開くかを見る。中サイズで長い結論が2行で切れる読み味も
 - [ ] いつでも | 設定 | ターミナルにアクセシビリティ（と画面収録）の許可を出す。device-check 役がシミュレーターの画面を押せず、起動直後しか確かめられなかった（2026-11-06 EVIDENCE）
 - [ ] すぐ | アプリ | LUCK UNLUCK 1.0（ビルド2）を再提出する: ①App Store Connect →「App のプライバシー」で「トラッキングに使用されるデータ」を全部外す（今「メールまたはテキストメッセージ」がトラッキングに入っている）。収集は「ユーザーコンテンツ > その他（要望・不具合報告フォーム）・アプリの機能・紐付けなし・トラッキングなし」だけ（AI相談は撤去したのでAIの項目は消す）。サポートURLを https://seadice.win/tools/kizuki-luck/ に（/apps/… は404） ②Transporter で `~/Developer/運系/kizuki-luck/build/ios/ipa/` の ipa を上げ、説明文と審査メモを `APPSTORE_SUBMISSION.md` の通りに（AI相談・週次AI総括の段落を消し、運の瓶を足した。キーワードの「AI相談」も消す。スクリーンショットにAI相談・履歴の画面があれば差し替える）③却下メッセージに「トラッキングはしていない、プライバシー情報を直した」と返信 — 8/24 に 2.3.8・5.1.2(i) で却下されたまま（2026-11-06）

@@ -61,3 +61,4 @@
 ## 重複させない
 - 既存の topics.json の id・タイトル・sourceUrl と比べ、同じ研究・同じ問いは書かない
 - sourceUrl は `https://doi.org/` の形にそろえる（PubMed や出版社のURLのままだと、同じ論文の重複に気づけない。2026-10-13 に同じ論文のトピックが4組見つかった）。比べるときは DOI・PMID を取り出して比べる
+- 足したあと、同じ DOI のトピックが2本以上ないかを必ず数える（`python3 -c` で topics.json の sourceUrl から DOI を取り出して数える）。1本でも出たら、そのコミットで片方を外すか、判断待ちとして docs/improve/evidence.md に書く。コーヒーの脱水（myth-coffee-dehydration と caffeine-coffee-dehydration-crossover、2026-11-06 の取り込みで重複）が出たため
