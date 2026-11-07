@@ -1,5 +1,185 @@
 [
   {
+    "id": "kokoro-new-group-slow-to-bond-icebreaker",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Pearce E, Launay J, Dunbar RIM, \"The ice-breaker effect: singing mediates fast social bonding\" (Royal Society Open Science, 2015)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.150221",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/new-group-slow-to-bond/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "習い事でなかなか打ち解けられない",
+        "body": "新しい習い事やサークル、何回通っても輪に入れない気がすること、あるよね。親しさってどのくらいで育つんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "新しい教室を7か月追った",
+        "body": "イギリスの研究で、新しく作った大人向けの教室7つ（歌・手芸・創作文）の135人に、授業の前後で「クラスとの近さ」を1〜7で答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ゆっくりでも追いついていた",
+        "body": "歌の組もほかの組も、毎回の授業のあとは前より近さが上がっていた。歌の教室は最初の1か月で一気に打ち解け、手芸などはゆっくり。でも7か月目には同じくらいになっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本のサークルでも同じ？",
+        "body": "教室はくじで割り振られていないし、9割近くが女性で、途中で答えなくなった人も多い。友だちができたかや、孤独が減ったかも調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-new-group-slow-to-bond-icebreaker"
+  },
+  {
+    "id": "kokoro-sunday-night-work-dread-weekend-gap-trust",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Helliwell JF, Wang S, \"How Was the Weekend? How the Social Context Underlies Weekend Effects in Happiness and Other Emotions for US Workers\" (PLoS ONE, 2015)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0145123",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/sunday-night-work-dread/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "週末と平日、そんなに違う？",
+        "body": "日曜の夜になると、明日の仕事を思って気持ちが沈むこと、あるよね。平日と週末の気分って、実際どれくらい違うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の働く人約94万人",
+        "body": "米国で毎日約1,000人に「昨日の気分」を聞く調査のうち、働いている約94万人の答えを、カナダと韓国の研究者が分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差の大きさは職場しだい",
+        "body": "前の日にストレスを多く感じた人は平日46.0%、週末31.1%。フルタイムの人では、幸せを感じた割合の週末と平日の差が、職場を信頼できない人だと信頼できる人の約3倍だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "職場が変われば縮む？",
+        "body": "1人1回の答えを比べた研究だから、職場の信頼関係がよくなれば差が縮むのかは確かめられていない。データは2008〜2012年の米国のものだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-sunday-night-work-dread-weekend-gap-trust"
+  },
+  {
+    "id": "kokoro-work-chat-coworker-comparison-visibility",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "So C, Zhou Y, Du J, \"It Is Comparison That Makes People Miserable\": Enterprise Social Media Visibility, Social Comparison Orientation, and Workplace Impostor Thoughts (Behavioral Sciences, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/bs16050782",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/work-chat-coworker-comparison/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よくある悩み",
+        "title": "社内チャットで同僚がまぶしい",
+        "body": "成果報告やお礼のメッセージが次々流れてきて、「自分だけ何もできてない」って感じること、あるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中国の会社員447人に2回アンケート",
+        "body": "中国の4社で働く447人に、社内チャットで同僚の仕事ぶりがどれくらい見えるかを聞いて、2週間後に「周りは自分を実力以上に見ている」と感じる度合いを聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見えやすいほど「実力以上に見られてる」感",
+        "body": "見えやすいと感じる人ほど、この思いが強かったらしい。ふだんから人と比べやすい人ほど、その結びつきは強めだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見る量を減らせば楽になる？",
+        "body": "2週間あけた2回のアンケートで、人どうしの違いを比べただけ。チャットの見え方を変えたら気持ちが軽くなるかは、まだ試されていないよ。中国の会社の人たちの結果でもあるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-work-chat-coworker-comparison-visibility"
+  },
+  {
+    "id": "net-repeated-fake-news-feels-true",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Pennycook G, Cannon TD, Rand DG, \"Prior exposure increases perceived accuracy of fake news\" (Journal of Experimental Psychology: General, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000465",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "何度も見たニュースは本当っぽく感じる？",
+        "body": "SNSで同じ話を何回も見かけると、だんだん「そうなのかも」って思えてくること、あるよね。あれって気のせいなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "本物の偽ニュースの見出しで試した",
+        "body": "2016年の米国大統領選のころに出回った偽ニュースの見出しを、Facebookで見えたままの形で見せたんだ。先に一度見た見出しと、初めて見る見出しで「正確だと思うか」を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1回見ただけで、正確そうに感じた",
+        "body": "1回見ただけで、正確だと感じる度合いが上がったらしい。1週間後でも上がっていて、「事実確認で疑問あり」の印がついていても、自分の政治的な考えと合わない話でも起きた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どこまで信じ込む？",
+        "body": "見出しを評価する実験で、全体としてはほとんどの見出しが信じられていなかった。「地球は真四角」のようなありえない話では上がらなかったよ。実際に広めるかどうかは、この研究の外なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "net-fake-news-sharing-age",
+        "type": "あわせて読む",
+        "why": "偽ニュースを信じる仕組みの実験と、実際に誰が広めていたかの調べ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#net-repeated-fake-news-feels-true"
+  },
+  {
+    "id": "replication-100-studies-reproducibility",
+    "category": "心理学の再現性",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Open Science Collaboration, \"Estimating the reproducibility of psychological science\" (Science, 2015)",
+    "sourceUrl": "https://doi.org/10.1126/science.aac4716",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "心理学の実験、もう一度やっても同じになる？",
+        "body": "「〇〇すると△△になる」っていう心理学の話、よく聞くよね。でも、同じ実験をもう一度やったら、ちゃんと同じ結果になるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "100本を、やり直してみた",
+        "body": "心理学の3つの雑誌に載った実験や相関の研究100本を、研究者のチームが分担してやり直したんだ。人数を十分にとって、元の材料が手に入るものはそれを使ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "はっきり出たのは36%",
+        "body": "元の研究は97%がはっきりした結果だったのに、やり直しで同じようにはっきり出たのは36%。効果の大きさは平均で元の半分くらいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どれが本物かはまだ",
+        "body": "やり直しで出なかった研究が、すべて間違いとは限らないよ。100本は3つの雑誌からで、心理学のすべてではない。元の証拠が強い研究ほど再現しやすい傾向は見えたけど、相関の話なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-priming-walking",
+        "type": "あわせて読む",
+        "why": "100本のやり直しの前から疑われていた有名な実験の、1本ずつの追試"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#replication-100-studies-reproducibility"
+  },
+  {
     "id": "kokoro-edited-selfie-real-face-satisfaction-up",
     "category": "スマホとSNS",
     "kind": "素朴な疑問",
@@ -11977,7 +12157,14 @@
         "body": "2016年のアメリカのFacebookだけを見た観察研究で、理由はわからない。ネットの情報を見分ける力の差か、見ているニュースの違いかは確かめられていないし、別の数え方では3〜4倍だったよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/games/#net-fake-news-sharing-age"
+    "webUrl": "https://seadice.win/evidence/games/#net-fake-news-sharing-age",
+    "links": [
+      {
+        "id": "net-repeated-fake-news-feels-true",
+        "type": "あわせて読む",
+        "why": "同じ偽ニュースの話で、見るほど信じやすくなる仕組みの実験"
+      }
+    ]
   },
   {
     "id": "research-procrastination-self-help-not-working-research-single-advice",
@@ -14334,7 +14521,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/#replication-priming-walking",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "replication-100-studies-reproducibility",
+        "type": "あわせて読む",
+        "why": "この研究を含む、心理学の研究100本をまとめてやり直した大きな追試"
+      }
+    ]
   },
   {
     "id": "replication-growth-mindset",
