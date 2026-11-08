@@ -51,3 +51,4 @@
 
 
 10月までは [log/rules.md](log/rules.md)。
+- 2026-11-08: トークン節約のため CLAUDE.md を 35KB→11KB に（目標・展開・見る数字などの詳細は新しい docs/strategy.md、3タイプ・12項目・画像・SEO は docs/site.md へ移し、中身は消していない）。docs/improve/*.md の10月までの「やったこと」「ルールの変更履歴」を docs/improve/log/ へ（apps.md 107KB→46KB）。点検役5つの参照先を新しいファイルに直した。自動メモの索引も 30KB→12KB
