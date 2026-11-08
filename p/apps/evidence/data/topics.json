@@ -1,5 +1,199 @@
 [
   {
+    "id": "kokoro-yoga-stress-fatigue-recover-seven-minutes",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Marschin V & Herbert C, \"Acute effects of ultra-short aerobic and resistance, yoga-based mobility, and mindfulness meditation sessions on mental health: a randomized online study\" (Frontiers in Sports and Active Living, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fspor.2026.1774292",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/yoga-stress-fatigue-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "たった7分で気分は変わる？",
+        "body": "疲れていると、長い運動なんて無理って思うよね。じゃあ7分だけ体を動かしたら、何か変わるのかを試した実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3種類の7分を比べた",
+        "body": "ドイツの18〜60歳の131人を、くじで3組に分けたよ。動画に合わせた持久力・筋力の運動、ヨガ風のゆっくりした体ほぐし、音声のマインドフルネス瞑想を、それぞれ7分。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どれでもストレスが下がった",
+        "body": "どの組でも、終わった直後にストレス、いやな気分、不安の点数が下がっていた。3つのあいだに、はっきりした差はなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何もしない組がない",
+        "body": "「7分休んだだけ」の組がないから、動いた効果かどうかは分けられない。測ったのは直後だけの1回きりで、コロナの外出制限中の実験だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#kokoro-yoga-stress-fatigue-recover-seven-minutes"
+  },
+  {
+    "id": "research-commitment-contract-money-habit-research-deposit-uptake",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Halpern et al., \"Randomized Trial of Four Financial-Incentive Programs for Smoking Cessation\" (New England Journal of Medicine, 2015)",
+    "sourceUrl": "https://doi.org/10.1056/NEJMoa1414293",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/commitment-contract-money-habit-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分のお金を賭けると続く？",
+        "body": "「失敗したら罰金」にすると、やめられないことも続けられるって聞くよね。ご褒美をもらうより効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "禁煙で2つのやり方を比べた",
+        "body": "アメリカのある会社の従業員とその家族・友人2,538人で、約800ドルのご褒美と、150ドルを預けて禁煙できたら返ってくる方法（ほかに650ドルのご褒美つき）を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "受け入れたのは13.7%だけ",
+        "body": "ご褒美型は90.0%が受け入れたけど、お金を預ける型は13.7%。全員で比べた6か月後の禁煙率は、ご褒美型15.7%、預ける型10.2%だった。ただ、どちらでも受け入れそうな人に限った推定では、預ける型のほうが13.2ポイント高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "選ぶ人が少ないのが壁",
+        "body": "お金を預ける型は、そもそも受け入れる人が少なかった。受け入れた人に限った差は推定の数字だよ。対象は1つの会社の関係者の禁煙で、運動や勉強の習慣でも同じになるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "ledger-commitment-savings",
+        "type": "あわせて読む",
+        "why": "自分をしばる仕組みを、禁煙でなく貯金で試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-commitment-contract-money-habit-research-deposit-uptake"
+  },
+  {
+    "id": "research-embarrassing-mistake-spotlight-effect-recovery-research-harsh-judgment",
+    "category": "対人関係の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Savitsky et al., \"Do others judge us as harshly as we think? Overestimating the impact of our failures, shortcomings, and mishaps\" (Journal of Personality and Social Psychology, 2001)",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.81.1.44",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/embarrassing-mistake-spotlight-effect-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人前の失敗、どう思われてる？",
+        "body": "人前で失敗すると「ひどい人だと思われた」って何日も引きずることがあるよね。周りは本当にそんなに厳しく見ているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "失敗した側と見ていた側を比べた",
+        "body": "4つの研究で、失敗を想像した人、人前で問題が解けなかった人、恥ずかしい形で紹介された人に、周りからの評価を予想してもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "実際の評価は予想より甘かった",
+        "body": "どの研究でも、本人は実際より厳しく評価されると予想していた。失敗に意識が集中して、周りが状況も考えてくれることを想像しにくいらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何度もくり返したら？",
+        "body": "調べたのは1回きりの失敗の場面。同じ失敗をくり返した場合や、長い付き合いの相手でも同じかは、まだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nervous-gilovich-transparency",
+        "type": "あわせて読む",
+        "why": "同じ研究グループが、緊張も思うほど周りに見えていないと確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#research-embarrassing-mistake-spotlight-effect-recovery-research-harsh-judgment"
+  },
+  {
+    "id": "personality-rank-order-consistency-age",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Roberts & DelVecchio, \"The rank-order consistency of personality traits from childhood to old age: a quantitative review of longitudinal studies\" (Psychological Bulletin, 2000)",
+    "sourceUrl": "https://doi.org/10.1037/0033-2909.126.1.3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "性格って、何歳で固まるの？",
+        "body": "「三つ子の魂百まで」っていうけど、子どものころの性格はそのまま大人まで続くのかな。性格が落ち着くのは何歳ごろなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人を追った152の研究をまとめた",
+        "body": "同じ人の性格を時間をあけて2回測った152の長期研究から、3,217個の相関（前と後でどれだけ順番がそろうか）を集めて、年代ごとに比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "30歳でもまだ固まりきらない",
+        "body": "間隔を6.7年にそろえると、そろい方は子ども期0.31、大学生のころ0.54、30歳で0.64と上がり、50〜70歳で0.74ほどで横ばいになった。子どもの気質は大人の性格より変わりやすかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「順番」の話で、中身の変化ではない",
+        "body": "調べたのは周りの人と比べた順番がどれだけ保たれるか。平均してまじめになるといった変化は別の話だよ。2000年までの研究のまとめで、なぜ年とともに安定するかもこれだけではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "personality-change-intervention",
+        "type": "あわせて読む",
+        "why": "順番は年とともに安定する一方で、介入を受けると性格の測定値が変わった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-rank-order-consistency-age"
+  },
+  {
+    "id": "face-mirror-vs-photo-own-face",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Amestoy, Bouvard & Cazalets, \"Left-right facial orientation of familiar faces: developmental aspects of « the mere exposure hypothesis »\" (Frontiers in Psychology, 2010)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2010.00039",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "鏡の自分のほうが、写真よりマシに見える？",
+        "body": "写真の自分を見て「なんか変」って思うこと、あるよね。鏡で見る顔は左右が逆。見慣れた向きのほうを好きになるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ふつうの写真と左右反転を選んでもらった",
+        "body": "フランスで大人38人と3〜12歳の子ども72人に、自分と身近な人（同僚や親）の顔の、ふつうの写真と左右反転の写真を見せて、好きなほうを選んでもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自分は反転、他人はふつうを選びがち",
+        "body": "2枚を並べたとき、大人の71%（38人中27人）が自分の反転写真を、76%が同僚のふつうの写真を選んだ。子どもでは5〜7歳ごろから、同じ選び方が出てきたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、理由はまだ説",
+        "body": "大人は同じ研究部門の研究者38人だけ。見慣れた向きを好むから、という説明は研究者の考えで、仕組みを直接確かめたわけではない。写真写りの良し悪しそのものを測った研究でもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "face-self-enhancement-own-face",
+        "type": "あわせて読む",
+        "why": "自分の顔を、実際より魅力的なほうに覚えているという実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-mirror-vs-photo-own-face"
+  },
+  {
     "id": "research-early-bedtime-cant-sleep-forbidden-zone-why-research-4h-early",
     "category": "睡眠",
     "kind": "よくある説",
@@ -5552,6 +5746,11 @@
         "id": "kokoro-edited-selfie-real-face-satisfaction-up",
         "type": "あわせて読む",
         "why": "自撮りを加工すると、自分の写真への満足度がどう変わるかの実験"
+      },
+      {
+        "id": "face-mirror-vs-photo-own-face",
+        "type": "あわせて読む",
+        "why": "写真のふつうの向きより、鏡の向きの自分の顔を選びがちという実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/face-impression/#face-self-enhancement-own-face"
@@ -24761,6 +24960,11 @@
         "id": "money-save-more-tomorrow",
         "type": "あわせて読む",
         "why": "先に仕組みを決めておくと、貯金は増えやすい"
+      },
+      {
+        "id": "research-commitment-contract-money-habit-research-deposit-uptake",
+        "type": "あわせて読む",
+        "why": "自分のお金を預けて自分をしばる仕組みを、禁煙で試した研究"
       }
     ]
   },
@@ -28691,6 +28895,11 @@
         "id": "personality-change-adulthood",
         "type": "あわせて読む",
         "why": "年齢とともに自然に変わる話と、介入で変わる話の両面から見られる"
+      },
+      {
+        "id": "personality-rank-order-consistency-age",
+        "type": "あわせて読む",
+        "why": "介入で変わる話と、性格の順番が年とともに安定していく話"
       }
     ],
     "webUrl": "https://seadice.win/evidence/personality/personality-change-intervention/"
@@ -46230,7 +46439,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/illusion-of-transparency-nervousness-visible-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "research-embarrassing-mistake-spotlight-effect-recovery-research-harsh-judgment",
+        "type": "あわせて読む",
+        "why": "同じ研究グループが、人前の失敗も思うほど厳しく見られていないと確かめた"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/romance/#nervous-gilovich-transparency"
   },
   {
