@@ -2033,11 +2033,11 @@
   <url><loc>https://seadice.win/evidence/dangerous-partners/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/breakups/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/memory/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/procrastination/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/ai/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/focus/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/habits/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/procrastination/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/work/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/smartphone-sns/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/</loc><lastmod>2026-11-08</lastmod></url>
@@ -2047,6 +2047,8 @@
   <url><loc>https://seadice.win/evidence/body-myths/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/pets/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/digital-detox/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/mindfulness/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-mood/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/personality/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/face-impression/</loc><lastmod>2026-11-08</lastmod></url>
@@ -2076,8 +2078,6 @@
   <url><loc>https://seadice.win/evidence/music-focus/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/nature/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/money/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/digital-detox/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/mindfulness/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/posture-confidence/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/speaking/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/laughter/</loc><lastmod>2026-11-08</lastmod></url>
@@ -2150,9 +2150,9 @@
   <url><loc>https://seadice.win/evidence/work/work-four-day-week/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/work/work-camera-fatigue/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/work/work-long-hours-stroke/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://seadice.win/evidence/digital-detox/digital-sns-abstinence-meta/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://seadice.win/evidence/digital-detox/digital-school-phone-ban/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://seadice.win/evidence/digital-detox/digital-smartphone-brain-drain/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https://seadice.win/evidence/digital-detox/digital-sns-abstinence-meta/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/digital-detox/digital-school-phone-ban/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/digital-detox/digital-smartphone-brain-drain/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-memory/exercise-over50-cognition-meta/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-aging/aging-strength-training-older-cochrane/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-aging/aging-gait-speed-survival/</loc><lastmod>2026-11-06</lastmod></url>
@@ -2180,7 +2180,7 @@
   <url><loc>https://seadice.win/evidence/parenting/kosodate-shared-book-reading/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/parenting/kosodate-sleep-training-5y/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/laughter/laughter-cortisol-meta/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://seadice.win/evidence/mindfulness/mindfulness-adverse-events/</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://seadice.win/evidence/mindfulness/mindfulness-adverse-events/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/happy-lottery-wealth/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/happy-age-u-curve/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/kokoro-sleep-improve-mental/</loc><lastmod>2026-11-06</lastmod></url>
@@ -2205,7 +2205,7 @@
   <url><loc>https://seadice.win/evidence/language-learning/lang-extensive-reading/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/lang-listening-incidental-vocab/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/lang-language-apps/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://seadice.win/evidence/procrastination/procrastination-pomodoro-breaks/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://seadice.win/evidence/procrastination/procrastination-pomodoro-breaks/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/insight/insight-background-music/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-environment/sleep-eye-mask-memory/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://seadice.win/evidence/breathing-stress/breathing-breathwork-meta/</loc><lastmod>2026-11-05</lastmod></url>

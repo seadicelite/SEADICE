@@ -1,5 +1,199 @@
 [
   {
+    "id": "digital-bedtime-phone-30min-rct",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "He JW et al., \"Effect of restricting bedtime mobile phone use on sleep, arousal, mood, and working memory: A randomized pilot trial\" (PLoS One, 2020)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0228756",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝る前のスマホ、やめたら眠れる？",
+        "body": "布団に入ってからも、ついスマホを見ちゃうよね。寝る前の30分だけ手放したら、眠りは変わるのかな。実際に試した研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "38人をくじで2組に分けて4週間",
+        "body": "中国の研究チームが38人を2組に分け、片方には「寝る前30分はスマホを使わない」と頼み、もう片方には何も頼まなかった。睡眠日誌や質問票、記憶の課題で比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "寝つきが早まり、睡眠も長くなった",
+        "body": "スマホを控えた組は、寝つくまでの時間が短くなり、睡眠時間が延びて、眠りの質もよくなった。寝る前の頭の高ぶりが減り、前向きな気分や記憶の課題の成績も上がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "19人ずつの小さな試し",
+        "body": "19人ずつの予備的な試験で、眠りは主に本人の記録と質問票で測っている。光と中身のどちらが効いたのかや、もっと大きな集団で同じ結果が出るかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-night-phone-blue-light-sleep-filter-melatonin",
+        "type": "あわせて読む",
+        "why": "夜間モードで光を変えるより、使う時間そのものを減らした試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-bedtime-phone-30min-rct"
+  },
+  {
+    "id": "mindfulness-loving-kindness-positive-emotions-meta",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Zeng X et al., \"The effect of loving-kindness meditation on positive emotions: a meta-analytic review\" (Frontiers in Psychology, 2015)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2015.01693",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "慈悲の瞑想で、気持ちは明るくなる？",
+        "body": "「みんなが幸せでありますように」と心の中で願う慈悲の瞑想。続けると前向きな気持ちが増える、ってよく聞くよね。研究をまとめるとどうなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "24の研究、1759人をまとめた",
+        "body": "慈悲の瞑想と、本人が答えた前向きな気持ちを調べた24の研究（合計1759人）を集めて、効果の大きさを数字でまとめたメタ分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "前向きな気持ちは、中くらい増えた",
+        "body": "ふだんの前向きな気持ちは、順番待ちの組と比べた試験などで中くらいの効果が見られた。思いやり中心のやり方では効果は小さめ。瞑想の期間や練習時間が長いほど効く、という結果は出なかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究はまだ始まったばかり",
+        "body": "前向きな気持ちはどれも本人の答えで測っている。研究の数が少なく、著者自身も結論は探索的だと書いているよ。なぜ効くのか、心の病気がある人にも当てはまるかも、まだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-loving-kindness-positive-emotions-meta"
+  },
+  {
+    "id": "research-quick-chores-first-precrastination-why-research-bucket",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Rosenbaum et al., \"Pre-crastination: Hastening subgoal completion at the expense of extra physical effort\" (Psychological Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/0956797614532657",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/quick-chores-first-precrastination-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "すぐ終わる用事から片づけたくなる",
+        "body": "大事な作業の前に、つい返信や片づけを済ませたくなることってあるよね。実は人には「早く一区切りつけたい」傾向があるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2つのバケツ、どっちを運ぶ？",
+        "body": "大学生に、通路の左右にあるバケツのどちらかを選んで、通路の端まで運んでもらった実験があるよ。「楽なほうを選んで」と伝えたから、ゴールに近いバケツが選ばれるはずだった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "近いほうを先に取って、長く運んだ",
+        "body": "ところが参加者は、スタートに近いバケツを手に取って、かえって長い距離を運んだんだ。9つの実験から、研究者はこれを「プレクラスティネーション」と名づけ、頭の負担を早く減らしたいためだと考えたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "バケツの話を仕事に当てはめるのは注意",
+        "body": "これはバケツ運びのような体を使う課題での結果。メールや片づけの順番を直接調べたわけではないし、対象は大学生だけ。日常の仕事でどこまで同じことが起きるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-quick-chores-first-precrastination-why-research-clear-mind",
+        "type": "あわせて読む",
+        "why": "同じ研究グループの続きで、頭を使う作業を先に片づけたがる傾向を確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-quick-chores-first-precrastination-why-research-bucket"
+  },
+  {
+    "id": "research-quick-chores-first-precrastination-why-research-clear-mind",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "VonderHaar et al., \"Task order choices in cognitive and perceptual-motor tasks: The cognitive-load-reduction (CLEAR) hypothesis\" (Attention, Perception, & Psychophysics, 2019)",
+    "sourceUrl": "https://doi.org/10.3758/s13414-019-01754-z",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/quick-chores-first-precrastination-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "頭を使う作業と単純作業、どっちが先？",
+        "body": "考える作業と、手を動かすだけの作業。好きな順番でいいと言われたら、どっちから始める？これを確かめた実験があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "言葉を思いつく課題と箱運び",
+        "body": "122人に、あるカテゴリーの言葉を思いつく課題と、箱を動かす課題を、好きな順番でやってもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "半数が、頭を使う課題を全部先に",
+        "body": "ちょうど半数が、頭を使う課題を全部終えてから箱運びをした。言葉の課題を後回しにするほど、箱運びは遅くなったよ。頭に残るものを先に片づけて「すっきりしたい」という考え方に合う結果なんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "報酬の差がない実験室の話",
+        "body": "どちらの課題にも報酬の差がない条件での結果。大事さが違う仕事や、締め切りがある場面で同じことが起きるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-quick-chores-first-precrastination-why-research-bucket",
+        "type": "あわせて読む",
+        "why": "バケツ運びの実験で、早く一区切りつけたがる傾向が最初に見つかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-quick-chores-first-precrastination-why-research-clear-mind"
+  },
+  {
+    "id": "research-pomodoro-technique-procrastination-research-25-5",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Smits et al., \"Investigating the Effectiveness of Self-Regulated, Pomodoro, and Flowtime Break-Taking Techniques Among Students\" (Behavioral Sciences, 2025)",
+    "sourceUrl": "https://doi.org/10.3390/bs15070861",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/pomodoro-technique-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "25分集中・5分休憩ははかどる？",
+        "body": "ポモドーロ・テクニック、よく勧められるよね。25分ごとに5分休むと、好きに休むよりはかどるって本当なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2時間の自習で3つの休み方を比較",
+        "body": "オランダの心理学部の学生94人を、ポモドーロ、自分で休む、勉強した長さに応じて休憩を延ばす、の3組に分けて、2時間自習してもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "終えた課題の割合はほぼ同じ",
+        "body": "予定した課題を終えた割合は、自分で休む組70.32%、ポモドーロ組69.41%で差はなかった。ポモドーロ組は疲れが早めに増えたけど、全体の疲れややる気の差にはならなかった。著者は、どれか1つを特におすすめはできないとまとめているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きり・学生だけの実験",
+        "body": "1回の自習だけで、93%が女性の学生という偏った集まり。人数も少なめなんだ。何週間も続けたときや、仕事の場面でどうなるかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "procrastination-pomodoro-breaks",
+        "type": "反対の結果",
+        "why": "同じ問いで、別の研究では自分で休む組のほうが疲れが多かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-pomodoro-technique-procrastination-research-25-5"
+  },
+  {
     "id": "kokoro-yoga-stress-fatigue-recover-seven-minutes",
     "category": "運動と気分",
     "kind": "素朴な疑問",
@@ -6319,6 +6513,11 @@
         "id": "circadian-blue-light-glasses",
         "type": "あわせて読む",
         "why": "スマホの夜間モードの実験と、ブルーライトカットのメガネの試験"
+      },
+      {
+        "id": "digital-bedtime-phone-30min-rct",
+        "type": "あわせて読む",
+        "why": "寝る前30分スマホを使わない、をくじ引きで試した研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/#kokoro-night-phone-blue-light-sleep-filter-melatonin"
@@ -35106,7 +35305,14 @@
         "body": "調べたのは1日の自習だけで、続けたときにどうなるかはわからない。対象はオランダの大学生87人。「25分」がいちばん良い長さかどうかも、この研究では決められない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/procrastination/procrastination-pomodoro-breaks/"
+    "webUrl": "https://seadice.win/evidence/procrastination/procrastination-pomodoro-breaks/",
+    "links": [
+      {
+        "id": "research-pomodoro-technique-procrastination-research-25-5",
+        "type": "反対の結果",
+        "why": "同じ問いで、別の研究ではポモドーロ組のほうが疲れが早く増えた"
+      }
+    ]
   },
   {
     "id": "insight-background-music",
