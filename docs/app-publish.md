@@ -42,7 +42,7 @@ SEADICEの売りは「研究結果（科学メディア）」で、アプリ・�
 
 ### 1. ファビコン・PWA アイコン
 
-Flutter Web 版を置く場合だけ。手順は [docs/flutter-app.md](docs/flutter-app.md) の「Flutter Web 版のファビコン・PWA アイコン」。
+Flutter Web 版を置く場合だけ。手順は [docs/flutter-howto.md](flutter-howto.md) の「Flutter Web 版のファビコン・PWA アイコン」。
 
 ### 2. どこに追加するかの判断基準（重要）
 
