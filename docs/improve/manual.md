@@ -7,7 +7,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
-- [ ] すぐ | アプリ | コーヒー診断 わたしの一杯 1.0.2（ビルド3）を提出する: Transporter で `~/Developer/コーヒー系/coffee_taste/build/ios/ipa/coffee_taste.ipa` を上げ（開いてある）、App Store Connect の新機能・説明文・審査メモを `APPSTORE_SUBMISSION.md`（会話にも出した）の通りに。App のプライバシーは「ユーザーコンテンツ > その他（診断の入力文と要望・不具合報告フォーム）・アプリの機能・紐付けなし・トラッキングなし」にし、広告データ・デバイスIDの項目があれば消す — 説明文と申告に AdMob・広告視聴の記述が残ったままだと 2.3・5.1.1 で却下されるため（2026-11-08）
+- [ ] すぐ | アプリ | コーヒー診断 わたしの一杯 1.1.0（ビルド4）を提出する（1.0.2 は出さずにまとめた）: ①Transporter で `~/Developer/コーヒー系/coffee_taste/build/ios/ipa/coffee_taste.ipa` を上げる（開いてある）②App Store Connect でサブタイトル・プロモ・説明文・キーワード・新機能・審査メモ・サポートURLを `APPSTORE_SUBMISSION.md`（会話にも出した）の通りに ③App のプライバシーは「ユーザーコンテンツ > その他（診断の入力文と要望・不具合報告フォーム）・アプリの機能・紐付けなし・トラッキングなし」にし、広告データ・デバイスIDがあれば消す ④スクリーンショットは Claude が作り直す（見出しを選んでから）。古い画面のままだと 2.3 で却下される（2026-11-08）
 - [ ] すぐ | アプリ | Anthropic コンソールで月の利用上限（例: 1,000円相当）と使用量のアラートを設定し、Cloudflare の Worker「claude-proxy」（seadice-lite）のコードの場所を Claude に伝える — コーヒー診断 1.0.2 は無料でAIを使い続ける方針（2026-11-08 ユーザー判断）。回数制限は端末内だけで再インストールで戻るうえ、プロキシはアプリから来たモデル名と文章をそのまま通すので、URLを知った人なら誰でも使える。Worker 側に1日の回数上限・モデルの固定・Bundle からのリクエストだけ通す仕組みを入れたい（2026-11-08）
 - [ ] 近いうちに | EVIDENCE | 同じ論文の重複2組を1本にまとめてよいか判断: 水8杯（food-water-eight-glasses／myth-water-8-glasses）とコーヒー脱水（caffeine-coffee-dehydration-crossover／myth-coffee-dehydration）。1問1ページ・記事リンクのある方を残す案（2026-11-07）
 
