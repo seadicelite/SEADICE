@@ -1,5 +1,206 @@
 [
   {
+    "id": "dokugaku-apply-relearning-at-work-transfer-skill-decay",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Tatel & Ackerman, \"Procedural skill retention and decay: A meta-analytic review\" (Psychological Bulletin, 2025)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000481",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/apply-relearning-at-work-transfer/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "一度身につけた技能は、使わないとどうなる？",
+        "body": "研修で覚えた操作や手順、しばらく使わないと忘れちゃうよね。じゃあ、どのくらいの速さで落ちていくんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "457の報告をまとめた",
+        "body": "体の動きを含む手順の技能が、どれだけ保たれて、どれだけ落ちるかを調べた457の報告、1,344の効果量をまとめたメタ分析がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "半分が約6.5か月で失われた",
+        "body": "使わないままだと、練習で伸びた分の半分が、正確さでは約6.5か月、速さでは約13か月で失われていたらしい。課題の種類や複雑さ、とちゅうで使う機会があるかも、落ち方に関わる候補に挙がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "知識も同じ速さで落ちる？",
+        "body": "調べたのは体の動きを含む手順の技能で、本で学んだ知識が同じ速さで落ちるかはわからない。もとの研究には、測るときに練習し直しの効果が混ざるものもあると著者は指摘しているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-forgotten-words-relearning-savings-research-relearn",
+        "type": "あわせて読む",
+        "why": "落ちた分は消えたわけではなく、学び直すと早く戻ることがある"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-apply-relearning-at-work-transfer-skill-decay"
+  },
+  {
+    "id": "dokugaku-adult-learner-afraid-to-ask-questions-helpers-happier",
+    "category": "対人関係の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Zhao & Epley, \"Surprisingly happy to have helped: Underestimating prosociality creates a misplaced barrier to asking for help\" (Psychological Science, 2022)",
+    "sourceUrl": "https://doi.org/10.1177/09567976221097615",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/adult-learner-afraid-to-ask-questions/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人に聞くのは迷惑？",
+        "body": "わからないことがあっても「忙しいのに悪いな」と聞けずにいること、あるよね。頼まれた側は、本当に迷惑だと感じているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の大人2,118人",
+        "body": "想定場面、過去の経験の思い出し、実際のやりとりを組み合わせて、頼む側の予想と頼まれた側の気持ちをくらべた研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "思ったより前向き",
+        "body": "頼む側は、相手が手を貸したい気持ちと、手を貸した後の良い気分を低く見積もり、迷惑の大きさを高く見積もっていた。実は、聞かれた側は思ったより前向きらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強の質問でも同じ？",
+        "body": "調べたのは米国の大人の日常の頼みごと。勉強の質問の場面や、日本で同じくらいのずれがあるかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-compliment-underestimate",
+        "type": "あわせて読む",
+        "why": "同じ研究者。褒められる側の喜びも低く見積もられていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#dokugaku-adult-learner-afraid-to-ask-questions-helpers-happier"
+  },
+  {
+    "id": "dokugaku-cant-sleep-worrying-about-study-exam-bedtime-music",
+    "category": "睡眠環境",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Scullin et al., \"Bedtime Music, Involuntary Musical Imagery, and Sleep\" (Psychological Science, 2021)",
+    "sourceUrl": "https://doi.org/10.1177/0956797621989724",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/cant-sleep-worrying-about-study-exam/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る前の音楽で、ぐっすり眠れる？",
+        "body": "眠れない夜は、好きな曲や歌のない音楽を流して寝る。リラックスできそうだし、やっている人も多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アンケートと、脳波で測る実験",
+        "body": "199人に音楽を聴く習慣と眠りを聞いた調査と、若い大人50人に寝る前に人気曲の歌詞あり版か歌詞なし版をくじで聴かせ、実験室で眠りを脳波などで測った実験をしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頭の中で曲が鳴ると、眠りが悪くなる",
+        "body": "よく音楽を聴く人ほど夜に曲が頭の中で鳴りやすく（イヤーワーム）、眠りの質が悪かった。実験では歌詞なし版の方がイヤーワームが増え、測った眠りの質も悪かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの音楽でも同じかは不明",
+        "body": "実験は若い大人50人の実験室での話で、使ったのは一部の人気曲だけ。調査の方は関連を見ただけで、因果はわからない。音楽で眠りの自己評価がよくなったというまとめもあるんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-music-insomnia-cochrane",
+        "type": "反対の結果",
+        "why": "眠りに悩む人が音楽を聴くと、睡眠の自己評価はよくなったというまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#dokugaku-cant-sleep-worrying-about-study-exam-bedtime-music"
+  },
+  {
+    "id": "caffeine-coffee-arrhythmia-ukbiobank",
+    "category": "カフェイン",
+    "kind": "よくある説",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Kim et al., \"Coffee Consumption and Incident Tachyarrhythmias: Reported Behavior, Mendelian Randomization, and Their Interactions\" (JAMA Internal Medicine, 2021)",
+    "sourceUrl": "https://doi.org/10.1001/jamainternmed.2021.3616",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーを飲むと不整脈になる？",
+        "body": "コーヒーを飲むとドキドキするから、心臓に悪そう。不整脈が心配ならコーヒーは控えて、と言われることもあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イギリスの38万人を約4.5年追った",
+        "body": "イギリスの大きなデータベース（UKバイオバンク）で、平均56歳の386,258人のふだんのコーヒーの量と、その後の不整脈を平均4.5年追ったんだ。カフェインの分解の速さに関わる遺伝子も調べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1杯多いごとに、むしろ3%低かった",
+        "body": "生活習慣などをそろえて比べると、ふだんのコーヒーが1日1杯多いごとに、不整脈になるリスクは約3%低かった。遺伝子を使った分析でも、カフェインが不整脈を増やす証拠は見つからなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飲む量は自己申告、観察だけ",
+        "body": "コーヒーの量は本人の申告で、くじで飲む量を決めた実験ではないから、因果はわからない。対象はイギリスの中高年が中心。コーヒーで体調が悪くなる人は、自分で控えていた可能性もあるんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-crave-coffee-trial",
+        "type": "あわせて読む",
+        "why": "くじで飲む日を決めた試験。飲んだ日は心室の期外収縮が多かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-arrhythmia-ukbiobank"
+  },
+  {
+    "id": "kosodate-baby-foreign-language-video-vs-live",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Kuhl, Tsao & Liu, \"Foreign-language experience in infancy: effects of short-term exposure and social interaction on phonetic learning\" (PNAS, 2003)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1532872100",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "赤ちゃんに英語の動画を流せば、英語の耳が育つ？",
+        "body": "赤ちゃんのうちから外国語の音を聞かせると、聞き分ける耳が育つ、ってよく聞くよね。じゃあ、動画やCDを流しておくだけでもいいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "生の人と、録画・録音で比べた",
+        "body": "アメリカの生後9か月の赤ちゃんに、中国語を話す人と12回あそぶ時間をつくった。別のグループは、同じ人・同じ内容を録画の映像か録音の音だけで見聞きしたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "録画や録音では効果がなかった",
+        "body": "生の人とふれあったグループは、中国語の音の聞き分けが英語だけのグループより保たれた。でも録画や録音で同じものを見聞きしたグループには、効果が見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "音の聞き分けだけの話",
+        "body": "測ったのは中国語の音を聞き分ける力だけで、話せるようになるかは見ていない。2003年の1つの研究室の実験で、赤ちゃんは短い期間だけふれた。今の動画アプリで同じかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kosodate-screen-time-language-meta",
+        "type": "あわせて読む",
+        "why": "画面を見る時間と言葉の発達の関係を、多くの研究でまとめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-baby-foreign-language-video-vs-live"
+  },
+  {
     "id": "research-jet-lag-recovery-light-timing-research-preflight",
     "category": "光と体内時計",
     "kind": "素朴な疑問",
@@ -82,6 +283,11 @@
         "id": "dokugaku-forgotten-language-relearning-permastore",
         "type": "あわせて読む",
         "why": "何十年も残る語学の記憶と、忘れても学び直しが速い実験"
+      },
+      {
+        "id": "dokugaku-apply-relearning-at-work-transfer-skill-decay",
+        "type": "あわせて読む",
+        "why": "使わない技能が半分落ちるまでの期間を、457の報告からまとめた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/memory/#research-forgotten-words-relearning-savings-research-relearn"
@@ -1345,6 +1551,11 @@
         "id": "kosodate-toddler-tablet-passive",
         "type": "あわせて読む",
         "why": "画面でも、見るだけより自分で触るほうが言葉を覚えるかを試した実験"
+      },
+      {
+        "id": "kosodate-baby-foreign-language-video-vs-live",
+        "type": "あわせて読む",
+        "why": "赤ちゃんは、録画の映像では外国語の音を学べなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/parenting/#kosodate-screen-time-language-meta"
@@ -5930,6 +6141,11 @@
         "id": "speech-gratitude-letter-underestimate",
         "type": "あわせて読む",
         "why": "感謝の手紙でも、相手の喜びを低く、気まずさを高く見積もっていた"
+      },
+      {
+        "id": "dokugaku-adult-learner-afraid-to-ask-questions-helpers-happier",
+        "type": "あわせて読む",
+        "why": "同じ研究者。助けを頼まれた側も、思ったより前向きだった"
       }
     ]
   },
@@ -8948,6 +9164,11 @@
         "id": "sleep-pink-noise-rem",
         "type": "あわせて読む",
         "why": "寝るときに流す音の話。ピンクノイズを流すと眠りはどうなるか"
+      },
+      {
+        "id": "dokugaku-cant-sleep-worrying-about-study-exam-bedtime-music",
+        "type": "反対の結果",
+        "why": "歌詞なしの人気曲を寝る前に聴くと、頭の中で曲が鳴って眠りが悪くなった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-music-insomnia-cochrane"
@@ -32675,6 +32896,11 @@
         "id": "caffeine-coffee-health-umbrella",
         "type": "あわせて読む",
         "why": "長い目での健康との関係は、こちらの大きなまとめで"
+      },
+      {
+        "id": "caffeine-coffee-arrhythmia-ukbiobank",
+        "type": "あわせて読む",
+        "why": "38万人を追った観察研究では、コーヒーが多い人ほど不整脈が少なかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-crave-coffee-trial"

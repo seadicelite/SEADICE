@@ -2045,11 +2045,14 @@
   <url><loc>https://seadice.win/evidence/work/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/smartphone-sns/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/language-learning/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/loneliness/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/relationships/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/loneliness/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/decision-bias/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/light-circadian/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/body-myths/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/sleep-environment/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/caffeine/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/parenting/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/pets/</loc><lastmod>2026-11-08</lastmod></url>
@@ -2065,7 +2068,6 @@
   <url><loc>https://seadice.win/evidence/games/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-appetite/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/parenting/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/brain-myths/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/japan/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/love/</loc><lastmod>2026-11-08</lastmod></url>
@@ -2075,9 +2077,7 @@
   <url><loc>https://seadice.win/evidence/weather-mood/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/aging-parents/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/scent-memory/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/sleep-environment/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/color-psychology/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/caffeine/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/posture-pain/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/alcohol/</loc><lastmod>2026-11-08</lastmod></url>
@@ -2170,8 +2170,8 @@
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-sweetener-weight-meta/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-detox-diet-review/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-myths/foodmyth-fruit-sugar-diabetes/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep-appetite/appetite-sleep-deprivation-meta/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/hanzai-scared-straight/</loc><lastmod>2026-10-13</lastmod></url>
@@ -2180,9 +2180,9 @@
   <url><loc>https://seadice.win/evidence/crime-prevention/bohan-cctv-meta/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/crime-prevention/bohan-neighborhood-watch/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/aging-parents/oya-brain-training-active-10y/</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://seadice.win/evidence/parenting/kosodate-spanking-meta/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://seadice.win/evidence/parenting/kosodate-shared-book-reading/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://seadice.win/evidence/parenting/kosodate-sleep-training-5y/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://seadice.win/evidence/parenting/kosodate-spanking-meta/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/parenting/kosodate-shared-book-reading/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/parenting/kosodate-sleep-training-5y/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/laughter/laughter-cortisol-meta/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/mindfulness/mindfulness-adverse-events/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/happy-lottery-wealth/</loc><lastmod>2026-11-05</lastmod></url>
@@ -2211,16 +2211,16 @@
   <url><loc>https://seadice.win/evidence/language-learning/lang-language-apps/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/procrastination/procrastination-pomodoro-breaks/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/insight/insight-background-music/</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://seadice.win/evidence/sleep-environment/sleep-eye-mask-memory/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://seadice.win/evidence/sleep-environment/sleep-eye-mask-memory/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/breathing-stress/breathing-breathwork-meta/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/loneliness/social-loneliness-interventions-meta/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/body-myths/tobacco-heated-less-harmful/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://seadice.win/evidence/body-myths/tobacco-stress-relief/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://seadice.win/evidence/money/moneylife-cashless-overspending/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/money/moneylife-cash-transfer-work/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://seadice.win/evidence/parenting/kids-english-early-start/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://seadice.win/evidence/parenting/kids-homework-achievement/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://seadice.win/evidence/parenting/kids-parent-homework-help/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://seadice.win/evidence/parenting/kids-english-early-start/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/parenting/kids-homework-achievement/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/parenting/kids-parent-homework-help/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/replication/replication-dunning-kruger-artifact/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/sleep/sleep-90-minute-cycle/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/pets/pet-fish-memory-three-seconds/</loc><lastmod>2026-11-06</lastmod></url>
