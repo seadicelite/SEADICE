@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-reading-too-slow-cannot-finish-speed-reading",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Rayner et al., \"So Much to Read, So Little Time: How Do We Read, and Can Speed Reading Help?\" (Psychological Science in the Public Interest, 2016)",
+    "sourceUrl": "https://doi.org/10.1177/1529100615623267",
+    "studyType": "レビュー",
+    "articleUrl": "https://dokugaku.seadice.win/reading-too-slow-cannot-finish/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "速読を覚えれば、理解したまま何倍も速く読める？",
+        "body": "「速読で本を3倍速く読める」という話、よく聞くよね。読む量が多い人ほど気になるはず。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "読みの研究者たちがまとめて検証",
+        "body": "読む仕組みの研究者5人が、目の動きや速読の研究をまとめたレビューを2016年に出したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "速さと理解は引き換えだった",
+        "body": "結論は、理解を保ったまま1分約250語から500〜750語に速めるのは難しい、というもの。ざっと読みなら速く読めるけど、理解はほどほどになるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "英語の読書の研究が中心",
+        "body": "数字は英語の「1分に何語」で示されていて、日本語の文章でどうなるかはこのレビューだけではわからない。理解を保って速くする道は、読む練習と語彙を増やすことだとされている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-reading-too-slow-cannot-finish-speed-reading"
+  },
+  {
+    "id": "dokugaku-study-room-lighting-how-to-bright-light",
+    "category": "光と体内時計",
+    "kind": "よくある説",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Lok et al., \"Light, Alertness, and Alerting Effects of White Light: A Literature Overview\" (Journal of Biological Rhythms, 2018)",
+    "sourceUrl": "https://doi.org/10.1177/0748730418796443",
+    "studyType": "レビュー",
+    "articleUrl": "https://dokugaku.seadice.win/study-room-lighting-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "明るい部屋なら頭がさえる？",
+        "body": "「勉強は明るい部屋で」ってよく言うよね。明るい光で目が覚める感じ、たしかにある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "昼の光の実験19件を整理",
+        "body": "オランダの研究者たちが、昼に白い光の明るさを変えた19件の研究を2018年にまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "眠気は減るけど、成績は分かれる",
+        "body": "眠気の自己評価を測った18件のうち14件で、明るい光の効果が出た。でも注意を保つ課題では10件中5件だけ。判断や切り替えの課題では、悪くなった研究も4件あったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究ごとに条件がばらばら",
+        "body": "光の強さや時間、測り方が研究ごとに違って、著者らは昼の効果は「はっきりしない」とまとめている。勉強の成績まで上がるかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#dokugaku-study-room-lighting-how-to-bright-light"
+  },
+  {
+    "id": "dokugaku-english-video-subtitles-how-to-native-subtitles",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Mitterer & McQueen, \"Foreign Subtitles Help but Native-Language Subtitles Harm Foreign Speech Perception\" (PLoS ONE, 2009)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0007785",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/english-video-subtitles-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "日本語字幕で海外ドラマを見れば英語が身につく？",
+        "body": "好きなドラマを日本語字幕で見ていれば、そのうち英語も聞けるようになる。そう思って見ている人、けっこういるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "字幕の言語を変えて25分見てもらった",
+        "body": "オランダの研究者が、英語の得意な大学生120人に、聞き慣れないスコットランドやオーストラリアの英語のドラマ・映画を25分見てもらった。字幕は英語・オランダ語・なしの3通り。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "母語の字幕だと、新しい文の聞き取りが下がった",
+        "body": "見た後に初めて聞く文を復唱してもらうと、英語字幕の人は字幕なしの人よりよく聞き取れた。逆に、母語の字幕で見た人は字幕なしより悪かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "25分の実験で、測ったのは「なまりへの慣れ」",
+        "body": "単語をどれだけ覚えたかや、何か月も見続けたときの効果は測っていない。英語がもともと得意な人たちでの結果でもあるよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "lang-captioned-video",
+        "type": "あわせて読む",
+        "why": "英語の字幕つき動画で単語が増えるかをまとめた研究。英語字幕の良さを別の面から見ている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-english-video-subtitles-how-to-native-subtitles"
+  },
+  {
+    "id": "laughter-humor-therapy-older-adults-cognition-meta",
+    "category": "笑いと健康",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Effects of humor therapy on negative emotions, quality of life and cognitive function in older adults: A systematic review and meta-analysis (Geriatric Nursing, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.gerinurse.2024.10.054",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "よく笑うと、ボケ防止になる？",
+        "body": "「笑うと認知症の予防になる」ってよく聞くよね。笑いを取り入れた教室をしている地域もある。でも、もの忘れまで本当に変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "高齢者の13の研究、984人分",
+        "body": "高齢者に笑いやユーモアのプログラムを試した研究を、中国語と英語の論文から集めた。くじで組を分けた試験9件と、それに近い方法の研究4件、合わせて984人分をまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気分は上向き、もの忘れは変わらず",
+        "body": "笑いのプログラムで、落ち込みと孤独感が軽くなり、暮らしの満足感も上がった。でも、考える力やもの忘れがよくなるとは言えなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな研究が中心",
+        "body": "1本1本の研究は小さく、きちんとくじ引きでない研究も入っている。考える力は数字でまとめられず、研究ごとの結果を読み比べただけ。著者らも、さらに研究が要るとしているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-therapy-meta-depression",
+        "type": "あわせて読む",
+        "why": "年齢を限らず、笑いの療法で気分の落ち込みが軽くなるかをまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-humor-therapy-older-adults-cognition-meta"
+  },
+  {
+    "id": "speech-gratitude-letter-underestimate",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Kumar & Epley, \"Undervaluing Gratitude: Expressers Misunderstand the Consequences of Showing Appreciation\" (Psychological Science, 2018)",
+    "sourceUrl": "https://doi.org/10.1177/0956797618772506",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「ありがとう」を改めて伝えるのは気まずい？",
+        "body": "お世話になった人にお礼を言いたいけど、今さら照れくさいし、相手も困るかも。そう思って、つい言わずにいること、あるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "感謝の手紙を書いて、相手に届けた",
+        "body": "アメリカの研究者が3つの実験で、参加者に感謝の手紙を書いてもらった。書いた人は相手の気持ちを予想し、受け取った人は実際の気持ちを答えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "相手は思ったより喜んで、気まずくなかった",
+        "body": "書いた人は、相手がどれだけ喜ぶかを低く、どれだけ気まずいかを高く見積もっていた。気まずさを大きく見込む人ほど、感謝を伝えたがらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "手紙1通の、その場の気持ち",
+        "body": "測ったのは手紙を受け取ったその場の気持ちで、そのあと関係が変わったかは調べていない。口で直接言う場合や、ほかの国や文化でも同じかは、この研究だけではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-compliment-underestimate",
+        "type": "あわせて読む",
+        "why": "褒め言葉でも、相手の喜びを低く、気まずさを高く見積もっていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-gratitude-letter-underestimate"
+  },
+  {
     "id": "digital-bedtime-phone-30min-rct",
     "category": "デジタルデトックス",
     "kind": "素朴な疑問",
@@ -5519,7 +5706,14 @@
         "body": "調べたのは、本心から書いた褒め言葉を1回伝える場面。何度も褒めたときや、お世辞と受け取られたとき、関係が長く良くなるかはわかっていないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/speaking/#speech-compliment-underestimate"
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-compliment-underestimate",
+    "links": [
+      {
+        "id": "speech-gratitude-letter-underestimate",
+        "type": "あわせて読む",
+        "why": "感謝の手紙でも、相手の喜びを低く、気まずさを高く見積もっていた"
+      }
+    ]
   },
   {
     "id": "digital-phantom-vibration",
@@ -28154,6 +28348,11 @@
         "id": "laughter-yoga-cortisol",
         "type": "あわせて読む",
         "why": "笑いヨガ1回で、ストレスへの体の反応を見た小さな実験"
+      },
+      {
+        "id": "laughter-humor-therapy-older-adults-cognition-meta",
+        "type": "あわせて読む",
+        "why": "高齢者にしぼると、気分は上向いたが、もの忘れは変わらなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/laughter/#laughter-therapy-meta-depression"
@@ -35107,6 +35306,11 @@
         "id": "lang-listening-incidental-vocab",
         "type": "あわせて読む",
         "why": "読む・聞く・見るだけで単語がどれだけ覚えられるかを比べたメタ分析。見るだけの場合は少なめだった"
+      },
+      {
+        "id": "dokugaku-english-video-subtitles-how-to-native-subtitles",
+        "type": "あわせて読む",
+        "why": "母語の字幕は、なまりの聞き取りの上達をかえって妨げた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/language-learning/lang-captioned-video/"
