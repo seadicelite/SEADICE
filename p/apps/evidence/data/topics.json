@@ -1,5 +1,216 @@
 [
   {
+    "id": "research-jet-lag-recovery-light-timing-research-preflight",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Burgess et al., \"Preflight adjustment to eastward travel: 3 days of advancing sleep with and without morning bright light\" (Journal of Biological Rhythms, 2003)",
+    "sourceUrl": "https://doi.org/10.1177/0748730403253585",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/jet-lag-recovery-light-timing-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "時差ぼけは出発前に減らせる？",
+        "body": "東向きの旅は時差ぼけがつらいよね。出発前に体内時計を先に動かしておけないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3日間、毎日1時間ずつ早寝早起き",
+        "body": "健康な若い大人28人が、3日間、毎日1時間ずつ早寝早起きした。起きてから3.5時間、強い光を浴び続ける組、30分おきにつけたり消したりする組、薄暗い室内の組に分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "強い光で約2時間早まった",
+        "body": "体内時計は、浴び続けた組で2.1時間、30分おきの組で1.5時間、薄暗い組で0.6時間早まった。光の2組どうしに大きな差はなく、睡眠や気分への副作用は小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際の旅では試していない",
+        "body": "研究室の実験で、飛行機に乗った後に時差ぼけが軽くなるかは調べていないよ。人数も28人と少なく、若い大人だけが対象だった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "light-jet-lag-east-west-baseball",
+        "type": "あわせて読む",
+        "why": "東向きがつらい理由と、出発前に体内時計を動かす方法"
+      },
+      {
+        "id": "circadian-morning-phase-advance",
+        "type": "あわせて読む",
+        "why": "同じく朝の強い光と早寝で体内時計を早めた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#research-jet-lag-recovery-light-timing-research-preflight"
+  },
+  {
+    "id": "research-forgotten-words-relearning-savings-research-relearn",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Miendlarzewska et al., \"Reward-enhanced encoding improves relearning of forgotten associations\" (Scientific Reports, 2018)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-018-26929-w",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/forgotten-words-relearning-savings-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "忘れた記憶は、もう消えた？",
+        "body": "思い出せないことって、頭から消えちゃったのかな。それとも、どこかに残っているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6週間後にほぼ思い出せない状態",
+        "body": "19人が物の絵と画面の位置の組み合わせを覚えた。半分にはお金のごほうびつき。6週間後の正答率は21.2%で、当てずっぽうの16.67%に近かったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1回見直すと6割を超えた",
+        "body": "思い出せなかった組み合わせも、1回見直すと正答率は6割を超えた。最初にごほうびがついていた組み合わせは、学び直しがさらに速かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、選ばれた人だけ",
+        "body": "分析したのは、覚えるときにごほうびの効果が出た19人だけ。まったく新しい組み合わせを覚える場合とも比べていないから、記憶の跡がどれだけ残るのかはまだはっきりしない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-forgotten-language-relearning-permastore",
+        "type": "あわせて読む",
+        "why": "何十年も残る語学の記憶と、忘れても学び直しが速い実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-forgotten-words-relearning-savings-research-relearn"
+  },
+  {
+    "id": "research-flashcards-how-to-use-research-relearn3",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Rawson & Dunlosky, \"Optimizing schedules of retrieval practice for durable and efficient learning: How much is enough?\" (Journal of Experimental Psychology: General, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0023956",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/flashcards-how-to-use-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "暗記は何回くり返せばいい？",
+        "body": "単語や用語を覚えるとき、何回正解したら次に進んでいいのか迷うよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "533人で回数と学び直しを比べた",
+        "body": "3つの実験で学生533人が用語の説明を思い出す練習をした。最初の日に1〜4回正解するまで練習して、そのあと1〜5回学び直したんだ。1〜4か月後に記憶を調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "最初に3回、あとで3回",
+        "body": "学び直しの効果が大きく、追加の練習量はそれほど増えなかった。著者たちのおすすめは、最初に3回正解するまで練習して、日を大きくあけて3回学び直すことらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんな教材にも当てはまる？",
+        "body": "大学生が用語の説明を覚える課題での結果で、計算や長い文章の理解でも同じかはわからない。あけるべき日数も、教材によって変わるかもしれないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-review-backlog-catch-up-drop-from-testing",
+        "type": "あわせて読む",
+        "why": "覚えた単語を外していいかと、何回正解まで練習するか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-flashcards-how-to-use-research-relearn3"
+  },
+  {
+    "id": "posture-upright-walking-stress",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Hackford, Mackey & Broadbent, \"The effects of walking posture on affective and physiological states during stress\" (Journal of Behavior Therapy and Experimental Psychiatry, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.jbtep.2018.09.004",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "背筋を伸ばして歩くと、ストレスに強くなる？",
+        "body": "落ち込むとうつむいて歩きがちだよね。逆に、胸を張って歩いたら気持ちも変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "歩きながらストレス課題",
+        "body": "健康な大人73人を、背筋を伸ばして歩く組と背中を丸めて歩く組にくじで分けた。歩きながらストレスのかかる課題をして、気分や血圧などを測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "伸ばした組のほうが楽だった",
+        "body": "背筋を伸ばした組は、丸めた組より、沈んだ気分や眠気、痛みが少なかった。血圧（上）や汗の反応も低かったらしい。力がわく感じは、わずかに高い程度だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い実験室の話",
+        "body": "著者たちも書いているとおり、研究室での短い実験で、ふだんの生活や別の場面でも同じかはわからない。ずっと続けたらどうなるかも調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-happy-walk-memory",
+        "type": "あわせて読む",
+        "why": "歩き方を変えると、気分や覚えることも変わるかを見た実験"
+      },
+      {
+        "id": "posture-confidence",
+        "type": "あわせて読む",
+        "why": "座った姿勢で、同じようにストレス場面を調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-upright-walking-stress"
+  },
+  {
+    "id": "foodmyth-collagen-skin-funding",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Myung & Park, \"Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials\" (The American Journal of Medicine, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.amjmed.2025.04.034",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コラーゲンを飲むと、肌がぷるぷるになる？",
+        "body": "コラーゲン入りのドリンクやサプリ、肌のハリやしわに効くってよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "23の試験・1474人をまとめた",
+        "body": "コラーゲンを飲む組と飲まない組にくじで分けた試験23本、合わせて1474人の結果を、韓国の研究者がまとめたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "会社のお金が入らない研究では差なし",
+        "body": "全部まとめると、肌のうるおい・弾力・しわは良くなって見えた。でも製薬会社のお金が入っていない研究や、質の高い研究だけでは、どれも差がなかった。著者は、肌の老化に使う根拠は今のところない、としているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "絞った後の数は要旨にない",
+        "body": "会社のお金や研究の質で分けた後、何本の研究が残ったかは要旨に書かれていない。飲む量や期間で違うかも、このまとめだけではわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "foodmyth-detox-diet-review",
+        "type": "あわせて読む",
+        "why": "体にいいと売られる食べ方を、研究で確かめた別のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-collagen-skin-funding"
+  },
+  {
     "id": "dokugaku-reading-too-slow-cannot-finish-speed-reading",
     "category": "学習法",
     "kind": "よくある説",
@@ -4418,7 +4629,14 @@
         "body": "試合の記録を分析した研究で、選手の眠りや体内時計を測ったわけではない。移動の時間も「前の試合の直後に動いた」と仮定していて、一般の旅行者にも同じかはわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/light-circadian/#light-jet-lag-east-west-baseball"
+    "webUrl": "https://seadice.win/evidence/light-circadian/#light-jet-lag-east-west-baseball",
+    "links": [
+      {
+        "id": "research-jet-lag-recovery-light-timing-research-preflight",
+        "type": "あわせて読む",
+        "why": "東向きがつらい理由と、出発前に体内時計を動かす方法"
+      }
+    ]
   },
   {
     "id": "research-stressful-period-procrastination-recovery-research-self-rated-health",
@@ -8248,7 +8466,14 @@
         "body": "外国語の単語を覚える実験室の研究で、文章の理解や問題を解く力で同じ大きさの差が出るかは、この研究だけではわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-review-backlog-catch-up-drop-from-testing"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-review-backlog-catch-up-drop-from-testing",
+    "links": [
+      {
+        "id": "research-flashcards-how-to-use-research-relearn3",
+        "type": "あわせて読む",
+        "why": "覚えた単語を外していいかと、何回正解まで練習するか"
+      }
+    ]
   },
   {
     "id": "dokugaku-review-backlog-catch-up-expanding-schedule",
@@ -10402,6 +10627,11 @@
         "id": "posture-gait-sadness",
         "type": "あわせて読む",
         "why": "気分が歩き方に出る研究と、歩き方を変えて心の動きを見た研究"
+      },
+      {
+        "id": "posture-upright-walking-stress",
+        "type": "あわせて読む",
+        "why": "歩き方を変えると、気分や覚えることも変わるかを見た実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-happy-walk-memory"
@@ -14810,6 +15040,11 @@
         "id": "lang-critical-period-age",
         "type": "あわせて読む",
         "why": "大人になってから学んだ語学が、何十年たってどれだけ残るかを調べた研究"
+      },
+      {
+        "id": "research-forgotten-words-relearning-savings-research-relearn",
+        "type": "あわせて読む",
+        "why": "何十年も残る語学の記憶と、忘れても学び直しが速い実験"
       }
     ]
   },
@@ -16933,6 +17168,11 @@
         "id": "posture-upright-depressive-symptoms",
         "type": "あわせて読む",
         "why": "同じスピーチ課題を、健康な74人で試した実験"
+      },
+      {
+        "id": "posture-upright-walking-stress",
+        "type": "あわせて読む",
+        "why": "座った姿勢で、同じようにストレス場面を調べた実験"
       }
     ]
   },
@@ -20303,6 +20543,11 @@
         "id": "circadian-camping-natural-light",
         "type": "あわせて読む",
         "why": "朝の光で体内時計が早まることを、実験と野外の両方で示す"
+      },
+      {
+        "id": "research-jet-lag-recovery-light-timing-research-preflight",
+        "type": "あわせて読む",
+        "why": "同じく朝の強い光と早寝で体内時計を早めた実験"
       }
     ]
   },
@@ -32315,7 +32560,13 @@
         "body": "これは「確かめた研究がない」という結論で、効かないと示したわけではない。2015年時点のまとめで、数字でまとめた分析でもないよ。著者はきちんとした試験が必要だと書いている。"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "id": "foodmyth-collagen-skin-funding",
+        "type": "あわせて読む",
+        "why": "体にいいと売られる食べ方を、研究で確かめた別のまとめ"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-detox-diet-review/"
   },
   {

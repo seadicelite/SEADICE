@@ -2048,10 +2048,12 @@
   <url><loc>https://seadice.win/evidence/loneliness/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/relationships/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/decision-bias/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/body-myths/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/light-circadian/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/body-myths/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-myths/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/mental-health/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/pets/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/posture-confidence/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/laughter/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/speaking/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/digital-detox/</loc><lastmod>2026-11-08</lastmod></url>
@@ -2078,13 +2080,11 @@
   <url><loc>https://seadice.win/evidence/caffeine/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/posture-pain/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-myths/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/alcohol/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/breathing-stress/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/nature/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/money/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/posture-confidence/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/crime-prevention/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/brain-myths/brain-game-brain-myth/</loc><lastmod>2026-11-06</lastmod></url>
@@ -2108,9 +2108,9 @@
   <url><loc>https://seadice.win/evidence/decision-bias/bias-mere-exposure/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://seadice.win/evidence/food-brain/food-breakfast-weight/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/happy-income-conflict-resolved/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/memory/memory-ebbinghaus-replication/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://seadice.win/evidence/memory/memory-ebbinghaus-replication/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/music-mozart-effect-metaanalysis/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/posture-confidence/posture-power-pose-hormones-debunk/</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://seadice.win/evidence/posture-confidence/posture-power-pose-hormones-debunk/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/relationships/hanzai-milgram-replication/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/learning/learning-10000-hours/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/focus/focus-multitask-gender/</loc><lastmod>2026-11-07</lastmod></url>
@@ -2128,9 +2128,9 @@
   <url><loc>https://seadice.win/evidence/personality/personality-heritability/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/face-impression/face-trustworthiness-detection/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/face-impression/face-averageness-beauty/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-late-eating-hunger/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-lowcarb-vs-lowfat/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-msg-headache/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-late-eating-hunger/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-lowcarb-vs-lowfat/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-msg-headache/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/personality/personality-change-intervention/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/personality/personality-big-five-life-outcomes/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/personality/personality-conscientiousness-longevity/</loc><lastmod>2026-11-08</lastmod></url>
@@ -2166,10 +2166,10 @@
   <url><loc>https://seadice.win/evidence/music-focus/music-binaural-beats-brainwave/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/music-bgm-difficult-tasks-review/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/music-exercise-performance-metaanalysis/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-egg-cholesterol-heart/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-sweetener-weight-meta/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-detox-diet-review/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-fruit-sugar-diabetes/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-egg-cholesterol-heart/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-sweetener-weight-meta/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-detox-diet-review/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-myths/foodmyth-fruit-sugar-diabetes/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/</loc><lastmod>2026-11-08</lastmod></url>
