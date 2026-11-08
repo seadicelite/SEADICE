@@ -14,7 +14,7 @@ model: opus
 - 個人情報を外部サービスに送る
 
 ## 前提として読むもの
-CLAUDE.md（seadice.win の目標・「AIが補えない部分」・1番の取り方）、対象メディアの設定（seadice-media の media/{slug}.json）とルール（.claude/commands/{slug}.md）、公開中のトップ・llms.txt・sitemap.xml（`curl -s` で取得してよい）。
+docs/strategy.md（目標・「AIが補えない部分」・1番の取り方・見る数字）、対象メディアの設定（seadice-media の media/{slug}.json）とルール（.claude/commands/{slug}.md）、公開中のトップ・llms.txt・sitemap.xml（`curl -s` で取得してよい）。
 
 ## 何を調べるか
 1. **今の姿**: 記事数・分野ごとの本数・道具（ツール・シミュレーター）の有無・一次データの有無・内部リンクのつながり方。薄い分野、孤立した記事

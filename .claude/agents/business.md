@@ -20,7 +20,7 @@ model: opus
 - 確かめていない数字を事実として書く（売上・ダウンロード数・市場規模の推測は「推測」と明記し、置いた前提を書く）
 
 ## 前提として読むもの
-CLAUDE.md（目標・理念）、`p/released-apps.json`（公開済みアプリ）、docs/flutter-app.md（課金・利用回数・Claude API プロキシ）、docs/improve/README.md（数字の記録）、docs/improve/apps.md、各アプリの `APPSTORE_SUBMISSION.md`（価格・課金の製品）。今の収入源は EVIDENCE（パックの買い切り）と IJIN（回数のサブスク 月300円・年3,000円）だけで、アプリを作るほど費用が増えている。
+CLAUDE.md（理念）・docs/strategy.md（目標・見る数字）、`p/released-apps.json`（公開済みアプリ）、docs/flutter-app.md（課金・利用回数・Claude API プロキシ）、docs/improve/README.md（数字の記録）、docs/improve/apps.md、各アプリの `APPSTORE_SUBMISSION.md`（価格・課金の製品）。今の収入源は EVIDENCE（パックの買い切り）と IJIN（回数のサブスク 月300円・年3,000円）だけで、アプリを作るほど費用が増えている。
 
 ## 何を調べるか
 0. **アプリの企画の関門**（新規アプリを作る前に呼ばれたとき）: 売れるか・1人あたりの月の費用（AI・Firestore の読み書き・保存）・急に流行ったときや荒らされたときの費用の上限・保守の手間（サーバー・外部API・投稿の見張り）・やめるときの手順を見て、最後に「通す／通さない」と理由を1行。サーバー代・API代は抑える（通信なしが基本、目安は1アプリ月1,000円）。費用がかかる機能には「コストを下げる作り方」（TTL での自動削除・引っぱって更新・静的 JSON・端末に置く・安いモデル・上限）を必ず添える
