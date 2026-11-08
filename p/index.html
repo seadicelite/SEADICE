@@ -339,6 +339,11 @@
     .foot-bottom a { color: var(--muted); text-decoration: none; padding: 6px 0; display: inline-block; }
     .foot-bottom a:hover { color: var(--text); }
     .foot-bottom nav { all: unset; display: flex; flex-wrap: wrap; gap: 0 20px; }
+  
+    /* 2026-11-08 脳科学マーケの研究から: 悩みの入口を最初の画面に（情報のにおい・フィッツ）、小さい文字を大きく（Rello 2016） */
+    .dir li span { font-size: 14px; }
+    @media (max-width: 599px) { .hero-art { width: 64px; } .hero-in { gap: 16px; padding-top: 28px; } .worry-label { margin-top: 24px; } .worry { margin-top: 12px; } .worry a { padding: 12px 10px; gap: 8px; font-size: 14px; word-break: keep-all; letter-spacing: -.01em; } .worry .picto { width: 18px; height: 18px; } }
+    @media (max-width: 959px) { .biz a { grid-template-columns: 76px 1fr; } .biz .no { white-space: nowrap; } }
   </style>
 </head>
 <body>
@@ -366,16 +371,16 @@
         <h1><span class="sr-only">SEADICE（シーダイス）— </span><abbr title="人工超知能">ASI</abbr>の時代を、<br><span class="ac">乗り越える。</span></h1>
         <p class="hero-slogan">誠実なサービスで、信頼に応える。</p>
         <p class="hero-desc"><strong>SEADICE（シーダイス）</strong>は、AIを活用して社会の問題を見つけ、独自のデータとアプリで解決するスタジオです。</p>
-        <ul class="facts"><li><b data-count="evidence">1170</b>本<span>確かめた研究</span></li><li><b data-count="apps">51</b>本<span>iPhoneアプリ</span></li><li><b>0</b><span>広告</span></li></ul>
         <p class="worry-label">困っていることから選ぶ</p>
         <div class="worry">
-          <a class="urgent" href="#sagi"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/></svg><span>怪しい電話・連絡</span></a>
+          <a class="urgent" href="#sagi"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/></svg><span>怪しい電話・<wbr>連絡</span></a>
           <a href="https://oya.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="5" r="2"/><path d="M11 8v6l-3 6.5M11 14l3 6.5M8 10.5l3-1.5 3 2.5M17.5 11v9.5"/></svg><span>親のことが心配</span></a>
-          <a href="https://kosodate.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="3.5"/><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0"/></svg><span>子どものAI・スマホ</span></a>
-          <a href="https://ai.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9.5 3v3M14.5 3v3M9.5 18v3M14.5 18v3M3 9.5h3M3 14.5h3M18 9.5h3M18 14.5h3M10 10h4v4h-4z"/></svg><span>AIが不安・困った</span></a>
+          <a href="https://kosodate.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="3.5"/><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0"/></svg><span>子どものAI・<wbr>スマホ</span></a>
+          <a href="https://ai.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9.5 3v3M14.5 3v3M9.5 18v3M14.5 18v3M3 9.5h3M3 14.5h3M18 9.5h3M18 14.5h3M10 10h4v4h-4z"/></svg><span>AIが不安・<wbr>困った</span></a>
           <a href="https://ledger.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 7.5l3.5 5 3.5-5M12 12.5v5M9 12.5h6M9 15h6"/></svg><span>お金の使い方</span></a>
-          <a href="https://research.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"/></svg><span>眠れない・続かない</span></a>
+          <a href="https://research.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"/></svg><span>眠れない・<wbr>続かない</span></a>
         </div>
+        <ul class="facts"><li><b data-count="evidence">1170</b>本<span>確かめた研究</span></li><li><b data-count="apps">51</b>本<span>iPhoneアプリ</span></li><li><b>0</b><span>広告</span></li></ul>
       </div>
       <svg class="hero-art" viewBox="0 0 300 330" aria-hidden="true">
         <g class="cube"><path d="M150 40l95 55-95 55-95-55z"/><path d="M55 95l95 55v110l-95-55z"/><path d="M245 95l-95 55v110l95-55z"/></g>
@@ -393,25 +398,25 @@
               </div>
       <div class="biz">
         <a href="#media">
-          <span class="no">01</span>
+          <span class="no">01 知る</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 3.5h9l4 4v13h-13z"/><path d="M14.5 3.5v4h4M8.5 12h7M8.5 15.5h7M8.5 9h3"/></svg>
-          <h3>知る</h3>
-          <p>論文まで確かめたメディアと講座</p>
-          <span class="go">メディアと講座 &rarr;</span>
+          <h3>メディアと講座</h3>
+          <p>論文まで確かめた解説と、無料の講座</p>
+          <span class="go">記事と講座を読む &rarr;</span>
         </a>
         <a href="/tools/">
-          <span class="no">02</span>
+          <span class="no">02 試す</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h16M4 17.5h16"/><circle cx="9" cy="6.5" r="2" fill="#05050C"/><circle cx="15" cy="12" r="2" fill="#05050C"/><circle cx="7" cy="17.5" r="2" fill="#05050C"/></svg>
-          <h3>試す</h3>
-          <p>登録なしで動くWebの道具</p>
-          <span class="go">Webツールと診断 &rarr;</span>
+          <h3>Webツールと診断</h3>
+          <p>登録なしで動く計算・チェック・診断</p>
+          <span class="go">道具を使う &rarr;</span>
         </a>
         <a href="/apps/">
-          <span class="no">03</span>
+          <span class="no">03 続ける</span>
           <svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
-          <h3>続ける</h3>
-          <p>広告なしのiPhoneアプリ</p>
-          <span class="go">アプリ一覧 &rarr;</span>
+          <h3>iPhoneアプリ</h3>
+          <p>広告なしで、続けて使える</p>
+          <span class="go">アプリを探す &rarr;</span>
         </a>
       </div>
     </div>
