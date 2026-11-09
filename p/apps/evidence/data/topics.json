@@ -1,5 +1,185 @@
 [
   {
+    "id": "kokoro-volunteering-loneliness-prevent-onset-ending",
+    "category": "孤独とつながり",
+    "kind": "よくある説",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Richardson A et al., \"The Association Between the Onset and Ending of Volunteering on Loneliness and Perceived Social Isolation Among Older Adults: Longitudinal Evidence From the German Ageing Survey\" (Brain and Behavior, 2025)",
+    "sourceUrl": "https://doi.org/10.1002/brb3.70244",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/volunteering-loneliness-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ボランティアを始めると孤独が減る？",
+        "body": "人とのつながりを増やしたいなら、ボランティアがいいってよく聞くよね。でも、始めた前と後、やめた前と後を同じ人で比べた研究は、実はまだ少ないんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "65歳以上を3年あけて2回調査",
+        "body": "ドイツの全国調査で、65歳以上の人に2014年と2017年に答えてもらったんだ。そのあいだにボランティアを始めた188人と、やめた307人の変化を見たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "始めた人は孤独感がわずかに下がった",
+        "body": "始めた人では、孤独感がわずかに下がる関連があったらしい。ただ「社会から切り離されている感じ」は変わらず、やめた人で孤独感が増える関連も見られなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因とまでは言えない",
+        "body": "観察研究なので、ボランティアが孤独を減らしたとは言い切れないよ。対象はドイツの65歳以上だけで、答えは自己申告。活動の時間も測っていないから、ほかの年代でも同じかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-volunteering-health",
+        "type": "あわせて読む",
+        "why": "ボランティアと心の健康全体の関係をまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-volunteering-loneliness-prevent-onset-ending"
+  },
+  {
+    "id": "kokoro-income-rank-comparison-low-mood-rank",
+    "category": "お金の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Euteneuer F et al., \"Income rank and depressive symptoms among employees in Germany − A 5-year cross-lagged panel analysis\" (International Journal of Clinical and Health Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.ijchp.2024.100485",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/income-rank-comparison-low-mood/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "友達の年収で落ち込むのはなぜ？",
+        "body": "生活に困っているわけじゃないのに、同期や友達の年収を聞くと沈むことってあるよね。心に関わるのは、収入の額？それとも周りとの差？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ドイツの働く人を5年追った",
+        "body": "ドイツの働く人4,201人で、性別・年代・職種のレベルが同じ人の中で収入が何番目かを計算して、5年後の落ち込みの症状と比べたんだ（5年後に答えたのは2,481人）。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "額より「順位」",
+        "body": "順位が低い人ほど、収入の額を考えに入れても、5年後に気分や自己評価にかかわる落ち込みの症状が強い傾向があったらしい。だるさや睡眠など体の症状と関わっていたのは、額のほうだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当に比べていた？",
+        "body": "観察研究だから原因とは言えないよ。比べる相手は研究者が決めたグループで、本人が実際に誰と比べていたかは聞いていない。比べる気持ちがあいだに入っているのかも、確かめていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "happy-income-conflict-resolved",
+        "type": "あわせて読む",
+        "why": "収入の「額」と幸せの関係を調べた研究。こちらは周りとの「順位」"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#kokoro-income-rank-comparison-low-mood-rank"
+  },
+  {
+    "id": "research-boring-task-purpose-procrastination-research-purpose",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Yeager et al., \"Boring but important: A self-transcendent purpose for learning fosters academic self-regulation\" (Journal of Personality and Social Psychology, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/a0037637",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/boring-task-purpose-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "退屈な作業、どうしたら続く？",
+        "body": "大事だけどつまらない作業って、すぐスマホに手が伸びるよね。じゃあ「なぜやるのか」の理由を変えたら、続けやすくなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "計算か、動画かを選べる課題",
+        "body": "Yeagerら（2014）は、アメリカの大学生429人に、簡単な引き算を解くか動画やゲームで遊ぶかを自由に選べる課題をしてもらったんだ。事前に一部の人は、学ぶ理由を「人の役に立つこと」と結びつける読み書きをした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "退屈な後半に36%多く解いた",
+        "body": "ふつうの組は後半に解いた数が44%減ったけど、理由を書いた組は26%減にとどまり、後半は36%多く解いた。「おもしろい仕事のため」という自分のための理由では、ふつうの組と差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事でも効くかは不明",
+        "body": "この結果は実験室の短い課題での話で、対象は1つの大学の学生。同じ論文で高校生の成績が数か月上がった研究もあるけど、大人の仕事や長い作業でも同じかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-boring-task-purpose-procrastination-research-purpose"
+  },
+  {
+    "id": "stress-cold-water-shower-meta",
+    "category": "呼吸とストレス",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Ngandeu Schepanski S et al., \"Cold-water exposure and psychological outcomes in adults: a systematic review and meta-analysis\" (Frontiers in Physiology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fphys.2026.1926423",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "冷たいシャワーでストレスに強くなる？",
+        "body": "冷水シャワーや水風呂、冬の水泳で気分がスッキリして、ストレスにも強くなるってよく聞くよね。研究をまとめると、どうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "13本・4,105人の研究をまとめた",
+        "body": "2026年のメタ分析が、冷水シャワー・冷水につかる・冬の水泳を試した大人の研究13本（4,105人）を集めて、気分やストレスへの影響をまとめたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "よさそうだけど、まだ言えない",
+        "body": "落ち込み・ストレス感・気分は、平均すると冷水の側にかたむいていたよ。でも幅がとても広く、比べる組がある研究だけで見ると小さくなった。不安には効果がはっきりしなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の質がまだ低い",
+        "body": "ほとんどの研究は、かたよりの危険が高いと評価されたんだ。前後を比べただけの研究も含まれる。著者は、心の不調の治療として使えるとは言えず、安全性も含めて大きな比較試験が要ると書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#stress-cold-water-shower-meta"
+  },
+  {
+    "id": "exercise-time-of-day-mood-sleep-meta",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Hu X, Chen P, \"Time-of-day effects of acute and regular exercise on sleep quality and mood: a three-level meta-analysis\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1933599",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動は朝と夜、どっちが気分にいい？",
+        "body": "朝に走るとスッキリする、夜に運動すると眠れない、なんて話をよく聞くよね。運動する時間帯で、気分や眠りは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじ引きの試験13本をまとめた",
+        "body": "2026年のメタ分析が、朝・昼・夕方・夜など運動する時間帯を変えたランダム化比較試験13本を集めて、眠りの質と気分への影響をまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "時間帯より、運動すること",
+        "body": "眠りの質は、時間帯どうしで比べてもはっきりした差がなかったよ。気分は時間帯で差が出そうな兆しはあったけど、厳しめの計算では差が消えた。著者は、時間帯より運動すること自体が大事かもしれないとまとめているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の数が少ない",
+        "body": "集まったのは13本だけ。「夕方より昼がいい」という結果も、2本の研究だけから出たものなんだ。何時に運動するのがいいかを決めるには、まだ証拠が足りないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-time-of-day-mood-sleep-meta"
+  },
+  {
     "id": "dokugaku-preview-headings-before-reading-headings-summary",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -23165,6 +23345,11 @@
         "id": "happy-lottery-wealth",
         "type": "あわせて読む",
         "why": "年収と幸せの関係を、毎日の気分で調べた研究"
+      },
+      {
+        "id": "kokoro-income-rank-comparison-low-mood-rank",
+        "type": "あわせて読む",
+        "why": "収入の「額」でなく、周りの中の「順位」と落ち込みを調べた研究"
       }
     ]
   },
@@ -34788,6 +34973,11 @@
         "id": "happy-kindness-meta",
         "type": "あわせて読む",
         "why": "人に親切にすると自分も幸せになるか。親切の実験をまとめた研究"
+      },
+      {
+        "id": "kokoro-volunteering-loneliness-prevent-onset-ending",
+        "type": "あわせて読む",
+        "why": "ボランティアを始めた・やめた前後で孤独感を比べた追跡調査"
       }
     ],
     "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-volunteering-health"
