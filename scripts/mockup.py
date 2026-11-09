@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """App Store のモックアップを、アプリの screenshots/mockup.json から全部の枠ぶん書き出す（docs/mockup.md）。
 
+  python3 scripts/mockup.py {アプリのフォルダ} --init-shots   # 実画面を撮るテストのひな形を作る
   python3 scripts/mockup.py {アプリのフォルダ} --init   # raw/ の画像から mockup.json のひな形と、アプリの色からの配色3案を出す
   python3 scripts/mockup.py {アプリのフォルダ}          # 書き出し → 点検 → 見え方の確認 → プレビューで開く
   python3 scripts/mockup.py {アプリのフォルダ} --styles   # 1〜3枚目を全スタイルで描いて見比べる（styles.png）
@@ -636,6 +637,113 @@ def init(shots_dir):
         print(f"  {k}: {json.dumps(v)}")
 
 
+SHOTS_TEMPLATE = """// App Store 用の実画面を、本物のフォントで描いて書き出す（合成は SEADICE/scripts/mockup.py、docs/mockup.md）。
+//   flutter test test_screenshots/shots_test.dart --update-goldens
+// 出力: screenshots/raw/*.png（iPhone 6.9インチ）と screenshots/raw_ipad/*.png（iPad 13インチ）
+// ひな形は `python3 SEADICE/scripts/mockup.py {{アプリのフォルダ}} --init-shots` で作った。TODO を埋める
+//
+// つまずきやすい所（docs/mockup.md「5. 実画面の撮り方」）:
+// - テストには日本語フォントがないので、下の _families すべてに NotoSansJP を読ませる（Cupertino のタブも含む。読まないと□になる）
+// - appBarTheme.titleTextStyle に fontFamily がないアプリはタイトルが□になる。テスト側でテーマを写し、タイトルにだけフォントを足す
+// - 問題や単語がシャッフルされるアプリは、flutter/assets をモックして写す中身を差し込む（50KBを超えるJSONは tester.runAsync で待つ）
+// - サンプルの中身は、それらしいもの。空の画面・エラー・個人名・価格の言葉（無料など）を写さない
+import 'dart:io';
+
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:{package}/main.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+{extra_imports}
+const _sizes = {{
+  'raw': (Size(440, 956), 3.0),
+  'raw_ipad': (Size(1032, 1376), 2.0),
+}};
+const _fontDir = '{font_dir}';
+const _families = ['NotoSansJP', 'Roboto', '.SF UI Text', '.SF UI Display', 'CupertinoSystemText', 'CupertinoSystemDisplay'];
+
+Future<void> _loadFont(String family, String path) async {{
+  final bytes = File(path).readAsBytesSync();
+  await (FontLoader(family)..addFont(Future.value(ByteData.view(bytes.buffer)))).load();
+}}
+
+/// TODO: 使っている人の様子がわかる保存データ（SharedPreferences のキーと値）。
+/// 初回の案内・ウェルカムは「見た」ことにしておく（しないと1枚目に案内が写る）
+Map<String, Object> _prefs() => {{}};
+
+void main() {{
+  testWidgets('screenshots', (tester) async {{
+    final flutterRoot = Platform.environment['FLUTTER_ROOT'] ?? '${{Platform.environment['HOME']}}/development/flutter';
+    await tester.runAsync(() async {{
+      for (final f in _families) {{
+{font_loads}
+      }}
+      await _loadFont('MaterialIcons', '$flutterRoot/bin/cache/artifacts/material_fonts/MaterialIcons-Regular.otf');
+    }});
+    tester.platformDispatcher.localeTestValue = const Locale('ja', 'JP');
+    tester.platformDispatcher.localesTestValue = const [Locale('ja', 'JP')];
+{extra_setup}    addTearDown(tester.view.reset);
+    addTearDown(tester.platformDispatcher.clearAllTestValues);
+
+    for (final MapEntry(key: dir, value: (size, dpr)) in _sizes.entries) {{
+      Future<void> shot(String name) async {{
+        await tester.pumpAndSettle();
+        await expectLater(find.byType(MaterialApp), matchesGoldenFile('../screenshots/$dir/$name.png'));
+      }}
+
+      SharedPreferences.setMockInitialValues(_prefs());
+      tester.view.physicalSize = size * dpr;
+      tester.view.devicePixelRatio = dpr;
+      await tester.pumpWidget(const SizedBox());
+      await tester.pumpWidget({app}(key: UniqueKey()));
+      await tester.pump(const Duration(seconds: 9)); // 通信の確認などはタイムアウトまで進めて終わらせる
+      await tester.pumpAndSettle();
+
+      // 6枚の役割（docs/mockup.md「4. 見出しの書き方」）の順に撮る。名前は mockup.json の shot と合わせる
+      await shot('1'); // TODO: 核の価値（何がわかる・何ができる）が見える画面
+      // await tester.tap(find.text('…')); await shot('2'); // 手軽さ
+      // await shot('3'); // わかった後にできること
+      // await shot('4'); // 広がり
+      // await shot('5'); // 別の人・場面
+      // await shot('6'); // 安心・その後
+    }}
+  }});
+}}
+"""
+
+
+def init_shots(app):
+    """撮影用テスト（test_screenshots/shots_test.dart）のひな形を、アプリから読み取った値で書き出す"""
+    out = app / "test_screenshots" / "shots_test.dart"
+    if out.exists():
+        sys.exit(f"もうあります: {out}")
+    pub = (app / "pubspec.yaml").read_text() if (app / "pubspec.yaml").exists() else ""
+    m = re.search(r"^name:\s*(\S+)", pub, re.M)
+    if not m:
+        sys.exit(f"pubspec.yaml の name が読めません: {app}")
+    main_dart = (app / "lib" / "main.dart").read_text() if (app / "lib" / "main.dart").exists() else ""
+    w = re.search(r"runApp\(\s*(?:const\s+)?(\w+)\(", main_dart)
+    fonts = sorted(app.glob("assets/fonts/NotoSansJP*.[ot]tf"))
+    if fonts:
+        font_dir, names = "assets/fonts", [f.name for f in fonts]  # テストはアプリのフォルダで動く
+    else:  # アプリに入っていなければ、貿易実務英単語の NotoSansJP を読む（テストでだけ使う）
+        font_dir = str(Path("/Users/hidenori/Developer/学習系/trade-english-word/assets/fonts"))
+        names = ["NotoSansJP-Regular.ttf", "NotoSansJP-Bold.ttf"]
+    imports, setup = "", ""
+    if "package_info_plus" in pub:  # バージョン表示はテストでは動かないので、仮の値を入れる
+        ver = re.search(r"^version:\s*([\d.]+)\+?(\d*)", pub, re.M)
+        imports += "import 'package:package_info_plus/package_info_plus.dart';\n"
+        setup += (f"    PackageInfo.setMockInitialValues(appName: '', packageName: '', version: '{ver.group(1) if ver else '1.0.0'}', "
+                  f"buildNumber: '{(ver.group(2) if ver else '') or '1'}', buildSignature: '');\n")
+    loads = "\n".join(f"        await _loadFont(f, '$_fontDir/{n}');" for n in names)
+    out.parent.mkdir(exist_ok=True)
+    out.write_text(SHOTS_TEMPLATE.format(package=m.group(1), font_dir=font_dir, font_loads=loads, app=w.group(1) if w else "MyApp",
+                                         extra_imports=imports, extra_setup=setup))
+    print(f"ひな形を作りました: {out}（TODO の保存データと画面の操作を書く）")
+    if not w:
+        print("注意: lib/main.dart から起動する Widget が読めなかったので MyApp にしました")
+
+
 def styles_sheet(shots_dir, cfg):
     """1〜3枚目を、スタイル・枠の組み合わせ全部で描いて並べる（どれにするかユーザーに選んでもらう用）"""
     folder, W, H, K, SW, ipad = PORTRAIT[0]
@@ -697,6 +805,7 @@ def main():
     ap.add_argument("app", type=Path, help="アプリのフォルダ")
     ap.add_argument("--init", action="store_true", help="mockup.json のひな形を作る")
     ap.add_argument("--no-open", action="store_true", help="書き出した画像を開かない")
+    ap.add_argument("--init-shots", action="store_true", help="撮影用テスト test_screenshots/shots_test.dart のひな形を作る")
     ap.add_argument("--no-ocr", action="store_true", help="実画面の文字の確認（数秒かかる）を飛ばす")
     ap.add_argument("--styles", action="store_true", help="1〜3枚目を全部のスタイルで描いて見比べる（styles.png）")
     a = ap.parse_args()
@@ -704,6 +813,8 @@ def main():
     shots_dir = app / "screenshots"
     if a.init:
         return init(shots_dir)
+    if a.init_shots:
+        return init_shots(app)
     cfg = load(shots_dir / "mockup.json", ("slides", "wide"))
     use_font(app, cfg.get("font", "gothic"))
     if a.styles:
