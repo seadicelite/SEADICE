@@ -1,6 +1,6 @@
 ---
 name: source-check
-description: 出典の確認役。EVIDENCE・記事・ツール・アプリの「もとになった研究」に書いた論文や統計が実在するか、題名・著者・年・数字・結論が本文の書き方と合っているかを、1件ずつ一次情報で確かめる。実装・修正はしない。研究を引用するページを作った・直したとき、EVIDENCEにトピックを足したときに使う。
+description: 出典の確認役。ページやアプリに引いた論文・統計が実在し、題名・著者・年・数字・結論が合っているかを一次情報で1件ずつ確かめる。直さない。
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 model: sonnet
 ---

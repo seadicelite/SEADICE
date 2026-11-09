@@ -18,7 +18,7 @@ docs/writing.md
 ### ルールの変更履歴
 
 
-10月までは [log/articles.md](log/articles.md)。
+古い記録は [log/articles.md](log/articles.md)。
 ## 良い状態（docs/writing.md）
 - h1直後と各h2直下に結論、数値に出典リンク、末尾に tool-cta
 - JSON-LD に BlogPosting（publisher は `"@id":"https://seadice.win/#organization"`）と BreadcrumbList
@@ -43,6 +43,6 @@ docs/writing.md
 
 ## やったこと
 
-10月までは [log/articles.md](log/articles.md)。
+古い記録は [log/articles.md](log/articles.md)。
 - 2026-11-04: 点検（blog 125。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemapのずれ0、内部リンク切れ0、check_blog.py 出力なし）。削ぎ: 古い著作権表示「© 2025 SEADICE」が残る11ファイル（blog 10・apps/chozubora）を 2026 に直した（ほかの580ファイルは2026で、年が混在していたため）。次にやることの1・2番は Search Console／AIへの質問の数字待ちのため据え置き
 - 2026-11-03: ai.seadice.win に分野「Web・検索の変化」を追加（AIでWeb自体に起きる変化を、読む人・サイトを持つ人の悩みとして書く）。3本公開（search-results-ai-written-articles・web-article-human-or-ai-how-to-trust・ai-overview-site-traffic-drop）、既存の ai-generated-web-content-share・ai-search-summary-accuracy を移した。目的は悩みの検索語での1位とAI検索の出典

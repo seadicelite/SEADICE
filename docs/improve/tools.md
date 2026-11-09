@@ -17,7 +17,7 @@ docs/tools.md（2026-10-12 初版）
 
 ### ルールの変更履歴
 
-10月までは [log/tools.md](log/tools.md)。
+古い記録は [log/tools.md](log/tools.md)。
 - 2026-11-05: 変更なし。点検の答え: ①出典なし8件のうち5件は EVIDENCE の topics.json で照合済みの出典を転記できる ②ルールの不足なし ③手間だけのルールなし
 
 ## 良い状態
@@ -45,7 +45,7 @@ docs/tools.md（2026-10-12 初版）
 
 ## やったこと
 
-10月までは [log/tools.md](log/tools.md)。
+古い記録は [log/tools.md](log/tools.md)。
 - 2026-11-06: ペット健康クイズ /tools/pet-health/ を「犬・猫に危険な食べ物の早見表と健康クイズ」に作り直し（critic・design・user・source-check の4役で点検してから）。早見表を最初に出して犬・猫で絞り込み、12行に増やした（ASPCA People Foods の本文で確認）。「食べてしまったら」の3手順と「まだわからないこと」（ぶどうの安全な量・猫が何日食べないと危ないか・冷やすのをやめる体温）を追加。問題は30問→41問。出典が「獣医学の基本」だった16問は、ASPCA・Merck獣医マニュアル・Cornell・American Heartworm Society・WSAVA・厚労省・環境省の本文を開いて確かめた一文の範囲に書き直し、各問の出典をリンクにした。出典が見つからなかった「手の甲で地面を確かめる」「下痢で受診を急ぐサイン」は外し、ユリ科→ユリ属・デイリリー、猫が丸1日食べない→数日〜数週間、尿道閉塞の「短時間」→「数日」に直した。正誤を文字でも示し、結果画面の解き直しを上に、角丸8px、JSなしの案内。問題は scripts/pet_health_quiz.json を正として scripts/build_pet_health_quiz.py でサイトとアプリ（pet_kenko_quiz の lib/quiz_bank.dart）に書き出す。棄却: 食べた量と体重から受診目安を出す道具（量の閾値を一次情報で言い切れず、誤ると命に関わる）
 - 2026-11-05: 点検（JS入り35件: sd-tool なし0・出典リンクなし9・FAQなし6・外部fetch0・noindex0・内部リンク切れ0（profile の1件はJSのテンプレート文字列で誤検出）・sitemap のファイルなし0）。mbti-lite に McCrae & Costa 1989（DOI。EVIDENCE の personality-mbti-types で照合済み）と、研究の尺度ではない限界を「出典と、この診断の限界」として追加。出典なしは8件に。削るものは今日は見つからず
 

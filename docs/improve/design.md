@@ -19,7 +19,7 @@ design/README.md・design/*.css
 
 ### ルールの変更履歴
 
-10月までは [log/design.md](log/design.md)。
+古い記録は [log/design.md](log/design.md)。
 - 2026-11-05: design/README.md に「文字を減らす」4行、CLAUDE.md の3タイプ節に1行を追加（ユーザー「文字はできる限り減らす、アイコンや図で」。トップで試して良かったため）
 - 2026-11-03: 変更なし。問い: 生成スクリプトが独自クラス名（.cta）を使うと design/ の同名クラスと衝突する。新しい生成スクリプトでは design/*.css に既にあるクラス名をボタン・リンクに流用しない、を上の『ルールの次にやること』1に含めて運用する
 
@@ -57,7 +57,7 @@ design/README.md・design/*.css
 
 ## やったこと
 
-10月までは [log/design.md](log/design.md)。
+古い記録は [log/design.md](log/design.md)。
 - 2026-11-09: 独自クラスの飾りを design で打ち消し（read: ブログの古いテーマのグラデ・ぼかし・蛍光下線・見出しの二重線、show: /tools/・/apps/・/evidence-series/ のナビのぼかし・角丸14〜999px・hover の浮き上がり）。アプリアイコンの角丸は実物の形なので残した。--refresh で945ページ
 - 2026-11-09: 開発日誌を図とアイコン中心の型に（ユーザー「文字を減らして絵やアイコンを増やす」）。design/read.css に部品 .sd-stats（数字タイル）・.sd-bars（分野別の棒）・.sd-ba（前→後の棒）・.sd-icards（アイコンカード）・.sd-next を追加、daily-2026-11-08 を作り替え、型は docs/writing.md「日誌の型」、毎朝の自動作成の指示も更新
 - 2026-11-06: 全ページのロゴにサイコロのマーク（design/base.css の .nav-logo・.logo-text に ::before、古い4色の四角は隠す、940ページを --refresh）。/apps/ の説明51本を10〜25字の一言に（build_apps_page.py の DESC_OVERRIDE、「見抜く」など言い切りも控えた）、名前は副題（「-」以降）を外し、冒頭を1文に。/apps/・/evidence-series/ のロゴに nav-logo を足した

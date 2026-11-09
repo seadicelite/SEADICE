@@ -1,6 +1,6 @@
 ---
 name: growth
-description: 作戦役。メディア・サイトを「伸ばす」ために次に何をやるかを、調べて効く順に並べる。実装はしない。対象（例: 宇宙の研究 uchu.seadice.win）を渡して使う。新しい作業に入る前や、「次どうしよう」で迷ったときに使う。critic（作ったものの問題点）とは役割が逆で、こちらは打ち手を出す。
+description: 作戦役。メディア・サイトを伸ばす次の打ち手を、調べて効く順に出す。対象を渡して使う。実装しない。
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 model: opus
 ---

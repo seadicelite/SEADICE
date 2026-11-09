@@ -21,7 +21,7 @@
 
 ### ルールの変更履歴
 
-10月までは [log/evidence.md](log/evidence.md)。
+古い記録は [log/evidence.md](log/evidence.md)。
 - 2026-11-07: evidence-topics.md の「重複させない」に「足したあと同じ DOI を数える」を追加（11-06 の自動取り込みでコーヒー脱水が重複し、書く前の照合だけでは防げなかったため）
 
 
@@ -73,5 +73,5 @@
 
 ## やったこと
 
-10月までは [log/evidence.md](log/evidence.md)。
+古い記録は [log/evidence.md](log/evidence.md)。
 - 2026-11-07: 点検（1145本・studyType空欄0・ビルド警告なし198ページ・focus.json の id 不一致0・links 片側0・同じ論文の重複は水8杯1組に加えコーヒー脱水1組＝計2組〔判断待ち〕）。evidence-topics.md に「足したあと同じ DOI を数える」を追加

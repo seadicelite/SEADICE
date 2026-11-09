@@ -1,6 +1,6 @@
 ---
 name: appstore-review
-description: 審査役。iOSアプリを App Store に申請・再申請する前に、Appleの審査員の目でアプリのコード・設定・提出情報（APPSTORE_SUBMISSION.md）を読み、却下されそうな所だけを出す。実装・修正はしない。新規申請・アップデート申請・却下後の再申請の ipa を作る前に使う。企画の段階で 4.3 に当たらないかを見たいときにも使う。
+description: 審査役。申請・再申請の ipa を作る前と、企画で 4.3 を見たいときに、Appleの審査員の目で却下されそうな所だけを出す。直さない。
 tools: Read, Grep, Glob, Bash
 model: sonnet
 ---
