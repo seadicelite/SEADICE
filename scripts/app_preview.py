@@ -25,7 +25,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(Path(__file__).parent))
-from mockup import COLORS, PRICE_WORDS, fit, font, load, rgb, use_font  # noqa: E402
+from mockup import COLORS, PRICE_WORDS, fit, font, load, ocr_price, rgb, use_font  # noqa: E402
 
 # (名前, 幅, 高さ, 録画のフォルダ)。docs/mockup.md の表のアプリプレビュー（横、2026-11-09 ユーザー指定）
 SIZES = [
@@ -205,6 +205,10 @@ def main():
                 out = base / "preview" / f"{size[0]}.mp4"
                 build(out, recs, size, colors, badge, clips, Path(t))
                 d, errs = check(out, size[1], size[2])
+                frames = Path(t) / f"frames_{lang}_{size[0]}"
+                frames.mkdir()
+                run(["ffmpeg", "-v", "error", "-i", str(out), "-vf", "fps=1", str(frames / "%03d.png")])
+                errs += ocr_price(frames.glob("*.png"))  # 録画の中に価格の言葉が映っていないか（1秒ごと）
                 if errs:
                     sys.exit(f"{out}: " + "・".join(errs))
                 print(f"書き出しました: {out}（{size[1]}×{size[2]}・{d:.1f}秒・{FPS}fps、確認済み）")

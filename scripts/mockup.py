@@ -490,9 +490,29 @@ def similar(raw, slides):
             if sum(abs(x - y) for x, y in zip(a, b)) / len(a) < 12]
 
 
-def lint(cfg, shots_dir):
+def ocr_price(paths):
+    """実画面の文字を Mac の Vision（scripts/ocr.swift）で読み、価格の言葉が映っている画像を返す。
+    2026-10-16 の却下は、実画面に映った AI の返事の「無料」だった"""
+    paths = sorted({str(p) for p in paths})
+    if not paths:
+        return []
+    r = subprocess.run(["swift", str(Path(__file__).with_name("ocr.swift")), *paths], capture_output=True, text=True)
+    if r.returncode:
+        print(f"注意: 実画面の文字を読めませんでした（目で確かめてください）: {r.stderr[-300:]}")
+        return []
+    hits = []
+    for line in r.stdout.splitlines():
+        path, _, text = line.partition("\t")
+        m = PRICE_WORDS.search(text)
+        if m:
+            hits.append(f"実画面に価格の言葉「{m.group(0)}」: {path}（…{text[max(m.start() - 15, 0):m.end() + 15]}…）")
+    return hits
+
+
+def lint(cfg, shots_dir, ocr=True):
     """書き出す前に止める問題: 価格の言葉・見出しの形・実画面のファイルがない・文字が読めない色"""
     errors = []
+    used = set()
     c = {k: rgb(v) for k, v in {**COLORS, **cfg.get("colors", {})}.items()}
     for key, need in (("text", 4.5), ("sub", 4.5), ("accent", 3.0)):  # 2行目は大きい文字なので 3:1（WCAG）
         r = contrast(c[key], c["bg"])
@@ -519,6 +539,9 @@ def lint(cfg, shots_dir):
             for name in {s["shot"] for s in slides} | (set() if ipad else set(wide["shots"])):
                 names = cfg.get("widget", []) if name == "widget" else [name]
                 errors += [f"[{lang}] 実画面がありません: {raw / n}" for n in names if not (raw / n).exists()]
+                used.update(raw / n for n in names if (raw / n).exists())
+    if ocr:
+        errors += ocr_price(used)
     return errors
 
 
@@ -674,6 +697,7 @@ def main():
     ap.add_argument("app", type=Path, help="アプリのフォルダ")
     ap.add_argument("--init", action="store_true", help="mockup.json のひな形を作る")
     ap.add_argument("--no-open", action="store_true", help="書き出した画像を開かない")
+    ap.add_argument("--no-ocr", action="store_true", help="実画面の文字の確認（数秒かかる）を飛ばす")
     ap.add_argument("--styles", action="store_true", help="1〜3枚目を全部のスタイルで描いて見比べる（styles.png）")
     a = ap.parse_args()
     app = a.app.resolve()
@@ -688,7 +712,7 @@ def main():
         if not a.no_open:
             subprocess.run(["open", "-a", "Preview", str(out)], check=False)
         return
-    errors = lint(cfg, shots_dir)
+    errors = lint(cfg, shots_dir, not a.no_ocr)
     if errors:
         sys.exit("書き出しを止めました:\n  " + "\n  ".join(errors))
 

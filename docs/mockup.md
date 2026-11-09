@@ -102,7 +102,7 @@ App Store Connect の表示（2026-10-13 時点）。枠が増えたり変わっ
 
 - 背景が明るい色（ティールなど）のときは、2行目を白にしない（読めない）。濃い同系色にする（見本: 通知de人生改善の screenshots/make.py）
 - 既定: アプリに `test_screenshots/shots_test.dart` を置いて `flutter test test_screenshots/shots_test.dart --update-goldens`（本物のフォントとサンプルデータで描ける。見本は Spendology）。Cupertino のタブの文字とアイコンにもフォントを読み込ませる（読み込まないと□になる）。`appBarTheme.titleTextStyle` に `fontFamily` がないアプリは、テストではタイトルが□になる（どの名前でフォントを読ませても直らない）。テスト側でアプリのテーマを写し、タイトルにだけフォントを足す（見本: 貿易実務英単語の test_screenshots/shots_test.dart、2026-10-20）。問題や単語がシャッフルされるアプリは、`flutter/assets` をモックして写す問題だけを差し込む（同じ見本。50KBを超えるJSONは別のisolateで読まれるので `tester.runAsync` で本物の時間を待つ）
-- 実画面にも価格の言葉を映さない。サンプルの文章・例文・AIの返事に「無料」が出ないものを選ぶ（AIにサイトを調べさせる画面で seadice.win を使うと説明に「無料」が出る。気象庁などの公的サイトを使う）
+- 実画面にも価格の言葉を映さない（書き出しのときに文字認識で確かめて止める）。サンプルの文章・例文・AIの返事に「無料」が出ないものを選ぶ（AIにサイトを調べさせる画面で seadice.win を使うと説明に「無料」が出る。気象庁などの公的サイトを使う）
 - テストで描きにくい画面は、Web版（`flutter build web`）をブラウザで動かして撮ってもよい。どちらも、最後に共通の形で合成する
 
 ## 6. 申請前のチェック
@@ -111,7 +111,7 @@ App Store Connect の表示（2026-10-13 時点）。枠が増えたり変わっ
 - [ ] 表の枠をすべて、指定サイズちょうどで書き出したか（`scripts/mockup.py` が確かめる。古い make.py で作ったときは `python3 -c "from PIL import Image; print(Image.open(f).size)"`）
 - [ ] 枚数は表のとおりか。日本語・英語の両方があるか
 - [ ] 見出しと実画面の中身が合っているか（AI・広告の表記）
-- [ ] バッジ・見出し・実画面のどこにも「無料」など価格の言葉がないか（見出しと印は `scripts/mockup.py` が止める。実画面の中は `check.png` を目で見る）
+- [ ] バッジ・見出し・実画面のどこにも「無料」など価格の言葉がないか（見出し・印、実画面の中の文字（Mac の Vision で読む、`scripts/ocr.swift`）、プレビュー動画の1秒ごとのコマは、`scripts/mockup.py`・`scripts/app_preview.py` が止める。読み取りの漏れがあるので `check.png` も目で見る）
 
 ## 7. アプリプレビュー（動画、モックアップと一緒に必ず作る）
 
