@@ -100,11 +100,45 @@ def mix(a, b, t):
     return tuple(int(x + (y - x) * t) for x, y in zip(a, b))
 
 
+# 詰め組み: Pillow が palt を使えないので、約物を半角幅にし、見出しは字間を少し詰める（間延びして見えないように）
+_OPEN, _CLOSE, _MID = set("「『（【〈《“"), set("」』）】〉》、。，．”"), set("・：；")
+
+
+def _advances(text, f, track):
+    em = f.size
+    out = []
+    for ch in text:
+        w = f.getlength(ch)
+        if ch in _OPEN:
+            out.append((-em * 0.5, w - em * 0.5))
+        elif ch in _CLOSE:
+            out.append((0, w - em * 0.5))
+        elif ch in _MID:
+            out.append((-em * 0.25, w - em * 0.5))
+        else:
+            out.append((0, w + (em * track if ord(ch) > 0x2E80 else 0)))
+    return out
+
+
+def tlen(text, f, track=0.0):
+    return sum(a for _, a in _advances(text, f, track))
+
+
+def tdraw(d, xy, text, f, fill, track=0.0):
+    x, y = xy
+    for ch, (dx, a) in zip(text, _advances(text, f, track)):
+        d.text((x + dx, y), ch, font=f, fill=fill)
+        x += a
+
+
+HEAD_TRACK = -0.03  # 見出しの字間（em）
+
+
 def fit(text, weight, size, room):
     """room に収まるまで文字を小さくする（長い見出しが枠からはみ出さないように）"""
     d = ImageDraw.Draw(Image.new("RGB", (1, 1)))
     f = font(weight, size)
-    while d.textlength(text, font=f) > room and size > 20:
+    while tlen(text, f, HEAD_TRACK) > room and size > 20:
         size *= 0.96
         f = font(weight, size)
     return f, size
@@ -225,30 +259,32 @@ class Mockup:
         head = font("W7", hs)
         small, _ = fit(sub, "W6", 54 * K, room)
 
-        def put(text, f, y, color):
-            x = left if bold else (W - d.textlength(text, font=f)) / 2
-            d.text((x, y), text, font=f, fill=color)
+        def put(text, f, y, color, track=HEAD_TRACK):
+            x = left if bold else (W - tlen(text, f, track)) / 2
+            tdraw(d, (x, y), text, f, color, track)
 
         top = 120 * K
         if bold:  # 左上に番号、その下に見出しを左寄せで大きく
-            put(f"{i:02d}", font("W7", 64 * K), top, c["accent"])
+            nf = font("W7", 56 * K)
+            put(f"{i:02d}", nf, top, c["accent"], 0)
+            d.rectangle((left + nf.getlength(f"{i:02d}") + 24 * K, top + 32 * K, left + nf.getlength(f"{i:02d}") + 104 * K, top + 36 * K), fill=c["accent"])
             if badge:
-                bf = font("W3", 40 * K)
-                d.text((W - left - d.textlength(badge, font=bf), top + 14 * K), badge, font=bf, fill=c["sub"])
+                bf = font("W6", 36 * K)
+                tdraw(d, (W - left - tlen(badge, bf), top + 14 * K), badge, bf, c["sub"])
             top += 130 * K
-        elif badge:
-            bf = font("W7", 40 * K)
-            bw = d.textlength(badge, font=bf) + 64 * K
+        elif badge:  # 印は細い線の枠。塗りつぶすと見出しより目立つ
+            bf = font("W6", 38 * K)
+            bw = tlen(badge, bf) + 56 * K
             bx = (W - bw) / 2
-            d.rounded_rectangle((bx, top, bx + bw, top + 72 * K), 36 * K, fill=c["text"])
-            d.text((bx + 32 * K, top + 13 * K), badge, font=bf, fill=c["bg"])
+            d.rounded_rectangle((bx, top, bx + bw, top + 68 * K), 34 * K, outline=c["sub"], width=max(int(3 * K), 2))
+            tdraw(d, (bx + 28 * K, top + 12 * K), badge, bf, c["sub"])
             top += 130 * K
         else:
             top += 130 * K
         step = hs * 1.3
         put(line1, head, top, c["text"])
         put(line2, head, top + step, c["accent"])
-        put(sub, small, top + step * 2, c["sub"])
+        put(sub, small, top + step * 2, c["sub"], 0)
         top = int(top + step * 2 + 54 * K + 70 * K)
 
         sw = int(SW * (1.08 if bold else 1))
@@ -320,9 +356,9 @@ class Mockup:
         canvas = Image.new("RGB", size, c["bg"])
         d = ImageDraw.Draw(canvas)
         top = (h - (int(hs * 1.25) * 2 + int(hs * 0.72))) // 2
-        d.text((left, top), line1, font=head, fill=c["text"])
-        d.text((left, top + int(hs * 1.25)), line2, font=head, fill=c["accent"])
-        d.text((left, top + int(hs * 2.8)), sub, font=small, fill=c["sub"])
+        tdraw(d, (left, top), line1, head, c["text"], HEAD_TRACK)
+        tdraw(d, (left, top + int(hs * 1.25)), line2, head, c["accent"], HEAD_TRACK)
+        tdraw(d, (left, top + int(hs * 2.8)), sub, small, c["sub"])
         y = (h - sh) // 2
         for f in shots:
             im = self.shot(raw, f, sw, False)
@@ -424,28 +460,46 @@ def contact_sheet(shots_dir, langs):
     sheet.save(shots_dir / "check.png")
 
 
-def app_color(raw):
-    """実画面でいちばん多く使われている、はっきりした色（アプリの色）"""
+def app_colors(raw):
+    """実画面から、アプリの主な色と、色相の違うもう1色（アクセント）を拾う。白・黒・灰色は除く"""
+    import colorsys
     count = {}
     for p in sorted(raw.glob("*.png"))[:6]:
-        im = Image.open(p).convert("RGB").resize((120, 260)).quantize(16).convert("RGB")
+        im = Image.open(p).convert("RGB").resize((120, 260)).quantize(48, method=Image.Quantize.MAXCOVERAGE).convert("RGB")
         for n, col in im.getcolors(4096):
-            hi, lo = max(col), min(col)
-            if hi - lo > 60 and 40 < hi:  # 白・黒・灰色は除く
+            if max(col) - min(col) > 60 and max(col) > 40:
                 count[col] = count.get(col, 0) + n
-    return max(count, key=count.get) if count else (31, 58, 95)
+    if not count:
+        return (31, 58, 95), (245, 158, 11)
+    main = max(count, key=count.get)
+    hue = lambda c: colorsys.rgb_to_hsv(*[x / 255 for x in c])[0] * 360
+    sat = lambda c: colorsys.rgb_to_hsv(*[x / 255 for x in c])[1]
+    # アクセントは少なくても鮮やかな色（印やボタンの色）なので、鮮やかさで重みを付ける
+    far = {c: n * sat(c) ** 3 for c, n in count.items() if min(abs(hue(c) - hue(main)), 360 - abs(hue(c) - hue(main))) > 40}
+    second = max(far, key=far.get) if far else mix(main, (255, 255, 255), 0.5)
+    return main, second
 
 
-def palettes(a):
-    """アプリの色 a から配色を3案（どれも文字が読める組み合わせ）"""
+def readable(col, bg, need):
+    """col を、bg とのコントラストが need 以上になるまで白か黒に寄せる"""
+    to = (255, 255, 255) if contrast((255, 255, 255), bg) > contrast((0, 0, 0), bg) else (0, 0, 0)
+    t = 0.0
+    while contrast(mix(col, to, t), bg) < need and t < 1:
+        t += 0.05
+    return mix(col, to, t)
+
+
+def palettes(main, second):
+    """アプリの2色から配色を3案。2行目はアクセント色で、どれも文字が読める組み合わせ（4.5:1、2行目は大きい文字なので3:1以上）"""
     hx = lambda c: "#%02X%02X%02X" % c
-    dark = mix(a, (0, 0, 0), 0.55)
-    light = mix(a, (255, 255, 255), 0.85)
-    return {
-        "アプリの色の地・白い文字": {"bg": hx(a), "text": "#FFFFFF", "accent": hx(mix(a, (255, 255, 255), 0.75)), "sub": hx(mix(a, (255, 255, 255), 0.6)), "frame": hx(dark)},
-        "淡い地・濃い文字": {"bg": hx(light), "text": hx(mix(a, (0, 0, 0), 0.75)), "accent": hx(dark), "sub": hx(mix(a, (0, 0, 0), 0.6)), "frame": hx(mix(a, (0, 0, 0), 0.8))},
-        "黒に近い地・アプリの色": {"bg": hx(mix(a, (0, 0, 0), 0.85)), "text": "#FFFFFF", "accent": hx(mix(a, (255, 255, 255), 0.25)), "sub": "#B8BCC6", "frame": "#000000"},
-    }
+    out = {}
+    for name, bg in (("アプリの色の地", main), ("淡い地", mix(main, (255, 255, 255), 0.9)), ("黒に近い地", mix(main, (0, 0, 0), 0.85))):
+        light = contrast((0, 0, 0), bg) > contrast((255, 255, 255), bg)
+        text = readable(mix(main, (0, 0, 0), 0.6) if light else (255, 255, 255), bg, 7)
+        sub = readable(mix(text, bg, 0.3), bg, 4.5)
+        accent = readable(second, bg, 3.5)
+        out[name] = {"bg": hx(bg), "text": hx(text), "accent": hx(accent), "sub": hx(sub), "frame": hx(mix(main, (0, 0, 0), 0.75))}
+    return out
 
 
 def init(shots_dir):
@@ -454,7 +508,7 @@ def init(shots_dir):
         sys.exit(f"もうあります: {path}")
     raw = shots_dir / "raw" / "ja" if (shots_dir / "raw" / "ja").is_dir() else shots_dir / "raw"
     names = sorted(p.name for p in raw.glob("*.png")) or [f"{i}.png" for i in range(1, 7)]
-    pals = palettes(app_color(raw))
+    pals = palettes(*app_colors(raw))
     cfg = {
         "style": "classic",
         "font": "gothic",
