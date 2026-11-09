@@ -1,5 +1,197 @@
 [
   {
+    "id": "dokugaku-explain-to-ai-find-gaps-chat-explaining",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Jacob, Lachner & Scheiter, \"Does increasing social presence enhance the effectiveness of writing explanations?\" (PLOS ONE, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0250406",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/explain-to-ai-find-gaps/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "誰かに説明するつもりで書くと覚えやすい？",
+        "body": "「人に教えるつもりで説明すると身につく」ってよく聞くよね。じゃあ、チャットで相手に話しかけるように説明したら、もっと効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つのやり方をくらべた",
+        "body": "大学生137人が免疫学の文章を読んだあと、教材を見ずに10分、声で説明・文章で説明・チャット風の画面で説明・ただ思い出して書く、のどれかをした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "理解のテストに差はなかった",
+        "body": "実は、4つの組の成績に差はなかったらしい。説明した組の方が「楽しかった」「おもしろかった」と答えたけど、成績は思い出すだけの組と同じだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "教材が難しすぎた？",
+        "body": "著者たちは、教材が難しすぎた可能性や、書いた説明の質が低めだったことを挙げている。説明が効いた前の研究を再現できなかった1本なので、説明に意味がないとまでは言えない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-explain-to-ai-find-gaps-face-to-face-teaching",
+        "type": "あわせて読む",
+        "why": "説明が学びになるかは、相手とやりとりできるかで変わるという分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-explain-to-ai-find-gaps-chat-explaining"
+  },
+  {
+    "id": "dokugaku-explain-to-ai-find-gaps-face-to-face-teaching",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Kobayashi, \"Interactivity: A Potential Determinant of Learning by Preparing to Teach and Teaching\" (Frontiers in Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2018.02755",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/explain-to-ai-find-gaps/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "教え方で、自分の学びは変わる？",
+        "body": "教えると自分も覚えるっていうけど、対面で教えるのと、動画や文章で説明するのとでは、違いがあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "教える研究のメタ分析を分析し直した",
+        "body": "静岡大学の小林（Kobayashi）さんが、教えて学ぶ研究のメタ分析のデータを分析し直して、教え方ごとの効果をくらべた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "対面で教えると効果が大きかった",
+        "body": "教えなかった人とくらべた効果の大きさは、対面で教えるつもりで学んで対面で教えると0.84、動画や文章で一方的に説明すると0.48だったらしい。質問をし合えることが理由の候補に挙がっている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ対面が効くのか",
+        "body": "対面と一方的な説明を直接くらべた実験は2本だけで、多くは実験室の研究。なぜ対面が効くのかもまだ候補の段階で、相手がAIの場合はこの研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-explain-to-ai-find-gaps-chat-explaining",
+        "type": "あわせて読む",
+        "why": "やりとりのない相手に説明しても、思い出すだけと差がなかった実験"
+      },
+      {
+        "id": "dokugaku-teaching-meta",
+        "type": "あわせて読む",
+        "why": "同じ著者のメタ分析。教えて学ぶ効果の全体像がわかる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-explain-to-ai-find-gaps-face-to-face-teaching"
+  },
+  {
+    "id": "dokugaku-failed-exam-again-retake-or-quit-repeat-pass-rate",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Raymond & Luciw-Dubas, \"The second time around: Accounting for retest effects on oral examinations\" (Evaluation & the Health Professions, 2010)",
+    "sourceUrl": "https://doi.org/10.1177/0163278710374855",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/failed-exam-again-retake-or-quit/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "2回目の試験って受かりやすい？",
+        "body": "一度受けて傾向もわかったし、2回目なら受かりやすいはず。そう思うよね。実際のところはどうなんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5万人超の合格率をくらべた",
+        "body": "医師の6つの専門医試験で、5万人を超える受験者の合格率を、初めて受けた人と受け直した人でくらべた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "初回は約84%、筆記の受け直しは36%",
+        "body": "初めて受けた人の合格率は平均約84%。筆記試験を受け直した人は平均36%だった。口頭試験の受け直しは平均65%と高めで、その点の伸びの約3分の1は試験のぶれだけで説明できたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの資格試験でも同じ？",
+        "body": "医師向けの試験の合格率を集計しただけで、受け直す前の勉強のしかたは調べていない。日本の資格試験で同じ数字になるかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-failed-exam-again-retake-or-quit-repeat-pass-rate"
+  },
+  {
+    "id": "personality-contagious-yawn-empathy-duke",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Bartholomew & Cirulli, \"Individual variation in contagious yawning susceptibility is highly stable and largely unexplained by empathy or other known factors\" (PLOS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0091773",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "あくびがうつる人は、共感力が高い？",
+        "body": "人のあくびにつられやすい人は、相手の気持ちがわかるやさしい人。そんな話、聞いたことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "328人にあくびの動画を見せた",
+        "body": "アメリカのデューク大学で、18〜83歳の328人に3分間のあくび動画を見せて回数を数え、共感のしやすさや眠気、時間帯なども質問紙で調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "共感とは関係が見えなかった",
+        "body": "動画で1回以上あくびをしたのは67.7%。うつりやすさは人ごとにかなり安定していたけど、年齢を考えに入れると共感・時間帯・知能との関係は見られなかったらしい。年齢で説明できたのも約8%だけ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ人で違うのかは謎",
+        "body": "1つの大学に集まった人の相関の研究で、若い学生が多め。あくびの回数も共感も自己申告で測っている。うつりやすさの違いがどこから来るのかは、まだわかっていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "pet-dog-contagious-yawn-empathy",
+        "type": "あわせて読む",
+        "why": "犬でも、あくびのうつりやすさと親しさ・共感の関係は見つからなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-contagious-yawn-empathy-duke"
+  },
+  {
+    "id": "face-name-matching-replication-leuven",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Verheyen, Van den Berckt & Heyman, \"Do We Look Like Our Siblings' Names? A Socio-Onomastic Perspective on the Face-Name Matching Effect\" (International Review of Social Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.5334/irsp.1243",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人は名前に似た顔になる？",
+        "body": "顔写真を見るだけで、その人の名前を当てられる。名前のイメージに顔が似てくるからだ、という研究が話題になったよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "別のチームが追試した",
+        "body": "ベルギーの大学生80人が、知らない学生68人の顔写真を見て、2つの名前のどちらが本当の名前かを選んだ。手順を先に登録してから行う形の追試だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "当たる確率は52%どまり",
+        "body": "偶然なら50%のところ、正解は約52%。はっきりした差とは言えず、「名前を顔から当てられる」という効果は確かめられなかったらしい。きょうだいの名前でも同じだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな効果はあるかも",
+        "body": "写真は同じ地域・同じ年ごろの学生で、似た写真ばかりだと手がかりが減るのかもしれない。著者は、効果がもっと小さくて見逃した可能性も否定できないとしている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-name-matching-replication-leuven"
+  },
+  {
     "id": "kokoro-volunteering-loneliness-prevent-onset-ending",
     "category": "孤独とつながり",
     "kind": "よくある説",
@@ -8570,7 +8762,14 @@
         "body": "飼い主のあくびの方がうつりやすいとした2013年の研究もあって、結果は分かれてきた。共感のしるしという説は支持されなかったけど、ではなぜうつるのかは、まだわかっていないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-contagious-yawn-empathy"
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-contagious-yawn-empathy",
+    "links": [
+      {
+        "id": "personality-contagious-yawn-empathy-duke",
+        "type": "あわせて読む",
+        "why": "人でも、あくびのうつりやすさは共感の強さと関係が見られなかった"
+      }
+    ]
   },
   {
     "id": "posture-schoolbag-back-pain-children",
@@ -26911,6 +27110,11 @@
         "id": "learning-pyramid-myth",
         "type": "あわせて読む",
         "why": "よく見る「教えると90%」の図は、出どころをたどると根拠がなかった"
+      },
+      {
+        "id": "dokugaku-explain-to-ai-find-gaps-face-to-face-teaching",
+        "type": "あわせて読む",
+        "why": "対面で教えると、一方的な説明より効果が大きかったという分析"
       }
     ]
   },
