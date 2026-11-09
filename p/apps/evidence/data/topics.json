@@ -1,5 +1,192 @@
 [
   {
+    "id": "research-flashcards-how-to-use-research-rounds",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Huang et al., \"The moderating role of learning rounds: Effects on retrieval practice and context dependence in digital flashcard foreign language vocabulary learning\" (Behavioral Sciences, 2025)",
+    "sourceUrl": "https://doi.org/10.3390/bs15111540",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/flashcards-how-to-use-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "単語はくり返し読めば覚える？",
+        "body": "単語帳を何度も読めば覚えられる、ってよく言うよね。読むのと思い出すの、どっちがいいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "108人がカードで60組を学習",
+        "body": "中国語が母語で英語も学んできた18〜31歳の学生108人が、スワヒリ語と中国語の単語60組をパソコンのカードで覚えた。読むだけの練習と、答えを思い出す練習を3周か4周したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "思い出す方が、周回で差が広がった",
+        "body": "紙のテストの正答率は、思い出す練習が3周で48%、4周で65%。読むだけは3周39%、4周51%だった。周回を増やすほど差が広がったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日をあけた学習ではどうか",
+        "body": "テストは学習の30分後で、1回の実験の中だけの話。何週間もかけて覚える場合に同じになるかは、論文自身も「まだわからない」としているよ。何周がいちばんいいかも未解決。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-flashcards-one-deck",
+        "type": "あわせて読む",
+        "why": "どちらも単語カードの使い方。周回の数と、束の分け方を比べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-flashcards-how-to-use-research-rounds"
+  },
+  {
+    "id": "research-positive-thinking-felt-worse-acceptance-research-acceptance",
+    "category": "マインドフルネス",
+    "kind": "素朴な疑問",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Ford et al., \"The psychological health benefits of accepting negative emotions and thoughts: Laboratory, diary, and longitudinal evidence\" (Journal of Personality and Social Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/pspp0000157",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/positive-thinking-felt-worse-acceptance-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "嫌な気持ちは、消すべき？",
+        "body": "落ち込んだら早く前向きにならなきゃ、と思いがちだよね。でも、嫌な気持ちを「あっていい」と受け入れたらどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つの研究で1,000人超を調べた",
+        "body": "嫌な気持ちを判断せずに受け入れる傾向を測って、アンケート（1,003人）、人前のスピーチ課題（156人）、14日間の日記と半年後の追跡（222人）で心の状態を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "受け入れる人ほど落ち込みにくい",
+        "body": "受け入れる傾向が強い人は、ストレスの場面での嫌な気持ちが小さめで、半年後の抑うつ（r = −0.34）や不安（r = −0.44）も低めだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "練習すれば同じ効果がある？",
+        "body": "これは受け入れる「傾向」を測った研究で、受け入れを練習させた実験じゃない。対象は米国の大学生や地域の大人。前向きな気持ちが増えたわけでもないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#research-positive-thinking-felt-worse-acceptance-research-acceptance"
+  },
+  {
+    "id": "research-habit-streak-broken-restart-research-run-streak",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Ingalls et al., \"The dark side of streaking: Examining the backfire potential of run streaking in recreational runners who broke a long-term streak\" (PLOS ONE, 2026)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0317254",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/habit-streak-broken-restart-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "連続記録が切れたら終わり？",
+        "body": "毎日続けた記録が途切れたら、もうやめちゃいそう…って思うよね。長い記録を失った人は、その後どうなったんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "100日以上走り続けた17人",
+        "body": "毎日1マイル以上走る連続記録が、100日以上（最長5,000日超）続いたあとに途切れたランナー17人に話を聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "落ち込んでも、走り続けた",
+        "body": "途切れた直後は悲しみや怒り、そして安堵も。でも体を動かせる人は全員が走り続けて、多くは新しい記録を始めていたらしい。記録を守るためにけがでも走った人もいたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "17人の思い出話",
+        "body": "17人への聞き取り調査で、ほとんどが米国とカナダの人。あとから思い出して話してもらった内容だから記憶のずれもありうるし、記録をつけなかった人とは比べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-streak-broken-restart-research-run-streak"
+  },
+  {
+    "id": "digital-smartphone-reduce-vs-abstain",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Brailovskaia et al., \"Finding the ‘sweet spot’ of smartphone use: Reduction or abstinence to increase well-being and healthy lifestyle?! An experimental intervention study\" (Journal of Experimental Psychology: Applied, 2023)",
+    "sourceUrl": "https://doi.org/10.1037/xap0000430",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スマホ、やめるのと減らすの、どっちがいい？",
+        "body": "デジタルデトックスって、スマホを完全に断たないと意味がないのかな。1日1時間減らすだけでも何か変わるのか、気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ドイツの619人を3つの組に",
+        "body": "1週間スマホを使わない組（200人）、1日1時間だけ減らす組（226人）、いつもどおりの組（193人）。直後と1か月後・4か月後に、オンラインの質問票で心の状態などを答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1時間減らすだけでも、気分は上向いた",
+        "body": "どちらの組も抑うつや不安の症状が減り、生活の満足度と運動量が増えた。多くの効果は「1時間減らす」組のほうが強く、4か月後まで続いたらしい。たばこの本数が減ったのもこの組だけ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "答えはすべて本人の申告",
+        "body": "ドイツのスマホ利用者だけの研究で、スマホの時間も心の状態も本人の回答。組の分け方の詳しいところは要旨では確かめられず、ほかの国や年代で同じになるかもまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-screen-time-2h-rct",
+        "type": "あわせて読む",
+        "why": "どちらもスマホ時間を減らす実験。減らし方と期間がちがう"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-smartphone-reduce-vs-abstain"
+  },
+  {
+    "id": "aging-one-leg-stand-10s-mortality",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Araujo et al., \"Successful 10-second one-legged stance performance predicts survival in middle-aged and older individuals\" (British Journal of Sports Medicine, 2022)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2021-105360",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "片足立ちで、寿命がわかる？",
+        "body": "片足で何秒立っていられるかで体の若さがわかる、ってよく聞くよね。本当に寿命と関係があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "51〜75歳の1,702人を追いかけた",
+        "body": "51〜75歳の1,702人（68%が男性）に、片足で10秒立てるかを試してもらい、その後の生死を調べたんだ。追跡した期間は真ん中の値で7年。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "10秒立てない人は、亡くなる人が多かった",
+        "body": "10秒立てなかったのは20.4%。追跡中に亡くなったのは、立てた人で4.6%、立てなかった人で17.5%。年齢・性別・BMI・持病をそろえても、死亡のリスクは約1.8倍だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "練習すれば長生きできる？",
+        "body": "これは観察研究で、片足立ちができないことが寿命を縮める、という因果までは言えない。最近の転倒や運動量は調べておらず、練習で寿命が延びるかもこの研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-gait-speed-survival",
+        "type": "あわせて読む",
+        "why": "どちらも簡単な体のテストと寿命の関係を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-one-leg-stand-10s-mortality"
+  },
+  {
     "id": "dokugaku-explain-to-ai-find-gaps-chat-explaining",
     "category": "学習法",
     "kind": "よくある説",
@@ -10368,6 +10555,11 @@
         "id": "digital-mobile-internet-block",
         "type": "あわせて読む",
         "why": "画面時間そのものを減らす実験と、スマホのネットだけ止める実験"
+      },
+      {
+        "id": "digital-smartphone-reduce-vs-abstain",
+        "type": "あわせて読む",
+        "why": "どちらもスマホ時間を減らす実験。減らし方と期間がちがう"
       }
     ],
     "webUrl": "https://seadice.win/evidence/digital-detox/#digital-screen-time-2h-rct"
@@ -27165,6 +27357,11 @@
         "id": "learning-interleaving",
         "type": "あわせて読む",
         "why": "練習中の手応えと、あとの成績は逆になりやすい"
+      },
+      {
+        "id": "research-flashcards-how-to-use-research-rounds",
+        "type": "あわせて読む",
+        "why": "どちらも単語カードの使い方。周回の数と、束の分け方を比べた研究"
       }
     ]
   },
@@ -32107,6 +32304,11 @@
         "id": "aging-grip-strength-mortality",
         "type": "あわせて読む",
         "why": "握力も歩く速さも、簡単に測れる体力の目印と寿命の関係を調べた研究"
+      },
+      {
+        "id": "aging-one-leg-stand-10s-mortality",
+        "type": "あわせて読む",
+        "why": "どちらも簡単な体のテストと寿命の関係を調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-aging/aging-gait-speed-survival/"
