@@ -372,7 +372,7 @@ class Mockup:
         out.parent.mkdir(parents=True, exist_ok=True)
         canvas.save(out)
 
-    def zoom(self, canvas, path, rect, crop_y, px, py, sw, W, H, K):
+    def zoom(self, canvas, path, rect, crop_y, px, py, sw, W, H, K, cx=None, zw=None):
         """拡大窓: 実画面の大事な所（rect は実画面に対する割合 [x, y, 幅, 高さ]）を、元の場所の上に大きくして重ねる
         （同じ中身が2回見えないように、元の所を覆う）。枠はアクセント色、影・暗幕は付けない"""
         a = self.c["accent"]
@@ -382,13 +382,13 @@ class Mockup:
         s = sw / im.width
         oy = py + (box[1] - crop_y * im.height) * s  # 元の所の上端（キャンバスの上で）
         part = im.crop(box)
-        zw = int(W * 0.94)
+        zw = int(zw or W * 0.94)
         zh = int(part.height * zw / part.width)
         if zh > H * 0.4:  # 縦に長すぎるときは高さで合わせる
             zh = int(H * 0.4)
             zw = int(part.width * zh / part.height)
         part = part.resize((zw, zh), Image.LANCZOS)
-        zx = (W - zw) // 2
+        zx = int((cx if cx is not None else W / 2) - zw / 2)
         center = oy + (box[3] - box[1]) * s / 2
         zy = int(min(max(center - zh / 2, py), H - zh - 40 * K))
         bw = max(int(6 * K), 3)
@@ -398,45 +398,67 @@ class Mockup:
         canvas.paste(r, (zx, zy), r)
         return zw / ((box[2] - box[0]) * s)  # 倍率
 
-    def wide(self, out, raw, wide, size):
-        """ヘッダー・検索結果（横）。左に見出し、右に実画面を並べる（幅の55%まで）"""
+    def wide(self, out, raw, wide, size, badge=""):
+        """ヘッダー・検索結果（横）。左に印と見出し、右に実画面を大きく（下へはみ出させる）。
+        入りきらないときは台数を減らす。1台目には、縦のスクショと同じ拡大窓を付ける"""
         c = self.c
         w, h = size
+        by_shot = {s["shot"]: s for s in self.cfg.get("slides", [])}
         shots = wide["shots"]
-        n = len(shots)
-        sh = int(h * 0.84)
-        sw = int(sh / PHONE_RATIO)
-        gap = int(sw * 0.12)
-        if sw * n + gap * (n - 1) > w * 0.55:
+        for n in range(len(shots), 0, -1):  # 画面の高さが絵の9割以上になる台数
             sw = int(w * 0.55 / (n + 0.12 * (n - 1)))
-            sh, gap = int(sw * PHONE_RATIO), int(sw * 0.12)
-        x = w - int(w * 0.04) - sw * n - gap * (n - 1)
+            if sw * PHONE_RATIO >= h * 0.9 or n == 1:
+                break
+        sw = min(sw, int(h * 1.05 / PHONE_RATIO))
+        shots, gap = shots[:n], int(sw * 0.12)
+        x = w - int(w * 0.05) - sw * n - gap * (n - 1)
         line1, line2, sub = wide["lines"]
-        left = int(w * 0.05)
-        room = x - left - int(w * 0.04)
-        hs = min(fit(line1, "W7", 400, room)[1], fit(line2, "W7", 400, room)[1])
+        left = int(w * 0.06)
+        has_zoom = bool(by_shot.get(shots[0], {}).get("focus")) and shots[0] != "widget"
+        room = x - left - int(w * 0.04) - (int(sw * 0.15) if has_zoom else 0)  # 拡大窓は画面より左右に15%ずつはみ出す
+        hs = min(fit(line1, "W7", h * 0.13, room)[1], fit(line2, "W7", h * 0.13, room)[1])
         head = font("W7", hs)
-        small, _ = fit(sub, "W3", hs * 0.42, room)
+        small, _ = fit(sub, "W6", hs * 0.42, room)
         canvas = Image.new("RGB", size, c["bg"])
         d = ImageDraw.Draw(canvas)
-        top = (h - (int(hs * 1.25) * 2 + int(hs * 0.72))) // 2
+        bh = int(hs * 0.62) if badge else 0
+        top = (h - (bh + int(hs * 0.5) * bool(badge) + int(hs * 1.3) * 2 + int(hs * 0.6))) // 2
+        if badge:
+            bf = font("W6", bh * 0.55)
+            bw = tlen(badge, bf) + bh * 0.8
+            d.rounded_rectangle((left, top, left + bw, top + bh), bh / 2, outline=c["sub"], width=max(int(hs * 0.03), 2))
+            tdraw(d, (left + bh * 0.4, top + bh * 0.18), badge, bf, c["sub"])
+            top += bh + int(hs * 0.5)
         tdraw(d, (left, top), line1, head, c["text"], HEAD_TRACK)
-        tdraw(d, (left, top + int(hs * 1.25)), line2, head, c["accent"], HEAD_TRACK)
-        tdraw(d, (left, top + int(hs * 2.8)), sub, small, c["sub"])
-        y = (h - sh) // 2
-        for f in shots:
-            im = self.shot(raw, f, sw, False)
-            im = im.crop((0, 0, sw, min(sh, im.height)))
-            if self.cfg.get("device"):
-                self.phone(canvas, im, x, y, False)
-            else:
-                r = int(sw * 0.07)
-                d.rounded_rectangle((x - 4, y - 4, x + sw + 4, y + im.height + 4), r + 4, fill=c["frame"])
-                ri = rounded(im, r)
-                canvas.paste(ri, (x, y), ri)
+        tdraw(d, (left, top + int(hs * 1.3)), line2, head, c["accent"], HEAD_TRACK)
+        tdraw(d, (left, top + int(hs * 2.75)), sub, small, c["sub"])
+        y = int(h * 0.1)
+        K = sw / 950
+        later = []  # 拡大窓は全部の画面を描いた後に重ねる（隣の画面の下に隠れないように）
+        for k, f in enumerate(shots):
+            sl = by_shot.get(f, {})
+            crop_y = sl.get("crop_y", 0.0)
+            if crop_y and f != "widget":  # 画面が下まで届く所までしか切らない
+                im0 = Image.open(raw / f)
+                crop_y = min(crop_y, max(1 - (h - y) * im0.width / sw / im0.height, 0))
+            im = self.shot(raw, f, sw, False, crop_y)
+            im = im.crop((0, 0, sw, min(h - y + 40, im.height)))
+            self.phone(canvas, im, x, y, False) if self.cfg.get("device") else self._flat(canvas, im, x, y)
+            if k == 0 and sl.get("focus") and f != "widget":
+                bar = int(sw * 0.13) if self.cfg.get("device") and not self.cfg.get("status_bar") else 0
+                later.append((raw / f, sl["focus"], crop_y, x, y + bar))
             x += sw + gap
+        for path, focus, crop_y, zx, zy in later:
+            self.zoom(canvas, path, focus, crop_y, zx, zy, sw, w, h, K, cx=zx + sw / 2, zw=sw * 1.3)
         out.parent.mkdir(parents=True, exist_ok=True)
         canvas.save(out)
+
+    def _flat(self, canvas, im, x, y):
+        sw = im.width
+        r = int(sw * 0.07)
+        ImageDraw.Draw(canvas).rounded_rectangle((x - 4, y - 4, x + sw + 4, y + im.height + 4), r + 4, fill=self.c["frame"])
+        ri = rounded(im, r)
+        canvas.paste(ri, (x, y), ri)
 
 
 def sets(cfg):
@@ -680,7 +702,7 @@ def main():
             for i, s in enumerate(slides, 1):
                 m.portrait(base / folder / f"{i}.png", raw, badge, s, W, H, K, SW, ipad, i, len(slides))
         for kind, w, h in WIDE:
-            m.wide(base / kind / f"{w}x{h}.png", m.raw_dir(lang, False), wide, (w, h))
+            m.wide(base / kind / f"{w}x{h}.png", m.raw_dir(lang, False), wide, (w, h), badge)
 
     # サイズが表のとおりか（docs/mockup.md の申請前チェック）
     for lang in langs:
