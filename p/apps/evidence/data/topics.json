@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-ai-fear-hesitant-to-use-14-week-course",
+    "category": "AIとのつきあい方",
+    "kind": "よくある説",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Sat M, \"The impact of AI integration in project preparation in education course on pre-service teachers' innovativeness, AI anxiety, attitudes, and acceptance\" (BMC Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s40359-025-03647-3",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-fear-hesitant-to-use/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "AIは使えば怖くなくなる？",
+        "body": "「AIが怖いのは慣れてないだけ。使えば平気になるよ」ってよく言われるよね。本当にそうなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "14週間、授業でAIを使ってみた",
+        "body": "トルコの教員志望の大学4年生34人が、14週間の授業で、研究計画づくりと文章を書いて直す作業にAIを使ったんだ。授業の前と後で気持ちを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見方はよくなったけど、不安は変わらず",
+        "body": "AIへの見方（5段階で3.36→3.83）や受け入れ（3.51→3.96）はよくなった。でもAIへの不安は3.69→3.74で、はっきりした変化はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "もっと長く使えば変わる？",
+        "body": "34人だけで、使わなかった人と比べる組もない研究。もっと長く使えば不安が下がるのかは、まだわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-fear-hesitant-to-use-14-week-course"
+  },
+  {
+    "id": "kokoro-ai-use-life-satisfaction-hongkong",
+    "category": "AIとのつきあい方",
+    "kind": "よくある説",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Fong TCT et al., \"Relationship Between Generative AI Use and Life Satisfaction and the Mediating Role of AI Literacy Among Hong Kong Adults: Cross-Sectional Study\" (Journal of Medical Internet Research, 2026)",
+    "sourceUrl": "https://doi.org/10.2196/88362",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-use-life-satisfaction/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "AIを使わないと取り残される？",
+        "body": "「AIを使いこなさないと置いていかれる」ってよく聞くよね。使っていない人は、毎日の満足度まで下がっちゃうのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "香港の1,800人に聞いた",
+        "body": "香港で無作為に選んだ17〜95歳の1,800人に、生成AIを1日どのくらい使うか、使いこなせている感覚、生活の満足度を答えてもらったんだ。この1年で使った人は38.5%だったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差は小さかった",
+        "body": "1日2時間を超えて使う人は、使わない人より満足度が35点満点で1.6点高いだけ。使いこなす力を考えに入れると、使う時間との直接の関係は見られなかったらしい。満足度は年代でも差がなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先？",
+        "body": "一度きりの調査だから、AIを使うと満足するのか、満足している人が使うのかはわからない。何のために使うかの違いも調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-use-life-satisfaction-hongkong"
+  },
+  {
+    "id": "kokoro-ai-workplace-readiness-autonomy-decision-latitude",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Theorell T et al., \"A systematic review including meta-analysis of work environment and depressive symptoms\" (BMC Public Health, 2015)",
+    "sourceUrl": "https://doi.org/10.1186/s12889-015-1954-4",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/ai-workplace-readiness-autonomy/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分で決められる仕事は楽？",
+        "body": "「やり方を任せてもらえる仕事のほうが気持ちが楽」ってよく聞くよね。これ、研究でも言えるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "59本の論文を整理",
+        "body": "スウェーデンの研究者たちが、職場の環境と落ち込みの症状の関係を、働く人を1年以上追った研究を中心に59本の論文からまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "裁量が大きいと強まりにくい",
+        "body": "19件・約15万8千人分のデータでは、仕事の裁量が大きいことが、落ち込みの症状が強まりにくいことと関係していたらしい（オッズ比0.73）。男女で違いはなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の答えが中心",
+        "body": "職場の環境も症状も、多くは本人の答えで測られているんだ。観察研究だから、裁量が原因だとまでは言えないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-workplace-readiness-autonomy-decision-latitude"
+  },
+  {
+    "id": "game-vr-sickness-who",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Saredakis, Szpak, Birckhead, Keage, Rizzo & Loetscher, \"Factors Associated With Virtual Reality Sickness in Head-Mounted Displays: A Systematic Review and Meta-Analysis\" (Frontiers in Human Neuroscience, 2020)",
+    "sourceUrl": "https://doi.org/10.3389/fnhum.2020.00096",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "VR酔いしやすいのは、どんな人？",
+        "body": "VRゴーグルで遊んだら、なんだか気持ち悪くなった。酔いやすい人っているのかな。遊ぶ中身によっても違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "55本・3,016人分をまとめた",
+        "body": "ゴーグル型のVRで、酔いの強さを同じ質問票（SSQ）で測った55本の研究、計3,016人分をまとめた分析があるんだ。中身の種類や年齢、男女で比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ゲームがいちばん酔いやすい",
+        "body": "酔いの点数はゲームが平均34.26点でいちばん高かった。全体の平均28.00点も、問題ありとされる目安（20点超）を上回ったらしい。男女の差は見られず、平均35歳以上の組は若い組より低かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "年齢と男女の比べ方は粗い",
+        "body": "35歳以上を調べた研究は少なく、男女は研究ごとの女性の割合で比べただけ。酔いは本人の答えで測っていて、SSQを使わなかった112本の研究は入っていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-vr-sickness-who"
+  },
+  {
+    "id": "replication-money-priming",
+    "category": "心理学の再現性",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Lodder, Ong, Grasman & Wicherts, \"A comprehensive meta-analysis of money priming\" (Journal of Experimental Psychology: General, 2019)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000570",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お金を見るだけで、人は変わる？",
+        "body": "お金の写真や言葉にふれるだけで、考え方やふるまいが変わる。そんな「お金のプライミング」の実験が、本などで紹介されることがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "246の実験をまとめた",
+        "body": "発表された論文も未発表の研究も集めて、お金のプライミングを試した246の実験をまとめた分析があるんだ。発表のかたよりがないかも確かめたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "効果はあるように見えるけど",
+        "body": "全体では効果あり（g=0.31）と出た。でも「効果が出た研究ほど発表される」かたよりがありそうだと、複数の方法で示された。効果がいちばん大きかったのは、実験室で本物のお金を手でさわる方法だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "0.31は大きく見えているかも",
+        "body": "かたよりがあるので、本当の効果は数字より小さい可能性がある。研究者たちは、計画を前もって登録した十分な人数の実験で確かめ直す必要があるとしているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-priming-walking",
+        "type": "あわせて読む",
+        "why": "「ふれるだけで行動が変わる」という別の説を、追試で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#replication-money-priming"
+  },
+  {
     "id": "dokugaku-phone-offline-study-blocks-disconnect-procrastination",
     "category": "先延ばし対策",
     "kind": "素朴な疑問",
@@ -16727,6 +16900,11 @@
         "id": "replication-100-studies-reproducibility",
         "type": "あわせて読む",
         "why": "この研究を含む、心理学の研究100本をまとめてやり直した大きな追試"
+      },
+      {
+        "id": "replication-money-priming",
+        "type": "あわせて読む",
+        "why": "同じ「ふれるだけで行動が変わる」説を、246の実験で見直した分析"
       }
     ]
   },
