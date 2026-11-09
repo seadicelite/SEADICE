@@ -39,3 +39,13 @@ body.t-read .body .sd-icards p{margin:0;font-size:15px;line-height:1.6}
 body.t-read .sd-icards small{display:block;font-size:13px;color:var(--sd-muted);margin-top:2px}
 body.t-read .body .sd-lines li{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--sd-line);font-size:15px}
 @media(min-width:600px){body.t-read .sd-icards{grid-template-columns:1fr 1fr}body.t-read .sd-stats b{font-size:32px}}
+
+/* 質実剛健: ブログの古いテーマ（blog-theme）の飾りを打ち消す（2026-11-09） */
+body.t-read nav{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--sd-bg)}
+body.t-read .body h2{border-bottom:0;padding-bottom:0}
+body.t-read .body h2::after{display:none}
+body.t-read .meta::before{background:var(--sd-accent)}
+body.t-read .body strong{background:none}
+body.t-read :is(.note,.tool-cta){background:var(--sd-surface)}
+body.t-read .tool-cta:hover{transform:none}
+body.t-read::after{background:var(--sd-accent)}
