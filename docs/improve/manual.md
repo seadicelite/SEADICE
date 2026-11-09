@@ -7,6 +7,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 
+- [ ] 近いうちに | メディア | デジタル探偵（tantei）を tantei.seadice.win で開けるようにする: Firebase コンソールの Hosting でサイト seadice-tantei にカスタムドメイン tantei.seadice.win を追加し、表示された DNS レコードを Cloudflare に入れる（プロキシはオフ）— 今は seadice-tantei.web.app でしか開けず、tantei.seadice.win は DNS がない。サイトマップ・正規URL・記事のリンクは tantei.seadice.win を指しているので、検索にもAIにも載らない（2026-11-10）
 - [ ] 近いうちに | アプリ | 寄せ書きメーカー用に新しい Firebase プロジェクト（例: yosegaki-maker）を作り、Blaze にして請求先を栽エンサーと同じものに、予算アラートを月1,000円に設定して、プロジェクトIDを Claude に伝える — QR で参加者のカードを集めるため。前の minna-loveletter は使い回さない（セキュリティ役の勧め、2026-11-09）
 - [ ] すぐ | アプリ | TOITE を App Store Connect で「販売停止」にする。データ削除が終わったら Firebase コンソールでプロジェクト「toite-ai」を削除する — 撮った写真とAIの解答を、uid なしの共通の場所（Realtime Database `problems/`・Storage `problems/`、読み取り・削除とも誰でも可）に保存していて、他人の写真が見られる状態だったため。ChatGPT で足りるアプリなので直さずにやめる（2026-11-09 ユーザー判断）
 
