@@ -224,6 +224,8 @@ def main():
         total = sum(cl.get("end", 0) - cl.get("start", 0) for cl in clips)
         if not 15 <= total <= 29.9:  # 30秒ちょうどは書き出しで少し延びることがあるので 29.9 まで
             errors.append(f"[{lang}] 合計 {total:.1f} 秒です（15〜29.9秒）")
+        elif total > 15.5:  # 短いほうがよい（2026-11-10 ユーザー）。Apple の下限の15秒を基本にする
+            print(f"注意: [{lang}] 合計 {total:.1f} 秒です。3場面×5秒＝15秒を基本にしています")
     if errors:
         sys.exit("書き出しを止めました:\n  " + "\n  ".join(errors))
 
