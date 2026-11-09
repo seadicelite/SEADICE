@@ -157,6 +157,60 @@ def rounded(im, radius):
     return out
 
 
+def _ncc(img, tpl):
+    """正規化相互相関（img の各位置で tpl とどれだけ似ているか、-1〜1）"""
+    import numpy as np
+    from scipy.signal import fftconvolve
+    th, tw = tpl.shape
+    t = tpl - tpl.mean()
+    tn = np.sqrt((t ** 2).sum())
+    if tn == 0 or img.shape[0] < th or img.shape[1] < tw:
+        return None
+    num = fftconvolve(img, t[::-1, ::-1], mode="valid")
+    ones = np.ones_like(tpl)
+    s1 = fftconvolve(img, ones, mode="valid")
+    s2 = fftconvolve(img ** 2, ones, mode="valid")
+    var = np.maximum(s2 - s1 ** 2 / tpl.size, 1e-6)
+    return num / (np.sqrt(var) * tn)
+
+
+def locate(phone_path, rect, pad_path):
+    """iPhone の実画面で決めた拡大の場所（rect）を、iPad の実画面の中で探す。
+    iPad は字が約2/3の大きさで折り返しも違うので、範囲の上端と下端の左側を別々に照合する。
+    戻り値: (iPad での rect, 似ている度合い 0〜1)"""
+    import numpy as np
+    D = 4  # 速さのために 1/4 に縮めて照合する
+    ph = Image.open(phone_path).convert("L")
+    pd = Image.open(pad_path).convert("L")
+    pad = np.asarray(pd.resize((pd.width // D, pd.height // D)), dtype=float)
+    fx, fy, fw, fh = rect
+    x0, y0, x1, y1 = int(fx * ph.width), int(fy * ph.height), int((fx + fw) * ph.width), int((fy + fh) * ph.height)
+    sh = min(y1 - y0, int(ph.height * 0.04))  # 上端・下端の帯の高さ
+    sw = int((x1 - x0) * 0.45)               # 左側だけ（iPad は列の幅が違う）
+    found = []
+    for top in (y0, y1 - sh):
+        strip = ph.crop((x0, top, x0 + sw, top + sh))
+        best = (-1, 0, 0, 0)
+        for scale in (0.6, 0.64, 0.68, 0.72, 0.76, 0.8):
+            t = strip.resize((max(int(strip.width * scale / D), 4), max(int(strip.height * scale / D), 4)))
+            r = _ncc(pad, np.asarray(t, dtype=float))
+            if r is None:
+                continue
+            k = np.unravel_index(np.argmax(r), r.shape)
+            if r[k] > best[0]:
+                best = (float(r[k]), k[1] * D, k[0] * D, scale)
+        found.append(best)
+    (s_top, px, py0, sc), (s_bot, _, py1, sc2) = found
+    py1 += int(sh * sc2)
+    if py1 <= py0:  # 下端が上端より上に見つかったら、上端から大きさで決める
+        py1 = py0 + int((y1 - y0) * sc)
+    if abs(fx - (1 - fx - fw)) < 0.06:  # iPhone で左右対称の範囲なら、iPad でも中央で左右対称にする
+        qx0, qx1 = px, pd.width - px
+    else:
+        qx0, qx1 = px, px + int((x1 - x0) * sc)
+    return [float(qx0 / pd.width), float(py0 / pd.height), float((qx1 - qx0) / pd.width), float((py1 - py0) / pd.height)], min(s_top, s_bot)
+
+
 class Mockup:
     def __init__(self, shots_dir, cfg):
         self.dir = shots_dir
@@ -293,13 +347,23 @@ class Mockup:
             d.rectangle((0, top + int(sw * 0.6), W, H), fill=mix(c["bg"], (255, 255, 255), 0.82))
         if self.cfg.get("device"):
             top += int(sw * 0.035)
+        focus = slide.get("focus_ipad" if ipad else "focus")
+        if ipad and not focus and slide.get("focus") and slide["shot"] != "widget":
+            # iPad は iPhone で決めた場所を探して当てる（focus_ipad を書かなくても済むように）
+            phone_raw = self.raw_dir("ja", False) / slide["shot"]
+            if phone_raw.exists() and phone_raw != raw / slide["shot"]:
+                focus, score = locate(phone_raw, slide["focus"], raw / slide["shot"])
+                if score < 0.6:
+                    print(f"注意: iPad の{i}枚目は拡大の場所が見つかりません（似ている度合い {score:.2f}）。focus_ipad を書いてください")
+                    focus = None
         crop_y = slide.get("crop_y_ipad" if ipad else "crop_y", 0.0)
+        if ipad and "crop_y_ipad" not in slide and slide.get("crop_y") and focus:
+            crop_y = max(focus[1] - 0.05, 0.0)  # iPad も、拡大する所が枠の上の方に来るように
         if crop_y and slide["shot"] != "widget":  # 画面が下まで届くよう、切る量に上限を付ける
             h0 = Image.open(raw / slide["shot"]).height
             w0 = Image.open(raw / slide["shot"]).width
             crop_y = min(crop_y, max(1 - (H - top) * w0 / sw / h0, 0))
         self.phone(canvas, self.shot(raw, slide["shot"], sw, ipad, crop_y), x, top, ipad)
-        focus = slide.get("focus_ipad" if ipad else "focus")
         if focus and slide["shot"] != "widget":
             bar = int(sw * 0.13) if self.cfg.get("device") and not ipad and not self.cfg.get("status_bar") else 0
             z = self.zoom(canvas, raw / slide["shot"], focus, crop_y, x, top + bar, sw, W, H, K)
