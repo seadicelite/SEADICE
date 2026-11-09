@@ -36,7 +36,7 @@ argument-hint: <slug 例: research> [--draft] [トピック]
 
 ## 新しいメディアを増やすとき
 
-`media/{新slug}.json` を `research.json` と同じ形で作るだけ。`template` `rulesFrom` は共有してよい（見た目やルールを変えたいときだけ別ファイルにする）。新しいテンプレート(`{新slug}-template.html`)を作る場合は、`quality.md`の余白・カード構造・画像必須のルールを土台にする（ジャンルが変わっても読みやすさの基準は共通）。
+`media/{新slug}.json` を `research.json` と同じ形で作るだけ。左の記事一覧（読んだ・もう一度読みたい・未読の絞り込み）と記事末尾の「読んだ」ボタンは書かなくても入る（止めるときだけ `"sideIndex": false` `"readCheck": false`）。トップの PICK UP もどのレイアウトにも入る。**`.github/workflows/deploy.yml` のビルドの並びに slug を足す**（足さないと一覧と PICK UP が毎日作り直されない）。`template` `rulesFrom` は共有してよい（見た目やルールを変えたいときだけ別ファイルにする）。新しいテンプレート(`{新slug}-template.html`)を作る場合は、`quality.md`の余白・カード構造・画像必須のルールを土台にする（ジャンルが変わっても読みやすさの基準は共通）。
 
 公開したら、SEADICEリポジトリのホームページ（`/Users/hidenori/Developer/SEADICE/p/index.html`）の次の3か所にも追加する（メディア一覧はここが正。2026-10-28 に企業サイト型へ作り直した）:
 - `#media` セクションの `.dir` の中で、テーマに合う列（SI時代の問題 / くらしと心 / 防犯と犯罪 / 好奇心）の `<ul>` に `<li>` を1行（`<a>` の先頭に線のアイコン `<svg class="picto" viewBox="0 0 24 24" aria-hidden="true">`、`<strong>` にメディア名、`<span>` に10字前後の一言）。どの列にも合わなければ列（`<div><h3>…</h3><ul>…</ul></div>`）を1つ足す。フッターには足さない（2026-11-06 に本文と重なるメディア列を外した）
