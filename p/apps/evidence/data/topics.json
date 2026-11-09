@@ -1,5 +1,206 @@
 [
   {
+    "id": "dokugaku-preview-headings-before-reading-headings-summary",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Lorch et al., \"Effects of headings on text summarization\" (Contemporary Educational Psychology, 2001)",
+    "sourceUrl": "https://doi.org/10.1006/ceps.1999.1037",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/preview-headings-before-reading/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "見出しって、本当に役に立つ？",
+        "body": "教科書の見出し、なんとなく読み飛ばしてないかな。実は見出しがあるかどうかで、読んだ人が何を覚えているかが変わるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見出しの数を変えて要約させた",
+        "body": "米国の大学の研究で、大学生と6・8年生（小6・中2くらい）に、話題がいくつもある文章を読んで要約してもらった。見出しが全部ある・半分だけ・無しの3通りを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見出しのある話題が要約に残る",
+        "body": "3つの実験すべてで、見出しのある話題ほど要約に入りやすかった。でも見出しが半分だけだと、見出しの無い話題は逆に落ちやすくなったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "成績まで変わるかは別の話",
+        "body": "これは要約に何が入るかを見た実験で、試験の点や後で覚えているかまでは調べていない。見出しは地図として使い、本文も読むのが安全そう。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-textbook-too-hard-to-understand-rereading",
+        "type": "あわせて読む",
+        "why": "教科書の読み方を、別の角度から調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-preview-headings-before-reading-headings-summary"
+  },
+  {
+    "id": "dokugaku-froze-speaking-foreign-language-anxiety-relaxation",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Toyama & Yamazaki, \"Classroom interventions and foreign language anxiety: A systematic review with narrative approach\" (Frontiers in Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.614184",
+    "studyType": "レビュー",
+    "articleUrl": "https://dokugaku.seadice.win/froze-speaking-foreign-language-anxiety/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "英語の緊張は、グループ練習で慣れる？",
+        "body": "英語を話すと緊張する人には「仲間とたくさん話して慣れよう」とよく言うよね。でも、研究で確かめるとどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40の介入研究を集めた",
+        "body": "外国語の不安を下げようとした授業の工夫を試した40本の研究を、17の国・地域から集めて整理したレビューがある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "仲間同士だけでは下がらなかった",
+        "body": "仲間のフィードバックだけ、グループ活動だけの研究（各1本）では不安は下がらなかった。一方、思い込みを見直す方法と前向きな自分への言葉に、先生と仲間の声かけを合わせた2本では下がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "少人数の研究が多い",
+        "body": "18本は10〜49人の少人数で、比べる群が無い研究も13本あった。数字でまとめたメタ分析ではなく、授業の中の話。一人で学ぶ大人に同じ効果があるかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-exam-nerves-choked-next-time-reappraisal",
+        "type": "あわせて読む",
+        "why": "緊張の受け止め方を変える方法を、試験の場面で調べた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-froze-speaking-foreign-language-anxiety-relaxation"
+  },
+  {
+    "id": "dokugaku-multiple-choice-practice-questions-how-to-mc-quiz",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "McDermott et al., \"Both multiple-choice and short-answer quizzes enhance later exam performance in middle and high school classes\" (Journal of Experimental Psychology: Applied, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/xap0000004",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/multiple-choice-practice-questions-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "四択の問題は、力がつかない？",
+        "body": "選択肢の問題は答えが目の前にあるから、選ぶだけで覚える力はつかない、ってよく言われるよね。記述で書かないと意味がない、という声もある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "本物の授業で比べた",
+        "body": "米国の7年生（中1くらい）の理科と高校の歴史の授業で、ときどき小テストをした。形式は記述か選択肢で、どちらも正解を伝えた。小テストをしなかった内容と、後の試験の成績を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "選択肢でも記述と同じくらい効いた",
+        "body": "小テストをした内容は、単元テストでも学期末テストでも成績が良かった。選択肢の小テストは記述と同じくらい効き、本番と形式が違っても効果が出たらしい。読み直すだけより良かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人の独学ではどうか",
+        "body": "先生が問題を作り、すぐ正解を伝えた授業での話。大人が一人で問題集を解く場合や、答え合わせをしない場合に同じ効果が出るかは、この研究では確かめていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-mind-map-memory-how-to-use-research-concept-map-artifact",
+        "type": "あわせて読む",
+        "why": "思い出す練習の効果を、別の学び方と比べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-multiple-choice-practice-questions-how-to-mc-quiz"
+  },
+  {
+    "id": "nature-outdoor-time-myopia-meta",
+    "category": "自然と健康",
+    "kind": "よくある説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Xiong et al., \"Time spent in outdoor activities in relation to myopia prevention and control: a meta-analysis and systematic review\" (Acta Ophthalmologica, 2017)",
+    "sourceUrl": "https://doi.org/10.1111/aos.13403",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "外で遊ぶ子は、目が悪くなりにくい？",
+        "body": "「外で遊ぶと目にいい」って昔から言うよね。勉強やスマホだけじゃなく、外にいる時間そのものが近視と関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "25本の研究を数字でまとめた",
+        "body": "外で過ごす時間と近視の関係を調べた研究を集め、25本を数字でまとめたメタ分析がある。25本のうち23本は子どもが対象だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "近視になりにくいが、進むのは止まらない",
+        "body": "外の時間を増やした試験では、近視になるリスクが約0.54倍に。3年後の度の進みも少し小さかった。でも、すでに近視の子では外の時間と進み方に関係が見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何時間がいいかは、まだはっきりしない",
+        "body": "試験だけでなく、追跡や一時点の調査も多く含まれる。光のおかげか遠くを見るからかは調べていない。著者も、時間の量を変えた研究や外にいた時間を正確に測る研究が要ると書いている。"
+      }
+    ],
+    "links": [
+      {
+        "id": "game-smart-device-myopia",
+        "type": "あわせて読む",
+        "why": "画面を見る時間と近視の関係を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#nature-outdoor-time-myopia-meta"
+  },
+  {
+    "id": "posture-walking-low-back-pain-recurrence-walkback",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Pocovi et al., \"Effectiveness and cost-effectiveness of an individualised, progressive walking and education intervention for the prevention of low back pain recurrence in Australia (WalkBack): a randomised controlled trial\" (The Lancet, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/S0140-6736(24)00755-4",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "歩くと、腰痛はぶり返しにくい？",
+        "body": "腰痛って、治ってもまたぶり返すことが多いよね。毎日歩く習慣で、次の腰痛を遠ざけられるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "治ったばかりの701人をくじで分けた",
+        "body": "オーストラリアで、腰痛が治ったばかりの大人701人（平均54歳、8割が女性）を2組に分けた。片方は理学療法士と半年で6回会い、少しずつ歩く量を増やしながら腰痛について学んだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "次の腰痛まで、倍近く長くなった",
+        "body": "生活に支障が出る腰痛がぶり返すまでの日数（中央値）は、歩く組208日、何もしない組112日。ぶり返しやすさは約3割低かった（ハザード比0.72）。費用に見合う効果とも判断された。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "歩くこと自体が効いたのかは不明",
+        "body": "歩く量を増やす・腰痛を学ぶ・専門家と会う、がセットで、どれが効いたかは分けられない。本人も組分けを知っていて、腰痛は毎月の自己申告。足などの不調は歩く組で多かった（100件と54件）。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-back-pain-bed-rest",
+        "type": "あわせて読む",
+        "why": "腰が痛いときに安静にすべきかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-walking-low-back-pain-recurrence-walkback"
+  },
+  {
     "id": "dokugaku-apply-relearning-at-work-transfer-skill-decay",
     "category": "記憶のしくみ",
     "kind": "研究紹介",
@@ -2422,6 +2623,11 @@
         "id": "research-self-explanation-own-words-memory-why-research-medstudents",
         "type": "あわせて読む",
         "why": "思い出す練習を、自分の言葉で説明する学び方と半年後の記憶で比べた研究"
+      },
+      {
+        "id": "dokugaku-multiple-choice-practice-questions-how-to-mc-quiz",
+        "type": "あわせて読む",
+        "why": "本物の授業で、選択肢の小テストも記述と同じくらい効いた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#research-mind-map-memory-how-to-use-research-concept-map-artifact"
@@ -9940,6 +10146,11 @@
         "id": "dokugaku-cramming-one-week",
         "type": "あわせて読む",
         "why": "すぐ読み直す効果と、続けて読み直した1週間後の記憶"
+      },
+      {
+        "id": "dokugaku-preview-headings-before-reading-headings-summary",
+        "type": "あわせて読む",
+        "why": "読む前に見出しを使うと、要約に残る話題が変わった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-textbook-too-hard-to-understand-rereading"
@@ -10327,6 +10538,11 @@
         "id": "research-exam-mind-blank-test-anxiety-recovery-research-reappraisal",
         "type": "反対の結果",
         "why": "同じ捉え直しの方法で、大学の試験では差が出なかった"
+      },
+      {
+        "id": "dokugaku-froze-speaking-foreign-language-anxiety-relaxation",
+        "type": "あわせて読む",
+        "why": "外国語の授業で、不安を下げる工夫を40本集めたレビュー"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-nerves-choked-next-time-reappraisal"
@@ -12052,6 +12268,11 @@
         "id": "posture-back-pain-heat-or-cold",
         "type": "あわせて読む",
         "why": "腰が痛いときに温めるか冷やすかを調べたレビュー"
+      },
+      {
+        "id": "posture-walking-low-back-pain-recurrence-walkback",
+        "type": "あわせて読む",
+        "why": "治った後に歩く習慣をつけると、ぶり返しが遅くなった"
       }
     ]
   },
@@ -35651,6 +35872,11 @@
         "id": "sns-screen-time-self-report",
         "type": "あわせて読む",
         "why": "自分で答えるスマホ時間は、実際の時間とずれやすい"
+      },
+      {
+        "id": "nature-outdoor-time-myopia-meta",
+        "type": "あわせて読む",
+        "why": "外で過ごす時間が長い子は、近視になりにくかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/games/game-smart-device-myopia/"
