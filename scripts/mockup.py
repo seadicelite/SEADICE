@@ -14,7 +14,9 @@ mockup.json:
 {
   "colors": {"bg": "#1F3A5F", "text": "#FFFFFF", "accent": "#F59E0B", "sub": "#C9D3E0", "frame": "#0E1B2C"},
   "badge": "広告なし・登録なし",
-  "slides": [{"shot": "1.png", "lines": ["1行目", "2行目（アクセント色）", "補足"]}, ...],
+  "slides": [{"shot": "1.png", "lines": ["1行目", "2行目（アクセント色）", "補足"],
+              "crop_y": 0.1,                              # 実画面を上から何割切って見せるか（見出しが指す所を枠の上半分に）
+              "focus": [0.02, 0.17, 0.96, 0.33]}, ...],   # 拡大窓: 大事な所（実画面に対する割合 [x, y, 幅, 高さ]）。iPad は focus_ipad・crop_y_ipad
   "wide": {"shots": ["1.png", "3.png", "5.png"], "lines": ["1行目", "2行目", "補足"]},
   "style": "classic",                      # classic・split（上下で地が変わる）・bold（左寄せと番号）・panorama（6枚で図形がつながる）
   "font": "gothic",                        # gothic・maru・mincho・アプリの書体（例: "assets/fonts/NotoSansJP-VariableFont_wght.ttf"）
@@ -139,10 +141,13 @@ class Mockup:
             return self.raw_dir(lang, False)
         sys.exit(f"実画面のフォルダがありません: {base}")
 
-    def shot(self, raw, name, width, ipad):
+    def shot(self, raw, name, width, ipad, crop_y=0.0, min_h=0):
         if name == "widget":
             return self.widget_panel(raw, (width, int(width * PHONE_RATIO)))
         im = Image.open(raw / name).convert("RGB")
+        if crop_y:  # 見出しが指す所が枠の上半分に入るよう、上を切って見せる（画面が下まで届く所まで）
+            keep = min_h * im.width / width
+            im = im.crop((0, int(min(im.height * crop_y, max(im.height - keep, 0))), im.width, im.height))
         if ipad and name in self.cfg.get("crop_center", []):
             cw = 1400
             ch = int(cw * 4 / 3)
@@ -170,7 +175,8 @@ class Mockup:
             if not ipad and not self.cfg.get("status_bar"):
                 # 実画面にステータスバーがない（テストで描いた）ときは、画面の一番上の色で帯を足してアイランドを置く
                 bar = int(sw * 0.13)
-                tall = Image.new("RGB", (sw, im.height + bar), im.getpixel((sw // 2, 2)))
+                top_color = max(im.crop((0, 0, sw, 6)).getcolors(sw * 6), key=lambda t: t[0])[1]  # 上端でいちばん多い色
+                tall = Image.new("RGB", (sw, im.height + bar), top_color)
                 tall.paste(im, (0, bar))
                 im = tall.crop((0, 0, sw, im.height))
             b = int(sw * (0.022 if ipad else 0.035))  # 縁の太さ
@@ -213,10 +219,11 @@ class Mockup:
         bold = style == "bold"
         left = int(W * 0.08)
         room = W * (0.84 if bold else 0.9)
-        size = 104 * K * (1.22 if bold else 1)
+        # 検索結果の小ささでも読めるよう、見出しは大きく、補足は太く（docs/mockup.md「3. 形」、neuro 役 2026-11-09）
+        size = 116 * K * (1.15 if bold else 1)
         hs = min(fit(line1, "W7", size, room)[1], fit(line2, "W7", size, room)[1])
         head = font("W7", hs)
-        small, _ = fit(sub, "W3", 46 * K, room)
+        small, _ = fit(sub, "W6", 54 * K, room)
 
         def put(text, f, y, color):
             x = left if bold else (W - d.textlength(text, font=f)) / 2
@@ -238,11 +245,11 @@ class Mockup:
             top += 130 * K
         else:
             top += 130 * K
-        step = hs * 150 / 104
+        step = hs * 1.3
         put(line1, head, top, c["text"])
         put(line2, head, top + step, c["accent"])
         put(sub, small, top + step * 2, c["sub"])
-        top = int(top + step * 2 + 100 * K)
+        top = int(top + step * 2 + 54 * K + 70 * K)
 
         sw = int(SW * (1.08 if bold else 1))
         x = W - sw + int(sw * 0.1) - left if bold else (W - sw) // 2  # bold は右へはみ出させる
@@ -250,9 +257,46 @@ class Mockup:
             d.rectangle((0, top + int(sw * 0.6), W, H), fill=mix(c["bg"], (255, 255, 255), 0.82))
         if self.cfg.get("device"):
             top += int(sw * 0.035)
-        self.phone(canvas, self.shot(raw, slide["shot"], sw, ipad), x, top, ipad)
+        crop_y = slide.get("crop_y_ipad" if ipad else "crop_y", 0.0)
+        if crop_y and slide["shot"] != "widget":  # 画面が下まで届くよう、切る量に上限を付ける
+            h0 = Image.open(raw / slide["shot"]).height
+            w0 = Image.open(raw / slide["shot"]).width
+            crop_y = min(crop_y, max(1 - (H - top) * w0 / sw / h0, 0))
+        self.phone(canvas, self.shot(raw, slide["shot"], sw, ipad, crop_y), x, top, ipad)
+        focus = slide.get("focus_ipad" if ipad else "focus")
+        if focus and slide["shot"] != "widget":
+            bar = int(sw * 0.13) if self.cfg.get("device") and not ipad and not self.cfg.get("status_bar") else 0
+            z = self.zoom(canvas, raw / slide["shot"], focus, crop_y, x, top + bar, sw, W, H, K)
+            if z < 1.2 and not ipad and W == PORTRAIT[0][1]:
+                print(f"注意: {i}枚目の拡大窓が {z:.2f} 倍です（1.2倍以上が目安。focus の幅を狭めて大事な所だけにする）")
         out.parent.mkdir(parents=True, exist_ok=True)
         canvas.save(out)
+
+    def zoom(self, canvas, path, rect, crop_y, px, py, sw, W, H, K):
+        """拡大窓: 実画面の大事な所（rect は実画面に対する割合 [x, y, 幅, 高さ]）を、元の場所の上に大きくして重ねる
+        （同じ中身が2回見えないように、元の所を覆う）。枠はアクセント色、影・暗幕は付けない"""
+        a = self.c["accent"]
+        im = Image.open(path).convert("RGB")
+        fx, fy, fw, fh = rect
+        box = (int(fx * im.width), int(fy * im.height), int((fx + fw) * im.width), int((fy + fh) * im.height))
+        s = sw / im.width
+        oy = py + (box[1] - crop_y * im.height) * s  # 元の所の上端（キャンバスの上で）
+        part = im.crop(box)
+        zw = int(W * 0.94)
+        zh = int(part.height * zw / part.width)
+        if zh > H * 0.4:  # 縦に長すぎるときは高さで合わせる
+            zh = int(H * 0.4)
+            zw = int(part.width * zh / part.height)
+        part = part.resize((zw, zh), Image.LANCZOS)
+        zx = (W - zw) // 2
+        center = oy + (box[3] - box[1]) * s / 2
+        zy = int(min(max(center - zh / 2, py), H - zh - 40 * K))
+        bw = max(int(6 * K), 3)
+        d = ImageDraw.Draw(canvas)
+        d.rounded_rectangle((zx - bw, zy - bw, zx + zw + bw, zy + zh + bw), int(8 * K) + bw, fill=a)
+        r = rounded(part, int(8 * K))
+        canvas.paste(r, (zx, zy), r)
+        return zw / ((box[2] - box[0]) * s)  # 倍率
 
     def wide(self, out, raw, wide, size):
         """ヘッダー・検索結果（横）。左に見出し、右に実画面を並べる（幅の55%まで）"""
@@ -303,9 +347,35 @@ def sets(cfg):
         yield "en", en.get("badge", ""), en["slides"], en.get("wide", cfg["wide"])
 
 
+def contrast(a, b):
+    """WCAG のコントラスト比"""
+    def lum(c):
+        v = [x / 255 for x in c]
+        v = [x / 12.92 if x <= 0.03928 else ((x + 0.055) / 1.055) ** 2.4 for x in v]
+        return 0.2126 * v[0] + 0.7152 * v[1] + 0.0722 * v[2]
+    hi, lo = sorted((lum(a), lum(b)), reverse=True)
+    return (hi + 0.05) / (lo + 0.05)
+
+
+def similar(raw, slides):
+    """実画面がほぼ同じ枚の組（並べると違いがわからない）"""
+    def small(s):
+        im = Image.open(raw / s["shot"]).convert("L")
+        im = im.crop((0, int(im.height * s.get("crop_y", 0)), im.width, im.height))
+        return list(im.resize((24, 48)).getdata())
+    ims = [(i, small(s)) for i, s in enumerate(slides, 1) if s["shot"] != "widget" and (raw / s["shot"]).exists()]
+    return [(i, j) for k, (i, a) in enumerate(ims) for j, b in ims[k + 1:]
+            if sum(abs(x - y) for x, y in zip(a, b)) / len(a) < 12]
+
+
 def lint(cfg, shots_dir):
-    """書き出す前に止める問題: 価格の言葉・見出しの形・実画面のファイルがない"""
+    """書き出す前に止める問題: 価格の言葉・見出しの形・実画面のファイルがない・文字が読めない色"""
     errors = []
+    c = {k: rgb(v) for k, v in {**COLORS, **cfg.get("colors", {})}.items()}
+    for key, need in (("text", 4.5), ("sub", 4.5), ("accent", 3.0)):  # 2行目は大きい文字なので 3:1（WCAG）
+        r = contrast(c[key], c["bg"])
+        if r < need:
+            errors.append(f"colors.{key} と地のコントラストが {r:.1f}:1（{need}:1 以上にする）")
     for lang, badge, slides, wide in sets(cfg):
         texts = [("印", badge)] + [(f"{i}枚目", t) for i, s in enumerate(slides, 1) for t in s["lines"]]
         texts += [("横の絵", t) for t in wide["lines"]]
@@ -315,11 +385,13 @@ def lint(cfg, shots_dir):
         for i, s in enumerate(slides, 1):
             if len(s["lines"]) != 3:
                 errors.append(f"[{lang}] {i}枚目: lines は [1行目, 2行目, 補足] の3つ")
-            elif lang == "ja" and max(len(s["lines"][0]), len(s["lines"][1])) > 12:
-                print(f"注意: [{lang}] {i}枚目の見出しが12字を超えています（1行10字前後まで、文字は小さくして収めます）")
+            elif lang == "ja" and max(len(s["lines"][0]), len(s["lines"][1])) > 10:
+                print(f"注意: [{lang}] {i}枚目の見出しが10字を超えています（1行9字前後まで。長いと文字を小さくして収めるので、検索結果で読みにくくなる）")
         if len(slides) != 6:
             print(f"注意: [{lang}] スクショが{len(slides)}枚です（決まりは6枚）")
         m = Mockup(shots_dir, cfg)
+        for i, j in similar(m.raw_dir(lang, False), slides):
+            print(f"注意: [{lang}] {i}枚目と{j}枚目の実画面がほぼ同じです（crop_y で見せる所を変えるか、別の画面にする）")
         for ipad in (False, True):
             raw = m.raw_dir(lang, ipad)
             for name in {s["shot"] for s in slides} | (set() if ipad else set(wide["shots"])):
