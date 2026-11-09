@@ -50,7 +50,6 @@ design/README.md・design/*.css
 1. **誠実なデザインの点検・続き**（design/README.md の6項目）: 使うページの更新日は済（2026-10-20）。残り: 出典・根拠の欄がない診断6本（renai-type・profile・mbti-lite・hidden-personality・stress-type・bigfive-lite）に「何がわかって何がわからないか」を足す（記事分野と連携。診断の中身は tools.md の根拠ルールに従う）、読ませる/魅せるページの更新日、アプリへの案内が用事の前に出ているページ
 1. **EVIDENCE 生成ページの独自CSS（build_evidence_hub.py の CSS）を、show と重複する部分から削る**（続き。`.grid` は削った。残りは `.cta`・`.topic` など show が上書きする宣言を1つずつ）
 1. **ヘッダー・フッターを全ページ共通にする**（design/README.md「これから」1。2026-11-03 の design 役の点検で優先が上がった: tools・about・apps・diagnosis・evidence-series でナビ・パンくず・フッターのリンクがすべて違う。ロゴの右に「読む／道具／アプリ」を置く形）
-1. **独自クラスの角丸・ぼかしを消す**（2026-11-03 design 役）: p/tools/index.html の `backdrop-filter:blur(12px)`・`.tool-card` の角丸14px と hover の浮き上がり、p/apps/index.html（13・14・999px）・p/evidence-series/index.html（12・16・999px）。base.css の打ち消しは `.card` などの名前にしか効いていない。独自クラスを design/ の部品に寄せる
 1. **/tools/ に「詐欺・防犯」の見出しを作って先頭に置く**（2026-11-03 user 役: ツール一覧に詐欺の道具が1つもなく、睡眠や電気毛布が並ぶ）。/diagnosis/ の「人気の無料診断」の言い方と、青・紫のバナーも見直す
 2. **ヘッダー・フッターを全ページ共通にする**（上に統合済み。次の点検で消す）
 3. **ページ内に残る旧CSSの装飾宣言（694ページ）を一括で削る**: 上書きで無効のため見た目は変わらず容量だけ減る。スクリプトで安全に除去できるか試す
@@ -59,6 +58,7 @@ design/README.md・design/*.css
 ## やったこと
 
 10月までは [log/design.md](log/design.md)。
+- 2026-11-09: 独自クラスの飾りを design で打ち消し（read: ブログの古いテーマのグラデ・ぼかし・蛍光下線・見出しの二重線、show: /tools/・/apps/・/evidence-series/ のナビのぼかし・角丸14〜999px・hover の浮き上がり）。アプリアイコンの角丸は実物の形なので残した。--refresh で945ページ
 - 2026-11-09: 開発日誌を図とアイコン中心の型に（ユーザー「文字を減らして絵やアイコンを増やす」）。design/read.css に部品 .sd-stats（数字タイル）・.sd-bars（分野別の棒）・.sd-ba（前→後の棒）・.sd-icards（アイコンカード）・.sd-next を追加、daily-2026-11-08 を作り替え、型は docs/writing.md「日誌の型」、毎朝の自動作成の指示も更新
 - 2026-11-06: 全ページのロゴにサイコロのマーク（design/base.css の .nav-logo・.logo-text に ::before、古い4色の四角は隠す、940ページを --refresh）。/apps/ の説明51本を10〜25字の一言に（build_apps_page.py の DESC_OVERRIDE、「見抜く」など言い切りも控えた）、名前は副題（「-」以降）を外し、冒頭を1文に。/apps/・/evidence-series/ のロゴに nav-logo を足した
 - 2026-11-06: トップの大見出しを「ASIの時代を、乗り越える。」に（ユーザー決定。「誠実なサービスで、信頼に応える。」は下の小見出しへ）、OGP画像も同じに。注目の枠を生写真プロフィール帳から IJIN と EVIDENCE の2本（App Store へ直接、ct=seadice）に（ユーザー選択）。IJIN は 11-05 に 1.3.0 が公開済みだったので released-apps.json の名前を「IJIN - 偉人が話しかけてくる友達」に直し、アプリ一覧を再生成

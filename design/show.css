@@ -27,3 +27,10 @@ body.t-show :is(.section,main>section:not(.cta))>:is(.section-title,h2){grid-col
 body.t-show :is(.evidence,.ev-media){max-width:760px;margin-left:auto;margin-right:auto}
 }
 @media(max-width:599px){body.t-show .filters{margin-left:calc(var(--sd-g)*-1);margin-right:calc(var(--sd-g)*-1);padding-left:var(--sd-g);padding-right:var(--sd-g)}}
+
+/* 質実剛健: 一覧ページの独自クラスの飾りを打ち消す（2026-11-09。アプリアイコンの角丸は実物の形なので残す） */
+body.t-show nav{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--sd-bg)}
+body.t-show :is(.tool-card,.series,.rules,.flag){border-radius:8px}
+body.t-show .tool-card:hover{transform:none}
+body.t-show :is(.facts li,.app-store,.app-ev){border-radius:4px}
+body.t-show .hero img{border-radius:8px}
