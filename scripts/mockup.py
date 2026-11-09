@@ -246,7 +246,7 @@ class Mockup:
 
     def widget_panel(self, raw, size):
         """ウィジェットを置いたホーム画面の見本（実画面の代わり）"""
-        panel = Image.new("RGB", size, (16, 20, 32))
+        panel = Image.new("RGB", size, mix(self.c["frame"], (0, 0, 0), 0.3))  # ホーム画面の地（アプリの枠の色から）
         gap, y = int(size[0] * 0.07), int(size[0] * 0.15)
         for name in self.cfg.get("widget", []):
             w = Image.open(raw / name).convert("RGBA")
@@ -854,6 +854,7 @@ def main():
     for i, s in enumerate(cfg["slides"], 1):
         print(f"| {i} | {s['lines'][0]} / {s['lines'][1]} | {s['lines'][2]} |")
 
+    print("\n差し替えて公開されたら、docs/mockup.md の「8. 効いたかを見る」の表に1行足す（効いたかを数字で見るため）")
     preview = Path(__file__).with_name("appstore_preview.py")
     if (app / "APPSTORE_SUBMISSION.md").exists():
         subprocess.run([sys.executable, str(preview), str(app), "--shots", "screenshots/6.3"], check=False)

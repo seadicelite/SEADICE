@@ -9,7 +9,8 @@ Apple の決まり: 中身はアプリの画面を録画したものだけ（文
 
 preview.json:
 {
-  "clips": [{"video": "1.mov", "start": 0.5, "end": 6, "lines": ["1行目", "2行目（アクセント色）", "補足"]}, ...],
+  "clips": [{"video": "1.mov", "start": 0.5, "end": 6, "lines": ["1行目", "2行目（アクセント色）", "補足"],
+             "focus": [0.02, 0.17, 0.96, 0.25]}, ...],   # 拡大窓（録画に対する割合）。iPad は自動で探す（focus_ipad で指定も可）
   "en": {"clips": [...]}          # 英語版（録画は rec/en/）
 }
 録画: iPhone は screenshots/rec/（英語は rec/en/）、iPad は rec_ipad/（無ければ iPad の動画は作らない）
@@ -25,7 +26,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(Path(__file__).parent))
-from mockup import COLORS, PRICE_WORDS, fit, font, load, ocr_price, rgb, use_font  # noqa: E402
+from mockup import COLORS, HEAD_TRACK, PRICE_WORDS, fit, font, load, locate, ocr_price, rgb, tdraw, tlen, use_font  # noqa: E402
 
 # (名前, 幅, 高さ, 録画のフォルダ)。docs/mockup.md の表のアプリプレビュー（横、2026-11-09 ユーザー指定）
 SIZES = [
@@ -59,33 +60,56 @@ def layout(W, H, rec):
     return W - int(W * 0.06) - sw, (H - sh) // 2, sw, sh
 
 
-def front(path, W, H, box, colors, badge, lines):
+def front(path, W, H, box, colors, badge, lines, overhang=0):
     """録画の上に重ねる絵。左に印と見出し、録画の所だけ角丸にくり抜く"""
     c = colors
     x, y, sw, sh = box
     im = Image.new("RGBA", (W, H), c["bg"] + (255,))
     d = ImageDraw.Draw(im)
     left = int(W * 0.06)
-    room = x - left - int(W * 0.05)
+    room = x - left - int(W * 0.05) - overhang  # 拡大窓が録画より左にはみ出す分も空ける
     line1, line2, sub = lines
     hs = min(fit(line1, "W7", H * 0.11, room)[1], fit(line2, "W7", H * 0.11, room)[1])
     head = font("W7", hs)
-    small, _ = fit(sub, "W3", hs * 0.45, room)
+    small, _ = fit(sub, "W6", hs * 0.45, room)
     bh = int(hs * 0.7) if badge else 0
     top = (H - (bh + int(hs * 0.5) + int(hs * 1.3) * 2 + int(hs * 0.6))) // 2
     if badge:
-        bf = font("W7", hs * 0.38)
-        bw = d.textlength(badge, font=bf) + hs * 0.6
-        d.rounded_rectangle((left, top, left + bw, top + bh), bh / 2, fill=c["text"])
-        d.text((left + hs * 0.3, top + bh * 0.17), badge, font=bf, fill=c["bg"])
+        # スクショと同じ: 印は細い線の枠、文字は詰め組み（scripts/mockup.py）
+        bf = font("W6", hs * 0.36)
+        bw = tlen(badge, bf) + hs * 0.56
+        d.rounded_rectangle((left, top, left + bw, top + bh), bh / 2, outline=c["sub"], width=max(int(hs * 0.03), 2))
+        tdraw(d, (left + hs * 0.28, top + bh * 0.18), badge, bf, c["sub"])
         top += bh + int(hs * 0.5)
-    d.text((left, top), line1, font=head, fill=c["text"])
-    d.text((left, top + int(hs * 1.3)), line2, font=head, fill=c["accent"])
-    d.text((left, top + int(hs * 2.75)), sub, font=small, fill=c["sub"])
+    tdraw(d, (left, top), line1, head, c["text"], HEAD_TRACK)
+    tdraw(d, (left, top + int(hs * 1.3)), line2, head, c["accent"], HEAD_TRACK)
+    tdraw(d, (left, top + int(hs * 2.75)), sub, small, c["sub"])
     r = int(sw * 0.08)
     d.rounded_rectangle((x - 4, y - 4, x + sw + 4, y + sh + 4), r + 4, fill=c["frame"])
     d.rounded_rectangle((x, y, x + sw, y + sh), r, fill=(0, 0, 0, 0))
     im.save(path)
+
+
+def frame_png(video, t, out):
+    run(["ffmpeg", "-y", "-v", "error", "-ss", str(t), "-i", str(video), "-frames:v", "1", str(out)])
+    return out
+
+
+def focus_for(cl, name, recs, tmp, i):
+    """拡大窓の場所（録画に対する割合）。iPad は iPhone の録画で決めた場所を、iPad の録画の最初のコマから探す"""
+    if name == "iphone" or cl.get("focus_ipad"):
+        return cl.get("focus") if name == "iphone" else cl["focus_ipad"]
+    if not cl.get("focus"):
+        return None
+    phone = recs.parent.parent / "rec" / recs.name if recs.name == "en" else recs.parent / "rec"
+    if not (phone / cl["video"]).exists():
+        return None
+    t = cl["start"] + 0.5
+    rect, score = locate(frame_png(phone / cl["video"], t, tmp / f"p{i}.png"), cl["focus"], frame_png(recs / cl["video"], t, tmp / f"q{i}.png"))
+    if score < 0.6:
+        print(f"注意: iPad の{i + 1}本目は拡大の場所が見つかりません（{score:.2f}）。focus_ipad を書いてください")
+        return None
+    return rect
 
 
 def build(out, recs, size, colors, badge, clips, tmp):
@@ -94,17 +118,30 @@ def build(out, recs, size, colors, badge, clips, tmp):
     for i, cl in enumerate(clips):
         png = tmp / f"{name}_{i}.png"
         bx, by, SW, SH = box = layout(W, H, recs / cl["video"])
-        front(png, W, H, box, colors, badge, cl["lines"])
+        focus = focus_for(cl, name, recs, tmp, i)
+        zw = int(SW * 1.3) // 2 * 2
+        front(png, W, H, box, colors, badge, cl["lines"], (zw - SW) // 2 if focus else 0)
         dur = cl["end"] - cl["start"]
         seg = tmp / f"{name}_{i}.mp4"
         bg = "#%02x%02x%02x" % colors["bg"]
+        zoom = ""
+        if focus:  # 録画の大事な所を切り抜いて拡大し、元の場所の上に重ねる（録画と一緒に動く。枠はアクセント色）
+            fx, fy, fw, fh = focus
+            zh = int(zw * fh * SH / (fw * SW)) // 2 * 2
+            zx = int(min(max(bx + SW / 2 - zw / 2, 0), W - zw))
+            zy = int(min(max(by + (fy + fh / 2) * SH - zh / 2, by), H - zh - 8))
+            b = max(W // 320, 3)
+            acc = "#%02x%02x%02x" % colors["accent"]
+            zoom = (f";[z]crop=iw*{fw}:ih*{fh}:iw*{fx}:ih*{fy},scale={zw}:{zh},setsar=1[zz];"
+                    f"[f]drawbox=x={zx - b}:y={zy - b}:w={zw + 2 * b}:h={zh + 2 * b}:color={acc}:t=fill[fb];[fb][zz]overlay={zx}:{zy}")
         run(["ffmpeg", "-y", "-v", "error",
              "-f", "lavfi", "-i", f"color=c={bg}:s={W}x{H}:r={FPS}",
              "-ss", str(cl["start"]), "-t", str(dur), "-i", str(recs / cl["video"]),
              "-loop", "1", "-i", str(png),
              "-filter_complex",
-             f"[1:v]fps={FPS},scale={SW}:{SH},setsar=1[v];[0:v][v]overlay={bx}:{by}[b];"
-             f"[b][2:v]overlay=0:0,fade=t=in:st=0:d={FADE},fade=t=out:st={dur - FADE}:d={FADE},format=yuv420p",
+             f"[1:v]fps={FPS}" + (",split[r][z];[r]" if focus else ",") + f"scale={SW}:{SH},setsar=1[v];[0:v][v]overlay={bx}:{by}[b];"
+             f"[b][2:v]overlay=0:0[f]" + (zoom if focus else ";[f]null") + "[m];"
+             f"[m]fade=t=in:st=0:d={FADE},fade=t=out:st={dur - FADE}:d={FADE},format=yuv420p",
              "-t", str(dur), "-an", "-c:v", "libx264", "-preset", "slow", "-crf", "18", str(seg)])
         segs.append(seg)
     lst = tmp / f"{name}.txt"
