@@ -11,6 +11,7 @@ p/released-apps.json（App Store公開済みアプリの正）から、アプリ
     python3 scripts/build_apps_page.py
 審査通過時は check_released_apps.py のあとにこれを実行する。
 """
+import hashlib
 import html
 
 import apply_page_type
@@ -163,7 +164,9 @@ def card(app):
     desc = DESC_OVERRIDE.get(app["id"]) or (short_desc(m.group(1)) if m else "")
     store = f"https://apps.apple.com/jp/app/id{app['appStoreId']}?ct=seadice"
     has_icon = ensure_icon(app)
-    icon = (f'<img src="/icons/apps/{app["id"]}.webp" alt="" width="56" height="56" loading="lazy">'
+    # 画像は1日キャッシュされるので、中身の短いハッシュを付けて差し替えをすぐ反映させる
+    ver = hashlib.md5((ICON_DIR / f"{app['id']}.webp").read_bytes()).hexdigest()[:8] if has_icon else ""
+    icon = (f'<img src="/icons/apps/{app["id"]}.webp?v={ver}" alt="" width="56" height="56" loading="lazy">'
             if has_icon else f'<span class="app-icon-fallback">{html.escape(name[:1])}</span>')
     title = (f'<a class="app-name" href="{href}">{html.escape(name)}</a>' if href
              else f'<span class="app-name">{html.escape(name)}</span>')
