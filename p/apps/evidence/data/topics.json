@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-phone-offline-study-blocks-disconnect-procrastination",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Klingelhoefer et al., \"Digital disconnection as a self-regulatory strategy against procrastination\" (Scientific Reports, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-026-46218-1",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/phone-offline-study-blocks/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スマホから離れると、先延ばしは減る？",
+        "body": "やることがあるのに、ついスマホを開いて後回し。自分からスマホを離れたら、先延ばしは減るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2週間、1日最大5回の記録",
+        "body": "ドイツの18〜35歳の237人が、2週間、1日最大5回「この2時間どうだったか」をスマホで答えた。回答は合計12,408回。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "離れた場面は、先延ばしが少しだけ少ない",
+        "body": "自分でスマホやアプリから離れた場面では、先延ばしが少しだけ少なかった。端末・アプリ・機能から離れたときに差があり、やりとりや特定の内容だけ避けたときは差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "離れたから減ったのかは不明",
+        "body": "実験ではなく本人の回答の記録なので、因果は言い切れない。ふだんよく離れる人ほど先延ばしが少ない、という差も見られなかった。参加できたのはAndroidの人だけだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-phone-offline-study-blocks-disconnect-procrastination"
+  },
+  {
+    "id": "kokoro-friend-venting-listener-drained-co-rumination",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Denson, Moulds & Grisham, \"Investigating links between co-rumination and personality, social functioning, and emotional well-being in a representative sample of adults\" (PLOS One, 2026)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0349391",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/friend-venting-listener-drained/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "悩みを話し合うのは良いこと？",
+        "body": "友達と同じ悩みを何度も話し合うと、仲は深まりそう。でも気持ちは軽くなるのかな？この「くり返し話し合う」ことを、心理学では共反すうって呼ぶんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の大人495人に聞いた",
+        "body": "年齢・性別・民族の構成を国に合わせて集めた、英国の18〜87歳の495人に、悩みを人とくり返し話し合う傾向と、孤独や不安をアンケートで聞いたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "孤独は小さく、不安は大きめ",
+        "body": "くり返し話し合う人ほど、孤独は小さくて人間関係に満足している一方、不安は大きめだったらしい。良い面と負担の両方があるってことだね。関連の大きさはおおむね小さかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "1回きりのアンケートだから、話し合うから不安になるのか、不安な人ほど話し合うのかはわからない。大人を対象にした研究はまだ少ないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-friend-venting-listener-drained-co-rumination"
+  },
+  {
+    "id": "kokoro-cute-animal-photos-focus-kawaii",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Nittono, Fukushima, Yano & Moriya, \"The power of Kawaii: Viewing cute images promotes a careful behavior and narrows attentional focus\" (PLoS ONE, 2012)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0046362",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/cute-animal-photos-focus/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "かわいい写真で仕事がはかどる？",
+        "body": "子犬や子猫の写真を見ると集中できる、って話を聞いたことあるよね。もとは広島大学のチームが2012年に発表した実験なんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ピンセットの作業で比べた",
+        "body": "日本の大学生48人が、ピンセットで小さな部品を取る作業を2回やった。あいだに子犬・子猫か、大人の犬・猫の写真7枚を1分半で好きな順に並べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成功数が平均43.9%アップ",
+        "body": "子犬・子猫の写真を見た組は、2回目の成功数が平均43.9%上がったらしい。大人の犬・猫の組は11.9%。かかった時間も12.2%のびていて、丁寧にやったみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな実験で、仕事の場ではない",
+        "body": "1組24人の実験室の実験で、実際の仕事の成果は測っていない。同じ論文の別の実験では、文字を探す課題でも似た結果が出たけど、ほかのチームでも同じになるかはこの論文だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-cute-animal-photos-focus-kawaii"
+  },
+  {
+    "id": "alcohol-learn-then-drink-memory",
+    "category": "お酒の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#D97706",
+    "sourceLabel": "Carlyle et al., \"Improved memory for information learnt before alcohol use in social drinkers tested in a naturalistic setting\" (Scientific Reports, 2017)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-017-06305-w",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "勉強のあとに飲むと、覚えたことを忘れる？",
+        "body": "お酒を飲むと記憶があやしくなる、ってよく聞くよね。じゃあ、飲む前に覚えたことはどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "自宅で、飲む組と飲まない組に分けた",
+        "body": "英国の18〜53歳の88人を、くじで「好きなだけ飲む」組と「飲まない」組に分けた。飲む前に自宅で、架空の単語24個を覚えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "翌朝は、飲んだ組の方が覚えていた",
+        "body": "覚えた直後の成績は2組で同じくらい。でも翌朝のテストでは、飲んだ組の方がよく覚えていた。飲んだ量が多い人ほど、その差が大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飲むほどいい、という話ではない",
+        "body": "飲んだ量は本人の申告頼みで、偽のお酒も使っていない。長い目で見た頭への害は別に知られていて、著者たちも、この小さな効果の伝え方には注意が要ると書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-memory-consolidation",
+        "type": "あわせて読む",
+        "why": "どちらも、覚えたあとにとるもので記憶が変わるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-learn-then-drink-memory"
+  },
+  {
+    "id": "brain-cognitive-peak-age",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Hartshorne & Germine, \"When does cognitive functioning peak? The asynchronous rise and fall of different cognitive abilities across the life span\" (Psychological Science, 2015)",
+    "sourceUrl": "https://doi.org/10.1177/0956797614567339",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "頭の良さのピークは20歳前後？",
+        "body": "「20歳を過ぎたら頭は衰えるだけ」って聞くことがあるよね。でも、記憶力も語彙も、みんな同じ年がピークなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4万8千人のテスト結果で比べた",
+        "body": "知能・記憶テストの標準データと、ネットのテストに参加した48,537人の結果から、30種類の課題がそれぞれ何歳でいちばん成績がいいかを調べたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "能力ごとにピークの年がちがう",
+        "body": "記号をすばやく書き写す速さは10代後半、数字を覚えておく力は20代前半がピーク。目もとから気持ちを読む力は40〜60歳ごろまで高いままで、語彙は50〜65歳ごろがピークだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追ったわけではない",
+        "body": "年齢のちがう人どうしを比べたデータで、1人を何十年も追ったものではない。ネットの参加者は自分から来た人たちだし、語彙のピークはデータを集めた年代が新しいほど遅くなっていたんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-mature-at-25",
+        "type": "あわせて読む",
+        "why": "脳の量のピークと、能力のピーク。どちらも年齢で一律には決まらない"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-cognitive-peak-age"
+  },
+  {
     "id": "research-flashcards-how-to-use-research-rounds",
     "category": "学習法",
     "kind": "よくある説",
@@ -11445,7 +11625,14 @@
         "body": "見たのは脳の体積などの形で、判断力などの働きがいつ大人並みになるかは別の話。約9割は1回だけの撮影で同じ人を追っておらず、データも欧米の人にかたよっていると著者たちが書いているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-mature-at-25"
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-mature-at-25",
+    "links": [
+      {
+        "id": "brain-cognitive-peak-age",
+        "type": "あわせて読む",
+        "why": "脳の量のピークと、能力のピーク。どちらも年齢で一律には決まらない"
+      }
+    ]
   },
   {
     "id": "kokoro-ai-comfort-self-coping-response-style",
@@ -19511,7 +19698,14 @@
       "wrong": "画像を思い出す速さ"
     },
     "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-memory-consolidation",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "alcohol-learn-then-drink-memory",
+        "type": "あわせて読む",
+        "why": "どちらも、覚えたあとにとるもので記憶が変わるかを調べた研究"
+      }
+    ]
   },
   {
     "id": "caffeine-nap-combo",
