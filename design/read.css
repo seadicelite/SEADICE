@@ -10,3 +10,32 @@ body.t-read .body h3{font-size:18px;line-height:1.5;margin:2em 0 .4em}
 body.t-read .body a{color:var(--sd-link)}
 body.t-read .body table{display:block;overflow-x:auto;max-width:100%}
 @media(min-width:600px){body.t-read .body p,body.t-read .body li{font-size:17px}}
+
+/* 文字を減らす部品（2026-11-09、まず日誌で使う）。アイコンは本文先頭の <svg hidden> の symbol を <svg class="sd-i"><use href="#i-…"/></svg> で呼ぶ */
+body.t-read .body>svg[hidden]{display:none}
+body.t-read .sd-i{width:22px;height:22px;flex:none;fill:none;stroke:var(--sd-accent);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+body.t-read .body :is(.sd-stats,.sd-bars,.sd-icards,.sd-lines){list-style:none;padding:0;margin:1.2em 0 1.6em}
+body.t-read .body :is(.sd-stats,.sd-bars,.sd-icards,.sd-lines) li{margin:0;padding:0}
+body.t-read .sd-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+body.t-read .body .sd-stats li{border:1px solid var(--sd-line2);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:4px}
+body.t-read .sd-stats b{font-size:28px;line-height:1.1;color:var(--sd-text);font-variant-numeric:tabular-nums}
+body.t-read .body .sd-stats span{font-size:13px;line-height:1.4;color:var(--sd-muted)}
+body.t-read .body .sd-bars li{display:grid;grid-template-columns:22px 1fr auto;gap:4px 10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--sd-line)}
+body.t-read .body .sd-bars span{font-size:15px;line-height:1.4;color:var(--sd-text2)}
+body.t-read .sd-bars b{font-variant-numeric:tabular-nums;color:var(--sd-text)}
+body.t-read .sd-bar{grid-column:2/4;height:6px;background:var(--sd-line)}
+body.t-read .sd-bar i{display:block;height:100%;width:var(--w);background:var(--sd-accent)}
+body.t-read .body .sd-bars .sd-sub{display:block;border:0;padding:16px 0 0;font-size:12px;letter-spacing:.08em;color:var(--sd-muted);padding-top:8px}
+body.t-read .sd-ba{border:1px solid var(--sd-line2);border-radius:8px;padding:14px;margin:1.2em 0}
+body.t-read .sd-ba p{margin:0 0 8px;font-size:15px;color:var(--sd-text)}
+body.t-read .sd-ba div{display:grid;grid-template-columns:3.5em 1fr;gap:6px 10px;align-items:center;font-size:13px;color:var(--sd-muted)}
+body.t-read .sd-ba .sd-bar{grid-column:auto;height:14px}
+body.t-read .sd-ba .sd-bar.now i{background:var(--sd-accent)}
+body.t-read .sd-ba .sd-bar:not(.now) i{background:var(--sd-muted)}
+body.t-read .sd-ba small{grid-column:2;font-size:13px;color:var(--sd-text2);font-variant-numeric:tabular-nums}
+body.t-read .sd-icards{display:grid;gap:8px}
+body.t-read .body .sd-icards li{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--sd-line2);border-radius:8px;padding:12px 14px}
+body.t-read .body .sd-icards p{margin:0;font-size:15px;line-height:1.6}
+body.t-read .sd-icards small{display:block;font-size:13px;color:var(--sd-muted);margin-top:2px}
+body.t-read .body .sd-lines li{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--sd-line);font-size:15px}
+@media(min-width:600px){body.t-read .sd-icards{grid-template-columns:1fr 1fr}body.t-read .sd-stats b{font-size:32px}}
