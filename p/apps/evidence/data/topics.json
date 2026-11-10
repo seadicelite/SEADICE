@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-boring-task-cant-focus-boredom-why-research-self-shock",
+    "category": "集中力",
+    "kind": "研究紹介",
+    "themeColor": "#34D399",
+    "sourceLabel": "Wilson et al., \"Just think: The challenges of the disengaged mind\" (Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1126/science.1250830",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/boring-task-cant-focus-boredom-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "何もしない15分、耐えられる？",
+        "body": "スマホも本もなしで、ただ考えごとをして過ごす。それだけの時間って、実はけっこうつらいらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ひとりで6〜15分すわるだけ",
+        "body": "Wilsonら（2014）は11の研究で、持ち物を預けた人に6〜15分ひとりで考えごとをしてもらったんだ。15分の実験では、自分で押せる電気ショックのボタンも置いておいた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "男性の67%がボタンを押した",
+        "body": "事前に「お金を払ってでも避けたい」と答えていたのに、男性の67%（18人中12人）、女性の25%（24人中6人）が、自分に1回以上ショックを与えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は少なく、実験室の話",
+        "body": "ショックの実験は42人だけで、アメリカの大学の実験室でのこと。ふだんの暮らしの中でも同じくらいつらいのか、ほかの国の人でも同じかは、この研究だけではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-boring-task-cant-focus-boredom-why-research-self-shock"
+  },
+  {
+    "id": "research-vague-task-procrastination-why-research-concrete-email",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "McCrea et al., \"Construal level and procrastination\" (Psychological Science, 2008)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-9280.2008.02240.x",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/vague-task-procrastination-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ぼんやりした用事ほど後回し？",
+        "body": "「企画を考える」みたいな、中身がぼんやりした用事って、なぜかずっと手がつかないよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3週間以内に返すメール課題",
+        "body": "McCreaら（2008）は、参加者にメールの質問票を3週間以内に返してもらった。質問票は、物事を抽象的に考えさせる形と、具体的に考えさせる形の2種類。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "具体的に考えた人ほど早く返した",
+        "body": "具体的に考えさせる質問票を受け取った人のほうが、先延ばしせずに返していたんだ。課題の魅力や大切さ、難しさの感じ方とは関係なく差が出たらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "課題は1種類だけ",
+        "body": "調べたのは、質問票をメールで返すという1種類の課題だけ。仕事や勉強のような大きな用事の先延ばしでも同じになるかは、この研究だけではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-vague-task-procrastination-why-research-concrete-email"
+  },
+  {
+    "id": "research-gamification-points-badges-habit-research-step-up",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Patel et al., \"Effectiveness of Behaviorally Designed Gamification Interventions With Social Incentives for Increasing Physical Activity Among Overweight and Obese Adults Across the United States: The STEP UP Randomized Clinical Trial\" (JAMA Internal Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1001/jamainternmed.2019.3505",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/gamification-points-badges-habit-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ポイントやレベルで運動は続く？",
+        "body": "歩数アプリのポイントやレベルアップ。ゲームのしかけで運動が続くなら楽だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "602人を4つに分けた",
+        "body": "Patelら（2019）は、米国40州の大人602人を、歩数計だけの群と、ポイントとレベルのゲームに「応援」「協力」「競争」を組み合わせた3つの群に、くじで分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一番効いたのは競争",
+        "body": "24週間のゲーム中は3つとも歩数計だけの群より歩数が増えて、競争の群は1日920歩多かった。終了後の12週間で差が残ったのは競争の群だけ（569歩）だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "終わると下がる",
+        "body": "ゲームが終わると、どの群も歩数は下がった。対象は体重が多めの人で7割が男性。ほかの人や、運動以外の習慣でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-gamification-points-badges-habit-research-step-up"
+  },
+  {
+    "id": "insight-caffeine-creative-problem-solving",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Zabelina & Silvia, \"Percolating ideas: The effects of caffeine on creative thinking and problem solving\" (Consciousness and Cognition, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.concog.2020.102899",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "コーヒーを飲むと、アイデアが出る？",
+        "body": "考えごとの前にコーヒー、という人は多いよね。目が覚めるのはわかるけど、ひらめきにも効くのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カフェインと偽薬で88人を比べた",
+        "body": "88人をくじで半分ずつに分けて、片方はカフェイン200mg（コーヒー大きめ1杯分くらい）、もう片方は偽薬を飲んだ。どちらを飲んだかは本人も実験する人も知らなかったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "解く力は上がり、思いつく力は同じ",
+        "body": "カフェインの組は、答えが1つに決まる問題を解く力が上がった。でも、アイデアをたくさん出す課題と、頭の中にメモしておく力には差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きり・88人の実験",
+        "body": "調べたのは1回飲んだ直後だけで、人数も88人。毎日飲む人が続けて飲んだときや、仕事の中でのひらめきでも同じかは、この研究だけではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-caffeine-creative-problem-solving"
+  },
+  {
+    "id": "scent-smell-loss-aging-prevalence",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Murphy et al., \"Prevalence of olfactory impairment in older adults\" (JAMA, 2002)",
+    "sourceUrl": "https://doi.org/10.1001/jama.288.18.2307",
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "scent-smell-loss-dementia",
+        "type": "あわせて読む",
+        "why": "匂いの衰えがどれだけ多いかと、認知症との関係をあわせて"
+      }
+    ],
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとると、匂いがわからなくなる？",
+        "body": "料理の味がしない、焦げに気づかない。年をとると鼻が弱くなるって聞くけど、どれくらいの人に起きるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "53〜97歳の2491人を検査",
+        "body": "アメリカ・ウィスコンシン州の町で、53〜97歳の住民2491人に、匂いを当てるテストを受けてもらい、自分で感じている衰えとも比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "4人に1人、80歳以上は6割",
+        "body": "匂いが弱くなっていた人は全体で24.5%、80〜97歳では62.5%。男性に多かった。でも「弱くなった」と自分で答えた人は9.5%だけで、気づいていない人が多いらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの町の、1回の検査",
+        "body": "アメリカの1つの町で1回だけ測った調査で、同じ人を追いかけたわけではない。喫煙や鼻づまりとの関係も、原因かどうかまではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-smell-loss-aging-prevalence"
+  },
+  {
     "id": "kokoro-comparison-happy-memories-letter-past-self",
     "category": "幸福の科学",
     "kind": "よくある説",
@@ -31843,7 +32016,14 @@
         "body": "見ているのは追跡した「関係」で、嗅覚の衰えが認知症を起こすのかはわからない。まとめた研究は8本だけで、匂いがわかりにくい人がみな認知症になるわけでもない。これは診断の目安ではないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/scent-memory/scent-smell-loss-dementia/"
+    "webUrl": "https://seadice.win/evidence/scent-memory/scent-smell-loss-dementia/",
+    "links": [
+      {
+        "id": "scent-smell-loss-aging-prevalence",
+        "type": "あわせて読む",
+        "why": "認知症との関係の前に、匂いの衰えがどれだけ多いかを"
+      }
+    ]
   },
   {
     "id": "nature-forest-bathing-cortisol",
