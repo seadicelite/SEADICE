@@ -44,7 +44,7 @@ design/README.md・design/*.css
 - 3タイプの形・色・文字の大きさを大きく変えること、ヘッダー・フッターの作り直し
 
 ## 次にやること
-- build_evidence_page.py は中身が変わらなくても dateModified を今日にする（2026-11-06 に手で戻した）。中身が変わったときだけ更新するように直す
+- build_evidence_page.py を単体で走らせると、各アプリページの「関連記事（media）」ブロックが消える（media_section が空を返す条件を調べて直す。今日は git checkout で戻した）
 - アプリ一覧（/apps/）の説明50本を「文字を減らす」に合わせて1本ずつ短くする（build_apps_page.py の DESC_OVERRIDE で。文字数で機械的に切ると文の途中で「…」になるのでしない）。次は各メディアのトップ
 1. **EVIDENCE 生成ページの `a.cta`（build_evidence_hub.py 170・287・291・314・340行）を show.css の `.cta`（囲み枠用）から外す**: ボタンのリンクに `.cta` を付けているため、show.css の枠（余白・罫線・中央寄せ）が当たっている可能性がある。ブラウザで1ページ見て、ボタン用のクラス名（`.btn` など）に替えるか確かめる（2026-11-03 点検で発見）。あわせて、運用ルールの確認として p/apps/{eigyobi,rakuraku,companion,kao-type,jinsei-pyramid}/ は noindex の旧ページだが、存在しない /privacy/{同名}/ にリンクしている（リンク切れ5。プライバシーページを作るか、リンクを外す）
 1. **誠実なデザインの点検・続き**（design/README.md の6項目）: 使うページの更新日は済（2026-10-20）。残り: 出典・根拠の欄がない診断6本（renai-type・profile・mbti-lite・hidden-personality・stress-type・bigfive-lite）に「何がわかって何がわからないか」を足す（記事分野と連携。診断の中身は tools.md の根拠ルールに従う）、読ませる/魅せるページの更新日、アプリへの案内が用事の前に出ているページ
@@ -58,6 +58,7 @@ design/README.md・design/*.css
 ## やったこと
 
 古い記録は [log/design.md](log/design.md)。
+- 2026-11-10: build_evidence_page.py が中身の変わらない再生成で dateModified を動かさないように直した（evidence-series は差分0を確認）。点検: t- クラスなし14（Flutter SPA・トップ・/promise/・旧アプリ。前回15から1減）、img の width/height なし1、sitemap 555件OK、内部リンク切れ2（blog/canvaskit-13-apps-400mb の /apps/toite/ ＝販売停止予定のため記事側で外すか判断、JS文字列1は誤検出）
 - 2026-11-09: 独自クラスの飾りを design で打ち消し（read: ブログの古いテーマのグラデ・ぼかし・蛍光下線・見出しの二重線、show: /tools/・/apps/・/evidence-series/ のナビのぼかし・角丸14〜999px・hover の浮き上がり）。アプリアイコンの角丸は実物の形なので残した。--refresh で945ページ
 - 2026-11-09: 開発日誌を図とアイコン中心の型に（ユーザー「文字を減らして絵やアイコンを増やす」）。design/read.css に部品 .sd-stats（数字タイル）・.sd-bars（分野別の棒）・.sd-ba（前→後の棒）・.sd-icards（アイコンカード）・.sd-next を追加、daily-2026-11-08 を作り替え、型は docs/writing.md「日誌の型」、毎朝の自動作成の指示も更新
 - 2026-11-06: 全ページのロゴにサイコロのマーク（design/base.css の .nav-logo・.logo-text に ::before、古い4色の四角は隠す、940ページを --refresh）。/apps/ の説明51本を10〜25字の一言に（build_apps_page.py の DESC_OVERRIDE、「見抜く」など言い切りも控えた）、名前は副題（「-」以降）を外し、冒頭を1文に。/apps/・/evidence-series/ のロゴに nav-logo を足した
