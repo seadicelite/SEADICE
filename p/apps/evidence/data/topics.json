@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-online-vigilance-always-on-stress-and-connection",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Reinecke L et al., \"Permanently online and permanently connected: Development and validation of the Online Vigilance Scale\" (PLoS ONE, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0205384",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/online-vigilance-always-on/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スマホを置いても新着が気になる",
+        "body": "スマホは伏せてあるのに、新しいメッセージのことが頭から離れない。そんな時ってあるよね。研究ではこれを「オンライン・ビジランス」って呼ぶらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生532人の5日間の日記",
+        "body": "ドイツの大学の学生532人が、平日5日間、寝る前にその日のストレスを日記で答えたんだ。初日には「いつもネットのことが気になる度合い」も測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ストレスとも、つながりとも関連",
+        "body": "気になる度合いが強い人ほどストレスが高め（関連の強さ0.37）。でも同時に、ネットのやりとりで人とのつながりを感じる度合いも高かった（0.38）。悪い面だけじゃないらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先？",
+        "body": "一度に測った関連なので、気になるからストレスが増えるのか、ストレスがあるから気になるのかはわからない。対象もドイツの大学生だけだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-online-vigilance-always-on-stress-and-connection"
+  },
+  {
+    "id": "research-procrastination-shame-avoidance-guilt-recovery-research-shame-vs-guilt",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Oflazian & Borders, \"Does Rumination Mediate the Unique Effects of Shame and Guilt on Procrastination?\" (Journal of Rational-Emotive & Cognitive-Behavior Therapy, 2023)",
+    "sourceUrl": "https://doi.org/10.1007/s10942-022-00466-y",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/procrastination-shame-avoidance-guilt-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "迷惑をかけた後、なぜもっと避けちゃう？",
+        "body": "先延ばしで人に迷惑をかけると、連絡も作業もますます手につかなくなる。あれ、なんでだろうね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生235人に聞いた",
+        "body": "米国北東部の大学生235人に、恥（自分はダメだ）と罪悪感（あの行動がまずかった）の感じやすさ、先延ばしの多さをアンケートで聞いた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "恥は多め、罪悪感は少なめ",
+        "body": "恥を感じやすい人ほど先延ばしが多かった。一方、恥の影響を除くと、罪悪感は先延ばしの少なさと関係していたらしい。間には自分を責める考えのくり返し（反すう）があった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりのアンケート",
+        "body": "一時点の調査なので、恥が先延ばしを生むのか、その逆かはわからない。参加者の83%が女性で、罪悪感も考え込みすぎると先延ばしにつながる関係も見られたよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-shame-avoidance-guilt-recovery-research-shame-vs-guilt"
+  },
+  {
+    "id": "research-night-shift-sleep-recovery-research-days-off-strategy",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Petrov et al., \"Sleep strategies of night-shift nurses on days off: Which ones are most adaptive?\" (Frontiers in Neurology, 2014)",
+    "sourceUrl": "https://doi.org/10.3389/fneur.2014.00277",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/night-shift-sleep-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜勤明け、寝ずに夜まで起きてる？",
+        "body": "夜勤が終わった日、昼に寝ると夜に眠れなくなりそうで、がんばって夜まで起きている人もいるよね。休みの日の戻し方で、違いはあるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "夜勤の看護師213人に聞いた",
+        "body": "アメリカの大学病院で、夜勤の女性看護師213人に休みの日の眠り方と、夜勤にどれくらい慣れているかを尋ねた。眠り方は5つの型に分けられた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "徹夜で戻す型は慣れにくかった",
+        "body": "約24時間起き続けて戻す型と、休みの日も1時間以上の昼寝を続ける型は、夜勤への慣れが悪めだった。休みの初日に朝遅くまで寝てから戻す型などは、睡眠の乱れが少なめだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "眠り方が原因とは限らない",
+        "body": "一度きりのアンケートなので、眠り方が慣れやすさを変えたのか、もともと慣れやすい人がその眠り方を選んだのかはわからない。対象も一つの病院の看護師だけだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-night-shift-sleep-recovery-research-days-off-strategy"
+  },
+  {
+    "id": "color-pill-color-perceived-effect",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "de Craen, Roos, de Vries & Kleijnen, \"Effect of colour of drugs: systematic review of perceived effect of drugs and of their effectiveness\" (BMJ, 1996)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.313.7072.1624",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "薬の色で、効き目は変わる？",
+        "body": "赤い錠剤は効きそう、青い錠剤は落ち着きそう。そんな印象ってあるよね。中身が同じでも、色で感じ方は変わるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12の研究を集めた",
+        "body": "オランダの研究チームが、薬の色を調べた12の研究をまとめたよ。6つは色からどんな効き目を想像するか、残り6つは色で実際の効き目が違うかを調べたものなんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "印象ははっきり、効き目はまちまち",
+        "body": "赤・黄・オレンジは元気が出る薬、青・緑は落ち着かせる薬と思われやすかった。一方、色で実際の効き目が違うかは、研究ごとに結果がそろわなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "古くて、ばらばらの研究",
+        "body": "1996年のまとめで、もとの試験は病気も測り方もばらばら、質もまちまちだった。色で効き目が変わるとまでは言えないよ。薬は色ではなく、医師や薬剤師の説明で選んでね。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-pill-color-perceived-effect"
+  },
+  {
+    "id": "exercise-child-fitness-hippocampus-memory",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Chaddock et al., \"A neuroimaging investigation of the association between aerobic fitness, hippocampal volume, and memory performance in preadolescent children\" (Brain Research, 2010)",
+    "sourceUrl": "https://doi.org/10.1016/j.brainres.2010.08.049",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "体力のある子は、記憶力もいい？",
+        "body": "よく走り回る子は、勉強の覚えもいい。そんな話を聞くよね。体力と記憶って、本当に関係があるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9〜10歳の49人の脳を見た",
+        "body": "アメリカの研究チームが、持久力の上位3割の子21人と下位3割の子28人を比べたよ。脳の画像で記憶に関わる海馬の大きさを測り、記憶のテストもしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "組み合わせの記憶だけ差があった",
+        "body": "体力のある子は海馬が大きめで、物どうしの組み合わせを覚えるテストの成績がよかった。一方、1つずつの物を覚えるテストでは差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運動させた実験ではない",
+        "body": "ある時点で比べただけなので、体力が記憶を伸ばしたのかはわからない。49人と小さく、体力が中くらいの子は入っていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-school-activity-grades-meta",
+        "type": "あわせて読む",
+        "why": "体力と記憶の関連と、学校で体を動かす試験のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-child-fitness-hippocampus-memory"
+  },
+  {
     "id": "dokugaku-group-study-not-sticking-fix-collaborative-recall",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -13281,6 +13454,11 @@
         "id": "exercise-cognition-moderators-meta",
         "type": "あわせて読む",
         "why": "成績ではなく、運動の種類と頭の働きの関係を別のメタ分析で調べたもの"
+      },
+      {
+        "id": "exercise-child-fitness-hippocampus-memory",
+        "type": "あわせて読む",
+        "why": "学校で体を動かす試験のまとめと、体力と記憶の関連を見た研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-school-activity-grades-meta"
