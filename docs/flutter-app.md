@@ -70,6 +70,7 @@ SEADICE の iOS アプリ（Flutter）を新しく作る・改修するときの
 - 地の色（ダーク固定かライト固定か）・アクセント色1つ（ほかの自分のアプリと見分けがつく色）・文字の大きさ・ボタンの大きさと置き場所・アイコンに文字を添えるか・動きと振動
 - 核の機能1つと、タブの順番・ウィジェットの種類（いつ・どこでから決める）
 - 課金を案内する場面（価値を感じた直後のどこか）
+- 画面の大きさごとの形（iPhone の小さい画面・大きい画面・横向き・iPad・Mac）。ターゲットがよく使う端末を先に決め、ほかの大きさでも崩れないこと（下の「文字の大きさとレスポンシブ」）
 
 サイト（seadice.win）は `#00FFD1`／`#05050C` のブランド色のまま。アプリはターゲットに合わせて色を変え、SEADICE とのつながりは名前と設定画面で示す。色は「この色で気持ちが落ち着く・買いたくなる」で選ばない（根拠なし、[neuro.md](neuro.md) の使わない説）。読みやすさ・なじみ・見分けやすさで選ぶ。
 
@@ -169,6 +170,7 @@ AdMob アカウントが停止したため。`google_mobile_ads`・リワード�
 
 - **新しいアプリと、改修するアプリでは必ず当てる**: `python3 /Users/hidenori/Developer/SEADICE/scripts/apply_app_splash.py {アプリのフォルダ}`（マークは `design/app-splash/branding.png`。pubspec の `flutter_native_splash` を書き換えて生成まで行う）。これだけのための再申請はしない
 - **申請前に白でないか確かめる**（2026-11-10、15本が白いまま見つかった）: `grep -c 'red="1" green="1" blue="1"' ios/Runner/Base.lproj/LaunchScreen.storyboard` が 0 で、`LaunchBackground.imageset` があるか。`flutter_native_splash` を入れていないアプリは、storyboard の `backgroundColor` を地の色にするだけでもよい
+- マークは画面の下端から48pt・中央・大きさ固定なので、iPhone（ホームボタンあり・なし）・横向き・iPad・Mac で同じ位置に出る（2026-11-10、iPhone 17 Pro Max と iPad mini で確認）
 - 直しても手元の iPhone では白く見えることがある。iOS が起動画面を覚えているため。アプリを消して入れ直すか、iPhone を再起動すると新しい色になる
 
 ## 文字の大きさとレスポンシブ（全アプリ、2026-10-13〜）
