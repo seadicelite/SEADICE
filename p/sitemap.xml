@@ -2040,9 +2040,9 @@
   <url><loc>https://seadice.win/evidence/messaging/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/dangerous-partners/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/breakups/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://seadice.win/evidence/memory/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/ai/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/procrastination/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://seadice.win/evidence/memory/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/focus/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/habits/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/work/</loc><lastmod>2026-11-10</lastmod></url>
@@ -2055,6 +2055,8 @@
   <url><loc>https://seadice.win/evidence/decision-bias/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/light-circadian/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/body-myths/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://seadice.win/evidence/sleep-appetite/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-brain/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/aging-parents/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/insight/</loc><lastmod>2026-11-10</lastmod></url>
@@ -2086,8 +2088,6 @@
   <url><loc>https://seadice.win/evidence/posture-confidence/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/speaking/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/exercise-memory/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://seadice.win/evidence/sleep-appetite/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-brain/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/color-psychology/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/crime-prevention/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/</loc><lastmod>2026-11-10</lastmod></url>
@@ -2110,9 +2110,9 @@
   <url><loc>https://seadice.win/evidence/sleep/sleep-weekend-catchup-debt/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://seadice.win/evidence/color-psychology/color-blue-light-melatonin/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://seadice.win/evidence/decision-bias/bias-mere-exposure/</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://seadice.win/evidence/food-brain/food-breakfast-weight/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://seadice.win/evidence/food-brain/food-breakfast-weight/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/happiness/happy-income-conflict-resolved/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://seadice.win/evidence/memory/memory-ebbinghaus-replication/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://seadice.win/evidence/memory/memory-ebbinghaus-replication/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/music-focus/music-mozart-effect-metaanalysis/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/posture-confidence/posture-power-pose-hormones-debunk/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/relationships/hanzai-milgram-replication/</loc><lastmod>2026-11-10</lastmod></url>
@@ -2177,7 +2177,7 @@
   <url><loc>https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/caffeine/caffeine-tolerance-alertness/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/</loc><lastmod>2026-11-08</lastmod></url>
-  <url><loc>https://seadice.win/evidence/sleep-appetite/appetite-sleep-deprivation-meta/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://seadice.win/evidence/sleep-appetite/appetite-sleep-deprivation-meta/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/hanzai-scared-straight/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/criminal-psychology/hanzai-false-confession-interrogation/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://seadice.win/evidence/crime-prevention/bohan-street-lighting/</loc><lastmod>2026-10-13</lastmod></url>

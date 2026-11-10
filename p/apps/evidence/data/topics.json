@@ -1,5 +1,199 @@
 [
   {
+    "id": "dokugaku-group-study-not-sticking-fix-collaborative-recall",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Knopps & Wissman, \"Collaborative Retrieval Practice Reduces Mind-Wandering During Learning\" (Experimental Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.1027/1618-3169/a000589",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/group-study-not-sticking-fix/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "2人で思い出すと得？損？",
+        "body": "覚えた単語を2人で一緒に思い出すと、一人のときより多く出てくる気がする。実は、その場では少なくなりやすいらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "48語を2人組と一人でくらべた",
+        "body": "アメリカの大学生96人が48語の単語リストを覚え、2人1組か一人で思い出す練習をした。最後は全員が一人でテストを受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "練習中は少なく、最後は多い",
+        "body": "練習中に思い出せた数は2人組の方が少なかった。でも最後の一人でのテストでは、2人組で練習した人の方が多かった（平均25語と20語）。気がそれることも少なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語リストの実験",
+        "body": "大学生が単語リストを覚えた1回の実験。教科書の内容や、何週間も続ける勉強で同じことが起きるかは、まだ確かめられていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-group-study-not-sticking-fix-group-exam-retention",
+        "type": "反対の結果",
+        "why": "授業でグループ試験を受けても、後に残る量は増えなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-group-study-not-sticking-fix-collaborative-recall"
+  },
+  {
+    "id": "dokugaku-group-study-not-sticking-fix-group-exam-retention",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Leight et al., \"Collaborative testing improves performance but not content retention in a large-enrollment introductory biology class\" (CBE—Life Sciences Education, 2012)",
+    "sourceUrl": "https://doi.org/10.1187/cbe.12-04-0048",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/group-study-not-sticking-fix/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "みんなで解けば身につく？",
+        "body": "一人より仲間と問題を解いた方が、よくわかって身につく気がするよね。グループで試験を受けると記憶に残るのかを、大学の授業で確かめた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "グループ試験あり・なしを入れかえ",
+        "body": "アメリカの大学の生物学入門の授業（約200人）で学生を2組に分け、個人で試験を受けたあとすぐグループでも受ける回を、組ごとに別の試験で入れかえてくらべたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "点は上がったが、残った量は同じ",
+        "body": "グループの点は個人より高く（ある回は平均74.5%と61.9%）、93.9%の学生が個人より高い点だった。でも次の試験で同じ内容を問われたときの正答は、2組で差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの授業の結果",
+        "body": "1つの大学の1つの授業での結果。グループ試験で記憶が良くなったという研究もあって、結果は分かれている。社会人の勉強会で同じになるかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-group-study-not-sticking-fix-collaborative-recall",
+        "type": "反対の結果",
+        "why": "2人で思い出す練習をすると、後の一人のテストで多く思い出せた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-group-study-not-sticking-fix-group-exam-retention"
+  },
+  {
+    "id": "dokugaku-memorized-check-sheet-delayed-judgment-delayed-jol",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Rhodes & Tauber, \"The influence of delaying judgments of learning on metacognitive accuracy: A meta-analytic review\" (Psychological Bulletin, 2011)",
+    "sourceUrl": "https://doi.org/10.1037/a0021705",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/memorized-check-sheet-delayed-judgment/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「覚えた」はいつ判断する？",
+        "body": "覚えた直後は自信満々なのに、数日後には出てこない。「覚えたかどうか」は、いつ確かめるのがいいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "112の効果量をまとめた",
+        "body": "「後で思い出せそうか」を、覚えた直後に判断するか、時間をおいて判断するかを比べた研究を、4,554人分（112の効果量）まとめて分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "時間をおくと見分けが正確に",
+        "body": "時間をおいて判断すると、どれを覚えていてどれを忘れているかの見分けがはっきり正確になった（g = 0.93）。覚える量そのものはわずかに増えただけ（g = 0.08）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ正確になるかは未決着",
+        "body": "時間をおくと長く残る記憶から確かな手がかりを引き出せるから、という説がよく合うけど、ほかの説も捨てきれないと著者は書いている。2011年までの研究のまとめだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-font-size-illusion",
+        "type": "あわせて読む",
+        "why": "覚えた気になる感覚がずれる例と、ずれを減らす判断のタイミング"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-memorized-check-sheet-delayed-judgment-delayed-jol"
+  },
+  {
+    "id": "sleepfood-magnesium-insomnia-older-meta",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Mah & Pitre, \"Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis\" (BMC Complementary Medicine and Therapies, 2021)",
+    "sourceUrl": "https://doi.org/10.1186/s12906-021-03297-z",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "マグネシウムでよく眠れる？",
+        "body": "寝る前のマグネシウムが眠りにいい、という話をよく見かけるよね。サプリで手軽に買えるけど、研究ではどこまでわかっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つの試験、151人をまとめた",
+        "body": "高齢者にマグネシウムか偽薬を飲んでもらったランダム化比較試験3つ（イラン・ドイツなど3か国、計151人）をまとめた分析があるんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "寝つきが約17分早まった",
+        "body": "まとめると、マグネシウムの組は偽薬の組より寝つくまでの時間が約17分短かった。眠った時間の合計は約16分長かったけど、はっきりした差とはいえなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験は3つだけ",
+        "body": "どの試験もかたよりの危険が中〜高く、証拠の質は「低い〜とても低い」と評価された。対象は持病の少ない高齢者で、若い人でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleepfood-magnesium-insomnia-older-meta"
+  },
+  {
+    "id": "food-probiotics-prebiotics-mood-meta",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Liu, Walsh & Sheehan, \"Prebiotics and probiotics for depression and anxiety: A systematic review and meta-analysis of controlled clinical trials\" (Neuroscience & Biobehavioral Reviews, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.neubiorev.2019.03.023",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "腸活で気分は上向く？",
+        "body": "腸を整えると心も元気になる、という「腸活」の話をよく聞くよね。菌をとると、落ち込みや不安は本当に変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "34の試験をまとめた",
+        "body": "善玉菌そのもの（プロバイオティクス）や、菌のエサになる成分（プレバイオティクス）を偽薬とくらべた34の比較試験を、まとめて分析した研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "菌は小さな効果、エサは差なし",
+        "body": "エサの成分は、落ち込みにも不安にも偽薬と差がなかった。菌のほうは落ち込み・不安とも小さな差があり、病院などで集めた人では効果が大きめだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "患者での試験が少ない",
+        "body": "精神科の患者で調べた試験はまだ少なく、その分析は予備的なもの。一般の人では効果は小さく、確かめるには試験がもっと必要と著者は書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-smiles-diet-depression",
+        "type": "あわせて読む",
+        "why": "菌やサプリでなく、食事全体を見直した試験の結果"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-probiotics-prebiotics-mood-meta"
+  },
+  {
     "id": "dokugaku-ai-made-mistakes-lost-trust-rebuild-algorithm-aversion",
     "category": "AIとのつきあい方",
     "kind": "研究紹介",
@@ -24135,6 +24329,11 @@
         "id": "food-omega3-depression-meta",
         "type": "あわせて読む",
         "why": "サプリ1つではなく、食事全体を見直した試験の結果"
+      },
+      {
+        "id": "food-probiotics-prebiotics-mood-meta",
+        "type": "あわせて読む",
+        "why": "食事全体でなく、腸の菌に絞った試験のまとめ"
       }
     ]
   },
@@ -28542,6 +28741,11 @@
         "id": "learning-testing-effect",
         "type": "あわせて読む",
         "why": "覚えた気になる感覚と、実際の記憶はずれやすい"
+      },
+      {
+        "id": "dokugaku-memorized-check-sheet-delayed-judgment-delayed-jol",
+        "type": "あわせて読む",
+        "why": "覚えた気になる感覚は、時間をおいて判断すると正確になる"
       }
     ]
   },
