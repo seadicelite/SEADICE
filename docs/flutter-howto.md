@@ -193,7 +193,7 @@ bool _isNewer(String latest, String current) {
 
 ## 起動画面（flutter_native_splash）
 
-`dev_dependencies` に `flutter_native_splash`。色はアプリの `scaffoldBackgroundColor` と同じ（ダーク固定なら `#05050C`）。
+`dev_dependencies` に `flutter_native_splash`。色はアプリの `scaffoldBackgroundColor` と同じ（ダークの初期値なら `#05050C`、ライトや別の地にしたらその色）。
 
 ```yaml
 flutter_native_splash:
