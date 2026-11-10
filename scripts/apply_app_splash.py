@@ -14,6 +14,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BRANDING = ROOT / "design/app-splash/branding.png"
 PADDING = 48
+# 1x1 の透明 PNG
+TRANSPARENT_PNG = bytes.fromhex(
+    "89504e470d0a1a0a0000000d4948445200000001000000010806000000"
+    "1f15c4890000000d49444154789c636000020000050001e9fadcd80000000049454e44ae426082")
 
 
 def ground_color(app):
@@ -52,6 +56,9 @@ def apply(app, color=None):
     r = subprocess.run(["dart", "run", "flutter_native_splash:create"], cwd=app, capture_output=True, text=True)
     if r.returncode:
         return "create 失敗: " + (r.stderr or r.stdout).strip().splitlines()[-1]
+    # 真ん中の画像がないとき flutter_native_splash は不透明な黒の 1x1 を置くので、透明にする（明るい地で点に見える）
+    for png in (app / "ios/Runner/Assets.xcassets/LaunchImage.imageset").glob("*.png"):
+        png.write_bytes(TRANSPARENT_PNG)
     return f"ok {color}"
 
 
