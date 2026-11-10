@@ -3,7 +3,7 @@
 
 design/app-splash/branding.png（@4x）をアプリの assets/splash/ に置き、pubspec.yaml の
 flutter_native_splash を書き換えて（真ん中の image は外す）`dart run flutter_native_splash:create` する。
-地の色は pubspec の color、なければ lib/ の scaffoldBackgroundColor の色を使う。
+地の色は lib/ の scaffoldBackgroundColor の色、見つからなければ pubspec の color を使う。
 
   python3 scripts/apply_app_splash.py /path/to/app ...
   python3 scripts/apply_app_splash.py --color "#0A1628" /path/to/app   # 地の色を指定
@@ -38,10 +38,11 @@ def apply(app, color=None):
     pub = app / "pubspec.yaml"
     s = pub.read_text()
     block = re.search(r"^flutter_native_splash:\n(?:[ \t]+.*\n|\n)*", s, re.M)
+    # アプリのコードの地の色を先に使う（pubspec の color は古いまま残っていることが多い。テス活ログ・ボディランゲージ診断で2回）
+    color = color or ground_color(app)
     if not color and block:
         m = re.search(r'^  color:\s*"?(#[0-9A-Fa-f]{6})', block.group(0), re.M)
         color = m and m.group(1).upper()
-    color = color or ground_color(app)
     if not color:
         return f"地の色が見つからない（--color で指定）"
     new = (f'flutter_native_splash:\n  color: "{color}"\n  branding: assets/splash/branding.png\n'
