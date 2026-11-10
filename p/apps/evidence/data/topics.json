@@ -1,5 +1,185 @@
 [
   {
+    "id": "money-savings-balance-life-satisfaction",
+    "category": "お金の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Ruberton, Gladstone & Lyubomirsky, \"How your bank balance buys happiness: The importance of 'cash on hand' to life satisfaction\" (Emotion, 2016)",
+    "sourceUrl": "https://doi.org/10.1037/emo0000184",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "貯金が多いと、幸せ？",
+        "body": "年収と幸せの話はよく聞くけど、口座にいくら残っているかはどうなんだろう。銀行の実際の口座データを使って調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イギリスの585人の口座と満足度",
+        "body": "イギリスの銀行の利用者585人に生活の満足度を答えてもらい、銀行にある匿名の口座データ（普通・貯蓄口座の残高、投資、支出、借金など）と照らし合わせたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "すぐ使えるお金が多い人ほど満足",
+        "body": "すぐ引き出せるお金が多い人ほど「お金の面は大丈夫」と感じていて、その安心感を通じて生活の満足度も高かった。収入や投資、借金を考えに入れても、この関係は残ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの調査の比べっこ",
+        "body": "ある時点の調査なので、貯金が満足を生むのか、満足している人がお金をためやすいのかは区別できない。イギリスの1つの銀行の利用者だけの結果で、つながりも「安心感」を通した間接的なものだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#money-savings-balance-life-satisfaction"
+  },
+  {
+    "id": "nature-vr-video-vs-real-forest",
+    "category": "自然と健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Browning, Mimnaugh, van Riper, Laurent & LaValle, \"Can Simulated Nature Support Mental Health? Comparing Short, Single-Doses of 360-Degree Nature Videos in Virtual Reality With the Outdoors\" (Frontiers in Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2019.02667",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自然の動画でも、本物の森と同じ？",
+        "body": "森に行けない日は、VRや動画の自然で代わりになるのかな。同じ森で、本物とその森の360度動画を比べた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生82人を3つに分けた",
+        "body": "アメリカの大学生82人を、本物の森・その森の360度動画をVRで見る・白い壁の部屋、のどれかにくじで分けたよ。それぞれ6分座って過ごし、前後で気分を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "本物は気分が上がり、VRは下がらなかった",
+        "body": "白い壁の部屋では明るい気分が下がったけど、本物の森では上がり、VRでは変わらなかった。VRでも嫌な気分は減り、どちらの自然も壁の部屋より「回復した」と感じられたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "健康な大学生の1回きりの実験",
+        "body": "健康な大学生が1回試した直後だけを測った実験。毎日続けたらどうか、年齢のちがう人や心の不調がある人で同じかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#nature-vr-video-vs-real-forest"
+  },
+  {
+    "id": "research-bedtime-racing-thoughts-imagery-shuffle-how-research-imagery",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Harvey & Payne, \"The management of unwanted pre-sleep thoughts in insomnia: distraction with imagery versus general distraction\" (Behaviour Research and Therapy, 2002)",
+    "sourceUrl": "https://doi.org/10.1016/s0005-7967(01)00012-2",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/bedtime-racing-thoughts-imagery-shuffle-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝る前の考えごと、どう止める？",
+        "body": "布団に入ると明日の予定や今日の失敗がぐるぐる。「考えるな」と思うほど止まらないよね。別のことで頭を埋めたらどうなるか、試した実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "不眠の41人に3通りの指示",
+        "body": "不眠に悩む41人を「イメージで気をそらす」「ふつうに気をそらす」「指示なし」の3つに分けて、実験の晩の寝つきと、寝る前の考えごとを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "場面を描いた人が早く眠れた",
+        "body": "興味の持てる場面を頭の中で描いたグループは、指示なしのグループより早く眠り、考えごとの回数やつらさも少なかった。描くことが頭の「空き容量」を使うから、と考えられているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1晩・41人の実験",
+        "body": "比べたのは1晩だけで、続けたときの効果はわからない。「ふつうに気をそらすと逆に悪化する」という予想も確かめられなかったんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-bedtime-racing-thoughts-imagery-shuffle-how-research-imagery"
+  },
+  {
+    "id": "research-cant-recall-imagine-study-place-context-reinstatement-research-divers",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Murre, \"The Godden and Baddeley (1975) experiment on context-dependent memory on land and underwater: a replication\" (Royal Society Open Science, 2021)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.200724",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/cant-recall-imagine-study-place-context-reinstatement-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "水中で覚えたことは水中で思い出せる？",
+        "body": "心理学の教科書によく載っている話。1975年、ダイバーは水中で覚えた単語を水中で、陸で覚えた単語を陸でよく思い出せた、という実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16人のダイバーでやり直した",
+        "body": "2021年、オランダの研究者が16人のダイバーで同じ実験をやり直したよ。陸と水中で単語を聞いて覚え、4分後に陸か水中で思い出してもらった（全員が4通りすべてを体験）。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "同じ場所でも成績は上がらなかった",
+        "body": "覚えた場所と思い出す場所が同じでも、思い出せる量は増えなかった。むしろ、陸で覚えたほうがどこで思い出しても成績がよかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "場所の効果がないとは言えない",
+        "body": "単語の難しさや水中スピーカーの聞こえ方が元の実験とちがった可能性もある。たくさんの研究をまとめると、場所の効果は小さめながら確かにあるとされているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-cant-recall-imagine-study-place-context-reinstatement-research-vr",
+        "type": "あわせて読む",
+        "why": "実際に場所へ戻るのでなく、頭の中で覚えた場所に戻ると少し思い出しやすかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-cant-recall-imagine-study-place-context-reinstatement-research-divers"
+  },
+  {
+    "id": "research-cant-recall-imagine-study-place-context-reinstatement-research-vr",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Essoe et al., \"Enhancing learning and retention with distinctive virtual reality environments and mental context reinstatement\" (npj Science of Learning, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41539-022-00147-6",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/cant-recall-imagine-study-place-context-reinstatement-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "覚えた部屋を思い浮かべると思い出せる？",
+        "body": "テストで出てこないとき、勉強した部屋を思い浮かべるといいって聞くよね。頭の中で「戻る」だけで効果があるのか、確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "仮想空間で80語を覚えた",
+        "body": "アメリカの大学で集めた18〜27歳の48人が、画面の中の「月面基地」などを歩きながら、2つの外国語の単語を80語覚えた。テストでは毎回、指定された部屋を目を閉じて思い浮かべてから答えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "正解は52%と47%",
+        "body": "その単語を覚えた部屋を思い浮かべたときの正解は52%、別の部屋を思い浮かべたときは47%。覚えた場所に頭の中で戻るだけで、少し思い出しやすくなったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふつうの勉強部屋でも同じ？",
+        "body": "実験室で作った仮想空間での結果で、差は5ポイントほど。ふだんの勉強部屋で同じくらいの効果が出るかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-cant-recall-imagine-study-place-context-reinstatement-research-divers",
+        "type": "あわせて読む",
+        "why": "有名なダイバーの実験をやり直すと、同じ場所で思い出しても成績は上がらなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-cant-recall-imagine-study-place-context-reinstatement-research-vr"
+  },
+  {
     "id": "posture-open-closed-doctor-first-impression",
     "category": "姿勢と自信",
     "kind": "素朴な疑問",
