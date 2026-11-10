@@ -166,6 +166,8 @@ AdMob アカウントが停止したため。`google_mobile_ads`・リワード�
 ## 起動画面（ロゴは出さない、2026-10-13〜）
 
 SEADICE のロゴを出さず、最初の画面と同じ色の無地にする（ロゴは待たされる感じがする、ユーザー判断）。Flutter 標準の白のままにしない。`flutter_native_splash` で作る（[flutter-howto.md](flutter-howto.md)）。既存アプリは改修のついでに外す（これだけのための再申請はしない）。
+- **申請前に白でないか確かめる**（2026-11-10、15本が白いまま見つかった）: `grep -c 'red="1" green="1" blue="1"' ios/Runner/Base.lproj/LaunchScreen.storyboard` が 0 で、`LaunchBackground.imageset` があるか。`flutter_native_splash` を入れていないアプリは、storyboard の `backgroundColor` を地の色にするだけでもよい
+- 直しても手元の iPhone では白く見えることがある。iOS が起動画面を覚えているため。アプリを消して入れ直すか、iPhone を再起動すると新しい色になる
 
 ## 文字の大きさとレスポンシブ（全アプリ、2026-10-13〜）
 

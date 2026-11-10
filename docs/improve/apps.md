@@ -16,6 +16,7 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 2. 「良いアプリの基準」4つで、公開済みアプリを1本ずつ見る手順を /improve-app に足す（手元の作業で。/improve-app はこのリポジトリになく、クラウドからは変えられない。2026-10-30 確認）
 
 ### ルールの変更履歴
+- 2026-11-10: 起動画面が白いままのアプリが15本あった（flutter_native_splash 未設定）。14本の storyboard を地の色に直し、flutter-app.md「起動画面」に申請前の確認を足した。trade-english-word/appbuild は地の色が不明で未対応
 - 2026-11-10: ユーザーの指示「ターゲットを決めて、脳科学マーケでデザイン・色・機能を決める」。全アプリ共通だったダーク固定・アクセント `#00FFD1` をやめ、flutter-app.md に「ターゲット票（TARGET.md）」、neuro.md に「ターゲットから決める」の表を足した。neuro・experience・design 役と /improve-app を票に合わせた
 - 2026-11-10: 5.1.2(i)（App Privacy にトラッキングの古い申告が残る）が2回目（LUCK UNLUCK・本音診断）になったので、flutter-app.md の出力ルールに「提出前に App Privacy の取り残しを確かめる・トラッキングは常に空」を足した
 
