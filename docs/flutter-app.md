@@ -169,7 +169,7 @@ AdMob アカウントが停止したため。`google_mobile_ads`・リワード�
 最初の画面と同じ地の色の無地にし、画面の下に小さく「サイコロのマーク＋SEADICE」を出す。色は全アプリ共通の青 `#2F7BFF`（暗い地でも明るい地でも読める、ユーザー判断）。真ん中にはロゴもキャラも出さない（待たされる感じがする、2026-10-13 のユーザー判断のまま）。Flutter 標準の白のままにしない。
 
 - **新しいアプリと、改修するアプリでは必ず当てる**: `python3 /Users/hidenori/Developer/SEADICE/scripts/apply_app_splash.py {アプリのフォルダ}`（マークは `design/app-splash/branding.png`。pubspec の `flutter_native_splash` を書き換えて生成まで行う）。これだけのための再申請はしない
-- **申請前に白でないか確かめる**（2026-11-10、15本が白いまま見つかった）: `grep -c 'red="1" green="1" blue="1"' ios/Runner/Base.lproj/LaunchScreen.storyboard` が 0 で、`LaunchBackground.imageset` があるか。`flutter_native_splash` を入れていないアプリは、storyboard の `backgroundColor` を地の色にするだけでもよい
+- **申請前に白でないか確かめる**（2026-11-10、15本が白いまま見つかった）: `ios/Runner/Assets.xcassets/LaunchBackground.imageset/background.png` が地の色で、`BrandingImage.imageset` があるか（`apply_app_splash.py` を当てれば両方できる）。storyboard の下地が白（`red="1"`）でも、この背景画像が全面に重なるので白くは見えない。背景画像がないアプリだけ、storyboard の `backgroundColor` を見る
 - マークは画面の下端から48pt・中央・大きさ固定なので、iPhone（ホームボタンあり・なし）・横向き・iPad・Mac で同じ位置に出る（2026-11-10、iPhone 17 Pro Max と iPad mini で確認）
 - 直しても手元の iPhone では白く見えることがある。iOS が起動画面を覚えているため。アプリを消して入れ直すか、iPhone を再起動すると新しい色になる
 
