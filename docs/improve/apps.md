@@ -20,6 +20,7 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 
 
 古い記録は [log/apps.md](log/apps.md)。
+- 2026-11-10: 本音診断 出会いの安全 1.1.0・目指せシャーロックホームズ 1.1.0 の 5.1.2(i) 対応をユーザーが完了（ASC のプライバシー申告を実際の収集に合わせて公開し、却下メッセージに返信）。審査の結果待ち
 ## 良い状態
 - 公開済みアプリ（p/released-apps.json）のページは「App Storeで見る」ボタンつき（`?ct=seadice`）、未公開は noindex
 - 公開済みアプリのページに「もとになった研究」欄（EVIDENCEシリーズ）がある
