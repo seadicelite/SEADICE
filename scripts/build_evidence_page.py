@@ -153,9 +153,17 @@ def main():
             {"@type": "ListItem", "position": 3, "name": "EVIDENCEシリーズ", "item": URL}]}]}
     faq_html = "\n".join(f"    <dt>{html.escape(q)}</dt><dd>{html.escape(t)}</dd>" for q, t in faq)
     OUT.parent.mkdir(exist_ok=True)
+    prev = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
     OUT.write_text(TEMPLATE.format(desc=desc, ld=json.dumps(ld, ensure_ascii=False), count=count, total=total,
                                    apps="\n\n".join(([flag] if flag else []) + blocks), faq=faq_html, year=date.today().year), encoding="utf-8")
     apply_page_type.apply(OUT, "show")  # 魅せるページのデザイン（design/）を差し込む
+    # 中身が変わらない再生成では dateModified を動かさない（変わったときだけ今日にする）
+    m = re.search(r'"dateModified": "(\d{4}-\d{2}-\d{2})"', prev)
+    if m and m.group(1) != today:
+        new = OUT.read_text(encoding="utf-8")
+        kept = new.replace(f'"dateModified": "{today}"', f'"dateModified": "{m.group(1)}"', 1)
+        if kept == prev:
+            OUT.write_text(prev, encoding="utf-8")
     print(f"wrote {OUT.relative_to(P.parent)} ({count} apps, {total} studies)")
 
 
