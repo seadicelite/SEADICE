@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-online-meeting-fatigue-why-research-self-view",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Basch et al., \"Fighting Zoom fatigue: Evidence-based approaches in university online education\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-90973-6",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/online-meeting-fatigue-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分の顔を見ていると疲れる？",
+        "body": "オンライン会議の画面には、ずっと自分の顔が映っているよね。あれが疲れの原因じゃないか、って言われているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "週ごとに設定を変えたゼミ",
+        "body": "Baschら（2025）は、ドイツの大学のオンラインゼミで、自分の顔の表示を消す週と出す週をつくって、終わったあとの疲れを7段階で答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "疲れが3.41から2.25に",
+        "body": "25人で比べると、自分の顔の表示を消した週の疲れは2.25で、出していた週の3.41より低かった。授業で発言や作業をした週も、ただ聞く週より疲れが少なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は少なく、内容も違った",
+        "body": "比べたのは25人だけで、ドイツの大学の心理学のゼミという限られた場面。週ごとに学ぶ内容の難しさが違っていた可能性もあるし、どの週がどの設定かは学生にも知らされていたんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "work-camera-fatigue",
+        "type": "あわせて読む",
+        "why": "カメラそのものをオフにした職場の研究と、自分の顔の表示だけを消したゼミの実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#research-online-meeting-fatigue-why-research-self-view"
+  },
+  {
+    "id": "kokoro-asmr-relax-fatigue-heart-rate",
+    "category": "呼吸とストレス",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Poerio GL, Blakey E, Hostler TJ & Veltri T, \"More than a feeling: Autonomous sensory meridian response (ASMR) is characterized by reliable changes in affect and physiology\" (PLoS ONE, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0196645",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/asmr-relax-fatigue/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ASMRで本当に落ち着く？",
+        "body": "ささやき声やたたく音で、頭や首すじがゾワゾワする「ASMR」。リラックスのために動画を見る人は多いけど、体にも変化は出ているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "心拍を測って比べた",
+        "body": "英国の実験室で、ASMRを感じる人と感じない人の計110人が、約3分のASMR動画とASMRではない動画を見たよ。そのあいだの心拍を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "感じる人は心拍が下がった",
+        "body": "ASMRを感じる人は、ASMRではない動画のときより心拍が1分あたり平均3.41回下がったらしい。感じない人より大きな下がり方だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "期待のせいかもしれない",
+        "body": "感じるかどうかは本人の答えで分けていて、「効くはず」という期待が結果に影響した可能性を研究者自身が挙げているよ。続けたときの効果もまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-asmr-relax-fatigue-heart-rate"
+  },
+  {
+    "id": "kokoro-comparison-happy-memories-reminiscing-stress",
+    "category": "呼吸とストレス",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Speer ME, Delgado MR, \"Reminiscing about positive memories buffers acute stress responses\" (Nature Human Behaviour, 2017)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-017-0093",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/comparison-happy-memories/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "楽しかった思い出で、ストレスは和らぐ？",
+        "body": "嫌なことがあった日、昔の楽しかったことを思い出すと少し落ち着く気がするよね。あれって、体の反応にも出るのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "冷たい水のあとに、思い出を14秒ずつ",
+        "body": "米国の大学生134人の実験。カメラの前で氷水に2分手を入れる組と、ぬるま湯の組に分けて、そのあと楽しかった思い出か、ふつうの出来事を1回14秒ずつ24回思い出してもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ストレスのホルモンの上がり方が小さかった",
+        "body": "氷水のあとに楽しかった思い出を思い出した人は、ふつうの出来事の人より、ストレスのホルモン（コルチゾール）の上がり方が小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い学生の、1回だけの実験",
+        "body": "対象はアメリカの大学の健康な学生で、ストレスは実験室での1回だけ。落ち込みが強い人は楽しい記憶を思い出しにくいと論文も書いていて、そうした人や毎日のストレスで効くかは調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-comparison-happy-memories-reminiscing-stress"
+  },
+  {
+    "id": "japan-green-tea-gargling-covid",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Kawai et al., \"Effects of Green Tea Gargling on COVID-19: A Multicenter RCT\" (AJPM Focus, 2026)",
+    "sourceUrl": "https://doi.org/10.1016/j.focus.2026.100517",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お茶でうがいすると、コロナを防げる？",
+        "body": "日本では、うがいで風邪を防ぐ習慣があるよね。緑茶のカテキンでうがいすれば、もっと防げるという話も聞く。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,012人を緑茶と水にくじで分けた",
+        "body": "静岡県立大学などのチームが、日本の4都県の18〜70歳1,012人をくじで2組に分けて、緑茶か水で1日3回、12週間うがいしてもらった。2023年と2024年の冬に行ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "かかった割合は、どちらも5.4%",
+        "body": "病院の検査でコロナと診断された人は、緑茶組が503人中27人、水組が500人中27人で、どちらも5.4%。きちんと続けた人だけで見ると4.4%と5.7%だったけど、偶然でも出る程度の差だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "お茶の会社の資金で、目隠しなし",
+        "body": "研究費は伊藤園から出ていて、社員も著者に入っている。何でうがいしたか本人にわかる方法で、水組のほうがマスクなど他の対策をよく守っていた。濃さや回数を変えたらどうかは、これからだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-green-tea-gargling-covid"
+  },
+  {
+    "id": "love-handholding-emotional-pain",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Sahi et al., \"The comfort in touch: Immediate and lasting effects of handholding on emotional pain\" (PLoS ONE, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0246753",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "つらいとき、恋人に手を握ってもらうと楽になる？",
+        "body": "つらい話をするとき、大事な人に手を握ってもらうとほっとするよね。体の痛みは和らぐという研究が多いけど、心の痛みはどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "恋人47組で、手とボールを比べた",
+        "body": "アメリカの研究で、恋人47組の片方が、つらい思い出とふつうの思い出を相手に話した。そのとき相手の手を握る回と、柔らかいボールを握る回をつくって比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "その場のつらさは同じ、安心は増えた",
+        "body": "手を握っても、話している最中のつらさは減らなかった。でも「なぐさめられた」感じは強くなった。平均4か月後に聞くと、手を握って話した思い出のほうが、つらさが小さく感じられていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "あとの調査は31人だけ",
+        "body": "数か月後の調査は途中で足したもので、答えたのは31人。研究者自身も最初の一歩の結果で、もっと多い人数で確かめるべきだと書いているよ。恋人以外の相手でも同じかは調べていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "umbra-couple-touch-daily",
+        "type": "あわせて読む",
+        "why": "実験室で手を握った研究と、カップルが毎日の触れあいと気分を記録した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-handholding-emotional-pain"
+  },
+  {
     "id": "kokoro-ai-fear-hesitant-to-use-14-week-course",
     "category": "AIとのつきあい方",
     "kind": "よくある説",
@@ -32017,6 +32197,11 @@
         "id": "kokoro-videoconference-fatigue-eeg",
         "type": "あわせて読む",
         "why": "ビデオ会議の疲れを脳波で見た実験と、職場で毎日記録した研究"
+      },
+      {
+        "id": "research-online-meeting-fatigue-why-research-self-view",
+        "type": "あわせて読む",
+        "why": "カメラそのものをオフにした職場の研究と、自分の顔の表示だけを消したゼミの実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/work/work-camera-fatigue/"
@@ -33568,6 +33753,11 @@
         "id": "umbra-couple-exciting-activities",
         "type": "あわせて読む",
         "why": "ふだんのふれあいに加えて、二人で何をすると関係が変わるかの研究"
+      },
+      {
+        "id": "love-handholding-emotional-pain",
+        "type": "あわせて読む",
+        "why": "実験室で手を握った研究と、カップルが毎日の触れあいと気分を記録した研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/romance/#umbra-couple-touch-daily"
