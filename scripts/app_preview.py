@@ -4,13 +4,15 @@
   python3 scripts/app_preview.py {アプリのフォルダ} --record 1   # 起動中のシミュレーターを録画 → screenshots/rec/1.mov（Enter で止める。--seconds 20 なら20秒で）
   python3 scripts/app_preview.py {アプリのフォルダ}              # 書き出し → 点検 → 開く
 
-Apple の決まり: 中身はアプリの画面を録画したものだけ（文字を重ねるのは可）、15〜30秒、30fps。横の 1920×886・1600×1200。
-形はヘッダーの絵と同じ（左に印と見出し、右に録画を角丸の枠でまるごと）。色と印は mockup.json から読む。
+Apple の決まり: 中身はアプリの画面を録画したものだけ（文字を重ねるのは可）、15〜30秒、30fps。
+形: 録画を縦のまま画面いっぱいに出し、下に見出しの帯を重ねるだけ（2026-11-11）。余白・枠・本体の縁・印（バッジ）・拡大窓は付けない。
+  以前の「左に見出し、右に録画を枠で」は Guideline 2.3.4 で却下された（FBI式ボディランゲージ辞典 1.1.0:
+  framing around the video screen capture / device frames / self-promotional ad）。色は mockup.json から読む。
 
 preview.json:
 {
-  "clips": [{"video": "1.mov", "start": 0.5, "end": 6, "lines": ["1行目", "2行目（アクセント色）", "補足"],
-             "focus": [0.02, 0.17, 0.96, 0.25]}, ...],   # 拡大窓（録画に対する割合）。iPad は自動で探す（focus_ipad で指定も可）
+  "clips": [{"video": "1.mov", "start": 0.5, "end": 6, "lines": ["1行目", "2行目（アクセント色）", "補足"]}, ...],
+  # focus（拡大窓）は動画では使わない（枠で囲んだ絵を重ねると 2.3.4 の framing に取られうる）
   "en": {"clips": [...]}          # 英語版（録画は rec/en/）
 }
 録画: iPhone は screenshots/rec/（英語は rec/en/）、iPad は rec_ipad/（無ければ iPad の動画は作らない）
@@ -26,12 +28,12 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(Path(__file__).parent))
-from mockup import COLORS, HEAD_TRACK, PRICE_WORDS, fit, font, load, locate, ocr_price, rgb, tdraw, tlen, use_font  # noqa: E402
+from mockup import COLORS, HEAD_TRACK, PRICE_WORDS, fit, font, load, ocr_price, rgb, tdraw, tlen, use_font  # noqa: E402
 
-# (名前, 幅, 高さ, 録画のフォルダ)。docs/mockup.md の表のアプリプレビュー（横、2026-11-09 ユーザー指定）
+# (名前, 幅, 高さ, 録画のフォルダ)。縦の録画を余白なしで出すので縦のサイズ（2026-11-11、横は余白が要り 2.3.4 で却下）
 SIZES = [
-    ("iphone", 1920, 886, "rec"),
-    ("ipad", 1600, 1200, "rec_ipad"),
+    ("iphone", 886, 1920, "rec"),
+    ("ipad", 1200, 1600, "rec_ipad"),
 ]
 FPS = 30
 FADE = 0.2
@@ -48,68 +50,25 @@ def duration(path):
     return float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)]))
 
 
-def layout(W, H, rec):
-    """録画を右に、縦いっぱい（上下に余白）で置く。(x, y, 幅, 高さ)"""
-    rw, rh = map(int, run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
-                           "-of", "csv=p=0", str(rec)]).strip().split(","))
-    sh = int(H * 0.88) // 2 * 2
-    sw = int(sh * rw / rh) // 2 * 2
-    if sw > W * 0.55:  # 横向きの録画（iPad など）は、見出しの場所を残して幅で合わせる
-        sw = int(W * 0.55) // 2 * 2
-        sh = int(sw * rh / rw) // 2 * 2
-    return W - int(W * 0.06) - sw, (H - sh) // 2, sw, sh
-
-
-def front(path, W, H, box, colors, badge, lines, overhang=0):
-    """録画の上に重ねる絵。左に印と見出し、録画の所だけ角丸にくり抜く"""
+def caption(path, W, H, colors, lines):
+    """録画の上に重ねる見出しの帯（下の端）。帯の外は透明で、録画がそのまま見える"""
     c = colors
-    x, y, sw, sh = box
-    im = Image.new("RGBA", (W, H), c["bg"] + (255,))
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-    left = int(W * 0.06)
-    room = x - left - int(W * 0.05) - overhang  # 拡大窓が録画より左にはみ出す分も空ける
+    pad = int(W * 0.07)
+    room = W - pad * 2
     line1, line2, sub = lines
-    hs = min(fit(line1, "W7", H * 0.11, room)[1], fit(line2, "W7", H * 0.11, room)[1])
+    hs = min(fit(line1, "W7", W * 0.085, room)[1], fit(line2, "W7", W * 0.085, room)[1])
     head = font("W7", hs)
-    small, _ = fit(sub, "W6", hs * 0.45, room)
-    bh = int(hs * 0.7) if badge else 0
-    top = (H - (bh + int(hs * 0.5) + int(hs * 1.3) * 2 + int(hs * 0.6))) // 2
-    if badge:
-        # スクショと同じ: 印は細い線の枠、文字は詰め組み（scripts/mockup.py）
-        bf = font("W6", hs * 0.36)
-        bw = tlen(badge, bf) + hs * 0.56
-        d.rounded_rectangle((left, top, left + bw, top + bh), bh / 2, outline=c["sub"], width=max(int(hs * 0.03), 2))
-        tdraw(d, (left + hs * 0.28, top + bh * 0.18), badge, bf, c["sub"])
-        top += bh + int(hs * 0.5)
-    tdraw(d, (left, top), line1, head, c["text"], HEAD_TRACK)
-    tdraw(d, (left, top + int(hs * 1.3)), line2, head, c["accent"], HEAD_TRACK)
-    tdraw(d, (left, top + int(hs * 2.75)), sub, small, c["sub"])
-    r = int(sw * 0.08)
-    d.rounded_rectangle((x - 4, y - 4, x + sw + 4, y + sh + 4), r + 4, fill=c["frame"])
-    d.rounded_rectangle((x, y, x + sw, y + sh), r, fill=(0, 0, 0, 0))
+    small, ss = fit(sub, "W6", hs * 0.5, room)
+    # 帯は下の端に置く（上はアプリの見出しと核の操作があることが多く、下はタブバーで隠しても困らない）
+    band = int(hs * 0.7) + int(hs * 1.3) * 2 + int(ss * 1.6) + int(hs * 0.5)
+    d.rectangle((0, H - band, W, H), fill=c["bg"] + (240,))
+    top = H - band + int(hs * 0.6)
+    for i, (t, f, col, tr) in enumerate(((line1, head, c["text"], HEAD_TRACK), (line2, head, c["accent"], HEAD_TRACK))):
+        tdraw(d, ((W - tlen(t, f, tr)) / 2, top + int(hs * 1.3) * i), t, f, col, tr)
+    tdraw(d, ((W - tlen(sub, small)) / 2, top + int(hs * 2.7)), sub, small, c["sub"])
     im.save(path)
-
-
-def frame_png(video, t, out):
-    run(["ffmpeg", "-y", "-v", "error", "-ss", str(t), "-i", str(video), "-frames:v", "1", str(out)])
-    return out
-
-
-def focus_for(cl, name, recs, tmp, i):
-    """拡大窓の場所（録画に対する割合）。iPad は iPhone の録画で決めた場所を、iPad の録画の最初のコマから探す"""
-    if name == "iphone" or cl.get("focus_ipad"):
-        return cl.get("focus") if name == "iphone" else cl["focus_ipad"]
-    if not cl.get("focus"):
-        return None
-    phone = recs.parent.parent / "rec" / recs.name if recs.name == "en" else recs.parent / "rec"
-    if not (phone / cl["video"]).exists():
-        return None
-    t = cl["start"] + 0.5
-    rect, score = locate(frame_png(phone / cl["video"], t, tmp / f"p{i}.png"), cl["focus"], frame_png(recs / cl["video"], t, tmp / f"q{i}.png"))
-    if score < 0.6:
-        print(f"注意: iPad の{i + 1}本目は拡大の場所が見つかりません（{score:.2f}）。focus_ipad を書いてください")
-        return None
-    return rect
 
 
 def build(out, recs, size, colors, badge, clips, tmp):
@@ -117,31 +76,18 @@ def build(out, recs, size, colors, badge, clips, tmp):
     segs = []
     for i, cl in enumerate(clips):
         png = tmp / f"{name}_{i}.png"
-        bx, by, SW, SH = box = layout(W, H, recs / cl["video"])
-        focus = focus_for(cl, name, recs, tmp, i)
-        zw = int(SW * 1.3) // 2 * 2
-        front(png, W, H, box, colors, badge, cl["lines"], (zw - SW) // 2 if focus else 0)
+        caption(png, W, H, colors, cl["lines"])
         dur = cl["end"] - cl["start"]
         seg = tmp / f"{name}_{i}.mp4"
-        bg = "#%02x%02x%02x" % colors["bg"]
-        zoom = ""
-        if focus:  # 録画の大事な所を切り抜いて拡大し、元の場所の上に重ねる（録画と一緒に動く。枠はアクセント色）
-            fx, fy, fw, fh = focus
-            zh = int(zw * fh * SH / (fw * SW)) // 2 * 2
-            zx = int(min(max(bx + SW / 2 - zw / 2, 0), W - zw))
-            zy = int(min(max(by + (fy + fh / 2) * SH - zh / 2, by), H - zh - 8))
-            b = max(W // 320, 3)
-            acc = "#%02x%02x%02x" % colors["accent"]
-            zoom = (f";[z]crop=iw*{fw}:ih*{fh}:iw*{fx}:ih*{fy},scale={zw}:{zh},setsar=1[zz];"
-                    f"[f]drawbox=x={zx - b}:y={zy - b}:w={zw + 2 * b}:h={zh + 2 * b}:color={acc}:t=fill[fb];[fb][zz]overlay={zx}:{zy}")
+        # 録画を縦横比を保って画面いっぱいに広げ、はみ出した上下（または左右）を切る。余白は作らない
         run(["ffmpeg", "-y", "-v", "error",
-             "-f", "lavfi", "-i", f"color=c={bg}:s={W}x{H}:r={FPS}",
              "-ss", str(cl["start"]), "-t", str(dur), "-i", str(recs / cl["video"]),
              "-loop", "1", "-i", str(png),
              "-filter_complex",
-             f"[1:v]fps={FPS}" + (",split[r][z];[r]" if focus else ",") + f"scale={SW}:{SH},setsar=1[v];[0:v][v]overlay={bx}:{by}[b];"
-             f"[b][2:v]overlay=0:0[f]" + (zoom if focus else ";[f]null") + "[m];"
-             f"[m]fade=t=in:st=0:d={FADE},fade=t=out:st={dur - FADE}:d={FADE},format=yuv420p",
+             f"[0:v]fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1[v];"
+             f"[v][1:v]overlay=0:0[m];"
+             # 1本目は黒から始めない（最初のコマが Finder の見本や App Store の静止画になり、真っ暗に見えた 2026-11-11）
+             f"[m]" + (f"fade=t=in:st=0:d={FADE}," if i else "") + f"fade=t=out:st={dur - FADE}:d={FADE},format=yuv420p",
              "-t", str(dur), "-an", "-c:v", "libx264", "-preset", "slow", "-crf", "18", str(seg)])
         segs.append(seg)
     lst = tmp / f"{name}.txt"
