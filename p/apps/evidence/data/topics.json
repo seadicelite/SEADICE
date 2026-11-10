@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-ai-made-mistakes-lost-trust-rebuild-algorithm-aversion",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Dietvorst et al., \"Algorithm aversion: People erroneously avoid algorithms after seeing them err\" (Journal of Experimental Psychology: General, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000033",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/ai-made-mistakes-lost-trust-rebuild/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く話",
+        "title": "一度間違えたら、もう信用しない？",
+        "body": "AIが一度でも間違えると、他の答えまで全部あやしく見えてくる。人の先生なら一度の言い間違いでそこまで思わないのに、不思議だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "機械と人、どっちの予想に賭ける？",
+        "body": "5つの実験で、参加者は統計モデルと人のどちらの予想に自分の報酬を結びつけるかを選んだ。その前に、モデルの予想、人の予想、両方、どちらも見ない、のどれかを見せた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "正確でも、間違いを見ると避ける",
+        "body": "モデルの予想を見た人は、モデルへの自信が下がり、より不正確な人の予想を選びやすくなった。モデルが人より正確だったのを見ても同じ。同じ間違いでも、機械への自信の方が早く下がったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "今のAIや勉強でも同じ？",
+        "body": "課題は先の数字を予想するもので、生成AIが広まる前の2015年の研究。勉強でAIを使う場面や、文章で答えるAIで確かめたものではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#dokugaku-ai-made-mistakes-lost-trust-rebuild-algorithm-aversion"
+  },
+  {
+    "id": "dokugaku-concrete-examples-how-to-study-compare-two-cases",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Loewenstein, Thompson & Gentner, \"Analogical encoding facilitates knowledge transfer in negotiation\" (Psychonomic Bulletin & Review, 1999)",
+    "sourceUrl": "https://doi.org/10.3758/bf03212967",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/concrete-examples-how-to-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く話",
+        "title": "例を読んでも使えない",
+        "body": "教科書の事例を読んで「なるほど」と思ったのに、いざ本番になると使えない。学んだことが別の場面に移らないのは、よくあることなんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2つの事例を比べる",
+        "body": "交渉のやり方を2つの事例から学ぶ実験で、2つを並べて共通点を考える人と、同じ2つを別々に読む人をくらべた研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "およそ3倍使えた",
+        "body": "2つを比べた経営学の大学院生は、別々に読んだ人より、学んだ方法をその後の交渉に取り入れる割合がおよそ3倍だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験勉強でも同じ？",
+        "body": "調べたのは交渉の技術を学ぶ短い実験。資格試験の用語を何か月も独学する場面で、同じくらいの差が出るかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-concrete-examples-how-to-study-compare-two-cases"
+  },
+  {
+    "id": "dokugaku-exam-far-away-never-started-reset-surface-before-exam",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Capelle et al., \"Deadlines make you productive, but what do they do to your motivation? Trajectories in quantity and quality of motivation and study activities among university students as exams approach\" (Frontiers in Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2023.1224533",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/exam-far-away-never-started-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "試験が近づくと、勉強の中身は？",
+        "body": "試験が近づくと、さすがに勉強時間は増えるよね。でも、増えるのはどんな勉強なんだろう。毎週の記録で追った研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8週間、毎週同じ質問",
+        "body": "ドイツの大学生96人に、期末試験までの8週間、毎週「どれくらい・どんなふうに勉強したか」「うまくやれそうか」などを答えてもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "増えたのは浅い勉強",
+        "body": "試験が近づくほど勉強時間は増えた。ただ、覚えるだけの浅い勉強の方が、理解を深める勉強より早く増えた。「失敗したくない」気持ちで勉強する傾向も強まった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "相関の研究",
+        "body": "記録を追った相関の研究なので、試験の近さが勉強の中身を変えたとまでは言えない。ドイツの1つの大学の3つの講義の学生で、いくつかの項目は質問1つだけで測っている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-far-away-never-started-reset-surface-before-exam"
+  },
+  {
+    "id": "music-sad-songs-nostalgia-survey",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Taruffi & Koelsch, \"The paradox of music-evoked sadness: an online survey\" (PLoS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0110490",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "悲しい曲を聴くと、もっと落ち込む？",
+        "body": "つらいときに、わざわざ悲しい曲を聴きたくなることってあるよね。かえって気分が沈むんじゃない？と思う人も多いはず。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "772人にアンケート",
+        "body": "西洋と東洋の参加者772人に、悲しい曲を聴いたときにどんな気持ちになるか、なぜ聴くのかをネットで答えてもらった研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばん多いのは「なつかしさ」",
+        "body": "悲しい曲で起きる気持ちで一番多かったのは、悲しみよりもなつかしさ。気持ちを整える、なぐさめられるといった良い面も挙がった。落ち込んでいる人ほど悲しい曲を好む傾向もあった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の答えだけ",
+        "body": "ネットで本人に思い出して答えてもらった調査で、実際に気分が良くなったかを測ったわけではない。思い出し違いや、答えたい答えに寄る心配も論文に書かれているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-sad-songs-nostalgia-survey"
+  },
+  {
+    "id": "oya-leisure-activities-dementia-bronx",
+    "category": "親の老いと介護",
+    "kind": "よくある説",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Verghese et al., \"Leisure activities and the risk of dementia in the elderly\" (New England Journal of Medicine, 2003)",
+    "sourceUrl": "https://doi.org/10.1056/NEJMoa022252",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "楽器や囲碁で、認知症を防げる？",
+        "body": "「頭を使う趣味は認知症予防になる」ってよく聞くよね。親に何か趣味を勧めたくなったとき、気になる話。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "75歳以上の469人を追った",
+        "body": "アメリカで、認知症のない75歳以上の469人に趣味の頻度を聞き、およそ5年追いかけた。その間に124人が認知症になった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頭を使う趣味が多い人は少なめ",
+        "body": "読書・ボードゲーム・楽器・ダンスをよくする人は、認知症になる人が少なかった。頭を使う趣味が週1日分増えるごとに、リスクは約7%低かった。体を使う趣味の点数とは関係が見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "趣味が防いだとは言えない",
+        "body": "観察しただけなので、趣味が認知症を防いだのか、もともと元気な人が趣味を続けていただけかは分けきれない。論文も、くじで分けた試験が必要と書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "oya-brain-training-active-10y",
+        "type": "あわせて読む",
+        "why": "こちらは観察、あちらはくじで分けて頭の訓練を試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-leisure-activities-dementia-bronx"
+  },
+  {
     "id": "research-boring-task-cant-focus-boredom-why-research-self-shock",
     "category": "集中力",
     "kind": "研究紹介",
@@ -35582,6 +35755,11 @@
         "id": "brain-game-training-null",
         "type": "反対の結果",
         "why": "市販のゲームでは頭の力全体が伸びる証拠は見つからなかった。練習した力だけ残るのと合う"
+      },
+      {
+        "id": "oya-leisure-activities-dementia-bronx",
+        "type": "あわせて読む",
+        "why": "あちらは趣味と認知症の関係を観察した研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/aging-parents/oya-brain-training-active-10y/"
