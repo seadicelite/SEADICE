@@ -163,9 +163,11 @@ AdMob アカウントが停止したため。`google_mobile_ads`・リワード�
 - **通信がなくても使える**: 核の機能は機内モードでも動く
 - **割り込まない**: 使っている途中に全画面の案内（課金・評価・お知らせ）を出さない。出すのは用事が終わった後
 
-## 起動画面（ロゴは出さない、2026-10-13〜）
+## 起動画面（地の色の無地＋下に SEADICE のマーク、2026-11-10〜）
 
-SEADICE のロゴを出さず、最初の画面と同じ色の無地にする（ロゴは待たされる感じがする、ユーザー判断）。Flutter 標準の白のままにしない。`flutter_native_splash` で作る（[flutter-howto.md](flutter-howto.md)）。既存アプリは改修のついでに外す（これだけのための再申請はしない）。
+最初の画面と同じ地の色の無地にし、画面の下に小さく「サイコロのマーク＋SEADICE」を出す。色は全アプリ共通の青 `#2F7BFF`（暗い地でも明るい地でも読める、ユーザー判断）。真ん中にはロゴもキャラも出さない（待たされる感じがする、2026-10-13 のユーザー判断のまま）。Flutter 標準の白のままにしない。
+
+- **新しいアプリと、改修するアプリでは必ず当てる**: `python3 /Users/hidenori/Developer/SEADICE/scripts/apply_app_splash.py {アプリのフォルダ}`（マークは `design/app-splash/branding.png`。pubspec の `flutter_native_splash` を書き換えて生成まで行う）。これだけのための再申請はしない
 - **申請前に白でないか確かめる**（2026-11-10、15本が白いまま見つかった）: `grep -c 'red="1" green="1" blue="1"' ios/Runner/Base.lproj/LaunchScreen.storyboard` が 0 で、`LaunchBackground.imageset` があるか。`flutter_native_splash` を入れていないアプリは、storyboard の `backgroundColor` を地の色にするだけでもよい
 - 直しても手元の iPhone では白く見えることがある。iOS が起動画面を覚えているため。アプリを消して入れ直すか、iPhone を再起動すると新しい色になる
 

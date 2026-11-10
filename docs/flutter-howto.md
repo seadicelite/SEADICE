@@ -193,16 +193,18 @@ bool _isNewer(String latest, String current) {
 
 ## 起動画面（flutter_native_splash）
 
-`dev_dependencies` に `flutter_native_splash`。色はアプリの `scaffoldBackgroundColor` と同じ（ダークの初期値なら `#05050C`、ライトや別の地にしたらその色）。
+`python3 /Users/hidenori/Developer/SEADICE/scripts/apply_app_splash.py {アプリのフォルダ}` で当てる（手で書かない）。中でしていること: `design/app-splash/branding.png`（@4x、青 `#2F7BFF`）を `assets/splash/` に置き、pubspec を下の形にして `dart run flutter_native_splash:create`。色はアプリの `scaffoldBackgroundColor` と同じ（見つからなければ `--color "#xxxxxx"`）。
 
 ```yaml
 flutter_native_splash:
   color: "#05050C"
+  branding: assets/splash/branding.png
+  branding_bottom_padding: 48
   android_12:
     color: "#05050C"
 ```
 
-生成は `flutter pub get && dart run flutter_native_splash:create`。ロゴを使っていたアプリは `image:` の行と `assets/splash/` を消してから生成する。
+真ん中の `image:` は消す（残っていた古いキャラの絵は使わない）。
 
 ## キーボードを閉じる
 
