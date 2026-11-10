@@ -11,6 +11,8 @@ App Store の画面を正確に再現するものではなく、文字の長さ�
 """
 import argparse
 import re
+import unicodedata
+import glob
 import sys
 from pathlib import Path
 
@@ -171,6 +173,10 @@ def main():
     if not shots or not all(p.exists() for p in shots):
         sys.exit(f"スクリーンショット 1〜3.png が見つかりません: {shots_dir}")
     font_path = a.font or next(iter(sorted((app / "assets/fonts").glob("NotoSansJP*"))), None)
+    if not font_path:
+        # アプリに書体ファイルがない（iOS 標準のヒラギノを使うアプリ）ときは、Mac のヒラギノで描く（テス活ログ 1.1.0）
+        font_path = next((p for p in glob.glob("/System/Library/Fonts/*.ttc")
+                          if unicodedata.normalize("NFC", Path(p).name) == "ヒラギノ角ゴシック W6.ttc"), None)
     if not font_path:
         sys.exit("日本語フォントが見つかりません。--font で指定してください")
     fonts = {
