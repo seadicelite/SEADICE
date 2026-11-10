@@ -1,5 +1,185 @@
 [
   {
+    "id": "posture-open-closed-doctor-first-impression",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Grün, Heibges, Westfal & Feufel, \"\"You Never Get a Second Chance\": First Impressions of Physicians Depend on Their Body Posture and Gender\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.836157",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "開いた姿勢のほうが、第一印象はいい？",
+        "body": "腕を組むより、体を開いていたほうが感じがいい。よく聞く話だよね。医師の写真で、姿勢によって第一印象が変わるかを確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "167人が医師の写真に順位をつけた",
+        "body": "アメリカの167人がオンラインで、医師4人（女性2人・男性2人）が開いた姿勢と閉じた姿勢をとった写真を見て、医師としての役割ごとに順位をつけたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "男性は開いた姿勢が有利、女性は混ざった",
+        "body": "男性の医師は、開いた姿勢のほうがすべての役割で高く見られた。女性の医師も医学の力では同じだったけど、患者と話す力などでは、開いた姿勢でむしろ低めに見られる傾向があったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "写真を並べた比べ方",
+        "body": "4人を並べて順位をつけるやり方は差を大きく見せたかもしれない、と著者も書いている。動かない写真で声や表情はなく、実際の診察や医師以外の場面で同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-open-closed-doctor-first-impression"
+  },
+  {
+    "id": "speech-video-call-small-talk-breaks",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Guydish & Fox Tree, \"Small talk in videoconferencing improves conversational experience and fosters relationships\" (Cognition and Emotion, 2025)",
+    "sourceUrl": "https://doi.org/10.1080/02699931.2024.2392178",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "オンライン会議の雑談って、意味ある？",
+        "body": "画面越しだと、休憩中はカメラもマイクも切って黙りがちだよね。その間に雑談するかどうかで、相手との関係は変わるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "休憩中に雑談するか、切って待つか",
+        "body": "2人1組でビデオ通話の作業をして、休憩を3回はさんだ実験。休憩中に雑談するペアと、カメラとマイクを切って同じ時間待つペアを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "雑談したペアは、また話したくなった",
+        "body": "雑談したペアは会話をより楽しみ、また話したいと感じた。最後の自由な60秒に自分たちから話し始めたのも、雑談したペアのほうが約3.5倍多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い実験の中での話",
+        "body": "決められた作業の合間の、短い実験での結果。音声だけや文字だけの会話で見られた「話しかけられたら返す」効果は、今回は見られなかった。職場の会議で関係が続くかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-video-call-small-talk-breaks"
+  },
+  {
+    "id": "research-drawing-effect-memory-how-research-doodling",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Meade et al., \"Comparing the influence of doodling, drawing, and writing at encoding on memory\" (Canadian Journal of Experimental Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.1037/cep0000170",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/drawing-effect-memory-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "落書きしながらのほうが話を覚えられる？",
+        "body": "授業中にノートの端に落書きしていると、かえって話が頭に入る。そんな説を聞いたことがあるよね。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "落書き・絵・書き写しを比べた",
+        "body": "研究チームが3つの実験で、単語を聞きながら「関係ない落書き」「その単語の絵を描く」「書き写す」を比べた。物語の中に単語を入れて、授業に近い場面も試した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自由な落書きは一番思い出しにくい",
+        "body": "単語の絵を描いたときが一番よく思い出せて、自由な落書きをしながら聞いた単語は一番思い出しにくかった。図形を塗りつぶすだけの落書きは、書き写すのと同じくらいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い授業でも同じ？",
+        "body": "覚えたのは聞いた単語で、同じ研究チームの実験。1時間の授業や、退屈で眠くなりそうな場面で落書きがどう働くかは、これだけではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "memory-drawing-effect",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが、覚えたい言葉そのものを描くと残りやすいことを確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-drawing-effect-memory-how-research-doodling"
+  },
+  {
+    "id": "research-screen-eye-strain-focus-break-20-20-20-research-breaks",
+    "category": "集中力",
+    "kind": "研究紹介",
+    "themeColor": "#34D399",
+    "sourceLabel": "Galinsky et al., \"Supplementary breaks and stretching exercises for data entry operators: a follow-up field study\" (American Journal of Industrial Medicine, 2007)",
+    "sourceUrl": "https://doi.org/10.1002/ajim.20472",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/screen-eye-strain-focus-break-20-20-20-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "休憩を増やすと仕事が遅れる？",
+        "body": "忙しいときほど、休憩を削って画面に向かい続けがちだよね。休めばその分、仕事が終わらなくなる気がする。本当にそうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5分の休憩を1日4回足してみた",
+        "body": "アメリカの労働安全衛生研究所（NIOSH）の研究で、データ入力の仕事をする51人が、ふだんの休憩（15分を2回）だけの4週間と、5分の休憩を1日4回足した4週間を両方試したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "目の疲れが減って、仕事量は保たれた",
+        "body": "休憩を足した期間は、目の疲れや体の不快感が減ったよ。入力の速さが上がったから、作業時間が20分減っても仕事の量は落ちなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ストレッチの効果は不明",
+        "body": "休憩中のストレッチも試したけれど、実際にやったのは休憩の25〜39%だけ。だからストレッチの効果は確かめられなかった。対象は入力作業の51人だけだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "work-microbreak",
+        "type": "あわせて読む",
+        "why": "10分以内の短い休憩の実験をまとめた分析で、疲れと元気への効果を見ている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-screen-eye-strain-focus-break-20-20-20-research-breaks"
+  },
+  {
+    "id": "research-habit-bored-variety-restart-research-variety",
+    "category": "習慣形成",
+    "kind": "研究紹介",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Sylvester et al., \"Variety support and exercise adherence behavior: experimental and mediating effects\" (Journal of Behavioral Medicine, 2016)",
+    "sourceUrl": "https://doi.org/10.1007/s10865-015-9688-4",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/habit-bored-variety-restart-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動に飽きたら、どうすれば続く？",
+        "body": "最初は楽しかった運動も、同じメニューばかりだと飽きてくるよね。中身を変えたら続きやすくなるのか、実験で確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "変化の多いプログラムと少ないプログラム",
+        "body": "ふだん運動をしていない大学生121人を、変化の多い運動プログラムと少ないプログラムにランダムに分けて、6週間追いかけたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "変化があるほうが続いた",
+        "body": "変化の多いグループのほうが、プログラムをよく続けていた。その差の一部は「いろいろやれている」と本人が感じたかどうかで説明できたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果は小さく、期間も短い",
+        "body": "効果の大きさは小さめで、調べたのはふだん運動していない大学生の6週間だけ。もっと長く続くか、ほかの年代でも同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-bored-variety-restart-research-variety"
+  },
+  {
     "id": "kokoro-online-vigilance-always-on-stress-and-connection",
     "category": "スマホとSNS",
     "kind": "素朴な疑問",
@@ -18557,7 +18737,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/work/#work-microbreak",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "research-screen-eye-strain-focus-break-20-20-20-research-breaks",
+        "type": "あわせて読む",
+        "why": "データ入力の仕事に5分の休憩を足した実地の研究。目の疲れと仕事量を見た"
+      }
+    ]
   },
   {
     "id": "work-open-office",
@@ -25478,6 +25665,11 @@
         "id": "dokugaku-draw-to-remember-study-definitions",
         "type": "あわせて読む",
         "why": "教科書の用語と定義でも描く効果が出て、言い換えも同じくらい効いた"
+      },
+      {
+        "id": "research-drawing-effect-memory-how-research-doodling",
+        "type": "あわせて読む",
+        "why": "同じ研究チームが、関係ない落書きでは逆に覚えにくくなることを確かめた"
       }
     ]
   },
