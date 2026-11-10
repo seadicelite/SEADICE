@@ -1,5 +1,192 @@
 [
   {
+    "id": "kokoro-comparison-happy-memories-letter-past-self",
+    "category": "幸福の科学",
+    "kind": "よくある説",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Sugimori E, Yamaguchi M, Kusumi T, \"Writing to your past-self can make you feel better\" (Frontiers in Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2024.1327595",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/comparison-happy-memories/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "未来の自分に手紙を書くと前向きになる？",
+        "body": "「未来の自分への手紙」ってよく聞くよね。でも、過去の自分に書くのと比べたらどっちが気分にいいんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5年前と5年後の自分に、思いやりの手紙",
+        "body": "早稲田大学の実験。日本の大学生150人が、自分をいちばんわかってくれる人のつもりで、5年前の自分と5年後の自分に、1週間あけて手紙を書いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5年前あてのほうが気分がよくなった",
+        "body": "5年前の自分あてに書いたあとは150人中88人の気分がよくなり、5年後あてでは89人が悪いほうに動いたらしい。別の実験で、誰かと一緒の経験を書いた31人では28人がよくなったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "気分がよくなったのは書いた直後だけ？",
+        "body": "調べたのは書いた直後の気分だけ。対象は治療中でない日本の大学生で、効果がどれくらい続くかや、ほかの年代でも同じかはわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-comparison-happy-memories-letter-past-self"
+  },
+  {
+    "id": "kokoro-conversation-silence-awkward-friends-vs-strangers",
+    "category": "対人関係の心理学",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Templeton EM et al., \"Long gaps between turns are awkward for strangers but not for friends\" (Philosophical Transactions of the Royal Society B, 2023)",
+    "sourceUrl": "https://doi.org/10.1098/rstb.2021.0471",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/conversation-silence-awkward/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "会話の沈黙は気まずいサイン？",
+        "body": "話が途切れて数秒の沈黙。「つまらないと思われたかも」って焦るよね。長い沈黙って、やっぱり悪いサインなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "初対面と友達の会話を比べた",
+        "body": "米国の大学で、初対面の2人組261組と、友達同士65組が10分間自由に話したんだ。2秒を超える「長い間」の前後で、つながりの感じ方がどう動くかを調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気まずいのは初対面だけ",
+        "body": "初対面同士だと、長い間でつながりの感じ方が下がった。でも友達同士は長い間のほうが多くて、間に向けてつながりが高まっていたらしい。間には本物の笑いも多かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本でも同じ？",
+        "body": "調べたのは米国の1つの大学で集めた人たちの、10分間の会話だけ。日本の職場や、オンライン会議の沈黙でも同じかはまだわかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "silence-koudenburg-close",
+        "type": "あわせて読む",
+        "why": "同じ沈黙の問いで、安定した二人では沈黙が分かり合えている感覚を強めた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-conversation-silence-awkward-friends-vs-strangers"
+  },
+  {
+    "id": "kokoro-handwriting-vs-typing-memory-n400",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Ihara AS et al., \"Advantage of Handwriting Over Typing on Learning Words: Evidence From an N400 Event-Related Potential Index\" (Frontiers in Human Neuroscience, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fnhum.2021.679191",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/handwriting-vs-typing-memory/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "手で書くほうが覚えられる？",
+        "body": "「覚えたいなら手で書け」ってよく言うよね。パソコンやスマホで打つばかりだと、記憶に残りにくいのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つの書き方で単語を覚えた",
+        "body": "日本の大人33人（21〜48歳）が、インドネシア語の単語を、紙にペン・タブレットにペン・キーボードの3通りで10分ずつ書いて覚えたんだ。そのあと脳波も測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "脳の反応は違ったけど…",
+        "body": "手で書いて覚えた単語ほど、意味の理解に関わる脳波の反応が大きく出たらしい（タブレットのペンは慣れた人で）。でも実は、覚えたかを確かめるテストの成績は、書き方で変わらなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く覚えていられるかは？",
+        "body": "人数は少なく、調べたのは学習の直後だけ。脳の反応の差が、日をおいた記憶の差につながるのかはまだわかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-laptop-notes-replication",
+        "type": "あわせて読む",
+        "why": "同じ手書きの問いで、講義ノートの取り方をやり直した追試。テストの差は出なかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#kokoro-handwriting-vs-typing-memory-n400"
+  },
+  {
+    "id": "weather-heat-retaliation-baseball",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Larrick RP et al., \"Temper, temperature, and temptation: heat-related retaliation in baseball\" (Psychological Science, 2011)",
+    "sourceUrl": "https://doi.org/10.1177/0956797611399292",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "暑いと怒りっぽくなる？",
+        "body": "暑い日はイライラする、ってよく言うよね。その気分は、人の行動にまで出るのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大リーグ57,293試合の記録",
+        "body": "米国の研究チームが、メジャーリーグ57,293試合のデータで、気温とピッチャーがバッターに球を当てる確率の関係を調べたんだ。ほかの条件はそろえて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "暑い日は「やり返し」が増えた",
+        "body": "先に味方が相手に当てられているほど、気温が高い日にピッチャーが当てる確率がぐっと上がったらしい。暑さは、やられたときの仕返しを強めるのかもしれないね。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふつうの人の毎日でも同じ？",
+        "body": "試合の記録を分析した研究で、選手の気持ちを直接測ったわけではないよ。イライラが原因というのは研究者の推測。プロ野球の場面で、日常のけんかでも同じかはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "bohan-heat-violent-crime",
+        "type": "あわせて読む",
+        "why": "暑さと仕返しの次は、暑さと暴力犯罪の関係を多くの研究でまとめたもの"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-heat-retaliation-baseball"
+  },
+  {
+    "id": "laughter-comedy-vascular-function",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Sugawara J, Tarumi T, Tanaka H, \"Effect of mirthful laughter on vascular function\" (American Journal of Cardiology, 2010)",
+    "sourceUrl": "https://doi.org/10.1016/j.amjcard.2010.05.011",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "笑うと血管にいい？",
+        "body": "「笑うと体にいい」ってよく聞くよね。じゃあ、血管にも何か起きているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "お笑いとドキュメンタリーを見比べた",
+        "body": "産業技術総合研究所などの実験。健康な大人17人（23〜42歳）が、別の日にお笑い映画とドキュメンタリーを30分ずつ見て、前後で血管を超音波で調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "お笑いのあとは血管が広がりやすかった",
+        "body": "お笑いを見たあとは血管の広がりやすさが17％上がり、ドキュメンタリーのあとは15％下がったらしい。首の動脈のやわらかさも、お笑いの直後に10％上がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "続けて笑えば、ずっといい？",
+        "body": "17人の小さな実験で、首の動脈のやわらかさは24時間後には元に戻っていたよ。よく笑う生活が、長い目で心臓や血管の病気を減らすかはわかっていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-comedy-vascular-function"
+  },
+  {
     "id": "research-online-meeting-fatigue-why-research-self-view",
     "category": "仕事と働き方",
     "kind": "よくある説",
@@ -26641,6 +26828,11 @@
         "id": "weather-social-media-sentiment",
         "type": "あわせて読む",
         "why": "暑さと言葉の次は、暑さと暴力犯罪の関係を83の研究でまとめたもの"
+      },
+      {
+        "id": "weather-heat-retaliation-baseball",
+        "type": "あわせて読む",
+        "why": "暑さと仕返しの次は、暑さと暴力犯罪の関係を多くの研究でまとめたもの"
       }
     ]
   },
@@ -27953,7 +28145,14 @@
     "articleUrl": "https://dokugaku.seadice.win/handwriting-vs-laptop-notes/",
     "articleSite": "独学の科学",
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-laptop-notes-replication",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "kokoro-handwriting-vs-typing-memory-n400",
+        "type": "あわせて読む",
+        "why": "同じ手書きの問いで、講義ノートの取り方をやり直した追試。テストの差は出なかった"
+      }
+    ]
   },
   {
     "id": "dokugaku-font-size-illusion",
@@ -45624,7 +45823,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/silence-during-dates-liking-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "kokoro-conversation-silence-awkward-friends-vs-strangers",
+        "type": "あわせて読む",
+        "why": "同じ沈黙の問いで、安定した二人では沈黙が分かり合えている感覚を強めた実験"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/compatibility/#silence-koudenburg-close"
   },
   {
