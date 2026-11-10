@@ -12,7 +12,7 @@ App Store に出すスクリーンショット・ヘッダー・検索結果の�
 2. 実画面を撮る（下の「5. 実画面の撮り方」）
 3. `python3 scripts/mockup.py {アプリのフォルダ} --init` で `screenshots/mockup.json` のひな形を作る。実画面からアプリの色を拾った**配色3案**が出るので、選んだ見出しと一緒に書く（make.py をアプリごとに写すのは 2026-11-09 にやめた。古いアプリの make.py はそのままでよい）
 4. **形と配色を選んでもらう**: 選んだ見出しを mockup.json に入れてから（見比べ用の絵に見出しを使うため）、`python3 scripts/mockup.py {アプリのフォルダ} --styles` で、1〜3枚目を全部の形（下の「3. 形」）で描いた `screenshots/styles.png` を見せ、形・書体・本体の枠の有無・配色を選んでもらう
-5. `python3 scripts/mockup.py {アプリのフォルダ}` で書き出す。下の表の全枠（日英）を書き出し、価格の言葉と実画面の抜けがあれば止め、サイズを確かめ、全部を並べた `screenshots/check.png` と App Store での見え方（`scripts/appstore_preview.py`）を作って、Finder とプレビューで開く。チャットにはフォルダの場所と、出てきた見出しの表を出す
+5. `python3 scripts/mockup.py {アプリのフォルダ}` で書き出す（App Store での見え方の画像は、APPSTORE_SUBMISSION.md の「## アプリ名」か1行目の `# {アプリ名} {版}` からアプリ名を読む。1行目を「# App Store 提出情報 — 1.1.0」にすると、それがアプリ名として出る。2026-11-10）。下の表の全枠（日英）を書き出し、価格の言葉と実画面の抜けがあれば止め、サイズを確かめ、全部を並べた `screenshots/check.png` と App Store での見え方（`scripts/appstore_preview.py`）を作って、Finder とプレビューで開く。チャットにはフォルダの場所と、出てきた見出しの表を出す
 6. **アプリプレビュー（動画）も同じ作業で必ず作る**（「7. アプリプレビュー」。2026-11-09 ユーザー指摘: スクショだけで止めて「動画はないの？」と聞かれた）。見出しはスクショと同じく Claude が決める
 
 置き場所: アプリのフォルダの `screenshots/` に枠ごとのフォルダ（例: `screenshots/6.3/1.png`。ヘッダーと検索結果は `header/3840x1646.png` のようにファイル名をサイズにする。英語は `screenshots/en/…`）
@@ -120,6 +120,7 @@ App Store Connect の表示（2026-10-13 時点）。枠が増えたり変わっ
 **まだ確かめていないこと**（初めて出したアプリの結果で、ここを書き直す）: 左に見出し・右に縮めた録画という形が審査で通るか、無音の音声トラックが要るか（音声なしで受け付けられるかわからないので、Apple の音声の書き方（ステレオ・AAC・48kHz）に合わせた無音を入れている）
 
 1. シミュレーターでアプリを起動し、`python3 scripts/app_preview.py {アプリのフォルダ} --record 1` で録画する（操作して Enter で止める → `screenshots/rec/1.mov`。Claude が録るときは `--seconds 20` で止める）。iPad は iPad のシミュレーターで録り、`screenshots/rec_ipad/` に同じ名前で置く（無ければ iPad のプレビューは作らない）。英語は `rec/en/`
+   - **Claude が録るときは、操作を integration_test に書いて動かす**（2026-11-10 FBI式ボディランゲージ辞典。シミュレーターの画面を cliclick で押そうとすると前面のアプリが入れ替わってタップが届かず、プレビューが後回しになった）。`integration_test`（dev_dependencies）に `integration_test/preview_test.dart` を置き、場面の始まりに `SCENE n <時刻ms>` を出して、`xcrun simctl io <端末> recordVideo` で録りながら `flutter test integration_test/preview_test.dart -d <端末>` を走らせる。録画の開始時刻との差が preview.json の start になる。ランダムな出題は、スクショのテストと同じ「正解の文のリスト」で押す。見本: 心理学系/fbi-bodylanguage/integration_test/preview_test.dart。押した所に緑の十字（テストのタップの印）が映る
 2. 場面の順番と見出しはスクショと同じ型（「4. 見出しの書き方」の型と6枚の役割の1〜3）。最初の場面で核の価値を見せる。見せる場面ごとに `screenshots/preview.json` に書く: `{"clips": [{"video": "1.mov", "start": 0.5, "end": 6, "lines": ["1行目", "2行目", "補足"], "focus": [x, y, 幅, 高さ]}]}`。`focus` はスクショと同じ拡大窓で、録画の大事な所を切り抜いて拡大し、元の場所の上に重ねる（録画と一緒に動く。iPad は iPhone の録画で決めた場所を自動で探す）。見出しはスクショと同じく Claude が決める。**3場面×5秒＝15秒を基本にする**（短いほうがよい、2026-11-10 ユーザー。Apple は15秒より短いと受け付けないので15秒が下限。15秒を超えると注意が出る）
 3. `python3 scripts/app_preview.py {アプリのフォルダ}` で、**1920 × 886（iPhone）と 1600 × 1200（iPad）**を書き出す（左に見出し、右に録画を角丸の枠で。色と印は mockup.json から）。サイズ・長さ（29.9秒まで）・30fps を確かめ、無音のステレオ音声を入れる。preview.json の書き間違い（start・end が録画の長さを超える、見出しが3つでない）は書き出す前に止める。出力は `screenshots/preview/{iphone,ipad}.mp4`
 4. 価格の言葉は見出しにも録画の中にも映さない（「価格の言葉」の表と同じ。書き出した動画の1秒ごとのコマを文字認識で読んで止める）。左の見出しはスクショと同じ形（線の印・詰め組み）
