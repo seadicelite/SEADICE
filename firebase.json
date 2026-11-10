@@ -2181,6 +2181,11 @@
         "type": 301
       },
       {
+        "source": "/apps/shakai-fukki-quest100{,/**}",
+        "destination": "/tools/shakai-fukki-quest100/",
+        "type": 301
+      },
+      {
         "source": "/apps/omikuji-zodiac{,/**}",
         "destination": "/tools/omikuji-zodiac/",
         "type": 301
