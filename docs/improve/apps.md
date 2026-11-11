@@ -46,6 +46,8 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 
 ## 次にやること
 
+1. **設定の「App Storeで評価する」が `requestReview()` を呼んでいるアプリを直す**（2026-11-11 neuro 役）: Apple の規定でボタンからは呼ばない（押しても何も起きないことがある）。`grep -rn "requestReview" ~/Developer --include=*.dart` で設定のボタンを探し、write-review の URL（`https://apps.apple.com/app/id{ID}?action=write-review`）に変える。改修のついでに、広める・評価してもらう仕組みの4つもそろえる
+1. **docs/neuro.md に「レビューの頼み方」の行を足す**（2026-11-11 neuro 役）: Burtch ほか 2018（見返りで件数は増えるが短くなる）・Rains 2013（反発のメタ分析）・Hu ほか 2009（J字型の分布）を source-check に通してから
 1. **提出文の見出し「【安心して使える】」を事実の見出しに直す**（2026-11-11 brand 役）: kiroku-nou-training・attachment_style・body_language_scan・yosegaki_maker・saiencer の APPSTORE_SUBMISSION.md。CLAUDE.md の「安心・安全は掲げない、行動で示す」に反する。次のアップデートのついでに「登録なし・端末の中だけ」などへ
 1. **女性の健康の分野を広げるのは、いきみチェックの最初の100人の反応を見てから**（2026-11-11 brand 役）: レビューと要望（週1で読む）を見て、悩み→メディア→アプリの順でメディア（記事・印刷シート）を先に考える
 1. **恋のしぐさノート 1.2.0 が審査を通ったら**（2026-11-11）: p/tools/body-language-scan/ の名前・説明を恋愛中心に、released-apps.json の名前。その後に「同じ練習10問を友だちに送るリンク」（seadice.win の静的ページ、作る前に security・critic）とウィジェット（小1種「次に見ること」、名前を出さない）、1.3 で課金（パック・記録の無制限）
