@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-names-hard-to-remember-why-research-names-not-better-than-average",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Hargis et al., \"Remembering proper names as a potential exception to the better-than-average effect in younger and older adults\" (Psychology and Aging, 2020)",
+    "sourceUrl": "https://doi.org/10.1037/pag0000472",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/names-hard-to-remember-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "名前を覚えるのは苦手、と思う？",
+        "body": "人は多くのことで「自分は平均より上」と思いがちらしい。でも、人の名前を覚える力についてはどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "自分の能力を同年代と比べてもらった",
+        "body": "Hargisら（2020）は、アメリカの若い人84人と高齢の人69人に、正直さや記憶力などを同じ年代の人と比べて9段階で答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "名前は「ふつう」",
+        "body": "多くの項目は平均より上と答えたのに、人の名前を覚える力は高齢の人5.06・若い人5.14と、ほぼ平均（5）だった。高齢の人で「平均並み」だったのは名前だけだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当の記憶力は測っていない",
+        "body": "これは本人の答えだけの調査で、実際に名前を覚えるテストはしていないよ。オンラインで集めた人たちなので、ほかの国や年代に当てはまるかもわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-names-hard-to-remember-why-research-names-not-better-than-average"
+  },
+  {
+    "id": "dokugaku-perfectionism-study-cannot-continue-aim-a-plus",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Gaudreau et al., \"Because excellencism is more than good enough: On the need to distinguish the pursuit of excellence from the pursuit of perfection\" (Journal of Personality and Social Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.1037/pspp0000411",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/perfectionism-study-cannot-continue/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "完璧を目指すほど成績は上がる？",
+        "body": "どうせなら満点を目指した方が、結果もついてくる。そう思って勉強している人は多いよね。でも本当にそうなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「完璧」と「優秀」を分けて測った",
+        "body": "5つの研究（計2,157人）で、完璧を目指す傾向と、高い水準を目指すけど完璧にはこだわらない傾向を分けて測った研究がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "A+を狙う人は成績が低め",
+        "body": "大学生では、完璧を目指す人は、優秀さを目指す人より満点のA+を目標にしがちだった。ところが実際の成績は、優秀さを目指す人より悪かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "新しい尺度での最初の検証",
+        "body": "この区別を測る尺度は新しく作られたもので、これが最初の検証。性格を測った研究なので因果は言い切れないし、社会人や他の国でも同じかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-perfectionism-study-cannot-continue-aim-a-plus"
+  },
+  {
+    "id": "dokugaku-speaking-practice-log-sheet-soliloquizing",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Huang & Liu, \"How to Talk to Myself: Optimal Implementation for Developing Fluency in EFL Speaking Through Soliloquizing\" (English Teaching & Learning, 2022)",
+    "sourceUrl": "https://doi.org/10.1007/s42321-022-00110-z",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/speaking-practice-log-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "話す相手がいないと伸びない？",
+        "body": "英語を話せるようになるには、話し相手が必要。ひとりで勉強していると、話す練習はできないって思いがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "自分に質問して、英語で答える",
+        "body": "台湾の大学生28人が、自分に質問して英語で答える「ひとり英会話」を4週間、週4回続けた。1回11〜14分で、同じ話題を3回話したらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "話す速さが上がった",
+        "body": "練習に使っていない話題で話してもらうと、話す速さは1分あたり平均約105音節から約121音節に上がった。「えー」を禁止してもしなくても、伸びに有意な差はなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "練習しない組とは比べていない",
+        "body": "比べる組のない小さな研究で、伸びのすべてが練習のおかげとは言い切れない。文の複雑さや正確さが伸びるかも別の話。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-speaking-practice-log-sheet-soliloquizing"
+  },
+  {
+    "id": "speech-question-asking-liking",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Huang, Yeomans, Brooks, Minson & Gino, \"It doesn't hurt to ask: Question-asking increases liking\" (Journal of Personality and Social Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/pspi0000097",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "質問上手は好かれる？",
+        "body": "「聞き上手はモテる」「質問すると好かれる」ってよく聞くよね。でも、聞かれてばかりの相手は本当に好感を持つのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "初対面の会話を3つの研究で",
+        "body": "オンラインで初対面の2人に話してもらい、片方に質問を多くするよう頼むなど、3つの研究で質問の数と好かれ方を比べた。対面のスピードデートの会話も分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "話を受けて深める質問が効く",
+        "body": "質問が多い人ほど相手に好かれ、とくに相手の話を受けた質問が効いた。「ちゃんと聞いてくれる」と感じられるかららしい。スピードデートでも、次のデートにOKをもらいやすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "初対面の短い会話の話",
+        "body": "調べたのは初対面の会話で、長い付き合いの相手でも同じかはわからない。スピードデートの分析は観察なので、質問が原因でOKが増えたとまでは言えないよ。なのに多くの人は、質問で好かれるとは予想していなかったらしい。"
+      }
+    ],
+    "links": [
+      {
+        "id": "self-disclosure-sprecher",
+        "type": "あわせて読む",
+        "why": "聞くだけで終わるより、交互に打ち明け合う会話のほうが惹かれた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-question-asking-liking"
+  },
+  {
+    "id": "game-one-hour-a-day-adjustment",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Przybylski, \"Electronic gaming and psychosocial adjustment\" (Pediatrics, 2014)",
+    "sourceUrl": "https://doi.org/10.1542/peds.2013-4021",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ゲームは1日1時間まで？",
+        "body": "「ゲームは1日1時間」って、家のルールや条例でも聞くよね。遊ぶ時間で、子どもの心の調子は本当に変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10〜15歳の大きな調査",
+        "body": "全体を代表するように選んだ10〜15歳の子どもたちに、ふだん1日何時間ゲームをするかと、生活の満足度や思いやり、心の問題を答えてもらった研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1時間未満は少し良く、3時間超は少し悪い",
+        "body": "1日1時間未満の子は満足度や思いやりが少し高く、問題は少なかった。3時間を超える子はその逆。1〜3時間の子は、遊ばない子と差がなかった。どの差もとても小さいらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差は全体の1.6%未満",
+        "body": "1回の調査の比べっこなので、ゲームの時間が原因かはわからない。時間は本人の答えで、時間で説明できた差は全体のばらつきの1.6%未満。大人やほかの年齢でも同じかは別の話だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "game-play-time-wellbeing",
+        "type": "あわせて読む",
+        "why": "大人の実際のプレイ記録では、時間と心の調子の関係はほぼなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-one-hour-a-day-adjustment"
+  },
+  {
     "id": "money-savings-balance-life-satisfaction",
     "category": "お金の心理学",
     "kind": "素朴な疑問",
@@ -38219,6 +38399,11 @@
         "id": "game-disorder-prevalence",
         "type": "あわせて読む",
         "why": "時間ではなく、やめられなくなる「ゲーム障害」はどのくらいいるか"
+      },
+      {
+        "id": "game-one-hour-a-day-adjustment",
+        "type": "あわせて読む",
+        "why": "10〜15歳では、1日1時間未満と3時間超で少しだけ差があった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/games/#game-play-time-wellbeing"
@@ -43763,7 +43948,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/self-disclosure-confiding-liking-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "speech-question-asking-liking",
+        "type": "あわせて読む",
+        "why": "相手の話を受けて深める質問が多い人ほど、好かれていた"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/romantic-interest/#self-disclosure-sprecher"
   },
   {
