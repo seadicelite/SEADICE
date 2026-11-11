@@ -244,9 +244,7 @@
     @media (min-width: 960px) { .worry { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
     .worry a { display: flex; align-items: center; gap: 10px; min-height: 56px; padding: 14px 16px; border: 1px solid var(--line2); border-radius: 6px; background: var(--bg); color: var(--text); text-decoration: none; font-size: 15px; font-weight: 700; line-height: 1.5; }
     .worry a:hover { border-color: var(--text); }
-    .worry a.urgent { border-color: var(--accent); color: var(--accent); }
     .worry .picto { flex: none; width: 22px; height: 22px; color: var(--sub); }
-    .worry a.urgent .picto { color: var(--accent); }
     .facts { list-style: none; display: flex; gap: 32px; margin-top: 28px; }
     .facts li { font-size: 14px; font-weight: 700; color: var(--text); }
     .facts b { font-size: 28px; font-weight: 800; margin-right: 2px; }
@@ -373,7 +371,7 @@
         <p class="hero-desc"><strong>SEADICE（シーダイス）</strong>は、AIを活用して社会の問題を見つけ、独自のデータとアプリで解決するスタジオです。</p>
         <p class="worry-label">困っていることから選ぶ</p>
         <div class="worry">
-          <a class="urgent" href="#sagi"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/></svg><span>怪しい電話・<wbr>連絡</span></a>
+          <a href="#sagi"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/></svg><span>怪しい電話・<wbr>連絡</span></a>
           <a href="https://oya.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="5" r="2"/><path d="M11 8v6l-3 6.5M11 14l3 6.5M8 10.5l3-1.5 3 2.5M17.5 11v9.5"/></svg><span>親のことが心配</span></a>
           <a href="https://kosodate.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="3.5"/><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0"/></svg><span>子どものAI・<wbr>スマホ</span></a>
           <a href="https://ai.seadice.win/"><svg class="picto" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9.5 3v3M14.5 3v3M9.5 18v3M14.5 18v3M3 9.5h3M3 14.5h3M18 9.5h3M18 14.5h3M10 10h4v4h-4z"/></svg><span>AIが不安・<wbr>困った</span></a>
