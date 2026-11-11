@@ -46,6 +46,7 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 
 ## 次にやること
 
+1. **いきみチェックの Apple Watch 版は、最初の100人の声を見てから**（2026-11-11 platform 役）: レビュー・要望に「画面を点けたままがつらい」「ウォッチで」が出たら着手。設計は ~/Developer/女性の健康系/pelvic_guide/DESIGN.md「端末・面」
 1. **設定の「App Storeで評価する」が `requestReview()` を呼んでいるアプリを直す**（2026-11-11 neuro 役）: Apple の規定でボタンからは呼ばない（押しても何も起きないことがある）。`grep -rn "requestReview" ~/Developer --include=*.dart` で設定のボタンを探し、write-review の URL（`https://apps.apple.com/app/id{ID}?action=write-review`）に変える。改修のついでに、広める・評価してもらう仕組みの4つもそろえる
 1. **docs/neuro.md に「レビューの頼み方」の行を足す**（2026-11-11 neuro 役）: Burtch ほか 2018（見返りで件数は増えるが短くなる）・Rains 2013（反発のメタ分析）・Hu ほか 2009（J字型の分布）を source-check に通してから
 1. **提出文の見出し「【安心して使える】」を事実の見出しに直す**（2026-11-11 brand 役）: kiroku-nou-training・attachment_style・body_language_scan・yosegaki_maker・saiencer の APPSTORE_SUBMISSION.md。CLAUDE.md の「安心・安全は掲げない、行動で示す」に反する。次のアップデートのついでに「登録なし・端末の中だけ」などへ
