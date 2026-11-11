@@ -1,5 +1,186 @@
 [
   {
+    "id": "dokugaku-why-overcommit-future-study-time-time-slack",
+    "category": "意思決定バイアス",
+    "kind": "素朴な疑問",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Zauberman & Lynch, \"Resource slack and propensity to discount delayed investments of time versus money\" (Journal of Experimental Psychology: General, 2005)",
+    "sourceUrl": "https://doi.org/10.1037/0096-3445.134.1.23",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "来月なら暇になる気がする",
+        "body": "今週は忙しいけど、来月なら時間があるはず。そう思って予定を入れて、来月になったらやっぱり忙しい。これ、なぜなんだろうね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7つの実験で「余裕」の見込みを比べた",
+        "body": "今と先とで、時間とお金の余裕がどれくらいあると感じるか。それが「先にやる・後に回す」の選び方にどう効くかを、7つの実験で調べた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "未来の時間は多めに見える",
+        "body": "人はたいてい、時間の余裕は今より先の方が大きいと見込んでいた。この「先は余裕がある」感じは、お金より時間の方で強く出やすかった。それが先送りの選び方にも表れていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見込みと実際のずれは別の話",
+        "body": "この研究が見たのは、余裕の「感じ方」と選び方。1か月後に本当にどれだけ空いていたかを追ったものではないし、どんな人で特に強く出るのかもまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "procrastination-planning-fallacy",
+        "type": "あわせて読む",
+        "why": "先の時間を多めに見る傾向と、作業時間を短く見積もる計画の誤り"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/decision-bias/#dokugaku-why-overcommit-future-study-time-time-slack"
+  },
+  {
+    "id": "dokugaku-study-reminders-cues-how-to-distinctive-cue",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Rogers & Milkman, \"Reminders through association\" (Psychological Science, 2016)",
+    "sourceUrl": "https://doi.org/10.1177/0956797616643071",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "決めたのに忘れるのはなぜ？",
+        "body": "「帰りにあれをやろう」と決めたのに、その場になると忘れている。やる気の問題じゃなく、思い出せなかっただけのこともあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ゾウの置物を目印に",
+        "body": "米国の大学生が参加した実験。帰りにクリップを1つ取れば寄付される、と伝えたうえで、一部の人にだけ「ゾウの置物が目印になる」と前もって結びつけてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "74%と42%",
+        "body": "目印を結びつけた人は74%（39人中29人）が実行し、結びつけなかった人は42%（38人中16人）だった。ほかの実験では、周りにまぎれない目立つ目印ほど効いたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "毎日の習慣にも効く？",
+        "body": "調べたのは寄付やクーポンなど1回きりの行動。最初の実験は比べる組の作りに不備があったと著者も書いている。毎日くり返す行動で効果が続くかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-habit-forgetting-reminder-cue-research-text-reminder",
+        "type": "あわせて読む",
+        "why": "メッセージで思い出させる方法と、目に入る物を目印にする方法"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#dokugaku-study-reminders-cues-how-to-distinctive-cue"
+  },
+  {
+    "id": "pet-cat-owner-voice-recognition",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Saito & Shinozuka, \"Vocal recognition of owners by domestic cats (Felis catus)\" (Animal Cognition, 2013)",
+    "sourceUrl": "https://doi.org/10.1007/s10071-013-0620-4",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "猫は飼い主の声がわかってる？",
+        "body": "名前を呼んでも知らんぷり。うちの猫、飼い主の声なんて聞き分けてないのかも、と思うことあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "知らない人3人のあとに飼い主の声",
+        "body": "家で暮らす猫20匹に、姿を見せずに名前を呼ぶ声を聞かせた実験。知らない人3人の声を続けて流したあと、最後に飼い主の声を流して、耳や頭の動きを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "耳と頭は、ちゃんと反応していた",
+        "body": "20匹中15匹は、知らない人の声に慣れて反応が小さくなり、飼い主の声で反応がはっきり戻った。声だけで人を聞き分けているらしい。ただ鳴いたり尻尾を振ったりする返事は、飼い主の声でも増えなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "20匹だけの実験",
+        "body": "調べたのは20匹で、反応は耳や頭の動きから判断したもの。聞き分けていることと、呼ばれて来るかどうかは別の話で、そこはこの実験ではわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "pet-cat-name",
+        "type": "あわせて読む",
+        "why": "同じ研究者たちが、猫が自分の名前を聞き分けるかも調べている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-cat-owner-voice-recognition"
+  },
+  {
+    "id": "insight-aha-solutions-accuracy",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Salvi et al., \"Insight solutions are correct more often than analytic solutions\" (Thinking & Reasoning, 2016)",
+    "sourceUrl": "https://doi.org/10.1080/13546783.2016.1141798",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ひらめいた答えって当たってる？",
+        "body": "「あっ、わかった！」とパッと浮かんだ答え。ひらめきは気のせいのこともありそうだし、じっくり考えた答えの方が確かな気がするよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つの実験で答え方を比べた",
+        "body": "米国とイタリアの大学生（4つの実験で38〜110人）に、言葉のパズルや判じ絵、ちぎれた線画などを15秒前後で解いてもらい、ひらめきで解けたか、考えて解いたかを自分で答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ひらめきの方が正解が多かった",
+        "body": "どの実験でも、ひらめきで出た答えの方が、平均すると考えて出した答えより正しかった。考えて解くときは、時間切れ前に当てずっぽうで答えてしまうことが多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実生活の問題でも同じ？",
+        "body": "使ったのは時間制限つきの実験室のパズル。ひらめいたかどうかも本人の申告。時間の制限がない複雑な現実の問題で同じかは、まだわからないと著者たちも書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-aha-solutions-accuracy"
+  },
+  {
+    "id": "laughter-self-tickle-prediction",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Blakemore, Frith & Wolpert, \"Spatio-temporal prediction modulates the perception of self-produced stimuli\" (Journal of Cognitive Neuroscience, 1999)",
+    "sourceUrl": "https://doi.org/10.1162/089892999563607",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分でくすぐっても平気なのはなぜ？",
+        "body": "人にくすぐられると笑っちゃうのに、自分の指でやっても全然くすぐったくない。不思議だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ロボットで「自分の手」と「機械」を比べた",
+        "body": "手のひらをなでる刺激を、機械が出す場合と、本人が左手でロボットを動かして出す場合で比べた実験。さらに、手の動きと刺激のあいだに時間のずれや向きのずれを入れたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自分で出すと、弱く感じる",
+        "body": "自分で出した刺激は、くすぐったさも強さも心地よさも低く感じられた。ずれを大きくするほど、くすぐったさは上がったよ。脳が自分の動きの結果を先に予測して、感覚を弱めているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "笑いまでは測っていない",
+        "body": "実験室でロボットを使い、くすぐったさを点数で答えてもらったもの。笑うかどうかは測っていないし、予測のしくみの説明は著者たちの提案で、細かいところはまだ確かめられている途中だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-self-tickle-prediction"
+  },
+  {
     "id": "kokoro-ai-choose-for-me-coin-flip-catalyst",
     "category": "意思決定バイアス",
     "kind": "素朴な疑問",
@@ -15105,7 +15286,14 @@
         "body": "多くの研究は、飲んだかどうかを本人の申告で測っていたんだ。期間の中央値は12週で、薬以外の習慣でも同じくらい効くかは、まだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/habits/#research-habit-forgetting-reminder-cue-research-text-reminder"
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-forgetting-reminder-cue-research-text-reminder",
+    "links": [
+      {
+        "id": "dokugaku-study-reminders-cues-how-to-distinctive-cue",
+        "type": "あわせて読む",
+        "why": "メッセージで思い出させる方法と、目に入る物を目印にする方法"
+      }
+    ]
   },
   {
     "id": "caffeine-painkiller-adjuvant",
@@ -19698,7 +19886,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/pets/#pet-cat-name",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "pet-cat-owner-voice-recognition",
+        "type": "あわせて読む",
+        "why": "同じ研究者たちが、猫が自分の名前を聞き分けるかも調べている"
+      }
+    ]
   },
   {
     "id": "love-first-impression-100ms",
@@ -24802,6 +24997,11 @@
         "id": "dokugaku-exam-time-allocation-sheet-same-task-estimate",
         "type": "あわせて読む",
         "why": "見積もりが甘くなる計画の誤りと、同じ作業を一度やると読みが当たる実験"
+      },
+      {
+        "id": "dokugaku-why-overcommit-future-study-time-time-slack",
+        "type": "あわせて読む",
+        "why": "先の時間を多めに見る傾向と、作業時間を短く見積もる計画の誤り"
       }
     ]
   },
