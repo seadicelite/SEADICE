@@ -46,6 +46,8 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 
 ## 次にやること
 
+1. **提出文の見出し「【安心して使える】」を事実の見出しに直す**（2026-11-11 brand 役）: kiroku-nou-training・attachment_style・body_language_scan・yosegaki_maker・saiencer の APPSTORE_SUBMISSION.md。CLAUDE.md の「安心・安全は掲げない、行動で示す」に反する。次のアップデートのついでに「登録なし・端末の中だけ」などへ
+1. **女性の健康の分野を広げるのは、いきみチェックの最初の100人の反応を見てから**（2026-11-11 brand 役）: レビューと要望（週1で読む）を見て、悩み→メディア→アプリの順でメディア（記事・印刷シート）を先に考える
 1. **恋のしぐさノート 1.2.0 が審査を通ったら**（2026-11-11）: p/tools/body-language-scan/ の名前・説明を恋愛中心に、released-apps.json の名前。その後に「同じ練習10問を友だちに送るリンク」（seadice.win の静的ページ、作る前に security・critic）とウィジェット（小1種「次に見ること」、名前を出さない）、1.3 で課金（パック・記録の無制限）
 
 1. **テス活ログ 1.1.0 が審査を通ったら、サイトの紹介ページを直す**（2026-11-10）: p/tools/tesukatsu-log/ の description・本文の「AIが次の一歩を提案」「増やす」を、ふりかえり・次の一歩・端末の中だけ・研究でわかっていること、に。released-apps.json の名前「テス活」も App Store の名前と合わせるか確かめる
