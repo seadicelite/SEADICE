@@ -6,6 +6,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 - 書き方: `- [ ] 期限か頻度 | 分野 | やること — なぜ必要か（追加日）`。上ほど急ぐ・効くもの
 
 ## 未対応
+- [ ] すぐ | アプリ | 骨盤底筋の締め方 いきみチェック（新規、~/Developer/女性の健康系/pelvic_guide）の署名を通す: Xcode で `ios/Runner.xcworkspace` を開き、Runner と IkimiWidget の「Signing & Capabilities」でチーム S5SK25MHJG・自動署名のまま App Groups に `group.win.seadice.ikimiCheck` が付くのを確かめる（Xcode にアカウントが入っていなければ 設定 → Accounts でログイン）。済んだら Claude に「署名できるようにした」と伝える — ターミナルの xcodebuild が「No Accounts」で App Group 入りのプロファイルを作れず、ipa が書き出せないため。App Store Connect では新規アプリの作成と、App内課金（消耗型）3つ win.seadice.ikimiCheck.tip.small／medium／large（160・480・1,200円）を作ってバージョンに添付する（2026-11-11）
 - [ ] すぐ | アプリ | 土壌診断ノート 1.2.0 の「みんな」用 Firebase（dojo-shindan-seadice。Claude が作成・iOS アプリ登録・Firestore を東京に作成・ルールを反映済み、2026-11-11）をコンソールで仕上げる: ①Blaze にして請求先を栽エンサーと同じに、予算アラート月1,000円 → Claude に伝えれば Storage のルールと通報メールの関数を出す ③App Check → iOS アプリに App Attest を登録（Team ID が要る）。Firestore・Storage の「適用」は 1.2.0 が行き渡ってから ④Apple Developer の App ID win.seadice.kateisaienApp10 で App Attest をオン ⑤通報メール用に Gmail のアプリ パスワードを作り、ターミナルで `cd ~/Developer/家庭菜園系/dojo_shindan && firebase functions:secrets:set GMAIL_APP_PASSWORD` に入れて（チャットには貼らない）Claude に伝える — アプリ以外からの書き込みを止め、通報に24時間以内に気づくため（セキュリティ役、2026-11-11。ログインなし・新しいIDは24時間待ちはユーザー決定）
 - [ ] 近いうちに | アプリ | 栽エンサーの Firebase（saiencer）を止めて費用を0にする: コンソール → プロジェクトの設定 → プロジェクトを削除（テストデータだけで、土壌診断ノートには新規プロジェクトを使うため）。Gmail のアプリ パスワードを通報メール用に作っていたら Google アカウントで取り消す（2026-11-10）
 
