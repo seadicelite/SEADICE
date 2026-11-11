@@ -74,7 +74,7 @@ AIはユーザーの質問に対して、見出し直下の短い答えを引用
 | AIが補えない部分 | 道具・自前の数字・確かめた出典・比較表のどれかがある |
 | 結論 | h1直後に1〜2文、各h2直下に120字以内（直下がリストなら不要） |
 | 出典 | 数値には出典リンク。一次データは時期・件数・方法つき |
-| tool-cta | 記事末尾にツールかアプリへのリンク |
+| tool-cta | 記事末尾にツールかアプリへのリンク。リンク先は今 `p/` にあるページだけ（審査前・未公開のアプリは `p/released-apps.json` にないので張らない） |
 | JSON-LD | BlogPosting + BreadcrumbList、日付は `YYYY-MM-DD` |
 | デザイン | `python3 scripts/apply_page_type.py read p/…/index.html` を実行済み |
 | 配線 | sitemap.xml と一覧ページに追加 → `python3 scripts/check_blog.py`（漏れ・リンク切れ・sitemapのずれ・題名の重複候補を一度に出す）。デプロイは main への push で Actions が行う |

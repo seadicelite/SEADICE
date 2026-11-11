@@ -13,9 +13,11 @@ docs/writing.md
 - 守る手間がかかるだけで、ユーザーのためになっていないルールはないか
 
 ### ルールの次にやること
-1. 題名以外の重複を確かめる方法を、必要が出たときに決める（外部リンクは p/blog/ に6本だけで、点検の対象にする意味が薄い。ルーティンの実行環境は外部サイトに届かず HEAD で確かめられない）
+1. 題名以外の重複を確かめる方法を、必要が出たときに決める
 
 ### ルールの変更履歴
+- 2026-11-11: 点検から「外部リンク切れ（HEAD）」を削った（実行環境から外部サイトに届かず確かめられない。外部リンクは6本のみ）
+- 2026-11-11: docs/writing.md のチェックリスト tool-cta に「リンク先は今 p/ にあるページだけ（未公開アプリは張らない）」を追記（canvaskit-13-apps-400mb が未公開の toite の紹介ページ /apps/toite/ に張っていてリンク切れだったため）
 
 
 古い記録は [log/articles.md](log/articles.md)。
@@ -28,7 +30,6 @@ docs/writing.md
 ## 点検
 - p/blog/ で、publisher の `@id` がない記事、tool-cta がない記事、h2 直下が結論でもリストでもない記事の数
 - タイトル・本文に過去の年（今年より前）を含み、dateModified が古い記事
-- 外部リンク切れ（論文・公的資料。HEAD で 404 のもの）
 
 ## すぐ直してよいこと
 - publisher の `@id`・BreadcrumbList・dateModified 形式などの構造化データの付け忘れ
@@ -44,5 +45,6 @@ docs/writing.md
 ## やったこと
 
 古い記録は [log/articles.md](log/articles.md)。
+- 2026-11-11: 点検（blog 135。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemap OK 556件）。内部リンク切れ1件: canvaskit-13-apps-400mb の tool-cta が未公開アプリの /apps/toite/ に張っていたため、同記事で触れる公開中の /rakuraku/ に差し替え。ルールの答え: 同じ問題（未公開先へのCTA）を防ぐためチェックリストに追記。次にやることの1・2番は Search Console／AIへの質問待ちのため据え置き
 - 2026-11-04: 点検（blog 125。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemapのずれ0、内部リンク切れ0、check_blog.py 出力なし）。削ぎ: 古い著作権表示「© 2025 SEADICE」が残る11ファイル（blog 10・apps/chozubora）を 2026 に直した（ほかの580ファイルは2026で、年が混在していたため）。次にやることの1・2番は Search Console／AIへの質問の数字待ちのため据え置き
 - 2026-11-03: ai.seadice.win に分野「Web・検索の変化」を追加（AIでWeb自体に起きる変化を、読む人・サイトを持つ人の悩みとして書く）。3本公開（search-results-ai-written-articles・web-article-human-or-ai-how-to-trust・ai-overview-site-traffic-drop）、既存の ai-generated-web-content-share・ai-search-summary-accuracy を移した。目的は悩みの検索語での1位とAI検索の出典
