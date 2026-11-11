@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-ai-choose-for-me-coin-flip-catalyst",
+    "category": "意思決定バイアス",
+    "kind": "素朴な疑問",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Jaffé et al., \"Catalyzing decisions: How a coin flip strengthens affective reactions\" (PLOS ONE, 2019)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0220736",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-choose-for-me-coin-flip/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "迷ったらコイン、って意味ある？",
+        "body": "どっちも決め手がないとき、コインを投げる人っているよね。でも結果に従わないことも多い。じゃあコインって何の役に立ってるんだろう？スイスの研究チームが実験したらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "架空のレストランで料理選び",
+        "body": "78人がネット上で、5品のコース料理を2択ずつ選んだ。選ぶ前に毎回コインを投げて、半分の人は「コインはおすすめを示す道具」、残りは「コインは無視して」と言われていたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "結果を見た瞬間、気持ちが見えた",
+        "body": "コインを手がかりにした組は、直後に「どっちがいいか」の感覚が7点満点で3.85点。無視した組は2.10点だった。しかも、コインの示したほうを選ぶ傾向は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大事な決断でも同じ？",
+        "body": "調べたのは架空の料理選びという小さな決断で、気持ちも本人の申告。転職みたいな大きな決断や、AIに選んでもらう場面でも同じことが起きるかは、まだわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/decision-bias/#kokoro-ai-choose-for-me-coin-flip-catalyst"
+  },
+  {
+    "id": "kokoro-work-anger-calm-down-paper-disposal",
+    "category": "呼吸とストレス",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Kanaya Y & Kawai N, \"Anger is eliminated with the disposal of a paper written because of provocation\" (Scientific Reports, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-024-57916-z",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/work-anger-calm-down/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "怒りは書いて捨てるとスッキリ？",
+        "body": "腹が立ったら紙に書いて捨てるといい、ってよく聞くよね。書くだけじゃなくて「捨てる」ことに意味はあるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "わざと怒らせてから書いてもらう",
+        "body": "名古屋大学の研究チームの実験。大学生50人の作文に侮辱的な評価を返して怒らせたんだ。そのあと怒りの原因と考えを3分間紙に書いて、半分は丸めてゴミ箱へ、半分はファイルにしまったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "捨てた組は怒りが元どおりに",
+        "body": "紙を捨てた組は、怒りの点数が実験前と差がないくらいまで下がったらしい。しまった組は下がっても実験前より高いままだった。別の46人でシュレッダーを使っても同じ結果だったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "スマホのメモでも効く？",
+        "body": "実験室でつくった短い怒りで、人数も少なめ。スマホに書いて消す方法は試していないし、ほかの怒りの対処法と比べてどうかもまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "hanzai-anger-calm-not-vent",
+        "type": "あわせて読む",
+        "why": "怒りは発散より、静める方法で収まるとまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-work-anger-calm-down-paper-disposal"
+  },
+  {
+    "id": "kokoro-comparison-awe-nature-video-bottom10",
+    "category": "自然と健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Sun et al., \"The Buffering Effect of Awe on Negative Emotions in Self-Threatening Situations\" (Behavioral Sciences, 2023)",
+    "sourceUrl": "https://doi.org/10.3390/bs13010044",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/comparison-awe-nature-video/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「下のほう」と言われた直後に、景色は効く？",
+        "body": "人と比べて「自分は下のほうだ」と感じると、しばらく気持ちが沈むよね。そんなとき、雄大な景色を見ると落ち込みはやわらぐのか、中国の研究チームが実験したらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "全員に「下位10%」と伝えた",
+        "body": "151人に難しい知能テストを解いてもらい、全員に「あなたは下位10%」と伝えた。そのあと、雪山や砂漠などの雄大な景色の動画か、男性が板に絵を描く動画を3分見てもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "落ち込みは景色の組で小さかった",
+        "body": "知能のことでの落ち込み（1〜7点）は、景色の組が2.02点、絵の組が3.46点。研究者は、「自分は小さな存在だ」と感じることが落ち込みをやわらげると考えている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "作られた知らせと、直後の話",
+        "body": "「下位10%」は実験用の作り話で、測ったのは動画の直後の気持ちだけ。研究者自身も、景色の動画以外の方法で同じ効果が出るかはこれからの課題だとしているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#kokoro-comparison-awe-nature-video-bottom10"
+  },
+  {
+    "id": "japan-eat-then-run-side-stitch",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Morton & Callister, \"Exercise-related transient abdominal pain (ETAP)\" (Sports Medicine, 2015)",
+    "sourceUrl": "https://doi.org/10.1007/s40279-014-0245-z",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "食べてすぐ走ると、わき腹が痛くなる？",
+        "body": "体育や部活で「食べてすぐ走るとわき腹が痛くなるぞ」って言われたこと、あるよね。あれって本当なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "わき腹の痛みの研究を整理した",
+        "body": "運動中に起きるわき腹の痛み（英語では「stitch」）について、2015年のレビューがこれまでの研究を整理したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "食後は起きやすい、は研究と合う",
+        "body": "痛みは食後に起きやすく、とくに濃い（高張の）飲み物でひどくなりやすいらしい。ランナーの約7割が過去1年に経験していて、若い人に多く、性別や体型とは関係がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ痛むのかは、まだ決着していない",
+        "body": "仕組みの説はいくつもあって決着していない。「運動の2時間前から大量に食べない」などの予防法も、効くかはほとんど確かめられていないよ。これは数字でまとめた分析ではなく、文献の整理なんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-eat-then-run-side-stitch"
+  },
+  {
+    "id": "scent-partner-scent-stress",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Hofer et al., \"Olfactory cues from romantic partners and strangers influence women's responses to stress\" (Journal of Personality and Social Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/pspa0000110",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "恋人の匂いで、気持ちが落ち着く？",
+        "body": "恋人の服の匂いをかぐとほっとする、って話はよく聞くよね。気のせいなのか、それとも本当にストレスが和らぐのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "96人の女性で匂いを比べた",
+        "body": "女性96人を、恋人の匂い・知らない人の匂い・無臭の3組にくじで分けて、人前で話すストレス課題を受けてもらった。感じるストレスと、ストレスで増えるコルチゾールを何度も測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "恋人の匂いの組はストレスを低く感じた",
+        "body": "恋人の匂いの組は、課題を待つ間と終わった後に感じるストレスが低かったらしい。反対に、知らない人の匂いの組は、コルチゾールがずっと高めだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "男性や日常でも同じ？",
+        "body": "調べたのは女性96人だけで、実験室での1回の課題。男性でも同じか、ふだんの生活で匂いをかいだときにどこまで効くかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-partner-scent-stress"
+  },
+  {
     "id": "research-names-hard-to-remember-why-research-names-not-better-than-average",
     "category": "記憶のしくみ",
     "kind": "素朴な疑問",
@@ -30174,6 +30347,11 @@
         "id": "kokoro-anger-third-person-reappraisal",
         "type": "あわせて読む",
         "why": "怒りは思い返しや発散でなく、見直しや静める方法で収まる"
+      },
+      {
+        "id": "kokoro-work-anger-calm-down-paper-disposal",
+        "type": "あわせて読む",
+        "why": "紙に書いて捨てると怒りが収まった、という具体的な実験"
       }
     ]
   },
