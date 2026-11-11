@@ -1,5 +1,193 @@
 [
   {
+    "id": "dokugaku-why-studying-feels-effortful-mental-effort-thinking-feels-unpleasant",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "David, Vassena & Bijleveld, \"The unpleasantness of thinking: A meta-analytic review of the association between mental effort and negative affect\" (Psychological Bulletin, 2024)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000443",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "頭を使うのって、なんで面倒？",
+        "body": "動画は何本でも見られるのに、問題集を開くのは気が重い。これって、やる気がないだけなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "170の研究をまとめて調べた",
+        "body": "125本の論文から170の研究（4,670人）を集め、「どれだけ頭を使ったか」と「どれだけイライラしたか」の関係をまとめた分析がある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頭を使うほど不快になりやすい",
+        "body": "頭を使う作業ほど不快感も強い、というはっきりした関係があった。国や作業の種類を変えてもほぼ同じで、アジアの研究では少しだけ弱かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自分で選んだ勉強でも同じ？",
+        "body": "集めた研究の作業は機器のテストや仮想現実の課題などで、自分で選んだ勉強ではない。どれも同じ質問票で本人が答えた数字なので、感じ方の記録だという点も残る。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-studying-feels-effortful-mental-effort-rewarding-effort",
+        "type": "反対の結果",
+        "why": "頭を使うのは不快という分析と、努力をほめると難しい課題を選ぶようになる実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-studying-feels-effortful-mental-effort-thinking-feels-unpleasant"
+  },
+  {
+    "id": "dokugaku-why-studying-feels-effortful-mental-effort-rewarding-effort",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Clay et al., \"Rewarding cognitive effort increases the intrinsic value of mental labor\" (PNAS, 2022)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2111785119",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "努力そのものをほめると？",
+        "body": "頭を使うのは面倒。でも「頑張ったこと」にごほうびが出る経験をすると、その後の選び方が変わるかを調べた実験がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "頑張るほどポイントがもらえる組",
+        "body": "記憶の課題で、頑張ったときほどポイントがもらえる組と、でたらめにポイントが出る組をくらべた。その後、ポイントなしで算数の難しさを自分で選んでもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "難しい問題を選びやすくなった",
+        "body": "努力にポイントが出た組の方が、ごほうびがないとわかっていても難しい問題を選んだ。ネットでの5つの実験（1,457人）をまとめると、差は小さめだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "楽しくなったのかは不明",
+        "body": "最初の4つの実験は結果が混ざっていて、2つでははっきりした差が出なかった。努力が「心地よく」なったのかは著者もまだわからないとしていて、長く続く勉強で同じかもわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-studying-feels-effortful-mental-effort-thinking-feels-unpleasant",
+        "type": "反対の結果",
+        "why": "努力は学習で好きになれるという実験と、頭を使うほど不快になるという分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-studying-feels-effortful-mental-effort-rewarding-effort"
+  },
+  {
+    "id": "dokugaku-why-english-listening-known-words-hard-reduced-forms",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Kul, \"Perception of reduced forms in English by non-native users of English\" (Frontiers in Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2024.1305134",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "読めるのに聞き取れない",
+        "body": "文字なら全部わかる英文なのに、音で聞くと追いつけない。知っている単語のはずなのに、なぜだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "崩れた発音を聞いてもらった",
+        "body": "会話では t や h の音が消えたり、音がつながったりして短くなる。英語を学ぶポーランド人102人と英語の母語話者14人に、会話の録音から取り出した287個のこうした音を聞いてもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "文脈があっても正確さは上がらず",
+        "body": "母語話者は前後の文脈があると正確さが上がった。でも学習者は答えるのが速くなっただけで、正確さは有意には上がらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本人でも同じ？",
+        "body": "母語話者は14人と少なく、録音はイギリスの一地方（ランカシャー）のなまり。日本語を母語とする人は調べていないし、どんな練習で聞き取れるようになるかもこの研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-vocab-recognize-but-cannot-produce-listening-speed",
+        "type": "あわせて読む",
+        "why": "聞き取りの難しさを、崩れた発音と単語の知識の両方から見られる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-why-english-listening-known-words-hard-reduced-forms"
+  },
+  {
+    "id": "food-spicy-capsaicin-diet",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Whiting et al., \"Could capsaicinoids help to support weight management? A systematic review and meta-analysis of energy intake data\" (Appetite, 2014)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2013.11.005",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "辛いものを食べるとやせる？",
+        "body": "唐辛子のカプサイシンで汗が出て、脂肪が燃えるからやせる。ダイエットの話でよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8つの試験をまとめた",
+        "body": "唐辛子の辛み成分をとってから食事をして、食べた量がどう変わるかを見た試験をまとめた分析がある。数字をまとめられたのは8つの試験、191人分。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "その食事で少し減った",
+        "body": "辛み成分を先にとると、そのあとの食事で食べた量が平均74kcalほど少なかった。ただ試験ごとの結果のばらつきは大きく、著者も慎重に見るべきとしている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "体重が減るかは別の話",
+        "body": "見たのは1回の食事で食べた量で、続けて体重が減るかは調べていない。著者も長く追う試験が必要だとしている。人数も合わせて191人と多くない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#food-spicy-capsaicin-diet"
+  },
+  {
+    "id": "posture-office-neck-pain-exercise",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Louw et al., \"Effectiveness of exercise in office workers with neck pain: A systematic review and meta-analysis\" (South African Journal of Physiotherapy, 2017)",
+    "sourceUrl": "https://doi.org/10.4102/sajp.v73i1.392",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "デスクワークの首の痛み、運動で楽になる？",
+        "body": "一日パソコンに向かっていると首がつらい。ストレッチがいいのか、筋トレがいいのか、そもそも運動で変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "会社員の8つの試験",
+        "body": "首の痛みがある会社員を、運動する組としない組にくじで分けた8つの試験をまとめた分析がある。1つの試験の人数は96〜449人、期間は4週間から12か月だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばん調べられていたのは筋トレ",
+        "body": "首や肩まわりの筋トレは、何もしないより痛みが減る方向で、まとめた分析でも差が出た。ただ生活の質の差ははっきりしなかった。ストレッチを調べた試験は1つだけだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ストレッチの効き目は未解決",
+        "body": "ストレッチや持久力の運動は試験が少なく、まだ言えない。どの試験も参加者や指導者は組を知っていて、半分は組分けの隠し方が不十分だった。研究はデンマーク・フィンランド・タイのグループのもの。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-text-neck-young-adults",
+        "type": "あわせて読む",
+        "why": "首の痛みの原因と言われる姿勢の調査と、運動で痛みが減るかの分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-office-neck-pain-exercise"
+  },
+  {
     "id": "dokugaku-why-overcommit-future-study-time-time-slack",
     "category": "意思決定バイアス",
     "kind": "素朴な疑問",
@@ -12372,7 +12560,14 @@
         "body": "本番で測ったのは理解の速さだけで、正しく理解できたかまでは確かめていないよ。対象は京都大学の学生で、分析できたのは30人。なぜ速くなるのかも、まだわかっていないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-vocab-recognize-but-cannot-produce-listening-speed"
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-vocab-recognize-but-cannot-produce-listening-speed",
+    "links": [
+      {
+        "id": "dokugaku-why-english-listening-known-words-hard-reduced-forms",
+        "type": "あわせて読む",
+        "why": "単語の知識だけでなく、会話で崩れた発音も聞き取りを難しくする"
+      }
+    ]
   },
   {
     "id": "food-breakfast-school-performance",
@@ -34901,6 +35096,11 @@
         "id": "posture-text-neck-hansraj",
         "type": "反対の結果",
         "why": "うつむくと首の負担が増えるという計算と、実際の痛みとは関係が見られなかった調査"
+      },
+      {
+        "id": "posture-office-neck-pain-exercise",
+        "type": "あわせて読む",
+        "why": "うつむき姿勢の調査と、首の痛みに運動が効くかをまとめた分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-pain/#posture-text-neck-young-adults"
