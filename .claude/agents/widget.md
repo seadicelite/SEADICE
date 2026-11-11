@@ -37,6 +37,7 @@ model: opus
 - **Widget Extension**: SwiftUI と WidgetKit で作る。App Intent は純粋な Swift で書く（home_widget の Dart を裏で動かす方式は使わない）。entitlements・Info.plist・PrivacyInfo.xcprivacy・project.pbxproj への登録（Embed Foundation Extensions、Runner の entitlements の App Group）を型のとおりに入れる
 - **見た目**: アプリと同じ色、`containerBackground` を必ず付ける（付けないとギャラリーの見本が空になる）、iOS 18 の着色モードでも色だけに頼らず形でも見分けられる、文字は少なく大きく
 - **更新**: タイムラインは日付が変わったときとアプリで記録したとき。通信はしない
+- **版番号**: 拡張の MARKETING_VERSION・CURRENT_PROJECT_VERSION は `$(FLUTTER_BUILD_NAME)`・`$(FLUTTER_BUILD_NUMBER)` にし、拡張の Debug・Release・Profile の baseConfigurationReference に `IkimiWidget/Version.xcconfig` のような `#include "../Flutter/Generated.xcconfig"` だけの xcconfig を付ける（付けないと値が空になり、ipa の拡張に版番号が入らずアップロード検証で弾かれる。2026-11-11 いきみチェック）。数字を直書きすると、版を上げたときに本体とずれる
 - **案内**: 数回使った後か、最初の達成の直後に1回だけ、追加の手順を1画面で（フラグ例 `widget_hint_shown`）
 - **審査**: ギャラリーの見本が空にならない。`APPSTORE_SUBMISSION.md` の説明文と、App Privacy の「端末内保存のみ」に足す。プライバシーポリシーの更新が要るなら、その旨を報告に書く（サイトのファイルは呼んだ側が直す）
 
@@ -44,6 +45,7 @@ model: opus
 - `flutter analyze` と `flutter test` を通す
 - `flutter build ios --simulator --debug`（または `xcodebuild` で拡張機能を含めたビルド）が通ること。通らなければ直す
 - 起動しているシミュレーターがあれば入れて、アプリが起動することを見る（ウィジェットの配置は手作業なので、できなければ「手で確かめること」に書く）
+- ipa を作ったら `PlistBuddy -c "Print :CFBundleShortVersionString" -c "Print :CFBundleVersion" …/PlugIns/{拡張}.appex/Info.plist` で、本体と同じ版番号が入っているか確かめる
 - 実機署名で `flutter build ipa` が通るかは、App Group と拡張機能の Bundle ID が App Store Connect／Developer に登録されている必要がある。登録が要るものは報告に書く
 
 ## 出し方
