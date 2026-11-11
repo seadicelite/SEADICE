@@ -6,7 +6,7 @@ Claude やルーティンではできないこと（アカウントにログイ�
 - 書き方: `- [ ] 期限か頻度 | 分野 | やること — なぜ必要か（追加日）`。上ほど急ぐ・効くもの
 
 ## 未対応
-- [ ] すぐ | アプリ | 土壌診断ノート 1.2.0 の植物SNS用に新しい Firebase プロジェクト（例: dojo-shindan）を作り、Blaze にして予算アラートを月1,000円に設定し、プロジェクトIDを Claude に伝える。App Store Connect で win.seadice.kateisaienApp10 の App ID に Sign in with Apple を有効にする — 荒らし対策（Apple ログインで uid だけ）と App Check のため。saiencer は使い回さない（セキュリティ役、2026-11-10）
+- [ ] すぐ | アプリ | 土壌診断ノート 1.2.0 の「みんな」用 Firebase（プロジェクト dojo-shindan-seadice は Claude が作成・iOS アプリ登録済み、2026-11-11）をコンソールで仕上げる: ①Blaze にして請求先を栽エンサーと同じに、予算アラート月1,000円 ②Authentication → 始める → ログイン方法で「匿名」と「Apple」を有効に ③App Check → iOS アプリに App Attest を登録（Team ID が要る）→ 様子を見て Firestore・Storage を「適用」④Apple Developer の App ID win.seadice.kateisaienApp10 で Sign in with Apple と App Attest をオン — 書き込みを Apple の ID に結びつけて BAN を効かせ、アプリ以外からの書き込みを止めるため（セキュリティ役、2026-11-10）
 - [ ] 近いうちに | アプリ | 栽エンサーの Firebase（saiencer）を止めて費用を0にする: コンソール → プロジェクトの設定 → プロジェクトを削除（テストデータだけで、土壌診断ノートには新規プロジェクトを使うため）。Gmail のアプリ パスワードを通報メール用に作っていたら Google アカウントで取り消す（2026-11-10）
 
 - [ ] 近いうちに | メディア | デジタル探偵（tantei）を tantei.seadice.win で開けるようにする: Firebase コンソールの Hosting でサイト seadice-tantei にカスタムドメイン tantei.seadice.win を追加し、表示された DNS レコードを Cloudflare に入れる（プロキシはオフ）— 今は seadice-tantei.web.app でしか開けず、tantei.seadice.win は DNS がない。サイトマップ・正規URL・記事のリンクは tantei.seadice.win を指しているので、検索にもAIにも載らない（2026-11-10）
