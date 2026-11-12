@@ -18,3 +18,4 @@ body:is(.t-read,.t-show,.t-use) h1 span{color:inherit}
 body:is(.t-read,.t-show,.t-use) :is(.nav-logo,.logo-text){display:inline-flex;align-items:center;gap:8px}
 body:is(.t-read,.t-show,.t-use) :is(.nav-logo,.logo-text)::before{content:"";flex:none;width:22px;height:22px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Cpath d='M150 40l95 55-95 55-95-55zM55 95l95 55v110l-95-55zM245 95l-95 55v110l95-55z' fill='none' stroke='%23e2e8f0' stroke-width='14' stroke-linejoin='round'/%3E%3Cg fill='%2300FFD1'%3E%3Cellipse cx='150' cy='95' rx='30' ry='17'/%3E%3Ccircle cx='102' cy='178' r='20'/%3E%3Ccircle cx='198' cy='178' r='20'/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat}
 body:is(.t-read,.t-show,.t-use) .header-inner>svg:first-child{display:none}
+body:is(.t-read,.t-show,.t-use) nav{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--sd-bg)}

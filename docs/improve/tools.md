@@ -18,6 +18,7 @@ docs/tools.md（2026-10-12 初版）
 ### ルールの変更履歴
 
 古い記録は [log/tools.md](log/tools.md)。
+- 2026-11-12: 変更なし。点検の答え: ①効いている（ぼかしは共通CSSで防げるようになった）②ぼかしが残ったのは、ページ内のインライン nav.top を共通CSSが上書きしていなかったため。design/base.css で全タイプに上書きして防いだ（再発しない）③手間だけのルールなし
 - 2026-11-05: 変更なし。点検の答え: ①出典なし8件のうち5件は EVIDENCE の topics.json で照合済みの出典を転記できる ②ルールの不足なし ③手間だけのルールなし
 
 ## 良い状態
@@ -41,11 +42,11 @@ docs/tools.md（2026-10-12 初版）
 1. **1問1ページに置く道具を作る**（2026-10-13〜、認知の柱。134本中ブラウザの道具があるのは24本。お酒の常識は /tools/alcohol-gram/ で3問済み（ちゃんぽん・二日酔い・赤ワインは計算と中身がずれるので結ばない）。2026-10-13 からだの常識の歩数・タンパク質・水分は /tools/karada-meyasu/ で済み）: 道具のない問いが多い分野から、その分野の問いを1つの道具でまとめて試せるものを作り、p/apps/evidence/data/practice.json の topics に結ぶ（結論の下に「この場で試す」が出る）。多い順: 食べ物の常識7・子育ての科学6・心理学の再現性5・天気と気分5・言葉と外国語5。問いと道具の中身がずれる結びつけはしない
 1. **簡易ビッグファイブ（bigfive-lite）を TIPI-J にまとめるか決める**（判断が必要）: 8問の4択から「いちばん強い1つ」を出す型で、研究の尺度ではなく出典もない。TIPI-J が年代別の平均・100人中の目安まで持ったので役割が重なる。案は bigfive-lite を 301 で /diagnosis/bigfive-tipi/ へ（一覧・ランク・sitemap・llms.txt・OGP画像も整理）
 1. **出典リンクの追加**: 上の16件に、論文まで確かめた DOI を「出典」の節で足す（caffeine-cutoff の Gardiner 2023 から。確かめられない数字は書かない）。続けて棚卸し（検索語・Search Console の表示・磨く／まとめる／外す案）を10件ずつ。続き: 残りはほとんど診断（renai-type・mbti-lite・hidden-personality・stress-type・bigfive-lite・career-type・self-esteem・profile）と kyukei-timer・sabusuku-minaoshi・saki-ni-ugoku。出典リンクは EVIDENCE の topics.json の sourceUrl から拾えるものを先に（手元で crossref を引ける日に残りを）。元の項目: p/tools/ のうちブラウザで動くツールを一覧にし、「AIが補えない部分」があるか・狙う検索語・Search Console の表示の有無を表にする（1回で10件ずつ）。磨く／まとめる／検索から外すの案をつける
-1. **上のナビのぼかし（backdrop-filter）を全ページから外す**（2026-11-06 ペット健康クイズの design 点検で指摘。ツールページの土台CSSが共通で持っていて、質実剛健の「ぼかしなし」に反する）: design/base.css で `nav.top{backdrop-filter:none;background:var(--sd-bg)}` を足して --refresh するか、デザイン分野で判断
 
 ## やったこと
 
 古い記録は [log/tools.md](log/tools.md)。
+- 2026-11-12: 点検（JS入り24件の簡易判定: sd-tool なし0・出典リンクなし4（sabusuku-minaoshi・saki-ni-ugoku・shashin-ichijoho-keshi・profile）・外部fetch0・noindex0・内部リンク切れ0（診断一覧のJSテンプレート文字列は誤検出）・sitemap のファイルなし0／noindex掲載0）。削る: 上のナビのぼかし（backdrop-filter:blur(12px)）を design/base.css の1行で read/show/use 全タイプから外し、--refresh で947ページに反映（p/index.html は対象外で無変更）。
 - 2026-11-06: ペット健康クイズ /tools/pet-health/ を「犬・猫に危険な食べ物の早見表と健康クイズ」に作り直し（critic・design・user・source-check の4役で点検してから）。早見表を最初に出して犬・猫で絞り込み、12行に増やした（ASPCA People Foods の本文で確認）。「食べてしまったら」の3手順と「まだわからないこと」（ぶどうの安全な量・猫が何日食べないと危ないか・冷やすのをやめる体温）を追加。問題は30問→41問。出典が「獣医学の基本」だった16問は、ASPCA・Merck獣医マニュアル・Cornell・American Heartworm Society・WSAVA・厚労省・環境省の本文を開いて確かめた一文の範囲に書き直し、各問の出典をリンクにした。出典が見つからなかった「手の甲で地面を確かめる」「下痢で受診を急ぐサイン」は外し、ユリ科→ユリ属・デイリリー、猫が丸1日食べない→数日〜数週間、尿道閉塞の「短時間」→「数日」に直した。正誤を文字でも示し、結果画面の解き直しを上に、角丸8px、JSなしの案内。問題は scripts/pet_health_quiz.json を正として scripts/build_pet_health_quiz.py でサイトとアプリ（pet_kenko_quiz の lib/quiz_bank.dart）に書き出す。棄却: 食べた量と体重から受診目安を出す道具（量の閾値を一次情報で言い切れず、誤ると命に関わる）
 - 2026-11-05: 点検（JS入り35件: sd-tool なし0・出典リンクなし9・FAQなし6・外部fetch0・noindex0・内部リンク切れ0（profile の1件はJSのテンプレート文字列で誤検出）・sitemap のファイルなし0）。mbti-lite に McCrae & Costa 1989（DOI。EVIDENCE の personality-mbti-types で照合済み）と、研究の尺度ではない限界を「出典と、この診断の限界」として追加。出典なしは8件に。削るものは今日は見つからず
 
