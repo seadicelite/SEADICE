@@ -1,5 +1,165 @@
 [
   {
+    "id": "research-progressive-muscle-relaxation-stress-steps-research-pmr-vs-breathing",
+    "category": "呼吸とストレス",
+    "kind": "研究紹介",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Toussaint et al., \"Effectiveness of Progressive Muscle Relaxation, Deep Breathing, and Guided Imagery in Promoting Psychological and Physiological States of Relaxation\" (Evidence-Based Complementary and Alternative Medicine, 2021)",
+    "sourceUrl": "https://doi.org/10.1155/2021/5924040",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "力を入れてから抜くとリラックスできる？",
+        "body": "「力を抜いて」と言われても、抜き方ってわからないよね。わざと力を入れてから抜く「漸進的筋弛緩法」が、深呼吸と比べてどうなのか確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生60人で4つを比べた",
+        "body": "アメリカの大学生60人（7割が女性、18〜23歳）が、筋弛緩法・深呼吸・イメージ法・雑誌を読むだけ、のどれか1つを夜に20分やったよ。リラックス感のアンケートと、指先の汗で体の興奮を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3つとも雑誌よりリラックス",
+        "body": "3つの方法はどれも、雑誌を読んだ人よりリラックス感が高くなった。方法どうしの差はなし。体の興奮は筋弛緩法とイメージ法で20分かけて下がり、深呼吸は前半いったん上がってから下がったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの実験の話",
+        "body": "1回20分やった直後だけを測った実験で、毎日続けるとどうなるかはわからない。4つの組で60人と少なく、心拍数には、はっきりした差が出なかったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#research-progressive-muscle-relaxation-stress-steps-research-pmr-vs-breathing"
+  },
+  {
+    "id": "kokoro-gratitude-journal-work-engagement-12days",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Yamagishi N et al., \"Enhanced work engagement in Japanese employees following a 12-day online gratitude journal intervention\" (BMC Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s40359-025-03494-2",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "感謝日記で仕事がはかどる？",
+        "body": "「感謝日記をつけると前向きになれる」ってよく聞くよね。じゃあ、仕事に向かう気持ちまで変わるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "日本の正社員で12日間",
+        "body": "日本の研究チームが、30〜49歳の正社員100人をくじで2組に分けたんだ。片方は毎日「ありがたかったこと」、もう片方は「今日あった出来事」を12日間スマホで書いたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "前向きさが少し上がった",
+        "body": "感謝を書いた組では、仕事への前向きさの点数が6点満点で2.81から3.14に上がったらしい。出来事を書いた組では変わらなかった。日記には「同僚」や「子ども」の話が多かったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どのくらい続く？",
+        "body": "差がはっきりしたのは12日間の直後だけで、1.5か月後ははっきりしなかったよ。分析できたのは67人で、謝礼ありの参加。やる気が落ちた人だけを集めた研究でもないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-gratitude-journal-work-engagement-12days"
+  },
+  {
+    "id": "kokoro-memory-worry-confidence-recover-memory-satisfaction-mood",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Csábi E et al., \"Predictors of subjective memory functioning in young adults\" (BMC Psychiatry, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s12888-025-06568-y",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "物忘れが多い＝記憶力が落ちた？",
+        "body": "最近よく忘れる、頭が働かない。そう感じると「記憶力が落ちたんだ」と思いがちだよね。でも、自分の記憶の感じ方って、実際の記憶力をそのまま映しているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "若い大人125人を検査",
+        "body": "ハンガリーの研究チームが、18〜28歳の125人を調べたんだ。自分の記憶への満足度を質問紙で聞き、記憶や考える力のテストも受けてもらって、落ち込みや不安、眠りの質も測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "結びついたのは気分のほう",
+        "body": "記憶への満足度は、テストの成績とははっきり結びつかなかったらしい。代わりに、落ち込みの得点との相関が−0.44、不安とは−0.46で、気分が沈んでいる人ほど自分の記憶に不満だったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先？",
+        "body": "一度に測った研究だから、落ち込むと記憶に自信がなくなるのか、物忘れが続いて落ち込むのかはわからないよ。対象は若い大人125人だけで、別の研究ではテストの成績と結びついた結果もあるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#kokoro-memory-worry-confidence-recover-memory-satisfaction-mood"
+  },
+  {
+    "id": "caffeine-tea-theanine-focus-meta",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Payne et al., \"Effects of Tea (Camellia sinensis) or its Bioactive Compounds l-Theanine or l-Theanine plus Caffeine on Cognition, Sleep, and Mood in Healthy Participants: A Systematic Review and Meta-Analysis of Randomized Controlled Trials\" (Nutrition Reviews, 2025)",
+    "sourceUrl": "https://doi.org/10.1093/nutrit/nuaf054",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お茶のテアニンで、落ち着いて集中できる？",
+        "body": "「お茶はコーヒーよりおだやかに目がさえる」ってよく聞くよね。お茶に入っているテアニンという成分のおかげ、と言われるけど本当かな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50件の試験を集めた",
+        "body": "健康な人でお茶・テアニン・テアニン＋カフェインを試した、くじ引きで分けた試験50件を集め、15件を数字でまとめたメタ分析があるんだ。1件の人数は中央値27人だったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少しよさそう、でも幅が広い",
+        "body": "テアニン＋カフェインは偽薬より、飲んで1〜2時間の注意の課題で少し〜中くらい成績がよかった。テアニンだけでも反応が少し速かったらしい。ただ幅が広く、眠りへの効果ははっきりしなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "お茶そのものでは試していない",
+        "body": "テアニンの分析に入った試験はどれもお茶の飲み物ではなく、量も多くは100mg超（紅茶2杯で約50mg）。かたよりの危険が低い試験は0件で、資金はお茶の会社から出ているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-tea-theanine-focus-meta"
+  },
+  {
+    "id": "sleep-food-kiwifruit-evening-crossover",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Kanon et al., \"Acute effects of fresh versus dried Hayward green kiwifruit on sleep quality, mood, and sleep-related urinary metabolites in healthy young men with good and poor sleep quality\" (Frontiers in Nutrition, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fnut.2023.1079609",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "キウイを食べると、よく眠れる？",
+        "body": "「夜にキウイを食べると眠りがよくなる」って話、聞いたことあるかな。夕食にキウイを足すだけで、その夜の眠りは変わるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "男性24人で一晩ずつ比べた",
+        "body": "ニュージーランドの研究で、平均29歳の男性24人（よく眠れる人・眠りが悪い人12人ずつ）が、夕食と一緒に生のキウイ2個・乾燥キウイの粉・水を、日を空けて1回ずつとったよ。腕時計型の計測器でも眠りを測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "目覚めの感じが少しよくなった",
+        "body": "水の夜と比べて、乾燥キウイの夜は翌朝の眠気が少なく、目覚めもすっきりしていたらしい。眠りが悪い人では、目覚めやすさが24%よくなった。ただ計測器で見た寝つきや睡眠時間には、はっきりした差がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一晩だけ、男性だけ",
+        "body": "一晩ずつ試しただけで、人数も少なく男性だけ。キウイを食べたことは本人にわかるので、思い込みが入った可能性を著者も挙げているよ。毎日食べ続けたらどうなるかもわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleep-food-kiwifruit-evening-crossover"
+  },
+  {
     "id": "kokoro-post-vacation-work-rumination-daily-recovery",
     "category": "仕事と働き方",
     "kind": "素朴な疑問",
