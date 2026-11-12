@@ -1,5 +1,165 @@
 [
   {
+    "id": "research-emotional-contagion-others-mood-why-research-empathic-stress",
+    "category": "対人関係の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Engert et al., \"Cortisol increase in empathic stress is modulated by emotional closeness and observation modality\" (Psychoneuroendocrinology, 2014)",
+    "sourceUrl": "https://doi.org/10.1016/j.psyneuen.2014.04.005",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人のストレスって、うつるの？",
+        "body": "家族がピリピリしていると、こっちまで疲れてくる。気のせいかと思いきや、体の反応まで伝わることがあるらしいんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見ているだけの人を測った",
+        "body": "1人がストレスのかかる課題を受け、もう1人はマジックミラー越しかライブ映像で見ているだけ。見ていた211人のストレスホルモン（コルチゾール）を測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "4人に1人で上がった",
+        "body": "見ていただけの人の26%で、ストレスホルモンがはっきり上がった。相手がパートナーだと40%、知らない人だと10%。映像越しでも24%で反応が出たんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "気分まで同じかは別の話",
+        "body": "実験室での短い場面の話で、ペアは男女の組み合わせだけ。ふだんの家庭や職場で同じ割合になるか、体に長く影響するかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#research-emotional-contagion-others-mood-why-research-empathic-stress"
+  },
+  {
+    "id": "research-just-heard-forget-short-term-memory-why-research-magic-four",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Cowan, \"The Magical Mystery Four: How is Working Memory Capacity Limited, and Why?\" (Current Directions in Psychological Science, 2010)",
+    "sourceUrl": "https://doi.org/10.1177/0963721409359277",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人が一度に覚えられるのは7個？",
+        "body": "「人が一度に覚えられるのは7個前後」ってよく聞くよね。1956年にMillerという研究者がまとめて有名になった数字なんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "工夫を止めて測り直した",
+        "body": "その後の研究では、頭の中でくり返したり、いくつかを1つにまとめたりする工夫を防いで測り直したよ。たとえば、ずっと「the」と言わせながら覚えてもらう方法。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "本当は3〜5個ほど",
+        "body": "若い大人が一度に頭に置けるのは3〜5個ほどらしい。「the」と言い続けると約3個。色の図形を覚える課題では、7歳の子は約1.5個だったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ4個なのかは謎",
+        "body": "何を「1個のまとまり」と数えるかで数字は変わる。なぜ3〜5個が限界なのかは、著者自身も「まだはっきりしない」と書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-just-heard-forget-short-term-memory-why-research-magic-four"
+  },
+  {
+    "id": "research-snack-cravings-time-place-cue-why-research-chocolate-clock",
+    "category": "習慣形成",
+    "kind": "研究紹介",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "van den Akker K et al., \"Appetitive conditioning to specific times of day\" (Appetite, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2017.05.014",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "3時になると甘いものが欲しくなる",
+        "body": "おなかは空いてないのに、決まった時間になるとお菓子が欲しくなること、あるよね。あれって、時間そのものが合図になっているのかも。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "毎日同じ時刻にチョコを食べる",
+        "body": "毎日決まった時刻にチョコレートを食べてもらい、ふだんの生活の中で1日に何度も「食べたい気持ち」を記録してもらった研究。5日間と15日間の2つがあるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "15日で「その時刻に食べたい」が育った",
+        "body": "どちらの研究でも、その時刻に「食べられそう」という期待が生まれたらしい。15日間の研究では、チョコと関係ない時刻より「食べたい」気持ちも強くなったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "5日では欲しくならなかった",
+        "body": "5日間の研究では、食べたい気持ちまでは育たなかった。何日で、どんな人に起きやすいのかは、まだはっきりしていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-snack-cravings-time-place-cue-why-research-chocolate-clock"
+  },
+  {
+    "id": "food-chewing-gum-attention-timing",
+    "category": "食事と脳",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Onyper et al., \"Cognitive advantages of chewing gum. Now you see them, now you don't\" (Appetite, 2011)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2011.05.313",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ガムを噛むと集中できる？",
+        "body": "試験や運転の前にガムを噛む人、いるよね。噛むと頭がすっきりする気がするけど、本当に頭の働きは上がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "噛むタイミングを変えて比べた",
+        "body": "テストの5分前まで噛む組、テスト中ずっと噛む組、噛まない組に分けて、いくつもの頭の働きのテストを受けてもらった実験があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "前に噛むと上がった。でも短い",
+        "body": "5分前まで噛んだ組は、いくつかのテストで成績がよかった。でも効果は最初の15〜20分だけで、全部の種類のテストではなかった。噛みながらだと上がらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜなのかは仮説の段階",
+        "body": "噛むことで一時的に目がさえる、噛みながらだと頭の力を取り合う、というのは著者の説明で、この実験で確かめたわけではないよ。大学の実験室での話なんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-chewing-gum-attention-timing"
+  },
+  {
+    "id": "exercise-stair-walking-vs-caffeine",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Randolph & O'Connor, \"Stair walking is more energizing than low dose caffeine in sleep deprived young women\" (Physiology & Behavior, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.physbeh.2017.03.013",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "眠いとき、カフェインより階段？",
+        "body": "寝不足の日は、ついカフェインに頼りがちだよね。でも、ちょっと体を動かすほうが目が覚める、という話もあるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10分の階段とカフェインを比べた",
+        "body": "寝不足ぎみの女子大学生18人が、軽めのペースで10分階段を歩く日、カフェイン50mgを飲む日、偽薬の日を、順番を変えて全部試したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「元気な感じ」は階段が上",
+        "body": "階段のあとは、カフェインや偽薬より「活力がある」と感じる気分が高まった。ただ、記憶や注意、反応の速さのテストでは差が出なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "18人の、短い間の話",
+        "body": "対象は運動習慣のある18〜23歳の女性18人だけ。カフェインは50mgと少なめで、効果はすぐあとだけ見られた。男性や年配の人、もっと多い量で同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-stair-walking-vs-caffeine"
+  },
+  {
     "id": "kokoro-loneliness-acceptance-practice-monitor-accept",
     "category": "孤独とつながり",
     "kind": "研究紹介",
