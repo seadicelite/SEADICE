@@ -22,6 +22,7 @@ docs/writing.md
 
 
 古い記録は [log/articles.md](log/articles.md)。
+- 2026-11-12: 伸ばす4メディアにSEO記事8本（上位が弱い具体的な問いを検索で選び、確かめた表を1つずつ）。kosodate: sns-age-limit-by-service・game-cero-age-rating-follow、oya: parent-hospital-admission-guarantor・parent-care-disability-deduction、ai: gemini-share-link-delete-search・chatgpt-fake-app-how-to-tell、dokugaku: english-2200-hours-fsi-myth・working-adults-study-time-average-statistics。source-check で誤り1（豪州SNS法が施行済み）・ずれ5・未確認6を直してから公開（seadice-media e6934bd2b5）。何を書くかの土台として docs/world/（悩み・欲しいもの・これからの動き・最新の動き）を新設
 - 2026-11-12: kosodate が「AI時代の子育て」で上位に出ない件。原因は公開6週・広い言葉で大手と競合・自動執筆が上位を見ずに書いていたこと。日本語の上位が宣伝・会社員向け記事だけの3問を選び、既存記事に確かめた表を足した（ai-age-for-kids: サービス別の利用年齢5社、child-told-ai-name-school-privacy: 入力後の削除・学習オフ・保存期間3社、ai-chatbot-worry-consultation-safety: Common Sense Media の年齢別の勧め＋日本の相談窓口3つ）。source-check で誤り0・ずれ1（Gemini の地域差）を直して公開（seadice-media 48630cfd1b）
 ## 良い状態（docs/writing.md）
 - h1直後と各h2直下に結論、数値に出典リンク、末尾に tool-cta
