@@ -1,5 +1,193 @@
 [
   {
+    "id": "research-habit-willpower-self-control-research-habits-not-restraint",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Galla BM & Duckworth AL, \"More than resisting temptation: Beneficial habits mediate the relationship between self-control and positive life outcomes\" (Journal of Personality and Social Psychology, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/pspp0000026",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "続く人は我慢が得意？",
+        "body": "運動や勉強を続けられる人って、誘惑をぐっとこらえる意志の強い人だと思いがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6つの研究で2,274人",
+        "body": "研究者が、おやつ・運動・睡眠・勉強・瞑想について、自制心の高さと習慣、どれだけ頑張って抑えているかの関係を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "強みは我慢より習慣",
+        "body": "自制心が高い人ほど、良い行動が習慣になっていた。そのぶん行動は自動的で、頑張って抑えたと答えることは少なめだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "習慣が原因かは未確定",
+        "body": "調べたのは自制心・習慣・行動のつながりで、習慣をつけさせて比べる実験ではないんだ。習慣が原因かは、まだはっきりしていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "habit-context-cue",
+        "type": "あわせて読む",
+        "why": "習慣を作るのは意志力より環境、という別の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-willpower-self-control-research-habits-not-restraint"
+  },
+  {
+    "id": "research-study-feels-not-learning-effort-recovery-research-feeling-of-learning",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Deslauriers L, McCarty LS, Miller K, Callaghan K & Kestin G, \"Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom\" (PNAS, 2019)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1821936116",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "わかった感じ＝身についた？",
+        "body": "授業や勉強のあと「よくわかった！」と感じたら、ちゃんと身についた気がするよね。でも、その手応えって本当に当てになるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "149人で授業を入れ替え",
+        "body": "ハーバード大学の物理の授業で、学生149人をくじで分けた。同じ内容を、聞くだけの講義と、グループで問題に取り組む授業で教えて、入れ替えて比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "感じは低いのに点は上",
+        "body": "頭を使う授業の学生は「学べた感じ」が標準偏差で0.56ぶん低かったのに、テストの点は0.46ぶん高かった。手応えと実際の学びが逆向きだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの大学の物理の授業",
+        "body": "調べたのは1つの大学の物理の授業で、秋と春の2つの学期だけ。ほかの科目や、一人での勉強でも同じようにずれるかは、まだはっきりしていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-study-methods-differ-icap-lecture-myth",
+        "type": "あわせて読む",
+        "why": "頭を使う授業が成績を上げるという、別の大きな研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-study-feels-not-learning-effort-recovery-research-feeling-of-learning"
+  },
+  {
+    "id": "research-reading-not-sinking-in-mind-wandering-recovery-research-font-null",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Tietz S et al., \"Demotivated, but still attentive: Text disfluency does not affect mind-wandering and reading comprehension, but reduces motivation\" (Psychonomic Bulletin & Review, 2025)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-025-02735-0",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "読みにくい字のほうが集中できる？",
+        "body": "2017年に、グレーのComic Sansみたいな読みにくい書体で読むと、上の空が減ったという報告があったんだ。ちょっと意外だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3段階の書体で確かめ直した",
+        "body": "ドイツの研究チームが、学生151人で、読みやすい・やや読みにくい・とても読みにくい書体を比べた。やり方は事前に登録してから実験したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "上の空も理解も変わらなかった",
+        "body": "書体を変えても、上の空の多さも内容の理解も変わらなかった。下がったのは「読みたい」という意欲だけだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "条件しだいの可能性",
+        "body": "ドイツ語を母語とする学生が、1本の文章を読んだ1回の実験なんだ。文章や読む人が違えば結果が変わる可能性は、著者たちも残しているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-reading-not-sinking-in-mind-wandering-recovery-research-font-null"
+  },
+  {
+    "id": "weather-spring-outdoors-mood",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Keller MC et al., \"A warm heart and a clear head: The contingent effects of weather on mood and cognition\" (Psychological Science, 2005)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-9280.2005.01602.x",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "いい天気の日は、外に出ると気分が晴れる？",
+        "body": "晴れて暖かい日は気分がいい気がするよね。でも天気と気分の研究は、関係があるという結果とないという結果が混ざっていたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "605人で季節と外の時間を見た",
+        "body": "2つの調査と、外で過ごす時間を変えてもらう1つの実験、合わせて605人。気温や気圧と、気分・記憶・考え方の広がりの関係を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効くのは春、外にいる時間しだい",
+        "body": "春に外で長く過ごすほど、いい天気と気分の良さや記憶の良さが結びついていた。ほかの季節では見られず、夏は暑い日ほど気分が低めだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ春だけかは推測",
+        "body": "3つのうち2つは調査で、天気が気分を変えたとまでは言えない。春だけなのは「冬の間いい天気から遠ざかっていたから」という著者の考えで、確かめられてはいないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-warm-day-mood-lausanne",
+        "type": "あわせて読む",
+        "why": "暖かい日と機嫌の関係を、季節と外の時間で分けて見た研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-spring-outdoors-mood"
+  },
+  {
+    "id": "mindfulness-meditation-prosocial-meta",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Kreplin U, Farias M & Brazil IA, \"The limited prosocial effects of meditation: A systematic review and meta-analysis\" (Scientific Reports, 2018)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-018-20299-z",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "瞑想すると、人にやさしくなれる？",
+        "body": "瞑想を続けると心が穏やかになって、人にもやさしくなれる。そんなイメージ、よく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "健康な大人のくじ引き研究16本",
+        "body": "健康な大人をくじで分けた研究を集めて、思いやり・共感・攻撃性・つながり・偏見の5つについて、瞑想の効果を数字でまとめたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "思いやりと共感だけ、しかも条件つき",
+        "body": "全体では中くらいの効果が出たけど、増えたのは思いやりと共感だけ。思いやりは、瞑想の先生が論文の著者だった研究と、何もしない群と比べた研究でしか増えなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の質がまだ足りない",
+        "body": "集まった研究は少なく、期待や先生の熱意の影響を防いだものはほとんどなかった。比べ方をきちんとそろえた研究で、本当に効くかを確かめる必要があるよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-loving-kindness-positive-emotions-meta",
+        "type": "あわせて読む",
+        "why": "慈悲の瞑想が自分の気持ちに効くかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-meditation-prosocial-meta"
+  },
+  {
     "id": "dokugaku-ai-answer-fact-check-table-ai-factcheck",
     "category": "AIとのつきあい方",
     "kind": "よくある説",
@@ -5196,7 +5384,14 @@
         "body": "前向きな気持ちはどれも本人の答えで測っている。研究の数が少なく、著者自身も結論は探索的だと書いているよ。なぜ効くのか、心の病気がある人にも当てはまるかも、まだわからないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-loving-kindness-positive-emotions-meta"
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-loving-kindness-positive-emotions-meta",
+    "links": [
+      {
+        "id": "mindfulness-meditation-prosocial-meta",
+        "type": "あわせて読む",
+        "why": "瞑想で人へのやさしさが増えるかをまとめた研究"
+      }
+    ]
   },
   {
     "id": "research-quick-chores-first-precrastination-why-research-bucket",
@@ -8096,6 +8291,11 @@
         "id": "dokugaku-why-study-methods-differ-icap-question-vs-lecture",
         "type": "あわせて読む",
         "why": "メタ分析の結論を、自分で読んで問いを作る1つの実験で確かめた"
+      },
+      {
+        "id": "research-study-feels-not-learning-effort-recovery-research-feeling-of-learning",
+        "type": "あわせて読む",
+        "why": "頭を使う授業は、伸びても「学べた感じ」は低いという研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-study-methods-differ-icap-lecture-myth"
@@ -10127,6 +10327,11 @@
         "id": "weather-social-media-sentiment",
         "type": "あわせて読む",
         "why": "SNSの投稿で、とても暑い日に言葉が沈むかを調べた研究"
+      },
+      {
+        "id": "weather-spring-outdoors-mood",
+        "type": "あわせて読む",
+        "why": "天気と気分の関係は、春に外で過ごす時だけ見られたという研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/#weather-warm-day-mood-lausanne"
@@ -22433,6 +22638,11 @@
         "id": "research-habit-same-place-context-research-automaticity",
         "type": "あわせて読む",
         "why": "場所と時間を固定すると、新しい習慣が自動的になりやすかった実験"
+      },
+      {
+        "id": "research-habit-willpower-self-control-research-habits-not-restraint",
+        "type": "あわせて読む",
+        "why": "自制心の高い人の強みは我慢より習慣、という研究"
       }
     ]
   },
