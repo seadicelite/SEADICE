@@ -61,3 +61,9 @@ Claude やルーティンではできないこと（アカウントにログイ�
 - [ ] 今週 | 全体 | Search Console の「ページ」タブで、クリック上位20ページを貼る — 効果の高いページから user・design 役に見せて直すため（2026-11-03）
 - [ ] 次のアップデート時 | アプリ | IJIN の App Store の説明文の出だし「哲人フレンズは、…」を IJIN に直す — 名前は 1.3.0 で IJIN になったが、説明文は旧名のまま（2026-11-06）
 - [ ] 今週 | アプリ | FBI式ボディランゲージ辞典 1.1.0 を提出: `心理学系/fbi-bodylanguage/build/ios/ipa/fbi_bodylanguage.ipa` を Transporter でアップロード → App Store Connect で説明・サブタイトル・キーワード・新機能・審査メモを `APPSTORE_SUBMISSION.md`（日本語）と `_EN.md` に差し替え、App Privacy を「その他のユーザーコンテンツ（要望フォーム）・リンクなし・トラッキングなし」だけに更新（1.0 の AdMob・Claude の申告を外す）。シミュレーターでのタップ確認はできていないので、提出前に実機で「観察クイズ→読み解き」と設定の共有を1回押す（2026-11-10）
+
+## ぷりちょ（~/Developer/ライフスタイル系/puri_book、2026-11-13）
+- [ ] Apple Developer で App Group `group.win.seadice.purichou` を作り、App ID `win.seadice.purichou` に付ける。ウィジェットの App ID `win.seadice.purichou.PuriWidget` も作って同じ App Group を付ける
+- [ ] App Store Connect でアプリの記録を作り、App Store ID を Claude に伝える（lib/export.dart の kAppStoreId に入れてからビルド）
+- [ ] J-PlatPat で「ぷりちょ」「プリ帳」の商標を確かめる
+- [ ] 実機で 撮る・保存・送る・テスト通知・ウィジェット（スタンバイで写真が伏せられるか）を触る
