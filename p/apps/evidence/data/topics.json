@@ -1,5 +1,179 @@
 [
   {
+    "id": "kokoro-post-vacation-work-rumination-daily-recovery",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Thomsen A et al., \"Effectiveness of the mobile application Holidaily in reducing work-related rumination when returning to work after vacation: a randomized controlled trial\" (Frontiers in Digital Health, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fdgth.2026.1698339",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "休み明け、仕事の悩みが戻る",
+        "body": "連休中は忘れていた仕事のモヤモヤが、休み明けにすぐ戻ってくることってあるよね。これ、前もって防げるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "190人をくじで2組に",
+        "body": "ドイツの研究者たちが、働く人190人をくじで2組に分けたんだ。片方は休みの2週間前からアプリで毎日1つ回復のための活動を選び、終わったら振り返った。もう片方は後から使える順番待ちの組だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "休み明け2週間で差",
+        "body": "休み明け2週間の時点で、毎日続けた組は休み前より考え込みが22.2%少なかったらしい。もう片方の組は6.9%だった。ただ、気分の落ち込みや疲れには差がなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "途中で答えなくなった人も",
+        "body": "約8割が女性で、途中で回答しなくなった人も多く、著者も結果は「まだ予備的」としている。スマホのアプリで試したので、紙のメモで同じ効果が出るかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-rest-not-recovering-stress-research-vacation-fade",
+        "type": "あわせて読む",
+        "why": "休みの効果はすぐ薄れるという研究と、それを長持ちさせる工夫を試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-post-vacation-work-rumination-daily-recovery"
+  },
+  {
+    "id": "kokoro-loneliness-community-groups-recover-nature-groups",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Coll-Planas L et al., \"Effectiveness of a nature-based social prescribing intervention on loneliness and health-related quality of life among vulnerable urban adults (RECETAS-BCN): an observer-blinded randomised controlled trial\" (The Lancet Regional Health – Europe, 2026)",
+    "sourceUrl": "https://doi.org/10.1016/j.lanepe.2026.101821",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "孤独、どこから抜け出す？",
+        "body": "孤独な時期が長引くと、人に会うのもおっくうになるよね。グループに入るのと、自分で活動を探すの、どっちがいいんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "320人をくじで2組に",
+        "body": "スペイン・バルセロナ近郊の12地区で、孤独を感じる大人320人をくじで分けたんだ。片方は週1回2時間、9週間グループで公園などに出かけ、もう片方は近くの活動を紹介されたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらも約1割下がった",
+        "body": "3か月で孤独感は全体で10.5%下がって、2つのやり方に差はなかったらしい。ただ、もともと孤独感が強く、心の元気さが低めの人では、グループのほうが効いていたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何もしない組がない",
+        "body": "何もしない組はなかったから、時間がたつだけで下がった分は区別できないんだ。参加者の8割が女性で、年齢の中央値は62.8歳。生活の質のほうは変わらなかったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-loneliness-community-groups-recover-nature-groups"
+  },
+  {
+    "id": "kokoro-fitness-app-ranking-comparison-prevent-leaderboard-stress",
+    "category": "スマホとSNS",
+    "kind": "よくある説",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Wang S et al., \"Associations between leaderboard usage in physical activity apps and perceived stress among university students: the roles of social comparison and physical activity\" (Frontiers in Public Health, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpubh.2026.1794299",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ランキングは心の負担？",
+        "body": "人と比べると落ち込む、ってよく聞くよね。じゃあ運動アプリで友達と歩数のランキングを比べるのも、ストレスのもとになるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生1,019人に聞いた",
+        "body": "中国の研究チームが、運動アプリのランキングを使ったことがある大学生1,019人に、ランキングを見る回数、人と比べる回数、運動の量、ストレスをたずねたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "運動が多く、ストレスは少し低め",
+        "body": "ランキングをよく見る人ほど人と比べることも運動も多くて、運動が多い人ほどストレスは低めだったらしい。ランキングとストレスの直接の結びつきは、ほぼゼロだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの調査",
+        "body": "1回の調査だから、ランキングが運動を増やしたのか、よく動く人がランキングを見るだけなのかは区別できないんだ。答えはすべて自己申告で、働く人や年配の人に当てはまるかもわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-fitness-app-ranking-comparison-prevent-leaderboard-stress"
+  },
+  {
+    "id": "aging-daily-steps-by-age-plateau",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Paluch et al., \"Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts\" (The Lancet Public Health, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/S2468-2667(21)00302-9",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "歩数の目安は年齢で違う？",
+        "body": "「1日1万歩」ってよく聞くけど、若い人も年配の人も同じ目安でいいのかな。年をとった親に1万歩はきつそうだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "15の追跡研究、4万7千人",
+        "body": "歩数計で歩数を測った大人47,471人を、15の研究で平均7年ほど追いかけたデータを、同じやり方でまとめ直したメタ分析なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "60歳以上は6000〜8000歩で頭打ち",
+        "body": "歩数が多いほど亡くなるリスクは低かったけど、60歳以上では6000〜8000歩、60歳未満では8000〜10000歩あたりで下がり方が止まったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "歩いたから長生き、とは限らない",
+        "body": "もともとの暮らしを追いかけた研究のまとめで、歩くことが原因とまでは言えない。歩く速さについては、測り方によって結果が分かれたよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "myth-10000-steps",
+        "type": "あわせて読む",
+        "why": "1万歩という数字がどこから来たかと、年配の女性での歩数の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-daily-steps-by-age-plateau"
+  },
+  {
+    "id": "color-photo-memory-color-vs-bw",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Wichmann, Sharpe & Gegenfurtner, \"The contributions of color to recognition memory for natural scenes\" (Journal of Experimental Psychology: Learning, Memory, and Cognition, 2002)",
+    "sourceUrl": "https://doi.org/10.1037/0278-7393.28.3.509",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "カラーのほうが覚えやすい？",
+        "body": "白黒の写真より、カラーの写真のほうが記憶に残る気がするよね。色があると目立つから？それとも記憶そのものが違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "風景写真で記憶テスト",
+        "body": "自然の風景写真をカラーか白黒で見せて、あとで「見たことがあるか」を当ててもらう実験を5つ行った研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "カラーで5〜10%よく覚えた",
+        "body": "見せる時間の長さに関係なく、カラーのほうが5〜10%よく覚えられていたらしい。目立つからだけでは説明できず、色も記憶の一部として残るみたい。ただ、ありえない色に塗った写真では有利さが消えたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強のノートは別の話",
+        "body": "調べたのは自然の風景写真の見覚えで、文字を色ペンで書き分けると覚えやすいかは調べていない。実験室での短いテストで、長く覚えていられるかもわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-photo-memory-color-vs-bw"
+  },
+  {
     "id": "dokugaku-why-self-handicapping-before-exam-academic-performance",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -14814,6 +14988,11 @@
         "id": "happy-vacation-anticipation-nawijn",
         "type": "あわせて読む",
         "why": "休暇の前と後で、幸福感がどう変わるかを旅行しない人と比べた研究"
+      },
+      {
+        "id": "kokoro-post-vacation-work-rumination-daily-recovery",
+        "type": "あわせて読む",
+        "why": "休みの効果を長持ちさせようとアプリで毎日の回復活動を試したくじ引きの研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/work/#research-rest-not-recovering-stress-research-vacation-fade"
@@ -20603,6 +20782,11 @@
         "id": "body-steps-7000-meta",
         "type": "あわせて読む",
         "why": "2025年のメタ分析では、7000歩で死亡リスクが47%低かった"
+      },
+      {
+        "id": "aging-daily-steps-by-age-plateau",
+        "type": "あわせて読む",
+        "why": "同じ1万歩の問いを、年齢で分けて目安の違いを調べたメタ分析"
       }
     ]
   },
