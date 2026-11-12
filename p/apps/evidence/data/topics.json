@@ -1,5 +1,200 @@
 [
   {
+    "id": "kokoro-loneliness-acceptance-practice-monitor-accept",
+    "category": "孤独とつながり",
+    "kind": "研究紹介",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Lindsay EK et al., \"Mindfulness training reduces loneliness and increases social contact in a randomized controlled trial\" (PNAS, 2019)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1813588116",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寂しさは追い払うべき？",
+        "body": "寂しくなったら、気をまぎらわせて早く消したくなるよね。でも、その気持ちをそのまま受け入れたら、どうなるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3つの組で2週間",
+        "body": "米国の研究チームが、ストレスを抱えた大人153人をスマホの練習3種類に分けたんだ。今の気持ちを観察して受け入れる組、観察だけの組、自由な振り返りや問題解決の組だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "受け入れた組で孤独感が22%減",
+        "body": "観察と受け入れの両方を練習した組だけ、日常の孤独感が22%下がったらしい。人との会話も1日2回、話した相手も1日1人増えて、観察だけの組やほかの組と差があったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "続く？誰にでも？",
+        "body": "測ったのは練習の直後までで、効果が続くかはわからないよ。集まったのはストレスを感じている米国ピッツバーグの大人で、とくに孤独な人を選んだわけではないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-lonely-even-with-others-company-not-cure",
+        "type": "あわせて読む",
+        "why": "人と一緒にいるだけでは孤独は和らがず、気持ちとの向き合い方を練習した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-loneliness-acceptance-practice-monitor-accept"
+  },
+  {
+    "id": "kokoro-stuck-ideas-step-away-mind-wandering",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "McDaniel C et al., \"Mind wandering during creative incubation predicts increases in creative performance in a writing task\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-09736-y",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "休憩中のぼんやりは無駄？",
+        "body": "アイデアが出なくて休憩すると、ついぼーっと関係ないことを考えちゃうよね。あれって、ただの時間のむだなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "物語を書いて、10分休んで、また書く",
+        "body": "米国の大人200人に短い物語を10分書いてもらい、10分の休憩（簡単な課題・難しい課題・瞑想・休憩なし）をはさんで、もう一度10分書いてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "さまよった人ほど発想が広がった",
+        "body": "休憩の種類による差は出なかったけど、休憩中に考えがあちこちさまよった人ほど、同じ題材で書き直したときに言葉の選び方が広がっていたらしい。新しい題材で書いた人では、この関係は見られなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人の採点では差が出なかった",
+        "body": "人が採点した創造性では差がなく、さまよった度合いも本人のふり返り。人数も条件の数にしては少なめで、関連を見たものなので、わざとぼんやりすれば発想が広がるかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "question-shower-idea",
+        "type": "反対の結果",
+        "why": "休憩中の作業の種類で差が出た実験と、差が出なかった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#kokoro-stuck-ideas-step-away-mind-wandering"
+  },
+  {
+    "id": "research-weekend-sleep-in-monday-social-jetlag-why-research-weekend-phase-delay",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Crowley & Carskadon, \"Modifications to weekend recovery sleep delay circadian phase in older adolescents\" (Chronobiology International, 2010)",
+    "sourceUrl": "https://doi.org/10.3109/07420528.2010.503293",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "週末に寝坊すると月曜がつらいのはなぜ？",
+        "body": "土日にたっぷり寝たのに、月曜の朝がいちばん眠い。実はこれ、体内時計が週末のあいだに後ろへずれてしまうからかもしれないんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "高校生の週末を再現した",
+        "body": "15〜17歳の高校生に、平日は7.5時間、週末は寝る時刻を1.5時間遅らせて9時間眠ってもらったよ。週末の前後で、眠りを促すホルモン（メラトニン）が出始める時刻を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2晩で約45分ずれた",
+        "body": "週末のあと、メラトニンの出始めは平均45分（別の実験では46分）遅れた。起きる時刻を早めて昼寝で補っても、週末の朝に1時間青い光を浴びても、ずれは同じように起きたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数はかなり少ない",
+        "body": "実験は12人と33人で、著者も別の研究室での確認が必要だと書いている。光を浴びた時間帯は遅すぎた可能性もあって、大人で同じかもまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-social-jetlag-obesity",
+        "type": "あわせて読む",
+        "why": "週末のずれが体内時計を遅らせる実験と、そのずれと体重の関係"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#research-weekend-sleep-in-monday-social-jetlag-why-research-weekend-phase-delay"
+  },
+  {
+    "id": "brain-memory-video-camera-belief",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Simons & Chabris, \"What people believe about how memory works: a representative survey of the U.S. population\" (PLoS ONE, 2011)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0022757",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "記憶はビデオみたいに残る？",
+        "body": "見たことや聞いたことは、頭の中にビデオのように記録されていて、あとで見返せる。そう思っている人、実はけっこう多いんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国で電話アンケート",
+        "body": "米国で無作為に電話をかけて1838人に答えてもらい、人口の構成に合わせて重みをつけたよ。同じ質問に、記憶の研究者16人にも答えてもらったんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "63%が「そう思う」、専門家は全員「違う」",
+        "body": "「記憶はビデオのように正確に記録される」に63%がそう思うと答えた。でも専門家16人は全員そう思わないと答えたんだって。見落としがあるし、記憶はあとの出来事でゆがむこともあるからだよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "調べたのは「思い込み」の広さ",
+        "body": "この研究が測ったのは記憶の働きではなく、人がどう思っているか。電話に答えた人の割合は低く、米国だけの話なので、日本で同じ割合かはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "hanzai-flashbulb-911",
+        "type": "あわせて読む",
+        "why": "衝撃的な出来事の記憶も、時間とともに変わっていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-memory-video-camera-belief"
+  },
+  {
+    "id": "happy-parenthood-before-after-birth",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Myrskylä & Margolis, \"Happiness: before and after the kids\" (Demography, 2014)",
+    "sourceUrl": "https://doi.org/10.1007/s13524-014-0321-x",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "子どもが生まれると、幸せになる？",
+        "body": "子どもができたら人生がもっと幸せになる、ってよく聞くよね。じゃあ、生まれる前とあとで、親の幸福度は実際どう変わるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人を何年も追いかけた",
+        "body": "イギリスとドイツで、同じ人に毎年答えてもらう大きな調査のデータを使ったよ。最初の子が生まれる前から後まで、同じ人の幸福度の動きを見たんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "上がって、また元に戻る",
+        "body": "幸福度は最初の子が生まれる前後の数年で上がり、そのあと子どもを持つ前の水準に戻っていったらしい。2人目までは上がったけど、3人目では上がらなかった。年齢が上の親や学歴の高い親ほど上がり方が大きかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "出産だけの効果かは不明",
+        "body": "幸福度は生まれる前から上がり始めていたので、出産そのものか、パートナーとの関係など子どもを持つまでの流れ全体の影響か、分けきれないよ。調べたのはイギリスとドイツの人だけなんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "happy-adaptation-marriage",
+        "type": "あわせて読む",
+        "why": "結婚や死別などの出来事でも、平均では幸福度は元の水準に戻っていった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-parenthood-before-after-birth"
+  },
+  {
     "id": "research-progressive-muscle-relaxation-stress-steps-research-pmr-vs-breathing",
     "category": "呼吸とストレス",
     "kind": "研究紹介",
@@ -5855,6 +6050,11 @@
         "id": "social-loneliness-interventions-meta",
         "type": "あわせて読む",
         "why": "人と会う機会を増やす対策は、孤独感を減らす効果が小さかった"
+      },
+      {
+        "id": "kokoro-loneliness-acceptance-practice-monitor-accept",
+        "type": "あわせて読む",
+        "why": "寂しさを受け入れる練習で、孤独感が減り人との会話が増えた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-lonely-even-with-others-company-not-cure"
@@ -20904,6 +21104,11 @@
         "id": "insight-mind-wandering-writers-physicists",
         "type": "あわせて読む",
         "why": "実験室の実験と、プロの作家・物理学者が毎日つけたアイデアの記録"
+      },
+      {
+        "id": "kokoro-stuck-ideas-step-away-mind-wandering",
+        "type": "反対の結果",
+        "why": "休憩の作業の種類では差がなく、さまよった度合いと関係した実験"
       }
     ]
   },
@@ -26884,6 +27089,11 @@
         "id": "happy-lottery-wealth",
         "type": "あわせて読む",
         "why": "人は出来事に慣れて元に戻るのか。結婚で調べた研究"
+      },
+      {
+        "id": "happy-parenthood-before-after-birth",
+        "type": "あわせて読む",
+        "why": "子どもが生まれる前後も、幸福度は上がってから元に戻っていた"
       }
     ]
   },
@@ -31026,7 +31236,14 @@
     "articleUrl": "https://hanzai.seadice.win/flashbulb-memory-accuracy/",
     "articleSite": "犯罪と心理",
     "webUrl": "https://seadice.win/evidence/memory/#hanzai-flashbulb-911",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "brain-memory-video-camera-belief",
+        "type": "あわせて読む",
+        "why": "63%が記憶はビデオのようと思っていたが、専門家は全員否定"
+      }
+    ]
   },
   {
     "id": "hanzai-deepfake-fake-movie",
@@ -37145,6 +37362,11 @@
         "id": "circadian-daylight-saving-heart-attack-meta",
         "type": "あわせて読む",
         "why": "時計の1回の切りかえと、毎週の平日と休日のずれ。体内時計のずれの2つの形"
+      },
+      {
+        "id": "research-weekend-sleep-in-monday-social-jetlag-why-research-weekend-phase-delay",
+        "type": "あわせて読む",
+        "why": "週末の寝坊で、高校生の体内時計が2晩で約45分遅れた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/circadian-social-jetlag-obesity/"
