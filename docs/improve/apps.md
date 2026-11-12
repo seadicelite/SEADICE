@@ -46,6 +46,8 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 
 ## 次にやること
 
+1. **LIFE is RPG ドット調版（1.2.0予定）をリリースするとき**（2026-11-12 critic 役）: ①p/privacy/lifeisrpg/ の「Google Fonts を読み込む」を消す（書体は同梱にした）②Web版 p/lifeisrpg/ を作り直すか決める（作り直すと DotGothic16＋NotoSansJP で重い。作らないならアプリと見た目がずれる）③シミュで動かしたので ipa 前に flutter clean
+1. **スーパーの野菜の目利き（写真で「どちらが新鮮？」）は新規アプリにしない**（2026-11-12 market・business・appstore-review・brand）: 野菜まるごと検定と同じ型で 4.3 の見込み高、払う人も見当たらない（同分野は評価0〜2件）。順番は ①サイトに10品目の read ページ（自分で買って0・3・7日目に同条件で撮った写真＋出典＋5問）②Search Console と ct=seadice の数字が出たら、1.2.3 提出後の野菜まるごと検定に「スーパーで選ぶ」モードと季節パック（買い切り160円／全部480円、サブスクにしない）。名前は「新鮮」に絞り「美味しい・甘い」は言い切らない。見分け方は 鮮度（出典あり）／美味しさ（品目ごとに確認）／経験則（未確認と書く）の3段で、既存の「新鮮な野菜の選び方」カテゴリにも出典を付け source-check に通す。（README は直した）。同日、ユーザーの方針で買う人（内部の票では主婦）向けに育てると決め、設計は yasai_kentei/TARGET.md・DESIGN.md。順番: 1.2.3 提出 → 1.3.0（売り場カード・選ぶ/覚える/設定・ライト固定・ウィジェット。名前は変えない）→ 数字を見て名前・課金
 1. **いきみチェックの Apple Watch 版は、最初の100人の声を見てから**（2026-11-11 platform 役）: レビュー・要望に「画面を点けたままがつらい」「ウォッチで」が出たら着手。設計は ~/Developer/女性の健康系/pelvic_guide/DESIGN.md「端末・面」
 1. **設定の「App Storeで評価する」が `requestReview()` を呼んでいるアプリを直す**（2026-11-11 neuro 役）: Apple の規定でボタンからは呼ばない（押しても何も起きないことがある）。`grep -rn "requestReview" ~/Developer --include=*.dart` で設定のボタンを探し、write-review の URL（`https://apps.apple.com/app/id{ID}?action=write-review`）に変える。改修のついでに、広める・評価してもらう仕組みの4つもそろえる
 1. **docs/neuro.md に「レビューの頼み方」の行を足す**（2026-11-11 neuro 役）: Burtch ほか 2018（見返りで件数は増えるが短くなる）・Rains 2013（反発のメタ分析）・Hu ほか 2009（J字型の分布）を source-check に通してから
