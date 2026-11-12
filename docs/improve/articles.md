@@ -16,11 +16,13 @@ docs/writing.md
 1. 題名以外の重複を確かめる方法を、必要が出たときに決める
 
 ### ルールの変更履歴
+- 2026-11-12: seadice-media docs/quality/article.md に「書く前に、狙う検索語の上位を1回見る」を追加（上位にあって自分にないもの・上位にない一次情報を1つ決める）。順位を取りに行く手順がどこにもなかったため
 - 2026-11-11: 点検から「外部リンク切れ（HEAD）」を削った（実行環境から外部サイトに届かず確かめられない。外部リンクは6本のみ）
 - 2026-11-11: docs/writing.md のチェックリスト tool-cta に「リンク先は今 p/ にあるページだけ（未公開アプリは張らない）」を追記（canvaskit-13-apps-400mb が未公開の toite の紹介ページ /apps/toite/ に張っていてリンク切れだったため）
 
 
 古い記録は [log/articles.md](log/articles.md)。
+- 2026-11-12: kosodate が「AI時代の子育て」で上位に出ない件。原因は公開6週・広い言葉で大手と競合・自動執筆が上位を見ずに書いていたこと。日本語の上位が宣伝・会社員向け記事だけの3問を選び、既存記事に確かめた表を足した（ai-age-for-kids: サービス別の利用年齢5社、child-told-ai-name-school-privacy: 入力後の削除・学習オフ・保存期間3社、ai-chatbot-worry-consultation-safety: Common Sense Media の年齢別の勧め＋日本の相談窓口3つ）。source-check で誤り0・ずれ1（Gemini の地域差）を直して公開（seadice-media 48630cfd1b）
 ## 良い状態（docs/writing.md）
 - h1直後と各h2直下に結論、数値に出典リンク、末尾に tool-cta
 - JSON-LD に BlogPosting（publisher は `"@id":"https://seadice.win/#organization"`）と BreadcrumbList
@@ -39,6 +41,7 @@ docs/writing.md
 - 記事の中身の書き換え、記事の統合・削除・noindex
 
 ## 次にやること
+1. **kosodate の強化3本が効いたか見る（2026-12-15ごろ）**: Search Console で「子ども ChatGPT 何歳から」「子ども AI 個人情報 入力」「子ども AI 悩み相談」の順位・クリックと、ChatGPT・Perplexity に同じ問いを聞いて kosodate が引用されるかを見る。効いていれば同じ型（確かめた表）を AI×子どもの他の問いへ広げる
 1. **ai.seadice.win の分野「Web・検索の変化」を続けるか決める（2026-12-31）**: 11-03に3本公開＋既存2本を移した。Search Console でこの5本のクリックが出ているか、月1回のAIへの質問（「検索がAI記事だらけなのはなぜ」「AI要約でブログのアクセスが減った」）で ai.seadice.win が出るかを見る。どちらもなければ増やさない。出ていれば残りのマス（立て直す・起きた/知るの2本目）を埋める
 1. **日誌（daily-YYYY-MM-DD）の扱いを決める**: 6件が sitemap・blog 一覧にある。検索から外す（noindex＋sitemap 除外）か残すかを、Search Console の表示回数を見て判断する（2026-11上旬のCSVと一緒に）
 
