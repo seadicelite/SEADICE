@@ -1,5 +1,172 @@
 [
   {
+    "id": "dokugaku-why-self-handicapping-before-exam-academic-performance",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Gadbois & Sturgeon, \"Academic self-handicapping: Relationships with learning specific and general self-perceptions and academic performance over time\" (British Journal of Educational Psychology, 2011)",
+    "sourceUrl": "https://doi.org/10.1348/000709910X522186",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "試験前に限って片付けたくなる",
+        "body": "試験が近いのに部屋の掃除や夜更かし。失敗しても「準備してなかっただけ」と思える言い訳を、前もって作っているのかもしれない。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生209人を調べた",
+        "body": "カナダの大学で心理学の授業を受けていた209人に、こうした「言い訳づくり」の傾向を聞き、授業の3回のテストの点と比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "傾向が強いほど点が低い",
+        "body": "傾向が強い学生ほど、テストへの不安が強く、勉強のしかたが表面的で、3回のテストすべてで点が低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因とまでは言えない",
+        "body": "質問紙と成績の関係を見た研究で、言い訳づくりが点を下げたとは言い切れない。説明できた点の差も小さかった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-self-handicapping-before-exam-academic-performance"
+  },
+  {
+    "id": "kokoro-ai-consult-limits-know-first-boundary-message",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Zhang Z et al., \"Privacy assurances and professional-boundary warnings in generative AI mental health chatbots: a randomized vignette experiment on calibrated trust, overreliance risk, and professional help-seeking intentions\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1934264",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIの注意書き、意味ある？",
+        "body": "AIに悩みを話すと「専門家の代わりではありません」って出ることがあるよね。あの一文、読む人の気持ちを何か変えているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "768人に4通りの説明",
+        "body": "中国の研究チームが大学生768人に、大学が用意した悩み相談AIの場面を想像してもらったんだ。説明文を4通りに分けて、限界を伝える一文があるかないかで比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頼りすぎの見込みが下がった",
+        "body": "限界の一文だけを読んだ組は、何もない組と比べて、頼りすぎる見込みが5段階で3.10から2.66に下がり、専門家に相談する気持ちは3.34から3.77に上がったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "想像の場面での答え",
+        "body": "実際にAIと話したわけじゃなくて、想像の場面での回答なんだ。本当に相談の行動が変わるかは、まだ調べられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-consult-limits-know-first-boundary-message"
+  },
+  {
+    "id": "kokoro-ai-faster-but-more-tired-misinfo-fatigue",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Zhao & Liu, \"Risk perception and generative AI discontinuance intention: mediating effect of cognitive fatigue and moderating effect of AI dependence\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1879080",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIの「間違い探し」で疲れる？",
+        "body": "AIの答えって、もっともらしいけど本当に合ってるのか気になるよね。その心配で疲れてしまう人はいるのか、中国の研究チームが生成AIの利用者に聞いてみたらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "426人へのアンケート",
+        "body": "ネットで集めた生成AIの利用者426人に、AIのまちがった情報への心配、まちがった情報への疲れ、AIへの不安、使うのをやめたい気持ちをたずねた。8割が18〜25歳だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "心配が強いほど、疲れも強い",
+        "body": "まちがった情報を心配する人ほど、そのことに疲れている傾向があった。その疲れが強い人ほどAIへの不安も強く、不安が強い人ほど、AIをやめたい気持ちも強かったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "一度きりのアンケートなので、疲れが不安を生むのか、不安だから疲れるのかはわからない。若い人が多く、働く人全体に当てはまるかもまだわかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-ai-fear-hesitant-to-use-14-week-course",
+        "type": "あわせて読む",
+        "why": "AIへの不安について、授業で14週間使っても不安は変わらなかった研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-faster-but-more-tired-misinfo-fatigue"
+  },
+  {
+    "id": "alcohol-women-higher-blood-alcohol",
+    "category": "お酒の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#D97706",
+    "sourceLabel": "Baraona et al., \"Gender differences in pharmacokinetics of alcohol\" (Alcoholism: Clinical and Experimental Research, 2001)",
+    "sourceUrl": "https://doi.org/10.1111/j.1530-0277.2001.tb02242.x",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "同じ量でも、女性のほうが酔いやすい？",
+        "body": "同じだけ飲んでも、女性のほうが血中のアルコール濃度が高くなりやすいと言われるよね。体が小さいからだけなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "飲んだときと点滴で比べた",
+        "body": "アメリカの研究チームが、健康な男女65人に体重1kgあたり0.3gのアルコールを食後に飲んでもらい、同じ量を点滴したときと比べて、胃でどれだけ分解されるかを調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "女性は胃での分解が少なかった",
+        "body": "濃さ10%や40%のお酒では、女性は胃で分解される量が男性より少なかった（5%では差なし）。体の大きさの差もあったけど、主な理由は胃の分解の少なさだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "食後の1回、少なめの量の話",
+        "body": "調べたのは食後に少なめの量を1回飲んだときで、人数も65人。見たのは血中のアルコール濃度と胃の働きで、酔った感じや体への害そのものではないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-women-higher-blood-alcohol"
+  },
+  {
+    "id": "kosodate-infant-cry-carry-walk",
+    "category": "子育ての科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Ohmura et al., \"A method to soothe and promote sleep in crying infants utilizing the transport response\" (Current Biology, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.cub.2022.08.041",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "抱っこして歩くと泣き止むのはなぜ？",
+        "body": "泣いている赤ちゃん、抱っこして座っているより、歩きまわったほうが落ち着く気がするよね。それって気のせいなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "心拍と動きを細かく測った",
+        "body": "日本の理化学研究所のチームが、母親が抱っこして歩く・座ったまま抱く・寝かせるといった場面で、赤ちゃんの心拍や泣き方、眠りを細かく測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "歩くと泣きが弱まった",
+        "body": "抱っこして歩くか、動くベッドで揺らすと泣きは弱まったけど、座って抱くだけでは弱まらなかった。泣いていた子は5分歩くと、昼間でも眠りやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "おすすめの手順はまだ仮のもの",
+        "body": "研究から「5分歩いて、5〜8分座ってから寝かせる」という手順が出たけど、著者も今後の研究で確かめる必要があるとしている。泣きや眠りが長く改善するかは見ていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-infant-cry-carry-walk"
+  },
+  {
     "id": "dokugaku-why-studying-feels-effortful-mental-effort-thinking-feels-unpleasant",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -2193,7 +2360,14 @@
         "body": "34人だけで、使わなかった人と比べる組もない研究。もっと長く使えば不安が下がるのかは、まだわかっていないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-fear-hesitant-to-use-14-week-course"
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-fear-hesitant-to-use-14-week-course",
+    "links": [
+      {
+        "id": "kokoro-ai-faster-but-more-tired-misinfo-fatigue",
+        "type": "あわせて読む",
+        "why": "AIへの不安が強い人ほど、使うのをやめたい気持ちも強かった調査"
+      }
+    ]
   },
   {
     "id": "kokoro-ai-use-life-satisfaction-hongkong",
