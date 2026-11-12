@@ -7,7 +7,6 @@ Claude やルーティンではできないこと（アカウントにログイ�
 
 ## 未対応
 - [ ] 近いうちに | アプリ | LIFE is RPG（~/Developer/生産性系/life_is_rpg）にウィジェットを足したので署名を通す: Xcode で `ios/Runner.xcworkspace` を開き、Runner と MatrixWidget の「Signing & Capabilities」でチーム S5SK25MHJG・自動署名のまま App Groups に `group.win.seadice.lifeIsRpg` が付くのを確かめる（拡張の App ID は win.seadice.lifeIsRpg.MatrixWidget）。済んだら Claude に「署名できるようにした」と伝える — App Group 入りのプロファイルがないと ipa が書き出せないため（2026-11-12）
-- [ ] すぐ | アプリ | 生写真専用トレードプロフィール帳（iOS）のため、Firebase コンソールで namashashin-profile を Blaze に切り替え、予算アラートを月1,000円に設定する。済んだら Claude に「Blaze にした」と伝える — 課金の確認・課金が切れた人の7日後の削除・表の一覧を1日1回JSONに書き出す処理をサーバー（Cloud Functions）で動かすため。今の Web は表を開くたびに最大2,000件読み、無料枠が1日25回ほどの訪問で尽きる（2026-11-12）
 - [ ] すぐ | アプリ | 骨盤底筋の締め方 いきみチェック（新規、~/Developer/女性の健康系/pelvic_guide）の署名を通す: Xcode で `ios/Runner.xcworkspace` を開き、Runner と IkimiWidget の「Signing & Capabilities」でチーム S5SK25MHJG・自動署名のまま App Groups に `group.win.seadice.ikimiCheck` が付くのを確かめる（Xcode にアカウントが入っていなければ 設定 → Accounts でログイン）。済んだら Claude に「署名できるようにした」と伝える — ターミナルの xcodebuild が「No Accounts」で App Group 入りのプロファイルを作れず、ipa が書き出せないため。App Store Connect では新規アプリの作成と、App内課金（消耗型）3つ win.seadice.ikimiCheck.tip.small／medium／large（160・480・1,200円）を作ってバージョンに添付する。あわせて「Apple シリコン搭載 Mac で提供」がオンか確かめ、「おすすめ」（注目への推薦）を申請する。アプリを作ったら App Store の ID（数字）を Claude に伝える（紹介・レビューのカードと評価ボタンはIDがないと出ない）（2026-11-11）
 - [ ] 近いうちに | アプリ | 栽エンサーの Firebase（saiencer）を止めて費用を0にする: コンソール → プロジェクトの設定 → プロジェクトを削除（テストデータだけで、土壌診断ノートには新規プロジェクトを使うため）。Gmail のアプリ パスワードを通報メール用に作っていたら Google アカウントで取り消す（2026-11-10）
 
