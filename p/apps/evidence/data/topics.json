@@ -1,5 +1,200 @@
 [
   {
+    "id": "research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Schuenemann et al., \"“I’ll Worry About It Tomorrow” – Fostering Emotion Regulation Skills to Overcome Procrastination\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.780675",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "先延ばしは時間管理の問題？",
+        "body": "先延ばしって、計画が下手だから起きると思われがち。でも研究者の間では、作業で湧く不安やうんざり感から逃げる行動だ、という見方が強いんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "気持ちの扱い方を9週間練習",
+        "body": "ドイツの大学生など148人をくじで2つに分けて、片方だけ9週間、嫌な気分を受け止めて、耐えて、変える練習をオンラインでしてもらったよ。もう片方は順番待ち。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "先延ばしの点数が下がった",
+        "body": "練習した人は、順番待ちの人より先延ばしの点数（本人の自己評価）がはっきり下がった。気持ちを扱う力が伸びた人ほど、先延ばしが減っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "思い込みの効果は消せていない",
+        "body": "比べた相手は何もしない順番待ちで、参加した人も練習の狙いを知っていた。先延ばしは本人の自己評価で、心理学の学生が多く、練習直後しか測っていない。効果が続くかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "procrastination-metaanalysis",
+        "type": "あわせて読む",
+        "why": "先延ばしと結びつく要因のまとめ。こちらは気持ちの扱い方を練習で変えた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct"
+  },
+  {
+    "id": "research-dehydration-thirst-focus-why-research-thirst-speed",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Edmonds CJ et al., \"Subjective thirst moderates changes in speed of responding associated with water consumption\" (Frontiers in Human Neuroscience, 2013)",
+    "sourceUrl": "https://doi.org/10.3389/fnhum.2013.00363",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "水を飲むと頭がシャキッとする？",
+        "body": "集中したいときに水を飲むといい、ってよく聞くよね。でも、だれが飲んでも同じように効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "朝まで水を飲まずに来てもらった",
+        "body": "英国の大人34人に、前の晩から飲み食いをやめて来てもらい、朝に水500mlを飲む日と飲まない日で、合図にボタンを押す速さなどを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "速くなったのは、のどが渇いていた人だけ",
+        "body": "水を飲んだ日は反応が速くなった。でもそれは、のどが強く渇いていた人だけで、渇いていない人は飲んでも変わらなかったらしい。渇きそのものが注意を使っているのかも。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "水で悪くなった課題もあった",
+        "body": "ルールを切り替える課題では、一部の人で水を飲んだ日のほうが成績が低かった。34人の短い実験で、渇きが注意を使うという説明も直接は測っていない。どんな作業に効くかはまだはっきりしないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-dehydration-cognition",
+        "type": "あわせて読む",
+        "why": "水分不足と頭の働きのまとめ。こちらは渇きの強さで差が出た実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-dehydration-thirst-focus-why-research-thirst-speed"
+  },
+  {
+    "id": "research-low-confidence-task-procrastination-why-research-faculty-tracking",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Hall NC et al., \"Self-efficacy, procrastination, and burnout in post-secondary faculty: An international longitudinal analysis\" (PLoS ONE, 2019)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0226716",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自信がつけば先延ばしは減る？",
+        "body": "「できる気がしない」作業ほど後回しにしちゃうよね。だったら自信さえつけば先延ばしも減るはず、と考えたくなる。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学の先生3,071人を3回追跡",
+        "body": "研究者が69か国の大学教員3,071人（7割が女性）に、5〜6か月おきに3回、自信・先延ばし・心の疲れを答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係はあるけど、向きは見えなかった",
+        "body": "自信が高い人ほど先延ばしは少なかった。でも「自信が先に変わって先延ばしが減る」という向きは見つからなかった。代わりに、心の疲れがあとの先延ばしを増やし、それがさらに疲れを強める流れが見えたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "疲れの影響も小さい",
+        "body": "全部が自己申告で、見つかった影響も弱いものだった。大学教員以外にも当てはまるのか、実験で確かめた研究ではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "procrastination-metaanalysis",
+        "type": "あわせて読む",
+        "why": "自信と先延ばしの結びつきのまとめ。こちらは時間を追って向きを調べた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-low-confidence-task-procrastination-why-research-faculty-tracking"
+  },
+  {
+    "id": "replication-watching-eyes-dictator-game",
+    "category": "心理学の再現性",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Rotella A, Sparks AM, Mishra S, Barclay P, \"No effect of 'watching eyes': An attempted replication and extension investigating individual differences\" (PLoS ONE, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0255531",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "目の絵があると、人は親切になる？",
+        "body": "目の絵や写真を貼っておくと、人は見られている気がして気前よくなる。「目の効果」と呼ばれて、よく紹介される話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カナダの学生330人で追試",
+        "body": "事前に計画を登録したうえで、カナダの2つの大学の学生330人を、目の絵あり・なし・決めた内容が公開される、の3組にくじで分けた。10ドルを相手とどう分けるかを選んでもらったんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "目の絵でも公開でも、増えなかった",
+        "body": "目の絵があっても、分ける金額は増えなかった。決めた内容が公開される組は「見られている」と強く感じていたのに、それでも金額は変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな効果なら見逃したかも",
+        "body": "著者によると、小さな効果があっても見つけられる見込みは4割ほどの人数だった。実験室のお金の分け方の話で、悪いことを減らす場面でも同じかはこの研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "bohan-watching-eyes-bike-theft",
+        "type": "反対の結果",
+        "why": "気前よさの実験では効かなかったが、駐輪場では盗難が減ったという報告"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#replication-watching-eyes-dictator-game"
+  },
+  {
+    "id": "sleep-earplugs-eye-mask-review",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Locihová H et al., \"Effect of the use of earplugs and eye mask on the quality of sleep in intensive care patients: a systematic review\" (Journal of Sleep Research, 2018)",
+    "sourceUrl": "https://doi.org/10.1111/jsr.12607",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "耳栓をして寝ると、よく眠れる？",
+        "body": "物音で目が覚めるなら、耳栓をすればいいのでは。手軽だけど、本当に眠りは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "19の研究、1,379人をまとめた",
+        "body": "研究者が、耳栓とアイマスクで眠りが変わるかを調べた19の研究（合わせて1,379人）を集めて整理したんだ。集中治療室の患者さんの研究が中心で、それ以外の人の実験も入っているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「よく眠れた」と感じる人は増えた",
+        "body": "多くの研究で、耳栓とアイマスクを使うと、本人が感じる眠りの質がはっきり良くなった。ただ、機械で測った眠りの変化は確かめられていないらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "病院の騒がしい夜の話が中心",
+        "body": "中心は集中治療室という明るくうるさい場所で、眠りの測り方も研究ごとにばらばら。耳栓だけの効果や、静かな自宅の寝室でも同じかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-eye-mask-memory",
+        "type": "あわせて読む",
+        "why": "アイマスクだけを健康な人で試した実験。こちらは病院での耳栓とアイマスク"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-earplugs-eye-mask-review"
+  },
+  {
     "id": "research-emotional-contagion-others-mood-why-research-empathic-stress",
     "category": "対人関係の心理学",
     "kind": "素朴な疑問",
@@ -22507,6 +22702,16 @@
         "id": "procrastination-genetics-impulsivity",
         "type": "あわせて読む",
         "why": "先延ばしと衝動性の強い関係を、遺伝の面から説明する"
+      },
+      {
+        "id": "research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct",
+        "type": "あわせて読む",
+        "why": "先延ばしと結びつく要因のまとめ。こちらは気持ちの扱い方を練習で変えた"
+      },
+      {
+        "id": "research-low-confidence-task-procrastination-why-research-faculty-tracking",
+        "type": "あわせて読む",
+        "why": "自信と先延ばしの結びつきのまとめ。こちらは時間を追って向きを調べた"
       }
     ]
   },
@@ -26604,6 +26809,11 @@
         "id": "myth-water-8-glasses",
         "type": "あわせて読む",
         "why": "水分は渇いたら飲めば足りるが、不足すると頭の働きは落ちる"
+      },
+      {
+        "id": "research-dehydration-thirst-focus-why-research-thirst-speed",
+        "type": "あわせて読む",
+        "why": "水分不足と頭の働きのまとめ。こちらは渇きの強さで差が出た実験"
       }
     ]
   },
@@ -29514,6 +29724,11 @@
         "id": "bohan-cctv-meta",
         "type": "あわせて読む",
         "why": "本物のカメラでなく「目の絵」でも、見られている感覚が働くかを試した実験"
+      },
+      {
+        "id": "replication-watching-eyes-dictator-game",
+        "type": "反対の結果",
+        "why": "気前よさの実験では効かなかったが、駐輪場では盗難が減ったという報告"
       }
     ]
   },
@@ -40427,6 +40642,11 @@
         "id": "sleep-light-on-insulin",
         "type": "あわせて読む",
         "why": "寝ている間の明かりが体に与える影響を調べた実験"
+      },
+      {
+        "id": "sleep-earplugs-eye-mask-review",
+        "type": "あわせて読む",
+        "why": "アイマスクだけを健康な人で試した実験。こちらは病院での耳栓とアイマスク"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-environment/sleep-eye-mask-memory/"
