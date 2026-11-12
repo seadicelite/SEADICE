@@ -1,5 +1,191 @@
 [
   {
+    "id": "dokugaku-ai-answer-fact-check-table-ai-factcheck",
+    "category": "AIとのつきあい方",
+    "kind": "よくある説",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "DeVerna et al., \"Fact-checking information from large language models can decrease headline discernment\" (PNAS, 2024)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2322823121",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "本当かどうかはAIに聞けばいい",
+        "body": "ニュースや情報が本当か迷ったら、AIに確かめてもらえば安心。そう思って使っている人、多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2,159人にAIの判定を見せた",
+        "body": "米国の研究で、本当と嘘が半分ずつの政治ニュース40本を見せた。ChatGPTの事実確認を見る人、人が書いた事実確認を見る人などに、くじで分けて比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見分ける力は上がらなかった",
+        "body": "AIは嘘のニュースの90%を見抜いたのに、AIの判定を見た人は本当と嘘の見分けがよくならなかった。AIが本当のニュースを嘘と誤ると、それも信じにくくなった。人の事実確認を見た人は見分けがよくなった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "今のAIや勉強でも同じ？",
+        "body": "米国の2,159人に、ChatGPT（3.5）と政治ニュースで試した結果。新しいAIや、勉強の内容を確かめるときに同じ結果になるかは、まだ確かめられていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "ai-true-news-skepticism",
+        "type": "あわせて読む",
+        "why": "人はもともと本当のニュースを疑いすぎがち。AIの誤判定がそれを強めることがある"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#dokugaku-ai-answer-fact-check-table-ai-factcheck"
+  },
+  {
+    "id": "dokugaku-exercise-study-weekly-plan-sheet-exercise-timing",
+    "category": "運動と記憶",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Loprinzi et al., \"The Temporal Effects of Acute Exercise on Episodic Memory Function: Systematic Review with Meta-Analysis\" (Brain Sciences, 2019)",
+    "sourceUrl": "https://doi.org/10.3390/brainsci9040087",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "歩きながら覚えると頭に入る？",
+        "body": "ランニングマシンで歩きながら単語を覚えると、体も頭も一度に鍛えられて効率がいい。そんな話を聞くよね。でも、運動するタイミングで記憶への効き方は変わるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "25本の論文をまとめた分析",
+        "body": "Loprinziらは2019年、1回の運動と記憶の研究25本をまとめた。運動したのが覚える前か、覚えている最中か、覚えた後かで分けて比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "覚えた後の運動の方がよかった",
+        "body": "覚えた直後に運動すると記憶がよくなった（d=0.47）。一方、覚えながら運動すると、わずかに悪くなった（d=−0.12）。歩くなら、覚え終わってからの方がよさそう。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "覚えた後の研究はまだ少ない",
+        "body": "覚えた後に運動した研究は数が少なく、効果が出た研究ほど発表されやすい偏りも見られたと著者ら自身が書いている。調べたのは1回だけの運動で、毎日の運動の話ではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-memory",
+        "type": "あわせて読む",
+        "why": "覚えた後の運動の効果を、まとめの分析と1つの実験で比べられる"
+      },
+      {
+        "id": "exercise-timing-encoding",
+        "type": "反対の結果",
+        "why": "1つの実験では覚える前の運動が効いたが、まとめると覚えた後の方が大きかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#dokugaku-exercise-study-weekly-plan-sheet-exercise-timing"
+  },
+  {
+    "id": "dokugaku-gesture-vocabulary-learning-observe-vs-enact",
+    "category": "言葉と外国語",
+    "kind": "研究紹介",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Oppici et al., \"Benefits of Enacting and Observing Gestures on Foreign Language Vocabulary Learning: A Systematic Review and Meta-Analysis\" (Behavioral Sciences, 2023)",
+    "sourceUrl": "https://doi.org/10.3390/bs13110920",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "単語は自分で手を動かさないとダメ？",
+        "body": "外国語の単語を、意味に合った身ぶりをしながら覚える方法がある。でも、自分で体を動かすのと、人の身ぶりを見るだけでは、どれくらい違うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7件の実験・309人をまとめた",
+        "body": "Oppiciらは、自分で身ぶりをする覚え方と、見るだけの覚え方を比べた7件の実験（計309人）をメタ分析した。7件中6件は大学生などの成人だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見るだけでも、ほぼ同じだった",
+        "body": "2つの覚え方の差はほとんどなかった（効果量0.05）。人前で体を動かしにくいときは、身ぶりを見るだけでもよさそう、という結果だ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「身ぶりなし」とは比べていない",
+        "body": "この分析は、身ぶりをしない覚え方とは比べていない。研究ごとの結果のばらつきも大きく、著者らは、もっと長い期間・多い人数での研究が必要だとしている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-gesture-vocabulary-learning-observe-vs-enact"
+  },
+  {
+    "id": "aging-new-skill-synapse-memory",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Park et al., \"The impact of sustained engagement on cognitive function in older adults: the Synapse Project\" (Psychological Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/0956797613499592",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとってから新しいことを習うと、記憶にいい？",
+        "body": "親が年をとってきたら、何か新しい趣味を始めてほしい。そう思う人は多いよね。じゃあ、新しいことを習うのは、本当に記憶の助けになるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3か月、キルトや写真を習った",
+        "body": "Parkらは高齢の人をくじでグループに分けた。キルト作り、デジカメ写真、その両方を習う人たちは、週に平均16.5時間ほどを3か月続けた。比べたのは、集まって交流するだけの人たちと、一人で簡単な作業をする人たち。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "むずかしい新しい技術で記憶がよくなった",
+        "body": "3か月後、新しい技術を習ったグループは、出来事の記憶（エピソード記憶）がよくなった。意外にも、集まって交流するだけのグループでは、頭への効果はあまり見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "終わった直後の話",
+        "body": "測ったのは3か月が終わった直後で、その後も続くか、認知症を防ぐかはわからない。週16時間以上というかなりの量で、ふだんの趣味くらいの量で同じになるかも確かめられていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#aging-new-skill-synapse-memory"
+  },
+  {
+    "id": "love-partner-photo-pain-relief",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Younger et al., \"Viewing pictures of a romantic partner reduces experimental pain: involvement of neural reward systems\" (PLoS ONE, 2010)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0013309",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "恋人の写真を見ると、痛みがやわらぐ？",
+        "body": "つらいとき、好きな人の顔を思い浮かべると少し楽になる気がする。そんな経験、ないかな。実はこれ、痛みで確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "付き合って9か月以内の15人",
+        "body": "Youngerらは、新しい恋愛を始めて9か月以内の15人に、熱い刺激で痛みを感じてもらった。そのあいだに恋人の写真、同じくらい魅力的で顔見知りの知人の写真、言葉の連想ゲームの3つを試し、脳の働きをfMRIで見た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "恋人の写真で、痛みが軽くなった",
+        "body": "恋人の写真を見ると、感じる痛みは軽くなった。ただ、言葉の連想ゲームで気をそらしても軽くなった。違ったのは脳で、恋人の写真のときだけ「ごほうび」に関わる場所が働いていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "恋愛初期の15人、実験室の痛み",
+        "body": "調べたのは恋愛を始めたばかりの15人だけで、痛みも実験用の熱い刺激。長く付き合っている人や、ふだんのけがや病気の痛みで同じになるかは、まだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-handholding-emotional-pain",
+        "type": "あわせて読む",
+        "why": "恋人の写真を見る研究と、手を握ってもらう研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-partner-photo-pain-relief"
+  },
+  {
     "id": "research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct",
     "category": "先延ばし対策",
     "kind": "よくある説",
@@ -3208,6 +3394,11 @@
         "id": "umbra-couple-touch-daily",
         "type": "あわせて読む",
         "why": "実験室で手を握った研究と、カップルが毎日の触れあいと気分を記録した研究"
+      },
+      {
+        "id": "love-partner-photo-pain-relief",
+        "type": "あわせて読む",
+        "why": "恋人の写真を見る研究と、手を握ってもらう研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/love/#love-handholding-emotional-pain"
@@ -21597,6 +21788,11 @@
         "id": "exercise-timing-encoding",
         "type": "あわせて読む",
         "why": "運動は覚える前か4時間後か、タイミング別の結果を比べられる"
+      },
+      {
+        "id": "dokugaku-exercise-study-weekly-plan-sheet-exercise-timing",
+        "type": "あわせて読む",
+        "why": "覚えた後の運動の効果を、まとめの分析と1つの実験で比べられる"
       }
     ]
   },
@@ -23079,6 +23275,11 @@
         "id": "exercise-light-10min-hippocampus",
         "type": "あわせて読む",
         "why": "覚える前に体を動かす効果を、別の方法で調べた研究"
+      },
+      {
+        "id": "dokugaku-exercise-study-weekly-plan-sheet-exercise-timing",
+        "type": "反対の結果",
+        "why": "1つの実験では覚える前の運動が効いたが、まとめると覚えた後の方が大きかった"
       }
     ]
   },
@@ -29101,7 +29302,14 @@
     "articleUrl": "https://ai.seadice.win/fake-news-distrust-everything/",
     "articleSite": "AI時代の困りごと",
     "webUrl": "https://seadice.win/evidence/decision-bias/#ai-true-news-skepticism",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "dokugaku-ai-answer-fact-check-table-ai-factcheck",
+        "type": "あわせて読む",
+        "why": "人はもともと本当のニュースを疑いすぎがち。AIの誤判定がそれを強めることがある"
+      }
+    ]
   },
   {
     "id": "umbra-serial-infidelity",
