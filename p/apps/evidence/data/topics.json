@@ -1,5 +1,198 @@
 [
   {
+    "id": "dokugaku-interest-first-study-motivation-passion-grows",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Chen et al., \"Fanning the Flames of Passion: A Develop Mindset Predicts Strategy-Use Intentions to Cultivate Passion\" (Frontiers in Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.634903",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "熱意は「見つけるもの」？",
+        "body": "好きなことを見つければ、勉強も仕事も続く。そうよく言われるよね。でも、熱意って最初から決まっているものなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "熱意が増えた理由を聞いた",
+        "body": "アメリカの州立大学の3〜4年生に、専攻への熱意がどう変わったかを尋ねた調査。熱意が増えたと答えた学生128人の「理由」を書いてもらい、分類したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一番多いのは「慣れたから」",
+        "body": "いちばん多かった理由は「その分野に慣れて詳しくなった」で35.2%。「もともと好きな部分に集中した」は7.0%だった。熱意は、あとから育つこともあるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の振り返りの話",
+        "body": "学生が自分で答えた理由なので、本当にそれが原因で熱意が増えたかはわからない。1つの大学のアメリカの学生の話で、社会人の独学に当てはまるかも確かめられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-interest-first-study-motivation-passion-grows"
+  },
+  {
+    "id": "dokugaku-mindfulness-before-study-focus-log-acceptance",
+    "category": "マインドフルネス",
+    "kind": "素朴な疑問",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Rahl et al., \"Brief mindfulness meditation training reduces mind wandering: The critical role of acceptance\" (Emotion, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/emo0000250",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "瞑想は「集中するだけ」でいい？",
+        "body": "瞑想って、呼吸にぐっと集中する練習だと思われがち。でも、気がそれたときの扱い方も大事らしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "147人を4つの練習に分けた",
+        "body": "アメリカの大学の近くで集めた、瞑想経験のない18〜30歳を、注意を向ける＋受け入れる練習、注意を向けるだけ、リラックス、読書の4組にくじで分け、1日20分を3日続けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「責めずに戻す」組が最少",
+        "body": "そのあと6分の注意の課題で考えごとを測ると、受け入れる練習を加えた組がいちばん少なく、注意を向けるだけの組や読書の組よりはっきり少なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強でも同じ？",
+        "body": "リラックスの組との差ははっきりしなかった。分析したのは142人の若い大人で、測ったのは6分の単純な課題。実際の勉強の集中や成績が変わるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-loneliness-acceptance-practice-monitor-accept",
+        "type": "あわせて読む",
+        "why": "同じ「見守る＋受け入れる」練習で、孤独感が減るかを調べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#dokugaku-mindfulness-before-study-focus-log-acceptance"
+  },
+  {
+    "id": "dokugaku-note-review-hide-and-recall-sheet-group-review",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Wei et al., \"Collaborative review enhances note-taking, especially after a longer delay, but does not boost test performance\" (Memory, 2025)",
+    "sourceUrl": "https://doi.org/10.1080/09658211.2025.2573272",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ノートはみんなで見せ合うと強くなる",
+        "body": "友だちとノートを見せ合って、抜けている所を埋める。テスト前によくやるし、効きそうだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1人とグループで見直しを比べた",
+        "body": "学生が2本の講義を見てノートを取り、少しあとか、長く時間をおいてから、1人またはグループでノートを見直して書き足した。そのあと講義ごとにテストを受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ノートは充実、でも点は同じ",
+        "body": "グループで見直した方がノートに書き足した要点は多く、時間をおいた後ほど差が大きかった。でも、最後のテストの成績はよくならなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何が点につながるのか",
+        "body": "ノートが充実しても点が上がらなかった理由は、まだわかっていない。学生の実験で講義は2本だけ。著者らも、ほかの要因を考える必要があるとしているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-group-study-not-sticking-fix-collaborative-recall",
+        "type": "あわせて読む",
+        "why": "ノートを見直す代わりに、2人で思い出す練習の効き目を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-note-review-hide-and-recall-sheet-group-review"
+  },
+  {
+    "id": "laughter-fake-laugh-voice-21-societies",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Bryant et al., \"The Perception of Spontaneous and Volitional Laughter Across 21 Societies\" (Psychological Science, 2018)",
+    "sourceUrl": "https://doi.org/10.1177/0956797618778235",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "愛想笑いは、声だけでバレる？",
+        "body": "顔が見えない電話でも、相手が本当に笑っているかは何となくわかる気がするよね。声だけで、本気の笑いと愛想笑いは聞き分けられるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21の社会で884人が聞いた",
+        "body": "英語を話す女性の笑い声36個（自然に出た笑いと、わざと出した笑い）を、6つの地域・21の社会の884人に聞かせて、本物か作り物かを答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "当たるのは56〜69%",
+        "body": "どの社会でも、当てずっぽうよりは聞き分けられ、正解は56〜69%だった。気持ちの高ぶりに関わる声の特徴が、判断の手がかりとして国を超えて似ていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見抜けるのは半分ちょっと",
+        "body": "正解率は高くても7割ほどで、確実に見抜けるわけではない。使った笑い声は英語を話す女性の録音36個だけで、男性の声や、顔も見える普段の会話でどうかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laugh-bryant-colaughter",
+        "type": "あわせて読む",
+        "why": "同じ研究者が、一緒に笑う声から仲のよさがわかるかを調べた研究"
+      },
+      {
+        "id": "umbra-fake-smile-detection",
+        "type": "あわせて読む",
+        "why": "声でなく、顔の作り笑いを見分けられるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-fake-laugh-voice-21-societies"
+  },
+  {
+    "id": "scent-fear-sweat-chemosignal-meta",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "de Groot & Smeets, \"Human Fear Chemosignaling: Evidence from a Meta-Analysis\" (Chemical Senses, 2017)",
+    "sourceUrl": "https://doi.org/10.1093/chemse/bjx049",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "怖いときの汗のにおいで、怖さはうつる？",
+        "body": "怖がっている人のそばにいると、こっちまで落ち着かなくなる。においで気持ちが伝わる、なんて話を聞いたことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "26本の研究をまとめた",
+        "body": "怖さ・ストレス・不安を感じた人の体のにおいを、別の人に嗅がせた研究26本（合わせて1652人）をまとめたメタ分析。においを出したのは66%が男性、嗅いだのは69%が女性だったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "小〜中くらいの効果があった",
+        "body": "まとめると、嗅いだ人の反応に小〜中くらいの効果が見られた。結果のかたよりを調べる方法でも、偶然や都合のいい発表だけでは説明しにくかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一つひとつの実験の質は未確認",
+        "body": "著者らは、それぞれの研究の作りの良し悪しは評価していないと書いている。男性のにおいを女性が嗅ぐ組み合わせが多く、ふだんの生活でどこまで感じるかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "scent-human-pheromones",
+        "type": "あわせて読む",
+        "why": "異性を引きつけるフェロモンは、まだ見つかっていないという総説"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-fear-sweat-chemosignal-meta"
+  },
+  {
     "id": "research-nightmare-wake-up-imagery-rehearsal-recovery-research-rewrite-dream",
     "category": "睡眠",
     "kind": "素朴な疑問",
@@ -1666,6 +1859,11 @@
         "id": "kokoro-lonely-even-with-others-company-not-cure",
         "type": "あわせて読む",
         "why": "人と一緒にいるだけでは孤独は和らがず、気持ちとの向き合い方を練習した実験"
+      },
+      {
+        "id": "dokugaku-mindfulness-before-study-focus-log-acceptance",
+        "type": "あわせて読む",
+        "why": "同じ練習の分け方で、考えごとで気がそれる量を調べた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-loneliness-acceptance-practice-monitor-accept"
@@ -3619,6 +3817,11 @@
         "id": "dokugaku-group-study-not-sticking-fix-group-exam-retention",
         "type": "反対の結果",
         "why": "授業でグループ試験を受けても、後に残る量は増えなかった"
+      },
+      {
+        "id": "dokugaku-note-review-hide-and-recall-sheet-group-review",
+        "type": "あわせて読む",
+        "why": "2人で思い出す代わりに、グループでノートを見直した実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-group-study-not-sticking-fix-collaborative-recall"
@@ -30617,6 +30820,11 @@
         "id": "face-smile-culture-trust",
         "type": "あわせて読む",
         "why": "笑顔の受け取られ方の次に、作り笑いは見分けられるかを調べた研究"
+      },
+      {
+        "id": "laughter-fake-laugh-voice-21-societies",
+        "type": "あわせて読む",
+        "why": "顔でなく、声だけで愛想笑いを聞き分けられるかを調べた研究"
       }
     ]
   },
@@ -36163,7 +36371,14 @@
         "body": "人も哺乳類なので、フェロモンがある可能性はむしろ高いとも書いている。候補として皮脂腺や、授乳中の母親の乳輪から出て赤ちゃんの吸う動きを促す分泌物を挙げた。物質を特定する研究はこれからだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/scent-memory/scent-human-pheromones/"
+    "webUrl": "https://seadice.win/evidence/scent-memory/scent-human-pheromones/",
+    "links": [
+      {
+        "id": "scent-fear-sweat-chemosignal-meta",
+        "type": "あわせて読む",
+        "why": "においで伝わるものとして、怖さや不安の研究をまとめたメタ分析"
+      }
+    ]
   },
   {
     "id": "scent-smell-loss-dementia",
@@ -50994,7 +51209,13 @@
     "themeColor": "#FB7185",
     "kind": "素朴な疑問",
     "studyType": "実験",
-    "links": [],
+    "links": [
+      {
+        "id": "laughter-fake-laugh-voice-21-societies",
+        "type": "あわせて読む",
+        "why": "同じ研究者が、本気の笑いと愛想笑いを声で聞き分けられるかを調べた研究"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/romantic-interest/#laugh-bryant-colaughter"
   },
   {
