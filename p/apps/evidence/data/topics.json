@@ -1,5 +1,186 @@
 [
   {
+    "id": "kokoro-cold-shower-fatigue-stress-recover-sick-days",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Buijze GA et al., \"The Effect of Cold Showering on Health and Work: A Randomized Controlled Trial\" (PLOS ONE, 2016)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0161749",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "冷たいシャワーで風邪知らず？",
+        "body": "「毎朝冷たいシャワーを浴びると体が強くなる」ってよく聞くよね。本当に体調を崩しにくくなるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "オランダの3,018人で実験",
+        "body": "いつものシャワーの最後を30・60・90秒だけ冷たくする人と、普段どおりの人にくじで分けて、90日間の体調と仕事を休んだ日を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "休んだ日は29%少なかった",
+        "body": "冷たいシャワーの人は仕事を休んだ日が29%少なかった。でも、体調を崩した日数そのものは変わらなかったらしい。30秒でも90秒でも差はなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "思い込みかもしれない",
+        "body": "結果は全部自己申告で、参加者は自分がどっちのグループか知っていた。重い持病のない大人だけで、8割以上に運動の習慣があった。思い込みの効果は否定できないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "stress-cold-water-shower-meta",
+        "type": "あわせて読む",
+        "why": "冷水とストレスのまとめと、冷たいシャワーと病欠の大きな試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#kokoro-cold-shower-fatigue-stress-recover-sick-days"
+  },
+  {
+    "id": "dokugaku-why-dont-do-goals-fail-new-year-resolutions",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Oscarsson et al., \"A large-scale experiment on New Year's resolutions: Approach-oriented goals are more successful than avoidance-oriented goals\" (PLOS ONE, 2020)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0234097",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く悩み",
+        "title": "「〜しない」と決めても続かない",
+        "body": "「サボらない」「お菓子を食べない」。そう決めたのに続かないこと、あるよね。目標の立て方で差は出るんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,066人の新年の抱負を1年追跡",
+        "body": "スウェーデンのOscarssonらは、一般の大人1,066人の新年の抱負を1年間追いかけて、どんな目標が続いたかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「〜する」の方が続いた人が多い",
+        "body": "1年後に「続いている」と答えた人は、「〜する」形の目標で58.9%、「〜しない」形で47.1%。差は統計的に意味があった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差は小さく、本人が選んだ目標",
+        "body": "差の大きさは小さめ。目標の形はくじで決めたものではなく、成功も本人の判断。1年後に答えたのは7割ほどで、「〜する」形にすれば続くとまでは言えないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#dokugaku-why-dont-do-goals-fail-new-year-resolutions"
+  },
+  {
+    "id": "dokugaku-hay-fever-study-focus-reset-exam-grades",
+    "category": "からだの常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Walker et al., \"Seasonal allergic rhinitis is associated with a detrimental effect on examination performance in United Kingdom teenagers: case-control study\" (Journal of Allergy and Clinical Immunology, 2007)",
+    "sourceUrl": "https://doi.org/10.1016/j.jaci.2007.03.034",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "花粉症って、試験の点にも響く？",
+        "body": "花粉の季節は鼻も目もつらくて、勉強どころじゃない日があるよね。じゃあ、試験の成績にまで差が出るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イギリスの15〜17歳1,834人を比べた",
+        "body": "冬の模試から夏の本試験にかけて、成績を1段階以上落とした662人と、落とさなかった1,172人を比べたんだ。試験の日のどれかに症状があった生徒は38〜43%いた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "症状があった生徒は、成績を落としやすかった",
+        "body": "症状があった生徒は成績を落とす側に入りやすかった（オッズ比1.4）。眠くなるタイプの薬を飲んでいた生徒では1.7と、さらに高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "花粉症が原因とまでは言えない",
+        "body": "結果を見比べた観察研究なので、花粉症が成績を下げたとまでは言い切れない。薬のせいか症状のせいかも分けきれず、大人の試験でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#dokugaku-hay-fever-study-focus-reset-exam-grades"
+  },
+  {
+    "id": "personality-extraversion-wellbeing-meta",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Anglim et al., \"Predicting psychological and subjective well-being from personality: A meta-analysis\" (Psychological Bulletin, 2020)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000226",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "明るい性格の人ほど、幸せ？",
+        "body": "いつも明るくて人づきあいが好きな人って、なんだか幸せそうに見えるよね。性格と幸福感は、実際どのくらい関係しているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "33万人分のデータをまとめた",
+        "body": "Anglimらは、462のデータ（のべ334,567人）を集めて、性格の5つの軸などと、生活の満足感や気分の良さとの関係をまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "外向性だけじゃなかった",
+        "body": "幸福感とのつながりが目立ったのは、外向性（明るさ・社交性）に加えて、くよくよしにくさ（神経症傾向の低さ）と誠実性。別の性格の測り方では、外向性がいちばん強かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "性格が幸せを生むとは限らない",
+        "body": "見ているのは相関で、幸せだから明るくふるまえる可能性もある。性格も幸福感も本人の回答だよ。内向的な人が幸せになれない、という意味でもないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "personality-acting-extraverted-introverts",
+        "type": "あわせて読む",
+        "why": "外向性と幸福感の相関と、明るくふるまってもらった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-extraversion-wellbeing-meta"
+  },
+  {
+    "id": "music-alarm-melody-sleep-inertia",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "McFarlane, Garcia, Verhagen & Dyer, \"Alarm tones, music and their elements: Analysis of reported waking sounds to counteract sleep inertia\" (PLOS ONE, 2020)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0215788",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "目覚ましは、メロディのある音がいい？",
+        "body": "「ピピピ」の電子音と好きな曲、どっちで起きるとすっきりするんだろう。寝起きのぼんやりを音で減らせたらうれしいよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50人に目覚まし音を聞いた",
+        "body": "オーストラリアの大学の院生や職員など50人に、ネットのアンケートで、ふだんの目覚まし音の特徴と、起きたあとのぼんやり具合を答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "結果は混ざっていた",
+        "body": "音の種類（電子音か曲か）や、その音が好きかどうかは、ぼんやり具合と関係がなかった。一方で「メロディがある」と感じる音の人ほど、ぼんやりが少ないと答えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "50人の1回のアンケート",
+        "body": "人数が少なく、全部本人の感じ方。音を変えて試した実験ではないので、メロディのある音に変えればすっきり起きられるとまでは言えないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-morning-grogginess-sleep-inertia-focus-recovery-research-light-at-home",
+        "type": "あわせて読む",
+        "why": "寝起きのぼんやりを、音で減らせるかと光で減らせるか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-alarm-melody-sleep-inertia"
+  },
+  {
     "id": "research-habit-willpower-self-control-research-habits-not-restraint",
     "category": "習慣形成",
     "kind": "よくある説",
@@ -4476,7 +4657,14 @@
         "body": "ほとんどの研究は、かたよりの危険が高いと評価されたんだ。前後を比べただけの研究も含まれる。著者は、心の不調の治療として使えるとは言えず、安全性も含めて大きな比較試験が要ると書いているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/breathing-stress/#stress-cold-water-shower-meta"
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#stress-cold-water-shower-meta",
+    "links": [
+      {
+        "id": "kokoro-cold-shower-fatigue-stress-recover-sick-days",
+        "type": "あわせて読む",
+        "why": "冷水とストレスのまとめと、冷たいシャワーと病欠の大きな試験"
+      }
+    ]
   },
   {
     "id": "exercise-time-of-day-mood-sleep-meta",
@@ -7386,7 +7574,14 @@
         "body": "夜中に起こされた条件の実験で、人数も36人。朝ふつうに起きたときに、光でどこまで頭が働くようになるかはまだわからないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/focus/#research-morning-grogginess-sleep-inertia-focus-recovery-research-light-at-home"
+    "webUrl": "https://seadice.win/evidence/focus/#research-morning-grogginess-sleep-inertia-focus-recovery-research-light-at-home",
+    "links": [
+      {
+        "id": "music-alarm-melody-sleep-inertia",
+        "type": "あわせて読む",
+        "why": "寝起きのぼんやりを、音で減らせるかと光で減らせるか"
+      }
+    ]
   },
   {
     "id": "caffeine-coffee-dehydration-crossover",
@@ -11265,7 +11460,14 @@
         "body": "期間は1週間、参加者は147人。気分も疲れも本人が答えたものだよ。何か月も続けたらどうなるか、仕事や人づきあいにどう響くかは、この研究ではわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/personality/#personality-acting-extraverted-introverts"
+    "webUrl": "https://seadice.win/evidence/personality/#personality-acting-extraverted-introverts",
+    "links": [
+      {
+        "id": "personality-extraversion-wellbeing-meta",
+        "type": "あわせて読む",
+        "why": "外向性と幸福感の相関と、明るくふるまってもらった実験"
+      }
+    ]
   },
   {
     "id": "face-self-enhancement-own-face",
