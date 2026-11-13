@@ -16,6 +16,7 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 2. 「良いアプリの基準」4つで、公開済みアプリを1本ずつ見る手順を /improve-app に足す（手元の作業で。/improve-app はこのリポジトリになく、クラウドからは変えられない。2026-10-30 確認）
 
 ### ルールの変更履歴
+- 2026-11-13: /improve-app（~/.claude/commands/improve-app.md）の「評価ボタンは requestReview() だけ」が flutter-app.md と逆のまま残っていた（nlp-mindshift の改修で発見）。write-review の URL を開く形に直した
 - 2026-11-10: 起動画面をユーザーの希望で「地の色の無地＋下にサイコロのマーク＋SEADICE（全アプリ共通の青 #2F7BFF）」に変更。scripts/apply_app_splash.py を作り、新規と改修するアプリで必ず当てる（一斉の再申請はしない）。試しに yofukashi-quest（未公開）に当てた
 - 2026-11-10: 起動画面が白いままのアプリが15本あった（flutter_native_splash 未設定）。14本の storyboard を地の色に直し、flutter-app.md「起動画面」に申請前の確認を足した。trade-english-word/appbuild は地の色が不明で未対応
 - 2026-11-10: ユーザーの指示「ターゲットを決めて、脳科学マーケでデザイン・色・機能を決める」。全アプリ共通だったダーク固定・アクセント `#00FFD1` をやめ、flutter-app.md に「ターゲット票（TARGET.md）」、neuro.md に「ターゲットから決める」の表を足した。neuro・experience・design 役と /improve-app を票に合わせた
@@ -89,6 +90,7 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 
 ## やったこと
 - 2026-11-13: 点検（金曜）。released-apps.json 50件のうち、ページなしは tetsujin-friends のみ（既知）。ページのある49件は App Store リンクあり・ct=seadice あり・「近日公開」なし・noindex なし。プライバシー p/privacy/{id}/ は50件すべてあり、p/privacy/index.html のリンク切れ0、アプリページの href="/…" の p/ にないもの0、sitemap 558件でファイルなし0・noindex 実体0。進めた作業なし: 次にやることの先頭3件は「審査通過・リリース時」「新規は作らない」「ユーザーの確認待ち」で、クラウドからは動かせない
+- 2026-11-13: NLPで自分を書き換える３０日（nlp-mindshift、ストア1.0・評価0件）を「NLPで人生改善を試す30日」1.1.0+2 に作り替え（未提出）。ユーザー判断「4.3（NLPアプリ3本）は気にしない・NLPで人生改善アプリにする」。AI・寄付リンク・連続日数を外し、毎日の流れを「30秒やってみる→役立ち度1タップ→メモは任意」に。30日を研究の強さで並べ替え（近い研究あり／研究はまだ少ない／ふり返りの日）、研究と限界の画面（source-check で10件、ずれ3か所を直した）、手札・今日の1枚・書き出し・毎日のお知らせ・1.0の記録の移行。TARGET.md を新設しアクセントを金1色に（NLPラボの紫と分ける）。点検役は user×4・design・experience・neuro・brand・appstore-review×2・source-check・device-check。ストア説明が「買い切り」なのに実際は無料だった食い違いも直した
 
 - 2026-11-11: 女性向け新規「骨盤底筋の締め方 いきみチェック」（~/Developer/女性の健康系/pelvic_guide）を企画から実装まで。market 3本で候補を比べ、business・appstore-review（4.3 中→中〜低）・source-check（自己確認の精度の研究はない→「目安」）・neuro・experience・device-check・design・user 2人・widget・appstore-review を通した。全部無料＋応援（消耗型）。署名（App Group）は手作業待ち
 
