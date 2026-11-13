@@ -88,6 +88,7 @@ docs/flutter-app.md（アプリ本体）、docs/app-publish.md（アプリ紹介
 5. **公開済みアプリで「もとになった研究」欄がないもの（40件）を一覧にし、/evidence で足せるものから足す**
 
 ## やったこと
+- 2026-11-13: 点検（金曜）。released-apps.json 50件のうち、ページなしは tetsujin-friends のみ（既知）。ページのある49件は App Store リンクあり・ct=seadice あり・「近日公開」なし・noindex なし。プライバシー p/privacy/{id}/ は50件すべてあり、p/privacy/index.html のリンク切れ0、アプリページの href="/…" の p/ にないもの0、sitemap 558件でファイルなし0・noindex 実体0。進めた作業なし: 次にやることの先頭3件は「審査通過・リリース時」「新規は作らない」「ユーザーの確認待ち」で、クラウドからは動かせない
 
 - 2026-11-11: 女性向け新規「骨盤底筋の締め方 いきみチェック」（~/Developer/女性の健康系/pelvic_guide）を企画から実装まで。market 3本で候補を比べ、business・appstore-review（4.3 中→中〜低）・source-check（自己確認の精度の研究はない→「目安」）・neuro・experience・device-check・design・user 2人・widget・appstore-review を通した。全部無料＋応援（消耗型）。署名（App Group）は手作業待ち
 
