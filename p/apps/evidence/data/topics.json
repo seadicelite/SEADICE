@@ -1,5 +1,179 @@
 [
   {
+    "id": "research-nightmare-wake-up-imagery-rehearsal-recovery-research-rewrite-dream",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Lancee J, Spoormaker VI & van den Bout J, \"Cognitive-behavioral self-help treatment for nightmares: a randomized controlled trial\" (Psychotherapy and Psychosomatics, 2010)",
+    "sourceUrl": "https://doi.org/10.1159/000320894",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "悪夢って自分で減らせる？",
+        "body": "怖い夢で目が覚めると、また見そうで寝るのが怖くなるよね。夢なんてどうにもできない、と思いがちだけど、実は研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "399人が6週間、自分で練習",
+        "body": "オランダの悪夢のサイトで集まった399人を、くじで4組に分けた。夢の結末を書き換えて思い浮かべる組、悪夢の場面にあえて向き合う組、夢を記録するだけの組、待つだけの組だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "書き換えも、向き合うのも効いた",
+        "body": "待つだけの組より、書き換えの組と向き合う組は悪夢の回数やつらさ、眠りの質がよくなった。2つの効き方は同じくらい。記録するだけの組でも少しよくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果は小〜中くらい",
+        "body": "結果は本人の記録や質問票で測ったもので、効果の大きさは小〜中くらい。悪夢のサイトに自分から来た人たちの話で、測ったのは始めてから11週後まで。もっと先まで続くかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-nightmare-wake-up-imagery-rehearsal-recovery-research-rewrite-dream"
+  },
+  {
+    "id": "research-bad-news-anxiety-doomscrolling-recovery-research-relaxation-after-news",
+    "category": "呼吸とストレス",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Szabo A & Hopkinson KL, \"Negative psychological effects of watching the news in the television: relaxation or another intervention may be needed to buffer them!\" (International Journal of Behavioral Medicine, 2007)",
+    "sourceUrl": "https://doi.org/10.1007/BF03004169",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ニュースの不安、どう消す？",
+        "body": "暗いニュースを見たあと、なんだかざわざわすること、あるよね。別のことをすれば忘れられる？ それとも何かしたほうがいい？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生179人で実験",
+        "body": "大学生179人が15分のテレビニュースを見たあと、1組は15分のリラックス法（筋肉に力を入れて抜く方法）、もう1組は15分の講義を聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "戻ったのはリラックス組だけ",
+        "body": "どちらもニュースで不安が高まり、前向きな気分が下がった。15分後に元に戻ったのはリラックス法の組だけで、講義の組は下がったままだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの気分転換は？",
+        "body": "比べた相手は講義を聞くことだけ。散歩や人と話すなど、ほかの気分転換ならどうなるかはわからない。大学生が答えた気分の質問票で、測ったのは直後だけだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-doomscrolling-mood",
+        "type": "あわせて読む",
+        "why": "暗いニュースで気分が下がることと、そのあと気分を戻す方法"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#research-bad-news-anxiety-doomscrolling-recovery-research-relaxation-after-news"
+  },
+  {
+    "id": "research-health-checkup-appointment-procrastination-recovery-research-screening-plan",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Sheeran P & Orbell S, \"Using implementation intentions to increase attendance for cervical cancer screening\" (Health Psychology, 2000)",
+    "sourceUrl": "https://doi.org/10.1037/0278-6133.19.3.283",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よくある悩み",
+        "title": "検診の予約、ずっと後回し",
+        "body": "行かなきゃとは思ってるのに、予約の電話がなかなかできない。そういうこと、あるよね。気持ちの問題なのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "予約の段取りを書いてもらった",
+        "body": "イギリスの田舎の診療所に登録している女性114人のうち半分に、検診の予約を「いつ・どこで・どうやって」取るか決めてもらった。受診したかは診療記録で確かめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "92%と69%の差",
+        "body": "受診したい気持ちは両方の組で同じくらいだったのに、受診したのは段取りを決めた組が92%、決めなかった組が69%。気持ちが同じでも、段取りで差が出たらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は少なめ",
+        "body": "1つの診療所の女性114人で、子宮がん検診という1つの行動だけの話。ほかの検診や予定、ほかの国でも同じくらいの差になるかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-health-checkup-appointment-procrastination-recovery-research-screening-plan"
+  },
+  {
+    "id": "personality-left-handed-big-five",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Grimshaw GM & Wilson MS, \"A sinister plot? Facts, beliefs, and stereotypes about the left-handed personality\" (Laterality, 2013)",
+    "sourceUrl": "https://doi.org/10.1080/1357650X.2011.631546",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "左利きの人って、性格が違う？",
+        "body": "「左利きは個性的」「ちょっと変わってる」って、なんとなく言われるよね。じゃあ性格テストで比べたら、本当に違うんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "662人の性格テストを比べた",
+        "body": "ニュージーランドの若い大人662人に、外向性や協調性など5つの面をみる性格テストを受けてもらい、利き手ごとに比べた。別の調査で、左利きの性格のイメージも聞いたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "左利きと右利きで差はなかった",
+        "body": "5つの面のどれも、左利きと右利きで差はなかった。ただ、どっちの手も使う人は少し内向的だった。左利きも右利きも「左利きは内向的で好奇心が強い」と思っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの国でも同じ？",
+        "body": "ニュージーランドの若い人だけを1回調べた結果だよ。日本や年配の人でも同じかはわからない。どっちの手も使う人が内向的になる理由も、この研究ではわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "japan-left-handed-genius",
+        "type": "あわせて読む",
+        "why": "左利きのイメージのうち、頭のよさと性格をそれぞれ確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-left-handed-big-five"
+  },
+  {
+    "id": "face-eyebrows-recognition",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Sadr J, Jarudi I & Sinha P, \"The role of eyebrows in face recognition\" (Perception, 2003)",
+    "sourceUrl": "https://doi.org/10.1068/p5027",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "眉毛がないと、誰だかわからない？",
+        "body": "眉毛をいじると顔の印象がガラッと変わる、ってよく聞くよね。誰の顔かを見分けるとき、眉毛はどのくらい大事なんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "有名人の顔から、目か眉を消した",
+        "body": "よく知っている人の顔の写真から、眉毛だけを消したものと、目だけを消したものを作って、誰の顔かを当ててもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "眉毛を消すほうがわからなくなった",
+        "body": "眉毛がないと、誰の顔か当てる成績は大きく下がった。しかも、目を消したときより下がり方が大きかった。顔を見分けるのに、眉毛は目と同じくらい大事らしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "知らない人の顔では？",
+        "body": "調べたのはよく知っている人の写真を見分ける実験室の課題だけ。初対面の人の印象や、毎日の暮らしでの見分けにどう効くかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-eyebrows-recognition"
+  },
+  {
     "id": "dokugaku-why-focus-fades-over-time-studying-lecture-attention-decline",
     "category": "集中力",
     "kind": "素朴な疑問",
@@ -21645,7 +21819,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/japan/#japan-left-handed-genius",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "personality-left-handed-big-five",
+        "type": "あわせて読む",
+        "why": "左利きのイメージのうち、頭のよさと性格をそれぞれ確かめた研究"
+      }
+    ]
   },
   {
     "id": "japan-weather-headache",
@@ -30167,7 +30348,14 @@
     "articleUrl": "https://mentalai.seadice.win/bad-news-scrolling/",
     "articleSite": "AI時代のメンタルヘルス",
     "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-doomscrolling-mood",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "research-bad-news-anxiety-doomscrolling-recovery-research-relaxation-after-news",
+        "type": "あわせて読む",
+        "why": "暗いニュースで下がった気分を、リラックス法で戻せるか確かめた"
+      }
+    ]
   },
   {
     "id": "kokoro-videoconference-fatigue-eeg",
