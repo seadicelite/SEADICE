@@ -1,5 +1,179 @@
 [
   {
+    "id": "kokoro-coloring-info-fatigue-mandala",
+    "category": "呼吸とストレス",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Koo et al., \"Coloring Activities for Anxiety Reduction and Mood Improvement in Taiwanese Community-Dwelling Older Adults: A Randomized Controlled Study\" (Evidence-Based Complementary and Alternative Medicine, 2020)",
+    "sourceUrl": "https://doi.org/10.1155/2020/6964737",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "大人の塗り絵で心が落ち着く？",
+        "body": "「塗り絵はストレス解消になる」ってよく聞くよね。本当に気持ちは落ち着くのか、台湾の研究チームが実験で確かめたらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つの過ごし方で20分",
+        "body": "台湾の55〜75歳の120人に、いちばん怖かった出来事を思い出して書いてもらい、不安を高めた。そのあと、まんだらの塗り絵、チェック柄の塗り絵、自由に描く、読書のどれかにくじで分けて20分過ごしてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "読書より低かったのはまんだらだけ",
+        "body": "20分後の不安の点数（20〜80点）は、まんだらの組が28.2点、読書の組が36.0点。チェック柄や自由に描く組は、読書の組とはっきりした差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回20分の、直後の話",
+        "body": "見たのは1回の直後の変化だけで、続けたときや、ふだんから続く不安に効くかはわからない。まんだらの図柄は1種類だけで、参加者も記録する人も、どの組かを知っていたよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-coloring-info-fatigue-mandala"
+  },
+  {
+    "id": "dokugaku-study-motivation-slump-halfway-stuck-in-the-middle",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Bonezzi et al., \"Stuck in the middle: The psychophysics of goal pursuit\" (Psychological Science, 2011)",
+    "sourceUrl": "https://doi.org/10.1177/0956797611404899",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "中だるみって、なぜ起きる？",
+        "body": "始めたころは毎日進んだのに、半分くらいで手が止まる。ゴールに近づくほどやる気は上がるはずじゃないの？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「真ん中で止まる」を調べた実験",
+        "body": "Bonezziさんたちは、ゴールに近づくほどやる気は上がり続ける、という昔からの考えを実験で確かめ直したんだ。進み具合によって、目標に向けた行動へのやる気がどう変わるかを見たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "始めと終わりで高く、真ん中で低い",
+        "body": "やる気は、ゴールから遠いときと近いときに高く、半分くらいで低くなることがあった。スタートから測るか、ゴールから測るかで1歩の重みの感じ方が変わり、真ん中ではどちらで測っても1歩が小さく感じる、と著者は説明しているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "いつも真ん中で下がるとは限らない",
+        "body": "進み具合をどこから測るかしだいで、やる気がずっと上がる形や、ずっと下がる形にもなると著者は考えている。何か月もかかる勉強で同じ形になるかは、この論文だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-study-motivation-slump-halfway-stuck-in-the-middle"
+  },
+  {
+    "id": "research-night-worry-feels-bigger-why-research-untrue-worries",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "LaFreniere LS, Newman MG, \"Exposing worry's deceit: Percentage of untrue worries in generalized anxiety disorder treatment\" (Behavior Therapy, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.beth.2019.07.003",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "心配ごとって、本当に起きる？",
+        "body": "「心配の多くは起きない」ってよく聞くよね。それを実際に記録して確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "浮かんだ心配を記録して追った",
+        "body": "アメリカで、全般性不安症と判定された大学生29人が、10日間、浮かんだ心配を記録した。そして30日間、その心配が本当に起きたかを追いかけたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "91.4%は起きなかった",
+        "body": "心配の91.4%は実際には起きなかった。起きなかった割合が高い人ほど、治療のあとに不安の症状が軽くなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "不安症の大学生29人の記録",
+        "body": "対象は29人と少なく、ほとんどが若い白人の女子学生。不安症かどうかは医師の診察でなく質問票で判定していた。ふだんの人の心配でも同じくらい外れるかは、この研究だけではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-stop-ruminating-after-bad-day-research-worry-time",
+        "type": "あわせて読む",
+        "why": "心配が当たるかの記録と、心配する時間を決めるやり方"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#research-night-worry-feels-bigger-why-research-untrue-worries"
+  },
+  {
+    "id": "face-glasses-look-older",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Brunet & Sharp, \"Do Glasses Modulate Age Perception?\" (i-Perception, 2020)",
+    "sourceUrl": "https://doi.org/10.1177/2041669520953457",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "メガネをかけると老けて見える？",
+        "body": "メガネだと老けて見えて、サングラスなら若く見える、ってよく聞くよね。もとは視力矯正の手術をするクリニックが依頼した、査読のない調査だったらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ顔にメガネを足して比べた",
+        "body": "アメリカの研究で、若い大人50人の顔写真にアプリでメガネやサングラスを足し、老け加工もした300枚を用意。大学生くらいの21人が、1枚ずつ年齢を当てたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "変わっても1〜2歳ほど",
+        "body": "若い顔はメガネで1.3歳上に見えたけど、サングラスでは変わらなかった。老け加工した顔では、メガネで変わらず、サングラスで1.8歳若く見えた。メガネで見た目の年齢が変わる度合いは小さい、と著者はまとめているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "加工写真と21人だけ",
+        "body": "年齢を当てたのは若い21人だけで、顔はアプリで加工した写真、しかも白人の顔が中心。メガネもサングラスも1種類ずつで、本物の顔や、ほかの年代の人が見ても同じかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-glasses-look-older"
+  },
+  {
+    "id": "digital-self-identified-phone-addiction-logs",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Geyer et al., \"Absence of Objective Differences between Self-Identified Addicted and Healthy Smartphone Users?\" (International Journal of Environmental Research and Public Health, 2021)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph18073702",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「スマホ依存かも」は当たってる？",
+        "body": "自分はスマホ依存かも、って感じている人は多いよね。でも、そう感じる人は本当にほかの人より使っているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "使った記録と本人の答えを比べた",
+        "body": "スペインの大学生131人のAndroidスマホから、過去5日間のアプリの使用記録を集めた。あわせて、自分の使い方を「健康」「問題あり」「依存」のどれと思うかや、依存の質問票にも答えてもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "記録ではほとんど差がなかった",
+        "body": "「依存」や「問題あり」と答えた人も、使う時間や手に取る回数、使うアプリの数ははっきり違わなかった。質問票の点数は本人の思いとはよく合うけど、実際の使い方は映していなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "5日分、大学生だけ",
+        "body": "記録は過去5日分だけで、対象はスペインの大学生（男性は29人）。自分を「依存」と答えたのは11人と少ない。データを渡すのをためらって抜けた人も多く、気にしない人にかたよっているかもしれないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-distraction-checklist-interruption-log-phone-checks",
+        "type": "あわせて読む",
+        "why": "本人の感覚とスマホの実際の記録がずれることを調べた研究どうし"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-self-identified-phone-addiction-logs"
+  },
+  {
     "id": "kokoro-cold-shower-fatigue-stress-recover-sick-days",
     "category": "からだの常識",
     "kind": "よくある説",
@@ -17286,7 +17460,14 @@
         "body": "人数が少なく、勉強中の使い方を調べたものでもない。時間の長さの見積もりは、回数よりは当たっていた（相関0.47）。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#dokugaku-distraction-checklist-interruption-log-phone-checks"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#dokugaku-distraction-checklist-interruption-log-phone-checks",
+    "links": [
+      {
+        "id": "digital-self-identified-phone-addiction-logs",
+        "type": "あわせて読む",
+        "why": "本人の感覚とスマホの実際の記録がずれることを調べた研究どうし"
+      }
+    ]
   },
   {
     "id": "dokugaku-why-ai-explanations-feel-understood-fluent-lecturer",
@@ -18739,7 +18920,14 @@
         "body": "人数は53人、期間は2週間で、著者ら自身も「予備的な結果」と書いている。長く続けたときの効果や、心配しやすくない人に効くかはまだわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/mental-health/#research-stop-ruminating-after-bad-day-research-worry-time"
+    "webUrl": "https://seadice.win/evidence/mental-health/#research-stop-ruminating-after-bad-day-research-worry-time",
+    "links": [
+      {
+        "id": "research-night-worry-feels-bigger-why-research-untrue-worries",
+        "type": "あわせて読む",
+        "why": "心配が当たるかの記録と、心配する時間を決めるやり方"
+      }
+    ]
   },
   {
     "id": "research-exercise-habit-lapse-restart-research-lapse-rate",
