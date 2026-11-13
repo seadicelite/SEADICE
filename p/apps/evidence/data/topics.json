@@ -1,5 +1,186 @@
 [
   {
+    "id": "dokugaku-why-focus-fades-over-time-studying-lecture-attention-decline",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Farley et al., \"Everyday attention and lecture retention: the effects of time, fidgeting, and mind wandering\" (Frontiers in Psychology, 2013)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2013.00619",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "後半になると集中が切れる？",
+        "body": "始めたときは集中できていたのに、30分もすると字が頭に入らない。これって自分だけ？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40分の講義動画で確かめた",
+        "body": "カナダの大学生21人が40分の講義動画を見て、5分ごとに「集中できていたか」を7段階でつけた。見終わったあと、内容のテストもしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "6.0から4.9へ下がった",
+        "body": "集中の点は最初の5分の6.0から最後の5分の4.9まで下がった。集中していた区間ほど内容を覚えていて、後半の内容は前半より覚えていなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "21人・講義1本の実験",
+        "body": "人数が少なく、講義は恋愛と人間関係の1本だけ。集中は本人の自己申告で、笑い話の入った区間はよく覚えられていた。話の中身しだいで結果は変わりそう。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-focus-fades-over-time-studying-15-minute-attention-myth",
+        "type": "あわせて読む",
+        "why": "「15分が限界」に根拠はないが、長い講義の中で集中が下がること自体はこの実験で見られた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-why-focus-fades-over-time-studying-lecture-attention-decline"
+  },
+  {
+    "id": "dokugaku-why-reread-same-line-while-reading-regressions-comprehension",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Schotter et al., \"Don't believe what you read (only once): Comprehension is supported by regressions during reading\" (Psychological Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/0956797614531148",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "読み返さなければ速く読める？",
+        "body": "速読では「戻って読み返すクセをなくせ」とよく言われるよね。1語ずつ画面に出して、戻れないようにするアプリもある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "読んだ語を次々に隠した",
+        "body": "読む人の目が通り過ぎた語を、すぐ記号で隠す実験をした。1語を1回しか読めず、戻っても元の語は見えない。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "戻れないと理解が落ちた",
+        "body": "戻って読めないと、普通に読んだときより文の理解が悪くなった。紛らわしい文だけでなく、それ以外の文でも同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室で文を読む課題",
+        "body": "目の動きを測りながら文を読む実験室の課題で、教科書を自分のペースで読む場面で同じかはわからない。1語ずつ出す速読アプリそのものを試した研究でもない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-reading-too-slow-cannot-finish-speed-reading",
+        "type": "あわせて読む",
+        "why": "速読の研究をまとめたレビューと、読み返しを止めると理解が落ちた1つの実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-reread-same-line-while-reading-regressions-comprehension"
+  },
+  {
+    "id": "dokugaku-why-intend-to-study-but-dont-intention-gap-46",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Rhodes & de Bruijn, \"How big is the physical activity intention-behaviour gap? A meta-analysis using the action control framework\" (British Journal of Health Psychology, 2013)",
+    "sourceUrl": "https://doi.org/10.1111/bjhp.12032",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "やる気さえあれば、できる？",
+        "body": "「本気でやろうと思えば、行動はついてくる」とよく言われるよね。できなかったのは、やる気が足りなかったから？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10本の研究をまとめた",
+        "body": "運動について「やろうと思っているか」と「実際にやったか」を調べた研究10本、合計3,899人分をまとめて分析した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やる気のあった人の46%が実行せず",
+        "body": "やろうと思っていた人のうち46%は、推奨される量の運動をしていなかった。思っていなかったのにやった人は全体の2%だけ。ずれのほとんどは「思ったのにやらなかった」側だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強でも同じ？",
+        "body": "調べたのは運動（国の推奨量を満たすか）だけで、勉強で同じ割合になるかはわからない。まとめた研究も10本と多くはない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "habit-implementation-intentions",
+        "type": "あわせて読む",
+        "why": "やる気と行動のずれの大きさと、「もし〜したら」と決めてずれを埋める方法"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#dokugaku-why-intend-to-study-but-dont-intention-gap-46"
+  },
+  {
+    "id": "food-cola-bone-density-framingham",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Tucker et al., \"Colas, but not other carbonated beverages, are associated with low bone mineral density in older women: The Framingham Osteoporosis Study\" (American Journal of Clinical Nutrition, 2006)",
+    "sourceUrl": "https://doi.org/10.1093/ajcn/84.4.936",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "炭酸飲料を飲むと骨が弱くなる？",
+        "body": "「コーラを飲むと骨が溶ける」って子どものころ聞いたことあるよね。炭酸そのものが骨に悪いの？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約2,500人の骨を測った",
+        "body": "アメリカのフラミンガム研究で、女性1,413人・男性1,125人の背骨と股関節の骨密度を測り、飲み物の習慣を質問票で聞いて比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係が見えたのはコーラだけ",
+        "body": "毎日コーラを飲む女性は、月1杯未満の女性より股関節の骨密度が3.7〜5.4%低かった。ほかの炭酸飲料では関係は見られず、男性や背骨でも差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飲んだから低いのかは不明",
+        "body": "飲み物の習慣と骨密度を比べた観察研究で、コーラが原因かはわからない。飲み物は自己申告で、著者も確かめる研究がさらに要るとしている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#food-cola-bone-density-framingham"
+  },
+  {
+    "id": "pet-early-pets-child-allergy-dose",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Hesselmar et al., \"Pet-keeping in early life reduces the risk of allergy in a dose-dependent fashion\" (PLOS ONE, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0208472",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬や猫と育つと、アレルギーになりにくい？",
+        "body": "「小さいころから動物と暮らすとアレルギーになりにくい」って聞くよね。逆に、動物がいるとアレルギーになりそうな気もする。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "スウェーデンの子どもを調べた",
+        "body": "7〜8歳の子ども1,029人の質問票と、生まれたときから医師が8〜9歳まで診た249人で、0歳のときに家にいた犬や猫の数とアレルギーを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "数が多いほど少なかった",
+        "body": "質問票の調査では、アレルギーになったことがある子は、ペットなしで49%、5匹以上で0%と、数が多いほど少なかった。医師が診た組でも同じ傾向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飼えば防げるとは言えない",
+        "body": "比べただけの観察研究で、動物が原因かはわからない。質問票の回収は6割弱で、昔のことを思い出して答えている。スウェーデンの2つの地域の子どもの話。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-early-pets-child-allergy-dose"
+  },
+  {
     "id": "kokoro-ai-era-study-purpose-recover-utility-value-stem",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -107,7 +288,14 @@
         "body": "これは文献を読み直したレビューで、集中を新しく測ってはいない。数字に根拠がないだけで、集中が落ちないという意味でもない。対象も大学の講義で、ひとりで勉強するときに当てはまるかはわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-why-focus-fades-over-time-studying-15-minute-attention-myth"
+    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-why-focus-fades-over-time-studying-15-minute-attention-myth",
+    "links": [
+      {
+        "id": "dokugaku-why-focus-fades-over-time-studying-lecture-attention-decline",
+        "type": "あわせて読む",
+        "why": "「15分が限界」に根拠はないが、長い講義の中で集中が下がること自体はこの実験で見られた"
+      }
+    ]
   },
   {
     "id": "posture-slumped-sitting-negative-recall",
@@ -5708,7 +5896,14 @@
         "body": "数字は英語の「1分に何語」で示されていて、日本語の文章でどうなるかはこのレビューだけではわからない。理解を保って速くする道は、読む練習と語彙を増やすことだとされている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-reading-too-slow-cannot-finish-speed-reading"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-reading-too-slow-cannot-finish-speed-reading",
+    "links": [
+      {
+        "id": "dokugaku-why-reread-same-line-while-reading-regressions-comprehension",
+        "type": "あわせて読む",
+        "why": "速読の研究をまとめたレビューと、読み返しを止めると理解が落ちた1つの実験"
+      }
+    ]
   },
   {
     "id": "dokugaku-study-room-lighting-how-to-bright-light",
@@ -23176,6 +23371,11 @@
         "id": "research-start-time-plan-procrastination-research-time-plan",
         "type": "あわせて読む",
         "why": "「いつ・どこで」を決める効果を、時刻を書くだけの大きな実験で確かめた"
+      },
+      {
+        "id": "dokugaku-why-intend-to-study-but-dont-intention-gap-46",
+        "type": "あわせて読む",
+        "why": "やる気と行動のずれの大きさと、「もし〜したら」と決めてずれを埋める方法"
       }
     ]
   },
