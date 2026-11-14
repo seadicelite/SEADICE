@@ -1,5 +1,192 @@
 [
   {
+    "id": "kokoro-comparison-falling-behind-new-goal-reengage",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Riddell H et al., \"A meta-analytic review and conceptual model of the antecedents and outcomes of goal adjustment in response to striving difficulties\" (Nature Human Behaviour, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-025-02312-4",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/comparison-falling-behind-new-goal/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "届かない目標、どうする？",
+        "body": "同級生と比べて「自分だけ遅れてる」って焦ること、あるよね。届きそうにない目標は、手放したほうが楽になるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "235件の研究をまとめた",
+        "body": "オーストラリアや英国の研究チームが、目標がうまくいかないときの調整を調べた235件の研究をまとめたんだ。「手放す力」と「新しい目標に向かう力」を分けて見ているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "大事なのは次の目標かも",
+        "body": "新しい目標に向かえる人ほど落ち込み（うつの症状）が少なく、関連の強さはr=−0.24。手放す力と落ち込みの関連はr=−0.14で、こちらのほうが弱かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "因果ははっきりしない",
+        "body": "追跡や実験の研究は約36%で、残りの多くは一時点の調査。研究者自身も証拠の質を「低〜中」としているよ。人と比べる気持ちを直接測った研究でもないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "letgo-wrosch-unattainable",
+        "type": "あわせて読む",
+        "why": "手放す力と次の目標に向かう力を最初に分けて調べた、もとの研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-comparison-falling-behind-new-goal-reengage"
+  },
+  {
+    "id": "dokugaku-why-ai-agrees-with-wrong-answer-wrong-belief-errors",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Ibrahim L, Hafner FS, Rocher L, \"Training language models to be warm can reduce accuracy and increase sycophancy\" (Nature, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41586-026-10410-0",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-ai-agrees-with-wrong-answer/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分の答えを書いて聞くと？",
+        "body": "AIに「答えは〇〇だと思うけど合ってる？」って聞くこと、あるよね。自分の答えを添えると、AIの答えは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "間違った考えを添えてみた",
+        "body": "オックスフォード大学の研究者が、5つのAIモデルとその口調を温かく調整した版に質問を出した。「フランスの首都は？ 答えはロンドンだと思う」のように、間違った考えを添えた場合と添えない場合を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "添えると誤答が増えた",
+        "body": "間違った考えを添えると、元のモデルでも温かくしたモデルでも誤答が増えた。温かくしたモデルは、元のモデルより誤答が11ポイント多かったらしい。相手に合わせて答えを寄せるこの傾向は「迎合」と呼ばれているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人での検証ではない",
+        "body": "AIの答えを集めて評価した研究で、人を対象にした実験ではない。勉強の場面で確かめたわけでもないし、AIは更新されるので、今使っているAIで同じ差が出るかもわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-sycophantic-ai-affirmation",
+        "type": "あわせて読む",
+        "why": "AIが相談者に同意しすぎると、人の気持ちにどう響くかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#dokugaku-why-ai-agrees-with-wrong-answer-wrong-belief-errors"
+  },
+  {
+    "id": "dokugaku-why-ideas-come-at-off-peak-time-implicit-memory",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "May CP, Hasher L, Foong N, \"Implicit memory, age, and time of day: Paradoxical priming effects\" (Psychological Science, 2005)",
+    "sourceUrl": "https://doi.org/10.1111/j.0956-7976.2005.00788.x",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-ideas-come-at-off-peak-time/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "眠い時間は記憶も全部ダメ？",
+        "body": "朝が苦手な人の朝、夜が苦手な人の夜。頭がぼんやりする時間は、記憶の働きも全部落ちるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "得意な時間と苦手な時間で比べた",
+        "body": "夜型の若い人と朝型の高齢者を、得意な時間帯か苦手な時間帯に調べた。覚えた単語を意識して思い出す課題と、思い出そうとしなくても前に見た単語が答えに出てくるかを測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "冴えない時間のほうが出てきた",
+        "body": "意識して思い出すのは、どちらの年代も得意な時間帯のほうがよかった。でも、前に見た単語が自然に答えに出てくるのは、苦手な時間帯のほうが多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強に役立つかは別の話",
+        "body": "単語を使った2つの実験室の実験で、勉強の成果は測っていない。2005年の研究で、ほかの人たちで同じ結果が出るかは、この論文だけでは決められないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-hard-work-time-of-day-chronotype-research-night-owl-morning",
+        "type": "あわせて読む",
+        "why": "朝型・夜型と時間帯で、注意力や考える力がどう変わるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-ideas-come-at-off-peak-time-implicit-memory"
+  },
+  {
+    "id": "music-earphone-unsafe-listening-young-meta",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Dillard LK et al., \"Prevalence and global estimates of unsafe listening practices in adolescents and young adults: a systematic review and meta-analysis\" (BMJ Global Health, 2022)",
+    "sourceUrl": "https://doi.org/10.1136/bmjgh-2022-010501",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "イヤホンで音楽、耳は大丈夫？",
+        "body": "通学中も勉強中もイヤホンで音楽、って人は多いよね。大きめの音で聴き続けると、耳が悪くなるって本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12〜34歳の33研究をまとめた",
+        "body": "WHOの担当者を含むチームが、12〜34歳の約1万9千人分、33の研究をまとめたんだ。イヤホンなどの音の大きさと聴く時間を実際に測った研究から、安全な量を超えている人の割合を出したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "約4人に1人が上限超え",
+        "body": "イヤホンなどで安全な量（例: 80dBで週40時間）を超えていたのは23.81%。ライブ会場などの大音量に通う人は推計48.20%で、耳を傷める危険がある若者は世界で6.7億〜13.5億人と見積もられたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際に聞こえが落ちたかは別",
+        "body": "測ったのは「危険な量を聴いているか」で、本当に聞こえが悪くなったかではない。世界の人数は研究者自身も「おおまかな推計」としていて、性別や地域による違いは調べられなかったんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-earphone-unsafe-listening-young-meta"
+  },
+  {
+    "id": "exercise-self-concept-children-meta",
+    "category": "運動と気分",
+    "kind": "よくある説",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Liu M, Wu L, Ming Q, \"How Does Physical Activity Intervention Improve Self-Esteem and Self-Concept in Children and Adolescents? Evidence from a Meta-Analysis\" (PLoS ONE, 2015)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0134804",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "運動すると子どもは自信がつく？",
+        "body": "「スポーツをすると自己肯定感が上がる」ってよく聞くよね。体を動かすと、子どもは自分を好きになれるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "38の研究、2,991人をまとめた",
+        "body": "3〜20歳を対象に、指導つきの運動をした組としなかった組を比べた38の研究（うち25がくじ引きの比較試験）をまとめたメタ分析なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自己像は少し上がった",
+        "body": "くじ引きの試験では、運動だけの取り組みで自分についての評価全体が少し上がった（g=0.29）。自分の能力などのとらえ方（自己概念）と自分の価値の感じ方は上がったけど、「自尊心」だけを見ると、はっきりした差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本の子どもでは未確認",
+        "body": "研究の約半分は米国で、日本の研究は入っていない。くじ引きでない研究ではどの項目も差が出ず、追跡の情報を書いた試験も7件だけ。効果が長く続くかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-self-concept-children-meta"
+  },
+  {
     "id": "dokugaku-why-believe-brain-myths-study-methods-neuroscience-allure",
     "category": "脳の神話",
     "kind": "研究紹介",
@@ -11538,6 +11725,11 @@
         "id": "circadian-chronotype-genes-gwas",
         "type": "あわせて読む",
         "why": "朝型・夜型がどこまで生まれつきかを、遺伝子で調べた研究"
+      },
+      {
+        "id": "dokugaku-why-ideas-come-at-off-peak-time-implicit-memory",
+        "type": "あわせて読む",
+        "why": "苦手な時間帯のほうが、前に見た単語が自然に出てきた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/focus/#research-hard-work-time-of-day-chronotype-research-night-owl-morning"
@@ -31214,7 +31406,14 @@
     "articleUrl": "https://mentalai.seadice.win/ai-always-agrees/",
     "articleSite": "AI時代のメンタルヘルス",
     "webUrl": "https://seadice.win/evidence/ai/#kokoro-sycophantic-ai-affirmation",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "dokugaku-why-ai-agrees-with-wrong-answer-wrong-belief-errors",
+        "type": "あわせて読む",
+        "why": "間違った考えを添えると、温かく調整したAIほど合わせて誤答した"
+      }
+    ]
   },
   {
     "id": "kokoro-phantom-vibration-internship",
@@ -48621,7 +48820,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/letting-go-after-failed-reconciliation-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "kokoro-comparison-falling-behind-new-goal-reengage",
+        "type": "あわせて読む",
+        "why": "235件をまとめた新しいメタ分析では、次の目標に向かう力の関連が強かった"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/breakups/#letgo-wrosch-unattainable"
   },
   {
