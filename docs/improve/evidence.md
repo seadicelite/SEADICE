@@ -22,6 +22,7 @@
 ### ルールの変更履歴
 
 古い記録は [log/evidence.md](log/evidence.md)。
+- 2026-11-14: 点検欄に「ビルドを回すと p/evidence/ 全体が書き換わるので、点検だけのときは `git checkout p/` で戻す（sitemap だけでなく全体）」を追加（今回、192ファイルが変わり、混ぜてコミットする事故の元だったため）
 - 2026-11-07: evidence-topics.md の「重複させない」に「足したあと同じ DOI を数える」を追加（11-06 の自動取り込みでコーヒー脱水が重複し、書く前の照合だけでは防げなかったため）
 
 
@@ -37,7 +38,7 @@
 ## 点検
 - studyType が空のトピック数、links が片側だけのもの、focus.json の id が topics.json にないもの
 - `python3 scripts/build_evidence_hub.py` が警告なしで通るか
-- 同じ論文を出典にしたトピックがないか（sourceUrl から DOI・PMID を取り出して数える）（通したら p/sitemap.xml の差分は行の並び替えだけなので `git checkout p/sitemap.xml` で戻す）
+- 同じ論文を出典にしたトピックがないか（sourceUrl から DOI・PMID を取り出して数える）（通したら p/ の差分は日付・CSS・sitemap の並び替えだけなので、点検だけのときは `git checkout p/` で戻す）
 - 人を対象にしない研究（モデル計算・動物・AIの出力）の結論のカードに、人での検証でないことが書かれているか
 
 ## すぐ直してよいこと
@@ -74,4 +75,5 @@
 ## やったこと
 
 古い記録は [log/evidence.md](log/evidence.md)。
+- 2026-11-14: 点検（1345本・studyType空欄0・ビルド警告なし198ページ・focus.json の id 不一致0・links 片側0・内部リンク切れ0・sitemap のファイルなし0・EVIDENCE の noindex 掲載0・同じ論文の重複は先週と同じ2組〔判断待ち、増減なし〕）。Crossref・Europe PMC はクラウドから接続拒否のため、要旨照合と分野追加は飛ばした。ビルドを回すと全198ページの日付・CSS が書き換わるため点検後は `git checkout p/` で戻す（ルール化）。manual.md の水8杯の重複項目（コーヒーと同じ項目に含まれていた）を1行削った
 - 2026-11-07: 点検（1145本・studyType空欄0・ビルド警告なし198ページ・focus.json の id 不一致0・links 片側0・同じ論文の重複は水8杯1組に加えコーヒー脱水1組＝計2組〔判断待ち〕）。evidence-topics.md に「足したあと同じ DOI を数える」を追加
