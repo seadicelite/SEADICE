@@ -1,5 +1,171 @@
 [
   {
+    "id": "dokugaku-why-believe-brain-myths-study-methods-neuroscience-allure",
+    "category": "脳の神話",
+    "kind": "研究紹介",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Weisberg et al., \"The seductive allure of neuroscience explanations\" (Journal of Cognitive Neuroscience, 2008)",
+    "sourceUrl": "https://doi.org/10.1162/jocn.2008.20040",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-believe-brain-myths-study-methods/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "「脳の〇〇が」で信じてしまう？",
+        "body": "「この勉強法は前頭葉を使うから効く」。脳の話がつくと、なんだか説得力があるよね。それって本当に中身のせい？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "関係のない脳の話を足してみた",
+        "body": "米国の研究者が、心の現象のよい説明と、言い換えただけの中身のない説明を用意。そこに説明とは関係のない脳の話を足して、一般の81人に評価してもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "中身のない説明ほど上がった",
+        "body": "脳の話を足すと、中身のない説明の評価が−3〜+3の尺度で平均−0.73から0.16に上がった。よい説明への効果は小さかった。専門家48人では上がらず、よい説明の評価はむしろ下がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "画像の効果は別の話",
+        "body": "短い説明文を読む実験で、勉強法を選ぶ場面ではない。「脳の画像を添えると信じやすい」という別の有名な研究は、約2,000人の再現実験でほぼ効果が見られなかった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#dokugaku-why-believe-brain-myths-study-methods-neuroscience-allure"
+  },
+  {
+    "id": "dokugaku-why-old-habits-block-new-methods-relearning-einstellung-chess",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Sheridan & Reingold, \"The mechanisms and boundary conditions of the Einstellung effect in chess: Evidence from eye movements\" (PLoS ONE, 2013)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0075796",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-old-habits-block-new-methods-relearning/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "慣れた方法から抜けられないのはなぜ？",
+        "body": "新しいやり方を教わっても、つい昔のやり方で解いてしまう。経験がある人ほど頭が固いってこと？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "チェスで目の動きを測った",
+        "body": "カナダのチェスの熟練者17人と初心者17人に、見慣れた手と、別の場所にあるもっと良い手がある問題を解いてもらい、目の動きを記録した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "熟練者も初心者も17人中8人",
+        "body": "見慣れた手が「一応うまくいく手」の問題では、熟練者も初心者も17人中8人がそれを選んだ。選んだ人の目は、最後まで見慣れた手のまわりを見ていたらしい。はっきりした悪手のときは、熟練者は全員避けられた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強の場面ではどうか",
+        "body": "34人でチェスの4問だけを使った実験。資格の勉強や仕事のやり方を学び直す場面で同じことが起きるかは、直接は調べられていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#dokugaku-why-old-habits-block-new-methods-relearning-einstellung-chess"
+  },
+  {
+    "id": "kokoro-ai-bias-carryover-warning-prevent-error-framing",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Vicente & Matute, \"Warning people about the risk of AI error mitigates human acquisition of AI bias\" (Cognitive Research: Principles and Implications, 2026)",
+    "sourceUrl": "https://doi.org/10.1186/s41235-026-00726-w",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-bias-carryover-warning-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIのくせは自分にうつる？",
+        "body": "偏った答えを出すAIに助言をもらい続けたら、AIを閉じたあとも同じ判断をしちゃうのかな。スペインの研究チームが実験で確かめているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "わざと偏ったAIで実験",
+        "body": "架空の病気の検査画像を見分ける課題で、わざと偏った助言を出すAIを使った。先に「間違えることがある」と知らせる組と、知らせない組を比べた3つの実験で、合計616人が参加したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「20%間違う」と聞くと慎重に",
+        "body": "「助言の20%は間違い」と知らされた組は、何も知らされない組より誤った助言に乗りにくかった。「80%正しい」と知らされた組では、その差がはっきりしなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効かなかった実験もある",
+        "body": "3つ目の実験では、助言を受けている最中の誤りには注意書きの効果がはっきりしなかった。細胞の色の濃さを見分ける単純な課題なので、毎日のAIとの会話で同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-bias-carryover-warning-prevent-error-framing"
+  },
+  {
+    "id": "weather-rain-probability-meaning",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Gigerenzer, Hertwig, van den Broek, Fasolo & Katsikopoulos, \"\\\"A 30% chance of rain tomorrow\\\": how does the public understand probabilistic weather forecasts?\" (Risk Analysis, 2005)",
+    "sourceUrl": "https://doi.org/10.1111/j.1539-6924.2005.00608.x",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "降水確率30%って、どういう意味？",
+        "body": "天気予報の「降水確率30%」。わかった気でいるけど、いざ説明しようとすると意外と迷うよね。みんなは同じ意味で受け取っているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5つの都市で道行く人に聞いた",
+        "body": "アムステルダム、アテネ、ベルリン、ミラノ、ニューヨークで、通りがかった人に「明日の降水確率30%」の意味を、選択肢と自由回答の両方で尋ねた調査があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気象の意味で答えたのは一部だけ",
+        "body": "気象での意味は「今日と同じような条件の日が10回あれば、3回は翌日に雨が降る」。これを選んだ人が多数だったのはニューヨークだけ。ヨーロッパでは「明日の30%の時間雨」「地域の30%で雨」と受け取る人が多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本の人はどう受け取る？",
+        "body": "2005年の、5つの都市の通行人への調査で、日本の人は含まれていない。研究者は、確率が「何についての30%か」を伝える側が示すべきだと書いているけど、示し方でどれだけ誤解が減るかは、この調査では確かめていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-rain-probability-meaning"
+  },
+  {
+    "id": "food-blueberry-cognition-meta",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "He, Yang, Zhang, Mai & Li, \"Blueberry consumption enhances vascular function but not cognitive abilities in healthy individuals: a systematic review and meta-analysis\" (Nutrition Research, 2026)",
+    "sourceUrl": "https://doi.org/10.1016/j.nutres.2026.03.007",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ブルーベリーで頭がよくなる？",
+        "body": "ブルーベリーは脳にいい、記憶力が上がる、ってよく聞くよね。健康な人が食べても、本当に頭の働きは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "14の試験、632人をまとめた",
+        "body": "健康な人がブルーベリーをとる組と、とらない組をくじで分けて比べた試験14本（632人）を、まとめて分析した研究があるんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "頭の働きに、はっきりした差はなし",
+        "body": "判断や切り替えなどの頭の働きにも、気分にも、はっきりした差は出なかった。一方で、血管の広がりやすさの指標は少しよくなっていたよ。血圧は変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "量や期間がばらばら",
+        "body": "試験ごとにブルーベリーの量や種類、期間、参加者の年齢がばらばらで、研究者自身も結論はまだ出せないとしている。もっと大きく、そろった方法の試験が必要だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-blueberry-cognition-meta"
+  },
+  {
     "id": "dokugaku-memorized-check-sheet-delayed-judgment-drop-after-one-recall",
     "category": "学習法",
     "kind": "よくある説",
