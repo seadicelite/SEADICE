@@ -1,5 +1,192 @@
 [
   {
+    "id": "research-reading-not-sinking-in-mind-wandering-recovery-research-read-aloud",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Varao Sousa TL, Carriere JSA & Smilek D, \"The way we encounter reading material influences how frequently we mind wander\" (Frontiers in Psychology, 2013)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2013.00892",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/reading-not-sinking-in-mind-wandering-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "読んでるのに頭に入らない",
+        "body": "気づいたら同じ行を何回も読んでる。目は文字を追ってるのに、心は別のことを考えてるんだよね。読み方で変わるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "音読・黙読・聞くだけを比べた",
+        "body": "カナダの大学生235人が参加し、きちんと取り組めた211人を分析。声に出して読む、黙って読む、朗読を聞く、の3通りで約1,800語の文章に触れ、途中で「今、上の空だった？」に答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "音読が一番、上の空が少ない",
+        "body": "上の空が一番少なかったのは音読。聞くだけのときは平均50.6%と一番多く、黙読は35.6%。聞くだけだと記憶テストも一番低かった。ただ、音読と黙読で覚えた量に差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い勉強でも同じ？",
+        "body": "実験室で約1,800語の文章を読んだだけの結果。2回に分けて集めた人たちで同じ傾向が出たけど、何時間もの勉強や、オーディオブックを毎日聞く場合に当てはまるかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-reading-not-sinking-in-mind-wandering-recovery-research-read-aloud"
+  },
+  {
+    "id": "research-small-acts-of-kindness-mood-how-research-prosocial-spending-replication",
+    "category": "お金の心理学",
+    "kind": "よくある説",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Aknin LB et al., \"Does spending money on others promote happiness?: A registered replication report\" (Journal of Personality and Social Psychology, 2020)",
+    "sourceUrl": "https://doi.org/10.1037/pspa0000191",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/small-acts-of-kindness-mood-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人のためにお金を使うと幸せになる？",
+        "body": "自分より人のためにお金を使うほうが幸せになる、という有名な研究があるよね。ただ、もとの研究は人数が少なかったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "もとの研究者も加わって大人数で確かめ直した",
+        "body": "やり方を事前に登録して、3つの実験をやり直した。学生712人が実際に買い物をする実験と、過去の出費を思い出す実験（1,950人と5,199人）だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "実際に買うと効いた、思い出すだけでは弱い",
+        "body": "困っている見知らぬ人のために実際に買った学生は、その場の幸福感が高かった。思い出すだけの実験では、差が出ないか、出ても小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どのくらい続く効果かは別の話",
+        "body": "測ったのはその場の幸福感。効果の大きさはやり方しだいで変わったので、毎日の気分がずっと上がるかまでは、この研究ではわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "money-prosocial-spending",
+        "type": "あわせて読む",
+        "why": "46人のもとの実験を、事前登録して大人数で確かめ直した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#research-small-acts-of-kindness-mood-how-research-prosocial-spending-replication"
+  },
+  {
+    "id": "research-video-lecture-focus-quiz-breaks-how-research-interpolated-tests",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Szpunar KK, Khan NY, Schacter DL, \"Interpolated memory tests reduce mind wandering and improve learning of online lectures\" (PNAS, 2013)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1221764110",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/video-lecture-focus-quiz-breaks-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "動画の授業、気づけば上の空",
+        "body": "オンライン授業の動画を見ていると、いつの間にか別のことを考えてるよね。途中で小テストをはさむと、集中は戻るんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21分の動画を4つに区切った",
+        "body": "ハーバード大学の学生が、21分の統計学の講義動画を約5.5分ずつ4つに分けて見た。区切りごとに問題に答える組、答えを見直すだけの組、問題なしの組をくらべたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "上の空が41%→19%に",
+        "body": "「今、上の空？」と聞かれたとき、問題なしの組は41%、見直しの組は39%で上の空だった。問題に答えた組は19%。メモも多く取り、最後のテストへの不安も低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "少人数・動画1本での話",
+        "body": "2つの実験で合わせて80人、3組に分けた実験では1組16人と少なめ。使った動画は21分の統計学1本だけで、長い授業や別の科目でも同じになるかは、この研究だけではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-focus-fades-over-time-studying-lecture-attention-decline",
+        "type": "あわせて読む",
+        "why": "講義動画で集中が落ちていく研究と、それを防ぐ一つのやり方"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-video-lecture-focus-quiz-breaks-how-research-interpolated-tests"
+  },
+  {
+    "id": "posture-lumbar-support-belt",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "van Duijvenbode et al., \"Lumbar supports for prevention and treatment of low back pain\" (Cochrane Database of Systematic Reviews, 2008)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD001823.pub3",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "腰痛には、腰ベルト（コルセット）がいい？",
+        "body": "腰を使う仕事の人や、腰を痛めた人が巻く腰ベルト。巻いておけば腰痛を防げる、治りが早い、ってよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "15件のくじ引き実験を整理",
+        "body": "コクランのチームが、腰ベルトをくじ引きで割り当てた実験を集めたよ。予防の実験が7件（働く人14,437人）、治療の実験が8件（1,361人）。2008年のまとめなんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "予防には効かないらしい",
+        "body": "巻いても、何もしない・腰の使い方の指導と比べて腰痛は防げない、というのが中くらいの確かさの結論。ほかの予防策に足すと効くかは結果が分かれ、治療に効くかもまだはっきりしないんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験の質は低め",
+        "body": "15件のうち、質の基準を半分以上満たしたのは5件だけ。ちゃんと巻き続けたかもばらばらだった。ベルトの種類や腰痛のタイプで違う可能性もあるし、2006年までの研究のまとめだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-lumbar-support-belt"
+  },
+  {
+    "id": "japan-water-gargling-cold",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Satomura et al., \"Prevention of upper respiratory tract infections by gargling: a randomized trial\" (American Journal of Preventive Medicine, 2005)",
+    "sourceUrl": "https://doi.org/10.1016/j.amepre.2005.06.013",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "帰ったらうがいで、風邪を防げる？",
+        "body": "子どものころから「手洗い・うがい」って言われてきたよね。日本ではおなじみの習慣だけど、本当に風邪を防げるのか、くじ引きで確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "387人を3組に分けて60日",
+        "body": "京都大学などのチームが、18〜65歳の健康な387人を、水でうがい・うがい薬（ポビドンヨード）でうがい・いつも通りの3組に分けた。うがいは1日3回以上、冬に60日間続けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "水うがいの組は、かぜが少なかった",
+        "body": "かぜ（のどや鼻の感染）にかかる割合は、いつも通りの組を1とすると水うがいで0.64。うがい薬の組は0.89で、はっきりした差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの実験・自己申告",
+        "body": "かぜかどうかは本人がつけた症状の記録で決めていて、うがいをしたかも本人にわかる方法だった。ひと冬・387人の1つの実験の結果で、ほかの年齢や国でも同じかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "japan-green-tea-gargling-covid",
+        "type": "あわせて読む",
+        "why": "水うがいで風邪を比べた実験と、緑茶うがいでコロナを比べた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-water-gargling-cold"
+  },
+  {
     "id": "kokoro-comparison-falling-behind-new-goal-reengage",
     "category": "幸福の科学",
     "kind": "素朴な疑問",
@@ -1316,6 +1503,11 @@
         "id": "dokugaku-why-focus-fades-over-time-studying-15-minute-attention-myth",
         "type": "あわせて読む",
         "why": "「15分が限界」に根拠はないが、長い講義の中で集中が下がること自体はこの実験で見られた"
+      },
+      {
+        "id": "research-video-lecture-focus-quiz-breaks-how-research-interpolated-tests",
+        "type": "あわせて読む",
+        "why": "講義動画で集中が落ちていく研究と、それを防ぐ一つのやり方"
       }
     ],
     "webUrl": "https://seadice.win/evidence/focus/#dokugaku-why-focus-fades-over-time-studying-lecture-attention-decline"
@@ -5581,7 +5773,14 @@
         "body": "研究費は伊藤園から出ていて、社員も著者に入っている。何でうがいしたか本人にわかる方法で、水組のほうがマスクなど他の対策をよく守っていた。濃さや回数を変えたらどうかは、これからだよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/japan/#japan-green-tea-gargling-covid"
+    "webUrl": "https://seadice.win/evidence/japan/#japan-green-tea-gargling-covid",
+    "links": [
+      {
+        "id": "japan-water-gargling-cold",
+        "type": "あわせて読む",
+        "why": "水うがいで風邪を比べた実験と、緑茶うがいでコロナを比べた実験"
+      }
+    ]
   },
   {
     "id": "love-handholding-emotional-pain",
@@ -27263,6 +27462,11 @@
         "id": "happy-kindness-meta",
         "type": "あわせて読む",
         "why": "人のためにお金を使う実験と、親切の効果のまとめ"
+      },
+      {
+        "id": "research-small-acts-of-kindness-mood-how-research-prosocial-spending-replication",
+        "type": "あわせて読む",
+        "why": "46人のもとの実験を、事前登録して大人数で確かめ直した研究"
       }
     ]
   },
