@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-memorized-check-sheet-delayed-judgment-drop-after-one-recall",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Karpicke, \"Metacognitive control and strategy selection: Deciding to practice retrieval during learning\" (Journal of Experimental Psychology: General, 2009)",
+    "sourceUrl": "https://doi.org/10.1037/a0017341",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/memorized-check-sheet-delayed-judgment/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "1回言えたら、もう覚えた",
+        "body": "単語カードで1回答えられたら、そのカードは外して次へ。効率がよさそうなやり方だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "外すかどうかを本人に任せた",
+        "body": "外国語の単語を覚える4つの実験で、くり返しテストする・読み直す・外す、を自分で選べるようにした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "すぐ外すと、後で忘れる",
+        "body": "くり返しテストすると長く残った。でも多くの人は1回思い出せた単語をすぐ外して、後の成績が下がったらしい。「一度言えたら覚えた」と思い込むのが原因と著者は考えている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い独学でも同じ？",
+        "body": "実験室での短い学習の結果。何か月もかけて資格や語学を学ぶ場面で、同じくらいの差が出るかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-memorized-check-sheet-delayed-judgment-delayed-jol",
+        "type": "あわせて読む",
+        "why": "「一度言えたら覚えた」と思う錯覚と、覚えたかの判断を遅らせて精度を上げる方法"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-memorized-check-sheet-delayed-judgment-drop-after-one-recall"
+  },
+  {
+    "id": "research-health-checkup-appointment-procrastination-recovery-research-preformulated-null",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Lo SH et al., \"Preformulated implementation intentions to promote colorectal cancer screening: a cluster-randomized trial\" (Health Psychology, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/a0033507",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/health-checkup-appointment-procrastination-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「もし〜なら〜する」を決めれば動ける？",
+        "body": "行動の計画を「もし〇〇なら△△する」の形で決めると実行しやすい、という話はよく聞くよね。じゃあ、その計画文を配るだけでも効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "検診の案内に計画文を印刷",
+        "body": "イギリスの大腸がん検診で、60〜69歳への案内冊子に、よくある障害への計画文を3つ印刷した。計画文あり12,414件、なし10,768件を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "検査を返した割合は変わらず",
+        "body": "検査キットを返した割合は、計画文ありが39.7%、なしが40.4%。全体では差がなかった。読むだけの計画では動けなかったみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自分で書けば違う？",
+        "body": "この試験の計画は本人が考えたものじゃなかった。自分の言葉で書く計画なら効くのかは、この研究だけでは言えないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-health-checkup-appointment-procrastination-recovery-research-preformulated-null"
+  },
+  {
+    "id": "research-time-management-procrastination-research-training-control-not-performance",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Häfner A & Stock A, \"Time management training and perceived control of time at work\" (The Journal of Psychology, 2010)",
+    "sourceUrl": "https://doi.org/10.1080/00223980.2010.496647",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/time-management-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "時間管理を学べば仕事がはかどる？",
+        "body": "手帳や優先順位づけを覚えれば、仕事の成果が上がる。時間管理の本や研修でよく聞く話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "会社員71人をくじで分けた",
+        "body": "ある研究で、会社員71人をくじで2組に分けたんだ。35人が心理学にもとづく時間管理の研修を受けて、36人は順番待ちの組になった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "変わったのは「気持ち」の側",
+        "body": "研修を受けた組は、時間を自分で動かせる感覚が高まって、ストレスが下がった。でも、仕事の成果を表す指標には変化がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数も使い方もばらばら",
+        "body": "71人と小さな研究で、教えた方法を実際に使ったかどうかは人によって大きく違った。長く続けたら成果が変わるのかは、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct",
+        "type": "あわせて読む",
+        "why": "時間管理の研修で変わったのは気持ちの側。先延ばしを気持ちの扱い方から変えた試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-time-management-procrastination-research-training-control-not-performance"
+  },
+  {
+    "id": "aging-sport-type-mortality-oja",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Oja et al., \"Associations of specific types of sports and exercise with all-cause and cardiovascular-disease mortality: a cohort study of 80 306 British adults\" (British Journal of Sports Medicine, 2017)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2016-096822",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "長生きにつながるスポーツはどれ？",
+        "body": "運動が体にいいのはわかるけど、種目によって違いはあるのかな。走るのと泳ぐの、どっちがいいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イギリスの8万人を追いかけた",
+        "body": "スコットランドとイングランドの約8万人（平均52歳）に、どんなスポーツをしているか聞いて、その後の死亡との関係を調べた研究があるんだ。年齢などほかの要因の影響は差し引いているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ラケット競技・水泳・エアロビクスで低め",
+        "body": "死亡のリスクは、テニスなどのラケット競技をする人で47%、水泳で28%、エアロビクスで27%、自転車で15%低かった。ランニングとサッカーでは、はっきりした関係は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "その種目のおかげとは言えない",
+        "body": "観察した研究なので、もともと健康な人がその種目を選んでいた可能性は残る。イギリスの人のデータで、ほかの国でも同じかはわからない。ランニングに意味がないという結果でもないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-sport-type-mortality-oja"
+  },
+  {
+    "id": "replication-oxytocin-trust",
+    "category": "心理学の再現性",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Nave, Camerer & McCullough, \"Does Oxytocin Increase Trust in Humans? A Critical Review of Research\" (Perspectives on Psychological Science, 2015)",
+    "sourceUrl": "https://doi.org/10.1177/1745691615600138",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "オキシトシンで人を信じやすくなる？",
+        "body": "「信頼ホルモン」「愛情ホルモン」なんて呼ばれるオキシトシン。鼻からスプレーすると相手を信じやすくなる、という話を聞いたことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10年分の研究を見直した",
+        "body": "研究者3人が、鼻からのスプレー実験、血液中の量との関係、遺伝子の型との関係という3種類の研究をまとめて見直したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "はっきりした証拠はなかった",
+        "body": "スプレーで信頼が増すという有名な結果は、追試でうまく再現されなかった。血液中の量の測り方にも問題があり、大きな遺伝子研究でも一貫した関係は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関係がないとも言い切れない",
+        "body": "数字でまとめたメタ分析ではなく、研究を読み比べたレビュー。動物ではきずなに関わることが知られていて、人で信頼とどう関わるのかは、もっと厳密な研究を待つ段階だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#replication-oxytocin-trust"
+  },
+  {
     "id": "research-memory-palace-method-of-loci-how-research-loci-training-40days",
     "category": "記憶のしくみ",
     "kind": "研究紹介",
@@ -1891,6 +2071,11 @@
         "id": "procrastination-metaanalysis",
         "type": "あわせて読む",
         "why": "先延ばしと結びつく要因のまとめ。こちらは気持ちの扱い方を練習で変えた"
+      },
+      {
+        "id": "research-time-management-procrastination-research-training-control-not-performance",
+        "type": "あわせて読む",
+        "why": "時間管理の研修で変わったのは気持ちの側。先延ばしを気持ちの扱い方から変えた試験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct"
@@ -4291,6 +4476,11 @@
         "id": "dokugaku-font-size-illusion",
         "type": "あわせて読む",
         "why": "覚えた気になる感覚がずれる例と、ずれを減らす判断のタイミング"
+      },
+      {
+        "id": "dokugaku-memorized-check-sheet-delayed-judgment-drop-after-one-recall",
+        "type": "あわせて読む",
+        "why": "「一度言えたら覚えた」と思う錯覚と、覚えたかの判断を遅らせて精度を上げる方法"
       }
     ],
     "webUrl": "https://seadice.win/evidence/memory/#dokugaku-memorized-check-sheet-delayed-judgment-delayed-jol"
