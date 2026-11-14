@@ -1,5 +1,192 @@
 [
   {
+    "id": "research-memory-palace-method-of-loci-how-research-loci-training-40days",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Wagner IC et al., \"Durable memories and efficient neural coding through mnemonic training using the method of loci\" (Science Advances, 2021)",
+    "sourceUrl": "https://doi.org/10.1126/sciadv.abc7606",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/memory-palace-method-of-loci-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "記憶の宮殿って、ふつうの人にも使える？",
+        "body": "よく知る道に覚えたいものを置いて、頭の中で歩き直す「記憶の宮殿」。記憶の大会の選手が使う技だけど、ふつうの人が練習しても伸びるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "記憶術を知らない人が40回練習した",
+        "body": "ドイツの大学の男子学生を3組に分けた実験。1組は6週間で30分×40回、記憶の宮殿を練習。ほかの組は別の脳トレか、何もしなかったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "72語中25語→62語に",
+        "body": "練習した17人は、72語のリストを覚えて思い出せた数が平均25.2語から62.2語に増えた。4か月後のテストでも、練習前より平均22.7語多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語リスト以外にも効くかは別",
+        "body": "参加者は若い男性だけで、試したのは単語の一覧を覚えるテスト。4か月後は最初と同じリストを使っていた。教科書の理解や毎日のもの忘れにどこまで役立つかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-memory-palace-method-of-loci-how-research-loci-training-40days"
+  },
+  {
+    "id": "kokoro-others-failure-relief-why-toddler-schadenfreude",
+    "category": "対人関係の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Shamay-Tsoory et al., \"There is no joy like malicious joy: schadenfreude in young children\" (PLoS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0100233",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/others-failure-relief-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人の失敗にほっとするのは、大人だけ？",
+        "body": "人がつまずいたと聞いて、ちょっとほっとしちゃうことってあるよね。この「他人の不幸は蜜の味」の気持ち、小さな子どもにもあるのか調べた実験があるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "お母さんが、ほかの子に読み聞かせ",
+        "body": "イスラエルの2〜3歳の子ども35人で試した。お母さんがひとりで本を読む場面と、ほかの子をひざに乗せて読む場面をつくり、どちらも最後にお母さんが本に水をこぼして終わるようにした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不公平が終わると、喜ぶしぐさ",
+        "body": "ほかの子に読んでいた場面が終わったときのほうが、飛びはねたり手をたたいたりする喜ぶしぐさが多かった。いちばん幼い2歳ごろの子にも見られたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人のSNSでも同じ？",
+        "body": "35人と少なく、気持ちは表情やしぐさから読み取ったもの。大人の職場やSNSで感じる気持ちが、同じしくみなのかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-others-failure-relief-why-toddler-schadenfreude"
+  },
+  {
+    "id": "research-habit-reminder-notification-ignored-recovery-research-heartsteps-fade",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Klasnja P et al., \"Efficacy of Contextually Tailored Suggestions for Physical Activity: A Micro-randomized Optimization Trial of HeartSteps\" (Annals of Behavioral Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1093/abm/kay067",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/habit-reminder-notification-ignored-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "習慣の通知、だんだん効かなくなる？",
+        "body": "最初は通知が鳴るたびに動けたのに、いつのまにか見ずに消している。そんな経験、けっこうあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "通知を送るか、毎回くじで決めた",
+        "body": "大人44人のスマホに6週間、1日最大5回のタイミングで「少し歩きませんか」などの提案を送るかどうかを毎回くじで決めて、直後30分の歩数を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "始めは約2倍、だんだん弱まった",
+        "body": "歩く提案は、始めのころは直後30分の歩数を約2倍（271歩増）にした。でもその効果は日がたつにつれて小さくなったらしい。「座りすぎを止めよう」という提案には、はっきりした効果がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、測ったのは30分だけ",
+        "body": "44人・6週間の研究で、測ったのは通知直後30分の歩数だけ。効果が弱まった理由が通知への慣れなのかや、歩く習慣そのものが身についたのかは、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-habit-forgetting-reminder-cue-research-text-reminder",
+        "type": "あわせて読む",
+        "why": "リマインダー全体の効果をまとめた研究。こちらは効き目が時間で弱まるかを見た"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-reminder-notification-ignored-recovery-research-heartsteps-fade"
+  },
+  {
+    "id": "sleepenv-snooze-alarm-morning-cognition",
+    "category": "睡眠環境",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Sundelin T, Landry S, Axelsson J, \"Is snoozing losing? Why intermittent morning alarms are used and how they affect sleep, cognition, cortisol, and mood\" (Journal of Sleep Research, 2024)",
+    "sourceUrl": "https://doi.org/10.1111/jsr.14054",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スヌーズで二度寝すると、かえって頭がぼんやりする？",
+        "body": "目覚ましを止めて「あと10分」。スヌーズは体に悪い、寝起きが余計につらくなる、ってよく聞くよね。実際に確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アンケートと、泊まりがけの実験",
+        "body": "まず1,732人に朝の起き方を聞いた。次に、ふだんスヌーズを使う31人が実験室に泊まり、30分スヌーズする朝と、1回で起きる朝を同じ人で比べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "30分のスヌーズで、頭の働きは落ちなかった",
+        "body": "スヌーズした朝は、起きてすぐの頭のテストの成績が同じか少し良かった。眠りは約6分減ったけど、深い眠りの途中で起こされることは避けられた。眠気・気分・ストレスのホルモンにははっきりした差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "31人の実験で、ふだん使う人だけ",
+        "body": "実験はもともとスヌーズを使う31人だけで、30分という1つのやり方を試したもの。証拠の強さはテストによってまちまちだった。スヌーズしない人や、もっと長いスヌーズでも同じかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-alarm-melody-sleep-inertia",
+        "type": "あわせて読む",
+        "why": "寝起きのぼんやりを、目覚ましの音の種類で減らせるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleepenv-snooze-alarm-morning-cognition"
+  },
+  {
+    "id": "caffeine-energy-drink-sleep-students",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Kaldenbach S, Hysing M, Strand TA, Sivertsen B, \"Energy drink consumption and sleep parameters in college and university students: a national cross-sectional study\" (BMJ Open, 2024)",
+    "sourceUrl": "https://doi.org/10.1136/bmjopen-2023-072951",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "エナジードリンクを飲むと、眠りは短くなる？",
+        "body": "試験前や締め切り前に、つい手が伸びるエナジードリンク。でもよく飲む人ほど、夜の眠りに影響が出ているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ノルウェーの学生5万3千人に聞いた",
+        "body": "2022年、ノルウェーの18〜35歳の大学生など53,266人に、エナジードリンクを飲む回数と、寝る時間・寝つき・夜中に起きている時間などを答えてもらった全国調査だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "毎日飲む人は、6時間未満の睡眠が約2倍",
+        "body": "毎日飲む人は、ほとんど飲まない人より睡眠が約30分短かった。6時間未満しか眠れない人の割合は、男性で2.07倍、女性で1.87倍。飲む回数が増えるほど、眠りは短く、寝つきも悪かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "眠れないから飲んでいるのかも",
+        "body": "一度きりのアンケートで、眠りが悪いからエナジードリンクに頼っている、という逆の向きもありうると著者も書いている。飲んだ時間帯や量、ノルウェー以外の学生でも同じかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-late-sleep-disruption",
+        "type": "あわせて読む",
+        "why": "カフェインを寝る何時間前にとると眠りに響くかを、実験で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-energy-drink-sleep-students"
+  },
+  {
     "id": "dokugaku-standing-desk-study-focus-stroop-replication",
     "category": "姿勢と自信",
     "kind": "よくある説",
@@ -1286,6 +1473,11 @@
         "id": "research-morning-grogginess-sleep-inertia-focus-recovery-research-light-at-home",
         "type": "あわせて読む",
         "why": "寝起きのぼんやりを、音で減らせるかと光で減らせるか"
+      },
+      {
+        "id": "sleepenv-snooze-alarm-morning-cognition",
+        "type": "あわせて読む",
+        "why": "寝起きのぼんやりを、スヌーズで減らせるかを実験で確かめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/music-focus/#music-alarm-melody-sleep-inertia"
@@ -18306,6 +18498,11 @@
         "id": "dokugaku-study-reminders-cues-how-to-distinctive-cue",
         "type": "あわせて読む",
         "why": "メッセージで思い出させる方法と、目に入る物を目印にする方法"
+      },
+      {
+        "id": "research-habit-reminder-notification-ignored-recovery-research-heartsteps-fade",
+        "type": "あわせて読む",
+        "why": "通知の効き目が日がたつと弱まるかを、1つの試験で細かく見た研究"
       }
     ]
   },
@@ -30026,6 +30223,11 @@
         "id": "caffeine-crave-coffee-trial",
         "type": "あわせて読む",
         "why": "日常生活でも、コーヒーを飲んだ日は睡眠が短かった"
+      },
+      {
+        "id": "caffeine-energy-drink-sleep-students",
+        "type": "あわせて読む",
+        "why": "エナジードリンクをよく飲む学生ほど眠りが短かった大規模調査"
       }
     ]
   },
