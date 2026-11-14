@@ -1,5 +1,200 @@
 [
   {
+    "id": "dokugaku-standing-desk-study-focus-stroop-replication",
+    "category": "姿勢と自信",
+    "kind": "よくある説",
+    "themeColor": "#F87171",
+    "sourceLabel": "Caron et al., \"Does Posture Influence the Stroop Effect?\" (Psychological Science, 2020)",
+    "sourceUrl": "https://doi.org/10.1177/0956797620953842",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "立つと集中できる？",
+        "body": "立って作業すると集中力が上がる、ってよく聞くよね。2017年には、立つと注意の課題の成績がよくなったという実験も出ていた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5回やり直してみた",
+        "body": "Caronらは、その実験を2つの機関で5回やり直した。分析した人数は108人・108人・98人・78人・51人。座る・立つで、色の名前を答える課題（ストループ課題）の成績を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "姿勢の差は出なかった",
+        "body": "5回とも、課題そのものの効果はちゃんと出たのに、立つか座るかで一貫した違いは見られなかった。著者らは、姿勢の影響は以前言われたほど大きくないとまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い勉強では未確認",
+        "body": "調べたのは実験室での短い課題だけ。何時間も勉強するときや、立って作業することに慣れた人でどうなるかは、この実験からはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-standing-desk-engagement",
+        "type": "あわせて読む",
+        "why": "立っても成績は同じで、熱意や関心が上がったという別の実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#dokugaku-standing-desk-study-focus-stroop-replication"
+  },
+  {
+    "id": "dokugaku-study-anxiety-self-talk-rephrase-table-own-name",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Kross et al., \"Self-talk as a regulatory mechanism: How you do it matters\" (Journal of Personality and Social Psychology, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/a0035173",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "緊張したら、自分に言い聞かせる",
+        "body": "人前で話す前、「私なら大丈夫」と心の中で自分を励ます人は多いよね。でも、その言い聞かせ方で結果が変わるとしたら？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「私」か「自分の名前」か",
+        "body": "7つの研究（計585人）のうち2つで、初対面の印象づくりやスピーチの前に、「私は」ではなく自分の名前や「あなた」で自分に問いかけてもらい、「私」で考えた人と比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "名前で問いかけた人のほうが落ち着いていた",
+        "body": "名前で問いかけた人のほうが、第三者から見た出来がよく、苦しさも小さかった。スピーチの後に失敗をくよくよ考えることも少なかった。人前が苦手な人でも効果は変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの実験室の話",
+        "body": "調べたのは実験室での1回の場面。試験や発表の前に何週間も続く不安に、同じ効果が続くかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-third-person-self-talk-work-panic-name",
+        "type": "あわせて読む",
+        "why": "自分を名前で呼ぶと、いやな記憶のつらさが下がった脳画像の実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#dokugaku-study-anxiety-self-talk-rephrase-table-own-name"
+  },
+  {
+    "id": "dokugaku-study-time-estimate-vs-actual-log-not-always-under",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Brady et al., \"Self-regulation of time: The importance of time estimation accuracy\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.925812",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "勉強時間はいつも短く見積もる？",
+        "body": "「1時間で終わる」と思った勉強が2時間かかる。人は作業時間を短く見積もるもの、とよく言われるよね。でも、いつもそうなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生210人が自分の勉強で確かめた",
+        "body": "米国中西部の大学生210人が、翌週に1回で終える勉強（読む・課題・試験勉強など）を選んで、かかる時間を見積もり、あとで実際にかかった時間を答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "短く見積もった人は半分以下",
+        "body": "短く見積もった人は47.1%、逆に長く見積もった人が31.9%、ぴったりが21%。見積もる前に、その作業の過去の経験などを振り返る質問に答えても、正確さは変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の申告と、授業の影響",
+        "body": "実際の時間は本人の申告で、参加者は時間管理を習う授業を受けていた学生。慣れた短い作業だったことも、長めに見積もる人が多かった理由かもしれないと著者らは書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-exam-time-allocation-sheet-same-task-estimate",
+        "type": "あわせて読む",
+        "why": "同じ作業を一度やると、次の見積もりのずれが小さくなった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-study-time-estimate-vs-actual-log-not-always-under"
+  },
+  {
+    "id": "parenting-praise-effort-vs-intelligence-replication",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Li & Bates, \"You can't change your basic ability, but you work at things, and that's how we get hard things done: Testing the role of growth mindset on response to setbacks, educational attainment, and cognitive ability\" (Journal of Experimental Psychology: General, 2019)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000669",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「頭がいいね」より「頑張ったね」？",
+        "body": "子どもは能力より努力をほめると、失敗してもくじけにくくなる。1998年の有名な実験から広まった、よく聞くほめ方のコツだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中国の子ども624人で確かめた",
+        "body": "LiとBatesは、9〜13歳の中国の子ども計624人で、その1998年の実験をほぼそのまま繰り返し、比べる条件を加えた実験もした。考え方と1学期の成績の関係も調べたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "効果はほとんど見られなかった",
+        "body": "最初の実験では失敗後のテストにぎりぎりの差が出たけれど、元の研究のやる気など8つの指標には差がなかった。続く2つの実験では効果なし。「能力は伸びる」と思う子ほど成績がいい、という関係も見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "中国の子どもでの結果",
+        "body": "対象は中国の9〜13歳で、ほかの国や年齢でも同じかはわからない。実験は短い1回の場面で、家で毎日ほめ方を続けた場合とは違う。予想と反対向きの結果も1つあり、結果はそろっていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-growth-mindset",
+        "type": "あわせて読む",
+        "why": "「能力は伸びる」と考える効果を、多くの研究でまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#parenting-praise-effort-vs-intelligence-replication"
+  },
+  {
+    "id": "elder-daytime-nap-alzheimers-bidirectional",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Li et al., \"Daytime napping and Alzheimer's dementia: A potential bidirectional relationship\" (Alzheimer's & Dementia, 2023)",
+    "sourceUrl": "https://doi.org/10.1002/alz.12636",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "親の昼寝が増えたのは、年のせい？",
+        "body": "最近、親が昼間うとうとしている時間が長い気がする。年をとれば自然なこと？それとも気にしたほうがいいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "手首の計測器で最長14年追った",
+        "body": "高齢者1401人の昼寝を、手首につける計測器で本人の申告に頼らず記録し、アルツハイマー型認知症になるかを最長14年追いかけた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "昼寝は年とともに増える、でも増え方に差",
+        "body": "昼寝は年をとるほど長く、多くなっていた。昼寝が長い・多い人ほど、のちに認知症になりやすかった。認知症が進むと、昼寝の増え方は1年あたり2倍以上に。昼寝と頭の働きは、お互いに1年後に影響し合っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "昼寝が原因とは言えない",
+        "body": "人を追いかけて観察した研究で、昼寝が認知症を招くのか、脳の変化が昼寝を増やすのかは分けられない。著者らも両方向か共通の原因かもしれないと書いている。昼寝の長さだけで認知症かどうかはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "memory-complaints-dementia-risk",
+        "type": "あわせて読む",
+        "why": "物忘れの自覚と認知症のなりやすさを、28の研究でまとめた分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#elder-daytime-nap-alzheimers-bidirectional"
+  },
+  {
     "id": "dokugaku-interest-first-study-motivation-passion-grows",
     "category": "学習法",
     "kind": "よくある説",
@@ -8993,7 +9188,14 @@
         "body": "実験室で、いやな記憶を思い出して1回ずつ比べた結果で、参加者は平均20歳くらいの若い人たち。職場で焦ったときや、毎日続けたときに効くかは、この研究では確かめていないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-third-person-self-talk-work-panic-name"
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-third-person-self-talk-work-panic-name",
+    "links": [
+      {
+        "id": "dokugaku-study-anxiety-self-talk-rephrase-table-own-name",
+        "type": "あわせて読む",
+        "why": "名前で自分に問いかけると、スピーチの出来や苦しさが変わった実験"
+      }
+    ]
   },
   {
     "id": "kokoro-binaural-beats-focus-home-test",
@@ -14210,6 +14412,11 @@
         "id": "procrastination-planning-fallacy",
         "type": "あわせて読む",
         "why": "見積もりが甘くなる計画の誤りと、同じ作業を一度やると読みが当たる実験"
+      },
+      {
+        "id": "dokugaku-study-time-estimate-vs-actual-log-not-always-under",
+        "type": "あわせて読む",
+        "why": "自分の勉強の見積もりは、短すぎより長すぎも多かった調査"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-time-allocation-sheet-same-task-estimate"
@@ -15390,7 +15597,14 @@
         "body": "人を追いかけて観察した研究のまとめなので、物忘れの自覚が認知症を起こすわけではないよ。なぜ約2倍になるのかや、どんな物忘れに気をつけるべきかまでは、この分析ではわからないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/aging-parents/#memory-complaints-dementia-risk"
+    "webUrl": "https://seadice.win/evidence/aging-parents/#memory-complaints-dementia-risk",
+    "links": [
+      {
+        "id": "elder-daytime-nap-alzheimers-bidirectional",
+        "type": "あわせて読む",
+        "why": "昼寝の増え方と認知症の関係を、計測器で最長14年追った研究"
+      }
+    ]
   },
   {
     "id": "kokoro-short-video-time-perception-time-sense",
@@ -21738,7 +21952,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/#replication-growth-mindset",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "parenting-praise-effort-vs-intelligence-replication",
+        "type": "あわせて読む",
+        "why": "有名な「努力をほめる」実験を、中国の子どもで繰り返した追試"
+      }
+    ]
   },
   {
     "id": "replication-birth-order",
@@ -25492,6 +25713,11 @@
         "id": "work-standup-meeting",
         "type": "あわせて読む",
         "why": "立っても成績や決定の質は同じで、熱意や満足が変わる"
+      },
+      {
+        "id": "dokugaku-standing-desk-study-focus-stroop-replication",
+        "type": "あわせて読む",
+        "why": "同じ「立つと集中できる」を、5回の追試で確かめた実験"
       }
     ]
   },
