@@ -1,5 +1,197 @@
 [
   {
+    "id": "dokugaku-breakfast-before-morning-study-fasting-cognition",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Bamberg & Moreau, \"Acute effects of fasting on cognitive performance: A systematic review and meta-analysis\" (Psychological Bulletin, 2025)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000492",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/breakfast-before-morning-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "朝ごはんを抜くと頭が働かない？",
+        "body": "「朝食を食べないと脳のエネルギーが足りなくて、勉強も仕事もはかどらない」ってよく聞くよね。じゃあ、お腹が空いたままだと、頭の働きは本当に落ちるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "空腹と満腹の大人をくらべた研究をまとめた",
+        "body": "健康な大人で、空腹のときと食べたあとの頭の働きを心理テストでくらべた実験をまとめたメタ分析があるんだ。222の効果量、3,484人分。空腹の時間は中央値で12時間。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差はほぼゼロだった",
+        "body": "空腹と満腹の差はほぼなし（g=0.02）。研究ごとのばらつきも小さかった。ただ、空腹の時間が長いほど、また年配の人より若い人ほど、成績が少し下がる傾向はあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い勉強や試験の点は別の話",
+        "body": "対象は健康な大人で、測ったのは短い心理テストの成績。空腹は中央値12時間までの短いものが中心。何時間も続く勉強や、試験の点数、子どもで同じかは、この研究では調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-breakfast-school-performance",
+        "type": "あわせて読む",
+        "why": "大人の空腹の実験に対して、こちらは子どもの朝ごはんと成績を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#dokugaku-breakfast-before-morning-study-fasting-cognition"
+  },
+  {
+    "id": "dokugaku-why-dont-do-goals-fail-white-bear-rebound",
+    "category": "心理学の再現性",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Niczyporuk, \"The effectiveness and adaptiveness of suppressing unwanted thoughts\" (Psychonomic Bulletin & Review, 2025)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-025-02763-w",
+    "studyType": "レビュー",
+    "articleUrl": "https://dokugaku.seadice.win/why-dont-do-goals-fail/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "考えないようにすると、逆に考える？",
+        "body": "「白いクマのことを考えないで」と言われると、かえって考えてしまう。だから考えを抑えるのは逆効果、という話はよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2つの実験方法を見直した",
+        "body": "Niczyporukは、「白いクマを考えないで」型の実験と、覚えた言葉を思い出さないようにする実験の2つの流れを比べて、考えを抑える研究をまとめて見直したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いつも逆効果とは言えない",
+        "body": "健康な人では、考えを抑えることがうまくいく場合もあった。抑えるとかえって増える「逆効果」は、説得力のある形では示されていないらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人と場面しだい",
+        "body": "数字でまとめたメタ分析ではなく、文献を整理したレビュー。抑えることが役に立つかは、人の違いや場面によるとされていて、どんなときに逆効果になるかはまだはっきりしない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-suppressing-urges-rebound-why-research-chocolate-rebound",
+        "type": "反対の結果",
+        "why": "チョコを考えないようにした実験では、かえって多く食べる反動が出ていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#dokugaku-why-dont-do-goals-fail-white-bear-rebound"
+  },
+  {
+    "id": "dokugaku-memorized-answers-cannot-solve-new-questions-transfer-meta",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Pan & Rickard, \"Transfer of test-enhanced learning: Meta-analytic review and synthesis\" (Psychological Bulletin, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000151",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/memorized-answers-cannot-solve-new-questions/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "問題を解いた力は、別の問題でも使える？",
+        "body": "問題を解いて思い出す練習は記憶に残りやすい。でも、練習した問題以外でもその力は使えるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "122の実験をまとめた",
+        "body": "PanとRickardは、40年以上の研究から122の実験（1万382人）を集めて、思い出す練習の効果が新しい問い方や問題に広がるかをまとめた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "広がるけど、条件しだい",
+        "body": "全体では広がりがあった（効果量 d = 0.40）。広がりやすいのは、問題の形式が変わるとき、理由まで思い出したとき。問いと答えを入れ替えると広がりにくかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "条件がないと、ほぼ広がらないかも",
+        "body": "発表されなかった研究の影響を補正すると、条件がそろわない場合は広がりが見られないことが多かった。練習でうまく答えられたかどうかでも、広がりやすさが変わったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-memorized-answers-cannot-solve-new-questions-transfer-meta"
+  },
+  {
+    "id": "net-false-news-spreads-faster",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Vosoughi, Roy & Aral, \"The spread of true and false news online\" (Science, 2018)",
+    "sourceUrl": "https://doi.org/10.1126/science.aap9559",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "デマは本当の話より速く広がる？",
+        "body": "「嘘は本当より速く広まる」ってよく聞くよね。ネットでもそうなのか、ツイートの記録をまるごと調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約12万6千の話を追いかけた",
+        "body": "2006〜2017年のTwitterで、6つの事実確認団体が真偽を判定した約12万6千の話を調べた。約300万人が450万回以上ツイートしていたよ。団体どうしの判定は95〜98%一致していた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どの分野でも偽の話が勝った",
+        "body": "偽の話は、本当の話より遠く・速く・深く・広く広がった。政治の話でいちばん差が大きかった。広げていたのはボットより人間で、ボットは本当と偽の話を同じ速さで広げていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜかは推測の段階",
+        "body": "記録を見た観察研究で、事実確認団体が調べた話・Twitterだけが対象。偽の話の方が「目新しく」、返信に驚きや嫌悪が多かったことから、新しさが共有を呼ぶと考えているけど、原因として確かめたわけではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "net-repeated-fake-news-feels-true",
+        "type": "あわせて読む",
+        "why": "広がったデマを何度も見ると、本当っぽく感じてしまう仕組みの実験"
+      },
+      {
+        "id": "net-fake-news-sharing-age",
+        "type": "あわせて読む",
+        "why": "広がり方の全体像に対して、実際に誰がシェアしていたかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#net-false-news-spreads-faster"
+  },
+  {
+    "id": "color-the-dress-white-gold-blue-black",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Lafer-Sousa, Hermann & Conway, \"Striking individual differences in color perception uncovered by 'the dress' photograph\" (Current Biology, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.cub.2015.04.053",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "あのドレス、なぜ白金と青黒に分かれる？",
+        "body": "同じ写真なのに「白と金」に見える人と「青と黒」に見える人がいて、大論争になったよね。どっちが正しい見え方なんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1401人に自由に答えてもらった",
+        "body": "二択で聞いたから分かれたのでは？と考えて、1401人に選択肢なしで色を答えてもらった。全部の色の中から、ドレスの色を指で選ぶ方法でも調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見え方は3つにまとまった",
+        "body": "多くの人は白金か青黒、一部は青と茶色と答え、色選びでも3つの山ができた。白金は年配の人と女性に多かった。光の手がかりを足すと見え方をひっくり返せて、もう一度見ると見え方が変わった人もいたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "光の思い込みは仮説",
+        "body": "青い空の光だと思う人は白金、電球の光だと思う人は青黒に見える、という説明は研究者の仮説。ふだんの経験と結びつくかは、このアンケートだけでは確かめられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-the-dress-white-gold-blue-black"
+  },
+  {
     "id": "research-reading-not-sinking-in-mind-wandering-recovery-research-read-aloud",
     "category": "集中力",
     "kind": "素朴な疑問",
@@ -8269,6 +8461,11 @@
         "id": "net-fake-news-sharing-age",
         "type": "あわせて読む",
         "why": "偽ニュースを信じる仕組みの実験と、実際に誰が広めていたかの調べ"
+      },
+      {
+        "id": "net-false-news-spreads-faster",
+        "type": "あわせて読む",
+        "why": "偽の話は本当の話より速く広く広がっていた、という大規模な記録の調べ"
       }
     ],
     "webUrl": "https://seadice.win/evidence/games/#net-repeated-fake-news-feels-true"
@@ -10916,7 +11113,14 @@
         "body": "ダイエットしていない人が、1回だけ5分間がまんした直後の結果なんだ。あえて考えた組では男性だけがいちばん多く食べていて、男女で違いもあった。長くがまんを続けたときや、チョコ以外でも同じかは、この研究ではわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/habits/#research-suppressing-urges-rebound-why-research-chocolate-rebound"
+    "webUrl": "https://seadice.win/evidence/habits/#research-suppressing-urges-rebound-why-research-chocolate-rebound",
+    "links": [
+      {
+        "id": "dokugaku-why-dont-do-goals-fail-white-bear-rebound",
+        "type": "反対の結果",
+        "why": "考えを抑える研究全体を見直すと、反動ははっきり示されていなかった"
+      }
+    ]
   },
   {
     "id": "research-similar-words-mix-up-interference-why-research-semantic-sets",
@@ -16338,7 +16542,14 @@
         "body": "成績との関係の一部は、家庭の経済状況など別の要因で説明できてしまうよ。授業中の様子は観察する人の主観に頼る研究も多い。食べれば必ず成績が上がる、とまではまだ言えないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/food-brain/#food-breakfast-school-performance"
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-breakfast-school-performance",
+    "links": [
+      {
+        "id": "dokugaku-breakfast-before-morning-study-fasting-cognition",
+        "type": "あわせて読む",
+        "why": "子どもの成績に対して、大人の空腹と頭の働きを実験でまとめた研究"
+      }
+    ]
   },
   {
     "id": "face-mask-attractiveness",
@@ -20482,6 +20693,11 @@
         "id": "net-repeated-fake-news-feels-true",
         "type": "あわせて読む",
         "why": "同じ偽ニュースの話で、見るほど信じやすくなる仕組みの実験"
+      },
+      {
+        "id": "net-false-news-spreads-faster",
+        "type": "あわせて読む",
+        "why": "誰が広めたかに対して、偽の話全体の広がり方を記録で調べた研究"
       }
     ]
   },
