@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-ai-job-worry-ai-literacy-promotion-focus",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Fan & Wang, \"Job Replacement Anxiety and Approach-Avoidance Job Crafting: The Roles of Regulatory Focus and AI Literacy\" (Behavioral Sciences, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/bs16091519",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-job-worry-ai-literacy/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "AIが怖いなら、近づかないのが一番？",
+        "body": "AIに仕事を取られそうで不安なとき、なるべく関わらずに今の仕事を守りたくなるよね。でも、AIのことを知っているかどうかで、不安の効き方が違うらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "会社員583人に3回聞いた",
+        "body": "中国の会社員583人に、2週間おきに3回、AIに仕事を奪われる不安、AIの知識、仕事への構え、仕事の工夫の仕方を答えてもらった調査だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "知っている人ほど、挑戦心が残りやすい",
+        "body": "不安が強い人ほど「伸びたい」気持ちが弱い傾向があった。でもAIの使い方や限界をわかっていると感じる人では、その結びつきが約0.27から約0.11まで弱かったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "学べば不安が減るとは言えない",
+        "body": "自分で答えた調査で、AIを学ぶ練習をした実験ではない。不安が少ない人ほどAIを学びやすいのかもしれないし、日本の働く人でも同じかはわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-job-worry-ai-literacy-promotion-focus"
+  },
+  {
+    "id": "kokoro-mind-wandering-why-daily-rate",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Song & Wang, \"Mind wandering in Chinese daily lives: an experience sampling study\" (PLoS ONE, 2012)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0044423",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/mind-wandering-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "気づくと上の空、自分だけ？",
+        "body": "資料を読んでいたはずが、気づくと週末のことを考えてた…ってあるよね。日常でどのくらい心がさまよっているのか、実際に記録した研究があるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1日6回「今どこにいた？」",
+        "body": "中国の大学生165人に、3日間、1日6回届くメッセージの瞬間に、心がさまよっていたかを記録してもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "約4分の1は上の空",
+        "body": "心がさまよっていたのは平均24.4%。作業に集中しているときや得意な作業では少なかった。88.2%は本人がきっかけを思い当たり、先のことを考えている場面も多かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "働く人でも同じ？",
+        "body": "大学生だけの、自分で振り返った記録なんだ。働く人の仕事中にどのくらい起きるか、スマホやAIで増えたのかは、この研究からはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-wandering-mind",
+        "type": "あわせて読む",
+        "why": "同じく日常で記録した研究。アメリカ中心の大人では約47%と、もっと多かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-mind-wandering-why-daily-rate"
+  },
+  {
+    "id": "kokoro-forgiveness-grudge-reconnect-reach-workbook",
+    "category": "対人関係の心理学",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Ho MY, Worthington EL Jr, Cowden RG, et al., \"International REACH forgiveness intervention: a multisite randomised controlled trial\" (BMJ Public Health, 2024)",
+    "sourceUrl": "https://doi.org/10.1136/bmjph-2023-000072",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/forgiveness-grudge-reconnect/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "許せない気持ちは、時間が解決するしかない？",
+        "body": "ひどいことをされた相手を、何年たっても許せない。こういう気持ちは自分ではどうにもできず、時間まかせになりがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5つの地域の4,598人で「許す練習帳」",
+        "body": "コロンビアや香港など5つの地域の大人を、くじで2つに分けた実験。片方には2〜3時間分の練習帳をすぐ渡し、2週間で自分で進めてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "恨む気持ちも、落ち込みも少し軽く",
+        "body": "練習帳をすぐ受け取った人は、2週間後に恨む気持ちが低く、落ち込みや不安も少し軽かった。研究者は、許すことと仲直りや忘れることは別だと書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本の人にも、長く続く？",
+        "body": "くじで比べられたのは2週間後まで。日本の人は参加していなくて、地域によって効果の大きさに違いもあった。長く続くかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-forgiveness-grudge-reconnect-reach-workbook"
+  },
+  {
+    "id": "sleepfood-tart-cherry-sleep-review",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Barforoush et al., \"The Effect of Tart Cherry on Sleep Quality and Sleep Disorders: A Systematic Review\" (Food Science & Nutrition, 2025)",
+    "sourceUrl": "https://doi.org/10.1002/fsn3.70923",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "チェリージュースで、よく眠れる？",
+        "body": "酸っぱいサクランボ（タルトチェリー）には眠りに関わるメラトニンが含まれていて、眠りにいいって聞くよね。実際に飲んで試した研究をまとめたレビューがあるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "試した研究7本を整理",
+        "body": "タルトチェリーのジュースや粉をとってもらい、眠りの長さや質、メラトニンの量などを測った介入研究7本を集めて、結果を整理したんだ。数字を合算するメタ分析ではないよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "よくなった研究は7本中3本",
+        "body": "眠る時間や寝つき、眠りの効率がよくなったと報告したのは3本。メラトニンが増えたのも3本だった。効果が見られなかった研究もあって、結果は混ざっているんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "量も期間も人もばらばら",
+        "body": "研究ごとに量・飲む期間・参加した人がかなり違っていて、著者も証拠はまだ限られていると書いている。誰がどれだけ飲めばいいかは、しっかりした試験を待つ段階だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleepfood-tart-cherry-sleep-review"
+  },
+  {
+    "id": "digital-texting-while-walking-gait-meta",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Bruyneel et al., \"Does texting while walking affect spatiotemporal gait parameters in healthy adults, older people, and persons with motor or cognitive disorders? A systematic review and meta-analysis\" (Gait & Posture, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/j.gaitpost.2023.01.009",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "歩きスマホ、歩き方は変わってる？",
+        "body": "自分ではまっすぐ普通に歩いているつもりでも、画面に文字を打ちながらだと、体の動きは変わっているのかな。歩き方を測った研究をまとめた分析があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "25本の研究をまとめた",
+        "body": "大人が普通に歩くときと、スマホで文字を打ちながら歩くときの歩き方を比べた研究25本を集めて、数字をまとめたんだ。年配の人や病気のある人を含む研究も少しあったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "遅く、小またになる",
+        "body": "文字を打ちながらだと、歩く速さ・歩幅・足を運ぶテンポがはっきり落ちて、両足が地面についている時間などの動きも変わっていた。対象者や場面が違っても、この傾向はそろっていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "事故が何倍になるかは別の話",
+        "body": "測ったのは歩き方で、事故の数ではないよ。25本中21本は実験室の中で、研究の質は中くらいのものが多かった。病気のある人を調べた研究もまだ少ないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-texting-while-walking-gait-meta"
+  },
+  {
     "id": "dokugaku-breakfast-before-morning-study-fasting-cognition",
     "category": "食事と脳",
     "kind": "よくある説",
@@ -25747,6 +25920,11 @@
         "id": "research-mind-wandering-why-research-unaware",
         "type": "あわせて読む",
         "why": "脳を撮りながら、本人も気づかない心のさまよいを調べた実験"
+      },
+      {
+        "id": "kokoro-mind-wandering-why-daily-rate",
+        "type": "あわせて読む",
+        "why": "中国の大学生で同じように記録すると、上の空は約24%だった"
       }
     ]
   },
