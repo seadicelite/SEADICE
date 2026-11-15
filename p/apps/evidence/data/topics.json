@@ -1,5 +1,178 @@
 [
   {
+    "id": "scent-odor-pleasantness-across-cultures",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Arshamian et al., \"The perception of odor pleasantness is shared across cultures\" (Current Biology, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.cub.2022.02.062",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "いい匂いの好みは、国や文化で違う？",
+        "body": "食べ物の好みが国でちがうみたいに、「いい匂い」も育った文化で決まりそうだよね。実はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9つの文化の225人が順位をつけた",
+        "body": "狩猟採集で暮らす人から都会の人まで、欧米以外の9つの文化の225人が、1種類の分子でできた匂いを「いい匂い」の順に並べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "文化で説明できたのは6%だけ",
+        "body": "順位のばらつきのうち、文化で説明できたのは6%。個人の好みが54%、匂いの分子そのものが41%だった。好かれる匂いは文化をこえてけっこう共通していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "香水や料理の匂いでも？",
+        "body": "使ったのは1種類の分子の匂いで、香水や料理のような混ざった匂いではないよ。一度並べてもらった調査で、好みが経験でどう変わるかを追ったものでもない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-odor-pleasantness-across-cultures"
+  },
+  {
+    "id": "pet-dog-crying-person-door",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Sanford et al., \"Timmy's in the well: Empathy and prosocial helping in dogs\" (Learning & Behavior, 2018)",
+    "sourceUrl": "https://doi.org/10.3758/s13420-018-0332-3",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人が泣いていたら、犬は助けに来る？",
+        "body": "落ち込んでいると犬がそばに来てくれる、ってよく聞くよね。でも、本当に助けようとしてるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "扉の向こうで泣くか、鼻歌か",
+        "body": "扉の向こうに閉じこめられた人が、泣き声を出すか鼻歌を歌うかに分けて、犬が扉を開けるか・開けるまでの時間・心拍の変化を記録したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "開ける割合は同じ、でも早かった",
+        "body": "扉を開けた割合は、泣き声でも鼻歌でも同じだった。ただ泣き声のときは、開けるまでがはっきり早かったらしい。そのとき開けた犬は、自分のストレス反応が低めだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "共感なのか、まだ言い切れない",
+        "body": "鼻歌でも開ける犬はいて、好奇心や人に会いたい気持ちかもしれないと著者も書いている。研究室での1つの実験で、家の中で同じことが起きるかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-crying-person-door"
+  },
+  {
+    "id": "kokoro-forgiveness-grudge-reconnect-urami-lasts",
+    "category": "対人関係の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Koike H, Okano H, Nomura M, \"The feeling of 'Urami': A structural topic modeling approach\" (PLOS One, 2026)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0349193",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/forgiveness-grudge-reconnect/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "恨みと怒り、何が違う？",
+        "body": "どっちも「腹が立つ」気持ち。でも怒りはそのうち消えるのに、恨みはなぜかずっと残る気がしない？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "日本の489人に書いてもらった",
+        "body": "京都大学のチームが、恨みと怒りを感じた経験を自由に書いてもらい、文章の中身をコンピューターで分類したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "恨みのきっかけは平均13年以上前",
+        "body": "恨みには「ずっと続く」という特徴がはっきり出ていて、身近な人から傷つけられたときに起きやすかった。きっかけは平均13.37年前で、怒り（8.58年前）より昔だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ長く残るのかは不明",
+        "body": "思い出して書いてもらった文章を分類した研究で、恨みが長く続く理由や、心の健康への影響を確かめたものではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-forgiveness-grudge-reconnect-reach-workbook",
+        "type": "あわせて読む",
+        "why": "恨みの正体を知ったあとに、許す気持ちを育てる講座を試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-forgiveness-grudge-reconnect-urami-lasts"
+  },
+  {
+    "id": "kokoro-ai-escape-dependence-root-recover-which-comes-first",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Huang S et al., \"AI Technology panic-is AI Dependence Bad for Mental Health? A Cross-Lagged Panel Model and the Mediating Roles of Motivations for AI Use Among Adolescents\" (Psychology Research and Behavior Management, 2024)",
+    "sourceUrl": "https://doi.org/10.2147/PRBM.S440889",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-escape-dependence-root-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIに頼ると心が弱る？",
+        "body": "AIに頼りすぎると落ち込みやすくなる、って心配になるよね。でも、実はどっちが先なんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "春と秋に2回調べた",
+        "body": "中国の平均13歳の3,843人に、2022年の春と秋、落ち込み・不安とAIへの依存を質問して、どちらが先に来るかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "先にあったのは心のつらさ",
+        "body": "春に落ち込みや不安が強かった人ほど秋のAIへの依存が強かった。逆の向きは出なかったらしい。間をつないでいたのは「逃げたい」「人とつながりたい」という使う目的。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人や生成AIでは？",
+        "body": "自己申告の調査で、生成AIが広く使われる前の2022年のデータ。大人や今のAIで同じかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-escape-dependence-root-recover-which-comes-first"
+  },
+  {
+    "id": "kokoro-layoff-news-write-feelings-first-feelings-before-plans",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Probst TM, Jiang L, \"Mitigating Physiological Responses to Layoff Threat: An Experimental Test of the Efficacy of Two Coping Interventions\" (International Journal of Environmental Research and Public Health, 2016)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph13030338",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/layoff-news-write-feelings-first/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く話",
+        "title": "解雇と聞いたら、すぐ転職準備？",
+        "body": "人員削減の話が出たら、まず次の仕事を探さなきゃって焦るよね。でも先に何をすると、体は落ち着きやすいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "解雇の知らせを想像して5分書く",
+        "body": "米国の大学生84人が、解雇の知らせを受けた会社員になったつもりで、5分間「気持ち」か「仕事の探し方」のどちらかを書いたんだ。緊張で変わる皮膚の電気反応を測りながら。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気持ちを書いた組のほうが大きく下がった",
+        "body": "知らせを読むと反応は上がり、書くとどちらの組も下がった。下がり幅は気持ちを書いた組のほうが大きかったらしい（0.42→0.13と0.31→0.12）。心拍には差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当の解雇でも同じ？",
+        "body": "想像の場面で、書かない組もなかった。気持ちを書いた組はもともと反応が高く、書き終えた後の値はほぼ同じ。実際の解雇や、気分が変わるかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-layoff-news-write-feelings-first-feelings-before-plans"
+  },
+  {
     "id": "kokoro-ai-support-social-anxiety-why-two-sides",
     "category": "AIとのつきあい方",
     "kind": "よくある説",
@@ -459,7 +632,14 @@
         "body": "くじで比べられたのは2週間後まで。日本の人は参加していなくて、地域によって効果の大きさに違いもあった。長く続くかはまだわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-forgiveness-grudge-reconnect-reach-workbook"
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-forgiveness-grudge-reconnect-reach-workbook",
+    "links": [
+      {
+        "id": "kokoro-forgiveness-grudge-reconnect-urami-lasts",
+        "type": "あわせて読む",
+        "why": "許せない気持ちのもとにある「恨み」が、怒りとどう違うかを調べた研究"
+      }
+    ]
   },
   {
     "id": "sleepfood-tart-cherry-sleep-review",
