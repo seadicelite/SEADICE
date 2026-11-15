@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-ai-support-social-anxiety-why-two-sides",
+    "category": "AIとのつきあい方",
+    "kind": "よくある説",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Hu, \"Perceived support from AI chatbots and loneliness among higher vocational college students: a short-term three-wave study of social interaction anxiety and perceived social support\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1928350",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-support-social-anxiety-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "AIに話すと孤独がまぎれる？",
+        "body": "AIはいつでも話を聞いてくれるから、さみしさがまぎれそうだよね。でも人と話すのがおっくうにならないか、気になる人もいるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,200人を3回追跡",
+        "body": "中国の職業系の学校の学生1,200人に、約8週間おきに3回、AIに支えられている感じ・人づきあいの不安・孤独を答えてもらった研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2つの向きの結びつき",
+        "body": "AIに支えられていると感じる学生ほど、次の回の人づきあいの不安がやや高かった。一方で孤独がやや低い結びつきも見られて、それは家族や友人の支えがある学生ではっきりしていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかは不明",
+        "body": "関連を見た調査なので、緊張しやすい人がAIを頼りやすいだけかもしれない。中国の職業系の学校の学生を約16週間追っただけで、働く大人にも同じことが言えるかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-support-social-anxiety-why-two-sides"
+  },
+  {
+    "id": "kokoro-couple-comparison-appreciation-prevent-better-self",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Ecker et al., \"The role of comparison processes in maintenance goals: Evidence from the health and relationship domains\" (Applied Psychology: Health and Well-Being, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/aphw.70133",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/couple-comparison-appreciation-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "よそのカップルと比べると？",
+        "body": "仲のよさそうなカップルを見たあと、自分たちの関係が物足りなく思えること、あるよね。ドイツの研究チームが、比べる相手で気持ちが変わるかを実験で確かめているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "思い浮かべる相手を変えた",
+        "body": "5つの実験（計2,435人）のうち、恋人がいる英国の329人の実験では、仲のいい・うまくいっていないよそのカップルと、自分たちの関係のもっと良い形・悪い形を思い浮かべてもらい、今の関係をどれくらいありがたく思うかを聞いたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "比べる先は「自分たち」に",
+        "body": "ありがたさ（7段階）は、うまくいっていないカップルの後は6.28、仲のいいカップルの後は5.50。自分たちの悪い形の後は4.70、もっと良い形の後は6.32だった。比べる先が「自分たち」だと、良い方を思い描いても下がらなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "SNSでも同じかは未確認",
+        "body": "短い文章で場面を思い浮かべる実験で、参加者はネットで集めた英国の大人。実際にSNSで他人の投稿を見たときに同じことが起きるかは、この実験では調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#kokoro-couple-comparison-appreciation-prevent-better-self"
+  },
+  {
+    "id": "kokoro-worse-off-others-still-sad-recover-visitor-mindset",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Roos et al., \"Randomized trial of a single-session digital intervention targeting emotion-related beliefs and emotion regulation\" (Scientific Reports, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-026-59035-3",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/worse-off-others-still-sad-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "落ち込みは追い払うもの？",
+        "body": "いやな気持ちは早く消さなきゃ、と思いがちだよね。米国の研究チームは、いやな気持ちを「しばらくいて、やがて帰るお客さん」と受け止める練習を試しているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "530人をくじで2組に",
+        "body": "軽い以上の落ち込みや不安がある米国の大人530人を、くじで2組に分けた。1組は受け止め方を学ぶネットの講座、もう1組は音楽つきの自然の動画。2週間後に気持ちと暮らしの様子を聞いたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "暮らしの支障が少し減った",
+        "body": "落ち込みや不安の点数は、全体でははっきりした差がなかった。でも仕事や家事など日常生活の支障は、練習した組で少し多く減っていた（効果の大きさ0.21）らしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続くかは不明",
+        "body": "結果は2週間後まで。参加者はネットで集めた謝礼つきの回答者で、検定をたくさんしたので偶然の差が混じる可能性もある、と著者たち自身が書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-worse-off-others-still-sad-recover-visitor-mindset"
+  },
+  {
+    "id": "posture-yoga-chronic-low-back-pain-cochrane",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Wieland LS et al., \"Yoga for chronic non-specific low back pain\" (Cochrane Database of Systematic Reviews, 2022)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD010671.pub3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "腰痛にヨガは効く？",
+        "body": "長引く腰痛にヨガがいい、ってよく聞くよね。体を伸ばすと楽になりそうだけど、実際どのくらい違うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21の試験をまとめた",
+        "body": "原因のはっきりしない長引く腰痛がある大人で、ヨガを試したくじ引きの試験21件（2,223人）をまとめたコクランのレビューがあるんだ。参加者は40〜50代の女性が多かったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少し良くなるが、差は小さい",
+        "body": "運動しない組と比べると、3か月後の痛みは100点中4.5点ほど下がったけど、実感できる差の目安（15点）には届かなかった。ほかの腰の運動と比べると、腰の使いやすさはほぼ同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "思い込みの影響は消せない",
+        "body": "どの試験も本人が何をしたか知っていて、痛みも自己申告。偽のヨガと比べた試験はなかった。ヨガをした組では腰痛が強まるなどの困りごとが少し多かった（1000人あたり43人と9人）よ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-walking-low-back-pain-recurrence-walkback",
+        "type": "あわせて読む",
+        "why": "腰痛と運動。ヨガの効き目と、歩く習慣でぶり返しを防げるかの試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-yoga-chronic-low-back-pain-cochrane"
+  },
+  {
+    "id": "money-rich-people-less-generous-large-test",
+    "category": "お金の心理学",
+    "kind": "よくある説",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Korndörfer M, Egloff B, Schmukle SC, \"A Large Scale Test of the Effect of Social Class on Prosocial Behavior\" (PLoS One, 2015)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0133193",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お金持ちほどケチ？",
+        "body": "「お金持ちほど人に冷たい」って話、聞いたことあるよね。心理学でも、そう示す小さな実験がいくつか話題になったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8つの大きな調査で確かめた",
+        "body": "ドイツの研究チームが、ドイツや米国などの代表的な大規模調査を使い、寄付・ボランティア・身近な手助け・知らない人との信頼ゲームと、収入や学歴などの関係を8つの研究で調べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "むしろ逆の結果が多かった",
+        "body": "豊かな人ほど寄付やボランティアをしやすく、手助けや信頼ゲームでも人に親切な傾向が多く見られた。どの条件でも「お金持ちほど不親切」という結果は出なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自己申告のずれもある",
+        "body": "8つのうち7つは本人の申告で、よく見せたい気持ちが混じるかもしれない。調査を分析した研究なので、豊かさが原因で親切になるのかまではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#money-rich-people-less-generous-large-test"
+  },
+  {
     "id": "research-night-worry-feels-bigger-why-research-3am-mood",
     "category": "光と体内時計",
     "kind": "素朴な疑問",
@@ -7499,6 +7672,11 @@
         "id": "posture-back-pain-bed-rest",
         "type": "あわせて読む",
         "why": "腰が痛いときに安静にすべきかを調べた研究"
+      },
+      {
+        "id": "posture-yoga-chronic-low-back-pain-cochrane",
+        "type": "あわせて読む",
+        "why": "腰痛と運動。長引く腰痛にヨガがどのくらい効くかをまとめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-pain/#posture-walking-low-back-pain-recurrence-walkback"
