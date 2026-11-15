@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-night-worry-feels-bigger-why-research-3am-mood",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Emens JS et al., \"Circadian rhythm in negative affect: Implications for mood disorders\" (Psychiatry Research, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.psychres.2020.113337",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/night-worry-feels-bigger-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜中に悩みが大きく見えるのはなぜ？",
+        "body": "昼は平気なことが、夜中の布団の中だと大問題に思えてくるよね。体内時計そのものが気分を動かしているのか、調べた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "時計のない部屋で5日間",
+        "body": "健康な大人21人が、薄暗い実験室で2時間40分ずつ眠る・起きるをくり返した。こうすると、寝不足の影響と体内時計の影響を分けて見られるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "午前3時ごろが気分の底",
+        "body": "前向きな気分は、体内時計の夜（ふだんの午前3時ごろ）にはっきり底になった。いやな気分は、ちょうど同じころに山になったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は少なく、差も小さめ",
+        "body": "参加者は平均52歳の21人だけ。いやな気分のリズムは前向きな気分より弱く、以前の研究では見つからなかったこともある。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#research-night-worry-feels-bigger-why-research-3am-mood"
+  },
+  {
+    "id": "kokoro-ai-use-role-ambiguity-genai-role",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Zhang et al., \"Dual pathways of generative AI use: role ambiguity and self-efficacy in employee-AI collaboration\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1793095",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-use-role-ambiguity/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIを使うと役割がぼやける？",
+        "body": "AIが下書きも提案も出してくれると、仕事は進むのに「自分は何をする人だっけ」ってなること、あるよね。それを調べた研究があるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "会社員541人に聞いた",
+        "body": "中国・天津のハイテク企業5社で、生成AIを使ったことがある会社員541人に、AIの使い方と、自分の役割の感じ方を聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ぼやけると自信、両方あった",
+        "body": "生成AIをよく使う人ほど「何を期待されているかわからない」感覚が強かった。でも、仕事の幅を広げられる自信との結びつきも同じ強さで見られたよ。AIの得意・不得意をよくわかっている人では、ぼやける感覚との結びつきが、わかっていない人の約4分の1だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIが原因とは限らない",
+        "body": "1回きりのアンケートだから、AIを使ったせいでぼやけたのか、もともとの職場の事情なのかは区別できないんだ。日本の職場で同じかもまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-use-role-ambiguity-genai-role"
+  },
+  {
+    "id": "kokoro-life-change-loneliness-prevent-network-churn",
+    "category": "孤独とつながり",
+    "kind": "よくある説",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Slack et al., \"From Familiar Faces to New Spaces: Perceived Social Network Change and Its Association With Loneliness During the Transition to University\" (Journal of Adolescence, 2026)",
+    "sourceUrl": "https://doi.org/10.1002/jad.70249",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/life-change-loneliness-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "環境が変わると孤独になる？",
+        "body": "進学や引っ越しで知り合いががらっと変わると、それだけで孤独になりそうな気がするよね。実際どうなのか、大学1年生で調べた研究があるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "入学前と後の人間関係",
+        "body": "英国の24の大学に通う1年生79人に、入学前と入学後に付き合いのあった人を一人ずつ挙げてもらったんだ。1人あたり平均17人だったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "58%入れ替わっても…",
+        "body": "平均58%のつながりが、なくなったか新しくできたものだった。でも入れ替わりの多さと孤独には関係がなかった。孤独が強かったのは、支えてもらえている感じが減った人だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "社会人の転勤でも同じ？",
+        "body": "79人と少なく、入学前のことは思い出して答えたもの。支えが減ったから孤独になったのかは区別できないし、大人の転勤や引っ越しで同じかもまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-life-change-loneliness-prevent-network-churn"
+  },
+  {
+    "id": "exercise-yoga-cognition-meta",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Gothe NP, McAuley E, \"Yoga and Cognition: A Meta-Analysis of Chronic and Acute Effects\" (Psychosomatic Medicine, 2015)",
+    "sourceUrl": "https://doi.org/10.1097/PSY.0000000000000218",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ヨガって、頭の働きにもいい？",
+        "body": "体がやわらかくなるのはわかるけど、集中力や記憶にもいいって聞くよね。ヨガと頭の働きを調べた研究を、数字でまとめたメタ分析があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22本の研究をまとめた",
+        "body": "ヨガを何週間も続けたランダム化比較試験15本と、1回ヨガをした直後を調べた研究7本を集めて、記憶・注意・判断などのテストの結果をまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "続けると、中くらいの効果",
+        "body": "続けた研究では、頭の働き全体に中くらいの効果（g=0.33）。注意と処理の速さ、判断の力では差があったけど、記憶ははっきりしなかった（g=0.18）。1回のヨガの直後は、効果がもっと大きく出たらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究はまだ小さく、ばらばら",
+        "body": "まとめた研究は人数が少なく、対象者・ヨガの量・使ったテストもばらばら、と著者たち自身が書いている。しっかり設計した大きな試験で確かめる必要がある段階だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-tai-chi-older-cognition-meta",
+        "type": "あわせて読む",
+        "why": "ヨガと太極拳、どちらも体と心を合わせて動かす運動と頭の働きのメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-yoga-cognition-meta"
+  },
+  {
+    "id": "love-hug-stress-cold",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Cohen S, Janicki-Deverts D, Turner RB, Doyle WJ, \"Does hugging provide stress-buffering social support? A study of susceptibility to upper respiratory infection and illness\" (Psychological Science, 2015)",
+    "sourceUrl": "https://doi.org/10.1177/0956797614559284",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ハグって、ストレスや風邪に効く？",
+        "body": "ハグするとほっとする、ってよく言うよね。実は、ハグが多い人は風邪をひきにくいのか、本物の風邪ウイルスを使って調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "404人に14晩、電話で聞いた",
+        "body": "健康な大人404人に、14日続けて毎晩、人ともめたか・ハグされたかを電話で聞いた。そのあと風邪のウイルスにさらして、隔離した場所で感染や症状を見守ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ハグが、もめごとの影響をやわらげた",
+        "body": "もめごとが多いほど感染しやすくなる流れを、周りに支えられている感じがやわらげていて、その32%はハグで説明できた。感染した人の中では、ハグが多い人ほど症状が軽かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ハグが原因とは言いきれない",
+        "body": "ハグは数えただけで、くじで増やしたわけじゃない。だからハグそのものが効いたのか、ハグが多い人のほかの特徴なのかは分けきれない。健康な大人を調べた1つの研究の結果だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-handholding-emotional-pain",
+        "type": "あわせて読む",
+        "why": "手を握る実験と、毎日のハグを数えた研究。どちらも触れることと心身の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-hug-stress-cold"
+  },
+  {
     "id": "kokoro-ai-job-worry-ai-literacy-promotion-focus",
     "category": "仕事と働き方",
     "kind": "よくある説",
@@ -6187,6 +6367,11 @@
         "id": "love-partner-photo-pain-relief",
         "type": "あわせて読む",
         "why": "恋人の写真を見る研究と、手を握ってもらう研究"
+      },
+      {
+        "id": "love-hug-stress-cold",
+        "type": "あわせて読む",
+        "why": "手を握る実験と、毎日のハグを数えた研究。どちらも触れることと心身の研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/love/#love-handholding-emotional-pain"
@@ -8456,7 +8641,14 @@
         "body": "試験の質はそこそこで、11のうち3つは偏りの心配が大きかった。研究者も、もっと大きくて長く追う試験が必要だと書いている。太極拳で認知症を防げるかは、この研究からは言えないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-tai-chi-older-cognition-meta"
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-tai-chi-older-cognition-meta",
+    "links": [
+      {
+        "id": "exercise-yoga-cognition-meta",
+        "type": "あわせて読む",
+        "why": "太極拳とヨガ、どちらも体と心を合わせて動かす運動と頭の働きのメタ分析"
+      }
+    ]
   },
   {
     "id": "circadian-daylight-saving-heart-attack-meta",
