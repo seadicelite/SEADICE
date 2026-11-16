@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-work-better-under-pressure-last-minute-deadline-effort",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Pisauro et al., \"Neural and computational mechanisms of effort under the pressure of a deadline\" (Nature Communications, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-026-75987-6",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/work-better-under-pressure-last-minute/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "締め切り前だと頑張れるのはなぜ？",
+        "body": "ふだんは面倒なのに、締め切りが近いと急に大変な作業もできちゃう。あれ、何が起きてるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "締め切りつきのゲームで実験",
+        "body": "Pisauroらは、決まった回数のうちに目標まで進むとボーナスが増えるゲームで、楽な選択と大変な選択（握る力やボタン押し）を選ばせた。4つの研究のうち、1つ目は30人がMRIの中で行ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「残り作業÷残り時間」で変わる",
+        "body": "残りの作業に対して残りの時間が少ない、つまり締め切りの圧力が強いほど、人は大変な選択を選ぶようになった。圧力がないと大変な作業は避けられていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "勉強の成績はわからない",
+        "body": "4つの研究で合わせて125人の若い大人を調べた、短いゲームの実験だよ。勉強がはかどるか、点数が上がるかは測っていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-work-better-under-pressure-last-minute-deadline-effort"
+  },
+  {
+    "id": "dokugaku-practice-questions-answer-check-timing-delayed-vs-immediate",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Metcalfe et al., \"Delayed versus immediate feedback in children's and adults' vocabulary learning\" (Memory & Cognition, 2009)",
+    "sourceUrl": "https://doi.org/10.3758/MC.37.8.1077",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/practice-questions-answer-check-timing/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "答え合わせはすぐしないとダメ？",
+        "body": "「間違いはすぐ直さないと、そのまま覚えちゃう」ってよく言われるよね。じゃあ、少し時間をおいた答え合わせは損なんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "小学生と大学生で単語の実験",
+        "body": "Metcalfeらは、小学6年生には学校で習う単語、大学生には難しい英単語を覚えてもらい、答え合わせをすぐ見せる・後で見せる・見せない、で比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "後の答え合わせでも損はなかった",
+        "body": "小学生では、後の答え合わせがすぐの答え合わせより良く、どちらも答え合わせなしより良かった。大学生でも後の方が良かったけど、テストまでの間隔をそろえると差は消えた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「後が良い」理由ははっきりしない",
+        "body": "大学生の結果は、テストの直前に答えを見た近さで説明できる部分もある。単語の実験なので、問題集の答え合わせでも同じかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-practice-questions-answer-check-timing-delayed-vs-immediate"
+  },
+  {
+    "id": "dokugaku-why-new-words-not-usable-right-away-sleep-lexicon",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Dumay & Gaskell, \"Sleep-associated changes in the mental representation of spoken words\" (Psychological Science, 2007)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-9280.2007.01845.x",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-new-words-not-usable-right-away/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "覚えた単語、なぜすぐ使えない？",
+        "body": "単語帳では答えられるのに、英文の中だとすっと入ってこない。覚えたばかりの単語って、頭の中でどうなっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "夜に覚える人と朝に覚える人",
+        "body": "DumayとGaskellは、作り物の新しい単語を夜8時に覚える人と朝8時に覚える人に分けて、その単語が知っている単語の聞き取りに影響し始める時期を調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一晩眠った後に「辞書入り」",
+        "body": "夜に覚えた人は一晩眠った12時間後に影響が出た。朝に覚えて起きていた人は12時間後には出ず、眠った後の24時間後に初めて出た。新しい単語が頭の辞書に入るのに、睡眠が関わっているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "外国語でも同じかは研究が少ない",
+        "body": "実験で使ったのは、英語の単語に似せた作り物の単語。耳で聞く単語の実験なので、外国語の単語を読んで覚える場合にも同じかは、この研究だけではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-new-words-not-usable-right-away-sleep-lexicon"
+  },
+  {
+    "id": "food-cocoa-chocolate-blood-pressure",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Ried, Fakler & Stocks, \"Effect of cocoa on blood pressure\" (Cochrane Database of Systematic Reviews, 2017)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD008893.pub3",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "チョコで血圧が下がる？",
+        "body": "高カカオのチョコは血圧にいい、ってよく聞くよね。カカオのフラバノールが血管を広げるから、という説明もセットになっていることが多いんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "35本の試験をまとめた",
+        "body": "コクランのレビューが、ココアやチョコを2週間以上とるグループと、フラバノールがない・少ない食品のグループを比べたランダム化比較試験35本（主に健康な大人1,804人）をまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "下がったのは約2mmHg",
+        "body": "2〜18週間（平均9週間）で、上の血圧も下の血圧も平均で約1.8mmHg下がった。著者のまとめは「小さな（約2mmHg）短期の効果」。血圧が高めの人ほど下がりやすい傾向もあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く食べたらどうなるか",
+        "body": "試験ごとの結果のばらつきは説明できず、証拠の確かさは「中くらい」。長く続けて心臓の病気が減るか、ほかの影響がないかは調べられていないよ。食べた量も1日1.4〜105gとまちまちだった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#food-cocoa-chocolate-blood-pressure"
+  },
+  {
+    "id": "color-plate-color-dessert-taste",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Valdés-Alarcón et al., \"Contextual Visual Cues in Dessert Evaluation: A Mixed-Effects Analysis of Plate Color Effects on Sweetness and Bitterness Perception\" (Foods, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/foods15101629",
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "color-red-plate-snack-intake",
+        "type": "あわせて読む",
+        "why": "同じ赤いお皿で、こちらは味ではなく食べる量を調べた"
+      }
+    ],
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お皿の色で、味は変わる？",
+        "body": "同じデザートなのに、お皿が違うとなんだかおいしく見える。見た目だけじゃなく、甘さや苦さの感じ方まで変わるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "赤と黒のお皿で食べ比べ",
+        "body": "エクアドルの大学で、大人105人がカカオのデザートとパッションフルーツのデザートを、同じ形の赤いお皿と黒いお皿で食べ、甘さと苦さを0〜100で答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "デザートによって変わった",
+        "body": "パッションフルーツのデザートは赤いお皿で甘さが約9点高く、カカオのデザートは黒いお皿で苦さが約10点高く感じられた。お皿の色の効き方は、食べ物しだいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の実験室の結果",
+        "body": "大学で募った人が、照明をそろえた部屋で2種類のデザートと2色のお皿だけを試した。お店や家で同じになるか、ほかの色や料理でどうかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-plate-color-dessert-taste"
+  },
+  {
     "id": "kokoro-screen-fatigue-nature-view-window-meta",
     "category": "自然と健康",
     "kind": "素朴な疑問",
@@ -40600,6 +40773,11 @@
         "id": "color-red-blue-task",
         "type": "あわせて読む",
         "why": "前提にした「赤は避けたい気持ちを起こす」説は、別の課題で再現されなかった"
+      },
+      {
+        "id": "color-plate-color-dessert-taste",
+        "type": "あわせて読む",
+        "why": "同じ赤いお皿で、こちらは食べる量でなく味の感じ方を調べた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-plate-snack-intake"
