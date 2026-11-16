@@ -1,5 +1,185 @@
 [
   {
+    "id": "exercise-bdnf-meta",
+    "category": "運動と記憶",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Szuhany, Bugatti & Otto, \"A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor\" (Journal of Psychiatric Research, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.jpsychires.2014.10.003",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "運動すると「脳の栄養」が増える？",
+        "body": "運動すると、脳を育てるBDNFという物質が増えて頭が良くなる、ってよく聞くよね。BDNFは本当に増えるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "29件・1,111人の研究をまとめた",
+        "body": "アメリカの研究者たちが、運動の前後でBDNFの量を測った29件の研究（合わせて1,111人）をまとめたんだ。1回だけの運動と、続けた運動の両方を見ているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1回の運動でも、ほどほどに増えた",
+        "body": "1回の運動のあとは中くらいの増え方（g=0.46）。運動を続けている人は、1回の運動での増え方がもっと大きかった（g=0.59）。ふだんの量も少し高かった（g=0.27）。女性の多い研究ほど、増え方は小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "頭が良くなるかは別の話",
+        "body": "このまとめが比べたのはBDNFの量だけで、記憶やテストの成績は見ていない。BDNFが増えたぶん頭の働きが良くなるのかは、別に確かめる必要があるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-bdnf-meta"
+  },
+  {
+    "id": "appetite-fiber-sugar-deep-sleep",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "St-Onge, Roberts, Shechter & Choudhury, \"Fiber and Saturated Fat Are Associated with Sleep Arousals and Slow Wave Sleep\" (Journal of Clinical Sleep Medicine, 2016)",
+    "sourceUrl": "https://doi.org/10.5664/jcsm.5384",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "食べたもので、眠りの深さは変わる？",
+        "body": "甘いものや脂っこいものをたくさん食べた日は、なんだか眠りが浅い気がする。食事の中身と眠りの関係を、泊まりこみで調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "26人が5晩泊まりこんだ",
+        "body": "30〜45歳の標準体重の大人26人が、4日間は決められた食事、5日目だけ好きなものを食べて、その夜の眠りを測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "食物繊維が多い日は、深い眠りが多かった",
+        "body": "好きに食べた夜は、深い眠りが減って寝つきも遅くなった。食物繊維が多いほど深い眠りが多く、飽和脂肪が多いほど深い眠りは少なかった。砂糖などの割合が高いと、夜中に目覚めかける回数が多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "食事を変えれば眠れるかは未確認",
+        "body": "26人・1日分の食事とその夜の眠りの関係を見た分析で、食べるものを割り当てたわけではない。食事を変えて眠りが良くなるかは、試す必要があると著者も書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-fiber-sugar-deep-sleep"
+  },
+  {
+    "id": "dokugaku-mock-exam-score-prediction-log-overpredict",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Karaca et al., \"Low-Performing Students Confidently Overpredict Their Grade Performance throughout the Semester\" (Journal of Intelligence, 2023)",
+    "sourceUrl": "https://doi.org/10.3390/jintelligence11100188",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/mock-exam-score-prediction-log/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "テストを重ねれば、自分の実力がわかってくる",
+        "body": "何回か試験を受ければ、「だいたいこのくらい取れる」と読めるようになる。そう思うよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4回の試験の前に点数を予想",
+        "body": "アメリカの大学の心理学の入門授業で、学生110人が4回の試験の直前に、とれそうな成績を予想した。次の学期に対面の授業の66人でも同じことを調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績が低い人ほど高く予想し、それが続いた",
+        "body": "1回目、成績の下位4分の1は平均84点と予想して実際は約69点。約15点も高かった。上位4分の1のずれは約2点。下位の人のずれは学期を通してあまり縮まらず、予想への自信も下がらなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの大学の1科目の話",
+        "body": "調べたのは1つの大学の授業だけ。なぜ予想を下げないのか（前回の点を思い出していないのか、願望なのか）は、まだはっきりしていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-dunning-kruger-rational-model",
+        "type": "あわせて読む",
+        "why": "点数の低い人が自分の答えの正しさを見抜きにくいかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-mock-exam-score-prediction-log-overpredict"
+  },
+  {
+    "id": "research-woop-obstacle-plan-procrastination-how-research-mooc-culture",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Kizilcec RF, Cohen GL, \"Eight-minute self-regulation intervention raises educational attainment at scale in individualist but not collectivist cultures\" (PNAS, 2017)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1611898114",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/woop-obstacle-plan-procrastination-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "8分の書き出しで、講座を最後までやれる？",
+        "body": "ネット講座って、申し込んでも途中でやめちゃうことが多いよね。「良い結果・障害・もし〜ならこうする」を書くWOOPで、最後まで続くのか調べた研究がある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約1万8千人のオンライン受講者",
+        "body": "2つのオンライン講座で、80か国以上の17,963人を、8分ほどのWOOPを書くグループと、別の作文をするグループにくじで分けて、講座を修了したかをくらべたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "国によって結果が分かれた",
+        "body": "アメリカなど個人主義の国では、修了率が5.52%→7.28%、25.7%→29.5%に上がった。でもインドや中国など集団主義の国では効果がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "文化のせいかは、はっきりしない",
+        "body": "全体では統計的な差にならなかった。個人主義の強さは国の豊かさや英語力とも重なっていて、著者らは個人主義がいちばんよく説明したとしているけど、調べたのは2つの講座だけ。障害が「時間がない」の人にも効果はなかったんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-adult-learning-dropout-restart-planning-prompts-scale",
+        "type": "反対の結果",
+        "why": "27万人に広げた実験では、計画を書いても修了率は上がらなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-woop-obstacle-plan-procrastination-how-research-mooc-culture"
+  },
+  {
+    "id": "research-habits-spread-from-people-around-why-research-running-contagion",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Aral S, Nicolaides C, \"Exercise contagion in a global social network\" (Nature Communications, 2017)",
+    "sourceUrl": "https://doi.org/10.1038/ncomms14753",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/habits-spread-from-people-around-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "走る友だちがいると、自分も走る？",
+        "body": "運動する友だちができると、なんだか自分も動きたくなる。それが本当に友だちの影響なのかを、すごい人数で調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "110万人のランナーと天気",
+        "body": "約110万人が5年間に走った記録を分析。友だちの住む場所だけ雨や寒さで走る量が変わった日を使って、友だちの影響だけを取り出したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "友だちが1km多いと、自分も0.3km",
+        "body": "友だちがいつもより1km多く走ると、本人も同じ日に平均0.3km多く走っていた。あまり走らない人がよく走る人を引っぱる向きはあったけど、逆は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "記録アプリの人だけの話",
+        "body": "ランニング記録アプリを使う人だけのデータで、くじで分けた実験ではない。天気を手がかりにした推定で、食事や睡眠など、ほかの習慣も同じように広がるかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habits-spread-from-people-around-why-research-running-contagion"
+  },
+  {
     "id": "dokugaku-work-better-under-pressure-last-minute-deadline-effort",
     "category": "先延ばし対策",
     "kind": "素朴な疑問",
@@ -23920,7 +24100,14 @@
       }
     ],
     "studyType": "ランダム化比較試験",
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-adult-learning-dropout-restart-planning-prompts-scale"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-adult-learning-dropout-restart-planning-prompts-scale",
+    "links": [
+      {
+        "id": "research-woop-obstacle-plan-procrastination-how-research-mooc-culture",
+        "type": "反対の結果",
+        "why": "同じ書き出しで、個人主義の国では修了率が上がった先の実験"
+      }
+    ]
   },
   {
     "id": "insight-incubation-meta",
@@ -45437,6 +45624,11 @@
         "id": "replication-dunning-kruger-artifact",
         "type": "反対の結果",
         "why": "929人の調査では、効果はほぼ統計のくせで説明できるとされた"
+      },
+      {
+        "id": "dokugaku-mock-exam-score-prediction-log-overpredict",
+        "type": "あわせて読む",
+        "why": "実際の授業で、点数の低い学生が学期を通して高く予想し続けた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/#replication-dunning-kruger-rational-model"
