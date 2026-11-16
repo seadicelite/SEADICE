@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-eye-contact-hard-conversation-mutual-gaze",
+    "category": "対人関係の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Rogers et al., \"Using dual eye tracking to uncover personal gaze patterns during social interaction\" (Scientific Reports, 2018)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-018-22726-7",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/eye-contact-hard-conversation/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "会話中、目ってどのくらい合ってる？",
+        "body": "「目を見て話そう」ってよく言われるけど、実際みんなはどのくらい目を合わせてるんだろう？オーストラリアの研究チームが、眼鏡型の視線計測装置を2人ともにつけて測ってみたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "同時に目が合うのは約1割",
+        "body": "初対面の4分の会話で、2人の目が同時に合っていたのは平均12%。1回の長さは平均0.36秒だった。顔を見合っている時間は平均63%と、ずっと長かったよ。"
+      },
+      {
+        "stage": "意外なところ",
+        "title": "感じ方はもっと多い",
+        "body": "別の大学1年生171人に聞くと、「目が合っていた」と感じた割合は平均72%。研究者は、顔を見合うことを目が合ったと感じているのでは、と考えているんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "会話の数は少なめ",
+        "body": "記録できた会話は51組で、目が合う割合は組によって0〜46%とばらばら。初対面の4分の会話だけなので、職場や友だちとの会話で同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-eye-contact-hard-conversation-mutual-gaze"
+  },
+  {
+    "id": "kokoro-left-out-ai-empathy-chat-empathic-bot-mood",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "de Gennaro et al., \"Effectiveness of an Empathic Chatbot in Combating Adverse Effects of Social Exclusion on Mood\" (Frontiers in Psychology, 2020)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2019.03061",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/left-out-ai-empathy-chat/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "仲間外れのあと、AIに話すと楽になる？",
+        "body": "自分だけ反応がなくて落ち込んだ日、AIに話を聞いてもらいたくなることってあるよね。それって気分の助けになるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "SNS風の画面で「いいね」が自分だけ少ない",
+        "body": "ロンドンの大学の実験室で128人が、SNS風の画面で自分だけ「いいね」が1つの体験をしたあと、共感の言葉を返すチャットボットと話す組と、「ご意見ありがとうございます」とだけ返される組に分かれたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "共感の返事の組が少しだけ上",
+        "body": "直後の気分は7段階で3.77と3.45。どちらも同じように体験を振り返っていて、違いは返事が気持ちを受け止める言葉かどうかだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人に話すのと比べたら？",
+        "body": "気分は直後に1問で測っただけ。人に話す組はなく、選択肢中心のチャットボットだった。今の生成AIや、長く続く仲間外れで同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-left-out-ai-empathy-chat-empathic-bot-mood"
+  },
+  {
+    "id": "kokoro-screen-fatigue-nature-view-nature-photos",
+    "category": "自然と健康",
+    "kind": "よくある説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Brown, Barton & Gladwell, \"Viewing nature scenes positively affects recovery of autonomic function following acute-mental stress\" (Environmental Science & Technology, 2013)",
+    "sourceUrl": "https://doi.org/10.1021/es305019p",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/screen-fatigue-nature-view/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "疲れたら緑を見るといい？",
+        "body": "「疲れたら緑を見て」ってよく聞くよね。英国のエセックス大学の研究チームが、自然の写真で本当に体の反応が変わるのか、実験で確かめてみたらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "写真を10分見てから緊張する課題",
+        "body": "大学の職員が1週間あけて2回参加。木や草地の写真か、家やビルの写真を10分見たあと、ブザーで失敗を知らされる数字の記憶テストを5分やって、緊張する場面をつくったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "課題のあとの落ち着き方が違った",
+        "body": "課題中の心拍や血圧の上がり方はどちらの日も同じ。でも課題のあと、体を落ち着かせる神経の働きを示す指標は、自然の写真を見た日のほうが高かったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は少なめ、順番も逆",
+        "body": "分析できたのは23人。写真を見たのは課題の前で、疲れたあとに見た場合は調べていないよ。いやな気分の変化には、2つの日で差が見られなかった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nature-window-view-recovery",
+        "type": "あわせて読む",
+        "why": "写真の実験に対し、こちらは窓の景色と手術後の回復を病院の記録で見た研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#kokoro-screen-fatigue-nature-view-nature-photos"
+  },
+  {
+    "id": "alcohol-beer-goggles-attractiveness-meta",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Bowdring & Sayette, \"Perception of physical attractiveness when consuming and not consuming alcohol: a meta-analysis\" (Addiction, 2018)",
+    "sourceUrl": "https://doi.org/10.1111/add.14227",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お酒を飲むと、人が魅力的に見える？",
+        "body": "酔うと周りの人がすてきに見える、いわゆる「ビールゴーグル」。飲み会の笑い話でよく聞くけど、実験で確かめた研究はあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16の実験をまとめた",
+        "body": "お酒を飲んだ人と飲んでいない人に顔などの魅力を評価してもらった実験16件、合わせて1811人分を、アメリカの研究者がまとめて計算したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少しだけ、異性が魅力的に見えた",
+        "body": "全体ではお酒を飲んだほうが魅力を高めに評価していて、特に異性の顔でその傾向があった。ただ差は小さめ。同性の魅力の評価では、はっきりした差は出なかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の数はまだ少ない",
+        "body": "まとめられた実験は16件だけで、同性の評価は7件と研究ごとのばらつきも大きかった。飲んだ量や場の雰囲気でどう変わるのか、なぜそうなるのかもまだはっきりしていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-beer-goggles-attractiveness-meta"
+  },
+  {
+    "id": "kids-thumb-sucking-allergy-cohort",
+    "category": "子育ての科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Lynch, Sears & Hancox, \"Thumb-Sucking, Nail-Biting, and Atopic Sensitization, Asthma, and Hay Fever\" (Pediatrics, 2016)",
+    "sourceUrl": "https://doi.org/10.1542/peds.2016-0443",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "指しゃぶりする子は、アレルギーになりにくい？",
+        "body": "指しゃぶりや爪かみは、やめさせたい癖の代表だよね。でも「菌にふれるからアレルギーになりにくい」という話もある。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "子どもを大人になるまで追った",
+        "body": "ニュージーランドの研究チームが、5〜11歳のときの癖を親に聞き、13歳と32歳で皮膚テストをして、アレルギーの反応が出るかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "皮膚テストの反応は出にくかった",
+        "body": "よく指しゃぶりや爪かみをしていた子は31%。この子たちは13歳でも32歳でも、アレルギーの反応が出る割合が低めだった。ただ、ぜんそくや花粉症には差がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "癖のおかげかはわからない",
+        "body": "追いかけて調べた研究なので、因果まではわからない。癖は親の記憶による報告で、1つの国の1つの集団の結果なんだ。皮膚の反応が低めでも、病気が減るとは限らないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#kids-thumb-sucking-allergy-cohort"
+  },
+  {
     "id": "scent-odor-pleasantness-across-cultures",
     "category": "香りと記憶",
     "kind": "素朴な疑問",
@@ -30689,7 +30862,14 @@
       "wrong": "入院が長い傾向があった"
     },
     "webUrl": "https://seadice.win/evidence/nature/#nature-window-view-recovery",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "kokoro-screen-fatigue-nature-view-nature-photos",
+        "type": "あわせて読む",
+        "why": "窓の景色の記録研究に対し、こちらは自然の写真とストレスからの回復を実験で見た"
+      }
+    ]
   },
   {
     "id": "nature-walk-rumination-bratman",
