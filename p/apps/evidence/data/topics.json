@@ -1,5 +1,183 @@
 [
   {
+    "id": "kokoro-screen-fatigue-nature-view-window-meta",
+    "category": "自然と健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Soga M, Gaston KJ, \"Health benefits of viewing nature through windows: A meta-analysis\" (BioScience, 2025)",
+    "sourceUrl": "https://doi.org/10.1093/biosci/biaf089",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/screen-fatigue-nature-view/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "窓から緑が見えると、何か違う？",
+        "body": "外に出なくても、窓から木が見えるだけで心や体にいいのかな？東京大学とイギリスの大学の研究チームが、これまでの28件の研究をまとめてみたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見える人ほど状態がよかった",
+        "body": "全体では、窓から自然が見えることと、心身の状態のよさに関連があった。実際に景色を見せて比べた実験は、ふだんの暮らしを調べた調査より関連が2倍以上強かったよ。"
+      },
+      {
+        "stage": "意外なところ",
+        "title": "身近な緑のほうが強め",
+        "body": "庭や街路樹のような人の手が入った緑で、関連が強めだった。心拍などの体の指標で特にはっきりしていて、体の健康の指標ではほとんど関連が見られなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何分見ればいいかは不明",
+        "body": "研究の多くは見える人と見えない人を比べた調査で、因果まではわからない。発表されやすい結果への偏りもあって、補正すると関連は弱まった（それでも関連は残った）。眺める時間や回数との関係も分析できていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nature-window-view-recovery",
+        "type": "あわせて読む",
+        "why": "窓の景色の研究28件をまとめたものと、その出発点になった1984年の手術後の研究"
+      },
+      {
+        "id": "kokoro-screen-fatigue-nature-view-nature-photos",
+        "type": "あわせて読む",
+        "why": "窓の景色の研究のまとめに対し、こちらは自然の写真とストレスからの回復を実験で見た"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#kokoro-screen-fatigue-nature-view-window-meta"
+  },
+  {
+    "id": "dokugaku-ai-conversation-speaking-practice-how-to-weeks",
+    "category": "言葉と外国語",
+    "kind": "研究紹介",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Miao & Hu, \"Artificial intelligence-assisted speaking in Spanish as a foreign language: effects on foreign language emotions and willingness to communicate\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1877956",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/ai-conversation-speaking-practice-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIと話す練習、いつ効いてくる？",
+        "body": "相手がいなくても、AIとなら外国語で何度でも話せる。じゃあ、AIとの会話練習って、気持ちの面ではいつごろ変化が出るんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16週間、AIの組とふつうの組をくらべた",
+        "body": "スペイン語を初めて学ぶ中国の大学生69人が対象。AIの組は毎週の授業で約5分のAI会話を2回、学期全体で約160分。もう片方はふつうの話す練習をしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "10週目は差なし、16週目に変化",
+        "body": "10週目にはどの気持ちにも差がなかった。16週目になって、AIの組で退屈が少なく、話そうとする気持ちが高かった。実は、不安の差ははっきりしなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "話す力が伸びたかは測っていない",
+        "body": "結果はすべて自己申告の気持ちで、話す力のテストはしていない。くじ引きでなくクラスごとに組を分けた、1つの大学・1学期だけの研究。授業の中での練習で、一人で独学する場合と同じとは限らないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-ai-conversation-speaking-practice-how-to-weeks"
+  },
+  {
+    "id": "dokugaku-choose-what-to-study-motivation-perceived-choice",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Fridkin & Hurry, \"The effects of manipulating choice on children's enjoyment and performance in a reading task\" (Current Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1007/s12144-025-07685-3",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/choose-what-to-study-motivation/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分で選ぶと、読む力まで変わる？",
+        "body": "本や課題を自分で選ぶとやる気が出る、ってよく言うよね。じゃあ、選んだだけで読み取る力まで変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "小学3年生110人の読書実験",
+        "body": "イギリスの2つの小学校の3年生（8〜9歳）110人が、物語を渡されて読む回と、2つから選んで読む回の両方を体験したんだ。実は、どちらを選んでも中身は同じ物語だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "選んだつもりで、読解の点が上がった",
+        "body": "選んだつもりで読んだ回は、読解問題の成績が上がり（効果の大きさd=0.52）、楽しさも少し上がった（d=0.23）。中身が同じでも「選んだ」こと自体が効いていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人や長い期間ではどうか",
+        "body": "8〜9歳の子どもの、1回の読解課題の結果。大学生で効果が出なかった実験もあるし、大人の独学で同じように効くかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-choose-what-to-study-motivation-perceived-choice"
+  },
+  {
+    "id": "weather-season-brain-cognition",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Meyer et al., \"Seasonality in human cognitive brain responses\" (PNAS, 2016)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1518129113",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "季節によって、頭の働き方は変わる？",
+        "body": "冬はなんだか頭が回らない、と感じることってあるよね。気分だけじゃなく、脳の働き方そのものが季節で変わったりするのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "季節の手がかりを消して脳を測った",
+        "body": "健康な若い人たちに、季節がわかる手がかりのない環境で4日半すごしてもらった。そのあと、注意を続ける課題と、少しのあいだ覚えておく課題をしながら、脳の反応をMRIで測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "課題によって、ピークの季節が違った",
+        "body": "どちらの課題でも、脳の反応は季節によって変わっていた。注意の課題では夏至のころに最も強く冬至のころに最も弱く、覚えておく課題では秋分のころに最も強く春分のころに最も弱かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "成績や毎日の暮らしとの関係",
+        "body": "同じ人を1年追ったのではなく、季節ごとに別の人を測った研究。測ったのは脳の反応で、それが勉強や仕事の出来にどれくらい表れるかはまだわからない。季節の何が効いているのかも、この研究からはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-season-brain-cognition"
+  },
+  {
+    "id": "laugh-rat-tickling-ultrasonic",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Ishiyama & Brecht, \"Neural correlates of ticklishness in the rat somatosensory cortex\" (Science, 2016)",
+    "sourceUrl": "https://doi.org/10.1126/science.aah5114",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ネズミも、くすぐると笑う？",
+        "body": "笑うのは人だけ、と思いがち。でも、ネズミをくすぐると喜ぶ、という話を聞いたことはないかな？研究者が実際にラットをくすぐって確かめたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "高い声を出して、自分から寄ってきた",
+        "body": "くすぐられたラットは、人の耳には聞こえない高い音の声を出し、手に寄ってきて、うれしそうに跳ねることもあった。体の感覚を受け持つ脳の部分では、多くの神経がくすぐりに強く反応していたよ。"
+      },
+      {
+        "stage": "意外なところ",
+        "title": "不安なときは笑わない",
+        "body": "不安を感じやすい状況に置くと、くすぐっても声も脳の反応も弱まった。くすぐりへの脳の反応は遊ぶときの反応とも重なっていて、くすぐったさと遊びの気分がつながっている可能性があるんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人の笑いと同じかは別",
+        "body": "ラットでの実験で、人での検証ではない。高い声が人の笑いと同じ気持ちを表しているのかは、ラットに聞けないのでわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laugh-rat-tickling-ultrasonic"
+  },
+  {
     "id": "kokoro-eye-contact-hard-conversation-mutual-gaze",
     "category": "対人関係の心理学",
     "kind": "素朴な疑問",
@@ -104,6 +282,11 @@
         "id": "nature-window-view-recovery",
         "type": "あわせて読む",
         "why": "写真の実験に対し、こちらは窓の景色と手術後の回復を病院の記録で見た研究"
+      },
+      {
+        "id": "kokoro-screen-fatigue-nature-view-window-meta",
+        "type": "あわせて読む",
+        "why": "窓の景色の研究のまとめに対し、こちらは自然の写真とストレスからの回復を実験で見た"
       }
     ],
     "webUrl": "https://seadice.win/evidence/nature/#kokoro-screen-fatigue-nature-view-nature-photos"
@@ -30868,6 +31051,11 @@
         "id": "kokoro-screen-fatigue-nature-view-nature-photos",
         "type": "あわせて読む",
         "why": "窓の景色の記録研究に対し、こちらは自然の写真とストレスからの回復を実験で見た"
+      },
+      {
+        "id": "kokoro-screen-fatigue-nature-view-window-meta",
+        "type": "あわせて読む",
+        "why": "窓の景色の研究28件をまとめたものと、その出発点になった1984年の手術後の研究"
       }
     ]
   },
