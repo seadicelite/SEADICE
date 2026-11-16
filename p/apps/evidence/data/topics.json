@@ -1,5 +1,163 @@
 [
   {
+    "id": "digital-sns-one-week-break-rct",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Lambert J et al., \"Taking a One-Week Break from Social Media Improves Well-Being, Depression, and Anxiety: A Randomized Controlled Trial\" (Cyberpsychology, Behavior, and Social Networking, 2022)",
+    "sourceUrl": "https://doi.org/10.1089/cyber.2021.0324",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "SNSを1週間やめたら、気分は変わる？",
+        "body": "なんとなく開いて、気づけば時間がたっているSNS。思い切って1週間お休みしたら、気持ちは軽くなるのかな。くじ引きで確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "154人をくじで2組に",
+        "body": "平均29.6歳の154人を、Facebook・Instagram・Twitter・TikTokを1週間やめる組と、いつもどおり使う組に分けて、幸福感・気分の落ち込み・不安を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やめた組のほうが気分がよかった",
+        "body": "1週間後、やめた組は幸福感が高く、落ち込みと不安の点数が低かった。SNSに使う時間が減ったことが、この差の一部を説明していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1週間後までの話",
+        "body": "測ったのは1週間後だけで、効果が長く続くかはわからない。SNSの時間は本人の申告。心の病気で治療を受けている人でも同じかは、著者たちも今後の課題としているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-smartphone-reduce-vs-abstain",
+        "type": "あわせて読む",
+        "why": "SNSを1週間やめた試験と、スマホをやめる・1時間減らすを比べた試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-sns-one-week-break-rct"
+  },
+  {
+    "id": "personality-national-character-stereotype",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Terracciano A et al., \"National character does not reflect mean personality trait levels in 49 cultures\" (Science, 2005)",
+    "sourceUrl": "https://doi.org/10.1126/science.1117199",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「〇〇人は真面目」って当たってる？",
+        "body": "「日本人は真面目」「どこそこの国の人は陽気」みたいな国のイメージ、よく聞くよね。でも、その国の人の実際の性格と合っているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "49の文化で照らし合わせた",
+        "body": "49の文化の3,989人に、その国の人の典型的な性格のイメージを答えてもらい、本人の回答と周りの人の評価で測った性格の平均と比べた研究だよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "イメージと実際は一致しなかった",
+        "body": "国のイメージは、答える人どうしではよくそろっていた。でも、実際に測った性格の平均とは一致しなかったんだ。著者たちは、根拠のない思い込みらしいと結論しているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "性格テストで国を比べられる？",
+        "body": "比べた相手は性格テストの平均点。テストの点で国どうしを比べること自体に疑問を出す研究者もいて、イメージが当たる別の面がないかは、この研究だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-national-character-stereotype"
+  },
+  {
+    "id": "dokugaku-phone-away-before-bed-sleep-study-night-shift",
+    "category": "睡眠環境",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Duraccio et al., \"Does iPhone night shift mitigate negative effects of smartphone use on sleep outcomes in emerging adults?\" (Sleep Health, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.sleh.2021.03.005",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/phone-away-before-bed-sleep-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "夜間モードなら寝る前のスマホもOK？",
+        "body": "画面を暖色にする夜間モードにすれば、寝る前にスマホを見ても眠りは守れる、ってよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "167人を3組に分けて7晩",
+        "body": "アメリカの大学に通う18〜24歳の167人を、寝る前1時間「夜間モードで使う」「夜間モードなしで使う」「使わない」の3組にくじで分けて、腕の計測器で7晩の睡眠を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3組で睡眠に差はなかった",
+        "body": "全体では、3組の睡眠にはっきりした差は出なかった。夜間モードに特別な効果は見られなかったらしい。あとから分けて見ると、ふだん6.8時間より長く寝ている人では、使わない組の眠りの効率がいちばんよかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1週間だけの実験",
+        "body": "7晩だけの実験で、対象は米国の1つの大学の学生。長く続けたらどうなるか、大人全体に当てはまるかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-night-phone-blue-light-sleep-filter-melatonin",
+        "type": "あわせて読む",
+        "why": "同じ夜間モードの問いを、実験室のホルモンと7晩の睡眠で見た"
+      },
+      {
+        "id": "digital-bedtime-phone-30min-rct",
+        "type": "あわせて読む",
+        "why": "寝る前のスマホを、使わない組と比べたくじ引きの試験どうし"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#dokugaku-phone-away-before-bed-sleep-study-night-shift"
+  },
+  {
+    "id": "research-learning-styles-visual-auditory-memory-research-matching-meta",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Clinton-Lisell & Litzinger, \"Is it really a neuromyth? A meta-analysis of the learning styles matching hypothesis\" (Frontiers in Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2024.1428732",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/learning-styles-visual-auditory-memory-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分のタイプに合わせて学ぶと伸びる？",
+        "body": "「視覚型は図で、聴覚型は耳で覚えるといい」って、よく聞くよね。学習スタイルに合わせる、という考え方だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21の研究をまとめて分析",
+        "body": "Clinton-LisellとLitzinger（2024）は、タイプに合わせた教え方と合わせない教え方を比べた21の研究（1,712人）をまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差は小さく、説どおりは26%だけ",
+        "body": "全体では小さな差（g = 0.31）が出た。でも、それぞれのタイプが自分に合う方法で得をする、という説どおりの形は成績の指標の26%だけだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の質が低い",
+        "body": "まとめた研究の質は低く、英語の研究だけが対象。著者たちも、広く取り入れるほどの効果ではないと結論しているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "learning-styles-not-supported",
+        "type": "あわせて読む",
+        "why": "2008年のレビューと、その後の研究を数字でまとめた2024年のメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-learning-styles-visual-auditory-memory-research-matching-meta"
+  },
+  {
     "id": "exercise-bdnf-meta",
     "category": "運動と記憶",
     "kind": "よくある説",
@@ -7942,6 +8100,11 @@
         "id": "digital-screen-time-2h-rct",
         "type": "あわせて読む",
         "why": "どちらもスマホ時間を減らす実験。減らし方と期間がちがう"
+      },
+      {
+        "id": "digital-sns-one-week-break-rct",
+        "type": "あわせて読む",
+        "why": "スマホを減らす試験と、SNSだけを1週間やめた試験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/digital-detox/#digital-smartphone-reduce-vs-abstain"
@@ -9216,6 +9379,11 @@
         "id": "kokoro-night-phone-blue-light-sleep-filter-melatonin",
         "type": "あわせて読む",
         "why": "夜間モードで光を変えるより、使う時間そのものを減らした試験"
+      },
+      {
+        "id": "dokugaku-phone-away-before-bed-sleep-study-night-shift",
+        "type": "あわせて読む",
+        "why": "寝る前のスマホを、使わない組と比べたくじ引きの試験どうし"
       }
     ],
     "webUrl": "https://seadice.win/evidence/digital-detox/#digital-bedtime-phone-30min-rct"
@@ -15796,6 +15964,11 @@
         "id": "digital-bedtime-phone-30min-rct",
         "type": "あわせて読む",
         "why": "寝る前30分スマホを使わない、をくじ引きで試した研究"
+      },
+      {
+        "id": "dokugaku-phone-away-before-bed-sleep-study-night-shift",
+        "type": "あわせて読む",
+        "why": "同じ夜間モードの問いを、実験室のホルモンと7晩の睡眠で見た"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/#kokoro-night-phone-blue-light-sleep-filter-melatonin"
@@ -30379,7 +30552,14 @@
     "articleUrl": "https://dokugaku.seadice.win/learning-styles-visual-learner-myth/",
     "articleSite": "独学の科学",
     "webUrl": "https://seadice.win/evidence/learning/#learning-styles-not-supported",
-    "studyType": "レビュー"
+    "studyType": "レビュー",
+    "links": [
+      {
+        "id": "research-learning-styles-visual-auditory-memory-research-matching-meta",
+        "type": "あわせて読む",
+        "why": "2008年のレビューと、その後の研究を数字でまとめた2024年のメタ分析"
+      }
+    ]
   },
   {
     "id": "habit-thoughtless-daily-diary",
