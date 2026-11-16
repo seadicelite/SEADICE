@@ -1,5 +1,178 @@
 [
   {
+    "id": "music-preference-personality-53-countries",
+    "category": "音楽と集中力",
+    "kind": "よくある説",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Greenberg et al., \"Universals and variations in musical preferences: A study of preferential reactions to Western music in 53 countries\" (Journal of Personality and Social Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.1037/pspp0000397",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "好きな音楽で、性格がわかる？",
+        "body": "「ロック好きは〇〇な人」「ジャズ好きは△△」みたいな話、よく聞くよね。聴く音楽と性格って、本当に関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "53か国、35万人以上に聞いた",
+        "body": "Greenbergら（2022）は、ネットで集めた35万6649人に、好きなジャンルや曲を聴いたときの反応と、性格（ビッグファイブ）を答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "傾向は、国をこえて似ていた",
+        "body": "外向的な人はリズミカルで明るい曲に、好奇心の強い人は複雑な曲や即興の多い曲に強く反応しやすかった。この傾向は、国が違ってもほぼ同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "当てられるほど強いかは別",
+        "body": "わかったのは「そういう傾向がある」という相関で、どちらが原因かはわからない。1人の性格を言い当てられる強さかも別の話。調べたのは西洋の音楽だけだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-preference-personality-53-countries"
+  },
+  {
+    "id": "dokugaku-drinking-night-before-study-memory-reset-next-day-quiz",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Howland et al., \"The effects of binge drinking on college students' next-day academic test-taking performance and mood state\" (Addiction, 2010)",
+    "sourceUrl": "https://doi.org/10.1111/j.1360-0443.2009.02880.x",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/drinking-night-before-study-memory-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "飲んだら、前の日の勉強は全部飛ぶ？",
+        "body": "飲み会の翌朝、昨日覚えたことが消えた気がする…ってあるよね。お酒を飲むと、前日の勉強は本当に台なしになるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生196人が、本物と偽物のお酒を両方体験",
+        "body": "ボストン近郊の21歳以上の大学生196人が、くじで決めた順に、ある晩は本物のお酒（呼気のアルコール濃度が平均0.12%）、1週間後の晩は偽のお酒を飲んで、翌朝テストを受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "テストの点は落ちず、注意と気分が落ちた",
+        "body": "前日に聞いた講義の小テストと、大学院の入試問題（GRE）の点は、飲んだ翌朝でも変わらなかった。一方で、注意・反応の速さと気分は悪くなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "もっと飲んだら？毎週飲んだら？",
+        "body": "研究施設で1晩だけ飲んだ実験の結果。もっと多く飲んだ日や、何日も続けて飲んだ場合、年齢が上の大人でどうなるかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-learn-then-drink-memory",
+        "type": "あわせて読む",
+        "why": "どちらも、勉強のあとに飲んだお酒が記憶や翌日の成績にどう響くかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-drinking-night-before-study-memory-reset-next-day-quiz"
+  },
+  {
+    "id": "dokugaku-gamify-self-study-how-to-cognitive-training-motivation",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Vermeir et al., \"The Effects of Gamification on Computerized Cognitive Training: Systematic Review and Meta-Analysis\" (JMIR Serious Games, 2020)",
+    "sourceUrl": "https://doi.org/10.2196/18644",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/gamify-self-study-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ゲームっぽくすれば頭も鍛えられる？",
+        "body": "ポイントやごほうびをつけて楽しくすれば、脳トレも勉強も、もっと効果が出そうな気がするよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9つの比較試験をまとめた",
+        "body": "Vermeirら（2020）は、パソコンの脳トレにゲームの要素を足した49の研究を集め、そのうち9つのランダム化比較試験をまとめて分析した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やる気は上がった、力は同じ",
+        "body": "ゲーム化した課題はやる気やのめり込みが高まった（g＝0.72）。そのぶん難しく感じられ、鍛えようとした記憶力などの伸びには差が見られなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の数がまだ少ない",
+        "body": "まとめられた試験は9つだけで、偏りの心配も残る。使われた仕掛けはごほうびと成績の表示が中心で、競争などの仕組みが力の伸びにどう効くかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-gamify-self-study-how-to-cognitive-training-motivation"
+  },
+  {
+    "id": "dokugaku-math-anxiety-stuck-restart-anticipation-pain",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Lyons & Beilock, \"When math hurts: math anxiety predicts pain network activation in anticipation of doing math\" (PLoS ONE, 2012)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0048076",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/math-anxiety-stuck-restart/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "数学がつらいのは、解いている最中？",
+        "body": "計算問題を前にすると気が重くなる人は多いよね。でもつらいのは、解いている時間なのか、それとも解く前なのか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "合図を見た瞬間の脳を測った",
+        "body": "LyonsとBeilockは、数学不安の強い14人と弱い14人に、fMRIの中で「次は計算」という合図を見たときと、実際に計算しているときの脳の働きを測った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "痛むのは「始める前」",
+        "body": "不安が強い人ほど、計算が来ると知った待ち時間に、痛みや体の危険を感じるときに働く部位が強く働いた。計算している最中には、この関係は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "28人の脳の研究",
+        "body": "人数が少なく、勉強の成果を測った研究ではない。始めるまでの時間を短くすると楽になるかは、この実験では確かめていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-math-anxiety-stuck-restart-anticipation-pain"
+  },
+  {
+    "id": "caffeine-coffee-depression-meta",
+    "category": "カフェイン",
+    "kind": "よくある説",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Wang et al., \"Coffee and caffeine consumption and depression: A meta-analysis of observational studies\" (Australian & New Zealand Journal of Psychiatry, 2016)",
+    "sourceUrl": "https://doi.org/10.1177/0004867415603131",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーを飲む人は、うつになりにくい？",
+        "body": "「コーヒーを毎日飲むと、気分が落ち込みにくい」という話、ネットでよく見かけるよね。実際の研究をまとめると、どうなっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "11本の観察研究をまとめた",
+        "body": "Wangら（2016）は、飲む量とうつの関係を調べた11本の論文を集めた。コーヒーの分析には7つの研究の約33万人が入っているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "よく飲む人ほど、うつが少なかった",
+        "body": "いちばん少ない人と比べ、よく飲む人はうつのリスクが約24%低かった。1日1杯増えるごとに約8%低いという関係も見られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飲んだから、とは言えない",
+        "body": "どれも飲む量と気分を見比べた研究で、くじで分けて飲ませた試験ではない。元気な人ほどコーヒーを飲む、という逆の向きも分けきれていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-depression-meta"
+  },
+  {
     "id": "digital-sns-one-week-break-rct",
     "category": "デジタルデトックス",
     "kind": "素朴な疑問",
@@ -7913,6 +8086,11 @@
         "id": "caffeine-memory-consolidation",
         "type": "あわせて読む",
         "why": "どちらも、覚えたあとにとるもので記憶が変わるかを調べた研究"
+      },
+      {
+        "id": "dokugaku-drinking-night-before-study-memory-reset-next-day-quiz",
+        "type": "あわせて読む",
+        "why": "どちらも、勉強のあとに飲んだお酒が記憶や翌日の成績にどう響くかを調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-learn-then-drink-memory"
