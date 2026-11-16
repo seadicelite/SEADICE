@@ -1,5 +1,199 @@
 [
   {
+    "id": "happiness-heritability-half-genes",
+    "category": "幸福の科学",
+    "kind": "よくある説",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Bartels, \"Genetics of Wellbeing and Its Components Satisfaction with Life, Happiness, and Quality of Life: A Review and Meta-analysis of Heritability Studies\" (Behavior Genetics, 2015)",
+    "sourceUrl": "https://doi.org/10.1007/s10519-015-9713-y",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "幸せの半分は遺伝で決まる？",
+        "body": "幸せを感じやすいかの50%は生まれつき、という話を聞いたことがあるかも。本当にそこまで決まっているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "双子の研究30本を見直した",
+        "body": "オランダの研究者が、双子や家族で幸福感の遺伝を調べた30本の研究を集め、そのうち10の独立した研究の推定を人数で重みづけしてまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "遺伝で説明できるのは3分の1ほど",
+        "body": "幸福感の個人差のうち遺伝で説明できる割合は平均36%（5万5974人分）、人生への満足度では32%（4万7750人分）。ただ、研究ごとの推定は0〜64%と大きくばらついていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "集団の中の「ばらつき」の話",
+        "body": "これは集団の中の個人差を遺伝でどれだけ説明できるかの推定で、1人の幸せが何%決まっているという意味ではないよ。元の研究はアメリカやヨーロッパの双子が中心で、年齢による違いも十分には調べられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#happiness-heritability-half-genes"
+  },
+  {
+    "id": "mindfulness-how-many-minutes-dose",
+    "category": "マインドフルネス",
+    "kind": "素朴な疑問",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Bowles & Van Dam, \"Dose-response effects of reported meditation practice on mental-health and wellbeing: A prospective longitudinal study\" (Applied Psychology: Health and Well-Being, 2025)",
+    "sourceUrl": "https://doi.org/10.1111/aphw.70063",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "瞑想は1日何分すればいい？",
+        "body": "アプリだと「1日5分から」なんて言うけど、気持ちの変化を感じるには、実際どれくらい要るんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "瞑想する約1000人を2か月追った",
+        "body": "オーストラリアの大学の研究者が、自分で瞑想している約1000人に、2か月で9回、練習の量と気分などを答えてもらったんだ。約7割が女性で、平均年齢は40代だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "回数が大事で、時間は思ったより長め",
+        "body": "1回の長さより、どれだけ頻繁にするかのほうが良い変化と強く結びついていた。それまでの練習量をそろえると、はっきりした改善には幸福感で1日35〜65分、心の不調で1日50〜80分ほどが必要だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじで分けた研究ではない",
+        "body": "練習量は本人が選んで自己申告したもの。気分がいい人ほどよく瞑想した、という逆向きの可能性を論文も認めているよ。参加者の93%はオーストラリアや欧米の人で、日本で同じかはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-apps-depression-anxiety-meta",
+        "type": "あわせて読む",
+        "why": "瞑想アプリの効き目を、くじで分けた試験でまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-how-many-minutes-dose"
+  },
+  {
+    "id": "dokugaku-recall-in-head-or-write-it-down-covert-definitions",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Witherby, Northern & Tauber, \"Does Covert Retrieval Benefit Adolescents' Learning in 8th Grade Science Classes?\" (Behavioral Sciences, 2025)",
+    "sourceUrl": "https://doi.org/10.3390/bs15070843",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/recall-in-head-or-write-it-down/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "思い出す練習は頭の中だけでOK？",
+        "body": "何も見ずに思い出すと覚えやすい、ってよく聞くよね。じゃあ、答えを書かずに頭の中で思い浮かべるだけでも同じなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中学生65人が理科の用語で比べた",
+        "body": "アメリカの中学2年生65人が、理科の用語15個の定義を、書いて思い出す・頭の中で思い出す・読み直す、の3通りで5回の授業にわたって練習したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "定義は書いた方が残った",
+        "body": "2日後の記述テストの正答率は、書いた用語が39%、頭の中が27%、読み直しが29%。頭の中で思い出すだけだと、読み直しと差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い答えなら話は別かも",
+        "body": "単語のような短い答えでは、頭の中でも書くのと同じくらい効いた大学生の実験もある。この研究は中学生の授業で、クラスと用語の割り当てもそろいきっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-review-backlog-catch-up-drop-from-testing",
+        "type": "あわせて読む",
+        "why": "思い出す練習そのものが記憶を強くすると示した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-recall-in-head-or-write-it-down-covert-definitions"
+  },
+  {
+    "id": "dokugaku-self-reference-effect-link-to-yourself-jol-gap",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Hou et al., \"The Self-Reference Effect in Metamemory and the Role of Beliefs in This Process\" (Behavioral Sciences, 2024)",
+    "sourceUrl": "https://doi.org/10.3390/bs14090741",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/self-reference-effect-link-to-yourself/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "効く覚え方は「効いた感じ」がする？",
+        "body": "よく覚えられた方法なら、覚えた手応えもあるはずだよね。でも実は、そうとは限らないらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "自分に当てはめるか、意味を考えるか",
+        "body": "中国の大学生と大学院生34人が、性格を表す言葉を「自分に当てはまるか」か「意味」を考えて覚え、後でどれくらい思い出せそうかも答えた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績は差、手応えは同じ",
+        "body": "自分に当てはめた言葉は42%、意味を考えた言葉は27%思い出せた。なのに「思い出せそう」という見込みは54.20と53.03でほぼ同じだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、母語の言葉だけ",
+        "body": "34人の1回の実験で、覚えたのは母語の性格語。外国語や教科書の内容でも手応えがずれるかは、まだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-study-feels-not-learning-effort-recovery-research-feeling-of-learning",
+        "type": "あわせて読む",
+        "why": "授業でも、身につく方法ほど「学べた感じ」が低かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-self-reference-effect-link-to-yourself-jol-gap"
+  },
+  {
+    "id": "dokugaku-self-reference-effect-link-to-yourself-l2-vocab",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Pruss, Karni & Prior, \"Self-reference promotes vocabulary learning in a foreign language\" (Psychonomic Bulletin & Review, 2025)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-025-02674-w",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/self-reference-effect-link-to-yourself/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "英単語は「自分の1文」で覚える？",
+        "body": "知らない英単語を覚えるとき、訳をくり返すより、その単語で自分のことを1文言ったほうが残るらしい。イスラエルの研究者たちが確かめた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "珍しい英単語20語で実験",
+        "body": "ヘブライ語を話す大人42人が、半分の単語は「自分のことを言う英語の1文」を声に出し、残りは訳を声に出して覚えた。テストがあることは知らされていない。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1週間後も自分の文が上",
+        "body": "直後のテストで30.3%対14.3%、1週間後は17.0%対10.2%で、自分の1文で覚えた単語のほうがよく残っていた。意味を説明する文を作る方法と比べた別の実験でも、自分の文が上だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きり・声に出す方法だけ",
+        "body": "単語は1回しか見ておらず、くり返し学ぶ実際の勉強とは違う。書いて覚える方法でも同じかは、まだ調べられていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-keyword-mnemonic-vocabulary-how-research-keyword-retrieval",
+        "type": "あわせて読む",
+        "why": "外国語の単語を、語呂合わせで覚える方法を確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-self-reference-effect-link-to-yourself-l2-vocab"
+  },
+  {
     "id": "dokugaku-math-anxiety-stuck-restart-expressive-writing-null",
     "category": "学習法",
     "kind": "よくある説",
@@ -4392,6 +4586,11 @@
         "id": "dokugaku-why-study-methods-differ-icap-lecture-myth",
         "type": "あわせて読む",
         "why": "頭を使う授業が成績を上げるという、別の大きな研究"
+      },
+      {
+        "id": "dokugaku-self-reference-effect-link-to-yourself-jol-gap",
+        "type": "あわせて読む",
+        "why": "授業でも、身につく方法ほど「学べた感じ」が低かった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#research-study-feels-not-learning-effort-recovery-research-feeling-of-learning"
@@ -14278,7 +14477,14 @@
         "body": "1つの大学の学生で、女性が多かった。覚えたのは物の名前20語だけで、テストも2回に限った条件。もっと長い期間や、抽象的な単語でも同じかはまだわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/language-learning/#research-keyword-mnemonic-vocabulary-how-research-keyword-retrieval"
+    "webUrl": "https://seadice.win/evidence/language-learning/#research-keyword-mnemonic-vocabulary-how-research-keyword-retrieval",
+    "links": [
+      {
+        "id": "dokugaku-self-reference-effect-link-to-yourself-l2-vocab",
+        "type": "あわせて読む",
+        "why": "外国語の単語を、語呂合わせで覚える方法を確かめた研究"
+      }
+    ]
   },
   {
     "id": "research-stressful-period-procrastination-recovery-research-depression-direction",
@@ -17599,6 +17805,11 @@
         "id": "mindfulness-nonclinical-meta",
         "type": "あわせて読む",
         "why": "こちらはアプリだけ、あちらは教室などを含む瞑想プログラム全体の効果のまとめ"
+      },
+      {
+        "id": "mindfulness-how-many-minutes-dose",
+        "type": "あわせて読む",
+        "why": "瞑想アプリの効き目を、くじで分けた試験でまとめたメタ分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-apps-depression-anxiety-meta"
@@ -17874,6 +18085,11 @@
         "id": "research-flashcards-how-to-use-research-relearn3",
         "type": "あわせて読む",
         "why": "覚えた単語を外していいかと、何回正解まで練習するか"
+      },
+      {
+        "id": "dokugaku-recall-in-head-or-write-it-down-covert-definitions",
+        "type": "あわせて読む",
+        "why": "思い出す練習そのものが記憶を強くすると示した実験"
       }
     ]
   },
