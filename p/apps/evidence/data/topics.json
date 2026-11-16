@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-math-anxiety-stuck-restart-expressive-writing-null",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Scheibe et al., \"How does math anxiety affect math performance? An experimental online two-study investigation into the mechanism driving math anxiety interventions\" (Journal of Experimental Psychology: General, 2025)",
+    "sourceUrl": "https://doi.org/10.1037/xge0001804",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/math-anxiety-stuck-restart/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "不安を書き出せば数学の点が上がる？",
+        "body": "試験の前に不安を紙に書き出すと、頭が空いて点が上がる。そんな方法が数学不安の対策として紹介されることがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "オンラインで2回試した",
+        "body": "Scheibeらは、168人と505人のオンライン実験で、計算の前に不安を書き出す方法などを試し、対照群と成績を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "書いた人の成績は上回らなかった",
+        "body": "書き出した人の成績は、対照群を上回らなかった。効いたという以前の実験もあるけれど、効くには条件があるのかもしれない、と著者らは書いている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本番の試験ではどうか",
+        "body": "オンラインの短い実験で、実際の試験ではない。どんな人・どんな場面なら書き出す方法が効くのかは、まだはっきりしていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-exam-mind-blank-test-anxiety-recovery-research-writing",
+        "type": "あわせて読む",
+        "why": "同じ「不安を書き出す」方法で、21件の研究をまとめても効果ははっきりしなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-math-anxiety-stuck-restart-expressive-writing-null"
+  },
+  {
+    "id": "dokugaku-memorized-answers-cannot-solve-new-questions-interleaved-physics",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Samani & Pan, \"Interleaved practice enhances memory and problem-solving ability in undergraduate physics\" (npj Science of Learning, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41539-021-00110-x",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/memorized-answers-cannot-solve-new-questions/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スラスラ解ける練習ほど身につく？",
+        "body": "同じ単元の問題を続けて解くと、どんどん解けて気持ちいいよね。でも「解けている感じ」と「本当に身についたか」は、別物らしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学の物理の宿題で比べた",
+        "body": "SamaniとPanは、米国の大学の物理の授業（350人）で8週間、宿題を「1単元ずつ」と「単元を混ぜる」の2通りにした。同じ学生が前半と後半で両方を経験した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "混ぜた方が新しい問題に強かった",
+        "body": "予告なしの新しい問題のテストでは、混ぜた宿題の後の方が成績の中央値が50%と125%高かった。なのに学生は、混ぜた方が難しく、学べていないと感じていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本番の試験では差がはっきりせず",
+        "body": "3日後の中間試験では、2つのやり方の差ははっきりしなかった。多くの学生が試験前に詰め込んでいたことも関係しているかもしれない。1つの大学の授業での結果。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-memorized-answers-cannot-solve-new-questions-interleaved-physics"
+  },
+  {
+    "id": "dokugaku-read-textbook-figures-graphs-how-to-look-at-figures",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Jian, \"Reading Instructions Influence Cognitive Processes of Illustrated Text Reading Not Subject Perception: An Eye-Tracking Study\" (Frontiers in Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2018.02263",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/read-textbook-figures-graphs-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "教科書の図、ちゃんと見てる？",
+        "body": "教科書を読むとき、図やグラフはなんとなく眺めて先へ進んじゃうこと、あるよね。図の読み方って、教わったら変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "読み方を10〜20分だけ教えた",
+        "body": "台湾の小学4年生に「図を指す文を探して見比べる」「ラベルを全部読む」「タイトルと説明文を確かめる」を10〜20分ほど教えて、目の動きを記録したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "図を見る時間が約2倍に",
+        "body": "教わった子は図を見る時間が46.7秒で、教わらない子の21.7秒の約2倍。図と文をつなぐ問題の正答も72%と50%で差が出たらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人でも、長く続くかは別",
+        "body": "小学生62人が、花のしくみの文章を1つ読んだだけの実験。時間をおいたテストはしていないから、何週間か後も効くかは著者も今後の課題としているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-read-textbook-figures-graphs-how-to-look-at-figures"
+  },
+  {
+    "id": "aging-exercise-snacks-sit-to-stand",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Zhang et al., \"Effectiveness of exercise snacks on physical function: a systematic reviews with meta-analysis of randomized controlled trials\" (The Journal of Nutrition, Health and Aging, 2026)",
+    "sourceUrl": "https://doi.org/10.1016/j.jnha.2026.100837",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "1〜2分のちょこっと運動、意味ある？",
+        "body": "まとまった運動の時間はとれないけど、階段を1〜2分のぼる、スクワットを少しやる、くらいならできるよね。そんな細切れの運動でも、体は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "11件の試験・472人をまとめた",
+        "body": "1日の中で短い運動を何回かに分けてやる「エクササイズスナック」を、くじで分けて試した11件の研究をまとめたよ。期間は4〜12週間、若い人から高齢の人まで入っている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "高齢の人は立ち座りの回数が増えた",
+        "body": "高齢の人の3件（116人）では、60秒で椅子から立ち座りできる回数が平均4.4回増えた。全体では最大酸素摂取量などの持久力も上がり、体脂肪率も下がった。疲れやすさとBMIには差がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究はまだ少なく、やり方もばらばら",
+        "body": "1件あたり十数人〜数十人の小さな試験が多く、運動の種類や回数もそろっていない。寿命や転倒が減るかは調べていないし、どのやり方がいちばんいいかもまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-exercise-snacks-sit-to-stand"
+  },
+  {
+    "id": "game-casual-game-stress-vs-meditation",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Desai et al., \"Stress-Reducing Effects of Playing a Casual Video Game among Undergraduate Students\" (Trends in Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.1007/s43076-021-00062-6",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ゲームでストレス解消になる？",
+        "body": "疲れたときにゲームをすると、なんとなく気が晴れる気がするよね。じゃあ、のんびりしたゲームはリラックス法として、瞑想と比べてどのくらいなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20分のゲームと瞑想を比べた",
+        "body": "大学生80人を交互に2つに分けて、花びらを風で運ぶゲーム「Flower」か、体に順に注意を向ける瞑想を20分ずつやってもらい、前後でストレスの感じ方と心拍・血圧を測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらも下がり、気持ちは瞑想がやや上",
+        "body": "どちらのグループも、ストレスの感じ方・心拍・血圧が下がった。ストレスの感じ方は瞑想の方が大きく下がったけれど、心拍と血圧の下がり方は同じくらいだったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ただ休むのと比べていない",
+        "body": "何もせず20分休むグループがないので、下がったのがゲームのおかげかはわからない。大学生80人、ゲーム1本、終わった直後だけの測定で、くじ引きで分けた試験でもないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-casual-game-stress-vs-meditation"
+  },
+  {
     "id": "music-preference-personality-53-countries",
     "category": "音楽と集中力",
     "kind": "よくある説",
@@ -20606,6 +20779,11 @@
         "id": "research-exam-mind-blank-test-anxiety-recovery-research-reappraisal",
         "type": "あわせて読む",
         "why": "同じ試験不安に、捉え直しと書き出しという別の方法を試した検証"
+      },
+      {
+        "id": "dokugaku-math-anxiety-stuck-restart-expressive-writing-null",
+        "type": "あわせて読む",
+        "why": "数学の計算で不安を書き出した2つの実験でも、成績は対照群を上回らなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#research-exam-mind-blank-test-anxiety-recovery-research-writing"
