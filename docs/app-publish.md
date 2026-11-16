@@ -77,4 +77,4 @@ Flutter Web 版を置く場合だけ。手順は [docs/flutter-howto.md](flutter
 
 ### 6. アプリとメディアの相互送客 / 7. 「もとになった研究」欄
 
-審査通過時に必ず行う。手順・書き方・禁止表現は [docs/app-publish.md](docs/app-publish.md)（EVIDENCEシリーズへの追加は `/evidence {appId}` の一言）。
+審査通過時に必ず行う。手順・書き方・禁止表現はこの文書の各節（EVIDENCEシリーズへの追加は `/evidence {appId}` の一言）。
