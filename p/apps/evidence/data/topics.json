@@ -1,5 +1,185 @@
 [
   {
+    "id": "kokoro-ai-assisted-pay-not-earned-why-earnedness",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Zong J, Lyu Z, \"Does AI-assisted labor change how earnings are spent?\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1877013",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/ai-assisted-pay-not-earned-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIで稼いだお金、実感ある？",
+        "body": "AIに手伝ってもらった仕事でお金をもらうと、なんだか自分で稼いだ気がしない。そんな気持ちになることってあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ10元で3つのやり方",
+        "body": "中国の179人が商品の宣伝文句を考えたんだ。自分で書く、AIの案を選んで直す、AIに全部任せる、の3組に分かれて、報酬はどれも同じ10元だったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "実感は大きく下がった",
+        "body": "「自分で稼いだ」と感じる度合いは7段階で、自分で書いた組が6.05、AIに任せた組は2.83。ただ、そのお金を投資に回す額には、はっきりした差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大きなお金ならどう？",
+        "body": "報酬は10元と小さく、小さな差を見分けられる人数でもなかった。給料や副業の収入のような大きなお金で同じことが起きるかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-assisted-pay-not-earned-why-earnedness"
+  },
+  {
+    "id": "kokoro-ai-made-for-me-handmade-recover-crafting",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Keyes H et al., \"Creating arts and crafting positively predicts subjective wellbeing\" (Frontiers in Public Health, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/fpubh.2024.1417997",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-made-for-me-handmade-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "何かを作る人は、満たされている？",
+        "body": "AIに頼めば何でもすぐできる時代。でも、自分の手で何かを作る時間って、心にとって意味があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イングランドの7,182人の調査",
+        "body": "2019〜2020年の調査で、この1年に絵や写真、編み物、木工、陶芸などを1つ以上した人（37.4%）と、しなかった人を比べた研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やりがいの点数が少し高め",
+        "body": "年齢や健康などをそろえても、作った人は「人生にやりがいがある」と感じる度合いや幸福感が高めだった。ただ、不安と孤独には差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "作るから満たされる？",
+        "body": "1回きりの調査なので、作るから気分がよいのか、元気な人が作るのかは区別できない。差もわずかで、AIで作る場合は調べられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-made-for-me-handmade-recover-crafting"
+  },
+  {
+    "id": "kokoro-ai-overuse-self-regulation-prevent-profiles",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Zhang Z et al., \"Problematic generative AI use and mental health risks among Chinese university students: latent profiles, network structure, and health literacy as a modifiable resource\" (Frontiers in Public Health, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpubh.2026.1910408",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-overuse-self-regulation-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIを毎日使うと危ない？",
+        "body": "レポートも調べものも、気づけばAIに聞いている。毎日使っていたら、心まで疲れてしまうのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生1,872人を4つに分けた",
+        "body": "中国の6大学の学生1,872人に、AIのやめにくさ、勉強の不安、睡眠、心の苦しさをたずねた調査があるよ。答え方の似た人どうしで4つの組に分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "回数より「重なり」",
+        "body": "全部が高い組は14.6%、リスクの低い組は39.9%。目標や時間を自分で決め、AIに聞く前に考える習慣がある人ほど、低い組に入る見込みが高かったらしい。著者は使う回数だけが問題ではないと書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "習慣を変えれば防げる？",
+        "body": "1回だけの調査で、不安や寝不足が先にあってAIに頼った可能性もある。学び方を変えたら防げるかは、まだ確かめられていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-ai-escape-dependence-root-recover-which-comes-first",
+        "type": "あわせて読む",
+        "why": "AIへの依存と不安、どちらが先に来るかを中学生で追った研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-overuse-self-regulation-prevent-profiles"
+  },
+  {
+    "id": "japan-apple-a-day-doctor",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Davis, Bynum & Sirovich, \"Association between apple consumption and physician visits: appealing the conventional wisdom that an apple a day keeps the doctor away\" (JAMA Internal Medicine, 2015)",
+    "sourceUrl": "https://doi.org/10.1001/jamainternmed.2014.5466",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "1日1個のりんごで医者いらず？",
+        "body": "「1日1個のりんごは医者を遠ざける」って、イギリスのことわざとして日本でもよく聞くよね。りんごを毎日食べる人は、ほんとに病院に行かないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの大人8,399人",
+        "body": "アメリカの全国調査（2007〜2010年）で、前の日に食べたものを答えた大人8,399人を調べた研究があるよ。小さなりんご1個分以上を毎日食べる人は753人（9%）だった。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "条件をそろえると差は消えた",
+        "body": "1年に医者にかかったのが1回以下の人は、りんご派39.0%、そうでない人33.9%。でも学歴やたばこなどの違いをそろえると、はっきりした差はなくなった。処方薬を使わない人はわずかに多めだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "りんごのおかげ？",
+        "body": "1回きりの調査で、食べたものは前の日1日分の記憶、医者に行った回数も本人の申告なんだ。りんごで健康になるのか、健康に気をつける人がりんごを食べるのかは区別できないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-apple-a-day-doctor"
+  },
+  {
+    "id": "exercise-outdoor-vs-indoor-mood-review",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Thompson Coon et al., \"Does participating in physical activity in outdoor natural environments have a greater effect on physical and mental wellbeing than physical activity indoors? A systematic review\" (Environmental Science & Technology, 2011)",
+    "sourceUrl": "https://doi.org/10.1021/es102947t",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ジムより外で走るほうが気分いい？",
+        "body": "同じ運動でも、ジムの中より公園や川沿いを走るほうが気持ちいい気がするよね。実際にくらべた研究はあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "11の試験、大人833人",
+        "body": "同じ散歩やランニングを、屋内と自然の中で1回ずつして気分をくらべた試験を集めたレビューがあるよ。11の試験で大人833人、半分以上は若い学生だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "元気は増え、落ち着きは減ることも",
+        "body": "外で運動したあとのほうが、元気が出て、緊張や怒り、落ち込みが減ったという結果が多かった。楽しさや「またやりたい」気持ちも高め。ただ、落ち着いた感じはむしろ下がることもあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "続けやすくなる？",
+        "body": "どれも1回の運動の直後に本人が答えたもので、試験の質は低く、測り方もばらばらだった。外のほうが運動が続くのか、体の健康に差が出るのかを調べた試験はなかったよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-green-dose",
+        "type": "あわせて読む",
+        "why": "自然の中の運動で、どのくらいの時間・強さで気分が変わるかのメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-outdoor-vs-indoor-mood-review"
+  },
+  {
     "id": "face-selfie-nose-distance",
     "category": "顔と第一印象",
     "kind": "素朴な疑問",
@@ -1723,7 +1903,14 @@
         "body": "自己申告の調査で、生成AIが広く使われる前の2022年のデータ。大人や今のAIで同じかは、まだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-escape-dependence-root-recover-which-comes-first"
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-escape-dependence-root-recover-which-comes-first",
+    "links": [
+      {
+        "id": "kokoro-ai-overuse-self-regulation-prevent-profiles",
+        "type": "あわせて読む",
+        "why": "AIの使いすぎと不安・寝不足が重なる学生を4つの組に分けた調査"
+      }
+    ]
   },
   {
     "id": "kokoro-layoff-news-write-feelings-first-feelings-before-plans",
@@ -27806,6 +27993,11 @@
         "id": "nature-120-minutes-week",
         "type": "あわせて読む",
         "why": "自然の効果は、短時間で大きく、ある量で頭打ちになる"
+      },
+      {
+        "id": "exercise-outdoor-vs-indoor-mood-review",
+        "type": "あわせて読む",
+        "why": "同じ運動を屋内と自然の中でくらべた試験のレビュー"
       }
     ]
   },
