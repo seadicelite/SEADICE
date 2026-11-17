@@ -16,8 +16,10 @@ design/README.md・design/*.css
 1. 生成スクリプトは書き出し時に必ず apply_page_type.apply を通す（build_apps_page.py と build_evidence_hub.py は対応済み。新しい生成スクリプトにも）
 2. 新しいページは公開前に `grep -rL '<body class="t-'` で適用漏れを確かめる（同じ漏れが2回出たら、公開手順のチェックに入れる）
 3. 3タイプそれぞれに「ユーザーの用事がいちばん早く済む形か」の基準を1行ずつ足す
+4. 別リポジトリ（seadice-media など）を読む生成スクリプトは、入力が見えないときは何も書き換えず終わる（空を「削除」と解釈しない）。build_evidence_page.py は対応済み
 
 ### ルールの変更履歴
+- 2026-11-17: 「ルールの次にやること」に4を追加（別リポジトリの入力が見えない環境で生成スクリプトが既存の欄を消した。同じ形の事故を防ぐため）
 
 古い記録は [log/design.md](log/design.md)。
 - 2026-11-05: design/README.md に「文字を減らす」4行、CLAUDE.md の3タイプ節に1行を追加（ユーザー「文字はできる限り減らす、アイコンや図で」。トップで試して良かったため）
@@ -44,7 +46,7 @@ design/README.md・design/*.css
 - 3タイプの形・色・文字の大きさを大きく変えること、ヘッダー・フッターの作り直し
 
 ## 次にやること
-- build_evidence_page.py を単体で走らせると、各アプリページの「関連記事（media）」ブロックが消える（media_section が空を返す条件を調べて直す。今日は git checkout で戻した）
+- build_evidence_page.py の「関連記事（media）」ブロックが消える件は直した（2026-11-17。原因は seadice-media が見えない環境で空を返していたため）。手元で走らせて、差分が出ないことを1回確かめる
 - アプリ一覧（/apps/）の説明50本を「文字を減らす」に合わせて1本ずつ短くする（build_apps_page.py の DESC_OVERRIDE で。文字数で機械的に切ると文の途中で「…」になるのでしない）。次は各メディアのトップ
 1. **EVIDENCE 生成ページの `a.cta`（build_evidence_hub.py 170・287・291・314・340行）を show.css の `.cta`（囲み枠用）から外す**: ボタンのリンクに `.cta` を付けているため、show.css の枠（余白・罫線・中央寄せ）が当たっている可能性がある。ブラウザで1ページ見て、ボタン用のクラス名（`.btn` など）に替えるか確かめる（2026-11-03 点検で発見）。あわせて、運用ルールの確認として p/apps/{eigyobi,rakuraku,companion,kao-type,jinsei-pyramid}/ は noindex の旧ページだが、存在しない /privacy/{同名}/ にリンクしている（リンク切れ5。プライバシーページを作るか、リンクを外す）
 1. **誠実なデザインの点検・続き**（design/README.md の6項目）: 使うページの更新日は済（2026-10-20）。残り: 出典・根拠の欄がない診断6本（renai-type・profile・mbti-lite・hidden-personality・stress-type・bigfive-lite）に「何がわかって何がわからないか」を足す（記事分野と連携。診断の中身は tools.md の根拠ルールに従う）、読ませる/魅せるページの更新日、アプリへの案内が用事の前に出ているページ
@@ -58,6 +60,7 @@ design/README.md・design/*.css
 ## やったこと
 
 古い記録は [log/design.md](log/design.md)。
+- 2026-11-17: 点検: t- クラスなし14（変わらず）、gradient 497・box-shadow系 957・角丸9px以上 650 ページ（上書きで無効の旧CSS）、img の width/height 抜け 0（JS文字列の誤検出1）、sitemap のずれ 0、内部リンク切れ: 公開していない /tools/link-matta/ への3ページ4か所（開発日誌 10-13〜15）を外した。build_evidence_page.py が seadice-media の見えない環境で関連記事欄を消す問題を直し（入力が空なら触らない）、MEDIA_CSS の角丸16px→8pxに削った
 - 2026-11-10: build_evidence_page.py が中身の変わらない再生成で dateModified を動かさないように直した（evidence-series は差分0を確認）。点検: t- クラスなし14（Flutter SPA・トップ・/promise/・旧アプリ。前回15から1減）、img の width/height なし1、sitemap 555件OK、内部リンク切れ2（blog/canvaskit-13-apps-400mb の /apps/toite/ ＝販売停止予定のため記事側で外すか判断、JS文字列1は誤検出）
 - 2026-11-09: 独自クラスの飾りを design で打ち消し（read: ブログの古いテーマのグラデ・ぼかし・蛍光下線・見出しの二重線、show: /tools/・/apps/・/evidence-series/ のナビのぼかし・角丸14〜999px・hover の浮き上がり）。アプリアイコンの角丸は実物の形なので残した。--refresh で945ページ
 - 2026-11-09: 開発日誌を図とアイコン中心の型に（ユーザー「文字を減らして絵やアイコンを増やす」）。design/read.css に部品 .sd-stats（数字タイル）・.sd-bars（分野別の棒）・.sd-ba（前→後の棒）・.sd-icards（アイコンカード）・.sd-next を追加、daily-2026-11-08 を作り替え、型は docs/writing.md「日誌の型」、毎朝の自動作成の指示も更新

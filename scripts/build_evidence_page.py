@@ -18,7 +18,7 @@ from datetime import date
 
 import apply_page_type
 from build_apps_page import P, REGISTRY, page_for
-from evidence import MEDIA_CSS, media_list, media_section
+from evidence import MEDIA_CSS, media_configs, media_list, media_section
 
 OUT = P / "evidence-series" / "index.html"
 URL = "https://seadice.win/evidence-series/"
@@ -44,6 +44,8 @@ def ensure_media_block(href, app_id):
     """「もとになった研究」欄の直後に、関連するメディア記事の欄を入れる（毎回作り直す。メディア側の追加が自動で反映される）"""
     f = P / href.strip("/") / "index.html"
     text = f.read_text(encoding="utf-8")
+    if not media_configs():  # メディア設定（seadice-media）が見えない環境では、既存の欄を消さない
+        return
     blk = media_section(app_id)
     if "<!--media-->" in text:
         new = re.sub(r"<!--media-->.*?<!--/media-->\n?", lambda m: blk + "\n" if blk else "", text, flags=re.S)

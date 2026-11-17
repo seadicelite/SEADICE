@@ -87,7 +87,7 @@ def media_articles(cfg, app):
     return items
 
 
-MEDIA_CSS = (".ev-media{border:1px solid var(--border,#1E2A3A);border-radius:16px;padding:24px 20px;margin:0 0 40px;background:var(--card,#0D0D1A)}"
+MEDIA_CSS = (".ev-media{border:1px solid var(--border,#1E2A3A);border-radius:8px;padding:24px 20px;margin:0 0 40px;background:var(--card,#0D0D1A)}"
              ".ev-media h2{font-size:1.1rem;font-weight:700;color:#fff;margin:0 0 6px}"
              ".ev-media h3{font-size:.95rem;font-weight:700;margin:20px 0 6px}.ev-media h3 a{color:#7dd3fc;padding:4px 0}"
              ".ev-media ul{list-style:none;padding:0;margin:0}.ev-media li{border-top:1px solid var(--border,#1E2A3A);margin:0}"
