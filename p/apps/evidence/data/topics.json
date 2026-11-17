@@ -1,5 +1,192 @@
 [
   {
+    "id": "research-early-morning-waking-aging-why-research-awaken-rate",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Klerman EB, Davis JB, Duffy JF, Dijk DJ, Kronauer RE, \"Older people awaken more frequently but fall back asleep at the same rate as younger people\" (Sleep, 2004)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/27.4.793",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/early-morning-waking-aging-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く疑問",
+        "title": "年をとると眠りが浅くなるのはなぜ？",
+        "body": "年をとると、朝早く目が覚めたり、夜中に何度も起きたりするよね。これって「寝つけない」から？ それとも「眠りが続かない」から？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1日28時間の生活で眠りを記録",
+        "body": "健康な高齢者13人と若い人11人の脳波の記録を分析。1日を28時間にして、体内時計のいろいろな時刻に眠ってもらった実験の記録なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "目覚めやすさは約2.7倍、寝直す速さは同じ",
+        "body": "高齢者が眠りから目覚める割合は若い人の約2.7倍。でも、目覚めた後にまた眠りに戻る割合は同じだった。問題は寝直すことより、眠りを続けることらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだんの寝室でも同じ？",
+        "body": "参加者は合わせて24人と少なく、実験室の特別な条件での記録。ふだんの生活で同じ差がどれくらい出るかは、別に確かめる必要があるよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-deep-sleep-aging-gh",
+        "type": "あわせて読む",
+        "why": "年をとると眠りのどこが変わるか、深い眠りの面から見た研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-early-morning-waking-aging-why-research-awaken-rate"
+  },
+  {
+    "id": "research-tired-evening-procrastination-why-research-daylong-work",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Blain B, Hollard G, Pessiglione M, \"Neural mechanisms underlying the impact of daylong cognitive work on economic decisions\" (PNAS, 2016)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1520527113",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/tired-evening-procrastination-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よくある疑問",
+        "title": "夕方になると「あとでいいや」が増える？",
+        "body": "朝ならできた作業も、夕方には手がつかない。頭が疲れると、選び方そのものが変わるのかを調べた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6時間あまり、頭を使う作業を続けた",
+        "body": "参加者は記憶や切りかえの作業を30分ずつ11回続けた。合間に「今すぐ少しもらう」か「待って多くもらう」かを何度も選んだんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "難しい作業の人だけ「今すぐ」が増えた",
+        "body": "難しい作業をした27人は、時間とともにすぐもらえる方を選ぶ傾向が強まった。簡単な作業や余暇で過ごした25人では強まらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1日だけ、実験室での話",
+        "body": "対象は平均24歳ほどの健康な大人58人（分析は52人）で、フランスの実験室で1日だけ行った実験。差は控えめで、先延ばしそのものを測った研究でもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-ego-depletion",
+        "type": "あわせて読む",
+        "why": "短い作業で意志力が減るという説は、大きな追試で再現されにくかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-tired-evening-procrastination-why-research-daylong-work"
+  },
+  {
+    "id": "research-watched-by-others-focus-social-facilitation-why-research-triplett-replication",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "McHugh C, Griffin SM, Kinsella EL, Quayle M, Strunz B, Muldoon OT, \"A replication of Triplett's 'social facilitation experiment'\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-25608-x",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/watched-by-others-focus-social-facilitation-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人と一緒だと作業が速くなる？",
+        "body": "1898年、子どもは2人で同時にやると作業が速くなった、という実験があった。「心理学で最初の実験」とも呼ばれる話なんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "125年後に445人でやり直した",
+        "body": "7〜13歳の445人が、ハンドルを回して目印を動かす作業を、ひとりで2回、2人で同時に2回やった。練習の効果が混ざらないよう順番もそろえたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2人のときのほうが約3秒速かった",
+        "body": "平均はひとりのとき58.4秒、2人のとき55.0秒。元の実験は40人の結果だけで、まとめ方もあいまいだと指摘されていたけど、結果はちゃんと再現されたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「見られる」効果か「競争」の効果か",
+        "body": "隣の子と同時にやるので、単に人がいる効果なのか、競争の効果なのかは分けられていない。大人や勉強の作業に当てはまるかも別の話だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-watched-by-others-focus-social-facilitation-why-research-triplett-replication"
+  },
+  {
+    "id": "posture-slouched-bodies-look-normal",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Tzschaschel E, Stephen ID, Brooks K, \"Body posture aftereffects—does viewing slouched bodies change people's perception of normal posture?\" (Royal Society Open Science, 2025)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.241677",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "猫背の人を見慣れると、猫背がふつうに見える？",
+        "body": "街ではスマホをのぞく猫背の人をよく見るよね。見慣れると「これがふつう」と感じて、自分の猫背にも気づきにくくなるのでは、という考えを確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "横から見た体の画像で「ふつう」を選ぶ",
+        "body": "オーストラリアの大学生などの111人がオンラインで参加。体の画像の背中の丸まりを調整して「いちばんふつう」の姿勢を選び、とても猫背か背筋の伸びた体を見続けたあと、もう一度選んだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「ふつう」はずれた。ただし向きが同じときだけ",
+        "body": "猫背の体を見続けたあとは、より猫背の姿勢を「ふつう」と選ぶようになった。でも、ずれたのは見た体と選ぶ体が同じ向きのときだけ。研究者は、猫背が増えている理由にはなりにくいと考えているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自分の姿勢まで変わるかは別の話",
+        "body": "画面の画像を見る30分ほどの実験で、使ったのは男性の体の画像だけ。実際に自分の姿勢が丸くなるかは測っていないし、ふだんの生活で何日も見続けた場合もわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-slouched-bodies-look-normal"
+  },
+  {
+    "id": "speech-boring-topic-conversation-enjoyment",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Trinh EN, Thio N, Klein N, \"Conversations about boring topics are more interesting than we think\" (Journal of Personality and Social Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1037/pspi0000521",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "話題がつまらないと、会話も盛り上がらない？",
+        "body": "「面白い話題がない」と、話しかけるのをためらうことってあるよね。つまらない話題の会話がどれくらい楽しいか、人は前もって正しく見積もれているのかを調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9つの実験、合わせて1,800人",
+        "body": "退屈な話題や面白い話題で話す前に「どれくらい楽しそうか」を予想してもらい、実際に話したあとの感想と比べた。オンラインと対面、友だちと初対面のどちらでも確かめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "退屈な話題ほど、思ったより楽しかった",
+        "body": "退屈な話題の会話は、予想より楽しく面白く感じられた。面白い話題では予想とのずれは小さめ。返事をする・聞くといったやりとりが楽しさを生むのに、それは話す前には見積もりにくいらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんな人に、どこまで当てはまる？",
+        "body": "要旨からは参加者の国や年齢はわからず、実験の中で決めた会話での話。いつも退屈な話題ばかりの関係でも同じか、楽しさが仲の深まりにつながるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "relationship-deep-talk-strangers",
+        "type": "あわせて読む",
+        "why": "会話の楽しさや相手の反応を、話す前は低く見積もりがちな点が共通"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-boring-topic-conversation-enjoyment"
+  },
+  {
     "id": "kokoro-ai-assisted-pay-not-earned-why-earnedness",
     "category": "AIとのつきあい方",
     "kind": "素朴な疑問",
@@ -25488,6 +25675,11 @@
         "id": "kokoro-decision-fatigue-real-antibiotics-time-of-day",
         "type": "反対の結果",
         "why": "現場の記録では、診療の後半ほど判断が変わっていた"
+      },
+      {
+        "id": "research-tired-evening-procrastination-why-research-daylong-work",
+        "type": "あわせて読む",
+        "why": "6時間あまり難しい作業を続けると、目先の得を選びやすくなった"
       }
     ]
   },
@@ -33647,6 +33839,11 @@
         "id": "social-liking-gap",
         "type": "あわせて読む",
         "why": "初対面の相手の好意や関心を、人は低く見積もりがち"
+      },
+      {
+        "id": "speech-boring-topic-conversation-enjoyment",
+        "type": "あわせて読む",
+        "why": "退屈な話題の会話も、予想より楽しかった"
       }
     ]
   },
@@ -38504,6 +38701,11 @@
         "id": "oya-sleep-aging-meta",
         "type": "あわせて読む",
         "why": "子どもから102歳まで、65の研究で眠りの変化をまとめたメタ分析"
+      },
+      {
+        "id": "research-early-morning-waking-aging-why-research-awaken-rate",
+        "type": "あわせて読む",
+        "why": "高齢の人は目覚めやすいが、寝直す速さは若い人と同じだった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep/#sleep-deep-sleep-aging-gh"
