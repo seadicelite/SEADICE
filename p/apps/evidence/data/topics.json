@@ -1,5 +1,185 @@
 [
   {
+    "id": "face-selfie-nose-distance",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Ward, Ward, Fried & Paskhover, \"Nasal Distortion in Short-Distance Photographs: The Selfie Effect\" (JAMA Facial Plastic Surgery, 2018)",
+    "sourceUrl": "https://doi.org/10.1001/jamafacial.2018.0009",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自撮りだと鼻が大きく見えるのはなぜ？",
+        "body": "自撮りを見て「わたしの鼻、こんなに大きい？」ってがっかりしたこと、あるよね。実はカメラとの距離のせいかもしれない。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "顔の平均サイズで計算した",
+        "body": "アメリカの研究チームが、男女の顔の平均的な寸法を使って、カメラとの距離で鼻の幅がどう写るかを幾何学の計算で求めたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "30cmだと鼻が約3割大きく写る",
+        "body": "30cmほどの自撮りの距離だと、遠くから撮った場合に比べて鼻の幅が男性で30%、女性で29%大きく写る計算になった。1.5m離すと、ほとんど差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人での検証ではない",
+        "body": "これは平均的な顔の計算で、人に写真を見せて確かめた研究ではないよ。上下や斜めの角度での効果や、自撮りが多い人の満足感への影響は、まだこれからだと著者らは書いている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-selfie-nose-distance"
+  },
+  {
+    "id": "oya-repeat-same-story-destination-memory",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Gopie, Craik & Hasher, \"Destination memory impairment in older people\" (Psychology and Aging, 2010)",
+    "sourceUrl": "https://doi.org/10.1037/a0019703",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "親が同じ話を何度もするのはなぜ？",
+        "body": "「その話、前も聞いたよ」。年をとった親が同じ話をくり返すと、ちょっと心配になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "誰に話したかを覚えているか",
+        "body": "カナダで若者20人（18〜24歳）と高齢者20人（62〜83歳）が、50個の豆知識を有名人の顔写真に1つずつ「話して」、あとで抜き打ちテストを受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "話の中身より「相手」を忘れやすい",
+        "body": "高齢者は豆知識や顔そのものはよく覚えていたのに、どれを誰に話したかの記憶が特に弱かった。話したのに「話していない」と自信をもって答えることも多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さな実験室の話",
+        "body": "各20人と少なく、写真の相手に話す実験室の課題だった。逆に「誰から聞いたか」を覚える実験では年齢の差は消えたよ。ふだんの会話での思い出話に同じことが言えるかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-repeat-same-story-destination-memory"
+  },
+  {
+    "id": "dokugaku-unknown-words-while-reading-english-guess-vs-dictionary",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Alahmadi & Foltz, \"Exploring the effect of lexical inferencing and dictionary consultation on undergraduate EFL students' vocabulary acquisition\" (PLoS ONE, 2020)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0236798",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/unknown-words-while-reading-english/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "英単語は辞書を引かずに推測した方が身につく？",
+        "body": "「辞書に頼らず、前後の文から意味を推測しよう」って、英語の授業で言われたことがある人も多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "推測12語・辞書12語でくらべた",
+        "body": "英語を専攻するサウジアラビアの大学生61人が、24語のうち12語は推測、12語は辞書で調べた。2週間後に覚えているかをテストしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差はほとんどなかった",
+        "body": "練習した単語は、練習しなかった単語よりよく覚えていた。でも推測と辞書のあいだの差はほとんどなかった。もともと知っている単語が多い人ほど多く覚えたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "推測はまちがうこともある",
+        "body": "語彙の量は本人の申告で測っていて、対象もアラビア語を話す大学生だけ。推測をまちがえた回が多い人ほど覚えた量が少なく、まちがった意味を覚えるおそれもあると著者らは書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-unknown-words-while-reading-english-guess-vs-dictionary"
+  },
+  {
+    "id": "dokugaku-vocab-words-never-stick-cue-fading-hard-items",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Vaughn et al., \"Repeated retrieval practice and item difficulty: Does criterion learning eliminate item difficulty effects?\" (Psychonomic Bulletin & Review, 2013)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-013-0434-z",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/vocab-words-never-stick-cue-fading/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "同じ回数思い出せたら、同じだけ残る？",
+        "body": "覚えにくい単語も、覚えやすい単語と同じ回数だけ正しく思い出せたら、同じくらい記憶に残るんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "思い出す回数をそろえてみた",
+        "body": "リトアニア語と英語の単語の組を、覚えにくい組と覚えやすい組に分け、決めた回数（1〜11回）正しく思い出せるまで練習させた実験が2つある。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "それでも覚えにくい単語は忘れやすい",
+        "body": "回数をそろえても、あとのテストでは覚えにくい単語の成績が低かった。差が出たのは「どの単語とどれが組か」の記憶で、答えの単語を見分けるテストではむしろ覚えにくい方がよかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の短い単語リストの話",
+        "body": "リトアニア語と英語の単語の組を、実験の中で短く覚えた結果。長く続く語学の独学で、どのくらい余分に練習すれば差が埋まるかはわかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-flashcards-how-to-use-research-relearn3",
+        "type": "あわせて読む",
+        "why": "何回正解まで練習するかと、覚えにくい単語はそれでも差が残るか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-vocab-words-never-stick-cue-fading-hard-items"
+  },
+  {
+    "id": "kokoro-comparison-low-rank-motivation-drop-retry",
+    "category": "幸福の科学",
+    "kind": "研究紹介",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Meyer T, Zenses AK, Morina N, \"Social comparison threat and coping: affective, cognitive and behavioral outcomes in response to false performance-related feedback\" (BMC Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1186/s40359-026-05536-9",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/comparison-low-rank-motivation-drop/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よくある話",
+        "title": "人より下だとわかると、やる気がしぼむ",
+        "body": "成績や評価で自分が下のほうだと知った瞬間、「もうどうでもいい」って思っちゃうこと、あるよね。そのまま頑張れなくなる気がして不安になる。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ニセの順位を見せる実験",
+        "body": "ドイツの大学の学生など129人が、成績の予測になると言われた集中力の課題に挑戦。実際の成績と関係なく、半分には悪めの順位、半分には良めの順位を見せたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気持ちは沈む、でも挑戦はやめなかった",
+        "body": "悪めの順位を見た組は「次はうまくなりたい」気持ちが7段階で2.27と、良めの組の4.11より低かった。でも1分足らずの課題にもう一度挑んだ人は76%で、良めの組の65%と差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "軽い課題での話",
+        "body": "オンラインの短い課題で、受験や人事評価みたいに重い場面では違うかもしれない。順位がニセだと疑った人も1割いて、数日後に意欲が戻るかも調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-upward-comparison-motivation-backfire-diary",
+        "type": "あわせて読む",
+        "why": "上との比較が気持ちとやる気にどう響くかを、実験と日記の両方から見られる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-comparison-low-rank-motivation-drop-retry"
+  },
+  {
     "id": "happiness-heritability-half-genes",
     "category": "幸福の科学",
     "kind": "よくある説",
@@ -9613,6 +9793,11 @@
         "id": "dokugaku-review-backlog-catch-up-drop-from-testing",
         "type": "あわせて読む",
         "why": "覚えた単語を外していいかと、何回正解まで練習するか"
+      },
+      {
+        "id": "dokugaku-vocab-words-never-stick-cue-fading-hard-items",
+        "type": "あわせて読む",
+        "why": "何回正解まで練習するかと、覚えにくい単語はそれでも差が残るか"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#research-flashcards-how-to-use-research-relearn3"
@@ -12094,7 +12279,14 @@
         "body": "50人と小さな研究で、気分が悪いから上と比べたのか、上と比べたから悪くなったのかはわからない。ここでの「上」には、人だけでなく理想や前の自分も入っているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-upward-comparison-motivation-backfire-diary"
+    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-upward-comparison-motivation-backfire-diary",
+    "links": [
+      {
+        "id": "kokoro-comparison-low-rank-motivation-drop-retry",
+        "type": "あわせて読む",
+        "why": "上との比較が気持ちとやる気にどう響くかを、実験と日記の両方から見られる"
+      }
+    ]
   },
   {
     "id": "kokoro-ai-help-overconfidence-wrong-advice",
