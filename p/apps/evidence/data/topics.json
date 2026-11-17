@@ -1,5 +1,183 @@
 [
   {
+    "id": "research-watched-by-others-focus-social-facilitation-why-research-camera-on",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Santacroce LA, Appiah R, Sullivan MD, Spaniol J, \"Brief social presence improves delayed memory for online lecture content\" (PLOS ONE, 2025)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0318149",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/watched-by-others-focus-social-facilitation-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "オンライン授業、カメラはオンがいい？",
+        "body": "顔を出すのは面倒だけど、ほかの人の顔が見えると覚え方は変わるのかな。大学生で確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "講義の前後だけカメラをオン",
+        "body": "大学生をZoomの教室に分けて、約14分の講義を見てもらった。片方は講義の前後だけカメラをオンにして顔を見せ合い、もう片方はずっとオフ。講義中はどちらもオフだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "翌日のテストで61%対53%",
+        "body": "翌日の抜き打ちテストの正答率は、顔を見せ合った人が61%、ずっとオフの人が53%。授業が楽しかった、仲間の一員だと感じた、という答えも多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い授業や1週間後も同じ？",
+        "body": "カナダの大学生122人の1回の実験で、講義は約14分、テストは1日後だけ。ふつうの長い授業や、もっと後のテストでも同じになるかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "work-camera-fatigue",
+        "type": "あわせて読む",
+        "why": "オンライン授業や会議でカメラをオンにする負担を見た研究"
+      },
+      {
+        "id": "research-watched-by-others-focus-social-facilitation-why-research-triplett-replication",
+        "type": "あわせて読む",
+        "why": "人がいると作業や覚え方が変わるかを確かめた別の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-watched-by-others-focus-social-facilitation-why-research-camera-on"
+  },
+  {
+    "id": "research-sleep-tracker-bad-score-anxiety-recovery-research-sham-feedback",
+    "category": "睡眠",
+    "kind": "研究紹介",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Gavriloff D et al., \"Sham sleep feedback delivered via actigraphy biases daytime symptom reports in people with insomnia: Implications for insomnia disorder and wearable devices\" (Journal of Sleep Research, 2018)",
+    "sourceUrl": "https://doi.org/10.1111/jsr.12726",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/sleep-tracker-bad-score-anxiety-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "点数を見てだるくなる？",
+        "body": "睡眠アプリで低い点数を見た朝って、急に体が重く感じるよね。あれって本当に眠れていないから？それとも数字のせい？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "うその評価を伝えた",
+        "body": "不眠に悩む63人に腕時計型の機器をつけてもらい、翌朝、実際の眠りと関係なく、くじで「よく眠れた」か「眠れなかった」かを伝えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "感じ方だけが悪化",
+        "body": "悪い評価の組は夕方、頭のさえが低く（d=0.79）、眠気やだるさが強かった（d=0.55）。でも注意力のテストの成績には差がなかった（d=0.12）らしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "毎朝見続けたら？",
+        "body": "対象は不眠に悩む63人で、うその評価を見せたのは1日だけ。健康な人や、毎朝スコアを見続ける場合に同じことが起きるかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-sleep-tracker-bad-score-anxiety-recovery-research-sham-feedback"
+  },
+  {
+    "id": "research-photo-taking-forget-memory-why-research-five-photos",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Soares JS, Storm BC, \"Does taking multiple photos lead to a photo-taking-impairment effect?\" (Psychonomic Bulletin & Review, 2022)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-022-02149-2",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/photo-taking-forget-memory-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "たくさん撮れば思い出も残る？",
+        "body": "大事な場面は何枚も撮っておけば安心、って思うよね。でも写真を撮ると、撮ったものを覚えにくくなる「撮ると忘れる」効果が知られているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "撮らない・1回・5回を比べた",
+        "body": "アメリカの大学生が、絵の画像を見て「撮らない」「1回撮る」「5回撮る」のどれかをして、あとで絵の細かいところを答えた。実験は3つで、60人・96人・243人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5回撮ると一番忘れた",
+        "body": "3つの実験すべてで、5回撮った絵はただ見た絵より覚えていなかった。まとめると効果の大きさは5回でd = 0.62、1回でd = 0.35。違う写真を5枚撮ってと言われても同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本物の旅行でも同じ？",
+        "body": "画面に映した絵を、言われたとおりに撮る実験室の話。自分で選んで撮るとよく覚えていた研究や、ズームして撮ると細部を覚えていた研究もあって、ふだんの撮り方でどうなるかはまだはっきりしないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-photo-taking-forget-memory-why-research-five-photos"
+  },
+  {
+    "id": "replication-loneliness-warm-bath",
+    "category": "心理学の再現性",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Donnellan MB, Lucas RE, Cesario J, \"On the association between loneliness and bathing habits: nine replications of Bargh and Shalev (2012) Study 1\" (Emotion, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/a0036079",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寂しいと、熱いお風呂が恋しくなる？",
+        "body": "寒い季節は人肌が恋しい、なんて言うよね。2012年には「寂しい人ほど温かいお風呂やシャワーで心の温かさを補っている」という研究が出て、話題になったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9つの調査でやり直した",
+        "body": "別の研究チームが、同じ問いを9つの調査で確かめ直した。寂しさを決まった質問票で測って、ふだんのシャワーやお風呂の入り方との関係を見たよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "はっきりした関係は見つからなかった",
+        "body": "自分たちの質問で調べた4つの調査（合わせて1153人）でも、元の研究と同じ質問の5つの調査（1920人）でも、目立った関係はなかった。元の研究も入れてまとめても、ゼロと区別できなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寂しい日だけなら？",
+        "body": "調べたのは、ふだんの寂しさとふだんの入浴習慣の関係だけ。寂しい日にお風呂が恋しくなるか、温まると寂しさが和らぐかは別の問い。元の研究者は反論を出していて、国や文化による違いもこれからだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#replication-loneliness-warm-bath"
+  },
+  {
+    "id": "face-beard-rarity-attractiveness",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Janif ZJ, Brooks RC, Dixson BJ, \"Negative frequency-dependent preferences and variation in male facial hair\" (Biology Letters, 2014)",
+    "sourceUrl": "https://doi.org/10.1098/rsbl.2013.0958",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ひげって、モテるの？",
+        "body": "ひげを伸ばすとかっこよく見える？ それとも剃ったほうが好かれる？ 実は「まわりにひげの人がどれだけいるか」で答えが変わるかも、という実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ひげの人の割合を変えて見せた",
+        "body": "男性の顔写真をたくさん見せるとき、ひげの人が多い組と少ない組をつくった。そのあと、ひげなしからフルのひげまで4段階の顔の魅力を答えてもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少ないほうが魅力的に見えた",
+        "body": "濃い無精ひげやフルのひげは、ひげの人が少ない中で見たほうが魅力的とされた。ひげなしの顔も、ひげなしだらけの中では一番低め。女性も男性も同じ傾向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際の出会いでも同じ？",
+        "body": "写真を見て点をつけた実験の話で、実際に好かれるかや、世の中の流行の移り変わりまで確かめたわけじゃない。ほかの国や年代で同じになるかも、この1つの研究からはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-beard-rarity-attractiveness"
+  },
+  {
     "id": "research-early-morning-waking-aging-why-research-awaken-rate",
     "category": "睡眠",
     "kind": "素朴な疑問",
@@ -113,7 +291,14 @@
         "body": "隣の子と同時にやるので、単に人がいる効果なのか、競争の効果なのかは分けられていない。大人や勉強の作業に当てはまるかも別の話だよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/focus/#research-watched-by-others-focus-social-facilitation-why-research-triplett-replication"
+    "webUrl": "https://seadice.win/evidence/focus/#research-watched-by-others-focus-social-facilitation-why-research-triplett-replication",
+    "links": [
+      {
+        "id": "research-watched-by-others-focus-social-facilitation-why-research-camera-on",
+        "type": "あわせて読む",
+        "why": "人がいると作業や覚え方が変わるかを確かめた別の研究"
+      }
+    ]
   },
   {
     "id": "posture-slouched-bodies-look-normal",
@@ -41177,6 +41362,11 @@
         "id": "research-online-meeting-fatigue-why-research-self-view",
         "type": "あわせて読む",
         "why": "カメラそのものをオフにした職場の研究と、自分の顔の表示だけを消したゼミの実験"
+      },
+      {
+        "id": "research-watched-by-others-focus-social-facilitation-why-research-camera-on",
+        "type": "あわせて読む",
+        "why": "オンライン授業や会議でカメラをオンにする負担を見た研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/work/work-camera-fatigue/"
