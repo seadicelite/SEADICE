@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-email-chat-batching-focus-how-research-notifications-off-one-day",
+    "category": "集中力",
+    "kind": "研究紹介",
+    "themeColor": "#34D399",
+    "sourceLabel": "Ohly & Bastin, \"Effects of task interruptions caused by notifications from communication applications on strain and performance\" (Journal of Occupational Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1002/1348-9585.12408",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/email-chat-batching-focus-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "通知を1日切ったらどうなる？",
+        "body": "メールやチャットの通知って、作業中にけっこう割り込んでくるよね。じゃあ1日だけ全部切ってみたら、仕事ははかどるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "247人を2つに分けた",
+        "body": "ドイツの会社員と学生247人をくじで2つに分けて、片方だけ1日、パソコンやスマホのメール・チャット・SNSの通知をできるだけ切ってもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "割り込みが減った分、はかどった",
+        "body": "通知を切ったグループは割り込みが減り、その分だけ、その日の目標に対する達成度が少し高く、イライラも少なかったらしい。自分からメールなどを確かめに行く回数は増えたけど、それは成果やイライラとは関係しなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1日だけ・自己評価の話",
+        "body": "実験は1日だけで、成果もイライラも本人の自己評価。大事な通知は残してよいことになっていた。通知オフが直接効いたのではなく、割り込みが減ったことを通じた小さな効果で、長く続けたときはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-notification-interruption",
+        "type": "あわせて読む",
+        "why": "通知を切る実験。こちらは仕事の出来とイライラ、あちらは注意散漫の自覚を見た"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-email-chat-batching-focus-how-research-notifications-off-one-day"
+  },
+  {
+    "id": "research-winter-low-mood-seasonal-why-research-serotonin-sunlight",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Lambert, Reid, Kaye, Jennings & Esler, \"Effect of sunlight and season on serotonin turnover in the brain\" (The Lancet, 2002)",
+    "sourceUrl": "https://doi.org/10.1016/S0140-6736(02)11737-5",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/winter-low-mood-seasonal-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "冬に気分が重いのは日の短さのせい？",
+        "body": "日が短くなると、なんとなく気分が重い。それって本当に日の光と関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "脳から出る血を調べた",
+        "body": "健康な男性101人の、脳から出てくる血液を調べて、気分に関わるセロトニンが脳でどれだけ使われているかを、季節や天気と比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "冬に一番低かった",
+        "body": "脳のセロトニンの入れ替わりは冬に一番低かった。脳がセロトニンを作る量は、その日の明るい日差しの時間が長いほど多かったらしい（r = 0.294）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "気分は測っていない",
+        "body": "調べたのは男性だけで、気分そのものは測っていない。セロトニンの変化が冬の落ち込みの原因かどうかは、この研究だけではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-seasonal-depression-population",
+        "type": "あわせて読む",
+        "why": "冬に気分の落ち込みが増えるのかを、大きな調査で確かめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#research-winter-low-mood-seasonal-why-research-serotonin-sunlight"
+  },
+  {
+    "id": "research-hunger-cant-focus-why-research-food-cue-replication",
+    "category": "集中力",
+    "kind": "研究紹介",
+    "themeColor": "#34D399",
+    "sourceLabel": "Neal, Pepper, Allen & Nettle, \"No effect of hunger on attentional capture by food cues: Two replication studies\" (Appetite, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2023.107065",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/hunger-cant-focus-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "空腹だと食べ物に目を奪われる？",
+        "body": "お腹がすいていると、ケーキの写真につい目が行く気がするよね。実際、空腹だと食べ物の写真に注意を奪われるという2010年の実験もあるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ実験をやり直してみた",
+        "body": "イギリスの研究チームが、その実験をオンライン（29人）と対面（28人）でやり直した。同じ人が、前の晩から食べずにすごした空腹の日と、昼食を食べた直後の日の2回、テストを受けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "空腹でも差は出なかった",
+        "body": "どちらの追試でも、空腹で食べ物の写真に注意を奪われやすくなる証拠は見つからなかった。著者らは、元の結果は一般化できないかもしれないとしているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ結果が違ったのかは不明",
+        "body": "参加者や写真が元の実験と少しずつ違っていて、どの違いが結果を分けたのかはわかっていない。人数も各30人弱と少なめなんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-hunger-cant-focus-why-research-food-cue-replication"
+  },
+  {
+    "id": "caffeine-coffee-nap-before-short-nap",
+    "category": "カフェイン",
+    "kind": "よくある説",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Hayashi, Masuda & Hori, \"The alerting effects of caffeine, bright light and face washing after a short daytime nap\" (Clinical Neurophysiology, 2003)",
+    "sourceUrl": "https://doi.org/10.1016/s1388-2457(03)00255-4",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "昼寝の前にコーヒーを飲むといい？",
+        "body": "「コーヒーを飲んでから昼寝すると、すっきり起きられる」。コーヒーナップとして、よく紹介される方法だよね。本当に効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10人で5つのやり方を比べた",
+        "body": "若い健康な大人10人が、20分の昼寝だけ、カフェイン200mgを飲んでから昼寝、昼寝のあとに明るい光、昼寝のあとに洗顔、昼寝なしの休憩の5通りを試して、昼過ぎの眠気と作業の出来を比べたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "カフェイン＋昼寝がいちばん効いた",
+        "body": "眠気の感じ方も作業の出来も、カフェインを飲んでから昼寝したときがいちばん良く、起きてから1時間ずっと続いた。明るい光も眠気には同じくらい効いたけど、作業の出来では及ばなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "10人だけの実験",
+        "body": "参加したのは若い健康な人10人だけで、実験室で昼の12時40分から20分眠った条件の話。年配の人や、ふだんの飲み方がちがう人でも同じになるかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-nap-before-short-nap"
+  },
+  {
+    "id": "brain-myth-time-speeds-up-with-age",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Friedman & Janssen, \"Aging and the speed of time\" (Acta Psychologica, 2010)",
+    "sourceUrl": "https://doi.org/10.1016/j.actpsy.2010.01.004",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "年をとると1年が早く感じる？",
+        "body": "「子どものころの1年は長かったのに、大人になるとあっという間」。ジャネーの法則として、よく聞く話だよね。本当に年齢で変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "16〜80歳の1865人に聞いた",
+        "body": "2つの国の大人1865人に、いろいろな長さの期間がどれくらい速く過ぎた気がするかを答えてもらった調査だよ。暮らしの変化や、時間に追われる感じも一緒に聞いたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "年齢の差はとても小さかった",
+        "body": "どの年代の人も「時間は速く過ぎる」と答えた。広く信じられているのとちがって年齢による差はとても小さく、目立ったのは「この10年がどれくらい速かったか」だけ。速さの感じ方は、時間に追われる感じと関係していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追ってはいない",
+        "body": "年代のちがう人どうしを比べた研究で、同じ人が年をとるにつれて感じ方が変わるかを追ったわけではない。答えは本人の感覚で、なぜ「10年」だけ差が出たのかも、まだはっきりしないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-myth-time-speeds-up-with-age"
+  },
+  {
     "id": "research-cramming-forget-fast-why-research-massed-decay",
     "category": "記憶のしくみ",
     "kind": "研究紹介",
@@ -29543,6 +29723,11 @@
         "id": "dokugaku-why-urge-to-check-phone-while-studying-notification-cost",
         "type": "あわせて読む",
         "why": "通知を切って1週間過ごした実験と、通知が鳴るだけの短い実験"
+      },
+      {
+        "id": "research-email-chat-batching-focus-how-research-notifications-off-one-day",
+        "type": "あわせて読む",
+        "why": "1日通知を切った職場の実験。仕事の出来とイライラを見た"
       }
     ]
   },
@@ -46770,6 +46955,11 @@
         "id": "weather-winter-sleep-longer-clinic",
         "type": "あわせて読む",
         "why": "冬は眠り方も変わるのかを、睡眠検査のデータで見た研究"
+      },
+      {
+        "id": "research-winter-low-mood-seasonal-why-research-serotonin-sunlight",
+        "type": "あわせて読む",
+        "why": "脳のセロトニンが冬に低く、日差しと関係していた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/#weather-seasonal-depression-population"
