@@ -1,5 +1,206 @@
 [
   {
+    "themeColor": "#C084FC",
+    "articleSite": "独学の科学",
+    "id": "dokugaku-mozart-effect-before-exam-arousal-mood",
+    "category": "音楽と集中力",
+    "kind": "よくある説",
+    "sourceLabel": "Thompson, Schellenberg & Husain, \"Arousal, mood, and the Mozart effect\" (Psychological Science, 2001)",
+    "sourceUrl": "https://doi.org/10.1111/1467-9280.00345",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/mozart-effect-before-exam/",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "モーツァルトで頭が冴える？",
+        "body": "試験の前にモーツァルトを聴くと、頭が良くなるって話、聞いたことあるよね。本当にモーツァルトの力なんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "明るい曲と悲しい曲で比べた",
+        "body": "Thompsonらは、明るく元気なモーツァルトか、ゆっくりした悲しい曲を聴いた人と、無音で座っていた人で、空間の課題の成績を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差は「気分」で消えた",
+        "body": "成績が上がったのはモーツァルトを聴いた人だけ。でも楽しさ・覚醒・気分の差を統計でそろえると、その差は消えた。曲で気分が上がったことが効いていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験の点とは別の話",
+        "body": "調べたのは実験室の空間の課題で、勉強した知識を本番で思い出せるかは測っていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-mozart-effect-metaanalysis",
+        "type": "あわせて読む",
+        "why": "39件の研究のまとめでは効果は小さく、ほかの曲でもほぼ同じだった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#dokugaku-mozart-effect-before-exam-arousal-mood"
+  },
+  {
+    "id": "dokugaku-slide-photos-instead-of-notes-reset-doodling",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Spencer-Mueller & Fenske, \"Note-taking for the win: Doodling does not reduce boredom or mind-wandering, nor enhance attention or retention of lecture material\" (Quarterly Journal of Experimental Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.1177/17470218231222402",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/slide-photos-instead-of-notes-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "落書きしながら聞くと、集中できる？",
+        "body": "退屈な話を聞くとき、手を動かして落書きすると眠くならず、内容も頭に入りやすいって聞いたことあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "45分の講義を4通りで聞いてもらった",
+        "body": "カナダの大学生172人を「聞くだけ」「図形を塗る落書き」「自由な落書き」「メモを取る」の4グループに分けて、退屈になりやすい45分の講義を聞いてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばん覚えていたのはメモの人",
+        "body": "28問のテストの平均は、メモが19.09問、聞くだけが16.63問。落書きの2グループは15.69〜15.95問で、聞くだけよりよくならなかった。メモの人は、心がそれるのも少なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "講義1本、大学生だけの結果",
+        "body": "落書きが記憶を助けたという以前の実験とは条件が違う。講義は1本だけで、大人の学び直しや別の分野でも同じかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-drawing-effect-memory-how-research-doodling",
+        "type": "あわせて読む",
+        "why": "関係のない落書きをしながら覚えると、思い出しにくくなった別の実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-slide-photos-instead-of-notes-reset-doodling"
+  },
+  {
+    "id": "kokoro-ai-work-use-resilience-meaning",
+    "category": "AIとのつきあい方",
+    "kind": "よくある説",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Ji Y, Wu H, \"From threat to strength: how AI usage is paradoxically associated with resilience among accounting and finance employees\" (Frontiers in Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2026.1820550",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-work-use-resilience/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "AIに任せると打たれ弱くなる？",
+        "body": "仕事をAIに任せるほど、困ったときに踏ん張る力がなくなりそう。そんな心配、よく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "経理・財務の332人を3回調査",
+        "body": "中国で経理や財務の仕事をする332人に、2週間おきに3回、仕事用のAIの使い方、仕事に意味を感じるか、仕事で立ち直る力を聞いたんだ（2025年10〜12月）。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "よく使う人ほど立ち直る力が高かった",
+        "body": "AIをよく使う人ほど、仕事に意味を感じていて、立ち直る力も高い傾向があった。その結びつきの約半分（50.3%）は、仕事の意味を感じる度合いで説明されていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIのおかげかは不明",
+        "body": "本人の回答だけの調査なので、AIを使うと立ち直る力が上がるのかはわからない。もともと前向きな人がAIもよく使っている可能性もあるし、対象は中国の1つの職種だけだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-ai-reliance-resilience-support-social-support",
+        "type": "反対の結果",
+        "why": "AIに頼る人ほど立ち直る力が低めだった、中国の大人395人の調査"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-work-use-resilience-meaning"
+  },
+  {
+    "id": "laughter-comedy-video-focus-middle-aged",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Yamakoshi et al., \"Effects of laughter on focus and stress in middle-aged adults: a single-blind, randomized controlled trial\" (BMC Complementary Medicine and Therapies, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s12906-025-04863-5",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お笑いを見ると、頭がすっきりする？",
+        "body": "仕事の合間にお笑いの動画を見ると、気分が切りかわる気がするよね。集中する力にも関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "漫才を約4分見てから課題",
+        "body": "日本の40〜65歳の25人が、とても面白い漫才と、あまり面白くない漫才を別の日に約4分ずつ見て、そのあとに注意や計算の課題をしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "注意の課題の1つだけ点が上がった",
+        "body": "面白い漫才のあとは、数字を見張り続ける注意の課題の点が上がり、課題中の脳の前のほうの血流も多かった。ほかの課題でははっきりした差は出なかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "25人、見た直後だけの話",
+        "body": "人数は25人で、見る順番は申し込み順に交互に決めていた。見た直後の課題だけで、毎日見ると集中力が上がるかはわからない。研究費は飲料会社のキリンホールディングスが出しているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-funny-video-before-study",
+        "type": "あわせて読む",
+        "why": "面白い動画のあとに学ぶと、小学生では考える問題の点だけ上がった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-comedy-video-focus-middle-aged"
+  },
+  {
+    "id": "circadian-daylight-saving-england-health-records",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "de Lange et al., \"Acute effects of daylight saving time clock changes on mental and physical health in England: population based retrospective cohort study\" (BMJ, 2025)",
+    "sourceUrl": "https://doi.org/10.1136/bmj-2025-085962",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "サマータイムの切りかえで、心も体も調子をくずす？",
+        "body": "欧米では春と秋に時計を1時間ずらすよね。眠りがずれて、不安や落ち込み、けがが増えるという話もある。本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イングランドの68万人の記録",
+        "body": "2008〜2019年のイングランドの診療所と病院の記録から、切りかえ前後の8週間に不安・うつ・心臓や血管の急な病気・交通事故のけがなどの記録がある68万3809人を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "春は変わらず、秋はむしろ少なめ",
+        "body": "春の切りかえの後の1週間は、はっきりした変化はなかった。秋の後の1週間は、不安・うつ・睡眠の病気・心臓や血管の病気などの記録が、ほかの週より2〜8%ほど少なかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "記録の日は、始まった日とは限らない",
+        "body": "記録に残るのは医師が書いた日で、症状が出た日とは限らない。後から記録を調べた観察研究なので、時計の切りかえが原因かは決められないし、イングランド1か国の話だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-daylight-saving-heart-attack-meta",
+        "type": "反対の結果",
+        "why": "7つの研究のまとめでは、春の切りかえ後に心筋梗塞が約5%多かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-daylight-saving-england-health-records"
+  },
+  {
     "id": "research-relaxation-meditation-anxiety-backfire-research-meditation-anxiety",
     "category": "マインドフルネス",
     "kind": "よくある説",
@@ -8189,6 +8390,11 @@
         "id": "memory-drawing-effect",
         "type": "あわせて読む",
         "why": "同じ研究チームが、覚えたい言葉そのものを描くと残りやすいことを確かめた"
+      },
+      {
+        "id": "dokugaku-slide-photos-instead-of-notes-reset-doodling",
+        "type": "あわせて読む",
+        "why": "45分の講義でも、落書きは役立たず、メモを取る人がいちばん覚えていた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/memory/#research-drawing-effect-memory-how-research-doodling"
@@ -11709,6 +11915,11 @@
         "id": "circadian-social-jetlag-obesity",
         "type": "あわせて読む",
         "why": "時計の1回の切りかえと、毎週の平日と休日のずれ。体内時計のずれの2つの形"
+      },
+      {
+        "id": "circadian-daylight-saving-england-health-records",
+        "type": "反対の結果",
+        "why": "イングランドの68万人の記録では、春の切りかえ後に増えは見られなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-daylight-saving-heart-attack-meta"
@@ -12391,6 +12602,11 @@
         "id": "kokoro-ai-dependency-impulsivity-prevent-drivers",
         "type": "あわせて読む",
         "why": "AIに頼りすぎる理由を調べた、別の国内調査"
+      },
+      {
+        "id": "kokoro-ai-work-use-resilience-meaning",
+        "type": "反対の結果",
+        "why": "仕事でAIをよく使う経理・財務の人ほど、立ち直る力が高かった調査"
       }
     ],
     "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-reliance-resilience-support-social-support"
@@ -16241,7 +16457,14 @@
         "body": "1つの学校の81人で、短い授業1回の話。気分は自己申告だけで測っていた。ほかの年齢や教科、長い勉強でも同じかは、論文もまだわからないとしているんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/laughter/#laughter-funny-video-before-study"
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-funny-video-before-study",
+    "links": [
+      {
+        "id": "laughter-comedy-video-focus-middle-aged",
+        "type": "あわせて読む",
+        "why": "40〜65歳の大人では、漫才のあとに注意の課題の点が上がった"
+      }
+    ]
   },
   {
     "id": "research-work-better-under-pressure-procrastination-research-health-cohort",
@@ -34330,6 +34553,11 @@
         "id": "music-binaural-beats-brainwave",
         "type": "あわせて読む",
         "why": "「聴くだけで頭が変わる」という別の説を確かめた分析"
+      },
+      {
+        "id": "dokugaku-mozart-effect-before-exam-arousal-mood",
+        "type": "あわせて読む",
+        "why": "効果が出たのは曲で気分や覚醒が上がったせい、と示した実験"
       }
     ]
   },
