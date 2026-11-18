@@ -1,5 +1,133 @@
 [
   {
+    "id": "research-relaxation-meditation-anxiety-backfire-research-meditation-anxiety",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Goldberg et al., \"Prevalence of meditation-related adverse effects in a population-based sample in the United States\" (Psychotherapy Research, 2022)",
+    "sourceUrl": "https://doi.org/10.1080/10503307.2021.1933646",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "瞑想すれば、誰でも落ち着く？",
+        "body": "瞑想はストレスに効く、ってよく聞くよね。でも、やってみたらかえって胸がざわざわした、という人も実は少なくないらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "瞑想経験者434人に聞いた",
+        "body": "アメリカで、瞑想をしたことがある434人に、瞑想に関連した好ましくない体験があったかを細かく尋ねた調査があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "約4人に1人が不安を経験",
+        "body": "50.0%が何らかの好ましくない体験を報告し、いちばん多いのは不安で27.0%。生活に支障が出たのは10.6%、1か月以上続いたのは1.2%。それでも88.7%は「やってよかった」と答えているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "瞑想のせいかは決められない",
+        "body": "1回のアンケートで過去をふり返ってもらったので、瞑想が原因かどうかはわからない。回答者はアメリカの平均より学歴や収入が高めで、白人が多かったという偏りもあるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#research-relaxation-meditation-anxiety-backfire-research-meditation-anxiety"
+  },
+  {
+    "id": "foodmyth-organic-crops-nutrition-meta",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Barański et al., \"Higher antioxidant and lower cadmium concentrations and lower incidence of pesticide residues in organically grown crops: a systematic literature review and meta-analyses\" (British Journal of Nutrition, 2014)",
+    "sourceUrl": "https://doi.org/10.1017/S0007114514001366",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "オーガニック野菜は栄養が多い？",
+        "body": "有機栽培の野菜は高いけど、そのぶん栄養も多い、ってよく聞くよね。研究者の間でも意見が割れてきたテーマなんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "343本の論文をまとめた",
+        "body": "2014年のメタ分析が、有機栽培と普通の栽培の作物の成分を比べた343本の論文をまとめたよ。それより前の2つのレビューは「差はない」と結論していたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "抗酸化物質は多め、農薬の残りは少なめ",
+        "body": "有機の作物は、ポリフェノールなどの抗酸化物質が平均で多く、種類によって約2〜7割高かった。農薬が残っている割合は普通の作物のほうが4倍高く、カドミウムも多めだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "体にいいかは別の話",
+        "body": "調べたのは作物の成分で、食べた人が健康になるかは測っていない。前のレビューとは結論が分かれていて、論文によって作物や地域もばらばら。差が暮らしの中でどれだけ効くかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#foodmyth-organic-crops-nutrition-meta"
+  },
+  {
+    "id": "body-ab-exercise-belly-fat-rct",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Vispute, Smith, LeCheminant & Hurley, \"The effect of abdominal exercise on abdominal fat\" (Journal of Strength and Conditioning Research, 2011)",
+    "sourceUrl": "https://doi.org/10.1519/JSC.0b013e3181fb4a46",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "腹筋をすれば、お腹の脂肪が落ちる？",
+        "body": "お腹まわりが気になったら、まず腹筋。鍛えたところの脂肪が燃える「部分やせ」って、よく聞く話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "24人をくじで2組に分けた",
+        "body": "アメリカで、運動習慣のない18〜40歳の24人を、腹筋運動をする組としない組にくじで分けた。7種類の腹筋運動を10回×2セット、週5日、6週間続けて、食事の量は変えないでもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "お腹の脂肪は減らなかった",
+        "body": "体重、体脂肪率、お腹の脂肪、ウエスト、お腹の皮下脂肪の厚さは、どれも運動しない組と差がなかった。一方で、腹筋が続けられる回数は運動した組で伸びていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "小さく短い実験",
+        "body": "24人・6週間だけの実験なので、もっと長く続けたらどうなるかはわからない。食事を減らしたり全身の運動を組み合わせたりした場合も、この研究では調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#body-ab-exercise-belly-fat-rct"
+  },
+  {
+    "id": "alcohol-caffeine-mixing-intoxication-meta",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Benson, Verster, Alford & Scholey, \"Effects of mixing alcohol with caffeinated beverages on subjective intoxication: a systematic review and meta-analysis\" (Neuroscience and Biobehavioral Reviews, 2014)",
+    "sourceUrl": "https://doi.org/10.1016/j.neubiorev.2014.07.008",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーを飲めば酔いがさめる？",
+        "body": "飲んだあとにコーヒーで酔いざまし、ってよく聞くよね。エナジードリンクで割ると「酔いを感じにくくなる」という心配もあるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "お酒とカフェインの実験をまとめた",
+        "body": "お酒だけのときと、カフェイン入りのお酒やエナジードリンク割りのときで、本人がどれだけ酔ったと感じるかを測った16本の論文を集め、9本を数字でまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "酔った感じは変わらなかった",
+        "body": "カフェインの量が多い研究でも少ない研究でも、酔ったと感じる度合いに差はなかった。カフェインで「酔いがさめた」と感じるわけでも、酔いを隠すわけでもなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "体の中の酔いは別の話",
+        "body": "調べたのは本人の感じ方だけで、アルコールが早く抜けるか、運転や判断がしっかりするかは、このまとめでは見ていない。実験室で決まった量を飲んだ研究で、9本と数も多くないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-caffeine-mixing-intoxication-meta"
+  },
+  {
     "id": "research-left-out-ignored-ostracism-recovery-research-attribution",
     "category": "孤独とつながり",
     "kind": "素朴な疑問",
