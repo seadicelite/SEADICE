@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-blurred-boundaries-insomnia-recover-online-training",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Brückner H et al., \"Effectiveness of an online recovery training for employees exposed to blurred boundaries between work and non-work: Bayesian analysis of a randomised controlled trial\" (BMJ Mental Health, 2024)",
+    "sourceUrl": "https://doi.org/10.1136/bmjment-2024-301016",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/blurred-boundaries-insomnia-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く悩み",
+        "title": "仕事が夜まで追いかけてくる",
+        "body": "スマホでいつでも仕事の連絡が見られると、寝る前まで頭が仕事モードのまま。眠れない日が続く人も多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ドイツの働く人128人で実験",
+        "body": "仕事と私生活の境目があいまいで、不眠がある働く人128人を2組に分けた実験があるよ。片方は、仕事から心を離す工夫と眠りの習慣を学ぶ6回のオンライン講座を受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不眠の点数がほぼ半分に",
+        "body": "8週間後、講座を受けた組の不眠の点数（0〜28点）は平均18.5から9.5に。待っていた組は18.2から15.6だった。職場の環境はほとんど変わらなかったのに、だって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの工夫が効いた？",
+        "body": "比べた相手は「待っていた組」で、眠りの練習と心を離す練習のどちらが効いたかは分けられていない。6か月後は44%が回答していないし、改善後も平均では軽い症状が残っていたらしい。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-blurred-boundaries-insomnia-recover-online-training"
+  },
+  {
+    "id": "kokoro-career-network-comparison-goals-lower",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Vogt M et al., \"Revising Career Goals on LinkedIn: The Role of Career-Related Social Comparison and Goal Discrepancy\" (Behavioral Sciences, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/bs16081271",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/career-network-comparison-goals/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人の経歴を見ると目標を下げたくなる？",
+        "body": "仕事用のSNSで同年代のすごい経歴を見ると、「自分の目標、高すぎたかも」って思うことあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "LinkedInを使う188人に聞いた",
+        "body": "仕事用のSNS「LinkedIn」を使う188人に、使い方、キャリアを人と比べる頻度、目標との差の感じ方、目標を見直す気持ちをアンケートでたずねた研究だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "比べる→差を感じる→下げる",
+        "body": "よく使う人ほど比べやすく、比べる人ほど目標との差を感じ、差を感じる人ほど目標を見直す気持ちが強かったらしい。目標を下げる気持ちはこの流れで説明できたけど、上げる気持ちは説明できなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "SNSのせいとは言えない",
+        "body": "答えをいっせいに集めて関係を見た研究で、迷っている人ほどSNSをよく見るだけかもしれない。188人と少なめで、ほかのSNSや国でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-career-network-comparison-goals-lower"
+  },
+  {
+    "id": "kokoro-comparison-motivation-up-down-why-winning-effort",
+    "category": "幸福の科学",
+    "kind": "よくある説",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Dong J, Rong Y, Ma S, Xu Y, Wei P, \"The neurocomputational mechanisms underlying the impact of social comparison on effort investment\" (Communications Biology, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s42003-026-10229-5",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/comparison-motivation-up-down-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人に勝つと気がゆるむ？",
+        "body": "ライバルに勝ったら安心して手を抜いちゃう、負けたほうが燃える。そんなふうに言われることってあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "勝ち負けを知らせて作業してもらった",
+        "body": "中国の研究で、平均22歳ごろの32人が集中のいる作業をくり返し、そのたびに相手より良かったか悪かったかを知らされたんだ。ときどき次に勝てそうかも0〜100で答えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "勝ったあとは「できそう」が上がった",
+        "body": "勝ったと知らされたあとの勝てそう度は平均64.41、負けたあとは57.76。次の回の作業量も、勝ったあとのほうがほんの少し多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日々の暮らしでは逆の報告も",
+        "body": "勝ち負けの多くは前もって決めた順番で、短い作業の実験。日々の記録の研究では、上の人と比べたあとのほうが「伸びたい」気持ちが強いという報告もあって、結果は分かれているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-comparison-low-rank-motivation-drop-retry",
+        "type": "あわせて読む",
+        "why": "人と比べて勝った・負けたと知った後のやる気を、別の実験で見られる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-comparison-motivation-up-down-why-winning-effort"
+  },
+  {
+    "id": "sleepenv-light-tv-on-weight-gain",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Park YM, White AJ, Jackson CL, Weinberg CR, Sandler DP, \"Association of Exposure to Artificial Light at Night While Sleeping With Risk of Obesity in Women\" (JAMA Internal Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1001/jamainternmed.2019.0571",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "電気やテレビをつけたまま寝ると太る？",
+        "body": "テレビをつけっぱなしで寝落ちしたり、明かりをつけたまま寝たり。そんな夜の光が体重と関係あるのか、気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの女性4万人あまりを追った",
+        "body": "35〜74歳の女性43,722人に、寝るときの明かり（なし・小さな常夜灯・部屋の外の明かり・部屋の電気かテレビ）を聞いて、平均5.7年後の体重の変化と比べた調査だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "部屋の電気やテレビだと、太った人が多め",
+        "body": "真っ暗で寝る人に比べ、部屋の電気かテレビをつけて寝る人は、5kg以上増えた人が約1.17倍、新しく肥満になった人が約1.33倍。睡眠や食事、運動を考えに入れても似た結果だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "光のせいとまでは言えない",
+        "body": "明かりは最初に1回聞いただけで、あとの体重は本人の申告。光が原因か、ほかの暮らしの違いかは分けきれない。対象はアメリカの中高年の女性だけで、男性や若い人のことはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleepenv-light-tv-on-weight-gain"
+  },
+  {
+    "id": "aging-stair-climbing-heart-mortality",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Paddock S, Veerni R, Bhalraam U, Meng J, Dawson-Plincke E, Tsampasian V, Vassiliou V, \"Evaluating the Impact of Stair Climbing on Cardiovascular Risk Reduction: A Systematic Review and Meta-analysis\" (American Journal of Cardiovascular Drugs, 2026)",
+    "sourceUrl": "https://doi.org/10.1007/s40256-026-00811-x",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "階段を使う人は長生き？",
+        "body": "エレベーターより階段、ってよく言われるよね。ふだんの階段の上り下りくらいで、本当に違いはあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9本の研究、48万人分をまとめた",
+        "body": "階段を上ることと、心臓や血管の病気の関係を調べた研究9本（合わせて480,479人）を集めて、数字をまとめた分析だよ。2025年4月までに出た研究が対象。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "心臓の病気で亡くなるリスクが低め",
+        "body": "5本の研究（455,619人）をまとめると、階段を上る人は、心臓や血管の病気で亡くなるリスクが約0.61倍、原因を問わず亡くなるリスクが約0.76倍だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "階段のおかげとは言い切れない",
+        "body": "まとめた研究には、人を追いかけて調べただけの研究も入っていて、もともと元気な人が階段を使っているだけかもしれない。何段・週何回がいいかも、要旨からはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-stair-climbing-heart-mortality"
+  },
+  {
     "id": "research-email-chat-batching-focus-how-research-notifications-off-one-day",
     "category": "集中力",
     "kind": "研究紹介",
@@ -1889,6 +2062,11 @@
         "id": "kokoro-upward-comparison-motivation-backfire-diary",
         "type": "あわせて読む",
         "why": "上との比較が気持ちとやる気にどう響くかを、実験と日記の両方から見られる"
+      },
+      {
+        "id": "kokoro-comparison-motivation-up-down-why-winning-effort",
+        "type": "あわせて読む",
+        "why": "人と比べて勝った・負けたと知った後のやる気を、別の実験で見られる"
       }
     ],
     "webUrl": "https://seadice.win/evidence/happiness/#kokoro-comparison-low-rank-motivation-drop-retry"
