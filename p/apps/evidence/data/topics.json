@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-left-out-ignored-ostracism-recovery-research-attribution",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Yaakobi, \"Recovery From Ostracism Distress: The Role of Attribution\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.899564",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/left-out-ignored-ostracism-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "無視されたあと、どう考えればいい？",
+        "body": "仲間外れにされると「自分の性格のせいかも」って考えがちだよね。理由の受け止め方で、つらさは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "理由を一言だけ添えてみた",
+        "body": "イスラエルの大学生など656人が3つの実験で、画面のボール回しで無視されたあと、係の人から「こういうゲームではよくある」「性格によってはよくある」など4種類のうち1つの理由を聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「たまたま」「外のせい」で楽に",
+        "body": "自分の外にある理由や一時的な理由を聞いた人はつらさが小さくなり、完全に回復した人もいた。「性格しだい」と聞いた人は、何も言われない人よりつらさの点数が高めだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本物の仲間外れでも同じ？",
+        "body": "知らない相手との数分のゲームで、気分は本人の回答で測っただけ。友だちや職場で長く続く仲間外れにも同じように効くかは、まだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-left-out-ai-empathy-chat-empathic-bot-mood",
+        "type": "あわせて読む",
+        "why": "仲間外れのあとに何が気持ちを軽くするか、共感の返事で試した実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#research-left-out-ignored-ostracism-recovery-research-attribution"
+  },
+  {
+    "id": "research-worry-time-postponement-how-research-online",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Versluis, Verkuil & Brosschot, \"Reducing worry and subjective health complaints: A randomized trial of an internet-delivered worry postponement intervention\" (British Journal of Health Psychology, 2016)",
+    "sourceUrl": "https://doi.org/10.1111/bjhp.12170",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/worry-time-postponement-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "心配は「後で考える」と減る？",
+        "body": "心配ごとは、決めた時間にまとめて考えると減るって言われるよね。紙で記録するやり方では、減ったという研究もあるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ネットで6日間試した",
+        "body": "一般の大人996人がウェブで6日間、心配を記録した。半分の人には、心配を夕方の30分に先送りするよう伝えたんだ。最後まで続けたのは361人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "記録だけの組と差がなかった",
+        "body": "先送りした163人と記録だけの188人で、体の不調や心配の回数・長さに差はなかった。参加者は心配しやすい人が多く、「先送りが難しい」と答えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "やり方しだい？",
+        "body": "紙で行った以前の研究とは結果が違い、理由はまだわからない。著者らは、ネットで指示するだけでは足りず、もっと工夫したやり方が要るのかもしれないと考えているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-stop-ruminating-after-bad-day-research-worry-time",
+        "type": "反対の結果",
+        "why": "同じやり方で、心配しやすい53人の小さな試験では心配が減っていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#research-worry-time-postponement-how-research-online"
+  },
+  {
+    "id": "research-cant-decide-postpone-decision-why-research-regret-meta",
+    "category": "意思決定バイアス",
+    "kind": "よくある説",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Han et al., \"Decision avoidance and post-decision regret: A systematic review and meta-analysis\" (PLoS ONE, 2023)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0292857",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/cant-decide-postpone-decision-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "決めなければ、後悔しなくてすむ？",
+        "body": "「決めて失敗するくらいなら、保留しておこう」。自分で選ばなければ後悔も少ない気がするよね。でも本当にそうなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "13本の論文の59の結果をまとめた",
+        "body": "今のままにする、何もしない、人に任せる、先送りするなど、決断を避けたときと決めたときで、あとの後悔を比べた研究をメタ分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "はっきり減ったのは「今のまま」だけ",
+        "body": "全体では避けた方が後悔が少ない傾向はあったけど、はっきりした差ではなかった。明らかに減ったのは「今のままにする」場合だけ。前に同じ避け方で失敗していると、後悔はかえって強くなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "先送りの効果は不明",
+        "body": "もとになった論文は13本と少なく、先送りや人に任せるなど、ほかの避け方で後悔が減るかははっきりしなかった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/decision-bias/#research-cant-decide-postpone-decision-why-research-regret-meta"
+  },
+  {
+    "id": "posture-lying-down-pain-perception",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Reyes del Paso et al., \"Body Posture-Related Differences in Pain Perception and Their Mediation by Cardiovascular Factors\" (Psychophysiology, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/psyp.70400",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "横になると、痛みはやわらぐ？",
+        "body": "痛いとき、つい横になりたくなるよね。あれって気分の問題なのかな、それとも本当に痛みの感じ方が変わっているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "座る・寝る・立つで指を押した",
+        "body": "スペインの健康な大学生83人が、座った姿勢・横になった姿勢・立った姿勢で、指先を機械で押されて痛みの感じ方を測ったんだ。血圧や心臓の動きも一緒に記録したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "横になると痛みに強く、立つと弱く",
+        "body": "横になったときは、痛いと感じ始める強さも我慢できる強さも、立ったときより高かった。同じ強さで押したときの痛さは、立ったときがいちばん強かったらしい。血圧などの変化と関係していたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "痛みの治療に使える？",
+        "body": "若くて健康な人が数分ずつ姿勢を変えた実験で、姿勢の順番は全員同じだった（著者らも限界と書いている）。慢性の痛みがある人に当てはまるかはわからず、著者らは横になる癖が受け身の対処につながるおそれも挙げているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-lying-down-pain-perception"
+  },
+  {
+    "id": "speech-apology-spoken-vs-written",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Gao & Yan, \"Verbal or Written? The Impact of Apology on the Repair of Trust: Based on Competence- vs. Integrity-Based Trust Violation\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.884867",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "謝るなら、口で言う？文字で書く？",
+        "body": "失敗したとき、直接言うのと文章で謝るの、どっちが伝わるんだろう。迷ったことがある人も多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "採用の場面で読み比べた",
+        "body": "中国の大学生499人が採用担当の役になり、税理士の候補者が「知識不足のミス」か「わざと申告をごまかした」と疑われ、口頭か書面で謝る話を読んで、信頼を答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "何をしたかで逆になった",
+        "body": "能力のミスには口頭の謝罪、ごまかしのような誠実さの問題には書面の謝罪の方が、信頼が戻りやすかった。どちらが上かは、失敗の種類で入れ替わったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当に謝られたときは？",
+        "body": "謝る場面は文章で読んだだけで、実際に声を聞いたわけではない。対象は採用の経験がない学生で、著者らもこの点を限界に挙げている。友だちや家族の間でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-apology-spoken-vs-written"
+  },
+  {
     "id": "research-habits-spread-from-people-around-why-research-acne-height-contagion",
     "category": "習慣形成",
     "kind": "よくある説",
@@ -2206,7 +2386,14 @@
         "body": "気分は直後に1問で測っただけ。人に話す組はなく、選択肢中心のチャットボットだった。今の生成AIや、長く続く仲間外れで同じかはまだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/ai/#kokoro-left-out-ai-empathy-chat-empathic-bot-mood"
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-left-out-ai-empathy-chat-empathic-bot-mood",
+    "links": [
+      {
+        "id": "research-left-out-ignored-ostracism-recovery-research-attribution",
+        "type": "あわせて読む",
+        "why": "無視されたあと、理由の受け止め方でつらさが変わるかを試した実験"
+      }
+    ]
   },
   {
     "id": "kokoro-screen-fatigue-nature-view-nature-photos",
@@ -24173,6 +24360,11 @@
         "id": "research-night-worry-feels-bigger-why-research-untrue-worries",
         "type": "あわせて読む",
         "why": "心配が当たるかの記録と、心配する時間を決めるやり方"
+      },
+      {
+        "id": "research-worry-time-postponement-how-research-online",
+        "type": "反対の結果",
+        "why": "同じやり方をネットで試した361人の試験では、差が出なかった"
       }
     ]
   },
