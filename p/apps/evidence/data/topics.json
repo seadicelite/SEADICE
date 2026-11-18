@@ -1,5 +1,171 @@
 [
   {
+    "id": "japan-hat-hair-loss-twins",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Gatherwright J et al., \"The contribution of endogenous and exogenous factors to male alopecia: a study of identical twins\" (Plastic and Reconstructive Surgery, 2013)",
+    "sourceUrl": "https://doi.org/10.1097/PRS.0b013e3182865ca9",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "帽子をかぶるとハゲる？",
+        "body": "帽子をかぶりすぎると髪が薄くなる、ってよく聞くよね。蒸れるから、とも言われるけど、実際のところはどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "一卵性の双子で比べた",
+        "body": "遺伝子が同じ一卵性双生児の男性92人に暮らしぶりをたずね、頭の写真で薄毛の度合いを比べた研究があるんだ。双子どうしの差と、喫煙・お酒・帽子などとの関係を見たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "帽子の人は、むしろ薄くなかった",
+        "body": "毎日帽子をかぶる人は、こめかみの薄毛がむしろ少なかった。薄毛と結びついていたのは、たばこを吸ってきた長さやストレスの長さ、フケなどだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "帽子が髪を守るとは言えない",
+        "body": "帽子との関係はぎりぎりの差（p=0.050）で、たくさんの項目を一度に調べている。アンケートと写真の調査なので、帽子が髪を守ったという因果まではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-hat-hair-loss-twins"
+  },
+  {
+    "id": "personality-graphology-handwriting-validity",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Dazzi C, Pedrabissi L, \"Graphology and personality: an empirical study on validity of handwriting analysis\" (Psychological Reports, 2009)",
+    "sourceUrl": "https://doi.org/10.2466/pr0.105.f.1255-1268",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "字を見れば性格がわかる？",
+        "body": "筆跡診断では、字のクセから性格がわかると言われるよね。きっちりした字なら几帳面な人、みたいに。本当に当たるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "専門家の判定と性格テストを比べた",
+        "body": "イタリアの研究で、大学生101人が性格テスト（ビッグファイブ）を受け、手書きの文章も提出。筆跡診断の専門家2人が、同じ性格の項目を字から9段階で判定したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "性格テストと合わなかった",
+        "body": "字からの判定は、性格テストの結果と合っているとは言えなかった。専門家どうしの判定もほとんど一致しなかった。自分のことを書いた文章で試した2つめの研究（102人）でも、当たる証拠は出なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの研究の話",
+        "body": "大学生を対象にした1つのグループの研究で、判定したのは各研究2人の専門家。ほかの流派の筆跡診断や、もっと長い文章でも同じかは、この研究だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-graphology-handwriting-validity"
+  },
+  {
+    "id": "research-mistake-after-mistake-focus-recovery-research-pause",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Danielmeier C, Ullsperger M, \"Post-error adjustments\" (Frontiers in Psychology, 2011)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2011.00233",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/mistake-after-mistake-focus-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ミスの後、なぜ遅くなる？",
+        "body": "ミスに気づいた直後って、手が一瞬止まるよね。あれは慎重になっているのかな、それとも気を取られているだけ？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "次までの間を変えてみた",
+        "body": "19人が矢印の向きを答える課題をくり返し、答えてから次の問題までの間を0.2秒・0.75秒・1.5秒・3秒にランダムに変えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "遅くなるのは直後だけ",
+        "body": "間が0.2秒だと、ミスの次は平均59ミリ秒遅くなった。0.75秒以上あくと、遅れは見られなかったらしい。ミスの後で正確さが上がることもなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事のミスでも同じ？",
+        "body": "1秒以下の速い判断をくり返す実験室の課題で、人数も19人。ふだんの仕事や勉強のミスに同じことが起きているかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-mistake-after-mistake-focus-recovery-research-pause"
+  },
+  {
+    "id": "research-procrastination-adhd-worry-inattention-recovery-research-inattention",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Netzer Turgeman R, Pollak Y, \"What Are You Waiting For?! Roles of Motivation, Goal Orientation, and Emotion Regulation in Explaining the Link Between ADHD and Procrastination\" (Journal of Attention Disorders, 2026)",
+    "sourceUrl": "https://doi.org/10.1177/10870547251408120",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/procrastination-adhd-worry-inattention-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "不注意な人ほど後回しにする？",
+        "body": "うっかりが多い人ほど、やることを後回しにしがち。そんな気がするけど、どうしてなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大人640人に聞いた",
+        "body": "18〜56歳の大人640人に、ADHDの症状と先延ばし、やる気や感情の整え方をたずねた調査があるんだ。研究計画は事前に登録されていた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「待てない」と「価値を感じない」",
+        "body": "不注意の症状が強い人ほど先延ばしが多かった。その間をつないでいたのは、先の報酬を待つのが苦手なことと、作業の価値を低く感じることなどだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因はどっち？",
+        "body": "一時点の自己申告の調査なので、原因と結果の向きはわからない。先延ばしが多いだけでADHDとも言えなくて、判断するのは医師なんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-adhd-worry-inattention-recovery-research-inattention"
+  },
+  {
+    "id": "research-evening-nap-cant-sleep-sleep-pressure-why-research-nap-by-3pm",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Boukhris O, Suppiah H, Driller M, \"The Influence of 25- and 90-Min Afternoon Nap Opportunities on Subsequent Nighttime Sleep in Student Athletes\" (Journal of Sleep Research, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/jsr.70120",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/evening-nap-cant-sleep-sleep-pressure-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "昼寝すると夜眠れない？",
+        "body": "昼寝をすると夜の寝つきが悪くなる、ってよく言われるよね。でも、昼寝の時間帯や長さによって話は変わるのかもしれない。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "15時に終わる昼寝で比べた",
+        "body": "大学生アスリート14人が、昼寝なし・25分（14:35〜15:00）・90分（13:30〜15:00）の3パターンを順番に試して、その夜の睡眠を手首の機器で測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "夜の睡眠に差は出なかった",
+        "body": "夜の睡眠時間の平均は、昼寝なしで7時間13分、25分で7時間5分、90分で7時間1分。寝る時刻や夜中の目覚めにも、はっきりした差は出なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "14人のアスリートの話",
+        "body": "よく体を動かす大学生14人だけの研究で、夕方の昼寝や、ふだん運動しない人に当てはまるかはわからない。18〜21時の遅い昼寝が夜の眠りの悪さと結びついていた、という大学生の研究もあるよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-evening-nap-cant-sleep-sleep-pressure-why-research-nap-by-3pm"
+  },
+  {
     "themeColor": "#C084FC",
     "articleSite": "独学の科学",
     "id": "dokugaku-mozart-effect-before-exam-arousal-mood",
