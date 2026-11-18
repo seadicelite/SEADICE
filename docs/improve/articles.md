@@ -13,13 +13,14 @@ docs/writing.md
 - 守る手間がかかるだけで、ユーザーのためになっていないルールはないか
 
 ### ルールの次にやること
-1. 題名以外の重複を確かめる方法を、必要が出たときに決める
+1. 点検の「h2直下が結論でもリストでもない記事」を、h2→h3直続き（11本: shuukaku-sign-yasai・tanemaki-jiki-ichiran・kateisaien-munouyaku-konzoku・kateisaien-6gatsu-nani ほか）の結論文追加から1本ずつ直す。中身の書き換えなので手元で
 
 ### ルールの変更履歴
 - 2026-11-12: seadice-media docs/quality/article.md に「書く前に、狙う検索語の上位を1回見る」を追加（上位にあって自分にないもの・上位にない一次情報を1つ決める）。順位を取りに行く手順がどこにもなかったため
 - 2026-11-11: 点検から「外部リンク切れ（HEAD）」を削った（実行環境から外部サイトに届かず確かめられない。外部リンクは6本のみ）
 - 2026-11-11: docs/writing.md のチェックリスト tool-cta に「リンク先は今 p/ にあるページだけ（未公開アプリは張らない）」を追記（canvaskit-13-apps-400mb が未公開の toite の紹介ページ /apps/toite/ に張っていてリンク切れだったため）
 
+- 2026-11-18: docs/writing.md に「h2 直下に h3 を直接置かない」を追記（直続きが11本あり、基準が未記載だったため）
 
 古い記録は [log/articles.md](log/articles.md)。
 - 2026-11-12: 伸ばす4メディアにSEO記事8本（上位が弱い具体的な問いを検索で選び、確かめた表を1つずつ）。kosodate: sns-age-limit-by-service・game-cero-age-rating-follow、oya: parent-hospital-admission-guarantor・parent-care-disability-deduction、ai: gemini-share-link-delete-search・chatgpt-fake-app-how-to-tell、dokugaku: english-2200-hours-fsi-myth・working-adults-study-time-average-statistics。source-check で誤り1（豪州SNS法が施行済み）・ずれ5・未確認6を直してから公開（seadice-media e6934bd2b5）。何を書くかの土台として docs/world/（悩み・欲しいもの・これからの動き・最新の動き）を新設
@@ -47,6 +48,7 @@ docs/writing.md
 1. **日誌（daily-YYYY-MM-DD）の扱いを決める**: 6件が sitemap・blog 一覧にある。検索から外す（noindex＋sitemap 除外）か残すかを、Search Console の表示回数を見て判断する（2026-11上旬のCSVと一緒に）
 
 ## やったこと
+- 2026-11-18: 点検（blog 142。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、noindex meta の sitemap 載り0、内部リンク切れ0、check_blog.py 出力なし）。h2直後（410箇所）のうち11箇所が h3 直続き。次にやること3件は日付待ち・Search Console 待ちで進められず。ルールの答え: h2→h3直続きの扱いが未記載だったので writing.md に追記。削ぎ: 実行できない「ルールの次にやること」1（必要が出たら決める）を点検由来の項目に置き換え
 
 古い記録は [log/articles.md](log/articles.md)。
 - 2026-11-11: 点検（blog 135。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemap OK 556件）。内部リンク切れ1件: canvaskit-13-apps-400mb の tool-cta が未公開アプリの /apps/toite/ に張っていたため、同記事で触れる公開中の /rakuraku/ に差し替え。ルールの答え: 同じ問題（未公開先へのCTA）を防ぐためチェックリストに追記。次にやることの1・2番は Search Console／AIへの質問待ちのため据え置き
