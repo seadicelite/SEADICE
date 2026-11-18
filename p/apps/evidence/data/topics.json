@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-habits-spread-from-people-around-why-research-acne-height-contagion",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Cohen-Cole E, Fletcher JM, \"Detecting implausible social network effects in acne, height, and headaches: longitudinal analysis\" (BMJ, 2008)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.a2533",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/habits-spread-from-people-around-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "太るのは友だちからうつる？",
+        "body": "友だちが太ると自分も太りやすい、という有名な研究がある。でも、それって本当に「うつった」と言えるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "うつるはずのないものでも試した",
+        "body": "アメリカの10代4300〜5400人のデータで、同じよくある分析方法を、ニキビや頭痛、身長に使ってみた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "身長まで「うつる」ように見えた",
+        "body": "その方法だと、ニキビも頭痛も身長も友だちから「うつる」ように見えた。住んでいる環境などの影響を取りのぞくと、どの結果も小さくなって、はっきりしなくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "影響がゼロという意味ではない",
+        "body": "友だちに影響されないという話ではなく、似ているだけでは「うつった」証拠にならないという注意。本当の影響の大きさを測るのは、まだ難しいんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-habits-spread-from-people-around-why-research-running-contagion",
+        "type": "あわせて読む",
+        "why": "似ているだけか、本当にうつるのかを天気を使って切り分けた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habits-spread-from-people-around-why-research-acne-height-contagion"
+  },
+  {
+    "id": "research-ai-chatbot-procrastination-research-chatgpt-vs-human",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Hennemann S et al., \"Generative AI versus human conversational agent for reducing procrastination: A randomized pilot trial\" (Digital Health, 2026)",
+    "sourceUrl": "https://doi.org/10.1177/20552076261450336",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/ai-chatbot-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIに相談すれば動ける？",
+        "body": "作業が進まないとき、ついAIチャットに「やる気が出ない」って打っちゃう。AIに背中を押してもらえば、先延ばしは減るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ChatGPTと人のコーチ",
+        "body": "ドイツの大学生62人が、先延ばしを減らす3回のチャットを受けた。相手はChatGPT-4か人のコーチで、どちらかは知らされていなかった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "AIの組は小さな変化",
+        "body": "先延ばしの点数は、ChatGPTの組で4.36から4.21、人のコーチの組で4.61から4.10。2つの組の差は統計的にははっきりしなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何もしない組がない",
+        "body": "62人の小さな予備的な試験で、何もしない組との比較もない。9割以上が女性で、ほぼ全員が心理学の学生だった。終わった時点で答えた人の43.1%が、何かしらの望まない影響を報告していた。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-ai-chatbot-procrastination-research-chatgpt-vs-human"
+  },
+  {
+    "id": "research-multiple-habits-at-once-research-simultaneous-vs-sequential",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Spring B et al., \"Multicomponent mHealth Intervention for Large, Sustained Change in Multiple Diet and Activity Risk Behaviors: The Make Better Choices 2 Randomized Controlled Trial\" (Journal of Medical Internet Research, 2018)",
+    "sourceUrl": "https://doi.org/10.2196/10528",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/multiple-habits-at-once-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "習慣は1つずつ？",
+        "body": "運動も食事も変えたいけど、「習慣は1つずつ始めないと失敗する」ってよく聞くよね。本当にそうなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同時と順番を比べた",
+        "body": "アメリカの大人212人を、食事と運動を同時に変える組、運動を7週目から足す組、ストレスと睡眠の練習をする組に分けて、9か月追いかけた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "9か月後の差はなかった",
+        "body": "同時の組も順番の組も大きく改善して、9か月後の2つの組の差はなかった（6か月の時点だけ順番の組がわずかに上）。野菜と果物は1日6.5皿、運動は1日24.7分増えたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "支えなしでも同じ？",
+        "body": "記録アプリに加えて、最初の12週は週1回の電話コーチと週5ドルの報酬があった。食事などは自己申告でもある。支えなしで一度にいくつ変えられるかは、まだわかっていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-multiple-habits-at-once-research-simultaneous-vs-sequential"
+  },
+  {
+    "id": "pet-dog-tv-viewing",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Montgomery LI, Krichbaum S, Katz JS, \"Characterizing TV viewing habits in companion dogs\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-06580-y",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬って、テレビを見てるの？",
+        "body": "画面の犬にほえたり、テレビの裏をのぞきこんだり。うちの子、ちゃんと見えてるのかな？って思ったことあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "飼い主453人に聞いた",
+        "body": "2024年にSNSで飼い主を集め、テレビに映る動物・人・物や音に、犬がどれくらい反応するかを答えてもらった。集まった513件のうち88.3%が「うちの犬はテレビを見る」だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "分かれ目は「動物かどうか」",
+        "body": "反応は、映るのが動物か、人や物かで分かれ、目で見るか耳で聞くかでは分かれなかった。性別・年齢・犬種のグループでは差がなく、興奮しやすい犬ほど画面から消えたものを追いかけやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飼い主の目から見た話",
+        "body": "答えたのは飼い主で、犬の行動を直接は確かめていない。テレビをよく見る犬の飼い主が集まりやすく、住む国も聞いていない。犬に画面がどう見えているかは、まだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-tv-viewing"
+  },
+  {
+    "id": "smell-trillion-odors-unknown",
+    "category": "香りと記憶",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Gerkin RC, Castro JB, \"The number of olfactory stimuli that humans can discriminate is still unknown\" (eLife, 2015)",
+    "sourceUrl": "https://doi.org/10.7554/eLife.08127",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人は1兆種類のにおいをかぎ分けられる？",
+        "body": "2014年に科学誌サイエンスに出て、ニュースでも話題になった数字だよね。人の鼻って、実はそんなにすごいの？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "計算のしかたを確かめ直した",
+        "body": "元の研究は、128種類の分子から10・20・30個を混ぜたにおいを人に比べてもらい、そこから数を見積もった。この論文は、その見積もり方の条件を変えて計算し直したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "「1兆」の根拠はなかった",
+        "body": "同じデータから、決め方しだいで1兆より何十桁も大きい数も小さい数も出てきた。しかも使った式は「少なくとも」でなく「多くても」の数を出すものだったらしい。人で新しく試した研究ではないよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当の数は、まだ不明",
+        "body": "題名どおり、人がいくつのにおいをかぎ分けられるかはまだわからない。少ないとわかったわけでもない。確かな数え方を決めるところから、研究が続いているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#smell-trillion-odors-unknown"
+  },
+  {
     "id": "research-watched-by-others-focus-social-facilitation-why-research-camera-on",
     "category": "学習法",
     "kind": "研究紹介",
@@ -1607,7 +1780,14 @@
         "body": "ランニング記録アプリを使う人だけのデータで、くじで分けた実験ではない。天気を手がかりにした推定で、食事や睡眠など、ほかの習慣も同じように広がるかはわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/habits/#research-habits-spread-from-people-around-why-research-running-contagion"
+    "webUrl": "https://seadice.win/evidence/habits/#research-habits-spread-from-people-around-why-research-running-contagion",
+    "links": [
+      {
+        "id": "research-habits-spread-from-people-around-why-research-acne-height-contagion",
+        "type": "あわせて読む",
+        "why": "友だちどうしが似ているだけでは「うつった」証拠にならないという注意"
+      }
+    ]
   },
   {
     "id": "dokugaku-work-better-under-pressure-last-minute-deadline-effort",
