@@ -1,5 +1,139 @@
 [
   {
+    "id": "research-cramming-forget-fast-why-research-massed-decay",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Wimmer GE, Poldrack RA, \"Reward learning and working memory: Effects of massed versus spaced training and post-learning delay period\" (Memory & Cognition, 2022)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-021-01233-7",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/cramming-forget-fast-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "すらすらできたら、覚えた証拠？",
+        "body": "詰め込んだ直後にすらすら答えられると、もう大丈夫って思うよね。でも、その手ごたえが当てになるのかを調べた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "54人が「当たり・はずれ」を学習",
+        "body": "参加者54人が、図形と当たり・はずれの組み合わせを学んだ。続けてくり返す図形と、間を空ける図形を混ぜて、すぐテストする組と約13分休んでからテストする組に分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "続けて学ぶと、休んだ後に下がった",
+        "body": "続けてくり返した図形は、学んでいる最中の成績が早く上がった。でも休んだ後のテストでは成績が下がり、間を空けた図形は上がったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "暗記の勉強にも当てはまる？",
+        "body": "当たり・はずれを学ぶ課題で、休みは約13分と短い。教科の暗記で、何日もたった後にどうなるかは別の研究が必要だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-cramming-forget-fast-why-research-massed-decay"
+  },
+  {
+    "id": "kokoro-conversation-safety-behaviors-awkward-quiet",
+    "category": "対人関係の心理学",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Gray E, Beierl ET & Clark DM, \"Sub-types of safety behaviours and their effects on social anxiety disorder\" (PLoS ONE, 2019)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0223165",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/conversation-safety-behaviors-awkward/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "黙っていれば失敗しない？",
+        "body": "人と話すとき、変なことを言わないように口数を減らす。自分の話はしないでおく。そのほうが無難だと思うよね。実はそれを確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5分の会話を2回",
+        "body": "英国の大学生96人が、初対面の2人1組で5分の会話を2回したよ。片方の人は、どちらかの会話でだけ「自分の話を避ける・じっとする・話す量を減らす」ようにこっそり指示されていたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不安が増えて、好感は下がった",
+        "body": "指示どおりにした会話では、本人の不安が平均20から34に上がり（0〜100）、相手が感じた好感は76から65に下がっていた。相手も「また話したい」と思いにくくなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだんの会話でも同じ？",
+        "body": "指示どおりに演じた5分の会話で、組み合わせごとの人数も24人ずつと少なめ。友達や同僚との続いていく会話でも同じになるかは、まだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-conversation-safety-behaviors-awkward-quiet"
+  },
+  {
+    "id": "dokugaku-commute-audio-learning-how-to-driving-podcast",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Gottlieb et al., \"Maximizing the Morning Commute: A Randomized Trial Assessing the Effect of Driving on Podcast Knowledge Acquisition and Retention\" (Annals of Emergency Medicine, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.annemergmed.2021.02.030",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/commute-audio-learning-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "気になる疑問",
+        "title": "運転しながら聞いた講座、頭に入ってる？",
+        "body": "通勤の車で音声講座を聞く人は多いよね。でも運転に気を取られて、実は何も残っていないんじゃないかと気になる。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人が、運転中と座ってで聞き比べた",
+        "body": "アメリカの救急医学の研修医100人が、医学の音声を「運転しながら」と「部屋で座って」の両方で聞いて、直後と1か月後にテストを受けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績はほぼ同じ。でも1か月で半分に",
+        "body": "直後の正答率は運転中74.2%、座って73.3%。1か月後は52.2%と52.0%で、差はなかった。どちらの聞き方でも、1か月でかなり忘れていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運転の安全は調べていない",
+        "body": "調べたのは覚えた量だけで、運転への影響は測っていない。医師の卵が専門の話を聞いた実験なので、初めての分野でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-commute-audio-learning-how-to-driving-podcast"
+  },
+  {
+    "id": "kids-relative-age-academic-chile",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Navarro, García-Rubio & Olivares, \"The Relative Age Effect and Its Influence on Academic Performance\" (PLoS ONE, 2015)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0141895",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "早生まれは勉強で不利？",
+        "body": "同じ学年でも、生まれ月で1年近く差がある。早生まれの子は勉強で損をする、とよく聞くよね。中学生になっても差は続くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "チリの13歳、1万5千人",
+        "body": "チリの全国学力調査（2011年）から、平均13.6歳の8年生15,234人の成績を、学年の中で生まれた時期ごとに5つの組に分けて比べたんだ。家の経済状況や学校の種類もあわせて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "13歳でも差は残っていた",
+        "body": "学年の中で遅く生まれた子ほど成績が低い傾向は、13歳でも残っていた。ただ成績にいちばん強く関わっていたのは家の経済状況で、それを考えに入れると生まれ月の影響は小さくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本でも同じ？",
+        "body": "チリの1回の調査で、見たのは関連だけ。生まれ月そのものが原因とは言い切れないんだ。日本の子どもで同じくらいの差があるかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#kids-relative-age-academic-chile"
+  },
+  {
     "id": "japan-hat-hair-loss-twins",
     "category": "日本でよく聞く説",
     "kind": "よくある説",
