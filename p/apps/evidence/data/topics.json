@@ -1,5 +1,146 @@
 [
   {
+    "id": "kokoro-fomo-info-fatigue-why-overload",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Yao X, Zhao J, Zhang H, Chao W, Wang M, \"The Antecedents and Buffer of Social Media Fatigue: A Moderating Role of Dispositional Mindfulness\" (PsyCh Journal, 2025)",
+    "sourceUrl": "https://doi.org/10.1002/pchj.70062",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/fomo-info-fatigue-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "見逃したくないほど疲れるのはなぜ？",
+        "body": "新しい情報を見逃したくなくて、何度も新着を確かめる。なのに、追うほどぐったりする。どうしてなんだろうね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生743人を1か月おきに3回調査",
+        "body": "中国の4大学の学生743人に、1回目に「見逃す不安」、2回目に「情報が多すぎる」感覚とストレス、3回目にSNS疲れを聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "疲れの通り道は「情報の多さ」",
+        "body": "見逃す不安が強い人ほど、あとで情報が多すぎると感じ、SNS疲れも強い傾向があった。ストレスを通る道より、情報の多さを通る道のほうが大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "因果も、AIの情報もまだ",
+        "body": "本人の回答だけの調査で、見逃す不安が疲れを生むとまでは言えない。対象は中国の大学生のSNSで、AIの情報を追う場合はまだ調べられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-fomo-info-fatigue-why-overload"
+  },
+  {
+    "id": "kokoro-sauna-fatigue-recover-monica",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Engström Å et al., \"Sauna bathing in northern Sweden: results from the MONICA study 2022\" (International Journal of Circumpolar Health, 2024)",
+    "sourceUrl": "https://doi.org/10.1080/22423982.2024.2419698",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/sauna-fatigue-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "サウナで疲れもストレスも取れる？",
+        "body": "「ととのう」と疲れが抜ける、ストレスが減るってよく聞くよね。本当なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "スウェーデンの971人を比べた",
+        "body": "スウェーデン北部で無作為に選ばれた25〜74歳のうち、971人のサウナの習慣と健康を比べた調査があるよ。66%が月1回以上入っていたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "元気さは高め、ストレスは同じ",
+        "body": "入る人のほうが元気さ（100点中71対66）や幸福感の点数が高かった。でもストレスの点数は39対39で差がなかったらしい。心の健康と元気さは月1〜4回の人で高く、もっと多く入っても高くならなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "サウナのおかげ？",
+        "body": "1回のアンケートで、入る人はもともと若く運動する人が多かった。サウナが元気にしたのか、元気な人がサウナに行くのかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#kokoro-sauna-fatigue-recover-monica"
+  },
+  {
+    "id": "kokoro-past-self-comparison-recover-temporal",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Schlechter P et al., \"Comparing comparisons: A transdiagnostic investigation of social and temporal comparisons and their differential effects on mental health outcomes and well-being\" (International Journal of Clinical and Health Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.ijchp.2025.100611",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/past-self-comparison-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人じゃなく昔の自分と比べればいい？",
+        "body": "「人と比べず、過去の自分と比べよう」ってよく聞くよね。でも「前の自分はもっとできた」と比べて落ち込むこともある。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7つの調査を分析し直した",
+        "body": "1つあたり306〜1,121人の7つの調査を分析し直した研究があるよ。人と比べることと、「昔のほうがよかった」「この先悪くなる」と比べることを並べて調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらも落ち込みと結びつく",
+        "body": "各調査で73〜83%の人が、直近3週間にそういう不利な向きで昔や先の自分と比べていた。そう比べる人ほど落ち込みや不安が強めで、結びつきは人と比べる場合とほぼ同じくらいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べるから落ち込む？",
+        "body": "7つのうち6つは1回きりの調査。比べるから落ち込むのか、落ち込んでいるから昔がよく見えるのかはわからない。参加者も平均25〜32歳の若い大人が中心だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-past-self-comparison-recover-temporal"
+  },
+  {
+    "id": "insight-aha-recall-magic-tricks",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Danek et al., \"Aha! experiences leave a mark: facilitated recall of insight solutions\" (Psychological Research, 2013)",
+    "sourceUrl": "https://doi.org/10.1007/s00426-012-0454-8",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「あっ、わかった！」は忘れにくい？",
+        "body": "自分で気づいた答えって、教わった答えより覚えている気がするよね。ひらめいた瞬間の「あっ」には、記憶を残す力があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "手品の種を見抜いてもらった",
+        "body": "50人に手品の動画34本を見せて、種を考えてもらったんだ。解けたら「あっ、わかった」という感覚があったかを答えてもらい、14日後に解いた種を思い出してもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ひらめいた答えのほうが残った",
+        "body": "2週間後に思い出せたのは、解けた種のうち全体で55%。「あっ」があった答えは64.4%、なかった答えは52.4%で、ひらめいた答えのほうがよく残っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "50人の、手品での実験",
+        "body": "調べたのは50人で、題材は手品の動画だけ。ひらめいたかは本人の申告なので、ひらめきが記憶を助けたのか、覚えやすい答えほどひらめきやすかったのかは分けられない。勉強でも同じかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "insight-aha-solutions-accuracy",
+        "type": "あわせて読む",
+        "why": "ひらめいた答えは正しいことも多い、という別の実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-aha-recall-magic-tricks"
+  },
+  {
     "id": "food-vitamin-d-supplement-depression-vital",
     "category": "食事と脳",
     "kind": "よくある説",
@@ -8558,7 +8699,14 @@
         "body": "使ったのは時間制限つきの実験室のパズル。ひらめいたかどうかも本人の申告。時間の制限がない複雑な現実の問題で同じかは、まだわからないと著者たちも書いているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/insight/#insight-aha-solutions-accuracy"
+    "webUrl": "https://seadice.win/evidence/insight/#insight-aha-solutions-accuracy",
+    "links": [
+      {
+        "id": "insight-aha-recall-magic-tricks",
+        "type": "あわせて読む",
+        "why": "ひらめいた答えは、2週間後もよく覚えていた実験"
+      }
+    ]
   },
   {
     "id": "laughter-self-tickle-prediction",
