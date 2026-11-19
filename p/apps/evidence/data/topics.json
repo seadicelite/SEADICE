@@ -1,5 +1,197 @@
 [
   {
+    "id": "dokugaku-daily-study-quota-broken-restart-self-efficacy-lapse",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Roordink et al., \"Predictors of lapse and relapse in physical activity and dietary behaviour: a systematic search and review on prospective studies\" (Psychology & Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1080/08870446.2021.1981900",
+    "studyType": "レビュー",
+    "articleUrl": "https://dokugaku.seadice.win/daily-study-quota-broken-restart/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "三日坊主から戻れる人の違いは？",
+        "body": "運動や食事の習慣、途中で一度やめてしまっても戻れる人と、そのままやめてしまう人がいるよね。何が分かれ目なんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "37件の研究をまとめた",
+        "body": "大人を追いかけて、運動や食事を一時的にやめる・元に戻ってしまう原因を調べた37件の研究をまとめたレビューがあるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一貫していたのは「できる感覚」だけ",
+        "body": "運動の一時的な中断と逆戻り、食事の逆戻りのすべてを一貫して予測したのは、「自分はできる」という感覚（自己効力感）だけだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ほかの要因はまだ謎",
+        "body": "ほとんどの要因は調べた研究が少なくて、結論が出せなかった。勉強の習慣に同じことが言えるかも、確かめられていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-daily-study-quota-broken-restart-self-efficacy-feedback",
+        "type": "あわせて読む",
+        "why": "戻る力の鍵が「できる感覚」なら、それを高める工夫を27件でまとめたもの"
+      },
+      {
+        "id": "research-exercise-habit-lapse-restart-research-lapse-rate",
+        "type": "あわせて読む",
+        "why": "運動が途切れる割合と自信との関係を、1つの追跡研究で見たもの"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#dokugaku-daily-study-quota-broken-restart-self-efficacy-lapse"
+  },
+  {
+    "id": "dokugaku-daily-study-quota-broken-restart-self-efficacy-feedback",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Ashford et al., \"What is the best way to change self-efficacy to promote lifestyle and recreational physical activity? A systematic review with meta-analysis\" (British Journal of Health Psychology, 2010)",
+    "sourceUrl": "https://doi.org/10.1348/135910709X461752",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/daily-study-quota-broken-restart/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "励ませば自信がつく？",
+        "body": "「きみならできる」と励ましたり、少しずつ難しくしたりすれば、自信はつく。そう思われがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "27件・5,501人をまとめた",
+        "body": "健康な大人の運動で、「自分はできる」という感覚を高めようとした27件の研究（5,501人）をまとめたメタ分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いたのは「過去の結果を見せる」",
+        "body": "いちばん高まったのは、自分や他人の過去の結果を見せる工夫だった。説得や、少しずつ難しくする工夫は、むしろ低さと関係していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "直接くらべた実験ではない",
+        "body": "全体の効果は小さく（d=0.16）、工夫ごとの差は研究どうしを比べたもの。直接くらべた実験ではないし、勉強の話でもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-daily-study-quota-broken-restart-self-efficacy-lapse",
+        "type": "あわせて読む",
+        "why": "その「できる感覚」が、中断や逆戻りを予測したというレビュー"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#dokugaku-daily-study-quota-broken-restart-self-efficacy-feedback"
+  },
+  {
+    "id": "dokugaku-english-vocabulary-frequency-priority-table-top-1000-words",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Xodabande, Ebrahimi & Karimpour, \"How much vocabulary is needed for comprehension of video lectures in MOOCs: A corpus-based study\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.992638",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/english-vocabulary-frequency-priority-table/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "英単語、何語覚えればいい？",
+        "body": "単語帳は何千語もあって、どこまでやればいいか迷うよね。実は、よく使われる単語ほど、英文の中でものすごく大きな割合を占めているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "194講座・約445万語を数えた",
+        "body": "オンライン講座サイトの194講座から集めた講義の書き起こし（約445万語）を、よく使われる順の単語リストと照らし合わせて、何語知っていれば何%わかるかを数えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "上位1,000語で約8割",
+        "body": "上位1,000語のグループで80.48%、3,000語で92.85%をカバーした。でも4,000語から先は、1,000語ふやしても1.5%以下しか増えなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "わかる割合＝理解ではない",
+        "body": "これは単語を数えた分析で、学習者が実際に理解できたかは測っていない。1つの講座サイトだけの講義なので、ほかの英語に当てはまるとも限らないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-english-vocabulary-frequency-priority-table-top-1000-words"
+  },
+  {
+    "id": "color-dark-mode-eye-fatigue",
+    "category": "色彩心理",
+    "kind": "よくある説",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Sengsoon & Intaruk, \"Immediate Effects of Light Mode and Dark Mode Features on Visual Fatigue in Tablet Users\" (International Journal of Environmental Research and Public Health, 2025)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph22040609",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ダークモードは目にやさしい？",
+        "body": "黒い背景に白い文字のダークモード。目が疲れにくいと言われて、使っている人も多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "タブレットを使う女性30人で試した",
+        "body": "タブレットを使う女性30人に、くじ引きの手順で割り振ってライトモードとダークモードの両方を使ってもらい、使う前と後で目の疲れやドライアイの症状を測ったんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "感じる目の疲れは変わらなかった",
+        "body": "自分で感じる目の疲れには、2つのモードで差がなかった。ドライアイの症状などでは差が出て、著者はダークモードのほうが疲れにくいかもと書いている。どちらでも、使ったあとは疲れが増えていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "使ったその場の変化だけ",
+        "body": "調べたのは女性30人だけで、使った直後の変化しか見ていない。長く使い続けたときにどうなるかは、著者も今後の課題としているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-dark-mode-eye-fatigue"
+  },
+  {
+    "id": "exercise-hiit-vs-moderate-enjoyment-meta",
+    "category": "運動と気分",
+    "kind": "よくある説",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Oliveira et al., \"Affective and enjoyment responses in high intensity interval training and continuous training: A systematic review and meta-analysis\" (PLoS ONE, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0197124",
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "exercise-hiit-mood-memory",
+        "type": "あわせて読む",
+        "why": "同じHIITで、直後は気分が落ちて30分後に戻ったという1つの実験"
+      }
+    ],
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "きつい運動は、楽しくない？",
+        "body": "息が上がるようなきつい運動は、つらいだけで楽しくない。だから続かない、と思われがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8件の研究をまとめた",
+        "body": "短い全力と休みをくり返すHIITと、ほどほどの強さで続ける運動を、1回やったときの気分や楽しさで比べた8件の研究をまとめたメタ分析があるよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "楽しさは、むしろHIITが少し上",
+        "body": "楽しさの点数は、HIITのほうが少し高かった（差は小さめ）。運動中の「快・不快」の感じ方では、差はごくわずかだったらしい。きついから楽しくない、とは言えなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回やったときの話",
+        "body": "比べたのは1回の運動での気持ちだけ。研究は8件と少なく、結果のばらつきも大きかった。続けたときに習慣になりやすいかは、著者もこれからの研究だとしているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-hiit-vs-moderate-enjoyment-meta"
+  },
+  {
     "id": "kokoro-isolation-meeting-people-scary-recover-lockdown",
     "category": "孤独とつながり",
     "kind": "研究紹介",
@@ -26075,7 +26267,14 @@
         "body": "対象は米国のラテン系女性だけ。途切れた後にどうすれば戻れるかについては、著者ら自身も結果ははっきりしないと書いている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/habits/#research-exercise-habit-lapse-restart-research-lapse-rate"
+    "webUrl": "https://seadice.win/evidence/habits/#research-exercise-habit-lapse-restart-research-lapse-rate",
+    "links": [
+      {
+        "id": "dokugaku-daily-study-quota-broken-restart-self-efficacy-lapse",
+        "type": "あわせて読む",
+        "why": "途切れ・逆戻りを予測するものを、37件の研究でまとめたレビュー"
+      }
+    ]
   },
   {
     "id": "research-music-cortisol-stress-research-concert",
@@ -32333,7 +32532,14 @@
       "wrong": "気分は下がり記憶も低い"
     },
     "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-hiit-mood-memory",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "exercise-hiit-vs-moderate-enjoyment-meta",
+        "type": "あわせて読む",
+        "why": "HIITとほどほどの運動の楽しさを、8件の研究でくらべたメタ分析"
+      }
+    ]
   },
   {
     "id": "digital-phubbing-relationship",
