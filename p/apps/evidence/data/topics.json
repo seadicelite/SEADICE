@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-too-many-study-goals-cannot-progress-prioritize-both-equally",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Freund & Tomasik, \"Managing conflicting goals through prioritization? The role of age and relative goal importance\" (PLoS ONE, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0247047",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/too-many-study-goals-cannot-progress/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "優先順位をつければ迷いは消える？",
+        "body": "やることがぶつかったら、どっちかを優先すればスッキリする。よく言われるアドバイスだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2つの課題を同時に出してみた",
+        "body": "スイスの研究で、18〜87歳の大人185人に、1つの画面に並んだ2つの課題を短い時間で「どちらも同じくらいよく」解いてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "優先した人ほど、モヤモヤが強かった",
+        "body": "実は片方を優先した人ほど、ぶつかる感じやいやな気分が強かった。でも別の117人に「同じくらいでなくていい」とゆるく伝えると、優先してもぶつかる感じとは結びつかなくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "数分の課題での話",
+        "body": "数分の課題での話で、何か月も続く勉強や仕事とは違う。優先するかは本人が選んでいて、くじで分けたわけではない。研究者は「両方同じくらいに」という指示が効いたと考えているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#dokugaku-too-many-study-goals-cannot-progress-prioritize-both-equally"
+  },
+  {
+    "id": "dokugaku-work-habits-conflict-textbook-answers-refutation-text",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Schroeder & Kucera, \"Refutation Text Facilitates Learning: a Meta-Analysis of Between-Subjects Experiments\" (Educational Psychology Review, 2022)",
+    "sourceUrl": "https://doi.org/10.1007/s10648-021-09656-z",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/work-habits-conflict-textbook-answers/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "思い込みって、どう直せばいい？",
+        "body": "正しい説明を読んでも、前から信じていた答えがつい出てくる。勉強でも仕事でも、よくあることだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "33研究・3,869人をまとめた",
+        "body": "「よくある誤解はこう。でも実際はこうで、理由はこう」と、誤解を名指しして打ち消す文章の効果を、44の比較でまとめたメタ分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ふつうの説明より学べた",
+        "body": "誤解を打ち消す文章は、ふつうの説明文などより学びの成績が中くらいの差で上回った（g=0.41）。年齢や分野で差は見られず、1週間ほどあとでも効果は残っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "理科と数学が中心",
+        "body": "まとめた研究は理科と数学の内容が中心で、社会や健康の話題は少なかった。くり返し読む場面でも効き続けるかは、まだ調べられていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-work-habits-conflict-textbook-answers-backfire-effect",
+        "type": "あわせて読む",
+        "why": "誤解の直し方と、訂正すると逆に信じ込むという説の検証"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-work-habits-conflict-textbook-answers-refutation-text"
+  },
+  {
+    "id": "dokugaku-work-habits-conflict-textbook-answers-backfire-effect",
+    "category": "心理学の再現性",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Swire-Thompson et al., \"Searching for the Backfire Effect: Measurement and Design Considerations\" (Journal of Applied Research in Memory and Cognition, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.jarmac.2020.06.006",
+    "studyType": "レビュー",
+    "articleUrl": "https://dokugaku.seadice.win/work-habits-conflict-textbook-answers/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "誤りを訂正すると、逆に信じ込む？",
+        "body": "間違いを指摘すると、相手はかえってその間違いを強く信じてしまう。「バックファイア効果」と呼ばれて、よく話題になる説だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "これまでの研究を見直した",
+        "body": "アメリカの研究者たちが、この効果を調べた研究をまとめて見直したんだ。起きやすいはずの条件で試しても、見つからない研究が多かった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "確かな現象とはいえない",
+        "body": "著者らは、バックファイア効果は確かな現象とはいえないと結論した。訂正の中で誤りをくり返すのを避ける必要はなく、わかりやすい訂正を作るのが大事らしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "測り方の問題が残る",
+        "body": "見つかった逆効果の8割は、1問だけで信じ方を測った研究だった。測り方の弱さが残っていて、特定の人や場面で起きる可能性は否定しきれない。勉強の内容を直接調べた研究でもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-work-habits-conflict-textbook-answers-refutation-text",
+        "type": "あわせて読む",
+        "why": "訂正は逆効果にならないかと、誤解を打ち消す文章の効果"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#dokugaku-work-habits-conflict-textbook-answers-backfire-effect"
+  },
+  {
+    "id": "face-fruit-vegetable-skin-color",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Whitehead, Re, Xiao, Ozakinci & Perrett, \"You are what you eat: within-subject increases in fruit and vegetable consumption confer beneficial skin-color changes\" (PLoS ONE, 2012)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0032988",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "野菜を食べると、顔色がよく見える？",
+        "body": "野菜や果物をたくさん食べると肌の調子がいい、ってよく聞くよね。じゃあ、人から見た顔色まで変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "35人の肌の色を6週間測った",
+        "body": "スコットランドの大学で、18〜25歳の35人の食事と肌の色を、最初と3週後・6週後に記録したんだ。食事は指定せず、ふだんの食べ方の変化を見たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "食べる量が増えた人ほど、黄色みと赤みが増えた",
+        "body": "野菜と果物が増えた人ほど、肌の赤みと黄色みが増えていた。別の24人に見比べてもらうと、1日2.91皿ぶん増えた色の変化で「健康そう」、3.30皿ぶんで「魅力的」と見分けられる計算だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "白人の若い学生がほとんど",
+        "body": "35人のうち34人が白人の若い学生で、ほかの肌の色や年代で同じかはわからない。食べた量は自己申告で、くじで分けた実験でもないから、ほかの生活の変化が効いた可能性も残るよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-fruit-vegetable-skin-color"
+  },
+  {
+    "id": "pet-dog-brain-familiar-human-scent",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Berns, Brooks & Spivak, \"Scent of the familiar: an fMRI study of canine brain responses to familiar and unfamiliar human and dog odors\" (Behavioural Processes, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.beproc.2014.02.011",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬は、家族のにおいがわかるの？",
+        "body": "帰ってくると、犬がくんくん嗅いでくるよね。ただ嗅いでいるだけなのか、知っている人のにおいだと気づいているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "犬12頭の脳をMRIで見た",
+        "body": "アメリカの研究で、MRIの中でじっとしていられるよう訓練した犬12頭に、5種類のにおいを嗅がせた。自分、知っている人、知らない人、知っている犬、知らない犬のにおいだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "知っている人のにおいで、期待の場所がいちばん反応",
+        "body": "においを受け取る場所はどれにも同じくらい反応した。でも良いことへの期待と関わる「尾状核」は、知っている人のにおいでいちばん強く反応したんだ。その人はその場にいなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "12頭の脳の反応だけ",
+        "body": "調べたのは訓練を受けた12頭だけ。脳の反応から「良い印象を持っている」と読み取ったもので、犬の気持ちを直接確かめたわけではない。別の犬で再現されたかもわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#pet-dog-brain-familiar-human-scent"
+  },
+  {
     "id": "research-forced-habit-autonomous-motivation-why-research-reasons-for-exercise",
     "category": "習慣形成",
     "kind": "素朴な疑問",
