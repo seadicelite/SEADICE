@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-phone-grayscale-mode-study-focus-grayscale",
+    "category": "デジタルデトックス",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Zimmermann & Sobolev, \"Digital Strategies for Screen Time Reduction: A Randomized Field Experiment\" (Cyberpsychology, Behavior, and Social Networking, 2023)",
+    "sourceUrl": "https://doi.org/10.1089/cyber.2022.0027",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/phone-grayscale-mode-study-focus/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "スマホを白黒にすると集中できる？",
+        "body": "画面をグレースケールにすると、スマホを触らなくなって勉強もはかどる。そんな話を聞いたことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "112人を3つの組に分けた",
+        "body": "事前に計画を登録した実験で、112人を「白黒にする」「使う時間の上限を決める」「記録するだけ」の3つに分けて、数週間くらべたんだ。使用時間は端末の記録で測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "使用時間は減った、でも成績は…",
+        "body": "白黒の組は、記録だけの組よりスマホの使用時間がすぐにはっきり減った。ところが、使う時間が減っても、気分や学業成績がすぐ良くなる効果は見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続けたらどうなる？",
+        "body": "数週間の実験なので、何か月も続けたときのことはわからない。参加者の国や年齢は要旨からはわからず、減った時間を何に使ったかも、この研究では見ていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-grayscale-screen-time",
+        "type": "あわせて読む",
+        "why": "同じ白黒設定を医学生51人で試し、1日約28分減った別の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#dokugaku-phone-grayscale-mode-study-focus-grayscale"
+  },
+  {
+    "id": "dokugaku-lunch-break-study-how-to-lunchtime-park-walk",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Sianoja et al., \"Enhancing daily well-being at work through lunchtime park walks and relaxation exercises: Recovery experiences as mediators\" (Journal of Occupational Health Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/ocp0000083",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/lunch-break-study-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "昼休み、何をすれば午後がラク？",
+        "body": "昼休みに仕事の続きや勉強をすると、午後にぐったりすることってあるよね。昼休みの過ごし方で、午後の調子は変わるのかを調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "15分の散歩かリラックス法を10日間",
+        "body": "働く人に、昼休みに15分の公園の散歩（51人）か、体の力を抜くリラックス法（46人）を10日続けてもらった。前・中・後の5週間、週2回、午後の集中や疲れを答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "休んだ日は、午後の集中が高かった",
+        "body": "散歩やリラックス法をした日は、午後の集中が高く、疲れが少なかった。散歩は「楽しかった」こと、リラックス法は「仕事から気持ちが離れた」ことを通して効いていたみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事の成績はまだ測っていない",
+        "body": "集中や疲れは本人の答えで、仕事の成績を測ったわけじゃない。昼休みに勉強した場合どうなるかも、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#dokugaku-lunch-break-study-how-to-lunchtime-park-walk"
+  },
+  {
+    "id": "dokugaku-exam-wrapper-reflection-sheet-pharmacy-null",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Pate et al., \"The use of exam wrappers to promote metacognition\" (Currents in Pharmacy Teaching and Learning, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.cptl.2019.02.008",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/exam-wrapper-reflection-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "試験のあとに振り返りを書けば、点が上がる？",
+        "body": "テストのあとに「どう準備した？なぜ間違えた？次は何を変える？」を書く振り返りシート。大学の授業でも使われていて、書けば次の点が上がると思われがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "薬学生88人で比べてみた",
+        "body": "薬学部の病態生理学の授業で、2〜5回目の試験の前に、前回の試験を見直すシートを使えるようにしたんだ。1回以上使った53人と、一度も使わなかった35人の点をくらべたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "点の伸びは、はっきりしなかった",
+        "body": "使った人の平均点はやや高かったけれど、統計的にははっきりした差とは言えなかった（p = 0.142）らしい。著者らは「可能性はあるが、さらに研究が必要」とまとめているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "使う人を自分で選んでいた",
+        "body": "シートを使うかどうかは学生が自分で決めていたので、もともと熱心な人が使った可能性もある。一人で資格試験を勉強する社会人に同じことが言えるかも、まだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-wrapper-reflection-sheet-pharmacy-null"
+  },
+  {
+    "id": "exercise-morning-walk-workday-memory",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Wheeler et al., \"Distinct effects of acute exercise and breaks in sitting on working memory and executive function in older adults: a three-arm, randomised cross-over trial\" (British Journal of Sports Medicine, 2020)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2018-100168",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "朝に運動すると、一日中頭がさえる？",
+        "body": "朝に少し体を動かすと、その日は頭がすっきりする気がするよね。でも、そのあと一日座りっぱなしだったら、効果は続くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ67人が3通りの1日を過ごした",
+        "body": "ふだんあまり動かない平均67歳の67人が、①8時間座りっぱなし ②朝に30分歩いてから座りっぱなし ③朝に30分歩き、その後も30分ごとに3分軽く歩く、の3通りを日をあけて全部試したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "朝の運動＋こまめな休憩で記憶がよかった",
+        "body": "座りっぱなしの日とくらべて、③の日は一時的に覚えておく力（作業記憶）が、②の日は判断や切り替えの力がよかった。脳の栄養と呼ばれるBDNFも、運動した2つの日で血中の量が増えたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1日だけ、太りぎみの高齢の人の話",
+        "body": "対象は太りぎみで運動不足の高齢の人だけで、効果を見たのは1日ずつ。どの力がよくなるかは日の過ごし方で分かれ、ほかの力には差が出ていない。若い人や毎日続けたときのことはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-sitting-hours-memory-region-thickness",
+        "type": "あわせて読む",
+        "why": "座る時間が長い人ほど記憶に関わる脳が薄い、という観察研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-morning-walk-workday-memory"
+  },
+  {
+    "id": "love-friends-to-lovers-pathway",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Stinson, Cameron, & Hoplock, \"The Friends-to-Lovers Pathway to Romance: Prevalent, Preferred, and Overlooked by Science\" (Social Psychological and Personality Science, 2022)",
+    "sourceUrl": "https://doi.org/10.1177/19485506211026992",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "恋人って、友達から始まることが多い？",
+        "body": "恋の始まりというと、知らない人との出会いや一目惚れを思い浮かべがち。でも実際は、友達がいつのまにか恋人になる話もよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7つの調査、約1900人に聞いた",
+        "body": "カナダの研究チームが、自分たちの7つの調査（カナダの大学生と、カナダ・アメリカのネットで集めた大人、計1,897人）をまとめて、恋人とは付き合う前に友達だったかを集計したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "約3分の2が「友達から」だった",
+        "body": "付き合う前に友達だった人は平均で約68%。男女で差はなかった。別の大学生298人の調査では、友達期間の中央値は12か月で、47%が「友達から恋人に」がいちばんいい始まり方だと答えたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "うまくいきやすいかは別の話",
+        "body": "昔のことを思い出して答えてもらった調査で、記憶がゆがんでいるかもしれない。対象は北米の人だけ。友達から始まった恋のほうが長続きするかどうかは、この研究では調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "love-at-first-sight",
+        "type": "あわせて読む",
+        "why": "反対の始まり方である一目惚れが、本当に恋と言えるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-friends-to-lovers-pathway"
+  },
+  {
     "id": "dokugaku-daily-study-quota-broken-restart-self-efficacy-lapse",
     "category": "習慣形成",
     "kind": "素朴な疑問",
@@ -15797,6 +15984,11 @@
         "id": "kokoro-sitting-breaks-focus-move-breaks",
         "type": "あわせて読む",
         "why": "こちらは脳の形の調査、あちらは座りっぱなしと頭の働きを調べた研究"
+      },
+      {
+        "id": "exercise-morning-walk-workday-memory",
+        "type": "あわせて読む",
+        "why": "朝の運動と座りっぱなしの休憩で、その日の記憶や判断の力を比べた試験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-sitting-hours-memory-region-thickness"
@@ -23627,7 +23819,14 @@
         "body": "1つの医学部の51人を1週間ずつ調べた小さな試験で、くじ引きで分けたわけでもない。使用時間は本人が書き写した数字で、白黒を長く続けても減ったままかは、まだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-grayscale-screen-time"
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-grayscale-screen-time",
+    "links": [
+      {
+        "id": "dokugaku-phone-grayscale-mode-study-focus-grayscale",
+        "type": "あわせて読む",
+        "why": "同じ白黒設定を112人で試し、使用時間は減ったが成績や気分は変わらなかった研究"
+      }
+    ]
   },
   {
     "id": "exercise-school-activity-grades-meta",
@@ -43498,6 +43697,11 @@
         "id": "love-first-impression-100ms",
         "type": "あわせて読む",
         "why": "顔の印象は一瞬で決まるという研究。一目惚れの中身もまず見た目だった"
+      },
+      {
+        "id": "love-friends-to-lovers-pathway",
+        "type": "あわせて読む",
+        "why": "恋人の約3分の2は友達から始まっていたという、反対側の始まり方の研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/love/#love-at-first-sight"
