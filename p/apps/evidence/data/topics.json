@@ -1,5 +1,171 @@
 [
   {
+    "id": "kokoro-isolation-meeting-people-scary-recover-lockdown",
+    "category": "孤独とつながり",
+    "kind": "研究紹介",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Arad G et al., \"Social Distancing During A COVID-19 Lockdown Contributes to The Maintenance of Social Anxiety: A Natural Experiment\" (Cognitive Therapy and Research, 2021)",
+    "sourceUrl": "https://doi.org/10.1007/s10608-021-10231-7",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/isolation-meeting-people-scary-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "会わない時期と、人づきあいの不安",
+        "body": "人と会わない生活が続くと、会うのが怖くなる。そんな感覚を、コロナ禍の外出制限を使って調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学1年生99人を比べた",
+        "body": "イスラエルの大学で、人づきあいの不安が強い1年生を秋と春に調べたよ。外出制限のあった年度の55人と、それ以前の年度の44人を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ふつうの年は下がった",
+        "body": "それ以前の年は、春までに不安の点数がはっきり下がっていた。でも春学期が外出制限とオンライン授業になった年は、高いままだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "会わなかったせい？",
+        "body": "くじ引きで分けた実験ではなく年度での比較。感染の不安など、コロナ禍のほかのストレスの影響は取り除けていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-isolation-meeting-people-scary-recover-lockdown"
+  },
+  {
+    "id": "kokoro-willpower-belief-focus-recover-diary",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Bernecker K & Job V, \"Beliefs about willpower moderate the effect of previous day demands on next day's expectations and effective goal striving\" (Frontiers in Psychology, 2015)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2015.01496",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/willpower-belief-focus-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "気力は使えば減る？",
+        "body": "頭を使いすぎると気力が減って、休まないと戻らない。よく聞く話だよね。実は、そう信じているかどうかが関係しているかもしれない、という研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生157人の日記",
+        "body": "スイスの大学生157人に、学期中の2回、月曜から金曜まで毎日、朝と夜に答えてもらったよ。夜は「今日はどのくらい大変だったか」、朝は「いやな作業がどのくらい進みそうか」を聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "大変だった翌日に差が出た",
+        "body": "いつもより大変だった日の翌日、「頭を使うと気力は減る」と考える人は、そう考えない人より作業がはかどっていなかった。そう考えない人は、大変だった翌日のほうがかえってはかどっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "考え方のせい？",
+        "body": "記録から関連を見た研究で、考え方を変えた実験ではないよ。参加者は「気力は減らない」寄りの人が多く、ほかの集団で同じになるかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-willpower-belief-focus-recover-diary"
+  },
+  {
+    "id": "dokugaku-ai-explanations-forgotten-relearn-google-stroop-replication",
+    "category": "心理学の再現性",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Hesselmann, \"No conclusive evidence that difficult general knowledge questions cause a 'Google Stroop effect'. A replication study\" (PeerJ, 2020)",
+    "sourceUrl": "https://doi.org/10.7717/peerj.10325",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/ai-explanations-forgotten-relearn/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "難問を見ると、頭に「検索」が浮かぶ？",
+        "body": "2011年にScienceに載った有名な研究で、難しいクイズの後は「Google」みたいなネット関連の言葉に反応が遅れる、と報告されたんだ。わからないと、すぐ調べたくなる心の表れだって。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ実験を、もう一度やってみた",
+        "body": "元の実験は米国の大学生（46人とされるが、69人だった可能性も指摘されている）。大規模な追試（104人、さらに130人を追加）では効果が出なかった。元の著者が「やり方が違う」と指摘したので、その意見を取り入れてドイツで117人で試し直したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "それでも、はっきりした効果は出なかった",
+        "body": "117人の追試でも、難問の後にネットの言葉が頭に浮かぶ、という証拠ははっきりしなかった。有名な研究でも、くり返して確かめると消えることがあるんだよね。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「調べられると覚えない」は別の話",
+        "body": "追試したのは、元の論文の4つの実験のうち、難問のあとの反応を見た1つだけ。「後で調べられると思うと覚えにくい」という別の実験は、この追試では確かめていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#dokugaku-ai-explanations-forgotten-relearn-google-stroop-replication"
+  },
+  {
+    "id": "sleepfood-late-eating-dreams-nightmares-survey",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Nielsen et al., \"More dreams of the rarebit fiend: food sensitivity and dietary correlates of sleep and dreaming\" (Frontiers in Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2025.1544475",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る前に食べると悪夢を見る？",
+        "body": "チーズを食べて寝ると変な夢を見る、なんて昔から言われるよね。カナダの研究チームが、食べ物と夢の関係を大学生にたずねて調べたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生1,082人のアンケート",
+        "body": "カナダの大学で心理学の授業をとる学生1,082人に、ネットで答えてもらったよ。食事の習慣、食べ物の不耐症やアレルギー、眠りの質、悪夢の多さを聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "夢が変わると感じる人は5.5%",
+        "body": "食べ物で眠りが悪くなる・良くなると答えた人は40.2%いたけど、夢が変わると答えたのは5.5%だけ。挙がったのは甘いもの（31%）と乳製品（22%）。乳糖不耐症の人と、夜に食べる習慣のある人ほど悪夢が多い傾向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "食べたせいかは不明",
+        "body": "一度きりのアンケートで、関連を見ただけ。著者も因果の向きはわからないと書いているよ。対象はカナダの若い大学生で、答えはすべて本人の申告なんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleepfood-late-eating-dreams-nightmares-survey"
+  },
+  {
+    "id": "money-wine-price-tag-taste-fmri",
+    "category": "お金の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Schmidt et al., \"How context alters value: The brain's valuation and affective regulation system link price cues to experienced taste pleasantness\" (Scientific Reports, 2017)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-017-08080-0",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "高いワインはおいしく感じる？",
+        "body": "値段が高いと、なんだかおいしい気がする。それって気のせい？ 同じワインに違う値段をつけて、飲んでいるときの脳を測った実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ値段のワインに3つの値札",
+        "body": "ドイツのボン大学で、どれも12ユーロのワインに3・6・18ユーロの値札を見せて、MRIの中で少しずつ味わってもらったよ。分析できたのは30人（男女15人ずつ）。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "高い値札ほどおいしいと答えた",
+        "body": "中身は同じでも、値札が高いほどおいしいと評価された。脳では価値を感じる場所が値段に合わせて動いていたらしい。ただ、値段を伏せて飲んだときと比べると、高い値札で上がるより、安い値札で下がるほうが大きかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "お店でも同じ？",
+        "body": "MRIの中で少量ずつ味わう実験で、人数も30人と少ないよ。ワイン以外の食べ物や、ふだんの買い物で同じことが起きるかは、この研究ではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#money-wine-price-tag-taste-fmri"
+  },
+  {
     "id": "research-cant-decide-postpone-decision-why-research-time-pressure",
     "category": "先延ばし対策",
     "kind": "素朴な疑問",
