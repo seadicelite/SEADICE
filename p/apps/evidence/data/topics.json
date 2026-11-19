@@ -1,5 +1,178 @@
 [
   {
+    "id": "food-vitamin-d-supplement-depression-vital",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Okereke OI et al., \"Effect of Long-term Vitamin D3 Supplementation vs Placebo on Risk of Depression or Clinically Relevant Depressive Symptoms and on Change in Mood Scores: A Randomized Clinical Trial\" (JAMA, 2020)",
+    "sourceUrl": "https://doi.org/10.1001/jama.2020.10224",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ビタミンDで気分の落ち込みを防げる？",
+        "body": "ビタミンDが少ない人は気分が沈みやすい、だからサプリで補えば防げる、ってよく聞くよね。長く飲み続けたら本当に違いが出るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の50歳以上1万8千人で5年",
+        "body": "米国の50歳以上の18,353人を、くじ引きでビタミンD3（1日2000IU）と偽薬に分けた試験があるんだ。飲んだ期間は中央値で5.3年。うつの発症や再発と、気分の点数を比べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "偽薬と差はなかった",
+        "body": "うつや強い落ち込みが出た割合は、ビタミンDの組が1000人年あたり12.9件、偽薬の組が13.3件で、はっきりした差はなかった。気分の点数の変化もほぼ同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "足りない人や若い人では？",
+        "body": "対象は始めの時点で強い落ち込みのない50歳以上の人。もともとビタミンDがかなり不足している人、若い人、すでにうつの人で同じかは、この試験だけではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-vitamin-d-supplement-depression-vital"
+  },
+  {
+    "id": "net-outgroup-posts-shared-more",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Rathje S, Van Bavel JJ, van der Linden S, \"Out-group animosity drives engagement on social media\" (PNAS, 2021)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2024292118",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "相手を叩く投稿ほど伸びる？",
+        "body": "SNSを見ていると、誰かを批判する投稿ばかり回ってくる気がするよね。あれって気のせい？それとも本当に広がりやすいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の273万件の投稿を分析",
+        "body": "FacebookとTwitterで、米国のニュースメディアと議員が出した2,730,215件の投稿を調べた研究があるんだ。自分の側と相手の側（対立する政党）について書いた言葉が、シェアの数とどう関係するかを見たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "相手側の話はシェアが約2倍",
+        "body": "相手側について書いた投稿は、自分の側の投稿の約2倍シェアされていた。相手側を指す言葉が1つ増えるごとに、シェアされる見込みは67%上がり、反応で一番多かったのは「怒り」だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "政治の話で、相関だけ",
+        "body": "見たのは米国の政治の投稿で、ふつうの人の投稿や日本のSNSで同じかはわからない。投稿を見比べた観察研究なので、相手側の話題そのものがシェアを増やしたとまでは言えないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "net-false-news-spreads-faster",
+        "type": "あわせて読む",
+        "why": "デマと本当の話のどちらが速く広がるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#net-outgroup-posts-shared-more"
+  },
+  {
+    "id": "kokoro-email-checking-batching-prevent-three-times",
+    "category": "デジタルデトックス",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Wijngaards I, Pronk FR, Burger MJ, \"For whom and under what circumstances does email message batching work?\" (Internet Interventions, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.invent.2022.100494",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/email-checking-batching-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "メールは時間を決めてまとめて見るべし",
+        "body": "通知が鳴るたびにメールを開くと疲れる、だから1日数回にまとめよう、ってよく聞くよね。これ、本当に効くのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "職場で1か月ためしてみた",
+        "body": "オランダの金融機関で、4つのチームがメールを1日3回までにまとめて見る試みを1か月。ほかの3チームはいつも通り働いて、疲れ具合を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "疲れは減った。メールが多い人ほど",
+        "body": "まとめたチームは、終わった直後の「仕事で疲れ切った感じ」が減っていた。1日25通以上受け取る人で効果が大きく、すぐ返信を求められる職場の人では小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "2週間で薄れた",
+        "body": "終了から2週間後には差がはっきりしなくなっていた。チームはくじ引きで分けておらず、1つの会社のコロナ禍の在宅勤務での結果だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#kokoro-email-checking-batching-prevent-three-times"
+  },
+  {
+    "id": "kokoro-sleep-loss-thinking-why-effort-motivation",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Jurgelis M, Boardman JM, Coxon JP, Drummond SPA, Chong TTJ, \"Sleep Restriction Reduces Cognitive but Not Physical Motivation\" (Nature and Science of Sleep, 2022)",
+    "sourceUrl": "https://doi.org/10.2147/NSS.S368335",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/sleep-loss-thinking-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝不足の日、考えるのがおっくう",
+        "body": "寝不足の日って、頭を使う仕事だけやる気が出ないことあるよね。これって能力が落ちてるの？それとも気持ちの問題？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3時間睡眠を3晩つづけた実験",
+        "body": "オーストラリアの大人24人が、毎晩9時間眠れる条件と、3晩続けて3時間しか眠れない条件の両方を体験。頭を使う課題と握力の課題で、大変だけど報酬が多いほうを選ぶか調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "落ちたのは「頭を使う意欲」だけ",
+        "body": "寝不足のときは、頭を使う課題で大変なほうを選ぶ割合が下がった。握力の課題では変わらなかった。課題そのものは、どちらの条件でも全員こなせていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだんの寝不足でも同じ？",
+        "body": "参加者は24人だけで、3時間睡眠はふだんの寝不足よりかなり極端。1〜2時間足りないくらいの日でも同じことが起きるかは、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#kokoro-sleep-loss-thinking-why-effort-motivation"
+  },
+  {
+    "id": "kokoro-gratitude-text-connection-prevent-thank-by-text",
+    "category": "孤独とつながり",
+    "kind": "研究紹介",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Walsh LC, Regan A, Twenge JM, Lyubomirsky S, \"What is the Optimal Way to Give Thanks? Comparing the Effects of Gratitude Expressed Privately, One-to-One via Text, or Publicly on Social Media\" (Affective Science, 2023)",
+    "sourceUrl": "https://doi.org/10.1007/s42761-022-00150-5",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/gratitude-text-connection-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "感謝って、どう伝えるのがいい？",
+        "body": "ありがとうを伝えるなら、手紙に書く？本人にメッセージ？それともSNSでみんなの前で？どれでも同じなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "916人をくじ引きで4組に",
+        "body": "米国の大学生916人を、渡さない手紙を書く組、相手にメッセージを送る組、SNSで伝える組、その日の活動を記録するだけの組に分けて、約1週間ためしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "直接メッセージで、つながりが一番伸びた",
+        "body": "感謝の3つの組はどれも、記録だけの組より感謝の気持ちや前向きな気分、つながりの実感がよい方向に変わった。中でも相手に1対1でメッセージを送った組で、つながりと支えの実感が一番伸びていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果は小さく、1週間だけ",
+        "body": "効果の大きさは小さめで、約1週間だけの試みのため、その後も続くかは調べていない。対象は米国の大学生で、ほかの年代や文化でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-gratitude-text-connection-prevent-thank-by-text"
+  },
+  {
     "id": "kokoro-blurred-boundaries-insomnia-recover-online-training",
     "category": "仕事と働き方",
     "kind": "研究紹介",
@@ -4361,6 +4534,11 @@
         "id": "net-fake-news-sharing-age",
         "type": "あわせて読む",
         "why": "広がり方の全体像に対して、実際に誰がシェアしていたかを調べた研究"
+      },
+      {
+        "id": "net-outgroup-posts-shared-more",
+        "type": "あわせて読む",
+        "why": "何がSNSで広がりやすいかを、投稿の言葉から調べた別の研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/games/#net-false-news-spreads-faster"
