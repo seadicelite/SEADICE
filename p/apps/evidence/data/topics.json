@@ -1,5 +1,167 @@
 [
   {
+    "id": "research-cant-decide-postpone-decision-why-research-time-pressure",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Berens S & Funke J, \"A vignette study of option refusal and decision deferral as two forms of decision avoidance: Situational and personal predictors\" (PLoS ONE, 2020)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0241182",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/cant-decide-postpone-decision-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "決められないまま、何週間もたつのはなぜ？",
+        "body": "引っ越し先や買い替えのスマホ。決めればすぐ進むのに「もう少し考えてから」と保留しちゃうこと、あるよね。どんなときに保留しやすいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "312人に8つの場面で選んでもらった",
+        "body": "ドイツの研究で、312人（平均23.8歳、ほとんどが学生）に、授業選びなどの場面を読んでもらい「決める」「保留する」「どちらも選ばない」から選んでもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "締め切りが遠いと、保留が一気に増えた",
+        "body": "締め切りに余裕がある場面では24%が保留したのに、迫っている場面では2%だけ。選びにくいと感じた人や、ふだんから優柔不断な人も保留しやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "文章の場面での答えだった",
+        "body": "これは文章で読んだ場面での回答で、実際の決断を観察したものではない。参加者も若い学生がほとんどなので、ほかの年代にそのまま当てはまるかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-cant-decide-postpone-decision-why-research-regret-meta",
+        "type": "あわせて読む",
+        "why": "決めるのを先送りすると、後悔は減るのかをまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-cant-decide-postpone-decision-why-research-time-pressure"
+  },
+  {
+    "id": "kokoro-few-friends-life-satisfaction-isolation-vs-loneliness",
+    "category": "孤独とつながり",
+    "kind": "よくある説",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Matthews T, Danese A, Wertz J, et al., \"Social isolation, loneliness and depression in young adulthood: a behavioural genetic analysis\" (Social Psychiatry and Psychiatric Epidemiology, 2016)",
+    "sourceUrl": "https://doi.org/10.1007/s00127-016-1178-7",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/few-friends-life-satisfaction/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "頼れる人が少ない人は、寂しい？",
+        "body": "頼れる人が少ないなら、きっと寂しいはず。そう思われがちだよね。でも本当にいつも重なるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の18歳、約2,000人",
+        "body": "イングランドとウェールズで生まれた双子を追う研究で、18歳の約2,000人に、頼れる家族や友達がいるかと、寂しさを別々に聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "重なったのは約半分",
+        "body": "頼れる人が少ない度合いで上位25%の人のうち、寂しさも上位25%だったのは51%。うつの症状とよりはっきり結びついていたのは、寂しさのほうだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "18歳の一時点だけ",
+        "body": "18歳の一時点だけを調べた研究で、大人になってからも同じかはわからない。頼れる人の少なさは、友達の人数を数えたものでもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-lonely-even-with-others-company-not-cure",
+        "type": "あわせて読む",
+        "why": "人と一緒にいても、寂しさが消えるとは限らなかった研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-few-friends-life-satisfaction-isolation-vs-loneliness"
+  },
+  {
+    "id": "kokoro-presentation-nerves-forewarning-inoculation",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Jackson B et al., \"Re-Thinking Anxiety: Using Inoculation Messages to Reduce and Reinterpret Public Speaking Fears\" (PLoS ONE, 2017)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0169972",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/presentation-nerves-forewarning/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "緊張は前もって知ると和らぐ？",
+        "body": "人前で話す前の緊張、どうにかならないかな。「緊張するのは自然で、外からは見えにくい」と前もって知っておくだけで、何か変わるんだろうか。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "発表前に1枚の文章を配った",
+        "body": "オーストラリアの大学で、同級生の前で約8分発表する学生に、緊張についての文章を本番の2週間前と3日前に配ったんだ。配らなかった前の年の学年と比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "直前の不安が少し低かった",
+        "body": "読んだ学年は、話す直前の不安が5点満点で3.36、読まなかった学年は3.74だった。話している間の体のこわばりも少し低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "学年で分けた実験",
+        "body": "1人ずつくじで分けたのではなく、学年ごとに分けているよ。発表の出来がよくなったかも調べていないし、働く大人でも同じかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nervous-savitsky-speech",
+        "type": "あわせて読む",
+        "why": "「緊張は外から見えにくい」と伝えるとスピーチが楽になった、元になった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#kokoro-presentation-nerves-forewarning-inoculation"
+  },
+  {
+    "id": "oya-grandchild-care-cognition-review",
+    "category": "親の老いと介護",
+    "kind": "よくある説",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Rafael et al., \"Cognitive Impairment in Grandparents: A Systematic Review\" (Psychiatry Investigation, 2021)",
+    "sourceUrl": "https://doi.org/10.30773/pi.2021.0034",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "孫の世話はボケ防止になる？",
+        "body": "「孫と遊んでいると頭が若返る」ってよく聞くよね。親に孫を預けるとき、ちょっと気になる話。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "関係する文献を集めて整理",
+        "body": "2018年8月までの論文178件を調べ、条件に合った8本を読み比べた系統的レビューがあるんだ。そのうち、自分でデータを集めた研究は5本だったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "良さそう。でも多すぎると逆かも",
+        "body": "5本のうち4本は、孫の世話と頭の働きによい関係を示した。1本は「世話が原因」とまでは言えないという結果。世話の回数が多すぎると、かえって悪いという研究もあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の数も質もまだ足りない",
+        "body": "元の研究は5本だけで、方法がばらばら、かたよりの危険も大きかった。どれくらいの量ならよいかの境目も研究で違い、はっきりした結論はまだ出せないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "oya-social-contact-dementia",
+        "type": "あわせて読む",
+        "why": "人と会う機会と認知症の関係を、追跡研究でまとめたもの"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-grandchild-care-cognition-review"
+  },
+  {
     "id": "kokoro-fomo-info-fatigue-why-overload",
     "category": "スマホとSNS",
     "kind": "素朴な疑問",
@@ -1409,7 +1571,14 @@
         "body": "もとになった論文は13本と少なく、先送りや人に任せるなど、ほかの避け方で後悔が減るかははっきりしなかった。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/decision-bias/#research-cant-decide-postpone-decision-why-research-regret-meta"
+    "webUrl": "https://seadice.win/evidence/decision-bias/#research-cant-decide-postpone-decision-why-research-regret-meta",
+    "links": [
+      {
+        "id": "research-cant-decide-postpone-decision-why-research-time-pressure",
+        "type": "あわせて読む",
+        "why": "締め切りが遠いと決断を保留しやすくなった、場面を読ませた実験"
+      }
+    ]
   },
   {
     "id": "posture-lying-down-pain-perception",
@@ -13831,6 +14000,11 @@
         "id": "kokoro-loneliness-acceptance-practice-monitor-accept",
         "type": "あわせて読む",
         "why": "寂しさを受け入れる練習で、孤独感が減り人との会話が増えた実験"
+      },
+      {
+        "id": "kokoro-few-friends-life-satisfaction-isolation-vs-loneliness",
+        "type": "あわせて読む",
+        "why": "頼れる人が少ないことと寂しさは、半分ほどしか重ならなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-lonely-even-with-others-company-not-cure"
@@ -46066,6 +46240,11 @@
         "id": "oya-hearing-aid-achieve",
         "type": "あわせて読む",
         "why": "認知機能の低下を防げるかをくじ引きの試験で確かめた例。観察研究との違いがわかる"
+      },
+      {
+        "id": "oya-grandchild-care-cognition-review",
+        "type": "あわせて読む",
+        "why": "孫の世話と頭の働きの関係を調べた研究を整理したレビュー"
       }
     ],
     "webUrl": "https://seadice.win/evidence/aging-parents/#oya-social-contact-dementia"
@@ -59712,7 +59891,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/illusion-of-transparency-nervousness-visible-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "kokoro-presentation-nerves-forewarning-inoculation",
+        "type": "あわせて読む",
+        "why": "同じ考えの文章を発表前に配ると、直前の不安が少し低かった"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/romance/#nervous-savitsky-speech"
   },
   {
