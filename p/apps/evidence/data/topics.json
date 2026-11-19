@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-forced-habit-autonomous-motivation-why-research-reasons-for-exercise",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Teixeira et al., \"Exercise, physical activity, and self-determination theory: a systematic review\" (International Journal of Behavioral Nutrition and Physical Activity, 2012)",
+    "sourceUrl": "https://doi.org/10.1186/1479-5868-9-78",
+    "studyType": "レビュー",
+    "articleUrl": "https://research.seadice.win/forced-habit-autonomous-motivation-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "言われて始めた運動って、なんで続かないの？",
+        "body": "医者や家族にすすめられて始めた運動、いつの間にか止まってるよね。実は、続くかどうかは「なぜやっているか」の中身と関係があるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "66の研究をまとめて見たレビュー",
+        "body": "Teixeiraらは、運動する理由と運動量の関係を調べた66の研究をまとめたんだ。理由を「言われたから」「罪悪感から」「自分にとって大事」「楽しい」に分けて比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「大事」「楽しい」が強い味方",
+        "body": "「自分にとって大事」は74%、「楽しい」は62%の標本で運動の多さと関連。「言われたから」は57%で関連なし、43%では運動の少なさと関連していたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "多くは一時点の調査",
+        "body": "ほとんどが相関の研究で、運動量も多くは自己申告。標本の97%は欧米の文化圏だった。理由を変えれば運動が増えるとまでは言い切れないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-forced-habit-autonomous-motivation-why-research-reasons-for-exercise"
+  },
+  {
+    "id": "research-wearable-activity-tracker-habit-research-tracker-dropoff",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Hermsen et al., \"Determinants for Sustained Use of an Activity Tracker: Observational Study\" (JMIR mHealth and uHealth, 2017)",
+    "sourceUrl": "https://doi.org/10.2196/mhealth.7311",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/wearable-activity-tracker-habit-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "活動量計、いつまで使う？",
+        "body": "買ったときはやる気満々でも、気づけば引き出しの中。活動量計って、みんな実際どれくらい使い続けているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "711人の記録を320日分",
+        "body": "Hermsenらは、フランスの4つの都市部で活動量計（Fitbit Zip）を受け取った711人の記録を、320日分調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "320日後に使っていたのは16%",
+        "body": "100日後に使っていた人は73.9%、320日後は16.0%。平均すると129日だった。やめた理由で一番多かったのは、電池切れ・故障・紛失だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "続けたから歩いた、とは限らない",
+        "body": "長く使った人ほど歩数も多かったけど、比べる組のない観察研究。よく歩く人が長く使っただけかもしれないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-wearable-activity-tracker-habit-research-tracker-dropoff"
+  },
+  {
+    "id": "research-mindfulness-meditation-procrastination-research-trait-meta",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Mao et al., \"Mindfulness matters: Unveiling the relationship between trait mindfulness and procrastination - A three level meta-analysis\" (The Journal of General Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1080/00221309.2024.2407426",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/mindfulness-meditation-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "マインドフルネスで先延ばしが減る？",
+        "body": "「マインドフルネスをすると先延ばしが減る」って聞いたことあるよね。今の気持ちに気づく練習が、やる気の出ない作業にも効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "19の研究、1万4,094人",
+        "body": "Maoらは、マインドフルネスの高さと先延ばしの関係を調べた19の研究（36のデータ、1万4,094人）をまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "高い人ほど先延ばしが少ない",
+        "body": "マインドフルネスが高い人ほど先延ばしが少ない、というはっきりしたつながりがあった（相関 r = −0.365）。調べた条件の違いで結果が変わる様子もなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "瞑想の効果ではない",
+        "body": "まとめたのは、性格としてのマインドフルネスを質問紙で測った研究。瞑想を習えば先延ばしが減るかは、この分析ではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-mindfulness-meditation-procrastination-research-trait-meta"
+  },
+  {
+    "id": "posture-power-pose-women-backlash",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Rennung et al., \"To Strike a Pose: No Stereotype Backlash for Power Posing Women\" (Frontiers in Psychology, 2016)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2016.01463",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "堂々とした姿勢の女性は、反感を買う？",
+        "body": "胸を張って腕を広げる姿勢は、自信があるように見えるよね。でも女性がやると「えらそう」と思われて損をする、という心配もよく聞く。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2,473人に写真を見てもらった",
+        "body": "ドイツの大学の研究。オンラインの2,473人に、男性か女性のモデルが堂々とした姿勢か縮こまった姿勢をとる写真を見せて、印象と自分の気持ちを答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "有能に見えて、男女の差はなかった",
+        "body": "堂々とした姿勢の人は有能に見え、あこがれ・ねたみ・軽蔑の気持ちも強まり、同情は減った。温かさの印象は変わらず、この形は男女で同じ。女性だけ嫌われることはなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "写真を15秒見ただけの評価",
+        "body": "顔をぼかした静止画を1枚15秒見ての評価で、実際に会って話す場面や職場で同じになるかはわからない。1回の実験で、参加者はドイツの調査パネルの人たちだよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-open-closed-doctor-first-impression",
+        "type": "あわせて読む",
+        "why": "開いた姿勢と第一印象を、別の場面で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-power-pose-women-backlash"
+  },
+  {
+    "id": "food-calcium-milk-fracture",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Bolland et al., \"Calcium intake and risk of fracture: systematic review\" (BMJ, 2015)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.h4580",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "牛乳を飲めば、骨折しにくくなる？",
+        "body": "「骨のためにカルシウムをとろう、牛乳を飲もう」ってよく聞くよね。年をとってからの骨折を防ぐ知恵として、ずっと言われてきた。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50歳以上の研究をまとめた",
+        "body": "Bollandら（2015）は、50歳以上を対象に、食事のカルシウムや牛乳・乳製品、サプリと骨折の関係を調べた研究を集めたんだ。追跡調査が44件、くじ引きで分けた試験が28件あったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "食事の量と骨折は、ほぼ関係なし",
+        "body": "食事のカルシウムや牛乳の量は、多くの追跡調査で骨折と関係がなかった（牛乳は28件中25件）。サプリは試験全体だと骨折が少し減ったけど、かたよりの少ない4件ではどの部位でも差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "子どもの骨づくりは別の話",
+        "body": "食事から増やす試験は2件（262人）だけで、牛乳の結果は主に追跡調査から。対象は50歳以上なので、子どもや若い人の骨づくりについてはこの研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#food-calcium-milk-fracture"
+  },
+  {
     "id": "dokugaku-phone-grayscale-mode-study-focus-grayscale",
     "category": "デジタルデトックス",
     "kind": "よくある説",
@@ -10017,7 +10190,14 @@
         "body": "4人を並べて順位をつけるやり方は差を大きく見せたかもしれない、と著者も書いている。動かない写真で声や表情はなく、実際の診察や医師以外の場面で同じかはまだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-open-closed-doctor-first-impression"
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-open-closed-doctor-first-impression",
+    "links": [
+      {
+        "id": "posture-power-pose-women-backlash",
+        "type": "あわせて読む",
+        "why": "開いた姿勢と第一印象を、別の場面で調べた研究"
+      }
+    ]
   },
   {
     "id": "speech-video-call-small-talk-breaks",
