@@ -1,5 +1,153 @@
 [
   {
+    "id": "kokoro-ai-unavailable-restless-sudoku-wait",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Meteier Q et al., \"Effect of task nature during short digital deprivation on time perception and psychophysiological state\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-94316-3",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-unavailable-restless/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スマホもAIも使えない待ち時間、どう過ごす？",
+        "body": "AIがつながらない、スマホを預けた。何もできない待ち時間って、やたら長くてそわそわするよね。何かしたほうがいいのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "スマホを預けて7分30秒待つ実験",
+        "body": "スイスの大学生を中心に、若い人90人を3組に分けたんだ。スマホを自由に使う組、スマホを預けて紙の数独をする組、預けて何もせず待つ組。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ただ待った組は退屈が約3倍",
+        "body": "退屈の平均点（0〜1000点）は、ただ待った組が527点、数独の組は169点、スマホの組は192点。数独の組は待つ前より気分がよくなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIが使えない場面でも同じ？",
+        "body": "7分30秒だけの実験室の話で、参加者は若い女性が中心。AIが何時間も使えない場面で同じになるかは、まだ調べられていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-phone-always-bored-smartphone-break-boredom",
+        "type": "あわせて読む",
+        "why": "職場では、スマホを使ったあとも退屈は減っていなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#kokoro-ai-unavailable-restless-sudoku-wait"
+  },
+  {
+    "id": "kokoro-comparison-effort-self-talk-do-my-best",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Thomaes S et al., \"Effort Self-Talk Benefits the Mathematics Performance of Children With Negative Competence Beliefs\" (Child Development, 2020)",
+    "sourceUrl": "https://doi.org/10.1111/cdev.13347",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/comparison-effort-self-talk/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「自分はできる」と唱えると強くなれる？",
+        "body": "自信がないときは「自分は得意だ」と言い聞かせよう、ってよく聞くよね。でも、言葉の中身で結果は変わるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "小学生212人が、テストの途中で唱えた",
+        "body": "オランダの実験。算数のテストの前半のあと、「精一杯やる！」「自分はとても得意だ！」のどちらかを約30秒心の中でくり返すか、何もしないかに、くじで分けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いたのは「精一杯やる」のほう",
+        "body": "自信のない子では、「精一杯やる」と唱えた組の後半の成績が、何も唱えない組や「得意だ」の組より高かった。自信のある子では差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人の落ち込みにも効く？",
+        "body": "子どもの算数の成績を1回調べた実験で、気分は測っていないんだ。大人が人と比べて落ち込んだときに同じ効果があるかは、まだわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#kokoro-comparison-effort-self-talk-do-my-best"
+  },
+  {
+    "id": "kokoro-comfort-friend-what-to-say-misprediction",
+    "category": "対人関係の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Wang R, Li L, He J, \"The Misprediction of Helpers in Comforting Situations and Its Mechanism\" (Psychology Research and Behavior Management, 2024)",
+    "sourceUrl": "https://doi.org/10.2147/PRBM.S442519",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/comfort-friend-what-to-say/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "下手な慰めなら、しないほうがいい？",
+        "body": "落ち込んでいる友達に声をかけたいけど、うまく言えなくて結局送れない。そんなこと、あるよね。慰められた側は、実際どう感じているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "慰めのメールを送ってもらった",
+        "body": "中国の大学生37人に、友達へ慰めのメールを送ってもらった実験があるよ。送った側の予想と、答えてくれた友達35人の気持ちを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気まずさは、思ったより小さかった",
+        "body": "送った側は、相手が感じる気まずさを10点満点で平均3.7点と予想。でも受け取った側の答えは1.7点だったらしい。想像の場面の実験では、慰められた側は言葉の上手さより温かさを見ていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数も場面も、まだ限られている",
+        "body": "実際にメールを送った実験は35組と小さく、残りの実験は場面を想像して答えるものだった。深く落ち込んでいる人を慰める場合でも同じかは、まだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#kokoro-comfort-friend-what-to-say-misprediction"
+  },
+  {
+    "id": "game-frustration-competence-aggression",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Przybylski AK, Deci EL, Rigby CS, Ryan RM, \"Competence-impeding electronic games and players' aggressive feelings, thoughts, and behaviors\" (Journal of Personality and Social Psychology, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/a0034820",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ゲームでイライラするのは、暴力的だから？",
+        "body": "ゲーム中につい声を荒げたり、コントローラーを投げたくなったり。あれって、撃ち合いみたいな暴力的な中身のせいなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7つの研究で「うまくできない」を作った",
+        "body": "心理学者のプシビルスキらは、7つの研究をまとめて発表したんだ。操作のしやすさなどを変えて「うまくできない」感じを作り、遊んだ後の怒りや攻撃的な考え・ふるまいを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いていたのは「うまくできない」感じ",
+        "body": "思うように遊べないゲームほど、怒りの気持ちが強く、攻撃的な考えが浮かびやすく、攻撃的なふるまいも出やすかった。暴力的な中身があってもなくても、この傾向は同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "その場の話で、長い影響は別",
+        "body": "調べたのは遊んだ後のその場の気持ちやふるまい。何年も遊び続けたときの影響や、実際のけんかにつながるかは、この論文からはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "game-violent-aggression-longitudinal",
+        "type": "あわせて読む",
+        "why": "暴力的な中身と攻撃性を、長く追いかけた研究のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#game-frustration-competence-aggression"
+  },
+  {
     "id": "kokoro-few-friends-life-satisfaction-how-often-meet",
     "category": "孤独とつながり",
     "kind": "素朴な疑問",
@@ -28865,7 +29013,14 @@
         "body": "記録の関連を見た研究なので、スマホが退屈を高めたとまでは言えない。対象も大学院生だけで、ほかの職場で同じかはわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-phone-always-bored-smartphone-break-boredom"
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-phone-always-bored-smartphone-break-boredom",
+    "links": [
+      {
+        "id": "kokoro-ai-unavailable-restless-sudoku-wait",
+        "type": "あわせて読む",
+        "why": "スマホを預けて待つ実験では、何かしている組のほうが退屈しなかった"
+      }
+    ]
   },
   {
     "id": "kokoro-stuffy-room-ventilation-focus-co2-office",
@@ -50171,7 +50326,13 @@
         "body": "まとめたのは追跡調査で、短い実験の話ではない。関係が出るかどうかは、研究の作りや研究者の期待で変わっていたと著者は見ている。この問いは何十年も議論が続いていて、ゲームの中身や子どもによる違いもまだわからない。"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "id": "game-frustration-competence-aggression",
+        "type": "あわせて読む",
+        "why": "イライラの元は暴力的な中身より「うまくできない」感じという実験"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/games/game-violent-aggression-longitudinal/"
   },
   {
