@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-dha-omega3-supplement-memory-research-dha-memory-meta",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Yurko-Mauro et al., \"Docosahexaenoic acid and adult memory: a systematic review and meta-analysis\" (PLoS ONE, 2015)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0120391",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/dha-omega3-supplement-memory-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "DHAで記憶力アップ？",
+        "body": "「DHAで記憶力をサポート」って広告、よく見るよね。試験勉強の前に飲めば、暗記がはかどったりするのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "15の試験をまとめた",
+        "body": "Yurko-Mauroらは、DHA（またはDHAとEPA）のサプリと偽薬を比べた15の試験をまとめて、出来事を覚える記憶などへの効果を調べたんだ。対象は神経の病気のない18歳以上の大人だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "物忘れの自覚がない人では差ゼロ",
+        "body": "物忘れの自覚がない人では効果の大きさはほぼゼロで、45歳以下でも差はなかった。物忘れが気になる人に限ると、小さな改善が見られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験は少なく、資金はサプリ会社",
+        "body": "物忘れが気になる人の試験は5件だけ。しかもこのメタ分析は原料会社の資金で作られ、筆頭著者はその社員なんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-omega3-supplement-cognitive-decline-cochrane",
+        "type": "あわせて読む",
+        "why": "物忘れのない60歳以上でオメガ3を試した、より大きな試験のまとめ"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-dha-omega3-supplement-memory-research-dha-memory-meta"
+  },
+  {
+    "id": "research-mindfulness-meditation-procrastination-research-single-session",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Mousavi et al., \"Acceptance and Commitment Therapy and Cognitive Behavioural Therapy Single-Session Interventions Reduce Procrastination among Students Compared to a Control Group: The CONCRAS Study\" (Psychotherapy and Psychosomatics, 2026)",
+    "sourceUrl": "https://doi.org/10.1159/pps/aemag001",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/mindfulness-meditation-procrastination-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "1回の面談で先延ばしは変わる？",
+        "body": "先延ばしを直すには、何週間もかかりそうな気がするよね。たった1回、話を聞くだけで変わることってあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約60分の面談を1回だけ",
+        "body": "Mousaviらは、ドイツの大学で、先延ばし中の課題がある学生151人をくじで3組に分けた。気持ちを受け止めて行動するACTの面談、認知行動療法の面談、何もしない組だよ。面談は約60分を1回だけ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらの面談も先延ばしが減った",
+        "body": "2週間後までの測定で、2つの面談はどちらも何もしない組より先延ばしが大きく減った。2つの方法の差はなく、効果を期待していた人ほどよく改善したらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "2週間より先は不明",
+        "body": "追跡は2週間までで、何か月も続くかはわからない。先延ばしの量は本人の回答で、課題を本当に終えたかは測っていないよ。大学生での結果で、ほかの年代や職場で同じかもまだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-mindfulness-meditation-procrastination-research-single-session"
+  },
+  {
+    "id": "research-habit-travel-trip-disrupted-restart-research-lockdown-habits",
+    "category": "習慣形成",
+    "kind": "素朴な疑問",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Maltagliati et al., \"Evolution of physical activity habits after a context change: The case of COVID-19 lockdown\" (British Journal of Health Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.1111/bjhp.12524",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/habit-travel-trip-disrupted-restart-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "強い習慣なら、生活が変わっても平気？",
+        "body": "何年も続けてきた運動の習慣なら、生活が大きく変わっても崩れないはず。そう思うよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "外出制限の前・途中・終わり",
+        "body": "Maltagliatiらは、2020年春の外出制限の時期に、フランスとスイスの283人にオンラインで答えてもらい、制限の前・途中・終わりの3つの時点で運動の習慣がどう変わったかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "強い習慣ほど大きく下がった",
+        "body": "習慣は制限の途中で弱まり、もともと強い習慣を持っていた人ほど大きく下がった。制限前の習慣の強さは、制限中の運動量とつながっていなかったよ。一方、制限の途中の習慣は、終わりごろの運動とつながっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の答えによる調査",
+        "body": "習慣も運動も本人の答えで、くじで分けた実験ではない観察研究。外出制限という特別な変化の結果で、数日の旅行や引っ越しでも同じかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-travel-trip-disrupted-restart-research-lockdown-habits"
+  },
+  {
+    "id": "money-sadness-spend-more-misery-not-miserly-replication",
+    "category": "お金の心理学",
+    "kind": "よくある説",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Garg, Williams & Lerner, \"The misery-is-not-miserly effect revisited: Replication despite opportunities for compensatory consumption\" (PLOS ONE, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0199433",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "落ち込むと、つい買い物しちゃう？",
+        "body": "嫌なことがあった日に、ついネットで買い物。そんな「やけ買い」に覚えがある人も多いよね。悲しい気分って、お金の使い方まで変えるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "悲しい映画のあとに値段をつける",
+        "body": "Gargらは大学生111人を、悲しい映画の場面か自然のドキュメンタリーを約12分見る組にくじで分けた。そのあと水筒と現金のどちらがほしいかを、0.5〜14ドルの金額ごとに選んでもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "悲しい組は、少し高い値をつけた",
+        "body": "悲しい場面を見た組は水筒に平均6.42ドルの値をつけ、ふつうの組の5.35ドルより高かった。ポップコーンを食べながら見た組でも同じだったよ。2004年の元の研究とまとめると、効果は小〜中くらいらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "水筒1つ、実験室での話",
+        "body": "大学生が実験室で水筒1つに値をつけた話で、ふだんの買い物やネット通販で同じかは確かめていない。悲しい気分が何日も続くときにどうなるかも、この研究ではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#money-sadness-spend-more-misery-not-miserly-replication"
+  },
+  {
+    "id": "food-fruit-vegetables-happiness-longitudinal",
+    "category": "食事と脳",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Mujcic & Oswald, \"Evolution of Well-Being and Happiness After Increases in Consumption of Fruit and Vegetables\" (American Journal of Public Health, 2016)",
+    "sourceUrl": "https://doi.org/10.2105/AJPH.2016.303260",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "野菜や果物を食べると、気分も上向く？",
+        "body": "野菜や果物は体にいいって言うけど、病気の予防に効いてくるのは何十年も先の話だよね。気分や満足感なら、もっと早く何か変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "オーストラリアの大人1万2千人",
+        "body": "Mujcicらは、オーストラリアの大人12,385人の食事の記録を、2007・2009・2013年の調査で追いかけたんだ。収入や暮らしの変化を計算でそろえて、幸福感や生活の満足度の変化と比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "増やした人ほど、満足度も上がった",
+        "body": "野菜と果物を増やした人ほど、幸福感や生活の満足度が上がっていた。1日8皿ぶん増やすと満足度は最大0.24点上がる計算で、変化は2年以内に見られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "食べたから幸せ、とまでは言えない",
+        "body": "くじで分けた実験ではなく、暮らしを追った調査。気分が上向いたから食生活を変えた可能性も残るよ。食べた量は本人の記録で、オーストラリア以外で同じかもわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-fruit-vegetables-happiness-longitudinal"
+  },
+  {
     "id": "dokugaku-why-curiosity-helps-memory-curiosity-spillover",
     "category": "記憶のしくみ",
     "kind": "よくある説",
@@ -15494,6 +15667,11 @@
         "id": "food-ginkgo-dementia-prevention-rct",
         "type": "あわせて読む",
         "why": "同じくサプリで物忘れを防げるかを、くじ引き実験で確かめた研究"
+      },
+      {
+        "id": "research-dha-omega3-supplement-memory-research-dha-memory-meta",
+        "type": "あわせて読む",
+        "why": "DHAと記憶の別のまとめ。物忘れの自覚がない人では差がなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/food-brain/#food-omega3-supplement-cognitive-decline-cochrane"
