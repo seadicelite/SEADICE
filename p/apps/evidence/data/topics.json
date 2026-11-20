@@ -1,5 +1,185 @@
 [
   {
+    "id": "kokoro-few-friends-life-satisfaction-how-often-meet",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Amati V, Meggiolaro S, Rivellini G, Zaccarin S, \"Social relations and life satisfaction: the role of friends\" (Genus, 2018)",
+    "sourceUrl": "https://doi.org/10.1186/s41118-018-0032-z",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/few-friends-life-satisfaction/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "友達とあまり会わないのって、まずい？",
+        "body": "周りは毎週のように友達と出かけているのに、自分は月に1回会えればいいほう。それって暮らしの満足に響くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イタリアの2万5千人の調査",
+        "body": "イタリアの国の調査（2012年）で、18〜64歳の25,190人について、友達と会う回数、友達づきあいへの満足、暮らしの満足を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "回数より、満足の差が大きい",
+        "body": "暮らしの満足が10点中7点以上の人は、週2回以上会う人で66.3%、週1回〜月に数回で65.0%、年に数回以下で53.5%。友達づきあいに「とても満足」の人では78.0%、満足していない人では43.3%と、差はもっと大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一度きりの調査",
+        "body": "一度の調査なので、友達づきあいが満足を生んだのか、満足している人が友達づきあいも高く感じるのかは区別できない。イタリアの18〜64歳の話で、ほかの国で同じかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-few-friends-life-satisfaction-isolation-vs-loneliness",
+        "type": "あわせて読む",
+        "why": "友達の少なさと寂しさは、いつも重なるわけではなかった研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-few-friends-life-satisfaction-how-often-meet"
+  },
+  {
+    "id": "kokoro-workaholism-leisure-prevent-leisure-buffer",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Aziz S et al., \"Take a break! Leisure participation moderates the workaholism–work stress relationship\" (Career Development Quarterly, 2023)",
+    "sourceUrl": "https://doi.org/10.1002/cdq.12336",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/workaholism-leisure-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "働きすぎでも、休めば平気？",
+        "body": "仕事から離れられない人でも、運動や休みをとればストレスは軽くなる。よく聞く話だけど、データではどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国の367人に聞いた",
+        "body": "週40時間以上働く米国の367人にネットで聞いた調査。働きすぎの度合い、仕事のストレス、運動・瞑想・休暇に使った時間をたずねたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "余暇が多いと結びつきが弱い",
+        "body": "働きすぎな人ほどストレスも強かったけど、その結びつきの強さは余暇が少ないほう（下から16%）で0.51、多いほう（上から16%）で0.31。余暇が多い人ほど弱めだったらしい。ただし差は統計的にぎりぎりだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "休めば治るとは言えない",
+        "body": "1回だけの調査で、休暇をとれる人はもともと余裕があるのかもしれない。余暇を増やしたらストレスが減るかは、実験で確かめられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-workaholism-leisure-prevent-leisure-buffer"
+  },
+  {
+    "id": "dokugaku-why-absorbed-in-studying-some-days-flow-personality",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Xie et al., \"Learning flow in educational contexts: A meta-analysis of its antecedents and outcomes\" (British Journal of Educational Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/bjep.70075",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/why-absorbed-in-studying-some-days-flow/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "没頭できるかは性格しだい？",
+        "body": "時間を忘れて勉強に入りこめる人と、すぐ気が散る人。生まれつきの性格の差だと思われがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "108件・約4万3千人の研究をまとめた",
+        "body": "学びの場での「フロー（没頭状態）」を調べた108件の研究、合計4万2,952人分をまとめたメタ分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "性格より「難しさの釣り合い」",
+        "body": "性格とフローの相関はr=.16〜.24と小さめ。難しさと力の釣り合いはr=.49、目標を決めることはr=.61と、もっと強い関係だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "相関で、因果ではない",
+        "body": "ほとんどが一時点の相関の研究で、著者らも原因と結果の向きはわからないと書いている。性格の分析はそれぞれ3本の研究だけ。難しさを変えれば没頭できる、とまでは言えないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-absorbed-in-studying-some-days-flow-personality"
+  },
+  {
+    "id": "nature-front-garden-plants-stress",
+    "category": "自然と健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Chalmin-Pui LS, Roe J, Griffiths A, Smyth N, Heaton T, Clayden A, Cameron R, \"'It made me feel brighter in myself' - The health and well-being impacts of a residential front garden horticultural intervention\" (Landscape and Urban Planning, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.landurbplan.2020.103958",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "玄関先に花を置くと、気分は変わる？",
+        "body": "森や公園が心にいいって話はよく聞くよね。じゃあ、家の前のほんの少しの植物でも、何か変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "舗装された玄関先に鉢を置いた",
+        "body": "英国北部サルフォードの住宅街で、舗装されたままの約10m²の玄関先38か所に花や低木の鉢を置いた研究。住民42人のストレスの感じ方と、だ液のストレスホルモン（コルチゾール）を、植える前と約3か月後で比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "健康的なホルモンの波が24%→53%",
+        "body": "前後ともホルモンを測れた16人で、朝高く夜に下がる健康的な1日の波の人が24%から53%に増えたらしい。ストレスの感じ方も下がった。でも幸福感の点数は、はっきりとは上がらなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きではない小さな研究",
+        "body": "グループ分けはくじ引きではなく、ホルモンを前後とも測れたのは16人だけ。植物を後から受け取ったグループと比べたストレスの差は、統計的にはっきりしなかった。英国の1つの地域だけの話だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#nature-front-garden-plants-stress"
+  },
+  {
+    "id": "sleep-first-night-effect-home-too",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Wick AZ, Combertaldi SL & Rasch B, \"The first-night effect of sleep occurs over nonconsecutive nights in unfamiliar and familiar environments\" (Sleep, 2024)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/zsae179",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "枕が変わると眠れないのは、場所のせい？",
+        "body": "旅先やはじめての部屋だと、なかなか寝つけない。「枕が変わったから」ってよく言うけど、慣れない場所のせいなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "研究室と自宅で、眠りを記録",
+        "body": "スイスの大学の研究。18〜31歳の健康な45人が、1週間あけて研究室で2晩眠った。別の30人は研究室で2晩、自宅で2晩、頭に電極をつけて眠りを記録したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自宅でも1晩目は眠りが乱れた",
+        "body": "研究室の1晩目は寝つくまで平均約20分、2晩目は約14分で、眠った時間も1晩目が短かった。この1晩目の乱れは住み慣れた自宅でも見られたらしい。左右の脳の眠りの深さの差は、1晩目の乱れと結びついていなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「測られる」慣れなさかも",
+        "body": "自宅でも頭に電極をつけて眠ったので、場所より、記録される状況への慣れなさが効いたのかもしれない。対象は若くて健康な人で、旅先のホテルで調べたわけじゃないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-first-night-effect-sleep-why-research-night-watch",
+        "type": "反対の結果",
+        "why": "左右の脳の差が1晩目の眠りの乱れと結びつくかで、結果が分かれた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-first-night-effect-home-too"
+  },
+  {
     "id": "kokoro-ai-control-sense-keep-share-prevent-automation-agency",
     "category": "AIとのつきあい方",
     "kind": "素朴な疑問",
@@ -2016,6 +2196,11 @@
         "id": "kokoro-lonely-even-with-others-company-not-cure",
         "type": "あわせて読む",
         "why": "人と一緒にいても、寂しさが消えるとは限らなかった研究"
+      },
+      {
+        "id": "kokoro-few-friends-life-satisfaction-how-often-meet",
+        "type": "あわせて読む",
+        "why": "友達と会う回数と満足、どちらが暮らしの満足と結びつくかを調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-few-friends-life-satisfaction-isolation-vs-loneliness"
@@ -18621,7 +18806,14 @@
         "body": "35人を3つの実験に分けていて、1つの実験は十数人。調べたのは検査室で、最初の眠りのひと区切りだけ。左側だけが見張り役になる理由は、著者たちもまだ推測だと書いているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/sleep/#research-first-night-effect-sleep-why-research-night-watch"
+    "webUrl": "https://seadice.win/evidence/sleep/#research-first-night-effect-sleep-why-research-night-watch",
+    "links": [
+      {
+        "id": "sleep-first-night-effect-home-too",
+        "type": "反対の結果",
+        "why": "別の研究では、左右の脳の差と1晩目の眠りの乱れは結びつかなかった"
+      }
+    ]
   },
   {
     "id": "research-habit-goal-lower-after-missed-days-research-adaptive-goals",
