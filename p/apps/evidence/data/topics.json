@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-shift-work-study-schedule-reset-sleep-before-learning",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Newbury et al., \"Sleep deprivation and memory: Meta-analytic reviews of studies on sleep deprivation before and after learning\" (Psychological Bulletin, 2021)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000348",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/shift-work-study-schedule-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "徹夜明けに覚えたことは残る？",
+        "body": "夜勤明けや徹夜の後でも、がんばれば覚えられそうな気がするよね。眠らずに過ごした後の記憶を調べた研究をまとめた論文があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50年分の実験をまとめた",
+        "body": "1970〜2020年の、一晩以上まったく眠らない実験をまとめた。対象は健康な大人。覚える前に眠らなかった研究は31件・927人、覚えた後に眠らなかった研究は45件・1,616人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "覚える前の寝不足のほうが響く",
+        "body": "眠らずに過ごした後に覚えると、記憶の成績が下がった（効果量g=0.62）。覚えた後に眠らなかった場合（g=0.28）より影響が大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当の大きさはもっと小さいかも",
+        "body": "著者ら自身が、発表されやすい結果への偏りと、検出力の低い（人数の少ない）研究が多いことを指摘している。一晩まるごと眠らない場合だけなので、短く眠った日の影響はわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-shift-work-study-schedule-reset-sleep-before-learning"
+  },
+  {
+    "id": "dokugaku-shift-work-study-schedule-reset-shift-cognition",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Marquié et al., \"Chronic effects of shift work on cognition: findings from the VISAT longitudinal study\" (Occupational and Environmental Medicine, 2015)",
+    "sourceUrl": "https://doi.org/10.1136/oemed-2013-101993",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/shift-work-study-schedule-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "交代勤務と頭の働きを10年追った",
+        "body": "働く人と退職者3,232人（最初の調査で32・42・52・62歳）を10年間追いかけた研究があるんだ。処理の速さと記憶の検査を、5年ごとにくり返したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "10年超で年齢6.5年分の差",
+        "body": "交代勤務の経験がある人は検査の成績が低かった。10年を超える人では、その差が年齢による低下の6.5年分にあたったらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "戻るまでに5年以上",
+        "body": "交代勤務をやめた後、成績が戻るまでには少なくとも5年かかった。勤務を変えればすぐ元どおり、というわけではなさそうだね。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかは別の話",
+        "body": "観察研究なので、交代勤務そのものが原因だとは言い切れない。どんな勤務の組み方なら影響が小さいかも、まだわかっていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#dokugaku-shift-work-study-schedule-reset-shift-cognition"
+  },
+  {
+    "id": "dokugaku-study-habit-cue-checklist-sheet-floss-after-brushing",
+    "category": "習慣形成",
+    "kind": "研究紹介",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Judah et al., \"Forming a flossing habit: An exploratory study of the psychological determinants of habit formation\" (British Journal of Health Psychology, 2013)",
+    "sourceUrl": "https://doi.org/10.1111/j.2044-8287.2012.02086.x",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/study-habit-cue-checklist-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "新しい習慣は、どこに入れるといい？",
+        "body": "新しいことを毎日続けたいとき、いつやるかで迷うよね。いつもの行動の「前」と「後」、どちらに置くと習慣になりやすいかを比べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "フロスを歯みがきの前か後に",
+        "body": "50人全員に動機づけの働きかけをしたうえで、半分は歯みがきの前、半分は後にフロスをするよう伝えた。毎日記録をつけ、4週間後と8か月後に、どれくらい自然にできているかを聞いたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「後」の方が習慣になりやすかった",
+        "body": "歯みがきの後にした人の方が、習慣が強くなる傾向があった。8か月後も習慣が強く、フロスを使う回数も多かったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "50人の探索的な研究",
+        "body": "人数は50人で、著者たちも「探索的な研究」と書いている。フロスの話なので、勉強のような長くて中身の変わる行動で同じになるかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#dokugaku-study-habit-cue-checklist-sheet-floss-after-brushing"
+  },
+  {
+    "id": "caffeine-daily-tolerance-performance",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Lara et al., \"Time course of tolerance to the performance benefits of caffeine\" (PLoS ONE, 2019)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0210275",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "毎日飲むと、カフェインは効かなくなる？",
+        "body": "毎日コーヒーを飲んでいると、だんだん効かなくなる気がするよね。毎日とり続けたときの効き目の変わり方を、20日間追った実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "11人が20日ずつ、本物と偽物を",
+        "body": "運動習慣のある健康な11人が、カフェイン（体重1kgあたり3mg）のカプセルを20日、見分けのつかない偽のカプセルを20日飲んだ。週3回、自転車をこぐ力を測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効くけど、だんだん小さくなる",
+        "body": "カフェインで最大パワーは約4%上がり、その効果は15日ほど続いた。ただ効き目は初日がいちばん大きく、その後少しずつ小さくなっていったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "測ったのは自転車の力だけ",
+        "body": "11人と少なく、測ったのは運動の力。眠気や集中への効き目が同じように薄れるかは、この研究ではわからない。20日より長く続けたときのことも未検討だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-exercise-umbrella",
+        "type": "あわせて読む",
+        "why": "運動前のカフェインの効き目をまとめた研究。毎日続けたときの変化はこちらで"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-daily-tolerance-performance"
+  },
+  {
+    "id": "music-earworm-stop-coping",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Williamson et al., \"Sticky tunes: how do people react to involuntary musical imagery?\" (PLoS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0086170",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "頭の中で同じ曲がループ、どう止める？",
+        "body": "気づくと同じ曲が頭の中でずっと流れている。「イヤーワーム」と呼ばれる現象だよ。みんなはどう対処しているのか、体験談を集めて分けた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "フィンランドとイギリスの1,046件",
+        "body": "フィンランド語と英語のネット調査に寄せられた、イヤーワームへの反応の報告1,046件を、2つの研究室が同じ手順で分類したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "放っておく人も多い。効いたのは曲を聴くこと",
+        "body": "多くの人は気にせず受け流すか、楽しんでいた。止めたい人がよく使い、効いたと答えたのは、その曲を実際に聴くことと、別の音楽や言葉で気をそらすことだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の感想で、試した実験ではない",
+        "body": "効いたかどうかは本人の報告で、方法を比べた実験ではない。別の研究では、積極的に止めようとすると長引いたという結果もあり、著者らも今後の検証が要るとしている。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-earworm-stop-coping"
+  },
+  {
     "id": "dokugaku-too-many-study-goals-cannot-progress-prioritize-both-equally",
     "category": "仕事と働き方",
     "kind": "よくある説",
@@ -46239,7 +46412,13 @@
         "body": "もとの研究の多くは若い男性が対象で、女性や中高年でも同じかはわからない。根拠の質は中くらいから低いものまであり、すべての結果で効果の向きがはっきりしたわけではないよ。"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "id": "caffeine-daily-tolerance-performance",
+        "type": "あわせて読む",
+        "why": "毎日とり続けると、運動での効き目がだんだん小さくなるかを追った実験"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/caffeine/caffeine-exercise-umbrella/"
   },
   {
