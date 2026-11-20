@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-why-curiosity-helps-memory-curiosity-spillover",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Keller et al., \"States of epistemic curiosity interfere with memory for incidental scholastic facts\" (npj Science of Learning, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41539-024-00234-w",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-curiosity-helps-memory/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "面白い話のついでなら覚えられる？",
+        "body": "ワクワクしているときは、何でも頭に入りそうな気がするよね。面白い雑学と一緒に勉強の事実を見せたら、ついでに覚えられるのかを確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "雑学クイズの近くに勉強の事実を",
+        "body": "アメリカの18〜50歳の239人が、雑学の問いと答えの間や後に、科学・歴史・英語の事実を1つずつ見た。あとで抜き打ちの選択式テストをしたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "面白い問いの近くほど、覚えていなかった",
+        "body": "知りたい度合いが高い問いの近くに置いた事実の方が、3通りのやり方すべてで覚えにくかった。好奇心の「おこぼれ」は勉強の内容には届かなかったみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差は小さく、1本の論文の結果",
+        "body": "差は数ポイントと小さく、アメリカでオンラインで1回やった実験だよ。テストもすぐ後だけ。顔写真なら少し覚えやすくなった前の研究もあって、何が違いを生むのかはまだはっきりしていない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-curiosity-helps-memory-curiosity-answers",
+        "type": "反対の結果",
+        "why": "雑学の答えは覚えやすくなったが、近くに置いた勉強の事実は逆に覚えにくかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-curiosity-helps-memory-curiosity-spillover"
+  },
+  {
+    "id": "dokugaku-why-feel-like-impostor-despite-studying-public-modesty",
+    "category": "対人関係の心理学",
+    "kind": "よくある説",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Leary et al., \"The impostor phenomenon: self-perceptions, reflected appraisals, and interpersonal strategies\" (Journal of Personality, 2000)",
+    "sourceUrl": "https://doi.org/10.1111/1467-6494.00114",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-feel-like-impostor-despite-studying/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「自分はにせもの」と思う人は、心の中でもそう思っている？",
+        "body": "成果があっても「たまたま」「実力じゃない」と言う人がいるよね。インポスター現象と呼ばれていて、本気でそう感じていると考えられがちなんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "人前と匿名で、テストの予想を言ってもらった",
+        "body": "研究者たちが3つの研究で確かめた。その1つでは、これから受けるテストの出来を「予想より良さそう／悪そう」と伝えたあと、自分の見込みを人前で言う条件と匿名で書く条件に分けたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "低く言うのは「人前」のときだけ",
+        "body": "インポスターの感じ方が強い人は、人前のときだけ低い予想を口にした。匿名だと差はなかった。失敗したときのダメージを小さくする「見せ方」の面もあると著者らは考えたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "全部が演技というわけではない",
+        "body": "著者らも、本当にそう感じている面はあるとしている。研究の中で受ける1回のテストの話で、実際の試験や仕事でどこまで同じかはまだわからないよ。20年以上前の研究で、追試も確かめられていない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/relationships/#dokugaku-why-feel-like-impostor-despite-studying-public-modesty"
+  },
+  {
+    "id": "dokugaku-why-interesting-asides-hurt-learning-irrelevance-prompt",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Kienitz et al., \"Seductive details hamper learning even when they do not disrupt\" (Instructional Science, 2023)",
+    "sourceUrl": "https://doi.org/10.1007/s11251-023-09632-w",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/why-interesting-asides-hurt-learning/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く話",
+        "title": "教科書の面白いコラム、覚えているのはそっちだけ？",
+        "body": "雑学や余談は覚えているのに、本題が思い出せない。研究では、面白いけど本題と関係の薄い話を「誘惑的詳細」と呼んで、学びを邪魔することがあると調べられてきたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "雷のでき方の文章で実験",
+        "body": "ドイツの2つの大学で集めた学生など248人が、雷のでき方の文章を読んだよ。余談なし、余談あり、余談ありで「この部分は学習に関係ない」と伝える、などの条件にくじで分けて、本題をどれだけ思い出せるかを9点満点でくらべたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「関係ない」と知るだけで差が縮んだ",
+        "body": "余談なしは平均2.56点、余談ありで説明なしは1.77点。「関係ない」と伝えられた人は2.48点で、余談なしとほぼ同じだったらしい。余談を読む時間の割合も小さくなっていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の短い文章での話",
+        "body": "オンラインで短い文章を1回読んだ実験で、応用問題の点には差が出なかった。これまでの研究をまとめると余談の害は小〜中くらいで、何か月も教科書で独学する場面で同じになるかはまだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-interesting-asides-hurt-learning-irrelevance-prompt"
+  },
+  {
+    "id": "alcohol-light-drinking-cancer-risk",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Bagnardi et al., \"Alcohol consumption and site-specific cancer risk: a comprehensive dose-response meta-analysis\" (British Journal of Cancer, 2015)",
+    "sourceUrl": "https://doi.org/10.1038/bjc.2014.579",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "1日1杯くらいなら、がんとは関係ない？",
+        "body": "たくさん飲むのは体に悪いけど、少しなら平気。そう思っている人は多いよね。じゃあ1日1杯くらいの少ないお酒でも、がんは増えるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "572の研究、がん48万件分をまとめた",
+        "body": "1956〜2012年に出た572の研究（がんの人48万6538人分）を集めて、23種類のがんごとに、飲まない人と比べたリスクを量別に計算したんだ。少量は1日12.5g以下（だいたい1杯まで）。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少量でも、増えるがんがあった",
+        "body": "1日1杯までの人でも、飲まない人と比べて口・のどのがんは1.13倍、食道のがん（扁平上皮がん）は1.26倍、女性の乳がんは1.04倍だった。大腸や喉頭のがんは、少量では差が見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "元の研究の多くは、あとから聞いた調査",
+        "body": "約7割は、がんになった人とならなかった人に昔の飲酒を聞いて比べた研究で、飲む量の記憶違いやたばこなどの影響が残るかもしれない。少量での口や食道のがんの増え方は、アジアの研究ではっきりしていた。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-flushing-aldh2",
+        "type": "あわせて読む",
+        "why": "顔が赤くなる体質の話と、飲む量ごとのがんのリスクをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-light-drinking-cancer-risk"
+  },
+  {
+    "id": "posture-straight-neck-neck-pain",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Grob et al., \"The association between cervical spine curvature and neck pain\" (European Spine Journal, 2007)",
+    "sourceUrl": "https://doi.org/10.1007/s00586-006-0254-1",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ストレートネックだと、首が痛くなる？",
+        "body": "レントゲンで「首のカーブがなくなってる、ストレートネックだね」と言われると、それが痛みの原因だと思うよね。実際に、首の形と痛みは関係しているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "首が痛い人と痛くない人のレントゲンを比べた",
+        "body": "スイスの病院で、足の治療に来た45歳以上の107人の首を横からレントゲンで撮った。この1年に首の痛みがあった54人と、なかった53人で、首のカーブの角度を比べたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "首のカーブと痛みに、差はなかった",
+        "body": "首全体のカーブも、骨ごとの角度も、まっすぐや逆向きのカーブの人の割合も、2つのグループで差がなかった。痛む人の中でも、痛みの強さや続く長さと首の形は関係していなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "45歳以上の107人を1回調べただけ",
+        "body": "一度だけの調査で人数も少なく、足の治療で来た45歳以上の人だけ。若い人やスマホをよく使う人で同じかはわからないし、形と痛みが関係しないと言い切れるわけでもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-text-neck-young-adults",
+        "type": "あわせて読む",
+        "why": "うつむく姿勢と首の痛みの関係を、若い人で調べた別の研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-straight-neck-neck-pain"
+  },
+  {
     "id": "dokugaku-why-ai-help-makes-ideas-similar-story-diversity",
     "category": "AIとのつきあい方",
     "kind": "研究紹介",
@@ -106,7 +293,14 @@
         "body": "使ったのは雑学クイズで、何か月も続く勉強で同じ差が出るかはわからない。脳内の物質ドーパミンも、直接は測っていないと著者たちは書いているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-curiosity-helps-memory-curiosity-answers"
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-curiosity-helps-memory-curiosity-answers",
+    "links": [
+      {
+        "id": "dokugaku-why-curiosity-helps-memory-curiosity-spillover",
+        "type": "反対の結果",
+        "why": "同じ雑学の手法で、近くに置いた勉強の事実は逆に覚えにくかった"
+      }
+    ]
   },
   {
     "id": "elder-taste-aging-meta",
@@ -45380,6 +45574,11 @@
         "id": "posture-office-neck-pain-exercise",
         "type": "あわせて読む",
         "why": "うつむき姿勢の調査と、首の痛みに運動が効くかをまとめた分析"
+      },
+      {
+        "id": "posture-straight-neck-neck-pain",
+        "type": "あわせて読む",
+        "why": "首のカーブの形と痛みの関係を、45歳以上で調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-pain/#posture-text-neck-young-adults"
@@ -48535,6 +48734,11 @@
         "id": "alcohol-hyakuyaku-mortality",
         "type": "あわせて読む",
         "why": "体質に関係なく、少量のお酒で長生きするかを107の研究で確かめたまとめ"
+      },
+      {
+        "id": "alcohol-light-drinking-cancer-risk",
+        "type": "あわせて読む",
+        "why": "1日1杯ほどの少量でも、口・食道・乳がんのリスクが少し高かったまとめ"
       }
     ],
     "webUrl": "https://seadice.win/evidence/alcohol/alcohol-flushing-aldh2/"
