@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-why-ai-help-makes-ideas-similar-story-diversity",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Doshi & Hauser, \"Generative AI enhances individual creativity but reduces the collective diversity of novel content\" (Science Advances, 2024)",
+    "sourceUrl": "https://doi.org/10.1126/sciadv.adn5290",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/why-ai-help-makes-ideas-similar/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIにネタをもらうと上手になる？",
+        "body": "作文のネタに困ったらAIに聞く人、多いよね。それで本当に面白い文章になるのか、実験で確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "293人が8文の物語を書いた",
+        "body": "AIなし・AIのアイデアを1つ見られる・最大5つ見られる、の3グループに分けて、短い物語を書いてもらった。別の600人が読んで評価したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "評価は上がるけど、似てくる",
+        "body": "5つ見られた人の物語は、新しさの評価が8.1%上がった。もともと発想が苦手な人ほど伸びたらしい。でもAIを使った物語どうしは似ていて、AIのアイデアとも約5%似ていたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く使うとどうなる？",
+        "body": "8文だけの物語で、AIとやりとりもできない設定だった。何か月もAIと書き続けたら個性や考える力がどう変わるかは、まだわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#dokugaku-why-ai-help-makes-ideas-similar-story-diversity"
+  },
+  {
+    "id": "dokugaku-why-beginners-overconfident-relearning-beginners-bubble",
+    "category": "意思決定バイアス",
+    "kind": "よくある説",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Sanchez & Dunning, \"Overconfidence among beginners: Is a little learning a dangerous thing?\" (Journal of Personality and Social Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/pspa0000102",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-beginners-overconfident-relearning/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "初心者ほど自信がない？",
+        "body": "新しいことを始めたばかりの人は、自分はまだまだだと控えめなもの。そう思いがちだよね。でも、少し学んだ後はどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "架空の「ゾンビ病」を診断",
+        "body": "6つの研究のうち4つで、だれも知らない課題を学んでもらった。症状から架空の「ゾンビ病」を診断するなどして、自信と正答の変化を追ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "数回で自信が実力を追い越す",
+        "body": "最初は自信過剰じゃなかった。でも数回学んだだけで、自信が実力を追い越す「初心者のバブル」が生まれた。元は、少ない経験で急いで作った、まちがいの多い理屈だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本物の勉強でも同じ？",
+        "body": "4つは実験室の架空の課題での結果。お金の知識を調べた残り2つも、年代ごとの自己評価を比べたもので、学びはじめの人を追ったわけじゃない。資格や語学を何か月も学ぶ場面は、直接は調べられていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-dunning-kruger-artifact",
+        "type": "あわせて読む",
+        "why": "同じ「自信と実力のずれ」を、学びはじめの時期の変化から見た実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/decision-bias/#dokugaku-why-beginners-overconfident-relearning-beginners-bubble"
+  },
+  {
+    "id": "dokugaku-why-curiosity-helps-memory-curiosity-answers",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Gruber et al., \"States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit\" (Neuron, 2014)",
+    "sourceUrl": "https://doi.org/10.1016/j.neuron.2014.08.060",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-curiosity-helps-memory/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "好きなことだけ覚えられるのはなぜ？",
+        "body": "興味のある話は一度で覚えられるのに、テキストの用語は残らない。実は「知りたい」という気持ちそのものが、覚えやすさを変えるらしいんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "知りたい度を付けてから答えを見る",
+        "body": "参加者は雑学の問いを見るたび、答えをどれくらい知りたいかを6段階で付けた。そのあと答えを見て、思い出せるかをテストしたよ。別の実験では約1日後にテストしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1日後でも差が残った",
+        "body": "すぐ後のテスト（18人）では、知りたい度が高い問いの答えを70.6%、低い問いは54.1%思い出せた。別の27人に約1日後に聞いた実験でも45.9%と28.1%で、差は残っていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の雑学クイズの話",
+        "body": "使ったのは雑学クイズで、何か月も続く勉強で同じ差が出るかはわからない。脳内の物質ドーパミンも、直接は測っていないと著者たちは書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-curiosity-helps-memory-curiosity-answers"
+  },
+  {
+    "id": "elder-taste-aging-meta",
+    "category": "親の老いと介護",
+    "kind": "よくある説",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Alves et al., \"Changes in taste perception in elderly population and its potential impact on oral health: a systematic review with meta-analysis\" (Frontiers in Oral Health, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/froh.2024.1517913",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "年をとると、味がわかりにくくなる？",
+        "body": "親の料理が前より濃い味になった気がする。年をとると味を感じにくくなる、ってよく聞くよね。本当なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18件・約2,700人を比べた",
+        "body": "2024年の系統的レビューが、60歳以上の1,048人と18〜59歳の1,680人で味を感じる力を比べた、18件の研究をまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "甘み・塩味・うま味で差",
+        "body": "どの研究でも、高齢の人はより濃くないと味を感じにくかった。数字でまとめると、はっきり差が出たのは甘み・塩味・うま味。酸味と苦みには統計的な差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追った研究はない",
+        "body": "どれも一時点で年代を比べた研究で、測り方もばらばら。認知症の人や歯がない人、味を変える薬を飲み続ける人は除かれていた。料理が濃くなる理由までは調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#elder-taste-aging-meta"
+  },
+  {
+    "id": "parenting-conversational-turns-10-years",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Gilkerson et al., \"Language Experience in the Second Year of Life and Language Outcomes in Late Childhood\" (Pediatrics, 2018)",
+    "sourceUrl": "https://doi.org/10.1542/peds.2017-4276",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "話しかけるほど、言葉が育つ？",
+        "body": "赤ちゃんにはたくさん話しかけよう、ってよく聞くよね。とにかく言葉をたくさん聞かせることが大事なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "家の会話を録音して10年後へ",
+        "body": "生後2〜36か月の146人の家で、丸1日の録音を月1回、6か月続けた。大人の言葉の数と親子のやりとりの回数を機械で数え、9〜14歳で言葉と知能のテストをしたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係が強いのは「やりとり」",
+        "body": "1歳半〜2歳ごろのやりとりの回数は、家庭の経済状況を考えに入れても、10年後のIQや語彙の差の14〜27%を説明した。大人が話した言葉の数は、そうすると関係がかなり弱まったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "増やせば伸びるかは未確認",
+        "body": "これは関係を見た研究で、やりとりを増やす働きかけをして確かめたわけじゃない。人数も146人と多くはなく、どちらが原因かはこの研究からはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#parenting-conversational-turns-10-years"
+  },
+  {
     "id": "dokugaku-shift-work-study-schedule-reset-sleep-before-learning",
     "category": "記憶のしくみ",
     "kind": "素朴な疑問",
@@ -50129,6 +50302,11 @@
         "id": "dokugaku-adult-relearning-starting-point-check-self-assessment",
         "type": "反対の結果",
         "why": "医師の研究では、力の低い人ほど自己評価がずれていたという報告がある"
+      },
+      {
+        "id": "dokugaku-why-beginners-overconfident-relearning-beginners-bubble",
+        "type": "あわせて読む",
+        "why": "学びはじめに自信が実力を追い越す様子を、6つの研究で追った"
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/replication-dunning-kruger-artifact/"
