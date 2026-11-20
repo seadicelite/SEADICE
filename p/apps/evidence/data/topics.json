@@ -1,5 +1,146 @@
 [
   {
+    "id": "kokoro-ai-control-sense-keep-share-prevent-automation-agency",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Ueda S, Nakashima R & Kumada T, \"Influence of levels of automation on the sense of agency during continuous action\" (Scientific Reports, 2021)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-021-82036-3",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-control-sense-keep-share-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "機械に任せると「自分でやった感」は消える？",
+        "body": "AIや自動の機能に任せるほど楽になるけど、「これ、自分で決めたっけ？」って感じることがあるよね。どのくらい任せると、その感覚は薄れるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "こっそり手助けするカーソル",
+        "body": "日本の理化学研究所の実験。動く目標をレバーでカーソルを動かして追いかけてもらい、コンピューターがこっそり手助けする割合を変えて「自分で操作している」感じを7段階で聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "9割までは保たれた",
+        "body": "手助けが80〜90%の条件では、自分だけで操作したときと差がなかったらしい。下がったのは95%と全自動の条件。「うまくできた」感じのほうは手助けが多いほど高く、全自動でいちばん高かったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIの生活でも同じ？",
+        "body": "27人と26人の2つの短い実験室の課題で、AIを使った実験じゃない。予定や文章をAIに任せる毎日でも同じ境目があるのか、心の状態とどう関係するのかはまだわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-control-sense-keep-share-prevent-automation-agency"
+  },
+  {
+    "id": "kokoro-ai-cutback-relapse-recover-success-spiral",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "van Alebeek H, Jones CM, Reichenberger J, Pannicke B, Schüz B, Blechert J, \"Goal pursuit increases more after dietary success than after dietary failure: examining conflicting theories of self-regulation using ecological momentary assessment\" (International Journal of Behavioral Nutrition and Physical Activity, 2024)",
+    "sourceUrl": "https://doi.org/10.1186/s12966-024-01566-x",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-cutback-relapse-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "失敗した次の日こそ、人は頑張れる？",
+        "body": "「昨日食べすぎたから、今日こそ気をつけよう」。失敗をばねに頑張れる、ってよく言うよね。でも、実際の毎日の記録で見るとどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "174人の14日間の記録",
+        "body": "オーストリアとドイツで、食事に気をつけたい174人が14日間、1日4〜6回スマホで食事について答え、夜には「明日どれだけ気をつけるつもりか」を記録した2つの研究をまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "頑張れたのは、うまくいった日のあと",
+        "body": "実は、目標どおりに食べられた日のあとほど「明日も気をつけよう」が強く上がっていて、うまくいかなかった日のあとは上がり方が小さかったらしい。失敗をばねにするより、うまくいった流れに乗る形だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本当に行動まで変わった？",
+        "body": "測ったのは「気をつけるつもり」の自己申告で、実際に食べる量が変わったかは調べていない。食事の研究なので、ほかの目標でも同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#kokoro-ai-cutback-relapse-recover-success-spiral"
+  },
+  {
+    "id": "kokoro-ai-job-worry-home-spillover-prevent-daily-diary",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Yi X & Kumar S, \"AI awareness and the breakdown of daily recovery: a spillover pathway to work–family strain\" (Frontiers in Public Health, 2025)",
+    "sourceUrl": "https://doi.org/10.3389/fpubh.2025.1738073",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-job-worry-home-spillover-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "AIの心配、家まで持ち帰ってない？",
+        "body": "「この仕事、AIに取られるかも」って心配、帰り道も夕食のときも頭に残ることがあるよね。それって家での過ごし方にも響くのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10日間、毎日2回の記録",
+        "body": "AIを取り入れた中国東部の5つの高級ホテルで客と接する119人が、10日間、勤務の終わりにAIの心配の強さを、寝る前に仕事を忘れられたかと仕事が家庭に食い込んだかを記録した研究。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "心配が強い日ほど、仕事を忘れにくい",
+        "body": "同じ人の中で比べると、AIの心配が強い日ほど帰宅後に仕事を忘れにくく、そのぶん仕事が家庭に食い込んだと感じていたらしい。ふだん立ち直りが早い人ほど、この結びつきは弱かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "中国の接客業の自己申告",
+        "body": "すべて本人の自己申告で、対象は中国のホテルで客と接する人だけ。家族の側がどう感じたかや、日本の職場でも同じかはわかっていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-rest-not-recovering-stress-research-detachment-training",
+        "type": "あわせて読む",
+        "why": "仕事を頭から切り離せないと家庭に響く研究と、その力を練習で伸ばす研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-job-worry-home-spillover-prevent-daily-diary"
+  },
+  {
+    "id": "scent-breast-milk-odor-newborn-pain-meta",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Laleh SS, İnal S, Maghalian M, Mirghafourvand M, \"The effect of breast milk odor on infant pain and stress levels: a systematic review and meta-analysis\" (BMC Pediatrics, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s12887-025-05504-z",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "母乳の匂いで、赤ちゃんの痛みはやわらぐ？",
+        "body": "赤ちゃんはお母さんの匂いがわかる、ってよく聞くよね。じゃあ注射や採血みたいな痛い処置のとき、母乳の匂いをかがせると何か違うのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7つの研究、478人の赤ちゃん",
+        "body": "イラン・トルコ・エジプトで行われた7つの研究（くじで分けた試験など）、合わせて478人の新生児をまとめた分析。予防接種や採血、たんの吸引のときに、母乳の匂いをかいだ子とかがなかった子を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "痛がる反応は小さめだった",
+        "body": "母乳の匂いをかいだ赤ちゃんは、痛がる様子の点数が低く、心拍数も少し落ち着いていたらしい。ただ、ストレスの指標は2つの研究しかなく、はっきりした差は出なかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "確かさは「低い」",
+        "body": "研究ごとの結果のばらつきがとても大きく、著者自身も根拠の確かさを「低い〜とても低い」と評価している。3つの国の少ない研究だけで、日本の病院でも同じかはまだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-breast-milk-odor-newborn-pain-meta"
+  },
+  {
     "id": "dokugaku-why-miss-own-mistakes-misreading-exam-moses-illusion",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -25281,6 +25422,11 @@
         "id": "work-detachment",
         "type": "あわせて読む",
         "why": "切り離せる人ほど元気という関係と、その力を練習で伸ばす研究"
+      },
+      {
+        "id": "kokoro-ai-job-worry-home-spillover-prevent-daily-diary",
+        "type": "あわせて読む",
+        "why": "仕事を切り離せない日ほど家庭に響くという、AIの心配の日記研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/work/#research-rest-not-recovering-stress-research-detachment-training"
