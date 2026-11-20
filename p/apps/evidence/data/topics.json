@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-why-miss-own-mistakes-misreading-exam-moses-illusion",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Speckmann & Unkelbach, \"Moses, money, and multiple-choice: The Moses illusion in a multiple-choice format with high incentives\" (Memory & Cognition, 2021)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-020-01128-z",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-miss-own-mistakes-misreading-exam/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "モーゼは箱舟に動物を何頭ずつ乗せた？",
+        "body": "「2頭」と答えたくなるよね。でも箱舟に動物を乗せたのはノアで、モーゼじゃない。知っているのに見落とすこの現象は「モーゼの錯覚」と呼ばれているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「答えられない」を選択肢に入れてみた",
+        "body": "ドイツの研究者が、四択に「答えられない」という正解を入れて試した。4つの実験で計914人。最初の実験は大学生98人で、40問の半分がおかしな問いだったらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "それでも約半分で見落とした",
+        "body": "正解が目の前にあっても、おかしな問いの49%で「2頭」にあたる答えが選ばれた。最大12ユーロの賞金をかけても、見落としは16%ほどしか減らなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本物の試験でも同じ？",
+        "body": "使われたのは一般常識のクイズで、短い問いを読む実験。長い問題文の試験や計算の見直しで、どれくらい同じことが起きるかは確かめられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-miss-own-mistakes-misreading-exam-moses-illusion"
+  },
+  {
+    "id": "dokugaku-why-weekend-sleep-in-monday-study-social-jetlag-grades",
+    "category": "光と体内時計",
+    "kind": "研究紹介",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Haraszti et al., \"Social jetlag negatively correlates with academic performance in undergraduates\" (Chronobiology International, 2014)",
+    "sourceUrl": "https://doi.org/10.3109/07420528.2013.879164",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/why-weekend-sleep-in-monday-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く話",
+        "title": "週末の寝坊、成績にも響く？",
+        "body": "休日に遅くまで寝ると、月曜の朝がかえってしんどい。平日と休日の寝る時刻のずれは「社会的時差ぼけ」と呼ばれているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生の小テストの点とくらべた",
+        "body": "ハンガリーの大学で753人が睡眠の質問票に答え、そのうち247人の成績と照らし合わせたよ。毎週の小テストの平均点と、平日と休日のずれの大きさを見たんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "授業期間だけ、ずれと点が関係",
+        "body": "授業が決まった時刻にある期間は、ずれが大きい人ほど小テストの点が低かった。予定のない試験期間には関係が消えたらしい。休日に遅く寝る人は、朝のテストで点が低かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ずれが原因とは言い切れない",
+        "body": "ハンガリーの1つの大学の学生を調べた観察研究なので、ずれが点を下げたとは言えないよ。平日の睡眠時間や寝不足とは、成績の関係が見られなかったんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-weekend-sleep-in-monday-social-jetlag-why-research-weekend-phase-delay",
+        "type": "あわせて読む",
+        "why": "週末のずれが体内時計を遅らせる実験。こちらはそのずれと成績の関係"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#dokugaku-why-weekend-sleep-in-monday-study-social-jetlag-grades"
+  },
+  {
+    "id": "kokoro-ai-chat-connection-differs-why-anthropomorphism",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Folk D, Heine SJ & Dunn E, \"Individual differences in anthropomorphism help explain social connection to AI companions\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-19212-2",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/ai-chat-connection-differs-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く話",
+        "title": "AIと話して温かくなる人、ならない人",
+        "body": "AIと少し話しただけで、誰かに聞いてもらえた気がする人もいれば、「しょせん機械」としか思えない人もいるよね。この違いはどこから来るんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6分のチャットと6分の日記",
+        "body": "米国とカナダの大人1,034人を、この1か月の出来事を温かく返事するよう指示したAIと6分話す組と、6分日記を書く組にくじで分けて、直後のつながりの感覚を比べた実験。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "AIを人のように感じる人ほど",
+        "body": "AIと話した組のほうがつながりの感覚はわずかに高く、その差はAIに心や意識があるかもと考えやすい人ほど大きかったらしい。そう考えにくい人では日記との差が見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "直後の気持ちだけ",
+        "body": "測ったのは話した直後の気持ちを1つの質問でだけ。平均の差は小さく、長く使い続けたときに人とのつながりがどうなるかはわかっていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-chat-connection-differs-why-anthropomorphism"
+  },
+  {
+    "id": "japan-sleep-baby-growth-neruko",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Lampl & Johnson, \"Infant growth in length follows prolonged sleep and increased naps\" (Sleep, 2011)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/34.5.641",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る子は育つって本当？",
+        "body": "昔からよく言うよね。赤ちゃんの眠りと身長の伸びを、毎日の記録で照らし合わせた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "23人の赤ちゃんを毎日記録",
+        "body": "親が寝た時刻と起きた時刻を毎日日記につけ、23人の赤ちゃん（うち女の子14人）を4〜17か月追った。記録は合わせて5,798日分。身長がいつ伸びたかと比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "よく寝た時期のすぐあとに伸びた",
+        "body": "身長がぐんと伸びる時期は、1日の睡眠時間や昼寝の回数が増えた時期と重なっていて、0〜4日のずれで続いていた。この重なりは23人全員で見られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝たから伸びた、とは限らない",
+        "body": "23人だけの観察研究で、睡眠は親の日記。眠りが伸びを起こしたのか、伸びる時期だから眠くなるのかは分けられない。最終的な身長を調べた研究でもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-golden-time-growth-hormone",
+        "type": "あわせて読む",
+        "why": "眠りと成長ホルモンの関係。こちらは赤ちゃんの身長の伸びと眠りを毎日記録した"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-sleep-baby-growth-neruko"
+  },
+  {
+    "id": "brain-myth-supertaskers-multitask",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Watson & Strayer, \"Supertaskers: Profiles in extraordinary multitasking ability\" (Psychonomic Bulletin & Review, 2010)",
+    "sourceUrl": "https://doi.org/10.3758/PBR.17.4.479",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人間はマルチタスクができない？",
+        "body": "「脳は2つのことを同時にできない」ってよく聞くよね。でも中には平気な人もいるのかな？ 運転しながら頭を使う実験で確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "運転しながら記憶と計算",
+        "body": "200人が運転シミュレーターで、運転だけ・耳で聞いて覚えて計算する課題だけ・両方同時、をくらべた。携帯で話しながら運転する場面を想定したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ほとんどの人は落ちた、でも2.5%は",
+        "body": "大多数は同時にやると運転も課題も成績が落ちた。でも2.5%（200人中5人）はどちらもまったく落ちなかった。この人たちは1つだけのときも上位4分の1の成績だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本物の道路でも同じ？",
+        "body": "5人という少なさで、シミュレーターでの1つの研究。本物の道路や、ほかの作業の組み合わせで同じかはわからない。ほとんどの人は落ちたので、ながら運転を勧める話ではないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "focus-multitask-gender",
+        "type": "あわせて読む",
+        "why": "マルチタスクの得意不得意を調べた研究。こちらは男女で差がなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-myth-supertaskers-multitask"
+  },
+  {
     "id": "research-dha-omega3-supplement-memory-research-dha-memory-meta",
     "category": "記憶のしくみ",
     "kind": "よくある説",
@@ -9561,6 +9748,11 @@
         "id": "circadian-social-jetlag-obesity",
         "type": "あわせて読む",
         "why": "週末のずれが体内時計を遅らせる実験と、そのずれと体重の関係"
+      },
+      {
+        "id": "dokugaku-why-weekend-sleep-in-monday-study-social-jetlag-grades",
+        "type": "あわせて読む",
+        "why": "平日と休日のずれが大きい大学生ほど、授業期間の小テストの点が低かった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/light-circadian/#research-weekend-sleep-in-monday-social-jetlag-why-research-weekend-phase-delay"
@@ -42018,6 +42210,11 @@
         "id": "replication-media-multitasking",
         "type": "あわせて読む",
         "why": "ながら作業が多い人ほど気が散る、という説も追試ではほぼ消えた"
+      },
+      {
+        "id": "brain-myth-supertaskers-multitask",
+        "type": "あわせて読む",
+        "why": "同時にやっても成績が落ちない人が、200人中5人いた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/focus/focus-multitask-gender/"
@@ -42344,6 +42541,11 @@
         "id": "japan-milk-height",
         "type": "あわせて読む",
         "why": "「育ち」にまつわるもう一つの説。成長ホルモンと寝る時間の関係を確かめた"
+      },
+      {
+        "id": "japan-sleep-baby-growth-neruko",
+        "type": "あわせて読む",
+        "why": "赤ちゃんの眠りと身長の伸びを毎日記録したら、よく寝た時期のすぐあとに伸びていた"
       }
     ]
   },
