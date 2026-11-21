@@ -13,6 +13,7 @@ docs/writing.md
 - 守る手間がかかるだけで、ユーザーのためになっていないルールはないか
 
 ### ルールの次にやること
+1. 日誌ルーティン（trig_014vrcLwLafQyxivJUR58zvy）の「既にあるときは網羅していれば何もしない」に、`.sd-stats` の合計と `.sd-bars` の和が両リポジトリの件数（JST）と合うかの確認を足す。11-17〜11-21 の日誌はメディア0件のまま（夜に別のセッションが SEADICE 側だけで書くと、翌朝のルーティンが「ある」として飛ばす）。手元からの書き換えは自動モードで止められたので、ルーティンを直す許可をもらってから
 1. 点検の「h2直下が結論でもリストでもない記事」を、h2→h3直続き（11本: shuukaku-sign-yasai・tanemaki-jiki-ichiran・kateisaien-munouyaku-konzoku・kateisaien-6gatsu-nani ほか）の結論文追加から1本ずつ直す。中身の書き換えなので手元で
 
 ### ルールの変更履歴
@@ -48,6 +49,7 @@ docs/writing.md
 1. **日誌（daily-YYYY-MM-DD）の扱いを決める**: 6件が sitemap・blog 一覧にある。検索から外す（noindex＋sitemap 除外）か残すかを、Search Console の表示回数を見て判断する（2026-11上旬のCSVと一緒に）
 
 ## やったこと
+- 2026-11-22: 日誌 11月21日を直した。SEADICE 5件だけで書かれていたのを、両リポジトリ29件（本体10・メディア19）に。EVIDENCE は 1573→1593 でなく 1560→1593（7バッチ+33）。メディアの新記事9・事実確認5・見送り2を「やったこと」に足し、トップの #blog に11月21日のカードを足した
 - 2026-11-18: 点検（blog 142。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、noindex meta の sitemap 載り0、内部リンク切れ0、check_blog.py 出力なし）。h2直後（410箇所）のうち11箇所が h3 直続き。次にやること3件は日付待ち・Search Console 待ちで進められず。ルールの答え: h2→h3直続きの扱いが未記載だったので writing.md に追記。削ぎ: 実行できない「ルールの次にやること」1（必要が出たら決める）を点検由来の項目に置き換え
 
 古い記録は [log/articles.md](log/articles.md)。
