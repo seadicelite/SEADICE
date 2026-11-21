@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-wfh-focus-slump-recovery-research-telework-strategies",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Härtel et al., \"Associations between the implementation of telework strategies and job performance: Moderating influences of boundary management preferences and telework experience\" (Frontiers in Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2023.1099138",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/wfh-focus-slump-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "在宅勤務は、専用の部屋と仕事着から？",
+        "body": "家で集中するには、仕事部屋を分けて、仕事着に着替えるのが大事。よく聞くコツだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "85のコツを548人で比べた",
+        "body": "Härtelらは、ドイツ語圏で在宅勤務をする548人に、研究や一般向けの記事から集めた85の工夫をどれくらい実行しているか聞き、自己評価の仕事の出来との関係を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いていたのは、部屋より時間と目標",
+        "body": "仕事の出来と結びついていたのは「仕事と私生活の時間をきっちり分ける」「その日の目標を決める」など（結びつきは相関0.2前後と小さめ）。専用の部屋や仕事着は、ほとんど関係していなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回きりの調査で、出来も自己評価",
+        "body": "2020年7〜12月に1回だけ答えてもらった調査で、仕事の出来も自分の評価。工夫したから出来が良いのか、出来る人が工夫しているのかは区別できていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-wfh-focus-slump-recovery-research-telework-strategies"
+  },
+  {
+    "id": "research-exercise-felt-worse-mood-intensity-recovery-research-self-selected",
+    "category": "運動と気分",
+    "kind": "よくある説",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Oliveira et al., \"Differences in exercise intensity seems to influence the affective responses in self-selected and imposed exercise: a meta-analysis\" (Frontiers in Psychology, 2015)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2015.01105",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/exercise-felt-worse-mood-intensity-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分のペースで運動すると気分がいい？",
+        "body": "人に決められた運動より、自分で決めたペースのほうが気持ちいい。だから「自分で選べること」が大事、とよく言われるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10本の研究をまとめた",
+        "body": "Oliveiraらは、自分で強さを選んだ運動と、決められた強さの運動で、運動中の気分（−5〜+5の11段階）を比べた10本の研究をまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差を生んでいたのは「強さ」",
+        "body": "決められた強さが息の上がる境目（換気閾値）を超えると、気分の差は大きかった（標準化平均差−1.30）。でも同じ強さどうしだと差はわずか（−0.10）。自分で選ぶと気分がいいのは、強くしすぎないからみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究どうしのばらつき",
+        "body": "まとめた研究は10本と少なく、結果のばらつきや、論文の偏りを疑わせる形もあった（著者は強さの違いのせいとみている）。運動中の気分の話で、長く続けたときの効果まではわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-hiit-vs-moderate-enjoyment-meta",
+        "type": "あわせて読む",
+        "why": "きつい運動は楽しくないのかを、HIITと中くらいの運動で比べたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#research-exercise-felt-worse-mood-intensity-recovery-research-self-selected"
+  },
+  {
+    "id": "research-savoring-good-moments-mood-how-research-meta",
+    "category": "幸福の科学",
+    "kind": "研究紹介",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Chen et al., \"Effectiveness of savoring interventions: A systematic review and meta-analysis of randomized controlled trials\" (Applied Psychology: Health and Well-Being, 2026)",
+    "sourceUrl": "https://doi.org/10.1111/aphw.70134",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/savoring-good-moments-mood-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "良いことを「味わう」と気分は変わる？",
+        "body": "おいしいものや楽しい予定に、意識して注意を向けて長く味わう。心理学では「セイバリング」と呼ぶらしい。本当に気分に効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20件の試験、4,805人をまとめた",
+        "body": "セイバリングをはっきり目的にしたランダム化比較試験20件を、2026年の研究がまとめたよ。対象は大学生、高齢者、がんの患者など。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効果は「中くらい」",
+        "body": "全体の効果の大きさはg=0.51。落ち込みや不安などの症状は軽くなり（g=0.61）、前向きな気持ちや幸福感も高まった（g=0.50）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続く効果はまだ不明",
+        "body": "期間の中央値は14日と短く、30%の試験は偏りのリスクが高め。何もしない組と比べると0.77、別の練習と比べると0.30と小さめだった（この差ははっきりとは言えない）。長く続く効果はまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#research-savoring-good-moments-mood-how-research-meta"
+  },
+  {
+    "id": "weather-autumn-appetite-seasonal-intake",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "de Castro, \"Seasonal rhythms of human nutrient intake and meal pattern\" (Physiology & Behavior, 1991)",
+    "sourceUrl": "https://doi.org/10.1016/0031-9384(91)90527-u",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「食欲の秋」って本当？",
+        "body": "秋になると、なんだかよく食べちゃう。旬の食べ物のせい？それとも体がそうなってるの？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "315人の食事日記",
+        "body": "アメリカ・ジョージア州立大学の研究者が、大人315人にお金を払って、7日間に食べたもの・時間・おなかの空き具合をすべて日記につけてもらい、季節ごとに比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "秋はたしかに多めだった",
+        "body": "秋は1日の総カロリー、とくに炭水化物が増えていて、1回の食事の量も食べる速さも上がっていた。しかも秋は、たくさん食べても食後に「まだ空いてる」と感じやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1地域・1991年の日記調査",
+        "body": "アメリカの1地域で、自分でつけた食事日記をもとにした観察研究。なぜ秋に増えるのか（日の長さ・気温・旬の食べ物など）は確かめておらず、満腹感が弱まるという説明も推測の段階だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-autumn-appetite-seasonal-intake"
+  },
+  {
+    "id": "color-yellow-taxi-fewer-accidents",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Ho, Chong & Xia, \"Yellow taxis have fewer accidents than blue taxis because yellow is more visible than blue\" (PNAS, 2017)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1612551114",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "車の色で、事故の起きやすさは変わる？",
+        "body": "目立つ色の車はぶつけられにくい、って聞いたことあるよね。でも、乗る人の運転の違いかもしれない。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "黄色と青のタクシーを3年分",
+        "body": "シンガポール最大のタクシー会社には黄色と青の車があった。研究チームは36か月分のタクシー・運転手・事故の記録（数百万件のデータ）を使って、色ごとの事故を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "黄色のほうが9%少なかった",
+        "body": "黄色のタクシーは、1,000台あたり月に6.1件事故が少なく、事故の確率で9%低かった。運転手の違いでは説明できず、前を走るときや街灯の下で黄色のほうが目に入りやすく、周りがよけやすいからと見ている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの国の、タクシーの話",
+        "body": "くじで色を決めた実験ではなく、記録を分析した観察研究。シンガポールの1社のタクシーだけの話で、自家用車やほかの色、ほかの国の道路でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-yellow-taxi-fewer-accidents"
+  },
+  {
     "id": "kokoro-ai-unavailable-restless-sudoku-wait",
     "category": "デジタルデトックス",
     "kind": "素朴な疑問",
@@ -2074,6 +2247,11 @@
         "id": "exercise-hiit-mood-memory",
         "type": "あわせて読む",
         "why": "同じHIITで、直後は気分が落ちて30分後に戻ったという1つの実験"
+      },
+      {
+        "id": "research-exercise-felt-worse-mood-intensity-recovery-research-self-selected",
+        "type": "あわせて読む",
+        "why": "自分で選ぶと気分がいいのは、強くしすぎないからだったというメタ分析"
       }
     ],
     "cards": [
