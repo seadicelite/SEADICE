@@ -22,6 +22,7 @@
 ### ルールの変更履歴
 
 古い記録は [log/evidence.md](log/evidence.md)。
+- 2026-11-21: 点検欄に「`git checkout p/` が自動モードで拒否されたら戻さず、コミットは docs/ のパスを指定して足す（`git add -A` を使わない）」を追加（今回、戻しが拒否され192ファイルが作業ツリーに残ったため）
 - 2026-11-14: 点検欄に「ビルドを回すと p/evidence/ 全体が書き換わるので、点検だけのときは `git checkout p/` で戻す（sitemap だけでなく全体）」を追加（今回、192ファイルが変わり、混ぜてコミットする事故の元だったため）
 - 2026-11-07: evidence-topics.md の「重複させない」に「足したあと同じ DOI を数える」を追加（11-06 の自動取り込みでコーヒー脱水が重複し、書く前の照合だけでは防げなかったため）
 
@@ -38,7 +39,7 @@
 ## 点検
 - studyType が空のトピック数、links が片側だけのもの、focus.json の id が topics.json にないもの
 - `python3 scripts/build_evidence_hub.py` が警告なしで通るか
-- 同じ論文を出典にしたトピックがないか（sourceUrl から DOI・PMID を取り出して数える）（通したら p/ の差分は日付・CSS・sitemap の並び替えだけなので、点検だけのときは `git checkout p/` で戻す）
+- 同じ論文を出典にしたトピックがないか（sourceUrl から DOI・PMID を取り出して数える）（通したら p/ の差分は日付・CSS・sitemap の並び替えだけなので、点検だけのときは `git checkout p/` で戻す。拒否されたら戻さず、コミットは docs/ のパスを指定して足す）
 - 人を対象にしない研究（モデル計算・動物・AIの出力）の結論のカードに、人での検証でないことが書かれているか
 
 ## すぐ直してよいこと
@@ -67,13 +68,12 @@
 2. **検索されている説をさらに探す**（手元の作業で。クラウドは Google の検索候補に接続できない。ルーティンは飛ばす）: Google の検索候補（`suggestqueries.google.com/complete/search?client=firefox&hl=ja&q=`）で「〇〇 嘘」「〇〇 論文」が出る説を5つ探し、トピックがあれば focus.json へ、なければ /evidence-topics で追加
 4. **1問1ページの検索順位を見る**（Search Console。公開2〜4週間後＝11月上旬から。5〜20位のページは中身を足す）
 
-- **点検で出た判断待ち**（2026-10-17）: food-water-eight-glasses（食べ物の常識）と myth-water-8-glasses（からだの常識）が同じ論文（Valtin 2002、10.1152/ajpregu.00365.2002）。1本にまとめる案（記事リンクのある方を残す。前回の重複4組と同じ扱い）。ユーザー判断待ち
+- **点検で出た判断待ち**（重複2組、2026-10-17・11-07）: 水8杯とコーヒー脱水の2組は manual.md に判断待ちとして移した。毎回の点検では増減だけ数える
 - **点検で出た判断待ち**（2026-10-13）: ①bias-default-organ-donation の結論「ほぼ100%」は本文の図ではスウェーデン約86%らしい（要旨2文・全文未入手のため未修正）②relationship-self-disclosure は要旨が読めず「まだわからないこと」未追加 ③出典を新しく強い研究へ替える候補: bias-anchoring→Many Labs 1（10.1027/1864-9335/a000178）、learning-testing-effect→Rowland 2014（10.1037/a0037559）、ledger-choice-overload-meta→Chernev 2015（10.1016/j.jcps.2014.08.002）
-
-- **点検で出た判断待ち**（2026-11-07）: myth-coffee-dehydration（からだの常識・1問1ページ）と caffeine-coffee-dehydration-crossover（カフェイン）が同じ論文（10.1371/journal.pone.0084154）。1本にまとめる案（1問1ページの方を残す）。ユーザー判断待ち
 
 ## やったこと
 
 古い記録は [log/evidence.md](log/evidence.md)。
+- 2026-11-21: 点検（1573本・studyType空欄0・ビルド警告なし198ページ・focus.json の id 不一致0・links 片側0〔ビルドが警告なし〕・EVIDENCE 内の内部リンク切れ0・sitemap 566件でファイルなし0・noindex の meta がついたまま載るもの0〔本文に語があるだけの記事5件は誤検出〕・同じ論文の重複は同じ2組〔判断待ち、増減なし〕）。Crossref・Europe PMC は今回も未確認のため要旨照合・分野追加は飛ばした。削ぎ: この欄の重複した判断待ち2行（manual.md と同内容）を1行にまとめた。`git checkout p/` が拒否されたためルール化
 - 2026-11-14: 点検（1345本・studyType空欄0・ビルド警告なし198ページ・focus.json の id 不一致0・links 片側0・内部リンク切れ0・sitemap のファイルなし0・EVIDENCE の noindex 掲載0・同じ論文の重複は先週と同じ2組〔判断待ち、増減なし〕）。Crossref・Europe PMC はクラウドから接続拒否のため、要旨照合と分野追加は飛ばした。ビルドを回すと全198ページの日付・CSS が書き換わるため点検後は `git checkout p/` で戻す（ルール化）。manual.md の水8杯の重複項目（コーヒーと同じ項目に含まれていた）を1行削った
 - 2026-11-07: 点検（1145本・studyType空欄0・ビルド警告なし198ページ・focus.json の id 不一致0・links 片側0・同じ論文の重複は水8杯1組に加えコーヒー脱水1組＝計2組〔判断待ち〕）。evidence-topics.md に「足したあと同じ DOI を数える」を追加
