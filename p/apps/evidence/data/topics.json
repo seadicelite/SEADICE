@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-wellbeing-practice-habit-plan-how-research-habit-tools",
+    "category": "習慣形成",
+    "kind": "研究紹介",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Susman et al., \"Habit-formation strategies enhance long-term outcomes of a self-compassionate touch micropractice: a randomized controlled trial\" (Scientific Reports, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-026-63457-4",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/wellbeing-practice-habit-plan-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "心のケア、なぜ続かない？",
+        "body": "深呼吸や瞑想、始めても数日で忘れちゃうよね。やる気の問題なのかな、それとも続け方の問題なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20秒の練習に計画を足す",
+        "body": "アメリカの大人497人が、自分をいたわって体に触れる1日20秒の練習を始めた。半分だけ、15分で「きっかけ・時刻・通知・つまずいたときの対処」まで決める計画を足したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "6か月後も回数が多い",
+        "body": "3か月後の練習は、計画ありが週6.5回、なしが週4.8回。6か月後も計画ありのほうが多く、考えずにできる度合いも高かったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの工夫が効いたかは不明",
+        "body": "差は小〜中くらいで、ストレスの量には差が出なかった。回数は自己申告で、計画のどの部分が効いたのかも切り分けていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-wellbeing-practice-habit-plan-how-research-habit-tools"
+  },
+  {
+    "id": "kokoro-weekend-work-email-phone-prevent-uninstall-weekend",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Bartels K et al., \"Reducing Work-Related Screen-Time in Healthcare Workers During Leisure Time (REDUCE SCREEN) – A Randomized Controlled Trial\" (Journal of Medical Systems, 2026)",
+    "sourceUrl": "https://doi.org/10.1007/s10916-026-02338-9",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/weekend-work-email-phone-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "休みの日も仕事のメールを見ちゃう",
+        "body": "スマホに仕事のアプリが入っていると、休みの日でもつい開いちゃうよね。前もって離れる準備をしたら、週末はもっと休まるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "週末の前に3つの工夫を勧めた",
+        "body": "米国の医療職を2組に分けて、片方にだけ「自動返信を設定する・画面時間を減らす・仕事アプリを消す」を勧めた実験。週末明けに答えたのは520人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ストレスの下がり方が約2倍",
+        "body": "週末のあいだのストレス点数（0〜40点）の下がり幅は、中央値で勧めた組が4点、勧めなかった組が2点。1日の画面時間も中央値で1時間減っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続くかはまだ不明",
+        "body": "調べたのは週末1回だけで、3人に1人は最後まで答えていない。画面時間は自己申告。毎週続けたときの効果や、医療職以外でも同じかは、まだわかっていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "work-detachment",
+        "type": "あわせて読む",
+        "why": "休みに仕事から離れることと心の回復の関係を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-weekend-work-email-phone-prevent-uninstall-weekend"
+  },
+  {
+    "id": "kokoro-subjective-status-low-mood-why-ladder-sleep",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Euteneuer F & Süssenbach P, \"Longitudinal Reciprocal Relationships Between Subjective Social Status and Short Sleep Duration in a German Population-Based Sample\" (Nature and Science of Sleep, 2021)",
+    "sourceUrl": "https://doi.org/10.2147/NSS.S301293",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/subjective-status-low-mood-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「自分は下のほう」と眠りの関係",
+        "body": "人と比べて「自分は下のほうだな」と感じることってあるよね。その感覚、眠りとも関係があるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10段のはしごでたずねた",
+        "body": "ドイツ全国から選ばれた2,156人に、2016年と2018年の2回、「国全体の中で」と「身の回りの人の中で」、自分が10段のはしごのどこにいるかをたずねた研究。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関係したのは「国全体」のほう",
+        "body": "国全体の中での位置の感覚が低い人ほど、2年後に睡眠が6時間未満になりやすかったらしい。収入や学歴を一緒に分析しても残った。身の回りの中での位置では、関係が見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かは不明",
+        "body": "睡眠が短い人ほど、あとで位置の感覚が低くなる関係も一部の分析で見られた。睡眠は自己申告の時間だけで、原因と結果ははっきりしていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#kokoro-subjective-status-low-mood-why-ladder-sleep"
+  },
+  {
+    "id": "exercise-tv-computer-time-dementia",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Raichlen et al., \"Leisure-time sedentary behaviors are differentially associated with all-cause dementia regardless of engagement in physical activity\" (PNAS, 2022)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2206931119",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動していれば、テレビの見すぎも平気？",
+        "body": "毎日歩いているなら、夜に長くテレビを見ても帳消しかな。座っている時間の中身で、頭への影響が違うのかを調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "60歳以上の約15万人を約12年",
+        "body": "イギリスのUKバイオバンクの、認知症のない60歳以上146,651人。テレビとパソコンに使う時間をたずねて平均約12年追いかけ、その間に3,507人が認知症と診断されたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "テレビは多いほど高く、パソコンは低く",
+        "body": "運動量や学歴などをそろえても、テレビの時間が長い人ほど認知症と診断されやすく、パソコンの時間が長い人ほど少なかった。どの運動量の人でも、この傾向は残ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "テレビが原因とは言えない",
+        "body": "観察研究なので、テレビが認知症を起こすとは言えない。時間は自己申告で、診断は病院の記録頼み。参加者は人種のかたよりが大きく、ほかの国の人で同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-tv-computer-time-dementia"
+  },
+  {
+    "id": "insight-rewards-creativity-meta",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Byron & Khazanchi, \"Rewards and creative performance: a meta-analytic test of theoretically derived hypotheses\" (Psychological Bulletin, 2012)",
+    "sourceUrl": "https://doi.org/10.1037/a0027652",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ごほうびがあると、アイデアが出なくなる？",
+        "body": "「ごほうびを約束すると、かえって発想がしぼむ」って、よく聞く話だよね。でも研究をまとめると、話はもう少し複雑らしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "60本の研究をまとめた",
+        "body": "2012年のメタ分析が、子どもと大人を調べた60本の研究（69グループ）をまとめて、ごほうびの出し方や状況で結果が変わるかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "何にごほうびを出すかで逆になる",
+        "body": "「独創的なら」というごほうびは創造性を上げる方向。「ちゃんとできたら」「終わったら」のごほうびは、少し下げる方向だった。具体的な感想がもらえて、自分で選べるほど良かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "出し方しだいで変わる",
+        "body": "まとめた研究には実験でない調査も入っていて、その部分は原因と結果を言えない。下げる方向の差も「少し」。どんな人や場面で効くかは、まだ一言では言えないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-rewards-creativity-meta"
+  },
+  {
     "id": "kokoro-loneliness-neighbor-kindness-recover-kind-challenge",
     "category": "孤独とつながり",
     "kind": "素朴な疑問",
@@ -31606,6 +31779,11 @@
         "id": "research-rest-not-recovering-stress-research-detachment-training",
         "type": "あわせて読む",
         "why": "仕事を切り離す力は、練習のプログラムで伸ばせるかを調べた研究"
+      },
+      {
+        "id": "kokoro-weekend-work-email-phone-prevent-uninstall-weekend",
+        "type": "あわせて読む",
+        "why": "週末に仕事アプリから離れる工夫を、くじ引きで試した実験"
       }
     ]
   },
