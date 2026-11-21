@@ -1,5 +1,171 @@
 [
   {
+    "id": "kokoro-fatigue-light-running-recover-students-running",
+    "category": "運動と気分",
+    "kind": "よくある説",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "de Vries JD, van Hooff MLM, Geurts SAE & Kompier MAJ, \"Exercise as an Intervention to Reduce Study-Related Fatigue among University Students: A Two-Arm Parallel Randomized Controlled Trial\" (PLoS ONE, 2016)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0152137",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/fatigue-light-running-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "疲れているときこそ運動？",
+        "body": "「疲れているなら軽く体を動かすといい」ってよく聞くよね。でも、くたくたのときに走ったら、もっと疲れそうな気もする。実際はどうなんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "疲れた大学生がゆっくり走った",
+        "body": "オランダの大学で、勉強の疲れが強い学生97人をくじで2組に。片方は会話できるくらいの軽いランニングを週3回・6週間、もう片方はその間待ってもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "疲れの点数が下がった",
+        "body": "走った組は疲れの点数（10〜50点）が30.5点から25.4点に、待った組は30.9点から28.3点に。走った組のほうが下がり方が大きく、睡眠の質もよくなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "走ったからか、仲間のおかげか",
+        "body": "待つ組と比べただけで、本人も走っていると知っているから期待の影響は消せない。トレーナーつきの集団で走ったので、運動そのものの効果か、人と会う効果かも分けられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#kokoro-fatigue-light-running-recover-students-running"
+  },
+  {
+    "id": "kokoro-lonely-feel-rejected-withdraw-loop",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Shao S et al., \"Loneliness modulates social threat detection in daily life\" (Communications Psychology, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s44271-026-00410-1",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/lonely-feel-rejected-withdraw/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寂しい日ほど、人に連絡しづらいのはなぜ？",
+        "body": "寂しいなら人に会えばいいのに、そういう日に限って誰にも連絡したくない。返事が短いだけで、嫌われた気がしたりするよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "157人に1日5回、20日間たずねた",
+        "body": "米国の46〜74歳の157人が、スマホで1日5回、寂しさと「直近のやりとりで拒まれた・批判されたと感じたか」に答えた研究なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "寂しさと「拒まれた感じ」は互いに強め合う",
+        "body": "寂しい時間ほど拒まれたと感じやすく、その逆もあった。寂しさがふだんより強まったあとは、人とやりとりする見込みや、自分のことを打ち明ける度合いが下がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先？若い人でも同じ？",
+        "body": "記録から見た関連で、原因と結果の向きはわからない。相手が本当に冷たかったのかも調べていないし、対象は米国の46〜74歳で、寂しさがごく弱い人は最初から除かれていたんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-lonely-feel-rejected-withdraw-loop"
+  },
+  {
+    "id": "kokoro-mental-work-body-tired-why-stroop-cycling",
+    "category": "からだの常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Habay J et al., \"Mental Fatigue Negatively Impacts Cognitive and Physical Performance Outcomes: A Large-Scale Randomized Crossover Trial\" (Medicine & Science in Sports & Exercise, 2026)",
+    "sourceUrl": "https://doi.org/10.1249/MSS.0000000000003852",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/mental-work-body-tired-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "座っていただけなのに体がぐったり",
+        "body": "一日中画面で頭を使っただけなのに、夜には体まで疲れている。体はほとんど動かしていないのに、なんでだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "45分頭を使ってから自転車",
+        "body": "ベルギーの健康な大人117人が、45分の集中課題をする日と、45分ドキュメンタリーを見る日の両方を試して、そのあと15分の自転車こぎで距離を競った実験。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "きつさを強く感じていた",
+        "body": "課題のあとは、体の疲れやきつさをより強く感じていた。ただ走れた距離は平均12.6kmと12.8kmで、差は統計的にははっきりしなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事の疲れでも同じ？",
+        "body": "実験室の課題を使った研究で、AIの答えを確かめるような実際の仕事で同じことが起きるかは、まだわかっていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#kokoro-mental-work-body-tired-why-stroop-cycling"
+  },
+  {
+    "id": "aging-running-knee-osteoarthritis-meta",
+    "category": "運動と老化",
+    "kind": "よくある説",
+    "themeColor": "#B45309",
+    "sourceLabel": "Alentorn-Geli et al., \"The Association of Recreational and Competitive Running With Hip and Knee Osteoarthritis: A Systematic Review and Meta-analysis\" (Journal of Orthopaedic & Sports Physical Therapy, 2017)",
+    "sourceUrl": "https://doi.org/10.2519/jospt.2017.7137",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "走ると膝が悪くなる？",
+        "body": "「ランニングは膝をすり減らすから、年をとったらやめたほうがいい」。そんな話、よく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "25本・約12万6000人の研究を見直した",
+        "body": "走る人と走らない人で、股関節や膝の変形性関節症の多さを比べた研究を集めたんだ。そのうち17本・約11万5000人分を数字でまとめている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "趣味で走る人は、むしろ少なかった",
+        "body": "関節症があった割合は、趣味で走る人3.5%、走らない人10.2%、競技レベルの選手13.3%。趣味の範囲なら走らない人より多くはなく、競技レベルの選手は趣味の人より多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "走ったせいかは、わからない",
+        "body": "比べただけの研究をまとめたもので、原因かどうかは決められないと著者も書いている。昔のけがなど、ほかの理由が混ざっている可能性もあるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-running-knee-osteoarthritis-meta"
+  },
+  {
+    "id": "love-marital-conflict-wound-healing",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Kiecolt-Glaser et al., \"Hostile marital interactions, proinflammatory cytokine production, and wound healing\" (Archives of General Psychiatry, 2005)",
+    "sourceUrl": "https://doi.org/10.1001/archpsyc.62.12.1377",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夫婦げんかって、体にも悪い？",
+        "body": "けんかのあとはぐったりするよね。でも、気持ちだけじゃなく体にまで響くものなんだろうか？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "42組の夫婦が病院に2回泊まった",
+        "body": "米国の研究で、健康な夫婦42組（22〜77歳）が小さな水ぶくれの傷を作り、1回目は支え合う話し合い、2回目は意見が合わないことについて話し合ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "けんかのあとは、傷の治りが遅かった",
+        "body": "支え合いのあとより、けんかのあとのほうが傷の治りが遅かった。どちらの話し合いでも敵意のこもったやりとりが多かった夫婦は、少ない夫婦の6割の速さでしか治らなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "順番は固定、人数も少なめ",
+        "body": "いつも支え合いが先、けんかが後の順だったので、2回目だった影響は分けられない。42組だけの実験室での話で、ふだんのけんかが病気につながるかまでは調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-marital-conflict-wound-healing"
+  },
+  {
     "id": "dokugaku-indoor-plants-study-desk-checklist-plants-focus",
     "category": "自然と健康",
     "kind": "よくある説",
