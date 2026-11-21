@@ -1,5 +1,192 @@
 [
   {
+    "id": "kokoro-loneliness-neighbor-kindness-recover-kind-challenge",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Lim MH, Hennessey A, Qualter P, Smith BJ, Thurston L, Eres R & Holt-Lunstad J, \"The KIND Challenge community intervention to reduce loneliness and social isolation, improve mental health, and neighbourhood relationships: an international randomized controlled trial\" (Social Psychiatry and Psychiatric Epidemiology, 2025)",
+    "sourceUrl": "https://doi.org/10.1007/s00127-024-02740-z",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/loneliness-neighbor-kindness-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "孤独って、親切で減る？",
+        "body": "孤独をやわらげるには「誰かに支えてもらう」のが近道に思えるよね。じゃあ逆に、自分が近所の人に小さな親切をしたら、孤独は変わるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3か国で4,284人が挑戦",
+        "body": "米国・英国・オーストラリアの18〜90歳4,284人をくじで2組に。片方は4週間、週1回以上近所の人に親切をして、もう片方は待ってもらったんだ。2020年の外出制限の時期だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "米国と英国で少し下がった",
+        "body": "親切をした組では、米国と英国で孤独が待った組より少し下がっていた。オーストラリアでは差がなかったらしい。気分の落ち込みや生活の質には、どの国でも差が出なかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "4週間のその後は？",
+        "body": "調べたのは4週間後まで。親切をした組では、途中で答えなくなった人が4割を超えた。参加者は近所の人とつながるSNSの利用者で女性が多く、近所に知り合いがいない人にも効くかはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-volunteering-loneliness-prevent-onset-ending",
+        "type": "あわせて読む",
+        "why": "近所への親切でなく、ボランティアと孤独の関係を長く追った研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-loneliness-neighbor-kindness-recover-kind-challenge"
+  },
+  {
+    "id": "kokoro-meaning-attention-focus-why-intertwined",
+    "category": "集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#34D399",
+    "sourceLabel": "Tam KYY et al., \"Meaning and Attention Intertwined: Experimental and Experience-Sampling Findings\" (Personality and Social Psychology Bulletin, 2026)",
+    "sourceUrl": "https://doi.org/10.1177/01461672251383966",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/meaning-attention-focus-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "意味がわからない作業だと、集中できない？",
+        "body": "何のためかわからない作業だと、すぐ別のことを考えちゃうよね。意味と集中って、関係あるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ動きの動画を、筋が通る版とでたらめ版で",
+        "body": "米国の大人402人の実験。同じ図形が「三匹の子ぶた」の筋に沿って動く動画と、でたらめに動く動画のどちらかを5分見て、どのくらい集中できたかを答えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "筋が通る動画のほうが集中できた",
+        "body": "筋の通る動画を見た組は、集中できたと答える度合いが高かった。香港の191人の1週間の記録でも、集中できていた時間ほど、していることに意味を感じていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事の作業でも同じ？",
+        "body": "実験は5分の動画で、集中も意味もすべて本人の答えで測っている。香港の記録に参加したのはほとんどが大学生。仕事や勉強で意味を感じ直すと集中が続くかは、まだ確かめられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#kokoro-meaning-attention-focus-why-intertwined"
+  },
+  {
+    "id": "kokoro-past-unemployment-job-worry-why-sensitize-inoculate",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Debus ME et al., \"The Long Reach of Unemployment: Sensitizing or Inoculating Employee Reactions to Job Insecurity?\" (Journal of Business and Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1007/s10869-025-10052-5",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/past-unemployment-job-worry-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "一度失業すると次に弱くなる？",
+        "body": "前に仕事を失ったことがある人は、また失うかもという不安にもっと弱くなる。よく聞くけど、本当なのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国とドイツの4つの調査",
+        "body": "2017〜2021年に集めた米国とドイツの働く人、合わせて1,638人のデータで、失業の経験があるかどうかで不安への反応が違うかを調べた研究。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "強まる面と、和らぐ面があった",
+        "body": "ドイツの調査では、経験がある人ほど不安と仕事への不満の結びつきが強めだった。一方、米国では失業の回数が多い人ほど、不安と眠りの乱れの結びつきが弱め（0.44に対し0.20）。全体では「和らぐ」側の結果が多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "違いの理由は確かめられていない",
+        "body": "どれも前の研究で集めたデータをあとから分析したもので、失業の経験が原因とまでは言えない。国の社会保障や調べた時期の違いが関わるかもと著者らは考えているけど、確かめられていない。日本で同じかもわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-past-unemployment-job-worry-why-sensitize-inoculate"
+  },
+  {
+    "id": "meditation-blood-pressure-rct-meta",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Shi L, Zhang D, Wang L, Zhuang J, Cook R & Chen L, \"Meditation and blood pressure: a meta-analysis of randomized clinical trials\" (Journal of Hypertension, 2017)",
+    "sourceUrl": "https://doi.org/10.1097/HJH.0000000000001217",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "瞑想で血圧は下がる？",
+        "body": "瞑想すると心が落ち着くってよく聞くよね。じゃあ気持ちだけじゃなく、血圧みたいな体の数字にも変化は出るんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじ引きの研究19本をまとめた",
+        "body": "1980〜2015年に出た、瞑想する組としない組をくじで分けた研究19本をまとめたメタ分析。超越瞑想とそれ以外の瞑想に分け、24時間つけておく血圧計で測ったかどうかでも分けて比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "上の血圧が5くらい下がった",
+        "body": "ふつうの測り方の研究では、上の血圧が超越瞑想で約5.6、ほかの瞑想で約5.1下がり、下の血圧も2〜3下がっていた。24時間測った研究では、ほかの瞑想で上が約3.8下がったけど、超越瞑想でははっきりしなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "薬の代わりになる？",
+        "body": "要旨には、参加した人の数や健康状態、続けた期間がまとめて書かれていない。24時間測った超越瞑想の研究は少なく、著者もさらに必要だとしている。血圧の薬の代わりになるかは、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "breathing-slow-blood-pressure-meta",
+        "type": "あわせて読む",
+        "why": "瞑想でなく、ゆっくりした呼吸で血圧が変わるかをまとめた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#meditation-blood-pressure-rct-meta"
+  },
+  {
+    "id": "laughter-humour-sleep-quality-meta",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Zhao J, Yin H, Zhang G, Li G, Shang B, Wang C & Chen L, \"A meta-analysis of randomized controlled trials of laughter and humour interventions on depression, anxiety and sleep quality in adults\" (Journal of Advanced Nursing, 2019)",
+    "sourceUrl": "https://doi.org/10.1111/jan.14000",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "笑うとよく眠れる？",
+        "body": "よく笑った日は、ぐっすり眠れる気がするよね。笑いヨガやお笑いのような「笑う時間」をつくると、眠りは本当に変わるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじ引きの研究10本、814人",
+        "body": "大人を対象に、笑いやユーモアの取り組みをする組としない組をくじで分けた研究10本（合わせて814人）をまとめたメタ分析。2018年12月までに出た論文を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "眠りの質がよくなっていた",
+        "body": "笑いやユーモアの取り組みをした組では、眠りの質がよくなり、気分の落ち込みや不安も減っていた。落ち込みには、長く続けた取り組みのほうが効きやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の数がまだ少ない",
+        "body": "まとめた研究は10本と少なく、著者も質の高い研究と、終わったあとの追跡がもっと要ると書いている。よい眠りがどれくらい続くのか、どんな笑い方が効くのかは、まだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-therapy-meta-depression",
+        "type": "あわせて読む",
+        "why": "笑いの取り組みと気分の落ち込みを、別のメタ分析で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-humour-sleep-quality-meta"
+  },
+  {
     "id": "kokoro-fatigue-light-running-recover-students-running",
     "category": "運動と気分",
     "kind": "よくある説",
@@ -14328,6 +14515,11 @@
         "id": "kokoro-volunteering-health",
         "type": "あわせて読む",
         "why": "ボランティアと心の健康全体の関係をまとめた研究"
+      },
+      {
+        "id": "kokoro-loneliness-neighbor-kindness-recover-kind-challenge",
+        "type": "あわせて読む",
+        "why": "近所に小さな親切をすると孤独が変わるかを試した研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-volunteering-loneliness-prevent-onset-ending"
@@ -23454,6 +23646,11 @@
         "id": "breathing-six-per-minute-prayer",
         "type": "あわせて読む",
         "why": "こちらは続けたときの血圧、あちらはゆっくり呼吸の最中に起きる変化"
+      },
+      {
+        "id": "meditation-blood-pressure-rct-meta",
+        "type": "あわせて読む",
+        "why": "呼吸でなく、瞑想で血圧が変わるかをまとめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/breathing-stress/#breathing-slow-blood-pressure-meta"
@@ -44078,6 +44275,11 @@
         "id": "laughter-humor-therapy-older-adults-cognition-meta",
         "type": "あわせて読む",
         "why": "高齢者にしぼると、気分は上向いたが、もの忘れは変わらなかった"
+      },
+      {
+        "id": "laughter-humour-sleep-quality-meta",
+        "type": "あわせて読む",
+        "why": "笑いの取り組みが眠りの質にも効くかをまとめた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/laughter/#laughter-therapy-meta-depression"
