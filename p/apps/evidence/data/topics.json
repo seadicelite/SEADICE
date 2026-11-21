@@ -1,5 +1,171 @@
 [
   {
+    "id": "dokugaku-study-time-of-day-menu-table-nap-length",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Brooks & Lack, \"A brief afternoon nap following nocturnal sleep restriction: which nap duration is most recuperative?\" (Sleep, 2006)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/29.6.831",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/study-time-of-day-menu-table/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "昼寝って何分がいいの？",
+        "body": "午後に眠くなったとき、少し寝ると楽になるよね。でも長く寝すぎると、かえってぼんやりする気もする。何分がちょうどいいんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5分・10分・20分・30分を比べた",
+        "body": "BrooksとLackは、前の晩の睡眠を約5時間に減らした24人の若い大人に、午後3時に5分・10分・20分・30分の仮眠をとってもらい、そのあとの眠気や成績を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "10分がすぐ効いた",
+        "body": "5分ではほとんど変わらなかった。10分の仮眠は、眠気も頭の働きもすぐによくなり、一部の効果は最大155分続いた。30分だと、起きた直後にぼんやりする時間があったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝不足の日の話",
+        "body": "寝不足にした条件で、ふだん昼寝をしない24人の実験だった。十分に眠れている日や、昼寝に慣れた人でも同じかは、この研究だけではわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#dokugaku-study-time-of-day-menu-table-nap-length"
+  },
+  {
+    "id": "kokoro-sns-appearance-self-compassion-daily-reading",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Chen R et al., \"Understanding and Reducing Appearance Anxiety for Social Media Users: A Study Using Ecological Momentary Assessment and Ecological Momentary Intervention\" (Depression and Anxiety, 2026)",
+    "sourceUrl": "https://doi.org/10.1155/da/7212945",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/sns-appearance-self-compassion-daily/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "SNSを見ると見た目が気になる",
+        "body": "加工された顔や理想的な体が流れてきて、自分の見た目が気になってしまう。毎日の小さな習慣で、この不安って減らせるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "毎日やさしい文章を読む実験",
+        "body": "中国の18〜35歳の女性200人を2組に分けて、105人は自分を思いやる文章を、95人は中立的な文章を、20日間毎日読んでもらった実験。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不安が下がって、揺れも小さく",
+        "body": "思いやりの文章を読んだ組は、見た目の不安（1〜100点）が対照の組より約2.7点余分に下がって、日ごとの揺れも小さくなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "続くかはわからない",
+        "body": "実験後の追跡はなく、効果が続くかはわからない。対象は中国の18〜35歳の女性だけで、不安は本人の自己申告。男性や他の年代で同じかもまだなんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-appearance-self-compassion-daily-reading"
+  },
+  {
+    "id": "kokoro-unemployed-volunteering-recover-uk-panel",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Wang S, Ling W, Lu Z, Wei Y, Li M, Gao L, \"Can Volunteering Buffer the Negative Impacts of Unemployment and Economic Inactivity on Mental Health? Longitudinal Evidence from the United Kingdom\" (International Journal of Environmental Research and Public Health, 2022)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph19116809",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/unemployed-volunteering-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "失業中はボランティアで心が持ち直す？",
+        "body": "仕事を失ったら、せめて誰かの役に立てば気持ちも戻るはず。そう聞くこと、あるよね。本当にそうなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の10年分の調査を分析",
+        "body": "英国の世帯調査、2010〜2020年の5回分・のべ127,405件の回答を使って、同じ人が働いていた時期と失業した時期の心の健康を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "失業中の人では、和らげる結びつきなし",
+        "body": "失業すると心の健康の点数は下がり、ボランティアをしていても下がり方は小さくならなかった。男女別でも同じ。一方、家族の世話や長い病気で働いていない人では、月1回以上の活動が良い側と結びついていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因と結果か、ほかの国では？",
+        "body": "研究者自身が、原因と結果としては読めないと書いているよ。心の健康は自己申告で、英国のデータだけ。福祉の手厚さが違う国では結果が変わるかもしれないし、なぜそうなるのかもわかっていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-unemployed-volunteering-recover-uk-panel"
+  },
+  {
+    "id": "posture-contracted-pose-avoid-angry-faces",
+    "category": "姿勢と自信",
+    "kind": "よくある説",
+    "themeColor": "#F87171",
+    "sourceLabel": "Metzler et al., \"Power pose effects on approach and avoidance decisions in response to social threat\" (PLoS ONE, 2023)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0286904",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "胸を張れば、怖い相手にも向き合える？",
+        "body": "堂々としたポーズをとると強気になれる、ってよく聞くよね。じゃあ怒っている人を前にしたとき、近づくか離れるかの選び方も変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "待合室で、どの席に座る？",
+        "body": "フランスの18〜35歳の男性79人が、画面の待合室で座る席を選んだ。隣には怒り顔やおびえ顔の人。まずポーズなしで選び、次に胸を張る組と縮こまる組にくじで分けて2分ずつポーズをとってから選んだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "変わったのは「縮こまる」ほう",
+        "body": "もともと怒っている人からは離れる席を選びがち。縮こまるポーズの組ではその傾向がはっきり強まった。胸を張るポーズの組では、目立った変化はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "男性だけ、画面の中だけ",
+        "body": "対象は男性だけで、本物の人ではなく画面の中の写真で席を選ぶ実験。研究者自身も、強い結論の前に追試が必要と書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-contracted-pose-avoid-angry-faces"
+  },
+  {
+    "id": "japan-horizontal-stripes-look-fatter",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Ashida, Kuraguchi & Miyoshi, \"Helmholtz illusion makes you look fit only when you are already fit, but not for everyone\" (i-Perception, 2013)",
+    "sourceUrl": "https://doi.org/10.1068/i0595rep",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ボーダーの服は太って見える？",
+        "body": "横じまは太って見えるから避けたほうがいい、ってよく言うよね。でも実は、昔から知られている錯視では逆に「横じまのほうが細く見える」とされているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "細い人と太めの人で比べた",
+        "body": "京都大学の研究で、学生30人が、横じまと縦じまのシャツを着た女性のCG画像を2つ並べて見て、どちらが太って見えるかを選んだ。体形は細めと太めの2種類だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体形と人によって変わる",
+        "body": "全体では横じまのほうが細く見えた。でもその差は細い体形ではっきり出て、太めの体形では小さく、平均では逆向き（はっきりした差ではない）だった。人によるばらつきも大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "動いている人ではどう？",
+        "body": "30人の学生が静止画を見比べた小さな実験。歩いている動画では横じまが太く見えたという報告もあり、実際の服や動きでどうなるかはまだはっきりしないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-horizontal-stripes-look-fatter"
+  },
+  {
     "id": "research-wellbeing-practice-habit-plan-how-research-habit-tools",
     "category": "習慣形成",
     "kind": "研究紹介",
