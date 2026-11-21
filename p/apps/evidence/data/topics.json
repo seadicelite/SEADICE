@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-indoor-plants-study-desk-checklist-plants-focus",
+    "category": "自然と健康",
+    "kind": "よくある説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Han et al., \"Effects of Indoor Plants on Human Functions: A Systematic Review with Meta-Analyses\" (International Journal of Environmental Research and Public Health, 2022)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph19127454",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/indoor-plants-study-desk-checklist/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "観葉植物で集中力アップ？",
+        "body": "「机に緑を置くと集中できる」ってよく聞くよね。勉強部屋に観葉植物を買おうか迷っている人もいるかも。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "植物の研究をまとめて分析",
+        "body": "台湾の研究者が、室内の植物と人の働きを調べた42件の研究を整理して、そのうち16件を統計でまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "集中への効果はほぼゼロ",
+        "body": "注意の課題を調べた3研究・177人をまとめると、効果の大きさはほぼゼロ（−0.005）。植物で集中力が上がるとは言えなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "成績の話は研究が2つだけ",
+        "body": "成績は植物ありの方が高かったけど、たった2研究・119人で、1つは質が低いと評価された研究。著者たちも慎重に読むよう書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "nature-houseplants-air-quality",
+        "type": "あわせて読む",
+        "why": "同じ観葉植物の話。空気をきれいにする効果を調べた研究とあわせて"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#dokugaku-indoor-plants-study-desk-checklist-plants-focus"
+  },
+  {
+    "id": "research-gesture-vocabulary-memory-how-research-enactment",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Roberts et al., \"The enactment effect: A systematic review and meta-analysis of behavioral, neuroimaging, and patient studies\" (Psychological Bulletin, 2022)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000360",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/gesture-vocabulary-memory-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "体を動かして覚えると、忘れにくい？",
+        "body": "「手をたたく」みたいな言葉を、読むだけじゃなく実際に手をたたいて覚える。それだけで記憶って変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "145件の実験をまとめた",
+        "body": "この「実演効果」を調べた145件の行動実験に、脳画像の研究7件、患者の研究31件をあわせて分析した研究があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "動作したほうが、はっきり覚えていた",
+        "body": "読むだけ、人の動作を見るだけ、頭で思い描くだけと比べて、実際に動作して覚えた言葉のほうがよく思い出せた。効果の大きさは平均g=1.23と大きめ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "覚えたのは動作の言葉",
+        "body": "調べたのは「手をたたく」のような動作を表す言葉や文を覚える実験。効果の大きさは実験の作りや比べる相手でかなり変わったよ。動きのない内容の勉強でも同じように効くかは、この分析ではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-gesture-vocabulary-memory-how-research-enactment"
+  },
+  {
+    "id": "research-good-habit-then-treat-self-licensing-why-research-moral-licensing-observed",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Rotella et al., \"Observation Moderates the Moral Licensing Effect: A Meta-Analytic Test of Interpersonal and Intrapsychic Mechanisms\" (Personality and Social Psychology Bulletin, 2026)",
+    "sourceUrl": "https://doi.org/10.1177/01461672251345512",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/good-habit-then-treat-self-licensing-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "いいことをした後は手を抜く？",
+        "body": "良い行いをすると、そのあと悪いことをしても許される気がする。「モラル・ライセンシング」と呼ばれて、よく紹介される話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "115件の実験をまとめた",
+        "body": "2026年の分析は、115件の実験・2万1,770人分をまとめて、どんなときにこの現象が出るのかを調べたよ。分析の計画は事前に登録されていたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "人に見られているときだけ",
+        "body": "見られている場面では効果が大きく、出版の偏りを補正しても残った。でも誰にも見られていない場面では、補正後の効果はほぼゼロだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "心の中の理由は不明",
+        "body": "「見られているか」は著者があとから分類したもの。自分のイメージを保つための心の働きで起きるのかどうかは、まだはっきりしないんだって。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-good-habit-then-treat-self-licensing-why-research-moral-licensing-observed"
+  },
+  {
+    "id": "personality-sns-narcissism-meta",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Gnambs & Appel, \"Narcissism and Social Networking Behavior: A Meta-Analysis\" (Journal of Personality, 2018)",
+    "sourceUrl": "https://doi.org/10.1111/jopy.12305",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "SNSによく投稿する人は、ナルシスト？",
+        "body": "自撮りをたくさん上げる人や、友だちの数がすごく多い人を見て「自分のことが大好きなのかな」と思うこと、あるよね。研究ではどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "57の研究、2万5千人分をまとめた",
+        "body": "SNSの使い方とナルシシズム（自己愛の強さ）の関係を調べた57の研究、計2万5,631人分をまとめて分析した研究があるよ。いろいろなSNS・年齢・時期のデータが入っているんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "関係はあるけど、小さめ",
+        "body": "自分を大きく見せたいタイプの自己愛とSNSの使い方には、小〜中くらいの関係があった（相関0.17）。使う時間の長さより、自分を見せる投稿や友だちの数のほうが関係が強かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは不明",
+        "body": "これは「一緒に見られるか」の研究で、SNSが自己愛を強めるのか、その逆かはわからない。関係の強さは国の文化でも違ったよ。関係も小さめで、投稿が多い人をナルシストと決めつけられるほどではないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "personality-likes-computer-judgment",
+        "type": "あわせて読む",
+        "why": "SNSと性格の話。「いいね」から性格を読み取れるかを調べた研究とあわせて"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-sns-narcissism-meta"
+  },
+  {
+    "id": "sleepfood-chronotype-eating-meta",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Arab et al., \"Chronotype and disordered eating indicators: A systematic review and meta-analysis\" (Clinical Psychology Review, 2026)",
+    "sourceUrl": "https://doi.org/10.1016/j.cpr.2026.102750",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜型の人って、食べすぎやすい？",
+        "body": "夜ふかしした日ほど、ついお菓子やラーメンに手が伸びる…という人は多いよね。もともと夜型の人は、食べ方にも違いがあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "51の研究をまとめた",
+        "body": "朝型・夜型（クロノタイプ）と、どか食いや夜食などの食べ方の傾向との関係を調べた51の観察研究を、2026年にまとめて分析したよ。対象は病院の患者ではなく一般の人たち。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "夜型ほど、どか食いや夜食が多め",
+        "body": "夜型の人ほど、どか食い（相関0.39）や夜食（0.21）の傾向が強かった。逆に、食べる量を意識して控える傾向は少し弱かった（−0.11）。気分で食べる傾向との関係はごく小さかった（0.06）らしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "夜型が原因とは限らない",
+        "body": "どれも観察研究なので、夜型だから食べすぎるのかはわからない。研究ごとの結果のばらつきも大きかった。著者たちも、原因を確かめるには追跡研究やランダム化試験が必要だとしているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleepfood-chronotype-eating-meta"
+  },
+  {
     "id": "research-wfh-focus-slump-recovery-research-telework-strategies",
     "category": "集中力",
     "kind": "よくある説",
@@ -45288,7 +45468,14 @@
         "body": "これは過去の箱の実験を計算し直したもので、実際の部屋で測ったわけではない。著者たちは、植物が気分や仕事のはかどり方に良いかどうかは、空気とは別に、部屋での研究で確かめるべきだと書いている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/nature/nature-houseplants-air-quality/"
+    "webUrl": "https://seadice.win/evidence/nature/nature-houseplants-air-quality/",
+    "links": [
+      {
+        "id": "dokugaku-indoor-plants-study-desk-checklist-plants-focus",
+        "type": "あわせて読む",
+        "why": "同じ観葉植物の話。集中や成績への効果を調べたメタ分析とあわせて"
+      }
+    ]
   },
   {
     "id": "nature-negative-air-ions-mood",
@@ -48729,6 +48916,11 @@
         "id": "personality-barnum-effect",
         "type": "あわせて読む",
         "why": "誰が自分の性格をよく知るのか。当たってると感じるしくみとあわせて"
+      },
+      {
+        "id": "personality-sns-narcissism-meta",
+        "type": "あわせて読む",
+        "why": "SNSと性格の話。投稿が多い人は自己愛が強いのかを調べたメタ分析とあわせて"
       }
     ],
     "webUrl": "https://seadice.win/evidence/personality/#personality-likes-computer-judgment"
