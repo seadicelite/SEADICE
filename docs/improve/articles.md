@@ -24,9 +24,6 @@ docs/writing.md
 - 2026-11-18: docs/writing.md に「h2 直下に h3 を直接置かない」を追記（直続きが11本あり、基準が未記載だったため）
 
 古い記録は [log/articles.md](log/articles.md)。
-- 2026-11-22: 写真の404を直した（seadice-media 5b5bfaf13e）。全メディアで記事の /img/ 参照と git 上のファイルを照合し、欠けは research 4本・kogei 1本の -sm.webp（PILの無いクラウド実行で jpg のまま保存され、記録だけ webp になっていた）。localize_images.py に欠けたファイルを手元の jpg か remote から作り直す処理を足し、CI（deploy.yml）に Pillow を入れて公開のたびに直るようにした。research の jpg 96本も webp に変換。photo.py は ai-badge の無いテンプレート（neuro）で p.meta の直後に差し込み、差し込めないときは何も変えずに止まるようにした。ルールの答え: 同じ漏れはCIで自動的に直るので手順の追加は不要
-- 2026-11-17・22: 心理学系（umbra・hanzai・neuro）に「よく聞く説を確かめたら違った」型で2回×3本ずつ、計18本を公開（ユーザーが楽しんで読む目的）。umbra の見送り済みトピック4件は topicDropped に記録して外し、確かめた候補10件を補充
-- 2026-11-16〜17: 記事の少ないメディア3つに3本ずつ追加（tantei 13→16・shinka 31→35〔別の実行の1本を含む〕・kogei 54→57）。どれも公開前に出典を開き直して照合。益子焼の記事の写真が信楽焼と紛らわしい狸だったため、益子焼の鉄釉の皿に差し替えた
 - 2026-11-12: 伸ばす4メディアにSEO記事8本（上位が弱い具体的な問いを検索で選び、確かめた表を1つずつ）。kosodate: sns-age-limit-by-service・game-cero-age-rating-follow、oya: parent-hospital-admission-guarantor・parent-care-disability-deduction、ai: gemini-share-link-delete-search・chatgpt-fake-app-how-to-tell、dokugaku: english-2200-hours-fsi-myth・working-adults-study-time-average-statistics。source-check で誤り1（豪州SNS法が施行済み）・ずれ5・未確認6を直してから公開（seadice-media e6934bd2b5）。何を書くかの土台として docs/world/（悩み・欲しいもの・これからの動き・最新の動き）を新設
 - 2026-11-12: kosodate が「AI時代の子育て」で上位に出ない件。原因は公開6週・広い言葉で大手と競合・自動執筆が上位を見ずに書いていたこと。日本語の上位が宣伝・会社員向け記事だけの3問を選び、既存記事に確かめた表を足した（ai-age-for-kids: サービス別の利用年齢5社、child-told-ai-name-school-privacy: 入力後の削除・学習オフ・保存期間3社、ai-chatbot-worry-consultation-safety: Common Sense Media の年齢別の勧め＋日本の相談窓口3つ）。source-check で誤り0・ずれ1（Gemini の地域差）を直して公開（seadice-media 48630cfd1b）
 ## 良い状態（docs/writing.md）
@@ -57,6 +54,9 @@ docs/writing.md
 - 2026-11-18: 点検（blog 142。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、noindex meta の sitemap 載り0、内部リンク切れ0、check_blog.py 出力なし）。h2直後（410箇所）のうち11箇所が h3 直続き。次にやること3件は日付待ち・Search Console 待ちで進められず。ルールの答え: h2→h3直続きの扱いが未記載だったので writing.md に追記。削ぎ: 実行できない「ルールの次にやること」1（必要が出たら決める）を点検由来の項目に置き換え
 
 古い記録は [log/articles.md](log/articles.md)。
+- 2026-11-22: 写真の404を直した（seadice-media 5b5bfaf13e）。全メディアで記事の /img/ 参照と git 上のファイルを照合し、欠けは research 4本・kogei 1本の -sm.webp（PILの無いクラウド実行で jpg のまま保存され、記録だけ webp になっていた）。localize_images.py に欠けたファイルを手元の jpg か remote から作り直す処理を足し、CI（deploy.yml）に Pillow を入れて公開のたびに直るようにした。research の jpg 96本も webp に変換。photo.py は ai-badge の無いテンプレート（neuro）で p.meta の直後に差し込み、差し込めないときは何も変えずに止まるようにした。ルールの答え: 同じ漏れはCIで自動的に直るので手順の追加は不要
+- 2026-11-17・22: 心理学系（umbra・hanzai・neuro）に「よく聞く説を確かめたら違った」型で2回×3本ずつ、計18本を公開（ユーザーが楽しんで読む目的）。umbra の見送り済みトピック4件は topicDropped に記録して外し、確かめた候補10件を補充
+- 2026-11-16〜17: 記事の少ないメディア3つに3本ずつ追加（tantei 13→16・shinka 31→35〔別の実行の1本を含む〕・kogei 54→57）。どれも公開前に出典を開き直して照合。益子焼の記事の写真が信楽焼と紛らわしい狸だったため、益子焼の鉄釉の皿に差し替えた
 - 2026-11-11: 点検（blog 135。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemap OK 556件）。内部リンク切れ1件: canvaskit-13-apps-400mb の tool-cta が未公開アプリの /apps/toite/ に張っていたため、同記事で触れる公開中の /rakuraku/ に差し替え。ルールの答え: 同じ問題（未公開先へのCTA）を防ぐためチェックリストに追記。次にやることの1・2番は Search Console／AIへの質問待ちのため据え置き
 - 2026-11-04: 点検（blog 125。publisher/tool-cta/BreadcrumbList 漏れ0、過去年題名0、sitemapのずれ0、内部リンク切れ0、check_blog.py 出力なし）。削ぎ: 古い著作権表示「© 2025 SEADICE」が残る11ファイル（blog 10・apps/chozubora）を 2026 に直した（ほかの580ファイルは2026で、年が混在していたため）。次にやることの1・2番は Search Console／AIへの質問の数字待ちのため据え置き
 - 2026-11-03: ai.seadice.win に分野「Web・検索の変化」を追加（AIでWeb自体に起きる変化を、読む人・サイトを持つ人の悩みとして書く）。3本公開（search-results-ai-written-articles・web-article-human-or-ai-how-to-trust・ai-overview-site-traffic-drop）、既存の ai-generated-web-content-share・ai-search-summary-accuracy を移した。目的は悩みの検索語での1位とAI検索の出典
