@@ -1,5 +1,211 @@
 [
   {
+    "id": "dokugaku-binaural-beats-study-focus-sustained-attention",
+    "category": "音楽と集中力",
+    "kind": "よくある説",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Melnichuk et al., \"A parametric investigation of binaural beats for brain entrainment and enhancing sustained attention\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-88517-z",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/binaural-beats-study-focus/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "うなりの音で集中できる？",
+        "body": "左右の耳に少し違う高さの音を流す「バイノーラルビート」。勉強に集中できる音として人気だよね。本当に集中は続くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "33分の注意の課題で確かめた",
+        "body": "Melnichukらは大学生80人（分析は64人）に、うなりの音と普通の音を別の日に聞かせて、33分間注意を続ける課題をしてもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "集中の落ち込みは防げなかった",
+        "body": "時間がたつと成績が落ちていく現象は、うなりの音でも変わらなかった。ただ、40ヘルツのうなりに低めの音と雑音を重ねた条件では、課題全体の成績は上がったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "毎日の勉強ではどうか",
+        "body": "1条件あたりの人数は少なく、実験室での2回だけの課題。何週間も勉強したときの成績まで良くなるかは、この実験からはわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-binaural-beats-focus-home-test",
+        "type": "反対の結果",
+        "why": "家で920人が試した実験では、ビートを聴いた組のほうが成績が下がった"
+      },
+      {
+        "id": "music-binaural-beats-brainwave",
+        "type": "あわせて読む",
+        "why": "脳波がビートにそろうかを整理したレビュー。この実験では脳波の同調は確かめられた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#dokugaku-binaural-beats-study-focus-sustained-attention"
+  },
+  {
+    "id": "dokugaku-calendar-time-blocking-vs-todo-list-time-management",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Aeon et al., \"Does time management work? A meta-analysis\" (PLoS ONE, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0245066",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/calendar-time-blocking-vs-todo-list/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "時間管理が上手な人は成績がいい？",
+        "body": "予定を立てて時間を管理できる人ほど、勉強の成績もいい。そんなイメージ、あるよね。手帳術やタイムブロッキングの本でもよく言われているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "158件の研究をまとめて分析",
+        "body": "2021年のメタ分析では、時間管理について調べた158件の研究（490の効果量）をまとめて、成績や仕事ぶり、心の健康との関係を見たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績とは中くらいの関係、統一テストとは無関係",
+        "body": "時間管理と学業成績には中くらいの関係があった（r = 0.262）。ただ標準化テストの点数とは関係が見られなかったらしい。心の健康との関係（r = 0.313）の方が強かったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "時間管理したから成績が上がった、とは言えない",
+        "body": "多くは一時点のアンケート調査で、因果ははっきりしないよ。カレンダーとやることリストのどちらがいいかも、この分析では分けて調べていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-time-management-procrastination-research-training-control-not-performance",
+        "type": "あわせて読む",
+        "why": "時間管理を研修で教えたら何が変わるかを、くじ引きで確かめた試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-calendar-time-blocking-vs-todo-list-time-management"
+  },
+  {
+    "id": "dokugaku-english-pronunciation-practice-how-to-listening-only",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Almalki & Algethami, \"An exploration of the potential benefit of extensive listening along with orthography for improving EFL learners' pronunciation\" (Asian-Pacific Journal of Second and Foreign Language Education, 2022)",
+    "sourceUrl": "https://doi.org/10.1186/s40862-022-00132-x",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/english-pronunciation-practice-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "英語は聞き流せば発音もよくなる？",
+        "body": "たくさん聞いていれば、そのうち発音も自然にネイティブっぽくなる。英語学習でよく聞く話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "90人・3クラスで6週間",
+        "body": "サウジアラビアの大学で英語を学ぶ女性90人の3クラスを、朗読を聞くだけ・文字を見ながら聞く・何もしない、にくじで割り当てた。聞く2クラスは6週間で12回、やさしい本の朗読を聞いたんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少し良くなったけど、はっきりした差はなし",
+        "body": "ネイティブがなまりの強さを判定すると、聞いた2クラスは少し良くなったものの、統計的にはっきりした差にはならなかった。6週間聞くだけでは、発音ははっきり変わらなかったみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "もっと長く、声に出せば？",
+        "body": "くじで分けたのは人でなく3つのクラスで、期間も6週間と短い。話す練習も入っていなかった。著者らも、もっと長い期間や、声に出す練習と組み合わせたときの効果は調べる必要があるとしているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "lang-listening-incidental-vocab",
+        "type": "あわせて読む",
+        "why": "聞き流しで単語は覚えられるかを調べた研究。こちらは発音の話"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-english-pronunciation-practice-how-to-listening-only"
+  },
+  {
+    "id": "posture-neck-pain-massage-cochrane",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Gross et al., \"Massage for neck pain\" (Cochrane Database of Systematic Reviews, 2024)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD004871.pub5",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "首の痛みには、マッサージが効く？",
+        "body": "首がつらいと、もんでもらうと楽になる気がするよね。でも、本当に痛みが減っているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "33の試験をまとめた",
+        "body": "2024年のコクランレビューが、首の痛みがある18〜70歳の大人を対象にした、くじ引きの試験33本（分析は1,994人）をまとめた。参加者の7割は女性で、アジアやヨーロッパの試験が多かったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "偽のマッサージとほぼ同じ",
+        "body": "見せかけのマッサージと比べると、12週間までの痛み・首の動かしやすさ・生活の質には、差がほとんどないかもしれない。著者は、マッサージの役割はまだはっきりしないとまとめているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "回数が足りない試験が多い",
+        "body": "比べた試験の多くはマッサージ1回だけ。4週間で8回以上・30分以上の組では差が大きめだったけど、確かさは低い。見せかけの施術が本物らしく見えたかを確かめていない試験も多いんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-office-neck-pain-exercise",
+        "type": "あわせて読む",
+        "why": "首の痛みには、運動（特に筋トレ）で痛みが減る方向の結果が出ている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-neck-pain-massage-cochrane"
+  },
+  {
+    "id": "appetite-tryptophan-supplement-sleep-meta",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Sutanto, Loh & Kim, \"The impact of tryptophan supplementation on sleep quality: a systematic review, meta-analysis, and meta-regression\" (Nutrition Reviews, 2022)",
+    "sourceUrl": "https://doi.org/10.1093/nutrit/nuab027",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "トリプトファンをとると、よく眠れる？",
+        "body": "トリプトファンは眠りのホルモンの材料だから、とるとよく眠れる。サプリや食べ物の話でよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18本を集め、4本を数字でまとめた",
+        "body": "2022年の分析が、トリプトファンを飲んでもらった研究18本を集めた。そのうち4本で、寝つき・眠った時間・夜中に起きている時間などを数字でまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "夜中に起きている時間だけ短く",
+        "body": "変わったのは、寝ついたあと夜中に目が覚めている時間だけ。寝つきの早さや眠った時間など、ほかの眠りの指標には差が見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "まとめられたのは4本だけ",
+        "body": "数字でまとめられた研究は4本だけ。1g以上の方が効きそうという比較は、別々の研究の結果を並べたもので、くじで量を分けて比べたわけではないよ。食べ物から少しとる場合の話でもないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-warm-milk-before-bed-sleep",
+        "type": "あわせて読む",
+        "why": "トリプトファンを含む牛乳で眠れるかを整理したレビュー。結果は混ざっていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-tryptophan-supplement-sleep-meta"
+  },
+  {
     "id": "research-curiosity-easy-to-remember-why-research-curiosity-timing-faces",
     "category": "記憶のしくみ",
     "kind": "研究紹介",
@@ -9942,6 +10148,11 @@
         "id": "research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct",
         "type": "あわせて読む",
         "why": "時間管理の研修で変わったのは気持ちの側。先延ばしを気持ちの扱い方から変えた試験"
+      },
+      {
+        "id": "dokugaku-calendar-time-blocking-vs-todo-list-time-management",
+        "type": "あわせて読む",
+        "why": "時間管理を研修で教えたら何が変わるかを、くじ引きで確かめた試験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/procrastination/#research-time-management-procrastination-research-training-control-not-performance"
@@ -13134,6 +13345,11 @@
         "id": "posture-text-neck-young-adults",
         "type": "あわせて読む",
         "why": "首の痛みの原因と言われる姿勢の調査と、運動で痛みが減るかの分析"
+      },
+      {
+        "id": "posture-neck-pain-massage-cochrane",
+        "type": "あわせて読む",
+        "why": "首の痛みには、運動（特に筋トレ）で痛みが減る方向の結果が出ている"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-pain/#posture-office-neck-pain-exercise"
@@ -19591,6 +19807,11 @@
         "id": "music-binaural-beats-brainwave",
         "type": "あわせて読む",
         "why": "「脳波がそろう」という仕組みのほうを、14の研究で確かめたまとめ"
+      },
+      {
+        "id": "dokugaku-binaural-beats-study-focus-sustained-attention",
+        "type": "反対の結果",
+        "why": "家で920人が試した実験では、ビートを聴いた組のほうが成績が下がった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/music-focus/#kokoro-binaural-beats-focus-home-test"
@@ -21645,7 +21866,14 @@
         "body": "ホットミルクの研究は麦芽飲料を混ぜたものなどで、牛乳だけの効果は分けにくい。著者自身も、人数の少なさと研究の質の低さで結論は限られると書いているんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-warm-milk-before-bed-sleep"
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-warm-milk-before-bed-sleep",
+    "links": [
+      {
+        "id": "appetite-tryptophan-supplement-sleep-meta",
+        "type": "あわせて読む",
+        "why": "トリプトファンを含む牛乳で眠れるかを整理したレビュー。結果は混ざっていた"
+      }
+    ]
   },
   {
     "id": "music-pleasure-dopamine-levodopa",
@@ -48986,6 +49214,11 @@
         "id": "kokoro-binaural-beats-focus-home-test",
         "type": "あわせて読む",
         "why": "家で920人がビートを聴いて課題を解いたら、正答率が下がった実験"
+      },
+      {
+        "id": "dokugaku-binaural-beats-study-focus-sustained-attention",
+        "type": "あわせて読む",
+        "why": "脳波がビートにそろうかを整理したレビュー。この実験では脳波の同調は確かめられた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/music-focus/music-binaural-beats-brainwave/"
@@ -52941,6 +53174,11 @@
         "id": "lang-extensive-reading",
         "type": "あわせて読む",
         "why": "たくさん読む「多読」で、読む力そのものがどれだけ伸びるかをまとめた研究"
+      },
+      {
+        "id": "dokugaku-english-pronunciation-practice-how-to-listening-only",
+        "type": "あわせて読む",
+        "why": "聞き流しで単語は覚えられるかを調べた研究。こちらは発音の話"
       }
     ],
     "webUrl": "https://seadice.win/evidence/language-learning/lang-listening-incidental-vocab/"
