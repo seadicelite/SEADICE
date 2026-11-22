@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-hangover-next-day-focus-prevent-next-day-memory",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Gunn C, Mackus M, Griffin C, Munafò MR, Adams S, \"A systematic review of the next-day effects of heavy alcohol consumption on cognitive performance\" (Addiction, 2018)",
+    "sourceUrl": "https://doi.org/10.1111/add.14404",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/hangover-next-day-focus-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お酒が抜ければ、頭も元どおり？",
+        "body": "飲み会の翌朝、酔いは覚めたはずなのに、メールの文が頭に入らない。お酒が抜けたなら頭も戻っているはず、と思いがちだよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "19本の研究、計1,163人をまとめた",
+        "body": "英国バース大学などのチーム。お酒を多く飲んだ翌日、血中のアルコールが0.02%未満まで下がった人の頭の働きを調べた研究を集めたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "記憶と、注意を保つ力が落ちていた",
+        "body": "翌日は、短い記憶・長い記憶・注意を保つ力・反応の速さが落ちていたらしい。一方、2つの作業を同時にこなす力には、はっきりした差がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "少しだけ飲んだ翌日は？",
+        "body": "調べたのはどれも多く飲んだ翌日の研究で、研究ごとのやり方の違いも大きい。ふだんの生活で測った研究ほど差が出やすかった。1〜2杯の翌日にどうなるかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#kokoro-hangover-next-day-focus-prevent-next-day-memory"
+  },
+  {
+    "id": "kokoro-retirement-loneliness-recover-europe-long-term",
+    "category": "孤独とつながり",
+    "kind": "よくある説",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Guthmuller S, Heger D, Hollenbach J, Werbeck A, \"The impact of retirement on loneliness in Europe\" (Scientific Reports, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-024-74692-y",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/retirement-loneliness-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "定年退職すると孤独になる？",
+        "body": "仕事をやめたら同僚と話さなくなって、そのまま孤独になっていく。そんなイメージ、けっこうあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "欧州とイスラエルの約2万人",
+        "body": "欧州13か国とイスラエルの50〜80歳19,699人の調査で、国ごとに違う年金の年齢を手がかりに、退職そのものが孤独を変えるかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "直後は変わらず、数年後に減っていた",
+        "body": "退職した直後の孤独にははっきりした変化がなく、4年半〜6年半ほどたつと「孤立している」と感じる確率が11.4ポイント下がると推定されたらしい。新しい活動も増えていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人によって違う",
+        "body": "これは年金の年齢をきっかけに退職した人の平均の話。女性では、夫がまだ働いているうちは退職直後に寂しさが増える傾向もあった。追跡の途中で約3割が抜けていて、日本で同じかはわかっていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-retirement-loneliness-recover-europe-long-term"
+  },
+  {
+    "id": "research-savoring-good-moments-mood-how-research-after-stress",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Klibert et al., \"Savoring Interventions Increase Positive Emotions After a Social-Evaluative Hassle\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.791040",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/savoring-good-moments-mood-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "嫌なことの後、何を味わえばいい？",
+        "body": "落ち込んだときは楽しい思い出を思い返せばいい、ってよく言うよね。でも「いま」を味わうのと比べたらどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "人前スピーチの直後に15分",
+        "body": "アメリカの大学生145人に、カメラの前で「なぜ自分は魅力的か」を話す、ストレスのかかる体験をしてもらった。その直後、15分の課題を割り当てたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「いま」を味わう組が一番前向きに",
+        "body": "自分の強みについての文章をゆっくり読み味わった組は、何もしない組、ただ想像する組、楽しい思い出を思い返した組より前向きな気分が高かった。旅行の計画を楽しみにする組とは差がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "直後の気分だけの話",
+        "body": "測ったのは課題直後の気分だけで、参加者は18〜25歳の学生145人。思い出す課題は、何もしない組とも差が出なかった。指示の出し方しだいで効く可能性もあると、著者たちも書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-savoring-good-moments-mood-how-research-meta",
+        "type": "あわせて読む",
+        "why": "「味わう」練習の効き目を、たくさんの研究でまとめたメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#research-savoring-good-moments-mood-how-research-after-stress"
+  },
+  {
+    "id": "brain-myth-pregnancy-brain-forgetful",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Davies SJ, Lum JA, Skouteris H, Byrne LK, Hayden MJ, \"Cognitive impairment during pregnancy: a meta-analysis\" (The Medical Journal of Australia, 2018)",
+    "sourceUrl": "https://doi.org/10.5694/mja17.00131",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "妊娠すると物忘れが増える？",
+        "body": "「妊娠脳」「ママ脳」って言葉があるよね。妊娠中に物忘れが増えたと感じる人は多いけど、テストで測ってみるとどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20の研究をまとめた",
+        "body": "妊娠中の女性709人と、妊娠していない女性521人の頭の働きを比べた20の研究を、数字でまとめた分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差はあり、目立つのは妊娠後期",
+        "body": "全体では妊娠中の女性のほうがテストの成績が低めだった。とくに妊娠後期で、記憶や段取りの力に差が出ていたらしい。同じ人を追った研究では、初期から中期にかけて下がっていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "毎日の生活への影響は？",
+        "body": "まとめた研究は20本で、人数は多くない。テストの点の差が、ふだんの生活や仕事にどれだけ響くかは「これから調べる必要がある」と著者たちも書いている。何が原因かも、この分析では調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-myth-pregnancy-brain-forgetful"
+  },
+  {
+    "id": "net-opposing-views-twitter-polarization",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Bail CA, Argyle LP, Brown TW, et al., \"Exposure to opposing views on social media can increase political polarization\" (PNAS, 2018)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1804840115",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "反対意見も見れば、考えは偏らない？",
+        "body": "SNSは似た意見ばかり流れてくるから偏る。だったら反対側の意見も見るようにすれば、考えは真ん中に寄るはず。よく聞く話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "反対側の投稿を1か月見てもらった",
+        "body": "アメリカのTwitter利用者で、民主党か共和党を支持する人に調査。くじで選んだ人に謝礼を払って、反対側の政治家やメディアの投稿を1日24件流すアカウントを1か月フォローしてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "むしろ考えが強まった人も",
+        "body": "共和党支持の人は、反対側の投稿を見たあと、かえって保守的な考えが強まっていた。民主党支持の人も少しリベラル寄りになったけど、はっきりした差ではなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんな人・場面でも同じ？",
+        "body": "対象は党を支持するアメリカのTwitter利用者で、どちらも支持しない人は調べていない。謝礼つきで見てもらった話で、なぜ強まったのかの仕組みもわかっていないと、著者たちも書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#net-opposing-views-twitter-polarization"
+  },
+  {
     "id": "dokugaku-tidy-desk-clutter-focus-messy-desk-creativity",
     "category": "ひらめき",
     "kind": "よくある説",
@@ -1679,7 +1852,14 @@
         "body": "期間の中央値は14日と短く、30%の試験は偏りのリスクが高め。何もしない組と比べると0.77、別の練習と比べると0.30と小さめだった（この差ははっきりとは言えない）。長く続く効果はまだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/happiness/#research-savoring-good-moments-mood-how-research-meta"
+    "webUrl": "https://seadice.win/evidence/happiness/#research-savoring-good-moments-mood-how-research-meta",
+    "links": [
+      {
+        "id": "research-savoring-good-moments-mood-how-research-after-stress",
+        "type": "あわせて読む",
+        "why": "嫌なことの直後に、どの味わい方が気分を上げたかを比べた実験"
+      }
+    ]
   },
   {
     "id": "weather-autumn-appetite-seasonal-intake",
