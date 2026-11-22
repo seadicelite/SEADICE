@@ -2196,6 +2196,11 @@
         "type": 301
       },
       {
+        "source": "/apps/hiru10{,/**}",
+        "destination": "/tools/hiru10/",
+        "type": 301
+      },
+      {
         "source": "/apps/yumetoki{,/**}",
         "destination": "/tools/yumetoki/",
         "type": 301
