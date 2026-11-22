@@ -1,5 +1,180 @@
 [
   {
+    "id": "dokugaku-split-screen-video-study-focus-sludge",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Schuetze, \"Split-screen distraction: the role of extraneous visual demands in learning from video\" (Cognitive Research: Principles and Implications, 2026)",
+    "sourceUrl": "https://doi.org/10.1186/s41235-026-00720-2",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/split-screen-video-study-focus/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "2画面の動画は頭に入らない？",
+        "body": "解説動画の横にゲーム画面が流れる「スラッジ動画」。刺激が多すぎて頭に入らないって言う人もいれば、飽きずに集中できるって言う人もいるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人が両方を見て比べた",
+        "body": "アメリカの研究で、2回の実験（75人と100人）をしたよ。同じ人に、ふつうの講義動画と、横に音なしのゲーム動画が流れる講義動画の両方を見てもらい、理解テストをしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差は3%と1%だけ",
+        "body": "正答率の差は1回目が3%、2回目が1%で、どちらも統計的な差はなかった。頭に入らなくなるわけでも、集中できるようになるわけでもなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い動画の話",
+        "body": "動画は7〜15分で、テストは見てすぐ（1分半ほど後）。横の動画は音なしで、人の顔も出なかった。長い勉強や、音のある動画で同じかはまだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-split-screen-video-study-focus-sludge"
+  },
+  {
+    "id": "dokugaku-self-explanation-prompt-card-worth-time",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "McEldoon, Durkin & Rittle-Johnson, \"Is self-explanation worth the time? A comparison to additional practice\" (British Journal of Educational Psychology, 2013)",
+    "sourceUrl": "https://doi.org/10.1111/j.2044-8279.2012.02083.x",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/self-explanation-prompt-card/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分に説明すると身につく？",
+        "body": "「読んだら自分に説明してみよう」はよく聞く勉強法だよね。実際、説明させると理解が深まるという研究は多いんだ。でも、説明には時間がかかる。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ時間で問題を解いた組と比べた",
+        "body": "小学2〜4年生69人を、くじで3組に分けた実験。自分に説明する組、同じ時間で問題を多く解く組、同じ数の問題だけ解く組。算数の等式の問題を使ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差は思ったより小さかった",
+        "body": "同じ数の問題だけ解いた組よりは、説明した組の方が考え方も解き方も伸びた。でも、問題を多く解いた組と比べると、差は小さく一部の項目だけだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人の独学では？",
+        "body": "対象は小学生で、算数の短い練習の話。大人が教科書を読むときに、説明と問題練習のどちらに時間を使うのがよいかは、まだはっきりしていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-self-explanation-own-words-memory-why-research-medstudents",
+        "type": "あわせて読む",
+        "why": "説明しながら読むと、読むだけより半年後に残った。ただ自分にテストする方が高かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-self-explanation-prompt-card-worth-time"
+  },
+  {
+    "id": "dokugaku-weekly-study-plan-monday-sheet-weekly-planning",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Uhlig et al., \"A field experiment on the effects of weekly planning behaviour on work engagement, unfinished tasks, rumination, and cognitive flexibility\" (Journal of Occupational and Organizational Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.1111/joop.12430",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/weekly-study-plan-monday-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "月曜の朝に、8分だけ週の計画",
+        "body": "働く人208人に、月曜の朝に週の目標・手順・起こりそうな邪魔とその対策を書いてもらった。かかった時間は中央値7.9分。計画なしの2週間と、計画ありの5週間をくらべたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やり残しが減った",
+        "body": "計画を立てた週は、金曜に答えた「やり残した仕事」と「仕事の後に考え込むこと」が少なく、考えの切り替えやすさも高かった。ただ、仕事への熱中度は変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "時間がたっただけかも",
+        "body": "全員が「計画なし」の後に「計画あり」をやった形なので、慣れや期待による変化と区別できない。結果は本人の回答だけで、勉強の計画で同じになるかも確かめていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#dokugaku-weekly-study-plan-monday-sheet-weekly-planning"
+  },
+  {
+    "id": "laughter-social-laughter-opioid-pet",
+    "category": "笑いと健康",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Manninen et al., \"Social Laughter Triggers Endogenous Opioid Release in Humans\" (Journal of Neuroscience, 2017)",
+    "sourceUrl": "https://doi.org/10.1523/JNEUROSCI.0688-16.2017",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "笑うと、脳内麻薬が出る？",
+        "body": "「笑うとエンドルフィンが出て気持ちよくなる」ってよく聞くよね。でも、脳の中で本当に出ているのかを測るのは難しいんだ。それを脳の画像で確かめた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "友だちとお笑いを30分",
+        "body": "健康な男性12人が、仲のいい友だちと30分お笑い動画を見た後と、1人で30分過ごした後に、PETという方法で脳を撮影。体がつくる麻薬に似た物質（オピオイド）の働きを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "みんなで笑うと出ていた",
+        "body": "みんなで笑った後は気持ちよさが増し、視床・尾状核・島という脳の場所でオピオイドが出ていた。別の実験では男女とも、みんなでお笑いを見た後のほうが、ドラマの後より痛みに強くなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "12人の男性だけ",
+        "body": "脳を測ったのは男性12人だけ。比べた相手は「1人で何もしない30分」なので、笑いのせいか、友だちといたせいかは分けきれない。健康にいいかどうかも、この研究では調べていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-pain-threshold",
+        "type": "あわせて読む",
+        "why": "みんなで笑うと痛みに強くなるという先の実験。その仕組みを脳の画像で確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-social-laughter-opioid-pet"
+  },
+  {
+    "id": "face-sclera-exposure-first-impression",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Boyer-Brosseau, Rigoulot & Hétu, \"Scleral exposure influences social judgments of trustworthiness, attractiveness, sociability, and social rank in White faces\" (PLOS One, 2026)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0348193",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "白目の見え方で、印象は変わる？",
+        "body": "同じ顔でも、目の感じで印象が違う気がするよね。白目がよく見える目と、あまり見えない目。それだけで人の見る目は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "目だけ差しかえた顔写真",
+        "body": "カナダの研究チームの実験。アメリカとカナダの162人が、無表情の顔写真50人分を評価したよ。どの顔も、目だけを白目が少なく見える目と多く見える目に差しかえて、2回ずつ見せたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "白目が多いほうが好印象",
+        "body": "信頼できそう・魅力的・人づきあいがよさそう・社会的な地位、の4つすべてで、白目が多く見える顔のほうが高く評価された。見る人や顔の性別による違いはなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "目の大きさの影響かも",
+        "body": "白目が多い目は目そのものも大きく、その影響と分けられていない。白目の少ない目が細めた怒り顔に見えた可能性もある。顔は白人だけ、ネット上の写真の評価で、ほかの国の人でも同じかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-sclera-exposure-first-impression"
+  },
+  {
     "id": "research-dinner-timing-before-bed-sleep-how-research-late-dinner",
     "category": "睡眠",
     "kind": "よくある説",
@@ -17935,6 +18110,11 @@
         "id": "research-self-explanation-own-words-memory-why-research-pupil",
         "type": "あわせて読む",
         "why": "自分で考えると覚えやすい理由を、瞳孔で頭の使い方を測って確かめた実験"
+      },
+      {
+        "id": "dokugaku-self-explanation-prompt-card-worth-time",
+        "type": "あわせて読む",
+        "why": "説明にかかる時間を、問題を多く解くのに使うとどうか。小学生で比べた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/learning/#research-self-explanation-own-words-memory-why-research-medstudents"
@@ -34929,6 +35109,11 @@
         "id": "laughter-contagious-bad-jokes",
         "type": "あわせて読む",
         "why": "笑いは人と一緒だと起きやすい。みんなで笑ったときの体の変化を見た実験"
+      },
+      {
+        "id": "laughter-social-laughter-opioid-pet",
+        "type": "あわせて読む",
+        "why": "みんなで笑った後、脳でオピオイドが出ていたことを画像で確かめた研究"
       }
     ]
   },
