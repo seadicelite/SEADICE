@@ -1,5 +1,178 @@
 [
   {
+    "id": "caffeine-coffee-tea-dementia-uk-biobank",
+    "category": "カフェイン",
+    "kind": "よくある説",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Zhang Y et al., \"Consumption of coffee and tea and risk of developing stroke, dementia, and poststroke dementia: A cohort study in the UK Biobank\" (PLoS Medicine, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pmed.1003830",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーを飲むと、認知症になりにくい？",
+        "body": "「コーヒーは脳にいい」ってよく聞くよね。英国の大きな追跡調査で、コーヒーやお茶を飲む量と、その後の認知症や脳卒中の関係を調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50〜74歳の36万人を約11年追った",
+        "body": "英国のUKバイオバンクに参加した50〜74歳の365,682人に、最初にコーヒーとお茶を1日何杯飲むかを聞いた。その後、中央値11.4年追いかけて、5,079人が認知症になったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1日2〜3杯の人でいちばん低かった",
+        "body": "飲む量とリスクの関係はまっすぐではなく、コーヒーなら1日2〜3杯、お茶なら3〜5杯あたりがいちばん低かった。両方を2〜3杯ずつ飲む人は、どちらも飲まない人より認知症のリスクが28%低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飲んだから防げた、とは言えない",
+        "body": "観察研究なので、コーヒーが認知症を防いだとは言えない。飲む量は最初に1回聞いただけで、参加者は英国全体の縮図でもない。測っていない別の要因が混ざっている可能性も著者が書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-tea-dementia-uk-biobank"
+  },
+  {
+    "id": "light-permanent-night-shift-circadian-adjustment",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Folkard S, \"Do permanent night workers show circadian adjustment? A review based on the endogenous melatonin rhythm\" (Chronobiology International, 2008)",
+    "sourceUrl": "https://doi.org/10.1080/07420520802106835",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜勤を続ければ、体内時計は慣れる？",
+        "body": "夜勤ばかりの人なら、そのうち体が夜型に切りかわりそうだよね。ずっと夜勤で働く人の体内時計がどこまで合わせられるのか、まとめて調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "眠りのホルモンのリズムで確かめた",
+        "body": "体内時計のいちばんの目安とされるメラトニン（眠りのホルモン）のリズムを、固定の夜勤で働く人で測った6つの研究を見直した。石油掘削施設のような特殊な職場は外しているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "完全に慣れた人は3%未満",
+        "body": "体内時計が夜勤に完全に合った人は3%未満。体が助かるほど大きく合わせられた人も、4人に1人より少なかった。職場の照明がふつうか暗めかでも、男女でも違いは見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "もとの研究は6つだけ",
+        "body": "もとになった研究は6つと少なく、2008年までのもの。ふつうの職場の話で、どんな光の浴び方や眠り方なら合わせやすいかは、このまとめからはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-night-shift-sleep-recovery-research-days-off-strategy",
+        "type": "あわせて読む",
+        "why": "体内時計が夜勤に合いにくいなら、休みの日の眠り方をどうするかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#light-permanent-night-shift-circadian-adjustment"
+  },
+  {
+    "id": "research-no-memories-early-childhood-infantile-amnesia-why-research-age7",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Bauer PJ & Larkina M, \"The onset of childhood amnesia in childhood: a prospective investigation of the course and determinants of forgetting of early-life events\" (Memory, 2014)",
+    "sourceUrl": "https://doi.org/10.1080/09658211.2013.854806",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/no-memories-early-childhood-infantile-amnesia-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "小さいころの記憶、いつ消える？",
+        "body": "3歳のころのことって、大人になるとほとんど覚えていないよね。でも子どものころは覚えていたのかな。いつ消えていくんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3歳の出来事を何年かあとに聞いた",
+        "body": "3歳の子ども83人が、母親と最近の出来事について話した。その後、5〜9歳のどこかの時点で、同じ出来事を覚えているかを聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "7歳と8歳のあいだで大きく変わる",
+        "body": "5〜7歳の子は出来事の6割以上を覚えていたのに、8〜9歳では4割未満。1つも思い出せなかった子は、8歳で37%もいたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数は少なめ",
+        "body": "1つの年齢あたり16〜19人と少なく、家庭の背景にも偏りがある。思い出す出来事も母親が選んだもので、本人にとって大事な出来事とは限らないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-no-memories-early-childhood-infantile-amnesia-why-research-age7"
+  },
+  {
+    "id": "research-pet-loss-grief-recovery-research-prolonged-grief-rate",
+    "category": "ペットの科学",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Hyland P, \"No pets allowed: Evidence that prolonged grief disorder can occur following the death of a pet\" (PLOS ONE, 2026)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0339213",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/pet-loss-grief-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ペットの死は人の死より軽い？",
+        "body": "「たかがペットで」と言われて、悲しみを口にしづらい人は多いよね。じゃあ実際、ペットを亡くした悲しみは人を亡くしたときと比べてどうなのか。英国の調査が調べたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の大人975人に聞いた",
+        "body": "年齢や性別を人口に合わせて集めた975人に、これまでの死別と、長引く悲嘆の症状を聞いた。32.6%が大切なペットを亡くした経験があったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "長引く悲嘆は7.5%で、友人の死と近い",
+        "body": "ペットの死の後に長引く悲嘆の基準に当てはまったのは7.5%。親しい友人を亡くした場合の7.8%やパートナーの9.1%と近かった。症状の表れ方も、人を亡くしたときと同じだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回のアンケートで、英国だけの話",
+        "body": "医師の診断ではなく、オンラインのアンケート1回の結果。ほかの国や文化でも同じかはわかっていないし、安楽死を選んだかなど、亡くし方による違いもまだ調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#research-pet-loss-grief-recovery-research-prolonged-grief-rate"
+  },
+  {
+    "id": "research-night-leg-cramp-wake-up-recovery-research-magnesium",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Garrison SR et al., \"Magnesium for skeletal muscle cramps\" (Cochrane Database of Systematic Reviews, 2020)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD009402.pub3",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/night-leg-cramp-wake-up-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "足がつるならマグネシウム？",
+        "body": "「こむら返りにはマグネシウム」とよく聞くよね。サプリを飲んでいる人も多いけど、本当に回数は減るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "11の試験・735人をまとめた",
+        "body": "コクランというレビューで、マグネシウムを試した11の試験、合わせて735人分の結果をまとめて調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差は週0.18回だけ",
+        "body": "原因のわからないこむら返りがある人（平均年齢は60代）では、偽薬と比べた差は1週間あたり0.18回で、意味のある差ではなかった。著者は高齢者の予防には効きそうにないとまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "妊娠中のこむら返りは別",
+        "body": "妊娠中のこむら返りを調べた試験は結果が分かれていて、まだ結論が出ていない。運動中につる場合の試験も見つからなかったらしい。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#research-night-leg-cramp-wake-up-recovery-research-magnesium"
+  },
+  {
     "id": "dokugaku-split-screen-video-study-focus-sludge",
     "category": "学習法",
     "kind": "よくある説",
@@ -13416,7 +13589,14 @@
         "body": "一度きりのアンケートなので、眠り方が慣れやすさを変えたのか、もともと慣れやすい人がその眠り方を選んだのかはわからない。対象も一つの病院の看護師だけだよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/sleep/#research-night-shift-sleep-recovery-research-days-off-strategy"
+    "webUrl": "https://seadice.win/evidence/sleep/#research-night-shift-sleep-recovery-research-days-off-strategy",
+    "links": [
+      {
+        "id": "light-permanent-night-shift-circadian-adjustment",
+        "type": "あわせて読む",
+        "why": "夜勤を続けても体内時計はほとんど合わないことをまとめた研究"
+      }
+    ]
   },
   {
     "id": "color-pill-color-perceived-effect",
