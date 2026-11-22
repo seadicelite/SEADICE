@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-tidy-desk-clutter-focus-messy-desk-creativity",
+    "category": "ひらめき",
+    "kind": "よくある説",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Manzi et al., \"Workspace Disorder Does Not Influence Creativity and Executive Functions\" (Frontiers in Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2018.02662",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/tidy-desk-clutter-focus/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "散らかった机は創造的？",
+        "body": "「天才の机は散らかっている」「散らかった机の方がアイデアが出る」って聞くよね。2013年には、散らかった部屋の方が創造的な答えが出たという実験も発表されたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "100人で追試",
+        "body": "ニューヨークの大学の研究者たちが、100人（平均22.9歳）を片付いた机と散らかった机にくじで分けて、2種類の創造性のテストと、注意や判断の課題をしてもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差は出なかった",
+        "body": "創造性のテストでも、注意や判断の課題でも、片付いた机と散らかった机で差はなかった。著者らは「効果はあったとしても小さく、当てにならない」とまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ手順ではない",
+        "body": "使った物や採点方法は元の実験と違う、考え方を確かめる追試。参加者は若い人が中心で、机の前にいたのも短い時間だけ。何年も同じ机で働く場合のことはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#dokugaku-tidy-desk-clutter-focus-messy-desk-creativity"
+  },
+  {
+    "id": "kokoro-work-pressure-cold-face-cold-mask-stress",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Richer R, Zenkner J, Küderle A, Rohleder N, Eskofier BM, \"Vagus activation by Cold Face Test reduces acute psychosocial stress responses\" (Scientific Reports, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-022-23222-9",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/work-pressure-cold-face/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "焦ったら、顔を冷やすと落ち着く？",
+        "body": "緊張で心臓がバクバクしたら、冷たいもので顔を冷やすといい、って聞くよね。顔が冷えると心拍がゆっくりになる反射があるのは本当らしい。でも、ストレスの場面でも効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "暗算のプレッシャーの前に2分冷やした",
+        "body": "ドイツの大学生が、見張られながら暗算を解く課題を3回くり返したよ。毎回の前に、片方の組は冷たいマスクを顔に2分当て、もう片方は2分休んだ。集めた28人のうち、分析したのは25人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体の戻りは早く、ホルモンも上がりにくかった",
+        "body": "冷やした組は、課題の合間に心拍が早く落ち着いた。ストレスのホルモンの最大の上がり幅も、冷やさない組の平均約71%に対して約1%だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "気分の差は、はっきりしなかった",
+        "body": "本人が答えた気分は、2つの組ではっきりした差がなかった。参加者は若い大学生25人（8割が女性）だけで、保冷剤や洗顔で同じことが起きるかも調べられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#kokoro-work-pressure-cold-face-cold-mask-stress"
+  },
+  {
+    "id": "kokoro-ai-better-cooperate-mindset-go-players",
+    "category": "AIとのつきあい方",
+    "kind": "研究紹介",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Shin M, Kim J, van Opheusden B, Griffiths TL, \"Superhuman artificial intelligence can improve human decision-making by increasing novelty\" (PNAS, 2023)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2214840120",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-better-cooperate-mindset/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く心配",
+        "title": "AIが強すぎると、人は下手になる？",
+        "body": "AIのほうが上手になったら、人は考えなくなって腕が落ちるんじゃないか。そんな心配、聞いたことあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "囲碁のプロ71年分の手をAIで採点",
+        "body": "研究者たちは、1950〜2021年にプロ棋士が打った580万以上の手を、人より強い囲碁AIで評価したんだ。AIが世界王者に勝った2016年の前とあとで比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "AIのあと、人の手の質が上がっていた",
+        "body": "それまでの66年はほとんど伸びていなかったのに、2016年以降は手の質がはっきり上がっていた。過去にない新しい手も増えて、AIと違う手でも質が上がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIのおかげとは言い切れない",
+        "body": "これは対局の記録を分析した研究で、AIが原因とは言い切れないんだ。棋士の気持ちは測っていないし、勝ち負けがはっきりした囲碁以外の仕事でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ai-better-cooperate-mindset-go-players"
+  },
+  {
+    "id": "aging-sit-rise-floor-test-mortality",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Brito LB et al., \"Ability to sit and rise from the floor as a predictor of all-cause mortality\" (European Journal of Preventive Cardiology, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/2047487312471759",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "床から手をつかずに立てる？",
+        "body": "床に座って、手もひざもつかずに立ち上がる。これができるかどうかで、長生きできるかがわかるって聞いたことあるよね。ほんとかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "51〜80歳の2002人を追いかけた",
+        "body": "ブラジルの研究で、51〜80歳の2002人が床に座って立つテストを受けたよ。手やひざをつくたびに減点して、10点満点で採点。その後、6年ほど追いかけたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "点が低い人ほど、亡くなる人が多かった",
+        "body": "期間中に159人が亡くなった。年齢・性別・体格をそろえても、0〜3点の人は8〜10点の人よりおよそ5倍亡くなりやすかった。1点上がるごとに生存は21%よかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "練習すれば長生き、とは言えない",
+        "body": "これは記録をさかのぼって見た観察研究。点が低いのは病気や体力の衰えのしるしかもしれず、立ち方を練習すれば寿命がのびるかは調べていないよ。対象は7割近くが男性だった。"
+      }
+    ],
+    "links": [
+      {
+        "id": "aging-one-leg-stand-10s-mortality",
+        "type": "あわせて読む",
+        "why": "どちらも簡単な体のテストと寿命の関係を調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-sit-rise-floor-test-mortality"
+  },
+  {
+    "id": "alcohol-beer-gout-risk",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Choi HK et al., \"Alcohol intake and risk of incident gout in men: a prospective study\" (The Lancet, 2004)",
+    "sourceUrl": "https://doi.org/10.1016/s0140-6736(04)16000-5",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "痛風になるのはビールのせい？",
+        "body": "痛風が気になったらビールはやめて、焼酎やワインにすればいい。そんな話、よく聞くよね。お酒の種類で本当に違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "男性4万7千人を12年",
+        "body": "アメリカの研究者たちが、痛風になったことのない男性4万7150人に2年ごとにアンケートをして、1986〜98年の12年間、お酒の量と種類、痛風になったかを追いかけたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "量が多いほど増え、ビールがいちばん強かった",
+        "body": "期間中に730人が痛風になった。飲む量が多いほど増え、1日50g以上だと飲まない人の約2.5倍。ビールは1日1本（約355ml）増えるごとに1.49倍、蒸留酒は1杯ごとに1.15倍で、ワインははっきりした関係がなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "男性だけ、アンケートの研究",
+        "body": "対象は男性だけで、飲む量は自己申告。観察研究なので、ビールそのものが原因とまでは言い切れないよ。日本人や、プリン体を減らしたビールはこの研究では調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-beer-gout-risk"
+  },
+  {
     "id": "caffeine-coffee-tea-dementia-uk-biobank",
     "category": "カフェイン",
     "kind": "よくある説",
@@ -15159,6 +15332,11 @@
     "links": [
       {
         "id": "aging-gait-speed-survival",
+        "type": "あわせて読む",
+        "why": "どちらも簡単な体のテストと寿命の関係を調べた研究"
+      },
+      {
+        "id": "aging-sit-rise-floor-test-mortality",
         "type": "あわせて読む",
         "why": "どちらも簡単な体のテストと寿命の関係を調べた研究"
       }
