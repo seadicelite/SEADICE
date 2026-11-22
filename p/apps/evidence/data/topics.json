@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-dinner-timing-before-bed-sleep-how-research-late-dinner",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Enomoto et al., \"Effects of later dinner timing on subsequent metabolic function and nocturnal sleep in healthy young women\" (Journal of Physiological Anthropology, 2026)",
+    "sourceUrl": "https://doi.org/10.1186/s40101-026-00430-0",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/dinner-timing-before-bed-sleep-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る直前の夕食は、眠りを浅くする？",
+        "body": "「寝る前に食べると眠りが浅くなる」ってよく聞くよね。でも実際に時刻を変えて眠りを測った実験は、意外と少ないらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "寝る1時間前と5時間前を4日ずつ",
+        "body": "東京の大学に通う健康な女性13人が、寝る1時間前に夕食をとる4日間と、5時間前にとる4日間の両方を体験。ふだんの生活のまま、自宅で脳波を測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "睡眠が約26分短く、途中の目覚めが増えた",
+        "body": "4日目の夜、1時間前の条件では睡眠が約415分で、5時間前の約441分より短かった。寝ついた後に起きている時間も約29分と、約16分より長かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い女性13人の4日間だけ",
+        "body": "対象は若い女性13人で、期間も4日だけ。月経周期もそろえていない。論文が引く別の実験では1日だけ時刻をずらしても睡眠に差がなく、何日も続くと効いてくるのかもしれないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "japan-eat-then-sleep",
+        "type": "あわせて読む",
+        "why": "夕食から寝るまでの時間を、胸やけ（逆流性食道炎）の面から調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-dinner-timing-before-bed-sleep-how-research-late-dinner"
+  },
+  {
+    "id": "research-hot-day-irritability-heat-mood-why-research-heat-mood-not-behavior",
+    "category": "天気と気分",
+    "kind": "よくある説",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Cassar et al., \"Gender and culture shape prosociality more than heat stress in a five-country experiment\" (PNAS Nexus, 2026)",
+    "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgag017",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/hot-day-irritability-heat-mood-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "暑いと人に冷たくなる？",
+        "body": "暑い日はイライラして、人にきつく当たりがちって言うよね。暑さは気分だけじゃなく、人への態度まで変えるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5か国で部屋の温度を変えた",
+        "body": "アメリカ、メキシコ、コロンビア、インド、ケニアの大学生1,636人が参加。隠したヒーターで部屋を18℃から34℃に変えて、お金の分け方や競争を選ぶかを調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気分は下がる、判断は同じ",
+        "body": "30℃以上の部屋では、いら立ちと疲れが増えて、幸せな気分が減った。でも、人にお金をどう分けるかや競争を選ぶかは、暑さで変わらなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続く暑さは？",
+        "body": "暑さにさらされたのは約1時間だけで、気分は本人の答え。何日も続く猛暑や、お酒・物不足など実生活の要因が重なったときも同じかは、まだわかっていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-heat-retaliation-baseball",
+        "type": "反対の結果",
+        "why": "試合の記録では暑い日に仕返しが増えたが、この実験では人への態度は変わらなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#research-hot-day-irritability-heat-mood-why-research-heat-mood-not-behavior"
+  },
+  {
+    "id": "dokugaku-ai-summary-check-table-accuracy-prompt",
+    "category": "AIとのつきあい方",
+    "kind": "よくある説",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Peters & Chin-Yee, \"Generalization bias in large language model summarization of scientific research\" (Royal Society Open Science, 2025)",
+    "sourceUrl": "https://doi.org/10.1098/rsos.241776",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/ai-summary-check-table/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「正確に」と頼めばAIの要約は正確？",
+        "body": "AIに論文や資料を要約させるとき、「不正確な点を入れないで」と書き添えれば安心、と思うよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10種類のAIの要約4900件をチェック",
+        "body": "研究者が10種類のAIに論文の要旨や本文を要約させ、元の文章より話が広がっていないかを1件ずつ調べた。頼み方も3種類くらべたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "かえって話が広がった",
+        "body": "多くのAIが「参加者の75%」のような限定を落として言い切りがちだった。しかも「不正確にしないで」と頼むと、話を広げた要約がかえって約2倍に増えたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ逆効果なのか",
+        "body": "人での実験ではなく、AIの要約を集めて調べた研究。逆効果になった理由はまだ確かめられていないし、試した頼み方は3種類だけ。AIは更新が速いから、今のAIで同じかもわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#dokugaku-ai-summary-check-table-accuracy-prompt"
+  },
+  {
+    "id": "food-chocolate-acne-crossover",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Daszkiewicz, Różańska & Regulska-Ilow, \"The Relationship between Chocolate Consumption and the Severity of Acne Lesions—A Crossover Study\" (Foods, 2024)",
+    "sourceUrl": "https://doi.org/10.3390/foods13131993",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "チョコを食べるとニキビができる？",
+        "body": "「チョコを食べすぎるとニキビができる」って昔から言うよね。一方で「ただの迷信」という声もある。実際に食べてもらって確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ニキビのある92人が、チョコありとなしを4週間ずつ",
+        "body": "ポーランドの美容クリニックに通う18〜45歳の92人（うち88人が女性）が、炎症をおさえる食事を続けながら、カカオ85%のチョコを毎日50g食べる4週間と、食べない4週間を両方体験したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どちらの順番でも、ニキビは悪化した",
+        "body": "ニキビの重さ（0〜5点）は、チョコを食べた4週間で平均2.5→3.4点、2.4→3.5点と上がった。92人中79人で1点以上悪くなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どの成分のせいかは不明",
+        "body": "チョコを食べているかは本人にもわかる比較で、もともとニキビのある、ほぼ女性の人たちの結果。高カカオ50gの話で、ふつうのチョコや少量でも同じか、どの成分が原因かもわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#food-chocolate-acne-crossover"
+  },
+  {
+    "id": "kosodate-cry-it-out-attachment-18m",
+    "category": "子育ての科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Bilgin & Wolke, \"Parental use of 'cry it out' in infants: no adverse effects on attachment and behavioural development at 18 months\" (Journal of Child Psychology and Psychiatry, 2020)",
+    "sourceUrl": "https://doi.org/10.1111/jcpp.13223",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "泣いてもすぐ抱っこしないと、心に悪い？",
+        "body": "赤ちゃんが泣いたらすぐ抱っこしないと、親子の絆に響くって聞くと不安になるよね。家事の途中で、少し待たせてしまうこともあるし。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イギリスの178人を1歳半まで追った",
+        "body": "生まれてすぐ・3か月・6か月・18か月に、泣いてもしばらく見守ることがあるかを母親に聞いた。1歳半で、親子の愛着を観察する決まった方法と、行動の発達を調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1歳半の愛着や発達に、悪い結びつきは見えなかった",
+        "body": "生後6か月までに時々または何度も見守っていた家庭でも、1歳半の愛着や行動の発達に悪い影響は見つからなかった。泣く回数や時間が短めになった時期もあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "反論も出ている",
+        "body": "観察研究で、見守ったかどうかは母親の答え。178人と多くはなく、出版後に別の研究者から「人数が足りず、結論が強すぎる」という反論も出ている。1歳半より先のこともわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-cry-it-out-attachment-18m"
+  },
+  {
     "id": "dokugaku-study-time-of-day-menu-table-nap-length",
     "category": "睡眠",
     "kind": "素朴な疑問",
@@ -13835,6 +14015,11 @@
         "id": "bohan-heat-violent-crime",
         "type": "あわせて読む",
         "why": "暑さと仕返しの次は、暑さと暴力犯罪の関係を多くの研究でまとめたもの"
+      },
+      {
+        "id": "research-hot-day-irritability-heat-mood-why-research-heat-mood-not-behavior",
+        "type": "反対の結果",
+        "why": "5か国の実験では、暑さで気分は下がっても人への態度は変わらなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/#weather-heat-retaliation-baseball"
@@ -45870,6 +46055,11 @@
         "id": "appetite-bedtime-eating-sleep-atus",
         "type": "あわせて読む",
         "why": "寝る前に食べた日の睡眠の長さと夜中の目覚めを12万人で調べた"
+      },
+      {
+        "id": "research-dinner-timing-before-bed-sleep-how-research-late-dinner",
+        "type": "あわせて読む",
+        "why": "寝る1時間前と5時間前の夕食で、自宅で測った眠りを比べた実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/japan/japan-eat-then-sleep/"
