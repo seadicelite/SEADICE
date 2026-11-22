@@ -1,5 +1,197 @@
 [
   {
+    "id": "research-curiosity-easy-to-remember-why-research-curiosity-timing-faces",
+    "category": "記憶のしくみ",
+    "kind": "研究紹介",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Murphy et al., \"Temporal proximity to the elicitation of curiosity is key for enhancing memory for incidental information\" (Learning & Memory, 2021)",
+    "sourceUrl": "https://doi.org/10.1101/lm.052241.120",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/curiosity-easy-to-remember-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「知りたい」と記憶のタイミング",
+        "body": "気になるクイズの答えを待っている間に見たものは、ついでに覚えやすくなるらしい。でも、その効果はいつまで続くのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "待ち時間に顔写真を見せた",
+        "body": "クイズの問題を見たあと、答えが出るまでの間に、関係のない顔写真を1枚見せたよ。見せるタイミングを変えて、あとでその顔を覚えているかを調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効くのは「知りたい」の直後",
+        "body": "問題を見て2秒後に出た顔は、知りたい問題のとき39.58%、そうでないとき23.70%覚えられていた。でも答えが出る直前の顔では、ほとんど差がなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "顔以外にも効く？",
+        "body": "参加者は2つの実験で61人と32人。調べたのは顔写真の見覚えだけだよ。勉強の事実で試した別の実験では、逆に覚えにくくなった例もあるんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-curiosity-helps-memory-curiosity-answers",
+        "type": "あわせて読む",
+        "why": "同じ研究室の雑学クイズの手法で、知りたい答えそのものが覚えやすくなった"
+      },
+      {
+        "id": "dokugaku-why-curiosity-helps-memory-curiosity-spillover",
+        "type": "反対の結果",
+        "why": "ついでの記憶でも、勉強の事実を近くに置くと逆に覚えにくかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#research-curiosity-easy-to-remember-why-research-curiosity-timing-faces"
+  },
+  {
+    "id": "research-hay-fever-cant-focus-why-research-hay-fever-work-productivity",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Sekine et al., \"Association between allergic rhinitis and work productivity in a nonclinical setting: a cross-sectional study\" (Journal of Occupational Health, 2026)",
+    "sourceUrl": "https://doi.org/10.1093/joccuh/uiaf071",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/hay-fever-cant-focus-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "花粉症だと仕事がはかどらない？",
+        "body": "花粉の季節は仕事の効率がガクッと落ちる、ってよく聞くよね。花粉症の人はみんな、そんなに損をしているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "関東の働く人555人に聞いた",
+        "body": "2024年の3〜4月、関東地方で働く大人555人にアンケート。鼻炎があると答えた347人（62.5%）と、ない・わからないと答えた人の仕事の効率を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差が出たのは症状が重い人",
+        "body": "鼻炎がある人とない人で、全体の効率に差はなかった。でも鼻炎のある人の中では、症状が重い人ほど、出勤していても効率が落ちていたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因と結果は？",
+        "body": "ある時点のアンケートで、鼻炎かどうかは自己申告。症状が重いから効率が落ちたのか、ほかの理由があるのかは、この調査だけではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-hay-fever-study-focus-reset-exam-grades",
+        "type": "あわせて読む",
+        "why": "花粉症と試験の成績をイギリスの10代で調べた研究。こちらは働く大人"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#research-hay-fever-cant-focus-why-research-hay-fever-work-productivity"
+  },
+  {
+    "id": "research-night-owl-procrastination-why-research-dst-sleep",
+    "category": "先延ばし対策",
+    "kind": "研究紹介",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Maier, Kühnel & Zimmermann, \"How Did You Sleep Tonight? The Relevance of Sleep Quality and Sleep-Wake Rhythm for Procrastination at Work\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.785154",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/night-owl-procrastination-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "よく眠れた日は後回しが減る？",
+        "body": "寝不足の日ほど、やるべき仕事を後回しにしてしまう気がするよね。ドイツの研究者が、会社員でこれを確かめたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "夏時間の前後の月曜日",
+        "body": "ドイツのフルタイムの会社員101人に、夏時間に切り替わる前と後の月曜日、前の晩の眠りの質とその日の先延ばしを答えてもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "夜型ほど影響を受けた",
+        "body": "よく眠れた翌日ほど先延ばしは少なく、夜型の人ほど先延ばしが多かった。夏時間で早起きになった週明けは、夜型の人ほど「眠りが浅いと先延ばしが増える」関係が強かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "2日だけの調査",
+        "body": "調べたのは2日だけで、夜型の人は少なめ。眠りが自制の力を回復させるという説明も、直接は測っていないんだって。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-night-owl-procrastination-why-research-dst-sleep"
+  },
+  {
+    "id": "color-visibility-fluorescent-reflective",
+    "category": "色彩心理",
+    "kind": "よくある説",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Kwan & Mapstone, \"Interventions for increasing pedestrian and cyclist visibility for the prevention of death and injuries\" (Cochrane Database of Systematic Reviews, 2006)",
+    "sourceUrl": "https://doi.org/10.1002/14651858.CD003438.pub2",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "目立つ色の服なら、車から見えやすい？",
+        "body": "子どもの黄色い帽子や、夜の反射材。目立つ色を身につければ事故を防げる、ってよく言われるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "39件の試験を集めた",
+        "body": "歩く人や自転車を目立たせる工夫で、運転する人が早く見つけられるかを調べた39件の試験を、コクランのレビューが集めたんだ（探したのは2005年までの研究）。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "昼は蛍光色、夜は光と反射材",
+        "body": "昼は黄・赤・オレンジの蛍光色で、見つけるのも人だと気づくのも早くなった。夜はライトや点滅する光、赤や黄の反射材が効いた。体の動きがわかる位置に反射材を付けると、人だと気づきやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "事故が減るかは未確認",
+        "body": "事故やけがが減るかを調べた試験は、1件も見つからなかった。試験ごとに条件がばらばらで、数字を1つにまとめることもできなかったんだ。2005年までの研究のまとめだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-visibility-fluorescent-reflective"
+  },
+  {
+    "id": "personality-only-child-little-emperor",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Carlsson, Lampi, Martinsson, Tu & Yang, \"Are only-children different? Evidence from a lab-in-the-field experiment of the Chinese one-child policy\" (PLOS ONE, 2022)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0277210",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "一人っ子はわがまま？",
+        "body": "「一人っ子は自分勝手で、協力や競争が苦手」。よく聞くイメージだよね。中国では一人っ子が「小皇帝」と呼ばれたりもする。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "一人っ子政策の前と後で比べた",
+        "body": "中国の3つの省で、1979年に一人っ子政策が始まる前と後に生まれた大人に、お金を使ったゲームをしてもらった。省ごとに政策の始まりや厳しさが違うことも使って比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "協力や競争に差はなかった",
+        "body": "競争の好み、協力、交渉、先まで待てるかには、はっきりした差がなかった。差が出たのは、政策のあとに生まれた人のほうがリスクを避けにくかった点だけ。「小皇帝」のイメージは確かめられなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一人ひとりを比べたわけではない",
+        "body": "比べたのは政策の前と後に生まれた世代で、対象は中国の大人だけ。ゲームの中でのふるまいなので、家や職場での性格まで同じかはわからない。日本の一人っ子に当てはまるかも調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "replication-birth-order",
+        "type": "あわせて読む",
+        "why": "生まれ順と性格の決めつけも、大人数のデータではほとんど差が見られなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-only-child-little-emperor"
+  },
+  {
     "id": "kokoro-hangover-next-day-focus-prevent-next-day-memory",
     "category": "お酒の常識",
     "kind": "よくある説",
@@ -2791,6 +2983,11 @@
         "id": "dokugaku-why-curiosity-helps-memory-curiosity-answers",
         "type": "反対の結果",
         "why": "雑学の答えは覚えやすくなったが、近くに置いた勉強の事実は逆に覚えにくかった"
+      },
+      {
+        "id": "research-curiosity-easy-to-remember-why-research-curiosity-timing-faces",
+        "type": "反対の結果",
+        "why": "顔写真では、知りたい気持ちの直後に見たものが覚えやすくなった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/memory/#dokugaku-why-curiosity-helps-memory-curiosity-spillover"
@@ -3054,6 +3251,11 @@
         "id": "dokugaku-why-curiosity-helps-memory-curiosity-spillover",
         "type": "反対の結果",
         "why": "同じ雑学の手法で、近くに置いた勉強の事実は逆に覚えにくかった"
+      },
+      {
+        "id": "research-curiosity-easy-to-remember-why-research-curiosity-timing-faces",
+        "type": "あわせて読む",
+        "why": "知りたい気持ちが、関係のない顔の記憶も助けるのは問題を見た直後だけだった"
       }
     ]
   },
@@ -11211,7 +11413,14 @@
         "body": "結果を見比べた観察研究なので、花粉症が成績を下げたとまでは言い切れない。薬のせいか症状のせいかも分けきれず、大人の試験でも同じかはわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#dokugaku-hay-fever-study-focus-reset-exam-grades"
+    "webUrl": "https://seadice.win/evidence/body-myths/#dokugaku-hay-fever-study-focus-reset-exam-grades",
+    "links": [
+      {
+        "id": "research-hay-fever-cant-focus-why-research-hay-fever-work-productivity",
+        "type": "あわせて読む",
+        "why": "日本の働く大人では、全体の効率に差はなく症状が重い人で落ちていた"
+      }
+    ]
   },
   {
     "id": "personality-extraversion-wellbeing-meta",
@@ -32268,6 +32477,11 @@
         "id": "personality-change-adulthood",
         "type": "あわせて読む",
         "why": "生まれ順では性格の差が見られず、年代では変化が見られた"
+      },
+      {
+        "id": "personality-only-child-little-emperor",
+        "type": "あわせて読む",
+        "why": "一人っ子は「小皇帝」という決めつけも、中国の調査で確かめられなかった"
       }
     ]
   },
