@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-positive-self-statements-i-can-affirmation-lovable",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Wood et al., \"Positive self-statements: Power for some, peril for others\" (Psychological Science, 2009)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-9280.2009.02370.x",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/positive-self-statements-i-can-affirmation/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「自分はできる」と唱えると自信がつく？",
+        "body": "試験の前や鏡の前で、前向きな言葉をくり返す方法はよくすすめられるよね。実際、多くの人が使っていて、効くと信じていることがアンケートでもわかっているんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "「私は愛される人間だ」とくり返す実験",
+        "body": "2009年の研究で、参加者に「私は愛される人間だ」とくり返してもらい、その後の気分や自己評価を、くり返さなかった人とくらべたよ。自信の高い人と低い人で分けて見たんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自信の低い人は、かえって気分が悪化",
+        "body": "自信の低い人は、くり返すとかえって気分が悪くなった。自信の高い人は気分が上がったけど、その差は小さかったらしい。いちばん必要そうな人に逆効果だった、という結果だね。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "唱えた直後の気分だけ",
+        "body": "測ったのは、唱えた直後の気分や自己評価。何週間も続けた場合や、試験の成績にどう響くかは調べていないんだ。別のチームが同じ結果を確かめたかも、この論文からはわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-comparison-effort-self-talk-do-my-best",
+        "type": "あわせて読む",
+        "why": "同じ「唱える」でも、子どもの算数では「精一杯やる」の方が効いた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-positive-self-statements-i-can-affirmation-lovable"
+  },
+  {
+    "id": "dokugaku-remember-or-write-down-relearning-sheet-older-overconfident",
+    "category": "記憶のしくみ",
+    "kind": "よくある説",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Scarampi & Gilbert, \"Age differences in strategic reminder setting and the compensatory role of metacognition\" (Psychology and Aging, 2021)",
+    "sourceUrl": "https://doi.org/10.1037/pag0000590",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/remember-or-write-down-relearning-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "年をとると、記憶に自信がなくなる？",
+        "body": "「年のせいで物覚えが悪くなった」と感じる人は多いよね。だから年配の人ほど慎重になって、メモやリマインダーをたくさん使うはず、と思いがち。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "少しあとでやることを覚える実験",
+        "body": "65〜84歳と18〜30歳の計88人に、パソコンで「少しあとでやること」を覚えてもらった。リマインダーを使える回と使えない回をくらべた、事前登録つきの実験だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "実は自信を持ちすぎていた",
+        "body": "年配の人は自分の記憶に自信を持ちすぎていた。リマインダーを使ってよい回でも、成績の低さを埋めきれなかったらしい。自信があっても、予定はメモなどに預けた方がいいのかもしれないね。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日常の予定でも同じ？",
+        "body": "数分のパソコン課題の話で、何か月もかける勉強や日常の予定で同じかはわからない。40〜50代も調べていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-habit-forgetting-reminder-cue-research-text-reminder",
+        "type": "あわせて読む",
+        "why": "リマインダーが、やるべきことを思い出す助けになるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#dokugaku-remember-or-write-down-relearning-sheet-older-overconfident"
+  },
+  {
+    "id": "dokugaku-small-print-hard-to-read-adult-study-dim-light-age",
+    "category": "からだの常識",
+    "kind": "研究紹介",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Peñaloza et al., \"Age-Related Changes in Mesopic Reading Vision Across Adulthood\" (Investigative Ophthalmology & Visual Science, 2025)",
+    "sourceUrl": "https://doi.org/10.1167/iovs.66.3.40",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/small-print-hard-to-read-adult-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとると、暗い所で字が読みにくい？",
+        "body": "夜の部屋で本を読むと、若いころより読みにくい気がする。それ、気のせいじゃないかもしれない。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18〜84歳の157人で読み比べ",
+        "body": "米国で、目の病気のない18〜84歳の157人が、明るい画面と暗い画面で短い文を音読した。近くを見るメガネはかけたうえで、読む速さと読める文字の大きさを測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "暗い所ほど、年齢の差が大きい",
+        "body": "暗い画面では、20歳から80歳にかけて最も速く読める速さが1分あたり約30語落ちた。速く読める最小の文字の大きさは、暗い画面の方が年齢の差が大きく広がったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追った研究ではない",
+        "body": "年齢の違う人を一度に比べた研究で、同じ人が年をとってどう変わるかは見ていない。短い文の音読なので、長く読み続けたときの負担もわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#dokugaku-small-print-hard-to-read-adult-study-dim-light-age"
+  },
+  {
+    "id": "oya-scam-vulnerability-mild-cognitive-decline",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Ueno D et al., \"Mild Cognitive Decline Is a Risk Factor for Scam Vulnerability in Older Adults\" (Frontiers in Psychiatry, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyt.2021.685451",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "物忘れが増えた親ほど、詐欺にだまされやすい？",
+        "body": "日本では2019年の詐欺被害の8割以上が高齢者だったんだって。物忘れが増えてきた親ほど危ないのかな、と心配になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "京都で101人に聞き取り",
+        "body": "京都府立医科大学の研究。認知機能が少し落ちている50人と落ちていない51人（62〜90歳）に、だまされやすさを6問で聞き、記憶などの検査もしたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "衰えが軽い人ほど、だまされやすい答え",
+        "body": "落ちているグループでは、検査の成績が良い（衰えが軽い）人ほど、だまされやすい答えが多かった。進んだ人は話そのものがわかりにくいからでは、と著者は考えている。どちらのグループでも男性の方がだまされやすかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際の被害を調べたわけではない",
+        "body": "測ったのは質問への答えで、本当にだまされたかではない。一度きりの調査で人数も101人と少なく、性格やお金の知識など、調べていない要因も残っているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-scam-vulnerability-mild-cognitive-decline"
+  },
+  {
+    "id": "food-multivitamin-memory-cosmos-web",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Yeung LK et al., \"Multivitamin Supplementation Improves Memory in Older Adults: A Randomized Clinical Trial\" (The American Journal of Clinical Nutrition, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/j.ajcnut.2023.05.011",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "マルチビタミンで、物忘れを防げる？",
+        "body": "年をとってきたら、とりあえずマルチビタミン。健康のために飲んでいる人は多いけど、記憶にも効くのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "高齢者3562人を3年追った",
+        "body": "高齢者3562人をくじ引きで、毎日マルチビタミンを飲む組と偽薬の組に分けた。毎年ネットで記憶などのテストを受けてもらい、3年間くらべたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "単語を思い出すテストだけ、少し良かった",
+        "body": "1年後、聞いた単語をすぐ思い出すテストでマルチビタミンの組の方が成績が良く、3年の平均でも良かった。ほかの記憶や判断のテストでは差がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「3年分若い」は推定の数字",
+        "body": "効果は年齢約3.1年分の記憶の衰えに当たると著者は見積もったけど、年齢の違う人を比べた推定だよ。テストはネットで受けたもの。認知症を防げるかは調べていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "food-cocoa-flavanol-cognition",
+        "type": "あわせて読む",
+        "why": "同じ大規模試験の別の研究。電話のテストでマルチビタミンに小さな改善"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-multivitamin-memory-cosmos-web"
+  },
+  {
     "id": "research-mouth-taping-sleep-research-mild-osa-20",
     "category": "睡眠",
     "kind": "素朴な疑問",
@@ -2770,7 +2957,14 @@
         "body": "子どもの算数の成績を1回調べた実験で、気分は測っていないんだ。大人が人と比べて落ち込んだときに同じ効果があるかは、まだわかっていないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/learning/#kokoro-comparison-effort-self-talk-do-my-best"
+    "webUrl": "https://seadice.win/evidence/learning/#kokoro-comparison-effort-self-talk-do-my-best",
+    "links": [
+      {
+        "id": "dokugaku-positive-self-statements-i-can-affirmation-lovable",
+        "type": "あわせて読む",
+        "why": "自信の低い人が前向きな言葉を唱えると、かえって気分が沈んだ実験"
+      }
+    ]
   },
   {
     "id": "kokoro-comfort-friend-what-to-say-misprediction",
@@ -29378,6 +29572,11 @@
         "id": "research-habit-reminder-notification-ignored-recovery-research-heartsteps-fade",
         "type": "あわせて読む",
         "why": "通知の効き目が日がたつと弱まるかを、1つの試験で細かく見た研究"
+      },
+      {
+        "id": "dokugaku-remember-or-write-down-relearning-sheet-older-overconfident",
+        "type": "あわせて読む",
+        "why": "年配の人は自信を持ちすぎて、リマインダーを使っても忘れを埋めきれなかった"
       }
     ]
   },
@@ -50286,7 +50485,13 @@
         "body": "使ったのは抽出物でチョコではない。参加者の約9割が白人の高齢者で、ほかの人たちでも同じかはわからない。検査も電話でのテストだよ。"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "id": "food-multivitamin-memory-cosmos-web",
+        "type": "あわせて読む",
+        "why": "マルチビタミンの小さな改善を、別の試験でネットのテストを使って確かめた"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/food-brain/#food-cocoa-flavanol-cognition"
   },
   {
