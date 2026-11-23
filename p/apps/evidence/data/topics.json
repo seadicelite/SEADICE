@@ -1,5 +1,171 @@
 [
   {
+    "id": "research-disliked-food-repeated-tasting-how-research-fava-beans",
+    "category": "食べ物の常識",
+    "kind": "研究紹介",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Jakobsen et al., \"A Comparison of Mere-Exposure, Flavor-Flavor and Flavor-Nutrient Learning Strategies in Enhancing Legume Preferences in an Adult Sample\" (Foods, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/foods15162884",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/disliked-food-repeated-tasting-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "大人でも苦手な味に慣れる？",
+        "body": "子どもは何度も食べると野菜に慣れるって聞くけど、大人になってからでも好みって変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3週間でそら豆を12回",
+        "body": "そら豆を食べ慣れていないデンマークの大人70人が、家で3週間に12回食べた研究があるんだ。そのまま、スパイス味、油を足す、の3組に分けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "そのまま食べた組だけ好みが上がった",
+        "body": "そのまま食べた組は、好みが9段階で5.09から6.41に上がった。スパイスや油を足した組では上がらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少ない",
+        "body": "1組22〜25人の小さな研究で、小さな差は見逃しているかも。似たバタービーンズの好みは変わらず、慣れは食べた豆だけだったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-disliked-food-repeated-tasting-how-research-fava-beans"
+  },
+  {
+    "id": "research-dessert-stomach-full-why-research-variety",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Embling R et al., \"Effect of food variety on intake of a meal: a systematic review and meta-analysis\" (The American Journal of Clinical Nutrition, 2021)",
+    "sourceUrl": "https://doi.org/10.1093/ajcn/nqaa352",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/dessert-stomach-full-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "品数が多いと、つい食べすぎる？",
+        "body": "お腹いっぱいでもデザートは入るし、食べ放題だと食べすぎる。料理の種類が多いと、本当に食べる量は増えるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "30研究をまとめて計算",
+        "body": "イギリスの研究チームが、品数と食べる量を調べた実験を集めて、30研究・39の比較をまとめて計算したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "品数が多いと食べる量が増えた",
+        "body": "品数が多いと食べる量は「小〜中程度」増えていた（効果量0.405）。違う料理を順番に出す形で数字がいちばん大きかったけど、形による違いははっきりしなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究の質にはまだ課題",
+        "body": "研究ごとの結果のばらつきが大きく、理由は説明できなかった。偏りのおそれが高い研究も多いと著者たちは書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-dessert-stomach-full-why-research-variety"
+  },
+  {
+    "id": "research-onion-tears-why-research-sharp-knife",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Wu Z et al., \"Droplet outbursts from onion cutting\" (PNAS, 2025)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2512779122",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/onion-tears-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "よく切れる包丁なら、玉ねぎで泣かない？",
+        "body": "料理の世界では昔から言われてるよね。実はこれ、高速カメラで確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "機械で玉ねぎを切って撮影",
+        "body": "刃を落として玉ねぎを切る装置を作り、1秒に5000〜2万コマで撮影。刃の鋭さと速さを変えて、飛び出すしぶきを数えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "切れない刃でしぶきが最大約40倍",
+        "body": "刃先の幅0.91μmの鋭い刃より、13.3μmの刃ではしぶきが最大約40倍。刃を速くすると約4倍に増えた。しぶきは秒速1〜40mで飛び出してたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "涙の量は測っていない",
+        "body": "調べたのは機械で切ったときのしぶきで、人の涙は測っていない。人での検証ではないんだ。冷やした玉ねぎでは、しぶきがむしろ多かったよ。涙が減るかはわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-onion-tears-why-research-sharp-knife"
+  },
+  {
+    "id": "sleepenv-traffic-noise-awakening",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Basner M & McGuire S, \"WHO Environmental Noise Guidelines for the European Region: A Systematic Review on Environmental Noise and Effects on Sleep\" (International Journal of Environmental Research and Public Health, 2018)",
+    "sourceUrl": "https://doi.org/10.3390/ijerph15030519",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "車の音がする部屋だと、眠りは浅くなる？",
+        "body": "大きな道路や線路の近くに住むと、夜の音が気になるよね。慣れてしまえば平気なのか、それとも眠りに響いているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "実際の暮らしの74研究",
+        "body": "WHOの指針づくりのために、2000年以降の実験室ではない74の研究を集めたレビューなんだ。道路・鉄道・飛行機の音と、アンケートや脳波で測った眠りの関係をまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "音が大きいほど目が覚めやすい",
+        "body": "脳波で測ると、寝室の最大の音が10dB大きくなるごとに、目が覚める確率が道路・鉄道・飛行機のどれも約1.35倍になっていた。交通の音は眠りに響いているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "聞き方で結果が変わる",
+        "body": "「音で眠りが妨げられたか」と聞くと差が出たけど、音にふれずに眠りを聞くと、はっきりした差は出なかった。証拠の確かさは中程度で、子どもの眠りなどはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleepenv-traffic-noise-awakening"
+  },
+  {
+    "id": "circadian-chronotype-age-peak-19",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Fischer D, Lombardi DA, Marucci-Wellman H, Roenneberg T, \"Chronotypes in the US - Influence of age and sex\" (PLoS ONE, 2017)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0178782",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "10代が朝起きられないのは、だらけてるから？",
+        "body": "中高生や大学生が朝に弱くて、夜はなかなか寝ない。だらしないと言われがちだけど、年齢で体内時計の時間がずれるってことはあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの5万3千人の記録",
+        "body": "アメリカの生活時間の調査で、15歳以上の53,689人が書いた日記から、休みの日の眠りのまん中の時刻を年齢ごとに比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばん夜型なのは19歳ごろ",
+        "body": "10代で眠りの時刻がだんだん遅くなり、19歳ごろがいちばん夜型で、そのあとは年とともに早くなっていた。15〜25歳の間の差がいちばん大きかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追ったわけではない",
+        "body": "別の年齢の人を一度に比べた調査で、同じ人が年をとって変わる様子は見ていない。目覚ましを使ったかもわからず、アメリカだけのデータなんだ。だらけとの関係も調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-chronotype-age-peak-19"
+  },
+  {
     "id": "kokoro-ai-recommend-options-regret-shortlist",
     "category": "意思決定バイアス",
     "kind": "よくある説",
