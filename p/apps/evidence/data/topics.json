@@ -1,5 +1,171 @@
 [
   {
+    "id": "research-dog-ate-chocolate-what-to-do-research-christmas",
+    "category": "ペットの科学",
+    "kind": "研究紹介",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Noble et al., \"Heightened risk of canine chocolate exposure at Christmas and Easter\" (Veterinary Record, 2017)",
+    "sourceUrl": "https://doi.org/10.1136/vr.104762",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/dog-ate-chocolate-what-to-do-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬のチョコ事故、多い時期はある？",
+        "body": "犬がチョコを食べちゃう事故って、いつ起きやすいんだろう。家にチョコが増える時期が怪しい気がするよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "229の動物病院の記録",
+        "body": "イギリスの229の動物病院の記録（2012〜2017年）から、チョコを食べて来院した犬375匹を探して、来た時期や年齢を、ほかの犬と比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "クリスマスとイースターに多い",
+        "body": "クリスマスの時期はふだんよりチョコの診察が多く（オッズ比4.74）、イースターも多かった（同1.97）らしい。8歳以上の犬は4歳未満より少なかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本のバレンタインは？",
+        "body": "イギリスではバレンタインとハロウィンにはっきりした増加はなかったけど、ドイツやアメリカのまとめでは増えたという報告もある。調べたのはイギリスの病院の記録だけで、日本でどうなるかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#research-dog-ate-chocolate-what-to-do-research-christmas"
+  },
+  {
+    "id": "research-dog-ate-chocolate-what-to-do-research-156dogs",
+    "category": "ペットの科学",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Weingart et al., \"Chocolate ingestion in dogs: 156 events (2015-2019)\" (Journal of Small Animal Practice, 2021)",
+    "sourceUrl": "https://doi.org/10.1111/jsap.13329",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/dog-ate-chocolate-what-to-do-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "チョコを食べた犬は助からない？",
+        "body": "「犬にチョコは猛毒」ってよく聞くよね。食べちゃったら、もう手遅れなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "156匹の記録を振り返った",
+        "body": "ドイツ・ベルリンの大学の動物病院に、チョコを食べて来た犬156匹の記録を、症状や治療、その後まで振り返った研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "症状が出た44匹中43匹が助かった",
+        "body": "112匹は症状なし。症状が出た44匹のうち28匹はダークやビターのチョコを食べていた。吐かせるなどの処置と治療を受けて、44匹中43匹が助かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "病院に来なかった犬は？",
+        "body": "1つの病院に連れて来られた犬だけの記録で、家で様子を見た犬がどうなったかは含まれていないよ。比べるグループもない振り返りの研究なんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#research-dog-ate-chocolate-what-to-do-research-156dogs"
+  },
+  {
+    "id": "research-spicy-food-mouth-burn-milk-recovery-research-skim-milk",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Nolden et al., \"Putting out the fire – Efficacy of common beverages in reducing oral burn from capsaicin\" (Physiology & Behavior, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.physbeh.2019.05.018",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/spicy-food-mouth-burn-milk-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "辛さには脂肪たっぷりの牛乳？",
+        "body": "辛さのもとカプサイシンは油に溶けやすいから、脂肪の多い牛乳ほど効くってよく言われるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "72人で7種類の飲み物を比べた",
+        "body": "辛いトマトジュースを飲んだ直後に、水・牛乳・低脂肪乳・コーラ・炭酸水・ノンアルコールビール・甘いフルーツ飲料を40mLずつ飲んで、2分間、10秒ごとに辛さをつけてもらった実験があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "低脂肪乳でもよく効いた",
+        "body": "どの飲み物でも辛さは和らいだけど、いちばん効いたのは牛乳、低脂肪乳、甘いフルーツ飲料。脂肪の量に関係なく、牛乳がいい選択だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ牛乳が効くのか",
+        "body": "著者らは脂肪よりたんぱく質が効いているのかもと考えているけど、まだ確かめられていないんだ。試したのは辛いトマトジュースだけで、辛い料理を食べたときも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-spicy-food-mouth-burn-milk-recovery-research-skim-milk"
+  },
+  {
+    "id": "exercise-soccer-players-dementia-mortality",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Mackay et al., \"Neurodegenerative Disease Mortality among Former Professional Soccer Players\" (New England Journal of Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1056/NEJMoa1908483",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "サッカー選手は、認知症になりやすい？",
+        "body": "運動は脳にいいってよく聞くよね。でもヘディングのように頭にボールを当てるスポーツだと、話が違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "元プロ7,676人を約18年追った",
+        "body": "スコットランドの元プロサッカー選手7,676人と、性別・年齢・暮らし向きをそろえた一般の人23,028人の死因や、認知症の薬の処方を比べた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "脳の病気で亡くなる人が多かった",
+        "body": "認知症などの脳の病気がおもな死因だった人は、元選手1.7％、一般の人0.5％。逆に心臓病や肺がんで亡くなる人は元選手のほうが少なく、認知症の薬も元選手に多く出ていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ヘディングが原因かは不明",
+        "body": "記録を振り返った観察研究で、何が原因かまではわからない。対象はスコットランドの男性のプロ選手で、趣味のサッカーの話ではないよ。著者も、別の追跡研究で確かめる必要があるとしているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-soccer-players-dementia-mortality"
+  },
+  {
+    "id": "posture-upright-mood-body-awareness",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Lin et al., \"Stand tall, think bright: How embodied experience unlocks the power of posture in emotion regulation\" (Acta Psychologica, 2026)",
+    "sourceUrl": "https://doi.org/10.1016/j.actpsy.2026.106351",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "背筋を伸ばす効果は、誰にでもある？",
+        "body": "落ち込んだら背筋を伸ばすといい、って聞くよね。でも、やってみてもあまり変わらない人もいそう。人によって違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生269人で試した",
+        "body": "体の感覚をどれくらい感じ取るかをアンケートで測り、高い人と低い人に分けた。わざと気分を下げたあと、背筋を伸ばすか猫背で5分過ごしてもらい、気分と浮かんだ考えを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体の感覚が強い人にだけ効いた",
+        "body": "体の感覚を強く感じる人は、背筋を伸ばすと猫背より嫌な気分が減り、前向きな考えが増えた。感じにくい人では、姿勢で気分の戻り方は変わらなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室で5分だけの話",
+        "body": "大学生だけの1回の実験で、気分も人工的に下げたもの。ふだんの落ち込みや、毎日続けたときにどうなるかはわからない。ほかの研究者による追試もまだだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-upright-mood-body-awareness"
+  },
+  {
     "id": "dokugaku-positive-self-statements-i-can-affirmation-lovable",
     "category": "学習法",
     "kind": "よくある説",
