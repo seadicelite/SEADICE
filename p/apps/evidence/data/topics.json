@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-mouth-taping-sleep-research-mild-osa-20",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Lee et al., \"The Impact of Mouth-Taping in Mouth-Breathers with Mild Obstructive Sleep Apnea: A Preliminary Study\" (Healthcare, 2022)",
+    "sourceUrl": "https://doi.org/10.3390/healthcare10091755",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/mouth-taping-sleep-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "口を閉じればいびきは減る？",
+        "body": "口を開けて寝るといびきをかきやすい、とよく言われるよね。じゃあテープで閉じたらどうなるのか、台湾の研究者が調べたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "軽い睡眠時無呼吸の20人",
+        "body": "口で息をしている、軽い睡眠時無呼吸の20人が、シリコンのテープで口を閉じて1週間後に自宅で睡眠検査を受けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "止まる回数がほぼ半分に",
+        "body": "呼吸が止まる・弱くなる回数は1時間あたり8.3回から4.7回に、いびきの回数も47%減ったらしい。20人中13人で、いびきが半分以下になったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べる群がない",
+        "body": "テープなしの群と比べていないので、思い込みの効果を外せない。20人中19人が男性で、追ったのは1週間だけ。中等度以上の無呼吸の人には危ないかもしれないと著者も書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-mouth-taping-sleep-research-mild-osa-20"
+  },
+  {
+    "id": "research-memorized-but-cant-apply-transfer-recovery-research-different-examples",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Butler, Black-Maier, Raley & Marsh, \"Retrieving and applying knowledge to different examples promotes transfer of learning\" (Journal of Experimental Psychology: Applied, 2017)",
+    "sourceUrl": "https://doi.org/10.1037/xap0000142",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/memorized-but-cant-apply-transfer-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "同じ問題を何周もすれば応用力がつく？",
+        "body": "問題集を何周もする勉強法、よく聞くよね。でも同じ問題をくり返すのと、違う問題を解くのでは、応用力のつき方は同じなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ問題3回 vs 違う問題3問",
+        "body": "アメリカの大学の研究者が、地学の講義動画を見たあとに応用問題で練習する実験を4つ行ったんだ。同じ問題を3回解く人と、違う例の問題を3問解く人に分けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "違う例で練習したほうが上",
+        "body": "2日後に新しい応用問題を解くと、4つの実験すべてで、違う例で練習した人のほうが成績がよかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "もっと長い期間では？",
+        "body": "練習から本番までは2日で、講義動画を使った実験なんだ。何週間も先の試験や、学校の長い単元、ほかの教科でも同じかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-practice-success-fails-on-exam-jargon-quiz",
+        "type": "あわせて読む",
+        "why": "用語のクイズでは応用問題まで伸びなかった、という同じ問いの研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-memorized-but-cant-apply-transfer-recovery-research-different-examples"
+  },
+  {
+    "id": "research-chocolate-overeating-stop-how-research-distance",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Maas et al., \"Do distant foods decrease intake? The effect of food accessibility on consumption\" (Psychology & Health, 2012)",
+    "sourceUrl": "https://doi.org/10.1080/08870446.2011.565341",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/chocolate-overeating-stop-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "お菓子は見えない所に置くといい？",
+        "body": "「お菓子は手の届かない所に」ってよく聞くよね。でも、ほんの少し遠ざけるだけで本当に変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20cm・70cm・140cm",
+        "body": "オランダの研究者が、お菓子の器を座った人から20cm、70cm、140cm先にくじで置き分けて、食べた人と量を比べたんだ。2つの実験で77人と54人が参加したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "少し離すだけで減った",
+        "body": "70cmや140cm先に置くと、20cm先より食べた人も量も減ったらしい。あとで食べたい気持ちが強まることもなかった。遠いと「取りに行くのが面倒」と感じるのが効いていたみたい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "家で毎日だと？",
+        "body": "2つの実験とも、その場で1回お菓子を置いて比べた話なんだ。家や職場で何日も続けたとき、別の場所で食べて取り返さないかは、この研究ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-chocolate-overeating-stop-how-research-distance"
+  },
+  {
+    "id": "scent-olfactory-training-meta",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Sorokowska, Drechsler, Karwowski & Hummel, \"Effects of olfactory training: a meta-analysis\" (Rhinology, 2017)",
+    "sourceUrl": "https://doi.org/10.4193/Rhin16.195",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "匂いのトレーニングで、嗅覚は戻る？",
+        "body": "匂いがわかりにくくなった人が、毎日いくつかの香りをかぐ「嗅覚トレーニング」。聞いたことはあっても、本当に効くのか気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "13件の研究をまとめた",
+        "body": "ドイツとポーランドの研究者が、嗅覚トレーニングを調べた13件の研究をまとめたんだ。匂いを当てる力・かぎ分ける力・弱い匂いに気づく力に分けて見たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どの力も上がっていた",
+        "body": "3つの力すべてでよくなっていて、当てる力とかぎ分ける力では効果が大きく、弱い匂いに気づく力では小〜中くらいだったらしい。続けた期間が長いほど、当てる力は伸びやすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜ戻るのかは不明",
+        "body": "まとめた研究は13件と多くない。匂いを失った原因によって結果の出方が違い、なぜ戻るのかの仕組みもまだ調べ中。2017年のまとめなので、コロナのあとの嗅覚障害は入っていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "scent-covid-smell-loss-recovery",
+        "type": "あわせて読む",
+        "why": "コロナで失った匂いが自然にどれだけ戻るかを追った研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-olfactory-training-meta"
+  },
+  {
+    "id": "mindfulness-meditation-cortisol-meta",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Koncz, Demetrovics & Takacs, \"Meditation interventions efficiently reduce cortisol levels of at-risk samples: a meta-analysis\" (Health Psychology Review, 2021)",
+    "sourceUrl": "https://doi.org/10.1080/17437199.2020.1760727",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "瞑想でストレスホルモンが下がる？",
+        "body": "瞑想するとストレスホルモンのコルチゾールが下がる、ってよく聞くよね。でも、誰がやっても同じように下がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "くじ引きの試験をまとめた",
+        "body": "ハンガリーの研究者が、くじで瞑想の組と比べる組に分けてコルチゾールを測った試験をまとめたんだ。血液で測った10件と、だ液で測った21件を分けて見たよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "下がったのは一部の人",
+        "body": "血液の10件では中くらいの効果があったけど、よく見ると体の病気がある人だけだった。だ液の21件では効果は小さく、はっきりしなかったらしい。結果は混ざっているんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ストレスの多い人では？",
+        "body": "強いストレスの中で暮らす人では、だ液でも下がる傾向がわずかに見えたけど、はっきりとは言えない程度。効果が長く続くかも、まだ予備的な結果だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-meditation-cortisol-meta"
+  },
+  {
     "id": "dokugaku-coffee-caffeine-study-memory-after-study-faces",
     "category": "カフェイン",
     "kind": "よくある説",
@@ -19155,7 +19335,14 @@
         "body": "匂いを調べた18の研究のうち、検査も使ったのは1つだけで、ほかは本人の申告。著者も長く続く人の割合は少なめの見積もりかもしれないと書いている。2021年秋までの研究なので、その後の型でも同じかはわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-covid-smell-loss-recovery"
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-covid-smell-loss-recovery",
+    "links": [
+      {
+        "id": "scent-olfactory-training-meta",
+        "type": "あわせて読む",
+        "why": "匂いを取り戻すために試されている嗅覚トレーニングのまとめ"
+      }
+    ]
   },
   {
     "id": "research-habit-no-results-yet-want-to-quit-research-acceptable-goal",
@@ -30072,7 +30259,14 @@
         "body": "神経解剖学と生理学の2つの授業での結果。資格試験の独学のように、長期間ひとりで学ぶ場合にも同じ形になるかはわかっていない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-practice-success-fails-on-exam-jargon-quiz"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-practice-success-fails-on-exam-jargon-quiz",
+    "links": [
+      {
+        "id": "research-memorized-but-cant-apply-transfer-recovery-research-different-examples",
+        "type": "あわせて読む",
+        "why": "応用力をつけるなら、違う例の問題で練習するとよかった研究"
+      }
+    ]
   },
   {
     "id": "dokugaku-why-cafe-noise-feels-focused-white-noise",
