@@ -1,5 +1,199 @@
 [
   {
+    "id": "dokugaku-coffee-caffeine-study-memory-after-study-faces",
+    "category": "カフェイン",
+    "kind": "よくある説",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Leon et al., \"Caffeine reduces accuracy in face recognition memory consolidation\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-11737-w",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/coffee-caffeine-study-memory/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "覚えた後のコーヒーで記憶が定着？",
+        "body": "勉強の後にコーヒーを1杯飲むと、覚えたことが記憶に残りやすくなる。そんな話を聞いたことがあるかも。2014年にそういう実験が報告されたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "顔を覚えた直後にカフェイン200mg",
+        "body": "アルゼンチンの18〜40歳97人が、人の顔を10枚見た直後に、カフェイン200mgか偽の錠剤を飲んだ。翌日、並んだ顔から見た顔を選ぶテストを受けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "むしろ間違いが増えた",
+        "body": "見た顔が並んでいる条件で、正しく選べたのはカフェインの組が50.7%、偽の錠剤の組が59.1%。似た別の顔を「見た顔」と選んだのは32.1%と20.0%で、カフェインの組のほうが多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだん飲む人の、1回の実験",
+        "body": "参加者はふだんからカフェインを1日約400mgとる人たち。何を飲んだか本人が気づいた可能性を除く比較の組はなく、カフェインが夜の眠りに響いた可能性も、著者たちが限界に挙げているんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-memory-consolidation",
+        "type": "反対の結果",
+        "why": "2014年の実験では、覚えた後のカフェインで似た画像を見分ける成績が上がった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#dokugaku-coffee-caffeine-study-memory-after-study-faces"
+  },
+  {
+    "id": "dokugaku-guess-word-meaning-before-answer-finnish",
+    "category": "言葉と外国語",
+    "kind": "よくある説",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Butowska et al., \"You won't guess that: On the limited benefits of guessing when learning a foreign language\" (Memory & Cognition, 2022)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-021-01254-2",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/guess-word-meaning-before-answer/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "知らない単語は、まず意味を当ててみる",
+        "body": "答えを見る前に意味を推測すると、外れても記憶に残りやすい。単語の覚え方として、そんな話を聞いたことがあるかも。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "フィンランド語の単語で実験",
+        "body": "ポーランドの学生など58人が、フィンランド語の名詞を学んだ。単語の半分は8秒で訳を推測してから正解を5秒見て、残り半分は単語と訳を13秒読んだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "思い出す成績は「読むだけ」が上",
+        "body": "4択で訳を選ぶテストでは推測した単語が少し上だった。でも訳を自分で書いて思い出すテストでは、読んだ単語が平均.48、推測した単語が.40で、読むほうが良かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語の種類で変わるかも",
+        "body": "同じ論文の4つ目の実験では、外国語でなく意味が少し似た母語の単語の組だと、推測のほうが成績が良かった。テストは学んだのと同じ日で、長く覚えているかはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-unknown-words-while-reading-english-guess-vs-dictionary",
+        "type": "あわせて読む",
+        "why": "文の前後から意味を推測する方法を、辞書と比べた別の実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-guess-word-meaning-before-answer-finnish"
+  },
+  {
+    "id": "dokugaku-just-start-five-minutes-motivation-aversiveness-delay",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Wieland et al., \"Predicting Delay in Goal-Directed Action: An Experience Sampling Approach Uncovering Within-Person Determinants Involved in the Onset of Academic Procrastination Behavior\" (Frontiers in Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2021.695927",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/just-start-five-minutes-motivation/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "先延ばしは「性格」のせい？",
+        "body": "「自分は先延ばしするタイプだから」と思っている人は多いよね。でも、実際に予定を先送りするかどうかは、何で決まるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "75人の8日間の勉強日記",
+        "body": "ドイツの大学生75人が8日間、「明日やる勉強」とその作業への感じ方をスマホで記録した。記録がそろった501件のうち、先送りされたのは21.2%だったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「嫌だ」が増えると先送りしやすい",
+        "body": "予定した日から当日までに、その作業を前より嫌だと感じるようになると、先送りの起こりやすさ（オッズ）は論文の尺度で1単位ごとに約2.12倍に。ふだんの先延ばししやすさの点数は、個々の先送りを予測しなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "8日間の自己記録",
+        "body": "対象は時間管理の授業をとった大学生だけで、記録は自分でつけたもの。期間も8日間と短く、社会人の独学や長い期間でも同じかはわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct",
+        "type": "あわせて読む",
+        "why": "作業への嫌な気持ちを扱う練習で、先延ばしが減るかを試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-just-start-five-minutes-motivation-aversiveness-delay"
+  },
+  {
+    "id": "sleep-rocking-bed-deep-sleep",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Perrault et al., \"Whole-Night Continuous Rocking Entrains Spontaneous Neural Oscillations with Benefits for Sleep and Memory\" (Current Biology, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.cub.2018.12.028",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "揺られると、よく眠れる？",
+        "body": "電車やハンモックで揺られていると、なぜか眠くなるよね。赤ちゃんを揺らして寝かしつけるのも同じ。大人でも、揺れは眠りを深くするのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ゆっくり揺れるベッドで一晩",
+        "body": "研究チームは18人に、ゆっくり揺れ続けるベッドで眠る夜と、止まったベッドで眠る夜を体験してもらい、眠りの脳波と、寝る前に覚えたことの記憶を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "寝つきが早く、深い眠りが長く",
+        "body": "揺れる夜は、深い眠りに入るまでが短く、いちばん深い段階の眠りが長くなり、途中で目覚めかける回数も減った。翌朝の記憶の成績も、揺れる夜のほうが良かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "18人・実験室の特別なベッド",
+        "body": "人数は18人で、実験室の揺れるベッドで1晩ずつ比べただけ。家のハンモックや揺れるベッドを毎晩使って同じことが続くか、眠りに悩む人にも効くかは、まだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kosodate-infant-cry-carry-walk",
+        "type": "あわせて読む",
+        "why": "赤ちゃんは抱っこで歩くと泣き止む。揺れや動きと落ち着き・眠りの関係"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-rocking-bed-deep-sleep"
+  },
+  {
+    "id": "money-hunger-buy-nonfood",
+    "category": "お金の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Xu, Schwarz & Wyer, \"Hunger promotes acquisition of nonfood objects\" (PNAS, 2015)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1417712112",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お腹がすいていると、余計な物まで買う？",
+        "body": "空腹でスーパーに行くと買いすぎる、ってよく言うよね。食べ物ならわかるけど、食べられない物まで欲しくなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "実験室とお店で5つの研究",
+        "body": "Xuらは、実験室とお店での5つの研究で、お腹のすき具合と「手に入れたい」気持ち、実際に持ち帰ったり買ったりした物の量を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "食べ物以外も多く手に取った",
+        "body": "お腹がすいている人ほど、食べ物でない物（事務用のクリップなど）も多く手に入れた。タダでもらえるときも、お金を払うときも同じ。ただ、その物を好きになったわけではなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どのくらい増えるかは別の話",
+        "body": "どれも短い1回きりの実験で、ふだんの買い物で毎回どれくらい出費が増えるかまではわからない。仕組みも「手に入れる」考えが浮かびやすくなるという説明で、直接は確かめていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#money-hunger-buy-nonfood"
+  },
+  {
     "id": "dokugaku-binaural-beats-study-focus-sustained-attention",
     "category": "音楽と集中力",
     "kind": "よくある説",
@@ -7076,7 +7270,14 @@
         "body": "語彙の量は本人の申告で測っていて、対象もアラビア語を話す大学生だけ。推測をまちがえた回が多い人ほど覚えた量が少なく、まちがった意味を覚えるおそれもあると著者らは書いているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-unknown-words-while-reading-english-guess-vs-dictionary"
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-unknown-words-while-reading-english-guess-vs-dictionary",
+    "links": [
+      {
+        "id": "dokugaku-guess-word-meaning-before-answer-finnish",
+        "type": "あわせて読む",
+        "why": "答えの前に訳を推測すると、思い出す成績は読むだけより低かった"
+      }
+    ]
   },
   {
     "id": "dokugaku-vocab-words-never-stick-cue-fading-hard-items",
@@ -12135,6 +12336,11 @@
         "id": "research-time-management-procrastination-research-training-control-not-performance",
         "type": "あわせて読む",
         "why": "時間管理の研修で変わったのは気持ちの側。先延ばしを気持ちの扱い方から変えた試験"
+      },
+      {
+        "id": "dokugaku-just-start-five-minutes-motivation-aversiveness-delay",
+        "type": "あわせて読む",
+        "why": "作業を嫌だと感じる度合いが増えた日に、先送りが起きやすかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-unpleasant-feelings-emotion-skills-research-er-training-rct"
@@ -13159,7 +13365,14 @@
         "body": "研究から「5分歩いて、5〜8分座ってから寝かせる」という手順が出たけど、著者も今後の研究で確かめる必要があるとしている。泣きや眠りが長く改善するかは見ていないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-infant-cry-carry-walk"
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-infant-cry-carry-walk",
+    "links": [
+      {
+        "id": "sleep-rocking-bed-deep-sleep",
+        "type": "あわせて読む",
+        "why": "大人でも、揺れるベッドで深い眠りが長くなった"
+      }
+    ]
   },
   {
     "id": "dokugaku-why-studying-feels-effortful-mental-effort-thinking-feels-unpleasant",
@@ -35697,6 +35910,11 @@
         "id": "alcohol-learn-then-drink-memory",
         "type": "あわせて読む",
         "why": "どちらも、覚えたあとにとるもので記憶が変わるかを調べた研究"
+      },
+      {
+        "id": "dokugaku-coffee-caffeine-study-memory-after-study-faces",
+        "type": "反対の結果",
+        "why": "顔を覚えた後のカフェインでは、むしろ間違いが増えた"
       }
     ]
   },
