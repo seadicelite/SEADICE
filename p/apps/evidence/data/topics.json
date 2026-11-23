@@ -1,5 +1,171 @@
 [
   {
+    "id": "research-bright-light-daytime-focus-sleepiness-research-well-rested-no-effect",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Lok et al., \"White Light During Daytime Does Not Improve Alertness in Well-rested Individuals\" (Journal of Biological Rhythms, 2018)",
+    "sourceUrl": "https://doi.org/10.1177/0748730418796036",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/bright-light-daytime-focus-sleepiness-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "明るい部屋なら目がさえる？",
+        "body": "眠いときは明るい場所へ。光を浴びると目がさえる、ってよく聞くよね。夜の光で眠れなくなるのは有名な話。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "昼間に明るさを変えて比べた",
+        "body": "Lokら（2018）は、よく眠れている50人に、朝から夕方まで薄暗い光と24〜2,000ルクスの光を交互に浴びてもらい、眠気や注意力を測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2,000ルクスでも、はっきりした差なし",
+        "body": "明るさによる差はごく一部でしか見られず、統計の補正をするとどれも残らなかった。寝不足でない人には、昼間の光の効果ははっきりしないらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝不足の日は話が別かも",
+        "body": "20〜30歳の50人で、1つの明るさにつき10人ずつと人数は少なめ。論文も、少し寝不足や疲れた人では昼間の光で目がさえたという別の研究を挙げていて、どんな人なら効くのかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-bright-light-daytime-focus-sleepiness-research-well-rested-no-effect"
+  },
+  {
+    "id": "research-food-order-vegetables-first-blood-sugar-how-research-carb-last",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Shukla AP et al., \"Carbohydrate-last meal pattern lowers postprandial glucose and insulin excursions in type 2 diabetes\" (BMJ Open Diabetes Research & Care, 2017)",
+    "sourceUrl": "https://doi.org/10.1136/bmjdrc-2017-000440",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/food-order-vegetables-first-blood-sugar-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "野菜から食べると血糖値が上がりにくい？",
+        "body": "「ベジファースト」ってよく聞くよね。食べる物も量も同じなのに、順番だけで本当に変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ食事を3つの順番で",
+        "body": "アメリカの研究で、2型糖尿病の16人が同じ食事（パンとオレンジジュース・鶏肉・サラダ）を、パンが先・パンが最後・全部一緒の3通りで、日を変えて順番をくじで決めて食べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "パンを最後にすると53%小さく",
+        "body": "パンを最後にした日は、パンが先の日より食後3時間の血糖値の上がり方が53%小さく、全部一緒の日と比べても44%小さかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の食事で、16人だけ",
+        "body": "1回ずつの食事を比べた実験で、続けたときの効果は調べていない。論文も人数が少ないことや、ほかの食事・1型糖尿病や予備群の人に当てはまるかはわからないと書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-food-order-vegetables-first-blood-sugar-how-research-carb-last"
+  },
+  {
+    "id": "research-garlic-breath-after-eating-recovery-research-gut-origin",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Suarez F et al., \"Differentiation of mouth versus gut as site of origin of odoriferous breath gases after garlic ingestion\" (American Journal of Physiology, 1999)",
+    "sourceUrl": "https://doi.org/10.1152/ajpgi.1999.276.2.g425",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/garlic-breath-after-eating-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ニンニクのにおい、歯みがきで消えないのはなぜ？",
+        "body": "ニンニク料理のあと、歯をみがいたのにまだ息がにおう。口の中はきれいなはずなのに、不思議だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5人が6gのニンニクを食べて測った",
+        "body": "研究者たちは、口の中の空気、肺の奥の空気、尿に出るにおい成分を比べたよ。どこから出ているかを見分けるためなんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "数時間後のにおいは、お腹から来ていた",
+        "body": "直後のにおいは口の中から。でもAMSという成分だけは、口と肺の奥の空気と尿に同じくらい出ていて、お腹から来ていた。3時間後には、これが息のにおいの主役になっていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数はたった5人",
+        "body": "調べたのは5人で、ニンニク6gを1回食べたときの測定。歯みがきやガムで実際ににおいが減るかは、この研究では試していないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-garlic-breath-after-eating-recovery-research-gut-origin"
+  },
+  {
+    "id": "speech-face-mask-speech-recognition-noise",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Toscano & Toscano, \"Effects of face masks on speech recognition in multi-talker babble noise\" (PLOS ONE, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0246842",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "マスクをすると、声は聞き取りにくい？",
+        "body": "マスク越しだと「え？」と聞き返されることがあるよね。マスクそのもので声はどれくらい聞こえにくくなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4種類のマスクで録音して比べた",
+        "body": "アメリカの研究で、マスクなし・不織布・N95・布マスク2種類で読んだ文を録音し、周りの話し声の雑音をのせて、ネットで集めた181人に聞き取ってもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "静かめなら、ほぼ変わらない",
+        "body": "雑音が小さいときは、マスクなしとの差は正解率で5.5%以内。雑音が大きいときは2.8〜18.2%下がったけど、不織布マスクは大きな雑音でもはっきりした差がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "顔が見えない条件での話",
+        "body": "話し手は著者2人だけで、録音の音量はそろえ、口元は見えない条件。対面で口の動きが見えないことの影響や、すぐに聞き取る以外の場面は調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-face-mask-speech-recognition-noise"
+  },
+  {
+    "id": "love-new-romance-sleep-adolescents",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Brand et al., \"Romantic love, hypomania, and sleep pattern in adolescents\" (Journal of Adolescent Health, 2007)",
+    "sourceUrl": "https://doi.org/10.1016/j.jadohealth.2007.01.012",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "恋をすると、眠れなくなる？",
+        "body": "好きな人のことを考えて眠れない、ってよく聞くよね。恋に落ちたばかりのころ、睡眠は本当に変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10代の107人の睡眠日誌",
+        "body": "Brandらの研究で、平均18歳の107人（最近恋に落ちた60人と、付き合いが長い人やひとりの47人）が、質問票に答えて7晩の睡眠日誌をつけたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "眠る時間は短いのに、調子はいい",
+        "body": "恋したばかりの人は、眠る時間が短かったけど、眠りの質は良いと感じていて、昼の眠気は少なく集中も高かった。気分も朝晩ともに明るく、軽い躁に近い状態だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の比較で、自己申告",
+        "body": "恋をしている人とそうでない人を比べただけで、恋が原因かはわからない。睡眠は日誌と質問票の自己申告で、10代の若者だけ。大人や、長く続いたときの影響も調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-new-romance-sleep-adolescents"
+  },
+  {
     "id": "research-disliked-food-repeated-tasting-how-research-fava-beans",
     "category": "食べ物の常識",
     "kind": "研究紹介",
