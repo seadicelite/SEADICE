@@ -1,5 +1,199 @@
 [
   {
+    "id": "kokoro-ai-recommend-options-regret-shortlist",
+    "category": "意思決定バイアス",
+    "kind": "よくある説",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Seo S, Lee S, Lee N, Kim S-P, \"Reducing cognitive demand fails to mitigate choice overload: Multimodal neural and gaze evidence for effort conservation\" (iScience, 2026)",
+    "sourceUrl": "https://doi.org/10.1016/j.isci.2026.117616",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ai-recommend-options-regret/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "候補をしぼれば、迷わず満足できる？",
+        "body": "選択肢が多すぎると選べない。だから「おすすめ」だけにしぼってもらえば楽になる、ってよく言われるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "映画のポスターを選ぶ実験",
+        "body": "韓国の研究チームが、6〜24枚の映画ポスターから見たい1本を選んでもらったんだ。本人が前もって高く評価したものだけの条件と、低く評価したものだけの条件を比べたよ（17人を分析）。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "速くて満足、でも後悔は大きめ",
+        "body": "好みのものだけだと決めるのは平均5.85秒と速く（もう一方は7.38秒）、満足度も高かった。でも後悔は7段階で5.69と、もう一方の2.92より大きかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIのおすすめでも同じ？",
+        "body": "人数が少ない実験室の課題で、AIのおすすめを使ったわけではないんだ。自分で候補をしぼる道具を使った28人の実験でも後悔は大きめだったけど、大きな決断や長い目で見た後悔はまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "ledger-choice-overload-meta",
+        "type": "あわせて読む",
+        "why": "選択肢の多さのまとめと、候補をしぼったときの実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/decision-bias/#kokoro-ai-recommend-options-regret-shortlist"
+  },
+  {
+    "id": "kokoro-friends-phone-glance-prevent-phubbing-count",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Knausenberger J, Giesen-Leuchter A, Echterhoff G, \"Feeling Ostracized by Others' Smartphone Use: The Effect of Phubbing on Fundamental Needs, Mood, and Trust\" (Frontiers in Psychology, 2022)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2022.883901",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/friends-phone-glance-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "話の途中でスマホ、何回までOK？",
+        "body": "人と話しているとき、ついスマホをちらっと見ちゃうこと、あるよね。1回ならセーフ？何回から相手は気になるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10分の会話でスマホを見てもらった",
+        "body": "ドイツの大学の実験で、165人が初対面の相手と10分話したんだ。相手役は途中で1回か3回、1回あたり約11秒スマホを見たらしい。水を飲むだけの組とも比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3回だと「聞いてない」に",
+        "body": "「話をよく聞いてくれる」の評価は、3回見た相手で5.56、1回で6.25、水を飲んだだけの相手で6.24（7段階）。ただ「無視された感じ」は、1回でも少し強かったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "親しい友達でも同じ？",
+        "body": "相手は初対面の協力者で、会話は10分だけ。親しい友達や家族との長いつきあいで同じかはわかっていないし、何回までなら平気という線引きも調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "umbra-partner-phubbing",
+        "type": "あわせて読む",
+        "why": "会話中のスマホを、恋人どうしのまとめと初対面の実験で"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-friends-phone-glance-prevent-phubbing-count"
+  },
+  {
+    "id": "kokoro-caffeine-mental-fatigue-focus-caffeine-exercise-placebo",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Shirzad A, Frewen N, Morava A, Elshawish N, Prapavessis H, \"Differential effects of caffeine, acute aerobic exercise, and placebo on mental fatigue\" (PLOS ONE, 2026)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0348279",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/caffeine-mental-fatigue-focus/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "頭が疲れる前のコーヒー、効いてる？",
+        "body": "長い作業の前に、とりあえずコーヒー。頭の疲れを防げている気がするけど、毎日飲んでいる人にも本当に効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カフェイン・運動・偽の粉を比べた",
+        "body": "カナダのウェスタン大学の実験。毎日カフェインをとる18〜30歳の26人が、日を変えてカフェイン、20分の自転車こぎ、偽の粉を試し、そのあと30分の集中課題をしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "どれも疲れをはっきり減らさなかった",
+        "body": "課題のあと、頭の疲れの感じは全体として強くなった。でも、カフェインの日も運動の日も、偽の粉の日とはっきりした差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飲まない人や、別の運動なら？",
+        "body": "対象は毎日コーヒーを飲む若い26人だけ。ふだん飲まない人や、運動の時間・強さを変えたらどうなるかは、まだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-mental-work-body-tired-why-stroop-cycling",
+        "type": "あわせて読む",
+        "why": "頭の疲れを、防ぐ工夫と体への影響の両方から"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/caffeine/#kokoro-caffeine-mental-fatigue-focus-caffeine-exercise-placebo"
+  },
+  {
+    "id": "face-left-cheek-portrait-pose",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Nicholls, Clode, Wood & Wood, \"Laterality of expression in portraiture: putting your best cheek forward\" (Proceedings of the Royal Society B, 1999)",
+    "sourceUrl": "https://doi.org/10.1098/rspb.1999.0809",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "写真は左の顔で撮るといい？",
+        "body": "「写真写りは顔の左側のほうがいい」ってよく聞くよね。実は昔の肖像画にも、左の頬を見せた絵が多いらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "肖像画とポーズを調べた",
+        "body": "研究チームが、写真や絵の肖像画でどちらの頬が多いかを調べ、さらに人に「家族写真」と「科学者の写真」のつもりでポーズをとってもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気持ちを見せたいと左を向ける",
+        "body": "肖像画は左の頬が多かったけど、男性の絵では弱く、王立協会の科学者の肖像では偏りがなかった。気持ちを見せてと頼むと左、隠してと頼むと右を向ける人が多かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見る人が左を好むかは別の話",
+        "body": "これは「どちらを見せたがるか」の研究で、左の顔のほうが魅力的に見えるかは調べていない。左は感情を表しやすいという説明も著者の解釈で、1999年の欧米の肖像画とポーズの話だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-left-cheek-portrait-pose"
+  },
+  {
+    "id": "weather-lightning-headache-migraine",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Martin, Houle, Nicholson, Peterlin & Martin, \"Lightning and its association with the frequency of headache in migraineurs: an observational cohort study\" (Cephalalgia, 2013)",
+    "sourceUrl": "https://doi.org/10.1177/0333102412474502",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "雷の日は頭が痛くなる？",
+        "body": "夕立や雷の日に、なんだか頭が重い。そんな気がする人もいるよね。片頭痛のある人の日記と、雷の記録を並べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "90人の頭痛日記と雷",
+        "body": "アメリカのオハイオ州とミズーリ州で、片頭痛のある90人（平均44歳、91%が女性）が3〜6か月、毎日頭痛を記録した。雷のあった日と、なかった日を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "雷の日は頭痛が少し多かった",
+        "body": "雷の日は頭痛の起きやすさ（オッズ）が約1.31倍。雷雨のときの気圧や気温などを考えに入れても、約1.18倍が残ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "なぜかは、まだわからない",
+        "body": "片頭痛のある90人だけの観察研究で、雷が原因とまでは言えない。電磁波なのか空気中の物質なのかも不明で、著者も「別のデータで確かめるまで慎重に」と書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "weather-headache-temperature-er",
+        "type": "あわせて読む",
+        "why": "天気と頭痛を、救急外来の記録と片頭痛の人の日記で"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-lightning-headache-migraine"
+  },
+  {
     "id": "dokugaku-why-no-time-only-urgent-deadlines-scarcity-tunneling",
     "category": "お金の心理学",
     "kind": "よくある説",
@@ -2825,7 +3019,14 @@
         "body": "実験室の課題を使った研究で、AIの答えを確かめるような実際の仕事で同じことが起きるかは、まだわかっていないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/body-myths/#kokoro-mental-work-body-tired-why-stroop-cycling"
+    "webUrl": "https://seadice.win/evidence/body-myths/#kokoro-mental-work-body-tired-why-stroop-cycling",
+    "links": [
+      {
+        "id": "kokoro-caffeine-mental-fatigue-focus-caffeine-exercise-placebo",
+        "type": "あわせて読む",
+        "why": "頭の疲れを、防ぐ工夫と体への影響の両方から"
+      }
+    ]
   },
   {
     "id": "aging-running-knee-osteoarthritis-meta",
@@ -30563,6 +30764,11 @@
         "id": "japan-weather-headache",
         "type": "あわせて読む",
         "why": "救急外来の7千人の記録と、片頭痛のある28人の1年分の日記"
+      },
+      {
+        "id": "weather-lightning-headache-migraine",
+        "type": "あわせて読む",
+        "why": "天気と頭痛を、救急外来の記録と片頭痛の人の日記で"
       }
     ],
     "webUrl": "https://seadice.win/evidence/weather-mood/#weather-headache-temperature-er"
@@ -42929,6 +43135,11 @@
         "id": "digital-phubbing-relationship",
         "type": "あわせて読む",
         "why": "恋人のスマホいじりと関係満足度を、単独研究とまとめで"
+      },
+      {
+        "id": "kokoro-friends-phone-glance-prevent-phubbing-count",
+        "type": "あわせて読む",
+        "why": "会話中のスマホを、恋人どうしのまとめと初対面の実験で"
       }
     ]
   },
@@ -44006,7 +44217,14 @@
     "articleUrl": "https://ledger.seadice.win/choice-overload-shopping/",
     "articleSite": "お金と心理",
     "webUrl": "https://seadice.win/evidence/decision-bias/#ledger-choice-overload-meta",
-    "studyType": "メタ分析"
+    "studyType": "メタ分析",
+    "links": [
+      {
+        "id": "kokoro-ai-recommend-options-regret-shortlist",
+        "type": "あわせて読む",
+        "why": "選択肢の多さのまとめと、候補をしぼったときの実験"
+      }
+    ]
   },
   {
     "id": "ledger-brisk-walk-craving",
