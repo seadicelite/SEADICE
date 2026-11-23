@@ -1,5 +1,206 @@
 [
   {
+    "id": "dokugaku-why-no-time-only-urgent-deadlines-scarcity-tunneling",
+    "category": "お金の心理学",
+    "kind": "よくある説",
+    "themeColor": "#65A30D",
+    "sourceLabel": "tho Pesch et al., \"Revisiting evidence for an attentional tunneling effect caused by scarcity\" (Nature Communications, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41467-026-78074-y",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/why-no-time-only-urgent-deadlines/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "足りないと視野が狭くなる？",
+        "body": "お金や時間が足りないと、目の前のことしか見えなくなる。「トンネリング」と呼ばれて、本でもよく紹介される説だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "有名なゲーム実験を分析し直した",
+        "body": "根拠になった2012年の的当てゲームのデータ（68人）と、974人分の追試データを、別の研究者たちが分析し直したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差はゲームの決まりで説明できた",
+        "body": "持ち玉の少ない組は1面あたり平均2.51発しかなく、得点の低い後半の玉を撃たずに済んでいた。最初の3発の当たり方には有意な差がなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "説が否定されたわけではない",
+        "body": "調べたのはアメリカのネット調査サービスで集めた人のゲーム実験。著者たちの追加実験（174人）でも同じ結論だったけど、現実の貧しさや忙しさで注意が偏るかどうかは、まだはっきりしていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "moneylife-scarcity-cognition",
+        "type": "あわせて読む",
+        "why": "お金の欠乏と頭の働きをまとめたメタ分析もあわせて"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#dokugaku-why-no-time-only-urgent-deadlines-scarcity-tunneling"
+  },
+  {
+    "id": "dokugaku-pc-study-screen-sorting-sheet-snake-game-lecture",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Marty-Dugas et al., \"Active vs passive media multitasking and memory for lecture materials\" (Heliyon, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.heliyon.2024.e31935",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/pc-study-screen-sorting-sheet/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "講義動画の横でゲームをしたら頭に入らない？",
+        "body": "オンライン講義を見ながら別の画面で遊んでいたら、内容なんて残らない。そう思うよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22分の講義の横に、ヘビのゲーム",
+        "body": "カナダの大学生220人あまりが、22分の講義動画を見た。横にはキーひとつで出し入れできるヘビのゲーム。遊べる組と、見るだけの組に分けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ゲームを出していても、点数は同じ",
+        "body": "遊べる組は講義の平均63%、見るだけの組は51%の時間ゲームを表示していた。それでも講義後の小テストの点数に差はなく、表示していた時間と点数の関係も見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "SNSや動画なら違うかも",
+        "body": "ヘビのゲームはSNSや動画ほど引きつけないので、影響を小さく見積もった可能性があると著者たちは書いている。1回の短い講義での結果でもあるんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "focus-brief-diversion",
+        "type": "反対の結果",
+        "why": "教室でのながら作業では、成績が下がったという研究もある"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-pc-study-screen-sorting-sheet-snake-game-lecture"
+  },
+  {
+    "id": "dokugaku-small-print-hard-to-read-adult-study-paper-vs-tablet",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Kretzschmar et al., \"Subjective impressions do not mirror online reading effort: Concurrent EEG-eyetracking evidence from the reading of books and digital media\" (PLoS ONE, 2013)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0056178",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/small-print-hard-to-read-adult-study/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "画面より紙の方が読みやすい？",
+        "body": "本はやっぱり紙が一番、画面は読みにくい。そう感じる人は多いよね。実際この実験でも、参加者の多くが紙を好んだらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "紙・電子書籍端末・タブレットで読み比べ",
+        "body": "ドイツで若い人35人と60〜77歳の21人が、同じ文字の大きさの短い文章を紙・電子書籍端末・タブレットで読んだ。目の動きと脳波を記録して、読むときの負担を比べたんだって。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "年配の人はタブレットの方が楽そうだった",
+        "body": "60〜77歳の人はタブレットで読むと目の止まる時間が短かった。若い人では差はなし。理解の正しさはどれも同じ。著者らは、光る画面で文字がくっきり見えたからと考えているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い文章の実験だった",
+        "body": "読んだのは短い文章だけで、長く読み続けたときはわからない。研究には書籍業界の会社から資金が出ていた（著者らは影響はないとしている）。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-screen-reading-harder-to-understand-self-paced",
+        "type": "あわせて読む",
+        "why": "画面で頭に入りにくいときの理由を調べた研究とあわせて"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-small-print-hard-to-read-adult-study-paper-vs-tablet"
+  },
+  {
+    "id": "speech-talk-less-to-be-liked-reticence-bias",
+    "category": "話し方と伝わり方",
+    "kind": "よくある説",
+    "themeColor": "#10B981",
+    "sourceLabel": "Hirschi, Wilson & Gilbert, \"Speak Up! Mistaken Beliefs About How Much to Talk in Conversations\" (Personality and Social Psychology Bulletin, 2023)",
+    "sourceUrl": "https://doi.org/10.1177/01461672221104927",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "好かれたいなら、聞き役に回る？",
+        "body": "自分の話ばかりすると嫌われる。だから初対面では、相手より少なめに話すのが無難。そう思っている人は多いよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "話す割合を決めて会話してもらった",
+        "body": "アメリカの大学の研究。まず、好かれたいときと面白いと思われたいときに、どれくらい話すべきか予想してもらった。次に初対面の2人に、話す時間を30%〜70%のどれかに割り当てて会話してもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "多く話した人ほど好かれた",
+        "body": "好かれたいときは「半分より少なく話すべき」と予想する人が多かった。でも実際は、話す割合が多いほど好かれていたらしい。相手は「好き」「面白い」を分けずに、全体でまとめて印象を決めていたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "70%より多いとどうなる？",
+        "body": "調べたのは初対面の2人の会話で、話す割合は30%〜70%の範囲だけ。それより一方的に話した場合や、友だち・家族との会話、長いつきあいでも同じかは、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "speech-question-asking-liking",
+        "type": "あわせて読む",
+        "why": "どれだけ話すかに加えて、どんな質問をするかも好かれ方に関わる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-talk-less-to-be-liked-reticence-bias"
+  },
+  {
+    "id": "love-sns-couple-posts-insecure-visibility",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Emery et al., \"Can You Tell That I'm in a Relationship? Attachment and Relationship Visibility on Facebook\" (Personality and Social Psychology Bulletin, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/0146167214549944",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "恋人の写真ばかり載せるのは、不安だから？",
+        "body": "SNSに恋人との写真をよく載せる人っているよね。仲良しアピール？ それとも実は不安なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "Facebookでの見せ方を3つの研究で",
+        "body": "アメリカの大学の研究チームが、恋人との関係をSNSでどれくらい見せるかを、愛着のタイプ（人に頼るのが苦手か、相手の気持ちが不安になりやすいか）とあわせて3つの研究で調べたよ。日々の記録をつける研究もあったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不安な日ほど、見せたくなる",
+        "body": "相手の気持ちが不安になりやすい人は「見せたい」気持ちが強く、人に頼るのが苦手な人は弱かった。日ごとに見ると、恋人の気持ちに自信が持てない日ほど、関係を見せる投稿が増えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "投稿する人がみんな不安なわけじゃない",
+        "body": "アンケートと日々の記録から関係を見た研究で、不安が投稿を増やすとまでは言い切れない。調べたのは10年ほど前のFacebookで、今のInstagramなどや日本の若い人で同じかもわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "phone-checking-metellus",
+        "type": "あわせて読む",
+        "why": "恋人への不安と、相手のSNSを確かめる行動の研究もあわせて"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/love/#love-sns-couple-posts-insecure-visibility"
+  },
+  {
     "id": "research-dog-ate-chocolate-what-to-do-research-christmas",
     "category": "ペットの科学",
     "kind": "研究紹介",
@@ -14605,6 +14806,11 @@
         "id": "self-disclosure-sprecher",
         "type": "あわせて読む",
         "why": "聞くだけで終わるより、交互に打ち明け合う会話のほうが惹かれた"
+      },
+      {
+        "id": "speech-talk-less-to-be-liked-reticence-bias",
+        "type": "あわせて読む",
+        "why": "聞くだけでなく、自分も話す量が多いほど好かれたという研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/speaking/#speech-question-asking-liking"
@@ -31471,7 +31677,14 @@
         "body": "2011年の実験で、端末や読み方は今と違う。決まった長さの説明文と選択式テストで調べた話なので、ほかの文章や学び方でも同じになるかは、この研究だけではわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-screen-reading-harder-to-understand-self-paced"
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-why-screen-reading-harder-to-understand-self-paced",
+    "links": [
+      {
+        "id": "dokugaku-small-print-hard-to-read-adult-study-paper-vs-tablet",
+        "type": "あわせて読む",
+        "why": "紙と画面で、読む負担を目の動きと脳波で比べた研究"
+      }
+    ]
   },
   {
     "id": "kokoro-work-confidence-recover-ai-praise",
@@ -36597,7 +36810,14 @@
       "wrong": "周りの学生は影響なし"
     },
     "webUrl": "https://seadice.win/evidence/focus/#focus-brief-diversion",
-    "studyType": "実験"
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "dokugaku-pc-study-screen-sorting-sheet-snake-game-lecture",
+        "type": "反対の結果",
+        "why": "講義動画の横でゲームをしても、点数に差が出なかった研究"
+      }
+    ]
   },
   {
     "id": "focus-green-microbreak",
@@ -54392,7 +54612,14 @@
         "body": "このまとめには、関係を見ただけの調査も多い。お金の心配を思い出させると成績が下がるかを試した実験だけをまとめた2024年の別の分析では、効果はないか、あってもごく小さく、データが少なすぎて強くは言えないとされた。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/money/#moneylife-scarcity-cognition"
+    "webUrl": "https://seadice.win/evidence/money/#moneylife-scarcity-cognition",
+    "links": [
+      {
+        "id": "dokugaku-why-no-time-only-urgent-deadlines-scarcity-tunneling",
+        "type": "あわせて読む",
+        "why": "この説の元になった実験を、別の研究者が見直した"
+      }
+    ]
   },
   {
     "id": "moneylife-cash-transfer-work",
@@ -56689,7 +56916,13 @@
     },
     "articleUrl": "https://umbra.seadice.win/partner-phone-checking-surveillance-research/",
     "articleSite": "しぐさと本音",
-    "links": [],
+    "links": [
+      {
+        "id": "love-sns-couple-posts-insecure-visibility",
+        "type": "あわせて読む",
+        "why": "不安なときに自分の関係をSNSで見せる、という研究もある"
+      }
+    ],
     "webUrl": "https://seadice.win/evidence/messaging/#phone-checking-metellus"
   },
   {
