@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-overeating-full-stomach-walk-or-lie-down-research-walk",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Franke A et al., \"Postprandial walking but not consumption of alcoholic digestifs or espresso accelerates gastric emptying in healthy volunteers\" (Journal of Gastrointestinal and Liver Diseases, 2008)",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/18392240/",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/overeating-full-stomach-walk-or-lie-down-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "食後酒で消化が進む？",
+        "body": "食べすぎたあとに強いお酒を一杯、という習慣がある国もあるよね。じゃあ、食後酒やエスプレッソで胃は早く空になるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10人の胃を超音波で見た",
+        "body": "健康な男性10人が576kcalの食事のあと、食後酒・エスプレッソ・水などを40mL飲んだり、水のあと時速4kmでゆっくり歩いたりした。胃の様子は超音波で見たんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いたのは「歩く」だけ",
+        "body": "胃が半分空になるまでの時間は、水で123分。食後酒やエスプレッソは差がなかったけど、歩くと107分に縮んだよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "苦しさは変わらなかった",
+        "body": "胃は早く空いたけど、満腹感やお腹の張りの感じ方は変わらなかった。10人だけの実験で、女性は調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-overeating-full-stomach-walk-or-lie-down-research-walk"
+  },
+  {
+    "id": "kokoro-distracted-focus-short-meditation-10min",
+    "category": "マインドフルネス",
+    "kind": "素朴な疑問",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Hughes ZD, Ball LJ, Atanasov P, Judge J, \"Examining the Impact of Brief Mindfulness Practice on Sustained Attention, Attentional Inhibition and Convergent Thinking\" (Journal of Intelligence, 2025)",
+    "sourceUrl": "https://doi.org/10.3390/jintelligence13090119",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/distracted-focus-short-meditation/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "10分の瞑想で、集中は戻る？",
+        "body": "気が散って仕事に戻れないとき、少し瞑想するといいって聞くよね。でも、たった10分で本当に何か変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "瞑想とオーディオブックで比べた",
+        "body": "英国の学生117人の実験では、10分のマインドフルネスの音声に従う組と、10分のオーディオブックを聞く組に分けたよ。そのあと、注意の課題と、ひらめきを使うパズルをしてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "注意の課題は、瞑想の組がよかった",
+        "body": "瞑想の組は、数字に反応し続ける課題で正確さを落とさずに反応が速く、矢印の課題では正確さが高かった。でも、パズルの成績には差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事の集中にも効くかは不明",
+        "body": "組分けは申し込み順の番号で、くじ引きのような無作為ではなかった。課題は実験室のもので、効果がどのくらい続くかや、実際の仕事に効くかはまだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "mindfulness-how-many-minutes-dose",
+        "type": "あわせて読む",
+        "why": "1回10分の効果と、毎日どれくらい続けるとよいかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#kokoro-distracted-focus-short-meditation-10min"
+  },
+  {
+    "id": "kokoro-info-overload-anxiety-quick-exercise-acute",
+    "category": "運動と気分",
+    "kind": "よくある説",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Connor M, Hargreaves EA, Scanlon OK, Harrison OK, \"The Effect of Acute Exercise on State Anxiety: A Systematic Review\" (Sports, 2023)",
+    "sourceUrl": "https://doi.org/10.3390/sports11080145",
+    "studyType": "レビュー",
+    "articleUrl": "https://mentalai.seadice.win/info-overload-anxiety-quick-exercise/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "不安なときは体を動かせばいい？",
+        "body": "そわそわして落ち着かないときは、ちょっと運動するとすっきりするってよく聞くよね。1回だけでも本当に効くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "健康な大人の9件の試験をまとめた",
+        "body": "2015年以降の、健康な大人を対象にした9件の試験を集めたレビューだよ。自転車こぎやランニングマシン、ダンスのゲームなど、運動の条件は全部で13あったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "下がったのは13のうち7つ",
+        "body": "1回の運動のあとで不安が下がったのは7つの条件。6つでは下がらなかった。自然のドキュメンタリーを見ただけの組でも、30分の自転車こぎと同じように下がった試験もあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一番いい運動はまだ不明",
+        "body": "種類・長さ・強さのどれがいいかに、はっきりした傾向はなかったんだ。参加者はもともと不安が低い人が多くて、不安が強い人でどうなるかもまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#kokoro-info-overload-anxiety-quick-exercise-acute"
+  },
+  {
+    "id": "japan-myth-stress-gray-hair",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Rosenberg AM et al., \"Quantitative mapping of human hair greying and reversal in relation to life stress\" (eLife, 2021)",
+    "sourceUrl": "https://doi.org/10.7554/eLife.67437",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "苦労すると白髪が増えるって本当？",
+        "body": "大変な時期に白髪が一気に増えた、って話をよく聞くよね。ストレスで髪は白くなるのかな。それに、一度白くなったらもう戻らないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1本の髪を、根元から毛先まで測った",
+        "body": "米国の研究で、9〜65歳の14人（女性7人・男性7人）から2色に分かれた髪を集め、色の変わり方を細かく測ったよ。そのうち2人には、過去1年のストレスを振り返ってもらって照らし合わせたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "白くなった髪に、色が戻ることもあった",
+        "body": "白くなったあと色が戻った髪が、男女・年齢・体の場所を問わず見つかった。ある人では、2週間の休暇のあとストレスがいちばん低かった時期と、色が戻った時期がよく重なっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ストレスを調べたのは2人だけ",
+        "body": "ストレスと照らし合わせたのは2人で、それも後から思い出した記録。ストレスが白髪の原因とまでは言えないんだ。計算のモデルでは、白くなりかけの髪だけが変わると考えられていて、全部の白髪が戻るわけでもないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-myth-stress-gray-hair"
+  },
+  {
+    "id": "scent-smoke-smell-wake-during-sleep",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Carskadon MA & Herz RS, \"Minimal olfactory perception during sleep: why odor alarms will not work for humans\" (Sleep, 2004)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/27.3.402",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝ていても、においで目が覚める？",
+        "body": "火事になっても、こげたにおいで起きられると思っていない？ 眠っている間、鼻はどれくらい働いているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "眠っている6人に、においを送った",
+        "body": "20〜25歳の健康な男女6人が実験室で2晩眠り、鼻の管からペパーミントと、つんとくるにおい（ピリジン）を4つの濃さで送ったよ。においで起きないときは音も鳴らしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "深く眠ると、においでは起きなかった",
+        "body": "寝入りばなは92%で反応した。でもペパーミントはそれより深い眠りでは効かず、つんとくるにおいも浅めの眠りで45%、深い眠りでは0回。音は75%以上で起こせたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "6人だけで、本物の煙ではない",
+        "body": "若い健康な6人の実験室の結果で、本物の煙や火事の場面で試したわけではないんだ。子どもやお年寄りでどうなるかもわからない。それでも著者は、においで人を起こすのは当てにならないとまとめているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-smoke-smell-wake-during-sleep"
+  },
+  {
     "id": "research-onion-tears-why-research-tearless-onion",
     "category": "食べ物の常識",
     "kind": "研究紹介",
@@ -9266,6 +9439,11 @@
         "id": "mindfulness-apps-depression-anxiety-meta",
         "type": "あわせて読む",
         "why": "瞑想アプリの効き目を、くじで分けた試験でまとめたメタ分析"
+      },
+      {
+        "id": "kokoro-distracted-focus-short-meditation-10min",
+        "type": "あわせて読む",
+        "why": "たった10分の瞑想1回で、注意の課題がどう変わるかを試した実験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-how-many-minutes-dose"
