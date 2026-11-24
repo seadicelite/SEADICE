@@ -1,5 +1,171 @@
 [
   {
+    "id": "kokoro-ask-ai-not-coworker-why-no-politeness",
+    "category": "AIとのつきあい方",
+    "kind": "素朴な疑問",
+    "themeColor": "#7DD3FC",
+    "sourceLabel": "Qi L, Zhao L, \"Social friction vs. cognitive efficiency: A comparative analysis of help-seeking behaviors in human communities and generative AI\" (PLOS ONE, 2026)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0348441",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ask-ai-not-coworker-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人よりAIに聞くほうが楽なのはなぜ？",
+        "body": "同僚に聞けばすぐなのに、ついAIを開いちゃうこと、あるよね。人とAIへの質問文を比べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3万件の質問文を比べた",
+        "body": "学問や心理学の質問掲示板に人が書いた質問と、AIに実際に送られた質問を、話題と長さをそろえて1万5千組比べたらしい。両方に共通する話題の質問だけを残して比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "AIには「すみません」がない",
+        "body": "人への質問には「たぶん」みたいなぼかし言葉や「お願いします」が一定量あったけど、AIへの質問の大半ではどちらも0語。「わからない」と打ち明ける言葉もほとんどなく、「説明して」と指示する形が多かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "気をつかって疲れていたかは別",
+        "body": "文を比べただけで、書いた人の気持ちは聞いていないんだ。掲示板には努力を示すルールがあるし、使う人の顔ぶれも違うと著者たちも書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/ai/#kokoro-ask-ai-not-coworker-why-no-politeness"
+  },
+  {
+    "id": "kokoro-ai-use-work-loneliness-distress-loneliness-path",
+    "category": "仕事と働き方",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Liu M, Li Y, Li J, \"The impact of generative AI use on employees' psychological distress: a moderated mediation model\" (Frontiers in Public Health, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fpubh.2026.1798423",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/ai-use-work-loneliness-distress/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く話",
+        "title": "AIで仕事が速いのに、気持ちが重い",
+        "body": "生成AIで作業はどんどん片づくのに、なぜかしんどい。そんな声、聞くよね。原因は「仕事を奪われる不安」だけなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中国の会社員424人に聞いた",
+        "body": "中国・昆明市の20社で働く424人に、AIを使う頻度、仕事を失う不安、職場での孤独、心のつらさを質問票で答えてもらった調査なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "大きかったのは「孤独」の道すじ",
+        "body": "AIをよく使う人ほど、仕事を失う不安も職場での孤独も強めという関連があった。心のつらさとのつながりは、孤独を通る道すじ（0.087）が不安を通る道すじ（0.020）の4倍ほどだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIのせいで孤独になる？",
+        "body": "一度きりの調査だから、AIを使うから孤独になるのか、孤独な人がAIをよく使うのかは区別できないよ。対象も1つの都市の会社員だけなんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-ai-use-work-loneliness-distress-loneliness-path"
+  },
+  {
+    "id": "kokoro-work-stress-activity-tracking-prevent-app-rct",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Watanabe K, Inoue A, Sakuraya A, Imamura K, Yoshikawa T, Tsutsumi A, \"An mHealth Intervention Promoting Physical Activity to Reduce Psychological Distress Among Workers: Randomized Controlled Trial\" (Journal of Medical Internet Research, 2026)",
+    "sourceUrl": "https://doi.org/10.2196/96072",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/work-stress-activity-tracking-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "体の動きを記録すると、心も軽くなる？",
+        "body": "歩数や体の動きをスマホで見える化すると、仕事のストレスで心がすり減るのを防げるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "日本の働く人793人をくじ引きで比べた",
+        "body": "一方は体の動きと心の状態を記録するスマホの仕組みを3か月使い、もう一方は仕事のストレスの小冊子を受け取ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3か月後、心の負担がわずかに軽かった",
+        "body": "記録の組は6問の質問票の点数で約0.6点、心の負担の下がり方が大きかった。効果の大きさは小さめで、6か月後には差がなくなっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "体を動かしたから？続けたら？",
+        "body": "効果が体を動かしたことによるのかは確かめられていないよ。仕組みを作った研究者自身の試験で、約2割は「使わなきゃ」というプレッシャーも感じていた。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-work-stress-activity-tracking-prevent-app-rct"
+  },
+  {
+    "id": "personality-narcissism-self-insight-meta",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Grijalva & Zhang, \"Narcissism and Self-Insight: A Review and Meta-Analysis of Narcissists' Self-Enhancement Tendencies\" (Personality and Social Psychology Bulletin, 2016)",
+    "sourceUrl": "https://doi.org/10.1177/0146167215611636",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ナルシストは、自分を実際よりよく見てる？",
+        "body": "自信たっぷりの人を見ると「ちょっと自分を盛ってない？」って思うこと、あるよね。本人の自己評価と、まわりからの評価を比べた研究をまとめた論文があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "36の研究、6,423人分をまとめた",
+        "body": "本人の答えだけで判断せず、まわりの人の評価やテストの成績のような客観的な数字と比べた研究だけを集めて、メタ分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「できる」は盛るけど「やさしい」は盛らない",
+        "body": "ナルシシズムが強い人ほど、自分を実際より高く見る傾向があった（補正した相関0.21）。能力や強さのような面では0.29とはっきり出たけど、思いやりのような面では0.05で、ほとんど見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "みんなが盛っているわけじゃない",
+        "body": "数字は全体の傾向の強さで、ナルシシズムが強い人がみんな自分を盛っているわけではないよ。なぜ盛るのか、本人がそれに気づいているのかは、このまとめの数字だけではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-narcissism-self-insight-meta"
+  },
+  {
+    "id": "nature-aquarium-waiting-room-stress",
+    "category": "自然と健康",
+    "kind": "よくある説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Lundberg & Srinivasan, \"Effect of the presence of an aquarium in the waiting area on the stress, anxiety and mood of adult dental patients: A controlled clinical trial\" (PLOS ONE, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0258118",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "水槽の魚を眺めると落ち着く？",
+        "body": "病院の待合室に水槽が置いてあること、あるよね。泳ぐ魚を見ていると緊張がほどける、って言われるけど本当かな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "歯医者の待合室で392人を比べた",
+        "body": "スイスの大学の高齢者向け歯科で、待合室を「水槽なし」「魚のいない水槽」「魚のいる水槽」の3つの時期に分けて、20分待つ間の血圧・脈・不安・気分を比べたんだ。患者さんは平均65歳くらい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "不安も気分も変わらなかった",
+        "body": "待っている間の血圧や脈の変わり方、不安、気分に、3つの組で差は見られなかった。ただ、魚のいる水槽の待合室は、患者さんからの評価がいちばん高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きではなく、人数も足りない",
+        "body": "組はくじではなく時期の順に分けたので、時期ごとの違いが混ざっているかも。著者たちも、差を確かめるにはもっと多くの人数が要ると書いているよ。歯の治療を待つという特別な場面の話でもあるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#nature-aquarium-waiting-room-stress"
+  },
+  {
     "id": "kokoro-laughing-together-loneliness-conversation",
     "category": "孤独とつながり",
     "kind": "素朴な疑問",
