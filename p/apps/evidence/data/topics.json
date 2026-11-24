@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-onion-tears-why-research-tearless-onion",
+    "category": "食べ物の常識",
+    "kind": "研究紹介",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Kato M et al., \"Production and characterization of tearless and non-pungent onion\" (Scientific Reports, 2016)",
+    "sourceUrl": "https://doi.org/10.1038/srep23779",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/onion-tears-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "涙の出ない玉ねぎって作れる？",
+        "body": "玉ねぎの涙は、切った瞬間に酵素が働いてできる成分のせい。じゃあ、その酵素が少ない玉ねぎなら？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "種約1500粒から3世代かけて選んだ",
+        "body": "日本の研究チームが、イオンのビームを当てた種から育てた玉ねぎを、3世代かけて選び出したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "20人全員が「涙も辛みもない」",
+        "body": "選んだ玉ねぎを20人が試すと、全員が涙を誘う感じも辛みもないと答えた。涙の成分は普通の約7.5分の1。甘みを感じた人も多かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "涙の量は測っていない",
+        "body": "結果は試した人の感じ方と成分の量で、涙そのものは測っていないよ。食品会社のチームによる研究でもあるんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-onion-tears-why-research-sharp-knife",
+        "type": "あわせて読む",
+        "why": "同じ玉ねぎの涙を、品種でなく包丁の切れ味から調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-onion-tears-why-research-tearless-onion"
+  },
+  {
+    "id": "research-milk-stomach-upset-lactose-how-research-with-meal",
+    "category": "食べ物の常識",
+    "kind": "研究紹介",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Martini MC & Savaiano DA, \"Reduced intolerance symptoms from lactose consumed during a meal\" (The American Journal of Clinical Nutrition, 1988)",
+    "sourceUrl": "https://doi.org/10.1093/ajcn/47.1.57",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/milk-stomach-upset-lactose-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く悩み",
+        "title": "牛乳を飲むとお腹がゴロゴロする",
+        "body": "牛乳の糖分（乳糖）を分解する酵素が少ない人もいるよね。じゃあ飲み方を変えたら、どうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "単独で飲むか、朝食と一緒か",
+        "body": "酵素が少ない12人に、牛乳をもとにした飲み物を単独で、または朝食と一緒に飲んでもらい、症状と息のガスを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "症状が出た人は9人から3人に",
+        "body": "単独では12人中9人に症状が出たけど、朝食と一緒だと3人だけ。最初の4時間のガスも少なかった。胃から腸へ送られるのがゆっくりになるかららしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "12人の小さな実験",
+        "body": "調べたのは酵素が少ない12人だけの、1988年の小さな実験。症状と息のガスを数時間みただけで、どんな食事なら一番いいかまでは、わかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-milk-stomach-upset-lactose-how-research-with-meal"
+  },
+  {
+    "id": "research-leftover-curry-cooling-storage-how-research-japan-curry",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Ohnishi T, \"Characteristics of Outbreaks Caused by Clostridium Perfringens in Japan\" (Food Safety, 2025)",
+    "sourceUrl": "https://doi.org/10.14252/foodsafetyfscj.D-24-00020",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/leftover-curry-cooling-storage-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "一晩おいたカレー、本当に大丈夫？",
+        "body": "「2日目のカレーはおいしい」ってよく言うよね。でも鍋のまま置いておくと、ある菌が増えやすいらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "23年分の食中毒統計を分析",
+        "body": "国の研究所の研究者が、厚生労働省の食中毒統計（2000〜2022年）から、ウェルシュ菌の食中毒を調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "原因がわかった中ではカレーが最多",
+        "body": "ウェルシュ菌の食中毒は617件。原因の食べものがわかった中では、カレーライスが42件でいちばん多かった。大鍋は冷めにくく、空気も少ないから菌が増えやすいんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "多くは大きな調理施設の話",
+        "body": "原因の食べものがわかったのは37%だけ。しかも多くは施設での集団発生で、家庭の鍋で同じくらい起きるかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-leftover-curry-cooling-storage-how-research-japan-curry"
+  },
+  {
+    "id": "brain-myth-yawning-oxygen-co2",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Provine RR, Tate BC, Geldmacher LL, \"Yawning: no effect of 3-5% CO2, 100% O2, and exercise\" (Behavioral and Neural Biology, 1987)",
+    "sourceUrl": "https://doi.org/10.1016/s0163-1047(87)90944-7",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "あくびは脳の酸素不足のせい？",
+        "body": "眠いときや退屈なときのあくびは、酸素が足りないから深く吸っているんだ、ってよく聞くよね。実はこれ、確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "吸う空気を変えてあくびを数えた",
+        "body": "大学生くらいの年齢の人に、ふつうの空気・酸素100%・二酸化炭素3%か5%の空気を吸ってもらい、あくびの回数と長さを比べたよ。別の実験では運動もしてもらったんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "あくびの回数は変わらなかった",
+        "body": "酸素100%でも二酸化炭素の多い空気でも、呼吸は速くなったのに、あくびに目立った差はなかった。呼吸が2倍になるほどの運動でも同じ。あくびと呼吸は別の仕組みで起きているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ではなぜあくびが出る？",
+        "body": "調べたのは1987年の、大学生くらいの年齢の人だけ。酸素説は支持されなかったけど、あくびが何のために出るのかは、この研究ではわかっていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-myth-yawning-oxygen-co2"
+  },
+  {
+    "id": "kosodate-overvaluation-narcissism-children",
+    "category": "子育ての科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Brummelman E et al., \"Origins of narcissism in children\" (PNAS, 2015)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1420870112",
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "parenting-praise-effort-vs-intelligence-replication",
+        "type": "あわせて読む",
+        "why": "ほめ方のもう1つの説。努力をほめる効果は追試でほとんど見られなかった"
+      }
+    ],
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ほめすぎると、ナルシストになる？",
+        "body": "たくさんほめて自信をつけたい。でも、ほめすぎると「自分は特別」と思う子になる、とも聞くよね。どっちなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "7〜12歳の565人を1年半追った",
+        "body": "オランダの小学校17校の子ども565人とその親に、半年ごとに4回、子どもの自己愛・自尊心と、親の接し方を答えてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "効いたのは「特別扱い」のほう",
+        "body": "親が「この子は他の子より特別」と過大に見ていると、半年後の自己愛が少し高かった。親のあたたかさは自己愛とは関係せず、健全な自尊心と結びついていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関係は小さく、調査の話",
+        "body": "結びつきは小さく、くじで分けた実験ではないので原因とは言い切れない。対象はオランダの子どもで、ほめ言葉そのものは測っていない。自己愛には生まれつきの気質も関わるらしい。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-overvaluation-narcissism-children"
+  },
+  {
     "id": "kokoro-social-clock-age-deadline-width",
     "category": "幸福の科学",
     "kind": "素朴な疑問",
@@ -618,7 +798,14 @@
         "body": "調べたのは機械で切ったときのしぶきで、人の涙は測っていない。人での検証ではないんだ。冷やした玉ねぎでは、しぶきがむしろ多かったよ。涙が減るかはわからない。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/food-myths/#research-onion-tears-why-research-sharp-knife"
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-onion-tears-why-research-sharp-knife",
+    "links": [
+      {
+        "id": "research-onion-tears-why-research-tearless-onion",
+        "type": "あわせて読む",
+        "why": "包丁でなく、涙の成分を作らない玉ねぎを育てた研究"
+      }
+    ]
   },
   {
     "id": "sleepenv-traffic-noise-awakening",
@@ -12407,6 +12594,11 @@
         "id": "replication-growth-mindset",
         "type": "あわせて読む",
         "why": "「能力は伸びる」と考える効果を、多くの研究でまとめたメタ分析"
+      },
+      {
+        "id": "kosodate-overvaluation-narcissism-children",
+        "type": "あわせて読む",
+        "why": "「自分は特別」と過大に見る親の子は、自己愛が少し高かった調査"
       }
     ],
     "webUrl": "https://seadice.win/evidence/parenting/#parenting-praise-effort-vs-intelligence-replication"
