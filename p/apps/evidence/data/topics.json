@@ -1,5 +1,185 @@
 [
   {
+    "id": "research-drowsy-driving-focus-recovery-research-cold-air-radio",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Reyner LA & Horne JA, \"Evaluation 'in-car' countermeasures to sleepiness: cold air and radio\" (Sleep, 1998)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/21.1.46",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/drowsy-driving-focus-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "眠い運転は窓を開ければOK？",
+        "body": "運転中に眠くなったら、窓を開けて冷たい風に当たるか、音楽を大きくする。よく聞く対策だよね。本当に効くのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "寝不足で2.5時間の運転",
+        "body": "イギリスの研究者が、前の晩を5時間睡眠にした若い大人16人に、運転シミュレーターを2.5時間走ってもらったよ。顔に冷たい風、ラジオ、何もしない、を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "はみ出しは減らなかった",
+        "body": "冷たい風もラジオも、車線のはみ出しをはっきりとは減らさなかったらしい。ラジオは眠気の感じ方を下げたけど、冷たい風の効果は一時的。著者は、止まって休める場所を見つけるまでのつなぎ程度と書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際の道路では？",
+        "body": "16人と少人数で、午後のシミュレーターでの結果なんだ。実際の道路や夜の運転で同じになるかは、この研究だけではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-drowsy-driving-focus-recovery-research-cold-air-radio"
+  },
+  {
+    "id": "research-milk-phlegm-mucus-cold-research-soy-placebo",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Pinnock CB, Arney WK, \"The milk-mucus belief: sensory analysis comparing cow's milk and a soy placebo\" (Appetite, 1993)",
+    "sourceUrl": "https://doi.org/10.1006/appe.1993.1006",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/milk-phlegm-mucus-cold-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "牛乳を飲むと痰が増える？",
+        "body": "風邪のときは牛乳を控える、という人は多いよね。飲むとのどに何かがまとわりつく感じがするから、痰が増えている気がするらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "牛乳とそっくりな豆乳で比べた",
+        "body": "オーストラリアの研究者が、味をつけた牛乳と、見分けがつかない豆乳を300ml飲んでもらった。どちらを飲んだか本人にも研究者にもわからない二重盲検の試験だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "のどの膜の感じは豆乳でも同じ",
+        "body": "飲んだ後に「のどが膜でおおわれる感じ」は39%、「つばが濃くなる」は42%増えた。でもこの増え方は牛乳でも豆乳でも同じ。牛乳だけの作用ではなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "痰の量そのものは測っていない",
+        "body": "調べたのは本人が感じる感覚で、痰の量そのものではないんだ。牛乳アレルギーの人の話も、この研究とは別。風邪をひいている人だけで確かめたわけでもないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-milk-phlegm-mucus-cold-research-soy-placebo"
+  },
+  {
+    "id": "research-train-car-sleepy-rocking-vibration-why-research-seat-vibration",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Azizan A et al., \"The influence of vibration on seated human drowsiness\" (Industrial Health, 2016)",
+    "sourceUrl": "https://doi.org/10.2486/indhealth.2015-0095",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "電車や車に乗ると眠くなるのはなぜ？",
+        "body": "乗ってしばらくすると、急にまぶたが重くなるよね。ただ座っているだけなのに、なぜだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "車の座席を20分揺らしてみた",
+        "body": "オーストラリアの研究チームが、振動台に車の座席をのせて、大学生18人に20分座ってもらったんだ。乗り物に近い1〜15Hzの細かい振動をかけた日と、振動なしの日を、別々の日に比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見落としが0.38回から3.69回に",
+        "body": "振動のあとは眠気の自己評価が上がり、合図にボタンを押すテストで反応が平均13%遅くなった。0.5秒以上遅れる見落としも増えたけど、振動なしで座った日は変化がなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際の運転でも同じ？",
+        "body": "対象は若い男性18人だけで、実験室で20分測っただけ。女性や年配の人、何時間もの運転で同じになるかは、まだ確かめられていないよ。"
+      }
+    ],
+    "articleUrl": "https://research.seadice.win/train-car-sleepy-rocking-vibration-why-research/",
+    "articleSite": "悩みの科学",
+    "links": [
+      {
+        "id": "sleep-rocking-bed-deep-sleep",
+        "type": "あわせて読む",
+        "why": "揺れと眠りの関係。こちらは夜にベッドを揺らすと眠りが深くなるか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-train-car-sleepy-rocking-vibration-why-research-seat-vibration"
+  },
+  {
+    "id": "exercise-soccer-heading-memory-acute",
+    "category": "運動と記憶",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Di Virgilio et al., \"Evidence for Acute Electrophysiological and Cognitive Changes Following Routine Soccer Heading\" (EBioMedicine, 2016)",
+    "sourceUrl": "https://doi.org/10.1016/j.ebiom.2016.10.029",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ヘディングすると、記憶力が落ちる？",
+        "body": "サッカーのヘディングは頭に悪い、ってよく聞くよね。でも、ふつうの練習くらいのヘディングで、本当に何か変わるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "練習と同じヘディングを20回",
+        "body": "スコットランドの研究チームが、アマチュア選手19人（平均22歳）に、機械から時速約39kmで飛んでくるボールを20回ヘディングしてもらったよ。その前後で脳の反応と記憶のテストを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "直後は記憶のテストが下がった",
+        "body": "ヘディングの直後、短い記憶と長めの記憶のテストでまちがいが増えた。長めの記憶のテストでは、まちがいが67%増えたらしい。ただ24時間後には元に戻っていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何年も続けたらどうなる？",
+        "body": "19人と少人数で、ヘディングしない比べる組はなかったんだ。測ったのは直後から2週間まで。何年もくり返すと脳にどう響くかは、著者もこれから調べることだと書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-soccer-players-dementia-mortality",
+        "type": "あわせて読む",
+        "why": "同じサッカーと脳の話。こちらは元プロ選手の長い追跡で認知症が多いか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-soccer-heading-memory-acute"
+  },
+  {
+    "id": "parents-aging-thirst-water-deprivation",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Phillips et al., \"Reduced thirst after water deprivation in healthy elderly men\" (New England Journal of Medicine, 1984)",
+    "sourceUrl": "https://doi.org/10.1056/nejm198409203111202",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとると、のどが渇きにくくなる？",
+        "body": "親に「水飲んだ？」と聞くと「のどが渇いてないから」と返ってくる。年をとると、のどの渇きを感じにくくなるって本当かな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "24時間、水を飲まずに比べた",
+        "body": "研究者たちが、元気な67〜75歳の男性7人と20〜31歳の男性7人に、24時間水を飲まずに過ごしてもらったよ。減った体重がそろうように組み合わせて、渇きの感じ方や血の濃さを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体は渇いているのに、渇きを感じにくい",
+        "body": "年上の組は、血液が若い組より濃くなっていたのに、のどの渇きを感じにくく、飲む量も少なかった。だから水を飲めるようになっても、血や尿が元の薄さまで戻らなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "14人の男性だけの話",
+        "body": "対象は健康な男性14人だけで、女性や持病のある人は入っていないんだ。24時間水を飲まないという特別な条件で、ふだんの暮らしで同じことが起きているかは、この研究だけではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#parents-aging-thirst-water-deprivation"
+  },
+  {
     "id": "research-bright-light-daytime-focus-sleepiness-research-well-rested-no-effect",
     "category": "集中力",
     "kind": "よくある説",
@@ -858,7 +1038,14 @@
         "body": "記録を振り返った観察研究で、何が原因かまではわからない。対象はスコットランドの男性のプロ選手で、趣味のサッカーの話ではないよ。著者も、別の追跡研究で確かめる必要があるとしているんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-soccer-players-dementia-mortality"
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-soccer-players-dementia-mortality",
+    "links": [
+      {
+        "id": "exercise-soccer-heading-memory-acute",
+        "type": "あわせて読む",
+        "why": "同じサッカーと脳の話。こちらはヘディング20回の直後に記憶がどう変わるか"
+      }
+    ]
   },
   {
     "id": "posture-upright-mood-body-awareness",
@@ -1417,6 +1604,11 @@
         "id": "kosodate-infant-cry-carry-walk",
         "type": "あわせて読む",
         "why": "赤ちゃんは抱っこで歩くと泣き止む。揺れや動きと落ち着き・眠りの関係"
+      },
+      {
+        "id": "research-train-car-sleepy-rocking-vibration-why-research-seat-vibration",
+        "type": "あわせて読む",
+        "why": "揺れと眠りの関係。こちらは座席の細かい振動で20分後に眠気が増すか"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-rocking-bed-deep-sleep"
