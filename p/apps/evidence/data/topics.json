@@ -1,5 +1,178 @@
 [
   {
+    "id": "kokoro-social-clock-age-deadline-width",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Zang L, Kim H, \"Culture and the Social Clock: Cultural Differences in the Optimal Timing of Life\" (Personality and Social Psychology Bulletin, 2026)",
+    "sourceUrl": "https://doi.org/10.1177/01461672251362514",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/social-clock-age-deadline/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「この年までに」って誰が決めた？",
+        "body": "結婚や就職に「ふさわしい年齢」がある気がして焦ること、あるよね。心理学ではこの感覚を「社会的時計」と呼ぶらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ふさわしい年齢の幅を聞いた",
+        "body": "米国と中国の人に、進学・就職・結婚などに「ふさわしい最も早い年齢と最も遅い年齢」を答えてもらったんだ。3つの研究で計1,039人だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "幅は約10年と約43年",
+        "body": "平均35歳前後の198人では、仕事の節目の幅が中国で約10年、米国で約43年。若い大人640人では、幅を狭く考える人ほど遅れたときのつらさを強く予想していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "聞いたのは「予想」",
+        "body": "遅れたと想像したときの気持ちを聞いた調査で、実際に遅れた人の気持ちではないんだ。幅が狭いことがつらさの原因かも、日本の人のことも、まだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/happiness/#kokoro-social-clock-age-deadline-width"
+  },
+  {
+    "id": "kokoro-screenshot-forget-why-screenshot-memory",
+    "category": "記憶のしくみ",
+    "kind": "素朴な疑問",
+    "themeColor": "#8B5CF6",
+    "sourceLabel": "Lurie R, Fabrizio SP, Westerman DL, \"The cost of saving: How photos and screenshots impair memory\" (Memory & Cognition, 2025)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-025-01711-2",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/screenshot-forget-why/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スクショしたのに覚えてない",
+        "body": "とりあえずスクショしたのに、あとで見ると撮ったことすら忘れてる。そんなこと、あるよね。これを実験で確かめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見る・撮る・スクショを比べた",
+        "body": "米国の大学生39人に画面の絵を見てもらい、ただ見る、写真に撮る、スクショする、をまとまりごとに切り替えたんだ。20分後、似た絵と並べて選んでもらったらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "76%と54%",
+        "body": "正しく選べたのは、ただ見た絵で76%、写真で63%、スクショで54%。操作がかんたんなスクショのほうが、下がり方が大きかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ふだんの記憶力は？",
+        "body": "わかったのは、撮ったその絵を覚えにくくなることまで。人数は少なめで、スクショを続けたら記憶力そのものが落ちるのかは調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-photo-taking-forget-memory-why-research-five-photos",
+        "type": "あわせて読む",
+        "why": "写真を撮ると覚えにくくなる話の続きで、スクショでも同じか確かめた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/memory/#kokoro-screenshot-forget-why-screenshot-memory"
+  },
+  {
+    "id": "kokoro-tai-chi-qigong-stress-recover-qigong-meta",
+    "category": "呼吸とストレス",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Wang CW, Chan CHY, Ho RTH, Chan JSM, Ng SM, Chan CLW, \"Managing stress and anxiety through qigong exercise in healthy adults: a systematic review and meta-analysis of randomized controlled trials\" (BMC Complementary and Alternative Medicine, 2014)",
+    "sourceUrl": "https://doi.org/10.1186/1472-6882-14-8",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/tai-chi-qigong-stress-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ゆっくり動く気功で、ストレスは減る？",
+        "body": "公園で見かける、ゆっくりした動きと呼吸の気功。あれで本当にストレスが軽くなるのか、気になるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "健康な大人の試験7件をまとめた",
+        "body": "気功をする組としない組にくじで分けた、健康な大人の試験7件を集めたんだ。オーストラリア、韓国、香港、米国、中国本土、スペインの試験だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1〜3か月でストレスと不安が下がった",
+        "body": "順番待ちの組と比べると、1〜3か月気功を続けた組でストレスと不安が下がっていたらしい。下がり方の大きさは、ストレスで−0.88（標準化平均差）だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仲間と集まった効果かも",
+        "body": "試験は7件と少なく、方法にも欠点があった。気功の組だけが仲間と集まっていたから、動きの効果か、人と過ごした効果かは分けられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#kokoro-tai-chi-qigong-stress-recover-qigong-meta"
+  },
+  {
+    "id": "humor-culture-meaningful-humor-china-us",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Cao Y, Wang Y, Hou Y, Ji LJ, \"Beyond Laughter: How Culture Shapes the Meaning and Preference of Humor\" (Personality and Social Psychology Bulletin, 2026)",
+    "sourceUrl": "https://doi.org/10.1177/01461672251405520",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "笑いのツボは、国によって違う？",
+        "body": "外国のコメディを見て、どこが面白いのかピンとこなかったこと、ない？笑いの好みが文化で違うのかを、中国と米国で比べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5つの研究で比べた",
+        "body": "中国と米国の学生などに、笑いから思いうかぶ言葉を挙げてもらったり、面白い返しを作ってもらったりしたよ。中国のDouyinと米国のTikTokの面白動画200本も比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "中国では「深い意味」のある笑いが好まれた",
+        "body": "中国の人は笑いに深い意味を結びつけやすく、作った笑いも意味の深さの点は高め（4.13対3.37）、面白さの点は少し低め（3.58対3.90）だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日本では？",
+        "body": "比べたのは中国と米国だけで、日本の人は調べていない。文化はくじで決められないので、違いが笑いだけの話か、意味のある話全般を好む傾向なのかも分けられていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/laughter/#humor-culture-meaningful-humor-china-us"
+  },
+  {
+    "id": "replication-handedness-good-right-multilab",
+    "category": "心理学の再現性",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Yamada Y et al., \"Where the 'bad' and the 'good' go: A multi-lab direct replication report of Casasanto (2009, Experiment 1)\" (Memory & Cognition, 2025)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-024-01637-1",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "右利きは右を「良い」と感じる？",
+        "body": "右利きの人は右側に良いものを、左利きの人は左側に良いものを置きやすい。2009年にそんな実験が発表されたんだ。ほかの国でもやり直すと、同じになるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12か国2,222人でやり直した",
+        "body": "日本・中国・ドイツなど12か国の2,222人で、元と同じ課題をしたよ。絵の人物の左右に箱があって、「良い動物」と「悪い動物」をどちらの箱に入れるか選ぶんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "元の結果と同じ向きだった",
+        "body": "右利きの61%が良い動物を右の箱に、左利きの58%が左の箱に入れたらしい。良いものを右に置くなりやすさ（オッズ）は、右利きが左利きのおよそ2倍だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "左利きが少なく、事前登録なし",
+        "body": "左利きは154人だけで、国ごとの比べ方はできていない。事前登録もされていないし、紙の上の簡単な課題なので、ふだんの選び方にどこまで出るかもわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/replication/#replication-handedness-good-right-multilab"
+  },
+  {
     "id": "research-drowsy-driving-focus-recovery-research-cold-air-radio",
     "category": "集中力",
     "kind": "よくある説",
@@ -8200,7 +8373,14 @@
         "body": "画面に映した絵を、言われたとおりに撮る実験室の話。自分で選んで撮るとよく覚えていた研究や、ズームして撮ると細部を覚えていた研究もあって、ふだんの撮り方でどうなるかはまだはっきりしないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/memory/#research-photo-taking-forget-memory-why-research-five-photos"
+    "webUrl": "https://seadice.win/evidence/memory/#research-photo-taking-forget-memory-why-research-five-photos",
+    "links": [
+      {
+        "id": "kokoro-screenshot-forget-why-screenshot-memory",
+        "type": "あわせて読む",
+        "why": "写真を撮ると覚えにくくなる話の続きで、スクショだとさらに下がった"
+      }
+    ]
   },
   {
     "id": "replication-loneliness-warm-bath",
