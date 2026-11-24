@@ -1,5 +1,171 @@
 [
   {
+    "id": "color-blue-favorite-ecological-valence",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Palmer SE, Schloss KB, \"An ecological valence theory of human color preference\" (PNAS, 2010)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.0906172107",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "なぜ青が好きな人が多いの？",
+        "body": "好きな色を聞くと、青と答える人が多いよね。逆に茶色やくすんだ黄色が好きな人はあまりいない。色の好みって何で決まるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "32色と、色から浮かぶもの",
+        "body": "米国の研究で48人が32色の好き嫌いを答えた。別の人たちには、それぞれの色から思い浮かぶもの（空、水、うんちなど）と、そのものの好き嫌いを聞いて比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "好きなものの色が、好きな色",
+        "body": "青は澄んだ空やきれいな水、茶色やオリーブ色はうんちや腐った食べ物を思い出させる。色から浮かぶものの好き嫌いで、32色の好みの違いの80%を説明できたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "米国の48人の平均の話",
+        "body": "調べたのは米国の48人の平均で、比べたのは相関。ほかの文化でも同じか、生まれつきか育ちで身につくのかは、まだわからないと著者たちも書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-blue-favorite-ecological-valence"
+  },
+  {
+    "id": "net-one-percent-rule-posters",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "van Mierlo T, \"The 1% rule in four digital health social networks: an observational study\" (Journal of Medical Internet Research, 2014)",
+    "sourceUrl": "https://doi.org/10.2196/jmir.2966",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ネットの書き込みは、ごく一部の人がしている？",
+        "body": "ネットには「9割は見るだけ、1%の人が書き込みの大半を作る」という言い伝えがあるよ。ほんとかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つのサイトの投稿を全部数えた",
+        "body": "お酒・うつ・パニック・禁煙の悩みを話す4つのサイトで、会員6万3,990人が書いた投稿57万8,349件を数えたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "上位1%で約4分の3",
+        "body": "一度でも投稿した会員は、どのサイトでも25%未満。上位1%の人が投稿の59〜75%、全体では74.7%を書いていた。4つとも同じ形だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "悩みを話すサイトだけの話",
+        "body": "調べたのは4つの悩み相談サイトだけで、SNSや口コミでも同じかはわからない。登録せずに読むだけの人は数に入っていない。著者はこのサイトを運営する会社の代表だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#net-one-percent-rule-posters"
+  },
+  {
+    "id": "research-beans-gas-flatulence-why-research-adaptation",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Winham DM & Hutchins AM, \"Perceptions of flatulence from bean consumption among adults in 3 feeding studies\" (Nutrition Journal, 2011)",
+    "sourceUrl": "https://doi.org/10.1186/1475-2891-10-128",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/beans-gas-flatulence-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "豆を食べるとおならだらけ？",
+        "body": "豆は体にいいけど、おならが増えるから控えている。そんな人、けっこういるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "毎日半カップの豆を8〜12週",
+        "body": "米国の3つの試験で、毎日半カップの豆を食べた人に、おならが増えたかを毎週聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "多くの人は数週で落ち着いた",
+        "body": "ある試験ではピント豆で、1週目に増えたと答えた人が50%、2週目には6%に。ただ12週の試験では45%から38%とゆるやかで、6〜12週目も15〜23%が増えたと答えていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "感じ方を聞いただけ",
+        "body": "ガスの量は測っていなくて、本人の感じ方を毎週聞いただけ。豆なしの食事でも3〜11%が増えたと答えていて、豆の種類や人によって差があるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-beans-gas-flatulence-why-research-adaptation"
+  },
+  {
+    "id": "research-low-salt-taste-adaptation-how-research-gradual-salt",
+    "category": "食べ物の常識",
+    "kind": "研究紹介",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Bobowski N et al., \"A longitudinal comparison of two salt reduction strategies: Acceptability of a low sodium food depends on the consumer\" (Food Quality and Preference, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.foodqual.2014.07.019",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/low-salt-taste-adaptation-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "減塩は一気に？少しずつ？",
+        "body": "薄味にしたいけど、急に減らすとまずくて続かない。じゃあ少しずつ減らせばいいのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "トマトジュースで16週間",
+        "body": "米国の研究で83人が16週間トマトジュースを飲み続けた。片方は4週目に塩分を一気に減らし、もう片方は12%ずつ減らして14週目に同じ低さにしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ゴールは同じ、途中のつらさが違う",
+        "body": "最後のおいしさはどちらも同じ。でも一気に減らした組は途中でおいしさが大きく落ち、少しずつの組は保たれたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ジュース1品だけの話",
+        "body": "調べたのはトマトジュース1品だけ。塩味を強く好む人は、どちらのやり方でも途中で減塩ジュースを嫌がる時期があったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-low-salt-taste-adaptation-how-research-gradual-salt"
+  },
+  {
+    "id": "research-sleep-paralysis-kanashibari-recovery-research-prevalence",
+    "category": "睡眠",
+    "kind": "素朴な疑問",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Sharpless BA & Barber JP, \"Lifetime prevalence rates of sleep paralysis: a systematic review\" (Sleep Medicine Reviews, 2011)",
+    "sourceUrl": "https://doi.org/10.1016/j.smrv.2011.01.007",
+    "studyType": "レビュー",
+    "articleUrl": "https://research.seadice.win/sleep-paralysis-kanashibari-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "金縛りって珍しいの？",
+        "body": "目は覚めてるのに体が動かない、あの金縛り。自分だけおかしいのかなって不安になるよね。実際どのくらいの人が経験してるんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "35の研究をまとめた",
+        "body": "米国の研究者が、金縛りの経験率を調べた35の研究、合わせて3万6,533人分をまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "学生だと4人に1人以上",
+        "body": "一度は経験した人は、一般の人で7.6%、学生で28.3%、精神科の患者さんで31.9%だった。著者らは、一般の人にも比較的よくあることだと結論づけているんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "数字には幅がある",
+        "body": "研究ごとに質問の仕方が違うので、数字には幅がある。なぜ学生に多いのかも、このまとめだけではわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#research-sleep-paralysis-kanashibari-recovery-research-prevalence"
+  },
+  {
     "id": "kokoro-ask-ai-not-coworker-why-no-politeness",
     "category": "AIとのつきあい方",
     "kind": "素朴な疑問",
