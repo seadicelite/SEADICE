@@ -92,7 +92,7 @@ CSS = (
     ".worry .jump{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px;font-size:13px}.worry .jump a{padding:6px 0}"
     ".box{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin:24px 0}"
     ".box p,.box li{font-size:14px;color:#cbd5e1}.box ul{padding-left:20px}"
-    ".cta{display:inline-block;margin-top:12px;padding:12px 22px;border-radius:8px;font-weight:700;text-decoration:none;color:#05050C;background:var(--accent)}"
+    ".btn{display:inline-block;margin-top:12px;padding:12px 22px;border-radius:8px;font-weight:700;text-decoration:none;color:#05050C;background:var(--accent)}"
     "table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0 20px}th,td{border:1px solid var(--border);padding:8px;text-align:left;vertical-align:top}th{color:var(--accent)}"
     "section{margin-top:36px}footer{max-width:760px;margin:0 auto;padding:24px 16px 48px;font-size:12px;color:var(--muted)}footer a{color:var(--muted)}"
 )
@@ -168,7 +168,7 @@ def try_box(practice):
     if not practice or practice.get("type") != "web":
         return ""
     return (f'<div class="box try"><p class="stage">この場で試す</p><p>{e(practice["catch"])}。登録なし・無料で、ブラウザだけで使えます。</p>'
-            f'<a class="cta" href="{e(practice["url"])}">{e(practice["name"])}を使う</a></div>')
+            f'<a class="btn" href="{e(practice["url"])}">{e(practice["name"])}を使う</a></div>')
 
 
 def worries_html(items, slug):
@@ -285,11 +285,11 @@ def main():
                 f'<p class="lead">{e(cat)}について、研究でわかったことを{n}本、元の論文の出典つきでまとめています。'
                 f'わかったことだけでなく、研究の限界や「まだわからないこと」も書いています。</p>'
                 + worries_html(worries.get(cat), slug)
-                + (f'<div class="box"><p>この分野で使える道具: {e(cp["catch"])}</p><a class="cta" href="{e(cp["url"])}" rel="noopener">{e(cp["name"])}</a></div>'
+                + (f'<div class="box"><p>この分野で使える道具: {e(cp["catch"])}</p><a class="btn" href="{e(cp["url"])}" rel="noopener">{e(cp["name"])}</a></div>'
                    if (cp := pr["items"].get(pr.get("categories", {}).get(cat, ""))) else "")
                 + (f'<h2>研究{n}本</h2>' if worries.get(cat) else "")
                 + "".join(topic_html(t, own_practice(t), "/" + focus_path(t) if focus_path(t) else None) for t in ts)
-                + f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。気になった話は、出典つきで友だちに送れます。</p><a class="cta" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>'
+                + f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。気になった話は、出典つきで友だちに送れます。</p><a class="btn" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>'
                 f'<section><h2>ほかの分野</h2><div class="grid">{others}</div></section>')
         urls.append(page(f"evidence/{slug}/", title, desc, body, [*top_crumbs, (cat, f"/evidence/{slug}/")], [faq]))
 
@@ -312,7 +312,7 @@ def main():
                 + topic_html(t, practice_of(t), heading="h2")
                 + f'<section><h2>{e(cat)}のほかの研究</h2><div class="grid">{rel}</div>'
                 f'<p><a href="/evidence/{slug}/">{e(cat)}の研究まとめ（{len(by_cat[cat])}本）を読む</a></p></section>'
-                f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。気になった話は、出典つきで友だちに送れます。</p><a class="cta" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>')
+                f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。気になった話は、出典つきで友だちに送れます。</p><a class="btn" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>')
         art = {"@type": "Article", "headline": f["title"], "about": f["kw"], "inLanguage": "ja", "publisher": ORG,
                "citation": {"@type": "ScholarlyArticle", "name": t["sourceLabel"], "url": t["sourceUrl"]}}
         faq = {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": first["title"],
@@ -338,7 +338,7 @@ def main():
             f'<p>調べ方と確かめ方は<a href="/evidence/policy/">編集方針</a>にまとめています。</p></div>'
             f'<section><h2>よく聞く説を確かめる</h2><div class="grid">{"".join(focus_links)}</div></section>'
             f'<section><h2>分野から探す</h2><div class="grid">{grid}</div></section>'
-            f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。読んだあと、内容を試せるアプリやツールにもつながります。</p><a class="cta" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>')
+            f'<div class="box"><p>スワイプで1本ずつ読めるアプリもあります。読んだあと、内容を試せるアプリやツールにもつながります。</p><a class="btn" href="{APP_URL}" rel="noopener">EVIDENCEアプリ（無料）</a></div>')
     urls.insert(0, page("evidence/", "EVIDENCE｜信頼できる情報を、研究の出典つきで | SEADICE",
                         f"EVIDENCEは、睡眠・習慣・心理学など{len(cats)}分野の研究を、元の論文の出典つきでまとめたSEADICEのサイト。わかったことと、まだわかっていないことの両方を書いています。",
                         body, top_crumbs, [item_list]))
