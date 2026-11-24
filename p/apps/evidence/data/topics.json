@@ -1,5 +1,185 @@
 [
   {
+    "id": "kokoro-laughing-together-loneliness-conversation",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Hajek A, et al., \"Laughing During Conversations, But Not in Response to Digital Media, Is Associated With Less Loneliness, Social Isolation, and Social Withdrawal\" (Health Science Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1002/hsr2.71354",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/laughing-together-loneliness/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "動画で笑っても寂しいのはなぜ？",
+        "body": "夜に動画で声を出して笑ったのに、なんだか寂しい。笑うのは同じなのに、何が違うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ドイツの5,000人に聞いた",
+        "body": "2023年の夏の終わりに、ドイツの18〜74歳5,000人にネットで、どれくらい笑うか、どんな場面で笑うか（会話・動画などのデジタルメディア・読書など）を聞いて、孤独との関係を調べた調査があるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "関わっていたのは会話の笑い",
+        "body": "よく笑う人ほど孤独が少ない関連があった。とくに人との会話で笑うことは孤独の少なさとつながっていたけど、動画などで笑うことには関連が見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "笑えば孤独が減るとは限らない",
+        "body": "一度きりの調査なので、笑うから孤独が少ないのか、孤独だと笑いにくいのかは区別できないんだ。だれかと一緒に動画を見る場合はまた違うかもしれないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "laughter-social-laughter-opioid-pet",
+        "type": "あわせて読む",
+        "why": "だれかと一緒に笑うと脳で何が起きるかを、脳の画像で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-laughing-together-loneliness-conversation"
+  },
+  {
+    "id": "kokoro-phone-in-bed-sleep-fatigue-prevent-in-bed-latency",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Kheirinejad S, Visuri A, Ferreira D, Hosio S, \"“Leave your smartphone out of bed”: quantitative analysis of smartphone use effect on sleep quality\" (Personal and Ubiquitous Computing, 2023)",
+    "sourceUrl": "https://doi.org/10.1007/s00779-022-01694-w",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/phone-in-bed-sleep-fatigue-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スマホ、どこで見るかも関係ある？",
+        "body": "寝る前のスマホは時間ばかり気にしがちだよね。フィンランドの大学の研究で75人の記録を見ると、ベッドの中で使うか外で使うかで、睡眠との関わり方が違っていたらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アプリの記録と指輪型の機器",
+        "body": "スマホのアプリの使用記録と、指輪型の機器で測った睡眠を約3か月分組み合わせて調べたんだ。参加を始めた人は18〜61歳、平均27歳だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ベッドの中の5分で、寝つきが約4分遅い",
+        "body": "ベッドの中で使う時間が長い夜ほど寝つくまでが長く、5分ごとに約4分遅れる計算だった。ベッドの外での使用では、睡眠の質の低下は見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かはわからない",
+        "body": "ベッドでスマホを使うから眠れないのか、眠れないから使うのかは区別できないと著者たちも書いている。人数も75人と少なめなんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "digital-bedtime-phone-30min-rct",
+        "type": "あわせて読む",
+        "why": "寝る前30分スマホを控えたら眠りが変わるかを、くじで分けて試した研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#kokoro-phone-in-bed-sleep-fatigue-prevent-in-bed-latency"
+  },
+  {
+    "id": "research-asparagus-urine-smell-why-research-forced-choice",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Pelchat ML et al., \"Excretion and perception of a characteristic odor in urine after asparagus ingestion: a psychophysical and genetic study\" (Chemical Senses, 2011)",
+    "sourceUrl": "https://doi.org/10.1093/chemse/bjq081",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/asparagus-urine-smell-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "アスパラでおしっこがにおわない人もいる？",
+        "body": "アスパラを食べるとおしっこが独特のにおいになるよね。でも「そんなの気づいたことない」って人もいるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "尿を嗅ぎ比べる実験",
+        "body": "アメリカの研究所で大人38人が焼いたアスパラ125gを食べて、2時間後の尿を集めたんだ。ほかの参加者が、アスパラのあとの尿とそうでない尿を嗅ぎ比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "作らない人も、嗅げない人もいた",
+        "body": "37人中3人は、においの成分を嗅ぎ取れるほど作っていなかった。31人中2人は、においを嗅ぎ分けられなかった。嗅ぎ分ける力は、におい受容体の遺伝子の近くの違いと関係していたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数はかなり少ない",
+        "body": "参加者は38人だけ。ふだんアスパラをどれくらい食べるかも調べていないから、慣れが影響するかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-asparagus-urine-smell-why-research-forced-choice"
+  },
+  {
+    "id": "posture-pillow-neck-pain-review",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Ghosh S, Goyal M, Goyal K, \"Effect of pillow on pain, disability and sleep quality in patients with chronic neck pain: A systematic review\" (Rehabilitación, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.rh.2025.100922",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "首が痛いのは、枕のせい？",
+        "body": "朝起きると首が痛い。枕が合ってないのかなと、買い替えを考える人は多いよね。枕を変えると、本当に楽になるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "枕を比べた試験をまとめた",
+        "body": "2025年のまとめ研究で、2015年〜2024年6月に出た研究を探し、慢性の首の痛みがある人で枕の効果を試した5本（計239人）を選んで見比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "はっきりした差はなかった",
+        "body": "痛みの点数は少し下がったけど、はっきりした差とは言えなかった。眠りの質にも差はなく、首の使いにくさの結果はばらばら。ラテックス・ウレタン・ふつうの枕のどれかが勝つこともなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験が少なく、ばらばら",
+        "body": "5本・239人と少なく、枕の形も測り方も研究ごとに違っていた。著者も、補助として使う根拠はわずかで、質の高い試験がもっと要ると書いている。首が痛くない人の枕選びは調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-pillow-neck-pain-review"
+  },
+  {
+    "id": "aging-radio-taiso-frail-rct",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Osuka Y et al., \"Effects of Radio-Taiso on Health-related Quality of Life in Older Adults With Frailty: a Randomized Controlled Trial\" (Journal of Epidemiology, 2024)",
+    "sourceUrl": "https://doi.org/10.2188/jea.JE20230317",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ラジオ体操って、意味あるの？",
+        "body": "子どものころからおなじみのラジオ体操。たった数分の体操で、年をとってからの体に本当に違いが出るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "高齢者226人をくじで2組に",
+        "body": "東京の研究所が、虚弱かその手前の高齢者226人（年齢の真ん中は78歳、7割が女性）を12週間くじで分けた。片方はラジオ体操と食事の教室、もう片方は食事の教室だけ。体操は5回集まって習い、あとは毎日家で続けたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体の動きと自信はよくなった",
+        "body": "体操の組は、立ち上がって歩く動き、その場足踏みの持久力、運動への自信が、食事だけの組よりよくなった。毎日続けた割合も真ん中で94%と高かった。でも、いちばん見たかった心の面の生活の質には差がなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "元気な人や若い人では？",
+        "body": "対象は東京の虚弱かその手前の高齢者で、運動に前向きな人が集まったかもしれないと著者も書いている。12週より先も続くか、元気な人や若い人でも同じかは、この試験ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-radio-taiso-frail-rct"
+  },
+  {
     "id": "research-overeating-full-stomach-walk-or-lie-down-research-walk",
     "category": "食べ物の常識",
     "kind": "よくある説",
@@ -3234,6 +3414,11 @@
         "id": "laughter-pain-threshold",
         "type": "あわせて読む",
         "why": "みんなで笑うと痛みに強くなるという先の実験。その仕組みを脳の画像で確かめた"
+      },
+      {
+        "id": "kokoro-laughing-together-loneliness-conversation",
+        "type": "あわせて読む",
+        "why": "会話で笑う人ほど孤独が少ないという、5,000人の調査"
       }
     ],
     "webUrl": "https://seadice.win/evidence/laughter/#laughter-social-laughter-opioid-pet"
@@ -19428,6 +19613,11 @@
         "id": "dokugaku-phone-away-before-bed-sleep-study-night-shift",
         "type": "あわせて読む",
         "why": "寝る前のスマホを、使わない組と比べたくじ引きの試験どうし"
+      },
+      {
+        "id": "kokoro-phone-in-bed-sleep-fatigue-prevent-in-bed-latency",
+        "type": "あわせて読む",
+        "why": "ベッドの中と外でのスマホ使用を、指輪型の機器の睡眠と照らし合わせた記録"
       }
     ],
     "webUrl": "https://seadice.win/evidence/digital-detox/#digital-bedtime-phone-30min-rct"
