@@ -1,5 +1,178 @@
 [
   {
+    "id": "dokugaku-afraid-of-failing-avoid-practice-tests-restart-avoidance-goals",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Van Yperen et al., \"A meta-analysis of self-reported achievement goals and nonself-report performance across three achievement domains (work, sports, and education)\" (PLoS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0093594",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/afraid-of-failing-avoid-practice-tests-restart/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よくある気持ち",
+        "title": "「失敗したくない」で頑張る？",
+        "body": "試験勉強で「悪い点だけは取りたくない」と思うこと、あるよね。その目標、成績とどう関係するんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "98本の論文、33,983人をまとめた",
+        "body": "学業・仕事・スポーツで、本人が答えた目標と、実際の成績や点数の関係をまとめたメタ分析らしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "「避けたい」目標ほど成績は低め",
+        "body": "教育の分野では「人より悪くなりたくない」が強い人ほど成績が低い傾向（相関 −0.14）。「できるようになりたい」はプラスの関係（0.13）だったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "目標を変えれば上がる？",
+        "body": "相関の研究で、関係も小さい。もともと成績に自信がない人が「失敗したくない」と思いやすいだけかもしれない。目標を変えて成績が上がるかは別に確かめる必要がある。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-afraid-of-failing-avoid-practice-tests-restart-avoidance-goals"
+  },
+  {
+    "id": "dokugaku-ai-writing-feedback-too-many-corrections-reset-feedback-backfire",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Wisniewski, Zierer & Hattie, \"The power of feedback revisited: A meta-analysis of educational feedback research\" (Frontiers in Psychology, 2020)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2019.03087",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/ai-writing-feedback-too-many-corrections-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "フィードバックはもらうほど伸びる？",
+        "body": "直してもらえばもらうほど上達する、と思いがちだよね。でも、フィードバックがいつもプラスに働くとは限らないらしいんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "435件の研究をまとめた",
+        "body": "教育でのフィードバックの研究435件、6万1,000人以上をまとめたメタ分析だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "平均はプラス、でも17％はマイナス",
+        "body": "極端な値を除いた平均の効果はd=0.48の中くらい。でも効果の17％はマイナスだった。ほめる・けなすだけより、どう直すかまで伝える情報の多いフィードバックほど効果が大きかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "AIの添削でも同じ？",
+        "body": "研究ごとのばらつきがとても大きく、対照群のない前後比較の研究ほど効果が大きく出ていた（d=0.63と0.42）。生成AIの添削で同じことが言えるかもまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-ai-writing-feedback-too-many-corrections-reset-feedback-backfire"
+  },
+  {
+    "id": "dokugaku-avoid-checking-study-progress-reset-ostrich-reasons",
+    "category": "先延ばし対策",
+    "kind": "素朴な疑問",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Chang, Webb & Benn, \"Why Do People Act Like the Proverbial Ostrich? Investigating the Reasons That People Provide for Not Monitoring Their Goal Progress\" (Frontiers in Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2017.00152",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/avoid-checking-study-progress-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "遅れると計画表を見たくない",
+        "body": "勉強が遅れてくると、計画表や残高みたいな「進み具合」を見たくなくなるよね。研究者はこれを、砂に頭を突っこむダチョウにたとえて「ダチョウ問題」と呼んでいるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見ない理由を聞いてみた",
+        "body": "英国の288人に、進み具合を確かめなかった場面を思い出してもらい、74の文から理由を選んでもらった。別の634人の減量中の人には、進み具合を調べるツールを使うか選んでもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "本人が言う理由のほかにも",
+        "body": "よく挙がった理由は「見たら考えや行動を変えなきゃいけない」「どうせ進んでいない」。2つ目の調査ではその一部に加えて、「見ても当てにならない・役に立たない」「自分で何とかできる」と思う人ほど、確かめる機会を断っていたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかは未確認",
+        "body": "2つ目の調査は相関の研究で、その考えが原因で見なくなるとまでは言えない。1つ目は昔の場面を思い出して答える方法だった。行動まで調べたのは減量中の人だけで、勉強の計画でも同じかはまだ確かめられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-avoid-checking-study-progress-reset-ostrich-reasons"
+  },
+  {
+    "id": "music-musicians-better-memory-meta",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Talamini, Altoè, Carretti & Grassi, \"Musicians have better memory than nonmusicians: A meta-analysis\" (PLoS ONE, 2017)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0186773",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "楽器をやっている人は記憶力がいい？",
+        "body": "楽譜を覚えたり、長い曲を弾いたりする人って、記憶力もよさそうに見えるよね。音楽家とそうでない人の記憶を比べた研究をまとめたメタ分析があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "29本の研究、53の記憶テスト",
+        "body": "若い大人の音楽家と、音楽家でない人を比べた研究を集めたよ。長く覚える記憶、短く覚える記憶、頭の中で情報を扱う「作業記憶」の3つに分けてまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "短い記憶で差、音の記憶で特に大きい",
+        "body": "音楽家のほうが、短い記憶と作業記憶で中くらい（g=0.57、0.56）、長い記憶で小さく（0.29）成績がよかった。差は音の記憶で大きく、言葉は中くらい、図や位置では小さいかほぼなしだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "習ったから良くなった、とは言えない",
+        "body": "もともと記憶のいい人が音楽家になった可能性もあり、比べただけの研究からは原因がわからない。長い記憶の差は、出ていない研究を補うと小さくなり、はっきりしなくなった。対象は若い大人だけだよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-musicians-better-memory-meta"
+  },
+  {
+    "id": "sleepfood-sleep-deprived-grocery-shopping",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Chapman et al., \"Acute sleep deprivation increases food purchasing in men\" (Obesity, 2013)",
+    "sourceUrl": "https://doi.org/10.1002/oby.20579",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝不足で買い物すると、買いすぎる？",
+        "body": "徹夜明けにスーパーへ行くと、ついカゴがいっぱいになる気がするよね。寝不足の次の朝の「食べ物の買い物」を、模擬スーパーで比べた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "徹夜した朝と、寝た朝で比べた",
+        "body": "スウェーデンの普通体重の男性14人が、一晩徹夜した朝と、ふつうに寝た朝に、約50ドル分の予算で40品から食べ物を買った。空腹の影響を減らすため、先に決まった朝食をとってもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "カロリーで9％、重さで18％多く買った",
+        "body": "徹夜の朝は、食べ物の種類や値段に関係なく、買ったカロリーが9％、重さが18％多かった。食欲に関わるホルモン（グレリン）も高かったけど、買った量の増え方とは関係していなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "14人の男性、模擬のお店での話",
+        "body": "対象は普通体重の男性14人だけで、女性や、徹夜ではなく少し寝不足の日でも同じかはわからない。本物のお店ではなく実験の中の買い物で、買ったものを実際に食べたかも調べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "appetite-sleep-snacks",
+        "type": "あわせて読む",
+        "why": "寝不足で間食が増えた実験と、寝不足で買う量が増えた実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleepfood-sleep-deprived-grocery-shopping"
+  },
+  {
     "id": "dokugaku-evening-exercise-cant-sleep-study-reset-evening-exercise",
     "category": "睡眠",
     "kind": "よくある説",
@@ -49159,6 +49332,11 @@
         "id": "appetite-sleep-leptin-ghrelin",
         "type": "反対の結果",
         "why": "寝不足で食欲ホルモンが変わった研究と、差がなかった研究"
+      },
+      {
+        "id": "sleepfood-sleep-deprived-grocery-shopping",
+        "type": "あわせて読む",
+        "why": "寝不足で間食が増えた実験の、買い物の場面での確かめ"
       }
     ],
     "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-snacks"
