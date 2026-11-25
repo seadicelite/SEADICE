@@ -1,5 +1,192 @@
 [
   {
+    "id": "research-weight-regain-after-diet-recovery-research-relapse",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Phelan et al., \"Recovery from relapse among successful weight maintainers\" (The American Journal of Clinical Nutrition, 2003)",
+    "sourceUrl": "https://doi.org/10.1093/ajcn/78.6.1079",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/weight-regain-after-diet-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "リバウンドしても戻せる？",
+        "body": "やせたのに体重が戻ってきた。「またすぐ落とせばいいや」って思いがちだけど、実際はどうなんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "減量に成功した2400人",
+        "body": "米国の登録に参加した、平均32.1kgやせてそれを保っていた2400人を、2年間追いかけた研究だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "増えるほど戻しにくい",
+        "body": "1年目に5%以上増えた人のうち、2年目に元の体重以下まで戻せたのは4.7%だけ。立て直せた人は、1年目の増え方が小さい傾向があったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "成功した人だけの登録",
+        "body": "参加者は自分から登録した減量の成功者で、体重も本人の報告。一般の人に同じ数字が当てはまるかはわからないし、追跡と関連の分析で、何が回復を助けたかの因果までは言えないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-weight-regain-after-diet-recovery-research-relapse"
+  },
+  {
+    "id": "kokoro-ask-ai-not-people-conversation-value-stranger-learning",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Atir, Wald & Epley, \"Talking with strangers is surprisingly informative\" (PNAS, 2022)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2206992119",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/ask-ai-not-people-conversation-value/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "links": [
+      {
+        "id": "social-talk-to-strangers",
+        "type": "あわせて読む",
+        "why": "同じ研究者による見知らぬ人と話す実験。こちらは学びでなく気分を調べた"
+      }
+    ],
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "知らない人と話して、何か得る？",
+        "body": "調べものならAIや検索で十分。知らない人と話しても、大して学べることはない気がするよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10分話す前と後",
+        "body": "米国の実験で、知らない人と約10分話してもらい、話す前に「どれくらい学べそうか」、話したあとに「どれくらい学べたか」を1〜9点で聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "予想より学べていた",
+        "body": "ほとんどが大学生の198人では、予想は平均4.66点、実感は6.12点。10分ネットで調べた組では、予想と実感のずれは小さかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の答えが中心",
+        "body": "学べた量は本人の答え。通勤電車での数分の短い会話では、はっきりしたずれが見られなかった実験もある。米国以外でも同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-ask-ai-not-people-conversation-value-stranger-learning"
+  },
+  {
+    "id": "kokoro-awe-moments-loneliness-prevent-diary",
+    "category": "孤独とつながり",
+    "kind": "素朴な疑問",
+    "themeColor": "#EC4899",
+    "sourceLabel": "Ugurlu et al., \"Experiencing awe in daily life is linked to lower loneliness\" (Scientific Reports, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-34864-w",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/awe-moments-loneliness-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「すごい」と感じた日は寂しくない？",
+        "body": "夕焼けや星空、人の親切に「すごい」と心を動かされた日って、なんとなく寂しさを忘れている気がしない？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22日間、毎晩つけた日記",
+        "body": "米国の医療職171人と地域の大人306人が、22日間、毎晩その日の気持ちを答えた日記を分析したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "心が動いた日ほど孤独が少なかった",
+        "body": "同じ人の中で比べると、「すごい」という気持ち（畏敬の念）がふだんより強かった日ほど、孤独感が少なかった。感謝などほかの前向きな気持ちを差し引いても残ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "増やせば寂しさは減る？",
+        "body": "これは関連で、組を分けた実験じゃない。著者も因果は言えないと書いている。2020年のロックダウン中に急いで集めたため、年上の女性が多い偏ったデータでもあるよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/loneliness/#kokoro-awe-moments-loneliness-prevent-diary"
+  },
+  {
+    "id": "face-preference-genes-vs-environment-twins",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Germine et al., \"Individual Aesthetic Preferences for Faces Are Shaped Mostly by Environments, Not Genes\" (Current Biology, 2015)",
+    "sourceUrl": "https://doi.org/10.1016/j.cub.2015.08.048",
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "face-averageness-beauty",
+        "type": "あわせて読む",
+        "why": "多くの人に共通する好み（平均顔・左右対称）をまとめた研究。こちらは人ごとに違う部分"
+      }
+    ],
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "顔の好みって、生まれつき？",
+        "body": "「この顔がタイプ」は人それぞれ。それって親から受け継いだもの？それとも育ってきた中で決まるもの？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "双子で顔の好みを比べた",
+        "body": "遺伝子が同じ一卵性と、半分ほど同じ二卵性の双子に、たくさんの顔の魅力を点数にしてもらい、好みの似かたを比べた研究だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "好みは主に経験から",
+        "body": "人ごとに違う顔の好みは、遺伝よりも一人ひとりが別々に経験してきた環境から主にできていた。顔を見分ける力は主に遺伝で決まるのと対照的なんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんな経験かは不明",
+        "body": "双子の比較でわかるのは遺伝と環境の割合だけで、どんな出来事が好みを作るかはわからない。対称な顔など、多くの人に共通する好みの話とは別なんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-preference-genes-vs-environment-twins"
+  },
+  {
+    "id": "color-infant-color-categories",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Skelton et al., \"Biological origins of color categorization\" (PNAS, 2017)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1612881114",
+    "studyType": "実験",
+    "links": [
+      {
+        "id": "color-pink-girls-culture",
+        "type": "あわせて読む",
+        "why": "色の感じ方は生まれつきか文化かを、色の好みの側から調べた研究"
+      }
+    ],
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "赤ちゃんにも「色の名前」の区別はある？",
+        "body": "「赤」「青」みたいな色の分け方は、言葉を覚えてからできるもの？それとも言葉を話す前からあるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "見慣れた色と新しい色",
+        "body": "言葉を話す前の赤ちゃんに、ある色を見慣れさせてから新しい色を見せ、反応の違いから「別の色」と感じているかを調べた実験だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5つのまとまりに分けていた",
+        "body": "赤ちゃんは色のつながりを、赤・黄・緑・青・紫のまとまりに分けていた。その境目は、110の言語の色の名前によくある分け方とも重なっていたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "一部が生まれつき、まで",
+        "body": "わかったのは、色の分け方の一部が体のしくみで決まっているらしいということ。言葉や文化がどれだけ加わるかは別の話で、赤ちゃんの反応から心の中を推し量った結果でもあるんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-infant-color-categories"
+  },
+  {
     "id": "research-quit-smoking-failed-again-retry-research-attempts",
     "category": "からだの常識",
     "kind": "よくある説",
@@ -26688,7 +26875,14 @@
         "body": "調べたのは一度きりで、育ちの中で好みが変わる様子を追ったわけではない。現地では照明をそろえられず、色の見え方が少し違った可能性もある。大人の好みまではわからないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/color-psychology/#color-pink-girls-culture"
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-pink-girls-culture",
+    "links": [
+      {
+        "id": "color-infant-color-categories",
+        "type": "あわせて読む",
+        "why": "色の分け方の一部が生まれつきかを、赤ちゃんで調べた研究"
+      }
+    ]
   },
   {
     "id": "insight-sleep-nap-insight-problems",
@@ -43550,7 +43744,14 @@
     "articleUrl": "https://research.seadice.win/stranger-small-talk-mood-research/",
     "articleSite": "悩みの科学",
     "webUrl": "https://seadice.win/evidence/loneliness/#social-talk-to-strangers",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "kokoro-ask-ai-not-people-conversation-value-stranger-learning",
+        "type": "あわせて読む",
+        "why": "同じ研究者による見知らぬ人と話す実験。こちらは気分でなく学びを調べた"
+      }
+    ]
   },
   {
     "id": "social-weak-ties-wellbeing",
@@ -50324,6 +50525,11 @@
         "id": "face-beauty-advantage",
         "type": "あわせて読む",
         "why": "魅力的な顔の人が、まわりからどう見られ扱われるかをまとめた研究"
+      },
+      {
+        "id": "face-preference-genes-vs-environment-twins",
+        "type": "あわせて読む",
+        "why": "人ごとに違う顔の好みが遺伝か環境かを、双子で調べた研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/face-impression/face-averageness-beauty/"
