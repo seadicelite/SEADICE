@@ -1,5 +1,173 @@
 [
   {
+    "id": "research-overeating-next-day-weight-gain-recovery-research-weekly-rhythm",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Turicchi J et al., \"Weekly, seasonal and holiday body weight fluctuation patterns among individuals engaged in a European multi-centre behavioural weight loss maintenance intervention\" (PLoS One, 2020)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0232152",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/overeating-next-day-weight-gain-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "月曜に体重が増えた＝太った？",
+        "body": "週末に食べすぎて、月曜の朝に体重計を見てがっかり…。でもその増加、毎週くり返すふつうの波かもしれないらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "スマート体重計の記録を分析",
+        "body": "ヨーロッパ3か国で、減量後の体重維持に取り組む人の記録を分析したんだ。週の分析は1,421人で、1人平均220回も測っていたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "月曜に重く、金曜に軽い",
+        "body": "体重は月曜が最も重く、金曜が最も軽い、0.35%ほどの波をくり返していた。一方でクリスマス前後は平均1.35%増えて、2か月たっても戻りきらなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "体重を気にする人たちのデータ",
+        "body": "参加者は、BMI25以上から5%以上やせて、その体重を保とうとしていた人たち。著者も、ふだん体重を測らない一般の人を代表しているとは限らないと書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#research-overeating-next-day-weight-gain-recovery-research-weekly-rhythm"
+  },
+  {
+    "id": "research-water-before-meals-eat-less-how-research-12week-trial",
+    "category": "食べ物の常識",
+    "kind": "研究紹介",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Dennis EA et al., \"Water consumption increases weight loss during a hypocaloric diet intervention in middle-aged and older adults\" (Obesity, 2010)",
+    "sourceUrl": "https://doi.org/10.1038/oby.2009.235",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/water-before-meals-eat-less-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "毎食前に水500mLを12週",
+        "body": "アメリカで55〜75歳の太りぎみの48人が、カロリーを控えた食事を12週続けた。一方のグループは、毎食前に500mLの水も飲んだんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体重が約2kg多く減った",
+        "body": "水を飲んだグループは、飲まなかったグループより体重が約2kg多く減って、減るスピードは44%大きかった。始めた頃は、水を飲むと1回の食事も少し減っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "水だけでやせるわけではない",
+        "body": "カロリーを控えた食事との組み合わせで、人数も少なめ。12週後には食事が減る効果ははっきりしなくなっていて、ほかの年代で同じかもわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-water-before-meals-eat-less-how-research-12week-trial"
+  },
+  {
+    "id": "research-late-night-eating-weight-gain-research-big-breakfast-same-weight",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Ruddick-Collins LC et al., \"Timing of daily calorie loading affects appetite and hunger responses without changes in energy metabolism in healthy subjects with obesity\" (Cell Metabolism, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.cmet.2022.08.001",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/late-night-eating-weight-gain-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "朝ごはんを多めにするとやせる？",
+        "body": "「朝はしっかり、夜は軽く」がダイエットにいいって言うよね。同じカロリーでも、配分だけで体重は変わるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "朝型と夜型の配分を4週間ずつ",
+        "body": "英国の研究者が、太りぎみの大人30人に同じカロリーの減量食を、朝食に45%を食べる配分と、夕食に45%を食べる配分で4週間ずつ食べてもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "体重の減り方はほぼ同じ",
+        "body": "体重は朝に多いほうで3.33kg、夜に多いほうで3.38kg減って、ほぼ同じだった。ただ、朝に多く食べた期間のほうが空腹感は少なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "4週間より長いと？",
+        "body": "比べたのは4週間ずつで、もっと長く続けたときの差はわからない。ふだんの生活の中での試験で、空腹が少ない分、実際に食べる量が減るかもまだ確かめられていないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "foodmyth-late-eating-hunger",
+        "type": "あわせて読む",
+        "why": "同じ量を遅く食べるとお腹がすきやすい、という別の試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-late-night-eating-weight-gain-research-big-breakfast-same-weight"
+  },
+  {
+    "id": "food-nuts-cognition-systematic-review",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Theodore LE et al., \"Nut Consumption for Cognitive Performance: A Systematic Review\" (Advances in Nutrition, 2021)",
+    "sourceUrl": "https://doi.org/10.1093/advances/nmaa153",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ナッツを食べると、頭にいい？",
+        "body": "「クルミやアーモンドは脳にいい」ってよく聞くよね。毎日つまめば、記憶力も上がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22の研究、4万人超を整理",
+        "body": "ナッツと大人の頭の働きを調べた研究を集めて、22件・合わせて43,793人分を整理したレビューがあるんだ。数字を1つにまとめる分析はしていないよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ナッツ全体では、はっきりしない",
+        "body": "研究ごとにやり方もナッツの種類も測った力もばらばらで、いろんなナッツが頭を守るという結果は一貫しなかった。ただクルミの6研究では、5つで良い関係が見られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "クルミも、まだ数が少ない",
+        "body": "クルミの6研究のうち、くじ引きで分けた試験は2つだけ。残りは食べ方と頭の働きの関係を見た研究だよ。ナッツを食べれば記憶力が上がる、とまでは言えないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-nuts-cognition-systematic-review"
+  },
+  {
+    "id": "sleepfood-fatty-fish-sleep-rct",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Hansen AL et al., \"Fish consumption, sleep, daily functioning, and heart rate variability\" (Journal of Clinical Sleep Medicine, 2014)",
+    "sourceUrl": "https://doi.org/10.5664/jcsm.3714",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "魚を食べると、よく眠れる？",
+        "body": "「青魚は睡眠にいい」って話を見かけるよね。じゃあ実際に、魚を食べる日を増やすと眠りは変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "冬のあいだ、週3回サーモン",
+        "body": "アメリカの施設に入院していた男性95人をくじ引きで2組に分け、9月から2月まで、片方は週3回サーモン、もう片方は肉など別の食事を食べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "差は「寝つき」の変化に出た",
+        "body": "9月から2月にかけて、肉などの組では寝つくまでの時間がはっきり長くなった。日中の調子は、サーモンの組の方が良いと答えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "特別な環境の男性だけ",
+        "body": "対象は司法精神科の施設にいる男性だけで、女性やふつうの暮らしの人で同じかはわからない。魚で眠りが良くなったというより、肉などの組で寝つきが悪くなったという差の出方だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleepfood-fatty-fish-sleep-rct"
+  },
+  {
     "id": "kokoro-job-hunting-sns-comparison-prevent-upward-comparison",
     "category": "スマホとSNS",
     "kind": "素朴な疑問",
@@ -50108,6 +50276,11 @@
         "id": "japan-eat-then-sleep",
         "type": "あわせて読む",
         "why": "夕食から3時間たたずに寝る人は、胸やけの病気の割合が高かった"
+      },
+      {
+        "id": "research-late-night-eating-weight-gain-research-big-breakfast-same-weight",
+        "type": "あわせて読む",
+        "why": "同じカロリーなら、朝に多く食べてもやせ方は同じだった試験"
       }
     ],
     "webUrl": "https://seadice.win/evidence/food-myths/foodmyth-late-eating-hunger/"
