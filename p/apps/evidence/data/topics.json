@@ -1,5 +1,171 @@
 [
   {
+    "id": "kokoro-job-hunting-sns-comparison-prevent-upward-comparison",
+    "category": "スマホとSNS",
+    "kind": "素朴な疑問",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Jin T, Chen Y, Zhang K, \"Effects of social media use on employment anxiety among Chinese youth: the roles of upward social comparison, online social support and self-esteem\" (Frontiers in Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2024.1398801",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/job-hunting-sns-comparison-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "就活中のSNS、なんで焦るの？",
+        "body": "周りの「内定もらいました」を見ると、自分だけ遅れている気がするよね。SNSを見ること自体が悪いのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中国の1,204人に聞いた",
+        "body": "中国の18〜44歳の1,204人に、SNSの使い方、自分より上の人と比べるくせ、就職の不安をアンケートで聞いた研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "結びつきの約58%は「比べること」経由",
+        "body": "SNSをよく使う人ほど就職の不安が強めで、その結びつきの約58%は、上の人と比べる傾向を通っていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "不安だから見てしまう、かも",
+        "body": "1回きりのアンケートなので、不安な人ほどSNSを見てしまう逆の向きもありうる。中国の調査で、日本の就活で同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-job-hunting-sns-comparison-prevent-upward-comparison"
+  },
+  {
+    "id": "kokoro-reemployment-job-quality-recover-allostatic-load",
+    "category": "仕事と働き方",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Chandola T, Zhang N, \"Re-employment, job quality, health and allostatic load biomarkers: prospective evidence from the UK Household Longitudinal Study\" (International Journal of Epidemiology, 2018)",
+    "sourceUrl": "https://doi.org/10.1093/ije/dyx150",
+    "studyType": "観察研究",
+    "articleUrl": "https://mentalai.seadice.win/reemployment-job-quality-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "仕事があれば、何でもいい？",
+        "body": "失業したら、とにかく早く次の仕事に就くのが心と体にいちばん、ってよく言われるよね。本当にどんな仕事でも同じなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "英国の失業者を1〜2年追った",
+        "body": "英国の全国調査で失業中だった大人を追って、次に就いた仕事の質と、血液や血圧から計算したストレスと関わる体の指標を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "条件の厳しい仕事では指標が高め",
+        "body": "給料・安定・裁量・満足・仕事の不安のうち2つ以上に問題がある仕事に就いた人は、失業が続いた人より指標の合計が推定で1.5倍以上だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、因果は不明",
+        "body": "血液を調べたのは244人だけで、仕事に就く前の値は測られていない。自分で答えた心の健康は、条件の厳しい仕事と失業が続いた人で、はっきりした差がなかったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-reemployment-job-quality-recover-allostatic-load"
+  },
+  {
+    "id": "dokugaku-count-study-days-not-questions-plan-counting-days",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "YeckehZaare & Resnick, \"Counting days is a spacing incentive that unlocks the potential of low GPA students\" (npj Science of Learning, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41539-025-00322-5",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/count-study-days-not-questions-plan/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "勉強は量をこなせばいい？",
+        "body": "今週は100問、みたいに量で目標を立てがちだよね。でも同じ量でも、何日に分けるかで結果が変わるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "数え方を変えて比べた",
+        "body": "米国の大学のプログラミング入門で143人を分け、解いた問題数で点をつける組と、1日10問正解した日の数で点をつける組を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "練習日が倍以上、点も上がった",
+        "body": "日数で数えた組は練習した日が平均38.5日（問題数の組は17.3日）、期末試験は85.3%（同81.7%）。解いた問題数の差は小さかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの授業の話",
+        "body": "1つの大学の1科目、1学期分の実験だよ。ほかの分野や社会人の独学で同じ効果が出るかはまだわからない。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-count-study-days-not-questions-plan-counting-days"
+  },
+  {
+    "id": "posture-mimic-female-leader-speech",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Latu IM, Schmid Mast M, Bombari D, Lammers J, Hoyt CL, \"Empowering Mimicry: Female Leader Role Models Empower Women in Leadership Tasks Through Body Posture Mimicry\" (Sex Roles, 2019)",
+    "sourceUrl": "https://doi.org/10.1007/s11199-018-0911-y",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "憧れの人の姿を見ると、堂々と話せる？",
+        "body": "人前で話す前に、尊敬する人の写真を見ると勇気が出る、って聞くよね。そのとき姿勢までまねしているのかを確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "仮想の部屋でスピーチ",
+        "body": "スイスの女子大学生86人が、VRの部屋で説得のスピーチをした。壁にはヒラリー・クリントンかビル・クリントンの写真があって、胸を張った姿か縮こまった姿かをくじで変えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "女性リーダーの姿勢をまねていた",
+        "body": "ヒラリーが胸を張った写真のときは、参加者の姿勢も開きぎみになり、その分スピーチが長く、説得力の評価も高かった。ビルの写真では、姿勢のまねは見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "知らない人だと逆になった",
+        "body": "無名の女性の写真を使った2つめの実験（50人）では、逆に姿勢が縮こまり、スピーチも短くなった。どちらも少人数のスイスの女子大学生で、男性や本番の場で同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-mimic-female-leader-speech"
+  },
+  {
+    "id": "music-teen-songs-reminiscence-bump",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Renwick J, Woolhouse MH, \"Reminiscence bump invariance with respect to genre, age, and country\" (Psychology of Music, 2023)",
+    "sourceUrl": "https://doi.org/10.1177/03057356221141735",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "思い出の曲は、10代に聴いた曲ばかり？",
+        "body": "カラオケでつい昔の曲を選んじゃうこと、あるよね。心に残る曲が若いころに聴いた曲に偏るのかを、大人数で調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "102か国・4,824人に聞いた",
+        "body": "ネットの調査で、102か国の4,824人に思い出に残る曲を5曲ずつ挙げてもらい、それぞれ何歳で初めて聴いたかを答えてもらった。集まった曲は24,120曲だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "16〜20歳で聴いた曲がいちばん多い",
+        "body": "どの年代の人でも、挙がった曲は16〜20歳で初めて聴いた曲がいちばん多かった。男女でも、比べた4か国（米・英・フィリピン・ルーマニア）でも、ジャンルを問わず同じ傾向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "年齢は本人の記憶だより",
+        "body": "初めて聴いた年齢は自己申告で、5歳刻みに丸めた答えも見られた。日本は比べた国に入っておらず、アフリカや南米は人数が少なく比べていない。なぜ10代なのかも、この調査ではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-teen-songs-reminiscence-bump"
+  },
+  {
     "id": "dokugaku-afraid-of-failing-avoid-practice-tests-restart-avoidance-goals",
     "category": "学習法",
     "kind": "研究紹介",
