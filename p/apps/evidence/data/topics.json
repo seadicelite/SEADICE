@@ -1,5 +1,199 @@
 [
   {
+    "id": "dokugaku-evening-exercise-cant-sleep-study-reset-evening-exercise",
+    "category": "睡眠",
+    "kind": "よくある説",
+    "themeColor": "#00FFD1",
+    "sourceLabel": "Stutz et al., \"Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis\" (Sports Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1007/s40279-018-1015-0",
+    "studyType": "メタ分析",
+    "articleUrl": "https://dokugaku.seadice.win/evening-exercise-cant-sleep-study-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "夜に運動すると眠れなくなる？",
+        "body": "「寝る前の運動は目がさえるからダメ」ってよく聞くよね。夜しか運動の時間がない人には気になる話。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "23の研究をまとめた",
+        "body": "健康な大人が夜に1回運動した日と、しなかった日の睡眠を比べた23の研究をまとめた分析があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "眠りはむしろ少し深くなった",
+        "body": "夜の運動で、深い眠りの割合は1.3ポイント増えていたらしい。著者らは「夜の運動が睡眠を悪くするという考えは支持されない」とまとめている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "寝る直前の激しい運動は別",
+        "body": "寝る前1時間以内に終わる激しい運動では、寝つきや睡眠時間が悪くなるかもしれないとされる。調べたのは1回だけの運動で、毎日続けた場合の話ではないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "exercise-time-of-day-mood-sleep-meta",
+        "type": "あわせて読む",
+        "why": "朝と夜の運動を比べると、時間帯より運動すること自体が大事だった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/sleep/#dokugaku-evening-exercise-cant-sleep-study-reset-evening-exercise"
+  },
+  {
+    "id": "research-beans-gas-flatulence-why-research-daily-volume",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Tomlin J et al., \"Investigation of normal flatus production in healthy volunteers\" (Gut, 1991)",
+    "sourceUrl": "https://doi.org/10.1136/gut.32.6.665",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/beans-gas-flatulence-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "おならって1日どれくらい出る？",
+        "body": "自分だけ多いのかな、と気になる人もいるはず。実際に量った研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "10人の24時間を全部集めた",
+        "body": "英国の研究で、健康な10人がふだんの食事に豆の缶詰200gを足し、24時間のおならを管で集めて量ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "中央値705ml、多い人は約1.5L",
+        "body": "1日の量は476〜1491ml、中央値705ml。男女で差はなかった。食物繊維をほぼ抜いた食事にすると中央値214mlに減って、水素はほぼ出なくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "たった10人の測定",
+        "body": "人数が少なく、豆を足した食事での量。ふだんの食事だけの日とは比べていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-beans-gas-flatulence-why-research-adaptation",
+        "type": "あわせて読む",
+        "why": "豆を食べ続けると、おならが増えたと感じる人は減っていった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-beans-gas-flatulence-why-research-daily-volume"
+  },
+  {
+    "id": "research-fish-bone-stuck-throat-recovery-research-fish-species",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Shishido T et al., \"Characteristics of fish-bone foreign bodies in the upper aero-digestive tract: The importance of identifying the species of fish\" (PLoS One, 2021)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0255947",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/fish-bone-stuck-throat-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "魚の骨はのどのどこに刺さる？",
+        "body": "魚を食べていてのどにチクッ。あの骨って、実際どこに刺さっているんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "東北大学病院の368人",
+        "body": "魚を食べたあとのどの違和感で受診した368人のカルテを調べたよ。骨が見つかったのは270人だった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばん多いのは扁桃",
+        "body": "骨が見つかった270人のうち170人は扁桃（のどの奥の両脇）に刺さっていた。医師が取った240人のうち54.6%は口から器具で取れたけど、45.4%は内視鏡か手術が必要だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの病院の記録",
+        "body": "東北の1つの大学病院のカルテを振り返った研究。魚の食べ方や料理は地域でちがうので、ほかの場所でも同じとは限らない。骨の大きさや調理のしかたも記録が足りなかったと著者らは書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-fish-bone-stuck-throat-recovery-research-fish-species"
+  },
+  {
+    "id": "food-green-tea-cognition-tsurugaya",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Kuriyama S et al., \"Green tea consumption and cognitive function: a cross-sectional study from the Tsurugaya Project 1\" (American Journal of Clinical Nutrition, 2006)",
+    "sourceUrl": "https://doi.org/10.1093/ajcn/83.2.355",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "緑茶を飲むと、物忘れしにくい？",
+        "body": "「お茶をよく飲む人はボケにくい」って聞いたことあるよね。日本のお年寄りで調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "仙台の70歳以上1003人",
+        "body": "仙台市の70歳以上の1003人に、緑茶やコーヒーを飲む回数を聞いて、認知機能のテスト（MMSE）の点と比べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1日2杯以上の人は、低下が少なかった",
+        "body": "緑茶を1日2杯以上飲む人は、週3杯以下の人より、認知機能が下がっている見込みが約半分（オッズ比0.46）だった。紅茶・ウーロン茶やコーヒーでは、はっきりした差はなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の調査で、向きがわからない",
+        "body": "ある時点で聞いただけの調査なので、緑茶が効いたのか、元気な人ほどお茶を飲むのかは区別できない。飲む量も自己申告。日本の1地域のお年寄りだけの結果だよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "caffeine-coffee-tea-dementia-uk-biobank",
+        "type": "あわせて読む",
+        "why": "英国の大規模な追跡では、お茶やコーヒーと認知症の関係を年単位で見ている"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-green-tea-cognition-tsurugaya"
+  },
+  {
+    "id": "insight-aha-moment-brain-right-temporal",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Jung-Beeman M et al., \"Neural activity when people solve verbal problems with insight\" (PLoS Biology, 2004)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pbio.0020097",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ひらめきの瞬間、脳で何が起きている？",
+        "body": "「あっ、わかった！」と急に答えが浮かぶあの感じ。じっくり解いたときと、脳の中で何かちがうのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "言葉のなぞなぞを解いてもらった",
+        "body": "米国の18〜29歳に、3つの単語に共通する言葉を当てる問題を解いてもらい、解けるたびに「ひらめいたか」を答えてもらった。脳の画像（13人）と脳波（19人）で調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "右の側頭部が、答えの0.3秒前に",
+        "body": "ひらめいて解けたときは、右脳の耳の上あたり（側頭葉の前の方）がより強く働いていた。脳波では、答えの0.3秒前にこの場所で速い波が急に増えたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "少人数で、言葉の問題だけ",
+        "body": "英語を母語とする若い右利きの人だけの少人数の実験で、問題も言葉のなぞなぞだけ。「ひらめいた」かは本人の感覚で分けている。ほかの種類のひらめきでも同じかはまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-left-right-type",
+        "type": "あわせて読む",
+        "why": "ひらめきで右側が働いても、「右脳型の人」がいるわけではない"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/insight/#insight-aha-moment-brain-right-temporal"
+  },
+  {
     "id": "color-blue-favorite-ecological-valence",
     "category": "色彩心理",
     "kind": "素朴な疑問",
@@ -95,7 +289,14 @@
         "body": "ガスの量は測っていなくて、本人の感じ方を毎週聞いただけ。豆なしの食事でも3〜11%が増えたと答えていて、豆の種類や人によって差があるんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/food-myths/#research-beans-gas-flatulence-why-research-adaptation"
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-beans-gas-flatulence-why-research-adaptation",
+    "links": [
+      {
+        "id": "research-beans-gas-flatulence-why-research-daily-volume",
+        "type": "あわせて読む",
+        "why": "そもそもおならが1日どれくらい出るかを量った研究"
+      }
+    ]
   },
   {
     "id": "research-low-salt-taste-adaptation-how-research-gradual-salt",
@@ -3464,7 +3665,14 @@
         "body": "観察研究なので、コーヒーが認知症を防いだとは言えない。飲む量は最初に1回聞いただけで、参加者は英国全体の縮図でもない。測っていない別の要因が混ざっている可能性も著者が書いているよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-tea-dementia-uk-biobank"
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-tea-dementia-uk-biobank",
+    "links": [
+      {
+        "id": "food-green-tea-cognition-tsurugaya",
+        "type": "あわせて読む",
+        "why": "日本のお年寄りで、緑茶と認知機能の関係を1回の調査で見た研究"
+      }
+    ]
   },
   {
     "id": "light-permanent-night-shift-circadian-adjustment",
@@ -19081,7 +19289,14 @@
         "body": "集まったのは13本だけ。「夕方より昼がいい」という結果も、2本の研究だけから出たものなんだ。何時に運動するのがいいかを決めるには、まだ証拠が足りないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-time-of-day-mood-sleep-meta"
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-time-of-day-mood-sleep-meta",
+    "links": [
+      {
+        "id": "dokugaku-evening-exercise-cant-sleep-study-reset-evening-exercise",
+        "type": "あわせて読む",
+        "why": "夜の運動だけを調べると、眠りが悪くなるという説は支持されなかった"
+      }
+    ]
   },
   {
     "id": "dokugaku-preview-headings-before-reading-headings-summary",
@@ -35864,6 +36079,11 @@
         "id": "personality-mbti-types",
         "type": "あわせて読む",
         "why": "「右脳型・左脳型」も、型で人を分ける考えを脳のデータで確かめた研究"
+      },
+      {
+        "id": "insight-aha-moment-brain-right-temporal",
+        "type": "あわせて読む",
+        "why": "ひらめきの瞬間に右側の一部が働くという研究。「型」とは別の話"
       }
     ]
   },
