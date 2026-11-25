@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-quit-smoking-failed-again-retry-research-attempts",
+    "category": "からだの常識",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Chaiton M et al., \"Estimating the number of quit attempts it takes to quit smoking successfully in a longitudinal cohort of smokers\" (BMJ Open, 2016)",
+    "sourceUrl": "https://doi.org/10.1136/bmjopen-2016-011045",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/quit-smoking-failed-again-retry-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "禁煙は平均6回で成功？",
+        "body": "禁煙に成功した人は、平均6回くらい挑戦しているってよく言われるよね。本当にそのくらいなのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カナダの1277人を追跡",
+        "body": "カナダの研究者が、禁煙に挑戦した喫煙者1277人を6か月ごとに最長3年追いかけて、1年以上続く禁煙までの回数を推計したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "平均は約30回かも",
+        "body": "偏りが少ないと考えた方法だと、成功までの挑戦は平均29.6回。著者は「30回以上かかる人も多いかもしれない」と書いているんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "方法で数字が大きく変わる",
+        "body": "推計の方法で6.1回から142回まで幅がある。成功は「1年続いた禁煙」とした数字で、集団の平均だから、自分が何回目で成功するかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/body-myths/#research-quit-smoking-failed-again-retry-research-attempts"
+  },
+  {
+    "id": "research-iron-absorption-tea-timing-how-research-tea-1h",
+    "category": "食べ物の常識",
+    "kind": "研究紹介",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Ahmad Fuzi SF et al., \"A 1-h time interval between a meal containing iron and consumption of tea attenuates the inhibitory effects on iron absorption: a controlled trial in a cohort of healthy UK women using a stable iron isotope\" (The American Journal of Clinical Nutrition, 2017)",
+    "sourceUrl": "https://doi.org/10.3945/ajcn.117.161364",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/iron-absorption-tea-timing-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "食後の紅茶、鉄分に悪い？",
+        "body": "紅茶は食事の鉄の吸収を下げるって聞くよね。じゃあ、飲む時間をずらしたらどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じおかゆを3通りで",
+        "body": "イギリスで女性12人が、鉄の吸収をたどれる目印入りのおかゆを、水と一緒・紅茶と同時・紅茶を食後1時間の3通りで食べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1時間あけると妨げが約半分",
+        "body": "紅茶を食事と同時に飲むと鉄の吸収が下がった。食後1時間あけて飲むと、紅茶による妨げは37.2%から18.1%へ、約半分になったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "12人・おかゆ1種類の話",
+        "body": "対象は貧血のないイギリスの若い女性12人だけで、吸収率は人によるばらつきも大きい。ほかの食事や、鉄が足りない人で同じになるかはまだわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-iron-absorption-tea-timing-how-research-tea-1h"
+  },
+  {
+    "id": "research-produce-pesticide-washing-how-research-running-water",
+    "category": "食べ物の常識",
+    "kind": "よくある説",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Yang SJ et al., \"Effectiveness of Different Washing Strategies on Pesticide Residue Removal: The First Comparative Study on Leafy Vegetables\" (Foods, 2022)",
+    "sourceUrl": "https://doi.org/10.3390/foods11182916",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/produce-pesticide-washing-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "重曹や酢で洗うと農薬が落ちる？",
+        "body": "野菜の農薬は、重曹水や酢水、野菜用洗剤で洗うとよく落ちるってよく聞くよね。ただの水より本当に効くのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "葉もの5種類で9つの方法",
+        "body": "韓国の研究者が、レタスやほうれん草など葉もの5種類に10種類の農薬をつけて、流水・ため水・重曹水・酢水・洗剤・ゆでるなど9つの方法で、どれだけ減るかを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばんは流水だった",
+        "body": "流水で5分すすぐと農薬は平均77.0%減って一番。重曹水は52.0%、酢水は51.2%で、ため水（51.4%）とほぼ同じ。野菜用洗剤は43.7%で一番低かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "農薬の液にひたした野菜の話",
+        "body": "農薬の液にひたしてつけた野菜での実験で、畑で育った野菜の残り方とは違うかもしれない。流水は毎秒170mL（1分で約10L）を5分間。家の蛇口で同じになるかはわからないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-produce-pesticide-washing-how-research-running-water"
+  },
+  {
+    "id": "weather-extreme-heat-mental-health-er",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Nori-Sarma A et al., \"Association Between Ambient Heat and Risk of Emergency Department Visits for Mental Health Among US Adults, 2010 to 2019\" (JAMA Psychiatry, 2022)",
+    "sourceUrl": "https://doi.org/10.1001/jamapsychiatry.2021.4369",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "暑い日は、心の調子をくずす人が増える？",
+        "body": "猛暑の日は、なんだか落ち着かなかったりイライラしたりするよね。心の不調で救急に行く人も、実際に増えているのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの救急受診350万件",
+        "body": "アメリカの研究者が、2010〜2019年の5〜9月に心の不調で救急を受診した約350万件（約224万人）の保険の記録で、受診した日とふだんの日の気温を、同じ人どうしで比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "とくに暑い日は約8%多かった",
+        "body": "その地域の夏でとくに暑い日（上位5%）は、心の不調での救急受診が約8%多かった。不安やストレス、気分の不調、お酒や薬の問題など、いろいろな種類で増えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "保険のある大人の記録",
+        "body": "民間などの保険に入っている大人の記録で、保険のない人や日本で同じかはわからない。記録を数えた観察研究なので、暑さがどんなしくみで心に響くのかもまだわかっていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-extreme-heat-mental-health-er"
+  },
+  {
+    "id": "alcohol-slow-drinking-beer-pilot",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Oshima S, Shiiya S, Kato Y, \"Slow Drinking of Beer Attenuates Subjective Sedative Feeling in Healthy Volunteers: A Randomized Crossover Pilot Study\" (Nutrients, 2022)",
+    "sourceUrl": "https://doi.org/10.3390/nu14214502",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ゆっくり飲むと、酔いにくい？",
+        "body": "お酒はゆっくり飲むと酔いにくい、ってよく聞くよね。同じ量のビールでも、飲む速さで本当に違うのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ビール480mLを3つの速さで",
+        "body": "日本の大人18人（男性11人・女性7人）が、空腹でビール480mLを30分・1時間・2時間かけて飲む3通りを、1週間以上あけて全部試したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2時間かけると、ぼんやり感が弱かった",
+        "body": "2時間かけたときは、血中アルコールの上がり方がいちばんゆるやかで、眠い・ぼんやりする感じも弱かった。ただ、気分が上がる感じは変わらず、2時間半後の濃度は3通りで同じくらいだったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ビール会社の社員18人の試し",
+        "body": "ビール会社の研究所の社員18人で、自分がどの速さかわかる小さな試験。つまみなし・ビール1種類の話で、もっと多く飲むときや食べながらのときに同じかはまだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "alcohol-empty-stomach-blood-alcohol",
+        "type": "あわせて読む",
+        "why": "同じお酒でも、飲み方（空腹か、食後か）で血中アルコールの上がり方が変わる"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-slow-drinking-beer-pilot"
+  },
+  {
     "id": "research-overeating-next-day-weight-gain-recovery-research-weekly-rhythm",
     "category": "からだの常識",
     "kind": "よくある説",
@@ -30492,7 +30665,14 @@
       "correct": "空腹のときの約半分",
       "wrong": "空腹のときとほぼ同じ"
     },
-    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-empty-stomach-blood-alcohol"
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-empty-stomach-blood-alcohol",
+    "links": [
+      {
+        "id": "alcohol-slow-drinking-beer-pilot",
+        "type": "あわせて読む",
+        "why": "同じ量でも、飲む速さで血中アルコールの上がり方が変わる"
+      }
+    ]
   },
   {
     "id": "folk-cold-feet-common-cold",
