@@ -53087,6 +53087,11 @@
         "id": "digital-mobile-internet-block",
         "type": "あわせて読む",
         "why": "SNSだけやめる研究と、スマホのネット全体を止めた実験"
+      },
+      {
+        "id": "digital-facebook-quit-1week-denmark",
+        "type": "あわせて読む",
+        "why": "1つの実験と、SNSを休む研究をまとめた分析"
       }
     ],
     "webUrl": "https://seadice.win/evidence/digital-detox/digital-sns-abstinence-meta/"
@@ -56072,6 +56077,11 @@
         "id": "oya-caregiver-reach2",
         "type": "あわせて読む",
         "why": "寿命は縮まなくても、心の負担は大きい。介護する家族を支える試験の結果"
+      },
+      {
+        "id": "oya-caregiver-vs-noncaregiver-health-meta",
+        "type": "あわせて読む",
+        "why": "心の負担は大きい一方、寿命では介護する人のほうが長かった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/aging-parents/#oya-caregiving-mortality"
@@ -70182,5 +70192,574 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/memory/#memory-loftus-replication-hockey"
+  },
+  {
+    "id": "music-background-liking-worker-attention-rct",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Huang & Shih, \"Effects of background music on concentration of workers\" (Work, 2011)",
+    "sourceUrl": "https://doi.org/10.3233/wor-2011-1141",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "好きな曲なら、作業に集中できる？",
+        "body": "好きな曲をかけると作業がはかどる気がするよね。でも夢中になって聴きすぎて、むしろ気が散ることもありそう。実際はどうなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "音楽の種類と「好き度」を比べた",
+        "body": "19〜28歳の働く人89人（平均24歳）に、ランダム化比較試験で背景音楽の種類を変えて注意力テストを受けてもらい、音楽がどれだけ好きかも聞いたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "種類より「好き嫌いの強さ」",
+        "body": "背景音楽は注意力に影響した。ただ、その影響は音楽の種類より、好き嫌いの度合いと関係していたらしい。強く好き・強く嫌いなほど影響が出やすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い89人・テストの話",
+        "body": "対象は19〜28歳の89人で、職場で長く働いたときの話ではないよ。著者は、強く好き・強く嫌いな曲は集中のじゃまにならないよう避けたほうがよいと勧めている。どれだけ下がるかは要旨だけではわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "注意力への影響と関係が深かったのは？",
+      "correct": "音楽の好き嫌いの強さ",
+      "wrong": "曲のジャンル（クラシックかポップか）"
+    },
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-background-liking-worker-attention-rct"
+  },
+  {
+    "id": "food-fish-intake-cognitive-dementia-dose-response",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Godos et al., \"Fish consumption, cognitive impairment and dementia: an updated dose-response meta-analysis of observational studies\" (Aging Clinical and Experimental Research, 2024)",
+    "sourceUrl": "https://doi.org/10.1007/s40520-024-02823-6",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "魚を食べると頭にいい？",
+        "body": "「魚は頭にいい」ってよく言うよね。魚をよく食べる人は、年をとってからの物忘れや認知症が少ないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "35本の観察研究をまとめた",
+        "body": "魚を食べる量と、認知機能の低下・認知症・アルツハイマー病の関係を調べた35本の観察研究を集めて、数字でまとめたメタ分析だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "よく食べる人は、リスクが約2割低かった",
+        "body": "最も多く食べる人は最も少ない人より、認知機能低下のリスクが0.82倍、認知症も0.82倍、アルツハイマー病は0.80倍。1日150gでは約30%低い計算だったけど、幅が広い（0.52〜0.95倍）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "魚のおかげとは言えない",
+        "body": "食べ方を聞いた観察研究のまとめで、魚を食べる人は生活習慣も違うかもしれない。原因が魚かはわからず、認知症とアルツハイマー病は著者も追加研究が必要と書いているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "魚を最も多く食べる人の認知機能低下リスクは？",
+      "correct": "最も少ない人の約0.82倍",
+      "wrong": "最も少ない人の約0.5倍（半分）"
+    },
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-fish-intake-cognitive-dementia-dose-response"
+  },
+  {
+    "id": "oya-caregiver-vs-noncaregiver-health-meta",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Pinquart M, Sörensen S, \"Differences between caregivers and noncaregivers in psychological health and physical health: A meta-analysis\" (Psychology and Aging, 2003)",
+    "sourceUrl": "https://doi.org/10.1037/0882-7974.18.2.250",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お年寄りの介護をすると、心や体はどうなる？",
+        "body": "介護はしんどい、とはよく聞くよね。でも、介護していない人と比べて、どこがどれくらい違うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "84本の論文をまとめた",
+        "body": "介護している人としていない人を比べた84本の論文を、数字でまとめた分析だよ。ストレス、うつ、幸福感、体の健康などを見ているんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "差が大きいのは、心の面だった",
+        "body": "いちばん差が大きかったのはうつ（効果量0.58）とストレス（0.55）で、中くらいの差。体の健康は0.18で小さかった。認知症の人の介護は、差がより大きかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "今の日本の介護でも同じ？",
+        "body": "2003年に出た分析なので、それ以降の研究や今の制度は入っていないよ。介護のせいなのか、もともとの違いなのかは、要旨からはわからない。対象は親に限らず、配偶者などの介護も含むんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "介護する人としない人で、いちばん差が大きかったのは？",
+      "correct": "うつやストレスなど、心の面",
+      "wrong": "血圧や持病など、体の面"
+    },
+    "links": [
+      {
+        "id": "oya-caregiving-mortality",
+        "type": "あわせて読む",
+        "why": "心の負担は大きい一方、寿命では介護する人のほうが長かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-caregiver-vs-noncaregiver-health-meta"
+  },
+  {
+    "id": "happy-volunteering-happiness-borgonovi",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Borgonovi F, \"Doing well by doing good. The relationship between formal volunteering and self-reported health and happiness\" (Social Science & Medicine, 2008)",
+    "sourceUrl": "https://doi.org/10.1016/j.socscimed.2008.01.011",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ボランティアをする人は、幸せなの？",
+        "body": "人の役に立つと気持ちがいい、って言うよね。ボランティアをする人は、本当に幸せだと答える人が多いのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "米国のデータで、背景をそろえて分析",
+        "body": "米国の調査データで、ボランティアをする人としない人の、健康と幸福の自己評価を比べたよ。収入など社会的な背景の違いも考えに入れているんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "幸福感も健康も高め。因果が推定されたのは幸福感だけ",
+        "body": "ボランティアをする人は健康も幸福感も高いと答え、背景の違いでは説明できなかった。宗教団体でのボランティアは、統計の手法で幸福感を高める因果が推定されたが、健康には見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんなボランティアでも同じ？",
+        "body": "因果の推定は宗教団体でのボランティアに限った話で、実験ではなく統計の仮定に頼っている。米国の自己申告のデータなので、ほかの活動や日本の人に当てはまるかはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究が「幸福感を高める因果がある」と推定したのは？",
+      "correct": "宗教団体でのボランティア",
+      "wrong": "宗教団体以外のボランティア"
+    },
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-volunteering-happiness-borgonovi"
+  },
+  {
+    "id": "weather-heat-wellbeing-us-1-9million",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Noelke C et al., \"Increasing ambient temperature reduces emotional well-being\" (Environmental Research, 2016)",
+    "sourceUrl": "https://doi.org/10.1016/j.envres.2016.06.045",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "気温が上がると、気分も変わる？",
+        "body": "暑い日はぐったりするし、なんだか機嫌も悪い。これって気のせいなのか、たくさんの人で見ても同じなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカ人190万人の回答",
+        "body": "2008〜2013年に、18歳以上の米国人190万人が答えた調査を使ったよ。同じ地域に住む人の、日ごとの気温の違いと気分の関係を分析しているんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "21℃を超えると、気分が下がり気味",
+        "body": "10〜16℃の日と比べ、21℃を超えると、喜びなどのよい感情が減り、ストレスや怒り、疲れが増えたらしい。学歴が低い人と高齢の人で、特に影響が強かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "暑さに慣れれば平気になる？",
+        "body": "暑い地域の人と涼しい地域の人で影響に一貫した差は見られず、慣れの効果ははっきりしないよ。米国の調査の結果なので、日本の夏や湿度の高さで同じかは、この研究からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "10〜16℃の日と比べて、気分が下がる影響が出たのは何℃を超えた日？",
+      "correct": "21℃（70°F）",
+      "wrong": "35℃（95°F）"
+    },
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-heat-wellbeing-us-1-9million"
+  },
+  {
+    "id": "love-marital-quality-health-meta-robles",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Robles TF et al., \"Marital quality and health: A meta-analytic review\" (Psychological Bulletin, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/a0031859",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夫婦仲がいいと、体にもいい？",
+        "body": "仲のいい夫婦は元気そう、と思うよね。夫婦の関係の良し悪しは、体の健康とつながっているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "126本の論文、7万2千人以上",
+        "body": "この50年に出た126本の論文を、数字でまとめた分析だよ。結婚生活の質と、病気の重さ・血圧・死亡などとの関係を見ているんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "つながりはあるけど、小さかった",
+        "body": "夫婦仲がよいほど健康な傾向があり、死亡リスクの低さとの相関はr=0.11（0.1は「小さい」目安）。食事など生活習慣と健康の関係と同じくらいの大きさらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仲のよさが健康をつくるの？",
+        "body": "研究の設計上、原因と結果は決められないと著者も書いているよ。一部の結果は、出版バイアスの影響を受けやすいとも。研究ごとのばらつきも、まだ説明しきれていないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "夫婦仲のよさと死亡リスクの低さの関係（相関）は？",
+      "correct": "小さい（r=0.11）",
+      "wrong": "中くらい（r=0.3）"
+    },
+    "webUrl": "https://seadice.win/evidence/love/#love-marital-quality-health-meta-robles"
+  },
+  {
+    "id": "replication-camerer-nature-science-21",
+    "category": "心理学の再現性",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Camerer et al., \"Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015\" (Nature Human Behaviour, 2018)",
+    "sourceUrl": "https://doi.org/10.1038/s41562-018-0399-z",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "有名な雑誌に載った実験は、やり直しても同じ結果になる？",
+        "body": "NatureやScienceみたいな超有名雑誌に載った社会科学の実験なら、きっと確かだよね。じゃあ、同じ手順でもう一度やったら、ちゃんと同じ結果が出るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2010〜2015年の実験21本を、事前登録でやり直した",
+        "body": "Camererたちは、2つの雑誌に載った社会科学の実験21本を選んだ。元の著者に分析計画を見てもらい、事前に登録してから再実験した。人数は元の研究の平均で約5倍だよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "同じ向きで有意だったのは13本（62%）",
+        "body": "元と同じ向きの有意な効果が出たのは21本中13本。効果の大きさも、平均で元の約50%だった。要旨は、偽陽性と効果の水増しの両方が関わると述べている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "21本だけ。理由は1本ずつはわからない",
+        "body": "調べたのは2つの雑誌の21本で、社会科学全体ではない。うまくいかなかった理由は、この結果だけでは1本ずつ決められないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "21本の実験を再実験して、元と同じ向きで有意な効果が出たのは？",
+      "correct": "13本（62%）",
+      "wrong": "18本（約9割）"
+    },
+    "webUrl": "https://seadice.win/evidence/replication/#replication-camerer-nature-science-21"
+  },
+  {
+    "id": "replication-bem-precognition-failed",
+    "category": "心理学の再現性",
+    "kind": "素朴な疑問",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Ritchie, Wiseman & French, \"Failing the Future: Three Unsuccessful Attempts to Replicate Bem's 'Retroactive Facilitation of Recall' Effect\" (PLoS ONE, 2012)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0033423",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "未来のことが、今の記憶に影響する？",
+        "body": "「テストのあとに練習した単語ほど、テストで思い出せていた」。未来が過去に効くという実験が発表されたことがあるんだ。ほんとなら大事件だよね。やり直したらどうなったのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "超常現象の9実験のうち1つを、3回やり直した",
+        "body": "Ritchieたちは、予知を示すとされた9つの実験のうち「テストのあとの練習が、前の記憶に効く」という実験を選び、事前に登録して、独立に3回、同じ手順で再実験した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "3回とも、有意な効果は出なかった",
+        "body": "3回とも有意な効果は出なかった。合わせて150人、合わせたp値は.83（片側）。要旨は、予知の力を支持しないと結論している。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの実験をやり直しただけ",
+        "body": "やり直したのは9つの実験のうち1つで、3回合わせて150人だけ。ほかの8つの実験は、この研究では確かめていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "3回のやり直しで、有意な効果は出た？",
+      "correct": "3回とも出なかった",
+      "wrong": "1回だけ出た"
+    },
+    "webUrl": "https://seadice.win/evidence/replication/#replication-bem-precognition-failed"
+  },
+  {
+    "id": "brain-neurons-glia-ratio",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Azevedo et al., \"Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain\" (Journal of Comparative Neurology, 2009)",
+    "sourceUrl": "https://doi.org/10.1002/cne.21974",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "脳には神経細胞が1000億個、グリアはその10倍？",
+        "body": "「脳の神経細胞は1000億個。それを支える細胞はさらに10倍」って、よく見かけるよね。これ、実際に数えた数字なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "脳を細胞ごとに分けて、数え直した",
+        "body": "Azevedoたちは、脳をすりつぶして細胞の核を数える方法で、成人男性の脳の細胞を数えた。神経細胞の目印がある細胞と、ない細胞に分けたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "神経細胞は約861億、それ以外は約846億",
+        "body": "平均で、神経細胞は861億個（±81億）、それ以外の細胞は846億個（±98億）。ほぼ同じ数で、グリアが10倍という数字にはならなかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "成人男性の脳の平均。個人差もある",
+        "body": "数えたのは成人男性の脳で、数は少ない。女性や子ども・高齢者の数字ではないよ。人による差もあるから、861億はあくまで平均。「ほぼ半々」くらいに受け止めるのがよさそう。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、神経細胞とそれ以外の細胞の数はどうだった？",
+      "correct": "ほぼ同じ数だった",
+      "wrong": "それ以外の細胞が約10倍多かった"
+    },
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-neurons-glia-ratio"
+  },
+  {
+    "id": "digital-facebook-quit-1week-denmark",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Tromholt, \"The Facebook Experiment: Quitting Facebook Leads to Higher Levels of Well-Being\" (Cyberpsychology, Behavior, and Social Networking, 2016)",
+    "sourceUrl": "https://doi.org/10.1089/cyber.2016.0259",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "Facebookを1週間休むと、気分は変わる？",
+        "body": "毎日なんとなく開いているSNS。1週間だけ離れてみたら、満足感や気分は変わるのかな。デンマークで、そんな実験があったんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1,095人を、休む組と使い続ける組に分けた",
+        "body": "2015年の終わり、Tromholtはデンマークの1,095人で1週間の実験をした。Facebookを休んだ組と、普段どおり使った組を比べたよ。分け方がくじ引きだったかは、要旨からはわからない。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "休んだ組は、人生の満足度と感情が上がった",
+        "body": "休んだ組は、人生の満足度が上がり、感情もより前向きになった。この効果は、よく使う人、見るだけの人、他人をうらやみがちな人で、特に大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "たった1週間。長く続くかは別",
+        "body": "調べたのは1週間と、Facebookだけ。満足度は本人の答えで、休んだ組は自分が休んでいると知っていた。数か月後やほかのSNSで同じかは、ここでは確かめていない。"
+      }
+    ],
+    "quiz": {
+      "q": "休んだ組で、特に効果が大きかったのは？",
+      "correct": "Facebookをよく使う人など",
+      "wrong": "Facebookをほとんど使わない人"
+    },
+    "links": [
+      {
+        "id": "digital-sns-abstinence-meta",
+        "type": "あわせて読む",
+        "why": "1つの実験と、SNSを休む研究をまとめた分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-facebook-quit-1week-denmark"
+  },
+  {
+    "id": "personality-narcissism-epidemic-cross-temporal",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Oberleiter, Stickel & Pietschnig, \"A Farewell to the Narcissism Epidemic? A Cross-Temporal Meta-Analysis of Global NPI Scores (1982-2023)\" (Journal of Personality, 2025)",
+    "sourceUrl": "https://doi.org/10.1111/jopy.12982",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "今の若者は昔よりナルシストになってる？",
+        "body": "「自己愛の流行」なんて言葉があるよね。SNS世代は昔より自己中心的になった、という説。数字で追いかけたら、どうなっているんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1982〜2023年の自己愛テスト、54万人分",
+        "body": "オーバーライターたちは、自己愛を測る質問票（NPI）を使った1105件の研究（1621の集団、のべ546,225人）を、年ごとの変化として数字でまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "増えてはいない。むしろ下がる向きだった",
+        "body": "データを集めた年が新しいほど、自己愛の自己申告の点は低い向きだった。1980〜90年代はほぼ横ばいで、その後に下がり、「流行」は見られなかったと著者は書いている。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本人の答えだけで、理由もわからない",
+        "body": "測ったのは本人の自己申告（NPIは性格の傾向を測る質問票で、診断ではない）。下がり幅は分析によって違い、理由もこの研究では決められない。点は北米と若い集団で高めだったよ。"
+      }
+    ],
+    "quiz": {
+      "q": "1982〜2023年のデータで、年が新しくなるほど自己愛テストの点は？",
+      "correct": "下がる向きだった",
+      "wrong": "上がり続けていた"
+    },
+    "webUrl": "https://seadice.win/evidence/personality/#personality-narcissism-epidemic-cross-temporal"
+  },
+  {
+    "id": "face-couples-look-alike-perceived-personality",
+    "category": "顔と第一印象",
+    "kind": "よくある説",
+    "themeColor": "#F97316",
+    "sourceLabel": "Wong, Wong, Lui & Wong, \"Revisiting facial resemblance in couples\" (PLoS ONE, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0191456",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "夫婦やカップルは顔が似てくる？",
+        "body": "「似た者夫婦」って言うよね。でも髪型やメガネが似ているだけ、という可能性もある。顔そのものはどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "髪型やメガネの手がかりを外して比べた",
+        "body": "ウォンたちは3つの実験で、カップルの顔と、カップルではない組み合わせの顔を見せて、どれくらい似ているかを答えてもらった。髪型やメガネなどの外見の手がかりは外した。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "カップルのほうが似ていると判断された",
+        "body": "手がかりを外しても、カップルの顔のほうが「似ている」と判断された。顔から受ける性格の印象や年齢の印象も、カップルのほうが近かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見る側の印象も関わっているらしい",
+        "body": "測ったのは「似ている」と感じる印象で、顔の形そのものの一致ではない。著者は、性格の印象が近いと似て見える面があると考えている。一緒に暮らして似てきたのかも、この実験ではわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "カップルの顔が似て見えるのは？",
+      "correct": "性格の印象が近いことも一因",
+      "wrong": "髪型やメガネが似ているだけ"
+    },
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-couples-look-alike-perceived-personality"
+  },
+  {
+    "id": "face-glasses-sunglasses-trust-matching",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Graham & Ritchie, \"Making a Spectacle of Yourself: The Effect of Glasses and Sunglasses on Face Perception\" (Perception, 2019)",
+    "sourceUrl": "https://doi.org/10.1177/0301006619844680",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "サングラスをかけると、印象は変わる？",
+        "body": "目は表情を読む大事な手がかりだよね。サングラスや眼鏡で目が隠れたり縁取られたりすると、人からの見え方は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "眼鏡なし・眼鏡・サングラスの写真を見比べた",
+        "body": "グラハムたちは、眼鏡なし・眼鏡・サングラスの写真を見せ、信頼できそうか・有能そうか・魅力的かを評価してもらった。さらに、2枚が同じ人かを答える課題もした。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "サングラスで信頼できそうな評価が下がった",
+        "body": "サングラスをかけた顔は、信頼できそうだという評価が下がった。同じ人かの判断では、2枚で眼鏡・サングラス・なしの組み合わせが違うと正確さが下がり、とくに「同じ人」のペアで間違えやすかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際の信頼性とは別の話",
+        "body": "測ったのは写真を見た人の印象で、サングラスをかけた人が実際に信頼できないわけではないよ。写真を見ただけの話で、会って話したときに同じかもわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "サングラスの顔の印象は？",
+      "correct": "信頼できそうの評価が下がった",
+      "wrong": "信頼できそうの評価が上がった"
+    },
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-glasses-sunglasses-trust-matching"
+  },
+  {
+    "id": "exercise-music-affect-acute-meta",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "He, Zhang, Li, Jia, Xu & Wang, \"Effects of music on affective responses to acute exercise: A meta-analytic review and multilevel meta-analysis\" (Applied Psychology: Health and Well-Being, 2025)",
+    "sourceUrl": "https://doi.org/10.1111/aphw.70092",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "音楽を聴くと、運動中の気分は良くなる？",
+        "body": "ジムやランニングで音楽をかけるとき、気持ちよく動けるって感じる人は多いよね。運動中の気分に、音楽は本当に効いているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "59の研究、507の効果をまとめた",
+        "body": "1回の運動中の気分への音楽の効果を調べた59の研究から、507の効果の数字を取り出してまとめた。気分は「快・不快」と「覚醒（高ぶり）」の2つで見ている。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "快さも高ぶりも、音楽ありのほうが上がった",
+        "body": "音楽ありのほうが、快さ（g=0.403）も高ぶり（g=0.391）も高かった。0.4は小さめ〜中くらいの差。強さ・テンポ・曲・運動習慣で効き方が違い、性別や運動の種類では違いは見つからなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長く続けられるかは、これから",
+        "body": "調べたのは1回の運動中の気分で、続けやすさや健康への長い効果ではないよ。著者は長く続ける助けになるかもしれないと見ているけど、そこはまだ確かめられていない。"
+      }
+    ],
+    "quiz": {
+      "q": "音楽ありの運動中、気分の快さは？",
+      "correct": "高くなる傾向",
+      "wrong": "差はほとんどなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-music-affect-acute-meta"
+  },
+  {
+    "id": "sleep-mattress-firmness-psg",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Hu et al., \"The Effect of Mattress Firmness on Sleep Architecture and PSG Characteristics\" (Nature and Science of Sleep, 2025)",
+    "sourceUrl": "https://doi.org/10.2147/nss.s503222",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "マットレスのかたさで、寝つきは変わる？",
+        "body": "やわらかいほうが気持ちいい、かたいほうが体にいい、と意見が分かれるよね。かたさは眠りそのものに関係するのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "12人が3種類のかたさで寝た",
+        "body": "BMIが中程度の12人が、やわらかい・中くらい・かための3種類のマットレスで寝て、脳波などを測る睡眠ポリグラフ検査で眠りを調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やわらかいと、寝つくまでが長かった",
+        "body": "眠りに入るまでの時間は、やわらかい12.42分、中くらい7.71分で、やわらかいほうが長かった。段階の移り変わりも、やわらかい29.17回、かたい21.75回だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "12人だけ。かたいのは人による",
+        "body": "12人と少なく、体型もBMIが中程度の人だけ。かたいマットレスは人によって結果が混ざり、起きたあとの注意力には差が出なかった。著者は中くらいがよいとしているけど、12人の結果だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "寝つきが長かったのは？",
+      "correct": "やわらかいマットレス",
+      "wrong": "中くらいのマットレス"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-mattress-firmness-psg"
   }
 ]
