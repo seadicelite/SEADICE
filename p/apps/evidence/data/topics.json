@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-coffee-dehydration-diuretic-hydration-research-beverage-index",
+    "category": "食べ物の常識",
+    "kind": "研究紹介",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Maughan RJ et al., \"A randomized trial to assess the potential of different beverages to affect hydration status: development of a beverage hydration index\" (American Journal of Clinical Nutrition, 2016)",
+    "sourceUrl": "https://doi.org/10.3945/ajcn.115.114769",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/coffee-dehydration-diuretic-hydration-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "いちばん体に残る飲みものは？",
+        "body": "水分補給といえば水。でも、コーヒーやお茶、牛乳は水と比べてどうなんだろう？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "13種類の飲みものを1Lずつ",
+        "body": "72人の男性に、水を含む身近な飲みもの13種類のどれかを30分で1L飲んでもらい、その後4時間の尿の量を水と比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "コーヒーもお茶も水と同じ、牛乳は長く残る",
+        "body": "コーヒー、紅茶、アイスティー、コーラ、ビールなどは、4時間の尿の量が水と変わらなかった。水より尿が少なく体に長く残ったのは、経口補水液と牛乳（普通・低脂肪）だったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "汗をかいたあとは別かも",
+        "body": "体の水分が足りている、空腹の男性が1回飲んだあとの4時間を見た研究。女性や、暑さや運動で汗をかいて水分が減ったときに同じかは確かめていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-coffee-dehydration-diuretic-hydration-research-beverage-index"
+  },
+  {
+    "id": "kokoro-workplace-bullying-distress-recover-longitudinal",
+    "category": "仕事と働き方",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Verkuil et al., \"Workplace Bullying and Mental Health: A Meta-Analysis on Cross-Sectional and Longitudinal Data\" (PLoS ONE, 2015)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0135225",
+    "studyType": "メタ分析",
+    "articleUrl": "https://mentalai.seadice.win/workplace-bullying-distress-recover/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "職場のいじめは、終われば忘れられる？",
+        "body": "パワハラや職場のいじめって、その場がつらいのはもちろんだけど、時間がたってもあとを引くのかな。オランダの研究チームが、たくさんの研究をまとめて調べたんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22の集団、5万4千人あまり",
+        "body": "いじめの経験と心の不調を、時間をおいて2回調べた研究を集めたんだ。2回の間は平均28か月。合わせて54,450人分のデータだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "あとの心の不調と関連していた",
+        "body": "最初にいじめを受けていた人ほど、あとで心の不調が多い関連があった（r=0.21）。中でも抑うつとの関連が大きかったよ。逆に、心の不調があった人があとでいじめを受けやすい関連も見つかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因とまでは言い切れない",
+        "body": "どの研究も本人の回答で、子どもの頃の経験などほかの影響を除ききれていないと著者は書いている。研究ごとの結果のばらつきも大きかったんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/work/#kokoro-workplace-bullying-distress-recover-longitudinal"
+  },
+  {
+    "id": "kokoro-stop-comparing-thought-suppression-training",
+    "category": "こころの不調",
+    "kind": "よくある説",
+    "themeColor": "#5EEAD4",
+    "sourceLabel": "Mamat Z, Anderson MC, \"Improving mental health by training the suppression of unwanted thoughts\" (Science Advances, 2023)",
+    "sourceUrl": "https://doi.org/10.1126/sciadv.adh5292",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/stop-comparing-thought-suppression/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "考えないようにすると逆効果？",
+        "body": "「シロクマのことを考えないで」と言われると、かえって浮かぶ。いやな考えは押さえ込まないほうがいい、ってよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3日間、締め出す練習",
+        "body": "ケンブリッジ大学の実験で、16か国の大人120人をくじで2組に分け、自分の将来の恐れか、ふつうの出来事を、頭から締め出す練習をオンラインで3日間くり返したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "恐れはかえって強まらなかった",
+        "body": "恐れが逆に強まる反動は見られなかった。ふつうの出来事を締め出した組と比べ、恐れを締め出した組は心の指標の多くがよくなり、落ち込みの差は3か月後も続いていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "いつでも押さえ込めばいい？",
+        "body": "120人・1つの研究チームの、コロナ禍のオンライン実験。練習したのは決まった手がかりで思い出すのを止める方法で、ふだんの考えごと全般に同じ効果があるかは確かめていないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-why-dont-do-goals-fail-white-bear-rebound",
+        "type": "反対の結果",
+        "why": "考えないようにすると逆に浮かぶ反動を調べたまとめと、練習で反動が出なかった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mental-health/#kokoro-stop-comparing-thought-suppression-training"
+  },
+  {
+    "id": "personality-type-a-heart-disease-meta",
+    "category": "性格と性格診断",
+    "kind": "よくある説",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Myrtek M, \"Meta-analyses of prospective studies on coronary heart disease, type A personality, and hostility\" (International Journal of Cardiology, 2001)",
+    "sourceUrl": "https://doi.org/10.1016/s0167-5273(01)00441-7",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "せっかちな人は心臓病になりやすい？",
+        "body": "せっかちで競争好きな「タイプA」の人は、心臓病になりやすい。健康の本や記事で、よく見かける話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "追跡した研究をまとめた",
+        "body": "1998年までの、性格を測ってから心臓病になるかを追いかけた研究をすべて集めて、数字でまとめたんだ。タイプAは合わせて約7万4千人分。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "タイプAとの関係はほぼゼロ",
+        "body": "タイプAと心臓病の関係はほぼなかった（r=0.003）。人への敵意の強さは少しだけ関係があったけど（r=0.022）、予防や予測に役立つほどの大きさではないと著者は書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "20年以上前のまとめ",
+        "body": "使ったのは1998年までの観察研究で、性格を測る方法も研究ごとに違う。関係があっても原因とは言えないし、その後の新しい研究は入っていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/personality/#personality-type-a-heart-disease-meta"
+  },
+  {
+    "id": "aging-masters-athletes-muscle-mass",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Wroblewski AP et al., \"Chronic exercise preserves lean muscle mass in masters athletes\" (The Physician and Sportsmedicine, 2011)",
+    "sourceUrl": "https://doi.org/10.3810/psm.2011.09.1933",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "年をとると筋肉が落ちるのは仕方ない？",
+        "body": "40代を過ぎると筋肉は減っていく、ってよく聞くよね。でもそれって年のせい？それとも動かなくなるせい？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "鍛え続ける40〜81歳",
+        "body": "週4〜5回トレーニングを続けている40〜81歳の市民アスリート40人の、太ももの筋肉の量をMRIで測り、脚の力も調べて、年代ごとに比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "年代で筋肉は減っていなかった",
+        "body": "太ももの筋肉の量も脚の力も、年代が上がっても下がっていなかった。体脂肪の割合は年とともに増えていたよ。著者は、筋肉が減る大きな理由は年より使わないことかもしれない、と考えているんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追ったわけではない",
+        "body": "40人をある時点で測った観察研究で、同じ人の変化は追っていない。調べたのは鍛え続けている人だけで、体が丈夫だから続けられた可能性もある。ふつうの人が運動して同じになるかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-masters-athletes-muscle-mass"
+  },
+  {
     "id": "dokugaku-slacking-day-after-big-study-day-reset-to-date-to-go",
     "category": "学習法",
     "kind": "素朴な疑問",
@@ -13714,6 +13887,11 @@
         "id": "research-suppressing-urges-rebound-why-research-chocolate-rebound",
         "type": "反対の結果",
         "why": "チョコを考えないようにした実験では、かえって多く食べる反動が出ていた"
+      },
+      {
+        "id": "kokoro-stop-comparing-thought-suppression-training",
+        "type": "反対の結果",
+        "why": "恐れを締め出す練習を3日続けた実験では、反動は見られなかった"
       }
     ],
     "webUrl": "https://seadice.win/evidence/replication/#dokugaku-why-dont-do-goals-fail-white-bear-rebound"
