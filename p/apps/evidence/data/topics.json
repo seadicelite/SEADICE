@@ -1,5 +1,171 @@
 [
   {
+    "id": "kokoro-singing-info-fatigue-sing-alone-together",
+    "category": "音楽と集中力",
+    "kind": "よくある説",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Bowling DL et al., \"Endogenous oxytocin, cortisol, and testosterone in response to group singing\" (Hormones and Behavior, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.yhbeh.2021.105105",
+    "studyType": "実験",
+    "articleUrl": "https://mentalai.seadice.win/singing-info-fatigue/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "歌うとすっきりする？",
+        "body": "「思いきり歌うとストレス解消になる」ってよく言うよね。ひとりで歌っても気分は変わるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "歌う・読む×みんな・ひとり",
+        "body": "ウィーンの若者の合唱団71人に、「歌う」か「歌詞を読み上げる」かを、みんなでかひとりでかの組み合わせで20分やってもらい、前後の気分を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一緒に歌うと最も上がった",
+        "body": "気分の点数は、みんなで歌うと平均9.0点、ひとりで歌うと3.8点、ひとりで読み上げると1.2点上がった。みんなで読み上げた組では5.6点下がっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "歌好きの人の結果",
+        "body": "参加者は歌が好きな合唱団員だけ。ストレスホルモンはどの組でも下がったけど、夕方の自然な下がり方と区別できなかった。歌い慣れない人でも同じかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#kokoro-singing-info-fatigue-sing-alone-together"
+  },
+  {
+    "id": "kokoro-puppy-video-work-stress-pet-video-mood",
+    "category": "ペットの科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Johnson EA, Survase S, Gray PB, \"Examining the Impact of Virtual Animal Stimuli on College Students' Affect and Perception of their Academic Advising Experience\" (Animals, 2023)",
+    "sourceUrl": "https://doi.org/10.3390/ani13091522",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/puppy-video-work-stress/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬や猫の動画で、気分は変わる？",
+        "body": "疲れたときについ開いちゃう、動物の動画。あれって本当に気分が変わってるのかな？それとも気のせい？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "152人を4つの1分動画に振り分け",
+        "body": "米国の大学の実験。履修相談に来た学生152人をくじで分けて、犬と猫・野生動物・自然の風景・意味のない砂嵐のどれか1分の動画を見てもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "前向きな気分は上がった",
+        "body": "犬と猫の動画の組は、砂嵐の組より前向きな気分の点数が高かった。ただ、いやな気分の下がり方は、どの動画でも砂嵐と差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仕事中の大人でも同じ？",
+        "body": "気分を測ったのは相談が終わったあとで、動画だけの影響とは言い切れない。対象は大学生で、働く大人や毎日見続けた場合はまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#kokoro-puppy-video-work-stress-pet-video-mood"
+  },
+  {
+    "id": "dokugaku-back-to-rereading-old-study-habit-reset-know-but-dont-use",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Carpenter & Sanchez, \"A closer look at students' knowledge of effective learning strategies, where they learn about them, and why they do not use them\" (Cognitive Research: Principles and Implications, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s41235-025-00693-8",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/back-to-rereading-old-study-habit-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "効く勉強法は、知れば使う？",
+        "body": "思い出す練習が効くと知れば、みんな使うはず…と思いがちだよね。でも実際は、知っていても読み返しに戻る人が多いらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生185人に聞いた",
+        "body": "米国の1つの大学の学生185人に、11の勉強法をどれくらい使い、なぜ使わないかを聞いた調査だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "壁は「知らない」より「面倒」",
+        "body": "思い出す練習を「とても効く」と考える88人でも、使わない理由は「準備が大変」38%、「手間がかかる」36%、「時間がかかる」35%だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "アンケートの答え",
+        "body": "1つの大学の学生の自己申告で、実際の勉強の様子は測っていない。社会人の独学で同じかもまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-back-to-rereading-old-study-habit-reset-know-but-dont-use"
+  },
+  {
+    "id": "net-search-to-check-fake-news-backfires",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Aslett K et al., \"Online searches to evaluate misinformation can increase its perceived veracity\" (Nature, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41586-023-06883-y",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "怪しいニュース、ネットで調べれば見抜ける？",
+        "body": "「本当かな？」と思ったら検索して確かめよう、ってよく言われるよね。でも調べるほど、かえって信じちゃうことはないのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "検索するよう促す組と、促さない組",
+        "body": "米国の研究で、5つの実験をしたんだ。最初の実験では3,006人をくじで分け、出たばかりのニュース記事を読んで本当か判断してもらった。片方の組には、ネットで調べてから答えるよう促したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "調べた組のほうが、デマを信じた",
+        "body": "検索を促された組は、うその記事を「本当」と答える確率が19%高くなった。5つの実験で同じ傾向。質の低いサイトばかりが検索結果に出た人ほど、信じやすかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "出たばかりのニュースでの話",
+        "body": "使ったのは公開から48時間以内の記事で、検索しても確かな情報がまだ少ない時期。米国の人だけで、自分で選んだニュースでもない。検索結果と信じやすさの関係は、因果までは言えないと著者も書いているよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/games/#net-search-to-check-fake-news-backfires"
+  },
+  {
+    "id": "parenting-baby-sign-language-rct",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Kirk E et al., \"To sign or not to sign? The impact of encouraging infants to gesture on infant language and maternal mind-mindedness\" (Child Development, 2013)",
+    "sourceUrl": "https://doi.org/10.1111/j.1467-8624.2012.01874.x",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ベビーサインで、言葉が早く出る？",
+        "body": "赤ちゃんに手話のような身ぶり（ベビーサイン）を教えると、言葉が早く出るようになる。そんな話を聞いたことがあるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40人の赤ちゃんを1年追った",
+        "body": "くじ引きで組を分けた実験。40人の赤ちゃんを生後8か月から20か月まで追いかけ、半分のお母さんには決まった身ぶりを見せる練習をしてもらったんだ。言葉の育ちは何度も測ったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "言葉の育ちに差はなかった",
+        "body": "身ぶりを見せた組と、そうでない組で、言葉の育ちに差はなかった。ただ身ぶりの組のお母さんは、赤ちゃんの言葉にならない合図によく応えるようになっていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "40人だけの1つの研究",
+        "body": "赤ちゃんは40人だけで、1つの研究の結果。言葉が遅めの子や、もっと長い期間で見たときに違いがあるかは、この研究だけではわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/parenting/#parenting-baby-sign-language-rct"
+  },
+  {
     "id": "research-weight-regain-after-diet-recovery-research-relapse",
     "category": "食べ物の常識",
     "kind": "素朴な疑問",
