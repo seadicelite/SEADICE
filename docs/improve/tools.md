@@ -18,6 +18,7 @@ docs/tools.md（2026-10-12 初版）
 ### ルールの変更履歴
 
 古い記録は [log/tools.md](log/tools.md)。
+- 2026-11-26: 変更なし。点検の答え: ①効いている（外部fetch・内部リンク切れ0）②manual に書いた DOI の推測（Mazzucchelli）が誤りだった。記憶で DOI を書かず EVIDENCE の topics.json で照合する、というルール5の運用で防げている ③手間だけのルールなし
 - 2026-11-19: 変更なし。点検の答え: ①効いている（出典リンクなしは4→3件に減った）②出典の数字を「平均」と書いたのは、原典が中央値かを確かめず EVIDENCE の言い回しを写したため。ただしルール5「確認できない出典は書かない」で足りている ③手間だけのルールなし
 - 2026-11-12: 変更なし。点検の答え: ①効いている（ぼかしは共通CSSで防げるようになった）②ぼかしが残ったのは、ページ内のインライン nav.top を共通CSSが上書きしていなかったため。design/base.css で全タイプに上書きして防いだ（再発しない）③手間だけのルールなし
 - 2026-11-05: 変更なし。点検の答え: ①出典なし8件のうち5件は EVIDENCE の topics.json で照合済みの出典を転記できる ②ルールの不足なし ③手間だけのルールなし
@@ -42,11 +43,12 @@ docs/tools.md（2026-10-12 初版）
 ## 次にやること
 1. **1問1ページに置く道具を作る**（2026-10-13〜、認知の柱。134本中ブラウザの道具があるのは24本。お酒の常識は /tools/alcohol-gram/ で3問済み（ちゃんぽん・二日酔い・赤ワインは計算と中身がずれるので結ばない）。2026-10-13 からだの常識の歩数・タンパク質・水分は /tools/karada-meyasu/ で済み）: 道具のない問いが多い分野から、その分野の問いを1つの道具でまとめて試せるものを作り、p/apps/evidence/data/practice.json の topics に結ぶ（結論の下に「この場で試す」が出る）。多い順: 食べ物の常識7・子育ての科学6・心理学の再現性5・天気と気分5・言葉と外国語5。問いと道具の中身がずれる結びつけはしない
 1. **簡易ビッグファイブ（bigfive-lite）を TIPI-J にまとめるか決める**（判断が必要）: 8問の4択から「いちばん強い1つ」を出す型で、研究の尺度ではなく出典もない。TIPI-J が年代別の平均・100人中の目安まで持ったので役割が重なる。案は bigfive-lite を 301 で /diagnosis/bigfive-tipi/ へ（一覧・ランク・sitemap・llms.txt・OGP画像も整理）
-1. **出典リンクの追加**（続き）: JS入り24件のうち「出典リンクなし」は3件に（sabusuku-minaoshi は2026-11-19 に KKT 1990 の DOI を追加済み）。残り: saki-ni-ugoku（研究の出典を原典まで確かめてリンクする。いまは記事と EVIDENCE へのリンクだけ）・shashin-ichijoho-keshi（Exif 規格は公開ページを確かめられた日に URL を）・profile（診断プロフィール帳で出典が要らない型か判断）。年金の自動加入の数字は原典（Madrian & Shea 2001 など）を確かめて sabusuku-minaoshi に足す。続けて棚卸し（検索語・Search Console の表示・磨く／まとめる／外す案）を10件ずつ
+1. **出典リンクの追加**（続き）: JS入り24件のうち「出典リンクなし」は3件に（sabusuku-minaoshi は2026-11-19 に KKT 1990 の DOI を追加済み）。残り: saki-ni-ugoku（Mazzucchelli 2010 は2026-11-26 にDOIをリンク済み。Jacobson 1996・Dimidjian 2006 は原典を確かめられた日にリンクする）・shashin-ichijoho-keshi（Exif 規格は公開ページを確かめられた日に URL を）・profile（診断プロフィール帳で出典が要らない型か判断）。年金の自動加入の数字は原典（Madrian & Shea 2001 など）を確かめて sabusuku-minaoshi に足す。続けて棚卸し（検索語・Search Console の表示・磨く／まとめる／外す案）を10件ずつ
 
 ## やったこと
 
 古い記録は [log/tools.md](log/tools.md)。
+- 2026-11-26: 点検（JS入り24件: sd-tool なし0・出典の外部リンクなし5（denki-moufu-denkidai・saki-ni-ugoku・shashin-ichijoho-keshi・taikyo-shashin・profile。簡易判定で、前回の3件より広い数え方）・外部fetch/script 0・内部リンク切れ0（診断一覧のJSテンプレート文字列は誤検出）・sitemap のファイルなし0）。saki-ni-ugoku に Mazzucchelli 2010 の DOI を EVIDENCE で照合済みのものでリンクし、未確認の2件はリンクしないと明記。削るもの: 最大のページも63KBでコード・CSSの無駄は見つからず、今日は削らない。
 - 2026-11-19: 点検（ツール・診断299ページ中JS入り24件: 出典リンクなし3（以前4）・外部fetch/外部script 0・noindex 0・内部リンク切れ0・sitemap 564件のファイルなし0／noindex掲載0（blog の1件は本文中の語で誤検出））。sabusuku-minaoshi に「出典」の節を足し、マグカップ実験を KKT 1990 の DOI（EVIDENCE の bias-endowment-mug で照合済み）にリンク。原典の中央値を「平均」と書いていた箇所は「約7ドル・約3ドル」に直し、年金の数字は未確認のためリンクしないと明記。削る: 次にやることの出典項目の古い16件リストの記述を、実態（3件）に書き換えて短くした。
 - 2026-11-12: 点検（JS入り24件の簡易判定: sd-tool なし0・出典リンクなし4（sabusuku-minaoshi・saki-ni-ugoku・shashin-ichijoho-keshi・profile）・外部fetch0・noindex0・内部リンク切れ0（診断一覧のJSテンプレート文字列は誤検出）・sitemap のファイルなし0／noindex掲載0）。削る: 上のナビのぼかし（backdrop-filter:blur(12px)）を design/base.css の1行で read/show/use 全タイプから外し、--refresh で947ページに反映（p/index.html は対象外で無変更）。
 - 2026-11-06: ペット健康クイズ /tools/pet-health/ を「犬・猫に危険な食べ物の早見表と健康クイズ」に作り直し（critic・design・user・source-check の4役で点検してから）。早見表を最初に出して犬・猫で絞り込み、12行に増やした（ASPCA People Foods の本文で確認）。「食べてしまったら」の3手順と「まだわからないこと」（ぶどうの安全な量・猫が何日食べないと危ないか・冷やすのをやめる体温）を追加。問題は30問→41問。出典が「獣医学の基本」だった16問は、ASPCA・Merck獣医マニュアル・Cornell・American Heartworm Society・WSAVA・厚労省・環境省の本文を開いて確かめた一文の範囲に書き直し、各問の出典をリンクにした。出典が見つからなかった「手の甲で地面を確かめる」「下痢で受診を急ぐサイン」は外し、ユリ科→ユリ属・デイリリー、猫が丸1日食べない→数日〜数週間、尿道閉塞の「短時間」→「数日」に直した。正誤を文字でも示し、結果画面の解き直しを上に、角丸8px、JSなしの案内。問題は scripts/pet_health_quiz.json を正として scripts/build_pet_health_quiz.py でサイトとアプリ（pet_kenko_quiz の lib/quiz_bank.dart）に書き出す。棄却: 食べた量と体重から受診目安を出す道具（量の閾値を一次情報で言い切れず、誤ると命に関わる）
