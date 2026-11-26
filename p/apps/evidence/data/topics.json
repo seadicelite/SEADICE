@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-english-listening-cannot-catch-reset-vocab-not-ears",
+    "category": "言葉と外国語",
+    "kind": "素朴な疑問",
+    "themeColor": "#14B8A6",
+    "sourceLabel": "Wallace & Lee, \"Examining Second Language Listening, Vocabulary, and Executive Functioning\" (Frontiers in Psychology, 2020)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2020.01122",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/english-listening-cannot-catch-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "英語が聞き取れないのは、頭の回転のせい？",
+        "body": "リスニングが苦手だと、耳が悪いとか、頭の処理が追いつかないせいだと思いがち。実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "東京の高校生209人でテスト",
+        "body": "東京の私立高校の1・2年生に、英語のリスニングテスト、耳で聞く単語のテスト、記憶を更新する力・注意を切りかえる力のテストを受けてもらったらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "成績を予測したのは単語の量だけ",
+        "body": "リスニングの成績を予測したのは、耳で聞いてわかる単語の量だけ。頭の働きのテストは、短い問題でも長い問題でも成績を予測しなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語を増やせば伸びるかは未確認",
+        "body": "一度に測った相関の研究で、単語を覚えれば聞き取れるようになるかを実験で確かめたわけではない。対象は1つの私立高校の、単語の量がまだ限られた生徒だった。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/language-learning/#dokugaku-english-listening-cannot-catch-reset-vocab-not-ears"
+  },
+  {
+    "id": "dokugaku-short-answer-self-scoring-idea-units-lenient-grading",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Lipko et al., \"Using standards to improve middle school students' accuracy at evaluating the quality of their recall\" (Journal of Experimental Psychology: Applied, 2009)",
+    "sourceUrl": "https://doi.org/10.1037/a0017599",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/short-answer-self-scoring-idea-units/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く話",
+        "title": "自己採点って、つい甘くなる？",
+        "body": "記述問題の答え合わせで「だいたい合ってるから丸」。それ、どのくらい当てになるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "中学生が自分の答えを採点",
+        "body": "授業で習う用語の定義を思い出して書き、その出来を「完全に正しい・部分的に正しい・間違い」で自分で採点してもらったらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "間違いの73%に点をつけていた",
+        "body": "何も見ずに採点すると、まったく間違った答えの73%に満点か部分点をつけた。正しい定義を見ながらだと44%に減り、定義を要素に分けて確かめるとさらに減ったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い答案や大人でも同じ？",
+        "body": "短い用語の定義での実験。長い論述の答案や、資格試験を独学する大人で同じかは、この研究ではわからない。採点が正確になって成績が上がるかも別の問題。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-short-answer-self-scoring-idea-units-lenient-grading"
+  },
+  {
+    "id": "dokugaku-recall-practice-blank-cannot-remember-reset-guess-time",
+    "category": "学習法",
+    "kind": "よくある説",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Butowska-Buczyńska et al., \"Errorful learning of trivia questions and answers: The role of study time\" (Memory & Cognition, 2025)",
+    "sourceUrl": "https://doi.org/10.3758/s13421-024-01608-6",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/recall-practice-blank-cannot-remember-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "間違えてから答えを見ると覚える？",
+        "body": "「先に答えを予想して、外れてから正解を見るほうが覚えられる」。勉強法の本でもよく見る話だよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "雑学48問で時間をそろえて比べた",
+        "body": "難しい雑学の問題で「8秒予想してから5秒答えを見る」と「問いと答えを読む」を比べたらしい。読む時間は5秒の組と13秒の組を用意した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "時間をそろえると差が消えた",
+        "body": "読む時間が5秒だと正答率77%で、予想した組の83%より低かった。でも読む時間を13秒にそろえると、どちらも83%。別の71人の実験でも79%と79%だったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "雑学以外でも同じ？",
+        "body": "オンラインで雑学を覚えた大人の実験。単語の組の実験では予想の利点が出た研究も多く、教科書の内容や長い期間の勉強で同じかはまだわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "dokugaku-pretesting-guess-first",
+        "type": "反対の結果",
+        "why": "時間をそろえても文章では先に解く方が残ったが、雑学では差が消えた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-recall-practice-blank-cannot-remember-reset-guess-time"
+  },
+  {
+    "id": "posture-acute-low-back-pain-recurrence-predictors",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Machado GC et al., \"Can Recurrence After an Acute Episode of Low Back Pain Be Predicted?\" (Physical Therapy, 2017)",
+    "sourceUrl": "https://doi.org/10.1093/ptj/pzx067",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ぎっくり腰はくせになる？",
+        "body": "「一度ぎっくり腰をやると、くせになる」ってよく聞くよね。治ったあと、また痛くなる人はどのくらいいるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "治った469人を1年追った",
+        "body": "腰痛が始まって7日以内に受診した999人のうち、6週間以内に治った（1か月痛みなし）469人を1年間追いかけて、また痛くなったかと、その前ぶれになる特徴を調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1年で3人に1人がぶり返した",
+        "body": "1年以内にまた腰痛が起きた人は33%、受診するほどだった人は18%。過去に3回以上腰痛があった人は、ぶり返すオッズが約3.2倍。ほかの特徴では差が見られなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「くせ」の正体はまだ不明",
+        "body": "受診した人だけを追った観察研究で、過去の回数は本人の思い出しに頼っている。腰痛をくり返すのが体の変化のせいなのか、もともとの体質なのかは、この研究ではわからない。"
+      }
+    ],
+    "links": [
+      {
+        "id": "posture-walking-low-back-pain-recurrence-walkback",
+        "type": "あわせて読む",
+        "why": "ぶり返しを防げるかを、歩く習慣で確かめた試験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-acute-low-back-pain-recurrence-predictors"
+  },
+  {
+    "id": "nature-farm-childhood-asthma-allergy",
+    "category": "自然と健康",
+    "kind": "よくある説",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Riedler J et al., \"Exposure to farming in early life and development of asthma and allergy: a cross-sectional survey\" (Lancet, 2001)",
+    "sourceUrl": "https://doi.org/10.1016/s0140-6736(01)06252-3",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "農家で育つと、アレルギーになりにくい？",
+        "body": "「田舎で動物に囲まれて育った子は、花粉症やぜんそくになりにくい」って聞いたことあるよね。どのくらい違うんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3か国の子ども2,618人",
+        "body": "オーストリア・ドイツ・スイスの農村で、6〜13歳の子の親2,618人がアンケートに答えた。同意した一部の子（901人）は、血液でアレルギーの反応（IgE）も調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "1歳前からの牛舎で少なかった",
+        "body": "1歳前から牛舎や農場の牛乳にふれた子は、1〜5歳で始めた子よりぜんそくが1%対11%、花粉症が3%対13%と少なかった。5歳までずっと通った子が、いちばん少なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "何が効いたのかは未確定",
+        "body": "一時点のアンケート調査で、因果は言えない。病気は親の回答で、昔の暮らしは思い出しに頼っている。牛舎の微生物か牛乳か、ほかの違いかもわからず、まねして飲ませればいいという話でもないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "pet-early-pets-child-allergy-dose",
+        "type": "あわせて読む",
+        "why": "同じ考え方を、家で飼う犬や猫の数で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#nature-farm-childhood-asthma-allergy"
+  },
+  {
     "id": "kokoro-singing-info-fatigue-sing-alone-together",
     "category": "音楽と集中力",
     "kind": "よくある説",
@@ -15129,7 +15316,14 @@
         "body": "比べただけの観察研究で、動物が原因かはわからない。質問票の回収は6割弱で、昔のことを思い出して答えている。スウェーデンの2つの地域の子どもの話。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/pets/#pet-early-pets-child-allergy-dose"
+    "webUrl": "https://seadice.win/evidence/pets/#pet-early-pets-child-allergy-dose",
+    "links": [
+      {
+        "id": "nature-farm-childhood-asthma-allergy",
+        "type": "あわせて読む",
+        "why": "同じ考え方を、農家の牛舎や牛乳で調べた研究"
+      }
+    ]
   },
   {
     "id": "kokoro-ai-era-study-purpose-recover-utility-value-stem",
@@ -20533,6 +20727,11 @@
         "id": "posture-yoga-chronic-low-back-pain-cochrane",
         "type": "あわせて読む",
         "why": "腰痛と運動。長引く腰痛にヨガがどのくらい効くかをまとめた研究"
+      },
+      {
+        "id": "posture-acute-low-back-pain-recurrence-predictors",
+        "type": "あわせて読む",
+        "why": "治ったあと1年で3人に1人がぶり返したという追跡研究"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-pain/#posture-walking-low-back-pain-recurrence-walkback"
@@ -47425,6 +47624,11 @@
         "id": "research-pretesting-before-study-memory-research-pretest",
         "type": "あわせて読む",
         "why": "単語のペアでも効き、本人は効果に気づきにくいとわかった実験"
+      },
+      {
+        "id": "dokugaku-recall-practice-blank-cannot-remember-reset-guess-time",
+        "type": "反対の結果",
+        "why": "雑学の問題で時間をそろえると、先に予想する利点は消えた"
       }
     ]
   },
