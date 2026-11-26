@@ -1,5 +1,185 @@
 [
   {
+    "id": "dokugaku-slacking-day-after-big-study-day-reset-to-date-to-go",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Koo & Fishbach, \"Dynamics of self-regulation: How (un)accomplished goal actions affect motivation\" (Journal of Personality and Social Psychology, 2008)",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.94.2.183",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/slacking-day-after-big-study-day-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「ここまで」と「あと少し」",
+        "body": "勉強のやる気を出すなら、「ここまでやった」を見る？それとも「あとこれだけ」を見る？どっちが続くのか、実は条件で変わるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "4つの研究で比べた",
+        "body": "試験勉強や寄付などを扱った4つの研究で、「やったこと」と「残っていること」のどちらに目を向けると、目標どおりに続けやすいかを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "本気度で答えが逆に",
+        "body": "大事でない試験のように本気度がまだ決まっていないときは「ここまで」を見る方が続いた。大事な試験のように本気度が確かなときは「残り」を見る方が続いたんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "長い独学でも同じ？",
+        "body": "測ったのは実験の中での意欲や行動で、何か月も続く独学の成果ではない。自分の本気度をどう見分けるかも、まだはっきりしていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-slacking-day-after-big-study-day-reset-to-date-to-go"
+  },
+  {
+    "id": "kokoro-sns-body-feed-content-prevent-tiktok-video-types",
+    "category": "スマホとSNS",
+    "kind": "研究紹介",
+    "themeColor": "#F43F5E",
+    "sourceLabel": "Kilby & Mickelson, \"Combating weight-stigmatization in online spaces: the impacts of body neutral, body positive, and weight-stigmatizing TikTok content on body image and mood\" (Frontiers in Psychiatry, 2025)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyt.2025.1577063",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://mentalai.seadice.win/sns-body-feed-content-prevent/",
+    "articleSite": "AI時代のメンタルヘルス",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "5分の動画で、体の見え方は変わる？",
+        "body": "SNSで細い体の動画を見て、なんだか自分の体が気になった経験はないかな。米国の研究チームが、見る動画の種類で気持ちが変わるかを実験したらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "326人に4種類の動画",
+        "body": "TikTokを使う米国の326人を4組に分けて、5分の動画を見てもらったんだ。体を肯定する動画、体の働きに目を向ける動画、やせることをすすめる動画、旅の風景の動画。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やせる系の組だけ不満が下がらない",
+        "body": "体への不満（1〜100点）は、やせる系の組だけ下がらず58点から61点。ほかの3組では下がっていて、体を肯定する組は54点から46点だった。旅の動画でも下がったのが面白いところ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "見続けたらどうなる？",
+        "body": "測ったのは5分見た直後だけ。おすすめ欄を何週間も変えたときの効果はまだ調べられていない。参加者は米国の女性とジェンダーの多様な人だけで、男性に当てはまるかもわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-sns-appearance-mindfulness-before-10min",
+        "type": "あわせて読む",
+        "why": "体型の写真を見る前に10分の瞑想をすると、気分の悪化が小さかった実験"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/smartphone-sns/#kokoro-sns-body-feed-content-prevent-tiktok-video-types"
+  },
+  {
+    "id": "dokugaku-nature-sounds-study-room-how-to-forest-vs-industrial",
+    "category": "自然と健康",
+    "kind": "研究紹介",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Longman et al., \"Forest soundscapes improve mood, restoration and cognition, but not physiological stress or immunity, relative to industrial soundscapes\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-11469-x",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/nature-sounds-study-room-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "森の音を聞くと頭がすっきりする？",
+        "body": "雨や鳥の声の音を流すと集中できる、って言う人は多いよね。英国で、森の音と工場や街の音を聞きくらべた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "30分、ヘッドホンで聞いた",
+        "body": "18〜25歳を対象に、100人を2組に分ける実験と、30人が両方を聞く実験をした。鳥の声や流れる水の音を30分聞いた前後で、気分や注意の課題、心拍やストレスホルモンを測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "気分は上がり、注意も少し伸びた",
+        "body": "森の音では気分がよくなり、工場や街の音では悪くなった。2つめの実験では注意の課題の伸びも森の音の方が大きかった。でも心拍・血圧・ストレスホルモンには一貫した差がなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "静かな部屋とくらべると？",
+        "body": "くらべた相手は、ずっと大きく聞こえる工場や街の音だった。静かな部屋より勉強がはかどるか、勉強中に流し続けてもいいかは、この実験ではわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "kokoro-nature-sounds-stress-fountain-birds",
+        "type": "反対の結果",
+        "why": "別の実験では自然の音で体の緊張が早く戻った。今回は心拍やホルモンに差がなかった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/nature/#dokugaku-nature-sounds-study-room-how-to-forest-vs-industrial"
+  },
+  {
+    "id": "scent-home-smell-adaptation-two-weeks",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Dalton & Wysocki, \"The nature and duration of adaptation following long-term odor exposure\" (Perception & Psychophysics, 1996)",
+    "sourceUrl": "https://doi.org/10.3758/bf03213109",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分の家のにおいがわからないのはなぜ？",
+        "body": "友だちの家に行くと「この家のにおい」がわかるのに、自分の家のにおいはさっぱりわからない。鼻がおかしいわけじゃないよね？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "家で2週間、同じにおいをかぎ続けた",
+        "body": "ある研究で、参加者は自宅で2週間、2種類のうち1つのにおいにずっと囲まれて暮らした。その前後に実験室で、どれだけ薄いにおいまでわかるかを測ったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "そのにおいにだけ鈍くなった",
+        "body": "2週間後には、かぎ続けたにおいだけ感じにくくなり、薄いにおいを弱く感じるようになった。多くの人は、かぐのをやめて2週間たっても鈍さが残っていたらしい。数分の「慣れ」より長く続くんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "家の「生活のにおい」でも同じ？",
+        "body": "試したのは研究用に選んだ2種類のにおいで、料理やペットのような生活のにおいそのものではない。要旨では人数がわからず、少ない人数の実験の可能性もある。古い研究で、くり返し確かめられたかも未確認だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-home-smell-adaptation-two-weeks"
+  },
+  {
+    "id": "breath-nasal-breathing-memory-limbic",
+    "category": "呼吸とストレス",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Zelano et al., \"Nasal Respiration Entrains Human Limbic Oscillations and Modulates Cognitive Function\" (Journal of Neuroscience, 2016)",
+    "sourceUrl": "https://doi.org/10.1523/jneurosci.2586-16.2016",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "口で息をすると、頭の働きが落ちる？",
+        "body": "「口呼吸だと頭が悪くなる」なんて話を聞くよね。鼻で息をするか口でするかで、脳に何か違いはあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "脳に電極がある人の脳波を調べた",
+        "body": "ある研究で、てんかんの治療のために脳に電極を入れている患者さんの脳波を、ふつうに息をしているときに記録した。別に健康な人に、怖いものの見分けや記憶のテストもしてもらったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "鼻の息に合わせて脳波がそろった",
+        "body": "鼻で息をすると、においや記憶、感情に関わる脳の場所の脳波が呼吸のリズムにそろい、吸うときに強くなった。口で息をすると、その波は弱まった。テストの成績も、息のどの時点かで変わったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「頭が悪くなる」とは言えない",
+        "body": "脳波を測ったのは、脳に電極を入れた珍しい条件の患者さんだけ。テストは息のタイミングを比べたもので、口呼吸がくせの人の頭の働きを長く追ったわけではない。日々の暮らしでの影響はわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breath-nasal-breathing-memory-limbic"
+  },
+  {
     "id": "dokugaku-english-listening-cannot-catch-reset-vocab-not-ears",
     "category": "言葉と外国語",
     "kind": "素朴な疑問",
@@ -31146,7 +31326,14 @@
         "body": "平均の値で差がはっきりしたのは大きな騒音との比較だけで、休むときに働く神経の指標には差がなかった。短い実験室の研究で、毎日聞いたときの効果はまだわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/nature/#kokoro-nature-sounds-stress-fountain-birds"
+    "webUrl": "https://seadice.win/evidence/nature/#kokoro-nature-sounds-stress-fountain-birds",
+    "links": [
+      {
+        "id": "dokugaku-nature-sounds-study-room-how-to-forest-vs-industrial",
+        "type": "反対の結果",
+        "why": "森の音と工場の音を比べた実験では、心拍やストレスホルモンに差がなかった"
+      }
+    ]
   },
   {
     "id": "kokoro-sns-upward-comparison-why-ability-posts",
@@ -35759,6 +35946,11 @@
         "id": "kokoro-appearance-comparison-exercise-body-image-nma",
         "type": "あわせて読む",
         "why": "体の受け止め方を、運動で長く変えられるかをまとめた研究"
+      },
+      {
+        "id": "kokoro-sns-body-feed-content-prevent-tiktok-video-types",
+        "type": "あわせて読む",
+        "why": "見る動画の種類で、体への不満の変わり方が違った実験"
       }
     ]
   },
