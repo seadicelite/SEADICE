@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-back-to-rereading-old-study-habit-reset-hints-self-test",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Vaughn & Kornell, \"How to activate students' natural desire to test themselves\" (Cognitive Research: Principles and Implications, 2019)",
+    "sourceUrl": "https://doi.org/10.1186/s41235-019-0187-y",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/back-to-rereading-old-study-habit-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "自分でテストするのは苦手？",
+        "body": "思い出す練習が効くと言われても、答えを見て覚える方が楽だよね。実は、ちょっとした工夫で人は自分をテストしたくなるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "答えの文字を少し見せた",
+        "body": "単語の組を覚える実験で、答えの文字を2つか4つ見せるヒントを選べるようにしたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ヒントがあると思い出す方を選ぶ",
+        "body": "ヒントを選べると、多くの回で思い出す方を選んだ。ヒントをなくすと、答えを見て覚え直す方が多くなった。ヒントつきでも覚えた量はヒントなしのテストと同じくらいで、答えを見るだけより多かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "単語を覚える実験の話",
+        "body": "調べたのは単語の組を覚える実験で、教科書の内容や何か月も続く勉強で同じかはわからない。ヒントで答えが推測できてしまうと、思い出す練習の効果は少し下がったよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-back-to-rereading-old-study-habit-reset-hints-self-test"
+  },
+  {
+    "id": "dokugaku-exam-results-waiting-anxiety-reset-volatility",
+    "category": "学習法",
+    "kind": "素朴な疑問",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Wilson & Sweeny, \"Volatility in Expectations While Awaiting Important News\" (Personality and Social Psychology Bulletin, 2024)",
+    "sourceUrl": "https://doi.org/10.1177/01461672231158883",
+    "studyType": "観察研究",
+    "articleUrl": "https://dokugaku.seadice.win/exam-results-waiting-anxiety-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "結果待ち、自己採点し直すと落ち着く？",
+        "body": "試験が終わったのに、解答速報で何度も点数を数え直して「受かったかも」「やっぱりだめかも」を行き来しちゃう。あれ、気持ちは落ち着くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "248人に2週間ごとに聞いた",
+        "body": "司法試験の結果を待つ248人に、2週間ごとに「合格の見込み」を答えてもらった研究があるんだ。見込みがどれくらい変わったかと、心配の大きさを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "見込みが揺れる人ほど心配",
+        "body": "見込みが変わる回数が多い人ほど、待つ間の心配や嫌な気分が大きかったらしい。選挙の結果待ちの研究では、見込みを一定に保つ方が心配が少ないという因果も示されたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "試験の成績や日本では？",
+        "body": "司法試験の方は相関で、選挙の研究では一部しか再現されなかった。測ったのは心配や気分だけ。次の勉強がはかどるかや、日本の資格試験の受験者に当てはまるかは、まだ確かめられていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-exam-results-waiting-anxiety-reset-volatility"
+  },
+  {
+    "id": "dokugaku-future-self-imagine-study-motivation-vr-app-rct",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "van Gelder et al., \"Stimulating Future-Oriented Thinking and Goal-Achievement Through the Future Self Using Virtual Reality and a Smartphone App: Randomized Controlled Trial\" (Journal of Medical Internet Research, 2026)",
+    "sourceUrl": "https://doi.org/10.2196/84420",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://dokugaku.seadice.win/future-self-imagine-study-motivation/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "未来の自分を思い描けば成績が上がる？",
+        "body": "合格した自分や10年後の自分を想像すると、やる気が出て勉強がはかどる、ってよく言われるよね。オランダの大学で、それを確かめた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "321人を3つの組に",
+        "body": "大学1年生321人を、スマホのアプリかVRで「10年後の自分」とやりとりする組と、目標を立てるだけの組に分けて、3週間ためしたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "未来の自分は近づいたけど",
+        "body": "未来の自分をはっきり感じる度合いは上がった。でも成績には差がなく、未来への意識の効果も6か月後には薄れて、組の間の差がなくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "やり方しだいで変わる？",
+        "body": "VRの組だけ毎週の目標の達成が高かったけど、目標の立て方を実験者が手伝っていた。未来の姿を具体的な行動と結びつけたら結果が変わるのかは、まだわからないんだ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-future-self-procrastination-how-research-eft-meta",
+        "type": "あわせて読む",
+        "why": "未来を具体的に想像する練習で、後の大きな得を選びやすくなったメタ分析"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#dokugaku-future-self-imagine-study-motivation-vr-app-rct"
+  },
+  {
+    "id": "brain-neuron-loss-aging-neocortex",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Pakkenberg B, Gundersen HJ, \"Neocortical neuron number in humans: effect of sex and age\" (Journal of Comparative Neurology, 1997)",
+    "sourceUrl": "https://doi.org/10.1002/(SICI)1096-9861(19970728)384:2<312::AID-CNE10>3.0.CO;2-K",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "年をとると、脳の細胞はどんどん死ぬ？",
+        "body": "「大人になると脳の細胞は毎日たくさん死んでいく」ってよく聞くよね。じゃあ年をとるほど、脳はすかすかになっていくのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "94人分の脳の細胞を数えた",
+        "body": "デンマークの20〜90歳の人の脳94人分を集めて、考えることに関わる大脳皮質の神経細胞の数を、統計的な数え方で見積もった研究があるんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "70年で減るのは約1割",
+        "body": "20歳から90歳までで減る神経細胞は、男女とも全体の約10%だった。平均の数は女性で190億個、男性で230億個。数を左右したのは性別と年齢で、体の大きさは関係なかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追ってはいない",
+        "body": "年齢の違う人の脳を比べた研究で、1人の脳が減っていく様子を追ったわけじゃない。数えたのは大脳皮質だけで、細胞の数の差が物忘れなどの働きとどう関係するかも、この研究ではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "brain-adult-neurogenesis",
+        "type": "あわせて読む",
+        "why": "減る側ではなく、大人の脳で新しい神経細胞が生まれるかを調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-neuron-loss-aging-neocortex"
+  },
+  {
+    "id": "oya-reminiscence-bump-youth-memories",
+    "category": "親の老いと介護",
+    "kind": "素朴な疑問",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Munawar K, Kuhn SK, Haque S, \"Understanding the reminiscence bump: A systematic review\" (PLoS One, 2018)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0208595",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "親が若いころの話ばかりするのはなぜ？",
+        "body": "実家に帰ると、親が学生時代や若いころの話をよくする。昔のことばかりよく覚えているように見えるのは、気のせいかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "68本の研究を整理した",
+        "body": "人生のどの時期の思い出が多く思い出されるかを調べた研究を、9つのデータベースで探したまとめがあるんだ。523本から条件に合う68本を選んで整理したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "10〜30歳の思い出が多い",
+        "body": "中年や高齢の人は、10〜30歳ごろの思い出を多く思い出す傾向がくり返し見られていて「レミニセンス・バンプ」と呼ばれる。自分らしさが作られる時期だから、という説明などが多く支持されていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "時期は調べ方で変わる",
+        "body": "大事な出来事を聞くと10〜30歳、単語をきっかけにすると5〜30歳と、ピークの時期は調べ方で違った。数字を合わせる分析はしていないし、同じ話を何度もする理由までは、このまとめではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-teen-songs-reminiscence-bump",
+        "type": "あわせて読む",
+        "why": "思い出の曲も、16〜20歳で初めて聴いた曲がいちばん多かった"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-reminiscence-bump-youth-memories"
+  },
+  {
     "id": "research-coffee-dehydration-diuretic-hydration-research-beverage-index",
     "category": "食べ物の常識",
     "kind": "研究紹介",
@@ -1397,7 +1584,14 @@
         "body": "初めて聴いた年齢は自己申告で、5歳刻みに丸めた答えも見られた。日本は比べた国に入っておらず、アフリカや南米は人数が少なく比べていない。なぜ10代なのかも、この調査ではわからないよ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/music-focus/#music-teen-songs-reminiscence-bump"
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-teen-songs-reminiscence-bump",
+    "links": [
+      {
+        "id": "oya-reminiscence-bump-youth-memories",
+        "type": "あわせて読む",
+        "why": "曲に限らず、10〜30歳ごろの思い出が多く思い出される傾向をまとめたレビュー"
+      }
+    ]
   },
   {
     "id": "dokugaku-afraid-of-failing-avoid-practice-tests-restart-avoidance-goals",
@@ -24156,7 +24350,14 @@
         "body": "測ったのはお金や健康に関わる選択で、作業の先延ばしそのものじゃない。想像の練習で先延ばしが減るかは、まだはっきり確かめられていないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/procrastination/#research-future-self-procrastination-how-research-eft-meta"
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-future-self-procrastination-how-research-eft-meta",
+    "links": [
+      {
+        "id": "dokugaku-future-self-imagine-study-motivation-vr-app-rct",
+        "type": "あわせて読む",
+        "why": "未来の自分を感じる度合いは上がったが、成績は変わらなかったランダム化比較試験"
+      }
+    ]
   },
   {
     "id": "research-all-nighter-study-forgot-recovery-research-nap-vs-cram",
@@ -37733,7 +37934,14 @@
       }
     ],
     "webUrl": "https://seadice.win/evidence/brain-myths/#brain-adult-neurogenesis",
-    "studyType": "観察研究"
+    "studyType": "観察研究",
+    "links": [
+      {
+        "id": "brain-neuron-loss-aging-neocortex",
+        "type": "あわせて読む",
+        "why": "新しく生まれる側でなく、年齢で大脳皮質の神経細胞がどれだけ減るかを数えた研究"
+      }
+    ]
   },
   {
     "id": "work-standup-meeting",
