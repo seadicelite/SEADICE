@@ -1,5 +1,192 @@
 [
   {
+    "id": "dokugaku-compare-multiple-sources-reading-how-to-discrepancy",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Schoor, Rouet & Britt, \"Effects of context and discrepancy when reading multiple documents\" (Reading and Writing, 2023)",
+    "sourceUrl": "https://doi.org/10.1007/s11145-022-10321-2",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/compare-multiple-sources-reading-how-to/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "言い分が食い違う資料は、読み方を変える？",
+        "body": "同じテーマの資料を2つ読むとき、中身が一致している場合と食い違っている場合で、読み方は変わるのかを調べた実験があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ドイツの大学生160人の実験",
+        "body": "短い資料を2つ読んで要点をまとめてもらい、資料を行き来した回数や、まとめに出典を書いたかを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "食い違うと、比べながら読む",
+        "body": "食い違うテーマでは、資料を行き来する回数が増え、まとめに出典を書くことも多かった（オッズ比3.67）。「しかし」のような逆接も増えたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "理解が深まったかは別の話",
+        "body": "資料を読む時間や、資料どうしの一致をまとめに書くかには差がなかった。大学生が短い資料を読んだ実験で、長い本や社会人でも同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#dokugaku-compare-multiple-sources-reading-how-to-discrepancy"
+  },
+  {
+    "id": "dokugaku-noisy-home-study-reset-foreign-speech-illusion",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Komar et al., \"Evidence of a metacognitive illusion in stimulus-specific prospective judgments of distraction by background speech\" (Scientific Reports, 2024)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-024-74719-4",
+    "studyType": "実験",
+    "articleUrl": "https://dokugaku.seadice.win/noisy-home-study-reset/",
+    "articleSite": "独学の科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "外国語の会話なら気にならない？",
+        "body": "意味がわからない外国語の話し声なら、勉強のじゃまにならない気がするよね。でも実際はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "母語と外国語の声で比べた",
+        "body": "ドイツの研究で、ドイツ語を話す大人255人に8つの数字の順番を覚えてもらい、そのあいだにドイツ語か日本語の話し声を流したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "じゃまの大きさは同じだった",
+        "body": "どちらの声も成績を同じくらい下げた。なのに参加者は、聞き取りやすい母語の声のほうが「じゃまになりにくい」と予想していたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "数字を覚える課題の話",
+        "body": "オンラインで、数字の並びを覚える課題だけを調べた実験だよ。文章を読む勉強でも同じかは、この研究ではわからない。実際にやったあとの振り返りでは、この思い込みはほぼ消えていたんだって。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-background-talk-distraction-why-research-changing-speech",
+        "type": "あわせて読む",
+        "why": "話し声がなぜ覚えるじゃまになるのか、順番を覚える課題で調べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#dokugaku-noisy-home-study-reset-foreign-speech-illusion"
+  },
+  {
+    "id": "research-procrastination-night-before-all-nighter-recovery-research-overconfidence",
+    "category": "先延ばし対策",
+    "kind": "よくある説",
+    "themeColor": "#FDBA74",
+    "sourceLabel": "Pilcher JJ & Walters AS, \"How sleep deprivation affects psychological variables related to college students' cognitive performance\" (Journal of American College Health, 1997)",
+    "sourceUrl": "https://doi.org/10.1080/07448489709595597",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/procrastination-night-before-all-nighter-recovery-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "徹夜すればなんとかなる？",
+        "body": "締め切り前夜、「徹夜すれば取り返せる」って思うことあるよね。徹夜明けって、意外と頭が冴えている気もするし。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "24時間起きた学生で実験",
+        "body": "大学生44人を、24時間眠らない組と約8時間眠った組に分けて、批判的に考える力をはかる課題を解いてもらったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "成績は下がり、自信は上がった",
+        "body": "眠らなかった組は成績がはっきり低かった。なのに集中や努力、自分の出来の見積もりは、眠った組より高く答えていたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "本番の課題でも同じ？",
+        "body": "44人の大学生が、1回の課題を解いた結果なんだ。実際のレポートや試験で、どれくらい出来が変わるかまではわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "sleep-chronic-restriction-unaware",
+        "type": "あわせて読む",
+        "why": "寝不足が続くときも、本人は頭の鈍りに気づきにくいという研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-procrastination-night-before-all-nighter-recovery-research-overconfidence"
+  },
+  {
+    "id": "circadian-night-owl-phase-advance-rct",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Facer-Childs ER, Middleton B, Skene DJ, Bagshaw AP, \"Resetting the late timing of 'night owls' has a positive impact on mental health and performance\" (Sleep Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.sleep.2019.05.001",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜型は、朝型に変えられる？",
+        "body": "夜型って生まれつきだから仕方ない、と思いがちだよね。暮らし方を変えるだけで、体内時計は前にずらせるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "夜型の人をくじ引きで2組に",
+        "body": "英国の研究者が夜型の人を2組に分けた。片方は、起きる・寝る時間を早め、食事の時間を固定し、カフェインや運動の時間にも気をつける暮らしを、ふだんの生活の中で続けたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "約2時間、前にずれた",
+        "body": "寝起きの時刻は約2時間早まり、メラトニンなど体内時計の目印も前にずれた。睡眠時間は減らず、うつやストレスの自己評価が下がり、朝の反応の速さや握力もよくなったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "やめても朝型のまま？",
+        "body": "対象は夜型の人だけで、気分は本人の答え。要旨には人数が書かれていないんだ。その暮らし方をやめたあとも朝型でいられるかは、この結果からは言えないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "circadian-morning-phase-advance",
+        "type": "あわせて読む",
+        "why": "朝の光の浴び方で体内時計をどれだけ前にずらせるかを比べた研究"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-night-owl-phase-advance-rct"
+  },
+  {
+    "id": "bias-gamblers-fallacy-online-betting",
+    "category": "意思決定バイアス",
+    "kind": "素朴な疑問",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Xu J & Harvey N, \"Carry on winning: the gamblers' fallacy creates hot hand effects in online gambling\" (Cognition, 2014)",
+    "sourceUrl": "https://doi.org/10.1016/j.cognition.2014.01.002",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "負けが続いたら、次は勝てる？",
+        "body": "「これだけ負けたんだから、そろそろ勝つはず」って思うことあるよね。これは「ギャンブラーの誤謬」と呼ばれる思い込みなんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "56万件の実際の賭けを分析",
+        "body": "2010年にネットでスポーツに賭けた776人の、56万5915件の賭けを調べた研究があるよ。最大6回までの勝ち続け・負け続けのあとに何が起きたかを見たんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "負けた人は、さらに負けた",
+        "body": "負けた人は次も負けやすく、勝った人は次も勝ちやすかった。負けたあとは当たりにくい賭けに、勝ったあとは安全な賭けに変えていたらしい。「流れは変わる」という思い込みが、流れを作っていたんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "心の中までは聞いていない",
+        "body": "賭けの記録を見ただけで、本人に理由を聞いたわけではないよ。1つのネットの賭けの場の2010年のデータで、この論文にはほかの研究者からのコメント論文も出ているんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-gamblers-fallacy-online-betting"
+  },
+  {
     "id": "dokugaku-back-to-rereading-old-study-habit-reset-hints-self-test",
     "category": "学習法",
     "kind": "研究紹介",
@@ -27683,6 +27870,11 @@
         "id": "dokugaku-study-place-time-log-sheet-background-music",
         "type": "あわせて読む",
         "why": "話し声が覚える力をじゃまする実験と、音楽や雑音が読解をじゃまするかの研究"
+      },
+      {
+        "id": "dokugaku-noisy-home-study-reset-foreign-speech-illusion",
+        "type": "あわせて読む",
+        "why": "母語の声も外国語の声も同じくらいじゃまなのに、人は母語の方が平気と予想した"
       }
     ],
     "webUrl": "https://seadice.win/evidence/focus/#research-background-talk-distraction-why-research-changing-speech"
@@ -42613,6 +42805,11 @@
         "id": "research-jet-lag-recovery-light-timing-research-preflight",
         "type": "あわせて読む",
         "why": "同じく朝の強い光と早寝で体内時計を早めた実験"
+      },
+      {
+        "id": "circadian-night-owl-phase-advance-rct",
+        "type": "あわせて読む",
+        "why": "光だけでなく暮らし方全体を変えて、夜型の寝起きが約2時間早まったRCT"
       }
     ]
   },
@@ -43243,7 +43440,14 @@
       "wrong": "低下とともに強まった"
     },
     "webUrl": "https://seadice.win/evidence/sleep/#sleep-chronic-restriction-unaware",
-    "studyType": "ランダム化比較試験"
+    "studyType": "ランダム化比較試験",
+    "links": [
+      {
+        "id": "research-procrastination-night-before-all-nighter-recovery-research-overconfidence",
+        "type": "あわせて読む",
+        "why": "徹夜した学生は成績が下がったのに、自分の出来を高く見積もった"
+      }
+    ]
   },
   {
     "id": "sleep-short-sleep-common-cold",
