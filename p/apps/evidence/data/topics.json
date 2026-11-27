@@ -1,5 +1,178 @@
 [
   {
+    "id": "research-dog-interaction-stress-relief-how-research-short-sessions",
+    "category": "ペットの科学",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Sim SQ et al., \"Canine-assisted therapy in reducing stress and anxiety levels of university students: systematic review and meta-analysis of randomized controlled trials\" (BMC Complementary Medicine and Therapies, 2025)",
+    "sourceUrl": "https://doi.org/10.1186/s12906-025-04955-2",
+    "studyType": "メタ分析",
+    "articleUrl": "https://research.seadice.win/dog-interaction-stress-relief-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "犬とふれあうと癒やされる？",
+        "body": "しんどい日に犬をなでると、気持ちがほどける気がするよね。大学でセラピー犬とふれあう試験をまとめた分析があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生の試験15件をまとめた",
+        "body": "訓練を受けた犬と付き添いの人が来るランダム化比較試験15件、大学生1,868人分を集めたよ（数字でまとめたのは14件）。カナダ・アメリカ・イギリスの研究なんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ストレスと不安は中くらい下がった",
+        "body": "犬とふれあった組は、ストレスと不安が下がっていた（g=−0.67。0.5で中くらい・0.8で大きいの目安）。0〜14分の短い回でも下がっていて、長い回との差ははっきりしなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "偏りの小さい研究は1件もない",
+        "body": "犬がいるのは見ればわかるから、組分けを伏せられなかった。偏りが小さいと判定された研究はなく、参加者は60〜95%が女性。欧米の大学生以外で同じかはわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/pets/#research-dog-interaction-stress-relief-how-research-short-sessions"
+  },
+  {
+    "id": "research-vegetable-cooking-nutrients-boil-steam-microwave-how-research-broccoli-steam",
+    "category": "食べ物の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#84CC16",
+    "sourceLabel": "Yuan GF et al., \"Effects of different cooking methods on health-promoting compounds of broccoli\" (Journal of Zhejiang University Science B, 2009)",
+    "sourceUrl": "https://doi.org/10.1631/jzus.B0920051",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/vegetable-cooking-nutrients-boil-steam-microwave-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ブロッコリー、ゆでる？蒸す？",
+        "body": "野菜はゆでると栄養が逃げるってよく聞くよね。じゃあ蒸したり、レンジにかけたりしたらどうなるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "200gを5通りで5分加熱",
+        "body": "中国の研究チームが、ブロッコリー200gを、ゆでる・蒸す・電子レンジ・炒める・炒めてから煮る、の5通りで加熱。ビタミンCなどの量を生と比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ゆでるとビタミンC33%減、蒸すと減りにくかった",
+        "body": "400mLの湯で5分ゆでるとビタミンCは33%減。蒸すとはっきりした減りはなかった。電子レンジではグルコシノレートという成分の一群が60%減っていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "体に入る量までは測っていない",
+        "body": "1品種のブロッコリーを実験室で測った結果。蒸しても別の一群の成分は37%減っていた。食べた人がどれだけ吸収するか、ほかの野菜や加熱時間でどうかは調べていないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/food-myths/#research-vegetable-cooking-nutrients-boil-steam-microwave-how-research-broccoli-steam"
+  },
+  {
+    "id": "research-habit-same-time-flexible-schedule-how-research-routine-vs-flexible",
+    "category": "習慣形成",
+    "kind": "よくある説",
+    "themeColor": "#22D3EE",
+    "sourceLabel": "Beshears J et al., \"Creating Exercise Habits Using Incentives: The Tradeoff between Flexibility and Routinization\" (Management Science, 2021)",
+    "sourceUrl": "https://doi.org/10.1287/mnsc.2020.3706",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/habit-same-time-flexible-schedule-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "習慣は毎日同じ時間にやるのがコツ？",
+        "body": "「同じ時間にやると習慣になる」とよく聞くよね。じゃあ、決めた時間にやったときだけごほうびを出せば、もっと続くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "Googleの社員2,508人で実験",
+        "body": "全員が運動しやすい2時間の枠を選んだ。4週間、枠の中でジムに行った日だけお金が出る組、いつ行ってもお金が出る組、お金なしの組にくじで分けたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "いつでもOKの組のほうが多く通った",
+        "body": "いつでもお金が出る組のほうが、ジム通いが週0.19回多かった。お金が終わった後の4週間も、週1回以上行った人の割合が6ポイント高かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "社内ジムだけを数えた",
+        "body": "数えたのは社員証で入った社内ジムだけで、ほかの場所の運動はわからない。1社の社員だけの結果で、ふつうの働く人の集まりとは違う、と著者たちも書いているよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-habit-same-place-context-research-automaticity",
+        "type": "反対の結果",
+        "why": "場所と時間を固定した組のほうが自動的にできた実験。こちらは時間を縛らない組が続いた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/habits/#research-habit-same-time-flexible-schedule-how-research-routine-vs-flexible"
+  },
+  {
+    "id": "money-lost-wallet-more-cash-returned-40-countries",
+    "category": "お金の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Cohn A et al., \"Civic honesty around the globe\" (Science, 2019)",
+    "sourceUrl": "https://doi.org/10.1126/science.aau8712",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お金が多く入った財布ほど、戻ってこない？",
+        "body": "落とした財布にお金がたくさん入っていたら、ネコババされそうな気がするよね。世界中で財布を「落とし物」として届けた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40か国で1万7千個の財布",
+        "body": "40か国・355都市で、1万7千個以上の財布を、公共・民間の施設の窓口に「拾いました」と届けた。入っているお金の額を変えて、持ち主に連絡が来るかを数えたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "お金が多いほど、連絡が多かった",
+        "body": "ほとんどの国で、お金が多く入った財布ほど持ち主に連絡が来やすかった。専門家でない人も経済学者も、この結果を予想できなかったんだって。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "窓口の人の話で、道ばたの話ではない",
+        "body": "財布を受け取ったのは窓口で働く人で、道で拾った通りすがりの人ではない。理由は「相手を思う気持ち」と「泥棒だと思われたくない気持ち」と考えられているけど、追加のデータからの推測だよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/money/#money-lost-wallet-more-cash-returned-40-countries"
+  },
+  {
+    "id": "mindfulness-false-memory-replication",
+    "category": "マインドフルネス",
+    "kind": "よくある説",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Sherman SM & Grange JA, \"Exploring the Impact of Mindfulness on False-Memory Susceptibility\" (Psychological Science, 2020)",
+    "sourceUrl": "https://doi.org/10.1177/0956797620929302",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "瞑想すると、記憶があいまいになる？",
+        "body": "2015年に「短い瞑想のあとは、聞いていない言葉を聞いたと思い込みやすい」という実験が出て話題になったんだ。本当かな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "287人で、やり方を決めてから追試",
+        "body": "分析の方法を先に登録して、287人を15分の瞑想・ぼんやり考えごと・点つなぎの3組にくじで分けた。そのあと関連する単語のリストを覚えて、思い出すテストをしたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "思い違いが増えたとは言えなかった",
+        "body": "瞑想の組で、聞いていない言葉を思い出したり、見覚えがあると答えたりする思い違いが増えた証拠は見られなかった。正しく思い出せた数にも差はなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べる相手しだいかも",
+        "body": "瞑想とぼんやりの組は、確認すると似た心の状態になっていた。追加の分析では増える方向も少し見えたので、何と比べるか、もっと長い瞑想でどうかはまだわからないよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-false-memory-replication"
+  },
+  {
     "id": "dokugaku-compare-multiple-sources-reading-how-to-discrepancy",
     "category": "学習法",
     "kind": "研究紹介",
@@ -36128,6 +36301,11 @@
         "id": "habit-context-cue",
         "type": "あわせて読む",
         "why": "同じ場所というきっかけが、好みより強く行動を動かしていた映画館の実験"
+      },
+      {
+        "id": "research-habit-same-time-flexible-schedule-how-research-routine-vs-flexible",
+        "type": "反対の結果",
+        "why": "ごほうびの実験では、時間を決めた組より、いつでもOKの組のほうがジムに通い続けた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/habits/#research-habit-same-place-context-research-automaticity"
