@@ -1,5 +1,185 @@
 [
   {
+    "id": "japan-mosquito-blood-type-o",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Shirai Y et al., \"Landing preference of Aedes albopictus (Diptera: Culicidae) on human skin among ABO blood groups, secretors or nonsecretors, and ABH antigens\" (Journal of Medical Entomology, 2004)",
+    "sourceUrl": "https://doi.org/10.1603/0022-2585-41.4.796",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "O型は蚊に刺されやすい？",
+        "body": "「O型だから蚊に好かれる」ってよく聞くよね。もとになったのは、千葉県の害虫の研究所が2004年に出した研究らしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "人の腕にとまる蚊を数えた",
+        "body": "ヒトスジシマカ（やぶ蚊）を使って、血液型の違う人の肌に蚊がとまる割合を、64回の試験で比べた。だ液で血液型の物質を出す体質かどうかも調べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "O型にとまりやすい傾向は見られた",
+        "body": "O型の人には、B型・AB型・A型よりも蚊が多くとまったけど、はっきり差があったのはA型との比較だけ。だ液に物質を出すO型では83.3%、同じくA型では46.5%だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "血液型の物質のせいかは、はっきりしない",
+        "body": "血液型の物質を腕に塗る実験では、全体としては蚊のとまり方を左右していなかった。調べたのは1種類の蚊だけで、ほかの蚊や外での刺されやすさまでは言えないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/japan/#japan-mosquito-blood-type-o"
+  },
+  {
+    "id": "speech-own-recorded-voice-attractive",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Hughes SM & Harrison MA, \"I like my voice better: self-enhancement bias in perceptions of voice attractiveness\" (Perception, 2013)",
+    "sourceUrl": "https://doi.org/10.1068/p7526",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "録音した自分の声、ほんとに変？",
+        "body": "動画や留守電で自分の声を聞くと、なんだか恥ずかしくなるよね。でも、自分の声だと知らずに聞いたら、どう感じるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "自分の声を混ぜて、こっそり評価",
+        "body": "アメリカの大学の研究で、男女80人がいろいろな人の録音を聞いて、声の魅力を点数にした。その中に自分の声が入っていることは知らされていなかったんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "自分の声を高めにつけていた",
+        "body": "みんな自分の声を、ほかの人がつけた点より魅力的だと評価していた。ほかの人の声につけた点よりも高かったよ。研究者は、自分のものをひいきして見る心のくせの一つと考えているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "80人の1つの研究",
+        "body": "調べたのは80人で、声の魅力を点数にしただけ。自分の声だと気づいて聞くときの違和感や、話し方の伝わりやすさまでは、この研究では調べていないんだ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-own-recorded-voice-attractive"
+  },
+  {
+    "id": "research-worked-examples-math-problem-solving-how-research-fading",
+    "category": "学習法",
+    "kind": "研究紹介",
+    "themeColor": "#60A5FA",
+    "sourceLabel": "Miller-Cotto D & Medrano J, \"Does working memory moderate the effect of fading on math performance?\" (British Journal of Educational Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.1111/bjep.12781",
+    "studyType": "ランダム化比較試験",
+    "articleUrl": "https://research.seadice.win/worked-examples-math-problem-solving-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "答えを見ながら解くのはずる？",
+        "body": "数学の宿題、解き方を見ながら解くのはずるい気がするよね。でも、例題の見せ方しだいで伸び方が変わるらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "図形の宿題を4つのやり方で",
+        "body": "アメリカの研究者が6年生を4つの組に分けて、図形の宿題を3日間やってもらったよ。例題を見る組、例題を少しずつ消していく組、ふだんどおりの組などを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "例題を少しずつ消した組の伸びが最大",
+        "body": "例題の後半を少しずつ消して最後は自力で解く「フェーディング」の組が、テスト前後の伸びが最も大きかった（効果量g=1.08、0.8以上で大きいとされる）。ふだんどおりの組はg=0.24（小さめ）だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、比べ方も限られる",
+        "body": "最後まで参加したのは73人。フェーディングと他の例題の組の差は統計的に比べていないんだ。もっと大きな研究で確かめる必要があるよ。"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/learning/#research-worked-examples-math-problem-solving-how-research-fading"
+  },
+  {
+    "id": "research-earworm-song-stuck-in-head-why-research-repeated-exposure",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Killingly C et al., \"The song that never ends: The effect of repeated exposure on the development of an earworm\" (Quarterly Journal of Experimental Psychology, 2023)",
+    "sourceUrl": "https://doi.org/10.1177/17470218231152368",
+    "studyType": "実験",
+    "articleUrl": "https://research.seadice.win/earworm-song-stuck-in-head-why-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "なぜ同じ曲が頭から離れない？",
+        "body": "朝に聴いた曲のサビが、昼まで頭の中でくり返す。「イヤーワーム」と呼ばれる現象だよ。何度も聴いた曲ほど起きやすいのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "知らない曲を1〜4回聴いた",
+        "body": "オーストラリアの研究で、44人が聴いたことのない4曲のサビを、曲ごとに1〜4回聴いた。翌日、数字の並びを覚える課題の途中と直後に、その曲を流したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "4回聴いた曲は、終わっても邪魔した",
+        "body": "前日に4回聴いた曲では、曲が終わったあとも覚える成績が下がった。「合わせて歌いたい」気持ちも2日目に強くなっていた。頭の中で歌うことが、記憶の作業をふさぐと考えられているらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "曲によってちがった",
+        "body": "効果はすべての曲で同じではなく、曲ごとにばらつきがあった。参加者も44人と少なめなので、どんな曲が残りやすいかはまだはっきりしないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "music-earworm-stop-coping",
+        "type": "あわせて読む",
+        "why": "曲が頭に残るしくみと、残った曲をどう止めるか"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/music-focus/#research-earworm-song-stuck-in-head-why-research-repeated-exposure"
+  },
+  {
+    "id": "research-distraction-if-then-plan-study-focus-how-research-goal-vs-plan",
+    "category": "集中力",
+    "kind": "よくある説",
+    "themeColor": "#34D399",
+    "sourceLabel": "Walck-Shannon EM et al., \"A Study Planning Exercise Associated with Decreased Distraction Levels among Introductory Biology Students\" (CBE—Life Sciences Education, 2024)",
+    "sourceUrl": "https://doi.org/10.1187/cbe.23-05-0092",
+    "studyType": "観察研究",
+    "articleUrl": "https://research.seadice.win/distraction-if-then-plan-study-focus-how-research/",
+    "articleSite": "悩みの科学",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「今日は気を散らさない」と決めれば集中できる？",
+        "body": "勉強の前に「スマホは見ない」と目標を立てる。よくあるけど、それだけで本当に気が散る時間は減るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学の授業で計画づくり",
+        "body": "アメリカの大学の生物の授業で、試験の前に12分ほどの勉強計画をオンラインで作ってもらった。目標を決めて、障害を1つ挙げ、「もし〜したら、〜する」を書く流れだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "目標だけでは変わらなかった",
+        "body": "「気が散るのを減らす」を目標にしただけの学生は変わらなかった。気が散る場面に「もし〜したら」を決めた学生は減っていて、前回半分気が散っていた人では25.3%（決めなかった人は42.1%）だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじで分けた実験ではない",
+        "body": "どの障害を書くかは学生が自分で選んでいて、気が散った時間も本人の申告。効果が後の試験まで続くかもまだわからないよ。"
+      }
+    ],
+    "links": [
+      {
+        "id": "research-health-checkup-appointment-procrastination-recovery-research-preformulated-null",
+        "type": "反対の結果",
+        "why": "配られた計画文では差がなく、自分で立てた計画では気が散る時間が減っていた"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/focus/#research-distraction-if-then-plan-study-focus-how-research-goal-vs-plan"
+  },
+  {
     "id": "research-dog-interaction-stress-relief-how-research-short-sessions",
     "category": "ペットの科学",
     "kind": "よくある説",
@@ -8745,7 +8925,14 @@
         "body": "効いたかどうかは本人の報告で、方法を比べた実験ではない。別の研究では、積極的に止めようとすると長引いたという結果もあり、著者らも今後の検証が要るとしている。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/music-focus/#music-earworm-stop-coping"
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-earworm-stop-coping",
+    "links": [
+      {
+        "id": "research-earworm-song-stuck-in-head-why-research-repeated-exposure",
+        "type": "あわせて読む",
+        "why": "曲が頭に残るしくみと、残った曲をどう止めるか"
+      }
+    ]
   },
   {
     "id": "dokugaku-too-many-study-goals-cannot-progress-prioritize-both-equally",
@@ -15178,7 +15365,14 @@
         "body": "この試験の計画は本人が考えたものじゃなかった。自分の言葉で書く計画なら効くのかは、この研究だけでは言えないんだ。"
       }
     ],
-    "webUrl": "https://seadice.win/evidence/procrastination/#research-health-checkup-appointment-procrastination-recovery-research-preformulated-null"
+    "webUrl": "https://seadice.win/evidence/procrastination/#research-health-checkup-appointment-procrastination-recovery-research-preformulated-null",
+    "links": [
+      {
+        "id": "research-distraction-if-then-plan-study-focus-how-research-goal-vs-plan",
+        "type": "反対の結果",
+        "why": "配られた計画文では差がなく、自分で立てた計画では気が散る時間が減っていた"
+      }
+    ]
   },
   {
     "id": "research-time-management-procrastination-research-training-control-not-performance",
