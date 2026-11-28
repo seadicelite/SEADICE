@@ -71154,6 +71154,11 @@
         "id": "digital-sns-abstinence-meta",
         "type": "あわせて読む",
         "why": "1つの実験と、SNSを休む研究をまとめた分析"
+      },
+      {
+        "id": "digital-social-media-abstinence-wellbeing-rct",
+        "type": "反対の結果",
+        "why": "くじ引きの試験では、休むと満足度が下がり孤独が増えた"
       }
     ],
     "webUrl": "https://seadice.win/evidence/digital-detox/#digital-facebook-quit-1week-denmark"
@@ -72829,5 +72834,1344 @@
       "wrong": "長いほど、学業も気持ちもはっきり良かった"
     },
     "webUrl": "https://seadice.win/evidence/parenting/#kosodate-mother-time-amount-matters"
+  },
+  {
+    "id": "alcohol-nightcap-sleep-meta",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Gardiner et al., \"The effect of alcohol on subsequent sleep in healthy adults: A systematic review and meta-analysis\" (Sleep Medicine Reviews, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.smrv.2024.102030",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る前の一杯で、よく眠れる？",
+        "body": "寝酒をすると寝つきがよくなる、と思っている人は多いよね。眠りの中身はどう変わるのか、研究をまとめた論文を見てみたよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "27本の研究を、量とタイミングで整理",
+        "body": "健康な大人を対象にした27本の研究を集めて、お酒の量や飲む時間によって夜の眠りがどう変わるかを、数字でまとめ直したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "寝つきが早まったのは、かなり多く飲んだときだけ",
+        "body": "寝つきが早くなったのは、標準的な5杯ぶんほど（体重1kgあたり0.85g以上）のとき。2杯ぶんほど（0.5g以下）でも、レム睡眠は乱れたよ。全体では、レム睡眠が短くなり、始まりも遅れていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "合計の睡眠時間などは、決められなかった",
+        "body": "合計の睡眠時間や、夜中に目が覚める時間への影響は、結果のばらつきが大きくて判断できなかった。男女の違いも、これからの課題だって。"
+      }
+    ],
+    "quiz": {
+      "q": "少なめ（2杯ぶんほど）のお酒でも変わったと見られたのは？",
+      "correct": "レム睡眠が乱れた（短くなるなど）",
+      "wrong": "深い眠りが乱れた（短くなるなど）"
+    },
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-nightcap-sleep-meta"
+  },
+  {
+    "id": "alcohol-hangover-simulated-driving",
+    "category": "お酒の常識",
+    "kind": "素朴な疑問",
+    "themeColor": "#D97706",
+    "sourceLabel": "Alford et al., \"The Impact of Alcohol Hangover on Simulated Driving Performance During a 'Commute to Work'-Zero and Residual Alcohol Effects Compared\" (Journal of Clinical Medicine, 2020)",
+    "sourceUrl": "https://doi.org/10.3390/jcm9051435",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "朝になってお酒が抜けていれば、運転は平気？",
+        "body": "寝て起きたら、もう酔いはさめている。そう思って朝に車に乗る人もいるよね。二日酔いの朝の運転を、シミュレーターで調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "通勤を想定した20分の運転を、52人で",
+        "body": "52人が、お酒を飲まなかった翌朝と飲み会の翌朝に運転シミュレーターを走った。半数は朝の呼気にアルコールが残り、半数はゼロだったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "呼気がゼロでも、飲んだ翌朝は運転の成績が低めだった",
+        "body": "注意を分けて使う力、車の操作、違反の数などが、飲まない朝より悪かった。呼気がゼロの人も、残っている人と似た傾向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際の道路ではなく、シミュレーターの話",
+        "body": "運転は実際の道路ではなくシミュレーターでの結果だよ。飲んだ量や参加者の年齢・国、夜の順番を割り付けたかは、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "呼気のアルコールがゼロだった朝の運転は、飲まない朝と比べてどうだった？",
+      "correct": "飲まない朝より成績が下がった",
+      "wrong": "飲まない朝と変わらなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-hangover-simulated-driving"
+  },
+  {
+    "id": "alcohol-wine-price-taste-brain",
+    "category": "お酒の常識",
+    "kind": "よくある説",
+    "themeColor": "#D97706",
+    "sourceLabel": "Plassmann, O'Doherty, Shiv & Rangel, \"Marketing actions can modulate neural representations of experienced pleasantness\" (PNAS, 2008)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.0706929105",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "高いワインのほうが、おいしく感じる？",
+        "body": "値段を知ると、味の感じ方まで変わる気がするよね。脳の活動を見ながらワインを味わってもらった実験があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "本当とは違う値段を信じて味わってもらった",
+        "body": "参加者に、実際とは違う値段のワインだと思わせたまま味わってもらい、そのあいだの脳の活動をfMRIという装置で調べたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "高いと思って飲むと、「おいしい」の報告が増えた",
+        "body": "値段が高いと信じたとき、味の心地よさの報告が増えて、心地よさに関わるとされる脳の部位（内側眼窩前頭皮質）の活動も大きくなったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数や、ほかの飲み物でも同じかは不明",
+        "body": "参加者の人数・年齢は、この要旨からはわからないよ。ワイン以外の飲み物や、お酒を飲み慣れた人でも同じ結果になるかも、書かれていないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "高い値段だと思わせて飲んでもらうと？",
+      "correct": "「おいしい」の報告と脳の活動が増えた",
+      "wrong": "「おいしい」の報告だけが増えた"
+    },
+    "webUrl": "https://seadice.win/evidence/alcohol/#alcohol-wine-price-taste-brain"
+  },
+  {
+    "id": "color-wine-red-dye-odor",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Morrot, Brochet & Dubourdieu, \"The color of odors\" (Brain and Language, 2001)",
+    "sourceUrl": "https://doi.org/10.1006/brln.2001.2493",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "見た目の色で、においの感じ方は変わる？",
+        "body": "ワインの香りは、目をつぶっても当てられそう。でも実際は、色に引っぱられているのかもしれない。専門家のコメントも使った研究を見てみよう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "コメントの分析と、白ワインを赤くする実験",
+        "body": "まず専門家のテイスティングのコメントを言葉の面から分析した。次に、白ワインを無臭の色素で赤く染めて、54人の試飲者に香りを答えてもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "赤く染めた白ワインは、赤ワインの言葉で表現された",
+        "body": "コメントでは、ワインの香りを、そのワインと同じ色のものにたとえる例が多かった。赤く染めた白ワインも、54人の試飲者は赤ワインの香りの言葉で表現したよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "古い1回の実験で、仕組みは研究者の見立て",
+        "body": "2001年の研究で、あとから同じ結果が出たかは、この要旨からはわからない。「言葉にする段階で起きる」という説明も、研究者の見立てだよ。"
+      }
+    ],
+    "quiz": {
+      "q": "白ワインを赤く染めて香りを答えてもらうと？",
+      "correct": "赤ワインの香りの言葉で表現された",
+      "wrong": "白ワインと赤ワインの言葉が半々だった"
+    },
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-wine-red-dye-odor"
+  },
+  {
+    "id": "appetite-mediterranean-diet-sleep-meta",
+    "category": "睡眠と食欲",
+    "kind": "研究紹介",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Arab A et al., \"Sleep and the Mediterranean diet: A systematic review and meta-analysis\" (Sleep Medicine Reviews, 2025)",
+    "sourceUrl": "https://doi.org/10.1016/j.smrv.2025.102071",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "気になったこと",
+        "title": "地中海式の食事と、眠りの関係",
+        "body": "野菜・魚・オリーブ油などの地中海式の食事。ちゃんと眠れている人ほど、こういう食事をしているのかな。研究をまとめた論文があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "62の研究、約33万人をまとめた",
+        "body": "睡眠時間・睡眠の質・朝型夜型と、地中海式の食事の点数との関係を、観察研究62本（合計328,493人）で整理したよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "眠れている人は、点数が高い傾向",
+        "body": "睡眠時間が足りている人は、そうでない人より高得点になるオッズ（なりやすさの目安）が約1.4倍。質のよい睡眠は約1.4倍、朝型は約1.7倍だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どっちが先かは、まだ決まらない",
+        "body": "観察研究のまとめだから、食事が眠りを変えたのか逆なのかは言えない。研究ごとの結果のばらつきも大きく、著者も因果の確認は今後の課題としているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "睡眠と地中海式の食事のメタ分析で、わかったことは？",
+      "correct": "眠れている人ほど地中海式の食事の点数が高い傾向があった",
+      "wrong": "食事を地中海式にすると睡眠の質が上がると確かめられた"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-mediterranean-diet-sleep-meta"
+  },
+  {
+    "id": "appetite-sleep-restriction-free-living-rct",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Tajiri E et al., \"Effects of sleep restriction on food intake and appetite under free-living conditions: A randomized crossover trial\" (Appetite, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/j.appet.2023.106998",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝不足の日、実際に食べる量は増える？",
+        "body": "寝不足だとお腹がすく気がするよね。実験室ではなく、ふだんの生活の中で食べたものまで調べた実験があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "24人が、3日間5時間睡眠と8時間睡眠を体験",
+        "body": "平均21.4歳の男女24人（女性13・男性11）が、5時間睡眠の3日間と8時間睡眠の3日間を順番を変えて経験し、空腹感や食べたものを記録したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "空腹感と間食は増えたけど、1日の合計は同じ",
+        "body": "寝不足の日は空腹感と脂っこいものへの欲求が高く、間食のエネルギーと炭水化物が多かった。ただし1日の食事の合計は条件で差がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い24人の、3日間の話",
+        "body": "対象は平均21歳の24人で、期間は3日だけ。もっと長く寝不足が続いた場合や、年齢の違う人でも同じかは、この要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "この実験で、寝不足の日に増えたのは？",
+      "correct": "間食のエネルギーと炭水化物",
+      "wrong": "1日の食事全体のエネルギー合計"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#appetite-sleep-restriction-free-living-rct"
+  },
+  {
+    "id": "digital-social-media-abstinence-wellbeing-rct",
+    "category": "デジタルデトックス",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Vally Z, D'Souza CG, \"Abstinence from social media use, subjective well-being, stress, and loneliness\" (Perspectives in Psychiatric Care, 2019)",
+    "sourceUrl": "https://doi.org/10.1111/ppc.12431",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "SNSをやめたら、いつも気分がよくなる？",
+        "body": "SNS疲れを感じて、いっそやめたいと思うことがあるよね。でも、やめた人の気持ちはいつも軽くなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "68人をくじ引きで2組に",
+        "body": "68人を、SNSをやめる組と、これまでどおり使う組にランダムに分けて、人生の満足度・気分・ストレス・孤独感を比べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "やめた組は、満足度が下がり孤独が増えた",
+        "body": "やめた組は、使い続けた組より人生の満足度が下がり、ネガティブな気分と孤独感が増えた。ストレスの差は、要旨には書かれていないよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "68人の、1つの試験の結果",
+        "body": "人数が68人と少なく、やめた期間の長さも要旨にはない。著者は、SNSを何に使っているかで結果は変わりうると述べているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この試験で、SNSをやめた組に見られたのは？",
+      "correct": "人生の満足度が下がり、孤独感が増えた",
+      "wrong": "人生の満足度が上がり、孤独感が減った"
+    },
+    "links": [
+      {
+        "id": "digital-facebook-quit-1week-denmark",
+        "type": "反対の結果",
+        "why": "SNSを休むと満足度が上がった実験もある（こちらは下がった）"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-social-media-abstinence-wellbeing-rct"
+  },
+  {
+    "id": "exercise-activity-depression-dose-curve-cohorts",
+    "category": "運動と気分",
+    "kind": "よくある説",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Pearce et al., \"Association Between Physical Activity and Risk of Depression: A Systematic Review and Meta-analysis\" (JAMA Psychiatry, 2022)",
+    "sourceUrl": "https://doi.org/10.1001/jamapsychiatry.2022.0609",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "少し動くだけでも、気分にいいの？",
+        "body": "「運動は心にいい」とはいうけど、ガッツリやらないと意味がないのかな。少しだけでも関係あるのか、数字で調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "15の追跡研究、約19万人をまとめた",
+        "body": "大人を3年以上追いかけた15の研究、191,130人分をまとめた。運動の量とあとからうつ状態になった割合の関係を、量ごとに見たんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "推奨量の半分でも、2割ほど低めだった",
+        "body": "まったく動かない人にくらべ、推奨量の半分の人はうつ状態になる割合が18%低く、推奨量の人は25%低かった（約2割・4分の1低い）。それ以上は伸びが小さかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "動いた人のほうが元気だっただけかも",
+        "body": "動いた量を割りつけた実験ではなく、追跡した研究のまとめ。研究ごとのばらつきも大きかった（I2=74%）から、数字はおおよその目安として見てね。"
+      }
+    ],
+    "quiz": {
+      "q": "まったく動かない人にくらべ、推奨量の半分の運動の人は、うつ状態になる割合がどうだった？",
+      "correct": "約18%低かった",
+      "wrong": "約5%低かった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-activity-depression-dose-curve-cohorts"
+  },
+  {
+    "id": "exercise-moderate-activity-loneliness-hrs-cohort",
+    "category": "運動と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#4ADE80",
+    "sourceLabel": "Surkalim et al., \"Exercise to socialize? Bidirectional relationships between physical activity and loneliness in middle-aged and older American adults\" (American Journal of Epidemiology, 2024)",
+    "sourceUrl": "https://doi.org/10.1093/aje/kwae001",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動する人は、孤独になりにくい？",
+        "body": "運動すると人と会う機会も増えそうだよね。逆に、さみしいと動かなくなるのかな。どっちが先なのか、長く追いかけた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの中高年、2万人あまりを16年",
+        "body": "アメリカの健康と退職の調査（Health and Retirement Study）で、2002〜2018年に20,134人を追跡。運動の強さ別の頻度と孤独感の移り変わりを調べたよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "ふつうの運動の人は、孤独になる割合がわずかに低め",
+        "body": "毎週ふつうの強さの運動をする人は、あとで孤独になる割合が6%低め（RR=0.94、ごく小さな差）。きつい運動では差がなかった。同じ人の中で運動量が増減しても、孤独感はほぼ動かなかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "因果は言えず、対象もアメリカの中高年だけ",
+        "body": "くじで運動を割りつけた実験ではないので、運動が原因とは言えないよ。孤独だから動かなくなる関係も見えなかった。対象はアメリカの中高年だけだよ。"
+      }
+    ],
+    "quiz": {
+      "q": "毎週ふつうの強さの運動をする人は、あとで孤独になる割合がどうだった？",
+      "correct": "わずかに低め（6%）",
+      "wrong": "わずかに高め（6%）"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-mood/#exercise-moderate-activity-loneliness-hrs-cohort"
+  },
+  {
+    "id": "love-daily-self-disclosure-sleep-wives-diary",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Kane HS, Slatcher RB, Reynolds BM, Repetti RL, Robles TF, \"Daily self-disclosure and sleep in couples\" (Health Psychology, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/hea0000077",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "パートナーに話した日は、ぐっすり眠れる？",
+        "body": "今日あったことを話せた日は、なんだか寝つきがいい気がしない？ 夫婦の毎日の記録から、話すことと眠りの関係を調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "夫婦が56日間、毎日つけた日記",
+        "body": "同居する46家族の妻46人・夫38人が、56日間、夜に「今日どれだけ打ち明けたか」、朝に前の晩の眠りを記録した。それぞれの人の「いつもより」の日を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "妻は、いつもより話した日の眠りがよかった",
+        "body": "妻は、いつもより多く打ち明けた日、本人の記録で、その夜の眠りの質と効率がよくなった。夫では日ごとの関係は見えず、平均的によく話す夫は夜中に起きる回数が少なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじで決めた実験ではなく、人数も少ない",
+        "body": "日記を見た研究で、話したから眠れたのか、眠れた日に話しやすかったのかは分けられない。46家族と少ない人数で、この要旨には国や年齢が書かれていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "日ごとの「いつもより多く話した」と眠りの関係が見えたのはだれ？",
+      "correct": "妻だけで、夫では見えず",
+      "wrong": "夫だけで、妻では見えず"
+    },
+    "webUrl": "https://seadice.win/evidence/love/#love-daily-self-disclosure-sleep-wives-diary"
+  },
+  {
+    "id": "love-poor-sleep-more-conflict-couples-lab",
+    "category": "恋愛と人間関係",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Gordon AM & Chen S, \"The Role of Sleep in Interpersonal Conflict: Do Sleepless Nights Mean Worse Fights?\" (Social Psychological and Personality Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/1948550613488952",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝不足の日は、ケンカしやすい？",
+        "body": "寝不足の日は、ささいなことでイライラするよね。恋人との言い合いも、睡眠のせいで増えたり悪くなったりするのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "14日間の日記と、実験室での話し合い",
+        "body": "研究1は、恋人がいる人が14日間つけた日記。研究2は、カップルを実験室に呼んで、もめごとについて話し合ってもらい、その中身を調べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "寝不足のあとは、もめごとが増えていた",
+        "body": "日記では、眠りが悪かった翌日に恋人との対立が多かった。実験室では、片方が寝不足だと、2人とも相手の気持ちを読み取る正確さが下がり、前向きな気持ちの割合も低め。解決は2人ともよく眠れたときにいちばん多かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "要旨には人数が書かれていない",
+        "body": "眠りをくじで変えた実験ではないから、寝不足が原因とまでは言えない。要旨には人数が書かれておらず、対象や国もこの要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "実験室の話し合いで、もめごとの解決がいちばん多かったのは？",
+      "correct": "2人ともよく眠れたとき",
+      "wrong": "どちらか1人がよく眠れたとき"
+    },
+    "webUrl": "https://seadice.win/evidence/love/#love-poor-sleep-more-conflict-couples-lab"
+  },
+  {
+    "id": "love-couple-sleep-concordance-wives-satisfaction",
+    "category": "恋愛と人間関係",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Gunn HE, Buysse DJ, Hasler BP, Begley A, Troxel WM, \"Sleep Concordance in Couples is Associated with Relationship Characteristics\" (Sleep, 2015)",
+    "sourceUrl": "https://doi.org/10.5665/sleep.4744",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夫婦って、眠るタイミングも合ってくる？",
+        "body": "仲のいい夫婦は、同じころに寝て同じころに起きるイメージがあるよね。眠りと起きの重なりを1分ごとに測って、夫婦の関係と比べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "手首の装置で10日間、1分ごとに記録",
+        "body": "夫婦が手首につける睡眠の記録装置を10日間つけ、2人とも眠っている、または2人とも起きている時間の割合（一致度）を出した。愛着の傾向と結婚の満足度も聞いたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "一致度は53〜88%。妻の満足度が高い夫婦で高めだった",
+        "body": "一致度は夫婦で53〜88%と幅があり、眠りの質や朝型夜型とは関係がなかった。妻の結婚の満足度が高いと、夫の愛着のタイプにかかわらず一致度が高かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かは、この要旨からはわからない",
+        "body": "ある時期を測った研究で、満足度が高いから合うのか、合うから満足なのかはわからない。夫婦の組数や国も、この要旨には書かれていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "眠りと起きの一致度が高めだったのは、どんな夫婦？",
+      "correct": "妻の結婚の満足度が高い夫婦",
+      "wrong": "夫婦で朝型夜型が同じタイプの夫婦"
+    },
+    "webUrl": "https://seadice.win/evidence/love/#love-couple-sleep-concordance-wives-satisfaction"
+  },
+  {
+    "id": "caffeine-coffee-timing-morning-mortality",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Wang X, Ma H, Sun Q, Li J, Heianza Y, Van Dam RM, Hu FB, Rimm E, Manson JE, Qi L, \"Coffee drinking timing and mortality in US adults\" (European Heart Journal, 2025)",
+    "sourceUrl": "https://doi.org/10.1093/eurheartj/ehae871",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーは、飲む時間で体への関係が変わる？",
+        "body": "同じ量のコーヒーでも、朝に飲むのと夕方まで飲むのとで違いがあるのか。そんな疑問を、アメリカの大規模調査のデータで調べた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "飲む時間帯のパターンで人を分けた",
+        "body": "アメリカの成人40,725人の食事記録から、コーヒーを飲む時間帯のパターンを分類。朝型は36%、一日中飲む型は14%いた。中央値で約10年、亡くなったかどうかを追った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "朝型の人は、死亡リスクが低めという関係",
+        "body": "飲まない人と比べて、朝型は全死亡リスクが約16%低く（ハザード比0.84）、心血管の病気での死亡は約31%低かった（0.69）。一日中型では、はっきりした差は見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "朝に飲んだから、とは言えない",
+        "body": "調べただけの観察研究だから、飲む時間そのものが理由かはわからない。朝型の人の暮らしぶりなど、ほかの違いが残っている可能性は、この要旨からは切り分けられない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、コーヒーを飲む時間帯について見られたのは？",
+      "correct": "朝に飲む型の人だけ、死亡リスクが低めだった",
+      "wrong": "時間によらず、飲む人は死亡リスクが低めだった"
+    },
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-coffee-timing-morning-mortality"
+  },
+  {
+    "id": "caffeine-anxiety-meta-healthy",
+    "category": "カフェイン",
+    "kind": "素朴な疑問",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Liu C, Wang L, Zhang C, Hu Z, Tang J, Xue J, Lu W, \"Caffeine intake and anxiety: a meta-analysis\" (Frontiers in Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2024.1270246",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "コーヒーを飲むと、そわそわ不安になる？",
+        "body": "コーヒーを飲みすぎると落ち着かなくなる、ってよく聞くよね。精神の病気がない人で、カフェインと不安の関係をまとめた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8本の論文、546人分を数字でまとめた",
+        "body": "データベースを探して、条件に合う8本の論文（14の研究、健康な人546人分）を選んだ。不安の測り方がばらばらなので、標準化した平均差（SMD）で比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "カフェインをとった人は、不安の得点が高めだった",
+        "body": "全体のSMDは0.94（0.2で小さい・0.5で中くらい・0.8で大きい）。量の少ない研究は0.61、量の多い研究は2.86と、多い研究ほど差が大きく、400mg超でとくに目立った。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "数字の幅が広く、人数も多くない",
+        "body": "全体の0.94は信頼区間が0.28〜1.60と幅広い。実験か調査かの内訳は、この要旨からはわからない。不安の得点の話で、不安の病気になりやすいかを調べたものではないよ。気になる症状は医師に相談してね。"
+      }
+    ],
+    "quiz": {
+      "q": "このメタ分析で、カフェインの量と不安について言えたことは？",
+      "correct": "量の多い研究ほど、不安の得点が高めだった",
+      "wrong": "量の多い研究ほど、不安の得点が低めだった"
+    },
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-anxiety-meta-healthy"
+  },
+  {
+    "id": "caffeine-teen-eeg-sleep-afternoon",
+    "category": "カフェイン",
+    "kind": "研究紹介",
+    "themeColor": "#FB923C",
+    "sourceLabel": "Lunsford-Avery JR, Kollins SH, Kansagra S, Wang KW, Engelhard MM, \"Impact of daily caffeine intake and timing on electroencephalogram-measured sleep in adolescents\" (Journal of Clinical Sleep Medicine, 2022)",
+    "sourceUrl": "https://doi.org/10.5664/jcsm.9736",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "調べた人",
+        "title": "家で1週間、脳波で眠りを測った",
+        "body": "11〜17歳の98人（平均14歳）が、7日間続けて自宅で睡眠の脳波を測った。毎日、朝・午後・夜にカフェインをとったかも日記に書いたよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "カフェインの量と眠りの関係を日ごとに見た",
+        "body": "その日のカフェイン量と、寝つくまでの時間・睡眠時間・睡眠効率・睡眠の段階を、日ごとに比べた。逆に眠りが翌日の摂取に関係するかも調べた。"
+      },
+      {
+        "stage": "結果",
+        "title": "カフェインが多い日は、眠りが短く、寝つきも悪めだった",
+        "body": "多い日は、寝つくまでが長く、睡眠時間と睡眠効率とレム睡眠が低めだった。この関係は、午後と夜にとった分で目立った。朝の分では、はっきりしなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飲んだ量の測り方と因果は慎重に",
+        "body": "カフェイン量は日記の自己申告で、1週間の観察研究。飲んだから眠れなかったのか、ほかの日の事情かは切り分けられない。国や1杯あたりの量は、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、眠りとの関係が目立ったのはどの時間帯のカフェイン？",
+      "correct": "午後と夜にとった分で目立った",
+      "wrong": "朝にとった分でいちばん目立った"
+    },
+    "webUrl": "https://seadice.win/evidence/caffeine/#caffeine-teen-eeg-sleep-afternoon"
+  },
+  {
+    "id": "sleepenv-light-at-night-elderly-depression",
+    "category": "睡眠環境",
+    "kind": "研究紹介",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Obayashi K, Saeki K, Iwamoto J, Ikada Y, Kurumatani N, \"Exposure to light at night and risk of depression in the elderly\" (Journal of Affective Disorders, 2013)",
+    "sourceUrl": "https://doi.org/10.1016/j.jad.2013.06.018",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "調べた人",
+        "title": "高齢者516人の寝室の明るさを測った",
+        "body": "平均72.8歳の516人の寝室で、夜の明るさと昼の光を機器で測り、夜のメラトニン（睡眠にかかわるホルモン）の尿中量も調べた。うつ気分は質問票で測ったよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "夜の光とうつ気分の関係",
+        "body": "夜の寝室が平均5ルクス以上の人が、うつ気分のあるグループ（101人）とないグループ（415人）でどれだけいたかを比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "夜の寝室が明るい人に、うつ気分の人が多め",
+        "body": "うつ気分のあるグループでは、夜に5ルクス以上の人の割合が高かった（調整後オッズ比1.89、95%信頼区間1.10〜3.25と幅が広い。オッズは「なりやすさの目安」）。尿中のメラトニン量は、うつ気分と関係が見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ時点の調査で、順番がわからない",
+        "body": "ある時点だけを見る調査（横断分析）なので、明るさがうつ気分の原因か、気分の落ち込みで明るくして寝るのかは切り分けられない。国や、高齢者以外に当てはまるかも、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、夜の寝室の明るさについてわかったことは？",
+      "correct": "明るい寝室の人は、うつ気分のある人に多めだった",
+      "wrong": "明るい寝室の人は、うつ気分のある人に少なめだった"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleepenv-light-at-night-elderly-depression"
+  },
+  {
+    "id": "sleepenv-bedroom-pm25-co2-noise-actigraphy",
+    "category": "睡眠環境",
+    "kind": "研究紹介",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Basner M, Smith MG, Jones CW, Ecker AJ, Howard K, Schneller V, et al., \"Associations of bedroom PM2.5, CO2, temperature, humidity, and noise with sleep: An observational actigraphy study\" (Sleep Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/j.sleh.2023.02.010",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "調べた人",
+        "title": "62人の寝室を2週間ずっと測った",
+        "body": "62人（平均47.7歳）の寝室で、PM2.5（空気中の細かいちり）・二酸化炭素・温度・湿度・騒音などを14日間測り続けた。手首の活動量計と睡眠日記で眠りも記録したよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1時間ごとの睡眠効率との関係",
+        "body": "睡眠効率（ベッドにいる時間のうち眠れていた割合）を1時間ごとに出して、寝室の環境が高い夜と低い夜でどう違うかを、年齢などをそろえて比べた。"
+      },
+      {
+        "stage": "結果",
+        "title": "空気・温度・音が高いほど、睡眠効率は低め",
+        "body": "いちばん高い5分の1は低い5分の1より、PM2.5で3.2%、温度で3.4%、二酸化炭素で4.0%、騒音で4.7%低かった。湿度と気圧は睡眠効率と関係なし。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "3〜5%の差が体感に出るかはわからない",
+        "body": "本人が感じる寝つきや睡眠の質とは、はっきりした関係が少なかった。湿度だけは、眠気や睡眠の質の自己評価と関係が見られたよ。環境は同時に変わるので、1つずつの影響は、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "寝室の環境と睡眠効率について、この研究で見られたのは？",
+      "correct": "温度や騒音などが高いと、効率が低めだった",
+      "wrong": "湿度が高いと、効率がいちばん低めだった"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleepenv-bedroom-pm25-co2-noise-actigraphy"
+  },
+  {
+    "id": "brain-taxi-london-knowledge-hippocampus",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Woollett K, Maguire EA, \"Acquiring \\\"the Knowledge\\\" of London's layout drives structural brain changes\" (Current Biology, 2011)",
+    "sourceUrl": "https://doi.org/10.1016/j.cub.2011.11.018",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "大人になったら、脳はもう変わらない？",
+        "body": "「脳は子どものうちに決まって、大人になったら変わらない」ってよく聞くよね。大人が何年も勉強したら、脳のつくりまで変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "タクシー運転手の訓練生を4年追った",
+        "body": "ロンドンの複雑な道を覚えてタクシー運転手の免許を目指す大人を、4年にわたって追った研究。合格した人、しなかった人、訓練していない人の脳を比べたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "合格した人は、海馬の後ろ側が増えていた",
+        "body": "合格した人は、記憶に関わる海馬の後ろ側の灰白質の量が増えていて、記憶の成績にも変化があった。合格しなかった人と訓練していない人には、脳のつくりの変化は見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きではなく、人数もこの要旨にない",
+        "body": "訓練を受ける人をくじ引きで分けた研究ではないよ。人数や年齢は要旨に書かれていないし、合格した人だけに変化があった理由も、この要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "合格しなかった訓練生の脳には、どんな変化があった？",
+      "correct": "目立った変化は見られなかった",
+      "wrong": "合格した人と同じ部分が増えていた"
+    },
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-taxi-london-knowledge-hippocampus"
+  },
+  {
+    "id": "brain-neuromyths-educators-public-us",
+    "category": "脳の神話",
+    "kind": "研究紹介",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Macdonald K, Germine L, Anderson A, et al., \"Dispelling the Myth: Training in Education or Neuroscience Decreases but Does Not Eliminate Beliefs in Neuromyths\" (Frontiers in Psychology, 2017)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2017.01314",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「脳の神話」を信じているのは、どんな人？",
+        "body": "「右脳型・左脳型」「脳は10%しか使っていない」みたいな脳の神話。学校の先生や脳を学んだ人なら、信じていないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの3,877人にオンラインで聞いた",
+        "body": "教育者598人、神経科学にふれる機会が多い人234人、一般の人3,045人に、脳の神話が正しいと思うかをオンライン調査で聞いて比べた研究だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "信じた割合は一般68%、教育者56%、詳しい人46%",
+        "body": "神話の項目に「正しい」と答えた平均は、一般の人68%、教育者56%、神経科学にふれる機会が多い人46%。いちばん多く信じられたのは、学習スタイルとディスレクシアの神話だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "学んでも、ゼロにはならない",
+        "body": "学ぶと減るけど、神経科学の人でも半分近くは信じていた。オンライン調査でアメリカの人だけなので、日本で同じかはわからないし、学んだから減ったのかもこの要旨ではわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "どの集団でも特に多く信じられていた神話は？",
+      "correct": "学習スタイルに関する神話",
+      "wrong": "脳は10%しか使わない説"
+    },
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-neuromyths-educators-public-us"
+  },
+  {
+    "id": "brain-retirement-cognitive-function-meta",
+    "category": "脳の神話",
+    "kind": "よくある説",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Alvarez-Bueno C, Cavero-Redondo I, Jimenez-Lopez E, et al., \"Effect of retirement on cognitive function: a systematic review and meta-analysis\" (Occupational and Environmental Medicine, 2020)",
+    "sourceUrl": "https://doi.org/10.1136/oemed-2020-106892",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "仕事をやめると、頭が一気に衰える？",
+        "body": "「定年したら急にボケる」なんて話、聞いたことあるよね。仕事をやめると、頭の働きは本当に落ちるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "23本の追跡研究をまとめた",
+        "body": "退職と認知機能の関係を追跡した23本の研究を集めて、全般的な認知機能と、記憶に関わる力の変化を数字でまとめた分析だよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "全般はほぼ変わらず、記憶も差はごくわずか",
+        "body": "全般的な認知機能の効果量は−0.01で、ほぼゼロ。記憶は−0.09で、「小さい」の目安0.2よりさらに小さい。ただし信頼区間は−0.16〜0.01でゼロをまたぎ、研究ごとのばらつきも大きかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ばらつきの理由は、この要旨にない",
+        "body": "記憶の結果は研究ごとの違いが大きく（ばらつきの指標I²が93%）、信頼区間もゼロをまたぐ（−0.16〜0.01）。国別や、退職後の過ごし方での違いは、この要旨ではわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "退職と記憶に関わる力の関係は、どうだった？",
+      "correct": "ごく小さな差で、研究ごとの差が大きい",
+      "wrong": "はっきりした低下で、結果はそろっていた"
+    },
+    "webUrl": "https://seadice.win/evidence/brain-myths/#brain-retirement-cognitive-function-meta"
+  },
+  {
+    "id": "oya-internet-use-retired-depression-us",
+    "category": "親の老いと介護",
+    "kind": "研究紹介",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Cotten SR, Ford G, Ford S, Hale TM, \"Internet Use and Depression Among Retired Older Adults in the United States: A Longitudinal Analysis\" (The Journals of Gerontology Series B, 2014)",
+    "sourceUrl": "https://doi.org/10.1093/geronb/gbu018",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "親がネットを使うと、気持ちはどうなる？",
+        "body": "「年をとってからネットなんて」と思いがちだけど、退職した親がインターネットを使うと、気持ちの面で何か違いはあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの退職後3,075人を2002〜2008年に追った",
+        "body": "アメリカの高齢者調査（Health and Retirement Survey）の4回分、退職した3,075人のデータで、ネット利用と抑うつの質問票（CES-D）の点の変化を調べたよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "ネットを使う人は、うつ状態の目安が出る確率が約3分の1低め",
+        "body": "ネットを使う人は、質問票でうつ状態の目安が出る確率が約33%低かった（相対的な差か絶対的な差かは要旨にない）。ひとり暮らしの人で差が大きく、孤独や孤立が減ることが関係しているかもしれないという結果だよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きの実験ではなく、2008年までのデータ",
+        "body": "ネットを使う人を無作為に分けた研究ではないよ。著者は交絡（別の要因）の証拠はなかったとするけど、今のスマホ時代にも当てはまるかは、この要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "ネット利用とうつ状態の目安の関係が、とくに大きかったのは？",
+      "correct": "ひとり暮らしの人",
+      "wrong": "家族と暮らす人"
+    },
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-internet-use-retired-depression-us"
+  },
+  {
+    "id": "oya-pet-ownership-cognitive-blsa",
+    "category": "親の老いと介護",
+    "kind": "研究紹介",
+    "themeColor": "#A3E635",
+    "sourceLabel": "Friedmann E, Gee NR, Simonsick EM, et al., \"Pet ownership and maintenance of cognitive function in community-residing older adults: evidence from the Baltimore Longitudinal Study of Aging (BLSA)\" (Scientific Reports, 2023)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-023-41813-y",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ペットを飼うと、頭の衰えがゆるやかになる？",
+        "body": "犬や猫と暮らしている親は元気そう、って思うことない？ペットを飼っているかどうかで、年をとったときの頭の働きに差はあるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "50〜100歳の637人を、最長13年追った",
+        "body": "アメリカの長期調査（BLSA）で、50〜100歳の健康な637人（飼い主185人）の記憶や注意などのテストを1〜13年にわたって繰り返し、変化を比べたよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "飼い主は、いくつかのテストで低下がゆるやかだった",
+        "body": "年齢と持病を考えに入れても、ペットを飼う人は記憶など複数のテストで低下がゆるやかだった。犬の飼い主73人では、散歩する人が一部のテストでゆるやかだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "飼えたのが元気な人だけだった可能性",
+        "body": "くじ引きで飼い主を決めた研究ではないよ。差の大きさは要旨に書かれていないし、元気だからペットを飼えたのか、飼ったから衰えにくいのかは、この要旨からは切り分けられないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "犬を飼っている人のうち、散歩する人はどうだった？",
+      "correct": "一部のテストで低下がゆるやかだった",
+      "wrong": "全部のテストで低下がゆるやかだった"
+    },
+    "webUrl": "https://seadice.win/evidence/aging-parents/#oya-pet-ownership-cognitive-blsa"
+  },
+  {
+    "id": "personality-volitional-change-goals",
+    "category": "性格と性格診断",
+    "kind": "素朴な疑問",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Hudson & Fraley, \"Volitional personality trait change: Can people choose to change their personality traits?\" (Journal of Personality and Social Psychology, 2015)",
+    "sourceUrl": "https://doi.org/10.1037/pspp0000021",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "性格は「変わりたい」と思えば変わる？",
+        "body": "性格を変えたいって思う人は多いよね。でも、思うだけで本当に変わるのかな。16週間にわたって調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2つの研究を16週間追った",
+        "body": "参加者に、ビッグファイブ（性格の5つの軸）のどれをどう変えたいか聞いて、16週間、自己評価と日々の行動の変化を測った。くじ引きで介入も試したらしい。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "目標がある人は、自己評価が動いた",
+        "body": "どの軸でも、増やしたいという目標を持った人は、16週間後にその軸の自己評価が上がる傾向があった。介入は2つのうち、「いつ・どこで・何をする」と決める練習の方だけ効いたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自己評価の変化にとどまる",
+        "body": "結果は主に自己評価で、周りから見て変わったかは要旨にない。目標と変化の関係は、くじ引きではなく、もともとの目標の違いを比べたもの。目標の効果か練習の効果かの切り分けも、この要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、試した2つの介入のうち効いたのは？",
+      "correct": "「いつ・どこで・何をする」を決める練習",
+      "wrong": "2つとも、同じくらい効いた"
+    },
+    "webUrl": "https://seadice.win/evidence/personality/#personality-volitional-change-goals"
+  },
+  {
+    "id": "personality-life-events-trait-change",
+    "category": "性格と性格診断",
+    "kind": "研究紹介",
+    "themeColor": "#D946EF",
+    "sourceLabel": "Bleidorn et al., \"Life Events and Personality Trait Change\" (Journal of Personality, 2018)",
+    "sourceUrl": "https://doi.org/10.1111/jopy.12286",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "結婚や子どもの誕生、仕事の出来事で、性格は変わる？",
+        "body": "大きな出来事のあとで人が変わった、って話は聞くよね。恋愛・仕事に関わる9つの出来事について、性格の変化を追った研究をまとめたレビューがあるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "追跡した研究を整理した",
+        "body": "出来事の前と後で性格を測った研究（前向き研究）を集めて、結婚・子どもの誕生など、恋愛と仕事に関わる出来事で性格の特性が変わるかを整理した。要旨には数字のまとめは出てこない。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "変わる証拠は少しあるが、まだ途中",
+        "body": "出来事によって性格が変わるという証拠は一部あって、出来事ごとに関係する特性が違うかもしれない。ただ著者らは、変化の形やタイミングはまだ予備的な段階だと書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "出来事と変化の道すじ",
+        "body": "レビューなので、個々の研究の対象や人数はそれぞれ違う。出来事が原因で変わったのか、変わりやすい人が出来事を選んだのかは、この要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "このレビューの結論に近いのはどれ？",
+      "correct": "出来事で変わる証拠はあるが、まだ予備的",
+      "wrong": "出来事で変わる証拠はほぼ見つからなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/personality/#personality-life-events-trait-change"
+  },
+  {
+    "id": "nature-gardening-health-meta",
+    "category": "自然と健康",
+    "kind": "研究紹介",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Soga et al., \"Gardening is beneficial for health: A meta-analysis\" (Preventive Medicine Reports, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.pmedr.2016.11.007",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "ガーデニングは体にいい？",
+        "body": "土いじりや花の世話は、気持ちがいいって言うよね。園芸が健康にどう関わるかを、22の研究をまとめて調べたメタ分析があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22件の研究、76の比較",
+        "body": "園芸療法も含めて、ガーデニングをする前と後、またはする人としない人を比べた研究が対象。米国・欧州・アジア・中東の研究が集まったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "いろいろな指標で良い方向だった",
+        "body": "うつや不安、BMIの低下、生活満足度や生活の質、地域とのつながりの上昇などが報告されていた。全体として、ガーデニングをする側の健康指標が良い方向にずれていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "出版の偏りと、因果の切り分け",
+        "body": "研究には出版バイアス（良い結果が載りやすい偏り）があると検定で示された。補正しても結果は残ったけれど、ガーデニングが原因かどうかは、この要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "このメタ分析で、研究に見つかった弱点は？",
+      "correct": "良い結果が載りやすい偏りが見られた",
+      "wrong": "悪い結果が載りやすい偏りが見られた"
+    },
+    "webUrl": "https://seadice.win/evidence/nature/#nature-gardening-health-meta"
+  },
+  {
+    "id": "nature-birdlife-wellbeing-ema",
+    "category": "自然と健康",
+    "kind": "研究紹介",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Hammoud et al., \"Smartphone-based ecological momentary assessment reveals mental health benefits of birdlife\" (Scientific Reports, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-022-20207-6",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "鳥を見たり聞いたりすると、気分がいい？",
+        "body": "散歩中に鳥の声を聞くとほっとする、ってあるよね。ふだんの生活の中で、気分と鳥との出会いの関係をスマホで調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1292人、2万6千回あまりの回答",
+        "body": "アプリ（Urban Mind）で、その場の気分と、鳥を見た・聞いたかを何度も答えてもらった。2018年4月から2021年10月まで、計26,856回の記録だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "鳥に出会ったときは、気分が良い傾向",
+        "body": "鳥を見たり聞いたりしたときは、あとまで続く心の状態の良さと関係していた。うつの診断を受けた人でも同じ関係が見られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "鳥のおかげかは切り分けられない",
+        "body": "介入せず記録を集めた観察研究なので、鳥が気分を上げたのか、気分のいい日に鳥に気づきやすいのかは、この要旨からはわからない。関係の大きさの数字も要旨にはないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究の方法として合っているのは？",
+      "correct": "アプリで、その場の気分を何度も答えてもらう",
+      "wrong": "森へ連れて行き、鳥の声を聞かせて比べる"
+    },
+    "webUrl": "https://seadice.win/evidence/nature/#nature-birdlife-wellbeing-ema"
+  },
+  {
+    "id": "nature-green-space-child-cognition",
+    "category": "自然と健康",
+    "kind": "研究紹介",
+    "themeColor": "#16A34A",
+    "sourceLabel": "Dadvand et al., \"Green spaces and cognitive development in primary schoolchildren\" (PNAS, 2015)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1503402112",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "緑の多い学校の子は、頭の育ちが違う？",
+        "body": "学校のまわりに緑があると、子どもにいいって言うよね。スペインのバルセロナで、小学生の認知の発達と緑の量を調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "36校・2,593人を1年追った",
+        "body": "7〜10歳の子どもに、3か月ごとに4回、パソコンで作業記憶と不注意の課題をやってもらった。家・学校・通学路のまわりの緑は、衛星データで測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "緑が多い学校の子は、伸びが大きかった",
+        "body": "学校やそのまわりの緑が多いほど、1年間の作業記憶の伸びが大きく、不注意の減りも大きい関係が見られた。大気汚染物質を加えると、関係の20〜65%が説明されたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "緑そのものの効果とは言えない",
+        "body": "観察研究なので、緑のおかげか、緑の多い地域の家庭の違いかは、この要旨からはわからない。対象はバルセロナの小学生で、ほかの国や年齢でも同じかは、この要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、大気汚染を加えると何が起きた？",
+      "correct": "緑との関係のうち20〜65%が説明された",
+      "wrong": "緑との関係のうち5〜20%が説明された"
+    },
+    "webUrl": "https://seadice.win/evidence/nature/#nature-green-space-child-cognition"
+  },
+  {
+    "id": "weather-cold-season-warm-days-stress",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Fischer et al., \"Cold season air temperature as predictor of psychological well-being and mental health\" (Scientific Reports, 2025)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-025-02486-x",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寒い季節でも、あたたかい日が続くと気持ちはラクになる？",
+        "body": "冬は気分が沈みがち、とよく言うよね。じゃあ、寒い季節の中であたたかい日が続くと、気持ちは少し軽くなるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "気象観測所156か所と、8017人の調査",
+        "body": "フィッシャーらは、寒い季節に行われた代表性のある調査（ストレス・孤独感・気分・満足度・健康の自己評価）の回答に、近くの観測所の気温を結びつけて調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "あたたかい時期の人は、ストレスが低めだった",
+        "body": "直近1か月ほど気温が高めだった人ほど、感じているストレスは低めで、健康の自己評価もよかった。孤独感や満足度は「ほどほどの気温」でよい結果。いくつも調べた中で、一部に関係が出た形だよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "天気が原因とは言えない",
+        "body": "観察研究なので、気温が気持ちを変えたかは決められない。差の大きさは要旨だけでは実感しにくい。調べたのは寒い季節だけで、暑い季節の関係は、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、寒い季節の気温とストレスの関係は？",
+      "correct": "気温が高めの人ほど、ストレスは低めだった",
+      "wrong": "ストレスとは関係せず、孤独感だけが低めだった"
+    },
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-cold-season-warm-days-stress"
+  },
+  {
+    "id": "weather-humid-warm-day-steps-young-adults",
+    "category": "天気と気分",
+    "kind": "素朴な疑問",
+    "themeColor": "#0EA5E9",
+    "sourceLabel": "Vecellio, Lagoa & Conroy, \"Physical Activity Dependence on Relative Temperature and Humidity Characteristics in a Young, Insufficiently Active Population: A Weather Typing Analysis\" (Journal of Physical Activity and Health, 2024)",
+    "sourceUrl": "https://doi.org/10.1123/jpah.2023-0438",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "蒸し暑い日は、体を動かす量が減る？",
+        "body": "天気がいいと動きたくなるし、じめじめした日はだるい。そんな感覚は、実際の活動量にも出ているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "若い成人81人を、のべ8179人日",
+        "body": "運動不足ぎみの若い成人81人が、6か月ほどスマートウォッチ（Fitbit）をつけた。その活動量を、その日の気温と湿度の組み合わせ（天気のタイプ）と比べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "湿度の高い日は活動量が少なめだった",
+        "body": "湿度の高い日は、活動量がはっきり低かった。あたたかく乾いた日は高かったけれど、新型コロナの宣言の時期を考えに入れると、この差ははっきりしなくなった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運動不足ぎみの若者の1グループだけ",
+        "body": "別の研究（毎日のメッセージを変えた介入試験）の二次分析で、対象は運動不足ぎみの81人。差の大きさは要旨にない。ほかの地域や年齢で同じかも、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、湿度の高い日と、あたたかく乾いた日の活動量は？",
+      "correct": "湿度高い日は低く、乾いた日の高さは調整で消えた",
+      "wrong": "湿度高い日は低く、乾いた日の高さも調整後に残った"
+    },
+    "webUrl": "https://seadice.win/evidence/weather-mood/#weather-humid-warm-day-steps-young-adults"
+  },
+  {
+    "id": "food-dark-chocolate-depressive-symptoms-nagoya",
+    "category": "食事と脳",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Nosaka et al., \"Self-reported dark chocolate consumption and depressive symptoms among community-dwelling older adults in Nagoya, Japan: a cross-sectional study\" (Frontiers in Nutrition, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fnut.2026.1924057",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ダークチョコを食べている人は、気分が落ち込みにくい？",
+        "body": "チョコは気分によさそう、という話はよく聞くよね。長くダークチョコを食べてきた高齢の人は、落ち込みの症状が少ないのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "名古屋の70歳以上、2957人",
+        "body": "Nosakaらは、地域に住む70歳以上の2957人を調べた。ダークチョコの習慣（週1〜2回以上を2年超など）と、落ち込みの症状を、同じ時点の質問で比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2年超の人は、落ち込みの症状が少なめの傾向",
+        "body": "2年を超えて食べていた人は、チョコ自体をほとんど食べない人より、症状があるオッズが0.73（約3割低い。信頼区間0.53〜1.01で1をまたぐ）。欠けた回答を補う分析では0.69で、1をまたがなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "食べたから軽いのか、軽いから食べるのか",
+        "body": "同じ時点に測った1回きりの調査なので、順番も原因もわからない。研究者も、今後は追跡や介入の研究が必要としている。名古屋の地域に住む70歳以上の話で、他の年代はわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "ダークチョコ2年超の人の、落ち込みの症状は？",
+      "correct": "約3割低い傾向だが、はっきりとは言えない",
+      "wrong": "約3割低く、はっきり差があったと言える"
+    },
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-dark-chocolate-depressive-symptoms-nagoya"
+  },
+  {
+    "id": "food-fruit-veg-breakfast-school-children-iq",
+    "category": "食事と脳",
+    "kind": "素朴な疑問",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Li et al., \"Effects of a Fruit- and Vegetable-Enriched Breakfast on Cognition, Attention, and Mood in Primary School Children: A Randomized Controlled Trial\" (Nutrients, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/nu18040581",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "野菜や果物たっぷりの朝ごはんで、子どもの頭の働きは上がる？",
+        "body": "野菜や果物は体にいい、とよく言うよね。朝ごはんに増やしたら、子どもの集中力や考える力まで変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "上海の7〜11歳251人を12週間",
+        "body": "Liらは、クラスごとに、野菜・果物を増やした朝ごはんか、エネルギー量をそろえた通常の朝ごはんかをランダムに割り当てた。知能検査（WISC-IV）などの変化を比べた。"
+      },
+      {
+        "stage": "結果",
+        "title": "知能検査の変化に、グループ間の差は見られなかった",
+        "body": "知能指数（FSIQ）の変化の差は−0.63点。信頼区間は−5.15〜3.89と広く、小さな差までは見分けられなかった（IQは平均100、ばらつきの目安15点）。注意の症状や気分にも差はなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "12週間・上海の小学生の話",
+        "body": "年齢の小さい子で疲れが減った、という探索的な示唆はあるが、確かめる研究が要るとされた。もっと長い期間や、他の国の子どもでどうかは、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "野菜・果物の朝ごはんを12週続けた子の知能検査は？",
+      "correct": "通常の朝ごはんの子と、はっきりした差はなかった",
+      "wrong": "通常の朝ごはんの子より、わずかに高いと言えた"
+    },
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-fruit-veg-breakfast-school-children-iq"
+  },
+  {
+    "id": "food-acute-caffeine-young-cognition-meta",
+    "category": "食事と脳",
+    "kind": "よくある説",
+    "themeColor": "#F59E0B",
+    "sourceLabel": "Niu et al., \"Acute caffeine intervention and cognitive performance in populations aged 20 years and younger: a systematic review and meta-analysis\" (Frontiers in Nutrition, 2026)",
+    "sourceUrl": "https://doi.org/10.3389/fnut.2026.1888658",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "カフェインを飲むと、若い人でも頭が冴える？",
+        "body": "眠気覚ましにコーヒーやお茶、という人は多いよね。大人の話はよく聞くけれど、20歳以下の若い人でも、飲むと課題の成績が上がるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "14件の試験、250人を、まとめて分析",
+        "body": "Niuらは、カフェインかプラセボ（偽の飲み物）を1回だけ飲んで、課題の成績を比べた無作為化試験を集めた。対象は20歳以下の健康な人で、全部で14件・250人分。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "小さめの上乗せが、平均で見られた",
+        "body": "成績の差は標準化平均差0.41。0.2で小さい・0.5で中くらいなので、その中間あたり。精神運動の速さ（反応など）と注意で中くらいの改善とされるけど、領域どうしの差ははっきりしなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数が少なく、飲む量の影響はつかめない",
+        "body": "論文自身が、小さな研究が少数だと注意を促している。日ごろの摂取量による違いは7件分だけの検討で、力が足りないかもしれない。長く飲み続けた影響は、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "若い人が1回飲んだとき、課題の成績は平均でどうなった？",
+      "correct": "プラセボより小さめの上乗せ（0.41）があった",
+      "wrong": "プラセボと差はなく、飲んでも変わらなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/food-brain/#food-acute-caffeine-young-cognition-meta"
+  },
+  {
+    "id": "happy-positive-affect-success-meta",
+    "category": "幸福の科学",
+    "kind": "よくある説",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Lyubomirsky, King, Diener, \"The Benefits of Frequent Positive Affect: Does Happiness Lead to Success?\" (Psychological Bulletin, 2005)",
+    "sourceUrl": "https://doi.org/10.1037/0033-2909.131.6.803",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "成功したから幸せ、のはず？",
+        "body": "結婚・友だち・収入・仕事ぶり・健康のどれでも、幸せな人はうまくいっていると言われるよね。成功が幸せをつくるだけなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3種類の研究を集めて数字でまとめた",
+        "body": "2005年、リュボミアスキーたちは、ある時点を比べた研究・追いかけた研究・条件を変えた実験を集めて、効果量をメタ分析でまとめた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "幸せは成功と関係し、先に来る結果もあった",
+        "body": "幸せな人ほど成功しているという関係が見られ、幸せのほうが先に来る結果もあった。うれしい気分が成功の原因の一つかもしれない、と著者は述べているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果の大きさは、この要旨ではわからない",
+        "body": "要旨には効果量の数字がなく、どれくらいの差なのかは読み取れない。「原因かもしれない」という書き方で、言い切ってはいないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究のまとめに近いのは？",
+      "correct": "幸せは成功の結果でも、先に来る場合もある",
+      "wrong": "幸せは成功の結果で、成功より先には来ない"
+    },
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-positive-affect-success-meta"
+  },
+  {
+    "id": "happy-very-happy-people-social",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Diener & Seligman, \"Very Happy People\" (Psychological Science, 2002)",
+    "sourceUrl": "https://doi.org/10.1111/1467-9280.00415",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "とても幸せな人は、何が違うんだろう",
+        "body": "いつも幸せそうな人っているよね。お金や運動、信仰、いい出来事の多さなのか、それとも別のことなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "学部生222人から、とても幸せな人を選んだ",
+        "body": "複数の質問で選んだ上位10%の「いつも幸せな人」を、ふつうの人・とても不幸な人と比べた。調べたのは、大学生222人の中でだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "いちばん幸せな人は、人づきあいが豊かだった",
+        "body": "恋愛や友人との関係が強く、外向的で協調的、神経質さは低めだった。運動、宗教活動、いい出来事の多さは、はっきりした差は見られなかった（人数が少ないので、差がないとまでは言えない）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大学生1つの集団を、比べただけ",
+        "body": "要旨では、よい人間関係は幸せに「必要」だけど、それだけでは足りないと述べている。人間関係が先か幸せが先かは、この要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究が、よい社会関係について述べたことは？",
+      "correct": "なくてはならないが、それだけでは足りない",
+      "wrong": "あると有利だが、なくても幸せな人は多い"
+    },
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-very-happy-people-social"
+  },
+  {
+    "id": "face-ambient-images-three-dimensions",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Sutherland, Oldmeadow, Santos, Towler et al., \"Social inferences from faces: Ambient images generate a three-dimensional model\" (Cognition, 2013)",
+    "sourceUrl": "https://doi.org/10.1016/j.cognition.2012.12.001",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "顔の印象は、どんな軸でできているの？",
+        "body": "顔から受ける印象は「信頼できそうか」と「支配的か」の2軸で説明できる、という有名な説があるよね。ふだん目にする顔でも当てはまるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "日常のばらばらな写真1000枚を使った",
+        "body": "2013年、サザーランドたちは、ふだん目にする顔を想定した、ばらつきの大きい写真1000枚で調べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "元の2軸は再現。3つ目の軸も出てきた",
+        "body": "「信頼できそうか」と「支配的か」の2軸は、そのまま再現された。さらに「若々しさ・魅力」の軸も新しく出てきて、3つで確かめ直せたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "参加者の人数や国は、この要旨ではわからない",
+        "body": "要旨には、評価した人の人数・年齢・国が書かれていない。写真を見た評価の話で、会ったときの印象がどうかは、ここからはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "1000枚の写真の分析で、元の2軸のほかに出てきた軸は？",
+      "correct": "若々しさと魅力の軸",
+      "wrong": "賢さと有能さの軸"
+    },
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-ambient-images-three-dimensions"
+  },
+  {
+    "id": "face-first-impression-threat-39ms",
+    "category": "顔と第一印象",
+    "kind": "素朴な疑問",
+    "themeColor": "#F97316",
+    "sourceLabel": "Bar, Neta, Linz, \"Very first impressions\" (Emotion, 2006)",
+    "sourceUrl": "https://doi.org/10.1037/1528-3542.6.2.269",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「怖そうな人」かは、どれくらいで決まる？",
+        "body": "初対面で「この人、ちょっと怖いかも」と感じること、あるよね。その判断は、顔を見てどれくらいの短さでできるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "無表情の顔で、危険そうかを判断してもらった",
+        "body": "2006年、バーたちは怒りなどの表情の手がかりを除くため、無表情の顔を使った。顔を見せる時間を短くして、危険そうかの判断を調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "39ミリ秒でも、判断はそろった",
+        "body": "見たのは約0.04秒だけなのに、人によって判断がばらばらにならなかった。賢そうかの判断は、同じ条件ではそろいにくかったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「そろった」と「当たっている」は別",
+        "body": "要旨は、判断が人の間でそろうかを調べたもの。その判断が本人の性格と合っているかは書かれていない。参加者の人数もこの要旨にはないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "39ミリ秒の条件で、判断がそろいにくかったのは？",
+      "correct": "頭の良さについての判断",
+      "wrong": "危険そうかどうかの判断"
+    },
+    "webUrl": "https://seadice.win/evidence/face-impression/#face-first-impression-threat-39ms"
   }
 ]
