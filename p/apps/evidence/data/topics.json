@@ -74173,5 +74173,1966 @@
       "wrong": "危険そうかどうかの判断"
     },
     "webUrl": "https://seadice.win/evidence/face-impression/#face-first-impression-threat-39ms"
+  },
+  {
+    "id": "color-red-pen-failure-replication",
+    "category": "色彩心理",
+    "kind": "よくある説",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Fikrlova J et al., \"The power of red: The influence of colour on evaluation and failure - A replication\" (Acta Psychologica, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.actpsy.2019.102873",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "赤ペンを持つと、ミスに目がいく？",
+        "body": "「赤は間違いの色」っていうよね。赤いペンで書くだけで、失敗のイメージが湧いてミスに敏感になる、という2010年の研究を確かめ直した研究だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "198人の学生に、赤か青のペンで課題",
+        "body": "学生198人が、赤ペンか青ペンで2つの課題をやった。1つ目は単語の穴埋め、2つ目は文章の中の間違い探しだよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "赤ペンの人は、失敗を連想しやすかった",
+        "body": "赤ペンの人は、失敗に結びつく言葉で穴埋めした数が青ペンより多く、文章の間違いも多く見つけた。元の研究と同じ向きの結果だったんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差の大きさは、この要旨からはわからない",
+        "body": "要旨には差の大きさが書かれていない。調べたのは学生だけで、ペンの色以外の理由が影響したかもこの要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "赤ペンと青ペンで課題をした学生198人。赤ペンの人はどうだった？",
+      "correct": "失敗を連想する言葉を多く作り、誤りも多く見つけた",
+      "wrong": "失敗の連想は増えたが、誤りの数は青と同じだった"
+    },
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-red-pen-failure-replication"
+  },
+  {
+    "id": "color-green-plants-vs-green-color-stress-eating",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "Michels N et al., \"Indoor nature integration for stress recovery and healthy eating: A picture experiment with plants versus green color\" (Environmental Research, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.envres.2022.113643",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "部屋の「緑」は、色だけで落ち着く？",
+        "body": "観葉植物があると落ち着く、とはよく聞くよね。でも効いているのは「植物」なのか、ただの「緑色」なのか、写真で切り分けた実験があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ストレスのあと、4種類の部屋写真",
+        "body": "92人（18〜30歳）に人前で話すストレス課題をしてもらい、4グループに分けた。緑の植物・緑の物・白黒の植物・白黒の物の部屋写真を6分見たんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "植物の写真を見た人は「ほっとする」と答え、野菜を多く選んだ。差は色ではなく植物だった",
+        "body": "緑の植物の写真が一番「ほっとする」と答えられ、野菜を選ぶ割合も高く、お菓子への欲求は低かった。差は主に植物のおかげで、緑色によるのはまれだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "92人・写真・若い人の話",
+        "body": "92人のうち男性は16%で、本物の部屋ではなく写真を見ただけ。ストレスからの回復も、気分の一部だけで見られた。割り付け方法もこの要旨にはないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "部屋の写真の実験で、回復感などの差は主に何によるものだった？",
+      "correct": "緑色より、植物が写っていたことによる",
+      "wrong": "植物より、緑色が使われていたことによる"
+    },
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-green-plants-vs-green-color-stress-eating"
+  },
+  {
+    "id": "color-meal-colour-variety-vegetables-sweets",
+    "category": "色彩心理",
+    "kind": "素朴な疑問",
+    "themeColor": "#FACC15",
+    "sourceLabel": "König LM et al., \"Investigating the Relationship between Perceived Meal Colour Variety and Food Intake across Meal Types in a Smartphone-Based Ecological Momentary Assessment\" (Nutrients, 2021)",
+    "sourceUrl": "https://doi.org/10.3390/nu13030755",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "彩りのいい食事は、ヘルシー？",
+        "body": "「カラフルな食事は体によさそう」ってよく言うよね。その感覚は、毎日の食事でも当てはまるのかを、スマホで記録して調べた研究だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8日間、食事のたびに写真と記録",
+        "body": "110人が8日間、食べるたびに写真と説明、「彩りの多さ」の感じ方を記録した。集まった食事は2818回分で、食べ物の種類ごとに分けて分析したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "彩りが多いと感じた食事ほど、野菜が多かった",
+        "body": "彩りが多いと感じた食事ほど野菜が多い関係が、午後のお茶以外で見られた。朝食・夕食・間食では、お菓子が少ない関係も。ただ説明できる割合は野菜で6%以上、お菓子で1%以上だよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "彩りが原因とは言えない",
+        "body": "どちらが先かは、この研究からはわからない。午後のお茶では野菜との関係は出なかった。110人の8日間の記録だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "110人が食事を記録した研究。彩りが多いと感じた食事で見られた関係は？",
+      "correct": "野菜が多く、お菓子は一部の食事で少なかった",
+      "wrong": "野菜は多かったが、お菓子とは関係がなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/color-psychology/#color-meal-colour-variety-vegetables-sweets"
+  },
+  {
+    "id": "replication-registered-reports-positive-results",
+    "category": "心理学の再現性",
+    "kind": "研究紹介",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Scheel AM et al., \"An Excess of Positive Results: Comparing the Standard Psychology Literature With Registered Reports\" (Advances in Methods and Practices in Psychological Science, 2021)",
+    "sourceUrl": "https://doi.org/10.1177/25152459211007467",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "論文は「うまくいった結果」ばかり？",
+        "body": "心理学の論文を読むと、仮説が当たったという報告ばかりだよね。結果を見る前に掲載を決める「登録報告」という形式なら、割合は違うのか比べた研究だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ふつうの論文152本と登録報告71本",
+        "body": "ふつうの心理学論文からランダムに選んだ152本と、登録報告として出た71本（2018年11月時点）を比べた。各論文の最初の仮説に、結果が当たったか調べたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "当たった割合は、96%と44%だった",
+        "body": "ふつうの論文では96%が「仮説どおり」の結果だったのに、登録報告では44%だけだった。大きな差で、選んで載せる偏りが減るからかもしれない、と著者は考えているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "差の理由は、はっきりしない",
+        "body": "著者は、結果を見る前に掲載を決める形式で、結果を選んで載せる偏りが減った可能性を挙げている。確かめたわけではない。見たのは各論文の最初の仮説だけ。"
+      }
+    ],
+    "quiz": {
+      "q": "ふつうの心理学論文と登録報告で、仮説どおりの結果の割合は？",
+      "correct": "ふつうの論文で96%、登録報告で44%",
+      "wrong": "ふつうの論文で76%、登録報告で64%"
+    },
+    "webUrl": "https://seadice.win/evidence/replication/#replication-registered-reports-positive-results"
+  },
+  {
+    "id": "replication-many-labs-2-28-findings",
+    "category": "心理学の再現性",
+    "kind": "研究紹介",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Klein RA et al., \"Many Labs 2: Investigating Variation in Replicability Across Samples and Settings\" (Advances in Methods and Practices in Psychological Science, 2018)",
+    "sourceUrl": "https://doi.org/10.1177/2515245918810225",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "有名な実験は、国が違っても再現する？",
+        "body": "心理学の有名な発見は、世界のどこでも同じ結果になるのかな。28件の発見を、世界各地でいっせいにやり直した大規模プロジェクトがあるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "36の国と地域、15,305人",
+        "body": "28件を、あらかじめ計画を公開し審査も受けたうえでやり直した。125のグループ、計15,305人が参加して、1件ごとに約半分のグループが担当したんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "28件のうち、同じ向きの効果が出たのは15件（54%）だけだった",
+        "body": "28件のうち15件（54%）で、元と同じ向きの有意な効果が出た。効果の大きさの中央値は元が0.60、やり直しは0.15。0.2で「小さい」とされる目安より小さいよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "やり直しが大きくずれた理由はわからない",
+        "body": "9件（32%）は元と逆向きだった。国や環境による違いは小さく、効果そのものの違いが大きかった。ただ28件は一部で、なぜ小さくなったかはこの要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "28件をやり直した大規模プロジェクト。元と同じ向きの有意な効果が出たのは？",
+      "correct": "28件のうち15件（54%）",
+      "wrong": "28件のうち22件（79%）"
+    },
+    "webUrl": "https://seadice.win/evidence/replication/#replication-many-labs-2-28-findings"
+  },
+  {
+    "id": "replication-statcheck-p-value-errors",
+    "category": "心理学の再現性",
+    "kind": "研究紹介",
+    "themeColor": "#E879F9",
+    "sourceLabel": "Nuijten MB et al., \"The prevalence of statistical reporting errors in psychology (1985-2013)\" (Behavior Research Methods, 2016)",
+    "sourceUrl": "https://doi.org/10.3758/s13428-015-0664-2",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "論文の数字は、計算が合っている？",
+        "body": "論文には「p値」という判定の数字が載っているよね。それが検定の数字と合っているのかを、ソフトで自動チェックした大規模な調べ物があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8つの雑誌、25万個以上のp値",
+        "body": "心理学の主要な雑誌8誌（1985〜2013年）に載った25万個以上のp値を、「statcheck」というソフトで調べた。論文の半分以上から、数字を取り出せたそうだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "8本に1本で、結論に響きうるズレがあった",
+        "body": "検定の結果を使う論文の半分は、数字が合わないp値を少なくとも1つ含んでいた。8本に1本には結論に影響しうる大きなズレがあり、有意と報告したp値のほうでズレが多かったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ミスの理由は、この要旨からはわからない",
+        "body": "著者は、有意と報告したp値にズレが多いのは、有意な結果を好む偏りかもしれないと述べるが、理由は確かめていない。対象は心理学の8誌だけ。"
+      }
+    ],
+    "quiz": {
+      "q": "statcheckで8つの心理学雑誌を調べた結果、結論に響きうるズレは？",
+      "correct": "8本に1本の論文にあった",
+      "wrong": "3本に1本の論文にあった"
+    },
+    "webUrl": "https://seadice.win/evidence/replication/#replication-statcheck-p-value-errors"
+  },
+  {
+    "id": "posture-power-pose-replication-hormones-2024",
+    "category": "姿勢と自信",
+    "kind": "よくある説",
+    "themeColor": "#F87171",
+    "sourceLabel": "Barel E, Shahrabani S & Mahagna K, \"The effects of power posing on neuroendocrine levels and risk-taking\" (BMC Psychology, 2024)",
+    "sourceUrl": "https://doi.org/10.1186/s40359-024-02194-7",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "パワーポーズで、体の中まで変わる？",
+        "body": "腕を広げて堂々と立つと、ホルモンが変わって大胆になる。そんな説を聞いたことあるよね。元の研究を、もう一度確かめた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "92人を、強いポーズと弱いポーズに分けた",
+        "body": "若い大人92人（男性30人、ピルを飲む女性32人、飲まない女性30人）を、くじ引きで強いポーズか弱いポーズに分けた。ホルモンと、リスクを取る課題を前後で測ったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "テストステロンも「力がある感じ」も、元の結果は再現できなかった",
+        "body": "テストステロンと「力がある感じ」は、元の結果が再現できなかった。コルチゾールとリスクを取る行動は、一部だけ元の結果を支持したらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "92人の小さな実験で、予備的な結果",
+        "body": "著者たち自身が「予備的」と書いている。92人を3つのグループに分けた小さな実験で、日常の姿勢で同じことが起きるかは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "同じ手順で確かめたら、テストステロンはどうだった？",
+      "correct": "元の結果が再現できなかった",
+      "wrong": "元の結果と同じく、強いポーズで上がった"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-power-pose-replication-hormones-2024"
+  },
+  {
+    "id": "posture-open-closed-sitting-deception-detection",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Zloteanu M, Krumhuber EG & Richardson DC, \"Sitting in Judgment: How Body Posture Influences Deception Detection and Gazing Behavior\" (Behavioral Sciences, 2021)",
+    "sourceUrl": "https://doi.org/10.3390/bs11060085",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "腕を開いて座ると、嘘を見抜きやすい？",
+        "body": "姿勢は気分だけじゃなく、相手の見方にも関わるのかな。開いた姿勢と閉じた姿勢で座って、嘘を見抜く力を比べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "開いた姿勢と閉じた姿勢で、嘘を判断",
+        "body": "判断する人が開いた姿勢か閉じた姿勢で座り、本当の話と嘘の話を見分けた。2つ目の研究では、視線の動きも測ったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "開いた姿勢で座った人は、自然な嘘をより見抜けた（1つ目の研究）",
+        "body": "1つ目の研究では、開いた姿勢のほうが自然な嘘の正答が高かった。一方、一瞬の表情の認識では差がなかった。まとめの効果量 g=0.40は「小さめから中くらい」で、信頼区間は0.03〜0.78と、ゼロぎりぎりから大きめまで幅広いよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果の幅が広く、1回では決められない",
+        "body": "信頼区間がゼロに近いので、効果がほぼないかもしれない可能性も残る。人数や、実験室の外の場面で同じになるかは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "一瞬の表情を読む力は、姿勢で変わった？",
+      "correct": "開いた姿勢でも差はなかった",
+      "wrong": "開いた姿勢のほうが高かった"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-open-closed-sitting-deception-detection"
+  },
+  {
+    "id": "posture-power-pose-cardiac-vagal-activity",
+    "category": "姿勢と自信",
+    "kind": "研究紹介",
+    "themeColor": "#F87171",
+    "sourceLabel": "Laborde S, Strack F, Mosley E et al., \"The influence of power posing on cardiac vagal activity\" (Acta Psychologica, 2019)",
+    "sourceUrl": "https://doi.org/10.1016/j.actpsy.2019.102899",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "堂々としたポーズで、体は落ち着く？",
+        "body": "パワーポーズは緊張をやわらげる、とよく言われるよね。心臓の動きから、体の落ち着き具合を測った研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "56人が1分ずつ、4種類のポーズ",
+        "body": "56人が強いポーズと弱いポーズを、座ってと立ってで1分ずつ、順番を変えてとった。心拍のゆらぎから、体を休ませる側の神経の働き（心臓の迷走神経の活動）を測ったよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "強いポーズの間は、落ち着く側の働きが下がった",
+        "body": "予想と逆に、強いポーズの間は、安静のときより迷走神経の活動が下がった。ただ「力がある感じ」は強いポーズのあとで高く、ストレスの感じ方は弱いポーズのあとで高かったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1分のポーズだけ・長く続けた場合は不明",
+        "body": "調べたのは1分のポーズの間の変化だけ。著者は、効果は長く続けたときに出るのかもしれないと述べているけど、この研究ではそこまではわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "強いポーズの間、心臓の落ち着く側の働きは？",
+      "correct": "安静時より下がった",
+      "wrong": "安静時より少し上がった"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-power-pose-cardiac-vagal-activity"
+  },
+  {
+    "id": "exercise-resistance-training-memory-older-adults-review",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Wu Y, Wang Y, Ye M et al., \"Effect of regular resistance training on memory in older adults: A systematic review\" (Experimental Gerontology, 2021)",
+    "sourceUrl": "https://doi.org/10.1016/j.exger.2021.111396",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "筋トレは、高齢者の記憶にもいい？",
+        "body": "運動は頭にもいいと聞くけど、筋トレはどうなんだろう。高齢者を調べた18本のくじ引き試験をまとめた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18本・1365人の高齢者の試験をまとめた",
+        "body": "筋トレを続けた高齢者と、特に運動しない（または軽い運動の）人を比べた18本の試験を集めて、記憶の種類ごとに数字をまとめたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "筋トレをした高齢者は、作業記憶・すぐ覚える記憶・短期記憶が良く、言葉の記憶と後で思い出す記憶は差がなかった",
+        "body": "作業用の記憶とすぐ覚える記憶は0.27で、どちらも小さめの目安（後者の信頼区間は0.01〜0.54でゼロぎりぎり）。短期記憶は0.68。言葉の記憶とあとで思い出す記憶は、差が見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "集めた試験の限界が大きい",
+        "body": "著者たちは、含まれた研究に限界があるので慎重に読むべきだと書いている。どんな筋トレを何週間やると良いかは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "あとで思い出す記憶（遅延記憶）の差は？",
+      "correct": "はっきりした差はなかった",
+      "wrong": "小さいが確かな差があった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-resistance-training-memory-older-adults-review"
+  },
+  {
+    "id": "exercise-acute-cardio-motor-memory-meta",
+    "category": "運動と記憶",
+    "kind": "研究紹介",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Wanner P, Cheng FH, Steib S, \"Effects of acute cardiovascular exercise on motor memory encoding and consolidation: A systematic review with meta-analysis\" (Neuroscience & Biobehavioral Reviews, 2020)",
+    "sourceUrl": "https://doi.org/10.1016/j.neubiorev.2020.06.018",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動のあとは、体の動きを覚えやすい？",
+        "body": "ダンスや楽器、スポーツの動きを覚えるとき、その前後に運動すると定着するのかな。1回の有酸素運動と「動きの記憶」を調べた研究のまとめがあるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "22本・862人の研究をまとめた",
+        "body": "1回の有酸素運動の前か後に、動きの課題を練習した研究を22本集めて、数字をまとめた。事前に登録した計画で行ったメタ分析だよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1回の有酸素運動で、体の動きの「定着」が中くらい良くなった（0.58〜0.62）",
+        "body": "練習の前に運動した場合は0.58、練習のあとの場合は0.62で、どちらも「中くらい」の目安だった。強い運動のほうが効果が大きい傾向で、課題の種類にも左右されたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日常の運動で同じかは、この要旨からはわからない",
+        "body": "集めた研究の運動や課題はさまざまで、対象者の年齢や効果がどれくらい続くかは、この要旨からはわからないよ。言葉や出来事の記憶の話でもないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "練習のあとに運動した場合の差（目安）は？",
+      "correct": "約0.6で、中くらい",
+      "wrong": "約0.2で、とても小さい"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-acute-cardio-motor-memory-meta"
+  },
+  {
+    "id": "exercise-aerobic-hippocampal-volume-healthy-older-meta",
+    "category": "運動と記憶",
+    "kind": "よくある説",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Balbim GM, Boa Sorte Silva NC, ten Brinke L et al., \"Aerobic exercise training effects on hippocampal volume in healthy older individuals: a meta-analysis of randomized controlled trials\" (GeroScience, 2024)",
+    "sourceUrl": "https://doi.org/10.1007/s11357-023-00971-7",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "運動すると、記憶の中枢が大きくなる？",
+        "body": "有酸素運動を続けると、記憶に関わる海馬が大きくなる、という話を聞くよね。健康な高齢者での試験をまとめ直した研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "健康な高齢者554人の8つの試験",
+        "body": "認知機能に問題のない高齢者を、3〜12か月、週に平均約130分の有酸素運動をするグループと、しないグループで比べた8つの試験をまとめたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "有酸素運動を3〜12か月続けた健康な高齢者でも、海馬の大きさに差はなかった",
+        "body": "差は0.10で「とても小さい」目安、信頼区間は−0.01〜0.21とゼロをまたいでいる。体力の指標は0.30（小さめから中くらい）上がったけど、体力の伸びと海馬の変化に関係は見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "8つの試験だけで、方法にも限界がある",
+        "body": "著者たちは、研究が少なく方法の限界が、効果を見えにくくしているかもしれないと書いている。記憶のテストの成績が変わったかは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "有酸素運動を続けた高齢者の海馬は？",
+      "correct": "体力は上がったが、海馬の大きさは変わらなかった",
+      "wrong": "体力が上がり、海馬も同じくらい大きくなった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-aerobic-hippocampal-volume-healthy-older-meta"
+  },
+  {
+    "id": "digital-reduce-60min-vs-exercise-germany",
+    "category": "デジタルデトックス",
+    "kind": "研究紹介",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Precht et al., \"Engaging in physical activity instead of (over)using the smartphone: An experimental investigation of lifestyle interventions to prevent problematic smartphone use and to promote mental health\" (Journal of Public Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1007/s10389-023-01832-5",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "スマホを減らす？運動を足す？両方？",
+        "body": "スマホを使いすぎる気がする人、いるよね。使う時間を減らすのと、体を動かすのを足すのと、どっちが続く変化になるのかを比べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ドイツの503人が、14日間4つのグループで過ごした",
+        "body": "ドイツの503人（18〜79歳）が14日間、1日60分スマホを減らす、30分運動を足す、両方、いつも通りの4つに分かれた。3か月後まで調査したよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "減らした組・両方の組は、使用時間が減り、効果が長く安定",
+        "body": "3つの介入すべてで運動量が増え、スマホの使いすぎの症状などが減った。時間そのものが減ったのは「減らす」と「両方」の組で、変化は運動だけの組より長く安定したよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "くじ引きで分けたかは要旨になく、自己申告のアンケート",
+        "body": "要旨には、くじ引きで割り付けたという記述がない。結果はオンライン調査での報告で、ドイツの18〜79歳に限った話。他の国では確かめられていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "運動だけの組より、変化が長く安定したのは？",
+      "correct": "使用時間を減らす組と両方の組",
+      "wrong": "運動を足した組だけ"
+    },
+    "webUrl": "https://seadice.win/evidence/digital-detox/#digital-reduce-60min-vs-exercise-germany"
+  },
+  {
+    "id": "net-social-media-interventions-wellbeing-review-23",
+    "category": "デジタルデトックス",
+    "kind": "研究紹介",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Plackett et al., \"The Impact of Social Media Use Interventions on Mental Well-Being: Systematic Review\" (Journal of Medical Internet Research, 2023)",
+    "sourceUrl": "https://doi.org/10.2196/44922",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "SNSの使い方を変える試みは、心の健康に効くの？",
+        "body": "SNSをやめる、減らすといった試みは世の中にたくさんあるよね。そうした実験を集めて、心の健康が良くなったかを整理した論文があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大人対象の実験23本を、数字でまとめず整理した",
+        "body": "2022年7月までに検索した2785本のうち、条件に合った23本が対象。結果は数字で合算せず、文章で整理（メタ分析なし）したレビューだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "良くなった9本・まちまち7本・変化なし7本",
+        "body": "9本（39%）が心の健康の改善、7本（30%）が混ざった結果、7本（30%）が変化なし。うつは10本中7本で改善が見られた。結果は分かれているんだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "23本中22本は質が低く、大学生が多かった",
+        "body": "23本中22本（96%）は質の評価が「弱い」で、16本（70%）は大学生など集めやすい人が対象。結論は暫定で、さらなる研究が要るとされているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "23本の研究のうち、結果が「変化なし」だったのは？",
+      "correct": "7本ほど（約3割）",
+      "wrong": "2本ほど（約1割）"
+    },
+    "webUrl": "https://seadice.win/evidence/digital-detox/#net-social-media-interventions-wellbeing-review-23"
+  },
+  {
+    "id": "game-violent-prospective-meta-24",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Prescott, Sargent, Hull, \"Metaanalysis of the relationship between violent video game play and physical aggression over time\" (PNAS, 2018)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.1611617114",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "暴力的なゲームを遊ぶと、乱暴になる？",
+        "body": "よく話題になる心配だよね。「遊んだ人があとで本当に手を出しやすくなるのか」を、時間を追って調べた研究をまとめた論文があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "追跡した24本・1万7千人超を、メタ分析でまとめた",
+        "body": "暴力的ゲームの接触と、その後の身体的な攻撃行動を追った24本（1万7000人超、平均9〜19歳、追跡3か月〜4年）。最初の攻撃性は調整してあるよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "暴力的なゲームを遊んだ人は、その後の身体的な攻撃が少し多かった（β=0.1、小さい）",
+        "body": "変量効果モデルでβ=0.106（信頼区間0.078〜0.134）。目安は0.1で小さい関係。条件をそろえるとβ=0.078で、小さい関係が残ったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "遊んだことが原因かは、この要旨からはわからない",
+        "body": "要旨は調整後の関係を示すだけ。民族で差があり、ヒスパニックの集団では有意でなかった。ゲームが原因かどうかは、この要旨からは言えないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、暴力的ゲームと後の攻撃行動の関係の大きさは？",
+      "correct": "小さい関係（β=0.1ほど）",
+      "wrong": "関係はほぼゼロ（β=0.01ほど）"
+    },
+    "webUrl": "https://seadice.win/evidence/games/#game-violent-prospective-meta-24"
+  },
+  {
+    "id": "game-gta-two-month-no-change-adults",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Kühn et al., \"Does playing violent video games cause aggression? A longitudinal intervention study\" (Molecular Psychiatry, 2018)",
+    "sourceUrl": "https://doi.org/10.1038/s41380-018-0031-7",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "2か月毎日遊んだら、性格や気分は変わる？",
+        "body": "短い実験では、暴力的なゲームのあとに攻撃的になるという結果もあるよね。では毎日2か月遊び続けたら、人はどう変わるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "GTA V、シムズ3、ゲームなしの3パターンを比べた",
+        "body": "大人の参加者が、暴力的なGTA V、暴力的でないThe Sims 3、またはゲームなしで2か月間毎日過ごした。前後と、終了2か月後も質問紙や課題で測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "2か月毎日、暴力的なゲームを遊んでも、攻撃性・共感・衝動性は変わらなかった",
+        "body": "攻撃性、共感、衝動性、不安・うつ、実行機能などを調べたが、暴力的ゲーム群と他の2つの間で有意な変化はなかった。終了後2か月の追跡でも同じ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数や割り付けは要旨になく、対象は大人だけ",
+        "body": "要旨には人数も、くじ引きで割り付けたかも書かれていない。対象は大人なので、子どもや10代にそのまま当てはめられるかは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "2か月プレイしたあと、暴力的ゲーム群の結果は？",
+      "correct": "他の群と有意な差は出なかった",
+      "wrong": "他の群より攻撃性が高かった"
+    },
+    "webUrl": "https://seadice.win/evidence/games/#game-gta-two-month-no-change-adults"
+  },
+  {
+    "id": "game-igd-prevalence-four-surveys",
+    "category": "ゲームとネット",
+    "kind": "研究紹介",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Przybylski, Weinstein, Murayama, \"Internet Gaming Disorder: Investigating the Clinical Relevance of a New Phenomenon\" (American Journal of Psychiatry, 2017)",
+    "sourceUrl": "https://doi.org/10.1176/appi.ajp.2016.16020224",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "ゲームのやりすぎ、どれくらいの人に当てはまる？",
+        "body": "「ゲーム依存」という言葉はよく聞くよね。診断の候補になった「インターネットゲーム障害」の基準に、実際どれくらいの人が当てはまるのかを調べた研究だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "国際的な4つの調査、合計18,932人",
+        "body": "分析計画を事前に登録した4つのアンケート調査（合計18,932人、国際的な集団）。ゲームをする人のうち、基準の症状がどれだけ当てはまるかを調べたよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "遊ぶ人の3分の2超は症状なし、基準相当は0.3〜1.0%",
+        "body": "ゲームをする人の3分の2超が症状ゼロ。一般の人で潜在的に診断基準に当てはまりうるのは0.3〜1.0%。健康への影響は、結果が「まちまち」だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "アンケート調査で、診断そのものではない",
+        "body": "要旨はアンケートによる推定で、診断を確かめたものではない。国・年齢ごとの数字はこの要旨にない。健康との関係の結果もまちまちだったよ。"
+      }
+    ],
+    "quiz": {
+      "q": "一般の人で、ゲーム障害の基準に当てはまりうる割合は？",
+      "correct": "0.3〜1.0%ほどだった",
+      "wrong": "3〜10%ほどだった"
+    },
+    "webUrl": "https://seadice.win/evidence/games/#game-igd-prevalence-four-surveys"
+  },
+  {
+    "id": "happy-positive-psych-interventions-sin-lyubomirsky",
+    "category": "幸福の科学",
+    "kind": "研究紹介",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Sin NL, Lyubomirsky S, \"Enhancing well-being and alleviating depressive symptoms with positive psychology interventions: a practice-friendly meta-analysis\" (Journal of Clinical Psychology, 2009)",
+    "sourceUrl": "https://doi.org/10.1002/jclp.20593",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "感謝や親切の練習は、気分に効くのかな",
+        "body": "感謝を書く、親切にする、前向きに考える。そんな「ポジティブ心理学の介入」の効果を、数字でまとめた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "51の介入・4,266人をまとめた",
+        "body": "幸せ（ウェルビーイング）と抑うつ症状がどう変わったかを、51の介入・計4,266人の結果から平均したメタ分析だよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "ポジティブ心理学の介入で、幸せは r=.29 上がり、抑うつ症状は r=.31 下がった（どちらも中くらい）",
+        "body": "幸せの上昇は平均r=.29、抑うつ症状の低下はr=.31。相関rは0.1で小さい・0.3で中くらい。年齢や期間、形式で効き方も違ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効く理由や長さは要旨からはわからない",
+        "body": "自分で選んで参加した人や、抑うつ状態の人で効き方が違ったとあるけど、理由は書かれていない。日本の人への効果や、続く長さもこの要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "幸せの上昇の平均の大きさ（相関r）は？",
+      "correct": "r=.29で、中くらいの大きさ",
+      "wrong": "r=.12で、小さめの大きさ"
+    },
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-positive-psych-interventions-sin-lyubomirsky"
+  },
+  {
+    "id": "happy-gratitude-interventions-meta-28-countries",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Choi J, Cha Y, McCullough ME et al., \"A meta-analysis of the effectiveness of gratitude interventions on well-being across cultures\" (PNAS, 2025)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2425193122",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "感謝の練習は、どの国の人にも効く？",
+        "body": "「ありがとうを書くと幸せになる」と聞くよね。文化がちがっても同じように効くのか、国をまたいで調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "145本の論文・24,804人・28か国",
+        "body": "事前に計画を登録したメタ分析で、感謝の練習が幸せ（ウェルビーイング）を高めるかを、145本の論文の結果から数えたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "感謝の練習をした人は、幸せ度が平均 g=0.19（小さい）上がった",
+        "body": "効果の大きさはg=0.19（信頼区間0.15〜0.22）。gは0.2で小さい・0.5で中くらい。無作為割付の研究ほど大きく、国による差もあったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "国の差の理由は見つからなかった",
+        "body": "国ごとに差はあったのに、それを説明できる要因は見つからなかったと書かれている。なぜ国で差が出るのかは、まだわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "感謝の練習による幸せの上昇（g）の全体の平均は？",
+      "correct": "g=0.19（小さい）",
+      "wrong": "g=0.02（ほぼゼロ）"
+    },
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-gratitude-interventions-meta-28-countries"
+  },
+  {
+    "id": "happy-trust-wellbeing-meta-bi",
+    "category": "幸福の科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#EAB308",
+    "sourceLabel": "Bi S, Maes M, Stevens GWJM et al., \"Trust and subjective well-being across the lifespan: A multilevel meta-analysis of cross-sectional and longitudinal associations\" (Psychological Bulletin, 2025)",
+    "sourceUrl": "https://doi.org/10.1037/bul0000480",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "人を信じる人は、幸せなのかな",
+        "body": "他人や社会を信じやすい人は、毎日が幸せそう。そう思うこと、あるよね。多くの研究をまとめた論文があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "991の結果・約250万人",
+        "body": "信頼と主観的な幸せの関係を、991の効果量・延べ2,518,769人分の研究からまとめた、事前登録のメタ分析だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "人を信じる度合いが高い人ほど、幸せ度も高かった（r=.21）",
+        "body": "相関はr=.21で、0.1は小さい・0.3は中くらいなのでその間くらい。信頼の種類や年齢、国で強さは違うけど、どの条件でも関係は見られたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かは強さまでは書かれていない",
+        "body": "追跡した研究では、信頼が後の幸せを予測（55件）、幸せが後の信頼も予測（49件）していた。どちらが原因かは、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "信頼と幸せの関係の大きさ（相関r）は？",
+      "correct": "r=.21で、小〜中くらいの間",
+      "wrong": "r=.05（ほぼ関係なし）"
+    },
+    "webUrl": "https://seadice.win/evidence/happiness/#happy-trust-wellbeing-meta-bi"
+  },
+  {
+    "id": "mindfulness-workplace-training-rct-meta-bartlett",
+    "category": "マインドフルネス",
+    "kind": "研究紹介",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Bartlett L, Martin A, Neil AL et al., \"A systematic review and meta-analysis of workplace mindfulness training randomized controlled trials\" (Journal of Occupational Health Psychology, 2019)",
+    "sourceUrl": "https://doi.org/10.1037/ocp0000146",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "職場のマインドフルネス研修は効く？",
+        "body": "会社で行うマインドフルネス研修が増えているよね。ストレスや働きぶりが変わるのか、ランダム化比較試験をまとめた研究だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "23本の研究の結果をまとめた",
+        "body": "職場で行われた研修の無作為化試験23本から、マインドフルネス・ストレス・不安・幸せ・睡眠などの変化の大きさを平均したんだ。"
+      },
+      {
+        "stage": "結果",
+        "title": "職場のマインドフルネス研修を受けた人は、ストレスが g=0.56（中くらい）減った",
+        "body": "ストレスg=0.56、不安0.62、幸せ0.46、睡眠0.26。gは0.2で小さい・0.5で中くらい・0.8で大きい。睡眠だけ小さめの変化だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "燃え尽きと仕事ぶりは結論が出ない",
+        "body": "燃え尽きは結果がばらつき、仕事の成果はデータ不足で、結論は出なかった。研究の設計や報告にも限界があると書かれているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "研修後のストレスの変化の大きさ（g）は？",
+      "correct": "g=0.56で、中くらいの大きさ",
+      "wrong": "g=0.26で、小さめの大きさ"
+    },
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-workplace-training-rct-meta-bartlett"
+  },
+  {
+    "id": "mindfulness-trait-resilience-meta-zhang",
+    "category": "マインドフルネス",
+    "kind": "素朴な疑問",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Zhang J, Mao Y, Wang J et al., \"The relationship between trait mindfulness and resilience: A meta-analysis\" (Personality and Mental Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1002/pmh.1581",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「今に気づける人」は立ち直りやすい？",
+        "body": "つらいことがあっても立ち直る力を、レジリエンスと呼ぶよ。今の自分に気づく傾向（特性マインドフルネス）と関係があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "103本の研究・197の結果",
+        "body": "特性マインドフルネスとレジリエンスの関係を、103本の研究から取り出した197の効果量で、3段階のメタ分析にまとめたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "今に気づく傾向が強い人ほど、立ち直る力も高かった（r=.39）",
+        "body": "相関はr=.385。rは0.1で小さい・0.3で中くらいなので、中くらいより少し強いよ。マインドフルネスの側面や測り方、年齢で強さは違ったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "相関で、原因かどうかは言えない",
+        "body": "調べたのは両方の高さの関係で、どちらがどちらを高めるかはこの要旨からはわからない。対象の人数や国も、要旨には書かれていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "特性マインドフルネスと立ち直る力の相関は？",
+      "correct": "r=.39で、中くらいの強さの相関",
+      "wrong": "r=.15で、小さいくらいの相関"
+    },
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-trait-resilience-meta-zhang"
+  },
+  {
+    "id": "light-children-melatonin-room-light",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Higuchi S et al., \"Influence of Light at Night on Melatonin Suppression in Children\" (The Journal of Clinical Endocrinology & Metabolism, 2014)",
+    "sourceUrl": "https://doi.org/10.1210/jc.2014-1629",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜の部屋の明かりは、子どもの方が響きやすい？",
+        "body": "夜の部屋の電気は、子どもにも大人にも同じなのかな。子どもは瞳が大きくて水晶体（目のレンズ）も澄んでいるから、光がたくさん入ると考えられているらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "小学生33人と大人29人で、夜の光を比べた",
+        "body": "小学生（平均9.2歳）と大人（平均41.6歳）で、眠気にかかわるメラトニンを唾液で測った。暗め（30ルクス未満）と明るめ（580ルクス）、家の部屋の明かり（平均約140ルクス）で比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "580ルクスの光で、メラトニンは子ども88%、大人46%抑えられた（子ども5人・大人6人）",
+        "body": "580ルクスのとき、メラトニンが抑えられた割合は子ども88.2%、大人46.3%だった。家の部屋の明かりでは、子どもでは抑えられ、大人ははっきりしなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "比べられた人数は少ない",
+        "body": "最初の実験で割合を比べられたのは子ども5人・大人6人だけ（メラトニンがまだ上がっていない人は除いた）。この光で眠りがどう変わるかは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "夜の明るい光でメラトニンが抑えられた割合は？",
+      "correct": "子どもは、大人の約2倍だった",
+      "wrong": "子どもと大人で、ほぼ変わらなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/light-circadian/#light-children-melatonin-room-light"
+  },
+  {
+    "id": "light-outdoor-night-light-teens-sleep",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Paksarian D et al., \"Association of Outdoor Artificial Light at Night With Mental Disorders and Sleep Patterns Among US Adolescents\" (JAMA Psychiatry, 2020)",
+    "sourceUrl": "https://doi.org/10.1001/jamapsychiatry.2020.1935",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "夜の街が明るいと、10代の寝る時間は遅くなる？",
+        "body": "街灯や看板で夜も明るい地域って、あるよね。外の明るさは、そこに住む10代の寝る時間や睡眠の長さと関係があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの13〜18歳、10,123人の全国調査",
+        "body": "住んでいる地域の夜の屋外の明るさを衛星で測り、本人が答えた寝る時間や睡眠時間と比べた。収入や人口の多さなどの違いは、そろえて計算してあるよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "最も明るい地域の10代は、最も暗い地域より、寝る時間が29分遅かった",
+        "body": "最も明るい4分の1は、最も暗い4分の1より平日の就寝が29分遅く（信頼区間15〜43分）、睡眠は11分短かった（2〜19分）。睡眠の差はかなり小さい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "明るさが原因かは言えない",
+        "body": "調べたのは2001〜2004年の調査で、ある時点の関係だけ。明るさは地域の平均で、本人の寝室の明るさではない。明るい地域は、経済的に不利な家庭が多い傾向もあったよ。"
+      }
+    ],
+    "quiz": {
+      "q": "最も明るい地域の10代は、最も暗い地域と比べて？",
+      "correct": "約30分遅く寝て、約11分短く眠った",
+      "wrong": "約30分遅く寝たが、睡眠時間は変わらなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/light-circadian/#light-outdoor-night-light-teens-sleep"
+  },
+  {
+    "id": "light-school-start-time-umbrella-review",
+    "category": "光と体内時計",
+    "kind": "素朴な疑問",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Floyd JA et al., \"Delayed school start-times and adolescent sleep duration: A systematic umbrella review\" (Sleep Medicine Reviews, 2026)",
+    "sourceUrl": "https://doi.org/10.1016/j.smrv.2026.102379",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "学校の始業を遅らせると、10代は長く眠れる？",
+        "body": "10代の朝が早すぎると言われて、始業を遅らせる学校があるらしい。授業が遅く始まると、ほんとうに睡眠時間は増えるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9本のまとめ論文を、さらにまとめた",
+        "body": "2026年の「レビューのレビュー」で、メタ分析5本と文献レビュー4本を集めた。結論がそろっているかと、まとめ方の質を点検したんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "始業を遅らせると10代の睡眠は増えたと、9本のまとめ論文すべてが結論した（増え方は控えめ）",
+        "body": "9本すべてが「始業が遅いと10代の睡眠時間はおそらく増える」と結論した。ただ、質が高いと判断された2本の増え方は控えめで、広く導入するよう勧めるのには慎重だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "増えた睡眠が続くかは不明",
+        "body": "増えた睡眠が長く続く証拠はなかった。元の研究の質も限られていた。国や学校の種類で効果が違う可能性もあるけれど、データ不足で確かめられなかったそうだよ。"
+      }
+    ],
+    "quiz": {
+      "q": "始業を遅らせる研究のまとめで、見つかったのは？",
+      "correct": "増えそうだが、増え方は控えめだった",
+      "wrong": "9本すべてが、広く導入すべきだと勧めた"
+    },
+    "webUrl": "https://seadice.win/evidence/light-circadian/#light-school-start-time-umbrella-review"
+  },
+  {
+    "id": "light-everyday-light-logger-uk-adults",
+    "category": "光と体内時計",
+    "kind": "研究紹介",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Didikoglu A et al., \"Associations between light exposure and sleep timing and sleepiness while awake in a sample of UK adults in everyday life\" (Proceedings of the National Academy of Sciences, 2023)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.2301608120",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "ふだん浴びている光を、腕につけて測った",
+        "body": "光を記録できる腕時計型の機器（光ロガー）で、イギリスの大人59人の光を7日間測った。夜勤や時差のない生活で、寝た時間や眠気の答えと合わせて調べたよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "しばしば、昼は暗く夜は明るかった",
+        "body": "しばしば、昼間は専門家の推奨より暗く、寝る前や寝ている間は推奨より明るい光を浴びていた。1日のリズム自体ははっきりあったんだ。"
+      },
+      {
+        "stage": "結果",
+        "title": "寝る前に明るい光を浴びた人ほど、寝つくまでの時間が長かった",
+        "body": "寝る前の光が明るい人ほど寝つくまでの時間が長く、早く寝る人ほど昼に明るく夜に暗い傾向があった。起きる前後の明るい光は、朝の眠気が軽いこととも関係していたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "59人の1週間で、関係が見えただけ",
+        "body": "集まったのは59人で、便利に集まった人たちの7日間の記録。光が原因かどうかは、この要旨からはわからない。広い層でも同じかは、確かめられていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "光ロガーで測ると、よく見られた光の浴び方は？",
+      "correct": "昼は暗め、寝る前や睡眠中は明るめ",
+      "wrong": "昼は明るめ、寝る前や睡眠中は暗め"
+    },
+    "webUrl": "https://seadice.win/evidence/light-circadian/#light-everyday-light-logger-uk-adults"
+  },
+  {
+    "id": "sleepenv-wind-turbine-noise-meta",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Liebich T et al., \"A systematic review and meta-analysis of wind turbine noise effects on sleep using validated objective and subjective sleep assessments\" (Journal of Sleep Research, 2021)",
+    "sourceUrl": "https://doi.org/10.1111/jsr.13228",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "風車の音がすると、眠りは悪くなる？",
+        "body": "風力発電の風車の近くは、低い音が気になりそうだよね。実際に眠りを測ると、音がある人とない人で違いは出るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "検査ずみの方法で測った5本をまとめた",
+        "body": "2000年以降の英語論文から9本を選び、うち5本を数字でまとめた。睡眠は脳波などの機器か、確かめられた質問票で測った研究だけを対象にしているよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "5本をまとめても、風車の音がある人とない人で、睡眠の測定値に差は出なかった",
+        "body": "寝つくまでの時間、睡眠時間、睡眠の効率、夜中に起きている時間のどれも、風車の音がある人とない人の差ははっきりしなかった。ただ幅は広く、睡眠時間（g）は−0.77〜0.67で、中くらい（0.5）の差も含む。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "数が少なく、関係の向きも不明",
+        "body": "対象は5本だけで人数も少なく、多くは一時点の調査だった。原因と結果は不確か。主観的な眠りは、測り方がそろわず数字でまとめられなかったんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "風車の音の有無で、睡眠の測定値を比べると？",
+      "correct": "はっきりした差は見つからなかった",
+      "wrong": "寝つくまでが、少し長くなっていた"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleepenv-wind-turbine-noise-meta"
+  },
+  {
+    "id": "sleepenv-cosleep-dog-cat-child-wearable",
+    "category": "睡眠環境",
+    "kind": "素朴な疑問",
+    "themeColor": "#818CF8",
+    "sourceLabel": "Montoye AHK et al., \"Who's Been Sleeping in My Bedroom? Associations Between Co-Sleeping with Dogs, Cats, or Children and Sleep and Cardiorespiratory Physiology Among WHOOP Users\" (Nature and Science of Sleep, 2026)",
+    "sourceUrl": "https://doi.org/10.2147/nss.s636142",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "犬・猫・子どもと寝ると、睡眠の記録は変わる？",
+        "body": "ペットや子どもと同じ部屋や布団で寝る人は多いよね。眠りの長さや、寝ている間の心拍にも違いが出るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "同じ人の「共寝した夜」と「しなかった夜」",
+        "body": "腕に着ける計測器WHOOPを使う成人11,733人、延べ約165万日分。共寝をしたかを毎日アプリに記録していて、同じ人の夜どうしで比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "共寝の夜は、眠りが少し長く、目覚めも少し多い",
+        "body": "睡眠は5.5〜9.6分長く、安静時の心拍は1分に0.8〜1.1回低かった。一方、目覚めは0.36〜0.40回多かった。差はどれもごく小さい（効果の大きさβは0.008〜0.045）。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "計測器の利用者の記録で、原因は不明",
+        "body": "対象はWHOOPを使う成人で、共寝は自己申告。共寝が原因の差かどうかは、この要旨からはわからない。対象は成人なので、子ども自身の眠りはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "共寝をした夜の記録で、近いのは？",
+      "correct": "睡眠は少し長いが、目覚めは少し多い",
+      "wrong": "睡眠は少し短く、目覚めも少し多い"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-environment/#sleepenv-cosleep-dog-cat-child-wearable"
+  },
+  {
+    "id": "scent-proust-phenomenon-meta-analysis",
+    "category": "香りと記憶",
+    "kind": "よくある説",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Bobei OI et al., \"Is the Proust phenomenon fact or fiction? A systematic review and meta-analysis of odor-evoked autobiographical memory\" (Psychonomic Bulletin & Review, 2026)",
+    "sourceUrl": "https://doi.org/10.3758/s13423-026-03025-z",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "においは、思い出をいちばん呼び起こす？",
+        "body": "「あの匂いで昔を思い出した」って話、よく聞くよね。においは記憶を呼び出す力がいちばん強い、と言われてきた説（プルースト現象）だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "18本の実験をまとめて比べた",
+        "body": "においを手がかりにした場合と、写真・音・言葉などを手がかりにした場合で、思い出した出来事の特徴（鮮明さ、感情の強さ、心地よさなど7つ）を比べた研究をまとめたんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "強いのは一部の特徴だけだった",
+        "body": "においが上回ったのは、感情の強さ・心地よさ・呼び起こされる感じ・思い出の時期の4つ。研究者は「説は全面的には確かめられず、においの強みは限られる」と書いているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どんなときに強みが出るのか",
+        "body": "どういう条件でにおいが有利になるかは、まだ整理されていないらしい。人数が多い研究ほど差が小さい特徴もあって、結果は研究のやり方で変わりそうだよ。"
+      }
+    ],
+    "quiz": {
+      "q": "においと他の手がかりを比べたメタ分析で、においが上回った思い出の特徴は？",
+      "correct": "4つの特徴だけ（感情の強さなど）",
+      "wrong": "7つの特徴すべてで上回った"
+    },
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-proust-phenomenon-meta-analysis"
+  },
+  {
+    "id": "scent-odor-context-memory-story-recall-nosa-plugs",
+    "category": "香りと記憶",
+    "kind": "研究紹介",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Sorokowska A et al., \"Odor-based context-dependent memory: influence of olfactory cues on declarative and nondeclarative memory indices\" (Learning & Memory, 2022)",
+    "sourceUrl": "https://doi.org/10.1101/lm.053562.121",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "覚えるときと思い出すときに同じにおいがあると？",
+        "body": "文章や図を覚えるとき、そして思い出すときに、同じにおいの中にいると記憶が助けられるのか。鼻に入れる小さな栓（Nosa plugs）でにおいの環境を作って比べたんだ。"
+      },
+      {
+        "stage": "やり方",
+        "title": "直後と1週間後に思い出してもらった",
+        "body": "物語の再生、複雑な図形の再生、単語の穴埋めのような課題を、覚えた直後と1週間後にやってもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "物語を自由に思い出す課題だけで差が出た",
+        "body": "1週間後の物語の自由再生は、覚えるときと思い出すときのにおいが同じだと助けられた。図形の再生と単語の穴埋めには、はっきりした差がなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "言葉を思い出す場面に限られるのか",
+        "body": "要旨では、においの手がかりが効くのは主に言葉で自由に思い出す課題だと考えられている。数字は要旨にないので、差の大きさや人数はこの要旨からはわからないんだ。"
+      }
+    ],
+    "quiz": {
+      "q": "覚えたときと同じにおいの中で思い出したら、1週間後に差が出た課題は？",
+      "correct": "物語を自由に思い出す課題",
+      "wrong": "複雑な図形を思い出す課題"
+    },
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-odor-context-memory-story-recall-nosa-plugs"
+  },
+  {
+    "id": "music-self-selected-bgm-reading-eye-movements-rct",
+    "category": "音楽と集中力",
+    "kind": "素朴な疑問",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Que Y et al., \"Studying the effect of self-selected background music on reading task with eye movements\" (Scientific Reports, 2023)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-023-28426-1",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "自分で選んだ曲を流しながら読むと、理解できる？",
+        "body": "好きな曲を流しながら読むのはよくあるよね。それで文章の理解は変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "100人を2つのグループにくじ引きで分けた",
+        "body": "英語を母語としない100人が英文を読んだ。半分は自分で選んだ曲を流しながら、半分は無音で。理解の正確さ、自己評価、目の動きを比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "理解の正確さに、差はなかった（100人の比較）",
+        "body": "文章の理解度と自己評価には、はっきりした差がなかった。ただ目の動きでは、意味をまとめる段階で曲を流した人の負担が重そうだったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人によって違うかもしれない",
+        "body": "英語力が高い人や、ふだんから曲を流す人は負担が軽かった。一方、作業記憶が多い人ほど頑張りが大きかった。数字は要旨にないので、差の大きさはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "自分で選んだ曲を流しながら英文を読んだ人は、無音の人と比べて理解度は？",
+      "correct": "はっきりした差はなかった",
+      "wrong": "無音の人より少し下がった"
+    },
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-self-selected-bgm-reading-eye-movements-rct"
+  },
+  {
+    "id": "music-driving-meta-analysis-simulator",
+    "category": "音楽と集中力",
+    "kind": "研究紹介",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Ghojazadeh M et al., \"Effect of music on driving performance and physiological and psychological indicators: A systematic review and meta-analysis study\" (Health Promotion Perspectives, 2023)",
+    "sourceUrl": "https://doi.org/10.34172/hpp.2023.32",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "運転中の音楽は、集中を助ける？ 邪魔する？",
+        "body": "研究の結果がばらばらで、よくわからない話だった。19本の研究をまとめて、運転の成績や心拍などの変化を見たんだ。"
+      },
+      {
+        "stage": "対象",
+        "title": "ほとんどが運転シミュレーターの研究",
+        "body": "19本の多くは、高所得国で、運転シミュレーターを使って行われた。音楽は、クラシックロックがいちばん多く使われていたらしい。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "音量が大きめ・中くらいだと速度が上がり、反応時間は短くなった（シミュレーター中心の19本）",
+        "body": "音量が大きめ・中くらいだと平均速度が上がり、小さいと下がった。どの気分の曲でも反応時間は短くなったけど、音楽で覚醒度や頭の負担は増えたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実際の道路ではどうか",
+        "body": "シミュレーターが中心の研究なので、実際の道路で同じかは、この要旨からはわからない。著者は、場面に合う音楽を選ぶことが大事だとまとめているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "運転中の音楽について、このメタ分析のまとめに近いのは？",
+      "correct": "良い面も悪い面も混ざっていた",
+      "wrong": "音量に関係なく、速度は変わらなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-driving-meta-analysis-simulator"
+  },
+  {
+    "id": "music-background-reading-n400-arousal",
+    "category": "音楽と集中力",
+    "kind": "研究紹介",
+    "themeColor": "#C084FC",
+    "sourceLabel": "Du M et al., \"The effects of background music on neural responses during reading comprehension\" (Scientific Reports, 2020)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-020-75623-3",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "調べたこと",
+        "title": "音楽を流すと、読む脳の反応は変わる？",
+        "body": "文章を読む脳の反応を、無音・高い覚醒度の曲・低い覚醒度の曲の3つの条件で比べた。脳波（事象関連電位）を使ったよ。"
+      },
+      {
+        "stage": "やり方",
+        "title": "39人の大学院生が文章の正誤を判断",
+        "body": "参加したのは大学院生39人。「世界の知識」にかんする文が正しいかを判断してもらい、間違いを読んだときの脳の反応（N400）を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "間違った文への脳の反応は、無音のときがいちばん小さく、音楽があると大きかった（39人）",
+        "body": "間違った文を読んだときの反応は、無音のときのほうが小さかった。曲が高い覚醒度でも低くても同じで、音楽で意味を結びつける負担が増えたと考えられているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "成績や実際の勉強とのつながり",
+        "body": "測ったのは脳の反応で、この要旨には正答率の差は書かれていない。大学院生39人の短い実験なので、普段の勉強にそのまま当てはまるかはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この実験で、間違った文を読んだときの脳の反応が小さかった条件は？",
+      "correct": "無音のとき",
+      "wrong": "音楽があるとき"
+    },
+    "webUrl": "https://seadice.win/evidence/music-focus/#music-background-reading-n400-arousal"
+  },
+  {
+    "id": "posture-smartphone-overuse-neck-pain-meta",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Chen et al., \"Association of smartphone overuse and neck pain: a systematic review and meta-analysis\" (Postgraduate Medical Journal, 2025)",
+    "sourceUrl": "https://doi.org/10.1093/postmj/qgae200",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "スマホを使いすぎると、首が痛くなりやすい？",
+        "body": "ずっと下を向いてスマホを見ていると首がつらい気がするよね。実際のところどうなんだろう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "過去の7本の研究をまとめた",
+        "body": "スマホの使いすぎ（overuse）の人とそうでない人で、首の痛みを比べた7本の研究（合計10,715人、平均年齢は約20〜43歳）を、数字でまとめた分析だよ。7本とも過去の記録をさかのぼる形の研究。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "スマホを使いすぎの人は、首が痛い人が約2.3倍多かった（7本・1万715人）",
+        "body": "使いすぎの人は、そうでない人より首の痛みが多かった（オッズ比2.34＝痛みのオッズが約2.3倍。1なら差なし）。ただ信頼区間は1.44〜3.82と幅が広いよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "スマホが痛みを生むのかは、この要旨からはわからない",
+        "body": "集まったのは7本とも、さかのぼって調べた研究。「使いすぎ」の基準は、この要旨には書かれていない。対象は若い〜中年の大人が中心だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この分析で、スマホの使いすぎと首の痛みの関係は？",
+      "correct": "使いすぎの人に首の痛みが多い向きだった",
+      "wrong": "約1.5倍にとどまった"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-smartphone-overuse-neck-pain-meta"
+  },
+  {
+    "id": "posture-driving-posture-low-back-pain-review",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Tinitali et al., \"Sitting Posture During Occupational Driving Causes Low Back Pain; Evidence-Based Position or Dogma? A Systematic Review\" (Human Factors, 2019)",
+    "sourceUrl": "https://doi.org/10.1177/0018720819871730",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "運転中の座り方が、腰痛の原因になる？",
+        "body": "仕事で長く運転する人は腰が痛くなりやすい、そして座り方が悪いせい、とよく言われるよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "653本から選んだ7本を整理した",
+        "body": "仕事で運転する人の運転中の姿勢と腰痛の関係を調べた論文を探して、条件に合った7本を読み比べた。数字でまとめず、文章で整理したレビューだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "7本中4本が関係ありとしたが、姿勢の測り方に問題があり、原因とは言えなかった",
+        "body": "7本のうち4本は、姿勢と腰痛に関係があるとした。でも、その姿勢の測り方に妥当性が足りなかったと評価されている。どの姿勢がどれくらい関係するかは確かめられていないよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "姿勢の測り方がそろっていない",
+        "body": "要旨では、きちんと確かめられた測り方で運転中の姿勢を測る研究がこれから必要とされている。それまでは、運転姿勢と腰痛についての助言は慎重に、というのが著者の結論だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、運転姿勢と腰痛の関係は？",
+      "correct": "あるかもしれないが、確かめられていない",
+      "wrong": "7本すべてが関係ありとしていた"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-driving-posture-low-back-pain-review"
+  },
+  {
+    "id": "posture-sleep-disturbance-back-pain-meta",
+    "category": "姿勢と痛み",
+    "kind": "素朴な疑問",
+    "themeColor": "#64748B",
+    "sourceLabel": "Amiri & Behnezhad, \"Sleep disturbances and back pain: Systematic review and meta-analysis\" (neuropsychiatrie, 2020)",
+    "sourceUrl": "https://doi.org/10.1007/s40211-020-00339-9",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "眠れない人は、背中の痛みも多い？",
+        "body": "背中が痛い日は眠りにくいし、眠れない日は体がつらい。この2つ、関係はあるのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "21本の研究をまとめた",
+        "body": "睡眠の問題と背中の痛み（back pain）の関係を調べた21本の研究を、数字でまとめた分析だよ。男性と女性に分けた結果も出ているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "睡眠に問題がある人は、背中の痛みが約1.5倍多かった（21本）",
+        "body": "睡眠に問題がある人は背中の痛みが多かった（オッズ比1.52、信頼区間1.37〜1.68。1なら差なし）。男性は1.49、女性は1.56で、大きな差はなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どちらが先かは、決められない",
+        "body": "著者も、関係は両方向かもしれず、背中の痛みが睡眠の問題を生むこともあると書いている。研究どうしの結果のばらつきは大きく、偏りの可能性も示されていたよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この分析で、睡眠の問題と背中の痛みの関係は？",
+      "correct": "睡眠に問題がある人は、痛みが多い向き",
+      "wrong": "約1.2倍にとどまった"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-sleep-disturbance-back-pain-meta"
+  },
+  {
+    "id": "aging-physical-activity-sarcopenia-odds-meta",
+    "category": "運動と老化",
+    "kind": "研究紹介",
+    "themeColor": "#B45309",
+    "sourceLabel": "Steffl et al., \"Relationship between sarcopenia and physical activity in older people: a systematic review and meta-analysis\" (Clinical Interventions in Aging, 2017)",
+    "sourceUrl": "https://doi.org/10.2147/CIA.S132940",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "体を動かす人は、筋肉が減りにくい？",
+        "body": "年をとると筋肉が減って力が落ちる「サルコペニア」。ふだんの活動量とどう関わるのかを調べた研究があるよ。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "25本の研究をまとめた",
+        "body": "高齢者の活動量とサルコペニアの関係を調べた、ある時点の比較と追跡の研究（横断研究・コホート研究）25本を、数字でまとめた分析だよ。運動を割り当てた試験は含まれていない。"
+      },
+      {
+        "stage": "結果",
+        "title": "活動量が多い高齢者は、サルコペニアのオッズが約55%低かった（25本）",
+        "body": "活動量が多い人は、サルコペニアになるオッズが低かった（オッズ比0.45＝約5.5割低い。信頼区間0.37〜0.55）。ほとんどの研究で、同じ向きの関係が見られたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "動いたから防げた、とは言えない",
+        "body": "横断研究や追跡の研究なので、動いていたから筋肉が減らなかったのか、筋肉が保たれていたから動けたのかは、この要旨からは切り分けられない。個々の研究の質のばらつきは要旨にないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この分析で、活動量とサルコペニアの関係は？",
+      "correct": "活動量が多い人は、5割以上少ない向きだった",
+      "wrong": "活動量が多い人は、2割ほど少ない向きだった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-physical-activity-sarcopenia-odds-meta"
+  },
+  {
+    "id": "aging-leisure-activity-hip-fracture-older-women-meta",
+    "category": "運動と老化",
+    "kind": "研究紹介",
+    "themeColor": "#B45309",
+    "sourceLabel": "Rong et al., \"Increasing Level of Leisure Physical Activity Could Reduce the Risk of Hip Fracture in Older Women: A Dose-Response Meta-Analysis of Prospective Cohort Studies\" (Medicine, 2016)",
+    "sourceUrl": "https://doi.org/10.1097/MD.0000000000002984",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "運動する高齢の女性は、股関節の骨折が少ない？",
+        "body": "年をとってからの骨折は、そのあとの生活を大きく変えることがあるよね。運動との関係を調べた研究があるよ。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "14本の追跡研究を集めた",
+        "body": "高齢の女性の余暇の運動量と、股関節（大腿骨）の骨折・手首の骨折との関係を、14本の追跡研究から量と反応の関係で調べた分析だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "余暇の運動が多い高齢女性は、股関節の骨折が少なく（0.93）、手首の骨折には差がなかった",
+        "body": "運動量が増えるほど、股関節の骨折リスクは低い向きだった（9本の分析でリスク比0.93＝約7%低い。信頼区間0.91〜0.96）。手首の骨折は、はっきりした関係が出なかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運動量の単位や、運動が原因かは書かれていない",
+        "body": "要旨には、運動量をどれだけ増やしたときの数字かが書かれていない。追跡した観察研究のまとめなので、運動が骨折を減らしたと決めることもできないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この分析で、運動量と骨折の関係は？",
+      "correct": "股関節は低め、手首は関係がはっきりしない",
+      "wrong": "股関節も手首も、同じくらい低めだった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-leisure-activity-hip-fracture-older-women-meta"
+  },
+  {
+    "id": "aging-housework-frailty-mortality-singapore",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Lee et al., \"Longitudinal associations of housework with frailty and mortality in older adults: Singapore Longitudinal Ageing Study 2\" (BMC Geriatrics, 2022)",
+    "sourceUrl": "https://doi.org/10.1186/s12877-022-03591-6",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動しなくても、家事をよくする人は元気でいられる？",
+        "body": "わざわざ運動の時間を取らなくても、掃除や洗濯で体を動かしていれば十分、という声もあるよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "シンガポールの55歳以上3,270人を追った",
+        "body": "地域で暮らす55歳以上の人に家事の量を聞き、3〜5年後の虚弱（フレイル）の前段階や、平均9.5年の死亡を調べた追跡研究だよ。運動など他の要素も調整されているよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "家事をよくする高齢者は、虚弱（または前段階）が約4割少なく、軽い家事の多い女性は死亡が41%少なかった",
+        "body": "65歳以上で家事を続けてよくしていた人は、虚弱や前段階のオッズが低かった（軽い家事で0.61、重い家事で0.56）。軽い家事をよくする女性は、亡くなるリスクが41%低い向きだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "男女で結果が違い、原因とも言い切れない",
+        "body": "観察研究なので、家事が原因とは言い切れないよ。シンガポールの55歳以上の話で、ほかの国で同じかはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、軽い家事と死亡の関係は？",
+      "correct": "女性では死亡が少ない向き、男性は見られず",
+      "wrong": "男女とも同じくらい死亡が少ない向きだった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-housework-frailty-mortality-singapore"
+  },
+  {
+    "id": "sleepfood-ultra-processed-sleep-meta",
+    "category": "睡眠と食欲",
+    "kind": "よくある説",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Delpino et al., \"Intake of ultra-processed foods and sleep-related outcomes: A systematic review and meta-analysis\" (Nutrition, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/j.nut.2022.111908",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "加工食品をよく食べると、眠りが悪くなる？",
+        "body": "スナック菓子やインスタント食品みたいな超加工食品。食べすぎると体に悪いと言われるけど、眠りにも関係があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "15本の研究をまとめた",
+        "body": "食べる量と、睡眠時間・睡眠の質（自己申告）の関係を調べた研究15本を集めて、数字でまとめた分析があるよ。15本はどれも横断研究（一時点の調査）。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "15本中14本で、超加工食品を多く食べる人ほど、睡眠が短い・質が悪い人が多かった",
+        "body": "15本中14本で関連が見られたらしい。調整前は子ども・青年で関連があり、成人では差なし。調整後は全年齢で関連。確かさは「中くらい」と評価。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "順番も原因もわからない",
+        "body": "どれも一時点の調査だから、食べ方が眠りを乱したのか、眠れないから食べるのかは切り分けられない。著者も縦断研究や臨床試験が必要と書いているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "15本の研究の結果は？",
+      "correct": "14本で、多く食べる人ほど睡眠が悪かった",
+      "wrong": "差が出たのは15本中数本だけだった"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleepfood-ultra-processed-sleep-meta"
+  },
+  {
+    "id": "sleepfood-short-sleep-sugary-drinks-meta",
+    "category": "睡眠と食欲",
+    "kind": "素朴な疑問",
+    "themeColor": "#9333EA",
+    "sourceLabel": "Shahdadian et al., \"Association between short sleep duration and intake of sugar and sugar-sweetened beverages: A systematic review and meta-analysis of observational studies\" (Sleep Health, 2023)",
+    "sourceUrl": "https://doi.org/10.1016/j.sleh.2022.07.006",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝不足の人は、甘い飲み物を選びがち？",
+        "body": "眠いときに甘いコーヒーやエナジードリンクに手が伸びる、って人は多いよね。それが数字にも出るのか、まとめた分析があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "子ども22本・大人12本を集めた",
+        "body": "睡眠時間が短い人と十分な人で、砂糖や甘い飲み物の量を比べた研究を集めた。数字でまとめられたのは子ども10本、大人3本。全部が横断研究だよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "睡眠が短い子は、炭酸飲料やエナジードリンクを飲む人が多かった",
+        "body": "子どもで、砂糖をとる人のオッズは1.16倍、ソーダは1.21倍、エナジードリンクは1.92倍。ただソフトドリンク全般は1.17倍で、誤差の幅が1をまたいだ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "大人は研究が少なすぎる",
+        "body": "大人のソーダ1.20倍・エナジードリンク1.58倍は2〜3本の結果で、砂糖の総量には差が出なかった。全部が一時点の調査だから、寝不足が原因かはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "子どもでオッズが最も高かった飲み物は？",
+      "correct": "エナジードリンク",
+      "wrong": "ソフトドリンク全般"
+    },
+    "webUrl": "https://seadice.win/evidence/sleep-appetite/#sleepfood-short-sleep-sugary-drinks-meta"
+  },
+  {
+    "id": "laughter-fake-vs-real-laughter-heart-rate",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Law et al., \"A comparison of the cardiovascular effects of simulated and spontaneous laughter\" (Complementary Therapies in Medicine, 2018)",
+    "sourceUrl": "https://doi.org/10.1016/j.ctim.2018.02.005",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "作り笑いでも、体は笑ったときのように動く？",
+        "body": "笑うと体にいいと言われるけど、おかしくなくて作った笑いでも同じなのかな。心拍を測って比べた実験があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "72人を3グループにくじで分けた",
+        "body": "6分間、作り笑いをするグループ、お笑い動画を見るグループ、笑いのないドキュメンタリーを見るグループに分けて、心拍と心拍変動を測ったんだ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "作り笑いのグループは、笑っている間の心拍が高かった",
+        "body": "心拍数は高く、心拍変動（rMSSD）は低かった。差の大きさは心拍が0.26（0.14以上で大きい）、心拍変動が0.13。著者は運動に似た反応と考察。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "6分間の短い反応だけ",
+        "body": "心拍の差は、作り笑いのほうが笑う量が多かったことが一因。ストレス課題中の差も、笑いの量をそろえると消えた。対象者の年齢などは要旨に書かれておらず、長期の影響も調べていない。"
+      }
+    ],
+    "quiz": {
+      "q": "作り笑いのグループで、笑っている間に高かったのは？",
+      "correct": "心拍数",
+      "wrong": "心拍変動の数値"
+    },
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-fake-vs-real-laughter-heart-rate"
+  },
+  {
+    "id": "insight-aha-problems-working-memory",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Chuderski A & Jastrzębski J, \"Much ado about aha!: Insight problem solving is strongly related to working memory capacity and reasoning ability\" (Journal of Experimental Psychology: General, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/xge0000378",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ひらめきは、ふだんの考える力と別の才能？",
+        "body": "「あっ！」と突然わかる感じは特別に見えるよね。でも、情報を一時的に覚えながら考える力（ワーキングメモリ）とは関係があるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "成人318人に、たくさんのテストを解いてもらった",
+        "body": "推理のテスト4つと記憶の課題13個、言葉・図形・マッチ棒などのひらめき問題40問を、成人318人にやってもらったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ワーキングメモリで、ひらめき問題の成績の差の約半分（51.8%）が説明できた",
+        "body": "ワーキングメモリで、ひらめき問題の成績の差の51.8％（約半分）が説明できた。「ひらめいた」と答えた問題でも同じ傾向だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回のテスト結果で、鍛えたら伸びるかは別",
+        "body": "成人が1回ずつ受けた結果の関係だよ。記憶の力を上げたらひらめきも上がるか、ほかの種類の問題でも同じかは、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "ひらめき問題の成績の差の約半分を説明したのは？",
+      "correct": "ワーキングメモリ（記憶の容量）",
+      "wrong": "「ひらめいた」という感覚の強さ"
+    },
+    "webUrl": "https://seadice.win/evidence/insight/#insight-aha-problems-working-memory"
+  },
+  {
+    "id": "insight-ideas-later-more-creative-tiny",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Barbot B et al., \"“Robust” but Tiny: Methodological Influences and Inter-Individual (Un)Stability of the Serial Order Effect in Creativity\" (Journal of Intelligence, 2026)",
+    "sourceUrl": "https://doi.org/10.3390/jintelligence14060100",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "アイデアは、あとに出たものほど独創的？",
+        "body": "最初は普通の案ばかりで、粘るとおもしろい案が出る、ってよく言うよね。実際にはどれくらいそうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "お題3種類を、3通りの採点で見た",
+        "body": "物の変わった使い道を考えるお題3種類で、出たアイデアの独創性を3通りの方法で採点し、出た順番との関係を調べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "あとに出た案ほど独創的だったが、順番で説明できるのは最大3.5%だけだった",
+        "body": "どの採点でも傾向は出たけど、順番で説明できるのは多くても3.5％。お題や採点の方法で、大きさも変わったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人によって安定した傾向かは、はっきりしない",
+        "body": "お題を変えると同じ人の傾向がそろわず、安定した個人差の証拠は見つからなかった。参加者の人数や年齢は、要旨には書かれていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "順番で説明できた独創性の差は、最大で？",
+      "correct": "3.5%だけ",
+      "wrong": "約1割"
+    },
+    "webUrl": "https://seadice.win/evidence/insight/#insight-ideas-later-more-creative-tiny"
+  },
+  {
+    "id": "insight-aha-doh-incidental-facts-memory",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Salvi C et al., \"Aha! and D'oh! experiences enhance learning for incidental information—new evidence supports the insight memory advantage\" (Cognitive, Affective, & Behavioral Neuroscience, 2024)",
+    "sourceUrl": "https://doi.org/10.3758/s13415-024-01184-x",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ひらめいた瞬間に見た情報も、覚えやすい？",
+        "body": "ひらめいて解いた答えは忘れにくい、とは聞くよね。じゃあ、その瞬間にたまたま目にした別の情報はどうなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "絵なぞなぞの途中で、関係ない豆知識を見せた",
+        "body": "絵なぞなぞ（Rebus）で「解けた」と答えた直後、提出の前に、学校で習うような豆知識を表示。ひらめきか順を追ってかを答えてもらった。参加者は291人。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ひらめいた場面で見た豆知識は、思い出しやすかった",
+        "body": "自然な「あっ！」でも、気づかされる「しまった！」でも、順を追って解いた場面より、そのとき見た豆知識の記憶成績が良かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "短い場面の実験で、勉強への効果は未確認",
+        "body": "絵なぞなぞと豆知識での結果で、ひらめいたかは本人の申告だよ。何日後まで覚えているか、授業で使えるかは、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "記憶成績が良かったのは、どんなときに見た豆知識？",
+      "correct": "ひらめいて解けた場面で見たもの",
+      "wrong": "順を追って解けた場面で見たもの"
+    },
+    "webUrl": "https://seadice.win/evidence/insight/#insight-aha-doh-incidental-facts-memory"
+  },
+  {
+    "id": "speech-turn-taking-gap-10-languages",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Stivers T et al., \"Universals and cultural variation in turn-taking in conversation\" (Proceedings of the National Academy of Sciences, 2009)",
+    "sourceUrl": "https://doi.org/10.1073/pnas.0903616106",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "会話の「間」は、言語によって大きく違う？",
+        "body": "あの国は間が長い、あっちは話をかぶせてくる、なんて聞くよね。返事のタイミングは、言語でどれくらい違うのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "世界の10言語で、返事までの間を比べた",
+        "body": "伝統的な暮らしの共同体から主要言語まで、世界の10言語の会話で、相手の話が終わってから返事までの間を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "10言語どれも、返事までの間は短く、言語ごとの平均の差は250ミリ秒の範囲内だった",
+        "body": "全言語で、重なりを避け、返事までの沈黙を小さくしていた。平均の間の差は、全言語の平均から250ミリ秒（4分の1秒）の範囲内だったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「体感の違い」は研究者の見立て",
+        "body": "小さな差が大きな違いに感じられるのでは、というのは研究者の考えで、確かめてはいない。人数や会話の場面は要旨に書かれていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "10言語を比べて、共通していたことは？",
+      "correct": "重なりを避け、沈黙も短くしていた",
+      "wrong": "間を空け、ゆっくり返事をしていた"
+    },
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-turn-taking-gap-10-languages"
+  },
+  {
+    "id": "speech-voice-vs-text-job-pitch-intellect",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Schroeder J & Epley N, \"The Sound of Intellect: Speech Reveals a Thoughtful Mind, Increasing a Job Candidate's Appeal\" (Psychological Science, 2015)",
+    "sourceUrl": "https://doi.org/10.1177/0956797615572906",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "同じ話でも、声で聞くと賢そうに聞こえる？",
+        "body": "自己PRは文章で出すのが無難？それとも声で伝えたほうがいい？「賢そう」に伝わるのはどっちなんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "採用担当役が、見る・聞く・読むで評価した",
+        "body": "仮想の採用担当者や、プロの採用担当者（実験4）に、候補者の「採用してほしい理由」の話を、見る・聞く・読むのどれかで評価してもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "文章で読むより、声で聞いたほうが有能に感じられた",
+        "body": "声で聞いた人は、読んだ人より候補者を有能で思慮深いと評価し、採用への関心も高かった。映像を足しても、音声だけと変わらなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "印象の評価で、実際の採用結果ではない",
+        "body": "仮想の場面や評価の話で、声がいい人が実際に採用されるかは、この要旨からはわからない。人数も要旨には書かれていないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "音声に映像を足すと、評価はどうなった？",
+      "correct": "音声だけのときと変わらなかった",
+      "wrong": "音声だけのときよりさらに高くなった"
+    },
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-voice-vs-text-job-pitch-intellect"
+  },
+  {
+    "id": "money-financial-education-meta-76-rcts",
+    "category": "お金の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Kaiser T, Lusardi A, Menkhoff L, Urban C, \"Financial education affects financial knowledge and downstream behaviors\" (Journal of Financial Economics, 2022)",
+    "sourceUrl": "https://doi.org/10.1016/j.jfineco.2021.09.022",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お金の勉強って、役に立つの？",
+        "body": "「お金の授業を受けても行動は変わらない」って話、聞いたことあるよね。ランダムに分けた実験をまとめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "76の実験をまとめた",
+        "body": "金融教育のプログラムを、くじ引きで分けて試した76件の実験を集めて、合計16万人超のデータを数字でまとめたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "金融教育を受けた人は、お金の知識も、その後の行動も良くなっていた（76件の平均）",
+        "body": "平均すると、お金の知識にも、貯金や借金などその後の行動にも、良い方向の効果が出ていた。出版に偏りがあっても結論は保たれたらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果がどれくらい続くかは別の話",
+        "body": "この要旨からは、効果が何年続くか、どの国や年齢で強いかまではわからないよ。プログラムの中身でも違うはずだから、個々の研究を見る必要があるね。"
+      }
+    ],
+    "quiz": {
+      "q": "金融教育の実験76件をまとめた研究では、どんな結果だった？",
+      "correct": "お金の知識とその後の行動に、平均して良い効果があった",
+      "wrong": "知識は少し増えるが、その後の行動には効果がなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/money/#money-financial-education-meta-76-rcts"
+  },
+  {
+    "id": "money-house-money-effect-meta-36-studies",
+    "category": "お金の心理学",
+    "kind": "よくある説",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Dan, \"The role of mental accounting in risk-taking and spending: a meta-analysis of the house-money effect\" (Frontiers in Psychology, 2025)",
+    "sourceUrl": "https://doi.org/10.3389/fpsyg.2025.1549626",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "思わぬお金は、気が大きくなる？",
+        "body": "臨時収入やギャンブルの勝ち分は「あぶく銭」と呼ばれて、ついリスクを取ったり使いすぎたりすると言われるよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "36の研究を数字でまとめた",
+        "body": "予想外にお金を得た人が、リスクを取りやすい・使いやすいかを調べた36件の研究を、ランダム効果モデルでまとめたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "あぶく銭でリスクを取る効果はあった（g=0.37）が、現実に近い場面では弱く、新しい研究ほど小さかった",
+        "body": "効果は g=0.37（0.2で小さい・0.5で中くらい）。ただ研究ごとのばらつきは大きく、現実に近い場面ほど弱まり、新しい研究ほど小さかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "日常の臨時収入でも同じかは不明",
+        "body": "制御された実験で強く、現実に近いと弱まっていた。出版の偏りも少し見つかり、本当の効果はもっと小さい可能性があるよ。"
+      }
+    ],
+    "quiz": {
+      "q": "あぶく銭でお金を使いやすくなる効果は、まとめた研究でどうだった？",
+      "correct": "小〜中くらいの効果で、現実に近いほど弱まっていた",
+      "wrong": "ほぼ0で、どの条件でも見られなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/money/#money-house-money-effect-meta-36-studies"
+  },
+  {
+    "id": "money-temporal-discounting-age-meta",
+    "category": "お金の心理学",
+    "kind": "よくある説",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Seaman KL, Abiodun SJ, Fenn Z, Samanez-Larkin GR, \"Temporal discounting across adulthood: A systematic review and meta-analysis\" (Psychology and Aging, 2022)",
+    "sourceUrl": "https://doi.org/10.1037/pag0000634",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "年をとると、気長になる？",
+        "body": "「若い人は目先のお金に飛びつき、年配の人は待てる」と思いがちだよね。初期の研究でも、そんな結果が出ていたらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "37の研究・10万人超",
+        "body": "「今の少額」か「あとの多額」かを選ぶ課題で、年齢との関係を調べた37件の横断研究（計104,737人）を、事前登録してまとめたよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "年齢が上がっても、待てる度合いは変わらなかった（37件・10万人超）",
+        "body": "相関は r=-0.068（0.1で小さい）で、信頼区間は-0.170〜0.035と0をまたいでいた。若い人も年配も、待てる度合いは似ていたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "同じ人を追った結果ではない",
+        "body": "これは別々の年齢の人を比べた研究のまとめ。同じ人が年をとって変わるかは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "年齢と「待てる度合い」の関係は、37件のまとめでどうだった？",
+      "correct": "はっきりした関係は見られず、年齢で大差はなかった",
+      "wrong": "年齢が上がるほど、待てる傾向がはっきり強まっていた"
+    },
+    "webUrl": "https://seadice.win/evidence/money/#money-temporal-discounting-age-meta"
+  },
+  {
+    "id": "bias-omission-bias-meta-21-samples",
+    "category": "意思決定バイアス",
+    "kind": "よくある説",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Yeung S, Yay T, Feldman G, \"Action and Inaction in Moral Judgments and Decisions: Meta-Analysis of Omission Bias Omission-Commission Asymmetries\" (Personality and Social Psychology Bulletin, 2021)",
+    "sourceUrl": "https://doi.org/10.1177/01461672211042315",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "何もしない害は、軽く見られる？",
+        "body": "同じ悪い結果でも、「やって起きた」より「やらずに起きた」ほうが責められにくい。これが不作為バイアスと呼ばれるものだよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "21の標本・49の効果をまとめた",
+        "body": "このバイアスの結果が研究で食い違っていたので、13本の論文から21の標本・49の効果を、事前登録してまとめ直したよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "やらずに起きた害は、やって起きた害より軽く評価された（g=0.45、中くらい）",
+        "body": "全体で g=0.45（0.5で中くらい）、信頼区間は0.14〜0.77。道徳判断や責任の判断で強く、実際の決定では弱めだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "研究が少なく、偏りの可能性も",
+        "body": "集まった研究が少なく、条件ごとの違いは確かには言えない。出版の偏りの検定は結果が混ざっていて、一部で偏りの兆候があったよ。"
+      }
+    ],
+    "quiz": {
+      "q": "不作為バイアスのメタ分析では、効果はどのくらいだった？",
+      "correct": "中くらいの差だが、信頼区間の幅は広かった",
+      "wrong": "ごく小さい差で、研究ごとにほぼ一致していた"
+    },
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-omission-bias-meta-21-samples"
+  },
+  {
+    "id": "bias-status-quo-replication-samuelson-zeckhauser",
+    "category": "意思決定バイアス",
+    "kind": "研究紹介",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Xiao E, Lam J, Piara M, Feldman G, \"Revisiting status quo bias\" (Meta-Psychology, 2021)",
+    "sourceUrl": "https://doi.org/10.15626/mp.2020.2470",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "いつもの選択肢を選びがち？",
+        "body": "今の状態や前に選んだものを続けたくなる「現状維持バイアス」。1988年のSamuelsonとZeckhauserの研究が最初の実験だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "元の4場面を2回、事前登録でやり直し",
+        "body": "アメリカのオンライン参加者（311人と316人）に、元論文の4つの場面を出して、同じ結果が出るかを確かめたよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "4場面中3つで確認、1つは確認できず",
+        "body": "予算の配分・投資の組み合わせ・学生アルバイトの選択では強い支持。でも、ワゴン車の色の選択ではほとんど支持されなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ネット調査の仮の場面での話",
+        "body": "どれも場面を読んで答える調査で、実際のお金や生活の決定ではない。なぜ1場面だけ出なかったのかも、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "元の現状維持バイアスの実験をやり直したら、どうなった？",
+      "correct": "4場面のうち3つで確認され、1つは確認できなかった",
+      "wrong": "4場面すべてで確認され、元とほぼ同じ強さだった"
+    },
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-status-quo-replication-samuelson-zeckhauser"
+  },
+  {
+    "id": "bias-hot-hand-streak-selection-bias",
+    "category": "意思決定バイアス",
+    "kind": "よくある説",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Miller JB, Sanjurjo A, \"Surprised by the Hot Hand Fallacy? A Truth in the Law of Small Numbers\" (Econometrica, 2018)",
+    "sourceUrl": "https://doi.org/10.3982/ECTA14943",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「ノッてる」は思い込み？",
+        "body": "バスケで何本か続けて決めた選手は「ノッてる」と思うよね。でも昔の有名な研究は「それは錯覚」と結論したんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "計算のくせを数学で示した",
+        "body": "連続した成功のあとの成功率を測る定番の方法に、微妙だけど無視できない偏りがあることを、数学的に示した研究だよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "計算の偏りを直すと、「ノッてるは錯覚」とした元の研究の結論が逆になった",
+        "body": "その偏りは系列が長いと小さくなるけど、よく使われる長さでは大きい。直して見ると、有名な元の研究の結論は逆になったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人での新しい実験ではない",
+        "body": "これは数学の証明と既存データの見直しで、新しく人を調べたものではない。どれくらい「ノる」かの大きさは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "連続成功のあとの成功率を測る定番の方法を直すと、どうなった？",
+      "correct": "有名な元の研究の結論が逆転した",
+      "wrong": "元の研究の結論がさらに強く裏づけられた"
+    },
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-hot-hand-streak-selection-bias"
   }
 ]
