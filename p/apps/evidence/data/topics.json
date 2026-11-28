@@ -8565,6 +8565,11 @@
         "id": "posture-text-neck-young-adults",
         "type": "あわせて読む",
         "why": "うつむく姿勢と首の痛みの関係を、若い人で調べた別の研究"
+      },
+      {
+        "id": "posture-forward-head-neck-pain-meta",
+        "type": "あわせて読む",
+        "why": "首のカーブと、頭の前への出方。近い問いを別の測り方で"
       }
     ],
     "webUrl": "https://seadice.win/evidence/posture-pain/#posture-straight-neck-neck-pain"
@@ -71337,5 +71342,1492 @@
       "wrong": "中くらいのマットレス"
     },
     "webUrl": "https://seadice.win/evidence/sleep-environment/#sleep-mattress-firmness-psg"
+  },
+  {
+    "id": "posture-expansive-posture-nasal-breathing-teens",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Yang et al., \"Synergistic and distinct effects of expansive posture and nasal breathing on psychological and physiological self-regulation in adolescents\" (Scientific Reports, 2026)",
+    "sourceUrl": "https://doi.org/10.1038/s41598-026-38917-6",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "胸を張ると、10代でも自信がつく？",
+        "body": "緊張する場面のあとに胸を張ると気持ちが変わる、って聞くよね。10代の子にも同じことが言えるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "緊張する課題のあと、4つに分けた",
+        "body": "15〜18歳に人前での緊張課題をしてもらい、胸を張る・鼻で呼吸する・両方・対照のどれかに。自信と不安は質問票（138人）で測ったよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "胸を張った子は、自信の得点が高めだった",
+        "body": "胸を張る姿勢は、単独でも鼻呼吸との組み合わせでも自己効力感（自分ならできる感覚）が上がった。不安は、3つの方法どれでも対照より下がったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1回の実験で、本人の回答が中心",
+        "body": "自信も不安も本人の回答で、汗の反応（皮膚の電気活動）を測れたのは62人。どこの国の子か、日常の場面でも同じかは、この要旨ではわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この実験で、自信の得点が上がった組み合わせは？",
+      "correct": "胸を張る姿勢だけ、または鼻呼吸との組み合わせ",
+      "wrong": "鼻呼吸だけでも、胸を張る姿勢と同じくらい上がった"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-expansive-posture-nasal-breathing-teens"
+  },
+  {
+    "id": "posture-self-talk-upright-slumped-athletes",
+    "category": "姿勢と自信",
+    "kind": "素朴な疑問",
+    "themeColor": "#F87171",
+    "sourceLabel": "Horcajo J, Mateos R, Tannion L, \"The interplay between self-talk and body posture on physical performance: Analyzing a moderated serial multiple mediation model\" (Psychology of Sport and Exercise, 2024)",
+    "sourceUrl": "https://doi.org/10.1016/j.psychsport.2023.102534",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "前向きな独り言は、姿勢しだいで効き方が変わる？",
+        "body": "「私ならできる」と心の中で言うとき、背筋を伸ばしているのと丸めているのとで、成績に違いは出るのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "サッカー選手や運動選手に、3つの実験",
+        "body": "実験1・2は独り言と姿勢の両方を、3つ目は姿勢だけを人ごとに変えて、スラローム、ドリブル、腕立て、懸垂の成績を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "独り言による差は、背筋を伸ばした人で大きかった",
+        "body": "前向きな独り言のほうが成績に響いたのは、姿勢を丸めた人より背筋を伸ばした人。3つ目の実験では「言葉が正しいと感じる→自己効力感」という道すじも支持されたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運動の課題での結果",
+        "body": "人数や効果の大きさは要旨にない。どれも運動の課題で、独り言も姿勢も指示されたもの。日常の自信や仕事でも同じかは、まだわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "前向きな独り言の影響が大きかったのは？",
+      "correct": "背筋を伸ばした姿勢の人",
+      "wrong": "姿勢を丸めた人"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-confidence/#posture-self-talk-upright-slumped-athletes"
+  },
+  {
+    "id": "insight-sleep-older-adults-no-gain",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Debarnot U, Rossi M, Faraguna U, Schwartz S, Sebastiani L, \"Sleep does not facilitate insight in older adults\" (Neurobiology of Learning and Memory, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.nlm.2017.02.005",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝るとひらめく、は年をとっても同じ？",
+        "body": "寝て起きたら解けなかった問題がひらめく、って話はよく聞くよね。若い人だけの話なのか、高齢の人でも起きるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "若い人と高齢の人で、夜をはさんで比べた",
+        "body": "健康な若い人と高齢の人に、ひらめきが要る課題を解いてもらった。一晩眠った場合と、起きたまま同じくらいの時間をすごした場合で比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "眠ったあとのひらめきは、高齢の人で少なかった",
+        "body": "一晩眠ったあと、ひらめきが起きた頻度は高齢の人のほうが若い人より少なかった。高齢の人では、眠った場合と起きていた場合で差は見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "1つの課題での結果",
+        "body": "使ったのは1つの課題で、人数や年齢の幅は要旨に書かれていない。眠りの質をそろえたら変わるかなど、理由はまだわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "高齢の人では、眠ったあとのひらめきはどうだった？",
+      "correct": "起きていた場合と差は見られなかった",
+      "wrong": "起きていた場合より少し増えたが、若い人ほどではなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/insight/#insight-sleep-older-adults-no-gain"
+  },
+  {
+    "id": "insight-meditation-short-term-divergent",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Ding X, Tang YY, Tang R, Posner MI, \"Improving creativity performance by short-term meditation\" (Behavioral and Brain Functions, 2014)",
+    "sourceUrl": "https://doi.org/10.1186/1744-9081-10-9",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "短い瞑想で、アイデアは出やすくなる？",
+        "body": "瞑想すると頭が柔らかくなる、って聞くよね。たった1週間でも、アイデアを広げる力に違いが出るのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "大学生40人を、2つのグループに",
+        "body": "中国の大学生40人を、瞑想の一種（IBMT）か、リラックス訓練にくじ引きで分けた。創造性テスト（TTCT）と気分の質問票で比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "瞑想の組は、アイデアを広げる課題の成績が高めだった",
+        "body": "1日30分を7日間続けたIBMTの組は、アイデアを広げる課題でリラックス訓練の組より成績がよく、気分の整え方もよかったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "40人・7日間だけ",
+        "body": "対象は中国の大学生40人で期間も短い。効果がいつまで続くか、ほかの年代でも同じかはわからない。気分が関わる道すじも「かもしれない」の段階だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、瞑想の組とリラックス訓練の組は何日間行った？",
+      "correct": "1日30分を7日間",
+      "wrong": "1日30分を4週間"
+    },
+    "webUrl": "https://seadice.win/evidence/insight/#insight-meditation-short-term-divergent"
+  },
+  {
+    "id": "insight-sleep-odor-reactivation-creativity",
+    "category": "ひらめき",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Ritter SM, Strick M, Bos MW, van Baaren RB, Dijksterhuis A, \"Good morning creativity: task reactivation during sleep enhances beneficial effect of sleep on creative performance\" (Journal of Sleep Research, 2012)",
+    "sourceUrl": "https://doi.org/10.1111/j.1365-2869.2012.01006.x",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "寝ている間にあるにおいを嗅ぐと、朝のアイデアが変わる？",
+        "body": "眠っている間に頭が問題を整理してくれる、って話があるよね。においで「その問題」を思い出させたら、どうなるのかな？"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "問題を出した夜のにおいを、眠りの中で",
+        "body": "夜に創造的な解き方が要る問題を出し、そのときのにおいを眠りの間にまた流す・別のにおいを流す・流さない、の3条件で翌朝を比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "同じにおいで眠った人は、翌朝の成績が高めだった",
+        "body": "同じにおいで眠った人は、別のにおいやにおいなしの人より創造的な答えが多く、いちばん創造的な案を選ぶのも上手だったらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "人数も効果の大きさも要旨にない",
+        "body": "要旨には人数も効果の大きさも書かれていない。1つの問題での実験で、においが眠りの中でどう働いたかは、この要旨だけではわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "翌朝の成績が高かったのは、どの条件の人？",
+      "correct": "問題のときと同じにおいで眠った人",
+      "wrong": "においを流さず、よく眠れた人"
+    },
+    "webUrl": "https://seadice.win/evidence/insight/#insight-sleep-odor-reactivation-creativity"
+  },
+  {
+    "id": "laughter-occasions-dementia-jages",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Wang, Shirai, Ohira et al., \"Occasions for laughter and dementia risk: Findings from a six-year cohort study\" (Geriatrics & Gerontology International, 2022)",
+    "sourceUrl": "https://doi.org/10.1111/ggi.14371",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "笑う場面が多い人は、認知症になりにくい？",
+        "body": "笑うことが多い人は元気そう、というイメージはあるよね。では「どんな場面で笑うか」の幅広さは、認知症のなりやすさと関係するのかな。日本の高齢者を6年追った研究があるよ。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "日本の65歳以上、12,165人を6年追った",
+        "body": "Japan Gerontological Evaluation Study（JAGES）のデータを使った研究。自立して暮らす65歳以上12,165人に、笑う場面を質問票で聞き、6年間の認知症の発生を追った。"
+      },
+      {
+        "stage": "結果",
+        "title": "笑う場面が多彩な人は、認知症の発生が約16%低めだった",
+        "body": "笑う場面の種類が多いグループは少ないグループより、認知症の発生のハザード比が0.84（約16%低い）。女性は0.78、男性は一部の群でだけ差が見られた。友人との会話・子や孫との会話・ラジオで笑う人で低めだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "笑うから防げるのかは、この研究では分けられない",
+        "body": "追いかけただけの観察研究で、笑う場面は本人の申告。男性では差がはっきりしなかった。対象は日本の65歳以上なので、他の国や年代にそのまま当てはまるかはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、笑う場面が多彩な人は少ない人にくらべて、認知症の発生はどうだった？",
+      "correct": "約16%低めだった（ハザード比0.84）",
+      "wrong": "約3割低かった（ハザード比0.7前後）"
+    },
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-occasions-dementia-jages"
+  },
+  {
+    "id": "laughter-frequency-disability-jages",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Tamada Y, Takeuchi K, Yamaguchi C et al., \"Does Laughter Predict Onset of Functional Disability and Mortality Among Older Japanese Adults? The JAGES Prospective Cohort Study\" (Journal of Epidemiology, 2021)",
+    "sourceUrl": "https://doi.org/10.2188/jea.je20200051",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ぜんぜん笑わない人は、将来、介護が必要になりやすい？",
+        "body": "「笑う門には福来る」というけれど、笑う頻度は将来の暮らしの自立と関係があるのかな。日本の高齢者を3年追った研究を見てみよう。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "日本の65歳以上、14,233人を3年追った",
+        "body": "JAGESのデータで、日常生活を自分でこなせる65歳以上14,233人（男性50.3%）が対象。笑う頻度を4段階で聞き、介護が必要になった人と亡くなった人を3年間追った。"
+      },
+      {
+        "stage": "結果",
+        "title": "ほとんど笑わない人は、介護が必要になる人が約4割多めだった",
+        "body": "追跡中に605人（4.3%）が新たに介護認定を受けた。ほぼ毎日笑う人にくらべ、ほとんど笑わない人は1.42倍（約4割多い）。一方、亡くなるリスクとは関係が見られなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "笑わないのが原因か、体調のサインかは不明",
+        "body": "観察研究なので、笑う頻度を増やせば介護を避けられるかはわからない。笑う頻度は将来の自立の「早めのサイン」かもしれない、という段階。対象は日本の高齢者だけ。"
+      }
+    ],
+    "quiz": {
+      "q": "ほぼ毎日笑う人とくらべて、ほとんど笑わない人で介護が必要になるリスクは？",
+      "correct": "約1.4倍。亡くなるリスクとは関係なし",
+      "wrong": "約1.4倍。亡くなるリスクも高かった"
+    },
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-frequency-disability-jages"
+  },
+  {
+    "id": "laughter-subjective-health-jages",
+    "category": "笑いと健康",
+    "kind": "素朴な疑問",
+    "themeColor": "#FBBF24",
+    "sourceLabel": "Hayashi K, Kawachi I, Ohira T et al., \"Laughter and Subjective Health Among Community-Dwelling Older People in Japan: Cross-Sectional Analysis of the Japan Gerontological Evaluation Study Cohort Study\" (Journal of Nervous & Mental Disease, 2015)",
+    "sourceUrl": "https://doi.org/10.1097/nmd.0000000000000399",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "笑わない人は、自分の健康を低く感じやすい？",
+        "body": "笑うことと「自分は健康だ」という感覚は、つながっているのかな。26,368人の高齢者に聞いた日本の調査があるよ。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "日本の65歳以上、26,368人の調査",
+        "body": "JAGESの2013年のデータで、65歳以上の26,368人（男性12,174人、女性14,194人）が対象。笑う頻度・笑う機会・人との関わりと、自分で答えた健康状態、抑うつなどを調べた。"
+      },
+      {
+        "stage": "結果",
+        "title": "ほとんど笑わない女性は、健康が悪いと答える割合が1.78倍",
+        "body": "抑うつや社会参加などをそろえても、ほとんど笑わない女性は、毎日笑う女性より「健康が悪い」と答える割合が1.78倍だった。男性でも同じような関係が見られた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "ある時点の調査なので、順番も原因もわからない",
+        "body": "ある時点で聞いただけの調査で、笑うから健康と感じるのか、健康だから笑えるのかは分けられない。健康状態は本人の自己評価で、対象も日本の高齢者に限られる。"
+      }
+    ],
+    "quiz": {
+      "q": "ほとんど笑わない女性で「健康が悪い」と答える割合は、毎日笑う女性の何倍だった？",
+      "correct": "約1.8倍（抑うつなどをそろえても）",
+      "wrong": "約1.2倍（抑うつなどをそろえるとほぼ消えた）"
+    },
+    "webUrl": "https://seadice.win/evidence/laughter/#laughter-subjective-health-jages"
+  },
+  {
+    "id": "exercise-umbrella-cognition-memory-2025",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Singh B, Bennett H, Miatke A et al., \"Effectiveness of exercise for improving cognition, memory and executive function: a systematic umbrella review and meta-meta-analysis\" (British Journal of Sports Medicine, 2025)",
+    "sourceUrl": "https://doi.org/10.1136/bjsports-2024-108589",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "運動は、記憶にどれくらい効くの？ 年齢で違う？",
+        "body": "運動が頭にいいとはよく聞くけれど、記憶への効き方は小さいのか大きいのか。子どもと高齢者で違いはあるのかな。研究をまとめた研究を、さらにまとめた論文があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "133本のメタ分析、2,724件の試験を集めた",
+        "body": "運動の効果をくじ引き試験で調べたシステマティックレビュー133本（2,724件の試験、参加者258,279人）を集めて、全体の効果を計算した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "記憶への効果は小さめ。子どもや青少年で大きかった",
+        "body": "記憶の効果はSMD=0.26（0.2で小さい・0.5で中くらいの目安なので小さめ）。子ども・青少年の方が大人や高齢者より大きく、低〜中くらいの強さや1〜3か月の短い介入で大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "効果は小さめ。人や運動の条件で差がある",
+        "body": "効果の大きさは、年齢や運動の強さ・長さで変わっていた。どの運動が一番いいかは、この結果だけでは決められない。運動で日々の物忘れが減るかは、別に確かめる必要がある。"
+      }
+    ],
+    "quiz": {
+      "q": "この論文で、運動による記憶の改善はどのくらいだった？",
+      "correct": "小さめ（SMD=0.26）で、子どもで大きかった",
+      "wrong": "中くらい（SMD=0.4前後）で、高齢者で大きかった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-umbrella-cognition-memory-2025"
+  },
+  {
+    "id": "exercise-aerobic-episodic-memory-late-adulthood",
+    "category": "運動と記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#A78BFA",
+    "sourceLabel": "Aghjayan SL, Bournias T, Kang C et al., \"Aerobic exercise improves episodic memory in late adulthood: a systematic review and meta-analysis\" (Communications Medicine, 2022)",
+    "sourceUrl": "https://doi.org/10.1038/s43856-022-00079-7",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ウォーキングなどの有酸素運動で、思い出す力は上がる？",
+        "body": "昨日の出来事のような「エピソード記憶」は年とともに弱くなりがち。有酸素運動はそこに効くのか、これまでの研究では意見が分かれていたらしい。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "平均70.8歳、36件の試験・2,750人をまとめた",
+        "body": "認知症のない55歳以上を対象に、有酸素運動の効果をくじ引き試験で調べた研究36件（参加者2,750人、平均70.82歳）を集めて、エピソード記憶への効果を計算した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "エピソード記憶は小さめだけど上がった。効果は年齢で違った",
+        "body": "全体の効果量はHedges g=0.28（0.2で小さい・0.5で中くらい）。平均55〜68歳の研究では効果が見られたが、69〜85歳の研究では見られなかった。総運動時間が3,900分を超える研究でも効果が見られた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "年齢で差が出た理由や、必要な量は決まっていない",
+        "body": "69歳以上で効果が見られなかった理由は、この要旨からはわからない。運動の量・強さと効果の関係も、条件ごとに分けた結果で、ひとつの目安には決められない。"
+      }
+    ],
+    "quiz": {
+      "q": "この論文で、有酸素運動の効果が見られなかった年齢層は？",
+      "correct": "平均69〜85歳の研究（55〜68歳では効果あり）",
+      "wrong": "平均55〜68歳の研究（69〜85歳では効果あり）"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-memory/#exercise-aerobic-episodic-memory-late-adulthood"
+  },
+  {
+    "id": "japan-hinoeuma-1966-births",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Kaku K, \"Increased induced abortion rate in 1966, an aspect of a Japanese folk superstition\" (Annals of Human Biology, 1975)",
+    "sourceUrl": "https://doi.org/10.1080/03014467500000651",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "丙午の年生まれの女の子は縁起が悪い？",
+        "body": "1966年は丙午（ひのえうま）の年。60年に1度で、この年に生まれた女の子は縁起が悪いと言われてきたよね。本当に出生数に出たのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "1963〜69年の傾向と比べた",
+        "body": "日本の出生数と人工妊娠中絶の数を、1963年から1969年の傾向から予想される値と比べて、1966年がどれくらいずれたかを調べた研究だよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "1966年だけ、出生が約46万人少なかった",
+        "body": "前後の傾向から大きく外れて、出生は約46万3000人減った。中絶率は出生1000あたり43.1で、予想の30.6より高かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "理由は統計からの推定",
+        "body": "減った分は避妊と中絶が一部ずつとされ、丙午の影響の可能性が高いと推定されている。一人ひとりの理由を調べた研究ではなく、1966年の統計をまとめた1975年の論文だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "1966年の日本の出生数は、前後の傾向から見てどうだった？",
+      "correct": "約46万3000人少なかった",
+      "wrong": "約23万人少なかった"
+    },
+    "webUrl": "https://seadice.win/evidence/japan/#japan-hinoeuma-1966-births"
+  },
+  {
+    "id": "japan-green-tea-mortality-ohsaki",
+    "category": "日本でよく聞く説",
+    "kind": "よくある説",
+    "themeColor": "#FB7185",
+    "sourceLabel": "Kuriyama S et al., \"Green Tea Consumption and Mortality Due to Cardiovascular Disease, Cancer, and All Causes in Japan\" (JAMA, 2006)",
+    "sourceUrl": "https://doi.org/10.1001/jama.296.10.1255",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "緑茶をよく飲む人は、長生きなの？",
+        "body": "「お茶をよく飲む人は元気」ってよく聞くよね。日本の大きな調査で、緑茶の量と、その後に亡くなった人の割合を比べたものがあるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "約4万人を最長11年追った",
+        "body": "病気（脳卒中・心臓病・がん）の経験がない40〜79歳の日本人40,530人に、緑茶を飲む頻度を答えてもらい、最長11年間の生死を追いかけた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "5杯以上の人は、亡くなる割合が低めだった",
+        "body": "1日1杯未満の人を1とすると、5杯以上は男性で0.88、女性で0.77。約1割、約2割ちょっと低い。がんでの死亡は、はっきりした差が見られなかったよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "緑茶そのものの効果かはわからない",
+        "body": "飲む量を聞いて追跡しただけの観察研究だから、原因は緑茶と言い切れない。調べたのは日本の成人で、ほかの国でも同じかは別の話だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、緑茶をよく飲む人のがんによる死亡は？",
+      "correct": "飲む量による差は見られなかった",
+      "wrong": "飲む量が多いほど、はっきり低かった"
+    },
+    "webUrl": "https://seadice.win/evidence/japan/#japan-green-tea-mortality-ohsaki"
+  },
+  {
+    "id": "speech-vocal-fry-perception",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Anderson RC et al., \"Vocal Fry May Undermine the Success of Young Women in the Labor Market\" (PLoS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0097506",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "語尾のかすれた低い声って、どう聞こえる？",
+        "body": "語尾が低くてキーキーきしむような話し方を「ボーカルフライ」というよ。アメリカの若い女性に多いと言われるけど、聞く人はどう感じているのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "声を聞いた全国の大人に、印象を聞いた",
+        "body": "アメリカの大人の全国サンプルに、ふつうの話し方の声とボーカルフライの声を聞いてもらい、有能さや信頼できそうかなどの印象を答えてもらった。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ボーカルフライの声は、印象が低めだった",
+        "body": "若い女性の声では、有能さ・学歴・信頼・魅力・採用したいかのすべてが低めの評価。男性の声より、女性の声のほうが評価の下がり方が大きかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "声の印象で、実際の採用が決まるかは別",
+        "body": "答えてもらったのは声を聞いた印象で、実際の採用や仕事の結果は見ていない。アメリカの人の評価なので、日本語の声でも同じかはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "ボーカルフライの若い女性の声は、ふつうの声と比べてどう評価された？",
+      "correct": "有能さや信頼などが低めだった",
+      "wrong": "魅力は上がったが、有能さは変わらなかった"
+    },
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-vocal-fry-perception"
+  },
+  {
+    "id": "speech-humblebrag-ineffective",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Sezer O, Gino F & Norton MI, \"Humblebragging: A distinct—and ineffective—self-presentation strategy\" (Journal of Personality and Social Psychology, 2018)",
+    "sourceUrl": "https://doi.org/10.1037/pspi0000108",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「忙しすぎて大変〜」で自慢するのはあり？",
+        "body": "「評価されすぎて困る」のように、愚痴や謙遜に包んだ自慢を「ハンブルブラッグ」というよ。ふつうに自慢するより、感じよく伝わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "9つの研究で、自慢の仕方を比べた",
+        "body": "1週間の日記調査や現実の場での実験を含む9つの研究で、ふつうの自慢、愚痴型・謙虚型の自慢、ただの愚痴を比べて、相手の反応を見た。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "遠回しな自慢は、ふつうの自慢より評価が低かった",
+        "body": "好感・有能そうという印象・頼みを聞いてもらえる度合い・お金を出してもらえる度合いが下がった。愚痴型は、ただの愚痴より悪かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "自慢を勧める話ではない",
+        "body": "逆効果の理由は「不誠実に見えるから」と研究者は考えている。親しい人との長い付き合いや、日本の場面で同じかは、この研究だけではわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "遠回しな自慢が逆効果になった理由として、研究者が挙げたのは？",
+      "correct": "不誠実に見えるから",
+      "wrong": "自慢の中身が小さく聞こえるから"
+    },
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-humblebrag-ineffective"
+  },
+  {
+    "id": "speech-speech-rate-gaze-persuasion",
+    "category": "話し方と伝わり方",
+    "kind": "素朴な疑問",
+    "themeColor": "#10B981",
+    "sourceLabel": "Yokoyama H & Daibo I, \"Effects of gaze and speech rate on receivers' evaluations of persuasive speech\" (Psychological Reports, 2012)",
+    "sourceUrl": "https://doi.org/10.2466/07.11.21.28.pr0.110.2.663-676",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "早口とゆっくり、説得力があるのはどっち？",
+        "body": "早口だと自信がありそうだけど、ゆっくりのほうが落ち着いて聞こえるよね。話す速さと視線で、聞き手の印象はどう変わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "女性の話し手の動画を見て評価した",
+        "body": "女性が説得の話をする動画を、話す速さと視線の多さを変えて参加者に見てもらい、話し手の印象や説得力を答えてもらった。"
+      },
+      {
+        "stage": "結果",
+        "title": "ゆっくり話すと、説得力があると感じられた",
+        "body": "視線が多いことと、ゆっくり話すことは、それぞれ説得力を高めていた。ただし視線が少ないときは、ゆっくりだと信頼できる印象が下がった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "組み合わせで結果が変わる",
+        "body": "視線が少ないとゆっくりは、女性の聞き手に専門性が低いとも見られた。話し手は女性の動画で、ほかの話し手や場面でも同じかはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "視線が少ないとき、ゆっくり話すと早口と比べて何が下がった？",
+      "correct": "信頼できるという印象",
+      "wrong": "話の内容の分かりやすさ"
+    },
+    "webUrl": "https://seadice.win/evidence/speaking/#speech-speech-rate-gaze-persuasion"
+  },
+  {
+    "id": "money-materialism-wellbeing-meta",
+    "category": "お金の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Dittmar H et al., \"The relationship between materialism and personal well-being: A meta-analysis\" (Journal of Personality and Social Psychology, 2014)",
+    "sourceUrl": "https://doi.org/10.1037/a0037409",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お金やモノを大事にする人は、満たされにくい？",
+        "body": "「お金がいちばん大事」という人は、心の調子がどうなのか気になるよね。これまでの調査を数字でまとめた研究があるんだ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "259の調査、753の数字をまとめた",
+        "body": "物質主義（お金やモノの価値を重く見る度合い）と、心の健康や幸せ度との関係を調べた259の調査をまとめて分析したよ。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "物質主義が強い人は、幸せ度が低めの傾向",
+        "body": "広く使われる尺度では相関 r=-0.19。0.1が小さい・0.3が中くらいなので、小さめの関係だよ。人生満足度では -0.13〜-0.15。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「原因」まではわからない",
+        "body": "集めたのは調査が中心で、お金を重く見るから満たされないのか、満たされないからお金に向かうのかは分けられない。著者も実験や追跡研究が要ると書いているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "物質主義と人生満足度の関係は、どのくらいだった？",
+      "correct": "小さめのマイナスの相関（r=-0.13〜-0.15）",
+      "wrong": "中くらいのマイナスの相関（r=-0.3前後）"
+    },
+    "webUrl": "https://seadice.win/evidence/money/#money-materialism-wellbeing-meta"
+  },
+  {
+    "id": "money-gratitude-impatience-desteno",
+    "category": "お金の心理学",
+    "kind": "素朴な疑問",
+    "themeColor": "#65A30D",
+    "sourceLabel": "DeSteno D et al., \"Gratitude: A Tool for Reducing Economic Impatience\" (Psychological Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/0956797614529979",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "「今すぐほしい」を、気持ちで抑えられる？",
+        "body": "目の前の小さなお金か、あとでもらえる大きなお金か。待てるかどうかに、そのときの気持ちが関わるのか調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "感謝の気持ちと、待てるかを比べた",
+        "body": "感謝を感じてもらった場合と、ただ楽しい気分の場合などで、実際のお金がかかった「待つか、今もらうか」の選択を比べたんだ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "感謝を感じた人は、待つ選択をしやすかった",
+        "body": "感謝は、実際のお金がかかっていても「待てなさ」を減らしていた。しかも、ただの楽しい気分とは別の働きだったと報告されているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "要旨に書かれていない点が多い",
+        "body": "要旨には人数や国、効果の大きさが書かれていない。実験で作った短い感謝の気持ちの話で、日々の買い物や貯金まで変わるかはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、感謝の効果はどう報告された？",
+      "correct": "ただの楽しい気分とは区別できる形で、待つ選択が増えた",
+      "wrong": "感謝でも楽しい気分でも、同じくらい待つ選択が増えた"
+    },
+    "webUrl": "https://seadice.win/evidence/money/#money-gratitude-impatience-desteno"
+  },
+  {
+    "id": "money-future-self-vr-discounting",
+    "category": "お金の心理学",
+    "kind": "研究紹介",
+    "themeColor": "#65A30D",
+    "sourceLabel": "Hershfield HE et al., \"Increasing Saving Behavior Through Age-Progressed Renderings of the Future Self\" (Journal of Marketing Research, 2011)",
+    "sourceUrl": "https://doi.org/10.1509/jmkr.48.SPL.S23",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "年をとった自分と会うと、お金の選び方が変わる？",
+        "body": "老後の自分をリアルに見たら、「あとのお金」を選びやすくなるのかな。バーチャルリアリティ（VR）で試した研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "VRで、年齢を進めた自分の姿と向き合う",
+        "body": "4つの実験で、参加者は自分の顔を加工した「未来の自分」とVR機器で対面した。そのあと、すぐのお金とあとのお金の選択をしたよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "未来の自分と会った人は、あとのお金を選びやすかった",
+        "body": "4つの実験すべてで、未来の自分と対面した人は、すぐ受け取るより、あとで受け取る金額を選ぶ傾向が強まったと報告されているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "選んだのは「お金の受け取り方」",
+        "body": "測ったのはお金の受け取りの選択で、実際に貯金が増えたかは要旨に書かれていない。参加者の人数や国も要旨では確かめられなかったよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で測ったのは何だった？",
+      "correct": "すぐのお金とあとのお金、どちらを選ぶか",
+      "wrong": "実験の後の数か月間で、実際に貯金した金額"
+    },
+    "webUrl": "https://seadice.win/evidence/money/#money-future-self-vr-discounting"
+  },
+  {
+    "id": "mindfulness-sunk-cost-hafenbrack",
+    "category": "マインドフルネス",
+    "kind": "研究紹介",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Hafenbrack AC, Kinias Z & Barsade SG, \"Debiasing the Mind Through Meditation: Mindfulness and the Sunk-Cost Bias\" (Psychological Science, 2014)",
+    "sourceUrl": "https://doi.org/10.1177/0956797613503853",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "瞑想すると、「もったいない」に引きずられにくくなる？",
+        "body": "払った分がもったいなくて、やめどきを逃すことがあるよね（サンクコスト）。瞑想がそれに関わるのか調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "調査1つと実験3つ",
+        "body": "性格としてのマインドフルネスの高さと、サンクコストの影響の関係（調査）。さらに瞑想をしてもらう実験で、判断の違いを比べたよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "マインドフルネスが高いほど、過去の出費に引きずられにくい",
+        "body": "調査でも実験でも、その関係が見られた。実験では、過去や未来に向きがちな意識と、嫌な気分が減ったことが関わっていたと報告されているよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "実験室の課題の話",
+        "body": "瞑想はその場で導入したもので、実験室の課題だよ。実際のお金や仕事の場面で確かめたかは、要旨にはないよ。人数や効果の大きさも要旨で確かめられなかったよ。"
+      }
+    ],
+    "quiz": {
+      "q": "実験で、効果に関わっていたと報告されたものは？",
+      "correct": "過去や未来に向く意識と、嫌な気分の減少",
+      "wrong": "判断にかける時間が長くなったこと"
+    },
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-sunk-cost-hafenbrack"
+  },
+  {
+    "id": "mindfulness-gre-working-memory-mrazek",
+    "category": "マインドフルネス",
+    "kind": "研究紹介",
+    "themeColor": "#2DD4BF",
+    "sourceLabel": "Mrazek MD et al., \"Mindfulness Training Improves Working Memory Capacity and GRE Performance While Reducing Mind Wandering\" (Psychological Science, 2013)",
+    "sourceUrl": "https://doi.org/10.1177/0956797612459659",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "2週間のマインドフルネスで、勉強の集中は変わる？",
+        "body": "試験中についほかのことを考えてしまうこと、あるよね。短いマインドフルネスの練習が、それに関わるのか調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "2週間のコースを、くじ引き形式で比べた",
+        "body": "2週間のマインドフルネスのコースが、気がそれることや成績を変えるかを、ランダム化比較試験で調べた。成績は大学院入試GREの読解と作業記憶だよ。"
+      },
+      {
+        "stage": "結果",
+        "title": "読解の点と作業記憶が上がり、気のそれが減った",
+        "body": "くじ引きで分けた対照の組にくらべて、コースを受けた組はGREの読解の点と作業記憶が上がり、気がそれることが減った。気がそれやすい人では、その減り方が向上を説明していたよ。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "いつまで続くか、日常でも起きるか",
+        "body": "要旨には、人数や、効果がどのくらい続くかが書かれていない。入試の問題で測った結果なので、ふだんの勉強や仕事での集中まで同じとは限らないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、成績の向上を説明していたとされたのは？",
+      "correct": "気がそれることが減ったこと",
+      "wrong": "試験前の緊張がほぐれたこと"
+    },
+    "webUrl": "https://seadice.win/evidence/mindfulness/#mindfulness-gre-working-memory-mrazek"
+  },
+  {
+    "id": "circadian-field-light-timing-sleep-architecture",
+    "category": "光と体内時計",
+    "kind": "研究紹介",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Wams EJ et al., \"Linking Light Exposure and Subsequent Sleep: A Field Polysomnography Study in Humans\" (Sleep, 2017)",
+    "sourceUrl": "https://doi.org/10.1093/sleep/zsx165",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "気になること",
+        "title": "浴びた光の時間は、その夜の眠りと関係する？",
+        "body": "光は体内時計に効くと言われるよね。じゃあ、日中にいつ・どのくらい光を浴びたかは、そのあとの眠りの中身にも関わるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "20人が、いつもの生活で光と眠りを測った",
+        "body": "健康な20人が、ふだんの暮らしのまま、手首の装置で光の量を記録し、寝ているあいだは脳波などを測る睡眠ポリグラフを着けた。体内時計の位置も別に調べた。"
+      },
+      {
+        "stage": "結果",
+        "title": "光を浴びる時間が遅い人は、時計も睡眠も遅めだった",
+        "body": "光が弱め・遅めの人ほど体内時計の位置が遅く、体内時計が遅い人ほど寝る時刻も遅かった。10ルクス超の光を最初に浴びた時刻が遅い人は、夜に目が覚める回数が多かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "20人の観察。光が原因かは確かめていない",
+        "body": "光の量を変えて試した実験ではなく、20人の関係を見ただけ。著者も、光が眠りを変えるかは介入する研究で確かめる必要があると書いているよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、10ルクス超の光を最初に浴びた時刻が遅い人は、その後の睡眠で何が多かった？",
+      "correct": "夜中に目が覚める回数",
+      "wrong": "深い眠り（徐波睡眠）の量"
+    },
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-field-light-timing-sleep-architecture"
+  },
+  {
+    "id": "circadian-led-backlit-screen-evening-melatonin-attention",
+    "category": "光と体内時計",
+    "kind": "研究紹介",
+    "themeColor": "#0891B2",
+    "sourceLabel": "Cajochen C et al., \"Evening exposure to a light-emitting diodes (LED)-backlit computer screen affects circadian physiology and cognitive performance\" (Journal of Applied Physiology, 2011)",
+    "sourceUrl": "https://doi.org/10.1152/japplphysiol.00165.2011",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "気になること",
+        "title": "夜のパソコン画面の種類で、体は変わる？",
+        "body": "夜に画面を見ると眠くなりにくい、とよく聞くよね。同じ白い画面でも、青い光が多いタイプと少ないタイプで違いが出るのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "13人の若い男性が、2種類の画面を5時間見た",
+        "body": "若い男性13人が、夜に5時間、青い光(464nm付近)が2倍以上多いLEDバックライトの画面と、そうでない画面を順番に見た。メラトニンや眠気、課題の成績を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "LEDの画面では、メラトニンの上昇が抑えられ、眠気も弱かった",
+        "body": "LEDの画面のとき、夜に上がるメラトニンが抑えられ、眠気は主観でも目の動きや脳波でも弱かった。注意力や記憶の課題の成績も、LEDのほうが良かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "13人の男性、5時間の実験室の話",
+        "body": "対象は若い男性13人で、5時間の実験室での結果。女性や他の年齢、短い時間の使い方、寝つきや睡眠の質までは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "LEDバックライトの画面を見た夜、注意力や記憶の課題の成績は、そうでない画面と比べてどうだった？",
+      "correct": "LEDのほうが良かった",
+      "wrong": "LEDのほうが悪かった"
+    },
+    "webUrl": "https://seadice.win/evidence/light-circadian/#circadian-led-backlit-screen-evening-melatonin-attention"
+  },
+  {
+    "id": "bias-sunk-cost-thoughts-feelings-lifespan",
+    "category": "意思決定バイアス",
+    "kind": "研究紹介",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Strough J et al., \"What were they thinking? Reducing sunk-cost bias in a life-span sample\" (Psychology and Aging, 2016)",
+    "sourceUrl": "https://doi.org/10.1037/pag0000130",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "うまくいかない計画を、なぜやめにくいの？",
+        "body": "もう半分まで進めたし、ここでやめたらもったいない。そう思って失敗しそうな計画を続けちゃうこと、あるよね。これを「サンクコストの罠」と呼ぶよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "年齢の幅が広い米国の人たちを3組に分けた",
+        "body": "米国の全国パネルの人に、半分まで進んだ失敗しそうな計画の話を見せた。くじ引きで、立て直しを考える組・考えや気持ちを振り返る組・何もしない組に分けた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "考えや気持ちを振り返る組は、計画を続けたがりにくかった",
+        "body": "考えや気持ちを振り返った組は、ほかの2組より計画を続けにくかった。年齢が高い人ほど、全体として、失敗しそうな計画をやめる気持ちが強かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "作り話の場面での選択で、実際の行動ではない",
+        "body": "見せたのは仮の場面で、本物のお金や仕事の判断ではない。年齢の違いも、年齢と関係が見られたというだけで、理由まではわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "失敗しそうな計画を続けたがる気持ちが弱まったのは、どの組？",
+      "correct": "考えや気持ちを振り返った組",
+      "wrong": "立て直し方を考えた組"
+    },
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-sunk-cost-thoughts-feelings-lifespan"
+  },
+  {
+    "id": "bias-hindsight-review-roese-vohs",
+    "category": "意思決定バイアス",
+    "kind": "研究紹介",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Roese NJ & Vohs KD, \"Hindsight Bias\" (Perspectives on Psychological Science, 2012)",
+    "sourceUrl": "https://doi.org/10.1177/1745691612454303",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "「やっぱりね、そうなると思ってた」",
+        "body": "結果を知ってから、「最初からわかってた」と感じること、あるよね。ほんとうに前からわかっていたのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "後知恵バイアスの研究をまとめたレビュー",
+        "body": "ロイスとヴォスが、「結果を知ると、その出来事は前から予想しやすかったと感じる」後知恵バイアスの研究を整理した文献のレビューだよ。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "思い出し方・わかりやすさの錯覚・「そう思いたい」気持ちが重なる",
+        "body": "結果に合う記憶を思い出しやすいこと、理解しやすさを前からの可能性と取り違えること、世の中を予測できると思いたい気持ちが関わるとされる。別の原因も考えると弱まるらしい。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "どのくらい効くかはわからない",
+        "body": "要旨には効果の大きさは出ていない。別の原因を考える方法が弱める、というのも要旨の紹介の範囲で、どの程度効くかはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "レビューが、後知恵バイアスを弱められるとしている方法は？",
+      "correct": "ほかの原因の説明も考えてもらう",
+      "wrong": "結果をくわしく説明して納得してもらう"
+    },
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-hindsight-review-roese-vohs"
+  },
+  {
+    "id": "bias-selective-exposure-meta-congeniality",
+    "category": "意思決定バイアス",
+    "kind": "研究紹介",
+    "themeColor": "#DC2626",
+    "sourceLabel": "Hart W, Albarracín D, Eagly AH, Brechan I, Lindberg MJ, Merrill L, \"Feeling validated versus being correct: a meta-analysis of selective exposure to information\" (Psychological Bulletin, 2009)",
+    "sourceUrl": "https://doi.org/10.1037/a0015701",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "人は、自分の考えに合う情報ばかり見る？",
+        "body": "ネットで調べるとき、自分と同じ意見の記事ばかり読んじゃう気がするよね。実際はどのくらいそうなのかな。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "自分と合う情報・合わない情報を選ぶ研究をまとめた",
+        "body": "ハートらが、自分の態度や考えを支える情報と、揺さぶる情報のどちらを選ぶかを調べた研究を集めて、メタ分析（数字でまとめる方法）をした。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "合う情報を選ぶ傾向は、小〜中くらいだった",
+        "body": "合う情報を選ぶ傾向は d=0.36。0.2で小さい・0.5で中くらいなので、その間くらい。考えが確信できるときや、合わない情報が目標に役立つときは、弱まったり逆になった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "平均の傾向で、人や場面でかなり違う",
+        "body": "d=0.36は平均の話で、場面や人で変わる。合わない情報を選ぶ場合が出たのも条件つき。今のネット環境で同じかどうかは、この要旨からはわからないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "このメタ分析で、合わない情報を選ぶ傾向が出たのはどんなとき？",
+      "correct": "目標の達成に役立つ情報のとき",
+      "wrong": "情報が見慣れない新しいもののとき"
+    },
+    "webUrl": "https://seadice.win/evidence/decision-bias/#bias-selective-exposure-meta-congeniality"
+  },
+  {
+    "id": "aging-step-count-vs-intensity-nhanes",
+    "category": "運動と老化",
+    "kind": "素朴な疑問",
+    "themeColor": "#B45309",
+    "sourceLabel": "Saint-Maurice et al., \"Association of Daily Step Count and Step Intensity With Mortality Among US Adults\" (JAMA, 2020)",
+    "sourceUrl": "https://doi.org/10.1001/jama.2020.1382",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "歩数より、速く歩くことのほうが大事？",
+        "body": "「たくさん歩く」と「早足で歩く」、どっちが大事かって気になるよね。アメリカの大人の調査で両方を調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40歳以上の4840人に、加速度計をつけてもらった",
+        "body": "平均年齢56.8歳。最大7日間つけて歩数と歩く速さ（1分あたりの歩数）を測り、平均10.1年後までの死亡を追った。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "歩数が多い人ほど、亡くなる割合が低めだった",
+        "body": "4000歩の人と比べて、8000歩の人はハザード比0.49（約5割低い）、12000歩は0.35。歩数をそろえると、速さの差ははっきりしなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "歩く量が原因とは言えない",
+        "body": "追跡しただけの観察研究だから、歩いたから低い、とは言えない。年齢や持病などは調整してあるけど、対象はアメリカの40歳以上だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "歩数をそろえたあと、速く歩く人と死亡の関係はどうだった？",
+      "correct": "はっきりした関係は見られなかった",
+      "wrong": "速い人は約1割低く、差があった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-step-count-vs-intensity-nhanes"
+  },
+  {
+    "id": "aging-leisure-activity-life-expectancy-pooled",
+    "category": "運動と老化",
+    "kind": "研究紹介",
+    "themeColor": "#B45309",
+    "sourceLabel": "Moore et al., \"Leisure Time Physical Activity of Moderate to Vigorous Intensity and Mortality: A Large Pooled Cohort Analysis\" (PLoS Medicine, 2012)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pmed.1001335",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "少し動くだけでも、寿命と関係があるのかな",
+        "body": "運動は「ちゃんとやらないと意味がない」と思いがちだよね。65万人のデータで、運動量と寿命の関係を見た研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "6つの調査をまとめた65万4827人",
+        "body": "21〜90歳の人たちを中央値で10年追い、82465人が亡くなった。運動の量は自己申告で、40歳からの平均余命を比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ごく少ない運動でも、余命は長めだった",
+        "body": "運動ゼロの人に比べ、早歩きで週75分までの人は余命が1.8年長く、いちばん多い層（早歩き週450分以上）は4.5年長かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "運動が原因とは言いきれない",
+        "body": "観察研究で、運動量は自己申告。原因とは言いきれないよ。長生きの年数も、人たちをまとめた平均での差だね。"
+      }
+    ],
+    "quiz": {
+      "q": "運動ゼロの人と比べた、早歩きで週75分までの人の余命は？",
+      "correct": "1.8年長かった",
+      "wrong": "4.5年長かった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-leisure-activity-life-expectancy-pooled"
+  },
+  {
+    "id": "aging-accelerometer-light-activity-mortality-meta",
+    "category": "運動と老化",
+    "kind": "研究紹介",
+    "themeColor": "#B45309",
+    "sourceLabel": "Ekelund et al., \"Dose-response associations between accelerometry measured physical activity and sedentary time and all cause mortality: systematic review and harmonised meta-analysis\" (BMJ, 2019)",
+    "sourceUrl": "https://doi.org/10.1136/bmj.l4570",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "きつい運動じゃなくても、動いていればいい？",
+        "body": "ジムに行く時間がなくて、家事や散歩ばかりの日もあるよね。軽い動きでも意味があるのか、まとめた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "8つの研究の3万6383人",
+        "body": "平均62.6歳、72.8%が女性。加速度計で動いた量を測り、中央値5.8年追って2149人（5.9%）の死亡と比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "軽い動きが多い人ほど、亡くなる割合が低めだった",
+        "body": "軽い活動が最も少ない4分の1の人を1とすると、最も多い4分の1は0.38（約6割低い）。座っている時間は、最も短い4分の1にくらべ最も長い4分の1で2.63（約2.6倍）だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "動いたから低いのかは、わからない",
+        "body": "観察研究をまとめたもので、動いたから低いとは言えない。中央値5.8年の追跡で、平均62.6歳の人たちの話だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "軽い活動が最も多い4分の1の人は、最も少ない人に比べてどうだった？",
+      "correct": "約6割低め（0.38）だった",
+      "wrong": "約3割低め（0.7）だった"
+    },
+    "webUrl": "https://seadice.win/evidence/exercise-aging/#aging-accelerometer-light-activity-mortality-meta"
+  },
+  {
+    "id": "scent-jahai-odor-naming-language",
+    "category": "香りと記憶",
+    "kind": "素朴な疑問",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Majid & Burenhult, \"Odors are expressible in language, as long as you speak the right language\" (Cognition, 2014)",
+    "sourceUrl": "https://doi.org/10.1016/j.cognition.2013.11.004",
+    "studyType": "実験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "匂いは、言葉にしにくいものなの？",
+        "body": "「なんか良い匂い」としか言えないこと、あるよね。匂いを言葉にするのは、人間みんなが苦手なのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "マレー半島のジャハイ語話者と、英語話者",
+        "body": "ジャハイは匂いが暮らしで大きな役割をもつ文化。色と匂いを自由に名づけてもらい、マッチさせた英語話者と比べた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ジャハイの人は、匂いも色と同じくらい名づけやすかった",
+        "body": "3つの指標で、ジャハイ語話者は匂いの名づけが色と同じくらいやさしかった。英語話者は匂いだと名づけに苦戦した。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "言葉の差か、暮らしの差かは別",
+        "body": "言語も文化も違う2グループの比較。どの違いが効いたかは分からない。ほかの文化で同じかも、要旨からは分からないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、匂いの名づけがむずかしかったのはどちら？",
+      "correct": "英語話者",
+      "wrong": "ジャハイ語話者"
+    },
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-jahai-odor-naming-language"
+  },
+  {
+    "id": "scent-smell-loss-5year-mortality-older",
+    "category": "香りと記憶",
+    "kind": "研究紹介",
+    "themeColor": "#F472B6",
+    "sourceLabel": "Pinto et al., \"Olfactory Dysfunction Predicts 5-Year Mortality in Older Adults\" (PLoS ONE, 2014)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0107541",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "匂いの感じ方と、その後の5年間には関係がある？",
+        "body": "年をとると匂いがわかりにくくなる人は多いよね。そのことが、体全体の調子の「目印」になるのかを調べた研究があるよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "アメリカの57〜85歳、3005人",
+        "body": "匂いのテストを受けた人たちを、5年後に生きているかで追った。匂いはテストで測り、感じない・鈍いで分けた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "匂いをまったく感じない人は、5年後の死亡が多めだった",
+        "body": "匂いを感じる人に比べ、死亡の割合は感じない人で約4倍、鈍い人は中間。条件をそろえた分析でオッズ比3.37（約3.4倍）だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "匂いの低下が原因ではなく、目印かもしれない",
+        "body": "観察研究で、栄養・認知・心の健康・喫煙・飲酒・フレイルでは説明できなかった。なぜかは著者も仮説で、匂いを戻せば変わるかも分からないよ。"
+      }
+    ],
+    "quiz": {
+      "q": "条件をそろえた分析で、匂いを感じない高齢者の5年後死亡のオッズは、感じる人の何倍？",
+      "correct": "約3.4倍",
+      "wrong": "約1.5倍"
+    },
+    "webUrl": "https://seadice.win/evidence/scent-memory/#scent-smell-loss-5year-mortality-older"
+  },
+  {
+    "id": "breath-mouth-taping-sleep-review",
+    "category": "呼吸とストレス",
+    "kind": "よくある説",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Rhee et al., \"Breaking social media fads and uncovering the safety and efficacy of mouth taping in patients with mouth breathing, sleep disordered breathing, or obstructive sleep apnea: A systematic review\" (PLOS One, 2025)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0323643",
+    "studyType": "レビュー",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝るとき口にテープを貼ると、鼻呼吸になっていい？",
+        "body": "SNSで広まった「口テープ」。夜に口をふさげば鼻で呼吸できて、いびきや睡眠の質によさそう、という話だよね。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "10本の研究、合計213人を整理",
+        "body": "MEDLINEなどで1999〜2024年2月の論文を探し、条件に合う10本（計213人）を整理した。対象は口呼吸・睡眠時の呼吸の問題・睡眠時無呼吸の人たち。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "よくなった研究は2本。害の可能性にも触れている",
+        "body": "睡眠時無呼吸の指標（AHIなど）が有意によくなったのは2本だけ。ほかは差なしで、鼻づまりがあると窒息の危険があるとも書かれていた。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "健康な人での話ではない。研究も少ない",
+        "body": "対象は口呼吸などの問題がある人で、多くの研究は鼻づまりのある人を除いていた。10本・213人と少なく、著者も「さらに研究が必要」としている。"
+      }
+    ],
+    "quiz": {
+      "q": "レビューで、口テープで睡眠時無呼吸の指標が有意によくなったのは？",
+      "correct": "10本のうち2本",
+      "wrong": "10本のうち半分以上"
+    },
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breath-mouth-taping-sleep-review"
+  },
+  {
+    "id": "breath-box-breathing-post-hiit-recovery",
+    "category": "呼吸とストレス",
+    "kind": "素朴な疑問",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Kasap et al., \"Box breathing or six breaths per minute: Which strategy improves athletes post-HIIT cardiovascular recovery?\" (PLOS One, 2025)",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0336615",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "ボックス呼吸は、運動後の回復を早める？",
+        "body": "4秒吸って4秒止めて4秒吐いて4秒止める「ボックス呼吸」。落ち着く呼吸の代表格だけど、激しい運動のあとにも向くのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "40人が3回のきつい運動のあとに別々の呼吸をした",
+        "body": "運動習慣のある大学生40人（平均約21歳）が、自転車の高強度インターバル運動を3回。回復中にふつうの呼吸、ボックス呼吸、毎分6回の呼吸を順番に試した。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "ボックス呼吸は、運動後の心拍が高めでつらく感じた",
+        "body": "心拍はボックス呼吸が約165拍/分、毎分6回が約155拍/分で、差の大きさは0.9（0.8で大きい）。きつさの自己評価もボックス呼吸が高かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "若い大学生の運動直後の話。回復時間は差なし",
+        "body": "回復にかかる時間には有意な差がなかった。対象は若い大学生で、ふだんの緊張を和らげる場面でボックス呼吸が合うかは、この研究ではわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、ボックス呼吸の運動後の様子は？",
+      "correct": "毎分6回の呼吸より心拍が高く、きつく感じた",
+      "wrong": "ふつうの呼吸より回復時間が有意に短かった"
+    },
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breath-box-breathing-post-hiit-recovery"
+  },
+  {
+    "id": "breath-alternate-nostril-public-speaking-anxiety",
+    "category": "呼吸とストレス",
+    "kind": "研究紹介",
+    "themeColor": "#38BDF8",
+    "sourceLabel": "Kamath et al., \"Effect of Alternate Nostril Breathing Exercise on Experimentally Induced Anxiety in Healthy Volunteers Using the Simulated Public Speaking Model: A Randomized Controlled Pilot Study\" (BioMed Research International, 2017)",
+    "sourceUrl": "https://doi.org/10.1155/2017/2450670",
+    "studyType": "ランダム化比較試験",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "片鼻呼吸で、人前で話す前の緊張は下がる？",
+        "body": "片方の鼻を指でふさいで、左右交互に息をする「片鼻呼吸」。スピーチ前の不安にも使えそう、と言われるけど、試した研究はどうだったかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "医学生30人。15分の練習か静かに座るか",
+        "body": "ヨガ未経験の健康な若い医学生30人を半分に分け、片方は片鼻呼吸を15分、もう片方は静かな部屋で座った。そのあと人前で話す模擬テストを受けた。"
+      },
+      {
+        "stage": "わかったこと",
+        "title": "グループ間の差は、はっきりしなかった",
+        "body": "気分のテストの得点は、どちらのグループも話す段階で変わった。でもグループ間の差は有意ではなく、片鼻呼吸のほうが不安が低めという傾向が見えた程度。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "30人のパイロット研究。大きな研究が必要",
+        "body": "人数が少ない予備的な研究で、差ははっきりしなかった。著者も「効果の可能性がある」としつつ、もっと大きな研究が必要としている。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、片鼻呼吸のグループは？",
+      "correct": "低めの傾向だけで、有意ではなかった",
+      "wrong": "不安が有意に低く、効果がはっきりした"
+    },
+    "webUrl": "https://seadice.win/evidence/breathing-stress/#breath-alternate-nostril-public-speaking-anxiety"
+  },
+  {
+    "id": "posture-lumbar-lordosis-low-back-pain-meta",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Chun et al., \"The relationships between low back pain and lumbar lordosis: a systematic review and meta-analysis\" (The Spine Journal, 2017)",
+    "sourceUrl": "https://doi.org/10.1016/j.spinee.2017.04.034",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "腰の反りが強いと、腰が痛くなる？",
+        "body": "「反り腰」は腰痛のもと、とよく言われるよね。逆に、反りが減ることが関係するという見方もあって、専門家の間でも意見が分かれていた。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "13本の研究、腰痛の796人と健康な927人",
+        "body": "腰のカーブの角度をX線などの画像で測った13本の研究を、まとめて比べた。子どもだけの研究や、変性以外の脊椎の病気の研究は除いている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "腰痛の人は、反りの角度が小さめの傾向",
+        "body": "腰痛の人は健康な人より角度が小さめだったけど、研究ごとのばらつきも大きい。年齢をそろえた6本では差は0.33（0.2で小さい、0.5で中くらい）だった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "相関で、原因かはわからない",
+        "body": "観察研究のまとめで、角度の違いが痛みの原因か結果かは、この要旨からはわからないよ。年齢や病気の種類で結果が変わり、研究の間でばらついていた。"
+      }
+    ],
+    "quiz": {
+      "q": "この分析で、腰痛の人の腰の反りの角度は？",
+      "correct": "健康な人より小さめの傾向があった",
+      "wrong": "健康な人より大きい傾向があった"
+    },
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-lumbar-lordosis-low-back-pain-meta"
+  },
+  {
+    "id": "posture-forward-head-neck-pain-meta",
+    "category": "姿勢と痛み",
+    "kind": "よくある説",
+    "themeColor": "#64748B",
+    "sourceLabel": "Mahmoud et al., \"The Relationship Between Forward Head Posture and Neck Pain: a Systematic Review and Meta-Analysis\" (Current Reviews in Musculoskeletal Medicine, 2019)",
+    "sourceUrl": "https://doi.org/10.1007/s12178-019-09594-y",
+    "studyType": "メタ分析",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "頭が前に出る姿勢だと、首が痛くなる？",
+        "body": "スマホやパソコンで頭が前に出がち。それが首の痛みの原因と言われるけど、関係は意見が分かれていたらしい。"
+      },
+      {
+        "stage": "調べた人",
+        "title": "15本の横断研究をまとめた",
+        "body": "頭の位置が前に出ているかを、痛みのない人と首が痛い人で比べた研究など、15本をまとめた。ある時点での比較で、追いかけた研究ではない。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "大人では関係あり、思春期では見られなかった",
+        "body": "大人・高齢者では、頭が前に出ているほど痛みが強い向きの関係があった（相関0.55、生活への支障は0.42。0.3で中くらい、0.5で大きめ）。思春期は、ほとんどの項目で関係なしだった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "原因かどうかは、この研究ではわからない",
+        "body": "同じ時点で比べた研究のまとめなので、頭の位置が痛みを生むのか、痛いから姿勢が変わるのかは区別できない。年齢が結果を大きく左右していた。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、頭の位置と首の痛みの関係は？",
+      "correct": "大人では関係あり、思春期はほぼなし",
+      "wrong": "大人でも思春期でも、ほぼ関係なし"
+    },
+    "links": [
+      {
+        "id": "posture-straight-neck-neck-pain",
+        "type": "あわせて読む",
+        "why": "首のカーブと、頭の前への出方。近い問いを別の測り方で"
+      }
+    ],
+    "webUrl": "https://seadice.win/evidence/posture-pain/#posture-forward-head-neck-pain-meta"
+  },
+  {
+    "id": "game-goldilocks-screen-time-moderate",
+    "category": "ゲームとネット",
+    "kind": "素朴な疑問",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Przybylski & Weinstein, \"A Large-Scale Test of the Goldilocks Hypothesis\" (Psychological Science, 2017)",
+    "sourceUrl": "https://doi.org/10.1177/0956797616678438",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "画面を見る時間は、ゼロがいちばんいいの？",
+        "body": "スマホやゲームは、少なければ少ないほど心にいいって思いがちだよね。ほんとにゼロがベストなのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "イギリスの10代12万115人",
+        "body": "プシビルスキらは、イギリスの10代の代表的な標本12万115人のデータを、事前に分析計画を登録したうえで調べた。画面を見る時間と、心の健康の関係の形を見ている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "直線ではなく曲線の関係が見られた",
+        "body": "時間と心の健康の関係は、まっすぐな線でなく二次関数（曲線）で表せた。要旨は、ほどほどの利用はそれ自体害ではなく、むしろ役に立つこともあると述べている。平日と週末でも関係の形は違った。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "時間の長さが原因とは言えない",
+        "body": "調査データで関係を見ただけ。使う時間が心に影響したのかは、この要旨からはわからない。対象はイギリスの10代だよ。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、画面時間と心の健康の関係はどう表せた？",
+      "correct": "曲線で、ほどほどなら害とは言えなかった",
+      "wrong": "直線で、時間が増えるほど悪くなった"
+    },
+    "webUrl": "https://seadice.win/evidence/games/#game-goldilocks-screen-time-moderate"
+  },
+  {
+    "id": "net-teen-screens-three-diary-studies",
+    "category": "ゲームとネット",
+    "kind": "よくある説",
+    "themeColor": "#6366F1",
+    "sourceLabel": "Orben & Przybylski, \"Screens, Teens, and Psychological Well-Being: Evidence From Three Time-Use-Diary Studies\" (Psychological Science, 2019)",
+    "sourceUrl": "https://doi.org/10.1177/0956797619830329",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "寝る前の画面は、10代の心によくない？",
+        "body": "「画面を見る時間が長いと、心の調子が悪くなる」「寝る前はとくに」ってよく聞くよね。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3か国の1万7247人、1日の行動記録つき",
+        "body": "オーベンとプシビルスキは、アイルランド・アメリカ・イギリスの全国規模のデータ3つ（除外後1万7247人）を使った。画面の時間は、1日の行動を記録する時間日誌で測っている。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "大きな関連はほとんど見られなかった",
+        "body": "1日のどの時間でも、とくに寝る前でも、画面の利用と10代の心の健康との間に、はっきり大きなマイナスの関連はほとんど見つからなかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "関連が小さい＝影響がゼロ、とは限らない",
+        "body": "調査データでの関連を見ただけで、原因は特定できない。心の健康の測り方や、使い方の中身（何を見たか）は、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究の結論に近いのは？",
+      "correct": "寝る前も含め、大きなマイナスの関連はほぼなかった",
+      "wrong": "寝る前の画面は、日中より心との関連が大きかった"
+    },
+    "webUrl": "https://seadice.win/evidence/games/#net-teen-screens-three-diary-studies"
+  },
+  {
+    "id": "kosodate-word-gap-30-million-recheck",
+    "category": "子育ての科学",
+    "kind": "よくある説",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Sperry, Sperry & Miller, \"Reexamining the Verbal Environments of Children From Different Socioeconomic Backgrounds\" (Child Development, 2019)",
+    "sourceUrl": "https://doi.org/10.1111/cdev.13072",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "よく聞く説",
+        "title": "貧しい家の子は、3000万語少なく聞く？",
+        "body": "「3000万語の格差」って聞いたことあるかな。1995年のハートとリズリーが、低所得の家の子は幼いころ、中流の家の子より3000万語少なく聞くと主張した説だよ。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "5つの地域・42人の子の家庭を観察",
+        "body": "スペリーらは、アメリカの5つの地域で、18〜48か月の子42人の家庭での日常のやりとりを、現地でのフィールドワークとあわせて追跡して調べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "3000万語の差は裏づけられなかった",
+        "body": "この調査の結果は、ハートとリズリーの主張を支持しなかった。同じ階層の中でも、子が聞く言葉の量にはかなりのばらつきがあった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "42人と少なく、全体を代表はしない",
+        "body": "対象は5地域の42人だけ。要旨は、親だけでなく他の家族や周りの人の話を数えないと、低所得の子の言葉の量を低く見積もりやすいと述べている。言葉の量と、その後の育ちの関係はこの要旨では調べていない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究は、「3000万語の格差」の主張をどう評価した？",
+      "correct": "裏づけられず、同じ階層内のばらつきも大きかった",
+      "wrong": "主張どおりの差があり、階層内のばらつきは小さかった"
+    },
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-word-gap-30-million-recheck"
+  },
+  {
+    "id": "kosodate-caregiver-phone-meals-observed",
+    "category": "子育ての科学",
+    "kind": "研究紹介",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Radesky et al., \"Patterns of Mobile Device Use by Caregivers and Children During Meals in Fast Food Restaurants\" (Pediatrics, 2014)",
+    "sourceUrl": "https://doi.org/10.1542/peds.2013-3703",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "研究紹介",
+        "title": "外食のとき、大人はスマホをどう使っている？",
+        "body": "子どもと食事に来ているのに、つい画面を見ちゃう。実際、どんな使い方が見られるんだろう。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "ファストフード店で55組を観察",
+        "body": "ラデスキーらは、ある都市圏のファストフード店で、小さな子と食事する大人55人を、研究者が観察して記録した。そのうち40人が食事中に機器を使っていた。"
+      },
+      {
+        "stage": "結果",
+        "title": "使い方は「どれだけ夢中か」でちがった",
+        "body": "画面に夢中になる度合いに幅があった。ほとんど画面に集中する大人もいて、子は自分で遊んだり、気を引こうとしたりした。夢中の度合いが高い大人は、子の困った行動に厳しく返すことが多かった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "仮説づくりのための観察",
+        "body": "1つの都市圏の55人を観察して整理した質的研究で、数字で比べたものではない。子どもへの影響も調べていない。著者も、次の研究のための仮説づくりが目的だと書いている。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究でわかったことは？",
+      "correct": "画面に夢中な大人ほど、子の困った行動に厳しく返しがち",
+      "wrong": "画面を使う大人は、使わない大人より子との会話が多かった"
+    },
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-caregiver-phone-meals-observed"
+  },
+  {
+    "id": "kosodate-mother-time-amount-matters",
+    "category": "子育ての科学",
+    "kind": "素朴な疑問",
+    "themeColor": "#FCA5A5",
+    "sourceLabel": "Milkie, Nomaguchi & Denny, \"Does the Amount of Time Mothers Spend With Children or Adolescents Matter?\" (Journal of Marriage and Family, 2015)",
+    "sourceUrl": "https://doi.org/10.1111/jomf.12170",
+    "studyType": "観察研究",
+    "cards": [
+      {
+        "stage": "素朴な疑問",
+        "title": "お母さんが一緒にいる時間が長いほど、子はよく育つ？",
+        "body": "一緒にいられる時間が短いと、子どもに悪いのでは、と気にする人は多いよね。時間の長さは本当に関係あるのかな。"
+      },
+      {
+        "stage": "調べたこと",
+        "title": "3〜11歳1605人、12〜18歳778人",
+        "body": "ミルキーらは、PSIDという家計調査の子ども版のデータで、母親が子と過ごした時間の長さ（関わる時間と、そばにいる時間）と、子の行動・気持ち・学業との関係を調べた。"
+      },
+      {
+        "stage": "ほんとのところ",
+        "title": "時間の長さは、ほとんど関係なかった",
+        "body": "3〜11歳でも12〜18歳でも、母親の時間の長さは、子の行動・気持ち・学業と関連しなかった。ただ12〜18歳では、母親が関わる時間が長いほど、非行が少なかった。"
+      },
+      {
+        "stage": "まだわからないこと",
+        "title": "「長さ」だけを見た研究",
+        "body": "時間日誌と調査の関係を見ただけで、原因は特定できない。時間の使い方の中身は、この要旨ではわからない。父親や他の養育者の時間は、この要旨からはわからない。"
+      }
+    ],
+    "quiz": {
+      "q": "この研究で、母親が子と過ごす時間の長さは？",
+      "correct": "長さは関連せず、12〜18歳の非行だけ例外",
+      "wrong": "長いほど、学業も気持ちもはっきり良かった"
+    },
+    "webUrl": "https://seadice.win/evidence/parenting/#kosodate-mother-time-amount-matters"
   }
 ]
